@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_318">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Descripción del genio y condiciones que tienen los habitantes de las diferentes
+               provincias de España</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Descripcion del genio y condiciones que tienen los
+                     habitantes de las diferentes Provincias de España</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 67</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_318_1.xml">grabado_m_318_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX550013.html" type="tipo_texto">Descripciones</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-12" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_318_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum">(Núm. 67.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/>DESCRIPCION
+                  <lb/>DEL GENIO Y CONDICIONES QUE TIENEN LOS HABITANTES
+                  <lb/>DE LAS DIFERENTES PROVINCIAS DE ESPAÑA.
+               </head>
+               <head type="subtitulo">DECIMAS.</head>
+
+
+               <lg>
+                  <head type="titulo_estrofa">ESPAÑA.</head>
+                  <l rend="indent">El español es honrado,</l>
+                  <l>Es esforzado y valiente,</l>
+                  <l>Es moderado y prudente,</l>
+                  <l>Buen marino y buen soldado;</l>
+                  <l>Del estrangero estimado,</l>
+                  <l>Es generoso y sufrido,</l>
+                  <l>Ingenioso y atrevido,</l>
+                  <l>Y con tal disposicion,</l>
+                  <l>Por falta de aplicacion</l>
+                  <l>Es un tesoro escondido.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">CASTILLA LA VIEJA.</head>
+                  <l rend="indent">Es el castellano viejo</l>
+                  <l>Hombre de buen corazon, </l>
+                  <l>Y de muy sana intencion</l>
+                  <l>Para dar un buen consejo:</l>
+                  <l>No es hombre de gran despejo</l>
+                  <l>Es algo lerdo y mohino.</l>
+                  <l>Y el fruto mas peregrino</l>
+                  <l>Que su sencillez encierra</l>
+                  <l>Es solo el que dá su tierra:</l>
+                  <l>El. pan pan y el vino vino.</l>
+               </lg>
+
+               <pb n="2"/>
+
+
+               <lg>
+                  <head type="titulo_estrofa">CASTILLA LA NUEVA.</head>
+                  <l rend="indent">Castilla la Nueva es</l>
+                  <l>Pais sano y agradable,</l>
+                  <l>La gente bastante amable,</l>
+                  <l>Mas afecta al interés:</l>
+                  <l>Todos los campos que vés</l>
+                  <l>Cultivados con ardid:</l>
+                  <l>Harán mucho mas que un Cid</l>
+                  <l>Sin probar jamás el pan,</l>
+                  <l>Y un año con otro dan</l>
+                  <l>Cebada para Madrid.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">LA ALCARRIA.</head>
+                  <l rend="indent">El alcarreño sencillo</l>
+                  <l>En su modo de vivir,</l>
+                  <l>No sabe jamás salir</l>
+                  <l>De entre romero y tomillo:</l>
+                  <l>En cualquiera lugarcillo</l>
+                  <l>Se cria gente muy fiel,</l>
+                  <l>Echan los pobres la hiel</l>
+                  <l>Trabajando como brutos;</l>
+                  <l>Y al fin sus colmados frutos,</l>
+                  <l>Es un poquito de miel.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">MANCHA.</head>
+                  <l rend="indent">El que llegue á caminar</l>
+                  <l>Por la Mancha con frecuencia,</l>
+                  <l>Le enseñarán sin falencia</l>
+                  <l>La horca antes que el lugar:</l>
+                  <l>No gustan de trabajar</l>
+                  <l>Es gente de poca espera,</l>
+                  <l>Arman presto una quimera</l>
+                  <l>Y nunca de hambre se mueren,</l>
+                  <l>Pues son dueños cuando quieren</l>
+                  <l>De lo que tiene cualquiera.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">ESTREMADURA.</head>
+                  <l rend="indent">Espíritu desunido</l>
+                  <l>Domina á los estremeños.</l>
+                  <l>Jamás entran en empeños,</l>
+                  <l>Ni quieren tomar partido;</l>
+                  <l>Cada cual en sí metido;</l>
+                  <l>Y contento en su rincon</l>
+                  <l>Huye de toda instruccion;</l>
+                  <l>Y aun que es grande su viveza, </l>
+                  <l>Vienen á ser por pereza</l>
+                  <l>Los indios de la nacion.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">ANDALUCIA.</head>
+                  <l rend="indent">Al andaluz rezador,</l>
+                  <l>Y escesivo en ponderar,</l>
+                  <l>No se le puede negar</l>
+                  <l>Que es hombre de buen humor: </l>
+                  <l>Fiven sin pena y dolor,</l>
+                  <l>Galantean á sus madres,</l>
+                  <l>Jamás le faltan azares,</l>
+                  <l>Y en sus desafios todos</l>
+                  <l>Se dicen dos mil apodos,</l>
+                  <l>Y luego quedan compadres.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">ARAGON.</head>
+                  <l rend="indent">El aragonés osado</l>
+                  <l>Todas las cosas emprende</l>
+                  <l>Con teson y las defiende</l>
+                  <l>Con espíritu arrestado:</l>
+                  <l>Testarudo y porfiado,</l>
+                  <l>A nadie cede su gloria.</l>
+                  <l>Y para formar su historia</l>
+                  <l>Jamás perdona fatiga,</l>
+                  <l>Y aspira siempre á la intriga,</l>
+                  <l>Al dominio y la memoria.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">CATALUÑA.</head>
+                  <l rend="indent">El catalan bullicioso,</l>
+                  <l>Viajero y navegante,</l>
+                  <l>Mercader y fabricante, </l>
+                  <l>Jamás vive con reposo:</l>
+                  <l>En un pais escabroso</l>
+                  <l>A costa de mil afanes,</l>
+                  <l>Marca tierras, hace planes, </l>
+                  <l>Y aunque sea en un establo;</l>
+                  <l>Al fin por arte del diablo</l>
+                  <l>Hace de las piedras panes.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">VALENCIA.</head>
+                  <l rend="indent">Valencia, fuera de chanza,</l>
+
+                  <pb n="3"/>
+
+                  <l>Que infunde á todos, infiero.</l>
+                  <l>Un espíritu ligero</l>
+                  <l>Muy dispuesto á la mudanza:</l>
+                  <l>Llevan muy floja la panza,</l>
+                  <l>Son de corazon muy frio,</l>
+                  <l>Habitan siempre en un rio,</l>
+                  <l>Y asi tienen de este modo</l>
+                  <l>La sustancia para todo</l>
+                  <l>De gente de regadio.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">MURCIA.</head>
+                  <l rend="indent">El murciano trabajando,</l>
+                  <l>Alegre en su barraquilla.</l>
+                  <l>Al son de una guitarrilla</l>
+                  <l>Pasa la vida cantando:</l>
+                  <l>El suele de cuando en cuando</l>
+                  <l>Jugar una morisqueta,</l>
+                  <l>Pero su atencion y cuenta</l>
+                  <l>Es cuidar sus naranjitos,</l>
+                  <l>Criar cuatro gusanitos</l>
+                  <l>Y guiar una carreta.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">GALICIA.</head>
+                  <l rend="indent">No se les puede negar</l>
+                  <l>A los gallegos mas legos,</l>
+                  <l>Que vale por mil gallegos,</l>
+                  <l>El que llega á despuntar:</l>
+                  <l>No prueba su paladar</l>
+                  <l>Mas que coles y pan seco;</l>
+                  <l>Y desde el mas mozo al mas viejo,</l>
+                  <l>Baja al verano á segar </l>
+                  <l>Con gusto á todo lugar,</l>
+                  <l>Menos al lugar de Meco.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">MARAGATOS.</head>
+                  <l rend="indent">Los maragatos bonazos</l>
+                  <l>No son brutos por un tris,</l>
+                  <l>Pues qualquiera del pais</l>
+                  <l>Es un pobre calzonazos:</l>
+                  <l>Venciendo mil embarazos</l>
+                  <l>Van y vienen muy aprisa</l>
+                  <l>Con sus lienzos, y es la risa,</l>
+                  <l>Que asi como no lo quiero,</l>
+                  <l>Se llevan bien el dinero,</l>
+                  <l>Aunque nos dan la camisa.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">LEON.</head>
+                  <l rend="indent">El leonés, hombre llano,</l>
+                  <l>Es de ordinario no mas, </l>
+                  <l>Del caracter poco mas</l>
+                  <l>O menos que el castellano</l>
+                  <l>Aunque es mas sencillo y sano</l>
+                  <l>Es de duro corazon;</l>
+                  <l>Su ruda pronunciacion</l>
+                  <l>Le hace muy tosco y bravío,</l>
+                  <l>Siendo con teson y brío</l>
+                  <l>Iuflecsible en su opinion.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">MONTAÑAS.</head>
+                  <l rend="indent">Es del montañés la gloria</l>
+                  <l>Guardar por antigua prenda</l>
+                  <l>En una pequeña hacienda</l>
+                  <l>Una grande ejecutoria:</l>
+                  <l>Del noble pais la historia</l>
+                  <l>A todo alojero embebe,</l>
+                  <l>Y creo que se les debe</l>
+                  <l>Al montañés esta maña,</l>
+                  <l>Que es la nobleza de España</l>
+                  <l>Mas cercana de la nieve.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">ASTURIAS.</head>
+                  <l rend="indent">El asturiano cerdoso,</l>
+                  <l>Bajo, rechoncho y cuadrado,</l>
+                  <l>Forcejudo y mal formado,</l>
+                  <l>Es un misto de hombre y oso:</l>
+                  <l>Su carácter es honroso</l>
+                  <l>Hombre de bien mas sin maña,</l>
+                  <l>Todo lo emprende con saña,</l>
+                  <l>Y es muy vano y orgulloso,</l>
+                  <l>Y bastante perezoso</l>
+                  <l>Para salir á campaña.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">VEZCAYA.</head>
+                  <l rend="indent">El vizcaino severo</l>
+                  <l>Con dureza nunca oida,</l>
+                  <l>Prefiere siempre á su vida</l>
+                  <l>La defensa de su fuero:</l>
+
+                  <pb n="4"/>
+
+                  <l>Es amigo verdadero, </l>
+                  <l>Es un mercader honrado,</l>
+                  <l>Es marinero arrestado;</l>
+                  <l>Y es capaz con entereza,</l>
+                  <l>Sin cansarse la cabeza,</l>
+                  <l>Escribir mas que el letrado.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">NAVARRA</head>
+                  <l rend="indent">Navarra en realidad</l>
+                  <l>Da de sí la gente honrada,</l>
+                  <l>Y aunque es un poco pesada,</l>
+                  <l>Guardan palabra y verdad:</l>
+                  <l>En todo tiempo y edad,</l>
+                  <l>Son terribles comedores,</l>
+                  <l>Igualmente bebedores, </l>
+                  <l>Y todos son fabricantes,</l>
+                  <l>Asentistas comerciantes,</l>
+                  <l>Indianos y capadores.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">RIOJA.</head>
+                  <l rend="indent">Es la gente riojana.</l>
+                  <l>Vividora, de manera,</l>
+                  <l>Que muy bien á otro cualquiera</l>
+                  <l>Le pueden cardar la lana;</l>
+                  <l>Es fuerte robusta y sana,</l>
+                  <l>Y tiene todo su gozo,</l>
+                  <l>Desde el mas viejo al mas mozo,</l>
+                  <l>Vivir en campaña rása;</l>
+                  <l>Y abandonando su casa </l>
+                  <l>Pasar la vida en un chozo.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">MADRID.</head>
+                  <l rend="indent">Aun las personas mas sanas,</l>
+                  <l>Si son en Madrid nacidas,</l>
+                  <l>Tienen que hacer sus comidas</l>
+                  <l>De píldoras y tisanas; </l>
+                  <l>Diamantes como avellanas,</l>
+                  <l>Estirado el corbatin,</l>
+                  <l>Ricas vueltas y espadin</l>
+                  <l>Suele ser su adorno bello,</l>
+                  <l>Mas siempre marcado el cuello</l>
+                  <l>Con sello de Anton-Martin.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">MALLORCA.</head>
+                  <l rend="indent">Del mayorquin el tesoro</l>
+                  <l>Es el aceite y el vino, </l>
+                  <l>Aborrece el argelino,</l>
+                  <l>Y á toda costa del moro:</l>
+                  <l>Ama la plata y el oro,</l>
+                  <l>Y guarda bien su peculio,</l>
+                  <l>Todo el año es mes de julio,</l>
+                  <l>Y con rara devocion</l>
+                  <l>Da culto y veneracion</l>
+                  <l>A su Raimundo de Lujio.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">CANARIAS.</head>
+                  <l rend="indent">El canario siempre vago,</l>
+                  <l>Buscando en el mar su vida,</l>
+                  <l>Hace toda su comida</l>
+                  <l>Con un plátano y un trago:</l>
+                  <l>Trata al inglés con alhago,</l>
+                  <l>Y le da el fruto que encierra</l>
+                  <l>Su fértil y hermosa tierra.</l>
+                  <l>Y así viene á ser con maña</l>
+                  <l>Súbdito del rey de España </l>
+                  <l>Y amigo del de Inglaterra.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">AMERICA.</head>
+                  <l rend="indent">El indiano con ardiz</l>
+                  <l>Vence mil riesgos, y gana</l>
+                  <l>Mucho dincro en la Habana</l>
+                  <l>Para gastarlo en Madrid:</l>
+                  <l>El vive en continua lid, </l>
+                  <l>Y su paradero es,</l>
+                  <l>Con todo el afan que ves,</l>
+                  <l>El ser pretendiente eterno</l>
+                  <l>De un condado, de un gobierno, </l>
+                  <l>O un titulo de marqués.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1849.
+                  <lb/>Imprenta, y librería de D. J. M.a Moreno calle de la Descalzas núm. 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

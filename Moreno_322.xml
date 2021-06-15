@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_322">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Don Pedro Juan de la Rosa y Doña María de Bargas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Don Pedro Juan de la Rosa y Doña Maria de Bargas. </title>
+                  <title type="titulo_breve">Don Pedro Juan de la Rosa y Doña Maria de Bargas. Nueva
+                     relacion y curioso romance en que se dá cuenta y declara, como D. Pedro Juan de
+                     la Rosa se enamoró de doña María de Bargas, y despues la olvidó por doña Juana
+                     Violante: con todo lo demás que verá el curioso lector.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (1859): <ref target="Moreno_321.xml">Moreno_321</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 350</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte. De Don Pedro Juan de la Rosa y Doña Maria de
+                        Bargas.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="4">Cuatro grabados (p.1, p.5)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_322_1.xml">grabado_m_322_1</item>
+                           <item corresp="grabado_m_322_2.xml">grabado_m_322_2</item>
+                           <item corresp="grabado_m_322_3.xml">grabado_m_322_3</item>
+                           <item corresp="grabado_m_322_4.xml">grabado_m_322_4</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_322_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" />
+               
+               <fw type="impresorNum">Núm. 350.</fw>
+               
+               <head type="primer_titulo">
+                  <lb /><hi rend="negrita">DON PEDRO JUAN DE LA ROSA</hi>
+                  <lb />Y DONA MARIA DE BARCAS.
+               </head>
+               <head type="subtitulo">
+                  <lb />Nueva relacion y curioso romance en que se dá
+                  <lb />cuenta y declara, como D. Pedro Juan de la
+                  <lb />Rosa se enamoró de doña María de Bargas, y
+                  <lb />despues la olvidó por doña Juana Violante: con
+                  <lb />todo lo demás que verá el curioso lector.
+               </head>
+               
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+                  
+                  <l rend="indent">Los que presumen de amantes</l>
+                  <l>pido que me estén atentos,</l>
+                  <l>oigan á mi voz que suena,</l>
+                  <l>en los oidos de aquellos,</l>
+                  <l>que al mirar otra hermosura,</l>
+                  <l>olvidan su amor primero;</l>
+                  
+                  <pb n="2" />
+                  
+                  <fw type="paginaNum">2</fw>
+                  
+                  <l>pero sucede en fin,</l>
+                  <l>disgustos y sentimientos,</l>
+                  <l>y muy apretados lances, </l>
+                  <l>como lo verá el discreto;</l>
+                  <l>y así para prosegir,</l>
+                  <l>pido á todos el silencio.</l>
+                  <l>En la insigne Zaragoza,</l>
+                  <l>residia, un caballero,</l>
+                  <l>D. Pedro Juan de la Rosa,</l>
+                  <l>mozo, galan y discreto,</l>
+                  <l>y sobre todo muy rico,</l>
+                  <l>que es nobleza en estos tiempos.</l>
+                  <l>Este tal se enamoró</l>
+                  <l>de una dama, á quien el cielo</l>
+                  <l>se esmeró en darle mil gracias,</l>
+                  <l>y perfecciones á un tiempo.</l>
+                  <l>Llámase doña María</l>
+                  <l>de Bargas este portento,</l>
+                  <l>quisiéronse algunos dias,</l>
+                  <l>se escribieron muchos versos,</l>
+                  <l>fué D. Pedro á Barcelona</l>
+                  <l>á un negocio que no quiero</l>
+                  <l>cansaros en referirlo</l>
+                  <l>porque no importa el saberlo,</l>
+                  <l>se despidió de su dama, </l>
+                  <l>y ella se quedó vertiendo</l>
+                  <l>un mar de copiosas perlas</l>
+                  <l>de dolor y sentimiento.</l>
+                  <l>Llegó á la dicha ciudad,</l>
+                  <l>á donde en muy breve tiempo</l>
+                  <l>compuso su dependencia,</l>
+                  <l> y una tarde que saliendo</l>
+                  <l>á divertirse á un jardin</l>
+                  <l>vido un hermoso portento,</l>
+                  <l>que es doña Juana Violante,</l>
+                  <l>fué verla y quererla á un tiempo,</l>
+                  <l>y á un mismo tiempo olvidó</l>
+                  <l>á sus amores primeros.</l>
+                  <l>Quedó D. Pedro abrasado</l>
+                  <l>en flechas de ardiente fuego,</l>
+                  <l>y á un, amigo que tenia</l>
+                  <l>le comunicó su intento,</l>
+                  <l>le respondió: es imposible</l>
+                  <l>alcanzar ese sujeto,</l>
+                  <l>porque es de parte muy rica,</l>
+                  <l>y su padre es caballero;</l>
+                  <l>pero amor vence imposibles,</l>
+                  <l>comunícale tu intento.</l>
+                  <l>D. Pedro determinado,</l>
+                  <l>y sobre todo resuelto,</l>
+                  <l>con un papel á la dama </l>
+                  <l>le dió á entender sus secretos, </l>
+                  <l>y doña Juana Violante</l>
+                  <l>le responde en estos versos:</l>
+                  <l>no pretendas imposibles,</l>
+                  <l>pon tu amor en un sugeto</l>
+                  <l>que te pague con finezas,</l>
+                  <l>que yo aunque quiera no puedo,</l>
+                  <l>porque mis padres me tienen</l>
+                  <l>prometida á un caballero, </l>
+                  <l>no te descubras á nadie</l>
+                  <l>ahora ni en ningun tiempo,</l>
+                  <l>porque tengo tres hermanos</l>
+                  <l>que son centellas de fuego:</l>
+                  <l>hay hombres en Barcelona</l>
+                  <l>que si llegan á saberlo, </l>
+                  <l>se arriesgarán nuestras vidas,</l>
+                  <l>y ahora por Dios te ruego,</l>
+                  <l>no me escribas mas papeles, </l>
+                  <l>no seamos descubiertos:</l>
+                  <l>Si quieres verte conmigo, </l>
+                  <l>te has de valer del secreto</l>
+                  <l>de una tenebrosa noche,</l>
+                  <l>y por un balcon pequeño</l>
+                  <l>que cae al jardin vendrás, </l>
+                  <l>y allí los dos hablaremos, </l>
+                  <l>puede ser que á un imposible,</l>
+                  <l>le demos algun remedio.</l>
+                  <l>Quedó D. Pedro confuso, </l>
+                  <l>por ver que en un mismo tiempo</l>
+                  
+                  <pb n="3" />
+                  
+                  <fw type="paginaNum">3</fw>
+                  
+                  <l>le despide, quiere y ama, </l>
+                  <l>y valeroso y dispuesto,</l>
+                  <l>se previno de pistolas,</l>
+                  <l>y una noche con silencio,</l>
+                  <l>asaltó por el jardin,</l>
+                  <l>hizo una seña, mas luego</l>
+                  <l>así como conoció</l>
+                  <l>la dama que era D. Pedro,</l>
+                  <l>salen los dos al jardin,</l>
+                  <l>donde tomaron asiento</l>
+                  <l>entre fragantes macetas,</l>
+                  <l>y hermosos ramilleteros.</l>
+                  <l>Doña Juana sin turbarse</l>
+                  <l>le dijo á su amado dueño,</l>
+                  <l>si te has de casar conmigo,</l>
+                  <l>no ha de ser en estos Reinos.</l>
+                  <l>Buscando modos y trazas</l>
+                  <l>toda la noche estuvieron,</l>
+                  <l>hasta que viniendo el alba,</l>
+                  <l>sus luces iban rompiendo,</l>
+                  <l>se despidieron gustosos</l>
+                  <l>los amantes que refiero.</l>
+                  <l>Se fué D. Pedro á su tierra,</l>
+                  <l>donde con mucho secreto</l>
+                  <l>sin ver á doña María</l>
+                  <l>hizo su hacienda dinero, </l>
+                  <l>y solo con un criado,</l>
+                  <l>y dos caballos ligeros</l>
+                  <l>de su patria se ausentó,</l>
+                  <l>su viaje prosiguiendo:</l>
+                  <l>Llegó, en fin, á Barcelona, </l>
+                  <l>donde con mucho secreto</l>
+                  <l>puso tienda en dicha calle;</l>
+                  <l>y de noche con silencio</l>
+                  <l>iba, y se comunicaba</l>
+                  <l>con la dama que refiero.</l>
+                  <l>Dejémoslo por ahora, </l>
+                  <l>y vamos á que sabiendo</l>
+                  <l>doña María de Bargas,</l>
+                  <l>no está en la ciudad su dueño,</l>
+                  <l>yo no sé de que páraje</l>
+                  <l>tuvo aviso y le dijeron,</l>
+                  <l>que en la noble Barcelona. </l>
+                  <l>ha tratado casamiento.</l>
+                  <l>Se vistió en traje de hombre</l>
+                  <l>fué á Barceloná, y sabiendo</l>
+                  <l>donde D. Pedro vivia,</l>
+                  <l>fué allá, porque le dijeron,</l>
+                  <l>que el criado que tenia </l>
+                  <l>vuesa merced se habia muerto,</l>
+                  <l>si gusta de que le sirva,</l>
+                  <l>ló haré por su justo precio.</l>
+                  <l>A D. Pedro parecióle</l>
+                  <l>en su persona dispuesto,</l>
+                  <l>en fin, luego se ajustaron,</l>
+                  <l>y entró la dama sirviendo,</l>
+                  <l>esto le obligó al honor:</l>
+                  <l>mirad que lances son estos!</l>
+                  <l>de noche le acompañaba, </l>
+                  <l>para que fuese D. Pedro</l>
+                  <l>á visitar á su dama;</l>
+                  <l>pero con rabiosos celos,</l>
+                  <l>sufria al fin y callaba,</l>
+                  <l>y aguardó lugar y tiempo.</l>
+                  <l>Cumpliósele su designio,</l>
+                  <l>fué que una tarde escribiendo</l>
+                  <l>doña Juana á su querido,</l>
+                  <l>le dijo: sabrás D. Pedro, </l>
+                  <l>que aquesta noche te aguardo,</l>
+                  <l>porque mis hermanos fueron</l>
+                  <l>á un dilatado viaje,</l>
+                  <l>y así sin falta te espero,</l>
+                  <l>te vendrás bien prevenido,</l>
+                  <l>que con joyas y dineros, </l>
+                  <l>para las doce te aguardo,</l>
+                  <l>no hagas falta, dulce dueño.</l>
+                  <l>Leyó D. Pedro el papel,</l>
+                  <l>y valeroso y dispuesto</l>
+                  <l>se previno de pistolas,</l>
+                  <l>y á la noche con silencio</l>
+                  
+                  <pb n="4" />
+                  
+                  <fw type="paginaNum">4</fw>
+                  
+                  <l>llamó al criado, y le dijo:</l>
+                  <l>para un muy preciso empeño</l>
+                  <l>me has de asistir esta noche, </l>
+                  <l>para que los dos saquemos</l>
+                  <l>á doña Juana Violante, </l>
+                  <l>vendrás con grande silencio,</l>
+                  <l>y en ejecutando el lance</l>
+                  <l>serás hombre, y te prometo</l>
+                  <l>que te será bién pagado.</l>
+                  <l>Y ella al punto respondiendo,</l>
+                  <l>me tendrás á tu obediencia, </l>
+                  <l>y á ponerme á todo riesgo.</l>
+                  <l>Dijo D. Pedro: un caballo</l>
+                  <l>has de llevar, y en subiendo</l>
+                  <l>la dama, montarás pronto, </l>
+                  <l>y en el sotillo pequeño</l>
+                  <l>de la marina te aguardo,</l>
+                  <l>y registraré primero,</l>
+                  <l>si está ocupada la calle.</l>
+                  <l>Dieron las doce, y de presto</l>
+                  <l>doña María y doña Juana,</l>
+                  <l>apercibidas salieron,</l>
+                  <l>montan las dos á caballo, </l>
+                  <l>doña María diciendo:</l>
+                  <l>como su amo quedaba </l>
+                  <l>esperándola en el puesto,</l>
+                  <l>con el caballo cargado</l>
+                  <l>de las galas y dinero;</l>
+                  <l>en fin, picóle al caballo,</l>
+                  <l>retirándole del puesto,</l>
+                  <l>dónde D. Pedro aguardaba. </l>
+                  <l>La sacó al mar con intento</l>
+                  <l>de quitarle allí la vida,</l>
+                  <l>y dentro de poco tiempo,</l>
+                  <l>se vieron las dos cercadas</l>
+                  <l>enmedio de unos sobervios</l>
+                  <l>turcos, que con dos fragatas,</l>
+                  <l>surcaban el mar sobervio.</l>
+                  <l>Con gran grito y algazara </l>
+                  <l>llegan á Argél, donde fueron</l>
+                  <l>en una pública plaza,</l>
+                  <l>y á pregones las vendieron:</l>
+                  <l>las compró un turco muy rico,</l>
+                  <l>en mil y quinientos pesos.</l>
+                  <l>Doña María de Bargas,</l>
+                  <l>que iba como ya sabemos, </l>
+                  <l>vestida en traje de hombre,</l>
+                  <l>la pusieron á que luego</l>
+                  <l>cultivase unos jardines,</l>
+                  <l>y al cabo de poco tiempc</l>
+                  <l>renegó de la Ley Santa,</l>
+                  <l>adonde la dejaremos,</l>
+                  <l>que el que deja á Dios es justo</l>
+                  <l>de que todos le dejemos:</l>
+                  <l>y en otra segunda parte</l>
+                  <l>daré fin á este suceso.</l>
+                  <l>Fin de la primera parte.</l>
+               </div>
+               
+               <div n="2" type="parte">
+                  <pb n="5" />
+                  
+                  <head type="titulo_parte">
+                     <lb />SEGUNDA PARTE.
+                     <hi rend="negrita"><lb />DE DON PEDRO JUAN DE LA ROSA
+                     <lb />Y DOÑA MARIA DE BARGAS.</hi>
+                  </head>
+                  
+                  <l rend="indent">Ya dije como quedó</l>
+                  <l>la desgraciada doncella</l>
+                  <l>en poder de aquel tirano,</l>
+                  <l>y cual la fortuna adversa</l>
+                  <l>en breve tiempo dispuso,</l>
+                  <l>que el gusto se vuelva en penas.</l>
+                  <l>El turco que á doña Juana </l>
+                  <l>compró, hecho una centella,</l>
+                  <l>enamorado y rendido</l>
+                  <l>de la cautiva, con tiernas</l>
+                  <l>palabras, le dijo un dia:</l>
+                  <l>cristiana, si tú cumplieras</l>
+                  
+                  <pb n="6" />
+                  
+                  <fw type="paginaNum">6</fw>
+                  
+                  <l>mi gusto siendo mi esposa, </l>
+                  <l>verás presto á tu obediencia</l>
+                  <l>joyas, dineros, cautivos, </l>
+                  <l>y doña Juana resuelta,</l>
+                  <l>le respondió: no te canses</l>
+                  <l>en eso, porque esa sécta</l>
+                  <l>que profesas de Mahoma, </l>
+                  <l>no la quiero, aunque perdiera</l>
+                  <l>mas riquezas y mas vidas</l>
+                  <l>que tiene la mar arenas.</l>
+                  <l>Se quedó el tureo suspenso,</l>
+                  <l>y viéndola tan resuelta,</l>
+                  <l>para gozar la cautiva,</l>
+                  <l>modos y trazas ordena.</l>
+                  <l>Tiene el turco unos jardines, </l>
+                  <l>y frondosas arboledas,</l>
+                  <l>con intencion de gozarla,</l>
+                  <l>entró doña Juana en ellas,</l>
+                  <l>y le dijo: es posible</l>
+                  <l>mujer que no te sugetes</l>
+                  <l>á mi voluntad? Y al punto</l>
+                  <l>abrazándose con ella, </l>
+                  <l>doña Juana que llevaba</l>
+                  <l>oculto en la faltriquera,</l>
+                  <l>un puñal de fino acero, </l>
+                  <l>lo sacó, y con ligereza</l>
+                  <l>le ha dado muerte al alarbe, </l>
+                  <l>con cinco heridas sangrientas, </l>
+                  <l>y quitándole el vestido,</l>
+                  <l>se lo puso con presteza</l>
+                  <l>del turco toda la ropa, </l>
+                  <l>montando con ligereza</l>
+                  <l>en un sobervio caballo,</l>
+                  <l>que el turco tenia: y entra</l>
+                  <l>lijera por la espesura; </l>
+                  <l>á tiempo que las tinieblas</l>
+                  <l>del Sol venian rompiendo,</l>
+                  <l>y dando luz á la tierra,</l>
+                  <l>descubrió aunque dilatadas, </l>
+                  <l>las fortalezas de Ceuta,</l>
+                  <l>y aunque encontró muchos turcos, </l>
+                  <l>como sabia la lengua, </l>
+                  <l>é iba vestida en su traje</l>
+                  <l>fué imposible el conocerla.</l>
+                  <l>Al cerrar la obscura noche,</l>
+                  <l>llegó á la puertas de Ceuta, </l>
+                  <l>diciendo que era cristiano</l>
+                  <l>cautivo, y mandó que abrieran:</l>
+                  <l>el centinela que habia </l>
+                  <l>al gobernador dió cuenta,</l>
+                  <l>y sin detenerse un punto,</l>
+                  <l>mandó al instante que abrieran, </l>
+                  <l>y ejecutando lo dicho,</l>
+                  <l>entró doña Juana en Ceuta,</l>
+                  <l>sentó plaza, y luego al punto</l>
+                  <l>le dieron una bandera.</l>
+                  <l>Ella contra Mequinéz, </l>
+                  <l>hizo salidas diversas,</l>
+                  <l>donde condujo á la plaza</l>
+                  <l>muy considerables presas:</l>
+                  <l>en un año de servicio,</l>
+                  <l>alcanzó por su destreza</l>
+                  <l>de capitan la vengala,</l>
+                  <l>y estuvo segun su cuenta</l>
+                  <l>tres años en el servicio</l>
+                  <l>de nuestra corona regia.</l>
+                  <l>Y estando un dia en la plaza,</l>
+                  <l>jugando á la espada negra,</l>
+                  <l>habiendo mucho concurso,</l>
+                  <l>tomó la espada y con ella</l>
+                  <l>peleó con su querido,</l>
+                  <l>y ella se quedó suspensa,</l>
+                  <l>jugaron los dos corteses.</l>
+                  <l>y luego con una seña</l>
+                  <l>o llamó á parte, y le ha dicho:</l>
+                  <l>señor soldado, quisiera</l>
+                  <l>solo el saber quien sois?</l>
+                  <l>porque sin tener vergüenza</l>
+                  <l>e puso á jugar conmigo,</l>
+                  <l>abiendo que me veneran</l>
+                  
+                  <pb n="7" />
+                  
+                  <fw type="paginaNum">7</fw>
+                  
+                  <l>por capitan en la plaza:</l>
+                  <l>y otra vez no le suceda</l>
+                  <l>ponerse á jugar, y ahora</l>
+                  <l>ha de decir de que tierra</l>
+                  <l>sois natural, y D. Pedro</l>
+                  <l>respondió de esta manera:</l>
+                  <l>Señor, su merced perdone</l>
+                  <l>lo descortés, y mi tierra</l>
+                  <l>es Zaragoza mi pátria,</l>
+                  <l>y entonces respondió ella:</l>
+                  <l>pues por qué causa has venido,</l>
+                  <l>debajo de las banderas</l>
+                  <l>de nuestro invícto Monarca?</l>
+                  <l>Y dijo: fué tan adversa</l>
+                  <l>mi fortuna, que fué causa </l>
+                  <l>el verme de esta manera, </l>
+                  <l>como me sacó el criado</l>
+                  <l>una noche á la rivera </l>
+                  <l>del mar, donde se dircurre</l>
+                  <l>que hicieran los moros presa.</l>
+                  <l>Finalmente, le contó</l>
+                  <l>á su dama su tragedia,</l>
+                  <l>como faltó mi criado,</l>
+                  <l>y vieron en la rivera,</l>
+                  <l>andar solo mi caballo, </l>
+                  <l>hubo quien lo conociera:</l>
+                  <l>dieron parte á la justicia</l>
+                  <l>y tres hermanos que ella</l>
+                  <l>tenia, para matarme</l>
+                  <l>hicieron las diligencias.</l>
+                  <l>Me precisó sentar plaza,</l>
+                  <l>y ahora me hallo en Ceuta, </l>
+                  <l>todo perdido y perdida</l>
+                  <l>que es lo que siento, mi prenda;</l>
+                  <l>no hay que perder la esperanza, </l>
+                  <l>que el mundo dá muchas vueltas </l>
+                  <l>si quieres ser mi criado,</l>
+                  <l>puede ser que aquestas penas, </l>
+                  <l>lleguen á tener remedio.</l>
+                  <l>El respondió: así cumpliera,</l>
+                  <l>y fuera tal mi fortuna</l>
+                  <l>señor, de que te sirviera!</l>
+                  <l>en fin se quedó, D. Pedro,</l>
+                  <l>siendo criado de aquella</l>
+                  <l>que en algun tiempo adoraba, </l>
+                  <l>y ahora sin conocerla</l>
+                  <l>un año estuvo D. Pedro</l>
+                  <l>sirviendo á su amada prenda,</l>
+                  <l>y al cabo de aqueste tiempo,</l>
+                  <l>le vino órden espresa,</l>
+                  <l>de que pase á Barcelona,</l>
+                  <l>dándole por conveniencia,</l>
+                  <l>de gobernador la vara, </l>
+                  <l>que así nuestro Rey lo ordena.</l>
+                  <l>Llamó al criado y le ha dicho:</l>
+                  <l>Pedro, sabrás que á la tierra, </l>
+                  <l>donde me cuentas y dices,</l>
+                  <l>que era tu querida prenda, </l>
+                  <l>me voy por gobernador, </l>
+                  <l>y ya tengo la licencia,</l>
+                  <l>para que conmigo vayas.</l>
+                  <l>El respondió: así pudiera,</l>
+                  <l>yo no voy á Barcelona, </l>
+                  <l>porque al punto que me vean</l>
+                  <l>solicitarán mi muerte;</l>
+                  <l>ella respondió: qué pena</l>
+                  <l>te dá, pues no vas conmigo?</l>
+                  <l>por eso no te detengas, </l>
+                  <l>en fin, en una Balandra </l>
+                  <l>se embarcaron, donde llegan</l>
+                  <l>al Puerto de Barcelona,</l>
+                  <l>y así que saltan en tierra,</l>
+                  <l>recibió la posesion</l>
+                  <l>con mucha pompa y grandeza, </l>
+                  <l>y al siguiente dia fueron,</l>
+                  <l>con muy repetidas quejas, </l>
+                  <l>los padres de doña Juana,</l>
+                  <l>diciendo: si usted quisiera,</l>
+                  <l>señor, obrar en justicia,</l>
+                  <l>el que viene en su asistencia, </l>
+                  
+                  <pb n="8" />
+                  
+                  <fw type="paginaNum">8</fw>
+                  
+                  <l>es el que sacó á mi hija, </l>
+                  <l>y es preciso que perezca.</l>
+                  <l>Haremos la informacion,</l>
+                  <l>le respondió al punto, es hecha,</l>
+                  <l>llamó al criado y le ha dicho:</l>
+                  <l>Pedro, por ser la primera</l>
+                  <l>justicia que me han pedido,</l>
+                  <l>no puedo negarme á ella;</l>
+                  <l>sino parece esta dama </l>
+                  <l>será preciso que mueras.</l>
+                  <l>Lo metió en un calabozo,</l>
+                  <l>y al instante lo sentencian</l>
+                  <l>sin que tenga apelacion,</l>
+                  <l>que arcabuseado muera.</l>
+                  <l>Doña Juana se previno</l>
+                  <l>e un gran vestido de seda,</l>
+                  <l>y vestida de mujer, :</l>
+                  <l>e cubrió todas sus prendas,</l>
+                  <l>salen todos á la plaza</l>
+                  <l>y mandó que lo pusieran! :</l>
+                  <l>amarrado á una cólumna; </l>
+                  <l>y ejecuten la sentencia,</l>
+                  <l>y estando para tirarle, </l>
+                  <l>dijo Doña Juana; téngán,</l>
+                  <l>qjue está dentro en Barcelona!:</l>
+                  <l>la dama por cosa cierta,; 1:..</l>
+                  <l>ha dicho un sugeto ahora:</l>
+                  <l>Dijenon los padres de élla:</l>
+                  <l>no puede ser, que en seis años</l>
+                  <l>no habido noticia de ella,</l>
+                  <l>dentro de la plaza está, </l>
+                  <l>esto dijo, y con presteza;</l>
+                  <l>tiró la capa y sombrero, </l>
+                  <l>dijo: miren bien si es esta.</l>
+                  <l>Fué tanta la griteria</l>
+                  <l>y alboroto, que no acierta </l>
+                  <l>hoy mi pluma á ponderarlo, </l>
+                  <l>porque aquí los padres de ella,</l>
+                  <l>todo eran gritos y abrazos, </l>
+                  <l>viendo su querida prenda.</l>
+                  <l>Llegó la noticia al Rey, </l>
+                  <l>y su Magestad ordena,</l>
+                  <l>que se haga el casamiento,</l>
+                  <l>con muy repetidas fiestás,</l>
+                  <l>y se le entregó la vara</l>
+                  <l>á D. Pedro, y con ella</l>
+                  <l>los dos viven muy gustosos,</l>
+                  <l>sirviendo á Dios muy de veras.</l>
+                  <l>Doña María de Bargas,</l>
+                  <l>que fué la dama primera, </l>
+                  <l>se casó ayá con un turco,</l>
+                  <l>y vive en su mala sécta.</l>
+                  <l>Y aquí el autor les suplica, </l>
+                  <l>le perdonen con prudencia</l>
+                  <l>de esta historia peregrina,</l>
+                  <l>las faltas que hubiere en ella.</l>
+
+                  <trailer rend="negrita">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb />CARMONA.—1866. 
+                  <lb />Imprenta y librería de D. Jose María Moreno, Madre de Dios, número 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

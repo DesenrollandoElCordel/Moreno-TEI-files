@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_317">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La dama Casimira</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">La dama Casimira. Nueva relacion en que se refieren los pensamientos de esta señora, que desengañada
+                     de lo que dá de si el mundo, se retracta de ser casada, y prefiere encerrarse en un convento.</title>
+                  <title type="titulo_breve">La dama Casimira.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 345</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_317_1.xml">grabado_m_317_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_317_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">Número 345.</fw>
+               
+               <head rend="negrita" type="primer_titulo">LA DAMA CASIMIRA.</head>
+               <head type="subtitulo">
+                  <lb/>NUEVA RELACION
+                  <hi rend="cursiva"><lb/>en que se refieren los pensamientos de esta señora, que desengañada
+                  <lb/>de lo que dá de si el mundo, se retracta de ser casada, y prefiere
+                  <lb/>encerrarse en un convento.</hi>
+               </head>
+               
+               <l rend="indent">Para monja no nací,</l>
+               <l>que naci para casada, </l>
+               <l>recorreré los oficios.</l>
+               <l>por ver si alguno me agrada.</l>
+               <l rend="indent">Organista no le quiero,</l>
+               <l>porque puede, si se engolfa</l>
+               <l>pensando que soy teclado,</l>
+               <l>sacudirme alguna solfa.</l>
+               <l rend="indent">Al sacristan le aborrezco</l>
+               <l>porque siempre anda de prisa,</l>
+               <l>y enfadado puede darme</l>
+               <l>con lo que tocan á misa.</l>
+               <l rend="indent">Escribano no me agrada </l>
+               <l>porque miente muy barato,</l>
+               <l>y porque el mundo no diga</l>
+               <l>que me acuesto con un gato.</l>
+               <l rend="indent">Abogado no me cuadra,</l>
+               <l>porque aunque tiene letrillas</l>
+               <l>enfadado puede echarme</l>
+               <l>la ley sobre las costillas.</l>
+               <l rend="indent">El médico no me gusta, </l>
+               <l>porque aunque gana pesetas,</l>
+               <l>cuando muere, deja solo</l>
+               <l>el baston y las recetas.</l>
+               <l rend="indent">Cirujano no me peta, </l>
+               <l>porque enfadado ¡ay de mi!</l>
+               <l>aunque yo herída no esté</l>
+               <l>aplicarme el bisturí.</l>
+               <l rend="indent">El botic ario no me entra,</l>
+               <l>porque enfadado lqniéu sabe,</l>
+               <l>si me daria veneno,</l>
+               <l>en vez de darme jarabe! </l>
+               <l rend="indent">Arquitecto le abomino,</l>
+               <l>porque me puede trazar</l>
+               <l>una descarga de palos</l>
+               <l>que me eche á la eternidads</l>
+               
+               <pb n="2"/>
+               
+               <fw type="paginaNum">2</fw>
+               
+               <l rend="indent">Un escultor me pretende</l>
+               <l>y lo echo con mil venablos,</l>
+               <l>porque asi como hace santos,</l>
+               <l>puede tambien hacer diablos.</l>
+               <l rend="indent">Un pintor á mi me ofree</l>
+               <l>el retratarme de valde,</l>
+               <l>pero aunque me dé dinero</l>
+               <l>no me echará el albayalde.</l>
+               <l rend="indent">Un dorador que me adora, </l>
+               <l>se empeña en cubrirme de oro,</l>
+               <l>mas no quiero que me dore</l>
+               <l>persona que yo no adoro.</l>
+               <l rend="indent">Aunque sea millonario</l>
+               <l>no lo quiero mercader,</l>
+               <l>porque asi como me compra</l>
+               <l>tambien me puede vender.</l>
+               <l rend="indent">Del chocolatero huyo,</l>
+               <l>porque á la menor contienda,</l>
+               <l>puede ponerme en la piedra</l>
+               <l>y convertirme en molienda,</l>
+               <l rend="indent">Un confitero con dulces</l>
+               <l>tambien me quiere engañar,</l>
+               <l>mas no quiero su dulzura</l>
+               <l>que tambien suele amargar.</l>
+               <l rend="indent">El labrador no me tira,</l>
+               <l>que para un poco de grano,</l>
+               <l>trabaja mucho en invierno</l>
+               <l>y mucho mas en verano.</l>
+               <l rend="indent">Hortelano y labrador</l>
+               <l>la mano se suelen dar,</l>
+               <l>por tanto las calabazas</l>
+               <l>pueden al punto sembrar.</l>
+               <l rend="indent">Un jardinero con rosas</l>
+               <l>me declara sus amores;</l>
+               <l>con desprecio le despido</l>
+               <l>que yo no como con flores.</l>
+               <l rend="indent">Con carpintero tampoco</l>
+               <l>pretendo tomar estado,</l>
+               <l>porque aunque pega con regla,</l>
+               <l>dá el golpe desarreglado.</l>
+               <l rend="indent">Un sastre toma medidas</l>
+               <l>por echarme la tijera;</l>
+               <l>pero no siendo en mi paño</l>
+               <l>que corte por donde quiera.</l>
+               <l rend="indent">El tejedor le aborrezco,</l>
+               <l>porque este, aunque yo no queria,</l>
+               <l>puede urdirme alguna trama</l>
+               <l>y echarme la lanzadera.</l>
+               <l rend="indent">Un zapatero se mata</l>
+               <l>por tomar conmigo trato,</l>
+               <l>pero no se calzará</l>
+               <l>con horma de mi zapato.</l>
+               <l rend="indent">Del molinero me fugo, </l>
+               <l>porque sise atremolina,</l>
+               <l>puede encajarme en la piedra</l>
+               <l>y convertirme en harina.</l>
+               <l rend="indent">Al calderero le tiemblo</l>
+               <l>porque algun dia quizas,</l>
+               <l>puede echarme alguna chapa</l>
+               <l>en la rotura de atras.</l>
+               <l rend="indent">Herrero no me enamora, </l>
+               <l>porque sin haber ataque,</l>
+               <l>no se advierten mas que chispas</l>
+               <l>al compás del triqui, traque.</l>
+               <l rend="indent">¿Con mesonero casarme?</l>
+               <l>no quiero, porque discurro</l>
+               <l>que estoi muy espuesta á ser</l>
+               <l>pesébre de todo burro.</l>
+               <l rend="indent">Torta me dá un panadero</l>
+               <l>y otra vez al horno vá,</l>
+               <l>porque temo que algun dia</l>
+               <l>me cueste la torta un pan.</l>
+               <l rend="indent">Un cerero me desea</l>
+               <l>cuando me vé tan bonita;</l>
+               <l>mas no creo que por él</l>
+               <l>mi corazon se derrita.</l>
+               <l rend="indent">Un tintorero á mi vista</l>
+               <l>se muestra bastante franco,</l>
+               <l>pero no apetezco oficio.</l>
+               <l>que vuelva negro lo blanco.</l>
+               <l rend="indent">Albañil que anda por alto</l>
+               <l>no quiero aunque sea majo,</l>
+               <l>porque se puede caer</l>
+               <l>y cojerme á mi debajo.</l>
+               <l rend="indent">Al arrasca-chimeneas</l>
+               <l>abomino por fráncés,</l>
+               <l>y porque puede arrascarme</l>
+               <l>sin que esté puerca en el ves.</l>
+               
+               <pb n="3"/>
+               
+               <fw type="paginaNum">3</fw>
+               
+               <l rend="indent">Del guarnicionero huyo</l>
+               <l>pues no quiero que me vea,</l>
+               <l>porque temo que me adorne</l>
+               <l>las espaldas con correa.</l>
+               <l rend="indent">Un basterillo me pide,</l>
+               <l>cuando fabrica las basta</l>
+               <l>yo le digo: no té quiero,</l>
+               <l>porque eres bastero y basta.</l>
+               <l rend="indent">¿Casarme con albardero?</l>
+               <l>no lo tienen que pensar,</l>
+               <l>porque hará burla de mi</l>
+               <l>si yo me dejo albardar.</l>
+               <l rend="indent">Casarme cón un jalmero</l>
+               <l>seria una gran burrada,</l>
+               <l>porque podria ponerme</l>
+               <l>cincha, atarre y cabezada.</l>
+               <l rend="indent">Me regala un peluquero</l>
+               <l>mas no me engaña con cucas,</l>
+               <l>porque despúes, sin ser calva,</l>
+               <l>me pondrá algunas pelucas.</l>
+               <l rend="indent">Un platero bien vestido</l>
+               <l>viene por casa y lo luce,</l>
+               <l>pero veo que no es oro</l>
+               <l>todo lo que en él reluce.</l>
+               <l rend="indent">Un vidriero solicita</l>
+               <l>con empeño ser mi aante,</l>
+               <l>vidrio soy, pero no piense</l>
+               <l>emplear en mi su diamante,</l>
+               <l rend="indent">Un pastelero pretende</l>
+               <l>que yo me case con él,</l>
+               <l>mas si yo gusto le diera</l>
+               <l>si que haria buen pastel.</l>
+               <l rend="indent">Un artillero me pide;</l>
+               <l>pero sepa ese sugeto</l>
+               <l>que no admiten sus cañones</l>
+               <l>el campo de mi secreto.</l>
+               <l rend="indent">Un cantero cuando pica,</l>
+               <l>me pica por ver si pico;</l>
+               <l>soy picara, y aunque pique</l>
+               <l>no me coge por el pico.</l>
+               <l rend="indent">Con barbero no me caso,</l>
+               <l>porque puede si se inquicta</l>
+               <l>afeitarme sin jabon</l>
+               <l>y sangrarme sin lanceta.</l>
+               <l rend="indent">Un cordelero queria</l>
+               <l>que me casara con él,</l>
+               <l>y si yo le diera gusto</l>
+               <l>bien merecia un cordel.</l>
+               <l rend="indent">Me regala un peinetero</l>
+               <l>cuando me encuentra, muy fino;</l>
+               <l>mas no logrará ponerme</l>
+               <l>rodete á lo lechuguino.</l>
+               <l rend="indent">Un cestero me acomcte,</l>
+               <l>y aunque lo hace por apuesta,</l>
+               <l>no ha de lograr ese cesto</l>
+               <l>el que yo lleve la cesta,</l>
+               <l rend="indent">Librero no me entra bien,</l>
+               <l>porque está enseñado á hojear, </l>
+               <l>y á fuerza de pasar hojas</l>
+               <l>me puede descuadernar.</l>
+               <l rend="indent">Fuera, fuera el alfarero,</l>
+               <l>que solo de barro goza,</l>
+               <l>y por mucho que trabaje</l>
+               <l>nunca encuentra mas que loza.</l>
+               <l rend="indent">Me pretende un relojero,</l>
+               <l>y yo le respondo cuerda:</l>
+               <l>mas quiero estarme parada</l>
+               <l>que no ambular por su cuerda,</l>
+               <l rend="indent">Un taberneró vinoso,</l>
+               <l>á pedirme un dia vino;</l>
+               <l>dije que mas no viniera</l>
+               <l>aunque envinado con vino,</l>
+               <l rend="indent">A un cocinero de fama</l>
+               <l>le despedi cuanto antes,</l>
+               <l>que aunque no tengo de sobra</l>
+               <l>no apetezco los sobrantes.</l>
+               <l rend="indent">Un sombrerero se arde</l>
+               <l>por mi, que soy como enero;</l>
+               <l>por lo que no me háce falta</l>
+               <l>la sombra de su sombrero.</l>
+               <l rend="indent">Un lavandero me lava</l>
+               <l>y me alaba, pero al cabo</l>
+               <l>nada importa que me alabe</l>
+               <l>si su alabanza no alabo.</l>
+               <l rend="indent">Me toca un pandaretero</l>
+               <l>de casorio por lo claro,</l>
+               <l>pero por mas que me toque</l>
+               <l>no me mete por el aro.</l>
+               
+               <pb n="4"/>
+               
+               <fw type="paginaNum">4</fw>
+               
+               <l rend="indent">A un escobero desprecio,</l>
+               <l>porque si soy su mujer,</l>
+               <l>me traerá por la costumbre</l>
+               <l>como escoba do barrer.</l>
+               <l rend="indent">Papelero no lo escojo,</l>
+               <l>porque si le salgo infiel,</l>
+               <l>me pondrá con las mazadas</l>
+               <l>el cuerpo como un papel.</l>
+               <l rend="indent">Con coeteros no me caso,</l>
+               <l>porque es fácil que se inquiete,</l>
+               <l>y el dia menos pensado</l>
+               <l>me ponga al culo un cohete.</l>
+               <l rend="indent">Un boterillo soplando,</l>
+               <l>me sopla cierto consejo,</l>
+               <l>pero por mas que me sople</l>
+               <l>no soplará mi pellejo.</l>
+               <l rend="indent">Un pisonero me pisa</l>
+               <l>siempre que voy al pison,</l>
+               <l>pero por mas que me pise</l>
+               <l>no pisa mi habitacion.</l>
+               <l rend="indent">Me pide un alpargatero,</l>
+               <l>pero con él no me calzo,</l>
+               <l>porque quien calza alpargatas</l>
+               <l>claro está que ando descalzo.</l>
+               <l rend="indent">Un ingeniero se ingenia</l>
+               <l>por disfrutar de mi ingenio,</l>
+               <l>pero por mas que se ingenie</l>
+               <l>nunca sera de mi genio.</l>
+               <l rend="indent">Sillero no me acomoda,</l>
+               <l>porque segun lo que siento,</l>
+               <l>el dia que más trabaja</l>
+               <l>mas tiempo se halla de asiento.</l>
+               <l rend="indent">Un cordonero me signe</l>
+               <l>por todas las procesiones,</l>
+               <l>mas no siendo militara</l>
+               <l>¿para que quiero cordones?</l>
+               <l rend="indent">Un impresor me imprimió</l>
+               <l>letras en mi corazon.</l>
+               <l>qué importa que las imprima</l>
+               <l>si no me hacen impresion?</l>
+               <l rend="indent">A mi easa un cardador</l>
+               <l>se llegó cierta mañana,</l>
+               <l>le dige: por bien que cardes</l>
+               <l>no me cardará la lana.</l>
+               <l rend="indent">Un herrero pretendió</l>
+               <l>herrarme con gran ternura,</l>
+               <l>pero por dar en el clavo</l>
+               <l>dió en medio de la herradura.</l>
+               <l rend="indent">Un esquilador de fama</l>
+               <l>á mi casa un dia fué,</l>
+               <l>con ánimo de esquilarme,</l>
+               <l>y le díje: esquilate.</l>
+               <l rend="indent">Un bordador me hace señas,</l>
+               <l>y le respondo con risa;</l>
+               <l>no esperes bordar jamás</l>
+               <l>el forro de mi camisa.</l>
+               <l rend="indent">Zurrador me huele mal;</l>
+               <l>porque si á la pata llana</l>
+               <l>no camino, serà facil</l>
+               <l>que me zurre la badana.</l>
+               <l rend="indent">Gaitero es oficio alegre,</l>
+               <l>mas no le quiero tampoco, </l>
+               <l>que mientras él anda en fiestas</l>
+               <l>la mujer se sopla el moco.</l>
+               <l rend="indent">Otro número de oficios</l>
+               <l>me dejo aun en el tintero,</l>
+               <l>por no borrar mas papel</l>
+               <l>con personas que no quiero.</l>
+               <l rend="indent">¿Pues con quién podré casarme</l>
+               <l>que á gusto pueda vivir?</l>
+               <l>ya lo tengo bien pensado,</l>
+               <l>y lo voy á referir.</l>
+               <l rend="indent">Que no naci para monja</l>
+               <l>al principio confesé.</l>
+               <l>pero ya desengañada</l>
+               <l>monja á la fuerza he de ser.</l>
+               <l rend="indent">En un convento tranquila</l>
+               <l>podré mi vida pasar,</l>
+               <l>orando continuamente</l>
+               <l>y luego de Dios gozar.</l>
+               
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+            
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. de D. José M. Moreno, calle de Madre de Dios.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

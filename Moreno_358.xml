@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_358">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nueva relación El mariscal de Virón</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Nueva relacion El mariscal de Viron. De
+                     dama.</title>
+                  <title type="titulo_breve">Nueva relacion El mariscal de Viron.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 390</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Se suprimen las letras de la página 4 (columna de la izquierda)</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_358_1.xml">grabado_m_358_1</item>
+                           <item corresp="grabado_m_358_2.xml">grabado_m_358_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_358_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">Número 390.</fw>
+               
+               <head type="primer_titulo">
+                  <lb/>NUEVA RELACION
+                  <lb/>EL MARISCAL DE VIRON.
+               </head>
+               <head rend="negrita" type="subtitulo">DE DAMA.</head>
+               
+               <l rend="indent">Al espectáculo grande</l>
+               <l>del mayor teatro, en cuya</l>
+               <l>tragedia representaba</l>
+               <l>sus mudanzas la fortuna,</l>
+               <l>manchado de sangre el sol,</l>
+               <l>cubierta de horror la luna,</l>
+               <l>vestido el dia de asombros,</l>
+               <l>llena la noche de dudas,</l>
+               <l>ciego el aire, sordo el viento,</l>
+               <l>y en su variedad confusa</l>
+               <l>dividido el vulgo en olas, </l>
+               <l>partida en votos la turba,</l>
+               <l>á ser lastima y ejemplo</l>
+               <l>de las privanzas, que duran</l>
+               <l>lo que la vida en la rosa,</l>
+               <l>lo que en la flor la hermosura,</l>
+               <l>llegó el Duque al cadahalso,</l>
+               <l>trono infame de sus culpas,</l>
+               <l>cuya maquina sublime</l>
+               <l>negros ropages enlutan.</l>
+               <l>Era el funesto aparato</l>
+               <l>geroglifico ó figura</l>
+               <l>de la noche y de la muerte,</l>
+               <l>tan expreso en cada una</l>
+               <l>por el color y la forma,</l>
+               <l>que sin que allí se confundan</l>
+               <l>dos imagenes, á un tiempo</l>
+               <l>parace nublado y urna,</l>
+               
+               <pb n="2"/>
+               
+               <fw type="paginaNum">2</fw>
+               
+               <l>por cualquiera parte noche,</l>
+               <l>por cualquiera parte tumba.</l>
+               <l>Dudaba Frañcia el suceso</l>
+               <l>no porque ignoró la injuria,</l>
+               <l>ni por que llegó á dudar</l>
+               <l>la pena como la culpa,</l>
+               <l>sino porque siendo el Duque</l>
+               <l>dueño de la gracia tuya,</l>
+               <l>dudó que hubiese en el mundo</l>
+               <l>quien sus delitos descubra,</l>
+               <l>que las fallas de un valido</l>
+               <l>cualquiera las disimula.</l>
+               <l>Entro el Duque por la plaza:</l>
+               <l>quien duda, señor, quién duda</l>
+               <l>que esta fue su mayor pena</l>
+               <l>y su mayor desventura?</l>
+               <l>Pues por donde entró triunfando</l>
+               <l>de tantas handeras turcas,</l>
+               <l>entre ahora despojado</l>
+               <l>de aquellas armas angustas,</l>
+               <l>que no se muda el lugar,</l>
+               <l>aunque las dichas se mudan.</l>
+               <l>No aguardaban su persona</l>
+               <l>estas vez, como otras muchas,</l>
+               <l>de sus mejores soldados</l>
+               <l>tantas militares puntas,</l>
+               <l>antes llevando su vida</l>
+               <l>en mas peligro que nunca,</l>
+               <l>iba allí con menos guardas</l>
+               <l>su persona mas segura.</l>
+               <l>Apenas de que llegaba</l>
+               <l>dieron noticia confusa</l>
+               <l>lenguas de metal, entónces</l>
+               <l>retóricamente mudas,</l>
+               <l>cuando le señalan todos,</l>
+               <l>y de repente se escuchan,</l>
+               <l>pidiendo atencion al ayre,</l>
+               <l>todas las voces en una.</l>
+               <l>Descolorido el semblante,</l>
+               <l>las mejillas mal enjutas,</l>
+               <l>desaliñado el cabello,</l>
+               <l>la barba sin compostura,</l>
+               <l>libre la mano derecha,</l>
+               <l>con que compone y justa</l>
+               <l>el capús sobre los hombros,</l>
+               <l>y con afecto y ternura,</l>
+               <l>un Crucifijo en la otra,</l>
+               <l>cuya devota escultura,</l>
+               <l>cuanto enternece los ojos,</l>
+               <l>los cabellos espeluza,</l>
+               <l>al cadaalzo llegó el Duque:</l>
+               <l>aquí la lengua se turba,</l>
+               <l>aquí la voz se entorpeco,</l>
+               <l>aquí la vista se angustia,</l>
+               <l>aquí el corazon se pasma,</l>
+               <l>aquí la pena se ofusca,</l>
+               <l>aquí el dolor se reprime,</l>
+               <l>aquí el aliento se anuda,</l>
+               <l>aquí los brazos se extienden,</l>
+               <l>aquí las manos se cruzan,</l>
+               <l>y aquí finalmente todo</l>
+               <l>el cuerpo se descoyunta,</l>
+               <l>todo lo padece el alma,</l>
+               <l>todo el amor lo disculpa.</l>
+               <l>Junto al teátro se apea,</l>
+               <l>y sube, sin mas ayuda</l>
+               <l>que su valor, tan constante,</l>
+               <l>que dos veces se le arruga</l>
+               <l>el capúz entre los pies,</l>
+               <l>para estorbarle que suba:</l>
+               <l>y él con despejo bizarro</l>
+               <l>le acomoda, y se disgusta</l>
+               <l>de que le estorbe el camino,</l>
+               <l>porque ninguno présuma,</l>
+               <l>que para llegar mas tarde</l>
+               <l>era diligencia suva.</l>
+               <l>En llegando á lo mas alto</l>
+               <l>del sitio que él selo ocupa, </l>
+               
+               <pb n="3"/>
+               
+               <fw type="paginaNum">3</fw>
+               
+               <l>mirando á una y otra parte</l>
+               <l>coñ atencion y mesura,</l>
+               <l>á Francia vió de dos veces,</l>
+               <l>y Francia le vió de una.</l>
+               <l>Allí se dejó mirar</l>
+               <l>de toda la plebe junta,</l>
+               <l>sin excusas ni porteros</l>
+               <l>y pagó solo con una</l>
+               <l>cuantas visitas debia,</l>
+               <l>que en un privado son muchas;</l>
+               <l>Dispuesta una silla estaba</l>
+               <l>en lugar de blanda pluma,</l>
+               <l>para lecho de su muerte,</l>
+               <l>para estrado de su injuria:</l>
+               <l>sentóse, y sentóse bien</l>
+               <l>de otra vez, donde le ayudan</l>
+               <l>con cristianas diligencias</l>
+               <l>dos religiosos, columnas</l>
+               <l>de la Fe, cuyas palabras</l>
+               <l>le ofrecen y le aseguran</l>
+               <l>en su sangre su remedio,</l>
+               <l>y en su infamia su disculpa.</l>
+               <l>Por última diligencia</l>
+               <l>le intima y le pronucian</l>
+               <l>la sentencia de su muerte,</l>
+               <l>que vivo y atento escucha.</l>
+               <l>Ah pension de los mortales!</l>
+               <l>que la mayor desventura</l>
+               <l>de los hombres, sea ignorar</l>
+               <l>la hora postrera suya!</l>
+               <l>Y que llegue á ser la muerte</l>
+               <l>de un delincuente tan dura,</l>
+               <l>que el saber que muere entónces,</l>
+               <l>sea su mayor angustia.</l>
+               <l>Llegó á vendarle los ojos</l>
+               <l>con mano aleve é impura</l>
+               <l>el verdugo, pretendiendo</l>
+               <l>con infames ligaduras</l>
+               <l>atar su cuerpo á la silla,</l>
+               <l>y él, con impaciencia alguna,</l>
+               <l>que en pie le deje morir</l>
+               <l>pide al verdugo, y le jura</l>
+               <l>por su Rey y por su sangre</l>
+               <l>de no resistirse nunca,</l>
+               <l>aunque vea la cuchilla</l>
+               <l>sobre su cuello desnuda,</l>
+               <l>como el que se vé sangrar,</l>
+               <l>que él mismo el brazo se alumbra,</l>
+               <l>y aunque la vena le rompen</l>
+               <l>no se resiste á la punta.</l>
+               <l>No fue acción desesperada,</l>
+               <l>aunque alguno lo murmura</l>
+               <l>en Francia, ántes me parece</l>
+               <l>que fué una obediencia justa</l>
+               <l>ó para hacer voluntaria</l>
+               <l>la pena cuando la sufra,</l>
+               <l>ó para dar á entender,</l>
+               <l>que aun allí el valor le dura,</l>
+               <l>y que así no ha menester</l>
+               <l>ignorar lo que no excusa.</l>
+               <l>En efecto, hecha la seña,</l>
+               <l>el verdugo que la escucha,</l>
+               <l>levanta el brazo, y del goipe</l>
+               <l>fué la presteza lan ruscha,</l>
+               <l>que aun no pudo come:chenderla</l>
+               <l>el mismo que lo egecuza.</l>
+               <l>Saltó la cabeza en tierrá,</l>
+               <l>huyendo del que la injuria,</l>
+               <l>que solo en huir entónces</l>
+               <l>no pareció que era suya; </l>
+               <l>pero como no podía</l>
+               <l>vengarse ya por difunta,</l>
+               <l>andando por el tablado,</l>
+               <l>parece que iba, aunque muda,</l>
+               <l>pidiendo á todos venganza</l>
+               <l>de aquella mano perjura.</l>
+               <l>El cuerpo, (raro prodigio!)</l>
+               <l>quedó en su propia estatura,</l>
+               
+               <pb n="4"/>
+               
+               <fw type="paginaNum">4</fw>
+               
+               <l>sin.caer en grande rato,</l>
+               <l>ni mostrar flaqueza alguna,</l>
+               <l>ó porque no lo creyó</l>
+               <l>la muerte que lo procura,</l>
+               <l>ó porque el cuerpo valiente,</l>
+               <l>miéntras el alma fluctua,</l>
+               <l><gap/> vivir por su cuenta</l>
+               <l><gap/>llo poco que dura.</l>
+               <l><gap/> fin, á vista del pueblo,</l>
+               <l>que le llora, aunque le acusa,</l>
+               <l>entre lágrimas y penas </l>
+               <l>quedó aquella flor caduca,</l>
+               <l>aquella vida sin alma,</l>
+               <l>aquel campo sin figura,</l>
+               <l>aquella estrella sin rayos</l>
+               <l>aquel sol sin hermosura,</l>
+               <l>aquella nave sin velas,</l>
+               <l>aquella águila sin plumas,</l>
+               <l>aquel valeroso brazo</l>
+               <l>sin fuerza en las coyunturas,</l>
+               <l>y con una muerte sola</l>
+               <l>satisfechas munchas culpas;</l>
+               <l>vengados muchos agravios,</l>
+               <l>vuestra persona segura, Llora.</l>
+               <l>Francia triste, el mudo absorto.</l>
+               <l>muerto el Duque, yo difuntá,</l>
+               
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+            
+            <div type="colofon">
+               <p><lb/>Carmona:—Imp. y librería de D. José M.a Moreno, calle Madre de Dios 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

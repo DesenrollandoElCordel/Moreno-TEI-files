@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_312">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pasillo andaluz entre Juan el Perdío y Pepe Nargas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Pasillo andaluz entre Juan el Perdío y Pepe
+                     Nargas.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1860</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 337</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_312_1.xml">grabado_m_312_1</item>
+                           <item corresp="grabado_m_312_2.xml">grabado_m_312_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX555916.html" type="tipo_texto">Pasillos</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-25" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_312_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum">Número 357.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">PASILLO ANDALUZ</hi>
+                  <lb/>ENTRE
+                  <lb/><hi rend="negrita">JUAN EL PERDIO Y PEPE NARGAS.</hi>
+               </head>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Mozo güeno, aonde vasté, </l>
+                  <l>esa silla está comprá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Cuando der pecho me sarga</l>
+                  <l>masiento yo en lo que es mio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Entonces me da en el vagío</l>
+                  <l>pues osté....</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—¡Pepe Nargas!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Y yo Juan el perdio! </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pep.</speaker>
+                  <l>-Si osté quiere despacharemos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Hay mucha priesa?</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—No hay poca..</l>
+                  <l>Pero antes descansaremos:</l>
+                  <l>vaya pa enjuajá la boca.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Disusté bien, beberemos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Nuestra apuesta consistia,</l>
+                  <l>compare, si no me engaño,</l>
+                  <l>en ver quien mas se lucia</l>
+                  <l>en el término de un año</l>
+                  <l>y salvo y libre gorvia.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Jua.</speaker>
+                  <l>-Pues comience oste su cuento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—No me toca principiá, </l>
+                  <l>osté primero.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Juan. </speaker>
+                  <l>=Ar momento:</l>
+                  <l>yo soy vivo como er viento</l>
+                  <l>y no me jago é rogá.</l>
+                  <l>Pues señó, yo dende aquí</l>
+                  <l>cuando el camino tomé</l>
+                  <l>jácia Malaga me juí,</l>
+                  <l>y en el barrio del Percher,</l>
+                  <l>camará me estabresí,</l>
+                  
+                  <pb n="2"/>
+                  
+                  <l>De cuantas er mundo encierra</l>
+                  <l>era la mejor suidá</l>
+                  <l>pa buscar truenos y guerra,</l>
+                  <l>é mosos é caliá.</l>
+                  <l>Mas se quearon pequeños</l>
+                  <l>cuando oyeron los sermeños</l>
+                  <l>que ije con poerio:</l>
+                  <l>aqui está Juan el perdío</l>
+                  <l>pa darle á los malagueños.</l>
+                  <l>Y como le dí mulé</l>
+                  <l>ar que jué á probar el sebo,</l>
+                  <l>por amo y dueño queé</l>
+                  <l>en el barrio der Perché, </l>
+                  <l>¡cabà! y en el mundo Nuevo.</l>
+                  <l>A qué es jablá de aquellos dias,</l>
+                  <l>pa las jembras to jué gusto,</l>
+                  <l>y fandango y alegria;</l>
+                  <l>pa los hombres agonia,</l>
+                  <l>pa los menestriles susto.</l>
+                  <l>Ven ostés estas jormiyas</l>
+                  <l>que traigo puestas aquí,</l>
+                  <l>pues son, no vale mentí,</l>
+                  <l>jechas é las paletiyas</l>
+                  <l>que le arranqué á un aguasí.</l>
+                  <l>Como jice tanto remate</l>
+                  <l>de hombres, pusieron nn bando</l>
+                  <l>pa pregonar mi gaznate,</l>
+                  <l>y me di por er contrabando,</l>
+                  <l>lo emás era un isparate.</l>
+                  <l>Pero ayí vaya un esquicio</l>
+                  <l>dende que tomé el ofieio</l>
+                  <l>lo mesmo era ver un fardo</l>
+                  <l>que juia to el resguardo</l>
+                  <l>temiéndole al estrupicio.</l>
+                  <l>Diendo una vez por la mar</l>
+                  <l>quiso la fortuna perra</l>
+                  <l>que mi baico juera á dar</l>
+                  <l>con veinte buques é guerra</l>
+                  <l>de cien cañones ú mas.</l>
+                  <l>¡Vaigame Dios y que dia!</l>
+                  <l>por los aires siempre habia</l>
+                  <l>lo menos quinientas balas,</l>
+                  <l>una bota, otra resbala,</l>
+                  <l>lo que no se vió en la via.</l>
+                  <l>Aun traigo de aquella tela</l>
+                  <l>una señá, no la veis</l>
+                  <l>como una picá é viruela,</l>
+                  <l>jué una bala è treinta y seis</l>
+                  <l>que por poco no me güela.</l>
+                  <l>Vino á dar en mi mejilla,</l>
+                  <l>la suerte que tu ve yo,</l>
+                  <l>señores jué que botó,</l>
+                  <l>der rebote jiso astillas</l>
+                  <l>toitico er palo mayor.</l>
+                  <l>Mordiendo como los perros</l>
+                  <l>ma sujetó el enemigo,</l>
+                  <l>y en una jaula é jierro</l>
+                  <l>que era po entonces mi encierro</l>
+                  <l>dieron en Ceuta conmigo.</l>
+                  <l>A mi ponerme en presiyo!</l>
+                  <l>á mí! que habia é suseé!</l>
+                  <l>á los dos dias me jarté</l>
+                  <l>y jise peasos los grillos</l>
+                  <l>con las puntas é los piés.</l>
+                  <l>Pero mis trabajos eran</l>
+                  <l>ya que los grillos rompí</l>
+                  <l>najarme sin que me vieran,</l>
+                  <l>y de un medio me valí</l>
+                  <l>pa que no me conocieran.</l>
+                  <l>Pa no caer en el lazo</l>
+                  <l>asi que toqué á largueza,</l>
+                  <l>zás! me arranqué la cabeza,</l>
+                  <l>me la metí ebajo er brazo,</l>
+                  <l>y me najé á toa priesa.</l>
+                  <l>De entonces en to lugar</l>
+                  <l>he llevao la ventaja,</l>
+                  <l>ya aigando bofetá.</l>
+                  <l>tomandome puñalá</l>
+                  <l>y cobrando la baraja.</l>
+                  <l>Yo las tapias escalé,</l>
+                  <l>no hubo puerta que no abrí,</l>
+                  <l>y en toas partes dejé</l>
+                  <l>ó llorando una mujé</l>
+                  <l>ó muerto un moso barí.</l>
+                  <l>Esto es lo que jise yo;</l>
+                  <l>y en á contando estos ñuos</l>
+                  
+                  <pb n="3"/>
+                  
+                  <l>en que viene apuntao tó,</l>
+                  <l>se verá si aquí hay való</l>
+                  <l>sobre tos los mosos cruos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—A contá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Toabia es trempano;</l>
+                  <l>me paese á mí lo mas llano</l>
+                  <l>y que mas nos interesa,</l>
+                  <l>que digasté sus proezas</l>
+                  <l>á ver quien gana la mano.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Argorpe, que no aiga riña,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Lo ques por mí no la hay. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Yo salí por esa campiña</l>
+                  <l>y allegando jasta Cais</l>
+                  <l>me juí ar barrio é la Viña.</l>
+                  <l>Como que solo buscaba</l>
+                  <l>cuando salí é Siviya</l>
+                  <l>las mosas é maraviya,</l>
+                  <l>quise ver si las criaba</l>
+                  <l>la tierra é la pescaiya.</l>
+                  <l>Por eso en cuanto allegué</l>
+                  <l>jaciendo la mesma cuenta</l>
+                  <l>que en Málaga jisusté,</l>
+                  <l>dije.con to mi poer</l>
+                  <l>aqui hay un hombre pa treinta.</l>
+                  <l>Pero qué habian de salir!</l>
+                  <l>hubo moso que al oir</l>
+                  <l>en puerta é tierra esta frima</l>
+                  <l>se metió en un bergantin</l>
+                  <l>y no paró jasta Lima.</l>
+                  <l>Y las jembras! Mare mia!</l>
+                  <l>Señores, no es buleria,</l>
+                  <l>si sigo en aquella via</l>
+                  <l>no hay mas remedio la entriego.</l>
+                  <l>Mas como era rigulá,</l>
+                  <l>asi que pasé dos meses</l>
+                  <l>en esta via escansá,</l>
+                  <l>me faltaron los parneses</l>
+                  <l>y los tnve que buscar.</l>
+                  <l>Aquello si que eran volatines,</l>
+                  <l>un dia á tres figurines</l>
+                  <l>de estos é la nueva frota,</l>
+                  <l>le saqué los carsetines</l>
+                  <l>sin tocarleni á las botas.</l>
+                  <l>Mas este trabajo fino</l>
+                  <l>de desprumar lechuginos</l>
+                  <l>no me paeció muy ecente</l>
+                  <l>y me salí á los caminos</l>
+                  <l>ques aonde van los valientes,</l>
+                  <l>Allí con mas corazon</l>
+                  <l>y con humos menos rateros,</l>
+                  <l>allegaban los viajeros</l>
+                  <l>y del primer revorcon</l>
+                  <l>me los encontraba encueros.</l>
+                  <l>Una vez atajao me ví</l>
+                  <l>por mil y tres regimientos</l>
+                  <l>en la vera el Guadalquivir</l>
+                  <l>y qué jise, en el momento</l>
+                  <l>en sus aguas me escondí.</l>
+                  <l>Me buscaron desde luego,</l>
+                  <l>pero yo con to mi brio</l>
+                  <l>debajo el agua metio</l>
+                  <l>estuve jaciendo fuego</l>
+                  <l>treinta y nueve dias seguios.</l>
+                  <l>Ar fin mandó er general,</l>
+                  <l>viéndolos á tos confusos,</l>
+                  <l>que con jachas embreas</l>
+                  <l>entraran setenta buzos,</l>
+                  <l>y me tuve que entriegar.</l>
+                  <l>A Meliya me llevaron,</l>
+                  <l>y como si juera un tesoro</l>
+                  <l>con diez llaves me guardaron;</l>
+                  <l>pero en cuanto se escudiaron</l>
+                  <l>de un sarto me pasé ar moro.</l>
+                  <l>Pronto le tomé ojerisa,</l>
+                  <l>y valiéndome é His manos </l>
+                  <l>trabajé con tanta prisa,</l>
+                  <l>que se queo sin camisa</l>
+                  <l>toito el imperio Otomano.</l>
+                  <l>Mas como juí sentenciao</l>
+                  <l>pa quitarme aquellas mañas</l>
+                  <l>á ser preso y empalao,</l>
+                  <l>ar punto salí escapao</l>
+                  <l>gorviéndome pa la España.</l>
+                  <l>Y como osté en to lugar</l>
+                  <l>he llevao la ventaja,</l>
+                  <l>ya largando bofetás</l>
+                  
+                  <pb n="3"/>
+                  
+                  <l>tomandome puñalá,</l>
+                  <l>y cobrando la baraja.</l>
+                  <l>Ahora he venió á Siviya,</l>
+                  <l>y como no tengo un duro</l>
+                  <l>me voy á casá con Aniya</l>
+                  <l>que argunos parnés aviya</l>
+                  <l>y me sacará de apuros.</l>
+                  <l>Esto es lo que jise yo,</l>
+                  <l>y en á contando estos ñuos</l>
+                  <l>se verá si aqui hay valor</l>
+                  <l>sobre los los mosos cruos.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Vamos á vé.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—A contá. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—A este lao las mugeres</l>
+                  <l>y al otro las puñalas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Cuentusté lo é miscorderes.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Ar momento, camará.</l>
+                  <l>Mosas hay aqui cuarenta</l>
+                  <l>y prumazos veinte y dos.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Pus segun reza esta cuenta</l>
+                  <l>hay cien muertos, y noventa</l>
+                  <l>mugeres.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Pus gano yo.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Cabá, que atrás me queé.</l>
+                  <l>Como se gobierna osté</l>
+                  <l>pa que se rindan tan pronto?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Las mugeres! soy yo tonto.</l>
+                  <l>Compare, lo vasté á ver.</l>
+                  <l>De mañana las diquelo,</l>
+                  <l>por la tarde las traiyo,</l>
+                  <l>á la noche las camelo,</l>
+                  <l>las jago entrar en erselo.</l>
+                  <l>y en seguia me las guiyo.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe</speaker>
+                  <l>—Toas mosas de distincion?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Hombre, no seasté guason.</l>
+                  <l>Entre rubias y morenas</l>
+                  <l>habrá malas y habrá güenas,</l>
+                  <l>y argunas de estimacion.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Pus con tanta arviliá</l>
+                  <l>no ha conseguio en su juicio</l>
+                  <l>lo ques mas ificir.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Cuar?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Una que está en el hespicio</l>
+                  <l>por sus pares encerrá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—No tengasté tar peniya </l>
+                  <l>que eso ya está medio andao,</l>
+                  <l>y si me ajuma er pescao</l>
+                  <l>le camelo asté esa Aniya </l>
+                  <l>de que ha poco me ha jablao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Quien, osté?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Yo solito, si.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pep.</speaker>
+                  <l>—Como, si está esguarniapor mi.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Pierdusté una perla.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Vá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Es que la gano.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—A vivi.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan..</speaker>
+                  <l>—De formal.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—La cosa es crara.</l>
+                  <l>Jablaré antes con Aniya,. </l>
+                  <l>no vaya á comprometerla.</l>
+                  <l>Es isir...?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>—Que va la perla.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>—Jasta impues, camaraiya.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Juan.</speaker>
+                  <l>-Jasta impues, moso con arte.</l>
+                  <l>Lo que es esto sacabao,</l>
+                  <l>con que ca uno por su lao</l>
+                  <l>y á buscársela á otra parte.</l>
+               </sp>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA—1860.
+                  <lb/>Imp. de D. J. Maria Moreno calle de Madre de Dios nümero 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

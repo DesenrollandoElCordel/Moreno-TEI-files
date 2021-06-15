@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_323">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coplas de seguidillas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coplas de seguidillas.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1861</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 351</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="3">Tres grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_323_1.xml">grabado_m_323_1</item>
+                           <item corresp="grabado_m_323_2.xml">grabado_m_323_2</item>
+                           <item corresp="grabado_m_323_3.xml">grabado_m_323_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5711649.html" type="tipo_texto">Seguidillas</term>
+               <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-12" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_323_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum"><choice>
+                     <sic>Nómero</sic>
+                     <corr>Número</corr>
+                  </choice> 351.</fw>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>COPLAS
+                  <lb/>DE SEGUIDILLAS.
+               </head>
+
+               <lg>
+                  <l rend="indent">En el piélago inmenso</l>
+                  <l>de tu belleza,</l>
+                  <l>con mis tristes borrascas</l>
+                  <l>mi amor se agena:</l>
+                  <l rend="indent">¡ay desdichado</l>
+                  <l>del que fia en los mares</l>
+                  <l>mal sondeados!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Como á la aurora aplauden</l>
+                  <l>los pajarillos,</l>
+                  <l>haciendo en su alabanza</l>
+                  <l>lenguas sus picos:</l>
+                  <l rend="indent">asi en tu nombre</l>
+                  <l>repito á todas horas</l>
+                  <l>dulces canciones.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mi corazon fallece </l>
+                  <l>sin mas motivo</l>
+                  <l>que seguir con empeño...</l>
+                  <l>mil desatinos;</l>
+                  <l rend="indent">pero se empeña</l>
+                  <l>contra sí, pues él solo</l>
+                  <l>sufre la pena.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ansiosa solicito</l>
+                  <l>que pase el tiempo,</l>
+                  <l>para que llegue el dia</l>
+                  <l>de mi contento:</l>
+                  <l rend="indent">dulces memorias,</l>
+                  <l>haced que mis pesares</l>
+                  <l>se vuelvan glorias.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es amor una pena</l>
+                  <l>llena de ardores,</l>
+                  <l>si no encuentra en lo amado</l>
+                  <l>satisfacciones:</l>
+                  <l rend="indent">mas si las halla,</l>
+                  <l>con los gustos quo logra</l>
+                  <l>la pena pasa.</l>
+               </lg>
+               <pb n=""/>
+
+               <lg>
+                  <l rend="indent">Ciego quedé al mirarte, </l>
+                  <l>dueño querido,</l>
+                  <l>bien pudieras servirme</l>
+                  <l>de lazarillo:</l>
+                  <l rend="indent">y en este caso,</l>
+                  <l>lo que perdió la vista</l>
+                  <l>ganará el tacto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En el mar de Cupido</l>
+                  <l>siempre hay borrascas,</l>
+                  <l>y en ninguno zozobran</l>
+                  <l>tantas escuadras:</l>
+                  <l rend="indent">pero no obstante,</l>
+                  <l>siempre son infinitos</l>
+                  <l>sus navegantes.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mis amantes caricias</l>
+                  <l>no quieren premio,</l>
+                  <l>porque tus falsedades,</l>
+                  <l>corren sin freno:</l>
+                  <l rend="indent">vete te digo,</l>
+                  <l>donde ese vicio infame</l>
+                  <l>te dé el castigo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Eres un ignorante,</l>
+                  <l>de amor no sabes ?</l>
+                  <l>pon la mano en mi pecho</l>
+                  <l>sabrás amarme:</l>
+                  <l rend="indent">aprende, digo,</l>
+                  <l>cómo se corresponde:</l>
+                  <l>amor tan fiño.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El tiempo que he vivido</l>
+                  <l>sin que te viese,</l>
+                  <l>no sé si yo vivia</l>
+                  <l>de puro triste:</l>
+                  <l rend="indent">tal me has dejado</l>
+                  <l>que no sé lo que digo</l>
+                  <l>ni lo que iñe hago.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque me ves que canto</l>
+                  <l>tengó yo el almas</l>
+                  <l>como la tortolilla</l>
+                  <l>que llora y canta:</l>
+                  <l rend="indent">cuando el consorte</l>
+                  <l>herido de los zelos</l>
+                  <l>se escapa al monte.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ayer no me quisiste.</l>
+                  <l>y hoy me pretendes,</l>
+                  <l>mira tus vanidades</l>
+                  <l>qué precio tienen:</l>
+                  <l rend="indent">pero no importa</l>
+                  <l>con tal que de escarmiento</l>
+                  <l>sirvas para otra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Fortuna mal contenta, </l>
+                  <l>¿de mí qué quieres</l>
+                  <l>pues ya ni amor ni zelos:</l>
+                  <l>sufrir no puedes?</l>
+                  <l rend="indent">estrella ingrata,</l>
+                  <l>¿qué te han hecho mis hados</l>
+                  <l>que así los tratas?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me acuerdo que te quise</l>
+                  <l>con toda el alma, </l>
+                  <l>mas tambien que me distes</l>
+                  <l>muy mala paga</l>
+                  <l rend="indent">y fué acertada,</l>
+                  <l>hacer con lo perdido</l>
+                  <l>mi retirada.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En las concavidades</l>
+                  <l>de un pecho herido</l>
+                  <l>un pájaro extrangero</l>
+                  <l>quiso hacer nido;</l>
+                  <l rend="indent">pero no pudo,</l>
+                  <l>porque estaba ligado</l>
+                  <l>con fuertes nudos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si pretendes señora</l>
+                  <l>darme disgusto,</l>
+                  <l>hazlo, que obedecerte</l>
+                  <l>siempre es muy justo:</l>
+                  <l rend="indent">que en cualquier cosa;</l>
+                  <l>mas quiero estés con gusto</l>
+                  <l>que no quejósa,</l>
+               </lg>
+               <pb n=""/>
+
+               <lg>
+                  <l rend="indent">Dos mil ansias padece</l>
+                  <l>quien amor sufre,</l>
+                  <l>pero en viendo á su dama</l>
+                  <l>todo le es dulce:</l>
+                  <l rend="indent">se pasa el rato,</l>
+                  <l>pero el corazon triste</l>
+                  <l>vuelve á su llanto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Amor es sobresalto,</l>
+                  <l>ódio y sospechas,</l>
+                  <l>rabia, zelos, quebranto, </l>
+                  <l>disgusto y penas:</l>
+                  <l rend="indent">y así por esto,</l>
+                  <l>aunque quiera ocultarse</l>
+                  <l>es manifiesto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si tienes á una dama</l>
+                  <l>mucho cariño,</l>
+                  <l>y ella te lo entendiere,</l>
+                  <l>serás perdido:</l>
+                  <l rend="indent">porque es sabido</l>
+                  <l>que cuando menos pienses</l>
+                  <l>te habrá vendido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Disputando de amores</l>
+                  <l>me dijo un sabio.</l>
+                  <l>que era mucha fineza</l>
+                  <l>sufrir agravios:</l>
+                  <l rend="indent">porque así luego,</l>
+                  <l>con agravios y zelos.</l>
+                  <l>mas arde el fuegon.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ten piedad, vida mia,</l>
+                  <l>mi pena advierte</l>
+                  <l>mira que te suplico</l>
+                  <l>no dés la muerte</l>
+                  <l rend="indent">á quien te adora,</l>
+                  <l>pues por tí día y noche</l>
+                  <l>suspira y llora.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Amor quiere paciencia</l>
+                  <l>con sufrimiento,</l>
+                  <l>lealtad, yalor, firmeza</l>
+                  <l>y entendimiento:</l>
+                  <l rend="indent">y asi se advierte,</l>
+                  <l>que en faltando estas cosas</l>
+                  <l>ya desfallece.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me encuentro enamorado</l>
+                  <l>de una belleza,</l>
+                  <l>pero es tal mi desgracia</l>
+                  <l>que no hay firmeza:</l>
+                  <l rend="indent">porque es variable, </l>
+                  <l>y á todos cuantos mira</l>
+                  <l>semuestra afable..</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El corazon y el gusto</l>
+                  <l>con mis potencias,</l>
+                  <l>todos están rendidos4</l>
+                  <l>á tu obediencia:, </l>
+                  <l rend="indent">si mas tuviera</l>
+                  <l>que rendir á tus plantas,</l>
+                  <l>tambien rindiera.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Apetece tres cosas</l>
+                  <l>el amor ciego,</l>
+                  <l>que es el tener constancia,</l>
+                  <l>valor y tiempo:</l>
+                  <l rend="indent">pero si falta </l>
+                  <l>cualquiera de estas cosas:</l>
+                  <l>amor es rabia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Son tan pesados grillos</l>
+                  <l>los que yo tengo,</l>
+                  <l>que no puedo, bien mio,</l>
+                  <l>con tanto peso,</l>
+                  <l rend="indent">pero quien áma </l>
+                  <l>sufre tudos los males</l>
+                  <l>con dulce calma;:::. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tiene como el diamánte</l>
+                  <l>la dama bella,</l>
+                  <l>valor, brillo, hermosura,</l>
+                  <l>fondo y firmeza;</l>
+                  <l rend="indent">y si es constante,</l>
+                  <l>no hay tesoro en el mundo</l>
+                  <l>que se la iguale.</l>
+               </lg>
+               <pb n=""/>
+
+               <lg>
+                  <l rend="indent">Es tan grande el imperio</l>
+                  <l>del Dios Cupido, </l>
+                  <l>que á sus flechás el múndo</l>
+                  <l>se ve rendido;</l>
+                  <l rend="indent">y de tal suerte;</l>
+                  <l>que tienen aun por fuerza</l>
+                  <l>que obedecerle.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En el duro tormento</l>
+                  <l>que te acongoja,</l>
+                  <l>tú lloras sin consuelo</l>
+                  <l>pero al fin lloras:</l>
+                  <l rend="indent">jay desgraciado</l>
+                  <l>del que llorar no puede,</l>
+                  <l>y está penando!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Lloro mi amarga pena</l>
+                  <l>tan sin consuelo,</l>
+                  <l>que aun la esperanza misin</l>
+                  <l>no sé si pierdo:</l>
+                  <l rend="indent">que á tal tormento</l>
+                  <l>no se si hay esperanza</l>
+                  <l>que llegue á tiempo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando mas descuidáda</l>
+                  <l>me ví contigo,</l>
+                  <l>disparó amor sus flechas</l>
+                  <l>al pecho mio:</l>
+                  <l rend="indent">desde aquel punto,</l>
+                  <l>no son sino pesares</l>
+                  <l>todos mis gustos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Llora, gime, suspira; </l>
+                  <l>siente, y al cabo, </l>
+                  <l>lo que logra un amante</l>
+                  <l>son desengaños:</l>
+                  <l rend="indent"> que al menor soplo</l>
+                  <l>se convierten en humo</l>
+                  <l>de amor los logros.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo no hablo ni respiro,</l>
+                  <l>ni oigo ni siento,</l>
+                  <l>como que está sin alma</l>
+                  <l>todo mi cuerpo;</l>
+                  <l rend="indent">y esto depende</l>
+                  <l>de ser la ausencía eñsayo</l>
+                  <l>para la muerte: </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Una preciosa rosa</l>
+                  <l>que yo tenia,</l>
+                  <l>ocultaba entre flores</l>
+                  <l>tanta malicia,</l>
+                  <l rend="indent">que dije al punto,</l>
+                  <l>así son los placeres</l>
+                  <l>que yo disfruto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hoy se hacen las exéquias</l>
+                  <l>de una esperanza,</l>
+                  <l>que murió cuando menos .</l>
+                  <l>ella pensaba;</l>
+                  <l rend="indent">y en este entierro,</l>
+                  <l>su mismo desengañó</l>
+                  <l>sirve de dueloss sin</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Amante desgraciado</l>
+                  <l>solo halla alivio</l>
+                  <l>cuando encuentra otro amante</l>
+                  <l>como él perdido:</l>
+                  <l rend="indent">que el que está malo,</l>
+                  <l>se alivia con que el otro</l>
+                  <l>pruebe su daño.</l>
+               </lg>
+
+               <trailer rend="cursiva">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1861.
+                  <lb/>Imprenta de Don José María Moreno, calle de Madre de Dios, núm. 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

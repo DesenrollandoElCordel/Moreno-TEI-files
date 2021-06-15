@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_365">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La batalla de los ángeles</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">La batalla de los angeles.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 398</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_365_1.xml">grabado_m_365_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_365_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">398.</fw>
+               
+               <head rend="negrita" type="primer_titulo">LA BATALLA DE LOS ANGELES.</head>
+               
+               <l rend="indent">Para admiracion del mundo,</l>
+               <l>y pasmo de todo el Orbe,</l>
+               <l>hoy se remonta mi pluma</l>
+               <l>á las mas altas Regiones,</l>
+               <l>aunque con turbado vuelo,</l>
+               <l>y llena de mil temores,</l>
+               <l>á registrar con cuidado</l>
+               <l>los mas lucidos blasones,</l>
+               <l>los títulos mas honrosos,</l>
+               <l>los victoriosos pendones,</l>
+               <l>que en la batalia del cielo</l>
+               <l>los Angeles vencedores</l>
+               <l>sacaron para triunfár</l>
+               <l>de aquellos fieros, y enormes</l>
+               <l>enemigos declarados</l>
+               <l>contra su Dios, y los hombres.</l>
+               <l>Para contar de esta guerra</l>
+               <l>los ardides y funciones,</l>
+               <l>victorias y vencimientos,</l>
+               <l>castigos y galardones,</l>
+               
+               <pb n="2"/>
+               
+               <fw type="paginaNum">2</fw>
+               
+               <l>y cuanto allí sucedió,</l>
+               <l>no hay lenguas en todo el Orbe,</l>
+               <l>que lo puedan declarar</l>
+               <l>con adecuadas razones.</l>
+               <l>Pero no ob tante diré</l>
+               <l>lo que pudiere, conforme</l>
+               <l>al sentir de graves plumas,</l>
+               <l>y cierias revelaciones.</l>
+               <l>Estaba Dios Trino, y uno,</l>
+               <l>el Señor de los Señores,</l>
+               <l>en sí mismo, con la gloria</l>
+               <l>de infinitas perfecciones,</l>
+               <l>antes de criar los cielos,</l>
+               <l>á los Angeles y hombres,</l>
+               <l>la tierra, el mar, y animales;,</l>
+               <l>árboles, plántas y flores,</l>
+               <l>aire, fuego, y cuanto encierra</l>
+               <l>el mundo, y todos los Orbes.</l>
+               <l>Se deleitaba en sí mismo,</l>
+               <l>sin necesitar entonces,</l>
+               <l>para su gloria y grandeza</l>
+               <l>de servicios, ni de honores,</l>
+               <l>porque nada necesita</l>
+               <l>el Señor de los Señores.</l>
+               <l>Pero como á la bondad</l>
+               <l>es tan propio, y tan conforme</l>
+               <l>querer ser comunicable,</l>
+               <l>para que otros le gozen:</l>
+               <l>quiso la Divina Esencia</l>
+               <l>comunicar sus favores,</l>
+               <l>movido de su clemencia,</l>
+               <l>para que en admiraciones</l>
+               <l>gozasen de su bondad,</l>
+               <l>su hermosura, y perfecciones</l>
+               <l>criaturas racionales:</l>
+               <l>por lo cual determinóse</l>
+               <l>en el Divino Concilio</l>
+               <l>criar Angeles, y hombres</l>
+               <l>capaces de tanta gloria,</l>
+               <l>y que á Dios diesen loores, </l>
+               <l>Dios crió en primer lugar</l>
+               <l>un Palacio, ó casa en donde</l>
+               <l>quería que le gozasen</l>
+               <l>los Angeles, y los hombres.</l>
+               <l>Con tanta magnificencia</l>
+               <l>echó el resto en sus primorés,</l>
+               <l>que á vista de su hermosura,</l>
+               <l>las hermosuras del Orbe</l>
+               <l>son unas sombras, ó nubes,</l>
+               <l>rasgos, manchas, ó borrones.</l>
+               <l>Este Palacio es el cielo,</l>
+               <l>que Empíreo tiene por nombre.</l>
+               <l>Crió la Divina Esencia</l>
+               <l>en esta Celestial Córte,</l>
+               <l>en este pensil ameno,</l>
+               <l>las criaturas mas nobles,</l>
+               <l>pues son por naturaleza</l>
+               <l>a las demás superiores,</l>
+               <l>y en diversas Gerarquias,</l>
+               <l>y Coros puso por órden,</l>
+               <l>repartiendo á cada cual.</l>
+               <l>conforme quiso sus dones.</l>
+               <l>Los Angeles fueron estas</l>
+               <l>criaturas superiores,</l>
+               <l>que en gracia fueron criados,</l>
+               <l>y por muy justas razones,</l>
+               <l>antes que á gozar liegasen</l>
+               <l>de su gloria los favóres,</l>
+               <l>quiso Dios manifestarles</l>
+               <l>Divinas revelaciones:</l>
+               <l>entre las cuales propuso</l>
+               <l>en particular á un hombre,</l>
+               <l>que por la union con el Verbo,</l>
+               <l>tendria grandes honores,</l>
+               <l>sería Rey de los Reyes,</l>
+               <l>y Señor de los Señores,</l>
+               <l>á quien todos servirían,</l>
+               <l>y con grandes sumisiones</l>
+               <l>le darian la obediencia,</l>
+               <l>cultos, y veneraciones,</l>
+               <l>y á la diestra de Dios Padre</l>
+               <l>se sentaría este hombre;</l>
+               <l>tambien les propuso Dios</l>
+               <l>una mujer, cuyo nombre</l>
+               <l>es MARIA Vírgen pura,</l>
+               <l>que llenaría de honores,</l>
+               <l>de gracia, gloria y sería</l>
+               <l>Reina, y Señora del Orbe,</l>
+               <l>de los cielos, y de cuantas</l>
+               <l>criaturas superiores,</l>
+               <l>criára la Omnipotencia,</l>
+               <l>hasta las mas inferiores;</l>
+               <l>de cuyas puras entrañas</l>
+               <l>tomaria el ser de hombre</l>
+               <l>el Verbo Divino, cuando</l>
+               <l>se humanase con los hombres.</l>
+               
+               <pb n="3"/>
+               
+               <fw type="paginaNum">3</fw>
+               
+               <l>Intimados los deeretos</l>
+               <l>en esta Celestial Górte,</l>
+               <l>no todos los admitieron</l>
+               <l>exánimes, y conformes,</l>
+               <l>unos rinden la obediencia,</l>
+               <l>y otros rebeldes se oponen</l>
+               <l>á los decretos de Dios;</l>
+               <l>comenzó la guerra entonces.</l>
+               <l>Lucifer tomó la mano</l>
+               <l>muy lleno de presunciones,</l>
+               <l>de arrogancia, y de soberbia,</l>
+               <l>juntando sus escuadrones,</l>
+               <l>y animándolos les dijo</l>
+               <l>con semejantes razones.</l>
+               <l>No es justo, Soldados mios,</l>
+               <l>que quiera Dios, que los hombres,</l>
+               <l>siendo por naturaleza</l>
+               <l>à nosotros inferiores,</l>
+               <l>tengan en el cielo sillas</l>
+               <l>á las nuestras superiores:</l>
+               <l>Bien conoceis mi hermosura,</l>
+               <l>mi ciencia, valor, y dones,</l>
+               <l>mi grandeza, mi poder,</l>
+               <l>y mis grandes perfecciones,</l>
+               <l>y las ventajas que hago</l>
+               <l>á los Angeles, y hombres.</l>
+               <l>Luego á mi toca, y se debe,</l>
+               <l>que á la diestra de Dios tome</l>
+               <l>el lugar supremo en honra,</l>
+               <l>que Dios quiere dar al hombre.</l>
+               <l>Quién como yó, que en el cielo</l>
+               <l>soy el Principe mas noble</l>
+               <l>semejante á Dios, y lleno</l>
+               <l>de todas sus perfecciones?</l>
+               <l>Rey, y cabeza he de ser</l>
+               <l>de los Angeles, y hombres,</l>
+               <l>que soy Luzbél, el mas rico,</l>
+               <l>el mas poderoso, y noble.</l>
+               <l>Pero lo que mas me irrita,</l>
+               <l>y llena de confusiones,</l>
+               <l>es que á una mujer y pura</l>
+               <l>quiere Dios, que yo la adore,</l>
+               <l>por Reina, y Señora nuestra,</l>
+               <l>y esté sujeto á su órden:</l>
+               <l>no permita mi grandeza</l>
+               <l>semejantes sinrazones.</l>
+               <l>Al arma al arma Soldados,</l>
+               <l>contra Dios ponerse en òrden,</l>
+               <l>y á los que á mi me siguieren</l>
+               <l>los llenaré de favores,</l>
+               <l>y de mi Reino serán</l>
+               <l>nobles, y grandes Señores.</l>
+               <l>Muchos Angeles siguieron</l>
+               <l>los dictámenes, y órden</l>
+               <l>de su Capitan Luzbél,</l>
+               <l>y á Dios al punto se oponen:</l>
+               <l>Pero los Angeles buenos,</l>
+               <l>que vieron las sinrazones</l>
+               <l>de Lucifer, y los suyos,</l>
+               <l>levantando sus pendones,</l>
+               <l>echaron mano á las armas</l>
+               <l>con la obediencia, y el òrden,</l>
+               <l>que tiene Dios decretado</l>
+               <l>por justisimas razones.</l>
+               <l>El Arcángel San Miguel,</l>
+               <l>que tuvo licencia, y òrden</l>
+               <l>del Rey Supremo, salió</l>
+               <l>rigiendo sus escuadrones</l>
+               <l>de Capitan General,</l>
+               <l>y con su escudo y estoque</l>
+               <l>á la vista del contrario</l>
+               <l>empezó á descargar golpes</l>
+               <l>diciendo: quién como Dios?</l>
+               <l>Quién atrevido se opone</l>
+               <l>á los decretos mas justos,</l>
+               <l>que el Altísimo dispone?</l>
+               <l>Ignoras tú, Lucifer,</l>
+               <l>que el Señor de los Señores</l>
+               <l>nuestro Dios es sábio y justo,</l>
+               <l>Infinito en perfecciones,</l>
+               <l>Criador Omnipotente,</l>
+               <l>y que todo lo conoce?</l>
+               <l>Ignoras, que te dió el ser,</l>
+               <l>la hermosura y perfecciones,</l>
+               <l>criándote de la nada,</l>
+               <l>y á todos tus seguidores?</l>
+               <l>Pues si nada tienes tuyo,</l>
+               <l>y de Dios son los favores,</l>
+               <l>sin que tu los merecieras,</l>
+               <l>como soberbio te opones</l>
+               <l>á la voluntad Divina</l>
+               <l>con tan falsas opiniones?</l>
+               <l>Si Dios es dueño absoluto</l>
+               <l>de los Angeles y hombres,</l>
+               <l>y de todas las criaturas,</l>
+               <l>y que todo lo dispone</l>
+               
+               <pb n="4"/>
+               
+               <fw type="paginaNum">4</fw>
+               
+               <l>sábia y justísimamente</l>
+               <l>con peso, medida y órden:</l>
+               <l>por qué soberbio, atrevido</l>
+               <l>sus decretos no conoces?</l>
+               <l>Si Dios quiere, que su Hijo</l>
+               <l>se humane, haciéndose hombre,</l>
+               <l>y que á su diestra se siente,</l>
+               <l>dándole tantos honores;</l>
+               <l>qué tienes tú contra esto,</l>
+               <l>cuando así Dios lo dispone?</l>
+               <l>Si tambien el Señor quiere</l>
+               <l>llenar de gracia y honores</l>
+               <l>á una mujer y que sea</l>
+               <l>Madre de Dios hecho hombre;</l>
+               <l>qué agravio á tí, ni á los tuyos</l>
+               <l>te hace Dios por ese órden?</l>
+               <l>Si Dios quiere que nosotros</l>
+               <l>á esta mujer y á este Hombre</l>
+               <l>adoremos, y sirvamos,</l>
+               <l>y tengamos por Señores,</l>
+               <l>Reyes del Cielo y la tierra,</l>
+               <l>y seamos inferiores</l>
+               <l>en honras, dones y gracias,</l>
+               <l>y ellos sean superiores;</l>
+               <l>que tenemos que alegar</l>
+               <l>contra las disposiciones</l>
+               <l>del que es todo Poderoso,</l>
+               <l>sino rendir sumiciones,</l>
+               <l>venerando sus juicios,</l>
+               <l>y dándole adoraciones?</l>
+               <l>Eso no, dijo Luzbél,</l>
+               <l>mi grandeza no conoce,</l>
+               <l>ni permite mi poder,</l>
+               <l>que yo venere y adore</l>
+               <l>por superior, y cabeza</l>
+               <l>naturaleza de hombre:</l>
+               <l>en lo dicho me mantengo,</l>
+               <l>y todos mis Escuadrones.</l>
+               <l>Calla blasfemo, atrevido,</l>
+               <l>dijo San Miguel entonces:</l>
+               <l>Quién como Dios? y esta voz</l>
+               <l>les fué tan terrible golpe</l>
+               <l>à Lucifer y á los suyos,</l>
+               <l>que en figura de Dragones,</l>
+               <l>de Serpientes, y demonios,</l>
+               <l>como unos rayos veloces</l>
+               <l>del Cielo los arrojó;</l>
+               <l>cayeron ellos tizones</l>
+               <l>de las infernales llamas,</l>
+               <l>para que con sus rigores</l>
+               <l>paguen la pena debida</l>
+               <l>de sus locas presunciones.</l>
+               <l>Pero á los Angeles buenos</l>
+               <l>les dió Dios muchos honores</l>
+               <l>confirmándolos en gracia,</l>
+               <l>su Gloria manifestóles,</l>
+               <l>que gozarán para siempre</l>
+               <l>con sus lucidos blasones.</l>
+               <l>Muera Lucifer soberbio,</l>
+               <l>con todos sus Escuadrones:</l>
+               <l>viva Jesus, y María,</l>
+               <l>por siempre su dicha gozen.</l>
+               
+               <trailer rend="negrita">Fin.</trailer>
+            </div>
+            
+            <div type="colofon">
+               <p><lb/>Carmona Imp. y lib. de D. José M.a Moreno — 1864.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
