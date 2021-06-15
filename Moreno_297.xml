@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_297">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Colección de canciones nuevas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coleccion de canciones nuevas.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 313</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Tres canciones</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>El tio canillitas.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>2-3</locus>
+                     <title>Cancion de Pepillo y Catanilla. En el tio canillitas.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>La caracolera.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="4">Cuatro grabados (p.1, p.4)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_297_1.xml">grabado_m_297_1</item>
+                           <item corresp="grabado_m_297_2.xml">grabado_m_297_2</item>
+                           <item corresp="grabado_m_297_3.xml">grabado_m_297_3</item>
+                           <item corresp="grabado_m_297_4.xml">grabado_m_297_4</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX525577.html" type="tipo_texto">Canciones</term>
+               <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_297_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1"/>
+
+            <fw type="impresorNum">(Número 313.)</fw>
+
+            <head rend="negrita" type="primer_titulo">COLECCION DE CANCIONES NUEVAS.</head>
+
+            <div n="1" type="cancion">
+               <head type="titulo_cancion">EL TIO CANILLITAS.</head>
+
+               <l rend="indent">Es una jembra morena</l>
+               <l>con unos ojos barbales.</l>
+               <l>que alumbran como ciriales</l>
+               <l>cuando se pone juncá.</l>
+               <l>—Qué cosa es junca?-Arrepara.</l>
+               <l>Sus dientes corren pareja</l>
+               <l>con las piaras de obejas</l>
+               <l>acabaas de bañá. </l>
+               <l rend="indent">Y tiene un pelo</l>
+               <l>mas negro que las alas,</l>
+               <l>didon, de un cuelvo.</l>
+               <l rend="indent">Tiene el piscuezo de tórtola,</l>
+               <l>comprendes? y la boquita</l>
+               <l>lo mesmo que una guindita,</l>
+               <l>comprendes tú, chachipe?</l>
+               <l>—Qué cosa, dime, es chachipé?</l>
+               <l>—Es como arró con tomate</l>
+               <l>tomatan estuperfacto</l>
+               <l>se me ha queao er gaché.</l>
+               <l rend="indent">Y si tú vieras,</l>
+               <l>tie un luná en la barba</l>
+               <l>como una pera.</l>
+               <l rend="indent">Tiene un pecho ..mecomprendes,</l>
+               <l>comprendes tú, é merengues...</l>
+               <l>y á luego, ¡várgame el mengue!</l>
+               <l>unos pinreles asi.</l>
+               <l>¿Qué cosa es pinreles? Esto,</l>
+               <l>mas comprendio, la pata,</l>
+               <l>mira, es la flor de la nata</l>
+               <l>de lo güeno y lo barí.</l>
+               <l rend="indent">Y á luego tiene</l>
+               <l>unas manos é oro</l>
+               <l>pa parti nuezes.</l>
+
+               <pb n="2"/>
+
+               <l rend="indent">Cataniya, tiene oblones.</l>
+               <l>y traga guita el chabó.</l>
+               <l>y los pirsis y mislones</l>
+               <l>son pescaos de mistó.</l>
+               <l rend="indent">¿Como se derrite?</l>
+               <l>¡valiente chavá! </l>
+               <l>¿qué compuesto viene,</l>
+               <l>se vá á confirmá?</l>
+               <l rend="indent">Tú lo tienes é queré,</l>
+               <l>y guen pago le as é da,</l>
+               <l>y bas á está mas lucia</l>
+               <l>que un rebeibero é gaz.</l>
+               <l rend="indent">¡Qué jermosa, Cataniya,</l>
+               <l>qué señora que estarás!</l>
+               <l>con tu peinao á la poica,</l>
+               <l>asentá e un sofiá.</l>
+               <l rend="indent">No te compongas</l>
+               <l>que ya no bas,</l>
+               <l>al gayumbito</l>
+               <l>de Puerto Real.</l>
+               <l rend="indent">No te compongas</l>
+               <l>que no as de dir,</l>
+               <l>sino á la fragua</l>
+               <l>del tio Joyin.</l>
+               <l rend="indent">Ay, Cataniya</l>
+               <l>que vas á estar,</l>
+               <l>mas repulia</l>
+               <l>quei Preste Juan.</l>
+               <l rend="indent">Ay. Cataniya</l>
+               <l>que vas á dir,</l>
+               <l>mas estiraá</l>
+               <l>que un bigolin.</l>
+               <l rend="indent">Po supuesto, Cataniya</l>
+               <l>que hasta te ba á forra,</l>
+               <l>con deiles é peyejo</l>
+               <l>esas manitas salas.</l>
+               <l rend="indent">Yas é gástar meriñaque,</l>
+               <l>y pachirulí, cabá, </l>
+               <l>ni aunque tomaras clemores</l>
+               <l>mas güena te as é quear.</l>
+               <l rend="indent">No te compongas</l>
+               <l>que ya no vas,</l>
+               <l>al gayumbito</l>
+               <l>de Puerto Real</l>
+               <l rend="indent">No te compongas</l>
+               <l>que no as de dir,</l>
+               <l>sino á la fragua</l>
+               <l>del tio Joyin.</l>
+               <l rend="indent">Ay, cataniya</l>
+               <l>que vas á estar,</l>
+               <l>mas repulia</l>
+               <l>quel Preste Juan.</l>
+               <l rend="indent">Ay, Catanilla,</l>
+               <l>que vas á dir,</l>
+               <l>mas estirá</l>
+               <l>que un bigolin.</l>
+            </div>
+
+            <div n="2" type="cancion">
+               <head type="titulo_cancion">CANCION DE PEPILLO Y CATANILLA.</head>
+               <head type="subtitulo_parte">EN EL TIO CANILLITAS.</head>
+
+               <lg>
+                  <head type="titulo_estrofa">PEPILLO.</head>
+
+                  <l rend="indent">Eres como la adelfa,</l>
+                  <l>mala gitana,</l>
+                  <l>que hechas hermosas flores</l>
+                  <l>y luego amargan.</l>
+                  <l rend="indent">Premitan los cielos</l>
+                  <l>que el dia que quieras,</l>
+                  <l>tu gachondito</l>
+                  <l>te diga, anda vete,</l>
+                  <l>y rabiando mueras:</l>
+                  <l rend="indent">¿Para que me dijiste</l>
+                  <l>toma mi alma</l>
+
+                  <pb n="3"/>
+
+                  <l>si volaba los vientos</l>
+                  <l>de la inconstacia?</l>
+                  <l rend="indent">Veté, mardecia,</l>
+                  <l>premita un dibé</l>
+                  <l>que pan te pidan</l>
+                  <l>tus probes hijitos</l>
+                  <l>y te ayes sin él.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">CATANILLA.</head>
+                  <l rend="indent">Yo no é tenio en la via</l>
+                  <l>mas queré ni mas amó,</l>
+                  <l>que er que me as dao, arma mia,</l>
+                  <l>es tan fijo como ay Dió.</l>
+                  <l rend="indent">Hermosa fror de mi biña,</l>
+                  <l>habia é secarte yo?</l>
+                  <l>aqui tienes à ta niña,</l>
+                  <l>ven y dále tu caló.</l>
+                  <l rend="indent">Ay! si te é mentío,</l>
+                  <l>que no vea la lú;</l>
+                  <l>que se vea mi pare</l>
+                  <l>preso y sin salú.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">PEPILLO.</head>
+                  <l rend="indent">Catana yo te queria,</l>
+                  <l>como la abeja á la flor,</l>
+                  <l>y asta en sueños te veia</l>
+                  <l>mas pura que sale er sol.</l>
+                  <l rend="indent">Pero tú por los monises,</l>
+                  <l>mardesios del mislon,</l>
+                  <l>has secao las raices</l>
+                  <l>de la viña de mi amó.</l>
+                  <l rend="indent">Mas sí me quisieras,</l>
+                  <l>entonces, Jesu!</l>
+                  <l>me dabas jermosa,</l>
+                  <l>toa mi salú.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">CATANILLA.</head>
+                  <l rend="indent">Quien no aya visto en er mundo</l>
+                  <l>la setima marabiya,</l>
+                  <l>que baya fretando un barco</l>
+                  <l>para el barrio élla biya.</l>
+                  <l rend="indent">Con el vito, vito, vito,</l>
+                  <l>con el vito, vito, va,</l>
+                  <l>no me jaga oste cosquiyas</l>
+                  <l>que me pongo colorá.</l>
+                  <l rend="indent">Las doncellas son de oro,</l>
+                  <l>las casaas son de prata,</l>
+                  <l>las viudas son de cobre,</l>
+                  <l>y las biejas de oja é lata.</l>
+                  <l rend="indent">Con el vito, vito, vito,</l>
+                  <l>con el vito, vito, va,</l>
+                  <l>no me jaga oste cosquiyas</l>
+                  <l>que me pongo colora.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">PEPILLO.</head>
+                  <l rend="indent">No te tapes la cara,</l>
+                  <l>mosa bonita,</l>
+                  <l>que el que tapa lo güeno</l>
+                  <l>Dios se lo quita.</l>
+                  <l rend="indent">Y es un doló....</l>
+                  <l>que por taparte pierdas</l>
+                  <l>el arrebó.</l>
+                  <l rend="indent">Tira yá ese pañuelo,</l>
+                  <l>sol é mi via....</l>
+                  <l>no se burlen tus frecos</l>
+                  <l>de mi agonia.</l>
+                  <l rend="indent">Tiralo tú....</l>
+                  <l>y probaras quereles</l>
+                  <l>de un andaluz.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">NEGRITO.</head>
+                  <l rend="indent">Yo soy el nego Mandinga</l>
+                  <l>daca lá pata, tu mi señó,</l>
+                  <l>yo soy Mandiga el nego,</l>
+                  <l>que limpia las botas</l>
+                  <l>por cuato cualtó.</l>
+                  <l rend="indent">Yo soy nego,</l>
+                  <l>mi male fué negá,</l>
+                  <l>neglito mi pare,</l>
+                  <l>neglita mi agüela;</l>
+                  <l>mas no ay compare branquito,</l>
+                  <l>que deje las botas</l>
+                  <l>como yo las dejo.</l>
+               </lg>
+            </div>
+
+            <div n="3" type="cancion">
+               <pb n="4"/>
+
+               <head rend="negrita" type="titulo_cancion">LA CARACOLERA.</head>
+
+               <lg>
+                  <l rend="indent">De la guerta del Retiro,</l>
+                  <l>quién me los merca? salero!</l>
+                  <l>que se me errama el puchero,</l>
+                  <l>mosita venga osté acá;</l>
+                  <l rend="indent">No son tan chicos ¡canela!</l>
+                  <l>vaya otro cuarto, germosos,</l>
+                  <l>oiga osté, moso grasioso, -</l>
+                  <l>tenga osté mas culiá:</l>
+                  <l rend="indent">¡Caracoles! ¡caracoles!</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">HABLADO.</head>
+                  <l rend="indent">Mosito, qué ice osté,</l>
+                  <l>que son mis ojos dos soles?</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">CANTADO.</head>
+                  <l rend="indent">Vamos viviendo, chorré,</l>
+                  <l>que son mis ojos dos soles,</l>
+                  <l>vamos viviendo chorré.</l>
+                  <l rend="indent">Que toó es cáscara, tia Paca:</l>
+                  <l>qué calumnia, Dios Eterno!;</l>
+                  <l>pues si aviyelan caa cuerno</l>
+                  <l>como su brazo de osté.</l>
+                  <l rend="indent">Que me escurro, quién me yama!</l>
+                  <l>con su sarsa y bien guisaos:</l>
+                  <l>un selemin é casaos</l>
+                  <l>vendo yo por un calé.</l>
+                  <l rend="indent">¡Caracoles! ¡ caracoles!</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">HABLADO</head>
+                  <l rend="indent">Maestro, yamaba osté?</l>
+                  <l>miste que son españoles.</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">CANTABO.</head>
+                  <l rend="indent">Vamos viviendo, chorré.</l>
+                  <l>Miste que son españoles.</l>
+                  <l>Vamos viviendo, chorré.</l>
+                  <l rend="indent">Qué ice osté, don Futraque,</l>
+                  <l>que quiere osté ser mi querio?</l>
+                  <l>soy casaa y tengo mario;</l>
+                  <l>hermano, viene osté mal.</l>
+                  <l rend="indent">Por mi gaché yo currelo</l>
+                  <l>que es de los mosos mas cruos,</l>
+                  <l>y aunque vendo los cornuos</l>
+                  <l>no los jago, puñalá! </l>
+                  <l rend="indent">¡Caracoles! ¡caracoles!</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">HABLADO.</head>
+                  <l rend="indent">Mosito, nájese osté,</l>
+                  <l>que yo tengo tres vemoles,</l>
+               </lg>
+
+               <lg>
+                  <head type="titulo_estrofa">CANTADO.</head>
+                  <l rend="indent">Vamos viviendo chorré;</l>
+                  <l>que yo tengo tres vemoles,</l>
+                  <l>vamos viviendo, chorré.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA: Imp: de D. J. M.Moreno. Calle Juan de la Cabra, núm 4.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

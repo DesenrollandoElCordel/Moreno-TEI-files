@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_280">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cada cual arrima el ascua</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Cada cual arrima el ascua. Pasillo nuevo entre
+                     hombre et muger.</title>
+                  <title type="titulo_breve">Cada cual arrima el ascua</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 292</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_280_1.xml">grabado_m_280_1</item>
+                           <item corresp="grabado_m_280_2.xml">grabado_m_280_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <acquisition>
+                     <p/>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX555916.html" type="tipo_texto">Pasillos</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_280_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum">Número 292.</fw>
+
+               <head rend="negrita" type="primer_titulo">CADA CUAL ARRIMA EL ASCUA.</head>
+               <head type="subtitulo">PASILLO NUEVO ENTRE HOMBRE Y MUGER.</head>
+
+               <stage>Sale el Hombre.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Hombre.</speaker>
+                  <l>Desde levante á poniente</l>
+                  <l>ó en lo que baña la luna,</l>
+                  <l>no se encuentra una semilla</l>
+                  <l>mas ridícula y mas mala</l>
+                  <l>que las mugeres; señores,</l>
+                  <l>hablo con razon sobrada:</l>
+                  <l>son conjunto de la envidia,</l>
+                  <l>soberbias desesperadas,</l>
+                  <l>amigas de que las quieran,</l>
+                  <l>y de estar muy bien preciadas:</l>
+                  <l>para estar con ellas bien</l>
+                  <l>no hay cosa como elogiarlas,</l>
+                  <l>decirlás: señora mia,</l>
+                  <l>Dios colmó á usted de su gracia,</l>
+                  <l>los ojos que usted disfruta</l>
+                  <l>valen mas que toda España:</l>
+                  <l>hay otras muy buenas mozas,</l>
+                  <l>altas, recias y gallardas;</l>
+                  <l>pero las pobres carecen</l>
+                  <l>de tan hermosas ventanas;</l>
+                  <l>al momento se senrin</l>
+                  <l>y dicen las muy tuimadas,</l>
+                  <l>ese es favor saballeri </l>
+                  <l>el que aprecio, mucha sgracias</l>
+                  <l>á otra aunque sca muy fea</l>
+                  <l>si la dicen: esa jaca,</l>
+                  <l>uy, uy, uy, ese cuerpo,</l>
+                  <l>vaya un almacen de gracias,</l>
+                  <l>se desanchan y se ponen</l>
+                  <l>como una esponja mojada</l>
+                  <l>sin otras doscientras cosas...</l>
+               </sp>
+               
+               <stage>Sale la Muger y dice.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Muger.</speaker>
+                  <l>Vivan los tios machacas,</l>
+                  <l>que gracia le ha dado Dios,</l>
+                  <l>oigame usted camarada,</l>
+                  <l>¿ha vaciado usted el discurso?</l>
+                  <l>pues sepa el señor pela pavas</l>
+                  <l>que el que ustedes nos celebren</l>
+                  <l>no hace maldita la falta,</l>
+                  <l>que nos quieran mucho menos, </l>
+                  <l>y si muy en hora mala</l>
+                  <l>estuviera todo hombre,</l>
+                  <l>mas allá de toca tarpa,</l>
+                  <l>muy tranquilas las mugeres</l>
+                  <l>vivieramos descuidadas,</l>
+                  <l>de que ningun pela perros</l>
+                  <l>¿con nosotras se casara,</l>
+                  <l>para sufrir una vida</l>
+                  <l>¿amargosa y desgraciada,</l>
+                  
+                  <pb n="2"/>
+                  
+                  <l>mientras el muy galopin</l>
+                  <l>lo poco que gana gasta,</l>
+                  <l>con otros igual á él</l>
+                  <l>en bebidas y en bullangas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">H.</speaker>
+                  <l>Pero ¿gastan algo vuestro?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">M.</speaker>
+                  <l>Lo nuestro y lo suyo gastan,</l>
+                  <l>porque el hombre está obligado</l>
+                  <l>desde la hora en que secasa,</l>
+                  <l>á mantener la muger</l>
+                  <l>con el dinero que gana. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">H.</speaker>
+                  <l>Y la muger ¿no se obliga</l>
+                  <l>con el hombre para nada?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">M.</speaker>
+                  <l>Si se obliga, á asearlo,</l>
+                  <l>coserle y tener la casa</l>
+                  <l>curiosa; esto se entiende</l>
+                  <l>con la muger aseada,</l>
+                  <l>que alguna que no lo sea</l>
+                  <l>por su iufelice desgracia,</l>
+                  <l>debe el hombre hacerse cargo</l>
+                  <l>y sobre llevar la carga,</l>
+                  <l>que demasiado la pobre...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">H.</speaker>
+                  <l>Maldita sea vuestra estampa</l>
+                  <l>¿pues hay alguna muger</l>
+                  <l>que sea fiel y aseada?</l>
+                  <l>A una casada ví yo,</l>
+                  <l>cortando una calabaza</l>
+                  <l>para echar en el puchero,</l>
+                  <l>cuando un niño se le caga:</l>
+                  <l>acude á limpiar el chico</l>
+                  <l>que le bosaba la braga,</l>
+                  <l>con la misma le limpió</l>
+                  <l>y se la puso en la falda,</l>
+                  <l>y siguio despues cortando</l>
+                  <l>la espresada betuaya.</l>
+                  <l>¿Cuando delante de mí</l>
+                  <l>hizo una accion tan marraná?</l>
+                  <l>hagámonos cargo á solas</l>
+                  <l>que linda andará la tana?</l>
+                  <l>¿sues aunque á esta su marido</l>
+                  <l>le diera con una vara</l>
+                  <l>todos los dias tres solfas</l>
+                  <l>perderia el pobre nada?</l>
+                  <l>Pues que digo el albañil</l>
+                  <l>que sale por la mañaná,</l>
+                  <l>en cuanto Dios dá su luz</l>
+                  <l>por lo preciso á la plaza;</l>
+                  <l>vuelve á su casa y encuentra</l>
+                  <l>á su muger acostida,</l>
+                  <l>y ella dice ¿hace frio?</l>
+                  <l>él la responde, caramba,</l>
+                  <l>que corre un pícaro zierzo</l>
+                  <l>que se hielán las palabras:</l>
+                  <l>¿pues márchate ya á la obra</l>
+                  <l>y cierrame la ventana</l>
+                  <l>mientras me visto; y alivia</l>
+                  <l>que entra la muerte pelada;</l>
+                  <l>cicrra el pobre y se retira</l>
+                  <l>y ella queda acurrucada;</l>
+                  <l>se vuelve á dormir de nuevo</l>
+                  <l>y á las nueve se levanta;</l>
+                  <l>á carrera barre y friega,</l>
+                  <l>á carrera hace la cama,</l>
+                  <l>á carrera enciende lumbre,</l>
+                  <l>á carrera saca agua,</l>
+                  <l>y cuando pone el puchero</l>
+                  <l>son las diez y media dadas;</l>
+                  <l>mientras viste los muchachos</l>
+                  <l>está la lumbre apagada,</l>
+                  <l>de esta suerte que dan las doce,</l>
+                  <l>viene el marido y se halla</l>
+                  <l>la carne chorreando sangre,</l>
+                  <l>los gurbanzos como balas,</l>
+                  <l>y la pícara le dice.</l>
+                  <l>tu no sabes comprar nada;</l>
+                  <l>unos garbanzos mas duros</l>
+                  <l>no se venden en la plaza,</l>
+                  <l>y esta carne maldecida</l>
+                  <l>sin duda será decabra,</l>
+                  <l>toda la mañana hirviendo</l>
+                  <l>y sin haber hecho nada,</l>
+                  <l>por acudir al puchero,</l>
+                  <l>no he conseguido ablandarla;</l>
+                  <l>el pobre piensa ser cierto</l>
+                  <l>y responde con cachaza:</l>
+                  <l>una vez ha de servir</l>
+                  <l>por eso no sientas nada;</l>
+                  <l>qué lástima de garrcte</l>
+                  <l>y molerle las espaldas!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">M.</speaker>
+                  <l>Esta muy bien,</l>
+                  <l>yo me quedo conformada,</l>
+                  
+                  <pb n="3"/>
+                  
+                  <l>eso le sucede á algunas:</l>
+                  <l>pero no á todas, caramba,</l>
+                  <l>que hay doscientas infelices</l>
+                  <l>mas ascadas que el agua,</l>
+                  <l>sin faltarle á sus maridos</l>
+                  <l>en sus haciendas ni en nada,</l>
+                  <l>y por el menor descuido</l>
+                  <l>anda la leña sobrada,</l>
+                  <l>mientras el grande bribon</l>
+                  <l>está en casa de fulana,</l>
+                  <l>gastando lo que no tiene,</l>
+                  <l>y estas tunas emplumadas</l>
+                  <l>le indisponen de tal suerte,</l>
+                  <l>que cuando vienen á casa</l>
+                  <l>entran pegando con toda,</l>
+                  <l>y despues de maltratadas</l>
+                  <l>si la muger le responde</l>
+                  <l>al punto coje una vara,</l>
+                  <l>y castiga á la infeliz,</l>
+                  <l>sin tener culpa de nada;</l>
+                  <l>á sus hijos aborrece,</l>
+                  <l>y les fastidian sus gracias</l>
+                  <l>la cama no está bien hecha,</l>
+                  <l>la comida está salada,</l>
+                  <l>la casa está siempre sucia</l>
+                  <l>de su lengua condenada,</l>
+                  <l>todo es malo para él,</l>
+                  <l>y luego ¿quién es la causa?</l>
+                  <l>la tunanta que le impone.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">H.</speaker>
+                  <l>Con que mi razon es clara,</l>
+                  <l>que las tunas sin bergüenza</l>
+                  <l>por naturaleza, malas,</l>
+                  <l>son ustedes las mugeres,</l>
+                  <l>porque á los hombres sonsacan</l>
+                  <l>y con cuatro carantoñas,</l>
+                  <l>nos ponen en la desgracia,</l>
+                  <l>do tener que sucumbir</l>
+                  <l>á sus ideas malvadas;</l>
+                  <l>y peor si alevosa</l>
+                  <l>llega á ser muger casada,</l>
+                  <l>aborrece á su marido,</l>
+                  <l>no le mira para nada,</l>
+                  <l>y solo con los cortejos</l>
+                  <l>vive por ser cortejada,</l>
+                  <l>y despues el resultado</l>
+                  <l>de su vida, en tal. campaña,</l>
+                  <l>es llenarse de ponzoñas;</l>
+                  <l>y el pobre que por desgracia</l>
+                  <l>¡como páj tro sinocente,</l>
+                  <l>cae en el lazo que le arma.</l>
+                  <l>A los quince ó veinte dias,</l>
+                  <l>principia con mil dolamas</l>
+                  <l>ya burujones ingleses</l>
+                  <l>ó aprietos en la garganta:</l>
+                  <l>tay Dios mid! ¡que es aquesto!</l>
+                  <l>Que ha de ser cosas qie pasan,</l>
+                  <l>señor D. Gaspar Galindo</l>
+                  <l>que está dentro de su casa,</l>
+                  <l>y de cuando encuando asoma</l>
+                  <l>por una de sus ventanas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">M.</speaker>
+                  <l>¿Y si los hombres tunantes</l>
+                  <l>se estuvieran en sus casas,</l>
+                  <l>el casado con sus hijos</l>
+                  <l>y con su muger honrada,</l>
+                  <l>y el mocito con sus padres,</l>
+                  <l>no le sucediera nada?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">H.</speaker>
+                  <l>Con que digamos en esto</l>
+                  <l>que hay que meterse en la jaula,</l>
+                  <l>y vivir siempre en prision</l>
+                  <l>por las mugeres malvadas.</l>
+                  <l>pues maldita seais todas,</l>
+                  <l>desde el cabello á la planta,</l>
+                  <l>que no hay daño que no venga</l>
+                  <l>por tan maldita canalla:</l>
+                  <l>los disgustos y lis guerras</l>
+                  <l>y las muertes desastradas,</l>
+                  <l>y la perdicion del hombre</l>
+                  <l>de las mugeres dimana:</l>
+                  <l>no teneis otro ejercicio</l>
+                  <l>mas que el que tiene la araña,</l>
+                  <l>urdir tela y enrredar</l>
+                  <l>para que la mosca caiga,</l>
+                  <l>y luego que presa es</l>
+                  <l>le chupais la sustancia,</l>
+                  <l>hasta dejarla difunta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">M.</speaker>
+                  <l>Los que los lazos nos arman,</l>
+                  <l>son los hombres engañosos</l>
+                  <l>que con suabes palabras,</l>
+                  <l>y promesas que nos hacen</l>
+                  <l>caemos en sus marañas,</l>
+                  
+                  <pb n="4"/>
+                  
+                  <l>y despues de disfrutar</l>
+                  <l>la bella flor por quien ansian,</l>
+                  <l>se marchan á la francesa</l>
+                  <l>y nos dejan desgraciadas,</l>
+                  <l>á la crítica del mundo</l>
+                  <l>para siempre deshonradas.</l>
+                  <l>Se acabaron las promesas,</l>
+                  <l>y los amores se acaban,</l>
+                  <l>y con sus malditas lenguas</l>
+                  <l>nos desuellan y difaman:</l>
+                  <l>sabe Juanico y Períco</l>
+                  <l>sus echos y tunantadas;</l>
+                  <l>de suerte, si es moza ò viuda</l>
+                  <l>ya no puede ser casada</l>
+                  <l>y si ésta tiene marido</l>
+                  <l>va corriendo la palabra,</l>
+                  <l>hasta que el infierno entra</l>
+                  <l>abreviado en esta casa,</l>
+                  <l>de aquí se siguen disgustos,</l>
+                  <l>los ódios y malas caras,</l>
+                  <l>y por fin, para en divorcio</l>
+                  <l>y una vida desastrada;</l>
+                  <l>pues digame el que me oye,</l>
+                  <l>¿quién es de todo la causa?</l>
+                  <l>Los picaros de los hombres</l>
+                  <l>con sus palabras preñadas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">H.</speaker>
+                  <l>Eso es lo que deseais,</l>
+                  <l>maldecidas de la gracia</l>
+                  <l>las mugeres que hoy se crian,</l>
+                  <l>si de quince años pasan</l>
+                  <l>no ignoran lo que es el mundo,</l>
+                  <l>y saben por cosaclara</l>
+                  <l>las resultas del amor</l>
+                  <l>y lo que de este dimana.</l>
+                  <l>Pues ven acá tunantona,</l>
+                  <l>que así debemos llamarla,</l>
+                  <l>por qué no guardas tu honor?</l>
+                  <l>bien sé porque no le guardas,</l>
+                  <l>porque en viendo unos calzones</l>
+                  <l>á todas se os cae la baba,</l>
+                  <l>y en hablando con un hombré</l>
+                  <l>y este les dá alguna chanza</l>
+                  <l>se derriten y responden</l>
+                  <l>con otra doble pesada:</l>
+                  <l>de suerte que la vergüenza</l>
+                  <l>en mugeres no se halla.</l>
+                  <l>Vista la desemboltura,</l>
+                  <l>y el hombre sin perder nada</l>
+                  <l>dice para sí: muy bien,</l>
+                  <l>supuesto que de amor rabias,</l>
+                  <l>amores te daré yó</l>
+                  <l>y salga por donde salga:</l>
+                  <l>de aqui resulta á el instante</l>
+                  <l>el que salen opiladas,</l>
+                  <l>y el que pierdan el honor,</l>
+                  <l>porque á ellas les dá gana.</l>
+                  <l>Con que ¿quién tiene la culpa?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">M.</speaker>
+                  <l>Cada cual arrima el ascua,</l>
+                  <l>siendo asi que las mugeres</l>
+                  <l>son siempre las agraviadas:</l>
+                  <l>malditos sean los hombres</l>
+                  <l>y quien sus hechos alaba.</l>
+                  <l>Me marcho, por que no puedo</l>
+                  <l>sufrirle á usted sus palabras:</l>
+                  <l>maldita sea su baca,</l>
+                  <l>si tiene maldita cara... <stage>Vase.</stage></l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">H.</speaker>
+                  <l>Tú si que eres un demonio,</l>
+                  <l>y todos los de tu casta</l>
+                  <l>pensaría la picarona</l>
+                  <l>que se iba á llevar la palma</l>
+                  <l>y arrollarnos á los hombres,</l>
+                  <l>vaya muy en hora mala,</l>
+                  <l>que lo que digo es verdad</l>
+                  <l>y no le niego la cara,</l>
+                  <l>á el que quiera defender</l>
+                  <l>una semilla tan mala,</l>
+                  <l>¿porque aunque dice el refran</l>
+                  <l>¿cada cual arrima el ascua,</l>
+                  <l>cuanto he dicho de ellás</l>
+                  <l>es con la razon sobrada,</l>
+                  <l>y asi quedaros con Dios</l>
+                  <l>él os dé su santa gracia,</l>
+                  <l>y á mí para publicar</l>
+                  <l>vuestras drogas y marañas...</l>
+               </sp>
+            </div>
+            
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859.
+                  <lb/>Imprenta de D. José M. Moreno, calle de Madre de Dios, núm. 1
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

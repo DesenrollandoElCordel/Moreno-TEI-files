@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_290">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Colección de canciones</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coleccion de canciones,</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 303</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cuatro canciones</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>El pilluelo de Madrid.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>2</locus>
+                     <title>La sal de la canela.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3</locus>
+                     <title>La perla de Triana.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Las corraleras de Sevilla.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="3">Tres grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_290_1.xml">grabado_m_290_1</item>
+                           <item corresp="grabado_m_290_2.xml">grabado_m_290_2</item>
+                           <item corresp="grabado_m_290_3.xml">grabado_m_290_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX525577.html" type="tipo_texto">Canciones</term>
+               <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_290_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1"/>
+
+            <fw type="impresorNum">Número 303.</fw>
+
+            <head rend="negrita" type="primer_titulo">COLECCION DE CANCIONES,</head>
+
+            <div n="1" type="cancion">
+               <head type="titulo_cancion">EL PILLUELO DE MADRID.</head>
+
+
+               <lg>
+                  <l rend="indent">Húerfano soy en la tierra,</l>
+                  <l>y por esomno suspiro,</l>
+                  <l>que independiente respiro,</l>
+                  <l>y el mundo á mi no me aterra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Libre soy, y mis hermaños</l>
+                  <l>han de ser todos los hombres:</l>
+                  <l>nada me importan los nombres </l>
+                  <l>de marqueses ni villanos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yó nací del pueblo bajo;</l>
+                  <l>y de la gente vasalla,</l>
+                  <l>y aunque soy de la canalla</l>
+                  <l>vivo á costa del trabajo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Soy de la gente perdida,</l>
+                  <l>como dicen los señores,</l>
+                  <l>á los que á fuer de sudores:</l>
+                  <l>se ganá la honrada vida.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando el Pilluelo va al Prado,</l>
+                  <l>al ver tanto monigote,</l>
+                  <l>se le eriza su bigote,</l>
+                  <l>y le dá angustia y enfado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo entre las turbas paseo</l>
+                  <l>del barrio de la Paloma,</l>
+                  <l>tras un belen otra broma</l>
+                  <l>tras un baile otro jaleo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo me voy á la pradera</l>
+                  <l>entre perfumadas flores.</l>
+                  <l>á gozar de los amores.</l>
+                  <l>de una muger hechicera, </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que es de Madrid la Esmeralda</l>
+                  <l>con su airosa mantelina,</l>
+                  <l>con su cintura divina</l>
+                  <l>zapatito y corta falda.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mas que el palacio de Oriente</l>
+                  <l>me gusta á mi una merienda</l>
+                  <l>en el canal con mi prenda</l>
+                  <l>de Madrid sol refulgente...</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Alli se baila y se goza</l>
+                  <l>y olvidan sustos aciagos,</l>
+                  <l>y calientes con los tragos</l>
+                  <l>se juguetea y retoza.</l>
+               </lg>
+
+               <pb n="2"/>
+
+               <lg>
+                  <l rend="indent">A los que escuches decir</l>
+                  <l>que esta mi cancion les carga,</l>
+                  <l>son de la cáscara amarga</l>
+                  <l>¡que la traguen!... y á vivir.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que poco le importa ab Pillo</l>
+                  <l>de tirana y necia gente;</l>
+                  <l>siempre dice lo que siente:</l>
+                  <l>la verdad es su estrivillo,</l>
+                  <l>y con esto me las guillo.</l>
+               </lg>
+            </div>
+
+            <div n="2" type="cancion">
+               <head type="titulo_cancion">LA SAL DE LA CANELA.</head>
+
+
+               <lg>
+                  <l rend="indent">Con eze cabeyo rojo</l>
+                  <l>que al mármol roba la calma</l>
+                  <l>y ez el iman de mi antojo,</l>
+                  <l>haz puesto, niña del alma,</l>
+                  <l>mi corazon en remojo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Zi argun mandria lo murmura</l>
+                  <l>que ze lo cuente á zu abuela,</l>
+                  <l>criatura!</l>
+                  <l>ay! benaya eza cintura</l>
+                  <l>que ez la zal de la canela.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tu zabes y yo bien zé</l>
+                  <l>que en el punto que te vi</l>
+                  <l>mi corazon te entregué.</l>
+                  <l>Zi yo te digo alto aqui!</l>
+                  <l>no digas, que no hay de qué.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Porque ez tanta tu hermozura</l>
+                  <l>que perderé la cautela, </l>
+                  <l>criatura!</l>
+                  <l>en guipando eza cintura</l>
+                  <l>que ez la zal de la canela.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ay, zi un galan turuleque</l>
+                  <l>la paz á mi pecho inquieta</l>
+                  <l>dile niña que no peque,</l>
+                  <l>ó en la punta de la teja</l>
+                  <l>le he de pintar un jabeque.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Naide goce tu ternura</l>
+                  <l>ó le arrimaré candela,</l>
+                  <l>criatura!</l>
+                  <l>pues me encanta eza cintura</l>
+                  <l>que ez la zal de la canela.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No envidio al hombre que brilla</l>
+                  <l>con fajaz y solideoz,</l>
+                  <l>que ezo no entra en mi cartiya,</l>
+                  <l>ni me petan los jaleoz</l>
+                  <l>de la gente de goliya.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mas enzalza mi ventura</l>
+                  <l>que roar en carretela,</l>
+                  <l>criatura! </l>
+                  <l>eza gachona cintura</l>
+                  <l>que ez la zal de la canela.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ay! es tal mi frenesí,</l>
+                  <l>que zi tu no erez ingrata</l>
+                  <l>no me importa que por tí</l>
+                  <l>me dé la ley por corbata</l>
+                  <l>los calzones del buchí.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo quiero la zepultura</l>
+                  <l>zi allí con amor me vela</l>
+                  <l>criatura!</l>
+                  <l>eza divina cintura</l>
+                  <l>que ez la zal de la canela</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">He de zacar mi churí</l>
+                  <l>zi Dios lo contrario manda,</l>
+                  <l>para romper la chichí</l>
+                  <l>al desventurado randa.</l>
+                  <l>Quien pienze darme pavura</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">yo le haré ver que no cuela,</l>
+                  <l>que camela á mi rumí,</l>
+                  <l>criatura! </l>
+                  <l>dizputando eza cintura</l>
+                  <l>que ez la zal de la canela.</l>
+               </lg>
+            </div>
+
+            <div n="3" type="cancion">
+               <pb n="3"/>
+
+               <head rend="negrita" type="titulo_cancion">LA PERLA DE TRIANA.</head>
+
+               <lg>
+                  <l rend="indent">¡Viva lá tez morena,</l>
+                  <l>viva el zalero.. Juy!</l>
+                  <l>viva la jembra crua</l>
+                  <l>por quien muero...</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ella tiene por ojoz dozzoles</l>
+                  <l>caracoles;</l>
+                  <l>ay, queria;</l>
+                  <l>yo he cegao desque loz es visto.</l>
+                  <l>Jesucrizto;</l>
+                  <l>cómo hacen pená! </l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Que es la perla de Triana</l>
+                  <l>mi gitana,</l>
+                  <l>y chorrea caliá.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Uy qué pierna...! pruencia,</l>
+                  <l>que está vedao,</l>
+                  <l>el meterse en la renta</l>
+                  <l>del escusao.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Quién pudiera callá las pazione,</l>
+                  <l>tentazíoné; </l>
+                  <l>atróce me han</l>
+                  <l>de... tomá á sú pae por zuegro,</l>
+                  <l>aunque ez negro</l>
+                  <l>como el alquitran.</l>
+                  <l rend="cursiva">Que es la perla etc.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Zu garbo y zu zanduga</l>
+                  <l>man derretío;</l>
+                  <l>y por eso mancuentro</l>
+                  <l>tan consumío;</l>
+                  <l>puez no hay hombre muy eztirao</l>
+                  <l>que su agrao;</l>
+                  <l>no zepa apreciá:</l>
+                  <l>Porque zolo la zal ca vertío</l>
+                  <l>ha perdío</l>
+                  <l>la renta estancá. </l>
+                  <l rend="cursiva">Que es la perla etc.</l>
+               </lg>
+            </div>
+
+            <div n="4" type="cancion">
+               <head rend="negrita" type="titulo_cancion">LAS CORRALERAS DE SEVILLA</head>
+
+
+               <lg>
+                  <l rend="indent">Llevan las sevillanas</l>
+                  <l>en el zapato,</l>
+                  <l>un letrero que dice:</l>
+                  <l>¡viva el tabaco! </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y en la mantilla,</l>
+                  <l>un letrero que dice:</l>
+                  <l>¡viva Sevilla!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por las olas del rio</l>
+                  <l>marcha un gargajo;</l>
+                  <l>se encontró con un moco,</l>
+                  <l>¡vaya dos majos!,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">¡Hay prenda mía,</l>
+                  <l>yo no sé lo que paso,</l>
+                  <l>cuando me miras!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si Sevilla tuviera</l>
+                  <l>menos murallas,</l>
+                  <l>los suspiros que te echo,</l>
+                  <l>los escucháras.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pero está visto,</l>
+                  <l>no sirve que yo rece</l>
+                  <l>al Santo Cristo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A la luz de mis ojos</l>
+
+                  <pb n="4"/>
+
+                  <l>que me iluminan</l>
+                  <l>tus amantes querellas</l>
+                  <l>tristes caminan.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y por costumbre,</l>
+                  <l>se vuelven donde miran</l>
+                  <l>su viva lumbre.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando escuchas mi nombre,</l>
+                  <l>al ser de dia,</l>
+                  <l>se le disipan las penas</l>
+                  <l>al alma mia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mas si me olvidas,</l>
+                  <l>vuelve á cerra la hora</l>
+                  <l>de mis fatigas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando paso y te miro</l>
+                  <l>que estás quejosa,</l>
+                  <l>me tiro por el suelo</l>
+                  <l>con mi pañosa.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me acenco, y luego</l>
+                  <l>á la luz de tu cara</l>
+                  <l>me quedo ciego.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De San Juan á San Pedro</l>
+                  <l>van cinco dias:</l>
+                  <l>cinco mil son las peñas</l>
+                  <l>tuyas y mias.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Porque este mundo.</l>
+                  <l>se hizo pa que sufriera</l>
+                  <l>siempre, tu Curro.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Las estrellas del cielo</l>
+                  <l>sonsciento y doce ;</l>
+                  <l>y las dos de tu cara. </l>
+                  <l>ciento y cátorce.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y aqui doy punto,</l>
+                  <l>que si asi no lo hiciera</l>
+                  <l>era difunto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Del templo de Cupido</l>
+                  <l>soy muy devoto,</l>
+                  <l>la santa que adoraba</l>
+                  <l>se fué con otro.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No me dá pena,</l>
+                  <l>que ya tengó otra santa</l>
+                  <l>que mas me quiera.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Quién tuviera la dicha</l>
+                  <l>de Adan y Eva,</l>
+                  <l>de no haber conocido</l>
+                  <l>suegro ni suegra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que es un infierno</l>
+                  <l>tener á dos demonios</l>
+                  <l>siempre contentos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Al pefro de San Roque</l>
+                  <l>le han levantado.</l>
+                  <l>un falso testimonio</l>
+                  <l>que está preñado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Malo está el mundo</l>
+                  <l>que el perro de San Roque</l>
+                  <l>no está seguro.</l>
+               </lg>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859.
+                  <lb/>Imprenta de D. José M. Moreno, calle de Madre de Dios, núm. 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

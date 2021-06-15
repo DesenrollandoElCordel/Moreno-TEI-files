@@ -1,0 +1,758 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_224">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>D. Pedro Azedo y el Príncipe de Argel</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Don Pedro Azedo y el Principe de Argel.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1861</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 252</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p. 1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_224_1.xml">grabado_m_224_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-14" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_224_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+
+               <pb n="1"/>
+
+               <fw type="impresorNum">Número 232.</fw>
+
+               <head type="primer_titulo"><hi rend="negrita">DON PEDRO AZEDO,</hi>
+                  <lb/><hi rend="negrita">Y EL</hi>
+                  <lb/><hi rend="cursiva">PRINCIPE DE ARGEL.</hi></head>
+
+               <div n="1" type="parte">
+                  
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+                  
+                  <l rend="indent">En la ciudad mas alegre,</l>
+                  <l>que calienta con reflejos</l>
+                  <l>ese Farol luminante</l>
+                  <l>de ese tachonado Cielo,</l>
+                  <l>cuyas alfombras de estrellas</l>
+                  <l>adornan al firmamento,</l>
+                  <l>que es la ciudad de Alicante,</l>
+                  <l>de España famoso puerto</l>
+                  <l>que hoy lo rige y gobierna,</l>
+                  <l>el Rey Cárlos Cuarto nuestro,</l>
+                  <l>Monarca Invícto de España,</l>
+                  <l>cuya vida guarde el Cielo.</l>
+                  <l>En fin en esta Ciudad</l>
+                  <l>que ya mencionada dejo</l>
+                  
+                  <pb n="2"/>
+                  
+                  <fw type="paginaNum">2</fw>
+                  
+                  <l>de padres noblés y ricos</l>
+                  <l>nació un bizarro mancebo,</l>
+                  <l>es liberal y entendido,</l>
+                  <l>para las armas muy diestro.</l>
+                  <l>Llamabase aqueste jóven</l>
+                  <l>el Señor D. Pedro Azedo,</l>
+                  <l>apenas tuvo veinte años</l>
+                  <l>este noble Caballero,</l>
+                  <l>se enamoró de una dama,</l>
+                  <l>que era la hija de Vénus;</l>
+                  <l>un portento en hermosura,</l>
+                  <l>y de Palas un bosquejo.</l>
+                  <l>Paseàbale la calle</l>
+                  <l>con amorsos anhelos</l>
+                  <l>siendo un lince de sus rejas,</l>
+                  <l>y otro Argos en sus desvelos,</l>
+                  <l>le escribió muchos billetes,</l>
+                  <l>con muchos discretos versos,</l>
+                  <l>dándole á entender su amor,</l>
+                  <l>y la dama conociendo</l>
+                  <l>la firmeza de su amante,</l>
+                  <l>aguardó lugar y tiempo,</l>
+                  <l>y un domingo por latarde</l>
+                  <l>estando tomando el frezco</l>
+                  <l>en la puerta del jardin,</l>
+                  <l>vido yenir á D. Pedro,</l>
+                  <l>le aguardo con gran semblanto</l>
+                  <l>llegó, y se quitó el sombrero,</l>
+                  <l>le hizo una cortesía,</l>
+                  <l>y le dice; amado, dueño</l>
+                  <l>ó que diShososequs haysido</l>
+                  <l>mis ojos en este tiempo!</l>
+                  <l>Pues han llegado á mirar</l>
+                  <l>á tan peregrino objeto:</l>
+                  <l>si merecie ra, Señor,</l>
+                  <l>el ser tu querido dueño,</l>
+                  <l>no hubiera cosa én el mundo</l>
+                  <l>para mí de mayor precio.</l>
+                  <l>le respondió la Señora,</l>
+                  <l>diciéndole: Caballero.</l>
+                  <l>has de saber, que mí padre</l>
+                  <l>tiene su merced otró intento,</l>
+                  <l>de msterme religiosá; </l>
+                  <l>y yo ser monja no quiero,</l>
+                  <l>porque estoy determinada</l>
+                  <l>á pagar vuestros desvelos,</l>
+                  <l>¿egad, Señor á mi Padre,</l>
+                  <l>¿á pedirme en casamiento,</l>
+                  <l>con la respuesta que os diere,</l>
+                  <l>luego despues nos veremos.</l>
+                  <l>Toda la tarde pasaron</l>
+                  <l>con finezas, y requiebros, </l>
+                  <l>y asi que llegó la noche,</l>
+                  <l>alegres, se despidieron:</l>
+                  <l>fué el caballero á su casa</l>
+                  <l>regocijado y contento,</l>
+                  <l>y así que amaneció el dia</l>
+                  <l>con gran cuidado y anhelo</l>
+                  <l>fué D. Pedro vigilante</l>
+                  <l>á la casa de su suegro,</l>
+                  <l>llegó y tocando á la puerta,</l>
+                  <l>salió á abrirle un escudero,</l>
+                  <l>le preguntó por su amo,</l>
+                  <l>y le respondió diciendo:</l>
+                  <l>en casa está su merced.</l>
+                  <l>Diga usted á ese caballero,</l>
+                  <l>que aquí está puesto á sus plantas</l>
+                  <l>al Señor D. Pedro Azedo,</l>
+                  <l>si me concede lícencia,</l>
+                  <l>pasaré luego állá dentro,</l>
+                  <l>á hablarle cuatro palabras,</l>
+                  <l>que traigo de mucho empeño.</l>
+                  <l>Fué el paje, subió elrecado,</l>
+                  <l>pero el bizarro D, Diego</l>
+                  <l>lo recibió en una sala:</l>
+                  <l>y con muchos cumplimientos,</l>
+                  <l>se saludaron corteses,</l>
+                  <l>y declarándo su intento,</l>
+                  <l>D. Diego dijo: Señor,</l>
+                  <l>yo tengo hecho el concepto</l>
+                  <l>de meterla religiosa,</l>
+                  <l>pero no sé sus intentos</l>
+                  <l>y para que no dudeis</l>
+                  <l>ni en mi nunca pongais duelo,</l>
+                  <l>aquí en presencia de todos</l>
+                  <l>será bien que la llamemos,</l>
+                  
+                  <pb n="3"/>
+                  
+                  <fw type="paginaNum">3</fw>
+                  
+                  <l>Llamó á su querida hija</l>
+                  <l>la cual acudio al momento,</l>
+                  <l>mas blanca que una azucena,</l>
+                  <l>y aun mas hermosa que Vénus;</l>
+                  <l>entró en el cuarto, y mirando</l>
+                  <l>á su muy amado dueño .</l>
+                  <l>disimuló cuanto pudo,</l>
+                  <l>y dice el anciano viejo:</l>
+                  <l>Has de saber hija mia,</l>
+                  <l>que este noble caballero.</l>
+                  <l>te ha pedido por, esposa,</l>
+                  <l>solo tu respuesta espero.</l>
+                  <l>Respondiò determinada</l>
+                  <l>con un semblante alhagüeño.</l>
+                  <l>diciéndole; Señor padre</l>
+                  <l>yo tengo echo el concepto</l>
+                  <l>de daros gusto cumplido</l>
+                  <l>en lo que mandais, y es cierto</l>
+                  <l>que si es cosa que conviene,</l>
+                  <l>yo estimo mucho á don Pedro,</l>
+                  <l>y lo tendré por mi esposo,</l>
+                  <l>siendo usted gustoso en ello.</l>
+                  <l>Viendo la resolucion,</l>
+                  <l>entre los dos dispusieron</l>
+                  <l>se efectuasen las bodas,</l>
+                  <l>y tambien al mismo tiempo</l>
+                  <l>se dieron palabra y mano,</l>
+                  <l>estos dos amantes tiennos;</l>
+                  <l>querer contar las finezas.</l>
+                  <l>solo á el silencio las dejo.</l>
+                  <l>Despidieronse corteses,</l>
+                  <l>y aquella tarde don Pedro</l>
+                  <l>solo se bajó á la playa,</l>
+                  <l>por divertir pensamientos,</l>
+                  <l>y andandose recreando,</l>
+                  <l>vió que abordaba en el puerto</l>
+                  <l>un barquillo de corsarios,</l>
+                  <l>que traian prisioneros</l>
+                  <l>cuatro turcos argelinos,</l>
+                  <l>y reparó el caballero,</l>
+                  <l>que entre los cuales venia,</l>
+                  <l>un vigilante mancebo,</l>
+                  <l>tan dispuesto, y bizarro,</l>
+                  <l>tan cortés como discreto,no an :</l>
+                  <l>le dijo al que gobernaba. a!.</l>
+                  <l>que si queria benderlo,:</l>
+                  <l>dicen que sí y lo ajustaron7</l>
+                  <l>en ciento cincuenta pesos.!</l>
+                  <l>Tomandolo por la mano.</l>
+                  <l>lo entro en casa de su dueño,;</l>
+                  <l>y le dice, amada prenda,1!</l>
+                  <l>hoy he hecho aqueste empleo,</l>
+                  <l>qué te he comprado un esclavo. </l>
+                  <l>que te sirva de escudero:</l>
+                  <l>mira que lo trateis bien,</l>
+                  <l>que es hombre de grande arresto.</l>
+                  <l>Lo recibió la Señora,</l>
+                  <l>y quedó en casa el mancebo,</l>
+                  <l>sirviendo tan lealmente,</l>
+                  <l>que estan los amos contentos;</l>
+                  <l>mas un dia por la siesta,</l>
+                  <l>en tiempo que está D. Diego</l>
+                  <l>recostado allá en su cama,</l>
+                  <l>pagándo tributo al sueño,</l>
+                  <l>fué D. Pedro á ver su dama,</l>
+                  <l>y entró con algun silencio</l>
+                  <l>mas á el pasar por el cuarto</l>
+                  <l>del turco, oyó que con tiérnos</l>
+                  <l>suspiros se lamentaba</l>
+                  <l>y decía aquestos écos</l>
+                  <l>oh! desdichado de mi</l>
+                  <l>que de esta suerte me veo</l>
+                  <l>siendo principe de Argel,</l>
+                  <l>y ahora estoy prisionero!</l>
+                  <l>Mas lo que llego á sentir</l>
+                  <l>y mas me lastima el pecho</l>
+                  <l>es mi muy querida Zaira,</l>
+                  <l>que el ir á verla no puedo.</l>
+                  <l>Ay, Zaira del alma mia,</l>
+                  <l>quien pudiera ser correo.</l>
+                  <l>e ir á llevar la nueva</l>
+                  <l>del parage en que me veo</l>
+                  <l>El amo que atento escucha,</l>
+                  <l>se metió pronto allá dentro,</l>
+                  <l>y le dice, mira moro,</l>
+                  <l>juro á ley de caballero,</l>
+                  
+                  <pb n="4"/>
+                  
+                  <fw type="paginaNum">4</fw>
+                  
+                  <l>si me cuentas la verdad</l>
+                  <l>de lo que estabas diciendo,</l>
+                  <l>de ampararte en cuanto pueda,</l>
+                  <l>y darte libertad luego.</l>
+                  <l>El turco le respondió</l>
+                  <l>formando un suspiro tierno,</l>
+                  <l>si mes estás atento un rato,</l>
+                  <l>te he de contar mi suceso.</l>
+                  <l>Yo soy principe de Argel</l>
+                  <l>y Señor de todo el reino,</l>
+                  <l>y estaba recien casado</l>
+                  <l>con el hermoso compendio</l>
+                  <l>de la princesa de Tunez,</l>
+                  <l>y ese es el dolor que siento;</l>
+                  <l>y aquellos tres que llegaron</l>
+                  <l>aqui en mi acompañamiento</l>
+                  <l>eran deudos muy cercanos</l>
+                  <l>de mi muy querido dueño;</l>
+                  <l>y fué que estando una noche</l>
+                  <l>los cuatro tomando el frezco</l>
+                  <l>en las orillas del mar,</l>
+                  <l>llegó ese barco sobervio,</l>
+                  <l>y sin poder escaparnos,</l>
+                  <l>nos trajeron prisioneros,</l>
+                  <l>donde estoy á tu mandado,</l>
+                  <l>y así por Alá te ruego,</l>
+                  <l>que me concedais licencia.</l>
+                  <l>para que le escriba un pliego,</l>
+                  <l>dandole cuenta á mi padre</l>
+                  <l>del parage en que me veo,</l>
+                  <l>que tendreis por mi rescate</l>
+                  <l>un millon de oro muy cierto.</l>
+                  <l>El amo le respondió</l>
+                  <l>muy cortesaño, y discreto:</l>
+                  <l>si es verdad lo que me dices;</l>
+                  <l>desde luego te prometo</l>
+                  <l>el darte tu libertad;</l>
+                  <l>y de ponerte en tu reino,</l>
+                  <l>pues vale mas mi palabra,</l>
+                  <l>que cuanto tiene un imperio;</l>
+                  <l>pero el turco agradecido</l>
+                  <l>metió la mano en su pecho,</l>
+                  <l>y sacando uná venera,</l>
+                  <l>y un toison de grande precio,</l>
+                  <l>le dice: Toma, Señor</l>
+                  <l>estas dos prendas que tengo,</l>
+                  <l>y mira que las guardeis,</l>
+                  <l>que son de estmmado precio:</l>
+                  <l>el amo las recibió,</l>
+                  <l>y al punto se despidieron:</l>
+                  <l>se fué donde estaba su dama,</l>
+                  <l>contándole este suceso,</l>
+                  <l>le dieron cuenta á su padre,</l>
+                  <l>y todos tres muy contentos,</l>
+                  <l>den libertad á el esclavo,</l>
+                  <l>pues se lo ofreció D. Pedro,</l>
+                  <l>y con aquestas ra zones,</l>
+                  <l>abreviando el casamiento</l>
+                  <l>se celebraron las bodas, </l>
+                  <l>donde hoy viven muy contentos,</l>
+                  <l>dándole gracías á Dios</l>
+                  <l>doña Isabel y D Pedro.</l>
+                  <l>Dejemos en este estado</l>
+                  <l>este romance Primero,</l>
+                  <l>que en otra segunda parte,</l>
+                  <l>noble auditorió discreto,</l>
+                  <l>daré notícias cumplidas</l>
+                  <l>de esta historia por entero.</l>
+                  <trailer rend="negrita">FIN DE LA PRIMERA PARTE.</trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  
+                  <pb n="5"/>
+                  
+                  <fw type="paginaNum">5</fw>
+                  
+                  <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+                  <l rend="indent">Sí con el primer romance,</l>
+                  <l>noble auditorio discreto</l>
+                  <l>no le dí fin á la historia,</l>
+                  <l>atencion que ya comienzo.</l>
+                  <l>Ya sabran como quedaron</l>
+                  <l>doña Isabel y D. Pedro</l>
+                  <l>muy unidos y conformes</l>
+                  <l>en su feliz casamiento,</l>
+                  <l>y deseóso de hallar</l>
+                  <l>embarcacion en el puerto,</l>
+                  <l>para embiar al esclavo:</l>
+                  <l>que el que es noble y caballero</l>
+                  <l>se porta de aquesta suerte:</l>
+                  <l>y andando con grande anhelo,</l>
+                  <l>tados los dias salian</l>
+                  <l>el principe con D. Pedro</l>
+                  <l>á divertirse á la playa</l>
+                  <l>y una tarde quiso el cielo,</l>
+                  <l>que estando los dós sentados</l>
+                  <l>en el muelle llegó al puerto,</l>
+                  <l>un navio de irlandeses,</l>
+                  <l>que le faltó bastimento</l>
+                  <l>para seguir sú viaje,</l>
+                  <l>y el caballero á este tiempo</l>
+                  <l>se metió en la embarcacion,</l>
+                  <l>y al piloto marinero</l>
+                  <l>le preguntó donde iba;</l>
+                  <l>y le respondió diciendo:</l>
+                  <l>para la ciudad de Argel</l>
+                  <l>ciertas mercancias llevo,</l>
+                  <l>que alla tengo buen despacho,</l>
+                  <l>y le dice el caballero:</l>
+                  <l>Amígo, si usted pudiera</l>
+                  <l>sacarme de aqueste empeño,</l>
+                  <l>que hay en mi casa un esclavo;</l>
+                  <l>que ha servido mucho tiempo</l>
+                  <l>á sus amos lealmente,</l>
+                  <l>y prometido le tengo,</l>
+                  <l>de darle la libertad,</l>
+                  <l>y de ponerlo en su reino,</l>
+                  <l>y si usted quiere llevarlo.</l>
+                  <l>pagaré el viage luego:</l>
+                  <l>dijo que si, y lo ajustaron</l>
+                  <l>el trasportarlo en cien pesos.</l>
+                  <l>Se despidió vigilante,</l>
+                  <l>fué á su casa el caballero.</l>
+                  <l>y le dice; esposa mia,</l>
+                  <l>has de saber, que ya tengo;</l>
+                  <l>el viage negociado,</l>
+                  <l>y embarcacion en el puerto,</l>
+                  <l>para que lleveel esclavo</l>
+                  <l>á su tierra con acierto:</l>
+                  <l>mañana por la mañana,</l>
+                  <l>si viene feliz el viento,</l>
+                  <l>tiene de ser la partida,</l>
+                  <l>y la dama con contento</l>
+                  <l>pidió licencia á su esposo,</l>
+                  <l>y se la concedio luego,</l>
+                  <l>para hacerle una fineza</l>
+                  <l>á el Príncipe por el premio</l>
+                  <l>del Toison y la venera,</l>
+                  <l>y en aqueste mismo tiempo</l>
+                  <l>sacó un collar de esmeraldas,</l>
+                  <l>y un anillo de los dedos</l>
+                  <l>de záfiros, y rubíes</l>
+                  <l>con esmaltes de gran precio,</l>
+                  <l>y le dice; toma, Moro,</l>
+                  <l>estas dos prendas te entrego.</l>
+                  <l>y en llegando á ver tu esposa</l>
+                  <l>dile que yo se las ofrezco,</l>
+                  
+                  <pb n="6"/>
+                  
+                  <fw type="paginaNum">6</fw>
+                  
+                  <l>para que de mi se acuerde</l>
+                  <l>ahora, y en todo tiempo:</l>
+                  <l>y así que amaneció el dia,</l>
+                  <l>con grande gcompáñamiento</l>
+                  <l>salieron hasta la playa </l>
+                  <l>adonde se despidieron.</l>
+                  <l>Entró el turco en el navio</l>
+                  <l>largan las velas á el viento,</l>
+                  <l>y dentro de poeos dios.</l>
+                  <l>desembarcan, en el puerto.</l>
+                  <l>de la gran ciudad,de Argel;</l>
+                  <l>y el principe muy contento, </l>
+                  <l>se despidió de la gente</l>
+                  <l>y á nadie contó el suceso;</l>
+                  <l>se fué para su palacio,</l>
+                  <l>á así que se vido dentro,</l>
+                  <l>llegó donde está su Padre</l>
+                  <l>estas palabras diciendo:</l>
+                  <l>Dulce padre de mi vida,</l>
+                  <l>ya permitieron los cielos,</l>
+                  <l>que tengais, á vuestra vista</l>
+                  <l>á tu hijo prisionero,</l>
+                  <l>que en la ciudad de Alicante</l>
+                  <l>encontré un amo tan bueno,</l>
+                  <l>que así que supo quien era,</l>
+                  <l>me hizo muchos cortejos,</l>
+                  <l>y me dió la libertad,</l>
+                  <l>y á costa de su dinero</l>
+                  <l>me ha traido á tu presencia,</l>
+                  <l>y esto merece gran premio;</l>
+                  <l>alborotose el Palacio,</l>
+                  <l>y la princesa á este tiempo</l>
+                  <l>acudió despavorida</l>
+                  <l>á ver á su amado dueño</l>
+                  <l>ecchos sus ojos dos, mares,</l>
+                  <l>le echó los brazos al cuello</l>
+                  <l>sacó el collar, y el anillo,</l>
+                  <l>estas palabras diciendo:</l>
+                  <l>Recibe allá estas dos prendas,</l>
+                  <l>que por presentete ofrezco</l>
+                  <l>del amo que yo tenia</l>
+                  <l>porque hagais memoria de ello,</l>
+                  <l>las reeibió la princesá:</l>
+                  <l>se puso el collar al cuello,</l>
+                  <l>y juntamente el anillo</l>
+                  <l>en sus muy hermosos dedos;</l>
+                  <l>intentaron el hacer</l>
+                  <l>muchas fiestas y torneos,</l>
+                  <l>en gloria de que ha venido</l>
+                  <l>el principe á ver su Reino.</l>
+                  <l>Dejemos en su alboroto</l>
+                  <l>á los Moros, mientras vengo</l>
+                  <l>á la ciudad de Alicante,</l>
+                  <l>y digo que el tal D.Pedro</l>
+                  <l>se le ha ofrecido un viaje</l>
+                  <l>á Cartagena del puerto</l>
+                  <l>á tomar un mayorazgo,</l>
+                  <l>que le viene de derecho:</l>
+                  <l>llevó consigo á su esposa,</l>
+                  <l>y á sú muy querido suegro</l>
+                  <l>y consigo una criada,</l>
+                  <l>una tarde se partíeron</l>
+                  <l>de la ciudad de Alicante</l>
+                  <l>en un barquillo pequeño,</l>
+                  <l>pero la fortuna adversa,</l>
+                  <l>le ocasionó un mal encuentro,</l>
+                  <l>tres navíos argelinos</l>
+                  <l>delante se le pusieron.</l>
+                  <l>y sin poder resistirse</l>
+                  <l>los apresaron, y luego</l>
+                  <l>asieron á la, Señora,</l>
+                  <l>y así que vido don Pedro</l>
+                  <l>que su esposa está cauti va,</l>
+                  <l>lleno de rabía y veneno.</l>
+                  <l>saltó dentro de un navio</l>
+                  <l>mil travesuras haciendo,</l>
+                  <l>á unos hiere, á otros mata,</l>
+                  <l>á otros derriba en el suelo,</l>
+                  <l>á otros arroja al mar,</l>
+                  <l>adonde allí fenecieron.</l>
+                  <l>Y viendo el daño que hacía.</l>
+                  <l>y que no pueden prenderlo</l>
+                  <l>hacen una estratagema,</l>
+                  <l>que era hecharle un lazo al cuello</l>
+                  <l>y así que lo sujetaron,</l>
+                  <l>me lo amarraron á un leño,</l>
+                  
+                  <pb n="7"/>
+                  
+                  <fw type="paginaNum">7</fw>
+                  
+                  <l>y á la gran ciudad de Argeí</l>
+                  <l>en breve la vuelta dieroñ,</l>
+                  <l>van á darle cuenta al Rey</l>
+                  <l>de la presa que habian hecho,</l>
+                  <l>y como traen maniatado</l>
+                  <l>á un vigilante mancebo,</l>
+                  <l>que mató cincuenta moro:</l>
+                  <l>y heridos mas de otro ciento</l>
+                  <l>y á no haberle sujetado,</l>
+                  <l>diera fin de todos ellos;</l>
+                  <l>el Rey que atento escuchaba</l>
+                  <l>mandó que luego al momento</l>
+                  <l>lo lleven á una mazmorra,</l>
+                  <l>y que lo cargen de hierros,</l>
+                  <l>luego que traigan dos potros,</l>
+                  <l>y atado á la colá de ellos.</l>
+                  <l>lo arrastrasen por las calles</l>
+                  <l>porque sirva de escarmiento;</l>
+                  <l>y despues de árrástrado,</l>
+                  <l>con unos garfios de hierro</l>
+                  <l>le hiciesen cuatro pedazos,</l>
+                  <l>y á la mar lo hechasen luego.</l>
+                  <l>La hermosa doña Isabel</l>
+                  <l>viendo á su querido dueño</l>
+                  <l>metido en tanto peligro,</l>
+                  <l>eran tántos los lamentos,</l>
+                  <l>las lágrimas y suspiros,</l>
+                  <l>que ablandan el duro acerc</l>
+                  <l>y así que alcánzó á saber</l>
+                  <l>como se hallaba en el puerto</l>
+                  <l>de la gran cíudad de Argel</l>
+                  <l>aquí tomó algun consuelo.</l>
+                  <l>Pidió licencia á su amo,</l>
+                  <l>que le concediese luego</l>
+                  <l>la dejase ir á palacio,</l>
+                  <l>por ver si hallaba un empeño;</l>
+                  <l>el amo se lo concede,</l>
+                  <l>como haciendo mofa de ello,</l>
+                  <l>y tambien le dió dos turcos</l>
+                  <l>para su acompañamiento;</l>
+                  <l>iba la noble señora</l>
+                  <l>por las calles de este pueblo</l>
+                  <l>tan triste, y desconsolada,</l>
+                  <l>que parece fin misiddergies;</l>
+                  <l>llegó cerca del paláció,</l>
+                  <l>cuando en este mismo tiempo</l>
+                  <l>la princesa qüe escuchaba</l>
+                  <l>el alborotó, y estruendo,</l>
+                  <l>vió venir á los dos turcos,</l>
+                  <l>y en medio aquel Angel bello,</l>
+                  <l>y que venia llorando;</l>
+                  <l>los llamó con un pañuelo, </l>
+                  <l>y ellos ácudierón pronto,</l>
+                  <l>mil reverencias háciendo.</l>
+                  <l>La hermosa doña lsabel</l>
+                  <l>vido que tenia al cuello,</l>
+                  <l>aquel collár de esmeraldás;</l>
+                  <l>pronta le miró álos dedos,</l>
+                  <l>y conociendo el áñillo,</l>
+                  <l>estas palabras diciendo:</l>
+                  <l>Cierto es, hermosa señora,</l>
+                  <l>que esas dos prendas que veó</l>
+                  <l>puestas en vuestrá persona,</l>
+                  <l>fueron mias algun fiempo.</l>
+                  <l>yo se las dí á vuestro esposo</l>
+                  <l>cuando estába prisionero.</l>
+                  <l>Zaira que atenta escuchaba.</l>
+                  <l>le respondió así, diciendo;</l>
+                  <l>Pues dime tú, de dónde eres?</l>
+                  <l>y le respondió al momento;</l>
+                  <l>de la ciudádde Alicante</l>
+                  <l>soy para, el servicio vuestro,</l>
+                  <l>mi nobre es doña Isabel,</l>
+                  <l>mi esposo D. Pedro Azedo,</l>
+                  <l>el cual libro, á tuimarido,</l>
+                  <l>y lo trajo á aquestereino,</l>
+                  <l>y hoy está en una mazmorra,</l>
+                  <l>entre prisiones y hierros, </l>
+                  <l>y esta sentenciado á muerte,</l>
+                  <l>y así, señora te ruego,</l>
+                  <l>que seais mi medianera</l>
+                  <l>pues que tan sola me veo.</l>
+                  <l>Apenas aquesto oyó</l>
+                  <l>Zaira, se partió al momento</l>
+                  <l>á buscar á su marido,</l>
+                  <l>qué está en la cama durmiendo</l>
+                  
+                  <pb n="8"/>
+                  
+                  <fw type="paginaNum">8</fw>
+                  
+                  <l>dice: despierta Jamete</l>
+                  <l>que has de saber por muy cierto:</l>
+                  <l>que está aquí doña Isabel,</l>
+                  <l>y tambien D. Pedro Azedo,</l>
+                  <l>el que has metido en prisiones</l>
+                  <l>para dar castigos fieros,</l>
+                  <l>es el que te libertó,</l>
+                  <l>y te trajo á aqueste reino,</l>
+                  <l>y ahora es preciso la ampares,</l>
+                  <l>porque á ley de Caballero,</l>
+                  <l>obras con obras se pagan,</l>
+                  <l>y mas si se estan debiendo.</l>
+                  <l>Jamete, que aquesto escucha,</l>
+                  <l>partió al balcon como un trueno</l>
+                  <l>conoció á Doña Isabel,</l>
+                  <l>y le mandó entrar á dentro:</l>
+                  <l>y al punto despachó un posta,</l>
+                  <l>en que sacasen al reo,</l>
+                  <l>y lo traigan á palacio,</l>
+                  <l>sin que le agravien un pelo,</l>
+                  <l>lo ejecutaron al punto,</l>
+                  <l>y asi que los dos se vieron,</l>
+                  <l>tiernamente se abrazaron,</l>
+                  <l>como amigos verdaderos:</l>
+                  <l>Jamete, dijo; señor,</l>
+                  <l>como se truencan los tiempos;</l>
+                  <l>de cuando fuí vuestro esclavo</l>
+                  <l>muchas finezas te debo,</l>
+                  <l>estoy muy agradecido,</l>
+                  <l>y ahora pagartelas quiero.</l>
+                  <l>Estuvieron en palacio</l>
+                  <l>mas de dos meses y medio,</l>
+                  <l>de todos bien asistidos:</l>
+                  <l>y acabándose los torneos,</l>
+                  <l>dijo D. Pedro: señor,</l>
+                  <l>ya me parece que es tiempo</l>
+                  <l>que me dejeis ir á España,</l>
+                  <l>que gran falta estoy haciendo.</l>
+                  <l>Mandó el rey luego al instante</l>
+                  <l>que apretasen en el puerto</l>
+                  <l>cuatro navios de guerra</l>
+                  <l>con toditos sus pertrechos</l>
+                  <l>para que le acompañasen,</l>
+                  <l>porque puedan defenderlo,</l>
+                  <l>y á otro dia de mañana</l>
+                  <l>con músicas é instrumentos,</l>
+                  <l>le acompañó hasta la playa</l>
+                  <l>y tambien le dió un navio</l>
+                  <l>con gran porcion de dinero</l>
+                  <l>para que de él se sirviesen.</l>
+                  <l>Cortesmente se despiden</l>
+                  <l>navegando á vela y remo</l>
+                  <l>y dentro de cuatro dias</l>
+                  <l>llegaron á ver el puerto</l>
+                  <l>de la ciudad de Aficante</l>
+                  <l>y el valeroso D. Pedro</l>
+                  <l>con su bandera de paz.</l>
+                  <l>á recibirlo salieron</l>
+                  <l>haciendo rumbósas salvas,</l>
+                  <l>y cuando contó el suceso,</l>
+                  <l>todos quedarón pasmados;</l>
+                  <l>y en aqueste mismo tiempo</l>
+                  <l>pagó muy bién el viage</l>
+                  <l>á los que con él viñièron:</l>
+                  <l>luego los chatro nayios</l>
+                  <l>á sus tierras se volgieron </l>
+                  <l>y ellos saltaron en tiérrá</l>
+                  <l>muy alegres y contentos,</l>
+                  <l>dándole á Dios muchas gracias</l>
+                  <l>y á la reina de los cielos.</l>
+                  <l>Y ahora Juan José Lopez</l>
+                  <l>pide perdon de sús yerros.</l>
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>CARMONA:—1861. Imprenta de D. José María Moreno,</p>
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>

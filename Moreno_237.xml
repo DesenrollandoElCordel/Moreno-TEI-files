@@ -1,0 +1,735 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_237">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El rey Basilio de Dinamarca</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El rey Basilio de Dinamarca.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (s.a.): <ref target="Moreno_236.xml">Moreno_236</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">[s.n.]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="3">Tres grabados (p. 1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_237_1.xml">grabado_m_237_1</item>
+                           <item corresp="grabado_m_237_2.xml">grabado_m_237_2</item>
+                           <item corresp="grabado_m_237_3.xml">grabado_m_237_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-19" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_237_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+
+               <pb n="1"/>
+
+               <fw type="impresorNum">(Número 245.)</fw>
+
+               <head type="primer_titulo"><hi rend="negrita">EL REY BASILIO</hi>
+                  <lb/>DE <lb/><hi rend="negrita">DINAMARCA.</hi></head>
+
+               <div n="1" type="parte">
+
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+                  
+                  <l rend="indent">Escucha auditorio noble,</l>
+                  <l>una Historia verdadera,</l>
+                  <l>que en láminas de oro y bronce</l>
+                  <l>era bien, que se esculpiera;</l>
+                  <l>aunque para referirla</l>
+                  <l>me valdré de la Suprema</l>
+                  <l>Sacrosanta Trinidad,</l>
+                  <l>porque aunque muchos Poétas</l>
+                  <l>inyocan del Dios Apolo</l>
+                  <l>su mentida sutileza,</l>
+                  <l>y de la fuerte Helicona</l>
+                  <l>dicen, que beben sus tersas,</l>
+                  <l>como cristalinas águas,</l>
+                  <l>invocando la asistencia</l>
+                  <l>de las Musas que ellos dicen</l>
+                  <l>que son nueve, segun cuentan,</l>
+                  <l>todo es fábula y mentira,</l>
+                  <l>porque solo la Suprema</l>
+                  <l>intéligencia Divina,</l>
+                  <l>reparte su mano excelsa</l>
+                  
+                  <pb n="2"/>
+                  
+                  <fw type="paginaNum">2</fw>
+                  
+                  <l>la gracia á todos los hombres,</l>
+                  <l>sin ninguna competencia.</l>
+                  <l>En esta, pues, confiado,</l>
+                  <l>daré principio á la letra:</l>
+                  <l>y digo, que en Dinamarca,</l>
+                  <l>Ciudad populosa y bella,</l>
+                  <l>cuyos altos edificios</l>
+                  <l>asaltan á las Estrellas,</l>
+                  <l>el Sol oculta sus rayos</l>
+                  <l>temeroso de que puedan</l>
+                  <l>sus altas puntas herirle,</l>
+                  <l>dejando á oscuras la tierra.</l>
+                  <l>Era Rey de este Emisferio,</l>
+                  <l>Basilio el Grande: que era</l>
+                  <l>amado de sus vasallos,</l>
+                  <l>por su virtud y prudencia;</l>
+                  <l>que aunque es verdadque los Reyes</l>
+                  <l>por su sangre siempre heredan</l>
+                  <l>sus Monarquías, no todos,</l>
+                  <l>los cariños se grangean,</l>
+                  <l>que esto alcanza la razon,</l>
+                  <l>y la razon no es herencia;</l>
+                  <l>este tal prudente Rey,</l>
+                  <l>tiene una hermosa Princesa,</l>
+                  <l>única, porque su madre</l>
+                  <l>pagó la forzosa deuda</l>
+                  <l>en su parto, no atendiendo</l>
+                  <l>la parca torpe y grosera</l>
+                  <l>su Corona, porque á nadie,</l>
+                  <l>esta fiera la respeta.</l>
+                  <l>Crióse esta hermosa niña,</l>
+                  <l>como ya dije heredera</l>
+                  <l>de Dinamarca, y su Imperio</l>
+                  <l>y el Cielo dió á manos llenas</l>
+                  <l>á aquella Princesa hermosa</l>
+                  <l>dones de naturaleza:</l>
+                  <l>era en discreta Athalanta,</l>
+                  <l>y Venus en la belleza,</l>
+                  <l>Semiramis en lo fuerte,</l>
+                  <l>y Palas en gentileza;</l>
+                  <l>que aquella manzana de oro</l>
+                  <l>sin duda á ella se le diera.</l>
+                  <l>Como es hermosa y bizarra,</l>
+                  <l>y de su Reino heredera,</l>
+                  <l>los Príncipes confinantes</l>
+                  <l>pretendian su belleza;</l>
+                  <l>entre los muchos Señores,</l>
+                  <l>que asisten á la grandeza</l>
+                  <l>del gran Rey de Dinamarca,</l>
+                  <l>está un deudo suyo, que era</l>
+                  <l>el Conde Don Federico,</l>
+                  <l>General de mar y tierra:</l>
+                  <l>es discreto y entendido,</l>
+                  <l>y siendo Marte en la guerra,</l>
+                  <l>por su valor invencible,</l>
+                  <l>en la Córte Adonis era,</l>
+                  <l>es muy querido del Rey, </l>
+                  <l>tanto que lo que aconseja,</l>
+                  <l>eso es lo que se hace</l>
+                  <l>sin ninguna diferencia.</l>
+                  <l>Tenia el Conde una hermana,</l>
+                  <l>que es bellísima Duquesa</l>
+                  <l>en sus Estados, que nunca</l>
+                  <l>hizo en la Córte asistencia.</l>
+                  <l>El Conde Don Federico</l>
+                  <l>habló un dia á la Princesa,</l>
+                  <l>diciendo: Dueño y Señora,</l>
+                  <l>hermosísima Princesa,</l>
+                  <l>ya es tiempo, Señora mia,</l>
+                  <l>el que vuestra mano bella</l>
+                  <l>en un Principe se emplee</l>
+                  <l>de tantos como desean,</l>
+                  <l>como rendidos Esclavos,</l>
+                  <l>lograr dicha tan suprema.</l>
+                  <l>La Princesa le responde,</l>
+                  <l>diciendo de esta manera:</l>
+                  <l>Conde, yo tengo un retrato</l>
+                  <l>dentro en mi pecho, y quisiera,</l>
+                  <l>que su dueño fuese solo</l>
+                  <l>quien lograse mi belleza,</l>
+                  <l>mi corona ó mis Estados;</l>
+                  <l>y como aquesto no sea,</l>
+                  <l>no se canse el Rey mi Padre, </l>
+                  <l>ni mi Reino lo pretenda.</l>
+                  <l>Respondió el Conde: Señora,</l>
+                  <l>muéstremelo vuestra Alteza</l>
+                  
+                  <pb n="3"/>
+                  
+                  <fw type="paginaNum">3</fw>
+                  
+                  <l>que yo empeño mi palabra</l>
+                  <l>de hacer vivas diligencias,</l>
+                  <l>aunque en el cabo del Mundo</l>
+                  <l>ese Príncipe estuviera.</l>
+                  <l>La Princesa luego al punto</l>
+                  <l>metiendo su mano bella,</l>
+                  <l>sacó del pecho un espejo,</l>
+                  <l>y se lo dió muy risueña;</l>
+                  <l>el Conde quedó turbado,</l>
+                  <l>y le dice la Princesa:</l>
+                  <l>Pues, Conde, ¿de qué os turbais?</l>
+                  <l>Y el Conde le respondiera:</l>
+                  <l>Princesa y Señora mia,</l>
+                  <l>¿es posible de que quieras,</l>
+                  <l>habiendo Principes tantos</l>
+                  <l>que aspiran á tu grandeza</l>
+                  <l>pagarte tan mal, Señora?</l>
+                  <l>Mira, advierte y considera,</l>
+                  <l>el que yo soy tu vasallo,</l>
+                  <l>tú mi dueño y mi Princesa.</l>
+                  <l>Ya he llegado á declararte,</l>
+                  <l>le dijo en palabras tiernas;</l>
+                  <l>y así, Conde, tu has de ser</l>
+                  <l>el que ciña esta Diadema.</l>
+                  <l>Considere aquí el discreto,</l>
+                  <l>cuando ruega una belleza,</l>
+                  <l>cuando una Corona obliga,</l>
+                  <l>y un Reino se le presenta,</l>
+                  <l>que pudiera hacer ninguno</l>
+                  <l>sino admitir la propuesta;</l>
+                  <l>respondiòle cortesano.</l>
+                  <l>Y Cupido con dos flechas</l>
+                  <l>hirió sus dos corazones</l>
+                  <l>recíprocos, de manera,</l>
+                  <l>que se beben los alientos;</l>
+                  <l>pero esto con la decencia,</l>
+                  <l>porque nunca á lo atrevido</l>
+                  <l>abrieron la franca puerta.</l>
+                  <l>A este tiempo á Dinamarca</l>
+                  <l>le puso guerra Suecia;</l>
+                  <l>y el Rey entonces, al Conde</l>
+                  <l>lo envió, para que fuera</l>
+                  <l>como su gran General,</l>
+                  <l>á resistir tanta fuerza.</l>
+                  <l>Obedeció el Conde, y luego</l>
+                  <l>se fué á ver á la Princesa</l>
+                  <l>diciendo lo que su Padre</l>
+                  <l>manda, dispone y ordena:.</l>
+                  <l>la Princesa aunque sentia</l>
+                  <l>de Federico la ausencia,</l>
+                  <l>con ánimo generoso,</l>
+                  <l>para que fuera le alienta:</l>
+                  <l>presentóle un Cisne hermoso</l>
+                  <l>que sin duda alguna era</l>
+                  <l>de aquel Carro fabuloso,</l>
+                  <l>que han fingido los Poétas.</l>
+                  <l>Mucho lo agradece el Conde,</l>
+                  <l>y á su hermana la Duquesa</l>
+                  <l>cuenta dá de su partida,</l>
+                  <l>y su hermana le presenta</l>
+                  <l>armas, y una Compañía</l>
+                  <l>de esclarecida Nobleza,</l>
+                  <l>para la guardia y custodia</l>
+                  <l>de su persona discreta.</l>
+                  <l>Partió luego Federico</l>
+                  <l>dándole al airé banderas</l>
+                  <l>desplegando tafetanes;</l>
+                  <l>y las cajas y trompetas</l>
+                  <l>para la Princesa hermosa</l>
+                  <l>son saétas que atraviesan</l>
+                  <l>aquel corazon amante</l>
+                  <l>de la constante firmeza.</l>
+                  <l>Fuese el Conde, donde dejo</l>
+                  <l>en sus marchas y en sus guerras</l>
+                  <l>por decir, que en Dinamarca,</l>
+                  <l>en aqueste tiempo entra</l>
+                  <l>de Albania un Embajador;</l>
+                  <l>y así que tuvo licencia</l>
+                  <l>de presentar su Embajada,</l>
+                  <l>va pidiendo la Princesa</l>
+                  <l>para el Príncipe Albanés:</l>
+                  <l>y viendo las conveniencias,</l>
+                  <l>que al Reino de Dinamarca</l>
+                  <l>se siguen de esta propuesta.</l>
+                  <l>El Rey y el Consejo todo,</l>
+                  <l>sin dar cuenta á la Princesa,</l>
+                  
+                  <pb n="4"/>
+                  
+                  <fw type="paginaNum">4</fw>
+                  
+                  <l>otorgaron la Embájada</l>
+                  <l>con alegria, y con fiestá;</l>
+                  <l>y despues de ya otorgada</l>
+                  <l>le dan cuenta á la Princesa,</l>
+                  <l>la cual pesarosa y triste</l>
+                  <l>viendo á su amante en la guerra, que le lleven á su casa,</l>
+                  <l>y viendo, que de este lance</l>
+                  <l>no tiene quien la defienda</l>
+                  <l>y que toda Dinamarca</l>
+                  <l>que se case le amonesta,</l>
+                  <l>mirando por este lazo</l>
+                  <l>del Reino las conveniencias;</l>
+                  <l>solloza, gíme y suspira,</l>
+                  <l>sin tener quien la defienda.</l>
+                  <l>En esto un año pasó</l>
+                  <l>cuando vino de la guerra</l>
+                  <l>el General Federico,</l>
+                  <l>victorioso, de manera,</l>
+                  <l>que banderas y despojos,</l>
+                  <l>dicen su victoria excelsa.</l>
+                  <l>Y con aquestas noticias,</l>
+                  <l>previene solemnes fiestas</l>
+                  <l>en la grande Dinamarca;</l>
+                  <l>y fué para la Princesa,</l>
+                  <l>juzgando fuese su alivio,</l>
+                  <l>noticia, que mas le alegra.</l>
+                  <l>Entró el Conde, y luego al punto</l>
+                  <l>á recibirle saliera</l>
+                  <l>el Rey con todos sus Grandes;</l>
+                  <l>salió tambien la Princesa</l>
+                  <l>en carroza de cristales,</l>
+                  <l>á darle la enhorabuena.</l>
+                  <l>Muy alegre estaba el Conde</l>
+                  <l>cuando el Rey le ha dado cuenta</l>
+                  <l>como tenia casada</l>
+                  <l>á su hija la Princesa,</l>
+                  <l>el Conde quedó turbado,</l>
+                  <l>y embargadas las potencias;</l>
+                  <l>tanto, que al Rey pareció,</l>
+                  <l>que aquel accidente era</l>
+                  <l>que le asaltan de repente;</l>
+                  <l>y luego al instante ordena,</l>
+                  <l>cuidando de su asistencia.</l>
+                  <l>La Princesa luego al punto</l>
+                  <l>al Conde escribió dos letras,</l>
+                  <l>diciendo: que aquella noche</l>
+                  <l>de su jardin á la reja</l>
+                  <l>le espera sin falta alguna.</l>
+                  <l>El Conde fué con presteza,</l>
+                  <l>y antes que el Conde llegase,</l>
+                  <l>le conoce la Princesa;</l>
+                  <l>le dice: Conde y Señor,</l>
+                  <l>muchas desdichas me cercan,</l>
+                  <l>yo muero desesperada,</l>
+                  <l>si es que tu no lo remedias:</l>
+                  <l>llévame mi bien, de aquí,</l>
+                  <l>que donde quiera que fueras</l>
+                  <l>quiero ser pobre á tu lado,</l>
+                  <l>y no en Dinamarca Reina.</l>
+                  <l>El Conde le respondió;</l>
+                  <l>¡No es posible, mi Princesa,</l>
+                  <l>perque será gran traicion</l>
+                  <l>á mi sangre y mi nobleza.</l>
+                  <l>La Princesa, que le vió</l>
+                  <l>tan semejante respuesta,</l>
+                  <l>corrida y desesperada,</l>
+                  <l>le dice de esta manera:</l>
+                  <l>aleve Conde, mal me pagas</l>
+                  <l>mi cariño y mi firmeza;</l>
+                  <l>y cerrando la ventana,</l>
+                  <l>se fuè á llorar. Donde deja</l>
+                  <l>Bernardo de aquesta Historia</l>
+                  <l>aquesta parte primera.</l>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5"/>
+                  
+                  <head type="primer_titulo"><hi rend="negrita">EL REY BASILIO</hi>
+                     <lb/>DE <lb/><hi rend="negrita">DINAMARCA.</hi></head>
+                  
+                  <head type="titulo_parte">SEGUNDA PARTE.</head>
+                  
+                  <l rend="indent">Ya dije que la Princesa,</l>
+                  <l>desesperada y corrida,</l>
+                  <l>con la respuesta del Conde,</l>
+                  <l>à su cuarto se retira,</l>
+                  <l>y de sus hermosos ojos</l>
+                  <l>disparando baterias</l>
+                  <l>en municiónes de perlas,</l>
+                  <l>las rosas de sus mejillas</l>
+                  <l>tristemente cultivaba,</l>
+                  <l>y de esta suerte décia:</l>
+                  <l>Ingrato y aleve Conde, </l>
+                  <l>mal pagastes mis caricias,</l>
+                  <l>falsas fueron tus finezas,</l>
+                  <l>y tus promesas mentidas:</l>
+                  <l>cruel has sido conmigo</l>
+                  <l>mas de leal te acreditas.</l>
+                  <l>Finalmente te resuelve,</l>
+                  <l>aunque con grandes fatigas,</l>
+                  <l>en otorgar los conciertos,</l>
+                  <l>que cón Albania tenia.</l>
+                  <l>El Conde cuando lo supo,</l>
+                  <l>á el Rey suplicado habia;</l>
+                  <l>le concediese licencia,</l>
+                  <l>porque era cosa precisa</l>
+                  <l>el volver á sus Estados,</l>
+                  <l>segun su hermana le avisa:</l>
+                  <l>por no hallarse al desposorio</l>
+                  <l>de su Princesa divina.</l>
+                  <l>El Rey y toda su Córte,</l>
+                  <l>sintió muchó su partida;</l>
+                  <l>pero el Príncipe de Albania</l>
+                  <l>apresuró su venida,</l>
+                  <l>y en aceleradas marchas</l>
+                  <l>llegó al Palacio, ó la Quinta</l>
+                  <l>de la Duquesa Isabela,</l>
+                  <l>hermana, que dije arriba</l>
+                  <l>del Gran Conde Federico;</l>
+                  <l>y á recibirle salia;</l>
+                  <l>la Duquesa es muy hermosa,</l>
+                  <l>y por estremo entendida,</l>
+                  <l>es afable y cariñosa,</l>
+                  <l>y en efecto es toda linda,</l>
+                  
+                  <pb n="6"/>
+                  
+                  <fw type="paginaNum">6</fw>
+                  
+                  <l>El Principe vió sus ojos,</l>
+                  <l>su discrecion, gallardia,</l>
+                  <l>y Cupido le tiró</l>
+                  <l>una flecha tan activa,</l>
+                  <l>que el corazon le atraviesa,</l>
+                  <l>y el alma quedó cautiva</l>
+                  <l>Ya no se acuerda del trato,</l>
+                  <l>ni concierto á que venia:</l>
+                  <l>solo á la Duquesa adera,</l>
+                  <l>y á la Princesa no estima;</l>
+                  <l>porque solo la Duquesa</l>
+                  <l>es objeto de su vista.</l>
+                  <l>Y como con gran cortejo</l>
+                  <l>estuvo allí cuatro dias,</l>
+                  <l>en viyo fuego abrasado;</l>
+                  <l>y por mitigar sus iras,</l>
+                  <l>una noche á media noche,</l>
+                  <l>hizo la accion atrevida</l>
+                  <l>de arrojarse á su retrete,</l>
+                  <l>camarin donde dormia.</l>
+                  <l>Con una llave maestra,</l>
+                  <l>una falsa puerta abria,</l>
+                  <l>la Duquesa está rezando,</l>
+                  <l>y apenas vió su osadia,</l>
+                  <l>descolgando dos pistolas,</l>
+                  <l>de esta suerte le decia:</l>
+                  <l>Repórtese vuestra Alteza,</l>
+                  <l>que á su perdicion camina;</l>
+                  <l>ó vive Dios que en su pecho,</l>
+                  <l>tiene de ver esculpidas,</l>
+                  <l>de estos incendios de fuego,</l>
+                  <l>sus balas insensitivas.</l>
+                  <l>Por donde entré vuestra Alteza,</l>
+                  <l>retirese á toda prisa.</l>
+                  <l>Pero el Príncipe responde:</l>
+                  <l>Cese, Isabela querida,</l>
+                  <l>cesen, mi Duquesa hermosa,</l>
+                  <l>tus bien concertadas iras,</l>
+                  <l>¡qué mas balas que tus ojos!</l>
+                  <l>¡qué mas rayos que sus niñas!</l>
+                  <l>de Albania la Real Corona</l>
+                  <l>hoy á tus plantas la miras,</l>
+                  <l>tu has de ser Reina, Duquesa,</l>
+                  <l>aquesta mano lo afirma,</l>
+                  <l>mano y palabra te doy,</l>
+                  <l>y tambien cédula escrita,</l>
+                  <l>con mi Sello Real firmada,</l>
+                  <l>si es que así mi fé acreditas.</l>
+                  <l>Era el Príncipe galan,</l>
+                  <l>y la Duquesa, que via</l>
+                  <l>su noble resolucion,</l>
+                  <l>y Corona que le brinda;</l>
+                  <l>todavia no contenta,</l>
+                  <l>le dice: Príncipe, mira</l>
+                  <l>lo que emprendes en dejar</l>
+                  <l>á la Princesa mi prima,</l>
+                  <l>ofendiendo à Dinamarca,</l>
+                  <l>lo que resultar podia.</l>
+                  <l>Este es mi gusto, Duquesa,</l>
+                  <l>aunque el mundo se arda en iras</l>
+                  <l>tu has de ser Reina, Isabela,</l>
+                  <l>esto mi fé lo publica.</l>
+                  <l>No estoy Principe contenta,</l>
+                  <l>entra en mi oratorio y mira,</l>
+                  <l>que me jures la palabra,</l>
+                  <l>ante la Imágen Divina</l>
+                  <l>de este hermoso Crucifijo.</l>
+                  <l>Y el Principe de rodillas,</l>
+                  <l>juró por aquella Imágen</l>
+                  <l>la palabra prometida.</l>
+                  <l>En su cámara le entra,</l>
+                  <l>donde entre dulces delicias,</l>
+                  <l>logró cumplir su deseo,</l>
+                  <l>que tanto lo apetecia.</l>
+                  <l>Mas el correo del gusto</l>
+                  <l>tan velozmente camina,</l>
+                  <l>que dentro de breve rato</l>
+                  <l>desaparece á la vista.</l>
+                  <l>Entre los tiernos arrullos,</l>
+                  <l>quedó Isabela dormida;</l>
+                  <l>vistióse el Principe al punto,</l>
+                  <l>y la Duquesa tenia</l>
+                  <l>sobre su bufete puesta</l>
+                  <l>una carta medio escrita</l>
+                  <l>de cariñosos requiebros,</l>
+                  <l>que de esta suerte decia:</l>
+                  
+                  <pb n="7"/>
+                  
+                  <fw type="paginaNum">7</fw>
+                  
+                  <l>Glorioso Capitan mio,</l>
+                  <l>mil abrazos dar queria</l>
+                  <l>en lugar de parabienes</l>
+                  <l>á tu dichosa venida.</l>
+                  <l>Esta era para su hermano;</l>
+                  <l>pero el Príncipe entendia,</l>
+                  <l>que seria algun amante</l>
+                  <l>que la Duquesa tenia.</l>
+                  <l>Arrepentido y celoso,</l>
+                  <l>tomando postas aprisa,</l>
+                  <l>á Dinamarca se parte,</l>
+                  <l>dejando esta flor marchita:</l>
+                  <l>Cuando despertó Isabela,</l>
+                  <l>que sus criados le avisan,</l>
+                  <l>que el príncipe por la posta</l>
+                  <l>caminaba á toda prisa,</l>
+                  <l>aquí fueron los suspiros,</l>
+                  <l>las lágrimas y fatigas,</l>
+                  <l>y de su rubia garzeta,</l>
+                  <l>arranca las hebras finas.</l>
+                  <l>De sus galas se despoja,</l>
+                  <l>y de luto se vestia:</l>
+                  <l>todo de negras bayetas</l>
+                  <l>su Palacio lo cubria,</l>
+                  <l>y metida en su oratorio,</l>
+                  <l>está de noche y de dia.</l>
+                  <l>Volvamos al Conde, que,</l>
+                  <l>entre congojas no vistas,</l>
+                  <l>á su Palacio llegó;</l>
+                  <l>y en lugar de telas finas,</l>
+                  <l>miró todas las paredes</l>
+                  <l>de negro luto vestidas;</l>
+                  <l>preguntó, ¿es muerta Isabela?</l>
+                  <l>Y los criados le avisan,</l>
+                  <l>no señor, que el oratorio</l>
+                  <l>es su cámara y su quinta.</l>
+                  <l>Entró el conde á su oratorio,</l>
+                  <l>y la Duquesa dormida</l>
+                  <l>estaba junto á el altar</l>
+                  <l>de negro luto vestida;</l>
+                  <l>y entre sueños y congojas,</l>
+                  <l>tristemente repetia:</l>
+                  <l>Rey Soberano y Eterno,</l>
+                  <l>justicia, Señor, justicia,</l>
+                  <l>á Vos ha sido la ofensa,</l>
+                  <l>y el ampararme os precisa.</l>
+                  <l>Ese Príncipe Albanés</l>
+                  <l>con lá palabra benigna,</l>
+                  <l>que ante Vos me dió gozó</l>
+                  <l>de mi castidad invicta;</l>
+                  <l>y si mi hermano lo sabe,</l>
+                  <l>tendrá fin mi triste vida.</l>
+                  <l>Oyendo su agravio el Conde,</l>
+                  <l>mano á la daga ponia,</l>
+                  <l>diciéndole: fiera, ingrata,</l>
+                  <l>pagarás tu demasía;</l>
+                  <l>mas á tiempo de ir á darle,</l>
+                  <l>de la Cruz se desprendia</l>
+                  <l>aquel Señor Soberano,</l>
+                  <l>y el impulso detenia:</l>
+                  <l>la daga se le cayó al Conde,</l>
+                  <l>é hincándose de rodillas</l>
+                  <l>el prodigio le suspende,</l>
+                  <l>y su culpa le horroriza.</l>
+                  <l>Despertando la Duquesa</l>
+                  <l>vió el amparo, y se confia</l>
+                  <l>en el Señor Poderoso</l>
+                  <l>que aplacó tan nobles iras.</l>
+                  <l>Contó el suceso á su hermano,</l>
+                  <l>y el Conde le ha dicho: aprisa</l>
+                  <l>desnúdense esas paredes,</l>
+                  <l>vistanse de telas ricas,</l>
+                  <l>ponte tus mejores galas,</l>
+                  <l>y á Dinamarca camina;</l>
+                  <l>que mientras ciño esta espada,</l>
+                  <l>nada á mi me atemoriza.</l>
+                  <l>Dejémolos caminar,</l>
+                  <l>y vamos á la alegría,</l>
+                  <l>las fiestas y los torneos,</l>
+                  <l>que en Dinamarca se hacian,</l>
+                  <l>á celebrar, aplaudiendo</l>
+                  <l>del Príncipe la venida.</l>
+                  <l>La boda se dilató</l>
+                  <l>porque la Pricesa invícta,</l>
+                  <l>estaba un poco indispuesta,</l>
+                  <l>de graves melancolías;</l>
+                  
+                  <pb n="8"/>
+                  
+                  <fw type="paginaNum">8</fw>
+                  
+                  <l>y solo por alegrarla,</l>
+                  <l>discurrieron cierto dia</l>
+                  <l>unos torneos de gala</l>
+                  <l>y con garvo y gallardia,</l>
+                  <l>el Príncipe salió en ellos;</l>
+                  <l>mas à la primer corrida,</l>
+                  <l>se le desboco el caballo.</l>
+                  <l>¡válgame Dios, qué desdicha!</l>
+                  <l>Midió la tierra infelice,</l>
+                  <l>y socorriéndole aprisa,</l>
+                  <l>sin sentido lo llevaron</l>
+                  <l>á Palacio, y la caida</l>
+                  <l>tanto le atormento el pecho,</l>
+                  <l>que asi astuvo medio dia,</l>
+                  <l>de Físicos rodeado,</l>
+                  <l>y con nobles medicinas.</l>
+                  <l>En esto al Rey le avisaron,</l>
+                  <l>como á Palacio venia</l>
+                  <l>el Conde con la Duquesa,</l>
+                  <l>su sobrino y su sobrina.</l>
+                  <l>Salió el Rey á recibirlos,</l>
+                  <l>y contando la desdicha</l>
+                  <l>del Principe, dijo el Conde:</l>
+                  <l>Pues gran Señor, mi venida;</l>
+                  <l>solo es á pediros campo</l>
+                  <l>contra quien me tiraniza</l>
+                  <l>el honor con falsedades,</l>
+                  <l>con promesas y mentiras.</l>
+                  <l>Contóse en fin, el suceso,</l>
+                  <l>y el Rey suspenso se admira.</l>
+                  <l>En esto el Príucipe vuelve</l>
+                  <l>al poder de medicinas;</l>
+                  <l>y cuando vió á la Duquesa,</l>
+                  <l>le dice: prenda querida</l>
+                  <l>tu eres Princesa de Albania,</l>
+                  <l>aunque yo pierda la vida.</l>
+                  <l>En el otro mundo he estado,</l>
+                  <l>y aquella Imágen Divina,</l>
+                  <l>ante quien te dí palabra,</l>
+                  <l>muy enojado me avisa,</l>
+                  <l>que te cumpla lo que debo,</l>
+                  <l>si no quiero ver sus iras:</l>
+                  <l>conque mi Esposa has de ser,</l>
+                  <l>aunque me cueste la vida.</l>
+                  <l>El rey replicó; ¿pues cómo</l>
+                  <l>desairada queda mi hija?</l>
+                  <l>Y la Pricesa responde,</l>
+                  <l>mostrando grande alegria:</l>
+                  <l>Esposo tengo vo, Padre,</l>
+                  <l>tan bueno, y de tal estima.</l>
+                  <l>¿Quién es? le pregunta el Rey,</l>
+                  <l>el Conde hincó la rodilla,</l>
+                  <l>y en breve le ha dado cuenta</l>
+                  <l>de sus venturosas dichas,</l>
+                  <l>de su lealtad y nobleza,</l>
+                  <l>y valor que le acredita.</l>
+                  <l>Con que toda Dinamarca</l>
+                  <l>con júbilos y alegrias,</l>
+                  <l>celebraron las dos bodas,</l>
+                  <l>que se hicieron en un dia.</l>
+                  <l>De tan peregrino caso,</l>
+                  <l>tuvo Bermudo noticia,</l>
+                  <l>y dió á la prensa estos rasgos,</l>
+                  <l>y al auditorio suplica,</l>
+                  <l>que perdonen de su pluma,</l>
+                  <l>las faltas que aquí se admiran.</l>
+                  <trailer rend="cursiva">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>CARMONA:—Imp. de D. José María Moreno, calle Madre de Dios.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

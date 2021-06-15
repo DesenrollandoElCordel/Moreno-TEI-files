@@ -1,0 +1,1445 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_291">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sainete nuevo titulado El payo de la carta</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete nuevo titulado El payo de la carta. Para siete personas.</title>
+                  <title type="titulo_breve">Sainete nuevo titulado El payo de la carta.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 305</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_291_1.xml">grabado_m_291_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_291_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1"/>
+
+            <fw type="impresorNum">(Núm. 307.)</fw>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">SAINETE NUEVO</hi>
+               <lb/>TITULADO
+               <lb/><hi rend="negrita">EL PAYO</hi>
+               <lb/>DE LA CARTA.
+            </head>
+            <head type="subtitulo">PARA SIETE PERSONAS.</head>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859.
+                  <lb/>Imprenta de D. José María Moreno, calle Juan de la Cabra.
+               </p>
+            </div>
+
+            <pb n="2"/>
+
+            <div type="reparto">
+               <head type="reparto_titulo">PERSONAS.</head>
+               <castList rend="cursiva">
+                  <castItem>Don Pedro.</castItem>
+                  <castItem>Don Autonio.</castItem>
+                  <castItem>Bartolo.</castItem>
+                  <castItem>Pascual.</castItem>
+                  <castItem>Graciosa.</castItem>
+                  <castItem>Cuarta.</castItem>
+                  <castItem>Un hombre.</castItem>
+                  <castItem>Acompañamiento.</castItem>
+               </castList>
+            </div>
+
+            <div>
+               <stage rend="cursiva">
+                  <lb/>DECORACION DE CALLE CORTA: Y SALEN DON ANTO-
+                  <lb/>nio y Don Pedro.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Don Antonio, amigo mio,</l>
+                  <l>esta noche que está fresca,</l>
+                  <l>y no hace mucho calor,</l>
+                  <l>hemos de ir á la comedia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Pues qué funcion ejecutan?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Hacen una pieza nueva,</l>
+                  <l>segun dicen los carteles:</l>
+                  <l>y yo por media pescta</l>
+                  <l>no he de dejar de ir allá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Yo os esperaré á la puerta,</l>
+                  <l>me contareis la funcion,</l>
+                  <l>y me ahorraré la molestia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Por qué?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Porque no me gustan,</l>
+                  <l>señor mio, las comedias;</l>
+                  <l>la ópera es la que me agrada,</l>
+                  <l>me divierte y me deleita.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>A mí tambien; mas por eso</l>
+                  <l>no hemos de despreciarnuestras</l>
+                  <l>comedias; que muchas hay</l>
+                  <l>instructivas y muy buenas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Sobre todo, os daré gusto</l>
+                  <l>esta noche.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pedro.</speaker>
+                  <l>Norabuena:</l>
+                  <l>qué hora es?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Las seis han dado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Pues hasta las siete y media</l>
+                  <l>vamos en casa una amiga</l>
+                  <l>que vive de aqui muy cerca,</l>
+                  <l>y ella nos informará </l>
+                  <l>si es la funcion mala ó buena,</l>
+                  <l>pues tendrá en ella papel, </l>
+                  <l>y habrá ensayado por fuerza. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Pues qué, es del teatro?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Sí.</l>
+                  <l>si es la graciosa. Ant. Pues deja,</l>
+                  <l>nos llegaremos primero</l>
+                  <l>al café por dos docenas</l>
+                  <l>de cigarros de la Habana,</l>
+                  <l>que encargué á un amigo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Sea</l>
+                  <l>como quieras.</l>
+                  
+                  <stage rend="cursiva">
+                     <lb/>Salen Pascual y Bartolo de payos
+                     <lb/>andaluces: Bartolo trae una carta
+                     <lb/>en la mamo, y mirando las casas,
+                     <lb/>tropieza con Don Pedro que
+                     <lb/>está en accion de irse.
+                  </stage>
+                  
+                  <l>Habrá bruto! <stage rend="cursiva">apa.</stage></l>
+                  
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Usted, si es ciego, debiera</l>
+                  <l>llevar perro ó lazarillo</l>
+                  <l>por alante, que le ijera</l>
+                  <l>el camino do las calles</l>
+                  <l>de la Córte.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Si no fuera....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Hombre, cállate por Dios,</l>
+                  
+                  <pb n="3"/>
+                  
+                  <fw type="paginaNum">3</fw>
+                  
+                  <l>y con cachaza tolera</l>
+                  <l>el empujon, pues no es nuevo</l>
+                  <l>dar tropezones con bestias.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Ya se ve, y como que un</l>
+                  <l>hombre</l>
+                  <l>cada instante las encuentra...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Los bestias lo serán ellos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Bien claro lo manifiestan,</l>
+                  <l>pues están cubiertos aun</l>
+                  <l>de la lana de su tierra</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>No habrá pocos por acá</l>
+                  <l>que lleven bellon acuestas,</l>
+                  <l>por jartarse de bellones;</l>
+                  <l>á fuerza de su paciencia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Por fin, andaluces brutos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Tampoco de esa cosecha</l>
+                  <l>abunda aquí, ya se ve,</l>
+                  <l>sino hay ni un bruto siquíera</l>
+                  <l>en este pais, jasta los</l>
+                  <l>mayorazgos saben cuentas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Dejadlo para quien es.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>El demonio del postema! </l>
+               </sp>
+               
+               <stage rend="cursiva">Vanse los dos.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>En esta calle sin duda</l>
+                  <l> vivirá, segun las señas</l>
+                  <l>que me dieron en la villa:</l>
+                  <l> sabes leer? </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Algunas letras.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Pues lee este sobre escrito,</l>
+                  <l>por si acertamos con ella.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Dice.... dice....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Anda adelante.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Ten un poco de paciencia:</l>
+                  <l>dice....dice....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Acaba el dice:</l>
+                  <l>mala vívora te muerda!</l>
+                  <l>si así loes, yo discurro.</l>
+                  <l>que en diez semanas y media</l>
+                  <l>no acabarás de leer</l>
+                  <l>lo que las letras enseñan.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Yo no se leermas corriendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Un tabardillo á cualqiera</l>
+                  <l>puedes dar con tu letura:</l>
+                  <l>vamos, y no gastes flema:</l>
+                  <l>acaba con mil diantres.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Dice....dice....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Anda à la escuela,</l>
+                  <l>y al bruto que te enseñó</l>
+                  <l>que te vuelva las monedas.</l>
+                  <l>Habrá bestia semejante!.</l>
+                  <l>dice... dice... en mi conciencia</l>
+                  <l>que yo soy muy mal letor,</l>
+                  <l>y me atrevo á leer quinietas</l>
+                  <l>veces, aun mejor que tú.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Ya que tanto yociferas, </l>
+                  <l>léela tú.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Pues ya se ve:</l>
+                  <l>es menester tanta ciencia?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Pues vaya..</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Atiende, salvage:</l>
+                  <l>aquí dice.. dice... </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Bueno!</l>
+                  <l>qué es lo que dice la carta?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Si no conozco las letras....</l>
+                  <l>mas calla;aquí viene un hombre,</l>
+                  <l>si no me mienten las señas.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale un Hombre.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Hom.</speaker>
+                  <l>Muy tardees yestoy muy léjos</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Pues que se ha pasadollega:</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Escuche osté, caballero,</l>
+                  <l>(y perdone la imprudencia)</l>
+                  <l>sabe usted leer?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb.</speaker>
+                  <l>Qué preguntal</l>
+                  <l>no he de saber?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>De manera,</l>
+                  <l>que como otros no saben,</l>
+                  <l>no seria cosa nueva.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb.</speaker>
+                  <l>Qué hombre no sabe leer?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Yo soy uno, y á la escuela</l>
+                  <l>anduve mas de seis años.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb.</speaker>
+                  <l>Amigo, yo voy de priesa:</l>
+                  
+                  <pb n="4"/>
+                  
+                  <fw type="paginaNum">4</fw>
+                  
+                  <l>qué se ofrece, vaya. Bart. Solo</l>
+                  <l>me diga la carta esta</l>
+                  <l>á quién viene? </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Homb. </speaker>
+                  <l>Dice así:</l>
+                  <l>Lec: <hi rend="cursiva">A la Señora</hi></l>
+                  <l><hi rend="cursiva">comica de las comedias</hi>.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Aprende á leer, gransalvage.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Pues está buena la fiesta,</l>
+                  <l>y lee peor que yo:</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Sise me embrolla la lengua.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb.</speaker>
+                  <l>En aquellacasa vive. <stage rend="cursiva">vase</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Agradezco la fineza.</l>
+                  <l>Allá voy con alma y cuerpo:</l>
+                  <l>Dios nos la depare buena:</l>
+                  <l>la puerta abierta se mira;</l>
+                  <l>Pascual, sube la escalera. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Mutacion de salon con sillas, me-
+                  <lb/>sa y una comedia encima de ella,
+                  <lb/>y salen por la izquierda la
+                  <lb/>Graciosa y Cuarta.
+               </stage>
+               
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Haz que todo esté dispuesto,</l>
+                  <l>porque esta tarde hay tragedia,</l>
+                  <l>y me he de ir muy temprano.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cuar.</speaker>
+                  <l>Usted recelo no tenga,</l>
+                  <l>quetodolo tendrá pronto. <stage rend="cursiva">Llam.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Llamando están á la puerta:</l>
+                  <l>mira quién es.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cuar.</speaker>
+                  <l>Voy corriendo. <stage rend="cursiva">vase.</stage></l>
+                  
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>El sastre me desespera;</l>
+                  <l>si el vestido no me trae,</l>
+                  <l>le he de romper la cabeza.</l>
+               </sp>
+               
+               <stage rend="cursiva"> Sale Cuarta..</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Cuart.</speaker>
+                  <l>Señora, un payo andaluz,</l>
+                  <l>con otro, dice que es fuerza</l>
+                  <l>hablar con usted.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>No dice</l>
+                  <l>quién son?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cuart.</speaker>
+                  <l>No Señora; y se entran</l>
+                  <l>sin aguardar que les digan</l>
+                  <l>que lo hagan.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Pues es bueña:</l>
+                  <l>política: dí que aguarden.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cuar.</speaker>
+                  <l>Ya se han entrado en la pieza.</l>
+               </sp>
+               
+               <stage rend="cursiva">Salen Bartolo y Pascual.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Se puede entrar, señorita,</l>
+                  <l>si es que ustednos dá licencia?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Para qué la quiere usted,</l>
+                  <l>si ya se ha entrado sin ella?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">B.</speaker>
+                  <l>No gaste usted cumplimientos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Es una gran desvergüenza</l>
+                  <l>entrarse sin avisar:</l>
+                  <l>si por acaso estuviera</l>
+                  <l>en camisa, era decente</l>
+                  <l>que ustedes así me vieran?</l>
+                  <l>En la antesala se aguarda.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Señorita, allá en mi tierra</l>
+                  <l>ni ante-sala, ni antesalcoba</l>
+                  <l>hay: el que llama, se entra:</l>
+                  <l>si los encuentra en camisa,</l>
+                  <l>vuelve la cara, y espera</l>
+                  <l>á que se pongan las naguas;</l>
+                  <l>y si no de la manera</l>
+                  <l>que los halla da el recado,</l>
+                  <l>y se vuelve puerta afuera.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Vaya qué es lo que V quiere?</l>
+                  <l>qué se ofrece, ó qué desea?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Mire usted, estoy cansado:</l>
+                  <l>tomaré yo la silleta,</l>
+                  <l>y me asentaré: jorrio, tú?</l>
+                  <l>siéntate con convenencia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Se podrán ver otros modos?</l>
+                  <l>el hombre es bruto de veras:</l>
+                  <l>la cortedad me dá gusto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Siéntese usted sin molestia,</l>
+                  <l>que yo vengo muy despacio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Qué linda es la casa esta!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Vaya, despáchese y diga</l>
+                  <l>quién es y con ligereza,</l>
+                  <l>loque buscan en mi casa.</l>
+               </sp>
+               
+               <pb n="5"/>
+               
+               <fw type="paginaNum">5</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>No se ofenda V.; paciencia.</l>
+                  <l>Qué calor que hace, Pascual.</l>
+                  <l>Haga usted que la doncella</l>
+                  <l>(si acaso lo es de esta casa</l>
+                  <l>la niña que está en presencia)</l>
+                  <l>nos saque de refrescar,</l>
+                  <l>pues la calor nos marea;</l>
+                  <l>y tome usté estos tres cuartos,</l>
+                  <l>y si hay cerca una taberna,</l>
+                  <l>que me traigan un porron</l>
+                  <l>de vino, pues me refresca.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Que vayan luego al instante.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Se podrá ver tal llaneza!</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Como soy, que es como unoro</l>
+                  <l>la cómica de comedias.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Mejor que la Boticaria,</l>
+                  <l>la Médica y la Alcaldesa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>A que llamo quien á palos</l>
+                  <l>los eche la puerta afuera,</l>
+                  <l>llenándolos de estacazos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>En ese caso no fuera</l>
+                  <l>yo el que mas pocos daría,</l>
+                  <l>porque tengo mucha fuerza.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Quién son, y que es lo que</l>
+                  <l>quieren?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Mire usted, allá en mi tierra.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Y de que tierra es usted?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Qué no sabe ustedmi tierra?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>No señor,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Pues es un pueblo</l>
+                  <l>como este ú otro cualquiera:</l>
+                  <l>hay hombres, mugeres, niños;</l>
+                  <l>hay viejos, tambien hay viejas.</l>
+                  <l>hay bestias, como osté sabe,</l>
+                  <l>que entodo el lugar seencierran</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Usted viené á sofocarme:</l>
+                  <l>se habrá visto tal postema?</l>
+                  <l>Bart.Si ustedquiere quede pronto</l>
+                  <l>lo diga toda mi arenga;</l>
+                  <l>es fuerza irme poco á poco:</l>
+                  <l>yo soy pecado, y es fuerza</l>
+                  <l>si no lo digo despacio</l>
+                  <l>y á la moda de mi tierra)</l>
+                  <l>que no sepa lo que digo,</l>
+                  <l>ni usted lo que digo entienda.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gra.</speaker>
+                  <l>Yo me apuro coneste hombie,</l>
+                  <l>vaya, diga usted.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Con flema.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac,</speaker>
+                  <l>Acabe, aunque sea despacio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">B.</speaker>
+                  <l>Pascual, si habran yalas bestias</l>
+                  <l>comídose el primer pienso?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Es forzoso que ásí sea.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Diga usted (entre parentis)</l>
+                  <l>de cebada la fanega</l>
+                  <l>á como esta por acá?</l>
+                  <l>Grac Hombre, no sea ustedbestia,</l>
+                  <l>que eso no es aquí del caso:</l>
+                  <l>váyase usté, y no nos muela.</l>
+                  <l>Bart.Me espanto que en este pueblo</l>
+                  <l>sean las gentes tan buenas,</l>
+                  <l>que ignoran á cómo vale</l>
+                  <l>la comida de las bestias..</l>
+                  <l>Pues señora, á lo que vengó...</l>
+                  <l>qué hablábamos? que en con-</l>
+                  <l>ciencia </l>
+                  <l>no me acuerdo: ¿no trae el vino</l>
+                  <l>la chica?</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Grac. </speaker>
+                  <l>Tómate esa:</l>
+                  <l>ya volvemos al princípio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">P.</speaker>
+                  <l>Hombre despacha, ynomuelas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">D.</speaker>
+                  <l>Ay, ya me acuerdo! Es el caso,</l>
+                  <l>que unseñó que está en mitierra</l>
+                  <l>me ha dado con mucho empeño</l>
+                  <l>y esta carta, y que la diera</l>
+                  <l>á usted: mas bien entendido,</l>
+                  <l>que me ha de dar la respuesta,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gra.</speaker>
+                  <l>Gracias áDios, que acabamos:</l>
+                  <l>y para una friolera</l>
+                  <l>como traerme una carta,</l>
+                  
+                  <pb n="6"/>
+                  
+                  <fw type="paginaNum">6</fw>
+                  
+                  <l>ha gastado tanta flema!</l>
+                  <l>vaya, déme usted la carta,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Déme usté antes la respuesta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Si digo que usté es unbruto</l>
+                  <l>de los pies á la cabeza:</l>
+                  <l>hombre déme usted la carta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>En dándome la respuesta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Jesus, que sofocacion:</l>
+                  <l>dame la basquiña,</l>
+                  <l>que me quiero ir al teatro</l>
+                  <l>por no escuchar á este bestia.</l>
+                  <l>Pasc Dice bien, dale la carta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>No quiero: eres un tronera;</l>
+                  <l>¿quieres tú que lea la carta,</l>
+                  <l>y que no haga caso de ella,</l>
+                  <l>como otras muchas lo hacen,</l>
+                  <l>y me vaya sin respuesta?</l>
+                  <l>no señor, para no errarlo,</l>
+                  <l>toma y daca:deme ella</l>
+                  <l>y la respuesta á mí primero,</l>
+                  <l>y daré la carta; piensan</l>
+                  <l>que soy tonto?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Y muy salvage:</l>
+                  <l>hombre, eso que dice y piensa</l>
+                  <l> no vé usté que no es posible?</l>
+                  <l>vaya, no sea tronera:</l>
+                  <l>¿me da usted la carta ó no?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>En dándome la respuesta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Salgan luego de mi cása,</l>
+                  <l>ó les rompo la cabeza</l>
+                  <l>y con esta silla: á la calle,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">B.</speaker>
+                  <l>Conque ello ha de ser porfuerza,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>O les partiré los cacos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Una vez que usted meruega,</l>
+                  <l>y lo pide en cortesía</l>
+                  <l>se acabó la dependencia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Dále la carta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Verás</l>
+                  <l>como me yoy sin respuesta:</l>
+                  <l>tome usted la cartaz pero</l>
+                  <l>no tiene razon ni media</l>
+                  <l>en querer la carta </l>
+                  <l>sin darme antes la respuesta:</l>
+                  <l>allá va.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Grac. </speaker>
+                  <l>Gracias á Dios.</l>
+                  <l>que alargó la carta.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart. </speaker>
+                  <l>Lea.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Lee la Grac. </speaker>
+                  <l>«Señora usted me dis-</l>
+                  <l>pensará la molestia, por ser su</l>
+                  <l>mas apasionado cuandola conocí</l>
+                  <l>en esa córte, que estuve á ciertas</l>
+                  <l>pretensiones; y hallándome en</l>
+                  <l>este lugar de Andalucía al tiem-</l>
+                  <l>po de hacerse unas fiestas en que</l>
+                  <l>han dispuesto los alcaldes hacer</l>
+                  <l>unas tragedias, se han valido de</l>
+                  <l>mí para que me empeñe con V. á</l>
+                  <l>fin de que instruya lo mejor que</l>
+                  <l>pueda al dador de esta, que pasa</l>
+                  <l>á cierto negocio á esacórte, y es</l>
+                  <l>uno de los que entran en la fun-</l>
+                  <l>cion, y hace el papel principal;</l>
+                  <l>informándole lo que ha de ha-</l>
+                  <l>cer, y la vestimenta que sere-</l>
+                  <l>quiere: favor que espera mere-</l>
+                  <l>cer su mas apasionado Saturio</l>
+                  <l>Saturnino Moron, etc.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Rep.</speaker>
+                  <l>Se habrá visto igual friolera?</l>
+                  <l>ni sé quien es Don Saturio,</l>
+                  <l>ni yo tengo aunque quisiera,</l>
+                  <l>lugar para entretenerme</l>
+                  <l>en semejante pamema.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Ha leido usted la carta?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Si señor. D. Y la respuesta?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Lo que yo respondo es</l>
+                  <l>que se vayan norabuena</l>
+                  <l>de mi casa, que no estoy</l>
+                  <l>para bromas: vayan fuera</l>
+                  <l>al instante. </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart. </speaker>
+                  <l>No te dije</l>
+                  <l>que me iria sin respuesta?</l>
+                  
+                  <pb n="7"/>
+                  
+                  <fw type="paginaNum">7</fw>
+                  
+                  <l>lo ves? yo tengo la culpa</l>
+                  <l>en dar la carta: paciencia!</l>
+                  <l>con que nos vamos?</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Cuar. </speaker>
+                  <l>Sra.,</l>
+                  <l>mientras que la hora se llega</l>
+                  <l>de que vamos al teatro</l>
+                  <l>tómelo usted por fiesta,</l>
+                  <l>y divirtámonos en</l>
+                  <l>oirles cuatro simplezas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>No dices mal; y decidme...</l>
+                  <l>pero quién anda allá fuera?</l>
+               </sp>
+               
+               <stage rend="cursiva">Salen Don Pedro y Don Antonio.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Madama, si usted permite</l>
+                  <l>que mi amigo...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Se interesa</l>
+                  <l>mi afecto en corresponder</l>
+                  <l>á quien urbano se precia</l>
+                  <l>así de favorecerme,</l>
+                  <l>sin otro fin que la buena</l>
+                  <l>politica de mostrarse</l>
+                  <l>mi apasionado de veras.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Los 2.</speaker>
+                  <l>Favor conquenos honramos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grae.</speaker>
+                  <l>Ya Sres:, que se encuentran</l>
+                  <l>en esta ocasion, sentarse,</l>
+                  <l>y vereis cosa muy buena. <stage rend="cursiva">Siént.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Oyes, estos son los dos...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Ya los conozco.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Pues ea,</l>
+                  <l>como iba diciendo, amigo,</l>
+                  <l>vos en aquesta tragedia</l>
+                  <l>que se hace en vuestro lugar</l>
+                  <l>qué papel haceis?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>¡No es buena</l>
+                  <l>la pregunta! pues mi cara,</l>
+                  <l>y esta mi hermosa presencia,</l>
+                  <l>no están diciendo que yo</l>
+                  <l>haré la Dama primera?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Si no suelto yo la risa,</l>
+                  <l>será un milagro. En comedia</l>
+                  <l>habeis entrado otra vez?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Sí señora: en las Cantelas</l>
+                  <l>hice uno de los que salen</l>
+                  <l>cuando prenden á la reina,</l>
+                  <l>como no tenia versos,</l>
+                  <l>no equivoqué ni una letra;</l>
+                  <l>yo no hablé ni una palabra;</l>
+                  <l>pero se movió tal gresca</l>
+                  <l>al verme salir, que todos</l>
+                  <l>aplaudieron mi presencia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">G.</speaker>
+                  <l>Pues los principios son buenos,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Por eso la diligencia</l>
+                  <l>me encargaron, conociendo</l>
+                  <l>que era propio para ella.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Ciertamente: ¿y el señor</l>
+                  <l>no hace papel?</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Deletrea</l>
+                  <l>un poco, con que es forzoso</l>
+                  <l>que él apunte la tragedia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Será una funcion famosa;</l>
+                  <l>cómo titula?  </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>De veras</l>
+                  <l>que no me acuerdo; se llama...</l>
+                  <l>se me perturba la lengua;</l>
+                  <l>el Mártes... Martes... así</l>
+                  <l>una cosa como esta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>El Mitridates direis</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Esos términos que suenan</l>
+                  <l>á orate frates, señora,</l>
+                  <l>no son para mi cabeza.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Cabalmente la tenia!</l>
+                  <l>por casualidad en la mesa</l>
+                  <l>la tragedia que decis;</l>
+                  <l>haremos un paso de ella;</l>
+                  <l>usted póngase de pies,</l>
+                  <l>y con la presencia recta</l>
+                  <l>haga lo que yo diré,</l>
+                  <l>para ver como le pega,</l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Pónese Bartolo en figura ridicula;
+                  <lb/>la Graciosa representa trágico;
+                  <lb/>y él la quiere imitar.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Eche usted por esa boca.</l>
+               </sp>
+               
+               <pb n="8"/>
+                  
+               <fw type="paginaNum">8</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Eschuche y atencion tenga.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Escuche, y atencion tenga.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Quenohe empezado, salvage:</l>
+                  <l>habráse visto tal bestia!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Que no he empezado,salvage.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Aguarda que ahora comienzo</l>
+                  <l>y seguirás.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Barí.</speaker>
+                  <l>Vaya de esta,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Del hórrido furor que inezo-</l>
+                  <l>rable,</l>
+                  <l>fué momento infeliz de mi desti-</l>
+                  <l>no,</l>
+                  <l>es hoy desgracia al sanguinario</l>
+                  <l>instrumento fatalquese previno.</l>
+                  <l>A hora dígalos despacio</l>
+                  <l>estos versos que yo he dicho:</l>
+                  <l>con seriedad. </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Allá voy:</l>
+                  <l>no me acuerdo del principio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Ahora estamos ahí!</l>
+                  <l>pues vaya, diga conmigo;</l>
+                  <l>el hórrido furor que inexorable.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>El jocico furor, que perdu:</l>
+                  <l>rable...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Fué momento infeliz de mi</l>
+                  <l>destino...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Que comiendo con Félix el</l>
+                  <l>pepino...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Es hoy de mi desgracia el</l>
+                  <l>sanguinario...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Es hoy con linda gracia el</l>
+                  <l> luminario...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Instrumentó fatal que se</l>
+                  <l>prevíno...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Burt.</speaker>
+                  <l>Segun muerto está ya, que.</l>
+                  <l>traigan vino.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Grandemente,grandemente!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Yo tengo buena memoria,</l>
+                  <l>y no se me olvidará:</l>
+                  <l>El jocico feroz, que perdurable</l>
+                  <l>fue comiendo con Felix el pe-</l>
+                  <l>pino,</l>
+                  <l>es hoy con linda gracia ellumina-</l>
+                  <l>rio;</l>
+                  <l>segun muerto esta ya, que trai.</l>
+                  <l>gan vino.</l>
+                  <l>Como soy que de esta hecha</l>
+                  <l>salgo el mejor Trageriante</l>
+                  <l>que hay en todas las Tragerias.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gra.</speaker>
+                  <l>Lo habeis hecho cual ninguno.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>No haré una damamuy buena,</l>
+                  <l>Pascual?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pasc.</speaker>
+                  <l>Sí, mejor tiráras</l>
+                  <l>de un carro ó una carreta</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>Vaya que el chiste es gracioso</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Qué hora es?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Las siete y media.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Ustedes perdonarán</l>
+                  <l>me despida, pues me fuerza</l>
+                  <l>à hacerlo la obligacíon</l>
+                  <l>de asistir á la comedia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ped.</speaker>
+                  <l>A ella nos vamos nosotros;</l>
+                  <l>perdone usted la molestia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.</speaker>
+                  <l>Dejemos para mañana,</l>
+                  <l>que dareís acá la vuelta,</l>
+                  <l>la leccion: dáme tú, chica,</l>
+                  <l>mantilla y basquiña. </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Bart. </speaker>
+                  <l>Ea,</l>
+                  <l>pues agur, hasta mañana:</l>
+                  
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">P. </speaker>
+                  <l>Vamos, que estarán las bestias,</l>
+                  <l>sin comer, y pensaran</l>
+                  <l>que nos olvidamos de ellas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Garc.</speaker>
+                  <l>Cuidado, que no falteis.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bart.</speaker>
+                  <l>Cuidado con la respuestá.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Y aquí dá fin el Sainete,</l>
+                  <l>perdonad las faltas nuestras,</l>
+               </sp>
+               
+               <trailer><choice><sic>FNI.</sic><corr>FIN.</corr></choice></trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

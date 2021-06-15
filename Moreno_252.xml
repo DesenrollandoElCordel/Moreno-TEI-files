@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_252">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El testamento de Cristo</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El testamento de Cristo.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1857</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 265</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Testamento</item>
+                        <item>Codicilo</item>
+                        <item>Romance</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>El testamento de Cristo.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3</locus>
+                     <title>Codicilo.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Romance de un alma contrita.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_252_1.xml">grabado_m_252_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX524876.html" type="tipo_texto">Testamentos</term>
+               <term target="XX4358606.html" type="tipo_texto">Codicilos</term>
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-07" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_252_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">(Núm. 265.)</fw>
+               
+               <head type="primer_titulo">
+                  <lb/>EL TESTAMENTO
+                  <lb/><hi>DE CRISTO.</hi>
+               </head>
+               
+               <l rend="indent">Sepan cuantos esta carta</l>
+               <l>vieren de mi testamento</l>
+               <l>como yo Cristo Jesus,</l>
+               <l>Dios y hombre verdadero</l>
+               <l>vecino de las alturas,</l>
+               <l>y ahora morador del suelo,</l>
+               <l>que por solo el pecador</l>
+               <l>bajé á la muerte contento:</l>
+               <l>Estando enfermo de amor</l>
+               <l>por sanar al hombre enfermo,</l>
+               <l>que enfermedades de amante</l>
+               <l>me han traido á tal estremo:</l>
+               <l>Líbre en la voluntad mia</l>
+               <l>y sano el entendimiento,</l>
+               <l>donde de mi Eterno Padre</l>
+               <l>asiste el saber inmenso:</l>
+               <l>Viendo cercana la muerte</l>
+               <l>que ha de dar vida á los muertos,</l>
+               
+               <pb n="2"/>
+               
+               <l>y que ya de mi partida</l>
+               <l>tanto se apresura el tiempo:</l>
+               <l>Otorgo lo que contiene</l>
+               <l>este testamento nuevo,</l>
+               <l>y desde la fecha de él</l>
+               <l>anulo y revoco el viejo,</l>
+               <l>Y mando primeramente</l>
+               <l>el alma á mi Padre Eterno,</l>
+               <l>en cuyas piadosas manos</l>
+               <l>mi Santo Espiritu ofrezco.</l>
+               <l>Al venturoso sepulcro</l>
+               <l>mando mi divino cuerpo,</l>
+               <l>de donde con mayor gloria</l>
+               <l>resurgirá el dia tercero</l>
+               <l>Manos y pies á los clavos,</l>
+               <l>á la aguda lanza el pecho,</l>
+               <l>la cabeza á las espinas,</l>
+               <l>y todo junto á un madero.</l>
+               <l>A Judas mando desgracia,</l>
+               <l>las llaves del cielo á Pedro,</l>
+               <l>á Juan por ser mi querido</l>
+               <l>á mi madre lo encomiendo.</l>
+               <l>Item mas, hago una manda</l>
+               <l>de Redencion á los presos</l>
+               <l>que en el Limbo están cautivos</l>
+               <l>y esperan mi advenimiento.</l>
+               <l>Y por lo que quiero al hombre,</l>
+               <l>pues por darle vida muero,</l>
+               <l>lo hago de mis haberes</l>
+               <l>universal heredero.</l>
+               <l>por sucesor le señalo</l>
+               <l>del Mayorazgo del Cielo,</l>
+               <l>donde sea participante</l>
+               <l>de los bienes que alli tengo.</l>
+               <l>Y por faltarle la edad</l>
+               <l>para poder poseerlo,</l>
+               <l>hasta que cumpla los años</l>
+               <l>que por mi le están dispuestos</l>
+               <l>viéndolo pobre de bienes,</l>
+               <l>quiero dejarle alimento</l>
+               <l>con que pueda sustentarse</l>
+               <l>mientras que viva en destierro.</l>
+               <l>Mi carne y sangre le doy, </l>
+               <l>y digo, que mando y quiero</l>
+               <l>que no se le ponga tasa</l>
+               <l>en lo que toca al sustento.</l>
+               <l>Y porque mejor se cumpla</l>
+               <l>aqueste mi testamento,</l>
+               <l>á todos mis Sacerdotes</l>
+               <l>por mis Albaceas dejo.</l>
+               <l>Es fecho en jerúsalen:</l>
+               <l>en el fin del mes tercero,</l>
+               <l>pasados treinta y tres años</l>
+               <l>del Sagrado Nacimiento.</l>
+               <l>Presentes doce testigos</l>
+               <l>del Soberano Colegio.</l>
+               <l>Y los cuatro Evangelistas,</l>
+               <l>como Escribanos del Cielo,</l>
+               <l>en sus Escrituras Santas</l>
+               <l>den fé y testimonio de ello.</l>
+               
+               <trailer rend="cursiva">FIN.</trailer>
+            </div>
+            
+            <div>
+               <pb n="3"/>
+               
+               <head type="primer_titulo">CODICILO.</head>
+               
+               <l>Despues que yo Dios y Hombre,</l>
+               <l>Criador de tierra y cielo,</l>
+               <l>en el Cenáculo Santo</l>
+               <l>acabé mi testamento:</l>
+               <l>Estando para morir</l>
+               <l>en la cama del Madero,</l>
+               <l>á lo ultimo de mi vida;</l>
+               <l>en mi juicio y sano acuerdo:</l>
+               <l>Sin revocar cosa alguna</l>
+               <l>de mi testamento nuevo</l>
+               <l>para otorgar nuevas mandas</l>
+               <l>este Codicilo ordeno.</l>
+               <l>Cuanto pude le dí al hombre,</l>
+               <l>pues que le dí hasta mi cuerpo,</l>
+               <l>y aun incitado de amor</l>
+               <l>perdonar sus deudas quiero.</l>
+               <l>El primer perdon que hago</l>
+               <l>es á los padres primeros</l>
+               <l>que salgan del Limbo todos,</l>
+               <l>pues que yo pago por ellos.</l>
+               <l>Despues otorgo el Perdon</l>
+               <l>á la negacion de Pedro,</l>
+               <l>pues que llorando su culpa,</l>
+               <l>me dejará satisfecho.</l>
+               <l>A los demas Colegiales.</l>
+               <l>que por temor que tuvieron</l>
+               <l>de mis contrarios,cercado</l>
+               <l>me dejaron en el Huerto,</l>
+               <l>los perdono,porque fué</l>
+               <l>voluntad del padre Eterno</l>
+               <l>y les mando lo siguiente,</l>
+               <l>que es darles de lo que tengo:</l>
+               <l>A Pedro, Andres y Felipe</l>
+               <l>mando, cual este un Madero,</l>
+               <l>para que muriendo en Cruz</l>
+               <l>pueden vivir ab Eterno</l>
+               <l>A Juan le mando una Tina,</l>
+               <l>y á Bartolomé un Pellejo,</l>
+               <l>á los demas su martirio,</l>
+               <l>y á todos juntos el Cielo.</l>
+               <l>A los que me crucifican</l>
+               <l>mando mis brazos abiertos,</l>
+               <l>que aunque pueblo inobediente,</l>
+               <l>ruego á mi Padre por ellos.</l>
+               <l>Y mis ropas desde ahora</l>
+               <l>á los sayones entrego</l>
+               <l>en pago de aquel trabajo</l>
+               <l>que en maltratarme tuvieron.</l>
+               <l>A Longinos, porque abrió</l>
+               <l>mi costado con un hierro,</l>
+               <l>este yerro le perdono,</l>
+               <l>y le mando vista luego.</l>
+               <l>Al santo Ladron perdono</l>
+               <l>por el valor de un momento,</l>
+               <l>y al otro por negativo,</l>
+               <l>como á Judas le condeno.</l>
+               <l>A Elena, la Reina Santa</l>
+               <l>dejo la cama en que duermo:</l>
+               <l>empero doscientos años</l>
+               <l>quiero que pasen primero.</l>
+               <l>Mando á mi querida Madre</l>
+               <l>tres dias de desconsuelo:</l>
+               <l>y en todas las demas mandas</l>
+               <l>me refiero al testamento</l>
+               <l>Y á mi Padre In manus tuas</l>
+               <l>commendo Spiritum meum.</l>
+               <trailer>FIN.</trailer>
+            </div>
+            
+            <div>
+               <pb n="4"/>
+               
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>ROMANCE
+                  <lb/>DE UN ALMA CONTRITA.
+               </head>
+               
+               <l rend="indent">Penas en llanto desechas</l>
+               <l>del curso de sangre yagua</l>
+               <l>que de su costado vierte</l>
+               <l>el que lo abrió para el alma;</l>
+               <l>es mi alma ciertamente</l>
+               <l>mas que vosotras helada,</l>
+               <l>pues ablandais vuestro pecho,</l>
+               <l>y ella su pecho no hablanda,</l>
+               <l>parece que, alma teneis,</l>
+               <l>y que al alma alma le falta,</l>
+               <l>pues llorais viendo á Dios muerto</l>
+               <l>y no llora quien le mata.</l>
+               <l>Ay mi Dios, ya se enternece,</l>
+               <l>no lo esteis de perdonarla,</l>
+               <l>pues como sois tan piadoso</l>
+               <l>el perdonar nunca os cansa.</l>
+               <l>Del delirio de la culpa</l>
+               <l>escapé medio anegada</l>
+               <l>en la tabla de la Cruz,</l>
+               <l>que es de mi vida la tabla.</l>
+               <l>Ay Dios, qué me habeis sufrido!</l>
+               <l>mas sois Jesus, que esto basta,</l>
+               <l>porque en un alma que llora,</l>
+               <l>mal se venga quien bien ama.</l>
+               <l>Perdon os pido, Dios mio,</l>
+               <l>y ya se acusa de ingrata,</l>
+               <l>ya turbada y vergonzosa</l>
+               <l>dice en lágrimas bañada:</l>
+               <l>Pequé,Señor, y mis culpas</l>
+               <l>con Vos me vengo á llorarlas;</l>
+               <l>si os enojan cometidas,</l>
+               <l>os desenojan llaradas.</l>
+               <l>Esclava fui del deleite.</l>
+               <l>y por eso vuelvo errada</l>
+               <l>á que me quites los yerros</l>
+               <l>que me salen ya á la cara.</l>
+               <l>A vuestra casa me vuelvo,</l>
+               <l>aunque de pecar cansada;</l>
+               <l>buscando vengo el perdon,</l>
+               <l>de él tenemos los dos gana,</l>
+               <l>que amais Vos y lloro yo,</l>
+               <l>yo con culpas, Vos con gracia.</l>
+               <l>Jesus atadme á esa Cruz,</l>
+               <l>porque otra vez no me vaya, </l>
+               <l>que una fiera, ó una loca</l>
+               <l>muy bien parecen atadas.</l>
+               <l>Metedme en casa el buen dia,</l>
+               <l>que es buen dia en esta casa</l>
+               <l>cuando llora un penitente,</l>
+               <l>pues que los Angeles cantan.</l>
+               
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+            
+            <div type="colofon">
+               <p>
+                  <lb/>CARMOMA:—1857.
+                  <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

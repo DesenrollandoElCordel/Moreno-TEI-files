@@ -1,0 +1,1169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_258">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sainete titulado el caudal del estudiante</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete titulado el caudal del estudiante</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1867</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 271</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_258_1.xml">grabado_m_258_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-22" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_258_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1"/>
+
+            <fw type="impresorNum">Número 271.</fw>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">SAINETE</hi>
+               <lb/>TITULADO
+               <lb/><hi rend="negrita">EL CAUDAL</hi>
+               <lb/><hi rend="negrita">DEL ESTUDIANTE.</hi>
+            </head>
+
+            <div type="colofon">
+               <p>
+                  <lb/>Carmona:1867.
+                  <lb/>IMPRENTA Y LIBRERIA DE D. JOSE MARIA MORENO,
+                  <lb/>CALLE MADRE DE DIOS, NUMERO 1.
+               </p>
+            </div>
+
+            <div>
+               <pb n="2"/>
+
+               <pb n="3"/>
+
+               <head rend="negrita" type="subtitulo">
+                  <lb/>SAINETE.
+                  <lb/>EL CAUDAL DEL ESTUDIANTE.
+               </head>
+
+               <div type="reparto">
+                  <head rend="negrita" type="reparto_titulo">PERSONAS.</head>
+                  
+                  <castList>
+                     <castItem>DOS ALCALDES.</castItem>
+                     <castItem>UN ESCRIBANO.</castItem>
+                     <castItem>UN FILOSOFO.</castItem>
+                     <castItem>UN ASTROLOGO</castItem>
+                     <castItem>UN MEDICO.</castItem>
+                     <castItem>DOÑA JUANA.</castItem>
+                  </castList>
+               </div>
+
+               <div>
+                  <stage>SALEN DOS ALCALDES, EL ESCRIBANO Y MINISTROS.</stage>
+
+
+                  <sp>
+                     <speaker>ALC. 1.°</speaker>
+                     <l>Compañero, todo el pueblo</l>
+                     <l>es una sima de vicios,</l>
+                     <l>voz os acostais temprano,</l>
+                     <l>sin atender al oficio:.</l>
+                     <l>ó ser, ó no ser Alcalde,</l>
+                     <l>mudar de vida es preciso,</l>
+                     <l>y rondar toda la noche.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.°</speaker>
+                     <l>Aqueso no habla conmigo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.°</speaker>
+                     <l>¿Pues con quién habla? </l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Con vos, que sois Alcalde</l>
+                     <l>mazizo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Vive Dios, que á los dos toca</l>
+                     <l>el castigar los delitos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Compañero, vamos claros:</l>
+                     <l>este pueblo está en peligro,</l>
+                     <l>por los modos tan estraños,</l>
+                     
+                     <pb n="4"/>
+                     
+                     <fw type="paginaNum">4</fw>
+                     
+                     <l>que en él se han introducido.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>En nada de eso consiste.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.°</speaker>
+                     <l>¿Cómo no?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Eso está visto;</l>
+                     <l>pues los males del Lugar,</l>
+                     <l>que proceden es muy fijo</l>
+                     <l>de las <hi rend="cursiva">modas</hi> que han entrado,</l>
+                     <l>y los <hi rend="cursiva">modos</hi> que han salido.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Yo pondré remedio en todo,</l>
+                     <l>aunque no duerma en un siglo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>No tiene <hi rend="cursiva">Cura</hi> el Lugar.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Miente usted, voto à Cristo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>¿Cómo, con tal desacato</l>
+                     <l>me trata?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Calle el pollino:</l>
+                     <l>¿si el Lugar no tiene Cura,</l>
+                     <l>quién hoy la Misa le dijo?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Yo no hablaba de ese Cura.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Que calle, otra vez le digo,</l>
+                     <l>pues rezelo que me dé</l>
+                     <l>una enfermedad de oirlo.</l>
+                     <l>No sabe que mi Justicia,</l>
+                     <l>tal sobresalto ha infundido,</l>
+                     <l>hasta en los irracionales,</l>
+                     <l>que porque ha un mes que un bor-</l>
+                     <l>rico</l>
+                     <l>le apercibí con la pena</l>
+                     <l>de cuatro años de presidio,</l>
+                     <l>solo porque entró en un prado</l>
+                     <l>vedado.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Ha hecho hoy lo mismo,</l>
+                     <l>y causado graves daños.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC.</speaker>
+                     <l>1.° ¿Qué dices, Escribano?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Digo,</l>
+                     <l>que aquí teneis la sumaria.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>¿El borrico entró?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>El borrico.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Y eso es que le apercibió, </l>
+                     <l>con cuatro años de presidio.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>¿Y daños, causó?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Tan graves,</l>
+                     <l>que durarán los que hizo,</l>
+                     <l>muy cerca de nueve meses.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.°</speaker>
+                     <l>¿Hay mas estraño delito?</l>
+                     <l>Poned la sumaria inclusa</l>
+                     <l>con la otra.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Así lo estimo,</l>
+                     <l>porque en lances como estos,</l>
+                     <l>en causas de este capricho,</l>
+                     <l>cuando se juntan dos <hi rend="cursiva">causas</hi>,</l>
+                     <l>que haya una <hi rend="cursiva">inclusa</hi> es preciso.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>¿Dónde los reos estan?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Allá bajo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Al punto mismo,</l>
+                     <l>haced que suban arriba.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>El amo, porque el pollino,</l>
+                     <l>no podrá por la escalera.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Que suban, pléguete Cristo,</l>
+                     <l>que ya no es la vez primera,</l>
+                     <l>que á la sala se han subido.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>¿Quièn tal afirma?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Otra sala,</l>
+                     <l>que castiga sus delitos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Alcalde, yo en vuestra Audien-</l>
+                     <l>cia,</l>
+                     <l>tan rara cosa no he visto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Pésame, que vos seais</l>
+                     <l>Secretario poco listo:</l>
+                     <l>la Audiencia de mi muger,</l>
+                     <l>no consiste en tantos juicios,</l>
+                     <l>y he visto en ella mil veces</l>
+                     <l>diversidad de borricos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>No serán de los que piensan.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Eso es mas á favor mio,</l>
+                     <l>pues son de aquellos que dan, </l>
+                     <l>que pensar al mas pollino.</l>
+                  </sp>
+                  
+                  <sp>
+                     <speaker rend="cursiva">Dentro voces. </speaker>
+                     <l>Fugite, muger.</l>
+                  </sp>
+                  
+                  <sp>
+                     <speaker rend="cursiva">Dentro Juana. </speaker>
+                     <l>Justicia.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>qué novedad es esa.</l>
+                  </sp>
+                  
+                  <stage rend="cursiva">
+                     <lb/>Sale Juana, el Filósofo, el Astrólogo,
+                     <lb/>y el Médico ridiculamente,
+                     <lb/>vestidos.
+                  </stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Juana.</speaker>
+                     <l>Yo lo diré.</l>
+                  </sp>
+                  
+                  <sp>
+                     <speaker rend="cursiva">Los tres. </speaker>
+                     <l>Y nos tambien.</l>
+                  </sp>
+                  
+                  <pb n="5"/>
+                     
+                  <fw type="paginaNum">5</fw>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Este si que es buen dinero.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Señores, estos tres hombres,</l>
+                     <l>tan pobres como embusteros,</l>
+                     <l>quieren ausentarse hoy,</l>
+                     <l>sin pagar el gasto hecho.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>La cantidad de la deuda,</l>
+                     <l>vaya Juana refiriendo,</l>
+                     <l>que yo ejerceré Justicia,</l>
+                     <l>con desinterés y acierto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>El caudal del estudiante</l>
+                     <l>no conduce para pleitos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Los ojillos de la Juana</l>
+                     <l>me han devanado los cesos:</l>
+                     <l>¿vaya que ahorco á los tres,</l>
+                     <l>como ella se empeñe en ello?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>El Astrólogo, señores,</l>
+                     <l>hasta hoy me está debiendo</l>
+                     <l>un peso, y es procedido,</l>
+                     <l>de lo que iré refiriendo.</l>
+                     <l>Por hacerle dos justillos....</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>AST.</speaker>
+                     <l>Aquesa partida niego,</l>
+                     <l>aun antes de concluirla,</l>
+                     <l>pues mis justillos es cierto</l>
+                     <l>me vienen muy ajustados;</l>
+                     <l>por cuya razon contemplo:</l>
+                     <l>que ella no los ha cosido,</l>
+                     <l>pues es público en el pueblo</l>
+                     <l>no hace cosas ajustadas,,</l>
+                     <l>ni en su vida las ha hecho.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>El peso pagad al punto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>No hagais tal, que yo lo or-</l>
+                     <l>deno.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Aqueso es una injusticia,</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>No, sino un procedimiento,</l>
+                     <l>arreglado á la razon.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>¿En qué términos?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>En estos.</l>
+                     <l>Al tribunal superior</l>
+                     <l>le toca el conocimiento,</l>
+                     <l>de cuantos casos de Corte</l>
+                     <l>se suscitan en los puebios:</l>
+                     <l>luego el mandarle que pague</l>
+                     <l>al Astrólogo ese peso,</l>
+                     <l>es usar jurisdiccion,</l>
+                     <l>que nosotros no tenemos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>¿Acaso es caso de <hi rend="cursiva">Corte</hi></l>
+                     <l>el presente, ó puede serlo?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Si, señor, que los justillos,</l>
+                     <l>sin cortarse no se hicieron.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Unas calcetas le hice.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Asr.</speaker>
+                     <l>Cuanto usted dice es enredo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Todo lo niega este hombre!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>AST.</speaker>
+                     <l>¿No he de negarlo, sabiendo,</l>
+                     <l>que nunca en cosas de <hi rend="cursiva">punto</hi></l>
+                     <l>se emplea un <hi rend="cursiva">punto</hi>, ni medio?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Le he labado una camisa.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>AST.</speaker>
+                     <l>Esa partida concedo,</l>
+                     <l>mas yo no se lo mandé,</l>
+                     <l>por cuya razon no debo</l>
+                     <l>abonarle aquesa déuda.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Si la confiesa el modrego,</l>
+                     <l>¿por qué no la ha de pagar?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Porque tiene fundamento</l>
+                     <l>para no satisfacerla;</l>
+                     <l>y á Juanilla la condeno,</l>
+                     <l>en que pierda su trabajo,</l>
+                     <l>porque no se meta luego</l>
+                     <l>en camison de once varas.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Olal si no le da peso,</l>
+                     <l>preso el Astrólogo vaya.</l>
+                  </sp>
+                  
+                  <stage rend="cursiva">A los Ministros.</stage>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>No vaya tal.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Yo lo ordeno.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Y yo mando lo contrario.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Tenéos allá.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Teneos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Esc.</speaker>
+                     <l>Alcaldes, bueno está ya,</l>
+                     <l>¿qué quereis que diga el pueblo,</l>
+                     <l>si siempre en las providencias</l>
+                     <l>os examina dispersos?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Dirá, que es un mentecato</l>
+                     <l>el Alcalde compañero.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>No dirá, sino que vos</l>
+                     <l>sois un menguado, un jumento,</l>
+                  </sp>
+                  
+                  <pb n="6"/>
+                     
+                  <fw type="paginaNum">6</fw>
+
+                  <sp>
+                     <speaker>AST.</speaker>
+                     <l>Señores, por no ser yo</l>
+                     <l>de la discordia instrumento,</l>
+                     <l>aquí está él peso.</l>
+                  </sp>
+                  
+                  <stage rend="cursiva">Entrega á Juana un Ralendario.</stage>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Eso sí evácuese mi precepto,</l>
+                     <l>porque si no, esperaba</l>
+                     <l>bellaca noche en el zepo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>¿Dónde el peso está?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>AST.</speaker>
+                     <l>Ahí le tiene.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Es falsedad.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC.</speaker>
+                     <l>Es muy cierto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Es malicia cuanto espresa,</l>
+                     <l>pues solo me da en un pliego</l>
+                     <l>un Ralendario.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>AST.</speaker>
+                     <l>Está bien:</l>
+                     <l>ábrale Vd. al momento, </l>
+                     <l>y busque el signo de <hi rend="cursiva">Libra</hi>,</l>
+                     <l>que allí está pintado el <hi rend="cursiva">Peso</hi>.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Ha de pagar los reales,</l>
+                     <l>realmente, y con efecto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>AST.</speaker>
+                     <l>Si la costumbre del mundo</l>
+                     <l>con exactitud observo,</l>
+                     <l>siempre que medien reales, </l>
+                     <l>las realidades se fueron.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Yo le harè pagar despues:</l>
+                     <l>prosigue, Juana.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Me quejo</l>
+                     <l>de la misma muerte.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Haré</l>
+                     <l>que la maten al momento.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Pues este Médico osado,</l>
+                     <l>ademas, de que el dinero</l>
+                     <l>no quiere satisfacerme,</l>
+                     <l>trata mi honor con desprecio.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC.</speaker>
+                     <l>1.° Vamos por puntos, Juanilla,</l>
+                     <l>y digame lo primero</l>
+                     <l>el total de lo que debe.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Señor, tenia tan viejos</l>
+                     <l>los hábitos que llevaba,</l>
+                     <l>que era una irrision el verlos;</l>
+                     <l>y asi de piedad le dí</l>
+                     <l>una <hi rend="cursiva">Sotana</hi>.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Pues luego</l>
+                     <l>la satisfaga la deuda.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>No señor.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>¡Qué atrevimiento!</l>
+                     <l>¿Pues diga, puede negarla?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Si señor, mucho que puedo,</l>
+                     <l>que yo nací de las malvas,</l>
+                     <l>sin tener deudas, ni deudos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Déle al punto la sotana.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Fuera mucho atrevimiento</l>
+                     <l>delante de la Justicia</l>
+                     <l>hacer un acto tan feo:</l>
+                     <l>si sotanas quiere, en casa</l>
+                     <l>le daré yo mas de ciento.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Vamos pagándole al punto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Yo, señor, nada la debo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Pues diga. ¿puede negar</l>
+                     <l>el bellaco, el trapacero,</l>
+                     <l>que esta sotana es la mia?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Bien claro está que no puedo</l>
+                     <l>porque se parece a vos</l>
+                     <l>la sotana con estremo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.°</speaker>
+                     <l>Decid, ¿en qué?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>En lo raida y en lo puerca.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>¿Esto tolero?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Por sotanas tanta bulla,</l>
+                     <l>cuando andan los muchachuelos</l>
+                     <l>gimiendo siempre y llorando,</l>
+                     <l>por las que le da el maestro.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Esto solo es hacer burla;</l>
+                     <l>y pues que cobrar no puedo</l>
+                     <l>la deuda, porque no tiene</l>
+                     <l>en su bolsillo un dinero,</l>
+                     <l>mi honor pide el desagravio.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>¿Qué agravio es el que te ha</l>
+                     <l>hecho?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Se toman dos mil licencias.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Pues dos mil y una contemos:</l>
+                     <l>me tomaré la de irme,</l>
+                     <l>sin pagaros y sin veros,</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>No se vaya.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>No me iré,</l>
+                     
+                     <pb n="7"/>
+                     
+                     <fw type="paginaNum">7</fw>
+                     
+                     <l>que yo en mi vida fuí puerco.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Señor aunque hubiese gente</l>
+                     <l>en la posada, al momento</l>
+                     <l>me agarraba de la mano.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>Es muy impropio ese hecho.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>No es sino muy natural</l>
+                     <l>en los hombres de mi empleo;</l>
+                     <l>porque no hay Médico alguno, </l>
+                     <l>sea en palacio, en convento,</l>
+                     <l>ú en casa particular,</l>
+                     <l>si entra de la sala adentro</l>
+                     <l>que no se vaya dos veces</l>
+                     <l>á la mano.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>No lo entiendo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Claro está: pues á la entrada</l>
+                     <l>pulsa la del pobre enfermo,</l>
+                     <l>y á la salida, se va,</l>
+                     <l>á la que trae el dinero.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Esas son sofisterías.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Pues á la verdad apelo:</l>
+                     <l>el marido de esta niña,</l>
+                     <l>de buena letra sabiendo</l>
+                     <l>de cual de los pies cojea,</l>
+                     <l>me encargó no ha mucho tiempo, </l>
+                     <l>que yo la diese una mano,</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>No me gustan las de puerco.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC.</speaker>
+                     <l>¿Y qué motivo tenia</l>
+                     <l>su cónyuge para ello?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Yo no lo sé: en lacabeza</l>
+                     <l>dijo se le habia puesto....</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>Qué? qué?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>MED.</speaker>
+                     <l>Que por su pié,</l>
+                     <l>se iba usted á los infiernos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>¿Qué hay del Filósofo?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>FIL.</speaker>
+                     <l>Nada.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.°</speaker>
+                     <l> Mal hace por este tiempo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ESC.</speaker>
+                     <l>Como es á bragas enjutas, </l>
+                     <l>no le embaraza el invierno.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUA.</speaker>
+                     <l>El Filósofo, ¡señores,</l>
+                     <l>lo primero está debiendo</l>
+                     <l>un par de <hi rend="cursiva">medias</hi>.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>FIL.</speaker>
+                     <l>Es fijo;</l>
+                     <l>pero Juana, del pellejo,</l>
+                     <l>en que yo conservo el vino,</l>
+                     <l>ha sacado mas de ciento.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>JUAN.</speaker>
+                     <l>Las que yo dí, eran de lana:</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>FIL.</speaker>
+                     <l>Y el vino tenia pelos;</l>
+                     <l>pues le faltaba la pez</l>
+                     <l>al referido pellejo:</l>
+                     <l>con que, pelillos al mar,</l>
+                     <l>váyase Pedro por Diego,</l>
+                     <l>que si el asunto se estrecha</l>
+                     <l>te coge la puerta el dedo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALCS.</speaker>
+                     <l>Al punto pague las medias:</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>FIL.</speaker>
+                     <l>Siento carecer de medios;</l>
+                     <l>pero estudiante, y caudal,</l>
+                     <l>son dos contrarios estremos,</l>
+                     <l>el latin está reñido</l>
+                     <l>con el dinero, que es lego.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ESC.</speaker>
+                     <l>El Filósofo se engaña.</l>
+                     <l>FIL, ¿Por que?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ESC.</speaker>
+                     <l>Porque en todos tiempos, </l>
+                     <l>ha producido en el mundo</l>
+                     <l>muchas letras el dinero.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>FIL.</speaker>
+                     <l>Pero son letras de cambio</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ESC.</speaker>
+                     <l>Y tambien letras de premio,</l>
+                     <l>que las lezras de un doblon,</l>
+                     <l>vencen muchos argumentos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Esto está ya conocido.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 2.° </speaker>
+                     <l>¿Y qué quieres, compañero?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>ALC. 1.° </speaker>
+                     <l>Que ya que Juana no cobre</l>
+                     <l>un cuarto de estos fulleros,</l>
+                     <l>nos diviertan un poquito:</l>
+                     <l>El Filósofo, diciendo</l>
+                     <l>unos versos de repente,</l>
+                     <l>retratando su ornamento,</l>
+                     <l>trage ó vestido: y Juanilla,</l>
+                     <l>cantándonos despues de esto</l>
+                     <l>una Tonadilla nueva</l>
+                     <l>de primor, gracia y concepto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>TOD.</speaker>
+                     <l>Que viva el Alcalde.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>FIL.</speaker>
+                     <l>Viva;</l>
+                     <l>y allá voy yo con mi ingenio.</l>
+                     <l>Esta capa, que me tapa,</l>
+                     <l>tan pobre y tan vieja está,</l>
+                     <l>que solo porque <hi rend="cursiva">se vé</hi>,</l>
+                     
+                     <pb n="8"/>
+                     
+                     <fw type="paginaNum">8</fw>
+                     
+                     <l>se reconoce que <hi rend="cursiva">es capa</hi>.</l>
+                     <l>De amor en el basto mapa,</l>
+                     <l>no puede ejercer la treta</l>
+                     <l>de tercera, ú alcahueta,</l>
+                     <l>pues mas que <hi rend="cursiva">tapa destapa</hi>.</l>
+                     <l>Por lo vieja y desgarrada,</l>
+                     <l>parece la chupa mia,</l>
+                     <l>casa de capellanía,</l>
+                     <l>que siempre está derrotada.</l>
+                     <l>La tengotan desfrutada</l>
+                     <l>con mi cuerpo estrafalario,</l>
+                     <l>que ya su nombre ordinario,</l>
+                     <l>de chupa, será <hi rend="cursiva">chupada</hi>.</l>
+                     <l>Mis calzones, ni á retazos</l>
+                     <l>pudieran salir completos;</l>
+                     <l>y ellos parecen discretos</l>
+                     <l>en andar hechos pedazos;</l>
+                     <l>me dan el abrigo á plazos;</l>
+                     <l>pero no me desobligan,</l>
+                     <l>pues me libro de que digan,</l>
+                     <l>que soy un <hi rend="cursiva">calzonazos</hi>.</l>
+                     <l>Mis medias no están enteras;</l>
+                     <l>y el tiempo hacerlas promete</l>
+                     <l><hi rend="cursiva">Correos</hi> de Gabinete,</l>
+                     <l>que siempre andan á <hi rend="cursiva">carreras</hi>.</l>
+                     <l>No obstante sus mañas fieras,</l>
+                     <l>son mis medias estimadas;</l>
+                     <l>porque aunque tan <hi rend="cursiva">desgarradas</hi>,</l>
+                     <l>jamás han sido <hi rend="cursiva">Rameras</hi>.</l>
+                     <l>Aunque soy un mentecato,</l>
+                     <l>y no de buen proceder,</l>
+                     <l>ninguno puede saber</l>
+                     <l>donde me aprieta el zapato.</l>
+                     <l>A proporcion de mi ato,</l>
+                     <l>por lo viejo me desvela:</l>
+                     <l>zapato es hecho, <hi rend="cursiva">consuela</hi>,</l>
+                     <l>mas no <hi rend="cursiva">con suela</hi> el zapato.</l>
+                     <l>Doleos de mi trabajo,</l>
+                     <l>y si fuéseis hacendados,</l>
+                     <l>ponedme en vuestros sembrados,</l>
+                     <l>á que sirva de espantajo;</l>
+                     <l>que si en ellos me atasajo,</l>
+                     <l>huirán los animales</l>
+                     <l>porque aun los irracionales</l>
+                     <l>huyen de un vestido bajo.</l>
+                  </sp>
+                  
+                  <sp>
+                     <speaker>TOD.</speaker>
+                     <l>Viva el Filósofo, y viva</l>
+                     <l>este concurso discreto,</l>
+                     <l>para que á el autor perdone</l>
+                     <l>sus repetidos defectos,</l>
+                     <l>mientras que la Tonadilla</l>
+                     <l>dá fin al Sainete nuevo.</l>
+                  </sp>
+                  
+                  <trailer rend="negrita">FIN.</trailer>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

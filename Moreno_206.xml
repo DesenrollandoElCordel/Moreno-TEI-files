@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_206">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Antonio Montero y Diego de Frías</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Antonio Montero, y Diego de Frias. Romance, en que
+                     se refiere un raro suceso, Y notable tragedia, que en la Ciudad de Antequera
+                     les sucedió á dos Mancebos muy amigos, el uno llamado Diego de Frias, y él otro
+                     Antonio Montero, el cual era casado con una muy hermosa Dama; y como Diego de
+                     Frias, habiendose enamorado de ella, la sacó de su casa, y la llevó á la Ciudad
+                     de Sevilla; y como despues Antonio Montero los mató á entrambos.</title>
+                  <title type="titulo_breve">Antonio Montero, y Diego de Frias.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (s.a.): <ref target="Moreno_207.xml">Moreno_207</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 218</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_206_1.xml">grabado_m_206_1</item>
+                           <item corresp="grabado_m_206_2.xml">grabado_m_206_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-06" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_206_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         
+         <div>
+
+            <div>
+               
+               <pb n="1"/>
+               
+               <fw type="impresorNum">(Núm. 218)</fw>
+               
+               <head type="primer_titulo">ANTONIO MONTERO, Y DIEGO DE FRIAS.</head>
+               <head rend="cursiva" type="subtitulo">ROMANCE, EN QUE SE REFIERE UN RARO SUCESO, Y
+               <lb/>notable tragedia, que en la Ciudad de Antequera les sucedió á dos Man-
+               <lb/>cebos muy amigos, el uno llamado Diego de Frias, y él otro Antonio
+               <lb/>Montero, el cual era casado con una muy hermosa Dama; y como Die-
+               <lb/>go de Frias, habiendose enamorado de ella, la sacó de su casa,
+               <lb/>y la llevó á la Ciudad de Sevilla; y como despues
+               <lb/>Antonio Montero los mató á entrambos.</head>
+               
+               <l rend="indent">A la Virgen del Rosario</l>
+               <l>la suplico me dé aliento,</l>
+               <l>mientras mi lengua declara</l>
+               <l>el mas notable suceso,</l>
+               <l>que en la Ciudad de Antequera</l>
+               <l>les sucedió á dos Mancebos,</l>
+               <l>el uno es Diego de Frias,</l>
+               <l>y el otro Antonio Montero.</l>
+               <l>Eran ambos muy amigos,</l>
+               <l>y de muy cercanos deudos:</l>
+               <l>era Montero cas ido</l>
+               <l>con Doña Juana de Cueto, </l>
+               <l>blanca y rubia es como un Sol,</l>
+               <l>y de lindo entendimiento,</l>
+               <l>discreta, entendida, y sábia;</l>
+               <l>mas aquel Dragon sobervio</l>
+               <l>siempre tiró á derribarla,</l>
+               <l>armando trazas, y enrredos.</l>
+               <l>Hizo que se enámorase</l>
+               <l>Diego de Frías, teniendo</l>
+               <l>tantarcabida en su casa:</l>
+               <l>de amores andaha muerto;</l>
+               <l>hasta que la dijo un diá:</l>
+               <l>Si tú pagáras mi afecto,</l>
+               <l>fueras dueña de mis bienes,</l>
+               <l>pues que tanta hacienda tengo:</l>
+               <l>La Dama le respondió:</l>
+               <l>Mira, que Antonio Montero</l>
+               <l>es tu amigo, y si lo sabe,</l>
+               <l>mala fortuna téndrémos,</l>
+               <l>mas al fin yo daré traza</l>
+               <l>que nuestro amor disfrutemos:</l>
+               <l>Ingrata muger, y fragil;</l>
+               <l>que quebrantando el precepto</l>
+               
+               <pb n="2"/>
+               
+               <l>de tu esposo, diste entrada</l>
+               <l>al galán, Jesús, que yerro?</l>
+               <l>Tirano, aleve, qué haces?</l>
+               <l>A tu amigo verdadero </l>
+               <l>una crueldad tan grande</l>
+               <l>sin reparar en el riesgo?</l>
+               <l>Disfrutaron sus amores</l>
+               <l>con muchisimo contento;</l>
+               <l>y como Montero es hombre</l>
+               <l>de reputacion, y empeño,</l>
+               <l>temiendose que lo sepa,</l>
+               <l>toman galas y dineros,</l>
+               <l>y en un ligero caballo</l>
+               <l>una noche se salieron:</l>
+               <l>camino van de Sevilla</l>
+               <l>estos dos amantes tiernos.</l>
+               <l>A aquella Ciudad llegaron,</l>
+               <l>alli pusieron su asiento,</l>
+               <l>y en una casa vivian</l>
+               <l>con muchisimo secreto.</l>
+               <l>Volvamos ahora á Antequera</l>
+               <l>á declarar el suceso</l>
+               <l>pues cuando Montero vino,</l>
+               <l>y halló á su muger de menos</l>
+               <l>aqui de corage tiembla,</l>
+               <l>y se abrasa en fiero fuego,</l>
+               <l>por boca y ojos echaba</l>
+               <l>volcanes de vivo incendio,</l>
+               <l>Yá se retuerce las manos,</l>
+               <l>echando mil juranentos</l>
+               <l>de no cortarse la barba,</l>
+               <l>ni vestir camisa al cuerpo,</l>
+               <l>hasta que matase aquel, </l>
+               <l>que maltrataba su credito.</l>
+               <l>Mas de dos meses pasaron</l>
+               <l>sin pasearse Montero</l>
+               <l>de dia, sino es de noche,</l>
+               <l>las diligencias haciendo,</l>
+               <l>hasta que alcánzó á saber</l>
+               <l>que en Sevilla están de cierto.</l>
+               <l>Yá se remuda la ropa, </l>
+               <l>y por no ser descubierto,</l>
+               <l>se pone unas barbas canas,</l>
+               <l>que le tapan todo el pecho,</l>
+               <l>un jugon ojeteado,</l>
+               <l>que lleva arrimado al cuerpo,</l>
+               <l>un gaván de paño pardo</l>
+               <l>con mas de dos mil remiendos,</l>
+               <l>entre los cuales llevaba</l>
+               <l>cuatro volcanes de fuego:</l>
+               <l>un afilado cuchillo</l>
+               <l>previno para su intento,</l>
+               <l>una monterilla vieja,</l>
+               <l>en medio un casco de acero,</l>
+               <l>una capa mal formada,</l>
+               <l>un bordoncillo; y pidiendo</l>
+               <l>limosna se fue á Sevilla,</l>
+               <l>y á ella llego bien presto.</l>
+               <l>Donde estando con cuidado</l>
+               <l>las diligencias haciendo</l>
+               <l>un dia en San Salvador</l>
+               <l>tendió la vista Montero,</l>
+               <l>vio pasar á su enemigo,</l>
+               <l>los pasos le fue siguiendo,</l>
+               <l>Lo vido entrar en la casa,</l>
+               <l>pregunto y supo de cierto,</l>
+               <l>que era alli donde vivia,</l>
+               <l>y retirandose luego,</l>
+               <l>le escrivió una carta falsa</l>
+               <l>con mas de dos mil enredos</l>
+               <l>de Don Francisco de Frias,</l>
+               <l>tio de aqueste mancebo.</l>
+               <l>En punto de la Oracion</l>
+               <l>llegó á la casa Montero,</l>
+               <l>y dando un golpe á la puerta,</l>
+               <l>le bajo abrir el Mancebo:</l>
+               <l>vido un viejo venerable,</l>
+               <l>todo de canas cubierto,</l>
+               <l>y de ropa mal fardado,</l>
+               <l>y los ojos por el suelo;</l>
+               <l>qué se ofrece, padre honrado?</l>
+               <l>(le dice al fingido viejo)</l>
+               <l>y el con grande disimulo</l>
+               <l>preguntaba por el mesmo.</l>
+               <l>Yo soy, le dice al instante;</l>
+               <l>y fingiendo cumplimientos,</l>
+               <l>sacó del pecho la carta,</l>
+               <l>y besandola en el sello,</l>
+               
+               <pb n="3"/>
+               
+               <l>se la dió, Diego de Frias</l>
+               <l>el sobreese ito leyendo</l>
+               <l>rompe la nema, y prosigue,</l>
+               <l>estas palabras disiendo:</l>
+               <l>Sobrino del alma mia,</l>
+               <l>mil años te guarde el Cielo,</l>
+               <l>y te libre de enemigos,</l>
+               <l>que contrá tí están opuestos.</l>
+               <l>Yo tu tio Don Francisco</l>
+               <l>te embio á decir aquesto,</l>
+               <l>que en Antequera se sabe</l>
+               <l>que en Sevilla estas de cierto,</l>
+               <l>por lo que á buscarte ván</l>
+               <l>Montero, y algunos deudos:</l>
+               <l>Quiero traerte á Carmona,</l>
+               <l>pues yo alli mismo te espero,</l>
+               <l>y en la casa de un amigo</l>
+               <l>vivirás con gran secreto,</l>
+               <l>y nosotros descuidados,</l>
+               <l>que son tantos los lamentos</l>
+               <l>de tu madre, y tus hermanas,</l>
+               <l>las discordias, y los pleitos</l>
+               <l>de parte de tu enemigo,</l>
+               <l>originados del echo,</l>
+               <l>que me obligan a venir</l>
+               <l>á ponerte en salvamento:</l>
+               <l>con el portador saldrás,</l>
+               <l>á quien encargo el secreto,</l>
+               <l>porque antes que venga el Alva</l>
+               <l>estés de termino adentro</l>
+               <l>de Carmona, porque en ella</l>
+               <l>estarás libre del riesgo.</l>
+               <l>El Cielo os guarde, sobrino,</l>
+               <l>los años de mi deseo.</l>
+               <l>Se quedó el mozo elevado,</l>
+               <l>muy pensativo y suspenso;</l>
+               <l>la muger sale, y le dice:</l>
+               <l>Mira no sea algun enredo.</l>
+               <l>No es enredo, le replica,</l>
+               <l>y hemos de ir sin remedio.</l>
+               <l>Lo que conviene, Señora;</l>
+               <l>que al portador regalemos.</l>
+               <l>Aprestaron el caballo,</l>
+               <l>y aquella noche solieron</l>
+               <l>por la Puerta de la Carne</l>
+               <l>Dama, galan, y Escudero.</l>
+               <l>O desgraciada Señora!</l>
+               <l>ó malogrado Mancebo!</l>
+               <l>que no sabes la desgracia,</l>
+               <l>que vá en tu acompañamiento!</l>
+               <l>Mas en llegando á la Venta,</l>
+               <l>yá que el Alva iba rompiéndo,</l>
+               <l>dijo el Galan á la Dama:</l>
+               <l>Aqui un rato soseguemos.</l>
+               <l>Dice Montero, eso no;</l>
+               <l>pues vamos con tal secreto,</l>
+               <l>quiere usted parar en Venta?</l>
+               <l>mas adelante pasemos,</l>
+               <l>Toman una oculta senda</l>
+               <l>por unos montes espesos</l>
+               <l>de pinos, y de jarales:</l>
+               <l>á las umbrias de un cerro</l>
+               <l>volvió Montero la cara:</l>
+               <l>y dice: aqui pararemos,</l>
+               <l>para que estemos seguros</l>
+               <l>de todos los Pasageros.</l>
+               <l>Se apearon del caballo</l>
+               <l>los dos muy amantes tiernos,</l>
+               <l>diciendose mil cariños,</l>
+               <l>veneno para Montero.</l>
+               <l>Dice el Galan á la hama:</l>
+               <l>Dulce regalado espejo,</l>
+               <l>almorsemos, que yá es hora.</l>
+               <l>Entonces sacó Montero</l>
+               <l>dos furiosas carabinas</l>
+               <l>de los cosidos remiendos,</l>
+               <l>se quito la mascarilla</l>
+               <l>de las barbas, y malgesto,</l>
+               <l>y en altas voces decia:</l>
+               <l>Yo soy Antonio Montero.</l>
+               <l>La muger que aquesto oyó,</l>
+               <l>cayó redonda en el suelo.</l>
+               <l>Diego de Frias turbóse,</l>
+               <l>quiso hablar, mas el aliento</l>
+               <l>le faltó, pues le dispara</l>
+               <l>una pistola á este tiempo;</l>
+               <l>que las penetrantes balas</l>
+               <l>le atravesaron el pecho,</l>
+               
+               <pb n="4"/>
+               
+               <l>rebuelto entre fuego, y sangre,</l>
+               <l>estas palabras diciendo:</l>
+               <l>Confesion, que me has matado,</l>
+               <l>perdona, amigo Montero,</l>
+               <l>no me acabes de matar,</l>
+               <l>traeme los Sacramentos,</l>
+               <l>el alma es la que te encargo,</l>
+               <l>y pague el delito el cuerpo.</l>
+               <l>Mas él, tirano, y aleve,</l>
+               <l>vengativo, horrible, y fiero,</l>
+               <l>se arrimó, y con el cuchillo</l>
+               <l>le ha cercenadó el pescuezo,</l>
+               <l>Se fue á la muger, que estaba</l>
+               <l>casi difunta en el suelo,</l>
+               <l>de los cabellos la agarra,</l>
+               <l>dos milinjurias haciendo,</l>
+               <l>la dice: Falsa, enemiga,</l>
+               <l>qué es lo que á mí honor has hecho?</l>
+               <l>Mi credito le has perdido,</l>
+               <l>pues de esta suerte me veo,</l>
+               <l>trai dora, me pagarás</l>
+               <l>con forme el merecimiento.</l>
+               <l>La cabeza la cortó,</l>
+               <l>cón ella el brazo derecho:</l>
+               <l>en un baul que llevaban</l>
+               <l>de las prendás, y el dinero,</l>
+               <l>metió aquestas tres alh jas,</l>
+               <l>y en un caballo ligero</l>
+               <l>ácia Antequera camina,</l>
+               <l>de este caso satisfecho.</l>
+               <l>A las doce de la noche</l>
+               <l>llegó á su casa Montero,</l>
+               <l>y porsima de las puertas</l>
+               <l>con daros clavos de hierro</l>
+               <l>fijó el brazo y las cabezas,</l>
+               <l>poniendo un letrero en medio,</l>
+               <l>que con claridad decia:</l>
+               <l>lo hizo Antonio Montero</l>
+               <l>por restaurar lo perdido</l>
+               <l>de su punto, honor, y credito:</l>
+               <l>de esta suerte los maté</l>
+               <l>en tal parte quedan muertos.</l>
+               <l>Volvió la rienda al caballo,</l>
+               <l>se fue á Malaga derecho,</l>
+               <l>sentó plaza de Soldado</l>
+               <l>con muchisimo contento,</l>
+               <l>á servir al Rey en la Guerra:</l>
+               <l>haciendo notables hechos.</l>
+               <l>A otro dia, cuando el Alva.</l>
+               <l>se levantó de su lecho,</l>
+               <l>cuantos por la calle pasan</l>
+               <l>quedan confusos, y yertos.</l>
+               <l>Díieron cuenta á la Justicía,</l>
+               <l>los cuales vinieron presto;</l>
+               <l>los Señores admirados</l>
+               <l>despacharon por los cuerpos,</l>
+               <l>donde les dán sepultura.</l>
+               <l>Aquesto sirva de ejemplo</l>
+               <l>á las Señoras mugeres,</l>
+               <l>y á los Galanes mancebos,</l>
+               <l>que no se precien de amar</l>
+               <l>cosa que tenga otro dueño.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859.
+                  <lb/>Imp. de D. José María. Moreno, calle de Madre de Dios.
+                  Núm. 1.
+               </p>
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>

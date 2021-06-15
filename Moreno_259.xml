@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_259">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coplas nuevas glosadas en décimas para cantar los aficionados</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coplas nuevas glosadas en decimas para cantar los
+                     aficionados</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 273</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="3">Tres grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_259_1.xml">grabado_m_259_1</item>
+                           <item corresp="grabado_m_259_2.xml">grabado_m_259_2</item>
+                           <item corresp="grabado_m_259_3.xml">grabado_m_259_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5501105.html" type="tipo_texto">Coplas</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-08" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_259_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum">(Núm. 273.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/>COPLAS NUEVAS GLOSADAS EN DECIMAS
+                  <lb/>PARA CANTAR LOS AFICIONADOS.
+               </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Ayer me desembarqué</l>
+                  <l>en el muelle de la Habana,</l>
+                  <l>vendiendo la moda ufana</l>
+                  <l>que en Puerto-Rico compré.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Fuí teniente en Barcelona</l>
+                  <l>y en Valencia regidor,</l>
+                  <l>en Cádiz fuí matador</l>
+                  <l>y mendigante en Pamplona;</l>
+                  <l>órden tuve de corona,</l>
+                  <l>pero misa no canté,</l>
+                  <l>los hábitos arrastré,</l>
+                  <l>senté plaza de soldado,</l>
+                  <l>y oficial abanderado</l>
+                  <l rend="cursiva">ayer me desembarqué.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En Malaga fui sargento</l>
+                  <l>de gurdas de aquella costa,</l>
+                  <l>despues maestro de posta</l>
+                  <l>capitan de un regimiento,</l>
+                  <l>coronel fuí, como cuento,</l>
+                  <l>y me embarque una mañana,</l>
+                  <l>en una fragata ufana</l>
+                  <l>marché de navegacion,</l>
+                  <l>y me hallo de comísion</l>
+                  <l rend="cursiva">en el muelle de la Habana.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En Cuba fuí pregonero,</l>
+                  <l>y chalan en la Origuilla,</l>
+                  <l>fuí zángano en Almeria,</l>
+                  <l>en Tolon fui zapatero,</l>
+                  <l>en Nápoles consejero,</l>
+                  <l>y mi suerte fue profana,</l>
+                  <l>de sacristan en santa Ana,</l>
+                  <l>en Vera-Cruz contratante,</l>
+                  <l>y hoy me hallo comerciante,</l>
+                  <l rend="cursiva">vendiendo la moda ufana.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Fuí general en Matanzas,</l>
+                  <l>y en Santo Domingo fraile,</l>
+                  <l>intendente en Buenos-Aires,</l>
+                  <l>en Londres maestro de danza,</l>
+                  <l>en Valladolid por chanza,</l>
+                  <l>manteo de cura tomé,</l>
+                  <l>y de alli no se por qué</l>
+                  <l>fui de obispo para China,</l>
+                  <l>y me hallo vendiendo harina</l>
+                  <l rend="cursiva">que en Puerto-Rico compré.</l>
+               </lg>
+
+               <pb n="2"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Estando en misa un soldado,</l>
+                  <l>en un naipe entretenido,</l>
+                  <l>le reprendió su sargento,</l>
+                  <l>y él hizo el desentendido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Al capitan le acusó</l>
+                  <l>el sargento al mismo instante,</l>
+                  <l>y con humildad bastante,</l>
+                  <l>de esta suerte se esplicó:</l>
+                  <l>señor, el naipe que yo </l>
+                  <l>en la iglesia he barajado,</l>
+                  <l>en él tengo yo cifrado</l>
+                  <l>un libro muy singular;</l>
+                  <l>el cual se puso á esplicar</l>
+                  <l rend="cursiva">estando en misa un soldado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Miro en el as, muy ufano,</l>
+                  <l>en él un Dios verdadero;</l>
+                  <l>en el dos, yo considero</l>
+                  <l>lo divino con lo humano;</l>
+                  <l>en el tres, como cristino</l>
+                  <l>el Misterio he comprendido;</l>
+                  <l>en el cuatro, he conocido</l>
+                  <l>los procederes del hombre,</l>
+                  <l>contemplaba en Dios y Hombre</l>
+                  <l rend="cursiva">en un naipe entretenido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En el cinco contemplaba</l>
+                  <l>las llagás del Redentor;</l>
+                  <l>y con crecido dolor</l>
+                  <l>las lágrimas derramaba,</l>
+                  <l>sobre si seis golpes daba</l>
+                  <l>con el mayor sentimiento;</l>
+                  <l>ví en el siete muy atento</l>
+                  <l>los dolores de María,</l>
+                  <l>mas sin saber lo que se hacia</l>
+                  <l rend="cursiva">le reprendió su sargento.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A las bienaventuranzas</l>
+                  <l>de una á ocho esplicaba,</l>
+                  <l>en el nueve contemplaba</l>
+                  <l>los nueve coros de gloria;</l>
+                  <l>el caballo por memoria</l>
+                  <l>de la reina Sabaat miro:</l>
+                  <l>el rey por un Dios divino;</l>
+                  <l>la sota nada observo:</l>
+                  <l>el capitan le escucho,</l>
+                  <l rend="cursiva">y él se hizo el desentendido.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">He estado en la Casa Santa,</l>
+                  <l>he estado en Jérusalen,</l>
+                  <l>he visto al. Padre Eterno</l>
+                  <l>y á Jesucristo tambien.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pueden nuestros superiores</l>
+                  <l>castigar al ínsolente</l>
+                  <l>que habla blasfemamente</l>
+                  <l>de semejantes errores;</l>
+                  <l>tambien pueden con rigores,</l>
+                  <l>si en hablar mal se adelanta,</l>
+                  <l>sacar de la garganta</l>
+                  <l>la lengua feroz y altiva,</l>
+                  <l>mas no por esto se diga</l>
+                  <l rend="cursiva">he estado en la Casa Santa.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pasé por Santo Domingo</l>
+                  <l>y me quedé elevado,</l>
+                  <l>porque allí vi de contado</l>
+                  <l>a Santo Tomas de Aquino,</l>
+                  <l>escribiendo lo divino</l>
+                  <l>con la pluma sin desden,</l>
+                  <l>vi al arcangel San Miguel</l>
+                  <l>que á un herége convertia,</l>
+                  <l>tan solo por que decia</l>
+                  <l rend="cursiva">he estando en Jerusalen.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">He estado en diversas tierras,</l>
+                  <l>he visto la gran Turquia,</l>
+                  <l>la córte de la heregia,</l>
+                  <l>y en tierra del renegado:</l>
+                  <l>ví á un herége enfadado</l>
+                  <l>echando diversos ternos,</l>
+                  <l>sin temer nunca al infierno:</l>
+                  <l>como renegado que era,</l>
+                  <l>decia de esta maneras</l>
+                  <l rend="cursiva">he visto al Padre Eterno.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con tanta felicidad</l>
+                  <l>volví derecho á Sevilla,</l>
+                  <l>y postrado de rodillas</l>
+                  <l>me metí en la catedral:</l>
+                  <l>adoré á su Magestad,</l>
+                  <l>oracion hice por quien</l>
+                  <l>despues de rezar muy bien</l>
+                  <l>el rosario en alegria,</l>
+                  <l>puse el amor en María</l>
+                  <l rend="cursiva">y á Jesucristo tambien.</l>
+               </lg>
+               
+               <pb n="3"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Nadie se duela de mi,</l>
+                  <l>solo mis tormentos pase,</l>
+                  <l>que el que busca el mal por si,</l>
+                  <l>a nadie debe quejarse.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mas que el sol no me caliente,</l>
+                  <l>aunque viva con afan,</l>
+                  <l>mas queseme niegue el pan</l>
+                  <l>para que no me alimente;</l>
+                  <l>lo que sea conveniente,</l>
+                  <l>todo muerte y frenesi,</l>
+                  <l>mas que me vea yo aquí</l>
+                  <l>acongojado y hambriento,</l>
+                  <l>desnudo, infame jumento,</l>
+                  <l rend="cursiva">nadie se duela de mi.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mas que de insectos cuajado</l>
+                  <l>me halle, sin tener alivio,</l>
+                  <l>aunque me vea en presidio</l>
+                  <l>y estar de hierro cargado,</l>
+                  <l>mas que me vea tirado</l>
+                  <l>en el suelo, y me traspase,</l>
+                  <l>ni que de hambre me ase,</l>
+                  <l>y dé la última agonia,</l>
+                  <l>nadie me haga compañia,</l>
+                  <l rend="cursiva">solo mis tormentos pase.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No logre una hora de sueño</l>
+                  <l>aunque yo viva mil años,</l>
+                  <l>y esperimente mil engaños</l>
+                  <l>en la que hoy llamo mi dueño;</l>
+                  <l>ni con el rostro alhagüeño</l>
+                  <l>ninguno me mire aqui,</l>
+                  <l>pues yo me lo quise así,</l>
+                  <l>vengan daños singulares,</l>
+                  <l>que quiero pasar mas males</l>
+                  <l rend="cursiva">que el que busca el mal por si,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ni agua, aunque la sed me mate</l>
+                  <l>ni lumbre que mé caliente,</l>
+                  <l>ni cosa que me alimente</l>
+                  <l>halle en ultimo remate:</l>
+                  <l>solo un puñal que me mate</l>
+                  <l>ó un palo en que pueda ahorcarme,</l>
+                  <l>y asi verán acabarse</l>
+                  <l>las desdichas que merece,</l>
+                  <l>que el quepor querer padece,</l>
+                  <l rend="cursiva">á nadie debe quejarse.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Para los hombres se hizo</l>
+                  <l>el andar en matos pasos,</l>
+                  <l>como la muger sea buena,</l>
+                  <l>vayan y vengan trabajos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cárceles, grillos, cadenas,</l>
+                  <l>mazas, cordeles, esposas;</l>
+                  <l>verturinas rigurosas,</l>
+                  <l>presidios, tierras agenas,</l>
+                  <l>todo esto ha de sufrir,</l>
+                  <l>y trabajos resistir</l>
+                  <l>todo el hombre que es sumiso</l>
+                  <l>en querre á una muger,</l>
+                  <l>á la horca no ha de temer;</l>
+                  <l rend="cursiva">para los hombres se hizo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hambres, desnudeses, males,</l>
+                  <l>cóleras, desangramientos,</l>
+                  <l>contratiempos y tormentos,</l>
+                  <l>jueces, ministros, fiscales.</l>
+                  <l>para los hombres leales</l>
+                  <l>que en querer no son escasos;</l>
+                  <l>heridas, muertes, balazos</l>
+                  <l>y todo el mal que se infiere</l>
+                  <l>ha de sufrir el que quiere</l>
+                  <l rend="cursiva">el andar en malos pasos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ni la mas brillante espada,</l>
+                  <l>ni el potro mas afamado,</l>
+                  <l>ni el verdego mas airado,</l>
+                  <l>ni la plebe alberotada,</l>
+                  <l>ni mi sentencia firmada,</l>
+                  <l>la que á muerte me condena,</l>
+                  <l>nada de esto me dá pena,</l>
+                  <l>todo se puede sufeir</l>
+                  <l>y trabajos resistir</l>
+                  <l rend="cursiva">como la muger sea buena.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A nadie teme el que adora</l>
+                  <l>hallando correspondencia,</l>
+                  <l>á todo hace resistencia,</l>
+                  <l>solo la muerte atesora:</l>
+                  <l>como no sea traidora</l>
+                  <l>la muger por otro atajo,</l>
+                  <l>que vayan altos y bajos</l>
+                  <l>si ella de fiel se acredita,</l>
+                  <l>siendo leal y bonita</l>
+                  <l rend="cursiva">vayan y vengan trabajos.</l>
+               </lg>
+               
+               <pb n="4"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Trabaja el hombre y padece</l>
+                  <l>desdichas, buscando plata.</l>
+                  <l>para una muger ingrata</l>
+                  <l>y esta no se lo agradece.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nace e ave, qué grandeza!</l>
+                  <l>y entre su belleza suma,</l>
+                  <l>la viste de fina pluma</l>
+                  <l>la misma naturaleza:</l>
+                  <l>y cuando á crecer empieza</l>
+                  <l>con su cántico perece,</l>
+                  <l>que el Autor gracia le ofrece</l>
+                  <l>con su gran saber prefundo;</l>
+                  <l>y aguenté si en este mundo</l>
+                  <l rend="cursiva">trabaja el hombre y padece.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nace el animal ó bruto,</l>
+                  <l>y respirando al nacer</l>
+                  <l>solo se contempla el ser</l>
+                  <l>del campo dueño absoluto:</l>
+                  <l>la tierra le dá su fruto,</l>
+                  <l>las fuentes su agua grata</l>
+                  <l>que sus corrientes desata;</l>
+                  <l>y el hombre para comer</l>
+                  <l>vino al mundo á padecer</l>
+                  <l rend="cursiva">desdichas, buscando plata.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nace el arroyo á regar</l>
+                  <l>las flores en su corriente,</l>
+                  <l>pero luego brevemente</l>
+                  <l>dirije su curso al mar:</l>
+                  <l>el hombre triste en pensar</l>
+                  <l>se desvela y se maltrata,</l>
+                  <l>y en considerar se trata</l>
+                  <l>con mucha pena y tormento,</l>
+                  <l>por buscar el alimento</l>
+                  <l rend="cursiva">para una muger ingrata.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fuente tan cristalina</l>
+                  <l>se viste el pez de escama,</l>
+                  <l>entre nacaradas lanas,</l>
+                  <l>su hermosura peregrina;</l>
+                  <l>entre abrojos y entre espinos</l>
+                  <l>nace el hombre, vive y crece</l>
+                  <l>trabaja y se desvanece,</l>
+                  <l>solo para mantener</l>
+                  <l>á una inconstante muger,</l>
+                  <l rend="cursiva">y esta no se lo agradece.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Al Cielo me he de quejar</l>
+                  <l>de la ingratitud que has hecho,</l>
+                  <l>haberme criado en tus brazos</l>
+                  <l>y ahora quitarme el pecho.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me adorabas, madrecita,</l>
+                  <l>yo no te he dado ocasion,</l>
+                  <l>¿cómo has tenido valor</l>
+                  <l>para quitarme la tetita?</l>
+                  <l>¿qué he de hacer sin tí, mí amita?</l>
+                  <l>¿quién me ha de dar de mamar?</l>
+                  <l>¿qué, huérfano he de quedar?</l>
+                  <l>¿qué, te se acabo el amor?</l>
+                  <l>de tu crueldad y rigor</l>
+                  <l rend="cursiva">al Cielo me he de quejar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque no me quieras, mi alma,</l>
+                  <l>yo siempre te he de adorar,</l>
+                  <l>solamente con llorar,</l>
+                  <l>que el que no llora no mama:</l>
+                  <l>me adinitias sin escama,</l>
+                  <l>estabas conmigo estrecho,</l>
+                  <l>ne cobijaba en tu techo,</l>
+                  <l>y ahora me has desechado,</l>
+                  <l>ya ves cómo habré quedado</l>
+                  <l rend="cursiva">de la ingratitud que has hecho.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Acuérdate, lucerito,</l>
+                  <l>del tiempo de cuando entonces</l>
+                  <l>me decias, entra, niño:</l>
+                  <l>¿dónde vienes muchachito?</l>
+                  <l>toma, hiño, esé piquito</l>
+                  <l>que te cuesta tantos pasos:</l>
+                  <l>y ahora sin embarazos:</l>
+                  <l>pues que ya me abopreciste</l>
+                  <l>dime: ¿para qué quisiste</l>
+                  <l rend="cursiva">haberme criado en tus brazos?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, dulce prenda hermosa,</l>
+                  <l>voy otra ama á buscar</l>
+                  <l>pero no me ha de agradar,</l>
+                  <l>porque tú eres muy sabrosa:</l>
+                  <l>y que otro amante se roza,</l>
+                  <l>querida amante, sospecho;</l>
+                  <l>agravio no te lo he heco,</l>
+                  <l>ni hay agravio sin razon,</l>
+                  <l>me llenan de confusion</l>
+                  <l rend="cursiva">y ahora quitarme el pecho.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. de D. J. M. M. calle Juan de la Cabra núm. 5.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
