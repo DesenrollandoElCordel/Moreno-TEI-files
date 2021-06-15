@@ -1,0 +1,750 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_016">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Testamento de Don Juan de Austria</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Testamento de Don Juan de Austria</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>[Primera parte]</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte, del testamento de D. Juan de Austria.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_016_1.xml">grabado_m_016_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <acquisition>
+                     <p/>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX524876.html" type="tipo_texto">Testamentos</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_005_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">Núm. 15.</fw>
+               
+               <head type="primer_titulo">TESTAMEMTO DE DON JUAN DE AUSTRIA.</head>
+               
+               <div n="1" type="parte">
+                  <l rend="ident">Olvidado de la muerte,</l>
+                  <l>aunque con mucho temor</l>
+                  <l>propio amor de mi aparato,</l>
+                  <l>en su apariencia, ó vision.</l>
+                  <l>Movido del interés,</l>
+                  <l>que me dicta mi aficion,</l>
+                  <l>contar quiero en breve espacio</l>
+                  <l>una capaz relacion</l>
+                  <l>que el Príncipe don Juan hizo</l>
+                  <l>de Austria, que ya falleció,</l>
+                  <l>estando enfermo en la cama,</l>
+                  <l>algo falto de vigor;</l>
+                  <l>mas hallo cosa imposible,</l>
+                  <l>darle la ponderacion</l>
+                  <l>en la esfera que merece,</l>
+                  <l>siendo tan rustico yo,</l>
+                  <l>hombre sin letras, ni estudio,</l>
+                  <l>y de mediana razon,</l>
+                  <l>Mas yo me pienso valer,</l>
+                  <l>de la que es Madre de Dios,</l>
+                  <l>Maria, Rosa impecable,</l>
+                  <l>que Atocha el titulo dió,</l>
+                  <l>que llevándola conmigo,</l>
+                  <l>caminaré sin temor,</l>
+                  <l>que como Norte seguro,</l>
+                  <l>y esclarecido Farol.</l>
+                  <l>me sacará de este empeño.</l>
+                  <l>Suene la tremenda voz,</l>
+                  <l>sin miedo rasgue mi pluma,</l>
+                  <l>note el curioso Lector.</l>
+                  <l>estas ignorantes letras,</l>
+                  <l>que ellas dirán quien, soy yo.</l>
+                  <l>Año de setenta y nueve</l>
+                  <l>de agosto á los veinte y dos,</l>
+                  <l>con unas tercianas dobles</l>
+                  <l>malo el Principe cayó</l>
+                  
+                  <pb/>
+                  
+                  <fw type="paginaNum">2</fw>
+                  
+                  <l>de accidente tabardillo,</l>
+                  <l>y no hallando aplicacion</l>
+                  <l>Galeno en su medicina,</l>
+                  <l>para darle evacuacion,</l>
+                  <l>mucho la córte lo siente,</l>
+                  <l>que es caso de admiracion.</l>
+                  <l>tambien las Descalzas Reales</l>
+                  <l>se han echado en oracion,</l>
+                  <l>pidiendo á Dios, que le dé</l>
+                  <l>lo que convenga mejor.</l>
+                  <l>A treinta del dicho mes</l>
+                  <l>que arriba se refirió</l>
+                  <l>hubo un susto muy terrible,</l>
+                  <l>fué que una muger entró</l>
+                  <l>por la puerta del Palacio</l>
+                  <l>armada con un relox.</l>
+                  <l>Y Don Juan cuando la vide,</l>
+                  <l>casi perdido el color,</l>
+                  <l>y demudado el semblante,</l>
+                  <l>le dice: Muger, por Dios,</l>
+                  <l>que solo en verte la cara,</l>
+                  <l>temblando estoy de temor.</l>
+                  <l>La Muerte soy, le responde,</l>
+                  <l>que por mandado de Dios</l>
+                  <l>vengo á hacerte esta visita,</l>
+                  <l>que importa á tu salvacion:</l>
+                  <l>confiesa, y rige tu alma;</l>
+                  <l>que ya el plazo se cumplió.</l>
+                  <l>Como un azogado tiembla,</l>
+                  <l>al oir tal relacion.</l>
+                  <l>Alborotóse la Córte,</l>
+                  <l>y ha dicho con triste voz:</l>
+                  <l>No se alboroten señores,</l>
+                  <l>que ya el Príncipe acabó</l>
+                  <l>pónganle un Altar delante,</l>
+                  <l>y traigan un Confesor.</l>
+                  <l>Se retiraron los Grandes,</l>
+                  <l>solo el enfermo quedó</l>
+                  <l>con el eminente Padre</l>
+                  <l>Fray Diego de Pentiñon,</l>
+                  <l>del Seráfico Francisco,</l>
+                  <l>muy docto en su religion.</l>
+                  <l>Confesó generalmente,</l>
+                  <l>y luego al punto pidió</l>
+                  <l>el Divino Sacramento,</l>
+                  <l>para asegurar mejor</l>
+                  <l>el viage que pretende</l>
+                  <l>que es menester prevencion</l>
+                  <l>Vino Dios á visitarlo</l>
+                  <l>con música y resplandor,</l>
+                  <l>y antes que lo recibiera</l>
+                  <l>hizo Acto de contricion,</l>
+                  <l>de rodillas en la cama</l>
+                  <l>estas palabras habló:</l>
+                  <l>Rey de reyes siempre eterno</l>
+                  <l>pues cuando merecí yó</l>
+                  <l>que esta visita se haga</l>
+                  <l>á un misero pecador,</l>
+                  <l>siendo yo la criatura,</l>
+                  <l>Vos el Supremo Criador.</l>
+                  <l>Mas ay mi Dios no soy digno</l>
+                  <l>ni menos merecedor,</l>
+                  <l>que entre en mi pobre morada,</l>
+                  <l>tan Soberano Señor.</l>
+                  <l>Recibió apuel Pan de gracia,</l>
+                  <l>y luego al punto llanó</l>
+                  <l>á su Señora la Reyna</l>
+                  <l>hija del Emperador</l>
+                  <l>muger que fué de Felipe</l>
+                  <l>Cuarto, que ya falleció.</l>
+                  <l>Vino en fin la Reyna á verlo:</l>
+                  <l>cuando se vieron los dos,</l>
+                  <l>humildemente se piden</l>
+                  <l>el uno al otro perdon.</l>
+                  <l>Llamó á don Cárlos Segundo</l>
+                  <l>Rey de Castilla y Leon,</l>
+                  <l>Monarca, quien guarde el Cielo</l>
+                  <l>para nuestro defensor,</l>
+                  <l>Su Magestad vino á verle</l>
+                  <l>con muy grande ostentacion,</l>
+                  <l>acompañado de Grandes,</l>
+                  <l>los de la Llave, y Toison.</l>
+                  <l>Y don Juan cuando los vido</l>
+                  <l>mucho en verlo se alegró,</l>
+                  <l>quiso besarle la mano,</l>
+                  <l>y el Rey los brazos le dió.</l>
+                  
+                  <pb n="3"/>
+                  
+                  <fw type="paginaNum">3</fw>
+                  
+                  <l>Cómo se halla vuestra Alteza?</l>
+                  <l>Y el enfermo respondió:</l>
+                  <l>Esto es morir sin remedio,</l>
+                  <l>sin que tenga apelacion:</l>
+                  <l>mas morir para vivir,</l>
+                  <l>no le llamo morir, no,</l>
+                  <l>que esta transitoria vida,</l>
+                  <l>es una sombra ó vision</l>
+                  <l>para la eterna, que espero,</l>
+                  <l>la que confio de Dios.</l>
+                  <l>Volvió el rostro á un Sto. Cristo</l>
+                  <l>y dijo: gran Redentor</l>
+                  <l>por esa muerte de Cruz:</l>
+                  <l>y por el mar de Pasion,</l>
+                  <l>que por los hombres pasásteis,</l>
+                  <l>para darles Redencion,</l>
+                  <l>pido le deis á Don Cárlos</l>
+                  <l>el fruto de bendicion</l>
+                  <l>en su Real Monarquía,</l>
+                  <l>como reluciente sol,</l>
+                  <l>y le libreis de traidores,</l>
+                  <l>y le deis buen galardon</l>
+                  <l>en aqueste casamiento</l>
+                  <l>vaya de bueno á mejor.</l>
+                  <l>Hermano, lo que os suplico,</l>
+                  <l>que escucheis con atencion,</l>
+                  <l>y mireis por yuestra España,</l>
+                  <l>que es el Escudo, y blason,</l>
+                  <l>y láuros de la Corona,</l>
+                  <l>que vuestro padre os dejó,</l>
+                  <l>y la Militante Iglesia.</l>
+                  <l>que os corra de obligacion:</l>
+                  <l>volved por la Santa Fé</l>
+                  <l>vigilante velador,</l>
+                  <l>defendiendo el Evangelio</l>
+                  <l>como de la Fé Farol.</l>
+                  <l>Hermano, si yo os tubiera</l>
+                  <l>por consejero mayor,</l>
+                  <l>seis años siquiera ó menos.</l>
+                  <l>yo os dijera quien soy yo.</l>
+                  <l>Y si no, digalo el Orbe,</l>
+                  <l>que al oir mi nombre tembló,</l>
+                  <l>mercedes que me hizo el Cielo,</l>
+                  <l>no mereciéndolas yo.</l>
+                  <l>Nápoles tiembla de mí,</l>
+                  <l>Medina de mi furor</l>
+                  <l>Africa de mis Vanderas,</l>
+                  <l>Ungría de mi rigor,</l>
+                  <l>de mis Clarines Holanda,</l>
+                  <l>y Francia de mi Baston,</l>
+                  <l>de mi Espada Portugal;</l>
+                  <l>pero sabiendo, que yo,</l>
+                  <l>de Principe vuelto en polvo,</l>
+                  <l>ya respira sin temor.</l>
+                  <l>Tráiganme acá un Secretario</l>
+                  <l>sin ninguna dilacion,</l>
+                  <l>que hacer quiero Testamento,</l>
+                  <l>y disponga luego Dios</l>
+                  <l>lo que su voluntad fuere,</l>
+                  <l>que siempre aguardando e stoy</l>
+                  <l>aquel lance temeroso</l>
+                  <l>de la muerte y su rigor.</l>
+                  <l>El Rey, que atento escuchaba,</l>
+                  <l>enternecido quedó,</l>
+                  <l>y en lo interior de su pecho</l>
+                  <l>á los ojos les prestó</l>
+                  <l>aljofar y perlas finas,</l>
+                  <l>que las alfombras regó.</l>
+                  <l>Tomó el Oficial la pluma,</l>
+                  <l>hizo la Cruz, y empezó:</l>
+                  <l>En el nombre de Dios Padre,</l>
+                  <l>Criador, y Salvador,</l>
+                  <l>comienzo mi Testamento.</l>
+                  <l>pongo en el primer renglon,</l>
+                  <l>y digo yo don Juan de Austria</l>
+                  <l>sobrino del que pasó,</l>
+                  <l>primeramente le mando</l>
+                  <l>el alma á quien me la dió,</l>
+                  <l>el cuerpo mando á la tierra,</l>
+                  <l>pues que de ella se engendró,</l>
+                  <l>como remanente de ella,</l>
+                  <l>vuelva á entrar donde salió.</l>
+                  <l>Cuarenta mil Misas mando</l>
+                  <l>por mi alma y mi intencion,</l>
+                  <l>y antes de cuerpo presente,</l>
+                  <l>me diran de Concepcion</l>
+                  
+                  <pb n="4"/>
+                  
+                  <fw type="paginaNum">4</fw>
+                  
+                  <l>diez y ocho por mi alivio,</l>
+                  <l>y de Requiem treinta y dos.</l>
+                  <l>Antes de mi enterramiento</l>
+                  <l>me saquen el corazon,</l>
+                  <l>y á Zaragoza lo lleven,</l>
+                  <l>y en el Pilar ó Escálon,</l>
+                  <l>á las plantas de la Virgen</l>
+                  <l>alli le den posesión.</l>
+                  <l>Y lo interior de mi cuerpo</l>
+                  <l>lleven á San Salvador,</l>
+                  <l>y le den su alojamiento</l>
+                  <l>de toda satisfaccion,</l>
+                  <l>y mi Cuerpo al Escorial</l>
+                  <l>á las Urnas, que va soy</l>
+                  <l>descanso de mis fatigas,</l>
+                  <l>y de Reyes Pateon.</l>
+                  <l>Cuatro millones, que se hallan.</l>
+                  <l>que tengo de caudal vo,</l>
+                  <l>de esos le mando una jova,</l>
+                  <l>de precio tenga un millon,</l>
+                  <l>á mi Señora la Reyna, </l>
+                  <l>muger del que me engendró.</l>
+                  <l>Y otra joya muy costosa</l>
+                  <l>de mucho precio y valór</l>
+                  <l>mando le dén á mi hermana</l>
+                  <l>la Reyna á quien guarde Dios</l>
+                  <l>en compañia de mi hermano.</l>
+                  <l>en Matrimonio y union.</l>
+                  <l>A la poderosa Virgen,</l>
+                  <l>de Zaragoza blason,</l>
+                  <l>seis mil ducados en plata,</l>
+                  <l>diez mil á San Salvador, </l>
+                  <l>cuatro mil á la de Atocha,</l>
+                  <l>que son de mi devocion.</l>
+                  <l>Su llustrisima en Sevilla,</l>
+                  <l>con dos letras me pidió</l>
+                  <l>ciento y sesenta mil pesos:</l>
+                  <l>se los presté y los gasto</l>
+                  <l>en pan con pobres mendigos:</l>
+                  <l>no los pido, porque son</l>
+                  <l>escalones para el Cielo,</l>
+                  <l>y en la tierra paz y union.</l>
+                  <l>Al de Toledo otros tantos</l>
+                  <l>presté, y en esta sazon</l>
+                  <l>no pidan á nadie cuenta,</l>
+                  <l>porque á pobres se los dió</l>
+                  <l>y lo demás que quedáren</l>
+                  <l>hecha ya la particion</l>
+                  <l>por legítimo heredero</l>
+                  <l>dejo á mi hermano menor,</l>
+                  <l>de San Júan el Priorato,</l>
+                  <l>de Malta la Religion,</l>
+                  <l>con cincuenta y seis lugares,</l>
+                  <l>que de mi dominio son.</l>
+                  <l>Digo á todos los oyentes,</l>
+                  <l>que ahora presentes son,</l>
+                  <l>si les ofendi algun tiempo,</l>
+                  <l>á todos pido perdon.</l>
+                  <l>Tenga silencio la pluma,</l>
+                  <l>tráigame la Estrema-Uncion</l>
+                  <l>que estoy mirando el cuchillo,</l>
+                  <l>que mi cuello amenazó.</l>
+                  <l>Recibió la Uncion divina,</l>
+                  <l>con un Santo Cristo habló:</l>
+                  <l>Misericordia Dios mio,</l>
+                  <l>porque ya acaba mi voz,</l>
+                  <l>y tengo fletado el barco</l>
+                  <l>para mi navegacion;</l>
+                  <l>y Vos, poderosa Virgen,</l>
+                  <l>escogida en perfeccion,</l>
+                  <l>MARIA llena de gracia,</l>
+                  <l>Madre del Verbo Criador,</l>
+                  <l>á vuestra pura limpieza</l>
+                  <l>hoy apela un pecador</l>
+                  <l>que entre en vuestro Rogatorio</l>
+                  <l>sirviendo de Relator</l>
+                  <l>para que mi pleito vaya</l>
+                  <l>siempre de bueno á mejor.</l>
+                  <l>Con esto cerró los ojos,</l>
+                  <l>falto de respiracion.</l>
+                  <l>Lágrimas de Zaragoza,</l>
+                  <l>Rogativas de Aragon,</l>
+                  <l>perdon le promete España,</l>
+                  <l>y el gran Reyno de Leon,</l>
+                  <l>Dios le haya dado en su Gloria,</l>
+                  <l>un eterno galardon.</l>
+               </div>
+               
+               <div n="2" type="parte">
+                  
+                  <pb n="5"/>
+                  
+                  <head>
+                     <lb/><hi rend="negrita">SEGUNDA PARTE,</hi>
+                     <lb/>DEL TESTAMENTO 
+                     <lb/><hi rend="negrita">DE D. JUAN DE AUSTRIA.</hi>
+                  </head>
+                  
+                  <l>Viendo ya el gran Zelador,</l>
+                  <l>que á su mal no hallan remedio</l>
+                  <l>trató de pulir la joya,</l>
+                  <l>para que luzca en el Cielo.</l>
+                  <l>Incorporado en la cama,</l>
+                  <l>á todas partes atento,</l>
+                  <l>miró los que toleraban</l>
+                  <l>de su enfermedad el peso</l>
+                  <l>vió á muchos, y algunos grandes</l>
+                  <l>que en sus rostro se está viendo</l>
+                  <l>el sentimiento, y dolor</l>
+                  <l>de verle ya casi muerto,</l>
+                  <l>dijole á su Confesor:</l>
+                  <l>O que postrado me siento!</l>
+                  <l>Y ya tan lleno de llagas,</l>
+                  <l>que un San Lázaro parezco:</l>
+                  <l>sea por amor de Dios,</l>
+                  <l>que yo mucho mas merezco</l>
+                  <l>mejor era Jod, que yó,</l>
+                  <l>y en un muladar fue puesto.</l>
+                  <l>No podré yo encarcer</l>
+                  <l>el gran consuelo que tengo</l>
+                  <l>de ver que fuiste mi Page,</l>
+                  <l>y hoy me sirvais de Maestro.</l>
+                  <l>No lloreis amado Padre,</l>
+                  <l>porque me aflijo de veros</l>
+                  <l>y en lance tan apretado</l>
+                  <l>he menester el consuelo;</l>
+                  <l>las materias del despacho</l>
+                  <l>ya sabeis que son de peso</l>
+                  <l>y que solamente un Angel</l>
+                  <l>puede acertar el Gobierno.</l>
+                  <l>A quien voy á dar la cuenta</l>
+                  <l>sabe, que no hubo en mi pecho.</l>
+                  <l>mas de un zelo, claro y limpio</l>
+                  <l>de servir á Dios, y al Reino,</l>
+                  <l>y si en alguna ocasion</l>
+                  <l>os hablé Padre, con ceño,</l>
+                  <l>por amor de Dios os pido,</l>
+                  <l>me perdoneis este yerro.</l>
+                  <l>Dadme una mano á besar,</l>
+                  <l>y un abrazo por recuerdo</l>
+                  <l>de que siempre me tendreis</l>
+                  <l>en vuestra memoria impreso.</l>
+                  <l>Gran Nuncio de España á Dios,</l>
+                  <l>mirad, que os suplíco, y ruego</l>
+                  <l>que me echeis la bendicion,</l>
+                  <l>que toca al Pastor Supremo,</l>
+                  <l>y le direis de mi parte,</l>
+                  <l>en vuestro primer pliego,</l>
+                  <l>que beso su sacro pie,</l>
+                  <l>como á teniente del Cielo.</l>
+                  <l>Grande Cardenal de España,</l>
+                  <l>Arzobispo de Toledo,</l>
+                  <l>Portocarrero, que el nombre</l>
+                  <l>causa cariño y respeto,</l>
+                  <l>por vuestra fija amistad,</l>
+                  <l>y el afecto verdadero,</l>
+                  <l>que siempre os tuve os suplico,</l>
+                  <l>mireis por mi Rey y dueño</l>
+                  
+                  <pb n="6"/>
+                  
+                  <fw type="paginaNum">6</fw>
+                  
+                  <l>que es muy grande compasion,</l>
+                  <l>ver que queda jóven tierno,</l>
+                  <l>y tan lleno de cuidados, </l>
+                  <l>todos de tan grande peso.</l>
+                  <l>El Priorato os encargó,</l>
+                  <l>porque me crié con ellos, </l>
+                  <l>y les tengo tierno amor</l>
+                  <l>y particular afecto:</l>
+                  <l>Perdonadme, amante amigo,</l>
+                  <l>si acaso he sido molesto,</l>
+                  <l>aunque algo se ha de suplir</l>
+                  <l>al que se parte á otro reino.</l>
+                  <l>Patriarca de las Indias,</l>
+                  <l>á mi Rey os encomiendo,</l>
+                  <l>pues os toca mucho á Vos</l>
+                  <l>el darle santos consejos.</l>
+                  <l>Inquisidor General,</l>
+                  <l>Valladares siempre recto,</l>
+                  <l>que el tribunal de la Fé</l>
+                  <l>gobernais con tanto acierto,</l>
+                  <l>quedaos en paz y mirad,</l>
+                  <l>que os encargo mucho y ruego,</l>
+                  <l>que me encomendeis á Dios,</l>
+                  <l>y cuideis de aquestos Reinos.</l>
+                  <l>Gobernador de Castilla,</l>
+                  <l>mirad, que con santo zelo</l>
+                  <l>me consoleis á los pobres,</l>
+                  <l>que son la porcion del Cielo.</l>
+                  <l>Guardareis justica á todos</l>
+                  <l>distributiva, y con peso</l>
+                  <l>por ser basa la justicia,</l>
+                  <l>que asegura firme el Reino.</l>
+                  <l>Duque de Alba generoso</l>
+                  <l>Columna de aquestos Reinos,</l>
+                  <l>espejo de la verdad,</l>
+                  <l>y de la lealtad ejemplo:</l>
+                  <l>Solo os encargo á mi Rey, </l>
+                  <l>que con el cuidado vuestro</l>
+                  <l>será su Reino feliz,</l>
+                  <l>y temblará el Agareno:</l>
+                  <l>Atended mucho á los pobres,</l>
+                  <l>mirad buen Duque por ellos,</l>
+                  <l>porque me dareis un gran gusto,</l>
+                  <l>yá que yo no puedo hacerlo.</l>
+                  <l>Encomendadme al Señor,</l>
+                  <l>que yo os ofrezco lo mesmo,</l>
+                  <l>pues sufragios y oraciones</l>
+                  <l>son escalas para el Cielo:</l>
+                  <l>á Dios, que estareis cansados</l>
+                  <l>de llevar las noche en peso:</l>
+                  <l>estimo vuestro cariño</l>
+                  <l>que en vuestra edad pasa á exceso</l>
+                  <l>si al salir os preguntaren,</l>
+                  <l>que como queda el enfermo,</l>
+                  <l>les direis, que estoy mejor,</l>
+                  <l>pues es mejor para el Cielo.</l>
+                  <l>Duque de Sesa mi amigo,</l>
+                  <l>ya se ha llegado aquel tiempo</l>
+                  <l>de saber de los amigos</l>
+                  <l>la verdad, ó el fingimiento.</l>
+                  <l>Muy bien sé que siempre fuiste</l>
+                  <l>fiel y leal á mi afecto.</l>
+                  <l>Dios os dé muy larga vida</l>
+                  <l>con felicidad y aumentos.</l>
+                  <l>Y por último os encargo,</l>
+                  <l>que despues que yo sea muerto,</l>
+                  <l>visiteis y consoleis</l>
+                  <l>á mi Rey y amado dueño,</l>
+                  <l>que no tome pesadumbre,</l>
+                  <l>y que prosigan los fuegos,</l>
+                  <l>pues es primero mi Rey, </l>
+                  <l>y un vasallo importa menos.</l>
+                  <l>Prosigan tambien las galas,</l>
+                  <l>máscaras y lucimientos;</l>
+                  <l>las campanas no se toquen,</l>
+                  <l>aunqne sepan que yo muero.</l>
+                  <l>Don Gerónimo de Eguia</l>
+                  <l>cansado estareis, lo creo,</l>
+                  <l>de haber sufrido tres años</l>
+                  <l>á un hombre que es tan molesto:</l>
+                  <l>Ofrecedlo en sacrificio,</l>
+                  <l>que juzgo, que será acepto,</l>
+                  <l>que al que ejerce tal oficio, </l>
+                  <l>muy gran lástima le tengo,</l>
+                  <l>porque ha de entender con tantos</l>
+                  <l>y en negocios tan diversos,</l>
+                  
+                  <pb n="7"/>
+                  
+                  <fw type="paginaNum">7</fw>
+                  
+                  <l>con las continuas Audiencias</l>
+                  <l>y los muchos descontentos,</l>
+                  <l>á quien siguen maldiciones,</l>
+                  <l>que nunca temí, confieso,</l>
+                  <l>porque si yó en algo erré</l>
+                  <l>fue error de buen celo lleno:</l>
+                  <l>Ya es hora de despachar,</l>
+                  <l>acudid á vuestro empleo,</l>
+                  <l>y asistid mucho á mi Rey, </l>
+                  <l>como yo de vos lo espero</l>
+                  <l>Portocarrero el leal,</l>
+                  <l>que siempre fuisteis siguiendo</l>
+                  <l>las mismas calamidades,</l>
+                  <l>y trabajos de mi dueño:</l>
+                  <l>Solo te pido y encargo,</l>
+                  <l>mires por tus compañeros,</l>
+                  <l>que á mi Señor y á mi Rey, </l>
+                  <l>le he suplicado lo mesmo,</l>
+                  <l>y me ha dado la palabra</l>
+                  <l>con gran cariño de hacerlo,</l>
+                  <l>sin reservar á ninguno,</l>
+                  <l>desde el grande hasta el pequeño.</l>
+                  <l>Ya le dejo á cada uno</l>
+                  <l>de mi parte lo que puedo,</l>
+                  <l>porque los bieñes raices,</l>
+                  <l>han de volver á su centro:</l>
+                  <l>que me encomienden á Dios,</l>
+                  <l>rezándome un Padre nuestro</l>
+                  <l>cuando tuvieren lugar,</l>
+                  <l>que para todo habrá tiempo,</l>
+                  <l>y que perdonen la poca</l>
+                  <l>caridad, que usé con ellos</l>
+                  <l>que sabe Dios que quisiera</l>
+                  <l>que quedaran muy contentos,</l>
+                  <l>y que todos me acompañen</l>
+                  <l>hasta dejar este cuerpo,</l>
+                  <l>depósito de gusanos,</l>
+                  <l>enterrado en San Lorenzo.</l>
+                  <l>A Don Fernando Carrillo</l>
+                  <l>le escribirás, que soy muerto,</l>
+                  <l>porque me encomiende á Dios, </l>
+                  <l>que sé lo hará como bueno,</l>
+                  <l>siempre lo amé con verdad</l>
+                  <l>por su valor y su esfuerzo,</l>
+                  <l>y porque por mi defensa</l>
+                  <l>perdió un ojo en un reencuentre</l>
+                  <l>Es Marqués de Villa Fiel, </l>
+                  <l>porque siendo fiel y atento,</l>
+                  <l>sirvió á Dios, al Rey y á mí,</l>
+                  <l>con desinterés y zelo.</l>
+                  <l>A las Señoras Descalzas</l>
+                  <l>darás asi que haya muerto,</l>
+                  <l>el Cofrecillo de concha,</l>
+                  <l>que quité á Aliatar soberbio:</l>
+                  <l>cuando (si tienes memoria)</l>
+                  <l>me metí en tan grande empeño,</l>
+                  <l>que á no valerme el valor,</l>
+                  <l>me llevára prisionero.</l>
+                  <l>Darás la Tapicería,</l>
+                  <l>que contiene el Nacimiento</l>
+                  <l>de mi Señor Cárlos Quinto,</l>
+                  <l>á quien Dios tiene el Cielo,</l>
+                  <l>pues sabed la gané en Flandes</l>
+                  <l>de veinte y dos años siendo,</l>
+                  <l>si fue dádiva de España,</l>
+                  <l>yo la cobré á sangre y fuego.</l>
+                  <l>Tambien te pido y encargo,</l>
+                  <l>que á cuantos Santos vinieron</l>
+                  <l>para interceder con Dios,</l>
+                  <l>les hagas algun cortejo.</l>
+                  <l>Darás algunas limosnas</l>
+                  <l>á Iglesias y monasterios,</l>
+                  <l>que sirvan de bien al alma,</l>
+                  <l>ya que no pueden al cuerpo,</l>
+                  <l>á Sor Juana de la Cruz</l>
+                  <l>harás dár aquel dinero,</l>
+                  <l>que queda para el Retablo,</l>
+                  <l>que sé que el Rey gusta de ello</l>
+                  <l>y las Santas Religiosas,</l>
+                  <l>que perdonen, que mi afecto</l>
+                  <l>deseaba remediarlas:</l>
+                  <l>llámame Dios, ya no puedo.</l>
+                  <l>A Dios Grandes de Castilla</l>
+                  <l>á Dios Ciudades y Reinos</l>
+                  <l>á quien estima mi amor</l>
+                  <l>con un muy cordial afecto.</l>
+                  
+                  <pb n="8"/>
+                  
+                  <fw type="paginaNum">8</fw>
+                  
+                  <l>No puedo á todos nombraros,</l>
+                  <l>porque me falta el aliento,</l>
+                  <l>y viendo viene el letargo</l>
+                  <l>cerca de mi triste cuerpo:</l>
+                  <l>ya me ha comenzado el frio,</l>
+                  <l>que pienso será el postrero.</l>
+                  <l>Ruego á todos me perdonen</l>
+                  <l>con cristiano y santo celo,</l>
+                  <l>y á la Virgen del Sagrario,</l>
+                  <l>de Guadalupe y Loreto,</l>
+                  <l>del Buen-Suceso y la Aurora,</l>
+                  <l>de Monserrate y Consuelo.</l>
+                  <l>A la de la Soledad,</l>
+                  <l>Almudema y los Remedios, </l>
+                  <l>con la gran Reina de Atocha</l>
+                  <l>que es del Patronato Régio</l>
+                  <l>pido, que sean mi amparo,</l>
+                  <l>mi refugio y mi consuelo,</l>
+                  <l>para que despache bien</l>
+                  <l>en el Tribunal Supremo.</l>
+                  <l>De MARIA el Dulce Nombre</l>
+                  <l>es mañana y segun veo</l>
+                  <l>á las doce horas del dia</l>
+                  <l>estaré yo en juicio puesto.</l>
+                  <l>Y á la hora señalada</l>
+                  <l>le dió el letargo postrero</l>
+                  <l>con que invocando á JESUS,</l>
+                  <l>se fue el alma, quedó el cuerpo:</l>
+                  <l>el cual con Real aparato</l>
+                  <l>fué llevado á San Lorenzo,</l>
+                  <l>quedando tristes, los Grandes,</l>
+                  <l>y llorando todo el Pueblo.</l>
+                  
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+            
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1855.
+                  <lb/>Imprenta de D. José María Moreno, Descalzas, núm. 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

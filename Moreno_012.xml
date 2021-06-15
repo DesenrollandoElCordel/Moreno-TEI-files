@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_012">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Satira graciosa de los quince novios</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Satira graciosa de los quince novios.
+                                                En que se manifiestan todos los dengues, modas y zalamerias que gastan las señoritas doncellas
+                                                cuando ven que tienen muchos novios y se mueren por sus pedazos: con lo demás que verá el curioso lector.</title>
+                  <title type="titulo_breve">Satira graciosa de los quince novios</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_012_1.xml">grabado_m_012_1</item>
+                           <item corresp="grabado_m_012_2.xml">grabado_m_012_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-24" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_012_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               <fw type="impresorNum">(Número 12)</fw>
+               
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>SATIRA GRACIOSA
+                  <lb/>DE LOS QUINCE NOVIOS.
+               </head>
+               
+               <head rend="cursiva" type="subtitulo">
+                  <l>EN QUE SE MANIFIESTAN TODOS LOS DENGUES, MODAS</l>
+                  <l>y zalamerias que gastan las señoritas doncellas cuando ven que</l>
+                  <l>tienen muchos novios y se mueren por sus pedazos: con</l>
+                  <l>lo demás que verá el curioso lector.</l>
+               </head>
+               
+               <l rend="indent">Una satirilla indiana</l>
+               <l>con gracia quiero cantar,</l>
+               <l>ella es buena pero amarga,</l>
+               <l>porque dice la verdad:</l>
+               <l>verán si la escuchan</l>
+               <l>todas las quimeras</l>
+               <l>de las señoritas</l>
+               <l>doncellas, solteras:</l>
+               <l>veran como á todas</l>
+               <l>con lindos arrojos</l>
+               <l>tras de los usías</l>
+               <l>se le van los ojos:</l>
+               <l>y verán las ánsias</l>
+               <l>de muchos camuezos,</l>
+               <l>que se vuelven toros;</l>
+               <l>mas ¿cuántos hay de esos?</l>
+               <l rend="indent">En está Córte, una dama,</l>
+               <l>muy hermosa y sin nariz,</l>
+               <l>en un dia quince novios</l>
+               <l> le llegaron á pedir,</l>
+               
+               <pb n="2"/>
+               
+               <l>El padre y la madre</l>
+               <l>gozosos del caso,</l>
+               <l>se van de canilla</l>
+               <l>y alargan el paso:</l>
+               <l>sábelo la hija,</l>
+               <l>y la tal zagala</l>
+               <l>les envia á todos:</l>
+               <l>muy enhoramala.</l>
+               <l>El cuento es gracioso,</l>
+               <l>la idea preciosa,</l>
+               <l>silencio, animales,</l>
+               <l>que el caso es de risa.</l>
+               <l rend="indent">Un médico de la legua</l>
+               <l>por muger quiere llevarte.</l>
+               <l>Diga usted al matasanos</l>
+               <l>que recete en otra parte:</l>
+               <l>los médicos todos</l>
+               <l>sin entendimiento,</l>
+               <l>el pulso al bolsillo</l>
+               <l>suelen dar un tiento:</l>
+               <l>si ven que hay dinero</l>
+               <l>alargan la cura,</l>
+               <l>y alcabo nos zampan</l>
+               <l>en la sepultura:</l>
+               <l>tanta ciencia tienen</l>
+               <l>los mas abrutados</l>
+               <l>como esos borricos</l>
+               <l>que andan por los prados.</l>
+               <l rend="indent">Un herrero como un ángel</l>
+               <l>su muere por tí, bien mio.</l>
+               <l>Padre, sabe usted que es esto?</l>
+               <l>machacar en hierro frio:</l>
+               <l>yo con esta cara</l>
+               <l>con este piquito,</l>
+               <l>con este donaire,</l>
+               <l>con este garvito</l>
+               <l>de casarme habia</l>
+               <l>(¡qué nécios bocablos!)</l>
+               <l>con esos demonios</l>
+               <l>que parecen diablos?</l>
+               <l>no padre, no, padre,</l>
+               <l>ninguno resuelle,</l>
+               <l>pues no nací yo</l>
+               <l>para tirar del fuelle, </l>
+               <l rend="indent">Un sastre de largas uñas,</l>
+               <l>casarse gozoso espera.</l>
+               <l>Como no sea conmigo</l>
+               <l>que corte por donde quiera:</l>
+               <l>todos son tramposos, </l>
+               <l>sisones perdidos,</l>
+               <l>y de los pendones</l>
+               <l>van siempre vestidos;</l>
+               <l>las pobres mugeres</l>
+               <l>sin hechar regüeldo</l>
+               <l>cosen y trabajan</l>
+               <l>á remo y sin sueldo,</l>
+               <l>y los picarones</l>
+               <l>andan muy ufanos,</l>
+               <l>en bailes y toros,</l>
+               <l>como sois cristianos.</l>
+               <l rend="indent">Un zapatero de punto</l>
+               <l>busca novia con recato.</l>
+               <l>Pues no encontrará conmigo</l>
+               <l>la horma de su zapato:</l>
+               <l>el domingo afanan</l>
+               <l>como unos atunes,</l>
+               <l>y en gracias de Dios</l>
+               <l>se emborrachan los lunes;</l>
+               <l>todo el dia mienten,</l>
+               <l>por que con cautelas, </l>
+               <l>si una verdad dicen</l>
+               <l>les duelen las muelas: </l>
+               <l>dan á sus mugeres</l>
+               <l>muy lindos reveses,</l>
+               <l>y el cuadro las tocan</l>
+               <l>con los tirapieses.</l>
+               <l rend="indent">Hija, oliendo tu hocico</l>
+               <l>anda tambien un tendero.</l>
+               <l>Hay, padre, no echará él</l>
+               <l>garbanzos en mi puchero</l>
+               <l>cargan á los pobres</l>
+               <l>con mucha limpieza,</l>
+               <l>y ellos en dos dias</l>
+               <l>levantan cabeza:</l>
+               <l>sus mugeres gastan</l>
+               <l>finas y arrogantes</l>
+               <l>sortijas de plata,</l>
+               <l>cruces de diamantes:</l>
+               
+               <pb n="3"/>
+               
+               <l>pero los maridos</l>
+               <l>andan imprudentes,</l>
+               <l>hechos unos asnos</l>
+               <l>como los presentes.</l>
+               <l rend="indent">Un bárbaro de un barbero</l>
+               <l>te pretende por esposa</l>
+               <l>Dígale usted que á otra pazte</l>
+               <l>vaya á pegar la ventosa;</l>
+               <l>no quiero casarme</l>
+               <l>con lobos esquivos,</l>
+               <l>que á todos los hombres</l>
+               <l>los desuellan vivos:</l>
+               <l>si alguno está malo,</l>
+               <l>porque se desangren</l>
+               <l>le chupan la bolsa</l>
+               <l>y le sacan la sangre;</l>
+               <l>las vihuelas tocan</l>
+               <l>con manos bizarras,</l>
+               <l>y así salen ellos</l>
+               <l>muy buenos.....guitarras.</l>
+               <l rend="indent">Un sacristan te idolatra</l>
+               <l>que canta como un rosin,</l>
+               <l>de los muchos que en lá Córte</l>
+               <l>traen peluca y espadin.</l>
+               <l>Raspando las velas</l>
+               <l>como unos heréges,</l>
+               <l>y á los pobres santos</l>
+               <l>los dejan asperges;</l>
+               <l>si hay responso campan</l>
+               <l>las mugeres suyas,</l>
+               <l>y si no hay responso</l>
+               <l>comen aleluyas:</l>
+               <l>de la misa el vino</l>
+               <l>chupan sus mercedes</l>
+               <l>y unos lobos cogen</l>
+               <l>tales como ustedes.</l>
+               <l rend="indent">Un bodegonero gordo</l>
+               <l>pretende ser tu marido.</l>
+               <l>Ay qué risa; pues en qué</l>
+               <l>bodegon hemos comido?</l>
+               <l>en todas sus ollas</l>
+               <l>se ven sin paradas,</l>
+               <l>muchísimo caldo</l>
+               <l>y pocas tajadas:</l>
+               <l>y á mas por especias,</l>
+               <l>cominos y ajos,</l>
+               <l>dentro de las hollas</l>
+               <l>echan los gargajos:</l>
+               <l>y hay bodegoneros</l>
+               <l>que con mil bambollas</l>
+               <l>por no gastar agua</l>
+               <l>se mean en las ollas.</l>
+               <l rend="indent">Un zurrador hija mia,</l>
+               <l>á ser tu esposo se allana.</l>
+               <l>Ay padre no quiero esposo,</l>
+               <l>que me zurre la badana:</l>
+               <l>y así no se canse</l>
+               <l>con novios fatales,</l>
+               <l>porque yo reniego</l>
+               <l>de los oficiales;</l>
+               <l>pues á muchos de ellos.</l>
+               <l>los estoy yo viendo</l>
+               <l>siempre trabajando,</l>
+               <l>y siempre pereciendo.</l>
+               <l rend="indent">Un usía, padre,</l>
+               <l>busca el alma mia</l>
+               <l>usía le quiero</l>
+               <l>démele usted usia.</l>
+               <l rend="indent">Pues hija mia, un usía</l>
+               <l>tambien me ha llegado á hablar.</l>
+               <l>Ay padre, usía le quiero</l>
+               <l>y mas que no tenga un real:</l>
+               <l>todas sus mugeres</l>
+               <l>con airoso esmero,</l>
+               <l>gastan mucha porra</l>
+               <l>y poco dinero:</l>
+               <l>no hay gozo en el mundo</l>
+               <l>como el ir al rio</l>
+               <l>con pata de moda</l>
+               <l>y el vientre vasio:</l>
+               <l>á su muger dejan</l>
+               <l>vender su tesoro,</l>
+               <l>y entre tanto marchan</l>
+               <l>á jugar al toro.</l>
+               <l rend="indent">Hija, pues ya que te agrada</l>
+               <l>llamaré al usía yo.</l>
+               <l>Si padrecito de mi alma,</l>
+               <l>cuanto mas antes mejor</l>
+               
+               <pb n="4"/>
+               
+               <l>Llámaronle al punto,</l>
+               <l>y dijo el usia:</l>
+               <l>á los pies de usted</l>
+               <l>madamita mia;</l>
+               <l>¿cuándo pensé yo</l>
+               <l>tener tal esposa?</l>
+               <l>Hay señor usia,</l>
+               <l>yo soy la dichosa.</l>
+               <l>Cuando nos casamos,</l>
+               <l>señorita mia?</l>
+               <l>Cuando usted gustare</l>
+               <l>señor don usía.</l>
+               <l rend="indent">En fin, el usía pobre</l>
+               <l>se casó con lindos arcos,</l>
+               <l>y al punto le entró la niña</l>
+               <l>en la hermandad de San Marcos:</l>
+               <l>los primeros días</l>
+               <l>hubo sin contiendas</l>
+               <l>funciones, saráos,</l>
+               <l>bailes y meriendas.</l>
+               <l rend="indent">El maldito usía</l>
+               <l>gran vida se daba, </l>
+               <l>y á costa del dote</l>
+               <l>campaba y triunfaba,</l>
+               <l>pero en breve tiempo</l>
+               <l>se acabó el socorro</l>
+               <l>y los pobres novios</l>
+               <l>andaban al morro.</l>
+               <l>Maldita sea tu casta,</l>
+               <l>(decía la niña triste)</l>
+               <l>sino puedes mantenerme</l>
+               <l>por qué diablos me pediste?</l>
+               <l>Oyes, picarona,</l>
+               <l>(responde el usía)</l>
+               <l>valga el diablo tu alma,</l>
+               <l>¿qué, no lo sabias?</l>
+               <l>y pues ahora sales</l>
+               <l>con esa demanda:</l>
+               <l>aguárdate un poco</l>
+               <l>verás lo que anda;</l>
+               <l>sacúdela el polvo</l>
+               <l>con un palo fiere</l>
+               <l>y como un tomate</l>
+               <l> la pone el trasero.</l>
+               
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+            
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1855.
+                  <lb/>Imprenta de D. José María Moreno, Descalzas núm 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

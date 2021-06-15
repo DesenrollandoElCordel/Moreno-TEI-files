@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_100">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación histórica de la gloriosa virgen y mártir Santa Filomena</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion historica. De la gloriosa virgen y martir
+                     Santa Filomena.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 109</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_100_1.xml">grabado_m_100_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_100_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">(Núm. 109.)</fw>
+               
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">RELACION HISTORICA.</hi>
+                  <lb/>DE LA
+                  <lb/>GLORIOSA VIRGEN Y MARTIR
+                  <lb/>SANTA FILOMENA.
+               </head>
+               
+               <l rend="indent">Atiende, lector carísimo,</l>
+               <l>la mas grande maravilla</l>
+               <l>que imaginarte pudiste</l>
+               <l>en los años de tu vida,</l>
+               <l>el suceso mas terrible,</l>
+               <l>la historia mas inaudita</l>
+               <l>que en este mundo se viera,</l>
+               <l>la mas rara y peregrina;</l>
+               <l>y es la vida de la santa</l>
+               <l>que Filomena apellidan,</l>
+               
+               <pb n="2"/>
+               
+               <l>de aquella santa magnánima,</l>
+               <l>de aquella santa divina:</l>
+               <l>en la que tantas virtudes</l>
+               <l>¡oh lector! resplandecian;</l>
+               <l>la que con paciencia tanta</l>
+               <l>mil penas sufrió tranquila:</l>
+               <l>de aquella que por sus penas</l>
+               <l>tubo gloria merecida,</l>
+               <l>la que el último suspiro,</l>
+               <l>le dió con suave sonrisa;</l>
+               <l>de aquella muger tan cándida,</l>
+               <l>de belleza tan angélica,</l>
+               <l>que ante su lívano impávido</l>
+               <l>venció su firmeza intrépida.</l>
+               <l>Atiende, que ya principio</l>
+               <l>la historia que tanto admira;</l>
+               <l>apréndela de memoria</l>
+               <l>que es historia nunca oida.</l>
+               <l>Nació esta cándida virgen</l>
+               <l>en la capital de Grecia</l>
+               <l>hija de un cristiano rey,</l>
+               <l>siendo del trono heredera:</l>
+               <l>nació ella tan hermosa,</l>
+               <l>y era tanta su belleza,</l>
+               <l>que todo el mundo admiraba</l>
+               <l>la divina Filomena:</l>
+               <l>y no habia hermosura humana</l>
+               <l>que se comparara á ella,</l>
+               <l>porque ninguna existía,</l>
+               <l>que mucho inferior no fuera.</l>
+               <l>Creció en años, y se veia</l>
+               <l>mas hermosa á la princesa,</l>
+               <l>y de la virtud la idea</l>
+               <l>su pecho se alimenta</l>
+               <l>en su inspiracion cristiana,</l>
+               <l>llevada de su pureza,</l>
+               <l>esposa de Jesucristo</l>
+               <l>se consagró la doncella;</l>
+               <l>y á su Dios tan solamente</l>
+               <l>gustosa el ánima entrega,</l>
+               <l>abandonando los goces</l>
+               <l>miserables de la tierra,</l>
+               <l>aqueste fué el juramento</l>
+               <l>de esta candida azucéna,</l>
+               <l>este es el Esposo que amaba,</l>
+               <l>aquella criatura tierna.</l>
+               <l>Feliz vivia de este modo</l>
+               <l>la virtuosa Filomena,</l>
+               <l>cuando su padre ¡oh desgracia!</l>
+               <l>con él á Roma le lleva,</l>
+               <l>do empuñaba Diocleciano</l>
+               <l>de aquel imperio las riendas,</l>
+               <l>y era tan severo el hombre,</l>
+               <l>que le temblaba la tierra.</l>
+               <l>No bien el tigre miró</l>
+               <l>la tímida Filomena,</l>
+               <l>cuando siente allá en el pecho,</l>
+               <l>una llama que le quema;</l>
+               <l>cuando se siente convulso</l>
+               <l>sin que remediarlo pueda;</l>
+               <l>cuando siente le abandona</l>
+               <l>su acostumbrada firmeza;</l>
+               <l>cuando siente no cariño,</l>
+               <l>sino pasion la mas ciega</l>
+               <l>que le aniquila, consume</l>
+               <l>y destruye el alma entera:</l>
+               <l>y frenético, pidió,</l>
+               <l>por esposa á Filomena,</l>
+               <l>porque su cetro y su vida</l>
+               <l>á tanta hermosura entrega.</l>
+               <l>Esto oyo la virgen pura</l>
+               <l>y se cubrió de vergüenza,</l>
+               <l>y con la voz halbuciente,</l>
+               <l>contesto de esta manera:</l>
+               <l>No, puedo, no, Diocleciano,</l>
+               <l>ser no puedo esposa vuestra,</l>
+               <l>porque juramento hice</l>
+               <l>de nadie amar en la tierra;</l>
+               <l>pues ha tiempo que á Jesus</l>
+               <l>me consagré toda entera,</l>
+               <l>y ya veis que no es posible</l>
+               
+               <pb n="3"/>
+               
+               <l>que se perjure mi lengua.</l>
+               <l>Entonces instó su padre</l>
+               <l>y la dijo que cediera,</l>
+               <l>porque sinó Diocleciano</l>
+               <l>les iba á hacer cruda guerra;</l>
+               <l>y su terrible venganza,</l>
+               <l>y en su indómita fiereza,</l>
+               <l>espatriados se verian</l>
+               <l>los dos cubiertos de afrenta.</l>
+               <l>En vano, en vano intentaron</l>
+               <l>persuadir á Filomena,</l>
+               <l>porque vencer no pudieron</l>
+               <l>su acrisolada firmeza;</l>
+               <l>lo cual visto por su amante,</l>
+               <l>ardiéndole el pecho en cólera,</l>
+               <l>la maltrata y la intimida</l>
+               <l>deponga su resistencia;</l>
+               <l>y aquella muger hermosa</l>
+               <l>pintada en su tez la pena,</l>
+               <l>puesta de hinojos á Cristo</l>
+               <l>esta plegaria comienza</l>
+               <l>¡Oh Dios que estás en el Cielo!</l>
+               <l>mirame desde tu altura</l>
+               <l>y mitiga mi amargura</l>
+               <l>con tu celestial consuelo:</l>
+               <l>derrama, Señor, aquí,</l>
+               <l>tu divina inspiracion,</l>
+               <l>anima mi corazon</l>
+               <l>¡oh Dios mio! desde ahí:</l>
+               <l>y con ojos de clemencia</l>
+               <l>en mis angustias, Señor,</l>
+               <l>haz que sufra este dolor</l>
+               <l>con resignada paciencia,</l>
+               <l>y que este cruel tirano</l>
+               <l>que ahora tanto me atormenta,</l>
+               <l>Dios mio, que se arrepienta</l>
+               <l>de su frenesí insano.</l>
+               <l>No bien dijo estas palabras</l>
+               <l>la acongojada doncella</l>
+               <l>cuando el fatal Diocleciano</l>
+               <l>la asió del brazo con fuerza,</l>
+               <l>y brotando ira los ojos,</l>
+               <l>con mil insultos la aterra,</l>
+               <l>y no hay remedio en el mundo</l>
+               <l>que calmar su enojo pueda:</l>
+               <l>no hay palabras que ablanden</l>
+               <l>el pecho de aquella fiera,</l>
+               <l>y no hay esperanza alguna</l>
+               <l>para la triste doncella;</l>
+               <l>manda al punto el imbecil,</l>
+               <l>de que sus sayones vengan</l>
+               <l>y bien pronto los verdugos</l>
+               <l>armados se le presentan:</l>
+               <l>por órden de aquel tirano</l>
+               <l>ataron á Filomena,</l>
+               <l>y á un hediondo calabozo</l>
+               <l>los bárbaros se la llevan,</l>
+               <l>é inhumanos la cargaron</l>
+               <l>de grillos y de cadenas,</l>
+               <l>y la echaron sabandijas,</l>
+               <l>sapos, lagartos, culebras;</l>
+               <l>y de comer no le daban</l>
+               <l>por mas que comer quisiera,</l>
+               <l>para que la hermosa víctima</l>
+               <l>á tanto martirio ceda;</l>
+               <l>pero no rinde su fé</l>
+               <l>ni los ayes ni las penas,</l>
+               <l>ni tanta vil amenaza</l>
+               <l>de aquella gente perversa,</l>
+               <l>ni los ruegos seductores,</l>
+               <l>ni aquella liviana arenga</l>
+               <l>de que usa un tirano</l>
+               <l>para ver si se le entrega;</l>
+               <l>nada basta, y Diocleciano</l>
+               <l>se puso como una fiera,</l>
+               <l>y manda que sus verdugos</l>
+               <l>azoten á la doncella;</l>
+               <l>los sayónes la cogieron</l>
+               <l>de su dorada melena,</l>
+               <l>y arrastrando le sacaron</l>
+               
+               <pb n="4"/>
+               
+               <l>llena de amargura y de pena;</l>
+               <l>y en aquel hermoso cuerpo</l>
+               <l>mas blanco que la azucena,</l>
+               <l>aquellos viles verdugos</l>
+               <l>encarnizados se cevan;</l>
+               <l>muy fieros golpes descargan</l>
+               <l>con tanto vigor y fuerza</l>
+               <l>que mil llagas se formaron</l>
+               <l>en aquella carne tierna;</l>
+               <l>pero ni tantos dolores</l>
+               <l>ni el verse de sangre llena,</l>
+               <l>debilitaron el ánimo</l>
+               <l>de la virtuosa doncella;</l>
+               <l>porque un angel la inspiraba</l>
+               <l>y consolaba sus penas,</l>
+               <l>dando á su cuerpo fuerzas;</l>
+               <l>así fué que sus verdugos</l>
+               <l>al encierro se la llevan,</l>
+               <l>y otra vez aquellos mónstruos</l>
+               <l>la cargaron de cadenas.</l>
+               <l>Vista pues por el tirano</l>
+               <l>su acrisolada firmeza,</l>
+               <l>discurre el nuevo martirio</l>
+               <l>de las flechas y saetas;</l>
+               <l>aquella muger divina</l>
+               <l>sufre el tormento serena,</l>
+               <l>y el pueblo atónito mira</l>
+               <l>una virtud tan inmensa:</l>
+               <l>mas el cruel Diocleciano</l>
+               <l>otras barbaries ordena;</l>
+               <l>manda que con peso al cuello</l>
+               <l>en el Tiber la sumerjan:</l>
+               <l>cumplen los esclavos viles</l>
+               <l>esta bárbara sentencia,</l>
+               <l>y arrojaron en el rio</l>
+               <l>la desgraciada princesa;</l>
+               <l>pero el Todopoderoso</l>
+               <l>que protegia su inocencia,</l>
+               <l>salvó la cándida rosa</l>
+               <l>de aqueste martirio ilesa:</l>
+               <l>y el pueblo como un milagro</l>
+               <l>este gran suceso cuenta,</l>
+               <l>y á la victima inocente</l>
+               <l>como á santa la veneran.</l>
+               <l>El emperador entonces</l>
+               <l>como si loco estuviera,</l>
+               <l>ordenó que en el instante</l>
+               <l>le cortaran la cabeza;</l>
+               <l>y ¡oh Cielos! que ejecutaron</l>
+               <l>aquella orden tan tremenda:</l>
+               <l>¡oh Cielos! que de este mundo</l>
+               <l>robaron á Filomena. </l>
+               <l>Aquellos fieros sayonés</l>
+               <l>cojieron á la belleza</l>
+               <l>y la segaron el cuello</l>
+               <l>en su barbara inclemencia;</l>
+               <l>al espirar, la inocente,</l>
+               <l>se ve que al Cielo serena</l>
+               <l>y entre una nube dos ángeles</l>
+               <l>su pura ánima llevan.</l>
+               <l>Aprende, lector, aprende</l>
+               <l>la historia de Filomena,</l>
+               <l>que si imitas sus virtudes</l>
+               <l>gozaras la gloria eterna.</l>
+               
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+            
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. 
+                  <lb/>Imprenta de D. José María Moreno, calle Juan de la Cabra.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

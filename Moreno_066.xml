@@ -1,0 +1,917 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_066">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Griselda y Gualtero. Nueva relación</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Griselda y Gualtero. Nueva relacion de la peregrina
+                     historia de esta pastorcilla, y de como el marqués Gualtero trató su casamiento
+                     con ella, y salió el mas singular egemplo de la obediencia que deben tener las
+                     mugeres casadas á sus maridos.</title>
+                  <title type="titulo_breve">Griselda y Gualtero. Nueva relacion</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 78</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Tres partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-6</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>6-8</locus>
+                     <title>Tercera parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_066_1.xml">grabado_m_066_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_066_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">(Número 78.)</fw>
+               
+               <head type="primer_titulo">GRISELDA Y GUALTERO.</head>
+               <head type="subtitulo">
+                  <lb/><hi rend="negrita">NUEVA RELACION</hi>
+                  <hi rend="cursiva"><lb/>de la peregrina historia de esta pastorcilla, y de como el marqués Gualtero
+                  <lb/>trató su casamiento con ella, y salió el mas singular egemplo de la
+                  <lb/>obediencia que deben tener las mugeres casadas á sus maridos.</hi>
+               </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+                  
+                  <l rend="indent">Atiéndame el auditorio</l>
+                  <l>mientras con dulces palabras</l>
+                  <l>y muy suaves acentos,</l>
+                  <l>aquesta historia se canta.</l>
+                  <l>Préstenme todos silencio</l>
+                  <l>con venevolencia grata,</l>
+                  <l>para poder comprender</l>
+                  <l>lo que mi lengua relata.</l>
+                  <l>Atiendanme; pero es fuerza,</l>
+                  <l>que en cualquier obra que se haga</l>
+                  <l>se ponga un buen fundamento,</l>
+                  <l>para que salga acertada.</l>
+                  <l>Y asi el auxilio imploremos</l>
+                  <l>de la Vírgen soberana,</l>
+                  <l>que con tan luciente Estrella,</l>
+                  <l>mi musa, aunque muy turbada</l>
+                  <l>cobrando aliento, dará</l>
+                  <l>principio á esta historia rara.</l>
+                  <l>Hubo de sangre muy noble-</l>
+                  <l>un gran marqués en la Italia,</l>
+                  <l>dueño de muchos lugares,</l>
+                  <l>que Gualtero se llamaba,</l>
+                  <l>en su trato muy afable,</l>
+                  <l>y de condicion muy llana.</l>
+                  <l>Era el tal marqués soltero</l>
+                  <l>y aficionado á la caza,</l>
+                  <l>de tal modo, que por ella</l>
+                  <l>toda diversion dejaba.</l>
+                  <l>En esto se entretenia,</l>
+                  <l>y por vivir á sus anchas,</l>
+                  <l>no deliberó el casarse.</l>
+                  <l>Pero como de tan clara</l>
+                  
+                  <pb n="2"/>
+                  
+                  <fw type="paginaNum">2</fw>
+                  
+                  <l>sangre su casa venia,</l>
+                  <l>por que sucesion dejára,</l>
+                  <l>deseaban sus vasallos,</l>
+                  <l>ver su señor si gustaba</l>
+                  <l>el elegir nuevo estado.</l>
+                  <l>Dispusieron que llegára</l>
+                  <l>el que mas de su cariño</l>
+                  <l>fuere, y del caso le hablara</l>
+                  <l>y de esta suerte estaria</l>
+                  <l>su intencion declarada.</l>
+                  <l>Al punto lo ejecutaron,</l>
+                  <l>fué uno de ellos, y lo llama</l>
+                  <l>aparte, y asi le dice:</l>
+                  <l>gran señor, cierto me holgára</l>
+                  <l>que tomarás mi consejo.</l>
+                  <l>Bien sabes que á la tirana,</l>
+                  <l>azote de los mortales</l>
+                  <l>somos (porque Dios lo manda)</l>
+                  <l>sujetos, y puede ser,</l>
+                  <l>que al golpe de su guadaña,</l>
+                  <l>el dia mas descuidado</l>
+                  <l>rinda tu vida á la parca.</l>
+                  <l>Y pues tenemos señor</l>
+                  <l>de sangre tan sublimada</l>
+                  <l>todos fuéramos gustosos,</l>
+                  <l>gran señor, que te casáras,</l>
+                  <l>por lograr un sucesor,</l>
+                  <l>que cual vos nos gobernára.</l>
+                  <l>Prudente el marqués responde</l>
+                  <l>estas siguientes palabras:</l>
+                  <l>que sea yo desposado,</l>
+                  <l>contra mi gusto se haga;</l>
+                  <l>mas ya que tal intentais,</l>
+                  <l>en lo que digo repara,</l>
+                  <l>que la que eligiere esposa</l>
+                  <l>(bien sea noble ó villana)</l>
+                  <l>ahora ni en ningún tiempo</l>
+                  <l>le habeis de negar la cara</l>
+                  <l>pues debe como señora</l>
+                  <l>de lodos ser respetada,</l>
+                  <l>en tí le respondo á todos,</l>
+                  <l>vé, diles las circunstancias.</l>
+                  <l>El mensagero responde</l>
+                  <l>con razones muy urbanas;</l>
+                  <l>pues yo soy, señor,</l>
+                  <l>el que empeña su palabra</l>
+                  <l>por todos los de tu córte.</l>
+                  <l>La condicion otorgada</l>
+                  <l>el maques le prometió</l>
+                  <l>el darles gusto sin falta.</l>
+                  <l>Cerca del palacio había</l>
+                  <l>unas aldeas que estaban</l>
+                  <l>como cosa de dos tiros</l>
+                  <l>distantes de las murallas:</l>
+                  <l>y cuando con los monteros</l>
+                  <l>solia salir de caza</l>
+                  <l>el marqués algunas tardes</l>
+                  <l>aquel sitio frecuentaba:</l>
+                  <l>y habia puestos los ojos</l>
+                  <l>en una honesta muchacha,</l>
+                  <l>que en una de estas aldeas</l>
+                  <l>tenia albergue y morada;</l>
+                  <l>hija de un labrador pobre</l>
+                  <l>que Janículo llamaban,</l>
+                  <l>tan bizarra y tan hermosa</l>
+                  <l>que era otra segunda Palas.</l>
+                  <l>Griselda, que este era el nombre</l>
+                  <l>de aquesta hermosa muchacha,</l>
+                  <l>humilde unas ovejuelas</l>
+                  <l>de su padre apacentaba,</l>
+                  <l>y para no perder tiempo,</l>
+                  <l>cuidadosa de su casa,</l>
+                  <l>mientras pacia el ganado</l>
+                  <l>con su rueca hilando andaba.</l>
+                  <l>Viòla el marqués muchas veces</l>
+                  <l>y aficionado á su gala,</l>
+                  <l>dispuso casar con ella;</l>
+                  <l>dió á sus vasallos con llana</l>
+                  <l>voluntad citado el dia,</l>
+                  <l>para que se divulgára</l>
+                  <l>el festivo desposorio,</l>
+                  <l>de su señor, y fue tanta</l>
+                  <l>la alegria que tuvieron,</l>
+                  <l>que cada cual deseaba</l>
+                  <l>aquel dia tan dichoso;</l>
+                  <l>pero todos ignoraban</l>
+                  <l>quien pudiese ser la novia.</l>
+                  <l>Y mientras que se pasaba</l>
+                  <l>aquel limitado tiempo,</l>
+                  <l>á medida de otra dama</l>
+                  <l>de talle como Griselda,</l>
+                  <l>hizo Gualtero las galas</l>
+                  <l>y adornos de una princesa,</l>
+                  <l>con joyas muy sublimadas.</l>
+                  <l>Llegó el dia, y convocóse</l>
+                  <l>toda su noble comarca,</l>
+                  <l>y en magníficos coches</l>
+                  <l>siguen á Gualtero, y pasan</l>
+                  <l>a quel sitio que antes dije.</l>
+                  <l>A esto tiempo que llegaban,</l>
+                  
+                  <pb n="3"/>
+                  
+                  <fw type="paginaNum">3</fw>
+                  
+                  <l>Griselda tambien venia</l>
+                  <l>con un cántaro de agua,</l>
+                  <l>y dejándolo de prisa,</l>
+                  <l>salió con otras muchachas</l>
+                  <l>á ver del marqués la novia</l>
+                  <l>y Gualtero con palabras</l>
+                  <l>halagüeñas por su nombre</l>
+                  <l>llamándola, así le habla:</l>
+                  <l>Griselda donde está tu padre?</l>
+                  <l>Y Griselda con vos baja</l>
+                  <l>le responde: Señor mio,</l>
+                  <l>mi padre está dentro en casa.</l>
+                  <l>Apeóse el caballero,</l>
+                  <l>y dijo á los que llevaba</l>
+                  <l>que un poco se detuviesen</l>
+                  <l>que saldria sin tardanza.</l>
+                  <l>Entróse solo allá dentro,</l>
+                  <l>con el padre se encontraba</l>
+                  <l>de Griselda, y le saluda,</l>
+                  <l>y de esta suerte le habla:</l>
+                  <l>Janículo muy bien sabes</l>
+                  <l>que eres mi vasallo, y tanta</l>
+                  <l>voluntad tengo á tu hija,</l>
+                  <l>que dispongo de tomarla</l>
+                  <l>por esposa, es tu gusto,</l>
+                  <l>mas juzgo que repugnancia</l>
+                  <l>no habrá alguna puesto que eres</l>
+                  <l>dichoso en esta embajada,</l>
+                  <l>tu respuesta espero ahora.</l>
+                  <l>Y con vergüenza sobrada</l>
+                  <l>Janículo les responde:</l>
+                  <l>señor, no merezco nada,</l>
+                  <l>mas si gustais de este empleo,</l>
+                  <l>vuestra voluntad se haga.</l>
+                  <l>Llámala al punto, le dice,</l>
+                  <l>que quiero hablar dos palabras</l>
+                  <l>con ella, si es gustosa;</l>
+                  <l>y Janículo la llama.</l>
+                  <l>Vino Griselda corriendo</l>
+                  <l>á ver lo que le manda</l>
+                  <l>su padre: y el caballero</l>
+                  <l>le dice: Griselda amada,</l>
+                  <l>tú gustas de ser mi esposa?</l>
+                  <l>Y ella responde turbada,</l>
+                  <l>señor mió yo tu esposa?</l>
+                  <l>no gastes conmigo chanzas,</l>
+                  <l>que soy pobre, y diferentes</l>
+                  <l>son tu palacio y mi casa:</l>
+                  <l>conoció en esto Gualtero,</l>
+                  <l>que ella se consideraba</l>
+                  <l>indigna de un tal empleo;</l>
+                  <l>y le dice estas palabras:</l>
+                  <l>dime, tú serás constante</l>
+                  <l>en todo cuanto yo haga?</l>
+                  <l>Y ella respondió, señor,</l>
+                  <l>si de improviso mandáras</l>
+                  <l>que me quitaran la vida</l>
+                  <l>con la muerte mas amarga</l>
+                  <l>que bárbaros intentasen</l>
+                  <l>no romperé mi constancia.</l>
+                  <l>Bastante has dicho con eso,</l>
+                  <l>dijo, y al instante manda</l>
+                  <l>á dos dueñas que traia,</l>
+                  <l>que la ropa que llevaba,</l>
+                  <l>la quitasen y vistiesen</l>
+                  <l>de aquellas costosas galas</l>
+                  <l>que traían prevenidas.</l>
+                  <l>Y muy en breve la saca</l>
+                  <l>ataviada y compuesta</l>
+                  <l>á la puerta y en voz alta</l>
+                  <l>dijo esta es mi consorte,</l>
+                  <l>esta es la que destinada</l>
+                  <l>tengo, ya hace mucho tiempo</l>
+                  <l>para ser mi esposa amada.</l>
+                  <l>Esto que todos oyeron,</l>
+                  <l>los sombreros y las capas</l>
+                  <l>por los aires se estendian,</l>
+                  <l>con victores y alabanzas,</l>
+                  <l>pues su señor les cumplía</l>
+                  <l>el gusto que deseaban.</l>
+                  <l>A Griselda la pusieron</l>
+                  <l>en un coche: y luego marchan</l>
+                  <l>á la ciudad diligentes,</l>
+                  <l>en donde alegre se casa</l>
+                  <l>el marqués. Pero que gozo!</l>
+                  <l>que júbilo! que alabanzas!</l>
+                  <l>qué placeres! que alegrias!</l>
+                  <l>quo toros! juegos de cañas!</l>
+                  <l>que comedias! qué deleites!</l>
+                  <l>por la córte celebraban!</l>
+                  <l>Quéde pues en la alegria</l>
+                  <l>aquesta primera plana,</l>
+                  <l>que en la segunda prometo,</l>
+                  <l>de penas, aunque calladas,</l>
+                  <l>darle à mi auditorio atento</l>
+                  <l>una noticia muy larga.</l>
+               </div>
+
+               <div n="2" type="parte">
+                  <head type="titulo_parte">SEGUNDA PARTE.</head>
+                  
+                  <l>Ya dije con cuantas glorias</l>
+                  
+                  <pb n="4"/>
+                  
+                  <fw type="paginaNum">4</fw>
+                  
+                  <l>con el invicto Gualtero</l>
+                  <l>quedó Griselda casada,</l>
+                  <l>que fué de constancia ejemplo;</l>
+                  <l>atencion oyentes mios,</l>
+                  <l>otra vez á encargar vuelvo,</l>
+                  <l>porque son muy diferentes</l>
+                  <l>los casos, que si primero</l>
+                  <l>fué contento y alegria</l>
+                  <l>ahora es pena y sentimiento.</l>
+                  <l>Dejo aparte la alegria</l>
+                  <l>de los cuatro años primeros</l>
+                  <l>de su feliz matrimonio,</l>
+                  <l>y vamos ahora de nuevo</l>
+                  <l>á referir los pesares.</l>
+                  <l>A los dos años tuvieron</l>
+                  <l>una hija que en belleza</l>
+                  <l>quita al sol sus rayos bellos.</l>
+                  <l>Celebróse de la infanta</l>
+                  <l>el dichoso nacimiento</l>
+                  <l>con universal aplauso,</l>
+                  <l>aunque gustara Gualtero</l>
+                  <l>mucho mas que fuera infante,</l>
+                  <l>por la quietud de sus pueblos.</l>
+                  <l>Crió Griselda la niña</l>
+                  <l>con cariño de sus .pechos</l>
+                  <l>por espacio de dos años,</l>
+                  <l>y al cabo quiso Gualtero</l>
+                  <l>probar la fina constacia</l>
+                  <l>de su esposa y muy severo</l>
+                  <l>entró al cuarto donde estaba,</l>
+                  <l>de esta manera diciendo:</l>
+                  <l>bien te acordarás Griselda</l>
+                  <l>de tu ya pasado tiempo,</l>
+                  <l>cuando vinistes á mi casa,</l>
+                  <l>y aquel ofrecimiento</l>
+                  <l>que delante de tu padre</l>
+                  <l>me hiciste, que en ningun tiempo</l>
+                  <l>me habias de dar disgustos,</l>
+                  <l>y asi has de tener por cierto,</l>
+                  <l>que de nuestro matrimonio,</l>
+                  <l>hubo muchos descontentos,</l>
+                  <l>y despues de haber parido,</l>
+                  <l>mas disgustados los veo,</l>
+                  <l>purque dicen que no quieren</l>
+                  <l>sujetarse á los respectos</l>
+                  <l>de tu hija, que aunque sea</l>
+                  <l>hija, de un señor tan bueno,</l>
+                  <l>nieta es también de un villano,</l>
+                  <l>como es Janículo: creo</l>
+                  <l>lo tendrás bien en memoria;</l>
+                  <l>y asi tengo ya dispuesto</l>
+                  <l>por la concordia y la paz</l>
+                  <l>de mis vasallos que luego</l>
+                  <l>salga tu hija de casa,</l>
+                  <l>y esto ha de ser almomento.</l>
+                  <l>A que respondió Griselda,</l>
+                  <l>sin muestra de sentimiento:</l>
+                  <l>señor, de mi y de mi hija</l>
+                  <l>sois vos el perpetuo dueño;</l>
+                  <l>has, dispon, manda y ordena</l>
+                  <l>que yo siempre á tu precepto</l>
+                  <l>estoy firme y muy dispuesta.</l>
+                  <l>Al punto mandó Gualtero</l>
+                  <l>á un criado que llegase,</l>
+                  <l>y la infanta con despejo</l>
+                  <l>quitase á su madre, y la saque</l>
+                  <l>de su presencia al momento.</l>
+                  <l>Fué el criado diligente,</l>
+                  <l>entróse en el aposento,</l>
+                  <l>y viéndole la señora,</l>
+                  <l>pensó su intencion, y luego</l>
+                  <l>tomó en brazos á la niña,</l>
+                  <l>y la persignó, diciendo:</l>
+                  <l>Dios te libre de desgracias;</l>
+                  <l>en el rostro le dió un beso,</l>
+                  <l>y al criado se la entrega</l>
+                  <l>quien salió del aposento.</l>
+                  <l>Notad, oyentes amados,</l>
+                  <l>la congoja y sentimiento</l>
+                  <l>que en el corazón Griselda</l>
+                  <l>tendria, y con todo eso</l>
+                  <l>no se vió mudanza alguna</l>
+                  <l>en su diamantino pecho.</l>
+                  <l>Fué el criado donde estaba</l>
+                  <l>su amo, y dispuso luego</l>
+                  <l>la llevasen á Bolonia,</l>
+                  <l>donde tenia Gualtero</l>
+                  <l>una hermana, que casada</l>
+                  <l>era con un caballero,</l>
+                  <l>llamado el conde Panicio,</l>
+                  <l>y encargó que con secreto</l>
+                  <l>á su hija la criasen</l>
+                  <l>con aquellos documentos</l>
+                  <l>que entre los nobles se usan</l>
+                  <l>en la educacion, mas de esto</l>
+                  <l>nada sabia Griselda,</l>
+                  <l>pues iba con tal silencio,</l>
+                  <l>que aun de si era muerta ó viva</l>
+                  <l>no le dió cuenta Gualtero.</l>
+                  <l>Y cuando fué Dios servido.</l>
+                  
+                  <pb n="5"/>
+                  
+                  <fw type="paginaNum">5</fw>
+                  
+                  <l>un bello infante tuvieron</l>
+                  <l>hermoso á las maravillas,</l>
+                  <l>y con los mismos cortejos</l>
+                  <l>que la infanta fué aplaudido;</l>
+                  <l>pero cuando llegó el tiempo</l>
+                  <l>de poder ya destetarlo,</l>
+                  <l>con otra industria Gualtero</l>
+                  <l>la constancia de su esposa</l>
+                  <l>quiso probarla de nuevo.</l>
+                  <l>Entró donde estaba sola,</l>
+                  <l>y como quien de veneno</l>
+                  <l>está encendido, le dice:</l>
+                  <l>quitar ese niño quiero</l>
+                  <l>de mi presencia, pues ambos</l>
+                  <l>sois el primer fundamento</l>
+                  <l>de mi pundonor perdido,</l>
+                  <l>y muchos estar sujetos</l>
+                  <l>á mi persona rehusan,</l>
+                  <l>y á tu hijo por lo menos</l>
+                  <l>en ningun tiempo darán</l>
+                  <l>de hijo do marqués respeto;</l>
+                  <l>salga pues luego de casa. .</l>
+                  <l>Y con semblante risueño</l>
+                  <l>dijo Griselda señor,</l>
+                  <l>ya os dije que mi deseo</l>
+                  <l>y mi mayor alegria</l>
+                  <l>es daros gusto completo</l>
+                  <l>en todo, y así mandad</l>
+                  <l>lo que tuviéreis dispuesto</l>
+                  <l>que todo cuanto à vos plazga,</l>
+                  <l>me place á mí pues no temo</l>
+                  <l>perder á otro sino á vos.</l>
+                  <l>Estas palabras oyendo</l>
+                  <l>se salió y llamó al criado</l>
+                  <l>diciéndole que al momento</l>
+                  <l>vaya y le quite el infante</l>
+                  <l>de los brazos, qué tormento!</l>
+                  <l>Fué el criado y la señora</l>
+                  <l>persignando al niño bello,</l>
+                  <l>lo besó, no sin gran pena,</l>
+                  <l>aunque festivo y sereno</l>
+                  <l>manifestaba el semblante.</l>
+                  <l>Dió al criado el niño, y luego</l>
+                  <l>del aposento se sale,</l>
+                  <l>y en las manos de Gualtero</l>
+                  <l>se lo entrega, el cual lo envia</l>
+                  <l>á Bolonia con el mesmo</l>
+                  <l>encargo, que le criase</l>
+                  <l>su cuñado con secreto.</l>
+                  <l>Pasàronse muchos dias,</l>
+                  <l>que sin sus dos hijos bellos</l>
+                  <l>la triste Griseda estaba:</l>
+                  <l>pero ningun sentimiento</l>
+                  <l>en su rostro conocian,</l>
+                  <l>y aunque alguna vez Gualtero</l>
+                  <l>se los nombraba por ver</l>
+                  <l>si ella haria algun estreno</l>
+                  <l>ó demostracion de pena,</l>
+                  <l>jamas consiguió su intento.</l>
+                  <l>Luego despues, un rumor</l>
+                  <l>se suscritó por el reino,</l>
+                  <l>pues decian que el marqués,</l>
+                  <l>que estaba muy descontento</l>
+                  <l>de su desigual estado</l>
+                  <l>de matrimonio y por eso</l>
+                  <l>ocultaba sus dos hijos,</l>
+                  <l>que nadie sabia de ellos.</l>
+                  <l>Y de allí á muy breves dias</l>
+                  <l>otras noticias oyeron</l>
+                  <l>por las córte; que el marqués,</l>
+                  <l>al Papa le envió un pliego,</l>
+                  <l>para ver si repudiando</l>
+                  <l>la esposa que le dió el cielo,</l>
+                  <l>podríase casar con otra</l>
+                  <l>por la quietud y sociego</l>
+                  <l>de su familia y vasallos.</l>
+                  <l>Y despues lomó mas cuerpo</l>
+                  <l>que el despacho habia vuelto</l>
+                  <l>dispensando, y permitía</l>
+                  <l>el Pontifice supremo,</l>
+                  <l>casáse el marqués con otra.</l>
+                  <l>Tales noticias corriendo,</l>
+                  <l>empezóse á divulgar,</l>
+                  <l>y se prefijaba el tiempo,</l>
+                  <l>cuando vendria la novia</l>
+                  <l>del marqués, y con acuerdo</l>
+                  <l>le remitió con sigilo</l>
+                  <l>unos renglones, Gualtero</l>
+                  <l>á Panicio, que llevase</l>
+                  <l>sus dos hijos al momento,</l>
+                  <l>señalando el dia fijo,</l>
+                  <l>por lograr mejor su intento.</l>
+                  <l>Por fin un dia el marqués,</l>
+                  <l>estando todo el congreso</l>
+                  <l>convocado, hizo llamasen</l>
+                  <l>á Griselda, y con severo,</l>
+                  <l>semblante, de aquesta forma</l>
+                  <l>le dijo: tened per cierto,</l>
+                  <l>esposa mia, que el mundo</l>
+                  <l>dá muchas vueltas; por eso</l>
+                  
+                  <pb n="6"/>
+                  
+                  <fw type="paginaNum">6</fw>
+                  
+                  <l>á muy pocos es constante</l>
+                  <l>la fortuna porque vemos</l>
+                  <l>cada día, que un señor</l>
+                  <l>de noble sangre y dinero</l>
+                  <l>vestido de mucha pompa</l>
+                  <l>de la fortuna á un tropiezo</l>
+                  <l>se sugeta y avasalla</l>
+                  <l>á ser un humilde siervo.</l>
+                  <l>Y pues licencia del Papa</l>
+                  <l>para repudiarte tengo,</l>
+                  <l>y mi nueva esposa viene</l>
+                  <l>tú has de salir sin remedio</l>
+                  <l>de palacio y entregarle</l>
+                  <l>á la que venga tu empleo;</l>
+                  <l>y mas no le has de llevar</l>
+                  <l>de mi palacio, que el mesmo</l>
+                  <l>dote que tu me trajistes.</l>
+                  <l>Estas palabras oyendo,</l>
+                  <l>dijo Griselda: señor,</l>
+                  <l>cuando desnuda algun tiempo</l>
+                  <l>de mis vestidos humildes,</l>
+                  <l>vestí los preciosos vuestros</l>
+                  <l>me despojé de ser dueña</l>
+                  <l>de mí misma, y con contento</l>
+                  <l>me vestí de la humildad</l>
+                  <l>para con vos; á quien debo</l>
+                  <l>tantas finezas, y siempre</l>
+                  <l>con humilde rendimiento</l>
+                  <l>por la mas dichosa viuda</l>
+                  <l>me tendré de aqueste reino,</l>
+                  <l>por haber logrado ser</l>
+                  <l>esposa de tan buen dueño.</l>
+                  <l>Solo te pido y suplico,</l>
+                  <l>para que vaya cubierto</l>
+                  <l>este vientre que enjendró</l>
+                  <l>á mis dos hijos y vuestros,</l>
+                  <l>me dejes esta camisa,</l>
+                  <l>para salir por el pueblo,</l>
+                  <l>hasta llegar á la casa</l>
+                  <l>do mi padre. Y no pudiendo</l>
+                  <l>Gualtero de enternecido</l>
+                  <l>contener su sentimiento,</l>
+                  <l>con lágrimas en los ojos,</l>
+                  <l>le volvió el rostro, diciendo:</l>
+                  <l>llévatela; y apartése</l>
+                  <l>de mi vista. Aqui pues dejo</l>
+                  <l>la historia, y en otra parte</l>
+                  <l>remataré este suceso.</l>
+               </div>
+               
+               <div n="3" type="parte">
+                  <head type="titulo_parte">TERCERA PARTE.</head>
+                  
+                  <l>Pues conté en la primer parte</l>
+                  <l>mil placeres y alegrias,</l>
+                  <l>y tambien en la segunda</l>
+                  <l>ánsias, penas y fatigas;</l>
+                  <l>en la tercera prometo</l>
+                  <l>manifestar convertida</l>
+                  <l>la pena en doblados gozos,</l>
+                  <l>y el dolor en mayor dicha.</l>
+                  <l>Ya dige con que despejo,</l>
+                  <l>con que especie de ignominia</l>
+                  <l>quedó la triste Griselda,</l>
+                  <l>de su esposo despedida</l>
+                  <l>desnuda de los vestidos</l>
+                  <l>con que sus carnes cubria,</l>
+                  <l>de pié y pierna descalza</l>
+                  <l>de palacio se salia,</l>
+                  <l>mas no sola que llevaba</l>
+                  <l>tantos en su compañía</l>
+                  <l>que de toda aquella córte</l>
+                  <l>el concurso mayor iba.</l>
+                  <l>Hombres, mugeres y ancianos,</l>
+                  <l>ricos, pobres, niños, niñas,</l>
+                  <l>los unos de sentimiento</l>
+                  <l>sus corazones partian,</l>
+                  <l>otros las piedras regaban</l>
+                  <l>con lágrimas que vertian:</l>
+                  <l>todos el dolor acerbo</l>
+                  <l>de su señora sentian:</l>
+                  <l>y la afligida Griselda</l>
+                  <l>siempre mostrando alegria.</l>
+                  <l>Amargamente lloraban</l>
+                  <l>todos cuantos la veian,</l>
+                  <l>ella á todos consolaba</l>
+                  <l>y de esta suerte decia:</l>
+                  <l>no lloreis, pues yo no pierdo</l>
+                  <l>cosa alguna propia mia,</l>
+                  <l>que en pobreza y desnudez</l>
+                  <l>pasé la flor de mi vida,</l>
+                  <l>y sí tuve esta ventura,</l>
+                  <l>la Providencia divina</l>
+                  <l>me lo dió, para que ahora</l>
+                  <l>me sirva de mas fatiga.</l>
+                  <l>No siento el perder las grandes</l>
+                  <l>riquezas que poseia,</l>
+                  <l>solo siento el ausentarme</l>
+                  <l>del esposo de mi vida.</l>
+                  <l>Este dolor me atribula,</l>
+                  <l>esta pena me fatiga.</l>
+                  
+                  <pb n="7"/>
+                  
+                  <fw type="paginaNum">7</fw>
+                  
+                  <l>esta congoja me ofende,</l>
+                  <l>y esta afliccion me contrista,</l>
+                  <l>con las palabras que hablaba</l>
+                  <l>las piedras enternecia,</l>
+                  <l>y al murmullo que formaban</l>
+                  <l>los que en compañía iban</l>
+                  <l>de sollosos y suspiros,</l>
+                  <l>ayes que al viento esparcian,</l>
+                  <l>por las calles que pasaban,</l>
+                  <l>á las ventanas salian,</l>
+                  <l>acompañando en el llanto.</l>
+                  <l>Llegò por fin la noticia</l>
+                  <l>al padre que salió en breve</l>
+                  <l>á recibir á su hija.</l>
+                  <l>Viendo que tan deshonesto</l>
+                  <l>trage entre el tumulto iba,</l>
+                  <l>llegó á ella, y con penosas</l>
+                  <l>ansias la dijo: hija mia,</l>
+                  <l>no te aflijas, pues yo tengo</l>
+                  <l>en un rincon escondida</l>
+                  <l>la ropa que te quitaste,</l>
+                  <l>cuando de gala vestida,</l>
+                  <l>te saliste de mi casa</l>
+                  <l>con contento y alegria;</l>
+                  <l>para ser feliz esposa</l>
+                  <l>del marqués que tu desdicha</l>
+                  <l>sola esa fue. Y ella dijo:</l>
+                  <l>padre mio de mi vida,</l>
+                  <l>no fui yo la desdichada,</l>
+                  <l>que quien tuvo la desdicha</l>
+                  <l>fue mi esposo, que casóse</l>
+                  <l>con una que no valia</l>
+                  <l>tanto como él, esa fué</l>
+                  <l>mi fortuna y su desdicha.</l>
+                  <l>Y para aliviar su pena,</l>
+                  <l>no obstante de que yo viva,</l>
+                  <l>permite el Papa otra esposa</l>
+                  <l>á mi esposo, porque sirva</l>
+                  <l>de paz y quietud á todos.</l>
+                  <l>Yo vengo con alegria</l>
+                  <l>à vuestra casa, señor,</l>
+                  <l>para volver á la vida</l>
+                  <l>como fueron mis principios,</l>
+                  <l>entre pobreza metida.</l>
+                  <l>Llevósela el padre á casa,</l>
+                  <l>y de humilde pastorcita</l>
+                  <l>tomó otra vez el vestido.</l>
+                  <l>Pasados algunos dias</l>
+                  <l>énvió el marqués Gualtero</l>
+                  <l>á la aldea referida</l>
+                  <l>un page, y dijo á Griselda,</l>
+                  <l>que esté en palacio á otro dia</l>
+                  <l>de mañana, porque importa.</l>
+                  <l>Viendo nueva tan precisa,</l>
+                  <l>dió el sí; y el mensagero</l>
+                  <l>para palacio volvia.</l>
+                  <l>Fué Griselda, y á su esposo,</l>
+                  <l>cuando presente la mira,</l>
+                  <l>con humildad cariñosa</l>
+                  <l>de esta suerte le decia:</l>
+                  <l>mándame esposo y señor,</l>
+                  <l>en que humillada te sirva</l>
+                  <l>que mi gusto es complacerte.</l>
+                  <l>Dijo Gualtero; pues mira,</l>
+                  <l>mañana viene mi esposa</l>
+                  <l>con toda su comitiva</l>
+                  <l>tú has de disponer las mesas</l>
+                  <l>para la boda lucida,</l>
+                  <l>Hízolo con humildad;</l>
+                  <l>quién del caso no se admira!</l>
+                  <l>A otro dia de mañana</l>
+                  <l>llegó la gran comitiva</l>
+                  <l>con la novia del marqués.</l>
+                  <l>Salió pues à recibirla</l>
+                  <l>aquel Job de la paciencia,</l>
+                  <l>y dióla la bienvenida</l>
+                  <l>como los demás, alegre.</l>
+                  <l>¡Oh pasmosa maravilla!</l>
+                  <l>Sentaronse à comer,</l>
+                  <l>y ella à la mesa servia,</l>
+                  <l>donde fueron asistidos</l>
+                  <l>con la ostentación debida.</l>
+                  <l>Y habiendo dado á Dios gracias</l>
+                  <l>dijo el marqués que quería</l>
+                  <l>hacer alli unas preguntas,</l>
+                  <l>que no dejasen sus sillas.</l>
+                  <l>Llamó entonces á Griselda</l>
+                  <l>y amoroso la decia;</l>
+                  <l>Griselda, qué te paroce</l>
+                  <l>de mi esposa? no es muy linda?</l>
+                  <l>no es agraciada? no es bella</l>
+                  <l>su perfeccion? y no es cifra</l>
+                  <l>de la hermosura, su cuerpo?</l>
+                  <l>Y ella entonces de rodillas</l>
+                  <l>dijo delante de todos:</l>
+                  <l>señor, juzgo que en mi vida</l>
+                  <l>no he visto ni espero ver</l>
+                  <l>ni el claro sol que registra</l>
+                  <l>con sus reflejos lucientes</l>
+                  <l>desde su esfera lucida</l>
+                  
+                  <pb n="8"/>
+                  
+                  <fw type="paginaNum">8</fw>
+                  
+                  <l>todo el contorno del mundo,</l>
+                  <l>juzgo que no tendrá vista</l>
+                  <l>otra copia semejante</l>
+                  <l>á mi señora, y permita</l>
+                  <l>su Magestad que os goceis</l>
+                  <l>en amable compañía</l>
+                  <l>muchos años y despues,</l>
+                  <l>al partir de aquesta vida,</l>
+                  <l>goceis en la eterna gloria</l>
+                  <l>las celestiales delicias.</l>
+                  <l>Viendo la humildad tan grande</l>
+                  <l>tan singular y crecida</l>
+                  <l>de su esposa levantóse,</l>
+                  <l>y abrazandola, decia,</l>
+                  <l>(vertiéndo sus ojos perlas,</l>
+                  <l>que por la mesa corrian:)</l>
+                  <l>de tu gran lealtad, Griselda,</l>
+                  <l>hartas cosas tengo vistas,</l>
+                  <l>y no deseo ver mas:</l>
+                  <l>tú eres sola la querida,</l>
+                  <l>tú eres sola la estimada,</l>
+                  <l>que la que presente miras,</l>
+                  <l>y la tienes por mi esposa,</l>
+                  <l>es nuestra querida hija,</l>
+                  <l>y nuestro hijo el mencebo</l>
+                  <l>que por cuñado tenias.</l>
+                  <l>Con que cuanto imaginabas</l>
+                  <l>tener perdido, este dia</l>
+                  <l>lo recuperastes junto.</l>
+                  <l>Vuelva en placer la fatiga,</l>
+                  <l>vuelva en gozo la tristeza:</l>
+                  <l>y ahora esposa querida,</l>
+                  <l>perdon te pido de haberte</l>
+                  <l>hecho tantas ignominias.</l>
+                  <l>Y sepan cuantos pensaban</l>
+                  <l>que á mi esposa pretendía</l>
+                  <l>arrojarla de mi casa,</l>
+                  <l>y aborrecida la habia,</l>
+                  <l>que es engañosa su idea,</l>
+                  <l>pues si fué una accion impía</l>
+                  <l>mostrar con ella despego;</l>
+                  <l>fue alarde con que queria</l>
+                  <l>acrisolar su constancia,</l>
+                  <l>y pues la tengo ya vista,</l>
+                  <l>perdon delante de todos</l>
+                  <l>pido á mi esposa ofendida.</l>
+                  <l>A mis hijos oculté</l>
+                  <l>privándome de su vista</l>
+                  <l>por ver su resignacion:</l>
+                  <l>y las amargas noticias</l>
+                  <l>para mi querida esposa,</l>
+                  <l>que por la córte corrian,</l>
+                  <l>yo las fingí, y nadie tiene</l>
+                  <l>de esto culpa, toda es mia.</l>
+                  <l>Ay cielos! no hallo palabras</l>
+                  <l>con que esplicar la alegría</l>
+                  <l>que todos los de la córte</l>
+                  <l>tuvieren en este dia.</l>
+                  <l>A los padres de Griselda</l>
+                  <l>llevaron con escesiva</l>
+                  <l>pompa y grandeza á palacio,</l>
+                  <l>donde hicieron esquisitas</l>
+                  <l>fiestas, saraos, comedias,</l>
+                  <l>y despues de concluida</l>
+                  <l>todos quedaron en paz,</l>
+                  <l>y en conformidad unida.</l>
+                  <l>Ea, señoras mugeres,</l>
+                  <l>pues os presento á la vista</l>
+                  <l>este espejó de Griselda,</l>
+                  <l>tomad de él ejemplar vida.</l>
+                  <l>No es decir que los hombres</l>
+                  <l>á fuerza de la codicia</l>
+                  <l>de ser dueños, se adelante</l>
+                  <l>á querer ser homicidas,</l>
+                  <l>que fue la muger primera</l>
+                  <l>formada de una costilla,</l>
+                  <l>para darnos á entender</l>
+                  <l>la inmensa sabiduría,</l>
+                  <l>qué la muger no es cabeza,</l>
+                  <l>sino amable compañia,</l>
+                  <l>pues de ser el corazón</l>
+                  <l>fue la materia escogida</l>
+                  <l>para formarla, y así</l>
+                  <l>debe ser muy escesiva</l>
+                  <l>la paz y union entre ambos,</l>
+                  <l>siempre tan de asiento fija,</l>
+                  <l>como la ley de Dios manda,</l>
+                  <l>y la iglesia nos lo avisa.</l>
+                  <l>Y aquí el perdon de sus faltas</l>
+                  <l>pide la pluma rendida.</l>
+                  
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858.
+                  <lb/>Imp: de D. J.M. Moreno. Calle Juan de la Cabra, núm 4.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

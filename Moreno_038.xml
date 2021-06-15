@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_038">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Desposorio de Cristo nuestro señor con la santísima cruz</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Desposorio de Cristo nuestro señor con la santisima cruz.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1865</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 42</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_038_1.xml">grabado_m_038_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Desposorios</term>
+               <term type="tipo_estrofa" target="XX527614.html">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_038_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">Número 42.</fw>
+               
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">DESPOSORIO</hi>
+                  <lb/><hi rend="negrita">DE CRISTO NUESTRO SEÑOR</hi>
+                  <lb/>CON
+                  <lb/>LA SANTISIMA CRUZ.
+               </head>
+               
+               <l rend="indent">Aquel amor soberano,</l>
+               <l>hijo de Dios verdadero,</l>
+               <l>legitimo, y descendiente</l>
+               <l>de la real casa del cielo.</l>
+               <l rend="indent">Por mostrarnos su amistad,</l>
+               <l>bajó á argüir á el pueblo,</l>
+               <l>á la mas noble ciudad,</l>
+               <l>que tiene el rey en su reino.</l>
+               <l rend="indent">La mas mistica y mas alta</l>
+               <l>de cuantas calienta el Febo</l>
+               <l>es la Real Jerusalen,</l>
+               <l>donde puso amor su asiento.</l>
+               <l rend="indent">Andándose paseando</l>
+               <l>por las calles de este pueblo,</l>
+               <l>se enamoró de una dama</l>
+               <l>hermosisima en estremo,</l>
+               
+               <pb n="2"/>
+               
+               <fw type="paginaNum">2</fw>
+               
+               <l rend="indent">Discreta, y de gran talle,</l>
+               <l>y de grande entendimiento,</l>
+               <l>á esta llaman Santa Cruz</l>
+               <l>de la cual tiembla el infierno,</l>
+               <l rend="indent">Dió amor en solicitarla</l>
+               <l>con músicas y paseos,</l>
+               <l>tanto, que vino á alcanzar</l>
+               <l>el sí de la dama, y luego</l>
+               <l rend="indent">Viendo la disposicion,</l>
+               <l>dió cuenta á su Padre Eterno.</l>
+               <l>porque imagina, que quiere,</l>
+               <l>hoy con este casamiento,</l>
+               <l rend="indent">Darle luz á las tinieblas,</l>
+               <l>de nuestros pecados feos,</l>
+               <l>y desatar las cadenas,</l>
+               <l>que causaron nuestros yerros,</l>
+               <l rend="indent">Y con gusto de su Padre,</l>
+               <l>y de su Madre lo mesmo,</l>
+               <l>se celebraron las bodas</l>
+               <l>entre la tierra, y el cielo.</l>
+               <l rend="indent">El casamiento ha de ser</l>
+               <l>rescate de muchos reos,</l>
+               <l>para hacer la informacion,</l>
+               <l>quiere su Espiritu Eterno,</l>
+               <l rend="indent">Que sea Santo Tomás</l>
+               <l>de Aquino escribano de ellos,</l>
+               <l>delante cuatro testigos,</l>
+               <l>para que declaren esto;</l>
+               <l rend="indent">Que sea el uno San Marcos,</l>
+               <l>San Lucas su compañero,</l>
+               <l>y San Juan Evangelista,</l>
+               <l>el último San Mateo:</l>
+               <l rend="indent">Y que estos cuatro declaren</l>
+               <l>la verdad del Evangelio, </l>
+               <l>y porque conozca el mundo</l>
+               <l>aqueste manso cordero.</l>
+               <l rend="indent">Por librarnos de la culpa,</l>
+               <l>á morir está dispuesto,</l>
+               <l>y porque le conozcamos</l>
+               <l>de morado le vistieron.</l>
+               <l rend="indent">Que significa el amor,</l>
+               <l>que les tiene á sus hijuelos,</l>
+               <l>y con el color de verde</l>
+               <l>la cruz divino madero.</l>
+               <l rend="indent">Signífica la esperanza,</l>
+               <l>que nos ha de dar el cielo:</l>
+               <l>echóle la bendicion</l>
+               <l>su sagrado Padre Eterno.</l>
+               <l rend="indent">El yugo le echó su madre</l>
+               <l>á el cual con abrazos tiernos</l>
+               <l>llegaron los convidados,</l>
+               <l>los mejores de este pueblo.</l>
+               <l rend="indent">Ofreciendo cada uno</l>
+               <l>lo que tenia en su pecho,</l>
+               <l>y por ser retrato suyo</l>
+               <l>San Juan presentó un cordero.</l>
+               <l rend="indent">San Pablo le dió la espada,</l>
+               <l>las llaves le dió San Pedro,</l>
+               <l>el aspa dió San Andrés,</l>
+               <l>San Bartolomé el pellejo.</l>
+               <l rend="indent">La sierra dió San Simon,</l>
+               <l>el leon dió San Mateo,</l>
+               <l>el toro le dió San Marcos,</l>
+               <l>y Santiago el romero.</l>
+               <l rend="indent">La leña Santo Tomás,</l>
+               <l>las parrillas San Lorenzo,</l>
+               <l>Santo Domingo el rosario,</l>
+               <l>la cruz presentó San Diego.</l>
+               <l rend="indent">La iglesia San Agustin,</l>
+               <l>la nave le dió San Telmo,</l>
+               <l>San Sebastian las saetas,</l>
+               <l>Buenaventura el silencio.</l>
+               <l rend="indent">Las llagas dió San Francisco,</l>
+               <l>San Luis corona y cetro,</l>
+               <l>el corazon Juan de Dios,</l>
+               <l>San Gerónimo su pecho.</l>
+               <l rend="indent">El montante San Elias</l>
+               <l>la profecía Eliséo,</l>
+               
+               <pb n="3"/>
+               
+               <fw type="paginaNum">3</fw>
+               
+               <l>la vara y flor dió José,</l>
+               <l>y San Miguel le dió el peso.</l>
+               <l rend="indent">El entierro le ofreció</l>
+               <l>el famoso Nicodemus,</l>
+               <l>fué porque anunciaba junto</l>
+               <l>el desposorio, y entierro</l>
+               <l rend="indent">Y tambien las tres Marias,</l>
+               <l>la visita le ofrecieron,</l>
+               <l>despues que ya desposado,</l>
+               <l>estuviera el Bien Supremo.</l>
+               <l rend="indent">Su preciosisima Madre</l>
+               <l>le prometió el sentimiento</l>
+               <l>con su Soledad sagrada</l>
+               <l>por aquel que es todo inmenso.</l>
+               <l rend="indent">Al Divino Redentor</l>
+               <l>le prometió el pueblo Hebreo</l>
+               <l>mas de cinco mil azotes</l>
+               <l>para apaciguar el pueblo.</l>
+               <l rend="indent">Una lanza le ofreció</l>
+               <l>al Verbo Divino un ciego;</l>
+               <l>pero le fué bien pagada</l>
+               <l>pues le dió la vista en premio</l>
+               <l rend="indent">El ir en su compañía</l>
+               <l>dos ladrones prometieron;</l>
+               <l>pero el uno de los dos</l>
+               <l>se levantó con el cielo.</l>
+               <l rend="indent">Tambien prometió su ayuda</l>
+               <l>el buen Simon Cirinéo,</l>
+               <l>que aunque mozo de trabajo,</l>
+               <l>halló descanso en hacerlo.</l>
+               <l rend="indent">Todos le ofrecen humildes,</l>
+               <l>y él de todos recibiendo,</l>
+               <l>el cordero, espada y llaves,</l>
+               <l>el aspa con el pellejo,</l>
+               <l rend="indent">La sierra con el leon,</l>
+               <l>el toro con el romero,</l>
+               <l>la leña con las parrillas,</l>
+               <l>rosario, y entendimiento.</l>
+               <l rend="indent">Llagas, la cruz, y la iglesia,</l>
+               <l>nave, saeta y silencio,</l>
+               <l>la piedra, cetro y corona,</l>
+               <l>el corazon con el pecho.</l>
+               <l rend="indent">Montante, las profecías,</l>
+               <l>vara, las flores, y el peso,</l>
+               <l>Nicodemus, tres Marías,</l>
+               <l>madre del Divino Verbo.</l>
+               <l rend="indent">Pueblo, regente y ladrones,</l>
+               <l>Longinos y Cirineos,</l>
+               <l>y el desposado sabía</l>
+               <l>de cada cual el acuerdo.</l>
+               <l rend="indent">A tan grande regocijo</l>
+               <l>vino acaso un mensajero,</l>
+               <l>que ya es la hora llegada</l>
+               <l>para cumplir el precepto:</l>
+               <l rend="indent">Pues que están todas las almas</l>
+               <l>en uno y otro hemisferio</l>
+               <l>aguardando á que llegase</l>
+               <l>en su santo advenimiento.</l>
+               <l rend="indent">Y sin detenerse un punto</l>
+               <l>enamorado y resuelto</l>
+               <l>le pide á su hermosa cruz</l>
+               <l>un abrazo, y ella abriendo,</l>
+               <l rend="indent">En sus brazos le recibe</l>
+               <l>con grandísimo contento,</l>
+               <l>fué la amistad de manera,</l>
+               <l>y el amor tan verdadero.</l>
+               <l rend="indent">Por dar á las almas vida,</l>
+               <l>en sus brazos quedó muerto;</l>
+               <l>Viérnes á las seis del dia</l>
+               <l>eclipsáronse los cielos,</l>
+               <l rend="indent">Turbáronse las estrellas,</l>
+               <l>pararon los elementos,</l>
+               <l>el sol se vistió de sangre,</l>
+               <l>y la luna de lo mesmo.</l>
+               <l rend="indent">El mar vertió ricas perlas,</l>
+               <l>que las tenia en su centro;</l>
+               <l>y el campo produjo flores</l>
+               <l>de amarillo, azul y negro.</l>
+               
+               <pb n="4"/>
+               
+               <fw type="paginaNum">4</fw>
+               
+               <l rend="indent">Y á tan grande regocijo</l>
+               <l>se nos volvió llanto tierno.</l>
+               <l>Dulce Jesus de mi vida,</l>
+               <l>Sacratísimo maestro,</l>
+               <l rend="indent">Si mis pecados tan grandes</l>
+               <l>son quien así os tienen puesto;</l>
+               <l>esa espada que os dió Pablo,</l>
+               <l>pase, Señor, mi cuello.</l>
+               <l rend="indent">Den vuelta á mi corazon</l>
+               <l>las llaves que os dió San Pedro,</l>
+               <l>porque dentro de él veais,</l>
+               <l>que os amo como á Dios mesmo.</l>
+               <l rend="indent">Si San Simon dió la sierra,</l>
+               <l>yo, Señor, os dí el tormento,</l>
+               <l>la sierra de tu justicia</l>
+               <l>venga, y yo seré el madero.</l>
+               <l rend="indent">Diré delante de vos,</l>
+               <l>Señor, veros no merezco,</l>
+               <l>y os vea apacible y manso.</l>
+               <l>como el leon de Mateo.</l>
+               <l rend="indent">Monorca de todo el mundo,</l>
+               <l>Rey de la tierra y el cielo,</l>
+               <l>perdonad mis graves culpas,</l>
+               <l>y mi grande atrevimiento.</l>
+               <l rend="indent">Que si compuse la letra,</l>
+               <l>fué porque vide en un templo</l>
+               <l>en una hermosa capilla</l>
+               <l>un retablo de lo mesmo:</l>
+               <l rend="indent">Y poniéndome á notar</l>
+               <l>las ternezas y lamentos</l>
+               <l>de aquel castísimo llanto</l>
+               <l>de la madre del consuelo.</l>
+               <l rend="indent">Sintieron dolor las piedras,</l>
+               <l>se entristecieron los cielos,</l>
+               <l>se obscureció el claro sol,</l>
+               <l>en ver al mejor sol muerto.</l>
+               <l rend="indent">Este santo desposorio,</l>
+               <l>firmemente contemplemos, </l>
+               <l>porque gozemos por él</l>
+               <l>de Jesus su santo reino.</l>
+               <trailer rend="negrita">Fin.</trailer>
+            </div>
+            
+            <div type="colofon">
+                  <p>
+                     <lb/>CARMONA.—1865.
+                     <lb/>Imprenta de D. José Maria Moreno, calle Madre de Dios número 1.
+                  </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

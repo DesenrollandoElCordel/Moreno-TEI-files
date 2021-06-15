@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_042">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Despedida de dos finos amantes</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Corrección del OCR</resp>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Despedida de dos finos amantes.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Despedida de dos finos amantes</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Respuesta de la dama</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados</decoNote>
+                     <decoNote>
+                        <list>
+                           <item corresp="grabado_m_042_1.xml">grabado_m_042_1</item>
+                           <item corresp="grabado_m_042_2.xml">grabado_m_042_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <acquisition>
+                     <p/>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto" target="XX5501105.html">Coplas</term>
+               <term type="tipo_estrofa" target="XX5501105.html">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_042_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">Núm. 47.</fw>
+               
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>DESPEDIDA
+                  <lb/>DE DOS FINOS
+                  <lb/>AMANTES.
+               </head>
+               
+               <div n="1" type="parte">
+                  <lg>
+                     <l rend="indent">En lo frondoso</l>
+                     <l>de un verde prado,</l>
+                     <l>á un desdichado</l>
+                     <l>amante vi,</l>
+                     <l>que lamentando</l>
+                     <l>su infeliz suerte</l>
+                     <l>llora su muerte</l>
+                     <l>y dice asi:</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Si yo lográra</l>
+                     <l>de ser querido</l>
+                     <l>siempre rendido</l>
+                     <l>fuera leal,</l>
+                     <l>y en dulce calma,</l>
+                     <l>te diera el alma,</l>
+                     <l>aunque quedára</l>
+                     <l>sin libertad.</l>
+                  </lg>
+                  
+                  <pb n="2"/>
+                  
+                  <lg>
+                     <l rend="indent">Sin ser querido</l>
+                     <l>yo si te quiero,</l>
+                     <l>yo por ti muero</l>
+                     <l>y te amo sin fin;</l>
+                     <l>solo en ti moro,</l>
+                     <l>todo te adoro</l>
+                     <l>y tú no quiere</l>
+                     <l>creerlo asi.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Yo llegué á verte</l>
+                     <l>en la ventana,</l>
+                     <l>hermosa dama</l>
+                     <l>me enamoré,</l>
+                     <l>con el consuelo</l>
+                     <l>de tu hermosura,</l>
+                     <l>bella pintura,</l>
+                     <l>yo te amaré.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Eres hermosa</l>
+                     <l>como una rosa,</l>
+                     <l>y eres mas bella</l>
+                     <l>que el mismo sol;</l>
+                     <l>esos tus ojos</l>
+                     <l>finos y hermosos,</l>
+                     <l>son dos luceros</l>
+                     <l>llenos de amor.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Hermosa niña,</l>
+                     <l>madama bella,</l>
+                     <l>luciente estrella,</l>
+                     <l>claro esplendor,</l>
+                     <l>ruégote dichosa,</l>
+                     <l>no seas ingrata</l>
+                     <l>á quien te trata</l>
+                     <l>con fino amor.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">No ha de haber celos</l>
+                     <l>á cada instante</l>
+                     <l>pues no hay aguante</l>
+                     <l>para sufrir,</l>
+                     <l>la impertinencia</l>
+                     <l>de una celosa</l>
+                     <l>que á cualquier cosa</l>
+                     <l>quiere reñir.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Si he de quererte</l>
+                     <l>si he de adorarte</l>
+                     <l>no has de emplearte</l>
+                     <l>con otro amor,</l>
+                     <l>yo he de ser solo</l>
+                     <l>y esto me oprime</l>
+                     <l>á que seas dueña</l>
+                     <l>de mi atencion.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Y tú al instante</l>
+                     <l>infiel, ingrata,</l>
+                     <l>me despreciaste</l>
+                     <l>mi lealtad,</l>
+                     <l>y asi por eso</l>
+                     <l>mi pecho puede</l>
+                     <l>formar escesos</l>
+                     <l>de falsedad.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Si yo muriese</l>
+                     <l>de tí apartado</l>
+                     <l>tendrás cuidado</l>
+                     <l>de no llorar,</l>
+                     <l>porque tus llantos</l>
+                     <l>no serán tantos</l>
+                     <l>que á mi me puedan</l>
+                     <l>resucitar.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Montes y prados,</l>
+                     <l>rios y fuentes</l>
+                     <l>son las corrientes</l>
+                     <l>de un fino amor,</l>
+                     <l>que por quererte</l>
+                     <l>firme y constante</l>
+                     <l>allá me tienes</l>
+                     <l>el corazón.</l>
+                  </lg>
+                  
+                  <pb n="3"/>
+                  
+                  <lg>
+                     <l rend="indent">Tocan la marcha</l>
+                     <l>mi pecho llora</l>
+                     <l>á Dios, señora,</l>
+                     <l>que me he de ir</l>
+                     <l>pedid al cielo</l>
+                     <l>me dé consuelo</l>
+                     <l>porque mi viaje</l>
+                     <l>sea feliz.</l>
+                  </lg>
+               </div>
+               
+               <div n="2" type="parte">
+                  <head rend="negrita" type="titulo_parte">
+                     <lb/>RESPUESTA
+                     <lb/>DE LA DAMA.
+                  </head>
+                  
+                  <lg>
+                     <l rend="indent">Junto á la márgen</l>
+                     <l>de un arroyuelo</l>
+                     <l>mi desconsuelo</l>
+                     <l>quise sentir,</l>
+                     <l>y á breve rato</l>
+                     <l>de mi tristeza</l>
+                     <l>á una belleza</l>
+                     <l>oí gemir.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Estuve atenta</l>
+                     <l>á su quebranto</l>
+                     <l>y entre su llanto</l>
+                     <l>vino á decir:</l>
+                     <l>ingrato dueño</l>
+                     <l>de mi alvedrio,</l>
+                     <l>el pecho mio</l>
+                     <l>muere por ti.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l>Por qué lamentas</l>
+                     <l>no ser querido</l>
+                     <l>si yo te adoro</l>
+                     <l>siendo infeliz?</l>
+                     <l>firme y constante</l>
+                     <l>siempre rendida,</l>
+                     <l>y tú no quieres</l>
+                     <l>creerlo asi.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l>Desde el momento</l>
+                     <l>que logré el verte</l>
+                     <l>mi fino pecho</l>
+                     <l>te adora fiel</l>
+                     <l>y ahora fomentas</l>
+                     <l>desconfianzas</l>
+                     <l>y me atormentas</l>
+                     <l>porque te amé.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Eres ingrato</l>
+                     <l>como querido,</l>
+                     <l>y no conoces</l>
+                     <l>mi fino amor:</l>
+                     <l>estos recelos</l>
+                     <l>tan sin motivo</l>
+                     <l>son los agentes</l>
+                     <l>de mi dolor.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Como es posible</l>
+                     <l>no ser celosa</l>
+                     <l>si á cualquier cosa</l>
+                     <l>temo el perder</l>
+                     <l>mi dueño amado,</l>
+                     <l>tan deseado</l>
+                     <l>á quien tan fina</l>
+                     <l>llegué á querer.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Siempre rendida,</l>
+                     <l>siempre gustosa</l>
+                     <l>no haré otra cosa</l>
+                     <l>que amarte fiel;</l>
+                  
+                  <pb n="4"/>
+                  
+                     <l>y en mi memoria</l>
+                     <l>tu siempre impreso:</l>
+                     <l>á otro diverso</l>
+                     <l>no admiraré.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Por Dios te pido</l>
+                     <l>te desengañes</l>
+                     <l>y que conozcas</l>
+                     <l>mi lealtad:</l>
+                     <l>porque en mi pecho</l>
+                     <l>jamás cupieron</l>
+                     <l>viles escesos</l>
+                     <l>de falsedad.</l>
+                  </lg>
+                  
+                  <lg rend="indent">
+                     <l>Si á mi noticia</l>
+                     <l>llega tu muerte</l>
+                     <l>es evidente</l>
+                     <l>que he de espirar,</l>
+                     <l>que no es posible</l>
+                     <l>que en mi constancia</l>
+                     <l>tan grande ansia</l>
+                     <l>pueda aguantar.</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Montes y prados,</l>
+                     <l>aves y flores,</l>
+                     <l>á mis amores</l>
+                     <l>finos oid:</l>
+                     <l>sed compañeros</l>
+                     <l>en mi terneza,</l>
+                     <l>y en mi tristeza</l>
+                     <l>podreis decir:</l>
+                  </lg>
+                  
+                  <lg>
+                     <l rend="indent">Oigo la marcha</l>
+                     <l>con sentimiento</l>
+                     <l>y mi tormento</l>
+                     <l>se aumenta mas,</l>
+                     <l>y será eterno</l>
+                     <l>mi desconsuelo,</l>
+                     <l>siendo mi alivio</l>
+                     <l>solo el llorar.</l>
+                  </lg>
+               </div>
+                  
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+            
+            <div>
+               <p>
+                  <lb/>CARMONA=1855.
+                  <lb/>Impren ta de D.José Maria Moreno, Descalzas, nùm. 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

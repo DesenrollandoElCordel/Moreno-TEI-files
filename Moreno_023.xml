@@ -1,0 +1,682 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_023">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Don Juan de la Tierra</title>
+            <respStmt>
+               <name xml:id="CMT">Cristina Martinez Torres</name>
+               <resp>Corrección del OCR</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Don Juan de la Tierra. Romance en que se da cuenta y declaran los hechos,
+                                                arrestos y valentías de éste héroe, natural de la villa de Illescas. Dáse
+                                                cuenta de la reñida pendencia que tuvo en defensa de su rey. Con
+                                                todo lo demas que verá el curioso lector.</title>
+                  <title type="titulo_breve">Don Juan de la Tierra.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_023_1.xml">grabado_m_023_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_022_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">(Nüm. 23)</fw>
+               
+               <head rend="negrita" type="primer_titulo">DON JUAN DE LA TIERRA.</head>
+               <head rend="cursiva" type="subtitulo">
+                  <lb/>ROMANCE EN QUE SE DA CUENTA Y DECLARAN LOS HECHOS,
+                  <lb/>arrestos y valentías de éste héroe, natural de la villa de Illescas. Dáse
+                  <lb/>cuenta de la reñida pendencia que tuvo en defensa de su rey. Con
+                  <lb/>todo lo demas que verá el curioso lector.
+               </head>
+               
+               <div n="1" type="parte">
+                  <head rend="negrita" type="titulo_parte"><choice><sic>PIRMERA</sic><corr>PRIMERA</corr></choice> PARTE.</head>
+                  
+                  <l>Corónense de laureles</l>
+                  <l>todos los guapos de España,</l>
+                  <l>al oir de un castellano</l>
+                  <l>triunfos, victorias y palmas,</l>
+                  <l>y los hombres mas valientes</l>
+                  <l>humildes le rindan parias</l>
+                  <l>á este héroe, á este tremendo</l>
+                  <l>segundo Marte en las armas.</l>
+                  <l>Nació en la villa de lllescas</l>
+                  <l>el gran don Juan de la Tierra,</l>
+                  <l>dando aumentos á la fama</l>
+                  <l>el gran don Juan de la Tierra,</l>
+                  <l>de esclarecida prosapia,</l>
+                  <l>aunque un mediano caudal</l>
+                  <l>á su padre le acompaña.</l>
+                  <l>Diéronle estudios y fué</l>
+                  <l>un Séneca en la elegancia</l>
+                  <l>y en manejar el acero</l>
+                  
+                  <pb n="2"/>
+                  
+                  <fw type="paginaNum">2</fw>
+                  
+                  <l>escedía á otro Carranza;</l>
+                  <l>aquí se cumple el refran,</l>
+                  <l>hombre pobre todo es trazas.</l>
+                  <l>Sabiendo estas facultades,</l>
+                  <l>á rienda suelta se andaba,</l>
+                  <l>riñendo algunas pendencias</l>
+                  <l>en defensa de las damas.</l>
+                  <l>Cumplídos los veinte años,</l>
+                  <l>edad florida y gallarda</l>
+                  <l>de sus juveniles dias</l>
+                  <l>y maduréz de su infancia,</l>
+                  <l>en el golfo de sus gustos,</l>
+                  <l>eterno consideraba</l>
+                  <l>á su padre, mas frustróse</l>
+                  <l>toda su vana esperanza;</l>
+                  <l>se transformaron sus gozos</l>
+                  <l>con el anhelo y la carga</l>
+                  <l>de su madre, y los cuidados</l>
+                  <l>de su padre le quedaban.</l>
+                  <l>Mas como la juventud</l>
+                  <l>en nada pone eficacia,</l>
+                  <l>arrestado dió la muerte</l>
+                  <l>á un mancebo de su patria.</l>
+                  <l>Ausentóse y fué á la Córte,</l>
+                  <l>tomó de soldado plaza</l>
+                  <l>en una bandera que</l>
+                  <l>para Nápoles marchaba,</l>
+                  <l>y con capa de soldado</l>
+                  <l>vivia muy á sus anchas.</l>
+                  <l>Salióse una oscura noche</l>
+                  <l>á buscar á cierta maja,</l>
+                  <l>y al pasar por una calle,</l>
+                  <l>oyó que hablaba una dama,</l>
+                  <l>porque el éco de la voz</l>
+                  <l>femenina se mostraba.</l>
+                  <l>Paróse é hizo el reparo</l>
+                  <l>que á un caballero le hablaba</l>
+                  <l>diciendo pòngase en fuga,</l>
+                  <l>mire que si no le matan;</l>
+                  <l>á cuyo tiempo llegaron</l>
+                  <l>ocho hombres con espadas,</l>
+                  <l>Juan de la Tierra que vió</l>
+                  <l>aquella alevosa infamia,</l>
+                  <l>al lado del caballero</l>
+                  <l>se puso con arrogancia.</l>
+                  <l>Portóse con tal vigor,</l>
+                  <l>que los cuatro en la estacada</l>
+                  <l>fueron á dar residencia</l>
+                  <l>á las celestes moradas,</l>
+                  <l>y los otros hacen fuga,</l>
+                  <l>que como el viento volaban.</l>
+                  <l>El caballero le dice;</l>
+                  <l>¿Quién eres? cómo te llamas?</l>
+                  <l>Juan de la Tierra es mi nombre,</l>
+                  <l>Illescas mi amada pátria.</l>
+                  <l>Asi le hablaba don Juan</l>
+                  <l>á la Magestad cesárea</l>
+                  <l>del rey don Felipe cuarto,</l>
+                  <l>el que al proviso le manda</l>
+                  <l>tomase algunos doblones,</l>
+                  <l>y tambien la real alhaja</l>
+                  <l>de un anillo de diamantes,</l>
+                  <l>y que á palacio se vaya</l>
+                  <l>luego que amanezca el dia,</l>
+                  <l>que será la mejor paga,</l>
+                  <l>que él era el mayordomo</l>
+                  <l>del rey, y mire le encarga,</l>
+                  <l>que no se olvide de ir;</l>
+                  <l>adios porque viene el alba.</l>
+                  <l>Don Juan colocó su anillo</l>
+                  <l>en una bolsa y lo guarda</l>
+                  <l>con cuidado dentro el pecho:</l>
+                  <l>( ¡oh, lo que el discurso alcanza! )</l>
+                  <l>En tanto que hubo dineros</l>
+                  <l>tuvo muchos camaradas.</l>
+                  <l>Llegó el dia de partida,</l>
+                  <l>á Nàpoles fue la marcha,</l>
+                  <l>llegaron á la ciudad,</l>
+                  <l>adonde el resto gastaba;</l>
+                  <l>viendo no tenia un cuarto</l>
+                  <l>y que el hambre le apretaba,</l>
+                  <l>acordóse de su anillo.</l>
+                  <l>A un platero se llegaba</l>
+                  <l>á ver si comprar queria </l>
+                  
+                  <pb n="3"/>
+                  
+                  <fw type="paginaNum">3</fw>
+                  
+                  <l>aquella fina tumbaga.</l>
+                  <l>El platero que la vió,</l>
+                  <l>le responde estas palabras:</l>
+                  <l>Señor príncipe, ¿qué es esto?</l>
+                  <l>este anillo lo declara</l>
+                  <l>que sois persona real;</l>
+                  <l>su Alteza no niegue nada. </l>
+                  <l>Don Juan reparóse y dijo: </l>
+                  <l>Soy hijo del rey de España,</l>
+                  <l>el grande Felipe cuarto.-</l>
+                  <l>por defender á una dama,</l>
+                  <l>le dí la muerte sangrienta</l>
+                  <l>á un hijo del Duque de Alba,</l>
+                  <l>y temiendo de mi padre</l>
+                  <l>el castigo que me aguarda,</l>
+                  <l>hasta verlo mas templado</l>
+                  <l>es fuerza que ausencia haga.</l>
+                  <l>De la Córte me salí</l>
+                  <l>sin que nadie sepa nada,</l>
+                  <l>y así si tú determinas</l>
+                  <l>el que se vea ensalzada</l>
+                  <l>tu casa, haciéndote noble,</l>
+                  <l>sobre esta real alhaja,</l>
+                  <l>para mi adorno y decencia</l>
+                  <l>dame monedas y galas,</l>
+                  <l>que si te portas conmigo,</l>
+                  <l>luego que pase á España</l>
+                  <l>promento te ampararé,</l>
+                  <l>juro por mi real palabra. </l>
+                  <l>El platero le responde;</l>
+                  <l>en esta ciudad se halla</l>
+                  <l>un amigo mio, que</l>
+                  <l>grande hacienda le acompaña;</l>
+                  <l>á este dicho le hablarè</l>
+                  <l>en lo que su alteza manda.</l>
+                  <l>Mucho puede el interes,</l>
+                  <l>su imperio todo lo arrastra.</l>
+                  <l>El maestro de platero,</l>
+                  <l>se partió con vigilancia</l>
+                  <l>á casa de su amigo;</l>
+                  <l>cuenta de todo le daba,</l>
+                  <l>como en su casa tenía</l>
+                  <l>á un gran príncipe de España,</l>
+                  <l>que era dueño de la prenda,</l>
+                  <l>que dice su forma y traza.</l>
+                  <l>Movido de la codicia,</l>
+                  <l>le pusieron una casa</l>
+                  <l>adornada con primor,</l>
+                  <l>le remiten dos criadas</l>
+                  <l>dos criados y carroza</l>
+                  <l>compuesta y aderezada. </l>
+                  <l>El les encarga el secreto,</l>
+                  <l>y es porque así le importaba. </l>
+                  <l>Se cruzaban los doblones,</l>
+                  <l>los diamantes y las galas.</l>
+                  <l>Sepámos que el mercader</l>
+                  <l>tiene por hija una dama</l>
+                  <l>hermosa á las maravillas,</l>
+                  <l>que es de todos envidiada. </l>
+                  <l>Llegó el dia de San Juan,</l>
+                  <l>en que previno en su casa</l>
+                  <l>diversidad de manjares</l>
+                  <l>para la funcion que aguarda.</l>
+                  <l>Fué á ver al príncipe, y dióle</l>
+                  <l>las vísperas celebradas</l>
+                  <l>de su santo, y le suplica</l>
+                  <l>que pase á honrarle su casa</l>
+                  <l>con su persona real,</l>
+                  <l>que humilde se lo rogaba.</l>
+                  <l>Amaneció el dia alegre,</l>
+                  <l>poner la carroza manda,</l>
+                  <l>y adornóse lo posible</l>
+                  <l>desde el cabello á la planta.</l>
+                  <l>Triunfante se paseó</l>
+                  <l>hasta llegar á la casa</l>
+                  <l>del mercader, y apeóse,</l>
+                  <l>alegres lo saludaban.</l>
+                  <l>El mercader á su hija</l>
+                  <l>la ha encerrado en una sala:</l>
+                  <l>obedecióle á su padre:</l>
+                  <l>mucho puede la crianza,</l>
+                  <l>pero mas puede el amor,</l>
+                  <l>que son muy grandes sus trazas.</l>
+                  <l>Pusieron en fin las mesas</l>
+                  
+                  <pb n="4"/>
+                  
+                  <fw type="paginaNum">4</fw>
+                  
+                  <l>con agradables viandas.</l>
+                  <l>A este tiempo la doncella,</l>
+                  <l>que se miraba encerrada,</l>
+                  <l>por el ojo de la llave</l>
+                  <l>al príncipe divisaba,</l>
+                  <l>y de su arte y su brio</l>
+                  <l>fué mariposa abrasada.</l>
+                  <l>Abajóse, y por la puerta</l>
+                  <l>una gatera se hallaba;</l>
+                  <l>con disimulo sacó</l>
+                  <l>una hermosa mano blanca,</l>
+                  <l>empezando á decifrar</l>
+                  <l>por letras sus esperanzas.</l>
+                  <l>Hizo Don Juan el reparo,</l>
+                  <l>que se hallaba cara á cara,</l>
+                  <l>finjiendo estar desmayado,</l>
+                  <l>ó que accidente le daba:</l>
+                  <l>todos se desatinaron,</l>
+                  <l>teniéndolo por desgracia.</l>
+                  <l>Volvió de aquel accidente</l>
+                  <l>donde en el lecho descansa;</l>
+                  <l>suspiros ecsala al viento,</l>
+                  <l>el uno al otro se alcanzan.</l>
+                  <l>Don Juan á su casa vino</l>
+                  <l>discurriendo forma y traza</l>
+                  <l>para probar la pechuga</l>
+                  <l>del áve napolitana.</l>
+                  <l>Del platero se valió</l>
+                  <l>diciéndole estas palabras:</l>
+                  <l>cien doblones te daré</l>
+                  <l>si me llevas esta carta</l>
+                  <l>á casa de tu compadre,</l>
+                  <l>y la entregas á una dama,</l>
+                  <l>á una deidad, no la he visto,</l>
+                  <l>solo sí su mano blanca;</l>
+                  <l>yo muero y no sé por quién,</l>
+                  <l>esta confusión me acaba,</l>
+                  <l>esta esperanza me alienta,</l>
+                  <l>este enigma me contrasta.</l>
+                  <l>¿Has visto por dicha ó suerte,</l>
+                  <l>esta que me roba el alma?</l>
+                  <l>El platero le responde:</l>
+                  <l>es una hermosa muchacha,</l>
+                  <l>hija del compadre mio;</l>
+                  <l>yo le llevaré la carta.</l>
+                  <l>Dejemos en este estado</l>
+                  <l>la relacion en sumaria,</l>
+                  <l>que Pedro Salvador dice,</l>
+                  <l>quedará finalizada</l>
+                  <l>del gran don Juan de la Tierra</l>
+                  <l>la historia tan celebrada.</l>
+                  
+                  <trailer><choice><sic>EIN</sic><corr>FIN</corr></choice> DE LA PRIMERA PARTE.</trailer>
+               </div>
+               
+               <div n="2" type="parte">
+                  <pb n="5"/>
+                  
+                  <head rend="negrita" type="titulo_parte">DON JUAN DE LA TIERRA.</head>
+                  <head type="subtitulo_parte">SEGUNDA PARTE.</head>
+                  
+                  <l rend="indent">Tomó la pluma don Juan,</l>
+                  <l>y de esta suerte notaba:</l>
+                  <l>« Desde el instante que ví</l>
+                  <l>esa hermosa mano blanca</l>
+                  <l>quedé confuso, señora,</l>
+                  <l>tan rendido y tan sin alma, </l>
+                  <l>que aunque vivo no estoy vivo</l>
+                  <l>porque no vivo en tu gracía,</l>
+                  <l>por lo cual yo te suplico,</l>
+                  <l>si merezco dicha tanta</l>
+                  <l>de ver esos dos luceros,</l>
+                  <l>ó esa gracia estremada;</l>
+                  <l>tendrás por esclavo á un hombre</l>
+                  <l>que es gran príncipe de España,</l>
+                  <l>y al recibir el favor,</l>
+                  <l>te daré el premio y la paga</l>
+                  <l>de mi real mano y serás</l>
+                  <l>la infanta mas celebrada,</l>
+                  <l>y en tu escudo pondrás</l>
+                  <l>Castillo y Leon por armas.</l>
+                  <l>Guárdete el Cielo, Señora,</l>
+                  <l>y cumple mis esperanzas. »</l>
+                  <l>El portador se partiò,</l>
+                  <l>dió en mano propia la carta,</l>
+                  <l>rompiò la nema y leyó,</l>
+                  <l>y la respuesta notada </l>
+                  
+                  <pb n="6"/>
+                  
+                  <fw type="paginaNum">6</fw>
+                  
+                  <l>de la dama en esta forma</l>
+                  <l>formalizó sin tardanza. </l>
+                  <l>« El referir á su alteza</l>
+                  <l>soy mariposa abrazada,</l>
+                  <l>por vida vuestra, que es</l>
+                  <l>la verdad verificada. </l>
+                  <l>La puerta de mi jardin</l>
+                  <l>tendreis esta noche franca;</l>
+                  <l>el portador guiará,</l>
+                  <l>porque no ignora la entrada. »</l>
+                  <l>Recibió el tal contenido,</l>
+                  <l>fue generosa la paga;</l>
+                  <l>y aquella prócsrma noche</l>
+                  <l>de ropa corta se arma,</l>
+                  <l>con su calada montera</l>
+                  <l>y con su capa de grana,</l>
+                  <l>tambien su par de pistolas,</l>
+                  <l>para su defensa guarda. </l>
+                  <l>Tocó del relox las once,</l>
+                  <l>y á la diligencia marcha.</l>
+                  <l>Entró don Juan, y quedó</l>
+                  <l>el otro de retaguardia.</l>
+                  <l>Pasados los cumplimientos</l>
+                  <l>que entre los amantes pasan,</l>
+                  <l>disfrutó tiernas caricias</l>
+                  <l>en alfombras de esmeraldas.</l>
+                  <l>Pasados ya los seis meses,</l>
+                  <l>cuenta à su amante le daba,</l>
+                  <l>suplicándole amorosa</l>
+                  <l>que se vinieran á España</l>
+                  <l>que se considera en cinta</l>
+                  <l>y se siente embarazada.</l>
+                  <l>El la respondió diciendo</l>
+                  <l>que algo atrasado se halla,</l>
+                  <l>que á su padre le robase</l>
+                  <l>para el viaje que aguarda.</l>
+                  <l>A su padre le quitó</l>
+                  <l>cantidad de oro y plata,</l>
+                  <l>y disponiendo el viage.</l>
+                  <l>que el dinero mucho alcanza,</l>
+                  <l>una tenebrosa noche,</l>
+                  <l>hasta la playa romana</l>
+                  <l>un bergantin les condujo,</l>
+                  <l>á donde hizieron parada;</l>
+                  <l>hasta que yendo en camino,</l>
+                  <l>muy claramente le habla,</l>
+                  <l>diciendo que es labrador,</l>
+                  <l>y no príncipe de España,</l>
+                  <l>que el real anlllo que vió,</l>
+                  <l>se lo dieron y esto basta. </l>
+                  <l>En fin, se la trajo á Illescas,</l>
+                  <l>á donde se desposaban,</l>
+                  <l>y con el caudal compraron</l>
+                  <l>gran nùmero de labranza.</l>
+                  <l>Dejemos á los amantes</l>
+                  <l>con gran reposo en su casa.</l>
+                  <l>Viendo pues el mercader,</l>
+                  <l>que la hija le faltaba</l>
+                  <l>y el príncipe no parece,</l>
+                  <l>previno pasar á España. </l>
+                  <l>En breve tiempo en la Córte</l>
+                  <l>estuvo, y haciendo árduas</l>
+                  <l>diligencias con secreto,</l>
+                  <l>á todos les preguntaba</l>
+                  <l>por el príncipe don Juan,</l>
+                  <l>hijo del cuarto monarca. </l>
+                  <l>Le dicen pase á palacio,</l>
+                  <l>que allí darán esperanzas. </l>
+                  <l>Entró en fin, y pregutanndo</l>
+                  <l>por la Magestad cesárea,</l>
+                  <l>le dan el pase y subió. </l>
+                  <l>Hizo las acostumbradas</l>
+                  <l>cortesías que se deben,</l>
+                  <l>diciéndole estas palabras:</l>
+                  <l>de Nápoles he venido</l>
+                  <l>solo á besar vuestras plantas,</l>
+                  <l>y á suplicaros, Señor,</l>
+                  <l>el que justicia se haga</l>
+                  <l>con quien me robó mi hija,</l>
+                  <l>y se la ha traido á España. </l>
+                  <l>A Nápoles fué, Señor,</l>
+                  <l>un hombre que se llamaba</l>
+                  <l>Juan de la Tierra, y me dió</l>
+                  <l>aquesta real alhaja, </l>
+                  
+                  <pb n="7"/>
+                  
+                  <fw type="paginaNum">7</fw>
+                  
+                  <l>y dijo que era hijo vuestro,</l>
+                  <l>y en la dicha confianza,</l>
+                  <l>para su adorno y decencia</l>
+                  <l>le di monedas y galas, </l>
+                  <l>No siento, Señor, la hacienda:</l>
+                  <l>solo siento mi hija amada. </l>
+                  <l>El gran Felipe acordóse</l>
+                  <l>de aquella noche pasada,</l>
+                  <l>cuando al soldado le dió</l>
+                  <l>el anillo, y se separa</l>
+                  <l>diciéndole, que volviese</l>
+                  <l>al cabo de dos semanas. </l>
+                  <l>El gran rey mandó llamar</l>
+                  <l>á un capitan de sus guardias,</l>
+                  <l>diciendo pasase á Illescas,</l>
+                  <l>y diligencias se hagan</l>
+                  <l>de un tal don Juan de la Tierra,</l>
+                  <l>y que á palacio lo traigan. </l>
+                  <l>Fué el capitan, y lo halló,</l>
+                  <l>vino con su esposa amada. </l>
+                  <l>Ante el rey los dos pusieron</l>
+                  <l>á lo que dispone, y manda</l>
+                  <l>que todos se retirasen;</l>
+                  <l>con el soldado quedaba. </l>
+                  <l>Juróle por su corona,</l>
+                  <l>si la verdad no declara,</l>
+                  <l>que tiene de castigarlo;</l>
+                  <l>que quién le dió aquella alhaja</l>
+                  <l>de aquel anillo real? </l>
+                  <l>A lo que don Juan le habla,</l>
+                  <l>diciéndole: paseando</l>
+                  <l>una cierta noche anbaba</l>
+                  <l>por la Córte cuando oí</l>
+                  <l>una voz muy delicada</l>
+                  <l>de una dama que decia</l>
+                  <l>huya, huya; que lo matan. </l>
+                  <l>Vide á cierto caballero</l>
+                  <l>hecho un Marte en la campaña,</l>
+                  <l>que de ocho se defendía</l>
+                  <l>con española arrogaucia. </l>
+                  <l>A su lado me planté,</l>
+                  <l>arranqué, señor, la espada,</l>
+                  <l>quitándole algunas puntas, </l>
+                  <l>porque grandes estocadas</l>
+                  <l>le tiraban los traidores:</l>
+                  <l>mas fue mi fortuna tanta,</l>
+                  <l>que al caballero ni á mí</l>
+                  <l>se nos agravíase nada;</l>
+                  <l>y agradecido, señor,</l>
+                  <l>el referido me daba</l>
+                  <l>unos doblones y dióme</l>
+                  <l>ese anillo que se enlaza</l>
+                  <l>en vestra mano real. </l>
+                  <l>Me dijo á palacio vaya,</l>
+                  <l>que él era el mayordomo,</l>
+                  <l>y mire no haya falta. </l>
+                  <l>Nunca me acordé de ir;</l>
+                  <l>seguí á Nápoles la marcha,</l>
+                  <l>señor en mi regimiento,</l>
+                  <l>donde he hallado dicha tanta,</l>
+                  <l>que con decir yo que era</l>
+                  <l>hijo vuestro (heróica hazaña)</l>
+                  <l>y que tambien dí la muerte</l>
+                  <l>á un hijo del Duque de Alba,</l>
+                  <l>engañando á un mercader,</l>
+                  <l>saquéle su hija amada. </l>
+                  <l>Paséme á España, señor,</l>
+                  <l>con hacienda muy sobrada,</l>
+                  <l>recibí del matrimonio</l>
+                  <l>las ceremonias sagradas. </l>
+                  <l>Aquí teneis mi cabeza,</l>
+                  <l>y la verdad declarada.</l>
+                  <l>Maravillado quedó</l>
+                  <l>el rey viendo la sumaria</l>
+                  <l>del término de su vida,</l>
+                  <l>y al mayordomo le manda</l>
+                  <l>que lo mantenga en palacio,</l>
+                  <l>Así estuvo dos semanas</l>
+                  <l>hasta que el napolitano</l>
+                  <l>la vuelta á palacio daba. </l>
+                  <l>El rey le mandó que aguarde</l>
+                  <l>hasta segunda ordenanza.</l>
+                  <l>Mandó subiese don Juan</l>
+                  <l>y venga su esposa, y traigan </l>
+                  
+                  <pb n="8"/>
+                  
+                  <fw type="paginaNum">8</fw>
+                  
+                  <l>una gala de la reina</l>
+                  <l>para que fuese adornada. </l>
+                  <l>Al soldado puso el rey</l>
+                  <l>Toison y llave dorada,</l>
+                  <l>y un baston de general,</l>
+                  <l>y que se sentasen manda.</l>
+                  <l>Cubrió con unas cortinas</l>
+                  <l>de tela muy realzada</l>
+                  <l>sus personas y dispuso</l>
+                  <l>que al napolitano traigan. </l>
+                  <l>El rey dice: ea, amigo,</l>
+                  <l>ya el pájaro está en la jáula;</l>
+                  <l>ya está preso el agresor,</l>
+                  <l>la sentencia ha de ser dada</l>
+                  <l>entre los dos ¿qué os parece?</l>
+                  <l>¿ha de ser hoy ó mañana?</l>
+                  <l>Respondió el napolitano:</l>
+                  <l>si á mi gusto ha de ser dada,</l>
+                  <l>como parezca mi hija,</l>
+                  <l>que no se le agravie en nada.</l>
+                  <l>¿Qué, á tu enemigo perdonas?</l>
+                  <l>Sí, Señor, porque me agrada</l>
+                  <l>aquel arte y compostura,</l>
+                  <l>y disposicion gallarda. </l>
+                  <l>Corrió el rey las dos cortinas,</l>
+                  <l>y de esta suerte le habla:</l>
+                  <l>aquí está el grande don Juan,</l>
+                  <l>mira aquí tu hija amada.</l>
+                  <l>Levanta, gallardo jóven,</l>
+                  <l>tres veces grande de España</l>
+                  <l>caballero del Toison,</l>
+                  <l>señor de llave dorada;</l>
+                  <l>fiel defensor de la vida</l>
+                  <l>del gran rey de las Españas.</l>
+                  <l>Levanta, señor de Illescas</l>
+                  <l>y de todas sus comarcas. </l>
+                  <l>Ea, buen napolitano,</l>
+                  <l>ya la sentencia está dada; </l>
+                  <l>idos en paz, y de Himenéo</l>
+                  <l>goceis delicias sobradas.</l>
+                  <l>Besaron al rey la mano</l>
+                  <l>por mercedes tan colmadas.</l>
+                  <l>Los títulos le entregaron</l>
+                  <l>en que hoy autorizada</l>
+                  <l>se vé la: casa del dicho,</l>
+                  <l>en Illescas la nombrada.</l>
+                  <l>Gozoso el napolitano</l>
+                  <l>se ausentó para su pátria,</l>
+                  <l>á vender toda su hacienda,</l>
+                  <l>y luego venirse á España. </l>
+                  <l>Y Pedro Salvador pide</l>
+                  <l>al áuditorio las faltas</l>
+                  <l>perdone, si es que las hay</l>
+                  <l>en la historia declarada.</l>
+               </div>
+               
+               <trailer>FIN.</trailer>
+            </div>
+            
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA.=1859. 
+                  <lb/>Imprenta de D. José M. Moreno, calle Juan de la Cabra.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

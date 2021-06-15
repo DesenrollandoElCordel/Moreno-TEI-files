@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_037">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Chiste gracioso de un médico y un arriero</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Chiste gracioso de un medico y un arriero.
+                                                Cantado con la tonada del coronel.
+                                                Van puesto al fin unos trovos nuevos.</title>
+                  <title type="titulo_breve">Chiste gracioso de un médico y un arriero</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection><idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 41</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Chiste</item>
+                        <item>Trovos</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Chiste gracioso de un médico y un arriero</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Trovos que se cantan en la tonada de la Jota</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_037_1.xml">grabado_m_037_1</item>
+                           <item corresp="grabado_m_037_2.xml">grabado_m_037_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5418613.html" type="tipo_texto">Chistes</term>
+               <term type="tipo_estrofa">Trovos</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-26" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_037_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">Número 41.</fw>
+               
+               <head rend="negrita" type="primer_titulo">
+                  <l>CHISTE GRACIOSO</l>
+                  <l>DE UN MEDICO Y UN ARRIERO.</l>
+               </head>
+               <head type="subtitulo">
+                  <l>CANTADO CON LA TONADA DEL CORONEL.</l>
+                  <l>VAN PUESTO AL FIN UNOS TROVOS NUEVOS.</l>
+               </head>
+               
+               <l rend="indent">A todos mis oyentes</l>
+               <l>contarles quiero</l>
+               <l>lo que pasó en Montilla</l>
+               <l>con un arriero:</l>
+               <l>este era casado</l>
+               <l>con Juanita, la diosa del prado,</l>
+               <l>que asi se llamaba,</l>
+               <l>por hermosa el doctor la rondaba</l>
+               <l>de dia y de noche,</l>
+               <l>con escusa de comprarle un coche</l>
+               <l>que Juana tenia,</l>
+               <l>que heredó de su señora tia:</l>
+               <l>le ofreció dinero,</l>
+               <l>y Juanita le dijo: no quiero;</l>
+               <l>en vano porfia.</l>
+               <l>Ya lo sé que la dicha no es mia:</l>
+               <l>soy tan desgraciado</l>
+               <l>que creo que en tu coche</l>
+               <l>no iré montado.</l>
+               <l rend="indent">Le contesta Juanita,</l>
+               <l>que ya sabia</l>
+               <l>que aquel era su dote</l>
+               <l>y no le vendia;</l>
+               <l>porque mi marido,</l>
+               <l>cuantas veces me habrá repetido</l>
+               <l>de dia y de noche;</l>
+               <l>¡ay Juanita no vendas el coche</l>
+               <l>por ningun dinero,</l>
+               <l>para que otro lo moute,</l>
+               <l>que yo soy primero.</l>
+               <l rend="indent">El médico pasaba</l>
+               <l>su ardiente estio</l>
+               <l>de amor, y no lograba</l>
+               <l>sino un desvio;</l>
+               
+               <pb n="2"/>
+               
+               <l>hasta que resuelto</l>
+               <l>dijo á Juana, ¿Me vendes tu huerto?</l>
+               <l>y ella la responde,</l>
+               <l>esta es otra como la del coche,</l>
+               <l>mas yo no me quejo; </l>
+               <l>ni por otro á mi marido dejo;</l>
+               <l>estoy muy contenta;</l>
+               <l>mas si él llaga á caer en la cuenta</l>
+               <l>que habla usted conmigo,</l>
+               <l>saldrá el médico á palos</l>
+               <l>por el postigo.</l>
+               <l rend="indent">El médico quejoso</l>
+               <l>de aquella audiencia</l>
+               <l>dijo; no me conformo,</l>
+               <l>ni puedo, ni quiero</l>
+               <l>olvidar tu cuerpo zandunguero:</l>
+               <l>por tí estoy perdido,</l>
+               <l>¡cuanto diera por ser tu marido!</l>
+               <l>y ya que no es posible, </l>
+               <l>para amarte bien mio soy libre;</l>
+               <l>te doy mil reales</l>
+               <l>si me otorgas, Juanita,</l>
+               <l>lo que tu sabes.</l>
+               <l rend="indent">Juanita que deseaba</l>
+               <l>salir del paso,</l>
+               <l>le contó a su marido</l>
+               <l>todo el fracaso;</l>
+               <l>y el muy sosegado,</l>
+               <l>dijo; calla no tengas cuydado,</l>
+               <l>cógele el dinero,</l>
+               <l>y escarmienta á ese gran majadero,</l>
+               <l>dile que mañana </l>
+               <l>me voy fuera por una semana:</l>
+               <l>será venir por lana, é ir trasquilado,</l>
+               <l rend="indent">Obedeció Juanita</l>
+               <l>á su marido,</l>
+               <l>sin salir del mandato</l>
+               <l>ya referido.</l>
+               <l>Mientras el arriero</l>
+               <l>con sus mulas se salió del pueblo,</l>
+               <l>como quien se iba</l>
+               <l>á viajar para toda su vida,</l>
+               <l>el médico estaba</l>
+               <l>esperando que Juan se marchara</l>
+               <l>para lograr su intento,</l>
+               <l>fué á buscarla sin perder momento</l>
+               <l>y aunque estaba en cama, </l>
+               <l>sin embargo le dijo la dama,</l>
+               <l>traiga usted el dinero</l>
+               <l>esta noche, á cenar le espero</l>
+               <l>y estarémos juntos</l>
+               <l>porque yo tengo miedo,</l>
+               <l>á los difuntos.</l>
+               <l>El médico prorumpe</l>
+               <l>blanca azucena,</l>
+               <l>ya hace tiempo que andaba</l>
+               <l>tras de tu cena,</l>
+               <l>vendré á acompañarte, </l>
+               <l>y pondré mi esmero en obsequiarte,</l>
+               <l>pues por complacerte</l>
+               <l>sufriria mil veces la muerte,</l>
+               <l>dijo enamorado,</l>
+               <l>y á ese tiempo cayó desmayado.</l>
+               <l>Juana le levanta;</l>
+               <l>con su voz de cirena lo encanta,</l>
+               <l>y le reanima,</l>
+               <l>y el doctor poco á poco se arrima,</l>
+               <l>y ella dijo tato,</l>
+               <l>caballero eso no es el trato;</l>
+               <l>no hay que propasarse,</l>
+               <l>mire usted que puede sofocarse,</l>
+               <l>y no nesecita</l>
+               <l>sabiendo que esta noche estoy solita,</l>
+               <l rend="indent">Se fué el médico alegre</l>
+               <l>y esperanzado,</l>
+               <l>y no tuvo en su vida dia mas largo;</l>
+               <l>las horas contaba</l>
+               <l>y á menudo del sol se quejaba,</l>
+               <l>porque no corria</l>
+               <l>tan aprisa como él queria</l>
+               <l>llegada la noche</l>
+               <l>por las calles iba troche y moche,</l>
+               <l>llamando á Juanita;</l>
+               <l>el doctor no hizo falta á la cita</l>
+               <l>no llamó á la puerta,</l>
+               <l>porque ya estaba habierta.</l>
+               <l>Entró muy gozoso</l>
+               <l>á su lado se sentó amoroso,</l>
+               <l>muy franco y sencillo</l>
+               <l>á la dama presento el bolsillo:</l>
+               <l>ella lo asegura</l>
+               <l>y en su seno le dió sepultura:</l>
+               <l>y estando cenando,</l>
+               <l>este aquí á la puerta llamando;</l>
+               <l>decia el arriero,</l>
+               <l>abre, chica, pronto que me muero,</l>
+               
+               <pb n="3"/>
+               
+               <l>y Juana que opina</l>
+               <l>esconderle en el arca de harina,</l>
+               <l>y el doctor conviene,</l>
+               <l>y Juanita ya no se detiene;</l>
+               <l>mi esposo es quien llama,</l>
+               <l>ella le abre, y su Juan</l>
+               <l>se fué á la cama.</l>
+               <l rend="indent">Se quejaba el arriero</l>
+               <l>y ella con calma</l>
+               <l>le decia: ¿qué tienes</l>
+               <l>Juan de mi alma?</l>
+               <l>Ves, llama al doctor</l>
+               <l>que me quite este acerbo dolor.</l>
+               <l>Juana bien sabia</l>
+               <l>que en su casa no le encontraria;</l>
+               <l>pero la taimada</l>
+               <l>fue, y volvio diciendo que no estaba</l>
+               <l>¿Qué hacemos ahora?</l>
+               <l>El no está, que venga la doctora</l>
+               <l>que ya habra aprendido</l>
+               <l>á curar de ver á su marido.</l>
+               <l>Se fué diligente,</l>
+               <l>y la médica vino</l>
+               <l>y pulsó al pasiente.</l>
+               <l>La doctora enterada</l>
+               <l>de su compleccion,</l>
+               <l>le propinó el jarabe de estomaticón,</l>
+               <l>por ser muy probado;</l>
+               <l>ve por él que yo tendré cuidado;</l>
+               <l>se solió Juanita.</l>
+               <l>Juan que vió á la doctora solicita,</l>
+               <l>fué y le contó un cuento</l>
+               <l>sobre el arca, y logrado su intento,</l>
+               <l>Juan quedó aliviado,</l>
+               <l>y el doctor por su culpa afrentado;</l>
+               <l>el lance no es flojo,</l>
+               <l>porque hay para volverse loco,</l>
+               <l>para no amigarse,</l>
+               <l>y motivos para no casarse,</l>
+               <l>ni hablar con mugeres:</l>
+               <l>todo aquel que en pos de placeres</l>
+               <l>no mira su afrenta</l>
+               <l>llevará si es casado la cornamenta,</l>
+               <l>Entró Juanita, y dijo:</l>
+               <l>toma el jarabe; </l>
+               <l>no es menester bien mio;</l>
+               <l>Dios se lo pague</l>
+               <l>aqui á la señora:</l>
+               <l>que ha acabado de curarme ahora:</l>
+               <l>y estoy convencido</l>
+               <l>que á curar le gana á su marido;</l>
+               <l>yo ya lo obeservaba</l>
+               <l>en la calle cuando te curaba</l>
+               <l>veas de pagarle;</l>
+               <l>el favor que me ha hecho</l>
+               <l>es muy grande.</l>
+               <l>Y aun que esté el doctor,</l>
+               <l>si me vuelve atacar el dolor</l>
+               <l>vendrá á visitarme,</l>
+               <l>y tendrá la bondad de curarme:</l>
+               <l>entonees, Juanita,</l>
+               <l>echó mano y le dió media oncita,</l>
+               <l>se fué á acompañarla,</l>
+               <l>y á Juan le dió la idea</l>
+               <l>de quemar él arca.</l>
+               <l>El arriero decia, </l>
+               <l>haciendo el bobó,</l>
+               <l>esta arca no me sirve</l>
+               <l>mas que de estorbo.</l>
+               <l>Le pegaré fuego,</l>
+               <l>y si acaso hay algun raton dentro</l>
+               <l>por comer harina, </l>
+               <l>pagará tambien su golosina.</l>
+               <l>El doctor caliente</l>
+               <l>chámuscado salió de repente;</l>
+               <l>revento la traca,</l>
+               <l>y Juanillo echó mano á la estaca,</l>
+               <l>sin valerle Juana,</l>
+               <l>al doctor le zurró la badana;</l>
+               <l>cuanto mas chillaba,</l>
+               <l>el arriero mejor le zurraba;</l>
+               <l>cuanto mas huía,</l>
+               <l>con mas alma Juan le sacudia:</l>
+               <l>hasta una vecina</l>
+               <l>le tiraba agua por encima.</l>
+               <l>Se salio engachado,</l>
+               <l>sin bolsillo y bien escarmentado,</l>
+               <l>se metió en su casa,</l>
+               <l>la muger le preguntó: ¿qué te pasa?</l>
+               <l>¿tu tambien lo sabes?</l>
+               <l>no hay motivo para que te alabes.</l>
+               <l>Cuando vino Juana</l>
+               <l>le contaron toda la jarana</l>
+               <l>y Juan muy contento</l>
+               <l>convidó la doctora</l>
+               <l>por fin del cuento,</l>
+            </div>
+            
+            <div>
+               <pb n="4"/>
+               
+               <head rend="negrita" type="primer_titulo">TROVOS</head>
+               <head rend="cursiva" type="subtitulo">Que se cantan en la tonada de la dota.</head>
+               
+               <lg rend="cursiva">
+                  <l rend="indent">El demonio de mi amo,</l>
+                  <l>Parece un poco birote</l>
+                  <l>Que ha plantado, un árbol seco,</l>
+                  <l>Y ahora quiere que brote.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Por pedirle lo que gano,</l>
+                  <l>Anteayer tarde en la huerta,</l>
+                  <l>De poco nos agarramos,</l>
+                  <l>Y no tiene buenas vueltas</l>
+                  <l rend="cursiva">El demonio de mi amo.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Es tan duro de cogote</l>
+                  <l>En inclinar la cabeza,</l>
+                  <l>Se emboza con su capote:</l>
+                  <l>Como es teniente de orejas,</l>
+                  <l rend="cursiva">Parece un poco birote.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">En un ribazo hay un hueco, </l>
+                  <l>Que se ha caido un peñon,</l>
+                  <l>Y me hace llevar estiercol,</l>
+                  <l>Y como es tan cabezon,</l>
+                  <l rend="cursiva">Ha plantado un árbol seco.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">A yer tuvo un alboroque</l>
+                  <l>En una grande funcion,</l>
+                  <l>El grandisimo birote;</l>
+                  <l>El arbol ya se seco,</l>
+                  <l rend="cursiva">Y ahora quiere que brote.</l>
+               </lg>
+               
+               <lg rend="cursiva">
+                  <l rend="indent">A un jóven y á un viejo quiero,</l>
+                  <l>Aunque con distinta ley: </l>
+                  <l>Quiero al joven por su cara,</l>
+                  <l>Y al viejo por la del Rey. </l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Es mi caracter grosero,</l>
+                  <l>Y no puedo remediar,</l>
+                  <l>Y mi genio placentero;</l>
+                  <l>Y para especulizar,</l>
+                  <l rend="cursiva">A un jóven y á un viejo quiero.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Soy mas tenaz que Muley, </l>
+                  <l>Y voy siguiendo mi intento,</l>
+                  <l>Tengo mas calma que un buey, </l>
+                  <l>Y á los dos doy cumplimiento,</l>
+                  <l rend="cursiva">Aun que con distinta ley.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Es en el mundo muy rara</l>
+                  <l>La que suele despreciar,</l>
+                  <l>Con el interés soy clara,</l>
+                  <l>Pero en tocando al casar,</l>
+                  <l rend="cursiva">Quiero al joven por su cara.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Aunque me pretenda un Rey,</l>
+                  <l>Con su opulencia y su oro,</l>
+                  <l>No he de faltar á mi ley;</l>
+                  <l>Por su cara al mozo adoro,</l>
+                  <l rend="cursiva">Y al viejo por la del Rey. </l>
+               </lg>
+               
+               <lg rend="cursiva">
+                  <l rend="indent">La libertad es un don</l>
+                  <l>Que hereda el hombre al nacer;</l>
+                  <l>La defiende la razon,</l>
+                  <l>Y la combate el poder.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Cuando hay buena fé y union,</l>
+                  <l>Se respeta la igualdad</l>
+                  <l>Se reprime la ambicion</l>
+                  <l>Y se acata laverdad,</l>
+                  <l rend="cursiva">La libertad es un don.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Unos la suelen perder</l>
+                  <l>Porque en robar no hay enmienda,</l>
+                  <l>Otros por una muger</l>
+                  <l>Les quitan la mejor prenda</l>
+                  <l rend="cursiva">Que hereda el hombre al nacer,</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Traspasan un corazon</l>
+                  <l>Los tiranos con sus tretas;</l>
+                  <l>Se arman de la inquisicion,</l>
+                  <l>A mas de las bayonetas</l>
+                  <l rend="cursiva">La defiende la razon.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Absolutos quieren ser</l>
+                  <l>Los reyes para mandar;</l>
+                  <l>No quiere el pueblo ceder</l>
+                  <l>Ni dejarse esclavizar,</l>
+                  <l rend="cursiva">Y la combate el poder.</l>
+               </lg>
+            </div>
+            
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. de D. J. M. M. calle Juan de la Cabra núm. 5.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

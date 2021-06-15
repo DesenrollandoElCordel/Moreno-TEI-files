@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_039">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Don Rodulfo de Pedrajas. Nueva relación</title>
+            <respStmt>
+               <name xml:id="BP">Bélinda Palacios</name>
+               <resp>Corrección del OCR</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">ELina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Don Rodulfo de Pedrajas. Nueva relacion,
+                                                en que se dá cuenta de los valerosos hechos y aventuras que le sucedieron
+                                                á este caballero, y como S. M. lo premió por sus distinguidas hazañas.</title>
+                  <title type="titulo_breve">Don Rodulfo de Pedrajas. Nueva relación</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>[Primera parte]</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_039_1.xml">grabado_m_039_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_039_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">(Núm. 43.)</fw>
+               
+               <head type="primer_titulo">
+                  <lb/>DON RODULFO DE PEDRAJAS.
+                  <lb/><hi rend="negrita">NUEVA RELACION,</hi>
+               </head>
+               <head rend="cursiva" type="subtitulo">
+                  <lb/>en que se dá cuenta de los valerosos hechos y aventuras que le sucedieron
+                  <lb/>á este caballero, y como S. M. lo premió por sus distinguidas hazañas. 
+               </head>
+               
+               <div n="1" type="parte">
+                  <l rend="indent">Todo valiente se esconda, </l>
+                  <l>no manifieste la charpa, </l>
+                  <l>á vista de mis arrojos </l>
+                  <l>tiemblen los guapos de España, </l>
+                  <l>temple su ira Oliveros </l>
+                  <l>vencedor de las batallas; </l>
+                  <l>calle Bernardo del Carpió, </l>
+                  <l>que entre cerros y cañadas </l>
+                  <l>se quedó pidiendo guerra, </l>
+                  <l>por yerro de su ignorancia. </l>
+                  <l>No soy el Cid ni Sanson </l>
+                  <l>que columnas derribaba </l>
+                  <l>en venganza de su agravio, </l>
+                  <l>cuyo valor publicaba, </l>
+                  <l>que morir por Dios y el Rey, </l>
+                  <l>es dar lauros á la fama. </l>
+                  <l>Y porque sepan quien soy, </l>
+                  <l>mi nacimiento y crianza, </l>
+                  <l>nací en Morales del Rey, </l>
+                  <l>yo, Rodulfo de Pedrajas, </l>
+                  <l>que el astro de mi fortuna, </l>
+                  <l>me señaló letras y armas. </l>
+                  <l>Llegué á cumplir veinte años, </l>
+                  <l>compré un caballo y charpa, </l>
+                  <l>y cargado de tabaco, </l>
+                  <l>á Zaragoza pasaba, </l>
+                  <l>en breve lo despaché, </l>
+                  <l>y volviéndome á mi casa, </l>
+                  <l>encontrando en el camino </l>
+                  <l>á Pelagio, que los guardas </l>
+                  <l>lo llevaban maniatado, </l>
+                  <l>y despojado de armas, </l>
+                  <l>así que los conocí, </l>
+                  <l>los aguardé que llegaran, </l>
+                  <l>y les dije: caballeros, </l>
+                  <l>aquese preso y las cargas, </l>
+                  <l>al punto lo soltareis, </l>
+                  <l>que don Rodulfo lo manda, </l>
+                  <l>aqui es preciso morir, </l>
+                  <l>que la muerte á todos llama, </l>
+                  <l>A un tiempo me dispararon, </l>
+                  <l>dándome carga cerrada, </l>
+                  <l>yo disparé mi trabuco, </l>
+                  <l>y les maté cinco guardas,</l>
+                  
+                  <pb n="2"/>
+                  
+                  <l>los que quedaron, huyeron, </l>
+                  <l>que el miedo les acobarda; </l>
+                  <l>y despaché así á Pelagio, </l>
+                  <l>sin que nada le faltára. </l>
+                  <l>Y caminando á Morales, </l>
+                  <l>puse pública aduana </l>
+                  <l>de tabaco, vino y carne, </l>
+                  <l>de pólvora y de barajas. </l>
+                  <l>A los presos los liberto, </l>
+                  <l>y socorro al que me llama. </l>
+                  <l>Dígalo la real Sevilla. </l>
+                  <l>cuando un jueves de mañana </l>
+                  <l>iban á ahorcar á un hombre, </l>
+                  <l>y compasivas lloraban </l>
+                  <l>dos mujeres en sus calles, </l>
+                  <l>les pregunte: qué es la causa </l>
+                  <l>de vuestra grande aflicción? </l>
+                  <l>Y al punto me replicaban: </l>
+                  <l>hoy le dan muerte á mi padre, </l>
+                  <l>quedamos desamparadas; </l>
+                  <l>porque un hombre mató á otro, </l>
+                  <l>el agresor se ausentaba, </l>
+                  <l>y el escribano traidor </l>
+                  <l>á mi padre se la carga; </l>
+                  <l>les dije se retirasen, </l>
+                  <l>y previniendo las armas, </l>
+                  <l>al punto me fui á la cárcel, </l>
+                  <l>donde el secretario estaba </l>
+                  <l>para dar fé y testimonio </l>
+                  <l>de sus letras mal fundadas; </l>
+                  <l>y vide sacar al pobre, </l>
+                  <l>que los padres le auxiliaban, </l>
+                  <l>caminando hacia el suplicio, </l>
+                  <l>y llegándome á la escala, </l>
+                  <l>les hice allí detener, </l>
+                  <l>y al escribano llamaba: </l>
+                  <l>ven acá, hombre infeliz,, </l>
+                  <l>condenado y de mal alma, </l>
+                  <l>cómo por tu culpa dan </l>
+                  <l>muerte al que no tiene causa? </l>
+                  <l>Me respondió: del Consejo </l>
+                  <l>que tal justicia se haga, </l>
+                  <l>ha salido decretado. </l>
+                  <l>Y desnudando la espada, </l>
+                  <l>la cabeza le corté </l>
+                  <l>dejando el cuerpo sin alma. </l>
+                  <l>Pedian favor al Rey </l>
+                  <l>los soldados de la guardia, </l>
+                  <l>y brioso con mi acero </l>
+                  <l>despejé toda la plaza, </l>
+                  <l>donde hice doce muertes, </l>
+                  <l>otros las piernas quebradas; </l>
+                  <l>metí el reo en san Francisco, </l>
+                  <l>sin que nadie lo estorvara.</l>
+                  <l>Y caminando á mi tierra, </l>
+                  <l>hallé mi casa cercada </l>
+                  <l>de un gran cordon de soldados, </l>
+                  <l>que con órden de la Sala </l>
+                  <l>venian para prenderme, </l>
+                  <l>vivo ó muerto me entregaran; </l>
+                  <l>y viéndome ya perdido, </l>
+                  <l>echando mano á las armas, </l>
+                  <l>los aventé como moscas,  </l>
+                  <l>que salen desperdigadas. </l>
+                  <l>A este tiempo en Cataluña, </l>
+                  <l>en su eminente montaña, </l>
+                  <l>andaban cuarenta hombres, </l>
+                  <l>que robaban y mataban </l>
+                  <l>á todos los pasageros, </l>
+                  <l>y á muchos pueblos asaltan. </l>
+                  <l>Tenían órden del rey, </l>
+                  <l>que aquel término cercaran, </l>
+                  <l>y prendiéndoles, en horcas </l>
+                  <l>pongan en públicas plazas; </l>
+                  <l>y el señor gobernador </l>
+                  <l>no pudo adelantar nada. </l>
+                  <l>porque los dichos ladrones </l>
+                  <l>alguna gente le matan. </l>
+                  <l>A la ciudad se volvió, </l>
+                  <l>y al punto escribió una carta, </l>
+                  <l>dando parte á don Rodulfo, </l>
+                  <l>diciéndole que esperaba, </l>
+                  <l>no se dilate en venir, </l>
+                  <l>que le dá firme palabra </l>
+                  <l>de ser su padrino en todo. </l>
+                  <l>Y sin temer mi desgracia, </l>
+                  <l>en un ligero caballo, </l>
+                  <l>cual águila que volaba, </l>
+                  <l>llegué á los montes de Berga, </l>
+                  <l>y el marqués de Huelva pasa </l>
+                  <l>con su esposa y sus dos hijas, </l>
+                  <l>mayordomo y criadas: </l>
+                  <l>salieron ocho ladrones, </l>
+                  <l>y á todos los maniatan: </l>
+                  <l>quieren violar la marquesa, </l>
+                  <l>y aquellas doncellas castas, </l>
+                  <l>en presencia del marqués: </l>
+                  <l>por socorro al cielo claman. </l>
+                  <l>Fui corriendo á estos lamentos: </l>
+                  <l>y antes que á ellos llegára, </l>
+                  <l>me salen á recibir </l>
+                  <l>con escopetas cargadas, </l>
+                  <l>diciendo: quien viene allá? </l>
+                  <l>Les dí la respuesta en balas; </l>
+                  <l>de los ocho maté á cinco, </l>
+                  <l>y los otros tres con álas, </l>
+                  <l>fiados en sus caballos, </l>
+                  <l>y con fuga apresurada,</l>
+                  
+                  <pb n="3"/>
+                  
+                  <l>querian huir veloces, </l>
+                  <l>mas fué diligencia vana, </l>
+                  <l>que el fuego les atajé </l>
+                  <l>y los llevé donde estaban </l>
+                  <l>los difuntos compañeros; </l>
+                  <l>porque atodos los velaran; </l>
+                  <l>y sacando mi rejon, </l>
+                  <l>corté las cuerdas delgadas </l>
+                  <l>que oprimian al marqués; </l>
+                  <l>y á las señoras que estaban </l>
+                  <l>de aquel susto casi muertas; </l>
+                  <l>¡oh vilipendiosa infamia! </l>
+                  <l>Me ofrecían grandes premios, </l>
+                  <l>y también doña Constanza, </l>
+                  <l>hija del propio marqués,</l>
+                  <l>la que rogó que tomára </l>
+                  <l>de su mano una fineza; </l>
+                  <l>me presentó una esmeralda, </l>
+                  <l>y me dijo: caballero, </l>
+                  <l>en vuestro pecho guardadla, </l>
+                  <l>que puede ser que algun tiempo </l>
+                  <l>sea honor de vuestra casa. </l>
+                  <l>Mostrándome agradecido, </l>
+                  <l>fui con ellos en compaña </l>
+                  <l>hasta sacarlos del monte, </l>
+                  <l>no suceda otra desgracia. </l>
+                  <l>Dejemos la primer parte </l>
+                  <l>del mayor guapo de España, </l>
+                  <l>y acabaré en la segunda </l>
+                  <l>de referir sus hazañas.</l>
+               </div>
+               
+               <div n="2" type="parte">
+                  <head type="titulo_parte">SEGUNDA PARTE.</head>
+                  
+                  <l rend="indent">Ya dije en la primer parte, </l>
+                  <l>como libres se quedaban, </l>
+                  <l>y al marqués lo supliqué </l>
+                  <l>que el testimonio firmára </l>
+                  <l>de todo lo sucedido, </l>
+                  <l>porque es preciso que valla </l>
+                  <l>á ver el conde de Flores, </l>
+                  <l>que suya tengo una carta. </l>
+                  <l>en que me envia á llamar; </l>
+                  <l>sin dilacion me despacha. </l>
+                  <l>Como un rayo disparado </l>
+                  <l>volví donde se quedaban </l>
+                  <l>los muertos y prisioneros: </l>
+                  <l>á estos hice que montaran </l>
+                  <l>cada cual en su caballo, </l>
+                  <l>y que los muertos llevaran </l>
+                  <l>hasta entrar en la ciudad; </l>
+                  <l>y cerca de las murallas </l>
+                  <l>él señor gobernador </l>
+                  <l>llegó á registrar las cargas. </l>
+                  <l>Preguntó: ¿qué gente e3 esta, </l>
+                  <l>que viene con esta traza? </l>
+                  <l>Señor, son los gavilanes, </l>
+                  <l>que á caminantes estafan. </l>
+                  <l>Respondió el gobernador, </l>
+                  <l>en este dia mi hermana </l>
+                  <l>me noticia por un pliego, </l>
+                  <l>como estuvo maniatada, </l>
+                  <l>y el marqués y mis sobrinas, </l>
+                  <l>y que quisieron violarlas, </l>
+                  <l>sin tener apelación; </l>
+                  <l>y que debe darle gracias </l>
+                  <l>a un honrado caballero, </l>
+                  <l>que por el sitio pasaba </l>
+                  <l>Me alegrara conocerle, </l>
+                  <l>traerlo en mi compaña.</l>
+                  <l>Pues ya tiene vuescelencia </l>
+                  <l>al que lo hizo, á sus plantas. </l>
+                  <l>Le presenté el testimonio, </l>
+                  <l>y la fecha de la carta. </l>
+                  <l>Luego mandó que los reos </l>
+                  <l>á la cárcel los lleváran </l>
+                  <l>me dió su lado derecho, </l>
+                  <l>diciéndo, que celebraba </l>
+                  <l>prender los cuarenta hombres, </l>
+                  <l>que iban cometiende infamias </l>
+                  <l>en lo áspero de los montes. </l>
+                  <l>Don Rodulfo dió palabra </l>
+                  <l>de traerlos prisioneros, </l>
+                  <l>y con diez soldados marcha </l>
+                  <l>hasta la vera del bosque, </l>
+                  <l>y descubriendo sus calas; </l>
+                  <l>puso en ellas centinelas </l>
+                  <l>con una órden cerrada, </l>
+                  <l>que si escuchan venir gente, </l>
+                  <l>les tiren sin repugnancia. </l>
+                  <l>Solo me metí en las breñas, </l>
+                  <l>su espesura paseaba, </l>
+                  <l>poniendo lazos y cepos </l>
+                  <l>por el suelo y por las matas, </l>
+                  <l>hasta llegar á la cueva </l>
+                  <l>en donde ellos habitaban, </l>
+                  <l>que estando en grande funcion, </l>
+                  <l>con brindis se saludaban. </l>
+                  <l>Al aire disparé un tiro. </l>
+                  <l>y en silencio se quedaban, </l>
+                  <l>diciendo perdidos somos, </l>
+                  <l>cada cual tome sus armas, </l>
+                  <l>para defender las vidas </l>
+                  <l>en el monte se repartan. </l>
+                  <l>Y conforme iban andando, </l>
+                  <l>enredados se quedahan; </l>
+                  
+                  <pb n="4"/>
+                  
+                  <l>y sin poderse valer, </l>
+                  <l>les quitó todas las armas: </l>
+                  <l>hice acudir los soldados,</l>
+                  <l>y con sogas los amarran ,</l>
+                  <l>y antes que fuera de dia, </l>
+                  <l>tomamos la caminata </l>
+                  <l>de vuelta á Barcelona, </l>
+                  <l>y un soldado se adelanta, </l>
+                  <l>diciendo al gobernador; </l>
+                  <l>desde que España es España, </l>
+                  <l>no hubo hombre mas valiente, </l>
+                  <l>ni de mas heróica hazaña; </l>
+                  <l>él solo prendió los hombres, </l>
+                  <l>sin que nadie le ayudara. </l>
+                  <l>Victorioso con mi presa, </l>
+                  <l>al conde se la entregaba, </l>
+                  <l>en ocasion que venian </l>
+                  <l>los soldados de la playa, </l>
+                  <l>y á su escelencia dijeron: </l>
+                  <l>de turcos una fragata </l>
+                  <l>á otra que era de cristianos </l>
+                  <l>se la llevan apresada, </l>
+                  <l>y aprisa pide socorro. </l>
+                  <l>Muy suspenso se quedaba </l>
+                  <l>al oirlo: y dijo entonces; </l>
+                  <l>mande vuescencia que una barca </l>
+                  <l>me fleten, y unos soldados, </l>
+                  <l>y veran cortar mi espada </l>
+                  <l>cabezas de los paganos, </l>
+                  <l>si el cielo me dá ventaja </l>
+                  <l>en poderles alcanzar; </l>
+                  <l>y al punto se ejecutaba. </l>
+                  <l>Con valor los marineros </l>
+                  <l>y con cuidado remaban, </l>
+                  <l>hasta llegar á abordar, </l>
+                  <l>y saltando en la fragata, </l>
+                  <l>cortando brazos y arneces </l>
+                  <l>sus cabezas derribaba. </l>
+                  <l>Veinte moros les maté, </l>
+                  <l>sin que agravio me tocara; </l>
+                  <l>y viéndose mal heridos, </l>
+                  <l>todos soltaron las armas,</l>
+                  <l>diciendo noble cristiano, </l>
+                  <l>cese el rigor de tu espada. </l>
+                  <l>Desembarcamos en tierra, </l>
+                  <l>nos hicieron grande salva, </l>
+                  <l>y los cautivos cristianos </l>
+                  <l>por mi la victoria aclaman. </l>
+                  <l>Alegres los caballeros </l>
+                  <l>y el gobernador, me abrazan; </l>
+                  <l>y luego al siguiente dia </l>
+                  <l>se dispuso la jornada </l>
+                  <l>á la córte de Madrid </l>
+                  <l>á contarle las hazañas </l>
+                  <l>de mi valor invencible </l>
+                  <l>al Católico Monarca. </l>
+                  <l>Mandóme el Rey entrar dentro, </l>
+                  <l>y asi que llegué á la sala, </l>
+                  <l>hincándome de rodillas, </l>
+                  <l>me preguntó por mi patria. </l>
+                  <l>Soy de Morales del Rey, </l>
+                  <l>y venero vuestras plantas. </l>
+                  <l>Generoso me responde: </l>
+                  <l>ya es Morales de Pedrajas, </l>
+                  <l>y marqués de Santa Cruz, </l>
+                  <l>conde insigne do la Habana, </l>
+                  <l>de Méjico gran Virey, </l>
+                  <l>y general de las armas, </l>
+                  <l>caballero comandante. </l>
+                  <l>Con doña alberta Constanza </l>
+                  <l>es mi gusto que os caseis: </l>
+                  <l>en breve los desposaban. </l>
+                  <l>Su magestad la dió un dote, </l>
+                  <l>el manto que cobijaba </l>
+                  <l>con él liberte los reos </l>
+                  <l>que tengan algunas causas. </l>
+                  <l>Puestos á los pies del Rey </l>
+                  <l>rinden las debidas gracias,  </l>
+                  <l>viviendo los dos consortes </l>
+                  <l>con union y paz amada, </l>
+                  <l>dando envidias al valor, </l>
+                  <l>y asunto noble á la fama. </l>
+                  <l>Y aquí Juan Antonio Lopez </l>
+                  <l>pide perdon de sus faltas.</l>
+               </div>
+               
+               <trailer>FIN.</trailer>
+            </div>
+            
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. 
+                  <lb/>Imprenta de D. José M.a Moreno, calle Juan de la Cabra n.° 5. 
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
