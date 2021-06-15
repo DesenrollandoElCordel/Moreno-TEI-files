@@ -1,0 +1,736 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_170">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El cortante de Cádiz</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El cortante de Cadiz. Romance en que se declara la
+                     feliz fortuna que tuvo un hijo de un Cortante de la ciudad de Cadiz,
+                     llevándoselo preso un Mercader á las Indias: dáse cuenta como volvió á España,
+                     y se casó con la hija del Mercader que fue causa de su desgracia, siendolo
+                     tambien de su dicha y prosperidad; como mas largamente verá el lector.</title>
+                  <title type="titulo_breve">El cortante de Cadiz.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p. 1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_170_1.xml">grabado_m_170_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-30" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_170_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <pb n="1"/>
+
+            <fw type="impresorNum">(Número 180.)</fw>
+
+            <head rend="negrita" type="primer_titulo">EL CORTANTE DE CADIZ.</head>
+            <head type="subtitulo">ROMANCE EN QUE SE DECLARA LA FELIZ <lb/>fortuna que tuvo un hijo
+               de un Cortante de la <lb/>ciudad de Cadiz, llevándoselo preso un Mercader <lb/>á las
+               Indias: dáse cuenta como volvió á España, <lb/>y se casó con la hija del Mercader que
+               fue causa <lb/>de su desgracia, siendolo tambien de su <lb/>dicha y prosperidad; como
+               mas <lb/>largamente verá el lector.</head>
+
+            <div n="1" type="parte">
+               <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
+
+               <l rend="indent">O Gran Dios de la verdad,</l>
+               <l>Criador de tierra y cielo,</l>
+               <l>Monarca amoroso y justo,</l>
+               <l>Dios piadoso y Rey exelso!</l>
+               <l>Son tus secretos, Señor,</l>
+               <l>tan altos y tan supremos,</l>
+               <l>que aun vuestra querida Madre</l>
+               <l>jamás pudo comprenderlos</l>
+               <l>pues vos sois solo el que sabe</l>
+               <l>con un saber tan inmenso,</l>
+               <l>fin y principio de todo</l>
+               <l>comprendiendo todos tiempos,</l>
+               <l>como lo afirma esta historia,</l>
+               <l>que podrá servir de ejempo,</l>
+               <l>lo cual sucedio á un Cortante,</l>
+               <l>y es como aqui lo refiero.</l>
+               <l>En la gran Ciudad de Cádiz,</l>
+               <l>de España famoso puerto,</l>
+               <l>habitaba un Mercader,</l>
+               <l>de mucha hacienda y dinero,</l>
+
+               <pb n="2"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>lado por lado de casa</l>
+               <l>de un Cortante; y en efecto,</l>
+               <l>como los dos eran ricos,</l>
+               <l>se guardaban el respeto</l>
+               <l>atentos y cortesanos.</l>
+               <l>Pero lo tenia á menos</l>
+               <l>la muger del Mercader,</l>
+               <l>y un dia estando comiendo</l>
+               <l>esta dijo á su marido:</l>
+               <l>quisiera querido dueño,</l>
+               <l>de que vuestra voluntad</l>
+               <l>viniera bien con mi intento,</l>
+               <l>y fuera cuerda eleccion</l>
+               <l>lo que ahora es solo consejo.</l>
+               <l>Y es que veais si el Cortante</l>
+               <l>quiere la casa vendernos,</l>
+               <l>visitandole á este fin.</l>
+               <l>Y respondió: no lo creo,</l>
+               <l>porque es rico y poderoso:</l>
+               <l>mas yo lo veré bien presto.</l>
+               <l>Al otro siguiente dia</l>
+               <l>pasó el Mercader atento</l>
+               <l>á la casa del Cortante,</l>
+               <l>y le recibió contento,</l>
+               <l>propuso su peticion</l>
+               <l>despues de muchos rodeos</l>
+               <l>que buscó para entablarla.</l>
+               <l>Pero con terminos buenos</l>
+               <l>el Cortante le responde:</l>
+               <l>yo quisiera que eso mesmo</l>
+               <l>usted lo hiciera conmigo,</l>
+               <l>pues necesito por cierto</l>
+               <l>de haber de ensanchar la casa</l>
+               <l>por la familia que tengo,</l>
+               <l>que vá mas en cada dia;</l>
+               <l>y si quiere, pida precio,</l>
+               <l>no repare por doblones</l>
+               <l>que cantidad tengo de ellos.</l>
+               <l>Quedó el Mercader corrido;</l>
+               <l>y apenas se despidieron</l>
+               <l>se fué sentido á su casa:</l>
+               <l>salió su esposa corriendo</l>
+               <l>á saber de lo tratado,</l>
+               <l>por ver qué habia de nuevo.</l>
+               <l>Dióle á su esposa la nueva,</l>
+               <l>y viendo que no hay remedio, </l>
+               <l>dejaron su pretension,</l>
+               <l>aunque siempre allá en su pecho,</l>
+               <l>formando de aqueste agravio,</l>
+               <l>el sentimiento tubieron,</l>
+               <l>que le movió la venganza,</l>
+               <l>como adelante veremos.</l>
+               <l>Las dos mugeres en cinta</l>
+               <l>se hallabau en este tiempo:</l>
+               <l>y cuando llegó la hora,</l>
+               <l>al Mercader le dió el cielo</l>
+               <l>una niña y al Cortante</l>
+               <l>un niño agraciado y bello.</l>
+               <l>Pasaronse algunos meses,</l>
+               <l>criándolos con esmero,</l>
+               <l>y el Mercader dos esclavos</l>
+               <l>tenia, y con el pretesto</l>
+               <l>de pasear á la niña</l>
+               <l>por diversion y recreo,</l>
+               <l>en la casa del Cortante</l>
+               <l>era el entretenimiento.</l>
+               <l>Allí jugando la niña</l>
+               <l>con el niño, tal afecto</l>
+               <l>y tanta benevolencia</l>
+               <l>llegó á reinar entre ellos,</l>
+               <l>que en estando divididos</l>
+               <l>lloraba el niño, gimiendo</l>
+               <l>estaba la niña en casa:</l>
+               <l>y su madre viendo esto,</l>
+               <l>ya con alguna sospecha,</l>
+               <l>le dijo: pues como es esto,</l>
+               <l>donde llevais á la niña,</l>
+               <l>que aqui no calla un momento,</l>
+               <l>y cuando salis de casa,</l>
+               <l>parece ve el Cielo abierto?</l>
+               <l>Respondieron los esclavos,</l>
+               <l>señora nuestro paseo</l>
+               <l>es en casa del Cortante,</l>
+               <l>donde hay un niño pequeño,</l>
+
+               <pb n="3"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>con quien la niña se alegra.</l>
+               <l>entrenida con juegos.</l>
+               <l>Aquí vino á reventar</l>
+               <l>la colera que en su pecho</l>
+               <l>tenia reconsentrada,</l>
+               <l>y asi con dañado intento</l>
+               <l>llamando aparte á un esclavo,</l>
+               <l>le dijo: sabrás que quiero,</l>
+               <l>Mostafá que te libertes,</l>
+               <l>y tambien tu compañero,</l>
+               <l>como egecutes un lance,</l>
+               <l>pero ha de ser con secreto.</l>
+               <l>Y es, que saqueis esta tarde;, </l>
+               <l>y echeis al profundo seno</l>
+               <l>del mar, del Cortante el niño,</l>
+               <l>y si lo haceis, os prometo</l>
+               <l>poneros dentro de Argel</l>
+               <l>á costa de mi dinero,</l>
+               <l>y advertid que importa mucho.</l>
+               <l>Los esclavos que esto oyéron,</l>
+               <l>por lograr la libertad</l>
+               <l>á casa del Cortante fueron; </l>
+               <l>como otras veces solian,</l>
+               <l>y asi que ocasion tuvieron.</l>
+               <l>al tierno niño sacaron</l>
+               <l>á orillas del mar soberbio,</l>
+               <l>y al arrojarle á las aguas</l>
+               <l>los dos se compadecieron;</l>
+               <l>dejaronle á las orillas</l>
+               <l>sin matarle, y se volvieron</l>
+               <l>á la ciudad al instante.</l>
+               <l>Las puertas cerraron presto</l>
+               <l>de la bahia, y el niño,</l>
+               <l>quedó en la arena durmiendo.</l>
+               <l>Al cabo de poco rato,</l>
+               <l>despertando ya del sueño,</l>
+               <l>comenzó á llorar el niño,</l>
+               <l>y un Mercader á este tiempo,</l>
+               <l>de las Indias, que esperaban</l>
+               <l>tener favorable el viento</l>
+               <l>para marchar á su patria,</l>
+               <l>y oyó los tiernos lamentos,</l>
+               <l>mandó sacasen la lancha,</l>
+               <l>para ver lo que era aquello.</l>
+               <l>Vieron el hermoso niño,</l>
+               <l>piadosos lo recogieron,</l>
+               <l>y al navio lo llevaron,</l>
+               <l>donde el Mercader atento</l>
+               <l>le recibió, y con cariño</l>
+               <l>en sus brazos se lo han puesto,</l>
+               <l>diciendole con ternura:</l>
+               <l>de quien serás, niño bello?</l>
+               <l>qué corazon tan ingrato</l>
+               <l>tam impío y tan protervo,</l>
+               <l>aquí ha podido dejarte</l>
+               <l>á mil desdichas espuesto?</l>
+               <l>A las dos de la mañana</l>
+               <l>tubo favorable el viento,</l>
+               <l>tiró una pieza de leva,</l>
+               <l>y asi el navio moviendo</l>
+               <l>se llevaron al infante</l>
+               <l>con alegria y contento.</l>
+               <l>Quien llegara á comtemplar</l>
+               <l>el dolor y sentimiento,</l>
+               <l>la angustia, pena y fatiga</l>
+               <l>que aquella noche tubieron</l>
+               <l>los padres del angelito,</l>
+               <l>sin saber si es vivo ó muerto?</l>
+               <l>Siguieron pues su viage,</l>
+               <l>y al niño lo mantuvieron</l>
+               <l>hasta llegar á las Indias,</l>
+               <l>dándole vizcochos y huevos.</l>
+               <l>Apenas llegó á su casa</l>
+               <l>el Mercader, le salieron</l>
+               <l>á recibir sus amigos</l>
+               <l>y tambien todos sus deudos,</l>
+               <l>y á su esposa le entregó</l>
+               <l>el hermoso niño tierno</l>
+               <l>dándole cuenta de todo</l>
+               <l>el referido suceso.</l>
+               <l>Y por si no era cristiano,</l>
+               <l>luego al instantee le dieron</l>
+               <l>el bautismo de la Iglesia,</l>
+               <l>y por nombre le pusieron</l>
+
+               <pb n="4"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>José, y asi se llamaba</l>
+               <l>oh Dios que raro secreto!</l>
+               <l>Con cariño lo criaron, </l>
+               <l>cual si fuera hijo, y viendo</l>
+               <l>su buena disposicion</l>
+               <l>cuando fue en edad creciendo</l>
+               <l>le inclinaron al estudio,</l>
+               <l>y aprovechó en breve tiempo,</l>
+               <l>siendo cortés y bizarro,</l>
+               <l>y aplaudido en todo el pueblo.</l>
+               <l>Llegó á tener veinte años,</l>
+               <l>y al Mercader á este tiempo</l>
+               <l>ofreciósele un viajé,</l>
+               <l>y á Pepe le dijo esto;</l>
+               <l>hijo, cuida de mi casa,</l>
+               <l>pues de ella te quedas dueño,</l>
+               <l>cuida tambien de tu madre,</l>
+               <l>y á tu hermano te encomiendo,</l>
+               <l>que esté bien adoctrinado:</l>
+               <l>dale buenos documentos</l>
+               <l>que yo me voy á un viaje,</l>
+               <l>no se cuando nos veremos.</l>
+               <l>Despidieronse llorando,</l>
+               <l>hizo salva, y se partieron.</l>
+               <l>El mozo se quedó en casa, </l>
+               <l>y estando un dia leyendo,</l>
+               <l>reprendió á su hermano; y este</l>
+               <l>les respondió muy soberbio</l>
+               <l>con palabras descompuestas:</l>
+               <l>y viendo su atrevimiento,</l>
+               <l>porque miedo le tuviera,</l>
+               <l>y le guardase respeto,</l>
+               <l>alzó la mano, y le dió</l>
+               <l>un bofeton porque atento</l>
+               <l>y no osado se criase;</l>
+               <l>y él entonces fue corriendo</l>
+               <l>á contarcelo á su madre,</l>
+               <l>que estaba en otro aposento.</l>
+               <l>Dijole como su hermano</l>
+               <l>le maltrató; y sin acuerdo</l>
+               <l>al ver llorar á su hijo,</l>
+               <l>hecha una vivora ardiendo</l>
+               <l>salió, y á pocas palabras,</l>
+               <l>falta ya de sufrimiento,</l>
+               <l>le dijo que era un bastardo.</l>
+               <l>Y él con grande sentimiento</l>
+               <l>de ver que asi le trataban,</l>
+               <l>tanto discurrió sobre ello,</l>
+               <l>que no comia de tristeza,</l>
+               <l>ni dormia con sosiego</l>
+               <l>ni trataba á sus amigos,</l>
+               <l>ni se salia á paseo,</l>
+               <l>siempre metido en su cuarto,</l>
+               <l>varios discursos haciendo,</l>
+               <l>hasta poder penetrar,</l>
+               <l>como fue su nacimiento.</l>
+               <l>Y hasta que vino su padre</l>
+               <l>de nadie pudo saberlo,</l>
+               <l>como en la segunda parte</l>
+               <l>referiré por estenso;</l>
+               <l>y como volvió á su patria,</l>
+               <l>los lanoes que acaecieron</l>
+               <l>en el viage hasta España,</l>
+               <l>y su buen recibiento,</l>
+               <l>hasta casar con la niña</l>
+               <l>que ya referida dejo.</l>
+               <l>FIN DE LA PRIMERA PARTE.</l>
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="5"/>
+
+               <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+
+               <l rend="indent">Ya dije como salió</l>
+               <l>aquel Mercader de fama</l>
+               <l>de las Indias á un viaje:</l>
+               <l>con salud volvió á su patria,</l>
+               <l>y á recibirle salieron,</l>
+               <l>antes que desembarcara,</l>
+               <l>los deudos y los amigos,</l>
+               <l>y tambien su esposa amada.</l>
+               <l>Se cortejaron alegres,</l>
+               <l>y el Marcader preguntaba</l>
+               <l>por su hijo Pepe á su esposa,</l>
+               <l>diciendo que por que causa,</l>
+               <l>no ha salido á recibirle?</l>
+               <l>y ella dijo estas palabras,</l>
+               <l>has de saber dulce esposo,</l>
+               <l>que al hijo de mis entrañas</l>
+               <l>por la leccion le dió Pepe</l>
+               <l>un bofeton, y enojada</l>
+               <l>le dije que era un bastardo,</l>
+               <l>que se fuera de mi casa;</l>
+               <l>y desde entonces acá </l>
+               <l>no hay quien le vea la cara.</l>
+               <l>Calló el Mercader atento,</l>
+               <l>oyendo aquesta embajada:</l>
+               <l>se fué á su casa al instante,</l>
+               <l>y asi que por ella entraba,</l>
+               <l>le echó los brazos al cuello</l>
+               <l>diciendo: Pepe del alma,</l>
+               <l>qué tienes ¿quien te ha enojado?</l>
+               <l>El la mano le besaba, </l>
+               <l>y le dijo: padre mio,</l>
+               <l>me alegro de ver que en casa</l>
+               <l>esté ya vuestra merced;</l>
+               <l>mas quisiera que me hallára </l>
+               <l>difunto sobre la tierra;</l>
+               <l>no por que me falte nada</l>
+               <l>en vuestra casa, señor:</l>
+               <l>mas me díjo una palabra</l>
+               <l>mi madre, y esta la tengo,</l>
+               <l>en mi corazon gravada.</l>
+               <l>Y asi le suplico y ruego</l>
+               <l>por la Virgen Soberana</l>
+               <l>me diga quien es mi madre,</l>
+               <l>porque esta que me criaba,</l>
+               <l>veo no es, ni ha sido,</l>
+               <l>pues bastardo me llamaba.</l>
+               <l>Oyendo el Mercarder esto,</l>
+               <l>un papel escrito saca,</l>
+               <l>tambien saco los pañales,</l>
+               <l>que en el cofre lo guardaba,</l>
+               <l>diciendole: siendo niño,</l>
+               <l>dentro en Cádiz te tapaban</l>
+               <l>con estos mismos pañales;</l>
+               <l>y aquestas letras declaran</l>
+               <l>de donde sois, y en qué forma</l>
+               <l>habeis venido á mi casa,</l>
+               <l>Leyó el papel, y en él vido,</l>
+               <l>que era natural de España,</l>
+               <l>de la gran Ciudad de Cádiz,</l>
+               <l>y causa porque se hallaba</l>
+               <l>en las Indias orientales;</l>
+               <l>y asi de gozo lloraba.</l>
+               <l>y al que teñia por padre</l>
+               <l>de aquesta suerte le habla:</l>
+               <l>señor pues vos me criasteis</l>
+               <l>como hijo, yo os llamaba</l>
+               <l>padre, mas ya reconozco</l>
+               <l>que no lo sois y esto basta:</l>
+
+               <pb n="6"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>y asi la licencia os pido</l>
+               <l>para partirme á mi patria.</l>
+               <l>Como si fuera su hijo,</l>
+               <l>un navio le cargaba</l>
+               <l>de mercancias y gente,</l>
+               <l>que fueran en su compaña.</l>
+               <l>Dióle una cadena de oro,</l>
+               <l>para que de él se acordara,</l>
+               <l>con otras joyas de precio</l>
+               <l>tambien le entregó una carta</l>
+               <l>pará un Mercader de Cadiz.</l>
+               <l>Le dijo que si no hallaba</l>
+               <l>padre ó madre, se velviese</l>
+               <l>á las Indias sin tardanza.</l>
+               <l>Y él le dijo: padre mio,</l>
+               <l>por la Trinidad Sagrada</l>
+               <l>le ruego que me perdone;</l>
+               <l>y arrodillado á sus plantas</l>
+               <l>le besó humilde la mano,</l>
+               <l>de todo dandole gracias.</l>
+               <l>Hechos sus ojos raudales,</l>
+               <l>por despedida le abraza,</l>
+               <l>diciendo el cielo te guarde,</l>
+               <l>á Dios, Pepe de mi alma.</l>
+               <l>Engolfóse mar adentro,</l>
+               <l>caminando con bonanza,</l>
+               <l>pero tuvieron un susto,</l>
+               <l>que un Domingo de mañana</l>
+               <l>se vieron cuatro navios</l>
+               <l>dé Moros que á corso andaban, </l>
+               <l>y apresaron el navío,</l>
+               <l>sin que defensa bastára.</l>
+               <l>El Capitan de los Moros, </l>
+               <l>que los cuatro gobernaba,</l>
+               <l>le díjo, dime, Cristiano,</l>
+               <l>á donde iba tu jornada.</l>
+               <l>Y el Cristino le responde:</l>
+               <l>para las costas de España</l>
+               <l>era, Señor, el viaje.</l>
+               <l>De quien es riqueza tanta?</l>
+               <l>Mira, gran señor, le dice:</l>
+               <l>y el suceso le contaba,</l>
+               <l>y por mas sastifacerle,</l>
+               <l>los papeles le mostraba</l>
+               <l>en prueba de la verdad.</l>
+               <l>El Moro, que atento estaba,</l>
+               <l>tomó el papel en las manos:</l>
+               <l>vueltos sus ojos en agua</l>
+               <l>al mirar aquellas lineas,</l>
+               <l>mil parabienes le daba, </l>
+               <l>abrasandole gozoso,</l>
+               <l>y diciendo estas palabras:</l>
+               <l>conocí bien á tu padre,</l>
+               <l>y á tu madre muy amada;</l>
+               <l>por ti se vé mi persona</l>
+               <l>en el triunfo que en se halla;</l>
+               <l>y asi no te dé cuidado,</l>
+               <l>ni tengas temor de nada,</l>
+               <l>que yo te acompañaré</l>
+               <l>á esa ciudad afamada</l>
+               <l>de Cadiz, donde naciste,</l>
+               <l>que es justo te satisfaga,</l>
+               <l>pues has de saber que yo</l>
+               <l>fui el esclavo que en la playa</l>
+               <l>de Cadiz te dejó vivo,</l>
+               <l>entonces pues le contaba</l>
+               <l>todo el caso por estenso;</l>
+               <l>y haciendole retaguardia,</l>
+               <l>hasta la Ciudad de Cadiz</l>
+               <l>lo comboyó con su escuadra.</l>
+               <l>Llegaron al puerto alegres,</l>
+               <l>y una bandera levantan, </l>
+               <l>disparando algunas piezas,</l>
+               <l>y la novedad llamaba</l>
+               <l>á todos los Mercaderes,</l>
+               <l>discurriendo que llegaba</l>
+               <l>el Mercader de las Indias</l>
+               <l>que aguardándole ya estaban.</l>
+               <l>Salieron á recibirle,</l>
+               <l>y luego entregó la carta</l>
+               <l>al mismo para quien era,</l>
+               <l>y leida, les declara,</l>
+               <l>que era este el hijo propio</l>
+               <l>del Mercader que aguardaban,</l>
+
+               <pb n="7"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>y mercáncias traia,</l>
+               <l>pues su padre le enviaba;</l>
+               <l>dándole la enorabuena,</l>
+               <l>todos se congratulaban.</l>
+               <l>Habiendo saltado en tierra,</l>
+               <l>á pocos dias que estaba,</l>
+               <l>donde vivia el Cortante</l>
+               <l>procuró saber con maña;</l>
+               <l>y yendo con sus criados,</l>
+               <l>con dinero, les mandaba,</l>
+               <l>que en aquella casa entrasen,</l>
+               <l>y qué alli se lo dejaran.</l>
+               <l>Salió corriendo su padre,</l>
+               <l>sin saber con quien hablaba,</l>
+               <l>le dijo, señor, quisiera,</l>
+               <l>que de su merced sacara</l>
+               <l>el dinero que no gusto</l>
+               <l>tener ni guardar en casa</l>
+               <l>moneda alguna de nadie,</l>
+               <l>y menos sin saber cuanta</l>
+               <l>me entregan como podré</l>
+               <l>otra vez al entregarla,</l>
+               <l>dar una cabal salida?</l>
+               <l>El le dijo que callara, </l>
+               <l>y en su casa la tuviese,</l>
+               <l>que mas bien guardada estaba</l>
+               <l>que si el mismo la guardase;</l>
+               <l>asi consiguió la entrada</l>
+               <l>en la casa de su padre,</l>
+               <l>y ya todos murmuraban</l>
+               <l>en saraos y banquetes,</l>
+               <l>que en casa el Cortante entraba</l>
+               <l>el Mercader de las Indias,</l>
+               <l>mas no sabian la causa.</l>
+               <l>Temieron que pretendiera</l>
+               <l>el Mercader á una hermana</l>
+               <l>suya é hija del Cortante,</l>
+               <l>que era en estremo bizarra.</l>
+               <l>Dabale mil documentos,</l>
+               <l>y el Mercader que fue causa</l>
+               <l>de su variable fortuna,</l>
+               <l>un dia con mesa franca</l>
+               <l>le convidó y aceptando,</l>
+               <l>con esplendida abundoncia</l>
+               <l>le sirvieron á la mesa</l>
+               <l>mil primores de viandas.</l>
+               <l>Y sobre mesa le dijo</l>
+               <l>con alhagueñas palabras:</l>
+               <l>me admiro mucho, Señor,</l>
+               <l>que su aficion puesto halla,</l>
+               <l>y tan firme, en quien en sangre,</l>
+               <l>ni en la calidad le iguala,</l>
+               <l>pues es hija de un Cortante,</l>
+               <l>por mas que sea agraciada.</l>
+               <l>A trueque de que la olvide,</l>
+               <l>contento y de buena gana</l>
+               <l>le daria por esposa</l>
+               <l>á mi querida Bernarda,</l>
+               <l>que estimo mas que á mi vida.</l>
+               <l>Admirado se quedaba,</l>
+               <l>pues no esperaba otra cosa</l>
+               <l>y repondió sin tardanza</l>
+               <l>por dichoso me tendria</l>
+               <l>logrando ventura tanta.</l>
+               <l>Conformaronse gustosos,</l>
+               <l>con solo esta palabra,</l>
+               <l>se previnieron las bodas;</l>
+               <l>y antes que el dia llegara,</l>
+               <l>le dijo el yerno: señor,</l>
+               <l>quísiera que me otorgara</l>
+               <l>una peticion que pido,</l>
+               <l>y es, señor de que á la uzanza</l>
+               <l>de las indias orientales</l>
+               <l>las bodas se celebraran.</l>
+               <l>En quo manera (le dijo)</l>
+               <l>son las bodas? Y él contaba</l>
+               <l>como á todos los vecinos</l>
+               <l>mas cercanos á la casa</l>
+               <l>donde habitaba la novia</l>
+               <l>al convite los llamaban.</l>
+               <l>Por no disgustar al yerno</l>
+               <l>vino bien en la demanda.</l>
+               <l>Cien mil ducados en dote</l>
+               <l>á su hija le señala,</l>
+
+               <pb n="8"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>con muy costosos vestidos,</l>
+               <l>joyas y ricas alhajas.</l>
+               <l>Celebraronse las bodas</l>
+               <l>con ostentacion y gala,</l>
+               <l>hallándose en el banquete</l>
+               <l>el padre, madre y la hermana</l>
+               <l>del novio, sin saber nadie</l>
+               <l>lo que en su pecho ocultaba.</l>
+               <l>Y en medio de la funcion</l>
+               <l>dijo el novio que gustaba,</l>
+               <l>le esplicasen una duda,</l>
+               <l>y calló sin declararla.</l>
+               <l>Aguardando la propuesta,</l>
+               <l>unos á otros se miraban;</l>
+               <l>y entonces le dijo el suegro</l>
+               <l>que la duda declarara,</l>
+               <l>y verian entre todos</l>
+               <l>si podrian decifrarla,</l>
+               <l>que con gusto probarian.</l>
+               <l>Y él dijo que lo que estaba</l>
+               <l>una vez determinado</l>
+               <l>en el celestial alcazar,</l>
+               <l>si en el mundo habria alguno,</l>
+               <l>que á deshacerlo bastára.</l>
+               <l>Todos dijeron que no, </l>
+               <l>y que era cosa asentada,</l>
+               <l>Dijo él: pues ya que queda</l>
+               <l>la verdad certificada,</l>
+               <l>este es mi padre, señores</l>
+               <l>mi madre es esta, y mi hermana</l>
+               <l>la que aqui veis, pues yo soy</l>
+               <l>el niño á quien intentaba</l>
+               <l>mi suegra que los esclavos</l>
+               <l>me dieran muerte inhumana:</l>
+               <l>aquestos son los pañales,</l>
+               <l>con que entonces me tapaban,</l>
+               <l>y estos renglones tambien</l>
+               <l>os esplicarán la causa</l>
+               <l>de mirarme en tanto triunfo,</l>
+               <l>y casado con Bernarda.</l>
+               <l>Sea para bien le dijeron</l>
+               <l>todos alli á voces altas,</l>
+               <l>vivan los novios, y vivan</l>
+               <l>sus padres edades largas.</l>
+               <l>Y luego todos humildes</l>
+               <l>á Dios rindieron mil gracias,</l>
+               <l>viviendo de alli adelante</l>
+               <l>con paz y union celebrada.</l>
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1855.
+                  <lb/>Imprenta de D. José María Moreno, Descalzas, num. 1.
+               </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

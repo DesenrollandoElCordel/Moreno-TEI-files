@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_178">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pasillo del capitán Cascada y el licenciado Torrejón</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Pasillo del capitán Cascada y el licenciado
+                     Torrejon.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 187</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_178_1.xml">grabado_m_178_1</item>
+                           <item corresp="grabado_m_178_2.xml">grabado_m_178_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX555916.html" type="tipo_texto">Pasillos</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_178_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum">Número 187.</fw>
+
+               <head type="primer_titulo">
+                  <lb/>PASILLO
+                  <lb/>DEL CAPITAN CASCADA
+                  <lb/><hi rend="cursiva">y el licenciado Torrejon.</hi>
+               </head>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l rend="indent">Buenas nochesDon Cascada, </l>
+                  <l>capítan muy valeroso.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Si peleé con un oso</l>
+                  <l>con mi inimitable espada. </l>
+                  <l>¿Que tal vamos torrejon,</l>
+                  <l>se ha compuesto alguna cosa?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>El cariño de una hermosa,</l>
+                  <l>es toda mi ocupacion.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Y provechosa por cierto.</l>
+                  <l>¿Os rendisteis al amor?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>No pudo mi corazon,</l>
+                  <l>resistir á un gran portento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>¿Que tal es la mozoleja?</l>
+                  <l>¿Es bonita y salerosa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Mas picotera que hermosa </l>
+                  
+               <pb n="2"/>
+                  
+                  <l>al fin, hija de Comadreja.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Sea muy en hora buena</l>
+                  <l>¿y sereis correspondido?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Todavia Torrejon,</l>
+                  <l>no he rendido esa belleza,</l>
+                  <l>por que tiene mas firmeza</l>
+                  <l>que gato en caramanchon.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Don Torrejon y que hareis</l>
+                  <l>á vista de esta crueldad.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Ponerle sitio un mes mas</l>
+                  <l>y rendida la vereis,</l>
+                  <l>yo la tengo de rendir</l>
+                  <l>à fé de poéta bueno,</l>
+                  <l>y muy tranquilo y sereno</l>
+                  <l>me la tengo de engullir.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Luego es hecha esta aventura.</l>
+                  <l>¿Y su padré os la consiente?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Que se dé dientes con dientes</l>
+                  <l>si me niega esta hermosura:</l>
+                  <l>Soy poéta atropellado</l>
+                  <l>inconvenientes no miro</l>
+                  <l>y en berdad que yo admiro</l>
+                  <l>de mi no se haya prendado.</l>
+                  <l>Mi estampa es un poco linda,</l>
+                  <l>y siento dentro de mi:...</l>
+                  <l>un gallo quiquiriquí</l>
+                  <l>con que enamoré á Rosinda</l>
+                  <l>esta jovencita bella</l>
+                  <l>no pudiendo resistir</l>
+                  <l>estar ausente de mí</l>
+                  <l>se remontó á las estrellas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>No dudo viendo á un hidalgo</l>
+                  <l>que su mano ha pretendido...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Me la dé á mi por marido</l>
+                  <l>y de dote tambien algo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>¿Y es muy rico si se sabe</l>
+                  <l>su padre Don Zacarias?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Me enseña todos los dias</l>
+                  <l>un arca con una llave.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>¿Y se encierra en el arca</l>
+                  <l>unos veinte mil doblones?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Unos vinte mil iibrones,</l>
+                  <l>mas viejos que la tia Paca.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Con tan ecselente dote</l>
+                  <l>alegre estareis por cierto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>La alegria y el contento</l>
+                  <l>me salen por el cogote.</l>
+                  <l>¿Por qué es poco poseer</l>
+                  <l>las selectas de Virgilio,</l>
+                  <l>elamigo de los niños;</l>
+                  <l>y el Fleuri para aprender?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Ojalá que sigais bien</l>
+                  <l>viviendo con grande gloria.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>De vuestra vida la historia</l>
+                  <l>quiero me conteis tambien.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Cascada</speaker>
+                  <l>La mia es muy diferente.</l>
+                  <l>á la que me habeis contado..</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Será de algun atentado</l>
+                  <l>digno de un hombre valiente.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  
+               <pb n="3"/>
+                  
+                  <l>En verdad que como has dicho</l>
+                  <l>no faltan sus valentias</l>
+                  <l>en que entretuve mis dias,</l>
+                  <l>sobre tado la del vicho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Señor capitan Cascada</l>
+                  <l>quereis contarme esa historia, </l>
+                  <l>que será la mayor gloria</l>
+                  <l>de esa valerosa espada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Con mucho gusto señor.</l>
+                  <l>esta historia os contaré,</l>
+                  <l>por ser quien la egecuté, </l>
+                  <l>camino del gran Mogol.</l>
+                  <l>Iba pues una mañana,</l>
+                  <l>del estío calurosa, </l>
+                  <l>con una damita hermosa</l>
+                  <l>llamada la bella Juana.</l>
+                  <l>Esta bonita Sañora </l>
+                  <l>me hablaba con mucho amor</l>
+                  <l>y le acometio un dolor</l>
+                  <l>que le duró un cuarto de hora.</l>
+                  <l>Al instanté me turbé,</l>
+                  <l>mas cobrando mi valor</l>
+                  <l>sin miedo ya ni temor,</l>
+                  <l>al punto la levanté.</l>
+                  <l>Le pregunté por qué causa</l>
+                  <l>un accidente le dió,</l>
+                  <l>y ella me respondió</l>
+                  <l>con temor y grande pausa:</l>
+                  <l>¿conservais aun el valor</l>
+                  <l>para defenderme á mi! </l>
+                  <l>Entonces la respondí</l>
+                  <l>que no conocia el temor.</l>
+                  <l>Luego Diego Cascada</l>
+                  <l>sacár la espada valiente</l>
+                  <l>castigar al insolete</l>
+                  <l>por quien me veo ultrajada.</l>
+                  <l>Un vicho muy largo, si,</l>
+                  <l>á todas partes me sigue</l>
+                  <l>y dó quiera me persigue,</l>
+                  <l>de esto me dá miedo á mr</l>
+                  <l>y si logro ser vengada</l>
+                  <l>de tan infame animal,</l>
+                  <l>no tendré mas que penar</l>
+                  <l>ni seré mas desdichada.</l>
+                  <l>El avimal esta allí</l>
+                  <l>metido en aquel rincon;</l>
+                  <l>cubierto de un gran ceron</l>
+                  <l>que me lo ha robado á mi.</l>
+                  <l>ld conla espada sacada </l>
+                  <l>por que es valiente y traidor</l>
+                  <l>si os arranca el corazon</l>
+                  <l>no os valdrá ser don Cascada, </l>
+                  <l>esto dijo, y silenciosa</l>
+                  <l>los ojos al suelo bajó,</l>
+                  <l>cosa que á mi me encantó</l>
+                  <l>el verla tan enfadosa;</l>
+                  <l>entonces cogí un baston</l>
+                  <l>al rincon me dirijí,</l>
+                  <l>y en un instante hice añí</l>
+                  <l>á aquel furioso leon:</l>
+                  <l>su estatura natural</l>
+                  <l>era la de una curiana,</l>
+                  <l>muy parecida á la rana </l>
+                  <l>en el modito de andar, </l>
+                  <l>de modo que no dejó</l>
+                  <l>de imponerme alguna cosa,</l>
+                  <l>aquella fiera babosa</l>
+                  <l>hasta que al punto espiró.</l>
+                  <l>Con esto acabó la historiá</l>
+                  <l>tan digna de ser contada,</l>
+                  <l>por don Diego de Cascada</l>
+                  <l>todo cubierto de gloria.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Amigo sois grande hombre</l>
+                  <l>y me temo que la ley, </l>
+                  <l>os ha de alcanzar del Rey</l>
+                  
+               <pb n="4"/>
+                  
+                  <l>un titulo á vuestro nombre.</l>
+                  <l>Compadre yo ensalzarè</l>
+                  <l>vuestro valor singular</l>
+                  <l>hasta que os llegue á lograr</l>
+                  <l>un empleo aragones, </l>
+                  <l>y aun aqui no he de acabar</l>
+                  <l>en misveridicos versos,</l>
+                  <l>ponderaré vuestros hechos</l>
+                  <l>aumentandolos aun mas,</l>
+                  <l>pasarè á ver á Hinestrosa</l>
+                  <l>hombre que sabe premiar</l>
+                  <l>á los que sin temeridad</l>
+                  <l>saben matar las babosas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Amigo es una justicia</l>
+                  <l>el haberme á mi alabado, </l>
+                  <l>pues sería un gran pecado</l>
+                  <l>lo demas; y una injusticia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrajon.</speaker>
+                  <l>Entre tanto capitan</l>
+                  <l>se disponen nuestras cosas,</l>
+                  <l>Dios nos libre de babosas</l>
+                  <l>que no sepamos matar.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Estoy bien acostumbrado</l>
+                  <l>esa canalla á vencer</l>
+                  <l>y hacerlas en polvo arder</l>
+                  <l>por castigo á su pecado.</l>
+                  <l>En fin he determinado,</l>
+                  <l>visitar á toda España </l>
+                  <l>por ver si hay en azañas</l>
+                  <l>hombre que me haya ganado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Torrejon.</speaker>
+                  <l>Mas antes de de disponer</l>
+                  <l>de ese viage tan largo</l>
+                  <l>pidamosle al lector algo</l>
+                  <l>que nos pueda conceder.</l>
+                  <l>Yo le pido por mi parte</l>
+                  <l>por ser esta la vez primera</l>
+                  <l>que el perdon me lo concedan</l>
+                  <l>si soy digno de alcanzarle.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Cascada.</speaker>
+                  <l>Yo le pido por la mia </l>
+                  <l>ahora en este intermedio,</l>
+                  <l>que me perdonen mi años</l>
+                  <l>que solo son trece y medio.</l>
+               </sp>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <l>CARMONA:—1856. </l>
+                  <l>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.</l>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

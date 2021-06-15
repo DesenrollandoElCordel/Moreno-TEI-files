@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_108">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juan Lanas. Coplas muy divertidas de un hombre trabajador del campo</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Juan Lanas. Coplas muy divertidas de un hombre
+                     trabajador del campo, que viniendo de su trabajo halló á su muger cercana al
+                     parto, y la casa á oscuras. Refiérese la mala noche que pasó el pobre, y lo
+                     demás que verá el lector.</title>
+                  <title type="titulo_breve">Juan Lanas. Coplas muy divertidas de un hombre
+                     trabajador del campo</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1857</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_108_1.xml">grabado_m_108_1</item>
+                           <item corresp="grabado_m_108_2.xml">grabado_m_108_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5501105.html" type="tipo_texto">Coplas</term>
+               <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_108_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+               
+               <fw type="impresorNum">(Número 116.)</fw>
+               
+               <head rend="negrita" type="primer_titulo">JUAN LANAS.</head>
+               <head type="subtitulo">
+                  <lb/><hi rend="negrita">COPLAS MUY DEVERTIDAS</hi>
+                  <hi rend="cursiva"><lb/>de un hombre trabajador del campo, que viniendo de su trabajo halló á su
+                  <lb/>muger cercana al parto, y la casa á oscuras. Refiérese la mala noche que
+                  <lb/>pasó el pobre, y lo demás que verá el lector.</hi>
+               </head>
+               
+               <lg>
+                  <l rend="indent">Una noche muy oscura</l>
+                  <l>que llovia sin cesar,</l>
+                  <l>vino del campo Juan Lanas,</l>
+                  <l>cansado de trabajar.</l>
+                  <l>Vió la casa á oscuras,</l>
+                  <l>sin luz, sin pajuela,</l>
+                  <l>aceite ni vela,</l>
+                  <l>y el candil rodando, </l>
+                  <l>la muger en la cama llorando,</l>
+                  <l>de antaño la risa,</l>
+                  <l>de muy mala guisa</l>
+                  <l>y sin saber cosa</l>
+                  <l>con blandura la dijo á su esposa:</l>
+                  <l>deja pesadumbre,</l>
+                  <l>y enciende la lumbre</l>
+                  <l>que vengo mojado,</l>
+                  
+               <pb n="2"/>
+                  
+                  <l>y la cena preven de contado,</l>
+                  <l>haz luego la cama, </l>
+                  <l>que el sueño me llama</l>
+                  <l>y hay que madrugar.</l>
+                  <l rend="cursiva">!Ah que noche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">La muger respondió al punto</l>
+                  <l>todo lo debes dejar,</l>
+                  <l>porque yo quiero parir,</l>
+                  <l>y esto no puede esperar:</l>
+                  <l>corre por aceite,</l>
+                  <l>llama á las vecinas,</l>
+                  <l>mata dos gallinas,</l>
+                  <l>y avisa á mi madre,</l>
+                  <l>coriiendo ves por la comadre:</l>
+                  <l>toma esa botella,</l>
+                  <l>te traerás en ella</l>
+                  <l>media con decoro,</l>
+                  <l>de aquel rico vino</l>
+                  <l>que vende Angel Moro,</l>
+                  <l>tráete de camino</l>
+                  <l>la carne y tocino,</l>
+                  <l>garbanzos, y parte</l>
+                  <l>á la lonja por el chocolate</l>
+                  <l>vizcochos bañados</l>
+                  <l>azucar rosado,</l>
+                  <l>que debes comprar.</l>
+                  <l rend="cursiva">¡Ay que noche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Viendo Juan que era preciso</l>
+                  <l>tuvo por bien de marchar</l>
+                  <l>á todos estos recados</l>
+                  <l>y sin un punto tardar.</l>
+                  <l>Anda por las calles</l>
+                  <l>haciendo mil eses,</l>
+                  <l>dando mil trapieses, </l>
+                  <l>y echando baladre, </l>
+                  <l>y sacando los charcos de madre,</l>
+                  <l>por calles, plazuelas</l>
+                  <l>y por callejuelas</l>
+                  <l>cojiendo á montones</l>
+                  <l>las cascarrias hasta los calzones</l>
+                  <l>aquí resbalando,</l>
+                  <l>y alli tropezando,</l>
+                  <l>casi sin aliento.</l>
+                  <l>y el estomago lleno de viento,</l>
+                  <l>todas sus andanzas</l>
+                  <l>cumplió sin tardar.</l>
+                  <l rend="cursiva">¡Ay que nóche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Encendió la lumbre, y puso</l>
+                  <l>un puchero á calentar</l>
+                  <l>con agua para unas sopas</l>
+                  <l>que tenia que cenar</l>
+                  <l>cuando la comadre</l>
+                  <l>le dice: usted venga</l>
+                  <l>y á su muger tenga,</l>
+                  <l>porque me sospecho</l>
+                  <l>que este parto viene por derecho</l>
+                  <l>que ya los dolores</l>
+                  <l>vienen á menudo,</l>
+                  <l>y el marido callo como un mudo;</l>
+                  <l>la toma en los brazos,</l>
+                  <l>y ella dando gritos</l>
+                  <l>se vuelve diciendo: ¡ay pobrecito,</l>
+                  <l>que culpa no tienes</l>
+                  <l>de mi gran penar! </l>
+                  <l rend="cursiva">¡Ay que noche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Viendo que ya los dolores</l>
+                  <l>no los puede tolerar,</l>
+                  <l>cuando dijo la comadre</l>
+                  <l>muy poco puede tardar,</l>
+                  <l>Virgen del buen Parto,</l>
+                  <l>señor san Jacinto,</l>
+                  <l>san Ramon bendito..</l>
+                  <l>la estampá al instante </l>
+                  <l>y la vela enciende vigilante!</l>
+                  <l>venga el relicario,</l>
+                  <l>que al tio, Macario </l>
+                  <l>de su abuelo le víno,</l>
+                  <l>y el rosario deltio Victorino</l>
+                  
+               <pb n="3"/>
+                  
+                  <l>la cédula del padre</l>
+                  <l>fray sufras de Cádiz,</l>
+                  <l>que allí dejó escrita</l>
+                  <l>que la beba con agua bendita:</l>
+                  <l>ánimo, hija mia,</l>
+                  <l>que la letenaia</l>
+                  <l>vamos á rezar,</l>
+                  <l rend="cursiva">¡Ay que noche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Salió á luz una muchacha</l>
+                  <l>despues de todo este afan.</l>
+                  <l>mala noche y parir hija,</l>
+                  <l>como dice aquel refran.</l>
+                  <l>Dice la partera</l>
+                  <l>beba água caliente,</l>
+                  <l>sople la aceitera,</l>
+                  <l>masque unos cabellos,</l>
+                  <l>tanto cuanto llegue</l>
+                  <l>á bomitar con ellos</l>
+                  <l>la tijera pido,</l>
+                  <l>un hilo torcido,</l>
+                  <l>la faja y pañuelo:</l>
+                  <l>y apretando el nudo con celo,</l>
+                  <l>la faja ceñida,</l>
+                  <l>la parida en la cáma metida</l>
+                  <l>la dejó, y ordena</l>
+                  <l>que de dos en dos horas beba</l>
+                  <l>de caldo una taza,</l>
+                  <l>y Juan con cachaza</l>
+                  <l>se la puede dar</l>
+                  <l rend="cursiva">¡Ay que noche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Acabando con la comadre,</l>
+                  <l>con la niña fué á empezar,</l>
+                  <l>y Juan iba á hacer la cena,</l>
+                  <l>cuando lo volvió á llamar.</l>
+                  <l>Le dice: es preciso</l>
+                  <l>que vaya, no tarde</l>
+                  <l>por el albayalde,</l>
+                  <l>y en su compañia</l>
+                  <l>el jarave de la peoñia;</l>
+                  <l>se traerá un pocillo</l>
+                  <l>con el culantrillo,</l>
+                  <l>y la escorzonera-</l>
+                  <l>y tomando la niña ligera</l>
+                  <l>la que con destréza</l>
+                  <l>la armó la cabeza,</l>
+                  <l>y con disimulo</l>
+                  <l>la metió un dedito en el culo,</l>
+                  <l>la envuelve en la faja,</l>
+                  <l>y ella se desgaja</l>
+                  <l>al punto á llorar,</l>
+                  <l rend="cursiva">¡Ay que noche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Vino Juan y la comadre</l>
+                  <l>asi que la vido entrar,</l>
+                  <l>le entregó la criatura</l>
+                  <l>y empezó á relatar:</l>
+                  <l>veisla aquí su hija,</l>
+                  <l>la que es como un oro,</l>
+                  <l>gorda como un toro</l>
+                  <l>y es bien que le cuadre</l>
+                  <l>porque en un todo</l>
+                  <l>se parece al padre:</l>
+                  <l>tómela en los brazos:</l>
+                  <l>paseela un rato</l>
+                  <l>que asi el llanto merma</l>
+                  <l>pues que es preciso</l>
+                  <l>que su madre duerma,</l>
+                  <l>por ver si se alivia;</l>
+                  <l>tráigame agua tibia,</l>
+                  <l>búsqueme unos paños,</l>
+                  <l>pues quiero lavarme las manos</l>
+                  <l>y la niña arrulla</l>
+                  <l>donde no arme bulla</l>
+                  <l>que puede inquietar.</l>
+                  <l rend="cursiva">Ay que noche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Cuidado que á la parida</l>
+                  <l>no se la puede inquietar,</l>
+                  <l>que si se sube la madre</l>
+                  <l>al gaznate la puede ahogár </l>
+               
+               <pb n="4"/>
+               
+                  <l>Ninguna se espante,</l>
+                  <l>que esta es una cosa</l>
+                  <l>viva y bulliciosa</l>
+                  <l>que todas tenemos;</l>
+                  <l>y segun su figura sabemos</l>
+                  <l>tiene siete rabos,</l>
+                  <l>que por varios cabos</l>
+                  <l>están repartidos,</l>
+                  <l>y sise le mueve</l>
+                  <l>dá grandes bramidos;</l>
+                  <l>digo lo que es cierto,</l>
+                  <l>que no hallo portento,</l>
+                  <l>ni jamas lo esperes</l>
+                  <l>como llover y parir las mugeres;</l>
+                  <l>y Juan muy alerta</l>
+                  <l>con la boca abierta</l>
+                  <l>la está oyendo hablar.</l>
+                  <l rend="cursiva">¡Ay que noche para descansar!</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Se despide la comadre</l>
+                  <l>y las vecinas se van</l>
+                  <l>quadando solo en casa </l>
+                  <l>la madre, la niña y Juan.</l>
+                  <l>Dice la parida;</l>
+                  <l>Juan me dá el flato:</l>
+                  <l>la lleva un plato</l>
+                  <l>vizcochos y vino,</l>
+                  <l>y la niña llorando sin tino</l>
+                  <l>la toma en los brazos,</l>
+                  <l>la arrulla y pasea,</l>
+                  <l>la duerme, la acuesta</l>
+                  <l>y la cena, que á la lumbre puesta</l>
+                  <l>muy desazonada</l>
+                  <l>para su persona,</l>
+                  <l>tomó una cuchilla;</l>
+                  <l>y echó en sopas</l>
+                  <l>medio pan de villa;</l>
+                  <l>con este refuerzo,</l>
+                  <l>que sirvió de almuerzo,</l>
+                  <l>se fué á trabajar.</l>
+                  <l>Ay qué noche tan terrible!</l>
+                  <l rend="cursiva">pasó el pobre Juan.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">A todos los que han oido</l>
+                  <l>las coplas, dice Juan Lanas,</l>
+                  <l>no se fien de mugeres,</l>
+                  <l>pues que conocen sus mañas.</l>
+                  <l>Yo que me he fiado,</l>
+                  <l>muy mal lo he pasado,</l>
+                  <l>como antes dijo,</l>
+                  <l>y las coplas aqui finalizo</l>
+                  <l>si leerlas quisieren</l>
+                  <l>todos mis amigos,</l>
+                  <l>echen mano luego</l>
+                  <l>á los bolsillos;</l>
+                  <l>ninguno se enoje,</l>
+                  <l>tomen el papel,</l>
+                  <l>y dos cuartos aflojen por él.</l>
+               </lg>
+               
+               <l rend="cursiva">FIN.</l>
+            </div>
+            
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1857.
+                  <lb/>Imprenta de D. Jose Maria Moreno, calle Juan de la Cabra núm.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

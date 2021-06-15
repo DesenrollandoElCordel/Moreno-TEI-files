@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_111">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Décimas nuevas de la sagrada pasión</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Decimas nuevas de la sagrada pasion y muerte,
+                     resurreccion y Ascension gloriosa á los Cielos de nuestro Señor Jesucristo con
+                     otras misticas y contemplativas.</title>
+                  <title type="titulo_breve">Decimas nuevas de la sagrada pasion</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 120</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Décimas</item>
+                        <item>Trovos</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Decimas nuevas de la sagrada pasion y muerte, resurreccion y Ascension
+                        gloriosa á los Cielos de nuestro Señor Jesucristo con otras misticas y
+                        contemplativas.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Trobos misticos. Dolorosa despedida de nuestro divino redentor Jesus y
+                        su Santísima Madre.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_111_1.xml">grabado_m_111_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Trovos</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_111_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum">(Número 120.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">DECIMLAS NUEVAS.</hi>
+                  <lb/>DE LA SAGRADA PASION Y MUERTE, RESURRECCION
+                  <lb/>y Ascension gloriosa á los Cielos de nuestro Señor Jesucristo
+                  <lb/>con otras misticas y contemplativas.
+               </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Murió Cristo ¡que dolor!</l>
+                  <l>resucitó, ¡que alegria!</l>
+                  <l>no fué triunfante a los cielos</l>
+                  <l>hasta las cuarenta dias.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por divina Providencia</l>
+                  <l>vino Cristo á padecer,</l>
+                  <l>y á su Padre obedecer</l>
+                  <l>para sufrir con paciencia;</l>
+                  <l>azotes con insolencia,</l>
+                  <l>y con tirano rigor</l>
+                  <l>enclavaron al Criador</l>
+                  <l>los crueles inhumanos,</l>
+                  <l>y en la cruz por los humanos</l>
+                  <l rend="cursiva">¡murió Cristo que dolor!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Temblaron los elementos</l>
+                  <l>al ver á Jesus sin vida,</l>
+                  <l>pero al hacer su partida</l>
+                  <l>rasgóse el velo del Templo;</l>
+                  <l>causó grande sentimiento,</l>
+                  <l>al corazon de Maria,</l>
+                  <l>qu en su pechono cabia</l>
+                  <l>mirando muerto al Cordero</l>
+                  <l>y luego al día tercero</l>
+                  <l rend="cursiva">¡resucitó, que alegria! </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Muchos han certificado</l>
+                  <l>que bajó al seno de Abraham,</l>
+                  <l>y luego le digo á Adan</l>
+                  <l>mira lo que me ha costado</l>
+                  <l>tu inobediencia y pecado:</l>
+                  <l>y Adan dijo con anhelo:</l>
+                  <l>tu nombre alabo en el Cielo;</l>
+                  <l>y á los Santos Padres vió,</l>
+                  <l>y hasta que los redimió</l>
+                  <l rend="cursiva">no fué triunfante á los cielos</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Magdalena reverente</l>
+                  <l>despues del apóstolado,</l>
+                  <l>paz le dio el resucitado:</l>
+                  <l>prometióle juntamente</l>
+                  <l>que el Santo Espiritu siempre;</l>
+                  <l>sobre el Colegío vendria,</l>
+                  <l>y que los ilustraria</l>
+                  <l>concluida su pasion,</l>
+                  <l>pero no fué su Ascencion</l>
+                  <l rend="cursiva">hasta los cuarenta dias.</l>
+               </lg>
+
+               <pb n="2"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Por la confesion saliste</l>
+                  <l>de tu Dios ya perdonado;</l>
+                  <l>no vuelvas, hombre, otra vez</l>
+                  <l>a caer en el pecado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando poco ha te hallabas</l>
+                  <l>tan infeliz en pecado,</l>
+                  <l>y al infierno condenado</l>
+                  <l>por el Eterno te hallabas,</l>
+                  <l>tú que ya lo recelebas</l>
+                  <l>al templo de Dios viniste,</l>
+                  <l>luego que en el estubiste</l>
+                  <l>confesaste de contado,</l>
+                  <l>y de tu Dios perdonado</l>
+                  <l rend="cursiva">por la confesion saliste.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hiciste gran penitencia</l>
+                  <l>tu súplica el Cielo oyó,</l>
+                  <l>por mil lados te probó;</l>
+                  <l>mas usaste de paciencia;</l>
+                  <l>viendo tú que con clemencia</l>
+                  <l>siempre aquel Dios te ha tratado,</l>
+                  <l>ante un confesor postrado,</l>
+                  <l>de los placeres te vedas,</l>
+                  <l>y entonces sabes que quedas</l>
+                  <l rend="cursiva">de tu Dios ya perdonado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Lo que el mundo da de si,</l>
+                  <l>bien lo sabes, pecador,</l>
+                  <l>¡llénete pues de terror</l>
+                  <l>lo que pudo ser de tí!</l>
+                  <l>entra en tu interior y di:</l>
+                  <l>si yo le ofendo otra vez,</l>
+                  <l>¿qué seré de mi altivez?</l>
+                  <l>Mas si té quieres salvar</l>
+                  <l>lo que es á Dios agraviar</l>
+                  <l rend="cursiva">no vuelvas, hombre, otravez.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por toda una eternidad</l>
+                  <l>sentenciado ya te hallabas</l>
+                  <l>al infierno, por que estabas</l>
+                  <l>arraigado en la maldad;</l>
+                  <l>mas tuvo de ti piedad</l>
+                  <l>aquel Dios tan agraviado;</l>
+                  <l>ponte á sus plantas postrado</l>
+                  <l>y dile sin altivez</l>
+                  <l>y no volveré otra vez</l>
+                  <l rend="cursiva">a caer en el pecado.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Dice Cristo al pecador; </l>
+                  <l>¡que seas tan poco atento! </l>
+                  <l>sin guardar los mandamientos,</l>
+                  <l>no te daré salvacion.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si el primer mandamiento</l>
+                  <l>no amas á Dios que es tu padre,</l>
+                  <l>ni respetas á su madre,</l>
+                  <l>serás hombre desatento:</l>
+                  <l>el segundo mandamiento,</l>
+                  <l>tú juras, pues, sin razon,</l>
+                  <l>ofendes aquel Señor</l>
+                  <l>que murió crucificado;</l>
+                  <l>hombre, déjate el pecado,</l>
+                  <l rend="cursiva">dice Cristo al pecador:</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El mandamiento tercero</l>
+                  <l>veas si has estado en misa,</l>
+                  <l>si la oyes es deprisa,</l>
+                  <l>con sacerdote ligero;</l>
+                  <l>mira que esto clama al cielo,</l>
+                  <l>lo llenas de sentimiento,</l>
+                  <l>busca tu arrepentimiento;</l>
+                  <l>mira que el crucificado</l>
+                  <l>le dice á aquel que ha pecado,</l>
+                  <l rend="cursiva">¡que seas tan poco atento!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Honrarás á padre y madre</l>
+                  <l>y en el quinto no matar,</l>
+                  <l>el sesto debes guardar,</l>
+                  <l>como todo el mundo sabe:</l>
+                  <l>no le robes nada á nadie,</l>
+                  <l>restituyelo al momento,</l>
+                  <l>mira que Dios descontento</l>
+                  <l>te dirá á ti pecador,</l>
+                  <l>no puede haber salvacion</l>
+                  <l rend="cursiva">sin guardar los mandamientos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En el octavo verás</l>
+                  <l>si al prójimo no has mirado,</l>
+                  <l>y si la honra le has quitado,</l>
+                  <l>volverla procurarás:</l>
+                  <l>mira el noveno y verás</l>
+                  <l>aquel que le haces traicion,</l>
+                  <l>en el décimo aquel Dios</l>
+                  <l>te dirá muy irritado:</l>
+                  <l>si no dejas el pecado</l>
+                  <l rend="cursiva">no te daré salvacion.</l>
+               </lg>
+
+               <pb n="3"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">En la Hostia Consagrada</l>
+                  <l>está nuestro Redentor</l>
+                  <l>tiene los brazos abiertos,</l>
+                  <l>esperando al peeador.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Despues de bien confesado</l>
+                  <l>llega el pecador al altar,</l>
+                  <l>y recibe aquel manjar</l>
+                  <l>de Jesus Sacramentado:</l>
+                  <l>alli verás de contado</l>
+                  <l>toma en tu pecho morada,</l>
+                  <l>allí se queda encerrada</l>
+                  <l>la Forma con tu Jesus;</l>
+                  <l>que está tu norte y tu luz</l>
+                  <l rend="cursiva">en la Hostia Consagrada.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Todo aquel arrepentido</l>
+                  <l>llegáre de corazon,</l>
+                  <l>y reciba aquel Señor</l>
+                  <l>que se da á comer benigno;</l>
+                  <l>es muy cierto y muy sabido,</l>
+                  <l>que todo aquel pecador</l>
+                  <l>que contrito y con dolor</l>
+                  <l>recibe este Sacramento,</l>
+                  <l>pues en este gran portento</l>
+                  <l rend="cursiva">está nuestro Redentor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Se dá á comer muy piadoso</l>
+                  <l>á el bandido y malhechor,</l>
+                  <l>á el mas grande pecador,</l>
+                  <l>á el tísico y al leproso,</l>
+                  <l>á el que está en un calabozo,</l>
+                  <l>lo visita y muy contento</l>
+                  <l>este grande Sacramento</l>
+                  <l>es mas hermoso que el sol;</l>
+                  <l>para todo pecador</l>
+                  <l rend="cursiva">tiene los brazos abiertos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Lleguemos pues de contado,</l>
+                  <l>á recibir al señor,</l>
+                  <l>que nos dá gracia y valor,</l>
+                  <l>con el pan sacramentado.</l>
+                  <l>Hombre, déjate el pecado,</l>
+                  <l>no ofendas mas al Señor,</l>
+                  <l>que te dá fuerza y valor,</l>
+                  <l>y que te puede premiar,</l>
+                  <l>tiene el reino celestial,</l>
+                  <l rend="cursiva">esperando al pécador.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Sale el sol por la mañana</l>
+                  <l>algo triste y macilento:</l>
+                  <l>conforme va entrando el dia</l>
+                  <l>su hermosura va en aumento.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El ruiseñor con su canto</l>
+                  <l>y tambien la tortolilla,</l>
+                  <l>anuncian con alegria</l>
+                  <l>del dia su hermoso canto:</l>
+                  <l>el niño despierta en llanto</l>
+                  <l>al eco de la campana,</l>
+                  <l>y como el néctar le mana,</l>
+                  <l>sácia luego el apetito,</l>
+                  <l>para bien del angelito</l>
+                  <l rend="cursiva">sale el sol por la mañana.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El hombre que se dá al vicio</l>
+                  <l>ya á bebida ya á muger,</l>
+                  <l>¿no sabe que ha de tener</l>
+                  <l>el infierno por hospicié?</l>
+                  <l>¿Ignora que el dia del juicio</l>
+                  <l>teniendo á Dios descontento</l>
+                  <l>le ha de dar por alimento</l>
+                  <l>culebras muy ponzoñosas?</l>
+                  <l>Pónte á pensar tales cosas</l>
+                  <l rend="cursiva">algo triste y macilento.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Todo el mundo se despierta</l>
+                  <l>mil gracias le dan á Dios;</l>
+                  <l>padres é hijos en pos</l>
+                  <l>se presentan en sus puertas;</l>
+                  <l>otros agarran sus cestas</l>
+                  <l>con estremada alegría,</l>
+                  <l>la oveja sigué á su cria,</l>
+                  <l>el cencerro va sonando,</l>
+                  <l>cada cual se va marchando,</l>
+                  <l rend="cursiva">conforme va entrando el dia. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El alma que está en pecado</l>
+                  <l>está triste y horrorosa,</l>
+                  <l>y al mismo tiempo asquerosa.</l>
+                  <l>por que á su Dios ha agraviado,</l>
+                  <l>luego que ha considerado</l>
+                  <l>su frenético tormento,</l>
+                  <l>por medió del Sacramento</l>
+                  <l>se pone al instante en cura,</l>
+                  <l>y sramará Dios precura,</l>
+                  <l rend="cursiva">su hermosura va en aumento.</l>
+               </lg>
+            </div>
+
+            <div>
+               <pb n="4"/>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">TROBOS MISTICOS.</hi>
+                  <lb/>DOLOROSA DESPEDIDA DE NUESTRO DIVINO REDENTOR
+                  <lb/><hi rend="cursiva">Jesus y su Santísima Madre.</hi>
+               </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Aquí vengo madre mia,</l>
+                  <l>á daros noticia amarga;</l>
+                  <l>es preciso he de morir</l>
+                  <l>por bien de la gente humana.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por cumplir la profecia</l>
+                  <l>haciendo al mundo favor,</l>
+                  <l>penetrado de agonia</l>
+                  <l>á daros fuerte dolor,</l>
+                  <l rend="cursiva">aquí vengo, madre mia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me dió el pecado tal carga</l>
+                  <l>que Adan me encargó ámi,</l>
+                  <l>preciso es que satisfaga,</l>
+                  <l>por eso vengo yo aquí</l>
+                  <l rend="cursiva">á daros noticia amarga.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sin falta he de cumplir</l>
+                  <l>lo que me ordenó mi Padre, </l>
+                  <l>ya podeis bien advertir</l>
+                  <l>amada y querida Madre,</l>
+                  <l rend="cursiva">es preciso he de morir</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por voluntad soberana</l>
+                  <l>pura me habeis concebido, </l>
+                  <l>mirad que el mundo clama</l>
+                  <l>sabiendo que yo he venido</l>
+                  <l rend="cursiva">por bien de la gente humana.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Hijo de mi corazon,</l>
+                  <l>regalada prenda mia,</l>
+                  <l>vuestra triste pretension</l>
+                  <l>me deja del todo herida.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Bien veo en esta ocasion</l>
+                  <l>muy clara la profesia, á</l>
+                  <l>que me anunció Simeon.</l>
+                  <l>cual dijo muerto os veria,</l>
+                  <l rend="cursiva">hijo de mi corazon.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tanta pena y agonia</l>
+                  <l>en mi corazon me dais;</l>
+                  <l>dejaos de hacer tal via</l>
+                  <l>si con cariño me amais,</l>
+                  <l rend="cursiva">regalada prenda mia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vos sois mi consolacion,</l>
+                  <l>mi contento y alegria,</l>
+                  <l>dentro de mi corazon,</l>
+                  <l>y me llena de agonia,</l>
+                  <l rend="cursiva">vuestra triste pretension.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Siempre ha sido á vuestra vida</l>
+                  <l>vuestra Madre muy constante</l>
+                  <l>y ahora con tal partida</l>
+                  <l>esta espada penetrante,</l>
+                  <l rend="cursiva">me deja del todo herida.</l>
+               </lg>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>REIMPRESO EN CARMONA.
+                  <lb/>ļmprenta de D. José M. Moreno, calle de las Descalzas número 1.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

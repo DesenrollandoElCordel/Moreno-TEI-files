@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_101">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nuestra Señora de los Dolores</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Ntra. Sra. de los Dolores. Nuevas decimas.</title>
+                  <title type="titulo_breve">Ntra. Sra. de los Dolores</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_101_1.xml">grabado_m_101_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto"/>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_101_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum"><hi rend="cursiva">Núm.</hi> 110.</fw>
+
+               <head type="primer_titulo">NTRA. SRA. DE LOS DOLORES.</head>
+               <head type="subtitulo">NUEVAS DECIMAS.</head>
+
+               <pb n="2"/>
+               <lg rend="cursiva">
+                  <l rend="indent">Ni los clavos ni el madero</l>
+                  <l>me tienen aqui clavado,</l>
+                  <l>sino solo tu pecado</l>
+                  <l>por lo mucho que te quiero.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Clemencía por mí no imploro,</l>
+                  <l>pues nunca á Dios ofendí,</l>
+                  <l>solo pecador por tí</l>
+                  <l>es por quien suspiro y lloro:</l>
+                  <l>tan solamente atesoro</l>
+                  <l>ir como humilde cordero</l>
+                  <l>al Calvario donde espero</l>
+                  <l>tus ofensas redimir,</l>
+                  <l>y á ti no te hacen gemir</l>
+                  <l rend="cursiva">ni los clavos ni el madero.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ni la cruz que me pusieron</l>
+                  <l>en los hombros por tu amor,</l>
+                  <l>ni la venta del traidor,</l>
+                  <l>ni los golpes que me dieron,</l>
+                  <l>todos juntos no pudieron</l>
+                  <l>tanto mal haber causado,</l>
+                  <l>como aquel primer pecado,</l>
+                  <l>que llenó al cielo de horror</l>
+                  <l>y hoy tus culpas pecador</l>
+                  <l rend="cursiva">me tienen aqui clavado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por un Judas fui vendido,</l>
+                  <l>sentenciado por Pilato,</l>
+                  <l>y por las hombres ingratos</l>
+                  <l>blasfemado y escupido:</l>
+                  <l>mi rostro fué denegrido,</l>
+                  <l>mi cuerpo todo llagado,</l>
+                  <l>de espinas fuí coronado</l>
+                  <l>mi vista quedó sin luz:</l>
+                  <l>¿quién esto causó á Jesús</l>
+                  <l rend="cursiva">sino solo tu pecado?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Deja tus vicios mundano,</l>
+                  <l>y si me quereis buscar,</l>
+                  <l>en las aras del altar</l>
+                  <l>podrás encontrarme á mano:</l>
+                  <l>allí te daré la mano</l>
+                  <l>con tal ansia y tal esmero,</l>
+                  <l>que en el propio instante espero</l>
+                  <l>quedes limpio de pecado,</l>
+                  <l>pues quedé Sacramentado</l>
+                  <l rend="cursiva">por lo mucho que te quiero.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por el Angel del Señor</l>
+                  <l>seremos todos llamados</l>
+                  <l>al valle de Josafat,</l>
+                  <l rend="cursiva">á ser por Jesus juzgados.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Solo afliccion y agonia,</l>
+                  <l>penas, agustias y llantos</l>
+                  <l>desesperacion y espanto</l>
+                  <l>se presenciará aquel dia;</l>
+                  <l>cuando el hijo de Maria</l>
+                  <l>se presente con rigor</l>
+                  <l>á tomar al pecador,</l>
+                  <l>la cuenta de sus pecados,</l>
+                  <l>siendo para esto llamados</l>
+                  <l rend="cursiva">por el Angel del Señor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El sol quedará sin luz,</l>
+                  <l>la luna se eclipsará. </l>
+                  <l>y en el aire se verá</l>
+                  <l>a la diestra de Jesús</l>
+                  <l>aquella pesada Cruz,</l>
+                  <l>donde fué crucificado,</l>
+                  <l>afligido y augustiado,</l>
+                  <l>por ti infeliz pecador,</l>
+                  <l>no olvides que ante el Señor</l>
+                  <l rend="cursiva">seremos todos llamados.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Todos seremos llamados</l>
+                  <l>á presencia del Eterno,</l>
+                  <l>ni se esceptuará el infierno,</l>
+                  <l>ni menos sus condenados,</l>
+
+                  <pb n="3"/>
+
+                  <l>cada cual de sus pecados,</l>
+                  <l>cuenta á Dios tendrá que dar,</l>
+                  <l>no se podrá esceptuar</l>
+                  <l>para este caso á ninguno,</l>
+                  <l>pues iremos uno á uno</l>
+                  <l rend="cursiva">al valle de Josafut.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ninguno podra llamar</l>
+                  <l>en aquel tremendo dia</l>
+                  <l>en su defensa á Maria</l>
+                  <l>pues no le podrá amparar,</l>
+                  <l>en vano sera llorar,</l>
+                  <l>porque por nuestros pecados</l>
+                  <l>estará tan irritado</l>
+                  <l>el Señor de lo Señores,</l>
+                  <l>que ir hará á los pecadores</l>
+                  <l rend="cursiva">a ser por Jesus juzgados.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">La mas hermosa doncella</l>
+                  <l>que en todo ol Orbe se ha visto</l>
+                  <l>por el hombre está rogando</l>
+                  <l>á su Hijo Jesucristo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El patriarca y San Juan</l>
+                  <l>san Anselmo y san Antonio,</l>
+                  <l>san Andrés, san Celedonio,</l>
+                  <l>y el glorioso Sebastian,</l>
+                  <l>san Vicente y san German,</l>
+                  <l>el sol y la luna bella,</l>
+                  <l>los astros y las estrellas</l>
+                  <l>no se cansan de mirar,</l>
+                  <l>ni tampoco de alabar,</l>
+                  <l rend="cursiva">la mas hermosa doncella.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A la diestra de Jesus</l>
+                  <l>está la hermosa doncella</l>
+                  <l>como una radiente estrella</l>
+                  <l>que llena el cielo de luz;</l>
+                  <l>es la misma que en la Cruz</l>
+                  <l>vió espirar á Jesucristo,</l>
+                  <l>pidamos todos contritos</l>
+                  <l>á esta Madre Dolorosa</l>
+                  <l>es la mas linda y hermosa</l>
+                  <l rend="cursiva">que en todo el Orbe se ha visto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">La que sin mancha nació</l>
+                  <l>de pecado orijnal</l>
+                  <l>á la patria celestial</l>
+                  <l>llena de gozo subió:</l>
+                  <l>pero nunca se cansó</l>
+                  <l>de estar á Dios alabando</l>
+                  <l>siempre estuvo suplicando</l>
+                  <l>á la Sacra Omnipotencia,</l>
+                  <l>y para alcanzar clemencia,</l>
+                  <l rend="cursiva">por el hombre está rogando.</l>
+               </lg>
+
+               <lg rend="indent">
+                  <l>Por los agudos dolores</l>
+                  <l>que padecí en tu pasion,</l>
+                  <l>tén lastima y compasion</l>
+                  <l>de los pobres pecadores,</l>
+                  <l>cesen, cesen tus rigores,</l>
+                  <l>pues aunque en ellos no has visto</l>
+                  <l>ninguna enmienda, yo insisto</l>
+                  <l>en tu justicia aplacar,</l>
+                  <l>ayudémosle a rogar</l>
+                  <l rend="cursiva">á su Hijo Jesucristo.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Tú que pasas, miramé,</l>
+                  <l>detente un poco en mis llagas,</l>
+                  <l>y verás qne mal me pagas</l>
+                  <l>la sangre que derramé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pecador, por tí me ví</l>
+                  <l>en una Cruz enclavado,</l>
+                  <l>y de espinas coronado,</l>
+                  <l>como bien me ves aquí,</l>
+                  <l>como te duelas de mí,</l>
+                  <l>á mi diestra te pondré,</l>
+                  <l>tambien te coronare</l>
+                  <l>en mi reino celestial,</l>
+
+                  <pb n="4"/>
+
+                  <l>Cristo dijo así al mortal,</l>
+                  <l rend="cursiva">tú que pasas, miramé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">La noche del prendimiento,</l>
+                  <l>los berdugos inhumanos</l>
+                  <l>se arrojaron como alanos</l>
+                  <l>á mi Sacrosanto cuerpo,</l>
+                  <l>quedó herido y tan sangriento,</l>
+                  <l>que mis carnes delicadas</l>
+                  <l>allí fneron destrozadas</l>
+                  <l>por los ingratos crueles</l>
+                  <l>y si tú amor me tu vieres,</l>
+                  <l rend="cursiva">detente un poco en mis llagas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En la calle de Amargura,</l>
+                  <l>la que es Madre de la luz,</l>
+                  <l>vino á encontrar á Jesús</l>
+                  <l>con la Cruz pesada y dura,</l>
+                  <l>la Virgen con gran ternura,</l>
+                  <l>fué con su hijo abrazada,</l>
+                  <l>viendo á la Madre eclipsada,</l>
+                  <l>dijo Jesus con dolor,</l>
+                  <l>detente aqui pecador,</l>
+                  <l rend="cursiva">y verás que mal me pagas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">San Juan y la Magdalena</l>
+                  <l>al monte Calvario fueron,</l>
+                  <l>y con la Vírgen subieron</l>
+                  <l>á consolarla en su pena,</l>
+                  <l>y el rey de bondad suprema</l>
+                  <l>asi que clavado fué,</l>
+                  <l>esclamó con grande fé,</l>
+                  <l>dijo al inmenso Criador,</l>
+                  <l>ten presente pecador</l>
+                  <l rend="cursiva">la sangre que derramé.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Al morir Jesus dejó</l>
+                  <l>al pie de la Cruz escrito,</l>
+                  <l>Rey soy para perdonar,</l>
+                  <l>y á los hombres me remito.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por salvar al pecador</l>
+                  <l>y libranos del infierno,</l>
+                  <l>vino el Redentor Supremo</l>
+                  <l>al mundo con sumo amor,</l>
+                  <l>dia veinte y tres con rigor</l>
+                  <l>humildemente sufrió,</l>
+                  <l>que de su cuerpo sudó</l>
+                  <l>sangre en copiosos raudales,</l>
+                  <l>todas aquestas señales</l>
+                  <l rend="cursiva">al morir Jesus dejó.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">La magestad pura, inmensa,</l>
+                  <l>sufrió con ansias muy finas,</l>
+                  <l>que setenta y dos espinas</l>
+                  <l>traspasaran su cabeza,</l>
+                  <l>Longino con gran fiereza,</l>
+                  <l>acometió en el delito</l>
+                  <l>por un costado bendito</l>
+                  <l>una lanza atravesó,</l>
+                  <l>y allí el perdon alcanzó</l>
+                  <l rend="cursiva">al pié de la Cruz escrito,</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Dice el Eterno Jesus</l>
+                  <l>por boca de San Mateo,</l>
+                  <l>por tí pecador me veo</l>
+                  <l>enclavado en esta Cruz,</l>
+                  <l>y si imitas á mi luz</l>
+                  <l>y amantes quieres buscar,</l>
+                  <l>deja, deja, de pecar,</l>
+                  <l>pecador vente conmigo,</l>
+                  <l>que aunque soy Juez y testigo</l>
+                  <l rend="cursiva">Rey soy para perdonar.</l>
+               </lg>
+               
+               <lg>
+                  <l rend="indent">Si mi le y siguiendo vas</l>
+                  <l>con contrito corazon,</l>
+                  <l>eternamente el perdon</l>
+                  <l>de tus pecados tendrás,</l>
+                  <l>no me acordaré jamás </l>
+                  <l>de tus culpas y delitos,</l>
+                  <l>y si me buscas contrito,</l>
+                  <l>y sales de ese letargo,</l>
+                  <l>yo en mis brazos te aguardo,</l>
+                  <l rend="cursiva">y á los hombres me remito.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA—Imp. de D. José M. Moreno: calle de las Descalzas.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1465 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_199">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sainete nuevo titulado El paje de la obligación</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete nuevo titulado El paje de la
+                     obligacion.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1865</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 210</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_199_1.xml">grabado_m_199_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <acquisition>
+                     <p/>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-19" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_199_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1"/>
+
+            <fw type="impresorNum">Núm. 210.</fw>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">SAINETE NUEVO</hi>
+               <lb/>TITULADO:
+               <hi rend="negrita"><lb/>EL PAJE
+               <lb/>DE LA OBLIGACION.</hi>
+            </head>
+            <head type="subtitulo">PARA SIETE PERSONAS.</head>
+
+            <div type="colofon">
+               <p>
+                  <lb/>Carmona, 1865
+                  <lb/>Imprenta y librería de D. José María Moreno, 
+                  <lb/>calle, Madre de Dios, número 1.
+               </p>
+            </div>
+
+            <div type="reparto">
+               <pb n="2"/>
+
+               <head type="reparto_titulo">PERSONAS.</head>
+               <castList rend="negrita">
+                  <castItem>Alifonso, paje.</castItem>
+                  <castItem>Doña Sinforosa, hija de</castItem>
+                  <castItem>Don Anaeleto.</castItem>
+                  <castItem>El Baron.</castItem>
+                  <castItem>Benita, criada.</castItem>
+                  <castItem>Un Escribano.</castItem>
+                  <castItem>Dos testigos.</castItem>
+               </castList>
+            </div>
+
+            <div>
+               <pb n="3"/>
+               
+               <fw type="paginaNum">3</fw>
+               
+               <stage rend="cursiva">
+                  <lb/>Sala de Don Anacleto, aparese este, y
+                  <lb/>sale el Baron.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Señor Baron, á fé mia</l>
+                  <l>que esperaba mucho tiempo</l>
+                  <l>esta feliz ocasion,</l>
+                  <l>para tratar el concierto</l>
+                  <l>de las bodas de mi hija</l>
+                  <l>que lo espera por momentos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Yo tambien lo deseaba</l>
+                  <l>mi Señor Don Anacleto.</l>
+                  <l>Mas amigo, aquestas cosas</l>
+                  <l>deben mirarse primero;</l>
+                  <l>y advertir con quien se emplea</l>
+                  <l>un hombre de mis efectos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>En eso no hay que mirar</l>
+                  <l>que mi linage es muy bueno;</l>
+                  <l>y mi hija en discrecion</l>
+                  <l>la admiracion de este Reyno,</l>
+                  <l>y un asombro de hermosura,</l>
+                  <l>de honestidad y de aseo...</l>
+                  <l>vamos, no se encuentra igual:</l>
+                  <l>Y despues de todo esto</l>
+                  <l>á mas de hermosura tiene...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Tambien soy buen mozoy tengo...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Mi hija, un fuerte mayorazgo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Y yó un Baronato entero</l>
+                  <l>de Tutiplen, le parece</l>
+                  <l>que es moco de pavo esto?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Ya se, Señor, que V. es rico,</l>
+                  <l>y digo que por lo mesmo</l>
+                  <l>determino hacer la boda,</l>
+                  <l>por qué sino...y ni por pienso.</l>
+                  <l>Pero en fin, en que quedamos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>En que V. me de primero</l>
+                  <l>un papel de lo que tiene</l>
+                  <l>en hacienda, y en dinero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Pues mañana tendrá V,</l>
+                  <l>lo que me pide, dispuesto;</l>
+                  <l>con tal que V. manifieste</l>
+                  <l>lo que posee primero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Si Señor, esto al instante.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Pues máñana nos veremos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Quedad con Dios, porque es tarde</l>
+                  <l>y temo no me de el fresco. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Váyase Usía con Dios,</l>
+                  <l>que mañana trataremos.</l>
+                  <l>Sin duda el Señor Baron,</l>
+                  <l>quiere pescar mi dinero:</l>
+                  <l>mas yo inventaré una idea</l>
+                  <l>ayudandome el ingenio;</l>
+                  <l>porque se case con mi hija,</l>
+                  <l>sin tocar yo mis talegos.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale el Paje.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Señor, me hizo V. el papel</l>
+                  <l>de la obligacion que tengo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Sí, tómale, aquí lo tienes,</l>
+                  <l>apréndelo, y al momento</l>
+                  <l>empezarás á servir</l>
+                  <l>con cuidado y con esmero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>A decir verdad, Señor,</l>
+                  <l>soy muy corto de talento.</l>
+                  <l>Lo tendre en la faldriquera</l>
+                  <l>por si se ofrece leerlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Está bien. Tu ama sale,</l>
+                  <l>mira que hermoso portento.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale Sinforasa de figurona.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Tan donosa es como yo,</l>
+                  <l>poco mas ó poco menos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Padre, cuando se compone</l>
+                  <l>mi anhelado casamiento?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Con el Baron Tutiplen</l>
+                  <l>ya convenido lo tengo.</l>
+                  <l>Sinf Y será esta misma noche?</l>
+                  <l>que prisa mi Papá tengo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pag.</speaker>
+                  <l>Quiéreme á mi y será pronto,</l>
+                  <l>que tambien quiero lo mesmo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>No, hija, que aquestas cosas</l>
+                  <l>se deben mirar primero,</l>
+                  <l>y mucho, porque en los hombres</l>
+                  <l>hay de malos y hay de buenos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Pues Padre, yo con los hombres</l>
+                  <l>no me meto en cumplimientos:</l>
+                  <l>sea manco ó sea cojo,</l>
+                  <l>sea tuerto ú sea derecho,</l>
+                  <l>en siendo hombre ya tiene</l>
+                  <l>un no se qué qüe le quiero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Muchos hay que no lo tienen</l>
+                  <l>porque acaso lo perdieron.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Es menester mas de espacio.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Sinf. </speaker>
+                  <l>Pues yo de prisa lo quiero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Que prisa tiene la niña! <stage rend="cursiva">aparte.</stage></l>
+                  <l>que vá que le envido el resto...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Esta prisa me parece</l>
+                  
+               <pb n="4"/>
+                  
+               <fw type="paginaNum">4</fw>
+                  
+                  <l>que puede ser de provecho</l>
+                  <l>para poderse lograr,</l>
+                  <l>el intento que deseo:</l>
+                  <l>hija, quédate con Dios,</l>
+                  <l>que yo voy á disponerlo. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Haga V. que sea pronto</l>
+                  <l>y sino con el primero</l>
+                  <l>que pasará por la calle,</l>
+                  <l>voy á hacer mi casamiento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Para eso aquí estoy yo <stage rend="cursiva">aparte.</stage></l>
+                  <l>que costará menos tiempo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Quédate tú en la antesala</l>
+                  <l>mientras que me estoy vistiendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Pues Señora, aquí su padre</l>
+                  <l>me entregó en este Cuaderno</l>
+                  <l>todas las ebligaciones</l>
+                  <l>que en aquesta casa tengo,</l>
+                  <l>aguarde V. yo veré</l>
+                  <l>si es que la obligacion tengo</l>
+                  <l>de quedarme en la antesala</l>
+                  <l>mientras que se está poniendo</l>
+                  <l>el lamedor y seretas,</l>
+                  <l>que sino está volaverunt.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Lec. </speaker>
+                  <l>«Estarás en la antesala,</l>
+                  <l>vaya V. que aquí me quedo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Pues cuidado; hasta que salga</l>
+                  <l>no te menees del puesto. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Ahora que estamos solos</l>
+                  <l>repasemos el cuaderno.</l>
+                  <l>«Estarás en la antesala</l>
+                  <l>cirás por el Peluquero</l>
+                  <l>«por el maestro de Sastre</l>
+                  <l>«y tambien por el Barbero,</l>
+                  <l>«le darás la esponja al.....</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale la Criada.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Zape,</l>
+                  <l>malditos sean tus huesos,</l>
+                  <l>que se me come un pichon,</l>
+                  <l>anda cógele corriendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>No tenga V. tanta prisa,</l>
+                  <l>aguarde y ahora veremos</l>
+                  <l>si es que está en la obligacion.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Menèate majadero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Aguarde V. y teuga flema..</l>
+                  <l>«Irás por el Peluquero</l>
+                  <l>«por el maestro de Sastre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Vés que se lo está comiendo!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Pues no está en la obligacion,</l>
+                  <l>que le haga buen provecho,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Si con un cucheretazo....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Si te cojo juro al cielo</l>
+                  <l>que lo tienes de llevar</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale Anacleto.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Ola, que viene á ser esto?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Este que es un lame platos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Esta que es úna alca....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Bueno:</l>
+                  <l>siemipre que me vuelvo á casa</l>
+                  <l>os hé de encontrar riñendo?</l>
+                  <l>tú muchacha á la cocina, <stage rend="cursiva">vase.</stage></l>
+                  <l>y tú Alifonso á tu puesto. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pj.</speaker>
+                  <l>Afé sino viene el amo</l>
+                  <l>que se lleva un buen bolero,</l>
+                  <l>no que con estas fregonas</l>
+                  <l>es necesario andar tieso.</l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Sale Sinforosa corriendo y al decir
+                  <lb/>los primeros versos tropiesa y cae.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Oyes chico, vé al instante....</l>
+                  <l>Ay Jesus! válgame el cielo.</l>
+                  <l>Llégate, dame la mano</l>
+                  <l>que levantarme no puedo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj,</speaker>
+                  <l>Aguarde y tenga paciencia</l>
+                  <l>y veremos el Cuaderno.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Mentecato ven al punto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Tenga V. flema y veremos</l>
+                  <l>si es que está en la obligacion.</l>
+                  <l>dIrás por el Peluquero,</l>
+                  <l>«por el maestro de Sastre.....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Se habrá visto tal jumento!</l>
+                  <l>liégate dame la mano.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Es V. pronta de genio!</l>
+                  <l>déjeme acabar de ver.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Estoy que me desespero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Pues no está en la obligacion;</l>
+                  <l>bien puede estarse en el suelo:</l>
+                  <l>que yo lo que no me toca,</l>
+                  <l>digo que no quiero hacerlo.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale el Baron.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Bien mio, qué es lo que tienes?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Que quise salir corriendo,</l>
+                  <l>cáigo, le pido me ayude,</l>
+                  <l>y dice no quiere hacerlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Pues yo sí; dame la mano</l>
+                  
+               <pb n="5"/>
+                  
+               <fw type="paginaNum">5</fw>
+                  
+                  <l>ya que vine á tan buen tiempo,</l>
+                  <l>levántate hermosa ninfa</l>
+                  <l>no hagas caso de jumentos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Señor mio, sepa V.</l>
+                  <l>que no consta en el Cuaderno</l>
+                  <l>que me entregó aqui mi amo</l>
+                  <l>de la obligacion que tengo.</l>
+                  <l>Si es que acaso V. la tiene</l>
+                  <l>no hizo mucho con hacerlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>De servir á estas deidades</l>
+                  <l>yo siempre obligacion tengo:</l>
+                  <l>¿te hiciste daño, bien mio?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>No me hice daño, mi dueño.</l>
+                  <l>Jesus! que novio tan lindo!</l>
+                  <l>y cuándo nos casaremos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Sí, si, esto es lo que importe. <stage rend="cursiva">ap.</stage></l>
+                  <l>échale miel al buñuelo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Si por mi fuera, Señora,</l>
+                  <l>digo que ya estaba hecho,</l>
+                  <l>pero es menester mirar</l>
+                  <l>mil quisicosas primero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Déjese de quisicosas</l>
+                  <l>que aquesta noche le espero</l>
+                  <l>á las once y cuarto en punto</l>
+                  <l>en aqueste mismo puesto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>No era mala esta ocasion <stage rend="cursiva">ap</stage></l>
+                  <l>para lograr el intento</l>
+                  <l>de obligarla á que me dé</l>
+                  <l>para hacer el casamiento</l>
+                  <l>todita su hacienda en dote,</l>
+                  <l>pues el lance aprovechemos:</l>
+                  <l>en punto las once y cuarto</l>
+                  <l>armiado cual Gerineldos</l>
+                  <l>desde el cabello á la planta.</l>
+                  <l>vendré por obedeceros.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>No está mala esta jugada,</l>
+                  <l>codillo les doy si puedo.</l>
+                  <l>Bar Pues mi bien hasta las once.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Hasta las once mi dueño. <stage rend="cursiva">vase</stage></l>
+                  <l>Voy á avisar á mi Padre</l>
+                  <l>porque lo tenga dispuesto:</l>
+                  <l>esta noche seré novia</l>
+                  <l>á pesar del mundo entéro. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Voy á avisar á Benita</l>
+                  <l>para que un chasco les demos,</l>
+                  <l>porque allá dice un refran</l>
+                  <l>y es muy cierto y verdadero</l>
+                  <l>ganancia de pescadores</l>
+                  <l>cuando está el rio revuelto. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+               
+               <stage rend="cursiva">Sale Anacleto.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Ya que me dijo mi hija,</l>
+                  <l>que el Baron le dió el concierto</l>
+                  <l>de que vendria á las once,</l>
+                  <l>jugarles un lance quiero;</l>
+                  <l>y que se encuentren casados</l>
+                  <l>sin gastarme ni un dinero</l>
+                  <l>ni obligarme á hingun dote,</l>
+                  <l>no perdamos pues el tiempo:</l>
+                  <l>llamar es preciso al Paje</l>
+                  <l>para que vaya corriendo</l>
+                  <l>y me llame un Escribano,</l>
+                  <l>que importa para mi intento.</l>
+                  <l>Ola, Alfonso, muchacho,</l>
+                  <l>vamos, al instante; presto.</l>
+               </sp>
+                  
+               <stage rend="cursiva">Sale el Paje.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Señor, qué me manda V?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Anda al instante corriendo,</l>
+                  <l>y llámame un Escribano</l>
+                  <l>que con dos testigos luego</l>
+                  <l>venga á esta casa sin falta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Aguarde V. y veremos</l>
+                  <l>si es que está en la obligacion,</l>
+                  <l>sino está no me meneo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Anda, ve al punto, despacha.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Tenga V. flema y veremos.</l>
+                  <l>«Estarás en la antesala,</l>
+                  <l>«irás:::</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Ve pronto mostrenco.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Paj. </speaker>
+                  <l>«Por el maestro de Sastre,</l>
+                  <l>¿y tambien por el Barbero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Que te doy un silletazo.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Paj. </speaker>
+                  <l>«Le darás:::</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Me desespero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Pues, Señor, no está tal cosa;</l>
+                  <l>digole á V. que no quiero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Animal, esto es urgencia</l>
+                  <l>precisa, marcha.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Jumento?</l>
+                  <l>pues toditas esas cosas,</l>
+                  <l>ponerlas en el cuaderno.</l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Le quita Anacleto el papel y lo
+                  <lb/>rasga.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Animal, de aquesta suerte</l>
+                  <l>acabáranse los pleitos.</l>
+               </sp>
+               
+               <pb n="6"/>
+                  
+               <fw type="paginaNum">6</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Ahera estare lueido </l>
+                  <l>que sin obligacion quedo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Marcha donde yo te mando</l>
+                  <l>y dile que venga luego.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Si que iré, porque me importa ap.</l>
+                  <l>para lograrse mi intento,</l>
+                  <l>mas ya ve V. que es de noche</l>
+                  <l>y que hace mucho fresco,</l>
+                  <l>y me puedo refriar;</l>
+                  <l>déjeme poner primero</l>
+                  <l>dos ó tres gorros, que aquí</l>
+                  <l>en las faldriqueras tengo.</l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Saca de las. faldriqueras los gorros
+                  <lb/>que pueda y se los va poniendo
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Agac.</speaker>
+                  <l>Despacha pronto pelmazo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Es Vm. vivo de genio,</l>
+                  <l>no vé que sino me tapo</l>
+                  <l>ne incomodará el sereno..</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Se habrá visto tal paciencia,</l>
+                  <l>yo de cólera reviento.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Paj </speaker>
+                  <l>Mire Vm. de aquesta suerte</l>
+                  <l>se tapa bien el cerebro.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Pícaro, marcha al instante.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale Sinforosa.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Padre mio què es aquesto?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Este fantasma de Paje</l>
+                  <l>que quiero vaya corriendo</l>
+                  <l>á un recado, que me importa</l>
+                  <l>para hacer tu casamiento,</l>
+                  <l>le digo que ha de ser pronto</l>
+                  <l>y se me está entreteniendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>A mi casamiento importa?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Y mucho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Marcha corriendo,</l>
+                  <l>no te detengas brivon. <stage rend="cursiva">le empuja.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Otro demonio tenemos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Marcha al instante que importa</l>
+                  <l>esto mucho á mis deseos</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Digole á Vi que no iré</l>
+                  <l>menos que no esté compuesto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Mira que si cojo un palo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Pues que yo no tengo dedos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Ay Paje tan atrevido?</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Paj </speaker>
+                  <l>Que demonios será esto?</l>
+                  <l>que son pocas las mujeres</l>
+                  <l>que en ofiendo casamiento</l>
+                  <l>no hay quien aguantarlas pueda</l>
+                  <l>si quieren entretenerlo:</l>
+                  <l>ahora ya estoy tapado</l>
+                  <l>verá Vm, que presto vuelvo, <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Vaya hija! lo que importa</l>
+                  <l>modestia y entendimiento,</l>
+                  <l>con cuidado lo que hables,</l>
+                  <l>y procura lo primero</l>
+                  <l>que te dé mano y palabra</l>
+                  <l>para lograr nuestro intento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Y con la palabra y mano</l>
+                  <l>padre, casados seremos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Sí, hija.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Pues al instante</l>
+                  <l>se la pido, lo primero.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale la Criada.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Señor, lo que dijo V.</l>
+                  <l>queda ya todo dispuesto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Oyes Benita ¡qué gusto,</l>
+                  <l>qué placer y qué contento!</l>
+                  <l>aquesta noche me caso,</l>
+                  <l>el Baron vendrá muy presto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Crig.</speaker>
+                  <l>Mucho me alegro Señora, </l>
+                  <l>pero mas si es que dispuesto,</l>
+                  <l>tiene el paje lo que dijo</l>
+                  <l>para lograr nuestro intento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Veras Benita si viene</l>
+                  <l>y que noche que tendrémos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Hija retirarte importa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Padre, dejémonos cuentos</l>
+                  <l>que voy á esperar al novio.</l>
+                  <l>Salto, y brinco de contento. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Benita, lo que has de hacer</l>
+                  <l>no dejarla ni un momento</l>
+                  <l>porque á veces el diablo</l>
+                  <l>suele andar medio revuelto,</l>
+                  <l>no sea que andando en burlas</l>
+                  <l>salga de veras el cuento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>No la dejaré un instante. <stage rend="cursiva">ap.</stage></l>
+                  <l>porque uie importa el hacerlo:</l>
+                  <stage rend="cursiva">Vase.</stage>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Para hablar al Escribano</l>
+                  <l>las hice entrar allá dentro</l>
+                  <l>que no pueden tardar mucho</l>
+                  <l>y no han de lograr saberlo.</l>
+               </sp>
+               
+               <pb n="7"/>
+               
+               <fw type="paginaNum">7</fw>
+               
+               <stage rend="cursiva">
+                  <lb/>Sale el Paje, y despues á su tiempo
+                  <lb/>el Escribano y dos testigos.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Aquí está ya el Escribano.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Dí que entren que los espero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Bien pueden entrar ustedes.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Escrib.</speaker>
+                  <l>Mi Señor D. Anacleto!</l>
+                  <l>tenga V. muy buenas noches.</l>
+                  <l>nac. Dios les guarde caballeros.</l>
+                  <l>El silencio es lo que importa</l>
+                  <l>para lograr este intento,</l>
+                  <l>entren dentro y les dirè</l>
+                  <l>despacio lo que yo quiero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Escrib.</speaker>
+                  <l>Vamos à donde V. mande</l>
+                  <l>que á su obediencia estaremos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Pisad quedo, é id tras mí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Los 3.</speaker>
+                  <l>No tengais ningun recelo.</l>
+               </sp>
+               
+               <stage rend="cursiva">Vanse.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Ya está toda la emboscada</l>
+                  <l>dispuesta para el efecto,</l>
+                  <l>ahora bien, señores gorros,</l>
+                  <l>volved á vuestro aposento,</l>
+                  <l>hasta que en otra ocasion</l>
+                  <l>me guardeis este terreno.</l>
+                  <l>Esta es una prevencion</l>
+                  <l>de muchísimo provecho. </l>
+                  <l>que los hombres la cabeza</l>
+                  <l>es lo que guardar debemos.</l>
+                  <l>Voy á buscar á Benita</l>
+                  <l>y á ver si está ya en su puesto,</l>
+                  <l>porque se acerca la hora</l>
+                  <l>de darle fin á mí enredo. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Salon obscuro, salen D. Anacleto,
+                  <lb/>Escribano y testigos.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Señores, esta es la sala,</l>
+                  <l>en donde ha de ser el hecho:</l>
+                  <l>métanse tras de esa puerta,</l>
+                  <l>y miren que les advierto</l>
+                  <l>que al punto quesalga yo:::</l>
+                  <l>sin detenerse un momento:::</l>
+                  <l>la luz ya está prevenida:::</l>
+                  <l>Entienden lo que yo quiero?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Escrib.</speaker>
+                  <l>Sí Señor, descanse V.</l>
+                  <l>que ya entendido lo tengo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Pues amigos á esconderse</l>
+                  <l>antes que vengan, porque</l>
+                  <l>las once ya pienso dieron.</l>
+               </sp>
+               
+               <stage rend="cursiva">Escóndense y salo le Criada.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Que malo es andar á obscuras,</l>
+                  <l>á cada paso un tropiezo.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale el Paje.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Si estará aquí Benitilla?</l>
+                  <l>como no hay luz no la veo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Criz.</speaker>
+                  <l>Mas hácia aqui me parece</l>
+                  <l>que del Paje pasos siento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Juzgára yo que hácia aquí</l>
+                  <l>unos pasos van viniendo.</l>
+                  <l>Benitilla, Benitilla.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Calla, no seas jumento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Ponte pues en este lado</l>
+                  <l>y mira que andes con tiento.</l>
+                  <l>Cria Ahora dí, qué he de hacer?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Escucha; ahora en viniendo</l>
+                  <l>el Baron y Sinforosa</l>
+                  <l>á decirse sus requiebros,</l>
+                  <l>cuando le dará la mano</l>
+                  <l>coge la del Baron luego:</l>
+                  <l>pues con la de Sinforosa,</l>
+                  <l>procuraré hacer lo mesmo.</l>
+                  <l>Ya D. Anacleto tiene</l>
+                  <l>los testigos encubiertos</l>
+                  <l>para lograr, que al Baron</l>
+                  <l>lo pillen en casamiento;</l>
+                  <l>Salen con luces, nos ven,</l>
+                  <l>se dá testimonio de ello,</l>
+                  <l>y hétenos aquí casados</l>
+                  <l>a medida del deseo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Pues á este lado me pongo:</l>
+                  <l>parece que pasos siento?</l>
+                  <l>mira, que la atines bien.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Calla que ya van saliendo:</l>
+                  <l>sin duda que es Sinforosa</l>
+                  <l>que hácia esta parte la siento.</l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Pónese la Criada á la parte por
+                  <lb/>donde saldrá el Baron, y el Paje
+                  <lb/>al contrario pero ambos unidos
+                  <lb/>en medio del teatro.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Lo que tarda aun el Baron!</l>
+                  <l>las onee y minuto y medio</l>
+                  <l>son ¡y aun no ha parecido!</l>
+                  <l>yo estoy ya que no sosiego,</l>
+                  <l>la sala toda está obscura,</l>
+                  <l>mi padre así lo ha dispuesto.</l>
+                  <l>Yo digo que miel caliente</l>
+                  <l>es lo que busca el buñuelo.</l>
+               </sp>
+               
+               <pb n="8"/>
+                  
+               <fw type="paginaNum">8</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Digo Señores? alerta! </l>
+                  <l>en avisando::: al momento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Den.</speaker>
+                  <l>Escrió. Alerta Señor estamos,</l>
+                  <l>no tengais ningun recelo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Chica, aqui está Sinforosa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>El Baron ya entra aquí dentro.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale el Baron Armado.</stage>
+               
+               <sp>
+                  <speaker rend="cursiva">Bar </speaker>
+                  <l>Las once vendrán á ser</l>
+                  <l>y yo en la sala me encuentro</l>
+                  <l>¡Qué obscuro está! ¡y cuán al caso</l>
+                  <l>le viene á mi pensamiento!</l>
+                  <l>las puertas encontré abiertas,</l>
+                  <l>Sinforosa lo habrá hecho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Aquí se acerca el Baron,</l>
+                  <l>Benitilla, anda con tiento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>No temas que yo lo yerre</l>
+                  <l>pues que me importa el hacerlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Este es mi querido amante, </l>
+                  <l>á él; acercarme quiero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Los pasos son del Baron,</l>
+                  <l>que chasco llevará luego.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Si es que sale Sinforosa</l>
+                  <l>que chasco llevará el Viejo</l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Sinfarosa habla con el Paje y el
+                  <lb/>Baron con la Criada, todos fingiendo
+                  <lb/>secreto.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Eres el Baron, mi amante?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Yo soy estimado dueño,</l>
+                  <l>quien del cabello á la planta</l>
+                  <l>armado cual D. Gaiteros</l>
+                  <l>viene á verte, y á lograr</l>
+                  <l>unirme á tí en himeneo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Sois el Baron?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Sí, yo soy</l>
+                  <l>dulce adorado embeleso.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Pide que te dé la mano,</l>
+                  <l>que yo voy hacer lo mesnio</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Crig. Pues dame mi bien la mano.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar,</speaker>
+                  <l>Sinf. Tómala adorado dueño.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Piflala, que ya la pillo.</l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Salen todos con luces, despues de ha-
+                  <lb/>berse tomado las manos.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Ola! que viene á ser esto</l>
+                  <l>sean ustedes testigos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva"><hi rend="cursiva">Los</hi> 3.</speaker>
+                  <l>Bien está los tres lo vemos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Pero que es lo que yo miro?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Lo que todos están viendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>Es Señores, que el Baron</l>
+                  <l>aqueste favor me ha hecho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Y á mí tambien Sinforosa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cria.</speaker>
+                  <l>En aqueste instante mesmo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Bar.</speaker>
+                  <l>Yo::: decid::: como; ni cuando?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Cuando todos lo están vicudo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Escrib.</speaker>
+                  <l>Qué, quereis contradecirlo?</l>
+                  <l>esto es casamiento hecho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva"><hi rend="cursiva">Los</hi> 2.</speaker>
+                  <l>Y nosotros dos testigos,</l>
+                  <l>que venimos para ello.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Hija y tú de esto, que me dices?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Que se cumplió mi deseo</l>
+                  <l>que ya me casé esta noche</l>
+                  <l>con muchisimo contento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Pero hija, fué con el Paje!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sinf.</speaker>
+                  <l>Con el Paje, y qué tenenios</l>
+                  <l>digame V. ¿qué no es hombre:</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Sí lo soy, y muy completo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anac.</speaker>
+                  <l>Y ven acá picaron:</l>
+                  <l>es de tu obligacion eso?</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Paj.</speaker>
+                  <l>Es Señor mi conveniencia</l>
+                  <l>que para el caso es lo mesmo;</l>
+                  <l>y aquí se acaba el Sainete,</l>
+                  <l>perdonad sus muchos yerros.</l>
+               </sp>
+               
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

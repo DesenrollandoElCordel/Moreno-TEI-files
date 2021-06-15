@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_144">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Entremés de los Porfiados</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Entremes de los Porfiados.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1850</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 152</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>1 columna</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876786.html" type="tipo_texto">Entremeses</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-29" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_144_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1"/>
+
+            <fw type="impresorNum">Núm. 152.</fw>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">ENTREMES</hi>
+               <lb/>DE LOS
+               <lb/><hi rend="negrita">PORFIADOS.</hi>
+            </head>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1850.
+                  <lb/>Imprenta de D. José M. Moreno. Descalzas, 1.
+               </p>
+            </div>
+
+            <div type="reparto">
+
+               <pb n="2"/>
+
+               <head type="reparto_titulo">PERSONAS</head>
+
+               <castList rend="cursiva">
+                  <castItem>Graciosa.</castItem>
+                  <castItem>Dos hombres.</castItem>
+                  <castItem>Gracioso.</castItem>
+               </castList>
+            </div>
+
+            <div>
+               <pb n="3"/>
+
+               <fw type="paginaNum">3</fw>
+               
+               <stage rend="cursiva">Sale la Graciosa.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.a</speaker>
+                  <l>Que me haya dado Dios de conocido,</l>
+                  <l>un bestiaza, un zamarro por marido,</l>
+                  <l>tan porfiado y con tal majadería,</l>
+                  <l>que se está porfiando todo el dia</l>
+                  <l>con el género humano,</l>
+                  <l>bonito es para porfiar en vano;</l>
+                  <l>mas nostánte en porfias le he ganado,</l>
+                  <l>la misma soy.</l>
+               </sp>
+               
+               <stage rend="cursiva">Sale el Gracioso.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Dios sea loado. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Graciosa.</speaker>
+                  <l>Marido, bien venido.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.o</speaker>
+                  <l>Como lo puede ser nunca marido.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Graciosa.</speaker>
+                  <l>Eso malicias?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Y ella la casada. </l>
+                  <l>Grac.A Mejor fuera la viuda malograda.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Que ella es la muger mia?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Graciosa.</speaker>
+                  <l>Por mis pecados.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gravioso.</speaker>
+                  <l>Ya pasó ese dia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Graciosa.</speaker>
+                  <l>Casamonos.</l>
+               </sp>
+               
+               <pb n="4"/>
+                  
+               <fw type="paginaNum">4</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Aqui el juicio pierdo;</l>
+                  <l>vos conmigo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Graciosa.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Pues no me acuerdo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.a</speaker>
+                  <l>Dejémos de la porfia la bambolla, </l>
+                  <l>y tratemos de la olla.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Eso me dá mas pena;</l>
+                  <l>no hay sino que tratemos de la cena:</l>
+                  <l>Cerrad la puerta, que yo no la he cerrado</l>
+                  <l>porque no pude por venir mojado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Graciosa.</speaker>
+                  <l>No es bien que en mí se halle</l>
+                  <l>la falta de bajar siempre á la calle.</l>
+                  <l>Cerradla vos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Cerradla, no seais ya porfiada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.a</speaker>
+                  <l>El cerrar yo la puerta no me agrada. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.o</speaker>
+                  <l>Hagamos un concierto mano á mano. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.a</speaker>
+                  <l>Digo que desde luego yo me allano.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.o</speaker>
+                  <l>De quesierre la puerta, ó que la abra, </l>
+                  <l>el primero que habláre una palabra. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Graciosa.</speaker>
+                  <l>Quede la ley impuesta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Grac.o</speaker>
+                  <l>Veamos cual de los dos gana la apuesta. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dentr. Homb. 1.</speaker>
+                  <l>El agua se acrecienta,</l>
+                  <l>no se ha visto jamas mayor tormenta: </l>
+                  
+                  <pb n="5"/>
+                  
+                  <fw type="paginaNum">5</fw>
+                  
+                  <l>Pedro, qué harémos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Nada, </l>
+                  <l>porque deste meson está cerrada </l>
+                  <l>la puerta, y no ha querido el muy grosero,</l>
+                  <l>berganton, picaron del mesonero </l>
+                  <l>abrir ni responder, y me he cansado, </l>
+                  <l>porque á golpes la puerta le he quebrado. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Parece que está abierta </l>
+                  <l>de esotra casa la vecina puerta,</l>
+                  <l>y una luz se descubre de buen porte.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">H. 2.</speaker>
+                  <l>Ella ha de ser sin duda nuestro norte.</l>
+                  
+                  <stage rend="cursiva">Salen los dos.</stage>
+                  
+                  <l>Ha de casa, señor huésped,</l>
+                  <l>habrá en la vuestra posada, </l>
+                  <l>que en el lugar no es posible por</l>
+                  <l>ningun dinero hallarla?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Qué tiesos son los villanos,</l>
+                  <l>aun ha hablar no se levantan.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Si es burla, basta la burla, </l>
+                  <l>si es chanza, basta la chanza.</l>
+                  <l>Pedro anda, </l>
+                  
+                  <pb n="6"/>
+                  
+                  <fw type="paginaNum">6</fw>
+                  
+                  <l>dá una vuelta á la cocina,</l>
+                  <l>y revuelveles la casa;</l>
+                  <l>picarle quiero á este necio.</l>
+                  <l>Labradora de mi alma; </l>
+                  <l>pues á los zelos no vuelve</l>
+                  <l>de que hable no hay esperanza.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Sale Hombre. 2. </speaker>
+                  <l>El ganado está cenaado</l>
+                  <l>de muy bonísima gana</l>
+                  <l>á discreccion cuanto quiere,</l>
+                  <l>y una olla no muy mala</l>
+                  <l>he topado en la cocina.</l>
+               </sp>
+               
+               <stage rend="cursiva">
+                  <lb/>Saca una mesa con pan, vino y un puchero
+                  <lb/>con bizcochos.
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Pedro, acá fuera la saca.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Ya esta como dijo el otro</l>
+                  <l>el pucherillo en campaña, </l>
+                  <l>resta el pan, y el vino resta,</l>
+                  <l>y buen provecho nos haga.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homó. 1.</speaker>
+                  <l>Que famoso está el caldillo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homò: 2.</speaker>
+                  <l>La olla esta sazonada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Y añade, que sobre buena, </l>
+                  
+                  <pb n="7"/>
+                  
+                  <fw type="paginaNum">7</fw>
+                  
+                  <l>no nos ha de costar blanca:</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>No alcanzaran un bocado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Como están lejos no alcanzan.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Señor huésped no sea corto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>El no responde palabra. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Bebamos Pedro.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Bebamos, </l>
+                  <l>y buen provecho nos haga;</l>
+                  <l>quiero brindar á la niña.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Toma esa presa, aldeana, </l>
+                  <l>sol divino de esta aldea,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Para qué? no hay que porfiarla. </l>
+                  <l>Ya que he cenado, pretendo, </l>
+                  <l>que esa labradora honrada</l>
+                  <l>me enseñe su casa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Como?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Enseñándome su cama. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Por cierto lindas llanezas </l>
+                  <l>se gastan en esta casa. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Quiero picarle á este necio.</l>
+                  <l>Labradora de mi vida,</l>
+                  <l>Labradora de mi alma, </l>
+                  <l>vive Dios que es bueno el cuento.</l>
+               </sp>
+               
+               <pb n="8"/>
+                  
+               <fw type="paginaNum">8</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>Habla maldita sea tu alma, </l>
+                  <l>que te llevan de codillo</l>
+                  <l>la polla por la cinchada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Garciosa.</speaker>
+                  <l>Su mala condicion</l>
+                  <l>me tiene muerta.</l>
+               </sp>
+               
+               <stage rend="cursiva">Levántanse de las sillas.</stage>
+               
+               <sp>
+                  <speaker rend="cursiva">Gracioso</speaker>
+                  <l>Ya habeis hablado,</l>
+                  <l>cerrad la puerta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1.</speaker>
+                  <l>Sobre esto era sin</l>
+                  <l>duda la porfia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 2.</speaker>
+                  <l>No ví chiste mejor</l>
+                  <l>por vida mia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Con la mia he salido</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Graciosa.</speaker>
+                  <l>No dejais de salir</l>
+                  <l>muy bien lucido;</l>
+                  <l>pues lo que ahora resta, </l>
+                  <l>es, con un bailecelebrar la fiesta,</l>
+                  <l>del necio que ha logrado, </l>
+                  <l>porfiando una muger</l>
+                  <l>ser mas porfiado.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Canta Graciosa. </speaker>
+                  <l>Como le vá de temas,</l>
+                  <l>señor Hidalgo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Temas tengo encerradas </l>
+                  <l>para mi año.</l>
+               </sp>
+
+               <l>FIN.</l>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

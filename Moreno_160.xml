@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_160">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nueva relación titulada La vida del zapatero</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Nueva relacion titulada La vida del
+                     zapatero.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 170</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Segunda parte.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_160_1.xml">grabado_m_160_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-28" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_160_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1"/>
+
+               <fw type="impresorNum">(Número 170.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="cursiva">NUEVA RELACION</hi>
+                  <lb/>TITULADA <lb/>LA VIDA DEL ZAPATERO. </head>
+
+               <div n="1" type="parte">
+                  <head rend="cursiva" type="titulo_parte">PRIMERA PARTE.</head>
+
+
+                  <lg>
+                     <l rend="indent">En la mas alta boardílla </l>
+                     <l>de la casa que yo habito,</l>
+                     <l>vive el viejo Lamparilla,</l>
+                     <l>zapatero el mas bendito</l>
+                     <l>que remendara en castilla.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">En el barrio está querido</l>
+                     <l>por su honradez y su empleo:</l>
+                     <l>tiene fama de leido,</l>
+                     <l>y es de todos conocido</l>
+                     <l>por lo chistoso y lo feo.</l>
+                  </lg>
+
+                  <pb n="2"/>
+
+
+                  <lg>
+                     <l rend="indent">Cara enjuta y amicada, </l>
+                     <l>mirar adusto y severo,</l>
+                     <l>nariz ancha, remangada,</l>
+                     <l>oreja grande, y holada,</l>
+                     <l>de encasquetarse el sombrero.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Su frente desde las cejas</l>
+                     <l>va á unirse con el cogote;</l>
+                     <l>solo tiene unas guedejas</l>
+                     <l>por detras de las orejas</l>
+                     <l>donde se limpia el cerote.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Dejóle sola una hija </l>
+                     <l>su difunta Nicolasa,</l>
+                     <l>que por enclenque y canija </l>
+                     <l>la llaman la Sabandija:</l>
+                     <l>y esta gobierna la casa.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Pasa las noches en vela</l>
+                     <l>trabajando con afan,</l>
+                     <l>y á los golpes de la suela</l>
+                     <l>entona una cantinela</l>
+                     <l>que le enseñó el sacristan.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Muchas veces se impacienta </l>
+                     <l>y agarrando el tirapié</l>
+                     <l>al pobre gato calienta</l>
+                     <l>porque deja no se qué</l>
+                     <l>tapado com la herramienta.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Por la mañana se baja</l>
+                     <l>á su portal predilecto,</l>
+                     <l>y el tiempo que no trabaja </l>
+                     <l>á sus amigos encaja</l>
+                     <l>el Deciderio y Electo.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Con el sastre y el trapero</l>
+                     <l>desplegando su elocuencia</l>
+                     <l>satírico y chocarrero</l>
+                     <l>hace alarde el zapatero</l>
+                     <l>de su politica ciencia.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Si refiere alguna accion</l>
+                     <l>de gaceta estraordinaria</l>
+                     <l>él hacer la esplicacion</l>
+                     <l>con madura detencion</l>
+                     <l>en su mesa estrafalaria.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Y del modo mas sencillo</l>
+                     <l>planes militares forma,</l>
+                     <l>y hace á una bota castillo,</l>
+                     <l>plana mayor á un martillo,</l>
+                     <l>y general á una horma.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Luego pretende arreglar</l>
+                     <l>la hacienda y guerra civil,</l>
+                     <l>y es divirtido escuchar</l>
+                     <l>como á todo sabe dar</l>
+                     <l>un corte zapateríl.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Abortado de un seron</l>
+                     <l>sale tiznado, mohino,</l>
+                     <l>el carbonero Pepon, </l>
+                     <l>y levanta la secion</l>
+                     <l>con unas compas de vino.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Con su niña á poco rato,</l>
+                     <l>en paz y en gracia de Dios,</l>
+                     <l>come el viejo en pobre plato,</l>
+                     <l>¡Impaciente mira el gato</l>
+                     <l>comer á los otros dos!</l>
+                  </lg>
+
+                  <pb n="3"/>
+
+
+                  <lg>
+                     <l rend="indent">Al toque de la oracion</l>
+                     <l>se recoge el zapatero;</l>
+                     <l>y allá en su caramanchon</l>
+                     <l>vuelve á entonar su cancion</l>
+                     <l>como pájaro agorero.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">El Domingo apenas brilla</l>
+                     <l>matutino resplandor</l>
+                     <l>se levanta Lamparilla</l>
+                     <l>y se viste y se cepilla,</l>
+                     <l>con elegancia y primor.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Calzon de roñosa pana </l>
+                     <l>con historiada chaqueta,</l>
+                     <l>medias azules de lana,</l>
+                     <l>y un chalequillo de grana, </l>
+                     <l>es su gala mas completa.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Al ver su porte y aseo,</l>
+                     <l>el pobre viejo se engrie,</l>
+                     <l>toma su vara y chapeo,</l>
+                     <l>y se marcha de bureo....</l>
+                     <l>la Magdalena le guie.</l>
+                  </lg>
+               </div>
+
+               <div n="2" type="parte">
+                  <head rend="cursiva" type="titulo_parte">SEGUNDA PARTE.</head>
+
+
+                  <lg>
+                     <l rend="indent">Ora quiero demostrar</l>
+                     <l>que en este mundo traidor</l>
+                     <l>segun adagio vulgar</l>
+                     <l>el justo suele pagar</l>
+                     <l>la pena del pecador.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Bebe y triunfa el zapatero</l>
+                     <l>se alegra y se regocija</l>
+                     <l>y en manos del tabernero</l>
+                     <l>encomienda su dinero:</l>
+                     <l>quien paga el patol la hija. </l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">La taberna se cerro, </l>
+                     <l>allí el sudor de su frente</l>
+                     <l>el majadero dejó:</l>
+                     <l>y aunque pelado, sacó</l>
+                     <l>la cabeza bien caliente.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">A un negro guardacaton</l>
+                     <l>se abalanza con fiereza</l>
+                     <l>gritándo «date ladron»</l>
+                     <l>¡desgraciado remendon!</l>
+                     <l>¡como tienes la cabeza!</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">De perros viene seguido</l>
+                     <l>alborotando la calle;</l>
+                     <l>ya su niña le ha sentido,</l>
+                     <l>y esclama con un gemido,</l>
+                     <l>¿válgame Jesus del Valle!</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">¡Ojos que te vieron ir</l>
+                     <l>hermoso, como unas platas,</l>
+                     <l>ora te miran reñir</l>
+                     <l>con los perros, y venir</l>
+                     <l>por esas calles á gatas.</l>
+                  </lg>
+
+                  <pb n="4"/>
+
+
+                  <lg>
+                     <l rend="indent">Trastornada la mollera </l>
+                     <l>con el hijo de la uva</l>
+                     <l>yace al pié de la escalera,</l>
+                     <l>alli como niño, espera</l>
+                     <l>que Sabandija le suba.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">La muchacha, con temor,</l>
+                     <l>santiguandose primero,</l>
+                     <l>toma acuesta á su autor</l>
+                     <l>cayendose à lo mejor</l>
+                     <l>sobre el candil el sombrero.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Apurado el sufrimiento</l>
+                     <l>de aquella mansa cordera,</l>
+                     <l>abrumada y sin aliento</l>
+                     <l>con desfallecido acento</l>
+                     <l>le dice de esta manera.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">¿Padre, bien puedo temblar</l>
+                     <l>dlos domingos y las fiestas,</l>
+                     <l>G¡Como me hace usté sudar!</l>
+                     <l>¿temo que voy á dejar</l>
+                     <l>«el pellejo en una de estas.)</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">El la responde: ¿Despacha: </l>
+                     <l>¿no te propases... ¡bribona! </l>
+                     <l>«dale bola ¿estás borracha?</l>
+                     <l>ayí esclama la muchacha!</l>
+                     <l>¿no puedo ya con la Mona.)</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">En cada paso que dá</l>
+                     <l>encomendandose á Dios, </l>
+                     <l>diez minutos tardará; </l>
+                     <l>escalones faltan ya, </l>
+                     <l>tan solo noventa y dos.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">En fin á la madrugada</l>
+                     <l>su pena término tiene.</l>
+                     <l>A Dios, hija infortunada:</l>
+                     <l>va te quedas descansada</l>
+                     <l>hasta el domingo que viene.</l>
+                  </lg>
+
+                  <trailer rend="cursiva">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858.
+                  <lb/>Imprenta de D. José M. Moreno, calle Juan de la Cabra núm. 4.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

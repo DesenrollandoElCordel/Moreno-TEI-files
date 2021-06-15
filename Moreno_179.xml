@@ -1,0 +1,933 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_179">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Agravios y desagravios de la reina Sultana</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Agravios y desagravios de la Reina Sultana. Relacion
+                     de como ha sido acusada y sentenciada á muerte por cuatro caballeros moros, y
+                     cuatro caballeros cristianos la defendieron y libraron de la muerte; y como al
+                     fin se hizo cristiana.</title>
+                  <title type="titulo_breve">Agravios y desagravios de la reina Sultana.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (1853): <ref target="Moreno_180.xml">Moreno_180</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 189</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Tres partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title/>
+                  </msItem>
+                  <msItem>
+                     <locus>4-6</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>6-8</locus>
+                     <title>Tercera parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_179_1.xml">grabado_m_179_1</item>
+                           <item corresp="grabado_m_179_2.xml">grabado_m_179_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-01" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_179_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <pb n="1"/>
+
+            <fw type="impresorNum">Núm. 189.</fw>
+
+            <head rend="negrita" type="primer_titulo">AGRAVIOS Y DESAGRAVIOS <lb/>de la Reina
+               Sultana.</head>
+
+
+               
+               <head rend="cursiva" type="subtitulo">Relacion de como ha sido acusada y sentenciada
+                  á muerte por cuatro <lb/>caballeros moros, y cuatro caballeros cristianos la
+                  defendieron y <lb/>libraron de la muerte; y como al fin se hizo cristiana.</head>
+            
+            <div n="1" type="parte">
+
+               <l rend="indent">Cante gloriosos elogios</l>
+               <l>con acordes consonancias</l>
+               <l>el triunfo mas memorable,</l>
+               <l>que ha habido entre espada y lanza,</l>
+               <l>y de un cauteloso agravio</l>
+               <l>la mas heróica venganza.</l>
+               <l>Atencion, noble auditorio.</l>
+               <l>En el tiempo que en Granada</l>
+               <l>tremolaban los Alarabes</l>
+               <l>banderas mahometanas, </l>
+               <l>entre las nobles familias,</l>
+               <l>eran quien mas la ilustraban</l>
+               <l>los Alabeces, Gazules,</l>
+               <l>Zegries, Gomeles, Mazas,</l>
+               <l>Ayarques y Reduanes,</l>
+               <l>y aquella tan sublimada</l>
+               <l>familia de Abencerrages,</l>
+               <l>que tenia afianzada</l>
+               <l>de Audalá Rey la corona, </l>
+               <l>por su mucha confianza.</l>
+               <l>Al verlos favorecidos</l>
+               <l>tanto del Rey, se abrazaban</l>
+               <l>en envidia los Zegries,</l>
+               <l>y con cautelosa infamia</l>
+               <l>intentaron derribarles</l>
+               <l>del favor de Rey y gracia.</l>
+               <l>diciendo que Albin Hamete</l>
+               <l>Abencerrage, trataba </l>
+               <l>torpemente con la Reina,</l>
+               <l>é injustamente intentaban</l>
+               <l>levantarse con el reino,</l>
+               <l>dando al Rey muerte tirana.</l>
+               <l>Así al Rey lo propusieron,</l>
+               <l>que amortecido quedaba. </l>
+               <l>Que eran testigos de vista</l>
+               <l>decian, y por ser clara</l>
+               <l>verdad, lo defenderian</l>
+               <l>públicamente en campaña</l>
+
+               <pb n="2"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Cuando el Rey en sí hubo vuelto,</l>
+               <l>dijo, ardiendo en viva rabia:</l>
+               <l>todos los Abencerrages</l>
+               <l>hoy han de morir, y manda</l>
+               <l>que los llamen uno á uno,</l>
+               <l>y con este ardid y traza</l>
+               <l>degolló hasta treinta y seis:</l>
+               <l>y con todos acabara,</l>
+               <l>á no revelarlo un paje.</l>
+               <l>Alborotóse Granada,</l>
+               <l>dividida toda en bandos,</l>
+               <l>y á gran desdichas llegara,</l>
+               <l>si el muy valeroso Muza</l>
+               <l>todo no lo sosegara.</l>
+               <l>Mandó el Rey llamar los Grandes,</l>
+               <l>y juntos en la real sala,</l>
+               <l>salió el Rey todo enlutado,</l>
+               <l>y les propuso la causa:</l>
+               <l>que eran los Abencerrages</l>
+               <l>traidores, que intentaban</l>
+               <l>quitarle el reino y la vida;</l>
+               <l>y que la Reina trataba</l>
+               <l>con Albin Hamete amores,</l>
+               <l>habiendo dentro en la sala</l>
+               <l>cuatro testigos de vista,</l>
+               <l>que unanimes declaraban.</l>
+               <l>Levantose allí diciendo</l>
+               <l>un Amoradi en voz alta:</l>
+               <l>es la Reina muy honesta,</l>
+               <l>y en ella no cabe mancha,</l>
+               <l>y esos caballeros mienten,</l>
+               <l>y lo mantendrè en campaña.</l>
+               <l>Dijo aqui el discreto Muza:</l>
+               <l>lo que importa es el llamarla</l>
+               <l>aquí á presencia de todos,</l>
+               <l>y la acusacion se haga.</l>
+               <l>Vino con pompa y grandeza,</l>
+               <l>con sus doncellas y damas.</l>
+               <l>Dijo Muza; Reina hermosa,</l>
+               <l>sabrás, como aquí en la sala</l>
+               <l>hay Caballeros que ponen</l>
+               <l>dolo en tu honor y tu fama,</l>
+               <l>y que con Albin Hamete</l>
+               <l>la ley conyugal quebrantas.</l>
+               <l>Este juicio se remite</l>
+               <l>al tribunal de las armas:</l>
+               <l>cuatro son los que te acusan,</l>
+               <l>otros cuatro por ti salgan</l>
+               <l>á defender lo contrario,</l>
+               <l>y si vence su arrogancia,</l>
+               <l>tu honor queda acrisolado;</l>
+               <l>mas si queda la campaña</l>
+               <l>por los cuatro que te acusan,</l>
+               <l>se amancillará tu fama,</l>
+               <l>y por alcoranas leyes</l>
+               <l>tienes de morir quemada:</l>
+               <l>treinta dias hay de plazo.</l>
+               <l>Ella sin turbarse en nada,</l>
+               <l>mirando á un lado y á otro,</l>
+               <l>como que se hallaba salva,</l>
+               <l>viendo que los circunstantes</l>
+               <l>muy mesurados estaban,</l>
+               <l>tuvo por cierta evidencia</l>
+               <l>lo que discurrió ser chanza.</l>
+               <l>Y dijo muy animosa,</l>
+               <l>con gallardía bizarra:</l>
+               <l>cualquier Caballero Moro</l>
+               <l>que en mi honor ha puesto tacha,</l>
+               <l>miente traidor y villano;</l>
+               <l>y aquí ahora sin tardanza</l>
+               <l>pónganme la acusacion</l>
+               <l>tan sin fundamento y falta,</l>
+               <l>que yo confio en Alá,</l>
+               <l>que me ha de sacar en palmas.</l>
+               <l>Y guardando ceremonia,</l>
+               <l>los traidores se levantan</l>
+               <l>y ponen la acusacion</l>
+               <l>con todas las circunstancias.</l>
+               <l>La triste Reina afligida</l>
+               <l>se despoja de sus galas,</l>
+               <l>y en la torre de Comares</l>
+               <l>mandó el Rey asegurarla,</l>
+               <l>con la órden muy espresa,</l>
+               <l>que no fuera visitada</l>
+               <l>de nadie, sino de Muza</l>
+               <l>por ser de su confianza.</l>
+               <l>De sus damas se despide,</l>
+               <l>llevándose en su compaña</l>
+               <l>tan solo la mas querida,</l>
+               <l>que era la hermosa Esperanza.</l>
+               <l>En tan amargo conflicto</l>
+               <l>tal vez ya desesperada</l>
+               <l>queria abrirse las venas,</l>
+               <l>porque no se les lográra</l>
+               <l>el ver su muerte afrentosa.</l>
+               <l>Y animándola Esperanza,</l>
+               <l>le dijo: sabrás, señora,</l>
+               <l>que yo conozco en mi patria</l>
+               <l>un famoso Caballero,</l>
+               <l>que don Juan Chacon se llama,</l>
+               <l>y sé que si de él te vales,</l>
+               <l>libre ha de quedar tu fama.</l>
+               <l>La Reina tomó el consejo,</l>
+               <l>y al punto escribió una carta,</l>
+               <l>diciendo; señor don Juan,</l>
+               <l>á quien realza la fama</l>
+
+               <pb n="3"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>gran señor de Cartagena,</l>
+               <l>por estar bien informada</l>
+               <l>que agenas honras defiendes,</l>
+               <l>y que al desvalido amparas,</l>
+               <l>esto, señor me ha obligado</l>
+               <l>á escribirte mi desgracia.</l>
+               <l>Yo, Reina Sultana triste</l>
+               <l>necesito que me valgas:</l>
+               <l>por un testimonio falso</l>
+               <l>soy de adúltera acusada:</l>
+               <l>y por Alá te aseguro,</l>
+               <l>que sin causa estoy culpada,</l>
+               <l>y si no doy Caballeros,</l>
+               <l>que me defiendan sus armas,</l>
+               <l>la sentencia de mi muerte</l>
+               <l>se ha de ver ejecutada.</l>
+               <l>Cuatro son los que me acusan,</l>
+               <l>y otros cuatro la ley mandan</l>
+               <l>sean los que me defiendan.</l>
+               <l>Si por ser infiel reparas,</l>
+               <l>yo creo en Dios uno y trino,</l>
+               <l>y en su Madre soberana,</l>
+               <l>y el santo bautismo pide</l>
+               <l>con mil deseos el alma.</l>
+               <l>La carta leyó don Juan,</l>
+               <l>y notando que Cristiana</l>
+               <l>queria hacerse la Reina,</l>
+               <l>se determinó librarla.</l>
+               <l>Y escribiendo la respuesta</l>
+               <l>la cifró en estas palabras:</l>
+               <l>el postrer dia del plazo</l>
+               <l>estaremos en Granada</l>
+               <l>yo y otros tres Caballeros,</l>
+               <l>y en esto no ha de haber falta.</l>
+               <l>No digo mas, Talavera.</l>
+               <l>Buscó don Juan sin tardanza</l>
+               <l>á tres nobles Caballeros</l>
+               <l>de mucho valor y fama,</l>
+               <l>don Manuel Ponce Leon</l>
+               <l>fuè el primero que buscaba,</l>
+               <l>don Alonso de Aguilar</l>
+               <l>por segundo le nombraba,</l>
+               <l>y por tercero al Alcaide</l>
+               <l>de los Donceles señála.</l>
+               <l>Así que juntos los tuvo</l>
+               <l>les manifestó la carta,</l>
+               <l>y ofreciéndose gustosos,</l>
+               <l>fingieron que iban á caza.</l>
+               <l>Todos la arábiga lengua</l>
+               <l>con destreza la cortaban:</l>
+               <l>armáronse fuertemente,</l>
+               <l>y sobre la finas armas</l>
+               <l>llevaban traje turquesco, </l>
+               <l>porque á su intento ayudaba.</l>
+               <l>Dispuesto para el camino,</l>
+               <l>aceleraron la marcha,</l>
+               <l>y llegando á darle vista</l>
+               <l>á la Vega de Granada,</l>
+               <l>se metieron en el soto,</l>
+               <l>en donde la noche pasan.</l>
+               <l>Y á proseguir su camino</l>
+               <l>saliendo por la mañana,</l>
+               <l>vieron que venia un Moro;</l>
+               <l>aguardaron que llegara,</l>
+               <l>y hablándole en su lenguaje,</l>
+               <l>alegres le saludaban:</l>
+               <l>no menos bizarro el Moro</l>
+               <l>correspondió á sus palabras.</l>
+               <l>Luego al punto les pregunta,</l>
+               <l>quién eran, ó que buscaban?</l>
+               <l>Sómos Genízaros Turcos,</l>
+               <l>dijeron, y desde Adra</l>
+               <l>hemos venido á estas vegas</l>
+               <l>que nos han dicho que andan</l>
+               <l>ciertos Cristianos por ellas,</l>
+               <l>que hacen dañosas entradas,</l>
+               <l>y deseamos hallarlos,</l>
+               <l>para herirlos en batalla.</l>
+               <l>Dijo el Moro; en cada uno</l>
+               <l>vereis un Marte en campaña:</l>
+               <l>vamos andando, que yo</l>
+               <l>os contarè sus hazañas;</l>
+               <l>y les refirió de paso</l>
+               <l>cuanto sucede en Granada.</l>
+               <l>Llegada la triste hora,</l>
+               <l>baja la Reina enlutada,</l>
+               <l>y todos los Caballeros</l>
+               <l>iban con sus negras bandas.</l>
+               <l>Aquí fueron los lamentos</l>
+               <l>por balcones y ventanas,</l>
+               <l>los llantos y gritería</l>
+               <l>que toda la gente armaba,</l>
+               <l>de ver su afligida Reina</l>
+               <l>llorando todas las damas.</l>
+               <l>Y luego al instante mismo</l>
+               <l>que llegó á la Vivarrambla,</l>
+               <l>la subieron al tablado,</l>
+               <l>y en tal estrado sentada,</l>
+               <l>quedó la Reina llorosa,</l>
+               <l>muy triste y desconsolada,</l>
+               <l>hechos sus ojos dos fuentes,</l>
+               <l>toda de penas cercada.</l>
+               <l>Y en otra segunda parte</l>
+               <l>proseguiré lo que falta.</l>
+            </div>
+            
+
+            <div n="2" type="parte">
+
+               <pb n="4"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <head type="titulo_parte">SEGUNDA PARTE.</head>
+
+               <l rend="indent">Eran las dos de la tarde</l>
+               <l>sin haber dispuesto nada:</l>
+               <l>levantóse un Caballero,</l>
+               <l>diciendo aquestas palabras.</l>
+               <l>Señora, qué determinas?</l>
+               <l>pues si el término se pasa,</l>
+               <l>se pondrá en egecucion</l>
+               <l>la sentencia promulgada.</l>
+               <l>Aquí hay muchos Caballeros,</l>
+               <l>de grande valor y fama,</l>
+               <l>que te quieren defender,</l>
+               <l>solo tu licencia aguardan.</l>
+               <l>La Reina dió por respuesta:</l>
+               <l>por estar apalabrada,</l>
+               <l>aguardaré otras dos horas;</l>
+               <l>y si veo me hacen falta,</l>
+               <l>admitiré la fineza</l>
+               <l>de aquellos que bien me hagan.</l>
+               <l>No se pasó media hora,</l>
+               <l>cuando oyeron grande zambra:</l>
+               <l>fué que entraron cuatros Turcos,</l>
+               <l>con un Moro, en quien reparan,</l>
+               <l>y ser Gazul conocieron,</l>
+               <l>pero á los Turcos en nada.</l>
+               <l>Llegó don Juan al tablado,</l>
+               <l>donde los jueces estaban,</l>
+               <l>pidió para hablar licencia</l>
+               <l>con la Reina dos palabras.</l>
+               <l>Los jueces la concedieron,</l>
+               <l>fué donde la reina estaba,</l>
+               <l>y porque todos lo oyesen,</l>
+               <l>comenzó á hablar en voz alta:</l>
+               <l>sepa vuestra Real Alteza,</l>
+               <l>que las marítimas aguas</l>
+               <l>nos aportaron á tierra</l>
+               <l>en este lugar de Adra:</l>
+               <l>y viniendo á recorrer</l>
+               <l>estas Vegas de Granada,</l>
+               <l>hoy tuvimos la fortuna</l>
+               <l>de saber vuestra desgracia;</l>
+               <l>si quereis darnos licencia,</l>
+               <l>tomaremos la demanda.</l>
+               <l>Y con disimulo airoso</l>
+               <l>dejó caer una carta,</l>
+               <l>que la Reina alzó al instante,</l>
+               <l>y dijo: yo confiada</l>
+               <l>estoy de que un Caballero</l>
+               <l>me tiene dada palabra</l>
+               <l>de venir con tres amigos</l>
+               <l>y son de nacion cristiana.</l>
+               <l>Respondió agudo don Juan:</l>
+               <l>aunque de sangue cristiana,</l>
+               <l>somos Genízaros Turcos,</l>
+               <l>sin reconocer ventaja</l>
+               <l>al Caballero que dices.</l>
+               <l>Respondió la Reina: basta;</l>
+               <l>desde luego doy licencia,</l>
+               <l>dueños sois de aquesta causa</l>
+               <l>en que por falsos traidores</l>
+               <l>mi inocencia está agraviada.</l>
+               <l>Cortés don Juan se despide,</l>
+               <l>y todos cuatro se entraban</l>
+               <l>con valor en la palestra,</l>
+               <l>donde ya los aguardaban</l>
+               <l>los cuatro mantenedores</l>
+               <l>dispuestos todos en ála.</l>
+               <l>Picó el primero el Alcaide,</l>
+               <l>y se fuè con arrogancia</l>
+               <l>donde estaban los traidores,</l>
+               <l>y les dijo: por qué causa</l>
+               <l>pusísteis de vuestra Reina</l>
+               <l>en tanto riesgo la fama?</l>
+               <l>Y le respondió el Zegrí:</l>
+               <l>porque en delicias profanas</l>
+               <l>los cuatro á la Reina vimos;</l>
+               <l>y sentidos de la infamia</l>
+               <l>al Rey lo participamos,</l>
+               <l>manteniéndolo en campaña.</l>
+               <l>Dijo el fuerte Alcaide: miente,</l>
+               <l>que es la Reina honesta y casta;</l>
+               <l>y enojado à lo valiente,</l>
+               <l>con el cabo de la lanza,</l>
+               <l>le dió tan tremendo golpe,</l>
+               <l>que si asegunda lo mata.</l>
+               <l>Desmentido y ofendido,</l>
+               <l>el Zegrí enristró la lanza</l>
+               <l>y envistió para el Cristiano</l>
+               <l>y comenzó la batalla.</l>
+               <l>Al gallardo de Alí Hamete</l>
+               <l>le tocó por su desgracia</l>
+               <l>el valiente don Manuel:</l>
+               <l>hízole á este tiempo cara</l>
+               <l>don Alonso á Mahandon,</l>
+               <l>y don Juan al que quedaba,</l>
+               <l>el valiente Mahandin,</l>
+               <l>que enristrando las dos lanzas,</l>
+
+               <pb n="5"/>
+
+               <fw type="paginaNum">5</fw>
+
+               <l>partió el uno para el otro,</l>
+               <l>pareciendo que chocaba</l>
+               <l>un monte con otro monte,</l>
+               <l>y sin remediarse en nada,</l>
+               <l>ambos vinieron á tierra,</l>
+               <l>y sacando las espadas,</l>
+               <l>armaron tal herreria,</l>
+               <l>que las armas destrozaban.</l>
+               <l>A los primeros encuentros</l>
+               <l>por una treta impensada</l>
+               <l>el valeroso don Juan</l>
+               <l>sacó en un muslo una llaga.</l>
+               <l>Quiso que volviese al cebo,</l>
+               <l>y volviendo sin tardanza</l>
+               <l>don Juan ya sobre avisado,</l>
+               <l>señaló una herida falsa:</l>
+               <l>el Moro acudió al reparo,</l>
+               <l>cubriéndose con la adarga:</l>
+               <l>pero rebatido el brazo</l>
+               <l>don Juan con fuerza y pujanza,</l>
+               <l>todo un muslo le cortó</l>
+               <l>hasta cerca de la caña.</l>
+               <l>El Moro quedó burlado,</l>
+               <l>y antes que se recobrara</l>
+               <l>alzó su brazo invencible,</l>
+               <l>y le dió tal cuchillada,</l>
+               <l>que le cercenó el pescuezo;</l>
+               <l>le segundó, y como echaba</l>
+               <l>tanta sangre, fué bastante</l>
+               <l>á trastornarle de espaldas,</l>
+               <l>y rebolcado en su sangre,</l>
+               <l>acabó en mortales ánsias.</l>
+               <l>Como don Juan lo vió muerto,</l>
+               <l>á Dios rindió muchas gracias,</l>
+               <l>y montado en su caballo,</l>
+               <l>allí hácia un lado se aparta.</l>
+               <l>Mahandon á don Alonso</l>
+               <l>le dijo: deja que vaya</l>
+               <l>ahora á vengar de mi hermano</l>
+               <l>la muerte, de esta batalla</l>
+               <l>despues la concluiremos.</l>
+               <l>Don Alonso dijo; calla,</l>
+               <l>y tu defensa procura,</l>
+               <l>que en el grado en que se halla</l>
+               <l>tu hermano, te verás presto,</l>
+               <l>pues ha de quedar vengada</l>
+               <l>hoy de los Abencerrages</l>
+               <l>tanta sangre derramada.</l>
+               <l>Encolerizado el Moro,</l>
+               <l>con furia arrojó la lanza,</l>
+               <l>y al revolver don Alonso</l>
+               <l>al caballo por la hijada</l>
+               <l>se le entró el agudo hierro,</l>
+               <l>quedándole atravesada.</l>
+               <l>El bruto muy mal herido,</l>
+               <l>dando saltos se quejaba,</l>
+               <l>sin sujetarse á las riendas,</l>
+               <l>y temiendo una desgracia,</l>
+               <l>de él se arrojó don Alonso,</l>
+               <l>y confiado en la ventaja,</l>
+               <l>el Moro le acometió.</l>
+               <l>Don Alonso al ver llegaba</l>
+               <l>á dar sobre el caballo,</l>
+               <l>daba un salto y se apartaba.</l>
+               <l>Y al Moro le dijo airado;</l>
+               <l>si en apearte te tardas,</l>
+               <l>te he de matar el caballo,</l>
+               <l>que esa es accion muy villana.</l>
+               <l>Con esto el Moro se apea,</l>
+               <l>y sacando las espadas,</l>
+               <l>allí empezaron de nuevo</l>
+               <l>la sangrienta y cruel batalla.</l>
+               <l>Tuvo ocasion don Alonso,</l>
+               <l>y como diestro, la espada</l>
+               <l>se la entró por un vacio,</l>
+               <l>y le dió una herida mala.</l>
+               <l>El moro airado y soberbio</l>
+               <l>á don Alonso descarga</l>
+               <l>tan desaforado golpe,</l>
+               <l>que el águila que llevaba,</l>
+               <l>le cortó, y en la cabeza</l>
+               <l>una mala herida saca,</l>
+               <l>y picado don Alonso,</l>
+               <l>antes que le asegundara,</l>
+               <l>por entre la abrochadura</l>
+               <l>y la junta de las armas</l>
+               <l>la aguda espada le entró,</l>
+               <l>y le pasó las entrañas.</l>
+               <l>Cayó amortecido el Moro,</l>
+               <l>y agonizando allí acaba,</l>
+               <l>de lo cual dió Alonso</l>
+               <l>á Dios muchas alabanzas:</l>
+               <l>con el caballo del Moro</l>
+               <l>fué adonde don Juan estaba</l>
+               <l>don Manuel y Alí Hamete</l>
+               <l>fuertemente peleaban</l>
+               <l>á pié, pues ya los caballos</l>
+               <l>rendidos del todo estaban,</l>
+               <l>don Manuel con cinco heridas,</l>
+               <l>y el Moro con cinco malas</l>
+               <l>anda al rededor del Moro</l>
+               <l>haciendo mil carabanas,</l>
+               <l>tirando á diestro y siniestro</l>
+               <l>rebeses y cuchilladas.</l>
+               <l>Don Manuel estaba quieto,</l>
+               <l>aguardando se acercara,</l>
+
+               <pb n="6"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>y cuando lo tuvo á trecho,</l>
+               <l>alzando brazo y espada</l>
+               <l>tan recio golpe le dió,</l>
+               <l>que cortó casco y adarga,</l>
+               <l>y parte de la cabeza.</l>
+               <l>Cayó el Moro ardiendo en rabia,</l>
+               <l>y volviendo en pié á ponerse,</l>
+               <l>le dió con la cimitarra</l>
+               <l>á don Manuel en el hombro,</l>
+               <l>pero no le ofendió en nada;</l>
+               <l>y alzando el invicto brazo,</l>
+               <l>le dió taa grande cuchillada</l>
+               <l>que la cabeza le hundió</l>
+               <l>hasta cerca de la barba.</l>
+               <l>Al instante cayó el Moro,</l>
+               <l>y allí sin remedio acaba:</l>
+               <l>alzó don Manuel los ojos,</l>
+               <l>y á Dios le rindió mil gracias,</l>
+               <l>y montando en su caballo,</l>
+               <l>fué á donde los dos estaban.</l>
+               <l>El Alcaide y el Zegri,</l>
+               <l>blandiendo entrambos las lanzas,</l>
+               <l>se encontraron los caballos,</l>
+               <l>y los dos á tierra saltan,</l>
+               <l>y con la espada en la mano</l>
+               <l>empiezan nueva batalla.</l>
+               <l>Viendo el Moro que el Alcaide</l>
+               <l>no le cedia ventaja,</l>
+               <l>muy confiado en sus fuerzas,</l>
+               <l>porque eran agigantadas,</l>
+               <l>se abrazó con el Cristiano,</l>
+               <l>y un grande rato luchaban,</l>
+               <l>cuando el muy astuto Alcaide</l>
+               <l>se acordó de que llevaba</l>
+               <l>un puñal, y en el sobaco</l>
+               <l>repitió dos puñaladas;</l>
+               <l>y el Moro muy mal herido</l>
+               <l>furioso sacó una daga</l>
+               <l>para herirle y no podia,</l>
+               <l>por ser la hoja muy ancha.</l>
+               <l>Tercera vez el Alcaide</l>
+               <l>le metió por una hijada</l>
+               <l>el puñal, y cayó el Moro:</l>
+               <l>y allí antes que acabara,</l>
+               <l>puesta la rodilla al pecho,</l>
+               <l>le obligó que confesara</l>
+               <l>la traicion, y los Jueces</l>
+               <l>viesen lo que declaraba.</l>
+               <l>De parte pues de la Reina</l>
+               <l>mil instrumentos sonaban</l>
+               <l>en señal de la victoria.</l>
+               <l>Muza se fué en su compaña</l>
+               <l>por el Zacatin arriba,</l>
+               <l>é iban haciéndole salva</l>
+               <l>los muy sonoros clarines,</l>
+               <l>hasta llegar á la Alhambra.</l>
+               <l>Allí fueron bien curados;</l>
+               <l>la Reina los visitaba,</l>
+               <l>rindiéndoles mil aplausos,</l>
+               <l>y la siguiente mañana</l>
+               <l>marcharon, por ser preciso,</l>
+               <l>y alegre toda Granada</l>
+               <l>con rendidas espresiones</l>
+               <l>el valor victoreaba</l>
+               <l>de los turcos mas bizarros</l>
+               <l>en la accion mas arriesgada.</l>
+               <l>Y en otra tercera parte</l>
+               <l>se dirá lo que aquí falta.</l>
+            </div>
+
+            <div n="3" type="parte">
+
+               <head type="titulo_parte">TERCERA PARTE.</head>
+
+               <l rend="indent">Habiéndose despedido</l>
+               <l>de la discreta Sultana</l>
+               <l>aquellos cuatro Cristianos,</l>
+               <l>que en otra segunda plana</l>
+               <l>dije que la defendieron,</l>
+               <l>dejando limpia su fama,</l>
+               <l>dando muerte á los aleves,</l>
+               <l>que traidores le infamaban,</l>
+               <l>y haciendo que por su boca</l>
+               <l>esta verdad declararan:</l>
+               <l>quedó esta noble señora</l>
+               <l>muy triste y desconsolada,</l>
+               <l>sintiendo mucho su ausencia;</l>
+               <l>y al verse tan obligada,</l>
+               <l>agradecida quisiera</l>
+               <l>el partirse en su compaña,</l>
+               <l>para recibir gozosa</l>
+               <l>con el bautismo la gracia.</l>
+               <l>Tres años con desconsuelo</l>
+               <l>vivió, por verse privada</l>
+               <l>de este favor, hasta tanto</l>
+               <l>que el cielo abrió puerta franca</l>
+               <l>á sus vivas diligencias,</l>
+               <l>porque el deseo lograra.</l>
+               <l>El Campeon invencible</l>
+               <l>y Católico Monarca</l>
+               <l>don Fermando, que ahora mora</l>
+               <l>entré angélicas escuadras</l>
+
+               <pb n="7"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>en toda la Andalucia</l>
+               <l>dejó sus lunas menguadas,</l>
+               <l>y viéndose dueño de ella,</l>
+               <l>para que mas se exaltára</l>
+               <l>la fé en todo el continente</l>
+               <l>de nuestra invencible España,</l>
+               <l>al compás de los clarines,</l>
+               <l>de los pifanos y cajas,</l>
+               <l>guió el campo, siendo el mismo</l>
+               <l>adalid que lo animaba,</l>
+               <l>con su dichosa consorte,</l>
+               <l>bella emulacion de Palas.</l>
+               <l>Conquistando valeroso</l>
+               <l>todo el reino de Granada,</l>
+               <l>todos los pueblos miraron</l>
+               <l>su soberbia avasallada,</l>
+               <l>menos la ciudad: por tanto</l>
+               <l>el fiero leon de España</l>
+               <l>mandó que inmediato á ella</l>
+               <l>de la noche á la mañana</l>
+               <l>otra poblacion formasen</l>
+               <l>en los ojos de Güezarca,</l>
+               <l>cuya fábrica idearon</l>
+               <l>con disposicion gallarda</l>
+               <l>cuatro grandes de Castilla,</l>
+               <l>con cuatro muy dilatadas</l>
+               <l>anchas y espaciosas calles,</l>
+               <l>puestas en cruz; y allá al alba,</l>
+               <l>cuando el Católico Rey</l>
+               <l>llegó á verla, se admiraba,</l>
+               <l>porque siendo de madera</l>
+               <l>y de lienzo, denotaba</l>
+               <l>ser un fuerte inexpugnable,</l>
+               <l>no solo por sus murallas,</l>
+               <l>almenas y torreones,</l>
+               <l>sino por verla adornada</l>
+               <l>de un baluarte muy grande,</l>
+               <l>que horror á Marte causaba.</l>
+               <l>Le dió timbre de ciudad,</l>
+               <l>y quiso que se llamára</l>
+               <l>Santa Fé, dándole muchos</l>
+               <l>privilegios que aun se guardan.</l>
+               <l>Cuando los Moros la vieron</l>
+               <l>tan brevemente fundada,</l>
+               <l>concibieron mucho miedo,</l>
+               <l>acrecentado sus ánsias</l>
+               <l>sus muros, sus torreones,</l>
+               <l>sus almenas y atalayas.</l>
+               <l>Aquí sentó los reales</l>
+               <l>su Alteza, donde formaban</l>
+               <l>las lanzas y los mosquetes</l>
+               <l>una maleza intrincada.</l>
+               <l>Aquí Moros y Cristianos</l>
+               <l>contínuamente lidiaban</l>
+               <l>en cuyas escaramuzas,</l>
+               <l>siempre lo mejor llenaban</l>
+               <l>los Cristianos, siendo azote</l>
+               <l>de la soberbia pagana.</l>
+               <l>Aquí fué donde aquel Moro</l>
+               <l>con denuedo y arrogancia</l>
+               <l>llegando junto á las tiendas,</l>
+               <l>á todos desafiaba,</l>
+               <l>y para mas irritarles,</l>
+               <l>con grande escarnio arrastraba</l>
+               <l>en la cola del caballo</l>
+               <l>de la Virgen sacrosanta</l>
+               <l>el Ave María escrita.</l>
+               <l>cuyo orgullo, cuya intamia,</l>
+               <l>sin obtener la licencia</l>
+               <l>del Rey, llegó á castigarla</l>
+               <l>Garcilazo, aunque muy jóven:</l>
+               <l>pues dándole con la lanza</l>
+               <l>por debajo del sobaco,</l>
+               <l>en tierra lo derribaba,</l>
+               <l>y apeando del caballo,</l>
+               <l>con los filos de su espada</l>
+               <l>cortándole la cabeza,</l>
+               <l>del arzon quedó colgada;</l>
+               <l>y quitando del caballo</l>
+               <l>del Ave pura la tarja,</l>
+               <l>la besó y formó estandarte</l>
+               <l>en la punta de la lanza,</l>
+               <l>y con entrambos caballos</l>
+               <l>para el real caminaba,</l>
+               <l>donde el Rey mandó prenderle,</l>
+               <l>y la Reina lo indultaba;</l>
+               <l>pues si salió sin licencia,</l>
+               <l>adquirió lauros y fama,</l>
+               <l>dándole conformes todos</l>
+               <l>elogios por tal hazaña.</l>
+               <l>Al cabo de treinta dias</l>
+               <l>que su Alteza se acampaba</l>
+               <l>en Santa Fé con sus tropas,</l>
+               <l>se determinó entregarla</l>
+               <l>el Rey Moro, y para ello</l>
+               <l>á su hermano Muza manda,</l>
+               <l>que acompañado de muchos</l>
+               <l>de las mas nobles prosapias,</l>
+               <l>vaya por Embajador,</l>
+               <l>y que diga en su demanda,</l>
+               <l>que el Rey Audalí su hermano</l>
+               <l>le hará entrega de Granada,</l>
+               <l>con todas sus fortalezas;</l>
+               <l>pero que le suplicaba,</l>
+               <l>que usase de la clemencia</l>
+               <l>que con los demás usaba,</l>
+
+               <pb n="8"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>sin perjudicar los bienes</l>
+               <l>de que quedase en España,</l>
+               <l>como ni impedir el paso</l>
+               <l>al que al Africa se parta.</l>
+               <l>Todo lo cual otorgado</l>
+               <l>por el piadoso Monarca,</l>
+               <l>en compaña de su esposa,</l>
+               <l>y mucha gente esforzada,</l>
+               <l>fué á tomar la posesion</l>
+               <l>de ciudad tan deseada.</l>
+               <l>Y junto al Geníl salió</l>
+               <l>el Rey Chico, y le entregaba</l>
+               <l>las llaves de la ciudad,</l>
+               <l>y subiéndose á la Alhambra,</l>
+               <l>en la torre de Comares</l>
+               <l>levantó la señal santa</l>
+               <l>de la Cruz, y de allí á poco,</l>
+               <l>de Fernando y de su amada</l>
+               <l>esposa el regio estandarte.</l>
+               <l>Y luego los Reyes de armas</l>
+               <l>dijeron en altas voces,</l>
+               <l>que todos las escucharan:</l>
+               <l>el Rey don Fernando viva,</l>
+               <l>y que reine edades largas</l>
+               <l>con doña Isabel su esposa:</l>
+               <l>por ambos, desde hoy Granada.</l>
+               <l>La real Capilla entonó</l>
+               <l>el TE DEUM y fué tanta</l>
+               <l>la alegría, que de gozo</l>
+               <l>todo Cristiano lloraba.</l>
+               <l>Tenian mil instrumentos</l>
+               <l>por las calles y las plazas,</l>
+               <l>y cuando vino la noche,</l>
+               <l>fuegos hubo y luminarias,</l>
+               <l>jugando galanamente</l>
+               <l>las alcancias y cañas.</l>
+               <l>Y luego al dia siguiente</l>
+               <l>todos los Grandes de gala</l>
+               <l>visitaron á los Reyes,</l>
+               <l>y al besar sus manos blancas,</l>
+               <l>de Granada y de su reino</l>
+               <l>lo juraron por Monarca.</l>
+               <l>Fué tambien á visitarles</l>
+               <l>muy gozosa la Sultana,</l>
+               <l>y siendo bien recibida,</l>
+               <l>reveló lo que archivaba</l>
+               <l>ya tres años en su pecho,</l>
+               <l>que queria ser Cristiana.</l>
+               <l>Y los Reyes muy alegres</l>
+               <l>ofrecieron ampararla,</l>
+               <l>sirvièndole de padrinos,</l>
+               <l>y el nuevo Arzobispo el agua</l>
+               <l>le echó del santo bautismo,</l>
+               <l>y quisieron se llamara,</l>
+               <l>si Sultana, siendo Mora,</l>
+               <l>doña Isabel de Granada.</l>
+               <l>Y casándola despues</l>
+               <l>con un jóven, que gozaba</l>
+               <l>esclarecidos blasones,</l>
+               <l>su Alteza con mano franca</l>
+               <l>le dió en dote dos ciudades;</l>
+               <l>y ella á su esclava Esperanza</l>
+               <l>de Hita le dió libertad</l>
+               <l>y se fué á Mula su patria.</l>
+               <l>El Rey Chico se partió</l>
+               <l>para el Africa, en compaña</l>
+               <l>de los Gomeles muy triste,</l>
+               <l>pues real cetro no empuñaba;</l>
+               <l>y en Africa aleves manos</l>
+               <l>le dieron la muerte infausta.</l>
+               <l>Y con esto el auditorio</l>
+               <l>disimulará las faltas.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+
+            <div type="colofon">
+               <p>CARMONA.-—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

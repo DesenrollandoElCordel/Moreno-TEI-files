@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_164">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Don Pedro Salinas</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque Universitaire de Genève</authority>
+            <availability>
+               <p>CC-BY-NC-SA</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Don Pedro Salinas. Nuevo romance, de los arrojos,
+                     muertes y valentías que hizo este caballero, natural de la ciudad de
+                     Jaen.</title>
+                  <title type="titulo_breve">Don Pedro Salinas.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <date>1854</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI"></idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 175</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_164_1.xml">grabado_m_164_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-30" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_164_thumbnail.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+            
+            <div>
+
+               <pb n="1"/>
+
+               <fw type="impresorNum">(Núm. 175)</fw>
+
+               <head rend="negrita" type="primer_titulo">DON PEDRO SALINAS.</head>
+               <head rend="cursiva" type="subtitulo">Nuevo romance, de los arrojos, muertes y
+                  valentías que hizo <lb/>este caballero, natural de la ciudad de Jaen.</head>
+
+               <l rend="indent">Escuchenme los valientes</l>
+               <l>los que presumen de altivos,</l>
+               <l>preciandose de alentados,</l>
+               <l>y de armas guarnecidos,</l>
+               <l>que andais como horribles fieras:</l>
+               <l>por ciudades y caminos;</l>
+               <l>suspended vuestra arrogancia,</l>
+               <l>mientras que paso á deciros</l>
+               <l>del mas valeroso joven,</l>
+               <l>que en este mundo ha nacido.</l>
+               <l>En la ciudad de Jaén,</l>
+               <l>cabeza de su partido,</l>
+               <l>nació Don Pedro Salinas,</l>
+               <l>de nobles padres, y ricos:</l>
+               <l>lo criaron con regalo,</l>
+               <l>siendo de muchos servido.</l>
+               <l>Era en toda la ciudad</l>
+               <l>el tal Don Pedro aplaudido</l>
+               <l>por sus generosidades,</l>
+               <l>y su cortesano estilo,</l>
+               <l>A los veinte y cuatro años,</l>
+               <l>que eran de su edad cumplidos,</l>
+               <l>murió su padre, y dejóle</l>
+               <l>de su caudal el dominio.</l>
+               <l>Estando un dia en su casa</l>
+               <l>ha entrado un hombre afligido,</l>
+               <l>diciendo: Señor Don Pedro,</l>
+               <l>á valerme de su ausilio,</l>
+               <l>vengo, porque de millones</l>
+               <l>los guardas, en el camino,</l>
+               <l>cuatro cargas me han quitado,</l>
+               <l>que traía de tocino,,</l>
+               <l>y á mi me vienen siguiendo,</l>
+               <l>para prenderme esto es fijo.</l>
+               <l>Estando en estas razones.</l>
+               <l>miró hácia la puerta, y vido,</l>
+               <l>que entra el administrador</l>
+               <l>con sus guardas muy altivo,</l>
+               <l>para quererlos prender;</l>
+               <l>y cortés Don Pedro dijo:</l>
+
+               <pb n="2"/>
+
+               <l>Señor ese pobre hombre</l>
+               <l>de mi á valerse á venido.</l>
+               <l>y lo tengo de amparar,</l>
+               <l>con que asi á ustedes suplico,</l>
+               <l>el que le vuelvan las cargas,</l>
+               <l>y que se le dé un registro,</l>
+               <l>que aqui estan cuatro doblones,</l>
+               <l>no se le haga descamino,</l>
+               <l>que yo á tan grande merced,</l>
+               <l>siempre estaré agradecido:</l>
+               <l>Y mirando hácia los guardas,</l>
+               <l>el administador dijo.</l>
+               <l>Entren y saquen el reo,</l>
+               <l>porque vo empaños no admito.</l>
+               <l>Viendo la desatencion</l>
+               <l>Salinas quedó corrido,</l>
+               <l>y con grande disimúlo</l>
+               <l>en su cuarto se ha metido,</l>
+               <l>y previniendo una charpa,</l>
+               <l>se la puso, y al proviso</l>
+               <l>á un trabuco naranjero</l>
+               <l>siete balas le ha metido,</l>
+               <l>y haciéndoles cara á todos</l>
+               <l>desta forma les ha dicho:</l>
+               <l>Al que fuere desatento,</l>
+               <l>yo sabré darle el castigo:</l>
+               <l>disparó, y con tal violencia</l>
+               <l>salió del cañon el tiro,</l>
+               <l>que derribó cuatro guardas,</l>
+               <l>y al administrador, cinco:</l>
+               <l>los otros le dispararon,</l>
+               <l>viendo el estrago que hizo,</l>
+               <l>mas fué su fortuna tanta,</l>
+               <l>que ninguno le ha ofendido;</l>
+               <l>con que, dejando las cargas,</l>
+               <l>huyen los que quedan vivos.</l>
+               <l>Entrególas á su dueño,</l>
+               <l>y desta suerte le ha dicho,</l>
+               <l>que se fuera y á caballo</l>
+               <l>lo acompañó hasta el camino.</l>
+               <l>El se volvió á la ciudad,</l>
+               <l>donde le dieron aviso,</l>
+               <l>que el señor Corregidor</l>
+               <l>contra el tenia escrito</l>
+               <l>un proceso, y á la noche</l>
+               <l>se fué á su casa atrevido,</l>
+               <l>á tiempo que los porteros</l>
+               <l>todos estaban dormidos;</l>
+               <l>subióse á la sala, donde</l>
+               <l>estaba desprevenido</l>
+               <l>del caso el Corregidor,</l>
+               <l>quitóse el sombrero, y dijo:</l>
+               <l>Tenga, Usia, buenas noches,</l>
+               <l>y sepa, que soy venido,</l>
+               <l>á que me dé los papeles,</l>
+               <l>que contra mi tiene escritos;</l>
+               <l>esto ha de ser sin remedio,</l>
+               <l>porque ya es empeño mio.</l>
+               <l>El Corregidor turbado,</l>
+               <l>dandoselos, dijo amigo,</l>
+               <l>á eso solo es vuestro empeño,</l>
+               <l>asios obedezco y sirvo.</l>
+               <l>Tomólos, y en su presencia</l>
+               <l>dos mil pedazos los hizo,</l>
+               <l>diciéndole así: Agradezca</l>
+               <l>que con él no hago lo mismo,</l>
+               <l>pero si en la dependencia</l>
+               <l>se anda con mas escritos,</l>
+               <l>no dejaré en la ciudad</l>
+               <l>á mis manos hombre vivo.</l>
+               <l>Volviéndole las espaldas,</l>
+               <l>hácia su casa se ha ido;</l>
+               <l>y tomando dos caballos,</l>
+               <l>un mozo y un buen bolsillo,</l>
+               <l>á Sevilla se fué, donde</l>
+               <l>cargó de tabaco fino,</l>
+               <l>y á Jaen, para venderlo</l>
+               <l>ha tomado su destino:</l>
+               <l>y prosiguiendo su viage,</l>
+               <l>en la mitad del camino,</l>
+               <l>para quererlo robar,</l>
+               <l>diez gitanos le han salido:</l>
+               <l>Pero Don Pedro animoso,</l>
+               <l>al intante que los vido,</l>
+               <l>echó mano á su trabuco,</l>
+               <l>y al mozo señas le hizo.</l>
+               <l>y aun tiempo les dispararon,</l>
+               <l>siendo tan ciertos los tiros,</l>
+               <l>que de los diez, se quedaron</l>
+               <l>seis en el suelo tendidos.</l>
+               <l>y los otros se escaparon,</l>
+               <l>sin decir, á Dios, amigos.</l>
+               <l>En fin llegan á Jaen,</l>
+               <l>con contento y regocijo,</l>
+               <l>y á otro dia de mañana</l>
+               <l>a un costalero le dijo:</l>
+               <l>Ponte este fardo en el ombro,</l>
+               <l>y por las calles a gritos.</l>
+
+               <pb n="3"/>
+
+               <l>vé diciendo desta suerte:</l>
+               <l>Quién compra tabaco fino?</l>
+               <l>que quiero ver si los guardas</l>
+               <l>se me atreven á impedirlo;</l>
+               <l>y previniendo sus armas.</l>
+               <l>en su compañía se ha ido.</l>
+               <l>A la fábrica llegaron,</l>
+               <l>adonde la ronda vido</l>
+               <l>del tabaco, y él entonces,</l>
+               <l>quién compra tabaco? dijo:</l>
+               <l>y los guardas admirados</l>
+               <l>de ver este desatino,</l>
+               <l>temerosos y asustados,</l>
+               <l>ni una palabra le han dicho.</l>
+               <l>Luego el administrador,</l>
+               <l>por un papel que le ha escrito,</l>
+               <l>diciendo: que si queria</l>
+               <l>pagando á su precio fijo,</l>
+               <l>venderle todo el tabaco?</l>
+               <l>Don Pedro le ha respondido,</l>
+               <l>que sí, con que á plata y oro</l>
+               <l>todo se lo ha reducido.</l>
+               <l>Se fué al reino de Valencia,</l>
+               <l>donde empleó en seda lisa.</l>
+               <l>Desde allí pasó á Granada,</l>
+               <l>porque un amigo le dijo,</l>
+               <l>como se despacha bien</l>
+               <l>el género referido;</l>
+               <l>pero en el pinar de Baza</l>
+               <l>un mal encuentro ha tenido</l>
+               <l>sobre defender su hacienda,</l>
+               <l>dió muerte á cinco vandidos;</l>
+               <l>y así que los vido en tierra,</l>
+               <l>á su criado le dijo</l>
+               <l>que les corte las cabezas,</l>
+               <l>y que las cuelgue en un pino;</l>
+               <l>y el mozo con desahogo</l>
+               <l>luego al instante lo hizo,</l>
+               <l>Y prosiguiendo su intento,</l>
+               <l>entró en Granada un domingo,</l>
+               <l>y en el meson de la Espada</l>
+               <l>con su seda se ha metido,</l>
+               <l>adonde por un soplon,</l>
+               <l>que á los guardas les dió aviso,</l>
+               <l>acudió toda la ronda;</l>
+               <l>Don Pedro asi que los vido,</l>
+               <l>metiendo mano á sus armas,</l>
+               <l>dice: Qué se ofrece, amigos?</l>
+               <l>Y el señor guarda mayor</l>
+               <l>al instante á respondido:</l>
+               <l>Saber de un poco de seda,</l>
+               <l>que dicen, que usted ha traido,</l>
+               <l>y por cumplir con la orden,</l>
+               <l>el despacho es lo que pido.</l>
+               <l>Pero con grande frescura,</l>
+               <l>Salinas ha respondido:</l>
+               <l>Seiscientas libras de seda</l>
+               <l>son las que aquí traigo, amigos,</l>
+               <l>sin despacho, porque yo</l>
+               <l>nunca ando con papelillos;</l>
+               <l>pero si el despacho quieren,</l>
+               <l>les despacharé al proviso</l>
+               <l>desta suerte, y disparando,</l>
+               <l>á tres se llevó de un tiro:</l>
+               <l>los otros le dispararon,</l>
+               <l>y con solo cuatro tiros</l>
+               <l>á Don Pedro le quemaron</l>
+               <l>por tres partes el vestido.</l>
+               <l>Llegó el mozo por un lado,</l>
+               <l>que estaba puesto en aviso,</l>
+               <l>y de un fuerte trabucazo</l>
+               <l>á tres partió por el cinto.</l>
+               <l>En este tiempo á Don Pedro</l>
+               <l>quien es el soplon le han dicho,</l>
+               <l>y de un fuerte carabinazo</l>
+               <l>les ha soplado los sentidos,</l>
+               <l>A san Gerónimo fueron,</l>
+               <l>por librarse del peligro:</l>
+               <l>y así que vendió la seda,</l>
+               <l>del convento se ha salido</l>
+               <l>á una cierta dependencia,</l>
+               <l>donde un pícaro atrevido</l>
+               <l>con otros seis en compañia,</l>
+               <l>cabezas de poco juicio,</l>
+               <l>quisieron burlarse de él,</l>
+               <l>y Don Pedro enfurecido,</l>
+               <l>arrancando de un puñal,</l>
+               <l>como fiero basilisco,</l>
+               <l>á golpes y á puñaladas,</l>
+               <l>á tres les dejó tendidos:</l>
+               <l>y los otros se escaparon</l>
+               <l>huyendo, muy mal heridos.</l>
+               <l>Y Don Pedro y su criado,</l>
+               <l>para Malaga se han ido,</l>
+               <l>pero en la playa de Velez</l>
+               <l>le salieron al camino</l>
+               <l>diez y seis moros, que eran,</l>
+               <l>al parecer, argelinos.</l>
+
+               <pb n="4"/>
+
+               <l>Embistiéronle furiosos,</l>
+               <l>pero Don Pedro atrevido,</l>
+               <l>con su valerosa espada,</l>
+               <l>colérico y encendido</l>
+               <l>á golpes y á cuchillas</l>
+               <l>á todos los ha rendido;</l>
+               <l>y dejando cuatro muertos</l>
+               <l>manejó muy bien los vivos:</l>
+               <l>á Málaga llegó, y dando</l>
+               <l>al general los cautivos,</l>
+               <l>estimando su valor,</l>
+               <l>mucho se lo ha agradocido,</l>
+               <l>El señor marqués de Lede,</l>
+               <l>que estaba á este tiempo mismo</l>
+               <l>en Málaga con la órden</l>
+               <l>de núestro invicto Felipe,</l>
+               <l>para ir al campo de Ceuta,</l>
+               <l>viendo su valor y brio,</l>
+               <l>le ha dicho: senor Don Pedro,</l>
+               <l>cierto, que yo agradecido</l>
+               <l>estimára, en mi compaña,</l>
+               <l>viniera á Ceuta conmigo,</l>
+               <l>dándole una compañía,</l>
+               <l>de granaderos altivos,</l>
+               <l>y que con ella sirviera,</l>
+               <l>al rey Don Felipe quinto.</l>
+               <l>Don Pedro le respondió,</l>
+               <l>mostrándose agradecido:</l>
+               <l>Yo estimo el favor tan alto,</l>
+               <l>y el mayor afecto mio</l>
+               <l>será siempre contra infieles,</l>
+               <l>defender la fé de Cristo,</l>
+               <l>y así, sepa su ecselencia,</l>
+               <l>que á servir al rey me animo.</l>
+               <l>Entonces el general,</l>
+               <l>certificando lo dicho,</l>
+               <l>con apasible semblante,</l>
+               <l>le dió la mano de amigo.</l>
+               <l>Y á otro dia se embarcaron</l>
+               <l>en dos muy fuertes navíos,</l>
+               <l>y á Ceuta llegaron todos,</l>
+               <l>con contento y regocijo,</l>
+               <l>y á las primeras salidas,</l>
+               <l>que este caballero hizo,</l>
+               <l>se engolfó tanto en los moros,</l>
+               <l>con tal valor y tal brio,</l>
+               <l>que á pesar de todos, cuantos</l>
+               <l>estaban para impedirlo,</l>
+               <l>tres estandartes reales,</l>
+               <l>trajo en la plaza rendidos,</l>
+               <l>y á los pies del general</l>
+               <l>los puso, diciendo altivo:</l>
+               <l>Recíbalos su ecselencia,</l>
+               <l>y pordone, señor mio.</l>
+               <l>El general le responde.</l>
+               <l>Estos son buenos principios,</l>
+               <l>y es justo que se premien,</l>
+               <l>con que asi al premio me obligo.</l>
+               <l>Levantóse, en fin, el campo,</l>
+               <l>y á la Corte se han partido,</l>
+               <l>donde al rey el general</l>
+               <l>discreta informacion hizo,</l>
+               <l>de su esfuerzo y su valor,</l>
+               <l>y sus hechos referidos:</l>
+               <l>Y nuestro invicto monarca,</l>
+               <l>atendiendo á sus servicios,</l>
+               <l>una encomienda le ha dado</l>
+               <l>de Santiago bendito,</l>
+               <l>y coronel de caballos</l>
+               <l>luego al instante lo hizo,</l>
+               <l>donde gustoso se queda</l>
+               <l>sirviendo á Felipe quinto.</l>
+               <l>Dios lo libre y lo defienda</l>
+               <l>de los infleles altivos,</l>
+               <l>porque ganando victorias,</l>
+               <l>defienda la fé de Cristo.</l>
+               <l>Y aquí mi ingenio suplíca</l>
+               <l>á mi auditorío atendido,</l>
+               <l>que me perdonen las faltas,</l>
+               <l>que estos versos han tenido.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1854.
+                  <lb/>Imprenta de D. José María Moreno, Descalzas núm, 1.
+               </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>
