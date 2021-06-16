@@ -1,0 +1,35 @@
+RegEx Encodage TEI
+
+Ajout de <speaker>
+<l>([A-Z].{0,5}[.,]) ([A-Z¿¡].*)</l>
+<speaker>$1</speaker>\n<l>$2</l>
+
+Ajout de <sp>
+(<speaker>([^$]*?))(?=<speaker>)
+\n<sp>$1</sp>\n
+
+Ajout de <fw> (Numéro de pages)
+<l>([0-9]+)</l>
+<fw type="paginaNum">$1</fw>
+
+Ajout de <lg>
+(<l>(.+\n){x})
+\n<lg>$1</lg>\n
+
+(<lg>\n(\s)*)<l>
+$1<l rend="indent">
+
+<l>(.*\n\s*</lg>)
+<l rend="cursiva">$1
+
+Strophes avec titres en chiffres romains
+(<l>[A-Z]*(\.)<\/l>)([^$]*?)(?=<l>[A-Z]*(\.)<\/l>)
+\n<lg>$1 $3</lg>\n
+
+Ajouter un titre aux strophes
+(<lg>\n(\s)*)<l>(.*)</l>
+$1<head type="titulo_estrofa">$3</head>
+
+Ajouter des indent au milieu d'une strophe
+(<lg>\n)((.*\n){4})(\s*)<l>
+$1$2$3<l rend="indent">
