@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,7 +20,7 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Sainete del pelícano y ratón</title>
+                  <title type="titulo_completo">Sainete del pelicano y raton.</title>
                   <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
@@ -84,7 +85,7 @@
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -111,6 +112,7 @@
          <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
          <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-06-30" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,7 +128,7 @@
             <head rend="negrita" type="primer_titulo">
                <lb/>SAINETE
                <lb/>DEL
-               <lb/>PELICANO.
+               <lb/>PELICANO
                <lb/>Y
                <lb/>RATON.
             </head>
@@ -191,7 +193,11 @@
                   <l>Señor caco,</l>
                   <l>señor ladron famoso, salga luego,</l>
                   <l>que declaro la guerra á sangre y fuego. <stage rend="cursiva">vase.</stage></l>
-                  <l>Per Señor Domingo, qué os ha sucedido?</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Per.</speaker>
+                  <l>Señor Domingo, qué os ha sucedido?</l>
                </sp>
 
                <sp>
@@ -314,7 +320,7 @@
                   <l>No sois vos de los que hace la justicia</l>
                   <l>(que muchos años viva)</l>
                   <l>Sagitarios de medio cuerpo arriba?</l>
-                  <l>y con unas soletas remojadas.</l>
+                  <l>y con unas soletas remojadas</l>
                   <l>les ponen las espaldas coloradas?</l>
                </sp>
 
@@ -395,13 +401,13 @@
 
                <sp>
                   <speaker rend="cursiva">Per.</speaker>
-                  <l>De camisa decís? ay tal trabajo!. </l>
+                  <l>De camisa decís? ay tal trabajo!</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Dom.</speaker>
                   <l>Palominos serán de vuelo bajó:</l>
-                  <l>Qué hemos de hacer con tanta tremolina?, </l>
+                  <l>Qué hemos de hacer con tanta tremolina?</l>
                </sp>
 
                <sp>
@@ -439,7 +445,7 @@
                   <l>Pelicano ha de ser, si tiene pelo;</l>
                   <l>y raton, si raida, majadero:</l>
                   <l>y cojeremos capas diez ó doce,</l>
-                  <l>dejándoles en hlanco y á las doce.</l>
+                  <l>dejándoles en blanco y á las doce.</l>
                </sp>
 
                <sp>
@@ -516,13 +522,21 @@
                <sp>
                   <speaker rend="cursiva">Hom. 2.</speaker>
                   <l>Ay que me mata! aquí Dios y el Papa. </l>
-                  <l>bale Per. Mataste al hombre?</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Sale Per.</speaker>
+                  <l>Mataste al hombre?</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Dom.</speaker>
                   <l>No, maté la capa. </l>
-                  <l>er O que indo oficial! segun lo vemos, </l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Per</speaker>
+                  <l>O que lindo oficial! segun lo vemos, </l>
                   <l>ricos en cuatro dias quedaremos.</l>
                </sp>
 
@@ -591,7 +605,11 @@
                <sp>
                   <speaker rend="cursiva">Val.</speaker>
                   <l>Desnúdese él tambien: en qué porfia?</l>
-                  <l>Per Señor, yo no diré esta boca es mia.</l>
+               </sp>
+               
+               <sp>
+                  <speaker rend="cursiva">Per.</speaker>
+                  <l>Señor, yo no dirè esta boca es mia.</l>
                </sp>
 
                <sp>
@@ -620,7 +638,7 @@
                   <l>y con golilla en fin el buen gazapo,</l>
                   <l>y todo con golilla es un harapo.</l>
                   <l>Con purga y estafeta me he quedado</l>
-                  <l>eon carta blanca, pero bien purgado.</l>
+                  <l>con carta blanca, pero bien purgado.</l>
                   <l>Qué hemos de hacer, borracho?</l>
                </sp>
 
