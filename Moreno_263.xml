@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,7 +20,7 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Sainete del Sí</title>
+                  <title type="titulo_completo">Sainete del Sí.</title>
                   <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
@@ -76,7 +77,7 @@
       <encodingDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -103,6 +104,7 @@
          <change when="2021-03-22" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
          <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-07-02" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -178,7 +180,7 @@
                   <l>un hombre tan majadero,</l>
                   <l>que con nosotros viniera,</l>
                   <l>y metiéndole en un coche, </l>
-                  <l>bien vestido, á una almoneda</l>
+                  <l>bien vestido, a una almoneda</l>
                   <l>le lleváremos, y todos</l>
                   <l>con muy grandes reverencias,</l>
                   <l>fingiéndonos criados suyos,</l>
@@ -189,7 +191,7 @@
                   <l>venia desde su tierra,</l>
                   <l>y despues de haber tomado</l>
                   <l>fuentes, braseros y telas,</l>
-                  <l>dicie ndo que ibamos todos</l>
+                  <l>diciendo que ibamos todos</l>
                   <l>por dineró, á él en la tienda</l>
                   <l>le dejáramos, yo sé</l>
                   <l>que pudierá aquesta treta</l>
@@ -221,7 +223,7 @@
                   <l>que viene gente.</l>
                </sp>
 
-               <stage>Sale el Vejete y el Gracioso,</stage>
+               <stage rend="cursiva">Sale el Vejete y el Gracioso,</stage>
 
                <sp>
                   <speaker rend="cursiva">Vejete.</speaker>
@@ -238,7 +240,7 @@
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Yo,</l>
-                  <l>bien le vi, mas si las señas</l>
+                  <l>bien le ví, mas si las señas</l>
                   <l>el no me dá, no es posible</l>
                   <l>conocerle aunque le viera.</l>
                </sp>
@@ -256,12 +258,15 @@
                <sp>
                   <speaker rend="cursiva">Vejete.</speaker>
                   <l>Tan alto.</l>
-                  <l>Pone la mano alla, y siempre es-</l>
-                  <l>tá de aquella suerte.</l>
                </sp>
                
+               <stage rend="cursiva">
+                  <lb/>Pone la mano alla, y síempre es-
+                  <lb/>tá de aquella suerte.
+               </stage>
+               
                <sp>
-                  <speaker>Gracioso.</speaker>
+                  <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Estese quedito.</l>
                </sp>
 
@@ -297,7 +302,7 @@
                   <l>y vete con mil demonios,</l>
                   <l>que por no verte, quisiera</l>
                   <l>no mandarte nunca nada,</l>
-                  <l>y servirme yo. <stage>Vase.</stage></l>
+                  <l>y servirme yo. <stage rend="cursiva">Vase.</stage></l>
                </sp>
 
                <sp>
@@ -369,7 +374,11 @@
                <sp>
                   <speaker>1.</speaker>
                   <l>Qué buscas?</l>
-                  <l>Gracioso Aquí cayó.</l>
+               </sp>
+               
+               <sp>
+                  <speaker>Gracioso.</speaker>
+                  <l>Aquí cayó.</l>
                </sp>
 
                <sp>
@@ -544,11 +553,11 @@
                   <l>mas á propósito fuera.</l>
                </sp>
                
-               <stage>Entranse, y sale el Almonedero con su mujer.</stage>
+               <stage rend="cursiva">Entranse, y sale el Almonedero con su mujer.</stage>
 
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
-                  <l>Cuelga aquestas polieras.</l>
+                  <l>Cuelga aquestas polieras,</l>
                   <l>ponlas enfrente de las ordinarias,</l>
                   <l>para que mas reluzca la esterilla,</l>
                   <l>alcanza ese vestido, y mas le ensancha,</l>
@@ -579,7 +588,7 @@
                   <l>Para, para.</l>
                </sp>
                
-               <stage>Sale Cosme de gala, con pluma y banda.</stage>
+               <stage rend="cursiva">Sale Cosme de gala, con pluma y banda.</stage>
 
                <sp>
                   <speaker>1.</speaker>
@@ -615,7 +624,7 @@
 
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
-                  <l>Quiere vueseñoria sentarse;</l>
+                  <l>Quiere vueseñoria sentarse¿</l>
                </sp>
 
                <sp>
@@ -660,7 +669,7 @@
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
                   <l>Quiere vueseñoría,</l>
-                  <l>este aguamanil y esta vacia?</l>
+                  <l>este aguamanil y esta vacìa?</l>
                </sp>
 
                <sp>
@@ -691,7 +700,7 @@
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Almonod.</speaker>
+                  <speaker rend="cursiva">Almoned.</speaker>
                   <l>Gran caballero.</l>
                </sp>
 
@@ -741,14 +750,14 @@
 
                <sp>
                   <speaker>1.</speaker>
-                  <l>Son melancolicones..</l>
+                  <l>Son melancolicones.</l>
                   <l>y el Varon de Grandi trae un cuidado,</l>
                   <l>que está de un imposible enamorado.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Mujer.</speaker>
-                  <l>Su grán silencio admira.</l>
+                  <l>Su gran silencio admira.</l>
                </sp>
 
                <sp>
@@ -845,7 +854,7 @@
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
                   <l>Ola, Teresa,</l>
-                  <l>luego al instante pon aquí la mesa.</l>
+                  <l>luego al instante <choice><sic>pon</sic><corr>por</corr></choice> aquí la mesa.</l>
                </sp>
 
                <sp>
@@ -865,7 +874,7 @@
 
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
-                  <l>Cracias á Dios que hallé una polla blanda; </l>
+                  <l><choice><sic>Cracias</sic><corr>Gracias</corr></choice> á Dios que hallé una polla blanda; </l>
                   <l>quiere vueseñoría un bocado?</l>
                </sp>
 
@@ -874,7 +883,7 @@
                   <l>Sí, gran cosa es, señor, el ser soldado.</l>
                </sp>
                
-               <stage>Llega la silla á la mesa Cosme, y pónese á comer.</stage>
+               <stage rend="cursiva">Llega la silla á la mesa Cosme, y pónese á comer.</stage>
 
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
@@ -892,7 +901,7 @@
                   <l>Digo, aquestos criados</l>
                   <l>no quisiera que fueran redomados,</l>
                   <l>y se llevasen lo que os he vendido:</l>
-                  <l>pareceos que con todo se habrán ido?</l>
+                  <l>pareceos que con todo se habrán ído?</l>
                </sp>
 
                <sp>
@@ -1057,7 +1066,7 @@
                   <l>no, no, no,</l>
                   <l>cuantos entendidos</l>
                   <l>opinion cobran,</l>
-                  <l>si, sí, sí,</l>
+                  <l>sí, sí, sí,</l>
                   <l>con un sí solamente,</l>
                   <l>y un mucha cosa,</l>
                   <l>no, no, no, no, no.</l>
