@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_370">
    <teiHeader>
       <fileDesc>
@@ -37,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI"/>
                   <altIdentifier>
                      <idno type="num_impresor">Número 296</idno>
                   </altIdentifier>
@@ -72,7 +73,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_370_1.xml">grabado_m_370_1</item>
@@ -85,6 +86,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -113,7 +120,8 @@
       <revisionDesc>
          <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,18 +132,17 @@
          <div>
             <div>
                <pb n="1"/>
-               
+
                <fw type="impresorNum">Núm. 296.</fw>
-               
+
                <head rend="negrita" type="primer_titulo">NUEVA RELACION</head>
                <head rend="cursiva" type="subtitulo">
                   <lb/>que hace doña Margarita Cachuela, de los vicios y costumbres de los hombres,
-                  <lb/>aduirtiendo á las mujeres no se casen.
-               </head>
-               
+                  <lb/>aduirtiendo á las mujeres no se casen. </head>
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Vengan acá las mujeres,</l>
                   <l>vengan todas á escuchar</l>
                   <l>esta nueva relacion</l>
@@ -188,11 +195,11 @@
                   <l>que tenia en la levita, </l>
                   <l>y despues de saludarme</l>
                   <l>con muy tiornas palabritas.</l>
-                  
+
                   <pb n="2"/>
-                  
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>Me ha pedido lumbre,</l>
                   <l>yo como ignoranto</l>
                   <l>le dije al momento</l>
@@ -300,15 +307,14 @@
                </div>
                <div>
                   <pb n="3"/>
-                  
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
                   <head rend="cursiva" type="subtitulo_parte">
-                     <lb/>En que declara Don Fabian, esposo de Margarita, cuanto con ella le
-                     <lb/>ha sucedido.
-                  </head>
-                  
+                     <lb/>En que declara Don Fabian, esposo de Margarita, cuanto con ella le <lb/>ha
+                     sucedido. </head>
+
                   <l rend="indent">De una mujer han oido</l>
                   <l>á los hombres tratar mal, </l>
                   <l>yo tambien de las mujeres</l>
@@ -397,11 +403,11 @@
                   <l>me dijo que sí al contado, </l>
                   <l>y al otro siguiente dia </l>
                   <l>al punto fuimos casados.</l>
-                  
+
                   <pb n="4"/>
-                  
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>Fuímos á su casa </l>
                   <l>donde fla madama </l>
                   <l>una estera rota </l>
@@ -494,7 +500,7 @@
                   <l>luego la ocasion, </l>
                   <l>quedará cantando</l>
                   <l>el Eyrio eleison.</l>
-                  
+
                   <trailer>FIN.</trailer>
                </div>
             </div>

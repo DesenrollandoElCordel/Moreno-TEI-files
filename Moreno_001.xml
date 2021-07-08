@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_001">
    <teiHeader>
       <fileDesc>
@@ -41,7 +40,7 @@
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI"/>
                   <altIdentifier>
                      <idno type="num_impresor">Número 1</idno>
                   </altIdentifier>
@@ -67,7 +66,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_001_1">grabado_m_001_1</item>
@@ -86,7 +85,10 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p/>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -114,8 +116,10 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-22" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-07" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-02-22" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-07" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -130,9 +134,7 @@
                <fw type="impresorNum">(Número. 1.)</fw>
 
                <head type="primer_titulo">
-                  <lb/>TESTAMENTO
-                  <lb/>DE D. GUINDO Y PASCUAL CEREZO.
-               </head>
+                  <lb/>TESTAMENTO <lb/>DE D. GUINDO Y PASCUAL CEREZO. </head>
 
                <sp>
                   <speaker>PASCUAL.</speaker>
