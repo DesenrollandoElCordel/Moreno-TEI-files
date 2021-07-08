@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_353">
    <teiHeader>
       <fileDesc>
@@ -7,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -35,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI"/>
                   <altIdentifier>
                      <idno type="num_impresor">Número 382</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -78,9 +82,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -92,12 +102,12 @@
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="es">Español</language>
+            <language ident="">Habla andaluz</language>
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -106,24 +116,30 @@
       <revisionDesc>
          <change when="2021-03-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-08" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="Moreno_353_thumbnail.jpg"/>
+   </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" />
+               <pb n="1"/>
 
                <fw type="impresorNum">Núm. 382.</fw>
-   
+
                <head>
-                  <lb />PASILLO DIVERTIDO
-                  <lb />ENTRE
-                  <lb /><hi rend="negrita">MAZAPAN Y CHICHARRON</hi>
-                  <lb />Ó SEA
-                  <lb />el convite de dos Gitanos á un entierro.
+                  <lb/>PASILLO DIVERTIDO
+                  <lb/>ENTRE
+                  <lb/><hi rend="negrita">MAZAPAN Y CHICHARRON</hi>
+                  <lb/>Ó SEA
+                  <lb/>el convite de dos Gitanos à un entierro.
                </head>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Gracias á Dios que lo jallo,</l>
@@ -131,7 +147,7 @@
                   <l>inesperao ha ocurrio</l>
                   <l>en la familia...</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>¿Qué jeso?</l>
@@ -139,19 +155,19 @@
                   <l>compare, por san Lorenzo!</l>
                   <l>¿Se casa osté, comparito?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Juy, comparito; no é jeso;</l>
                   <l>es otra cosa peó.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Po compare, venga presto,</l>
                   <l>y saldremos del asunto,</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Comparito... no me atrievo;</l>
@@ -159,31 +175,31 @@
                   <l>y le vá á dá er pataleo;</l>
                   <l>no puce saberlo é gorpe.</l>
                </sp>
-   
+
                <sp>
-                  <speaker rend="cursiva">Chicharron.</speaker>
-                  <l>Largúemelo osté con tiento:</l>
+                  <speaker rend="cursiva">Chícharron.</speaker>
+                  <l>Lárguemelo osté con tiento:</l>
                   <l>¿ha nació el Ante-Cristo?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Vaya! no sea osté fulero:</l>
-                  <l>¡Ha suseio... una... castrófe!</l>
-                  <l>Endique osté como vengo,</l>
+                  <l>¡Ha suseio... una... castrofe!</l>
+                  <l>Endíque osté como vengo,</l>
                   <l>too vestio é tinieblas,</l>
                   <l>que paesco un cuervo negro.</l>
                </sp>
-               
-               <pb n="2" />
-               
+
+               <pb n="2"/>
+
                <fw type="paginaNum">2</fw>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Canela, quién ha merao?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Compare, va osté á saberlo:</l>
@@ -194,7 +210,7 @@
                   <l>dió un grasnio y se najó</l>
                   <l>á endícá al Pare Elerno.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>¿Y é jesa toa la esgracia?</l>
@@ -203,11 +219,11 @@
                   <l>¿de qué servia ese cuerpo</l>
                   <l>mas vieja... que er sarampion?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Compare, que está osté iciendo?</l>
-                  <l>¿Se alegra oslé comparito?</l>
+                  <l>¿Se alegra osté comparito?</l>
                   <l>si no fuera osté flamenco,</l>
                   <l>lo atrincaba... ¡Jesucristo!</l>
                   <l>y le retorcia el pescuezo</l>
@@ -218,7 +234,7 @@
                   <l>Pus no tenia tanta edá:</l>
                   <l>mas purí es osté.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Salero!!!</l>
@@ -230,7 +246,7 @@
                   <l>Está bien que se haya muerto:</l>
                   <l>se la llevaron los mengues.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>No sé como no rebiento</l>
@@ -250,14 +266,14 @@
                   <l>hombre é mucho talento,</l>
                   <l>me han suplicao su gente</l>
                   <l>que le jaga en el entierro</l>
-                  <l>el principá presonaje.</l>
+                  <l>el principá <choice><sic>presonaje</sic><corr>personaje</corr></choice>.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>¿El muñio?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Eso mesmo.</l>
@@ -267,12 +283,12 @@
                   <l>ar Lulo mandé juyendo</l>
                   <l>en busca é osté.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Y pá qué?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Comparito... poique siento</l>
@@ -284,34 +300,34 @@
                   <l>vienen con osté corriendo.</l>
                   <l>¿Se entera osté... comparito?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Qué me ha dicho osté? Primero</l>
-                  <l>me tiraría á la má</l>
+                  <l>me tíraría á la má</l>
                   <l>con una piedra al pescueso,</l>
                   <l>que vé á los trepamulé.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>¿Po entonces qué jacemos?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Ejarla sin enterrá.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Compare! ¡Vaigame er cielo!</l>
                   <l>no avilla osté religíon.</l>
-                  
-                  <pb n="3" />
-                  
+
+                  <pb n="3"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>¿Qué tiene é malo eso?</l>
                   <l>Si no se quié osté arrimá,</l>
                   <l>le jabla osté en de lejos</l>
@@ -319,18 +335,18 @@
                   <l>que cuando vengan po er muerto</l>
                   <l>se la lleven con cudiao</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>¿Y poique no jué por ello</l>
                   <l>el Lulo?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Si le dá asco.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Un divé lo meta preso</l>
@@ -344,17 +360,17 @@
                   <l>lo hubiera ajogao por fulero</l>
                   <l>en mitá é la píleta.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Pos compare... lo ejaremo.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>¿Pero osté poiqué no vá?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Compare, poique no quiero</l>
@@ -370,23 +386,23 @@
                   <l>á goberná el entierro</l>
                   <l>y falta lo prencipá.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Quien la lleve?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Eso mesmo.</l>
                   <l>¿Y qué se jase con ella?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Anchovarla.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Santo cielo;</l>
@@ -396,12 +412,12 @@
                   <l>er que pierda va por ellos.</l>
                   <l>¿Qué le paese, compare?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>(Que tiro)</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>¡Eh!</l>
@@ -410,43 +426,47 @@
                   <l>y en diez años no paresco.</l>
                   <l>Venga la suerte.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Allá vá.</l>
-                  <l>(Saca del bolsillo dos monedas y</l>
-                  <l>las juega.</l>
+                  
+                  <stage rend="cursiva">
+                     <lb/>(Saca del bolsillo dos monedas y
+                     <lb/>las juega.
+                  </stage>
+                  
                   <l>Permita un divé del cielo</l>
                   <l>que pierda osté comparito.</l>
                   <l>Pia osté.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Pares.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Pares jueron.</l>
                   <l>(Juy que me voy á ajorcá.)</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Yo gané.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Y yo perdí: (só fulero!)</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Osté va por los galafres.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Está bien (mejó iba preso...)</l>
@@ -454,33 +474,33 @@
                   <l>que se jalle osté en el duelo</l>
                   <l>pa acompañá á la familia.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Eso sí; iré corriendo</l>
                   <l>á consolá á las muchachas</l>
                   <l>y jasé los cumplimientos</l>
-                  
-                  <pb n="4" />
-                  
+
+                  <pb n="4"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>del mortuorio.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Está bien;</l>
                   <l>pos señó, allí nos veremos,</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>¿Conque murió é ripente?</l>
                   <l>¿No arcansó ningun ingüento?</l>
                   <l>¿Qué arbeita la visito.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Compare, no hubo remedio;</l>
@@ -490,38 +510,38 @@
                   <l>un puñao é jigos negros</l>
                   <l>por la visita, compare.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Ajajá; estuvo bien jecho:</l>
                   <l>sa portao osté con él</l>
                   <l>lo mesmo que un caballero</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Conque, compare, me najo</l>
                   <l>á ese mandao.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Ligero.</l>
                   <l>comparito, sin tardarse,</l>
                   <l>¿estasté? juera é bucheo.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Escudie osté, ni catarlo.</l>
-                  <l>Ea, con Dios. vase.</l>
+                  <l>Ea, con Dios. <stage rend="cursiva">vase.</stage></l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron.</speaker>
                   <l>Jasta luego.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Chicharron solo.</speaker>
                   <l>Po señó, ya se arregló</l>
@@ -542,7 +562,7 @@
                   <l>Vaya! no me quieo acordá</l>
                   <l>me laigaban mas limones;</l>
                   <l>que un navio que cargá</l>
-                  <l>grasnando. «el enterraor»</l>
+                  <l>grasnando «el enterraor»</l>
                   <l>Y tenia que najá,</l>
                   <l>como un chuqué que vá é pira</l>
                   <l>con un envuo po etras.</l>
@@ -567,12 +587,12 @@
                   <l>najencia que se vá er tiempo,</l>
                   <l>y es preciso no tardá.</l>
                </sp>
-   
+
                <trailer>FIN.</trailer>
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA:— Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
+               <p><lb/>CARMONA:— Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
             </div>
          </div>
       </body>
