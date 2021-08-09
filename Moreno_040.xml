@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_040">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Juan de Naballa.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5018247</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 45</idno>
                   </altIdentifier>
@@ -82,7 +85,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -108,26 +117,28 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_040_thumbnail.jpg" />
+      <graphic url="Moreno_040_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_040_1.jpg" />
-               
+               <pb n="1" source="Moreno_040_1.jpeg"/>
+
                <fw type="impresorNum">(Número 45.)</fw>
-                  
+
                <head rend="negrita" type="primer_titulo">JUAN DE NABALLA.</head>
-               
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Dios con su poder inmenso,</l>
                   <l>y grandeza soberana,</l>
                   <l>y su Santísima Madre</l>
@@ -154,11 +165,11 @@
                   <l>y tiranías ingratas,</l>
                   <l>intereces y rencores,</l>
                   <l>discordias, iras, venganzas, </l>
-                  
-                  <pb n="2" source="Moreno_040_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_040_2.jpeg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>soberbias, y vanidades,</l>
                   <l>lujurias y destemplanzas,</l>
                   <l>crueles rabias; é invidias,</l>
@@ -245,11 +256,11 @@
                   <l>y lo ha mandado á su casa.</l>
                   <l>El mozo que aquesto oyó,</l>
                   <l>sin responderle palabra</l>
-                  
-                  <pb n="3" source="Moreno_040_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_040_3.jpeg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>de allí se salió afligido,</l>
                   <l>y al gobernador buscaba</l>
                   <l>para que le haga justicia,</l>
@@ -336,11 +347,11 @@
                   <l>Anda, y de aquella montaña</l>
                   <l>trae dos cargas de carbon;</l>
                   <l>que allí está donde se labra,</l>
-                  
-                  <pb n="4" source="Moreno_040_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_040_4.jpeg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>y mira que vengas presto,</l>
                   <l>que no te dilates nada:</l>
                   <l>mira que en este Palacio,</l>
@@ -427,19 +438,19 @@
                   <l>que acá dentro te quedáras</l>
                   <l>á padecer para siempre</l>
                   <l>las penas que aquí se pasan.</l>
-                  
-                  <pb n="5" source="Moreno_040_5.jpg" />
-                  
+
+                  <pb n="5" source="Moreno_040_5.jpeg"/>
+
                   <l>En donde los dejaremos</l>
                   <l>por acabar esta plana,</l>
                   <l>y en otra segunda parte</l>
                   <l>diré lo demás que falta.</l>
-                  
+
                </div>
-               
+
                <div n="2" type="parte">
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Supuesto que á los oyentes</l>
                   <l>les prometí, que sin falta</l>
                   <l>les daria el cumplimiento</l>
@@ -484,11 +495,11 @@
                   <l>las primorosas alhajas1.</l>
                   <l>que hay en este real palacio</l>
                   <l>en salas aderezadas.</l>
-                  
-                  <pb n="6" source="Moreno_040_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_040_6.jpeg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>Mira, vés aquí esta silla,</l>
                   <l>que la tengo ¡preparada</l>
                   <l>á el amo que allá tuviste</l>
@@ -565,11 +576,11 @@
                   <l>y que una mesa le traiga,</l>
                   <l>tintero, papel y pluma,</l>
                   <l>y al punto lo,puso en planta.</l>
-                  
-                  <pb n="7" source="Moreno_040_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_040_7.jpeg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>Ea, escribáñ aí apriesa,</l>
                   <l>les dijo: sin répugñancia,</l>
                   <l>los deleites y regalos</l>
@@ -645,11 +656,11 @@
                   <l>y en fina allí le deelara</l>
                   <l>cuanto vido por sus ojos,</l>
                   <l>y lo que llevó de cargas,</l>
-                  
-                  <pb n="8" source="Moreno_040_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_040_8.jpeg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>que le sirvieron de mulos</l>
                   <l>los que escribieron la carta,</l>
                   <l>El Gobernador absorto</l>
@@ -707,12 +718,12 @@
                   <l>á los oyentes suplica,</l>
                   <l>que le perdonen las faltas.</l>
                </div>
-               
-            <trailer>FIN.</trailer>
+
+               <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />CARMONA: 1858.—Imp. de D. José M.a Moreno.</p>
+               <p><lb/>CARMONA: 1858.—Imp. de D. José M.a Moreno.</p>
             </div>
          </div>
       </body>

@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_045">
    <teiHeader>
       <fileDesc>
@@ -18,12 +19,13 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Doña Francisca la cautiva. Romance en que se refiere como esta señora navegando
-                                                á Roma con tres hijos pequeños, la cautivaron Turcos.</title>
+                  <title type="titulo_completo">Doña Francisca la cautiva. Romance en que se refiere
+                     como esta señora navegando á Roma con tres hijos pequeños, la cautivaron
+                     Turcos.</title>
                   <title type="titulo_breve">Doña Francisca la cautiva.</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5018383</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 51</idno>
                   </altIdentifier>
@@ -57,8 +61,9 @@
                   </msItem>
                   <msItem>
                      <locus>4-7</locus>
-                     <title>Doña Francisca la cautiva. Romance en que se da cuenta de un prodigioso milagro
-                           que hizo la Virgen Santisima del Cármen con esta Señora y sus hijos, librándolos del poder de los Turcos.</title>
+                     <title>Doña Francisca la cautiva. Romance en que se da cuenta de un prodigioso
+                        milagro que hizo la Virgen Santisima del Cármen con esta Señora y sus hijos,
+                        librándolos del poder de los Turcos.</title>
                   </msItem>
                   <msItem>
                      <locus>8</locus>
@@ -91,7 +96,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -119,30 +130,31 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_045_thumbnail.jpg" />
+      <graphic url="Moreno_045_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_045_1.jpg" />
-               
+               <pb n="1" source="Moreno_045_1.jpg"/>
+
                <fw type="impresorNum">Número 51.</fw>
-               
+
                <head type="primer_titulo">DONA FRANCISCA LA CAUTIVA.</head>
                <head type="subtitulo">
-                  <lb />ROMANCE EN QUE SE REFIERE COMO ESTA SEÑORA NAVEGANDO
-                  <lb />á Roma con tres hijos pequeños, la cautivaron Turcos.
-               </head>
-               
+                  <lb/>ROMANCE EN QUE SE REFIERE COMO ESTA SEÑORA NAVEGANDO <lb/>á Roma con tres
+                  hijos pequeños, la cautivaron Turcos. </head>
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l>Oh gran Reina de los Cielos,</l>
                   <l>madre de Dios soberana,</l>
                   <l>cefugio de pecadores,</l>
@@ -177,9 +189,9 @@
                   <l>sabrás qué tu amor me mata.</l>
                   <l>Reniega de Dios, reniega, </l>
                   <l>y serás muy estimada,</l>
-                  
-                  <pb n="2" source="Moreno_045_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_045_2.jpg"/>
+
                   <l>á señora mas querida, </l>
                   <l>que en toda esta tierra haya.</l>
                   <l>Doña Francisca responde,</l>
@@ -270,9 +282,9 @@
                   <l>le decia estas palabras:</l>
                   <l>Dime, cristiana enemiga, </l>
                   <l>si la ley de Dios dejáras, </l>
-                  
-                  <pb n="3" source="Moreno_045_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_045_3.jpg"/>
+
                   <l>nuy mucho mejor te fuera,</l>
                   <l>y la vida reserváras,</l>
                   <l>tambien las de tus tres hijos,</l>
@@ -353,21 +365,19 @@
                   <l>á esta homicida cristiana?</l>
                   <l>y en otra segunda parte</l>
                   <l>se dirá lo que aquí falta.</l>
-                  
+
                   <trailer>FIN DE LA PRIMERA PARTE.</trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="4" source="Moreno_045_4.jpg" />
-                  
+                  <pb n="4" source="Moreno_045_4.jpg"/>
+
                   <head type="titulo_parte">DOÑA FRANCISCA LA CAUTIVA.</head>
                   <head type="subtitulo_parte">
-                     <lb />ROMANCE EN QUE SE DA CUENTA DE UN PRODIGIOSO MILAGRO
-                     <lb />que hizo la Virgen Santísima del Cármen con esta Señora y sus hijos, librán-
-                     <lb />dolos del poder de los Turcos.
-                     <lb />SEGUNDA PARTE.
-                  </head>
-                  
+                     <lb/>ROMANCE EN QUE SE DA CUENTA DE UN PRODIGIOSO MILAGRO <lb/>que hizo la
+                     Virgen Santísima del Cármen con esta Señora y sus hijos, librán- <lb/>dolos del
+                     poder de los Turcos. <lb/>SEGUNDA PARTE. </head>
+
                   <l>Sagrada Vírgen María,</l>
                   <l>hija de Joaquin, y Ana,</l>
                   <l>hoy, Señora, necesito,</l>
@@ -392,9 +402,9 @@
                   <l>Ay, hijos de mis entrañas,</l>
                   <l>si no os hubiera parido</l>
                   <l>mi pena no fuera tanta.</l>
-                  
-                  <pb n="5" source="Moreno_045_5.jpg" />
-                  
+
+                  <pb n="5" source="Moreno_045_5.jpg"/>
+
                   <l>Y á vos, aurora impecable,</l>
                   <l>María, llena de gracia;</l>
                   <l>estos hijos te encomiendo,</l>
@@ -485,9 +495,9 @@
                   <l>aquella preciosa garza,</l>
                   <l>la mas cándida Azucena, </l>
                   <l>llevándose en su compaña</l>
-                  
-                  <pb n="6" source="Moreno_045_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_045_6.jpg"/>
+
                   <l>los tres hermosos infantes,</l>
                   <l>y dejando á la cristiana</l>
                   <l>fortalecida de suerte,</l>
@@ -578,9 +588,9 @@
                   <l>aunque de muy mala gana, </l>
                   <l>que ya algunos de los turcos</l>
                   <l>solo de oirla lloraban:</l>
-                  
-                  <pb n="7" source="Moreno_045_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_045_7.jpg"/>
+
                   <l>y en fin, trajeron los potros,</l>
                   <l>y por las calles la sacan.</l>
                   <l>Los animales feroces </l>
@@ -635,40 +645,37 @@
                   <l>que es el autor de esta plana</l>
                   <l>al auditorio suplica</l>
                   <l>perdonen sus muchas faltas.</l>
-                  
+
                   <trailer>FIN.</trailer>
                </div>
-               
+
                <div type="colofon">
                   <p>
-                     <lb />CARMONA:—1859.
-                     <lb />Imprenta de D. José M.a Moreno, Juan de la Cabra, 4.
+                     <lb/>CARMONA:—1859. <lb/>Imprenta de D. José M.a Moreno, Juan de la Cabra, 4.
                   </p>
                </div>
             </div>
-            
+
             <div>
-               <pb n="8" source="Moreno_045_8.jpg" />
-               
+               <pb n="8" source="Moreno_045_8.jpg"/>
+
                <head rend="negrita" type="primer_titulo">
-                  <lb />COPLAS
-                  <lb />DEL FANDANGO.
-               </head>
-               
+                  <lb/>COPLAS <lb/>DEL FANDANGO. </head>
+
                <lg rend="cursiva">
                   <l rend="indent">Las mugeres de estos tiempos</l>
                   <l>las comparo á las medias.</l>
                   <l>que en aflojandose un punto</l>
                   <l>todas sevan de carrera.</l>
                </lg>
-               
+
                <lg>
-                 <l rend="indent">Asesinatos sangrientos,</l>
-                 <l>robos, muertes, traicion,</l>
-                 <l>la causa principal son</l>
-                 <l rend="cursiva">las mugeres de estos tiempos.</l>
+                  <l rend="indent">Asesinatos sangrientos,</l>
+                  <l>robos, muertes, traicion,</l>
+                  <l>la causa principal son</l>
+                  <l rend="cursiva">las mugeres de estos tiempos.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Entre toños y comedias</l>
                   <l>suele el punto flogeáiy: </l>
@@ -676,7 +683,7 @@
                   <l>y yo por no murmurar</l>
                   <l rend="cursiva">las comparo á las medias.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">No quisiera en este asunto</l>
                   <l>á las damas agraviar,</l>
@@ -684,7 +691,7 @@
                   <l>que son como el trafalgar, </l>
                   <l rend="cursiva">que en aflojandose un punto,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Eva, por ser la primera,</l>
                   <l>ya perdió el genero humano;</l>
@@ -692,14 +699,14 @@
                   <l>que en untandolas la mano</l>
                   <l rend="cursiva">todas se van de carrera.</l>
                </lg>
-               
+
                <lg rend="cursiva" type="estribillo">
                   <l rend="indent">En cierta Ciudad de España</l>
                   <l>pusieron preso á un Gitano, </l>
                   <l>porque se encontró una capa</l>
                   <l>antes de perderla el amo.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Señorita resalada</l>
                   <l>tu amor me tiene postrado</l>
@@ -707,7 +714,7 @@
                   <l>tus ojos me caútivaron</l>
                   <l rend="cursiva">en cierta Ciudad de España.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salada, dame la maño,</l>
                   <l>y te daré él corazon</l>
@@ -715,7 +722,7 @@
                   <l>con razóY ó sin razon</l>
                   <l rend="cursiva">pusieron preso á un Gitano.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El Gitano puesto en marcha</l>
                   <l>seguia su caminillo,</l>
@@ -723,7 +730,7 @@
                   <l>lo llevaron á presidio,</l>
                   <l rend="cursiva">porque se encontró una capa.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Era capa de un Cerrano</l>
                   <l>la capa no se perdió,</l>
