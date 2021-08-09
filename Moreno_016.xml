@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_016">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Testamento de Don Juan de Austria</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI">10.5281/zenodo.5012862</idno>
+                  <idno type="DOI">10.5281/zenodo.5171891</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 15</idno>
                   </altIdentifier>
@@ -78,15 +81,21 @@
                </physDesc>
                <history>
                   <acquisition>
-                     <p />
+                     <p/>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><projectDesc>
-            <p />
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
+            <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -107,30 +116,32 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX524876.html" type="tipo_texto">Testamentos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_005_thumbnail.jpg" />
+      <graphic url="Moreno_005_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_016_1.jpg" />
-               
+               <pb n="1" source="Moreno_016_1.jpg"/>
+
                <fw type="impresorNum">Núm. 15.</fw>
-               
+
                <head type="primer_titulo">TESTAMEMTO DE DON JUAN DE AUSTRIA.</head>
-               
+
                <div n="1" type="parte">
                   <l rend="ident">Olvidado de la muerte,</l>
                   <l>aunque con mucho temor</l>
@@ -168,11 +179,11 @@
                   <l>de agosto á los veinte y dos,</l>
                   <l>con unas tercianas dobles</l>
                   <l>malo el Principe cayó</l>
-                  
-                  <pb source="Moreno_016_None.jpg" />
-                  
+
+                  <pb source="Moreno_016_None.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>de accidente tabardillo,</l>
                   <l>y no hallando aplicacion</l>
                   <l>Galeno en su medicina,</l>
@@ -259,11 +270,11 @@
                   <l>mucho en verlo se alegró,</l>
                   <l>quiso besarle la mano,</l>
                   <l>y el Rey los brazos le dió.</l>
-                  
-                  <pb n="3" source="Moreno_016_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_016_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>Cómo se halla vuestra Alteza?</l>
                   <l>Y el enfermo respondió:</l>
                   <l>Esto es morir sin remedio,</l>
@@ -350,11 +361,11 @@
                   <l>por mi alma y mi intencion,</l>
                   <l>y antes de cuerpo presente,</l>
                   <l>me diran de Concepcion</l>
-                  
-                  <pb n="4" source="Moreno_016_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_016_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>diez y ocho por mi alivio,</l>
                   <l>y de Requiem treinta y dos.</l>
                   <l>Antes de mi enterramiento</l>
@@ -442,17 +453,16 @@
                   <l>Dios le haya dado en su Gloria,</l>
                   <l>un eterno galardon.</l>
                </div>
-               
+
                <div n="2" type="parte">
-                  
-                  <pb n="5" source="Moreno_016_5.jpg" />
-                  
+
+                  <pb n="5" source="Moreno_016_5.jpg"/>
+
                   <head>
-                     <lb /><hi rend="negrita">SEGUNDA PARTE,</hi>
-                     <lb />DEL TESTAMENTO 
-                     <lb /><hi rend="negrita">DE D. JUAN DE AUSTRIA.</hi>
+                     <lb/><hi rend="negrita">SEGUNDA PARTE,</hi>
+                     <lb/>DEL TESTAMENTO <lb/><hi rend="negrita">DE D. JUAN DE AUSTRIA.</hi>
                   </head>
-                  
+
                   <l>Viendo ya el gran Zelador,</l>
                   <l>que á su mal no hallan remedio</l>
                   <l>trató de pulir la joya,</l>
@@ -513,11 +523,11 @@
                   <l>y el afecto verdadero,</l>
                   <l>que siempre os tuve os suplico,</l>
                   <l>mireis por mi Rey y dueño</l>
-                  
-                  <pb n="6" source="Moreno_016_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_016_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>que es muy grande compasion,</l>
                   <l>ver que queda jóven tierno,</l>
                   <l>y tan lleno de cuidados, </l>
@@ -604,11 +614,11 @@
                   <l>muy gran lástima le tengo,</l>
                   <l>porque ha de entender con tantos</l>
                   <l>y en negocios tan diversos,</l>
-                  
-                  <pb n="7" source="Moreno_016_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_016_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>con las continuas Audiencias</l>
                   <l>y los muchos descontentos,</l>
                   <l>á quien siguen maldiciones,</l>
@@ -695,11 +705,11 @@
                   <l>á Dios Ciudades y Reinos</l>
                   <l>á quien estima mi amor</l>
                   <l>con un muy cordial afecto.</l>
-                  
-                  <pb n="8" source="Moreno_016_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_016_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>No puedo á todos nombraros,</l>
                   <l>porque me falta el aliento,</l>
                   <l>y viendo viene el letargo</l>
@@ -732,16 +742,14 @@
                   <l>fué llevado á San Lorenzo,</l>
                   <l>quedando tristes, los Grandes,</l>
                   <l>y llorando todo el Pueblo.</l>
-                  
+
                   <trailer>FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1855.
-                  <lb />Imprenta de D. José María Moreno, Descalzas, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1855. <lb/>Imprenta de D. José María Moreno, Descalzas, núm. 1. </p>
             </div>
          </div>
       </body>

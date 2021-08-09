@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_010">
    <teiHeader>
       <fileDesc>
@@ -18,7 +19,8 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Relacion chistosa titulada Todas me gustan, seguida de otra seria, cuyo titulo es, desengaños de las doncellas.</title>
+                  <title type="titulo_completo">Relacion chistosa titulada Todas me gustan, seguida
+                     de otra seria, cuyo titulo es, desengaños de las doncellas.</title>
                   <title type="titulo_breve">Relacion chistosa titulada Todas me gustan</title>
                </titleStmt>
                <editionStmt>
@@ -34,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI">10.5281/zenodo.4973674</idno>
+                  <idno type="DOI">10.5281/zenodo.5171867</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 11</idno>
                   </altIdentifier>
@@ -79,15 +83,21 @@
                </physDesc>
                <history>
                   <acquisition>
-                     <p />
+                     <p/>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><projectDesc>
-            <p />
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
+            <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -108,36 +118,34 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term type="tipo_texto">Relaciones</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-24" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-02-24" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
          <change when="2021-03-02" who="#EL">Modification de "summary" dans le teiHeader</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_010_thumbnail.jpg" />
+      <graphic url="Moreno_010_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_010_1.jpg" />
-            
+            <pb n="1" source="Moreno_010_1.jpg"/>
+
             <fw type="impresorNum">(Núm. 11.)</fw>
-            
+
             <head type="primer_titulo">
-               <lb />RELACION CHISTOSA
-               <lb />TITULADA
-               <lb /><hi rend="negrita">TODAS ME GUSTAN,</hi>
-               <lb />SEGUIDA DE OTRA SERIA, CUYO TITULO ES, 
-               <lb />DESENGAÑOS DE LAS DONCELLAS.
-            </head>
-            
+               <lb/>RELACION CHISTOSA <lb/>TITULADA <lb/><hi rend="negrita">TODAS ME GUSTAN,</hi>
+               <lb/>SEGUIDA DE OTRA SERIA, CUYO TITULO ES, <lb/>DESENGAÑOS DE LAS DONCELLAS. </head>
+
             <div>
                <l rend="indent">Ya que quieren las señoras;</l>
                <l>que diga una relacion</l>
@@ -165,9 +173,9 @@
                <l>en vuestro obsequio y honor</l>
                <l>tente, borrico del diablo,</l>
                <l>pues si agarro un varejon</l>
-               
-               <pb n="2" source="Moreno_010_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_010_2.jpg"/>
+
                <l>Jesus María y José!</l>
                <l>Que tal babanca sea yó?</l>
                <l>En hablando de las niñas</l>
@@ -256,9 +264,9 @@
                <l>y mas fea que un ladron,</l>
                <l>porque parece muger</l>
                <l>la quiero, que es un horror;</l>
-               
-               <pb n="3" source="Moreno_010_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_010_3.jpg"/>
+
                <l>esto es querer al uso</l>
                <l>perque los majos de hoy</l>
                <l>á toditas las quieren,</l>
@@ -298,10 +306,10 @@
                <l>de lo poco que os alabo</l>
                <l>os pido á todas perdon.</l>
             </div>
-            
+
             <div>
                <head type="primer_titulo">DESENGAÑOS DE LAS DONCELLAS.</head>
-               
+
                <l rend="indent">¿Que importa que de hermosura</l>
                <l>el cielo á una niña llene</l>
                <l>si sus mismas perfecciones</l>
@@ -338,9 +346,9 @@
                <l>y no todas ciertamente</l>
                <l>las perfecciones reunen</l>
                <l>en grado muy eminente.</l>
-               
-               <pb n="4" source="Moreno_010_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_010_4.jpg"/>
+
                <l rend="indent">Y sin embargo, aduladas</l>
                <l>de los locos pretendientes</l>
                <l>oyen todas alabanzas</l>
@@ -409,15 +417,14 @@
                <l>que á las doncellas comprenden,</l>
                <l>porque me dilato mucho,</l>
                <l>y el papel llama á ser breve.</l>
-               
+
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1856.
-                  <lb />Imprenta de D. José Maria Moreno, calle Juan de la Cabra núm. 5.
-               </p>
+                  <lb/>CARMONA:—1856. <lb/>Imprenta de D. José Maria Moreno, calle Juan de la Cabra
+                  núm. 5. </p>
             </div>
          </div>
       </body>
