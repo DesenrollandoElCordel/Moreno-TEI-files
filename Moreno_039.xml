@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_039">
    <teiHeader>
       <fileDesc>
@@ -22,13 +23,13 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Don Rodulfo de Pedrajas. Nueva relacion,
-                                                en que se dá cuenta de los valerosos hechos y aventuras que le sucedieron
-                                                á este caballero, y como S. M. lo premió por sus distinguidas hazañas.</title>
+                  <title type="titulo_completo">Don Rodulfo de Pedrajas. Nueva relacion, en que se
+                     dá cuenta de los valerosos hechos y aventuras que le sucedieron á este
+                     caballero, y como S. M. lo premió por sus distinguidas hazañas.</title>
                   <title type="titulo_breve">Don Rodulfo de Pedrajas. Nueva relación</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -40,11 +41,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5018238</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 43</idno>
                   </altIdentifier>
@@ -86,7 +89,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -112,30 +121,30 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_039_thumbnail.jpg" />
+      <graphic url="Moreno_039_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_039_1.jpg" />
-               
+               <pb n="1" source="Moreno_039_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 43.)</fw>
-               
+
                <head type="primer_titulo">
-                  <lb />DON RODULFO DE PEDRAJAS.
-                  <lb /><hi rend="negrita">NUEVA RELACION,</hi>
+                  <lb/>DON RODULFO DE PEDRAJAS. <lb/><hi rend="negrita">NUEVA RELACION,</hi>
                </head>
                <head rend="cursiva" type="subtitulo">
-                  <lb />en que se dá cuenta de los valerosos hechos y aventuras que le sucedieron
-                  <lb />á este caballero, y como S. M. lo premió por sus distinguidas hazañas. 
-               </head>
-               
+                  <lb/>en que se dá cuenta de los valerosos hechos y aventuras que le sucedieron
+                  <lb/>á este caballero, y como S. M. lo premió por sus distinguidas hazañas. </head>
+
                <div n="1" type="parte">
                   <l rend="indent">Todo valiente se esconda, </l>
                   <l>no manifieste la charpa, </l>
@@ -181,9 +190,9 @@
                   <l>dándome carga cerrada, </l>
                   <l>yo disparé mi trabuco, </l>
                   <l>y les maté cinco guardas,</l>
-                  
-                  <pb n="2" source="Moreno_039_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_039_2.jpg"/>
+
                   <l>los que quedaron, huyeron, </l>
                   <l>que el miedo les acobarda; </l>
                   <l>y despaché así á Pelagio, </l>
@@ -246,7 +255,7 @@
                   <l>vivo ó muerto me entregaran; </l>
                   <l>y viéndome ya perdido, </l>
                   <l>echando mano á las armas, </l>
-                  <l>los aventé como moscas,  </l>
+                  <l>los aventé como moscas, </l>
                   <l>que salen desperdigadas. </l>
                   <l>A este tiempo en Cataluña, </l>
                   <l>en su eminente montaña, </l>
@@ -292,9 +301,9 @@
                   <l>y los otros tres con álas, </l>
                   <l>fiados en sus caballos, </l>
                   <l>y con fuga apresurada,</l>
-                  
-                  <pb n="3" source="Moreno_039_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_039_3.jpg"/>
+
                   <l>querian huir veloces, </l>
                   <l>mas fué diligencia vana, </l>
                   <l>que el fuego les atajé </l>
@@ -326,10 +335,10 @@
                   <l>y acabaré en la segunda </l>
                   <l>de referir sus hazañas.</l>
                </div>
-               
+
                <div n="2" type="parte">
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Ya dije en la primer parte, </l>
                   <l>como libres se quedaban, </l>
                   <l>y al marqués lo supliqué </l>
@@ -402,9 +411,9 @@
                   <l>en el monte se repartan. </l>
                   <l>Y conforme iban andando, </l>
                   <l>enredados se quedahan; </l>
-                  
-                  <pb n="4" source="Moreno_039_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_039_4.jpg"/>
+
                   <l>y sin poderse valer, </l>
                   <l>les quitó todas las armas: </l>
                   <l>hice acudir los soldados,</l>
@@ -482,7 +491,7 @@
                   <l>con él liberte los reos </l>
                   <l>que tengan algunas causas. </l>
                   <l>Puestos á los pies del Rey </l>
-                  <l>rinden las debidas gracias,  </l>
+                  <l>rinden las debidas gracias, </l>
                   <l>viviendo los dos consortes </l>
                   <l>con union y paz amada, </l>
                   <l>dando envidias al valor, </l>
@@ -490,15 +499,14 @@
                   <l>Y aquí Juan Antonio Lopez </l>
                   <l>pide perdon de sus faltas.</l>
                </div>
-               
+
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1856. 
-                  <lb />Imprenta de D. José M.a Moreno, calle Juan de la Cabra n.° 5. 
-               </p>
+                  <lb/>CARMONA:—1856. <lb/>Imprenta de D. José M.a Moreno, calle Juan de la Cabra
+                  n.° 5. </p>
             </div>
          </div>
       </body>
