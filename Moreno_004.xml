@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_004">
    <teiHeader>
       <fileDesc>
@@ -22,7 +23,7 @@
                   <title type="titulo_breve">El recibo del page.</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,19 +35,21 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" /></repository>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     /></repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI">10.5281/zenodo.4973483</idno>
+                  <idno type="DOI">10.5281/zenodo.5171845</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 5</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -64,21 +67,27 @@
                   </objectDesc>
                   <decoDesc>
                      <decoNote>
-                        <p />
+                        <p/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <history>
                   <acquisition>
-                     <p />
+                     <p/>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><projectDesc>
-            <p />
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
+            <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -99,63 +108,63 @@
          <textClass>
             <keywords scheme="http://datos.bne.es/tema/">
                <term target="XX4876797.html" type="tipo_texto">Sainetes (Literatura)</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2020-11-17" who="#EL">Création du fichier TEI P5 ; Encodage du TEI Header et du corps du texte</change>
-         <change when="2021-02-17" who="#EL">Modification du fichier TEI en fonction de la v.3 du manuel d'encodage</change>
+         <change when="2020-11-17" who="#EL">Création du fichier TEI P5 ; Encodage du TEI Header et
+            du corps du texte</change>
+         <change when="2021-02-17" who="#EL">Modification du fichier TEI en fonction de la v.3 du
+            manuel d'encodage</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_004_thumbnail.jpg" />
+      <graphic url="Moreno_004_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_004_1.jpg" />
-            
+            <pb n="1" source="Moreno_004_1.jpeg"/>
+
             <fw type="impresorNum">Núm. 5.</fw>
-            
+
             <head type="primer_titulo">
-               <lb />SAINETE NUEVO.
-               <lb />EL RECIBO
-               <lb />DEL PAGE.
-            </head>
-            
+               <lb/>SAINETE NUEVO.
+               <lb/>EL RECIBO
+               <lb/>DEL PAGE. </head>
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1870.
-                  <lb />Imprenta y librería de D. José Maria Moreno.
-                  <lb /><hi rend="cursiva">Calle Madre de Dios, número 1.</hi>
+                  <lb/>CARMONA:—1870.
+                  <lb/>Imprenta y librería de D. José Maria Moreno. <lb/><hi rend="cursiva">Calle Madre de Dios, número 1.</hi>
                </p>
             </div>
-            
-            <pb n="2" source="Moreno_004_2.jpg" />
-            
+
+            <pb n="2" source="Moreno_004_2.jpeg"/>
+
             <div type="reparto">
-                  <head type="reparto_titulo">PERSONAS.</head>
-                  <castList>
-                     <castItem>Doña Ana.</castItem>
-                     <castItem>Criada.</castItem>
-                     <castItem>Don Tadeo.</castItem>
-                     <castItem>Don Luquete.</castItem>
-                     <castItem>Un Page.</castItem>
-                  </castList>
+               <head type="reparto_titulo">PERSONAS.</head>
+               <castList>
+                  <castItem>Doña Ana.</castItem>
+                  <castItem>Criada.</castItem>
+                  <castItem>Don Tadeo.</castItem>
+                  <castItem>Don Luquete.</castItem>
+                  <castItem>Un Page.</castItem>
+               </castList>
             </div>
-            
-            <pb n="3" source="Moreno_004_3.jpg" />
-            
+
+            <pb n="3" source="Moreno_004_3.jpeg"/>
+
             <div>
                <head rend="negrita" type="titulo_parte">EL RECIBO DEL PAGE.</head>
-               
+
                <stage>SALON CORTO CON TRES SILLAS.</stage>
-               
+
                <stage>Salen DOÑA ANA Y D. TADEO.</stage>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -163,7 +172,7 @@
                      <l>para salir á pasear.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>TAD.</speaker>
                   <lg>
@@ -171,7 +180,7 @@
                      <l>porque aun temprano será.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -180,7 +189,7 @@
                      <l>el ánimo.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>TAD.</speaker>
                   <lg>
@@ -189,7 +198,7 @@
                      <l>aquel que aguardabais?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -199,7 +208,7 @@
                      <l>le vio ha mucho.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>TAD.</speaker>
                   <lg>
@@ -207,7 +216,7 @@
                      <l>asunto de reirnos.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -217,7 +226,7 @@
                      <l>y no puedo replicar.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>TAD.</speaker>
                   <lg>
@@ -227,7 +236,7 @@
                      <l>otro mas hábil.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -237,8 +246,8 @@
                      <l>de no hablarme en cuatro meses,</l>
                   </lg>
                </sp>
-               
-               
+
+
                <sp>
                   <speaker>TAD.</speaker>
                   <lg>
@@ -246,7 +255,7 @@
                      <l>parece, señora, el vuestro.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -255,7 +264,7 @@
                      <l>y vereis.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>TAD.</speaker>
                   <lg>
@@ -263,23 +272,23 @@
                      <l>si acaso nos viese aquí?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
                      <l>No por cierto, que èl es tal,</l>
-               
-               <pb n="4" source="Moreno_004_4.jpg" />
-                     
-               <fw type="paginaNum">4</fw>
-                     
+
+                     <pb n="4" source="Moreno_004_4.jpeg"/>
+
+                     <fw type="paginaNum">4</fw>
+
                      <l>que en apoyándole á todo</l>
                      <l>queda contento; callad,</l>
                   </lg>
                </sp>
-               
-               <stage><lb />SALE D. LUOUETE DE POR CASA.</stage>
-               
+
+               <stage><lb/>SALE D. LUOUETE DE POR CASA.</stage>
+
                <sp>
                   <speaker>LUQ,</speaker>
                   <lg>
@@ -289,12 +298,12 @@
                      <l>amás la puedo encontrar?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <l>¿No sabes fue por el Page?</l>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <lg>
@@ -302,12 +311,12 @@
                      <l>buenas tardes, caballero.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>TAD.</speaker>
                   <l>Muy felices las tengais.</l>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -315,7 +324,7 @@
                      <l>que no te acomoda.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <lg>
@@ -325,10 +334,9 @@
                      <l>voy á acabar el correo.</l>
                   </lg>
                </sp>
-               
-               <stage><lb />AL IRSE ENCUENTRA CON LA CRIADA Y
-               <lb />SE DETIENE.</stage>
-               
+
+               <stage><lb/>AL IRSE ENCUENTRA CON LA CRIADA Y <lb/>SE DETIENE.</stage>
+
                <sp>
                   <speaker>SALE CRIAD.</speaker>
                   <lg>
@@ -336,12 +344,12 @@
                      <l>el Page ya.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <l>Pues me espero.</l>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -349,7 +357,7 @@
                      <l>¿qué facha tiene?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CuiAD.</speaker>
                   <lg>
@@ -359,7 +367,7 @@
                      <l>de un tapiz, jamás he visto.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ,</speaker>
                   <lg>
@@ -374,7 +382,7 @@
                      <l>qué se yo como andarán.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -382,7 +390,7 @@
                      <l>eres sin tener igual:</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CR.</speaker>
                   <lg>
@@ -390,12 +398,12 @@
                      <l>porque nos ha de espantar.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>TAD,</speaker>
                   <l>Aquí viene.</l>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <lg>
@@ -403,9 +411,9 @@
                      <l>que el correo esperará.</l>
                   </lg>
                </sp>
-               
-               <stage><lb />SALE EL PAGE RIDICULO, Y SIN PEINAR.</stage>
-               
+
+               <stage><lb/>SALE EL PAGE RIDICULO, Y SIN PEINAR.</stage>
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -413,7 +421,7 @@
                      <l>tengan ustedes, y...</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -421,7 +429,7 @@
                      <l>¡explicacion excelente!</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <lg>
@@ -429,12 +437,12 @@
                      <l>¿como te llamas, chiquillo?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>C.</speaker>
                   <l>¡Que escuchen á un mentecato!</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG,</speaker>
                   <lg>
@@ -448,7 +456,7 @@
                      <l>mi padre se murio hablando,</l>
                      <l>(¡Qué chico!</l>
                      <l>¡qué ojos! ¡qué cuerpo!</l>
-                     <stage><lb />APARTE.</stage>
+                     <stage><lb/>APARTE.</stage>
                      <l>que cara tiene, y qué garbo!</l>
                      <l>Doña Maria, mi madre,</l>
                      <l>murió de ciento y veinte años;</l>
@@ -460,38 +468,38 @@
                      <l>á mi madre la enterraron...</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <l>Ya basta, ya basta, calla.</l>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <l>¡Qué lavia tiene el muchacho!</l>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <l>¡Qué compañero tan bruto!</l>
                </sp>
-               
+
                <l>PAG. La chica me va gustando. AP.</l>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <lg>
                      <l>Desde ahora mismo, Pepito,</l>
                      <l>quedas por Page ajustado;</l>
                      <l>ropa limpia, de comer,</l>
-                     
-                     <pb n="5" source="Moreno_004_5.jpg" />
+
+                     <pb n="5" source="Moreno_004_5.jpeg"/>
                      <fw type="paginaNum">5</fw>
-                     
+
                      <l>y tu corriente salario.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>AN.</speaker>
                   <lg>
@@ -499,7 +507,7 @@
                      <l>en que se quede?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <lg>
@@ -510,7 +518,7 @@
                      <l>y nadie mas.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -519,12 +527,12 @@
                      <l>primero soy yó que tu amo.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <l>A mi y no más.</l>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -532,12 +540,12 @@
                      <l>eres terco.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <l>Eres pelmazo,</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -547,14 +555,14 @@
                      <l>y á ustedes paz.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LOS DOS.</speaker>
                   <lg>
                      <l>Pues veamos.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <lg>
@@ -562,7 +570,7 @@
                      <l>que lo estamos aguardando.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -578,7 +586,7 @@
                      <l>pues como el tio ha faltado...</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <lg>
                      <l>TAD. Ya me falta la paciencia</l>
@@ -586,12 +594,12 @@
                      <l>señora, vamos de aquí.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <l>Vámonos al otro estrado.</l>
                </sp>
-               
+
                <sp>
                   <speaker>LUQ.</speaker>
                   <lg>
@@ -604,24 +612,24 @@
                      <l>cuidado con lo que he dicho.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>TAD.</speaker>
                   <l>Vámonos á dentro.</l>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <l>Vamos.</l>
                </sp>
-               
+
                <stage>VANSE.</stage>
-               
+
                <sp>
                   <speaker>CRI.</speaker>
                   <l>Conque he de ensayar áusted?</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -634,14 +642,14 @@
                      <l>ya yo me voy sofocando.</l>
                   </lg>
                </sp>
-               
-               <stage><lb />APARTE.</stage>
-               
+
+               <stage><lb/>APARTE.</stage>
+
                <sp>
                   <speaker>CRIA.</speaker>
                   <l>Diga usted, ¿qué sabe hacer?</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -661,7 +669,7 @@
                      <l>pues como el tio murió...</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -670,7 +678,7 @@
                      <l>para cortejar?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -683,7 +691,7 @@
                      <l>lo verá usted.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -691,30 +699,30 @@
                      <l>empieza, y veremos cómo.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
                      <l>Esta se va madurando,</l>
                      <l>APARTE.</l>
-               
-               <pb n="6" source="Moreno_004_6.jpg" />
-               <fw type="paginaNum">6</fw>
-               
+
+                     <pb n="6" source="Moreno_004_6.jpeg"/>
+                     <fw type="paginaNum">6</fw>
+
                      <l>Ponte allí enfrente.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <l>Ya estoy.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <l>¿Me quieres, idolo amado?</l>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -722,7 +730,7 @@
                      <l>elefante, ó dromedario.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -730,17 +738,17 @@
                      <l>te dejaré mi salario.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIA.</speaker>
                   <l>¿Y cuanto tienes de renta?</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <l>Diez y seis reales cada año.</l>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -748,7 +756,7 @@
                      <l>para salir de cuidado.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -757,12 +765,12 @@
                      <l>Yo me casaré contigo.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIA.</speaker>
                   <l>¿Tiene hacienda para el gasto?</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -781,7 +789,7 @@
                      <l>pues como el tio murió...</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -789,7 +797,7 @@
                      <l>de verte tan majadero.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -800,7 +808,7 @@
                      <l>que estemos libres entrambos.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -810,7 +818,7 @@
                      <l>en un tonto mentecato?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -827,7 +835,7 @@
                      <l>y pues que yo cómo ó cuándo..</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -835,7 +843,7 @@
                      <l>¿Por qué no se explica bien?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -845,7 +853,7 @@
                      <l>dame un abrazo, mi vida.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -854,7 +862,7 @@
                      <l>que es una moza de garbo.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -883,30 +891,30 @@
                      <l>Pues como el tio murió...</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIA.</speaker>
                   <l>Calla, contreintamil diablos</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
                      <l>Quien porfia saca raja,</l>
-               
-               <pb n="7" source="Moreno_004_7.jpg" />
-               <fw type="paginaNum">7</fw>
-               
+
+                     <pb n="7" source="Moreno_004_7.jpeg"/>
+                     <fw type="paginaNum">7</fw>
+
                      <l>he oido decir; al caso</l>
                      <l>¿tú me quieres?</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -914,31 +922,31 @@
                      <l>Dame un abrazo.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <l>Al demonio.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <l>Toma, dueño idolatrado.</l>
                </sp>
-               
+
                <stage>LA ABRAZA.</stage>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <l>Señora, señora mia.</l>
                </sp>
-               
+
                <stage>SALEN DONA ANA, Y D. TADEO.</stage>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <l>Qué ha sucedido?</l>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -946,12 +954,12 @@
                      <l>que el Page es un atrevido.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>AN.</speaker>
                   <l>¿Qué ha hecho este mentecato?</l>
                </sp>
-               
+
                <sp>
                   <speaker>CRIA.</speaker>
                   <lg>
@@ -961,12 +969,12 @@
                      <l>me ha dado á mi...</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <l>Qué?</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -975,7 +983,7 @@
                      <l>quise ver si sabia algo.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <lg>
@@ -984,12 +992,12 @@
                      <l>qué se dirá por el mundo!</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <l>Que un Page la dió un abrazo.</l>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <lg>
@@ -999,7 +1007,7 @@
                      <l>váyase pues de contado.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -1010,27 +1018,27 @@
                      <l>que como el tio murió...</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <l>Calle el bribon.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <l>Ya he callado.</l>
                </sp>
-               
+
                <sp>
                   <speaker>ANA.</speaker>
                   <l>¿Qué hace aquí que nose vá?</l>
                </sp>
-               
+
                <stage>EMPUJALE.</stage>
-               
-              <sp>
-                 <speaker>PAG.</speaker>
-                 <lg>
+
+               <sp>
+                  <speaker>PAG.</speaker>
+                  <lg>
                      <l>Ya me iré; vamos despacio,</l>
                      <l>y no me trate usté así;</l>
                      <l>porque aunque soy un criado,</l>
@@ -1044,9 +1052,9 @@
                      <l>es porque soy desgraciado;</l>
                      <l>que como el tió murió,</l>
                      <l>á mi madre la enterraron.</l>
-                 </lg>
-              </sp>
-               
+                  </lg>
+               </sp>
+
                <sp>
                   <speaker>TAD.</speaker>
                   <lg>
@@ -1054,7 +1062,7 @@
                      <l>y váyase de contado.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <lg>
@@ -1062,37 +1070,37 @@
                      <l>no porque me lo han mandado.</l>
                   </lg>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <l>Del mundo fuera mejor.</l>
                </sp>
-               
+
                <sp>
                   <speaker>AN.</speaker>
                   <l>Excelente ha estado el chasco.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <l>A Dios, cochina.</l>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <l>A Dios, bruto.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAG.</speaker>
                   <l>A Dios, puerca.</l>
                </sp>
-               
+
                <sp>
                   <speaker>CRIAD.</speaker>
                   <l>A Dios, marrano.</l>
                </sp>
-               
+
                <sp>
                   <speaker>TODOS.</speaker>
                   <lg>
@@ -1100,7 +1108,7 @@
                      <l>perdonad defectos tantos.</l>
                   </lg>
                </sp>
-               
+
                <trailer>FIN.</trailer>
             </div>
          </div>

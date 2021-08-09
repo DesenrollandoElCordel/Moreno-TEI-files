@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_002">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Coplas nuevas para cantar los aficionados.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI">10.5281/zenodo.4973395</idno>
+                  <idno type="DOI">10.5281/zenodo.5171834</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 359</idno>
                   </altIdentifier>
@@ -84,15 +87,21 @@
                </physDesc>
                <history>
                   <acquisition>
-                     <p />
+                     <p/>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><projectDesc>
-            <p />
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
+            <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -122,34 +131,34 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-23" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-02-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
          <change when="2021-03-02" who="#EL">Modification de "summary" dans le teiHeader</change>
-         <change when="2021-06-07" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-07" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_002_thumbnail" />
+      <graphic url="Moreno_002_thumbnail"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_002_1.jpg" />
-               
+               <pb n="1" source="Moreno_002_1.jpeg"/>
+
                <fw type="impresorNum">Núm. 339.</fw>
-               
+
                <head type="primer_titulo">
-                  <lb />COPLAS NUEVAS
-                  <lb />PARA CANTAR LOS AFICIONADOS.
-               </head>
-               
+                  <lb/>COPLAS NUEVAS <lb/>PARA CANTAR LOS AFICIONADOS. </head>
+
                <lg rend="cursiva">
                   <l rend="ident">En una maceta hermosa</l>
                   <l>yo sembré, y otro sembró,</l>
                   <l>solo una rosa se dió.</l>
                   <l>¿de quién podrá ser la rosa?</l>
                </lg>
-               
+
                <lg>
                   <l>Quise para mayor pena</l>
                   <l>y para mas confusion,</l>
@@ -162,7 +171,7 @@
                   <l>por la semilla sembrar</l>
                   <l rend="cursiva">en una maceta hermosa.</l>
                </lg>
-               
+
                <lg>
                   <l>Que otro sembró considero</l>
                   <l>(gran confusion es la mia)</l>
@@ -175,7 +184,7 @@
                   <l>solo puedo decir, que</l>
                   <l rend="cursiva">yo sembré y otro sembró.</l>
                </lg>
-               
+
                <lg>
                   <l>Siendo dos los sembradores, </l>
                   <l>claro se deja entender, </l>
@@ -188,7 +197,7 @@
                   <l> al sembrar los dos en ella</l>
                   <l rend="cursiva">solo una rosa se dió.</l>
                </lg>
-               
+
                <lg>
                   <l>Nunca de los dos podia</l>
                   <l>solo una rosa brotar,</l>
@@ -201,18 +210,18 @@
                   <l>por esto digo, señores:</l>
                   <l rend="cursiva">¿de quién podrá ser la rosa?</l>
                </lg>
-               
-               <pb n="2" source="Moreno_002_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_002_2.jpeg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <lg rend="cursiva">
                   <l>Gozé de lo que tuvistes</l>
                   <l>en la flor de tu niñez,</l>
                   <l>ya no tendrás otra vez</l>
                   <l>que dar lo que á mi me distes.</l>
                </lg>
-               
+
                <lg>
                   <l>Tú por haber acertado</l>
                   <l>al dejar mi fino amor, </l>
@@ -225,7 +234,7 @@
                   <l>cuando de tu amor vencí, </l>
                   <l rend="cursiva">gozé de lo que tuvistes.</l>
                </lg>
-               
+
                <lg>
                   <l>Bien sé á quien tienes amor, </l>
                   <l>y á quien amas con gran fé, </l>
@@ -238,7 +247,7 @@
                   <l>yo te gozé tiernecita</l>
                   <l rend="cursiva">en la flor de tu niñez.</l>
                </lg>
-               
+
                <lg>
                   <l>Antes eras tú la diosa,</l>
                   <l>la estrella mas reluciente,</l>
@@ -251,7 +260,7 @@
                   <l>mas por tus malas acciones</l>
                   <l rend="cursiva">ya no tendrás otra vez.</l>
                </lg>
-               
+
                <lg>
                   <l>Adios discipula mia,</l>
                   <l>á quien yo enseñé á querer, </l>
@@ -264,14 +273,14 @@
                   <l>ya no tendrás tú jamás </l>
                   <l rend="cursiva">que dar lo que á mi me distes.</l>
                </lg>
-               
+
                <lg rend="cursiva">
                   <l>Si tú te vas á bañar</l>
                   <l>avisame un dia antes,</l>
                   <l>y te empedraré el camino</l>
                   <l>de perlas y diamantes.</l>
                </lg>
-               
+
                <lg>
                   <l>De conchas, perlas, diamantes;</l>
                   <l>de brillantes y esmeraldas, </l>
@@ -284,7 +293,7 @@
                   <l>porque no te pique el sol, </l>
                   <l rend="cursiva">si tu te vás á bañar.</l>
                </lg>
-               
+
                <lg>
                   <l>Irás en silla de manos</l>
                   <l>para ir mas descansada,</l>
@@ -297,7 +306,7 @@
                   <l>te lo pido por merced,</l>
                   <l rend="cursiva">avisame un dia antes.</l>
                </lg>
-               
+
                <lg>
                   <l>Aquí me pongo á cantar</l>
                   <l>por darle gusto á mi asunto,</l>
@@ -310,7 +319,7 @@
                   <l>buscando mil oficiales,</l>
                   <l rend="cursiva">para empedrarte el camino.</l>
                </lg>
-               
+
                <lg>
                   <l>Mi décima no es finjida</l>
                   <l>para obsequiar tu persona,</l>
@@ -323,18 +332,18 @@
                   <l>tambien te haré una berlina</l>
                   <l rend="cursiva">de perlas y diamantes.</l>
                </lg>
-               
-               <pb n="3" source="Moreno_002_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_002_3.jpeg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <lg rend="cursiva">
                   <l>Laurel florido y hermoso</l>
                   <l>aplaudido de las ftores,</l>
                   <l>¿qué se han hecho tus verdores</l>
                   <l>que ya no estás tan frondoso!</l>
                </lg>
-               
+
                <lg>
                   <l>Entré en el jardin un dia</l>
                   <l>donde te ví floreciendo, </l>
@@ -347,7 +356,7 @@
                   <l>porque entonces te dejé, </l>
                   <l rend="cursiva">laurel florido y hermoso.</l>
                </lg>
-               
+
                <lg>
                   <l>Tú al deleite provocabas</l>
                   <l>con toda la inmunidad,</l>
@@ -360,7 +369,7 @@
                   <l>eran voces que decian,</l>
                   <l rend="cursiva">aplaudido de las flores.</l>
                </lg>
-               
+
                <lg>
                   <l>Ayer sin duda te ví,</l>
                   <l>laurel florido y hermoso,</l>
@@ -373,7 +382,7 @@
                   <l>di, laurel del alma mia,</l>
                   <l rend="cursiva">¿qué se han hecho tus verdores?</l>
                </lg>
-               
+
                <lg>
                   <l>Hermoso, verde y florido,</l>
                   <l>con tanto aire te elevaste,</l>
@@ -386,14 +395,14 @@
                   <l>¿qué se han hecho tus verdores</l>
                   <l rend="cursiva">que ya no estás tan frondoso?</l>
                </lg>
-               
+
                <lg rend="cursiva">
                   <l>Sepa mi afecto pagar</l>
                   <l>á quien le trate mejor;</l>
                   <l>á comerciar á otro puerto,</l>
                   <l>ni esclavo ni labrador.</l>
                </lg>
-               
+
                <lg>
                   <l>Fino amante, enamorado</l>
                   <l>á tu belleza he servido,</l>
@@ -406,7 +415,7 @@
                   <l>que constante, fiel y fina</l>
                   <l rend="cursiva">sepa mi afecto pagar.</l>
                </lg>
-               
+
                <lg>
                   <l>El soldado que en campaña</l>
                   <l>sirve leal en su gremio,</l>
@@ -419,7 +428,7 @@
                   <l>le deja y se vá á servir</l>
                   <l rend="cursiva">á quien le trate mejor.</l>
                </lg>
-               
+
                <lg>
                   <l>La tierra con el arado</l>
                   <l>sulca el labrador astuto,</l>
@@ -432,7 +441,7 @@
                   <l>gira la proa y se vá</l>
                   <l rend="cursiva">a comerciar á otro puerto.</l>
                </lg>
-               
+
                <lg>
                   <l>Esclavo en tu amor me ví</l>
                   <l>de finezas mercader, </l>
@@ -446,22 +455,22 @@
                   <l rend="cursiva">ni esclavo ni labrador.</l>
                </lg>
             </div>
-            
+
             <div>
-               <pb n="4" source="Moreno_002_4.jpg" />
-               
-            <head>TROVOS NUEVOS Y DIVERTIDOS.</head>
-               
+               <pb n="4" source="Moreno_002_4.jpeg"/>
+
+               <head>TROVOS NUEVOS Y DIVERTIDOS.</head>
+
                <div type="cancion">
                   <head type="titulo_cancion">I.</head>
-                  
+
                   <lg rend="cursiva">
                      <l>A un jóven y á un viejo quiero,</l>
                      <l>aunque con distinta ley, </l>
                      <l>quiero el jóven por su cara,</l>
                      <l>y al viejo por la del rey.</l>
                   </lg>
-                  
+
                   <lg>
                      <l>Es mi carácter grosero, </l>
                      <l>no lo puedo remediar,</l>
@@ -469,7 +478,7 @@
                      <l>y para especulizar, </l>
                      <l rend="cursiva">á un jóven y á un viejo quiero.</l>
                   </lg>
-                  
+
                   <lg>
                      <l>Soy mas tenaz que Muley, </l>
                      <l>y voy siguiendo mi intento,</l>
@@ -477,7 +486,7 @@
                      <l>y á los dos doy cumplimiento,</l>
                      <l rend="cursiva">aunque con distinta ley.</l>
                   </lg>
-                  
+
                   <lg>
                      <l>Es en el mundo muy rara</l>
                      <l>la que suele despreciar;</l>
@@ -485,7 +494,7 @@
                      <l>pero en tocando al casar,</l>
                      <l rend="cursiva">quiero al jóven por su cara.</l>
                   </lg>
-                  
+
                   <lg>
                      <l>Aunque me pretenda un Dey, </l>
                      <l>con su opulencia y su oro,</l>
@@ -494,17 +503,17 @@
                      <l rend="cursiva">y al viejo por la del rey.</l>
                   </lg>
                </div>
-                  
+
                <div type="cancion">
                   <head type="titulo_cancion">II.</head>
-                  
+
                   <lg rend="cursiva">
                      <l>El que quiera vivir mucho</l>
                      <l>ha de huir lo mas que pueda,</l>
                      <l>de médicos y boticas</l>
                      <l>pepinos, melones y hembras.</l>
                   </lg>
-                  
+
                   <lg>
                      <l>Aunque me llamen no escucho</l>
                      <l>á las de catorce en cesta;</l>
@@ -512,7 +521,7 @@
                      <l>ande con esta respuesta,</l>
                      <l rend="cursiva">el que quiera vivir mucho.</l>
                   </lg>
-                  
+
                   <lg>
                      <l>Aquel que libre estar quiera</l>
                      <l>de practicantes y unciones, </l>
@@ -520,7 +529,7 @@
                      <l>de las que piden doblones,</l>
                      <l rend="cursiva">ha de huir lo mas que pueda.</l>
                   </lg>
-                  
+
                   <lg>
                      <l>Pájaro que mucho pica, </l>
                      <l>en la red pronto caerá,</l>
@@ -528,7 +537,7 @@
                      <l>huir de toda manera,</l>
                      <l rend="cursiva">de médicos y boticas</l>
                   </lg>
-                  
+
                   <lg>
                      <l>Si de mujeres te prendas,</l>
                      <l>darás fin á tu caudal,</l>
@@ -537,52 +546,52 @@
                      <l rend="cursiva">pepinos, melones y hembras.</l>
                   </lg>
                </div>
-                  
+
                <div type="cancion">
                   <head type="titulo_cancion">III.</head>
-                  
-               <lg rend="cursiva">
-                  <l>Quién fuera mozo y casado,</l>
-                  <l>y confesor de las damas,</l>
-                  <l>cirujanos por las tardes,</l>
-                  <l>y médico por las mañanas.</l>
-               </lg>
-                  
-               <lg>
-                  <l>Paseando por un prado,</l>
-                  <l>ví un poeta en un balcon</l>
-                  <l>disputando con un sábio</l>
-                  <l>que decia con fervor,</l>
-                  <l rend="cursiva">quién fuera mozo y casado.</l>
-               </lg>
-                  
-               <lg>
-                  <l>A todas las resaladas</l>
-                  <l>sepan que doy á entender, </l>
-                  <l>que para saber sus tramas</l>
-                  <l>mocito quisiera ser,</l>
-                  <l rend="cursiva">y confesor de las damas.</l>
-               </lg>
-                  
-               <lg>
-                  <l>Paseándome una tarde</l>
-                  <l>por el paseo del rey, </l>
-                  <l>ví una mujer con donaire;</l>
-                  <l>por eso quisiera ser,</l>
-                  <l rend="cursiva">cirujano por las tardes.</l>
-               </lg>
-                  
-               <lg>
-                  <l>Regocíjate con galas,</l>
-                  <l>salada con tu querer;</l>
-                  <l>para visitar madamas,</l>
-                  <l>digo que quisiera ser,</l>
-                  <l rend="cursiva">medico por las mañanas.</l>
-               </lg>
+
+                  <lg rend="cursiva">
+                     <l>Quién fuera mozo y casado,</l>
+                     <l>y confesor de las damas,</l>
+                     <l>cirujanos por las tardes,</l>
+                     <l>y médico por las mañanas.</l>
+                  </lg>
+
+                  <lg>
+                     <l>Paseando por un prado,</l>
+                     <l>ví un poeta en un balcon</l>
+                     <l>disputando con un sábio</l>
+                     <l>que decia con fervor,</l>
+                     <l rend="cursiva">quién fuera mozo y casado.</l>
+                  </lg>
+
+                  <lg>
+                     <l>A todas las resaladas</l>
+                     <l>sepan que doy á entender, </l>
+                     <l>que para saber sus tramas</l>
+                     <l>mocito quisiera ser,</l>
+                     <l rend="cursiva">y confesor de las damas.</l>
+                  </lg>
+
+                  <lg>
+                     <l>Paseándome una tarde</l>
+                     <l>por el paseo del rey, </l>
+                     <l>ví una mujer con donaire;</l>
+                     <l>por eso quisiera ser,</l>
+                     <l rend="cursiva">cirujano por las tardes.</l>
+                  </lg>
+
+                  <lg>
+                     <l>Regocíjate con galas,</l>
+                     <l>salada con tu querer;</l>
+                     <l>para visitar madamas,</l>
+                     <l>digo que quisiera ser,</l>
+                     <l rend="cursiva">medico por las mañanas.</l>
+                  </lg>
                </div>
             </div>
             <div type="colofon">
-               <p><lb />Imprenta de D. José María Moreno, calle Madre de Dios número 1.</p>
+               <p><lb/>Imprenta de D. José María Moreno, calle Madre de Dios número 1.</p>
             </div>
          </div>
       </body>

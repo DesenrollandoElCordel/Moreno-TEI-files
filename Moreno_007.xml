@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_007">
    <teiHeader>
       <fileDesc>
@@ -23,10 +24,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Antonio Narvaez y Rosaura.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -38,10 +39,12 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" /></repository>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     /></repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI">10.5281/zenodo.4973538</idno>
+                  <idno type="DOI">10.5281/zenodo.5171852</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 6.</idno>
                   </altIdentifier>
@@ -54,7 +57,8 @@
                   </msItem>
                   <msItem>
                      <locus>5-8</locus>
-                     <title>Segunda parte. En que se prosiguen los sucesos de Rosaura y D. Antonio Narvaez</title>
+                     <title>Segunda parte. En que se prosiguen los sucesos de Rosaura y D. Antonio
+                        Narvaez</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -64,7 +68,8 @@
                            <dim>in-4</dim>
                         </support>
                         <extent>8 p.</extent>
-                        <condition>El papel está rasgado en la parte inferior de las páginas 7 y 8.</condition>
+                        <condition>El papel está rasgado en la parte inferior de las páginas 7 y
+                           8.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <p>2 columnas</p>
@@ -85,7 +90,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -111,34 +122,37 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2020-11-17" who="#EL">Création du fichier TEI P5 ; Encodage du TEI Header et du corps du texte</change>
-         <change when="2021-02-17" who="#EL">Modification du fichier TEI en fonction de la v.3 du manuel d'encodage</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2020-11-17" who="#EL">Création du fichier TEI P5 ; Encodage du TEI Header et
+            du corps du texte</change>
+         <change when="2021-02-17" who="#EL">Modification du fichier TEI en fonction de la v.3 du
+            manuel d'encodage</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_007_thumbnail.jpg" />
+      <graphic url="Moreno_007_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            
-            <pb n="1" source="Moreno_007_1.jpg" />
-         
+
+            <pb n="1" source="Moreno_007_1.jpg"/>
+
             <fw type="impresorNum">(Número 6.)</fw>
-            
-            <head rend="cursiva" type="primer_titulo"><lb />Antonio Narvaez y Rosaura.</head>
-            
+
+            <head rend="cursiva" type="primer_titulo"><lb/>Antonio Narvaez y Rosaura.</head>
+
             <div n="1" type="parte">
-               <head rend="negrita" type="titulo_parte"><lb />PRIMERA PARTE.</head>
+               <head rend="negrita" type="titulo_parte"><lb/>PRIMERA PARTE.</head>
                <head rend="cursiva" type="subtitulo_parte">
-                  <lb />DE LOS AMOROSOS LANCES Y PARTICULARES SUCESOS QUE
-                  <lb />acaecieron á una hermosa dama llamada Rosaura, y á su amante D. Anto-
-                  <lb />nio Narvaez, natural de Córdoba; dase cuenta del modo con que se des-
-                  <lb />cubrió á la dama en Sierra-Morena que la guardaba un Oso, y como di-
-                  <lb />cho caballero lo mató; con todo lo demás que verá el curioso lector.
+                  <lb/>DE LOS AMOROSOS LANCES Y PARTICULARES SUCESOS QUE
+                  <lb/>acaecieron á una hermosa dama llamada Rosaura, y á su amante D. Anto-
+                  <lb/>nio Narvaez, natural de Córdoba; dase cuenta del modo con que se des-
+                  <lb/>cubrió á la dama en Sierra-Morena que la guardaba un Oso, y como di-
+                  <lb/>cho caballero lo mató; con todo lo demás que verá el curioso lector.
                </head>
-               
+
                <l rend="indent">A olvidar vanas memorias</l>
                <l>á divertir pensamientos,</l>
                <l>á dar principio á mis ancias,</l>
@@ -161,11 +175,11 @@
                <l>un guante el que yo de presto</l>
                <l>lo saqué de la corriente,</l>
                <l>y sacudiendolo, veo</l>
-               
-               <pb n="2" source="Moreno_007_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_007_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>que estaba todo bordado</l>
                <l>de letras de oro fino y terso,</l>
                <l>y unas letras que decian:</l>
@@ -246,11 +260,11 @@
                <l>te dará la muerte luego:</l>
                <l>vé á mi casa, y á mis Padres</l>
                <l>dá el referido suceso. </l>
-               
-               <pb n="3" source="Moreno_007_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_007_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>Yo le dije: hermosa dama,</l>
                <l>¿qué bruto ni qué soberbio</l>
                <l>animal será bastante</l>
@@ -291,7 +305,7 @@
                <l>el ser tu esposa prometo</l>
                <l>en pago de esta fineza.</l>
                <l>Yo la respondí: concedo.</l>
-               
+
                <l>Nos dímos palabra y mano,</l>
                <l>de esposos, y prosiguiendo</l>
                <l>me dice: toma esta cinta,</l>
@@ -332,11 +346,11 @@
                <l>y de aquel sitio se fueron.</l>
                <l>Yo me quedé en la espesura</l>
                <l>confuso, triste y suspenso: </l>
-               
-               <pb n="4" source="Moreno_007_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_007_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>saqué la sinta de seda</l>
                <l>desdoblela, y un letrero</l>
                <l>hallé en ella que decia:</l>
@@ -371,7 +385,7 @@
                <l>Pero fortuna, ¡qué presto</l>
                <l>me transformaste en tu rueda!</l>
                <l>Fué que un criado á este tiempo</l>
-               
+
                <l>me vido hablar con Rosaura</l>
                <l>entró dentro como un trueno,</l>
                <l>dandole cuenta á su Padre;</l>
@@ -406,22 +420,18 @@
                <l>considérelo el discreto</l>
                <l>y en otra segunda parte</l>
                <l>daré fin á este suceso. </l>
-               
+
                <trailer>Fin de la primera parte.</trailer>
             </div>
             <div n="2" type="parte">
-               <pb n="5" source="Moreno_007_5.jpg" />
-               
+               <pb n="5" source="Moreno_007_5.jpg"/>
+
                <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
                <head rend="cursiva" type="subtitulo_parte">
-                  <lb />EN QUE SE PROSIGUEN LOS
-                  <lb />Sucesos de Rosaura y D. Antonio
-                  <lb />Narvaez:dáse cuenta de varios lan-
-                  <lb />ces,y como se la trajo á Córdoba,
-                  <lb />donde se desposaron, y lo demas
-                  <lb />que verá el curioso lector.
-               </head>
-               
+                  <lb/>EN QUE SE PROSIGUEN LOS <lb/>Sucesos de Rosaura y D. Antonio
+                  <lb/>Narvaez:dáse cuenta de varios lan- <lb/>ces,y como se la trajo á Córdoba,
+                  <lb/>donde se desposaron, y lo demas <lb/>que verá el curioso lector. </head>
+
                <l rend="indent">Ya dije en la primera parte</l>
                <l>como quedé tan absorto</l>
                <l>en Cordoba, sin saber</l>
@@ -452,11 +462,11 @@
                <l>busco á Rosaura en troncos;</l>
                <l>loco sin sentido digo:</l>
                <l>montes, aves, fieras, mónstruos, </l>
-               
-               <pb n="6" source="Moreno_007_6.jpg" />
-               
+
+               <pb n="6" source="Moreno_007_6.jpg"/>
+
                <fw type="paginaNum">6</fw>
-               
+
                <l>Aves que volais, decidme</l>
                <l>con vuestros picos sonoros,</l>
                <l>¿pasó por aqui Rosaura?</l>
@@ -537,11 +547,11 @@
                <l>y el guante que en el arroyo</l>
                <l>perdió Rosaura, y la cinta</l>
                <l>que tambien me dió á mi propio,</l>
-               
-               <pb n="7" source="Moreno_007_7.jpg" />
-               
+
+               <pb n="7" source="Moreno_007_7.jpg"/>
+
                <fw type="paginaNum">7</fw>
-               
+
                <l>cuando la encontré en el monte,</l>
                <l>y resolviendome á todo,</l>
                <l>en el nombre de su Padre</l>
@@ -622,11 +632,11 @@
                <l>con un caballero mozo</l>
                <l>de aqui de Madrid: mas tú</l>
                <l>solo eres mi querido esposo; </l>
-               
-               <pb n="8" source="Moreno_007_8.jpg" />
-               
+
+               <pb n="8" source="Moreno_007_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
-               
+
                <l>para esta noche á las doce</l>
                <l>vendrás, dueño mio, solo,</l>
                <l>y en una reja que tiene</l>
@@ -684,14 +694,13 @@
                <l>porque perdonen mis faltas</l>
                <l>y yerros que no habrá pocos.</l>
                <trailer>FIN.</trailer>
-               </div>
-            
-               <div type="colofon">
-                  <p>
-                     <lb />CARMONA:—1858.
-                     <lb />Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 4.
-                  </p>
-               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 4.
+               </p>
+            </div>
          </div>
       </body>
    </text>
