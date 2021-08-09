@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_054">
    <teiHeader>
       <fileDesc>
@@ -18,9 +19,10 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Casamiento entre dos damas. Nueva relacion en que se refieren los raros sucesos de una
-                                                Señora natural de la córte de Viena; y la fortuna que tuvo, habiéndose
-                                                salido de su patria disfrazada en busca de un amante.</title>
+                  <title type="titulo_completo">Casamiento entre dos damas. Nueva relacion en que se
+                     refieren los raros sucesos de una Señora natural de la córte de Viena; y la
+                     fortuna que tuvo, habiéndose salido de su patria disfrazada en busca de un
+                     amante.</title>
                   <title type="titulo_breve">Casamiento entre dos damas</title>
                </titleStmt>
                <editionStmt>
@@ -36,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5018693</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 65</idno>
                   </altIdentifier>
@@ -53,7 +57,8 @@
                   </msItem>
                   <msItem>
                      <locus>5-8</locus>
-                     <title>Segunda parte. En que se finalizan los varios sucesos de Doña Gertrudis, con el más raro caso que han visto los nacidos.</title>
+                     <title>Segunda parte. En que se finalizan los varios sucesos de Doña Gertrudis,
+                        con el más raro caso que han visto los nacidos.</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -82,7 +87,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -108,31 +119,33 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-03" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-03" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_054_thumbnail.jpg" />
+      <graphic url="Moreno_054_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-                <pb n="1" source="Moreno_054_1.jpg" />
-               
-                <fw type="impresorNum">(Núm. 65.)</fw>
-               
-                <head rend="negrita" type="primer_titulo">CASAMIENTO ENTRE DOS DAMAS.</head>
-                <head type="subtitulo">
-                   <lb />NUEVA RELACION EN QUE SE REFIEREN LOS RAROS SUCESOS DE UNA
-                   <hi rend="cursiva"><lb />Señora natural de la córte de Viena; y la fortuna que tuvo, habiéndose
-                   <lb />salido de su patria disfrazada en busca de un amante.</hi>
-                </head>
-               
-                <div n="1" type="parte">
+               <pb n="1" source="Moreno_054_1.jpg"/>
+
+               <fw type="impresorNum">(Núm. 65.)</fw>
+
+               <head rend="negrita" type="primer_titulo">CASAMIENTO ENTRE DOS DAMAS.</head>
+               <head type="subtitulo">
+                  <lb/>NUEVA RELACION EN QUE SE REFIEREN LOS RAROS SUCESOS DE UNA <hi rend="cursiva"
+                     ><lb/>Señora natural de la córte de Viena; y la fortuna que tuvo, habiéndose
+                     <lb/>salido de su patria disfrazada en busca de un amante.</hi>
+               </head>
+
+               <div n="1" type="parte">
                   <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
-                   
+
                   <l rend="indent">En la córte mas suprema,</l>
                   <l>en la mas luciente alcázar</l>
                   <l>que guarnece el claro Febo</l>
@@ -161,11 +174,11 @@
                   <l>una beldad mas que humana.</l>
                   <l>Fuese criando este hechizo</l>
                   <l>con politica enseñanza,</l>
-                   
-                  <pb n="2" source="Moreno_054_2.jpg" />
-                   
+
+                  <pb n="2" source="Moreno_054_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                   
+
                   <l>con muchas habilidades</l>
                   <l>de letras y leguas varias.</l>
                   <l>Era el imán del amor,</l>
@@ -250,11 +263,11 @@
                   <l>Le mandó que se aguardára,</l>
                   <l>y le dió parte á su amo,</l>
                   <l>que era de la real casa</l>
-                   
-                  <pb n="3" source="Moreno_054_3.jpg" />
-                   
+
+                  <pb n="3" source="Moreno_054_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                   
+
                   <l>el secretario mayor;</l>
                   <l>y por no hacer dilatada</l>
                   <l>la historia, digo, quedó</l>
@@ -339,11 +352,11 @@
                   <l>á presentarle á su ama</l>
                   <l>un ramo de hermosas flores</l>
                   <l>por ver si alguno le agrada;</l>
-                   
-                  <pb n="4" source="Moreno_054_4.jpg" />
-                   
+
+                  <pb n="4" source="Moreno_054_4.jpg"/>
+
                   <fw type="impresorNum">4</fw>
-                   
+
                   <l>y que á este tiempo su padre, </l>
                   <l>á vista de su hija amada,</l>
                   <l>asistiese, sin que ella</l>
@@ -429,19 +442,16 @@
                   <l>que en otra segunda parte</l>
                   <l>quedará finalizada.</l>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_054_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_054_5.jpg"/>
+
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
                   <head type="subtitulo_parte">
-                     <lb />EN QUE SE FINALIZAN
-                     <lb /><hi rend="negrita">LOS VARIOS SUCESOS</hi>
-                     <lb />DE DOÑA GERTRUDIS,
-                     <lb />CON EL MAS RARO CASO
-                     <lb />QUE HAN VISTO LOS NACIDOS.
-                  </head>
-                  
+                     <lb/>EN QUE SE FINALIZAN <lb/><hi rend="negrita">LOS VARIOS SUCESOS</hi>
+                     <lb/>DE DOÑA GERTRUDIS, <lb/>CON EL MAS RARO CASO <lb/>QUE HAN VISTO LOS
+                     NACIDOS. </head>
+
                   <l rend="indent">Hechas las célebres bodas</l>
                   <l>con el fingido don Cárlos,</l>
                   <l>aquella primera noche,</l>
@@ -474,11 +484,11 @@
                   <l>ea, mi querido Cárlos,</l>
                   <l>¿por qué te aflijes, mi bien?</l>
                   <l>Y él respondió suspirando:</l>
-                  
-                  <pb n="6" source="Moreno_054_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_054_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>señora, advierte y repára</l>
                   <l>lo fúnebre de este caso.</l>
                   <l>Yo soy muger, como ves,</l>
@@ -563,11 +573,11 @@
                   <l>cuenta el aya le ha dado.</l>
                   <l>Al príncipe lo convidan,</l>
                   <l>y como iba ya avisado,</l>
-                  
-                  <pb n="7" source="Moreno_054_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_054_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>tendió la vista, y ha dicho;</l>
                   <l>aquestos asientos bajos,</l>
                   <l>no viniendo aquí madamas,</l>
@@ -652,11 +662,11 @@
                   <l>lo que se habian pensado.</l>
                   <l>Pero Dios compadecido</l>
                   <l>de su riesgo y su quebranto,</l>
-                  
-                  <pb n="8" source="Moreno_054_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_054_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>quiso remediar su pena</l>
                   <l>con un portento muy raro.</l>
                   <l>Y fue que cruzando un monte,</l>
@@ -725,15 +735,14 @@
                   <l>allí está especificado.</l>
                   <l>Y Pedro Navarro pide</l>
                   <l>perdon de lo que haya errado.</l>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1856.
-                  <lb />Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 5.
+                  <lb/>CARMONA:—1856. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 5.
                </p>
             </div>
          </div>
