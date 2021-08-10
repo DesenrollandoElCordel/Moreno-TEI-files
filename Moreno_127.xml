@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_127">
    <teiHeader>
       <fileDesc>
@@ -23,7 +24,7 @@
                   <title type="titulo_breve">Relacion del conde Alarcos</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031905</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 135</idno>
                   </altIdentifier>
@@ -53,8 +56,8 @@
                   </summary>
                   <msItem>
                      <locus>1-7</locus>
-                     <title>Relacion del conde Alarcos, en que se refiere la trágica muerte que dió á
-                        su muger por casarse con la Infanta.</title>
+                     <title>Relacion del conde Alarcos, en que se refiere la trágica muerte que dió
+                        á su muger por casarse con la Infanta.</title>
                   </msItem>
                   <msItem>
                      <locus>7-8</locus>
@@ -87,7 +90,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -116,30 +125,28 @@
       <revisionDesc>
          <change when="2021-03-29" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_127_thumbnail.jpg" />
+      <graphic url="Moreno_127_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_127_1.jpg" />
+               <pb n="1" source="Moreno_127_1.jpg"/>
 
                <fw type="impresorNum">(Núm. 185.)</fw>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">RELACION</hi>
-                  <lb />DEL
-                  <lb />CONDE ALARCOS,
-               </head>
+                  <lb/><hi rend="negrita">RELACION</hi>
+                  <lb/>DEL <lb/>CONDE ALARCOS, </head>
                <head rend="cursiva" type="subtitulo">
-                  <lb />en que se refiere la trágica muerte que dió á su muger por
-                  <lb />casarse con la Infanta.
-               </head>
+                  <lb/>en que se refiere la trágica muerte que dió á su muger por <lb/>casarse con
+                  la Infanta. </head>
 
                <l rend="indent">Retirada está la Infanta, </l>
                <l>bien asi como solia.</l>
@@ -156,7 +163,7 @@
                <l>por decirle su secreto,</l>
                <l>y la intencion que tenia.</l>
 
-               <pb n="2" source="Moreno_127_2.jpg" />
+               <pb n="2" source="Moreno_127_2.jpg"/>
 
                <fw type="paginaNum">2</fw>
 
@@ -237,7 +244,7 @@
                <l>que ya es muerta vuestra ma dr</l>
                <l>á quien consejos pedia.</l>
 
-               <pb n="3" source="Moreno_127_3.jpg" />
+               <pb n="3" source="Moreno_127_3.jpg"/>
 
                <fw type="paginaNum">3</fw>
 
@@ -318,7 +325,7 @@
                <l>que mateis à la condesa</l>
                <l>que cumple á la honra mia</l>
 
-               <pb n="4" source="Moreno_127_4.jpg" />
+               <pb n="4" source="Moreno_127_4.jpg"/>
 
                <fw type="paginaNum">4</fw>
 
@@ -399,7 +406,7 @@
                <l>vióle lostojos llorosos</l>
                <l>que hihchadosdos trara</l>
 
-               <pb n="5" source="Moreno_127_5.jpg" />
+               <pb n="5" source="Moreno_127_5.jpg"/>
 
                <fw type="paginaNum">5</fw>
 
@@ -480,7 +487,7 @@
                <l>manda que muerta seáis</l>
                <l>por la honra desu hija</l>
 
-               <pb n="6" source="Moreno_127_6.jpg" />
+               <pb n="6" source="Moreno_127_6.jpg"/>
 
                <fw type="paginaNum">6</fw>
 
@@ -561,7 +568,7 @@
                <l>apretó con las dos manos,</l>
                <l>con la fuerza que podia;</l>
 
-               <pb n="7" source="Moreno_127_7.jpg" />
+               <pb n="7" source="Moreno_127_7.jpg"/>
 
                <fw type="paginaNum">7</fw>
 
@@ -614,7 +621,7 @@
                   <l>la causa principal son</l>
                   <l rend="cursiva">las mugeres de estos tiempos-</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Entre toros y comedias </l>
                   <l>suele el punto flojear,</l>
@@ -623,7 +630,7 @@
                   <l rend="cursiva">las comparo álas medias.</l>
                </lg>
 
-               <pb n="8" source="Moreno_127_8.jpg" />
+               <pb n="8" source="Moreno_127_8.jpg"/>
 
                <lg>
                   <l rend="indent">No quisiera en éste asunto</l>
@@ -632,7 +639,7 @@
                   <l>que son como el trafalgar,</l>
                   <l rend="cursiva">que en afiojándose un punto...</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Eva, poriser la primera</l>
                   <l>ya pardió el genero humano</l>
@@ -655,7 +662,7 @@
                   <l>tus ojos me cautivaron</l>
                   <l rend="cursiva">en cierta Ciudad de Españá:</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salada, dame la mano,</l>
                   <l>y te daré el corazon</l>
@@ -663,7 +670,7 @@
                   <l>con razon ó sin razon</l>
                   <l rend="cursiva">pusieron preso á un Gitano.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El Gitano, puesto en mancha</l>
                   <l>seguia su caminillo,</l>
@@ -671,7 +678,7 @@
                   <l>lo llevaron á presidio,</l>
                   <l rend="cursiva">porque se encontro una capa.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Era capa de un Cerrano</l>
                   <l>la capa no se perdio,</l>
@@ -679,7 +686,7 @@
                   <l>la capa se la encontró</l>
                   <l rend="cursiva">antes de perderla el amo.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Para si puedo aliviar</l>
                   <l>mi tormento y mi pasion,</l>
@@ -687,7 +694,10 @@
                   <l>me acompaña á suspirar,</l>
                   <l>y mis ojos á llorar,</l>
                   <l>por no estar en tu presencia</l>
-                  <l>con <choice><sic>alguua</sic><corr>alguna</corr></choice> inteligencia,</l>
+                  <l>con <choice>
+                        <sic>alguua</sic>
+                        <corr>alguna</corr>
+                     </choice> inteligencia,</l>
                   <l>los que podemos hacer</l>
                   <l>si no nos podemos ver,</l>
                   <l>lagrimas tener paciencia</l>
@@ -696,9 +706,10 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:=<choice><sic>1458</sic><corr>1858</corr></choice>.
-                  <lb />Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
-               </p>
+                  <lb/>CARMONA:=<choice>
+                     <sic>1458</sic>
+                     <corr>1858</corr>
+                  </choice>. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4. </p>
             </div>
          </div>
       </body>

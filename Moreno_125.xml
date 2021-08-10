@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_125">
    <teiHeader>
       <fileDesc>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031891</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 133</idno>
                   </altIdentifier>
@@ -92,7 +95,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -121,25 +130,27 @@
       <revisionDesc>
          <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_125_thumbnail.jpg" />
+      <graphic url="Moreno_125_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_125_1.jpg" />
+               <pb n="1" source="Moreno_125_1.jpg"/>
 
                <fw type="impresorNum">(Núm. 133.)</fw>
 
                <head rend="negrita" type="primer_titulo">LA DIVINA PEREGRINA.</head>
                <head>
-                  <lb /><hi rend="negrita">CANCION MISTICA,</hi>
-                  <hi rend="cursiva"><lb />que cantaba un religioso á Maria Santisima, apareciéndosele en
-                  <lb />figura de Peregrina, caminando de Roma para Santiago.</hi>
+                  <lb/><hi rend="negrita">CANCION MISTICA,</hi>
+                  <hi rend="cursiva"><lb/>que cantaba un religioso á Maria Santisima,
+                     apareciéndosele en <lb/>figura de Peregrina, caminando de Roma para
+                     Santiago.</hi>
                </head>
 
                <lg>
@@ -152,7 +163,7 @@
                   <l>mi Peregrina</l>
                   <l>se hizo el amor.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Fue tanta la alegría,</l>
                   <l>que al alma mia</l>
@@ -163,7 +174,7 @@
                   <l>mi Peregrina</l>
                   <l>se me perdió.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y mi pecho afligido,</l>
                   <l>preso y herido,</l>
@@ -171,9 +182,9 @@
                   <l>suspiros dió;</l>
                   <l>y á los prados y flores</l>
                   <l>de sus amores,</l>
-                  
-                  <pb n="2" source="Moreno_125_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_125_2.jpg"/>
+
                   <l>de esta manera</l>
                   <l>les pregunto</l>
                </lg>
@@ -188,7 +199,7 @@
                   <l>todas sus señas</l>
                   <l>daré tambien.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Iba la Peregrina</l>
                   <l>con su esclavina,</l>
@@ -199,7 +210,7 @@
                   <l>sombrero fino</l>
                   <l>que es un primor.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Tiene rubio el cabello,</l>
                   <l>tan largo y bello,</l>
@@ -210,7 +221,7 @@
                   <l>su amor á el mio</l>
                   <l>le aprisionó.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En su frente espaciosa,</l>
                   <l>larga y hermosa,</l>
@@ -221,7 +232,7 @@
                   <l>mi amor, y el suyo</l>
                   <l>se coronó.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Sus ojos y pestañas</l>
                   <l>son dos montañas,</l>
@@ -232,7 +243,7 @@
                   <l>todos disparan</l>
                   <l>flechas de amor.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Su nariz afilada,</l>
                   <l>no fue sonada</l>
@@ -243,7 +254,7 @@
                   <l>sin que ninguno</l>
                   <l>sienta el dolor.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Su boca es tan pequeña</l>
                   <l>y tan risueña</l>
@@ -254,7 +265,7 @@
                   <l>por no agraviarla</l>
                   <l>quise callar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Su barba es el archivo</l>
                   <l>donde yo vivo</l>
@@ -265,7 +276,7 @@
                   <l>sepulcro alegre</l>
                   <l>y dulce prision.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Es su hermosa garganta</l>
                   <l>la mejor planta</l>
@@ -276,7 +287,7 @@
                   <l>de su hermosura</l>
                   <l>se avergonzó.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Lo que toca el pañuelo,</l>
                   <l>no me desvelo</l>
@@ -287,21 +298,21 @@
                   <l>y á su sagrado</l>
                   <l>no me atreví.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Para pintar su talle,</l>
                   <l>bueno es que calle;</l>
                   <l>pues mi pintura</l>
                   <l>será un borron:</l>
-                  
-                  <pb n="3" source="Moreno_125_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_125_3.jpg"/>
+
                   <l>yo quisiera de Apeles</l>
                   <l>tener princeles</l>
                   <l>para pintarla</l>
                   <l>con perfeccion.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Perdone su hermosura,</l>
                   <l>si en la pintura</l>
@@ -326,77 +337,77 @@
                   <l>para que de Dios te acuerdes</l>
                   <l>cuando vayas á jugar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Al ir á empezar el juego</l>
                   <l>yo considero en el as,</l>
                   <l>que es un solo Dios inmenso</l>
                   <l>que no ha podido ser mas.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Yo considero en el dos,</l>
                   <l>que es la carta muy hermosa;</l>
                   <l>toda la pasion de Cristo</l>
                   <l>angustiada y dolorosa.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el tres, como cristiano,</l>
                   <l>asi el Misterio comprendo</l>
                   <l>ser tres personas distintas</l>
                   <l>y un solo Dios verdadero.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el cuatro considero</l>
                   <l>son cuatro los Evangelios;</l>
                   <l>y aquel que no los siguiese</l>
                   <l>no espere parte en el Cielo.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y o considero en el cinco.</l>
                   <l>las llagas del Redentor,</l>
                   <l>procura con humildad</l>
                   <l>lavársela al señor,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el seis, yo considero,</l>
                   <l>cuando Dios el mundo hizo,</l>
                   <l>empleando los seis dias</l>
                   <l>y descansando el domingo,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el siete, considero,</l>
                   <l>y bien claro demostró</l>
                   <l>que Cristo estando en la cruz</l>
                   <l>siete palabras habló.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En la sota, considero,</l>
                   <l>á la mujer mas piadosa</l>
                   <l>que con su toca limpió</l>
                   <l>á Jesus su cara hermosa.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el caballo, contemplo</l>
                   <l>á Lonjino en el Calvario,</l>
                   <l>cuando la lanzada á Cristo</l>
                   <l>le dió al santo costado.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El rey yo le considero</l>
                   <l>que es un inmenso Señor;</l>
                   <l>y que el Rey de cielo y tierra</l>
                   <l>la muerte de Cruz sufrió.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">La baraja de los naipes</l>
                   <l>ya la teneis esplicada;</l>
@@ -406,7 +417,7 @@
             </div>
 
             <div>
-               <pb n="4" source="Moreno_125_4.jpg" />
+               <pb n="4" source="Moreno_125_4.jpg"/>
 
                <head rend="negrita" type="primer_titulo">
                   <l>SALVE A MARIA SANTISIMA,</l>
@@ -419,119 +430,119 @@
                   <l>de los pecadores</l>
                   <l>amorosa Madre.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, misteriosa,</l>
                   <l>Zarza inesplicable,</l>
                   <l>que en divino fuego</l>
                   <l>exhalas volcanes.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Madre nuestra,</l>
                   <l>luna inalterable,</l>
                   <l>incorrupto Cedro,</l>
                   <l>Palma hermosa, salve.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Aurora bella,</l>
                   <l>que en luces repartes,</l>
                   <l>si estrellas que alumbran</l>
                   <l>luceros brillantes.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">De Jericó, Rosa,</l>
                   <l>nos das deleitables,</l>
                   <l>en suaves olores,</l>
                   <l>aromas suaves.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Eres de David</l>
                   <l>Torre inespugnable,</l>
                   <l>que si él fue Pastor,</l>
                   <l>tú Pastora amante.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve Ciprés Santo,</l>
                   <l>Oliva que afable,</l>
                   <l>paces nos anuncias,</l>
                   <l>glorias inmortales.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, de los cielos</l>
                   <l>Reina, á quien constante</l>
                   <l>angélicos coros</l>
                   <l>rinden vasallage,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Templo vivo,</l>
                   <l>del Verbo inefable,</l>
                   <l>Madre de Dios Hijo,</l>
                   <l>Hija de Dios Padre.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Centro hermoso,</l>
                   <l>donde en virginales</l>
                   <l>entrañas, un Dios</l>
                   <l>tomó nuestra carne.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Por tanto favor,</l>
                   <l>por dicha tan grande,</l>
                   <l>al bendito fruto</l>
                   <l>pedid que nos salve.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Pastorcita,</l>
                   <l>de entrañas amables,</l>
                   <l>por quien las ovejas</l>
                   <l>de Jesus renacen.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Escucha mis voces,</l>
                   <l>remedia mis males,</l>
                   <l>atiende á mis ruegos,</l>
                   <l>oye á mis pesares.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, te repitan</l>
                   <l>cuantos celestiales</l>
                   <l>Espíritus puros</l>
                   <l>mandas dominante.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Virgen Santa,</l>
                   <l>de la gracia, Madre,</l>
                   <l>perdidas ovejas,</l>
                   <l>no nos desampares.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y si en tu rebaño</l>
                   <l>ves que nos combaten</l>
                   <l>borrascas de culpas</l>
                   <l>entre tempestades.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Ruega por nosotros;</l>
                   <l>y en aqueste valle</l>
                   <l>tu favor nos libre</l>
                   <l>del lobo rapante.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Para que en la gloria</l>
                   <l>podamos cantarte,</l>
@@ -541,7 +552,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA.:—Imp. de D. José M. Moreno, Descalzas, núm. 1.</p>
+               <p><lb/>CARMONA.:—Imp. de D. José M. Moreno, Descalzas, núm. 1.</p>
             </div>
          </div>
       </body>

@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_126">
    <teiHeader>
       <fileDesc>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031901</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 133</idno>
                   </altIdentifier>
@@ -94,7 +97,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -121,26 +130,28 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-29" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-29" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_126_thumbnail.jpg" />
+      <graphic url="Moreno_126_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_126_1.jpg" />
+               <pb n="1" source="Moreno_126_1.jpg"/>
 
                <fw type="impresorNum">Núm. 133.</fw>
 
                <head rend="negrita" type="primer_titulo">LA DIVINA PEREGRINA.</head>
                <head type="subtitulo">
-                  <lb />CANCION MISTICA,
-                  <hi rend="cursiva"><lb />que cantaba un religioso á María Santísima, apareciendosele en
-                  <lb />figura de Peregrina, caminando de Roma para Santiago.</hi>
+                  <lb/>CANCION MISTICA, <hi rend="cursiva"><lb/>que cantaba un religioso á María
+                     Santísima, apareciendosele en <lb/>figura de Peregrina, caminando de Roma para
+                     Santiago.</hi>
                </head>
 
                <lg>
@@ -173,7 +184,7 @@
                   <l>y á los prados y flores</l>
                   <l>de sus amores,</l>
 
-                  <pb n="2" source="Moreno_126_2.jpg" />
+                  <pb n="2" source="Moreno_126_2.jpg"/>
 
                   <fw type="paginaNum">2</fw>
 
@@ -297,7 +308,7 @@
                   <l>pues mi pintura</l>
                   <l>será un borron,</l>
 
-                  <pb n="3" source="Moreno_126_3.jpg" />
+                  <pb n="3" source="Moreno_126_3.jpg"/>
 
                   <fw type="paginaNum">3</fw>
 
@@ -321,9 +332,7 @@
 
             <div>
                <head type="primer_titulo">
-                  <lb />COPLAS DE LA BARAJA
-                  <lb />PARA CANTAR Á LO DIVINO.
-               </head>
+                  <lb/>COPLAS DE LA BARAJA <lb/>PARA CANTAR Á LO DIVINO. </head>
 
                <lg>
                   <l rend="indent">La Baraja de los naipes</l>
@@ -331,77 +340,77 @@
                   <l>para que de Dios te acuerdes</l>
                   <l>cuando vayas á jugar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Al ir á empezar el juego</l>
                   <l>yo considero en el as,</l>
                   <l>que es un solo Dios inmenso</l>
                   <l>que no ha podido ser mas.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Yo considero en el dos,</l>
                   <l>que es la carta muy hermosa:</l>
                   <l>toda la pasion de Cristo</l>
                   <l>angustiada y dolorosa.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el tres, como cristiano,</l>
                   <l>asi el Místerio comprendo</l>
                   <l>ser tres personas dístintas</l>
                   <l>y un solo Dios verdadero.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el cuatro considero</l>
                   <l>son cuatro los Evangélios;</l>
                   <l>y aquel que no lo siguiese</l>
                   <l>no espere parte en el Cíelo.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Yo considero en el cinco,</l>
                   <l>las llagas del Redentor,</l>
                   <l>procura con humildad</l>
                   <l>lavárselas al señor.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el seis, yo considero,</l>
                   <l>cuando Dios el mundo hizo,</l>
                   <l>empleando los seis dias</l>
                   <l>y descansando el domingo.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el siete, considero,</l>
                   <l>y bien claro demostró</l>
                   <l>que Cristo estando en la cruz</l>
                   <l>siete palabras habló,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En la sota, considero,</l>
                   <l>á la mujer mas piadosa</l>
                   <l>que con su toca limpió</l>
                   <l>á Jesus su cara hermosa.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En el caballo, contemplo</l>
                   <l>á Lonjino en el Calvario,</l>
                   <l>cuando la lanzada á Cristo</l>
                   <l>le dió al santo costado.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El rey, yo le considero</l>
                   <l>que es un inmenso Señor;</l>
                   <l>y que el rey de cíelo y tierra</l>
                   <l>la muerte de Cruz sufrió.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">La baraja de los naipes</l>
                   <l>ya la teneis esplicada;</l>
@@ -411,11 +420,12 @@
             </div>
 
             <div>
-               <pb n="4" source="Moreno_126_4.jpg" />
+               <pb n="4" source="Moreno_126_4.jpg"/>
 
                <fw type="paginaNum">4</fw>
 
-               <head type="primer_titulo">SALVE A MARIA SANTISIMA MADRE Y PASTORA DE LAS ALMAS</head>
+               <head type="primer_titulo">SALVE A MARIA SANTISIMA MADRE Y PASTORA DE LAS
+                  ALMAS</head>
 
                <lg>
                   <l rend="indent">Salve, Virgen bella,</l>
@@ -423,132 +433,132 @@
                   <l>de los pecadores</l>
                   <l>amorosa Madre.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, misteriosa,</l>
                   <l>Zarza inesplicable,</l>
                   <l>que en divino fuego</l>
                   <l>exhalas volcanes.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Madre nuestra,</l>
                   <l>luna inalterable,</l>
                   <l>incorrupto Cedro,</l>
                   <l>Palma hermosa, salve.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Aurora bella,</l>
                   <l>que en luces repartes,</l>
                   <l>si estrellas que alumbran</l>
                   <l>luceros brillantes.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">De Jericó, Rosa,</l>
                   <l>nos das deleitables,</l>
                   <l>en suaves olores,</l>
                   <l>aromas suaves.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Eres de David</l>
                   <l>Torre inespugnable,</l>
                   <l>que si él fué Pastor,</l>
                   <l>tú Pastora amante.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Ciprés Sanio,</l>
                   <l>Oliva que afable,</l>
                   <l>paces nos anuncias,</l>
                   <l>glorias inmortales.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, de los cielos</l>
                   <l>Reina, á quien constante</l>
                   <l>angélicos coros</l>
                   <l>rinden vasallage.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Templo vivo,</l>
                   <l>del Verbo inefable.</l>
                   <l>Madre de Dios Hijo,</l>
                   <l>Hija de Dios Padre.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Centro hermoso,</l>
                   <l>donde en vírginales</l>
                   <l>entrañas, un Dios</l>
                   <l>tomó nuestra carne.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Por tanto favor,</l>
                   <l>por dicha tan grande,</l>
                   <l>al bendito fruto</l>
                   <l>pedid que nos salve.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, Pastorcita,</l>
                   <l>de entrañas amables,</l>
                   <l>por quien: las ovejas</l>
                   <l>de Jesus renacen.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Escucha mis voces,</l>
                   <l>remedia mis males,</l>
                   <l>atíende á mis ruegos,</l>
                   <l>oye mis pesares.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salve, le repitan</l>
                   <l>cuantos celestiales</l>
                   <l>Espíritus puros</l>
                   <l>mandas dominante.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salvo, Virgen Santa,</l>
                   <l>de la gracia Madre,</l>
                   <l>perdidas ovejas,</l>
                   <l>no nos desampares.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y si en tu rebaño</l>
                   <l>ves que nos combaten</l>
                   <l>borrascas de culpas</l>
                   <l>entre tempestades.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Ruega por nosotros;</l>
                   <l>y en aqueste valle</l>
                   <l>tu favor nos libre</l>
                   <l>del lobo rapante.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Para que en la gloria</l>
                   <l>podamos cantarle,</l>
                   <l>Divina Pastora,</l>
                </lg>
-               
+
                <l>Salve, Salve, Salve.</l>
 
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />CARMONA:—Imp. y lib. de D. José M. Moreno, Madre de Dios, núm. 1.</p>
+               <p><lb/>CARMONA:—Imp. y lib. de D. José M. Moreno, Madre de Dios, núm. 1.</p>
             </div>
          </div>
       </body>

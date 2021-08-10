@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_120">
    <teiHeader>
       <fileDesc>
@@ -23,7 +24,7 @@
                   <title type="titulo_breve">El Molinero de Alcoy</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031558</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 129</idno>
                   </altIdentifier>
@@ -88,7 +91,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -116,27 +125,26 @@
       <revisionDesc>
          <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_120_thumbnail.jpg" />
+      <graphic url="Moreno_120_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_120_1.jpg" />
-               
+               <pb n="1" source="Moreno_120_1.jpg"/>
+
                <fw type="impresorNum">Núm. 129.</fw>
-               
+
                <head type="primer_titulo">EL MOLINERO DE ALCOY.</head>
                <head type="subtitulo">
-                  <lb /><hi rend="negrita">CHISTE MODERNO</hi>
-                  <lb />DEL CHASCO QUE HA DADO
-                  <lb />UNA MUGER A SU MARIDO.
-               </head>
-               
+                  <lb/><hi rend="negrita">CHISTE MODERNO</hi>
+                  <lb/>DEL CHASCO QUE HA DADO <lb/>UNA MUGER A SU MARIDO. </head>
+
                <l rend="indent">En la famosa villa</l>
                <l>de Alcoy, dichoso</l>
                <l>vivia un molinero</l>
@@ -155,9 +163,9 @@
                <l>muy sosegado,</l>
                <l>cobrando la maquila</l>
                <l>repauchigado,</l>
-               
-               <pb n="2" source="Moreno_120_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_120_2.jpg"/>
+
                <l>cuando una mañana</l>
                <l>por la puerta entró</l>
                <l>una novensana</l>
@@ -246,9 +254,9 @@
                <l>se acostó en la de la molinera,</l>
                <l>reemplazando el ama,</l>
                <l>lo que ocupar debia</l>
-               
-               <pb n="3" source="Moreno_120_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_120_3.jpg"/>
+
                <l>la novensana.</l>
                <l rend="indent">Vamos que al molinero</l>
                <l>se le pasaba</l>
@@ -336,14 +344,13 @@
             </div>
 
             <div>
-               <pb n="4" source="Moreno_120_4.jpg" />
-               
+               <pb n="4" source="Moreno_120_4.jpg"/>
+
                <head type="primer_titulo">
-                  <lb />CANCION ALEGRE Y DIVERTIDA
-                  <lb /><hi rend="negrita">DE LOS AMORES</hi>
-                  <lb /><hi rend="negrita">DE UN CAPITAN Y UNA DAMA.</hi>
+                  <lb/>CANCION ALEGRE Y DIVERTIDA <lb/><hi rend="negrita">DE LOS AMORES</hi>
+                  <lb/><hi rend="negrita">DE UN CAPITAN Y UNA DAMA.</hi>
                </head>
-               
+
                <l rend="indent">A una niña muy linda y graciosa</l>
                <l>pretendia un señor capitan,</l>
                <l>por la noche soñaba fusiles,</l>
@@ -419,7 +426,8 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA:—Imp. de <hi rend="cursiva">D. J. M. Moreno,</hi> calle de las Descalzas.</p>
+               <p><lb/>CARMONA:—Imp. de <hi rend="cursiva">D. J. M. Moreno,</hi> calle de las
+                  Descalzas.</p>
             </div>
          </div>
       </body>

@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_129">
    <teiHeader>
       <fileDesc>
@@ -28,7 +29,7 @@
                      Rosa.</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -40,11 +41,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031920</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 138</idno>
                   </altIdentifier>
@@ -91,7 +94,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -119,27 +128,29 @@
       <revisionDesc>
          <change when="2021-04-27" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_129_thumbnail.jpg" />
+      <graphic url="Moreno_129_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_129_1.jpg" />
+               <pb n="1" source="Moreno_129_1.jpg"/>
 
                <fw type="impresorNum">(Número. 138.)</fw>
 
                <head type="primer_titulo">DON JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA.</head>
                <head type="subtitulo">
-                  <lb /><hi rend="negrita">NUEVO ROMANCE,</hi>
-                  <hi rend="cursiva"><lb />en que se manifiestan los sucesos de don Jocinto del Castillo y doña Leonor
-                  <lb />de la Rosa, naturales de la ciudad de la Coruña. Refierese los amores de
-                  <lb />estos y la violencia que hizo su padre para que se casase con otro, al cual
-                  <lb />mataron como igualmente á su padre y suegro, y se salieron de su tierra,</hi>
+                  <lb/><hi rend="negrita">NUEVO ROMANCE,</hi>
+                  <hi rend="cursiva"><lb/>en que se manifiestan los sucesos de don Jocinto del
+                     Castillo y doña Leonor <lb/>de la Rosa, naturales de la ciudad de la Coruña.
+                     Refierese los amores de <lb/>estos y la violencia que hizo su padre para que se
+                     casase con otro, al cual <lb/>mataron como igualmente á su padre y suegro, y se
+                     salieron de su tierra,</hi>
                </head>
 
                <div n="1" type="parte">
@@ -172,7 +183,7 @@
                   <l>Fué en estremo su belleza,</l>
                   <l>que pasó á ser prodigio,</l>
 
-                  <pb n="2" source="Moreno_129_2.jpg" />
+                  <pb n="2" source="Moreno_129_2.jpg"/>
 
                   <fw type="paginaNum">2</fw>
 
@@ -275,7 +286,7 @@
                   <l>acaba, Leonor acaba, </l>
                   <l>responde á lo que te digo,</l>
 
-                  <pb n="3" source="Moreno_129_3.jpg" />
+                  <pb n="3" source="Moreno_129_3.jpg"/>
 
                   <fw type="paginaNum">3</fw>
 
@@ -378,7 +389,7 @@
                   <l>Tuvo lugar y escribió</l>
                   <l>diciendole á don Jacinto:</l>
 
-                  <pb n="4" source="Moreno_129_4.jpg" />
+                  <pb n="4" source="Moreno_129_4.jpg"/>
 
                   <fw type="paginaNum">4</fw>
 
@@ -483,14 +494,14 @@
                </div>
 
                <div type="parte">
-                  <pb n="5" source="Moreno_129_5.jpg" />
+                  <pb n="5" source="Moreno_129_5.jpg"/>
 
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
                   <head rend="cursiva" type="subtitulo_parte">
-                     <lb />en que se da cuenta como se embarcaron para Venecia D. Jacinto <lb />del
-                     Castillo y doña Leonor de la Rosa, y en la mitad del mar fue- <lb />ron
-                     apresados par unos corsarios berberiscos, que dieron con ellos <lb />en la
-                     ciudad de Argel, donde los condenaron á ser quemados <lb />vivos por la fé de
+                     <lb/>en que se da cuenta como se embarcaron para Venecia D. Jacinto <lb/>del
+                     Castillo y doña Leonor de la Rosa, y en la mitad del mar fue- <lb/>ron
+                     apresados par unos corsarios berberiscos, que dieron con ellos <lb/>en la
+                     ciudad de Argel, donde los condenaron á ser quemados <lb/>vivos por la fé de
                      Jesucristo. </head>
 
                   <l rend="indent">Ya dije en la primer parte</l>
@@ -554,7 +565,7 @@
                   <l>le hízo su mayordomo.</l>
                   <l>Tambien juntamente hizo</l>
 
-                  <pb n="6" source="Moreno_129_6.jpg" />
+                  <pb n="6" source="Moreno_129_6.jpg"/>
 
                   <fw type="paginaNum">6</fw>
 
@@ -657,7 +668,7 @@
                   <l>le sentencian á quemar</l>
                   <l>por blasfemo y por lascivo,</l>
 
-                  <pb n="7" source="Moreno_129_7.jpg" />
+                  <pb n="7" source="Moreno_129_7.jpg"/>
 
                   <fw type="paginaNum">7</fw>
 
@@ -760,7 +771,7 @@
                   <l>ya no nos veremos mas,</l>
                   <l>pues nos espera el suplicio, </l>
 
-                  <pb n="8" source="Moreno_129_8.jpg" />
+                  <pb n="8" source="Moreno_129_8.jpg"/>
 
                   <fw type="paginaNum">8</fw>
 
