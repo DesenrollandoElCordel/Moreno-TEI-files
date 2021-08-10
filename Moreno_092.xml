@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_092">
    <teiHeader>
       <fileDesc>
@@ -37,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5027281</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 100</idno>
                   </altIdentifier>
@@ -83,7 +86,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -111,32 +120,33 @@
       <revisionDesc>
          <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_092_thumbnail.jpg" />
+      <graphic url="Moreno_092_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_092_1.jpg" />
-               
+               <pb n="1" source="Moreno_092_1.jpg"/>
+
                <fw type="impresorNum">Núm. 100.</fw>
-               
+
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">GRITOS FÚNEBRES,</hi>
-                  <lb />LASTIMOSOS Y CONTEMPLATIVOS
-                  <hi rend="cursiva"><lb />que dan las almas santas del Purgatorio, implorando el favor y aucilio á
-                  <lb />todos los fieles cristianos, el socorro y el alivio en sus mayores penas y cre-
-                  <lb />cidos tormentos, esperando salir de tan terribles martirios para descanzar
-                  <lb />en el Señor.</hi>
+                  <lb/><hi rend="negrita">GRITOS FÚNEBRES,</hi>
+                  <lb/>LASTIMOSOS Y CONTEMPLATIVOS <hi rend="cursiva"><lb/>que dan las almas santas
+                     del Purgatorio, implorando el favor y aucilio á <lb/>todos los fieles
+                     cristianos, el socorro y el alivio en sus mayores penas y cre- <lb/>cidos
+                     tormentos, esperando salir de tan terribles martirios para descanzar <lb/>en el
+                     Señor.</hi>
                </head>
-               
+
                <div n="1" type="parte">
                   <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Oid, cristianos, oid,</l>
                   <l>devotos contemplativos,</l>
                   <l>almas piadosas y santas</l>
@@ -173,11 +183,11 @@
                   <l>Misericordia, cristianos,</l>
                   <l>piedad, parientes y amigos,</l>
                   <l>acordaos de nosotras</l>
-                  
-                  <pb n="2" source="Moreno_092_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_092_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>por amor de Jesucristo</l>
                   <l>Pecador que con tus culpas</l>
                   <l>tienes á Dios ofendido,</l>
@@ -275,14 +285,14 @@
                   <l>daré con mas claridades</l>
                   <l>el romance concluido.</l>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="3" source="Moreno_092_3.jpg" />
-                  
+                  <pb n="3" source="Moreno_092_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Voy á referir las penas,</l>
                   <l>los tormentos y martirios</l>
                   <l>que las ánimas padecen</l>
@@ -373,11 +383,14 @@
                   <l>los corazones benignos,</l>
                   <l>y toda aquesta doctrina</l>
                   <l>con un ejemplo confirmo.</l>
-                  
-                  <pb n="4" source="Moreno_092_4.jpg" />
-                  
-                  <fw type="paginaNum"><choice><sic>5</sic><corr>4</corr></choice></fw>
-                  
+
+                  <pb n="4" source="Moreno_092_4.jpg"/>
+
+                  <fw type="paginaNum"><choice>
+                        <sic>5</sic>
+                        <corr>4</corr>
+                     </choice></fw>
+
                   <l>Habia un rey muy devoto,</l>
                   <l>y de ánimas compasivo,</l>
                   <l>que hacia muchos sufragios,</l>
@@ -464,7 +477,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA:—Imprenta y libreria de D. José M. Moreno.</p>
+               <p><lb/>CARMONA:—Imprenta y libreria de D. José M. Moreno.</p>
             </div>
          </div>
       </body>

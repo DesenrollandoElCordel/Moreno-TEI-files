@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_090">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Cancion de la Pepa.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5026923</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 99</idno>
                   </altIdentifier>
@@ -89,7 +92,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -115,26 +124,26 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-09" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_090_thumbnail.jpg" />
+      <graphic url="Moreno_090_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div type="cancion">
-               <pb n="1" source="Moreno_090_1.jpg" />
-               
+               <pb n="1" source="Moreno_090_1.jpg"/>
+
                <fw type="impresorNum">(Número 99.)</fw>
-               
+
                <head type="titulo_cancion">
-                  <lb />CANCION
-                  <lb />DE LA PEPA.
-               </head>
-               
+                  <lb/>CANCION <lb/>DE LA PEPA. </head>
+
                <lg>
                   <l rend="indent">Quiero á mi Pepa y no es groma,</l>
                   <l>porque es jembra muy juncá,</l>
@@ -146,7 +155,7 @@
                   <l>vale mas que er mundo entero,</l>
                   <l>¡jui salero! ven acá.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Acaba é sali, ¡malaya! </l>
                   <l>¡cuanto melindre!....churrú,</l>
@@ -158,7 +167,7 @@
                   <l>no me jagas rabiá tú,</l>
                   <l>¡ay Jesu! jay Jesú!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Soy mas duro que una piña,</l>
                   <l>y mi Pepa me desase</l>
@@ -170,7 +179,7 @@
                   <l>dame paloma tu pico,</l>
                   <l>¡ay que ricol.... ven acá.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">No hay una jembra en Seviya</l>
                   <l>con mas garbo y mas meneo,</l>
@@ -183,22 +192,20 @@
                   <l>¡ay de mí! ¡ay de mí!</l>
                </lg>
             </div>
-            
+
             <div type="cancion">
-               <pb n="2" source="Moreno_090_2.jpg" />
-               
+               <pb n="2" source="Moreno_090_2.jpg"/>
+
                <head rend="negrita" type="titulo_cancion">
-                  <lb />CANCION
-                  <lb />DEL TREMENDO,
-               </head>
-               
+                  <lb/>CANCION <lb/>DEL TREMENDO, </head>
+
                <lg>
                   <l rend="indent">Como yo suerte un crujio</l>
                   <l>y con rabia me esembose,</l>
                   <l>ni el mesmo Sanson me tose,</l>
                   <l>y dejo el mundo jundío.</l>
                </lg>
-               
+
                <lg rend="cursiva">
                   <l rend="indent">Soy er tremendo... ¿oye osté?</l>
                   <l>conmigo poco canguelo,</l>
@@ -209,7 +216,7 @@
                   <l>de una guantá tiro ar suelo</l>
                   <l>siete hombres como osté.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si me comienzo á coscá</l>
                   <l>y pego un feros tosio,</l>
@@ -217,7 +224,7 @@
                   <l>er peñon de Gibrartá.</l>
                   <l rend="indent"><hi rend="cursiva">Soy er tremendo, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si suerto dos gofetás</l>
                   <l>y me queo encampanao,</l>
@@ -225,7 +232,7 @@
                   <l>jasta er mesmo Fierabrás.</l>
                   <l rend="indent"><hi rend="cursiva">Soy er tremendo, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si me ladeo el sombrero</l>
                   <l>y dos salivajos tiro,</l>
@@ -233,7 +240,7 @@
                   <l>de la mañana el lucéro.</l>
                   <l rend="indent"><hi rend="cursiva">Soy el tremendo, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Toos tienen que temblá</l>
                   <l>tan solamente é verme</l>
@@ -241,7 +248,7 @@
                   <l>quinze jaques pa armozá</l>
                   <l rend="indent"><hi rend="cursiva">Soy er tremendo, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">A treinta me cargo juntos,</l>
                   <l>en tirando dos sopapos;</l>
@@ -249,7 +256,7 @@
                   <l>porque si no son defuntos.</l>
                   <l rend="indent"><hi rend="cursiva">Soy er tremendo, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si la cabeza meneo</l>
                   <l>tiembla jasta lucifé,</l>
@@ -257,7 +264,7 @@
                   <l>jasta que yo mueva un deo.</l>
                   <l rend="indent"><hi rend="cursiva">Soy er tremendo, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Como me yegue á ispará</l>
                   <l>el universo quea ascuras,</l>
@@ -265,7 +272,7 @@
                   <l>que el mundo se acabó yá.</l>
                   <l rend="indent"><hi rend="cursiva">Soy er tremendo, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Una gofetá pegué</l>
                   <l>y mandé el puente á bonanza,</l>
@@ -274,22 +281,21 @@
                   <l rend="indent"><hi rend="cursiva">Soy er tremendo, etc.</hi></l>
                </lg>
             </div>
-            
+
             <div type="cancion">
-               <pb n="3" source="Moreno_090_3.jpg" />
-               
+               <pb n="3" source="Moreno_090_3.jpg"/>
+
                <head type="titulo_cancion">
-                  <lb />CANCION
-                  <lb /><hi rend="negrita">DEL MOCITO DEL BARRIO.</hi>
+                  <lb/>CANCION <lb/><hi rend="negrita">DEL MOCITO DEL BARRIO.</hi>
                </head>
-               
+
                <lg>
                   <l rend="indent">Cuando yo me pongo feo</l>
                   <l>too Dio se echa á temblá,</l>
                   <l>porque si le arrimo un deo</l>
                   <l>se junde la Catreá.</l>
                </lg>
-               
+
                <lg rend="cursiva">
                   <l rend="indent">Esta oste, no ma é por que se pue,</l>
                   <l>y par eso mi Carmela, resalá,</l>
@@ -301,7 +307,7 @@
                   <l>Soy el mocito del Barrio,</l>
                   <l>el que quiera que arse yá. </l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si Dio me manda al infiesno</l>
                   <l>paa poermela guiyá</l>
@@ -309,7 +315,7 @@
                   <l>y lo coso á puñalá,</l>
                   <l rend="indent"><hi rend="cursiva">Esta osté, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si algun chavó á mi Curriya</l>
                   <l>la quisiere jonjavá</l>
@@ -317,18 +323,18 @@
                   <l>y á Dio se lo vá á contá.</l>
                   <l rend="indent"><hi rend="cursiva">Esta osté, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En Seviya, ná.... paqué....</l>
                   <l>si alguno la quiee pintá,</l>
                   <l>pronto le diño un mulé</l>
-               
-               <pb n="4" source="Moreno_090_4.jpg" />
-               
+
+                  <pb n="4" source="Moreno_090_4.jpg"/>
+
                   <l>y lo envio al espitá.</l>
                   <l rend="indent"><hi rend="cursiva">Esta osté, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Mientra yo viva en er mundo</l>
                   <l>conmigo no han de jugá,</l>
@@ -336,7 +342,7 @@
                   <l>cuando quiea pestañeá.</l>
                   <l rend="indent"><hi rend="cursiva">Está osté, etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">La del santolio en mi faja </l>
                   <l>nunca me puee fartá,</l>
@@ -344,7 +350,7 @@
                   <l>¿quién conmigo á de igualá?</l>
                   <l rend="indent"><hi rend="cursiva">Esta osté, etc. </hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Por fin, aquí no hay pintura?</l>
                   <l>porque todo es caliá, </l>
@@ -353,10 +359,10 @@
                   <l rend="indent"><hi rend="cursiva">Esta osté, etc.</hi></l>
                </lg>
             </div>
-            
+
             <div type="cancion">
                <head>EL VALENTON DEL PERCHEL.</head>
-               
+
                <lg>
                   <l rend="indent">Apartáse, ¡jui Dios mio!</l>
                   <l>¿quién no teme mi poer?</l>
@@ -367,7 +373,7 @@
                   <l><hi rend="cursiva">nadie me tosa</hi></l>
                   <l><hi rend="cursiva">en el Perché.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Soy un hombre, ¡Jesucristo!</l>
                   <l>soy er mesmo Lusifé,</l>
@@ -375,7 +381,7 @@
                   <l>que la tierra á é comé, </l>
                   <l rend="indent"><hi rend="cursiva">Jui, pare mio! etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Pues si miran á mi Curra</l>
                   <l>tan siquiera ar guardapié,</l>
@@ -383,7 +389,7 @@
                   <l>que le largo al descortés.</l>
                   <l rend="indent"><hi rend="cursiva">Jui, pare mio! etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si me tersio la pañosa,</l>
                   <l>ná, no es cosa, ¿para qué?</l>
@@ -391,7 +397,7 @@
                   <l>con mi aliento mato á diez.</l>
                   <l rend="indent"><hi rend="cursiva">Jui, pare mio! etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si de pronto á alguno embisto,</l>
                   <l>ná, no es cosa, ¿para qué?</l>
@@ -399,7 +405,7 @@
                   <l>medio mundo de un revés.</l>
                   <l rend="indent"><hi rend="cursiva">Jui, pare mio! etc.</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Por mi Curra soy tan fiera</l>
                   <l>que á cualquiera doy mulé,</l>
@@ -407,14 +413,13 @@
                   <l>mi embeleso solo es.</l>
                   <l rend="indent"><hi rend="cursiva">Jui, pare mio! etc.</hi></l>
                </lg>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div>
                <p>
-                  <lb />CARMONA:—1855. 
-                  <lb />Imp. de D. J. M. Moreno, calle Juan de la Cabra núm. 5.
+                  <lb/>CARMONA:—1855. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra núm. 5.
                </p>
             </div>
          </div>
