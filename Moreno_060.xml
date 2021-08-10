@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_060">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Residencia a mozos casados y viudos.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,20 +35,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5018810</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 70</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,7 +79,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -102,26 +111,27 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_060_thumbnail.jpg" />
+      <graphic url="Moreno_060_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_060_1.jpg" />
-               
+               <pb n="1" source="Moreno_060_1.jpg"/>
+
                <fw type="impresorNum">Núm. 70.</fw>
-               
+
                <head type="primer_titulo">
-                  <lb />RESIDENCIA
-                  <lb /><hi rend="negrita">A MOZOS CASADOS Y VIUDOS.</hi>
+                  <lb/>RESIDENCIA <lb/><hi rend="negrita">A MOZOS CASADOS Y VIUDOS.</hi>
                </head>
-               
+
                <l rend="indent">Oiganme todos los mozos, </l>
                <l>que á la voz de esta gitarra</l>
                <l>les tomaré residencia,</l>
@@ -144,9 +154,9 @@
                <l>acaso, con quien te casas?</l>
                <l>sabes, si es cristiana vieja?</l>
                <l>sabes, si es penitenciada?</l>
-               
-               <pb n="2" source="Moreno_060_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_060_2.jpg"/>
+
                <l>sabes, si acaso desciende</l>
                <l>de alguna Mora ó Mulata?</l>
                <l>No lo sé yo; mas por Dios,</l>
@@ -233,9 +243,9 @@
                <l>si eso es cierto, cosa clara.</l>
                <l>Casóse ya este mancobo,</l>
                <l>y de lo que él esperaba, </l>
-               
-               <pb n="3" source="Moreno_060_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_060_3.jpg"/>
+
                <l>de salió todo al contrario;</l>
                <l>atencion á estas palabras.</l>
                <l>Lo limpio se trocó en sucio,</l>
@@ -322,9 +332,9 @@
                <l>se vé tu nobleza ajada! </l>
                <l>Dime tú, que es de tu vida</l>
                <l>hombre casado, y con casa?</l>
-               
-               <pb n="4" source="Moreno_060_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_060_4.jpg"/>
+
                <l>Que tal te vá con tu esposa?</l>
                <l>Mi muger es muy hónrada;</l>
                <l>mas me veó en tal estado,</l>
@@ -385,15 +395,14 @@
                <l>pagan con una mortaja,</l>
                <l>de redes, ó de parella,</l>
                <l>ó el peor lienzo, que hallan.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1859. 
-                  <lb />Imprenta de D. José M.a Moreno, calle de Madre de Dios, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1859. <lb/>Imprenta de D. José M.a Moreno, calle de Madre de Dios,
+                  núm. 1. </p>
             </div>
          </div>
       </body>
