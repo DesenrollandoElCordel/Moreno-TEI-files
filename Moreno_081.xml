@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_081">
    <teiHeader>
       <fileDesc>
@@ -20,10 +21,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">La confesion de una niña.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5026755</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 92</idno>
                   </altIdentifier>
@@ -57,7 +60,8 @@
                   </msItem>
                   <msItem>
                      <locus>4</locus>
-                     <title>Canción que se canta en el drama títulado: La segunda dama duende</title>
+                     <title>Canción que se canta en el drama títulado: La segunda dama
+                        duende</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -87,7 +91,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -107,7 +117,7 @@
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX5379362.html" type="tipo_texto">Diálogos</term>
                <term target="XX525577.html" type="tipo_texto">Canciones</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
@@ -116,23 +126,24 @@
       <revisionDesc>
          <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-25" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_081_thumbnail.jpg" />
+      <graphic url="Moreno_081_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_081_1.jpg" />
-               
+               <pb n="1" source="Moreno_081_1.jpg"/>
+
                <fw type="impresorNum">(Número 92.)</fw>
-               
+
                <head type="primer_titulo">LA CONFESION DE UNA NIÑA.</head>
-               
+
                <stage>
                   <l rend="indent">Una niña cierto dia</l>
                   <l>á pedir fue confesion</l>
@@ -143,7 +154,7 @@
                   <l>y con voz entrecortada</l>
                   <l>de esta manera esclamó:</l>
                </stage>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Las culpas que aqui me traen</l>
@@ -151,7 +162,7 @@
                   <l>que el confesarlas me cuesta</l>
                   <l>lo que nos sabeis, señor.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Fuera reparos á un lado,</l>
@@ -159,30 +170,30 @@
                   <l>y confesad vuestras culpas</l>
                   <l>pues tambien soy pecador.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Acúsome, padre mio,</l>
                   <l>de tener puesto mi amor</l>
                   <l>en un jóven muy gracioso....</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Decidme su profesion.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Es militar.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l>Malo, malo.</l>
                   <l rend="indent">Mas la niña prosiguió.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Pero tengo que deciros</l>
@@ -190,62 +201,65 @@
                   <l>me quiere segun él dice,</l>
                   <l>con muchísimo el ardor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="centrado"><choice><sic>PARDRE.</sic><corr>PADRE</corr></choice></speaker>
+                  <speaker rend="centrado"><choice>
+                        <sic>PARDRE.</sic>
+                        <corr>PADRE</corr>
+                     </choice></speaker>
                   <l rend="indent">Pero vos quereis al otro?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Mucho, padre, si señor.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Entonces á este segundo</l>
                   <l>no le habreis querido, no?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Al revés, querido padre,</l>
                   <l>con todo mi corazon.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Y cómo os componeis</l>
                   <l>para engañar á los dos?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Facilmente, padre mio,</l>
                   <l>pues sabed los cito yo</l>
                   <l>á unas horas diferentes....</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">El talento, vive Dios</l>
                   <l>os envidio.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l>Pues por poco</l>
-               
-               <pb n="2" source="Moreno_081_2.jpg" />
-               
+
+                  <pb n="2" source="Moreno_081_2.jpg"/>
+
                   <l>os asustais, mi confesor.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">¿Cómo?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l>¿Cómo? ha de saber</l>
@@ -255,7 +269,7 @@
                   <l>que ostenta en la primavera</l>
                   <l>de sus ojos el verdor.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Hija mia, tal esceso</l>
@@ -263,7 +277,7 @@
                   <l>uno, ó dos, lo sumo tres,</l>
                   <l>pase, mas tanta porcion...</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Pues á algunas yo conozco</l>
@@ -271,7 +285,7 @@
                   <l>que se citan con quinientos</l>
                   <l>y entretienen á un millon.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">¡Qué costumbres! ¡Vírgen mia!</l>
@@ -279,7 +293,7 @@
                   <l>¿no temblais solo al pensar</l>
                   <l>si á haber llega <hi rend="cursiva">un quidproquo</hi>.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Es muy raro, y si sucede,</l>
@@ -287,27 +301,27 @@
                   <l>á solas á cada cual</l>
                   <l>se le dá satisfaccion.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">¿Y si los nenes no admiten</l>
                   <l>semejante esplicacion?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Se les concede la baja</l>
                   <l>en aqueste batallon,</l>
                   <l>é ingresan otros nuevos.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Linda niña, al escucharos</l>
                   <l>me he llenado de estupor,</l>
                   <l>¡tan jóven y tal saber!...</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">La presente relacion</l>
@@ -327,14 +341,14 @@
                   <l>por vergüenza ó por pudor</l>
                   <l>lo que confesar debierán.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Seguid vuestra confesion,</l>
                   <l>dejando culpas agenas</l>
                   <l>en el olvido.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l>Señor,</l>
@@ -342,7 +356,7 @@
                   <l>y en pintar sin fin amor...</l>
                   <l>para mentir soy lo mismo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Esa manifestacion</l>
@@ -353,7 +367,7 @@
                   <l>que una mujer pudiera</l>
                   <l>quizá esceder a un varon.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Ya os dije, padre mio,</l>
@@ -379,9 +393,9 @@
                   <l>es mas que lisonjearnos</l>
                   <l>con la mas hermosa flor.</l>
                </sp>
-               
-               <pb n="3" source="Moreno_081_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_081_3.jpg"/>
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Pero quizá arrepentidas</l>
@@ -389,7 +403,7 @@
                   <l>de seguir aquese rumbo...</l>
                   <l>sendero de perdicion?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">¡Ay padre! la que su planta</l>
@@ -397,13 +411,13 @@
                   <l>es tan dificil su enmienda,</l>
                   <l>como el tocar con el sol.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Y un dia no llegará</l>
                   <l>en que cansadas....?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l>Si, señor:</l>
@@ -412,12 +426,12 @@
                   <l>entonces nos quedará </l>
                   <l>otro pesar y afliccion.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PADRE.</speaker>
                   <l rend="indent">¿Y cuál es?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l>Lo que fuimos</l>
@@ -425,7 +439,7 @@
                   <l>Nuestra belleza agostada</l>
                   <l>sostendrá nuestra ilusion.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Conforme: y por qué ahora, </l>
@@ -435,7 +449,7 @@
                   <l>y dejais ese camino</l>
                   <l>que lo es de condenacion?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">La vanidad por un lado,</l>
@@ -443,7 +457,7 @@
                   <l>sostiene como antes dije</l>
                   <l>de la mujer la ilusion.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">¿Y no sabeis, hija mia,</l>
@@ -465,7 +479,7 @@
                   <l>y no bien nació el jilguerillo</l>
                   <l>cuando de pronto murió?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l rend="indent">Ya confesé, padre mio,</l>
@@ -473,20 +487,20 @@
                   <l>ahora imploro arrepentida</l>
                   <l>me apliqueis la absolucion.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Arrepentida de todo</l>
                   <l>os hallais bien?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">NIÑA.</speaker>
                   <l>Si, señor,</l>
                   <l>y haré por arrepentirme</l>
                   <l>de todo hasta del amor.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="centrado">PADRE.</speaker>
                   <l rend="indent">Si haceis por enmendaros</l>
@@ -515,16 +529,16 @@
                <l>amiga de complacer,</l>
                <l>pero de... mala intencion.</l>
             </div>
-            
+
             <div>
-               <pb n="4" source="Moreno_081_4.jpg" />
-               
+               <pb n="4" source="Moreno_081_4.jpg"/>
+
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">CANCION</hi>
-                  <lb />QUE SE CANTA EN EL DRAMA TITULADO:
-                  <lb /><hi rend="negrita">LA SEGUNDA DAMA DUENDE.</hi>
+                  <lb/><hi rend="negrita">CANCION</hi>
+                  <lb/>QUE SE CANTA EN EL DRAMA TITULADO: <lb/><hi rend="negrita">LA SEGUNDA DAMA
+                     DUENDE.</hi>
                </head>
-               
+
                <lg>
                   <l rend="indent">Han sonado tres palmadas</l>
                   <l>y es cerca de anochecer,</l>
@@ -535,7 +549,7 @@
                   <l>que voy á rezar</l>
                   <l>á la Virgen del Pilar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salió la niña corriendo</l>
                   <l>sin un instante esperar,</l>
@@ -546,7 +560,7 @@
                   <l>que voy á rezar</l>
                   <l>á la Vírgen del Pilar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Pasaron mas de tres horas, </l>
                   <l>cuando la niña volvió,</l>
@@ -557,7 +571,7 @@
                   <l>vengo de rezar</l>
                   <l>á la Virgen del Pilar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">¿Cómo vuelves tan turbada</l>
                   <l>y perdida la color?</l>
@@ -568,7 +582,7 @@
                   <l>vengo de rezar</l>
                   <l>á la Vírgen del Pilar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Mucho rezo son tres horas</l>
                   <l>para niña de tu edad;</l>
@@ -579,7 +593,7 @@
                   <l>que vo he de rezar</l>
                   <l>á la Vírgen del Pilar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">¡Cuánto polvo has recogido!</l>
                   <l>¡muy sucia la Iglesia está!</l>
@@ -590,7 +604,7 @@
                   <l>que esto es de rezar</l>
                   <l>á la Virgen del Pilar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">¡Tambien polvo en la mantiya:</l>
                   <l>¡el pañuelo sin atar!</l>
@@ -601,7 +615,7 @@
                   <l>que estuve á rezar</l>
                   <l>á la Vírgen del Pilar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Yo te juro que en tu vida</l>
                   <l>no saldrás sola jamás,</l>
@@ -612,15 +626,13 @@
                   <l>que quiero rezar</l>
                   <l>a la Vírgen del Pilar.</l>
                </lg>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1855.
-                  <lb />Imprenta de D. José María Moreno, Descalzas núm 1.
-               </p>
+                  <lb/>CARMONA:—1855. <lb/>Imprenta de D. José María Moreno, Descalzas núm 1. </p>
             </div>
          </div>
       </body>

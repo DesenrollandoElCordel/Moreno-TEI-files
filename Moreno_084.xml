@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_084">
    <teiHeader>
       <fileDesc>
@@ -24,7 +25,7 @@
                   <title type="titulo_breve">Don Claudio y Doña Margarita.</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5026851</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 94</idno>
                   </altIdentifier>
@@ -82,7 +85,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -110,31 +119,34 @@
       <revisionDesc>
          <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_084_thumbnail.jpg" />
+      <graphic url="Moreno_084_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_084_1.jpg" />
-               
+               <pb n="1" source="Moreno_084_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 94.)</fw>
-               
+
                <head type="primer_titulo">DON CLAUDIO Y DOÑA MARGARITA.</head>
                <head type="subtitulo">
-                  <lb /><hi rend="negrita"><choice><sic>ADMLRABLE</sic><corr>ADMIRABLE</corr></choice>
-                  <lb />Y CURIOSISIMA RELACION,</hi>
-                  <lb />EN LA QUE SE REFIERE
-                  <lb />un suceso muy estraordinario acaecido á estos nobles señores.
-               </head>
-               
+                  <lb/><hi rend="negrita"><choice>
+                        <sic>ADMLRABLE</sic>
+                        <corr>ADMIRABLE</corr>
+                     </choice>
+                     <lb/>Y CURIOSISIMA RELACION,</hi>
+                  <lb/>EN LA QUE SE REFIERE <lb/>un suceso muy estraordinario acaecido á estos
+                  nobles señores. </head>
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Hoy, señores, hoy se alienta</l>
                   <l>mi discurso por un rato</l>
                   <l>á referir las mayores</l>
@@ -153,11 +165,11 @@
                   <l>de estra señora, ha intentado</l>
                   <l>para lograr su estrecho amor</l>
                   <l>entrar en su mismo cuarto</l>
-                  
-                  <pb n="2" source="Moreno_084_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_084_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>por las tapias de un jardin,</l>
                   <l>hizo avance, y reparado</l>
                   <l>era el alfombrado suelo,</l>
@@ -242,11 +254,11 @@
                   <l>quiso emplear su cuidado,</l>
                   <l>que quien tiene mala sangre</l>
                   <l>obra en fin como villano.</l>
-                  
-                  <pb n="3" source="Moreno_084_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_084_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>intentó (¡gran desvergüenza!)</l>
                   <l>nianchar(¡accion de inhumano!)</l>
                   <l>el honor á la señora</l>
@@ -331,11 +343,11 @@
                   <l>los efectos inhumanos;</l>
                   <l>pero no tiene remedio,</l>
                   <l>el Cielo te dé su amparo.</l>
-                  
-                  <pb n="4" source="Moreno_084_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_084_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>Pejóla, y al retirarse,</l>
                   <l>el corazon quebrantado</l>
                   <l>le ofrece el amor disculpas,</l>
@@ -420,11 +432,11 @@
                   <l>viene el tal encaminado,</l>
                   <l>que el Cielo en tales conflictos</l>
                   <l>á nadie ha desamparado.</l>
-                  
-                  <pb n="5" source="Moreno_084_5.jpg" />
-                  
+
+                  <pb n="5" source="Moreno_084_5.jpg"/>
+
                   <fw type="paginaNum">5</fw>
-                  
+
                   <l>Llegó el pastor, pero viendo</l>
                   <l>suceso tan impensado</l>
                   <l>como la dama le cuenta,</l>
@@ -458,10 +470,10 @@
                   <l>castigada la maldad,</l>
                   <l>y en lo cierto el desengaño.</l>
                </div>
-               
+
                <div n="2" type="parte">
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Ya dice el primer romance</l>
                   <l>como quedó en la cabaña</l>
                   <l>recogida esta señora,</l>
@@ -506,11 +518,11 @@
                   <l>permitió Dios que llegára</l>
                   <l>á donde encontró al pastor</l>
                   <l>que el ganado apacentaba.</l>
-                  
-                  <pb n="6" source="Moreno_084_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_084_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>Saludóle cortesano,</l>
                   <l>y atento le preguntaba,</l>
                   <l>que si por ventura habria</l>
@@ -595,11 +607,11 @@
                   <l>de dar principio á la caza,</l>
                   <l>pará si el mónstruo encuentran</l>
                   <l>lograr toda su esperanza.</l>
-                  
-                  <pb n="7" source="Moreno_084_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_084_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>Con el deseo que llevan</l>
                   <l>todo el monte paseaban</l>
                   <l>sin que se logre el intento,</l>
@@ -684,11 +696,11 @@
                   <l>mira, traidor, por tu alma.</l>
                   <l>Todos se llegan por ver</l>
                   <l>esta maravilla rara,</l>
-                  
-                  <pb n="8" source="Moreno_084_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_084_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>y cuando los vido juntos</l>
                   <l>ha dicho estas palabras:</l>
                   <l>Yo, señores, soy aquel</l>
@@ -767,13 +779,13 @@
                   <l>Y aqui la historia se acaba,</l>
                   <l>pidiendo ahora el poéta</l>
                   <l>perdon de todas sus faltas.</l>
-                  
+
                   <trailer>FIN.</trailer>
                </div>
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA:—1858. Imp. de D. J. M. Moreno. calle Juan de la Cabra núm. 4.</p>
+               <p><lb/>CARMONA:—1858. Imp. de D. J. M. Moreno. calle Juan de la Cabra núm. 4.</p>
             </div>
          </div>
       </body>
