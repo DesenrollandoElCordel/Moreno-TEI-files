@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_108">
    <teiHeader>
       <fileDesc>
@@ -26,7 +27,7 @@
                      trabajador del campo</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -38,20 +39,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031469</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 116</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -81,7 +84,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -109,28 +118,29 @@
       <revisionDesc>
          <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_108_thumbnail.jpg" />
+      <graphic url="Moreno_108_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_108_1.jpg" />
-               
+               <pb n="1" source="Moreno_108_1.jpg"/>
+
                <fw type="impresorNum">(Número 116.)</fw>
-               
+
                <head rend="negrita" type="primer_titulo">JUAN LANAS.</head>
                <head type="subtitulo">
-                  <lb /><hi rend="negrita">COPLAS MUY DEVERTIDAS</hi>
-                  <hi rend="cursiva"><lb />de un hombre trabajador del campo, que viniendo de su trabajo halló á su
-                  <lb />muger cercana al parto, y la casa á oscuras. Refiérese la mala noche que
-                  <lb />pasó el pobre, y lo demás que verá el lector.</hi>
+                  <lb/><hi rend="negrita">COPLAS MUY DEVERTIDAS</hi>
+                  <hi rend="cursiva"><lb/>de un hombre trabajador del campo, que viniendo de su
+                     trabajo halló á su <lb/>muger cercana al parto, y la casa á oscuras. Refiérese
+                     la mala noche que <lb/>pasó el pobre, y lo demás que verá el lector.</hi>
                </head>
-               
+
                <lg>
                   <l rend="indent">Una noche muy oscura</l>
                   <l>que llovia sin cesar,</l>
@@ -148,16 +158,16 @@
                   <l>deja pesadumbre,</l>
                   <l>y enciende la lumbre</l>
                   <l>que vengo mojado,</l>
-                  
-               <pb n="2" source="Moreno_108_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_108_2.jpg"/>
+
                   <l>y la cena preven de contado,</l>
                   <l>haz luego la cama, </l>
                   <l>que el sueño me llama</l>
                   <l>y hay que madrugar.</l>
                   <l rend="cursiva">!Ah que noche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">La muger respondió al punto</l>
                   <l>todo lo debes dejar,</l>
@@ -182,7 +192,7 @@
                   <l>que debes comprar.</l>
                   <l rend="cursiva">¡Ay que noche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Viendo Juan que era preciso</l>
                   <l>tuvo por bien de marchar</l>
@@ -205,7 +215,7 @@
                   <l>cumplió sin tardar.</l>
                   <l rend="cursiva">¡Ay que nóche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Encendió la lumbre, y puso</l>
                   <l>un puchero á calentar</l>
@@ -226,7 +236,7 @@
                   <l>de mi gran penar! </l>
                   <l rend="cursiva">¡Ay que noche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Viendo que ya los dolores</l>
                   <l>no los puede tolerar,</l>
@@ -241,9 +251,9 @@
                   <l>que al tio, Macario </l>
                   <l>de su abuelo le víno,</l>
                   <l>y el rosario deltio Victorino</l>
-                  
-               <pb n="3" source="Moreno_108_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_108_3.jpg"/>
+
                   <l>la cédula del padre</l>
                   <l>fray sufras de Cádiz,</l>
                   <l>que allí dejó escrita</l>
@@ -253,7 +263,7 @@
                   <l>vamos á rezar,</l>
                   <l rend="cursiva">¡Ay que noche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Salió á luz una muchacha</l>
                   <l>despues de todo este afan.</l>
@@ -278,7 +288,7 @@
                   <l>se la puede dar</l>
                   <l rend="cursiva">¡Ay que noche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Acabando con la comadre,</l>
                   <l>con la niña fué á empezar,</l>
@@ -302,7 +312,7 @@
                   <l>al punto á llorar,</l>
                   <l rend="cursiva">¡Ay que noche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Vino Juan y la comadre</l>
                   <l>asi que la vido entrar,</l>
@@ -328,15 +338,15 @@
                   <l>que puede inquietar.</l>
                   <l rend="cursiva">Ay que noche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Cuidado que á la parida</l>
                   <l>no se la puede inquietar,</l>
                   <l>que si se sube la madre</l>
                   <l>al gaznate la puede ahogár </l>
-               
-               <pb n="4" source="Moreno_108_4.jpg" />
-               
+
+                  <pb n="4" source="Moreno_108_4.jpg"/>
+
                   <l>Ninguna se espante,</l>
                   <l>que esta es una cosa</l>
                   <l>viva y bulliciosa</l>
@@ -356,7 +366,7 @@
                   <l>la está oyendo hablar.</l>
                   <l rend="cursiva">¡Ay que noche para descansar!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Se despide la comadre</l>
                   <l>y las vecinas se van</l>
@@ -382,7 +392,7 @@
                   <l>Ay qué noche tan terrible!</l>
                   <l rend="cursiva">pasó el pobre Juan.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">A todos los que han oido</l>
                   <l>las coplas, dice Juan Lanas,</l>
@@ -400,15 +410,14 @@
                   <l>tomen el papel,</l>
                   <l>y dos cuartos aflojen por él.</l>
                </lg>
-               
+
                <l rend="cursiva">FIN.</l>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1857.
-                  <lb />Imprenta de D. Jose Maria Moreno, calle Juan de la Cabra núm.
-               </p>
+                  <lb/>CARMONA:—1857. <lb/>Imprenta de D. Jose Maria Moreno, calle Juan de la Cabra
+                  núm. </p>
             </div>
          </div>
       </body>

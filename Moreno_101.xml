@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_101">
    <teiHeader>
       <fileDesc>
@@ -22,7 +23,7 @@
                   <title type="titulo_breve">Ntra. Sra. de los Dolores</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,20 +35,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031432</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 110</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,7 +79,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -94,7 +103,7 @@
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
-               <term type="tipo_texto" />
+               <term type="tipo_texto"/>
                <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
@@ -104,25 +113,26 @@
       <revisionDesc>
          <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_101_thumbnail.jpg" />
+      <graphic url="Moreno_101_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_101_1.jpg" />
+               <pb n="1" source="Moreno_101_1.jpg"/>
 
                <fw type="impresorNum"><hi rend="cursiva">Núm.</hi> 110.</fw>
 
                <head type="primer_titulo">NTRA. SRA. DE LOS DOLORES.</head>
                <head type="subtitulo">NUEVAS DECIMAS.</head>
 
-               <pb n="2" source="Moreno_101_2.jpg" />
+               <pb n="2" source="Moreno_101_2.jpg"/>
                <lg rend="cursiva">
                   <l rend="indent">Ni los clavos ni el madero</l>
                   <l>me tienen aqui clavado,</l>
@@ -221,7 +231,7 @@
                   <l>ni se esceptuará el infierno,</l>
                   <l>ni menos sus condenados,</l>
 
-                  <pb n="3" source="Moreno_101_3.jpg" />
+                  <pb n="3" source="Moreno_101_3.jpg"/>
 
                   <l>cada cual de sus pecados,</l>
                   <l>cuenta á Dios tendrá que dar,</l>
@@ -320,7 +330,7 @@
                   <l>tambien te coronare</l>
                   <l>en mi reino celestial,</l>
 
-                  <pb n="4" source="Moreno_101_4.jpg" />
+                  <pb n="4" source="Moreno_101_4.jpg"/>
 
                   <l>Cristo dijo así al mortal,</l>
                   <l rend="cursiva">tú que pasas, miramé.</l>
@@ -333,7 +343,10 @@
                   <l>á mi Sacrosanto cuerpo,</l>
                   <l>quedó herido y tan sangriento,</l>
                   <l>que mis carnes delicadas</l>
-                  <l>allí <choice><sic>fneron</sic><corr>fueron</corr></choice> destrozadas</l>
+                  <l>allí <choice>
+                        <sic>fneron</sic>
+                        <corr>fueron</corr>
+                     </choice> destrozadas</l>
                   <l>por los ingratos crueles</l>
                   <l>y si tú amor me tu vieres,</l>
                   <l rend="cursiva">detente un poco en mis llagas.</l>
@@ -384,7 +397,7 @@
                   <l>todas aquestas señales</l>
                   <l rend="cursiva">al morir Jesus dejó.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">La magestad pura, inmensa,</l>
                   <l>sufrió con ansias muy finas,</l>
@@ -397,7 +410,7 @@
                   <l>y allí el perdon alcanzó</l>
                   <l rend="cursiva">al pié de la Cruz escrito,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Dice el Eterno Jesus</l>
                   <l>por boca de San Mateo,</l>
@@ -410,7 +423,7 @@
                   <l>que aunque soy Juez y testigo</l>
                   <l rend="cursiva">Rey soy para perdonar.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si mi le y siguiendo vas</l>
                   <l>con contrito corazon,</l>
@@ -426,7 +439,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA—Imp. de D. José M. Moreno: calle de las Descalzas.</p>
+               <p><lb/>CARMONA—Imp. de D. José M. Moreno: calle de las Descalzas.</p>
             </div>
          </div>
       </body>

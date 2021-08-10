@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_106">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Los siete dolores que pasó María Santísima en la sacrada pasión y muerte de su amantísimo hijo</title>
+            <title>Los siete dolores que pasó María Santísima en la sacrada pasión y muerte de su
+               amantísimo hijo</title>
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Corrección del OCR</resp>
@@ -19,8 +21,9 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Los siete dolores que pasó María Santísima en la sacrada pasion y muerte de su amantísimo hijo.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_completo">Los siete dolores que pasó María Santísima en la
+                     sacrada pasion y muerte de su amantísimo hijo.</title>
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (sin año): <ref target="Moreno_105.xml">moreno_105</ref></p>
@@ -35,18 +38,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
-                  <collection>Colleción Moreno</collection><idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5031461</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 114</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -75,7 +82,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -93,35 +106,37 @@
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
-               <term type="tipo_texto" />
-               <term type="tipo_estrofa" />
+               <term type="tipo_texto"/>
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-17" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-17" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_106_thumbnail.jpg" />
+      <graphic url="Moreno_106_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_106_1.jpg" />
-               
+               <pb n="1" source="Moreno_106_1.jpg"/>
+
                <fw type="impresorNum">Número 114.</fw>
-               
+
                <head type="primer_titulo">
                   <l>LOS SIETE DOLORES</l>
                   <l>QUE PASÓ MARIA SANTISIMA</l>
                   <l>EN LA SAGRADA PASION Y MUERTE DE SU AMANTISIMO HIJO.</l>
                </head>
-               
+
                <l rend="indent">Pecador, si á mis Dolores</l>
                <l>quieres tener devocion,</l>
                <l>yo te haré muchos favores</l>
@@ -137,10 +152,10 @@
                <l>sino que has de contemplarlos</l>
                <l>con sentimiento, que es justo</l>
                <l>que me ayudes á pasarlos.</l>
-               
+
                <div>
                   <head type="titulo_parte">PRIMER DOLOR.</head>
-                  
+
                   <l rend="indent">Contempla en el primer dia,</l>
                   <l>los filos de aguda espada</l>
                   <l>que traspasó el alma mia,</l>
@@ -154,9 +169,9 @@
                   <l rend="indent">Señora, vuestro Hijo amado,</l>
                   <l>hermoso y que tanto estimas,</l>
                   <l>le verás preso, azotado,</l>
-               
-               <pb n="2" source="Moreno_106_2.jpg" />
-               
+
+                  <pb n="2" source="Moreno_106_2.jpg"/>
+
                   <l>y coronado de espinas,</l>
                   <l>muriendo crucificado.</l>
                   <l rend="indent">Si contemplas el dolor</l>
@@ -165,10 +180,10 @@
                   <l>luego alcanzarás por mi</l>
                   <l>del Salvador el perdon.</l>
                </div>
-               
+
                <div>
                   <head type="titulo_parte">SEGUNDO DOLOR.</head>
-                  
+
                   <l rend="indent">En este dolor segundo,</l>
                   <l>para dar muerte á mi Hijo</l>
                   <l>mandó Ilerodes, iracundo,</l>
@@ -203,12 +218,12 @@
                   <l>compadécete de mí</l>
                   <l>en tan amarga ocasion,</l>
                   <l>que lo que haré yo por tí</l>
-                  <l>será alcanzarle el perdon.</l>   
+                  <l>será alcanzarle el perdon.</l>
                </div>
-               
+
                <div>
                   <head type="titulo_parte">TERCER DOLOR.</head>
-                  
+
                   <l rend="indent">El tercer dolor, tres dias</l>
                   <l>tuve perdido á mi Bien;</l>
                   <l>contempla las agonias</l>
@@ -245,18 +260,18 @@
                   <l>pues si lo haces asi</l>
                   <l>tendrás descanso cumplido.</l>
                </div>
-               
+
                <div>
                   <head type="titulo_parte">CUARTO DOLOR.</head>
-                  
+
                   <l rend="indent">El cuarto dolor, fué cuando</l>
                   <l>con la carga sin mensura</l>
                   <l>vi á mi Hijo caminando</l>
                   <l>por la calle de Amargura</l>
                   <l>cada instante tropezando.</l>
-                  
-                  <pb n="3" source="Moreno_106_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_106_3.jpg"/>
+
                   <l rend="indent">Siendo la sentencia dada,</l>
                   <l>vino Juan á mi retiro,</l>
                   <l>y dándome la embajada</l>
@@ -288,10 +303,10 @@
                   <l>que será para tu gloria</l>
                   <l>prenda de inmenso valor.</l>
                </div>
-               
+
                <div>
                   <head type="titulo_parte">QUINTO DOLOR.</head>
-                  
+
                   <l rend="indent">El quinto dolor penoso</l>
                   <l>es digno de contemplar,</l>
                   <l>cuando á mi Hijo precioso</l>
@@ -328,10 +343,10 @@
                   <l>yo te prometo ayudar</l>
                   <l>en las ánsias de la muerte.</l>
                </div>
-               
+
                <div>
                   <head type="titulo_parte">SESTO DOLOR.</head>
-                  
+
                   <l rend="indent">El sesto, con tiernos lazos,</l>
                   <l>al Hijo de mis entrañas,</l>
                   <l>difunto y hecho pedazos</l>
@@ -349,9 +364,9 @@
                   <l>al punto lo amortajaron.</l>
                   <l rend="indent">Con ungüentos olorosos</l>
                   <l>que prevenidos traian,</l>
-                  
-               <pb n="4" source="Moreno_106_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_106_4.jpg"/>
+
                   <l>le unjieron estos piadosos</l>
                   <l>varones, que me asistian</l>
                   <l>en trance tan congojoso.</l>
@@ -371,10 +386,10 @@
                   <l>en el dia del Juicio,</l>
                   <l>yo haré por tí el descargo.</l>
                </div>
-               
+
                <div>
                   <head type="titulo_parte">SÉTIMO DOLOR.</head>
-                  
+
                   <l rend="indent">¡Oh qué angustia, pecador!</l>
                   <l>¡oh qué dolor tan proligo!</l>
                   <l>¡oh qué pena sin igual</l>
@@ -425,25 +440,24 @@
                   <l>y por si os puedo aliviar</l>
                   <l>rezaré una Ave-Maria.</l>
                </div>
-               
+
                <div>
                   <head type="titulo_parte">ACTO DE CONTRICION.</head>
-                  
+
                   <p>
-                     <lb rend="indent" />Afligidisima Madre de Dios y Señora mia, de todo mi corazón me pesa de haber
-                     <lb />ofendido á tu amantisimo Unigénito Hijo, mi Señor Jesucristo, viendo que los gol-
-                     <lb />pes que dieron mis culpas en su Cuerpo, han sido penetrantes cuchillos que atravie-
-                     <lb />san tu corazon. ¡Oh Madre llena de Dolores! me pesa de haberos ofendido, y pro-
-                     <lb />pongo de nunca mas pecar, rogándote me alcances la gracia de cumplirlo y el
-                     <lb />perdon que espero mediante tu piadosa intercesion.
-                  </p>
+                     <lb rend="indent"/>Afligidisima Madre de Dios y Señora mia, de todo mi corazón
+                     me pesa de haber <lb/>ofendido á tu amantisimo Unigénito Hijo, mi Señor
+                     Jesucristo, viendo que los gol- <lb/>pes que dieron mis culpas en su Cuerpo,
+                     han sido penetrantes cuchillos que atravie- <lb/>san tu corazon. ¡Oh Madre
+                     llena de Dolores! me pesa de haberos ofendido, y pro- <lb/>pongo de nunca mas
+                     pecar, rogándote me alcances la gracia de cumplirlo y el <lb/>perdon que espero
+                     mediante tu piadosa intercesion. </p>
                </div>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />REIMPRESO EN CARMONA:—Imprenta de D. José Maria Moreno.
-               </p>
+                  <lb/>REIMPRESO EN CARMONA:—Imprenta de D. José Maria Moreno. </p>
             </div>
          </div>
       </body>
