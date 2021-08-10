@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_078">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Pasillo andaluz ejecutado por Antonia, José y Don Cándido. Por Juanillo el de Burgo</title>
+            <title>Pasillo andaluz ejecutado por Antonia, José y Don Cándido. Por Juanillo el de
+               Burgo</title>
             <respStmt>
                <name xml:id="LB">Luana Bermudez</name>
                <resp>Corrección del OCR</resp>
@@ -22,12 +24,13 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Pasillo andaluz ejecutado por Antonia, José y Don Cándido. Por Juanillo el de Burgo.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_completo">Pasillo andaluz ejecutado por Antonia, José y Don
+                     Cándido. Por Juanillo el de Burgo.</title>
+                  <title type="titulo_breve"/>
                   <author>Juanillo el de Burgo</author>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -39,20 +42,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5026663</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 172</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -83,7 +88,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -102,38 +113,38 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-08" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-08" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_078_thumbnail.jpg" />
+      <graphic url="Moreno_078_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_078_1.jpg" />
-               
+               <pb n="1" source="Moreno_078_1.jpg"/>
+
                <fw type="impresorNum">Núm. 172.</fw>
-               
+
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">PASILLO ANDALUZ</hi>
-                  <lb />EJECUTADO POR
-                  <lb /><hi rend="cursiva">Antonia, José y Don Cándido.</hi>
-                  <lb />POR 
-                  <lb /><hi rend="negrita">JUANILLO EL DE BURGO.</hi>
+                  <lb/><hi rend="negrita">PASILLO ANDALUZ</hi>
+                  <lb/>EJECUTADO POR <lb/><hi rend="cursiva">Antonia, José y Don Cándido.</hi>
+                  <lb/>POR <lb/><hi rend="negrita">JUANILLO EL DE BURGO.</hi>
                </head>
-               
+
                <stage rend="cursiva">Sale Antonia.</stage>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Qué via mas arrastráa</l>
@@ -153,11 +164,11 @@
                   <l>el gachó avilla lovén,</l>
                   <l>pero pa mí no será.</l>
                   <l>Mal fin tenga el interè </l>
-               
-               <pb n="2" source="Moreno_078_2.jpg" />
-               
-               <fw type="paginaNum">2</fw>
-               
+
+                  <pb n="2" source="Moreno_078_2.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
                   <l>que causa tanto ruio;</l>
                   <l>en avillando parné</l>
                   <l>sacrifica una mugé</l>
@@ -171,15 +182,15 @@
                   <l>mas bien le jago la guerra</l>
                   <l>y á Roma se va por too.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale D. Cándido.</stage>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Qué alegria, sobrinita,</l>
                   <l>sé que acaba de llegar D. Cárlos.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Y quién le ha mandao que venga?</l>
@@ -187,12 +198,12 @@
                   <l>cuando tenga que najarse</l>
                   <l>como ha venio.</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Se verá.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Pero señó qué apretá;</l>
@@ -214,9 +225,9 @@
                   <l>tu boda se arreglará</l>
                   <l>en el dia de mañana.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale José.</stage>
-               
+
                <sp>
                   <speaker>J. </speaker>
                   <l>Señó beso á V. las mano:</l>
@@ -224,13 +235,13 @@
                   <l>y me pareció rigulá</l>
                   <l>el jaserle una visita.</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Gracias, se puede marchar</l>
                   <l>y no volver á esta casa.</l>
                </sp>
-               
+
                <sp>
                   <speaker>J. </speaker>
                   <l>Está muy bien, se jará;</l>
@@ -247,14 +258,14 @@
                   <l>en aquerando que no...</l>
                   <l>dílo tú, boca é corá.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Tres vese he dicho que si</l>
                   <l>y dos vese están demás:</l>
                   <l>soy reina por la palabra.</l>
                </sp>
-               
+
                <sp>
                   <speaker>J. </speaker>
                   <l>Cómo tenia é faltá!</l>
@@ -262,25 +273,25 @@
                   <l>si la chavea me quiere</l>
                   <l>lo pueo yo remediá?</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Ya le he dicho que se marche</l>
                   <l>por que sino, voy á...</l>
                </sp>
-               
+
                <sp>
                   <speaker>J. </speaker>
                   <l>Pero señó, en qué quedamos?</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Que se retire le digo,</l>
                   <l>si no quiere dar lugar</l>
                   <l>que lo eche á puntillones.</l>
                </sp>
-               
+
                <sp>
                   <speaker>J. </speaker>
                   <l>Pues me gusta la toná,</l>
@@ -291,24 +302,24 @@
                   <l>quierasté ó no mi mujer;</l>
                   <l>adios, mosqueta temprana.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Adios, José, que soy tuya</l>
                   <l>hasta el juicio finá.</l>
                </sp>
-               
+
                <stage rend="cursiva">Váse José.</stage>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Vaya, que no conoce la educacion.</l>
                </sp>
-               
-               <pb n="3" source="Moreno_078_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_078_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Miosté, tio, elante é mí</l>
@@ -325,7 +336,7 @@
                   <l>y lo tengo que querè</l>
                   <l>hasta que me quee pelá.</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Pero si es un tuno, no lo vés?</l>
@@ -334,7 +345,7 @@
                   <l>es muy fino y representa</l>
                   <l>buen papel en la ciudad.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Válgame un divé,</l>
@@ -356,7 +367,7 @@
                   <l>á gusto de los chavea,</l>
                   <l>que lo demá es vulipen.</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Maldita tu gerigonza,</l>
@@ -366,18 +377,18 @@
                   <l>presqui, manjase, chaviea;</l>
                   <l>qué lengua es esa, mujer?</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>El lenguaje de la gracia,</l>
                   <l>¿no lo chana su merced?</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Maldita de Dios la cosa.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Pues yo se lo esplicaré:</l>
@@ -385,10 +396,10 @@
                   <l>que José nasió pa mí</l>
                   <l>y yo nasí pa José;</l>
                   <l>que tal, ma esplicao, tio?</l>
-               
-               
-               <stage rend="cursiva">Váse D. Cándido.</stage>
-               
+
+
+                  <stage rend="cursiva">Váse D. Cándido.</stage>
+
                   <l>Cuarquiera me vuelve atrá</l>
                   <l>habiendo dicho que sí,</l>
                   <l>ó el mundo se ha de jundí</l>
@@ -412,9 +423,9 @@
                   <l>quien quiá está en el paraiso</l>
                   <l>salero, que viva aquí.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale José.</stage>
-               
+
                <sp>
                   <speaker>J. </speaker>
                   <l>No tema, Antonia mia,</l>
@@ -425,11 +436,11 @@
                   <l>perlita de mil colore, </l>
                   <l>jardin sembrao de flore;</l>
                   <l>jui que jembra, mare mia!</l>
-               
-               <pb n="4" source="Moreno_078_4.jpg" />
-               
-               <fw type="paginaNum">4</fw>
-               
+
+                  <pb n="4" source="Moreno_078_4.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
                   <l>quisiera pa tí tené</l>
                   <l>el Potosí en esta mano</l>
                   <l>y too el imperio otomano</l>
@@ -461,7 +472,7 @@
                   <l>pa endiñarle en la chirola</l>
                   <l>á ese purí de tu tio.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Joseliyo, me has matao</l>
@@ -482,22 +493,22 @@
                   <l>que se me guilla el sentio,</l>
                   <l>con que así moreno, mio,</l>
                   <l>toma mi alma toda</l>
-                  
+
                   <stage rend="cursiva">Se abrazan.</stage>
-                  
+
                   <l>pa endiñarle en la chirola</l>
                   <l>á ese puró de mi tio.</l>
                </sp>
-               
+
                <stage rend="cursiva">Entra D. Cándído.</stage>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>¡Se habrá visto cosa igual!</l>
                   <l>señorita, yo veré</l>
                   <l>si se burla V. de mí.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Pus no me tengo atrevé!</l>
@@ -507,7 +518,7 @@
                   <l>si supiera que habia é ser</l>
                   <l>mas prove que son la rata.</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Pus señora, sepa V.</l>
@@ -515,7 +526,7 @@
                   <l>que eso llegue á suceder</l>
                   <l>encerrarla en un convento.</l>
                </sp>
-               
+
                <sp>
                   <speaker>A. </speaker>
                   <l>Mas que me llevosté á Argel</l>
@@ -524,7 +535,7 @@
                   <l>la verda, porque el cariño</l>
                   <l>too lo vence, estasté.</l>
                </sp>
-               
+
                <sp>
                   <speaker>C. </speaker>
                   <l>Uf, me falta la paeiencia</l>
@@ -532,12 +543,13 @@
                   <l>Dios os haga bien casados</l>
                   <l>y siga siempre ese querer.</l>
                </sp>
-               
+
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
-               <p><lb /><hi rend="cursiva">CARMONA: Imp. y lib. de D. José M. Moreno, Madre de Dios,</hi> 1.</p>
+               <p><lb/><hi rend="cursiva">CARMONA: Imp. y lib. de D. José M. Moreno, Madre de
+                     Dios,</hi> 1.</p>
             </div>
          </div>
       </body>

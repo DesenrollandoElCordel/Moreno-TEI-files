@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_071">
    <teiHeader>
       <fileDesc>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5025060</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 82</idno>
                   </altIdentifier>
@@ -82,7 +85,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -110,29 +119,29 @@
       <revisionDesc>
          <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_060_thumbnail.jpg" />
+      <graphic url="Moreno_071_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_071_1.jpg" />
-               
+               <pb n="1" source="Moreno_071_1.jpg"/>
+
                <fw type="impresorNum">Núm. 82.</fw>
-               
+
                <head rend="negrita" type="primer_titulo">APARTAMIENTO DEL ALMA Y DEL CUERPO.</head>
                <head rend="cursiva" type="subtitulo">
-                  <lb />Relacion para contemplar en la hora de la Muerte, y considerar el gran dolor
-                  <lb />que siente el alma cuando se despide del cuerpo.
-               </head>
-               
+                  <lb/>Relacion para contemplar en la hora de la Muerte, y considerar el gran dolor
+                  <lb/>que siente el alma cuando se despide del cuerpo. </head>
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Oigan el clarin sonoro</l>
                   <l>que con écos compasivos</l>
                   <l>pretende muy fervoroso,</l>
@@ -185,11 +194,11 @@
                   <l>con el acercado filo</l>
                   <l>de su guadaña, cortar</l>
                   <l>hoy de nuestra vida el hilo.</l>
-                  
-                  <pb n="2" source="Moreno_071_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_071_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>Ya se acabaron los gustos,</l>
                   <l>los regalos, los vestidos,</l>
                   <l>aquellas cadenas de oro;</l>
@@ -287,14 +296,14 @@
                   <l>un ano tan solamente,</l>
                   <l>llorára todos mis vicios.</l>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="3" source="Moreno_071_3.jpg" />
-                  
+                  <pb n="3" source="Moreno_071_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Tarde acuerdas infeliz.</l>
                   <l>el cuerpo al alma la dijo:</l>
                   <l>tú vivistes vanamente,</l>
@@ -381,11 +390,11 @@
                   <l>delante del Uno y Trino,</l>
                   <l>cuando le esté dando cuenta</l>
                   <l>de lo que yo le he ofendido.</l>
-                  
-                  <pb n="4" source="Moreno_071_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_071_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>No tengo santo ni santa</l>
                   <l>á quien nombrar por padrinos;</l>
                   <l>mas vos, Virgen soberana</l>
@@ -460,13 +469,16 @@
                   <l>esto les sirva de aviso,</l>
                   <l>el autor muy fervoroso</l>
                   <l>aqueste romance ha escrito.</l>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>
 
             <div type="colofon">
-               <p><lb /><choice><sic>CARAMON</sic><corr>CARMONA</corr></choice>:—Imp. de D. José M. Moreno, Madre de Dios n. 1.</p>
+               <p><lb/><choice>
+                     <sic>CARAMON</sic>
+                     <corr>CARMONA</corr>
+                  </choice>:—Imp. de D. José M. Moreno, Madre de Dios n. 1.</p>
             </div>
          </div>
       </body>

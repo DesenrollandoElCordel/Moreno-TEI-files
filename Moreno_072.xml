@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_072">
    <teiHeader>
       <fileDesc>
@@ -19,11 +20,12 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Pasillo curioso y divertido de Enrique y Juana.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_completo">Pasillo curioso y divertido de Enrique y
+                     Juana.</title>
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5025064</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 84</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -78,7 +82,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -97,50 +107,48 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-08" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-08" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_072_thumbnail.jpg" />
+      <graphic url="Moreno_072_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_072_1.jpg" />
-               
+               <pb n="1" source="Moreno_072_1.jpg"/>
+
                <fw type="impresorNum">(Número 84.)</fw>
-               
+
                <head rend="negrita" type="primer_titulo">
-                  <lb />PASILLO
-                  <lb />CURIOSO Y DIVERTIDO
-                  <lb />DE
-                  <lb />ENRIQUE Y JUANA.
-               </head>
-               
+                  <lb/>PASILLO <lb/>CURIOSO Y DIVERTIDO <lb/>DE <lb/>ENRIQUE Y JUANA. </head>
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Cielos yo estoy en mi!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Ola quien ha entrado aqui!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Enrique soy, ó lo he sido.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Cómo te has entrado</l>
@@ -160,9 +168,9 @@
                   <l>á ver de secreto</l>
                   <l>la dama que quiere,</l>
                   <l>no repara en cuanto</l>
-                  
-               <pb n="2" source="Moreno_072_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_072_2.jpg"/>
+
                   <l>descubrirle puede</l>
                   <l>ni aun su misma sombra,</l>
                   <l>si posible fuese,</l>
@@ -195,7 +203,7 @@
                   <l>vete, Enrique mió,</l>
                   <l>mira que amanece.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Si yo imaginára</l>
@@ -237,9 +245,9 @@
                   <l>que puede elevarte</l>
                   <l>al sólio eminente.</l>
                   <l>Por eso me dejas:</l>
-                  
-               <pb n="3" source="Moreno_072_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_072_3.jpg"/>
+
                   <l>por eso me vendes:</l>
                   <l>pues juro á tus ojos,</l>
                   <l>á mi amor aleves</l>
@@ -260,89 +268,89 @@
                   <l>como tú lo dices,</l>
                   <l>á Dios para siempre.</l>
                </sp>
-               
+
                <stage rend="cursiva">Ella le detiene.</stage>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Espera bien mio.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Huir me conviene.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>De la que te ama?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>De la que me ofende.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Mi amor, mi regalo...</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Mi pena, mi muerte.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Qué mal que me tratas!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Qué bien lo mereces!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Mi llanto te ablande.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Tus lágrimas mienten.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Del alma son hijas.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Tu engaño las vierte.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Solo á tí te amo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Al cielo plugiese.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Oye por tu vida.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Acaba, qué quieres?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Que sepas, bien mio,</l>
@@ -377,9 +385,9 @@
                   <l>que en mí hallarás siempre</l>
                   <l>las mismas finezas</l>
                   <l>qoe ahora aborreces;</l>
-                  
-               <pb n="4" source="Moreno_072_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_072_4.jpg"/>
+
                   <l>serémos entrambos,</l>
                   <l>con opuestas leyes,</l>
                   <l>tú ingrato, yo fina,</l>
@@ -389,7 +397,7 @@
                   <l>yo espejo de amantes,</l>
                   <l>tú ejemplo de aleves.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Que mágia es la tuya</l>
@@ -397,13 +405,13 @@
                   <l>que no te resisto</l>
                   <l>y sé que me ofendes?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Ofensa es amarte</l>
                   <l>tiernísimamente?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Ay! como recelo,</l>
@@ -411,13 +419,13 @@
                   <l>es el sol en Enero</l>
                   <l>que pasa muy breve.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>No habla eso conmigo,</l>
                   <l>que soy como el Fénix.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Si asi como engracias,</l>
@@ -425,72 +433,72 @@
                   <l>Mas qué sirve todo</l>
                   <l>cuando he de perderte?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>La causa?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Mi ausencia.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>No hay otra?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Y es leve?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Quien piensa las hace?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Qué amante no teme?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>De mí desconfías¿</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Mi hermano te quiere.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Pues yo quiero al suyo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Un Rey, qué no puede?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Mandar en las almas?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>La tuya.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>La tienes tú solo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Apreciarla</l>
@@ -498,62 +506,61 @@
                   <l>y á Dios que no puedo</l>
                   <l>ya mas detenerme.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Mira como quedo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Vendré oculto á verte.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>No haga tu mudanza</l>
                   <l>que me desespere.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Amores, primero</l>
                   <l>dirás mi muerte.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>Qué prendas me dejas?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Mis brazos si quieres.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>De esposo?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Enriq. </speaker>
                   <l>Y de Esclavo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juana. </speaker>
                   <l>O amor, qué no vences.</l>
                </sp>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:=1858.
-                  <lb />Imprenta de D. José M.a Moreno, calle Juan de la Cabra, núm. 4.
-               </p>
+                  <lb/>CARMONA:=1858. <lb/>Imprenta de D. José M.a Moreno, calle Juan de la Cabra,
+                  núm. 4. </p>
             </div>
          </div>
       </body>

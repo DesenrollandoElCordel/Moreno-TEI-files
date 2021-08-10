@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_074">
    <teiHeader>
       <fileDesc>
@@ -19,7 +20,7 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Doña Juana de Acebedo.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (s.a.): <ref target="Moreno_075.xml">Moreno_075</ref></p>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5025094</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 86</idno>
                   </altIdentifier>
@@ -81,7 +84,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -109,25 +118,26 @@
       <revisionDesc>
          <change when="2021-04-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_074_thumbnail.jpg" />
+      <graphic url="Moreno_074_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_074_1.jpg" />
-               
+               <pb n="1" source="Moreno_074_1.jpg"/>
+
                <fw type="impresorNum">Número 86.</fw>
-               
+
                <head type="primer_titulo">DONA JUANA DE ACEBEDO.</head>
-               
+
                <div n="1" type="parte">
                   <head>PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Hombres que andais por el mundo</l>
                   <l>por cumplir vuestros deseos,</l>
                   <l>por ver tierras y saber</l>
@@ -170,11 +180,11 @@
                   <l>doña Juana de Acebedo,</l>
                   <l>que en su gala y gentileza</l>
                   <l>era una garza á lo menos</l>
-                  
-                  <pb n="2" source="Moreno_074_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_074_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>en su carroza dorada,</l>
                   <l>cubierta de terciopelo,</l>
                   <l>y un de águila coronada,</l>
@@ -265,11 +275,11 @@
                   <l>y le dije: caballero,</l>
                   <l>¿qué tal está esa señorá?</l>
                   <l>que me pesa, vive el Cielo:</l>
-                  
-                  <pb n="3" source="Moreno_074_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_074_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>su desgracia, pues al verla</l>
                   <l>no pude llegar mas presto.</l>
                   <l>Y el bárbaro me responde,</l>
@@ -360,11 +370,11 @@
                   <l>pero vos, amigo mío,</l>
                   <l>muy presto tendreis remedio.</l>
                   <l>Una carta le escribió</l>
-                  
-                  <pb n="4" source="Moreno_074_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_074_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>á asistente el mancebo,</l>
                   <l>y en su nombre se la envia,</l>
                   <l>diciendo: gran caballero,</l>
@@ -456,16 +466,13 @@
                   <l>se casó con doña Juana,</l>
                   <l>dando aquí fin el suceso.</l>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_074_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_074_5.jpg"/>
+
                   <head rend="negrita" type="titulo_parte">
-                     <lb />SEGUNDA PARTE,
-                     <lb />EN QUE DAN FIN LOS ROMANCES
-                     <lb />DE DOÑA DE ACEBEDO.
-                  </head>
-                  
+                     <lb/>SEGUNDA PARTE, <lb/>EN QUE DAN FIN LOS ROMANCES <lb/>DE DOÑA DE ACEBEDO. </head>
+
                   <l rend="indent">Ya sabrán como salió</l>
                   <l>desterrado por Romero,</l>
                   <l>de Sevilla el mayordomo,</l>
@@ -502,11 +509,11 @@
                   <l>sentada en el blando lecho:</l>
                   <l>como está en paños menores</l>
                   <l>parece su rostro un cielo,</l>
-                  
-                  <pb n="6" source="Moreno_074_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_074_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>sus mejillás son dos rosas,</l>
                   <l>sus ojos son dos luceros.</l>
                   <l>Doña Juana, ve á tu cuarto</l>
@@ -597,11 +604,11 @@
                   <l>donde vá tu pensamiento,</l>
                   <l>y él dijo: solo en tí</l>
                   <l>todo mi cuidado llevo.</l>
-                  
-                  <pb n="7" source="Moreno_074_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_074_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>No es eso lo que pregunto,</l>
                   <l>sino á qué patria ó que reino,</l>
                   <l>y si hemos de estar en Arcos</l>
@@ -692,11 +699,11 @@
                   <l>descubriendo cara y pecho,</l>
                   <l>dice: conóceme por amigo,</l>
                   <l>no tengas ningun recelo,</l>
-                  
-                  <pb n="8" source="Moreno_074_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_074_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>que aunque soy hombre cruel</l>
                   <l>en este monte desierto,</l>
                   <l>no dejaré de pagarte</l>
@@ -774,9 +781,8 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA—1858.
-                  <lb />Imp. de D. José M. Moreno, calle Juana de la Cabra, núm. 4.
-               </p>
+                  <lb/>CARMONA—1858. <lb/>Imp. de D. José M. Moreno, calle Juana de la Cabra, núm.
+                  4. </p>
             </div>
          </div>
       </body>

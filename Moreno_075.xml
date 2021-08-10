@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_075">
    <teiHeader>
       <fileDesc>
@@ -19,7 +20,7 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Doña Juana de Acebedo.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (1858): <ref target="Moreno_074.xml">Moreno_074</ref></p>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5174956</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 86</idno>
                   </altIdentifier>
@@ -81,7 +84,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -109,25 +118,26 @@
       <revisionDesc>
          <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_075_thumbnail.jpg" />
+      <graphic url="Moreno_075_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_075_1.jpg" />
-               
+               <pb n="1" source="Moreno_075_1.jpeg"/>
+
                <fw type="impresorNum">Núm. 56.</fw>
-               
+
                <head type="primer_titulo">DOÑA JUANA DE ACEBEDO.</head>
-               
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l>Hombres que andais por el mundo</l>
                   <l>por cumplir vuestros deseos,</l>
                   <l>por ver tierras y saber</l>
@@ -176,11 +186,11 @@
                   <l>encima con un letrero</l>
                   <l>que dice: volando voy</l>
                   <l>con ésta hermosura al cielo;</l>
-                  
-                  <pb n="2" source="Moreno_075_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_075_2.jpeg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>viéndome con trage humilde</l>
                   <l>caso de mí no hicieron,</l>
                   <l>porque la mucha pobreza</l>
@@ -269,11 +279,11 @@
                   <l>no pude llegar mas presto.</l>
                   <l>Y el bárbaro me responde,</l>
                   <l>lleno de cólera y ciego:</l>
-                  
-                  <pb n="3" source="Moreno_075_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_075_3.jpeg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>mire el pardo, que pregunta:</l>
                   <l>¿qué le va al pastor en eso?</l>
                   <l>¿pues él ha de tener boca</l>
@@ -362,11 +372,11 @@
                   <l>Una carta le escribió</l>
                   <l>al asistente el mancebo,</l>
                   <l>y en su nombre se la envia</l>
-                  
-                  <pb n="4" source="Moreno_075_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_075_4.jpeg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>diciendo; egran caballero. </l>
                   <l>de noble sangre é hidalgo,</l>
                   <l>y de Sevilla el gobierno,</l>
@@ -455,19 +465,17 @@
                   <l>como este honrado mañcebo</l>
                   <l>se casó con doña Juana.</l>
                   <l>dando aquí fin el suceso.</l>
-                  
+
                   <trailer>FIN DE LA PRIMERA PARTE.</trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_075_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_075_5.jpeg"/>
+
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
                   <head rend="cursiva" type="subtitulo_parte">
-                     <lb />En que se dá fin á los romances de doña
-                     <lb />Juana de Acebedo.
-                  </head>
-                  
+                     <lb/>En que se dá fin á los romances de doña <lb/>Juana de Acebedo. </head>
+
                   <l>Ya sabrán como salió</l>
                   <l>desterrado por Romero,</l>
                   <l>de Sevilla el mayordomo</l>
@@ -512,11 +520,11 @@
                   <l>en calidad ni en dinero:</l>
                   <l>mira que tu padre es conde,</l>
                   <l>y yo de mi nacimiento</l>
-                  
-                  <pb n="6" source="Moreno_075_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_075_6.jpeg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>soy pobre aun es verdad</l>
                   <l>que de buenos pensamientos,</l>
                   <l>buena sangre me acompaña</l>
@@ -605,11 +613,11 @@
                   <l>eso es lo que saber quiero;</l>
                   <l>Yeél dice; á mi tierra nó,</l>
                   <l>sino á otra parte mas lejos;</l>
-                  
-                  <pb n="7" source="Moreno_075_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_075_7.jpeg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>ya sabrás que en Gibraltar</l>
                   <l>un hermano mio tengo</l>
                   <l>allá iremos, y en su casa</l>
@@ -698,11 +706,11 @@
                   <l>en este monte desierto,</l>
                   <l>no dejaré de pagarte</l>
                   <l>una vida que te debo</l>
-                  
-                  <pb n="8" source="Moreno_075_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_075_8.jpeg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>con darte la tuya ahora</l>
                   <l>y la de tu dama en premio.</l>
                   <l>Ved aquí vuestro caudal,</l>
@@ -769,13 +777,13 @@
                   <l>el cual está satisfecho,</l>
                   <l>y hoy viven los dos amantes</l>
                   <l>muy alegres y contentos.</l>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>
 
             <div type="colofon">
-               <p><lb />Imprenta de D. José María Moreno, Madre de Dios, número 1.</p>
+               <p><lb/>Imprenta de D. José María Moreno, Madre de Dios, número 1.</p>
             </div>
          </div>
       </body>

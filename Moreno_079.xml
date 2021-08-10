@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_079">
    <teiHeader>
       <fileDesc>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5026695</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 91</idno>
                   </altIdentifier>
@@ -84,7 +87,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -112,30 +121,30 @@
       <revisionDesc>
          <change when="2021-04-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_079_thumbnail.jpg" />
+      <graphic url="Moreno_079_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_079_1.jpg" />
-               
+               <pb n="1" source="Moreno_079_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 91.)</fw>
-               
+
                <head rend="negrita" type="primer_titulo">DESPERTADOR ESPIRITUAL.</head>
                <head type="subtitulo">
-                  <lb /><hi rend="cursiva">CURIOSO ROMANCE,</hi>
-                  <lb />En el que se espresan las voces con que se ha de despertar al pecador,
-                  <lb />por su gran desdicha se está durmiendo en el pecado.
-               </head>
-               
+                  <lb/><hi rend="cursiva">CURIOSO ROMANCE,</hi>
+                  <lb/>En el que se espresan las voces con que se ha de despertar al pecador,
+                  <lb/>por su gran desdicha se está durmiendo en el pecado. </head>
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Si en la cama de la culpa</l>
                   <l>estás, pecador, durmiendo,</l>
                   <l>despierta ya por tu vida,</l>
@@ -144,11 +153,11 @@
                   <l>es la cama del infierno,</l>
                   <l>y que en ella estás labrando</l>
                   <l>las prisiones de tus yerros.</l>
-                  
-                  <pb n="2" source="Moreno_079_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_079_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>Repara que el ser esclavo</l>
                   <l>es penoso cautiverio;</l>
                   <l>y si puedes estar libre,</l>
@@ -237,11 +246,11 @@
                   <l>que tendrán de que en el Cielo</l>
                   <l>gocen de Dios para siempre</l>
                   <l>los que salvarse supieron.</l>
-                  
-                  <pb n="3" source="Moreno_079_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_079_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>Aquella tan gran desdicha</l>
                   <l>de penar con alma y cuerpo</l>
                   <l>en compañia de diablos</l>
@@ -330,11 +339,11 @@
                   <l>hay para quemar un pueblo,</l>
                   <l>y con un pecado solo</l>
                   <l>basta para ir al infierno.</l>
-                  
-                  <pb n="4" source="Moreno_079_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_079_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>Pues tú que estás en la culpa</l>
                   <l>los meses y años enteros,</l>
                   <l>donde el fuego del pecado</l>
@@ -419,23 +428,20 @@
                   <l>y no estés siempre durmiendo,</l>
                   <l>porque no pierdas dormido</l>
                   <l>lo que has de ganar despierto.</l>
-                  
+
                   <trailer>FIN DE LA PRIMERA PARTE.</trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_079_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_079_5.jpg"/>
+
                   <head type="titulo_parte">
-                     <hi rend="negrita"><lb />SEGUNDA PARTE,
-                     <lb />DEL DESPERTADOR ESPIRITUAL,</hi>
-                     <hi rend="cursiva"><lb />en que se declara que no hay cosa
-                     <lb />que mas despierte al pecador, que
-                     <lb />la memoria de la muerte los
-                     <lb />tormentos del infierno y los
-                     <lb />deleites de la Gloria.</hi>
+                     <hi rend="negrita"><lb/>SEGUNDA PARTE, <lb/>DEL DESPERTADOR ESPIRITUAL,</hi>
+                     <hi rend="cursiva"><lb/>en que se declara que no hay cosa <lb/>que mas
+                        despierte al pecador, que <lb/>la memoria de la muerte los <lb/>tormentos
+                        del infierno y los <lb/>deleites de la Gloria.</hi>
                   </head>
-                  
+
                   <l rend="indent">Si con el primer romance</l>
                   <l>no estás, pecador; despierto,</l>
                   <l>quiero ver con el segundo</l>
@@ -480,11 +486,11 @@
                   <l>con mucha hacienda y dinero,</l>
                   <l>no te has de escapar tampoco,</l>
                   <l>que nada vale todo eso.</l>
-                  
-                  <pb n="6" source="Moreno_079_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_079_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>Disponte para morir</l>
                   <l>si prentendes ir al Cielo.</l>
                   <l>porque al Cielo no va nadie</l>
@@ -573,11 +579,11 @@
                   <l>de Dios tesoros inmensos,</l>
                   <l>ámale y deja el pecado,</l>
                   <l>vendrás á ser su heredero.</l>
-                  
-                  <pb n="7" source="Moreno_079_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_079_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>Amale, pues, pecador,</l>
                   <l>no seas tan poco atento</l>
                   <l>que por dar gusto al demonio</l>
@@ -666,11 +672,11 @@
                   <l>estás de su Ser inmenso,</l>
                   <l>atiende mientras te digo</l>
                   <l>lo que alcanzare mi ingenio.</l>
-                  
-                  <pb n="8" source="Moreno_079_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_079_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>Dios es un Ser absoluto,</l>
                   <l>tan sin dependencia eterno,</l>
                   <l>que aun no deja á sus criaturas,</l>
@@ -743,15 +749,14 @@
                   <l>con humilde rendimiento,</l>
                   <l>á todos pide perdon</l>
                   <l>de sus faltas y sus yerros.</l>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1858.
-                  <lb />Imp. de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
                </p>
             </div>
          </div>
