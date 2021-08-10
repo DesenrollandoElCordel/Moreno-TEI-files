@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_115">
    <teiHeader>
       <fileDesc>
@@ -38,20 +39,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031531</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 123</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -82,7 +85,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -101,7 +110,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -110,28 +119,26 @@
       <revisionDesc>
          <change when="2021-04-27" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_115_thumbnail.jpg" />
+      <graphic url="Moreno_115_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_115_1.jpg" />
-               
+               <pb n="1" source="Moreno_115_1.jpg"/>
+
                <fw type="impresorNum">Nùm 123.</fw>
-               
+
                <head rend="negrita" type="primer_titulo">
-                  <lb />SATIRA GRACIOSA,
-                  <lb />en que se manifiestan los nombres, propieda-
-                  <lb />des y faltas que las mujeres han notado
-                  <lb />en los hombres que hay en el dia.
-               </head>
-               
+                  <lb/>SATIRA GRACIOSA, <lb/>en que se manifiestan los nombres, propieda- <lb/>des y
+                  faltas que las mujeres han notado <lb/>en los hombres que hay en el dia. </head>
+
                <l rend="indent">Escuche todo viviente,</l>
                <l>el que me quiera escuchar</l>
                <l>varias faltas que en los hombres,</l>
@@ -168,11 +175,11 @@
                <l>en el arte de engañar:</l>
                <l>dicen que hubo muchos justos</l>
                <l>en tiempo del padre Adan;</l>
-               
-               <pb n="2" source="Moreno_115_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_115_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>qué lástima que el diluvio</l>
                <l>causase tal mortandad!</l>
                <l>La memoria en los Manueles</l>
@@ -269,11 +276,11 @@
                <l>que quién los ha de juzgar!</l>
                <l>atendida esta razón</l>
                <l>no se los puede alabar,</l>
-               
-               <pb n="3" source="Moreno_115_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_115_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>pues en caso de haber dudas,</l>
                <l>piensa mal y acertarás:</l>
                <l>así lo dice el adagio</l>
@@ -289,7 +296,10 @@
                <l>Para los Brunos elojios</l>
                <l>quisiéramos emplear,</l>
                <l>pero es cargo de conciencia</l>
-               <l>el <choice><sic>fnltar</sic><corr>faltar</corr></choice> á la verdad;</l>
+               <l>el <choice>
+                     <sic>fnltar</sic>
+                     <corr>faltar</corr>
+                  </choice> á la verdad;</l>
                <l>dejando de ser pesados,</l>
                <l>teniendo formalidad,</l>
                <l>siendo menos mentecatos,</l>
@@ -370,11 +380,11 @@
                <l>tanto malo hay que notar,</l>
                <l>que fuera perder el juicio</l>
                <l>quererlo todo apuntar.</l>
-               
-               <pb n="4" source="Moreno_115_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_115_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>Los Angeles y los Justos,</l>
                <l>muy lejos de serlo están,</l>
                <l>pues aunque son buenos nombres</l>
@@ -449,12 +459,12 @@
                <l>y conoceis su verdad,</l>
                <l>échales la bendicion</l>
                <l>por toda una eternidad.</l>
-               
+
                <trailer rend="negrita">Fin.</trailer>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />CARMONA, Imp. de D. José M. Moreno, Madre de Dios 1.</p>
+               <p><lb/>CARMONA, Imp. de D. José M. Moreno, Madre de Dios 1.</p>
             </div>
          </div>
       </body>

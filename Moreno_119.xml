@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_119">
    <teiHeader>
       <fileDesc>
@@ -20,10 +21,10 @@
                <titleStmt>
                   <title type="titulo_completo">Coleccion de coplas nuevas de Fandango, Malagueñas y
                      Rondeñas.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,20 +36,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031544</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 128</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -79,7 +82,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -107,27 +116,26 @@
       <revisionDesc>
          <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_119_thumbnail.jpg" />
+      <graphic url="Moreno_119_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_119_1.jpg" />
-               
+               <pb n="1" source="Moreno_119_1.jpg"/>
+
                <fw type="impresorNum">Núm. 128.</fw>
-               
+
                <head>
-                  <lb /><hi rend="negrita">COLECCION DE COPLAS NUEVAS</hi>
-                  <lb />DE
-                  <hi rend="cursiva"><lb />FANDANGO, MALAGUEÑAS
-                  <lb />Y RONDEÑAS.</hi>
+                  <lb/><hi rend="negrita">COLECCION DE COPLAS NUEVAS</hi>
+                  <lb/>DE <hi rend="cursiva"><lb/>FANDANGO, MALAGUEÑAS <lb/>Y RONDEÑAS.</hi>
                </head>
-               
+
                <l rend="indent">El amor es como el niño</l>
                <l>que se enoja y tira el pan,</l>
                <l>y en haciéndole cariños,</l>
@@ -156,11 +164,11 @@
                <l>no venga pidiendo celos,</l>
                <l>que harto favor se le hace</l>
                <l>con quererle pelo á pelo.</l>
-               
-               <pb n="2" source="Moreno_119_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_119_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l rend="indent">La mujer que encuentre un hombre</l>
                <l>fino, constante y leal,</l>
                <l>llévelo, por cosa rara,</l>
@@ -257,11 +265,11 @@
                <l>poner mi mujer en venta,</l>
                <l>para comprar un caballo</l>
                <l>que me sale mejor cuenta.</l>
-               
-               <pb n="3" source="Moreno_119_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_119_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l rend="indent">Mi marido fué á las Indias,</l>
                <l>por acrecer su caudal;</l>
                <l>trajo mucho que decir,</l>
@@ -358,11 +366,11 @@
                <l>la contaba mi dolor,</l>
                <l>¡mira lo que la diria</l>
                <l>que la piedra se partió!</l>
-               
-               <pb n="4" source="Moreno_119_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_119_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l rend="indent">El Sol le dijo á la Luna</l>
                <l>que se fuera á recoger,</l>
                <l>que á deshora de la noche</l>
@@ -420,12 +428,12 @@
                <l>Serrana, porque te quiero,</l>
                <l>todo el mundo en contra mia,</l>
                <l>y yo contra el mundo entero.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />CARMONA:—Imp y lib. de D. José M. Moreno, Madre de Dios, 1.</p>
+               <p><lb/>CARMONA:—Imp y lib. de D. José M. Moreno, Madre de Dios, 1.</p>
             </div>
          </div>
       </body>

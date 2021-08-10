@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_116">
    <teiHeader>
       <fileDesc>
@@ -19,12 +20,12 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Sainete nuevo titulado: La estatua fingida ó Jorge el
-                     Sagristan.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_completo">Sainete nuevo titulado: La estatua fingida ó Jorge
+                     el Sagristan.</title>
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031533</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 124</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -80,7 +83,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -99,46 +108,45 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-17" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-17" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-29" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_116_thumbnail.jpg" />
+      <graphic url="Moreno_116_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_116_1.jpg" />
+            <pb n="1" source="Moreno_116_1.jpg"/>
 
             <fw type="impresorNum">Número 124.</fw>
 
             <head type="primer_titulo">
-               <lb /><hi rend="negrita">SAINETE NUEVO</hi>
-               <lb />TITULADO:
-               <lb /><hi rend="negrita">LA ESTATUA FINGIDA</hi>
-               <lb />Ó
-               <lb /><hi rend="negrita">JORGE EL SAGRISTAN.</hi>
+               <lb/><hi rend="negrita">SAINETE NUEVO</hi>
+               <lb/>TITULADO: <lb/><hi rend="negrita">LA ESTATUA FINGIDA</hi>
+               <lb/>Ó <lb/><hi rend="negrita">JORGE EL SAGRISTAN.</hi>
             </head>
 
             <div type="colofon">
                <p>
-                  <lb /><hi rend="cursiva">CARMONA</hi>:—1864.
-                  <lb />Imp. de D. José María Moreno, calle de Madre de Dios.
-               </p>
+                  <lb/><hi rend="cursiva">CARMONA</hi>:—1864. <lb/>Imp. de D. José María Moreno,
+                  calle de Madre de Dios. </p>
             </div>
 
             <div>
-               <pb n="2" source="Moreno_116_2.jpg" />
-               
+               <pb n="2" source="Moreno_116_2.jpg"/>
+
                <head type="reparto_titulo">PERSONAS.</head>
                <castList>
                   <castItem>ANTON, <hi rend="cursiva">esposo de</hi></castItem>
@@ -150,13 +158,10 @@
             </div>
 
             <div>
-               <pb n="3" source="Moreno_116_3.jpg" />
+               <pb n="3" source="Moreno_116_3.jpg"/>
 
                <head rend="negrita" type="subtitulo">
-                  <lb />LA ESTATUA FINGIDA
-                  <lb />O
-                  <lb />JORGE EL SACRISTAN.
-               </head>
+                  <lb/>LA ESTATUA FINGIDA <lb/>O <lb/>JORGE EL SACRISTAN. </head>
 
                <stage rend="cursiva">La escena presentará una casa pobre.</stage>
 
@@ -188,7 +193,7 @@
                   <l>Que lindo entretenimiento!</l>
                   <l>con la mula riñe ahora.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Dentro Anton.</speaker>
                   <l>Ah, mujer!</l>
@@ -217,13 +222,13 @@
                   <speaker rend="cursiva">Sale Anton.</speaker>
                   <l>Qué comamos.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gila</speaker>
                   <l>Y que habeis traido</l>
                   <l>para que comer podamos!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Anton.</speaker>
                   <l>Qué siempre lo he de traer?</l>
@@ -243,7 +248,7 @@
                   <l>que ayer trajo el carnicero,</l>
                   <l>no las podemos oler?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gila</speaker>
                   <l>(Triste de mi, y desdichada!</l>
@@ -291,11 +296,11 @@
                <sp>
                   <speaker rend="cursiva">Gila.</speaker>
                   <l>Por no oir tan mala lengua,</l>
-                  
-               <pb n="4" source="Moreno_116_4.jpg" />
-                  
-               <fw type="paginaNum">4</fw>
-                  
+
+                  <pb n="4" source="Moreno_116_4.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
                   <l>aunque lo hurte lo haré,</l>
                   <l>y comas aunque revientes. <stage rend="cursiva">Vase.</stage></l>
                </sp>
@@ -306,7 +311,7 @@
                   <l>Ahora vamos á zampar,</l>
                   <l>que despues yo lo diré. <stage rend="cursiva">Vase.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Sacristan.</stage>
 
                <sp>
@@ -326,7 +331,7 @@
                   <l>mis alforjas, mis morcillas,</l>
                   <l>mis talones y mis pies!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Dentro Anton</speaker>
                   <l>Gila, au?</l>
@@ -348,7 +353,7 @@
                   <speaker rend="cursiva">Dent. Anton.</speaker>
                   <l>Ha mujer!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sacr,</speaker>
                   <l>Ay! por mi vida</l>
@@ -426,7 +431,7 @@
                   <speaker rend="cursiva">Sacr.</speaker>
                   <l>Eus: Gila mia eus,</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gila</speaker>
                   <l>Quién es eus?</l>
@@ -437,7 +442,7 @@
                   <l>Ego sum, no te alborotes.</l>
                   <l>Possum salire?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gila,</speaker>
                   <l>Bien puedes.</l>
@@ -452,11 +457,11 @@
                   <l>como una pepita.</l>
                   <l>Yo, señorita, me muero,</l>
                   <l>siempre que en tí pensar quiero</l>
-                  
-               <pb n="5" source="Moreno_116_5.jpg" />
-               
-               <fw type="paginaNum">5</fw>
-                  
+
+                  <pb n="5" source="Moreno_116_5.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
                   <l>yo soy gato de enero, que todo <add place="debajo">lo ando,</add></l>
                   <l>saltando y bailando</l>
                   <l>por la vuestra puerta,</l>
@@ -499,7 +504,7 @@
                   <l>pero no los albañales</l>
                   <l>que mis enemiges son.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gild.</speaker>
                   <l>Hay mas?</l>
@@ -608,11 +613,11 @@
                   <l>hagas el santo,</l>
                   <l>y mirándote yo estaré elevada;</l>
                   <l>el no haber respondido á mi <add place="debajo">marido</add></l>
-                  
-               <pb n="6" source="Moreno_116_6.jpg" />
-                  
-               <fw type="paginaNum">6</fw>
-                  
+
+                  <pb n="6" source="Moreno_116_6.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
                   <l>ésta conocerá la causa ha sido,</l>
                </sp>
 
@@ -626,12 +631,10 @@
                   <l>Ay que sale! ponte de santo,</l>
                   <l>y quédate muy grave</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Pónese en la mesa y Gila se
-                  <lb />Arrodilla.
-               </stage>
-               
+                  <lb/>Pónese en la mesa y Gila se <lb/>Arrodilla. </stage>
+
                <sp>
                   <speaker rend="cursiva">Sale Ant,</speaker>
                   <l>Vive brios que ya he sal-<add place="debajo">(tado</add></l>
@@ -696,7 +699,7 @@
                   <l>Perdon quiero demandar</l>
                   <l>de mis juicios temerarios.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sacr.</speaker>
                   <l>Ay, que se acerca, san Blas!</l>
@@ -792,17 +795,17 @@
                   <l>que me quereis abrazar;</l>
                   <l>basta que los pies os bese.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sacr</speaker>
                   <l>No te basta, Gila tal.</l>
                   <l>Ea, levanta á mis brazos,</l>
                   <l>que es un rasguño no mas</l>
-                  
-                <pb n="7" source="Moreno_116_7.jpg" />
-                
-                <fw type="paginaNum">7</fw>
-                  
+
+                  <pb n="7" source="Moreno_116_7.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
                   <l>de lo mucho que te quiero</l>
                   <l>llegarte ahora á abrazar.</l>
                </sp>
@@ -874,7 +877,7 @@
                   <l>Toma aun que sean seiscientos,</l>
                   <l>y cuida de no faltar.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Dentro voces.</speaker>
                   <l>El santo vamos á ver.</l>
@@ -905,10 +908,10 @@
                   <l>con una lluvia cerrada</l>
                   <l>de estacazos, si á oler llegan</l>
                   <l>que soy Jorge el Sacristan.</l>
-                  
+
                   <stage rend="cursiva">Salen los Payos y Anton.</stage>
                   <stage rend="cursiva">Cantan.</stage>
-                  
+
                   <l>Viva Anton Chaparro,</l>
                   <l>Viva nuestro pueblo,</l>
                   <l>Que goza favores</l>
@@ -953,11 +956,9 @@
                   <l>y sea alegres diciendo:</l>
                   <l>que viva el santo y reviva.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Tocan, y le pasean.
-                  <lb />Sale el Alcalde.
-               </stage>
+                  <lb/>Tocan, y le pasean. <lb/>Sale el Alcalde. </stage>
 
                <sp>
                   <speaker rend="cursiva">Alcalde.</speaker>
@@ -970,11 +971,11 @@
                   <l>vereis el parecimiento</l>
                   <l>que me he encontrado en mi casa:</l>
                   <l>yo estoy lelo de contento,</l>
-                  
-               <pb n="8" source="Moreno_116_8.jpg" />
-                  
-               <fw type="paginaNum">8</fw>
-                  
+
+                  <pb n="8" source="Moreno_116_8.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
                   <l>este santo á mi mujer</l>
                   <l>ha venido á dar consuelo.</l>
                </sp>
@@ -1054,7 +1055,7 @@
                   <l>que en tres meses no te cura</l>
                   <l>el barbero de la plaza.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Anton.</speaker>
                   <l>Despejar podeis, señores;</l>
@@ -1062,7 +1063,7 @@
                   <l>El susto no ha sido nada.</l>
                   <l>Adios, adios, mis señores.</l>
                </sp>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
          </div>

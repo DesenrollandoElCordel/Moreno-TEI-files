@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_117">
    <teiHeader>
       <fileDesc>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5031535</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 126</idno>
                   </altIdentifier>
@@ -83,7 +86,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -111,31 +120,28 @@
       <revisionDesc>
          <change when="2021-04-27" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_117_thumbnail.jpg" />
+      <graphic url="Moreno_117_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_117_1.jpg" />
-               
+               <pb n="1" source="Moreno_117_1.jpg"/>
+
                <fw type="impresorNum">Núm. 126</fw>
-               
+
                <head type="primer_titulo">
-                  <lb />VIDA EJEMPLAR
-                  <lb />DE
-                  <lb />SANTA ROSALIA,
-                  <lb />PRINCESA DE PALERMO.
-               </head>
+                  <lb/>VIDA EJEMPLAR <lb/>DE <lb/>SANTA ROSALIA, <lb/>PRINCESA DE PALERMO. </head>
                <head rend="negrita" type="subtitulo">Especial abogada comira la peste.</head>
-               
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">En la ciudad de Palermo,</l>
                   <l>córte insigne y celebrada,</l>
                   <l>en el reino de Sicilia,</l>
@@ -164,11 +170,11 @@
                   <l>aviso de las profanas,</l>
                   <l>y ejemplar de penitentes.</l>
                   <l>Para que todo imitara</l>
-                  
-                  <pb n="2" source="Moreno_117_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_117_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>al divino precursor,</l>
                   <l>quiso que fuese anunciada,</l>
                   <l>y así dispuso que un ángel</l>
@@ -269,11 +275,11 @@
                   <l>humilde, obediente y casta.</l>
                   <l>De este prodigio la niña</l>
                   <l>quedó absorta y desmayada,</l>
-                  
-                  <pb n="3" source="Moreno_117_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_117_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>y la criada confusa,</l>
                   <l>porque tambien la criada</l>
                   <l>conoció que á su señora</l>
@@ -374,11 +380,11 @@
                   <l>estaba determinada</l>
                   <l>de no casarse, aunque viera</l>
                   <l>el cuchillo á la garganta.</l>
-                  
-                  <pb n="4" source="Moreno_117_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_117_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>penas se fué su padre,</l>
                   <l>cuando vió entrar por la sala</l>
                   <l>dos bellísimos mancebos,</l>
@@ -471,19 +477,19 @@
                   <l>dirá Adarbe lo que falta,</l>
                   <l>hasta la dichosa muerte</l>
                   <l>de esta prodigiosa Santa.</l>
-                  
+
                   <trailer>Fin de la primera parte.</trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_117_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_117_5.jpg"/>
+
                   <head type="titulo_parte">
-                     <lb />SEGUNDA PARTE,
-                     <hi rend="cursiva"><lb />en que se refiere el resto de la penitente vida, y la prodigiosa muerte
-                     <lb />de santa Rosalia de Palermo.</hi>
+                     <lb/>SEGUNDA PARTE, <hi rend="cursiva"><lb/>en que se refiere el resto de la
+                        penitente vida, y la prodigiosa muerte <lb/>de santa Rosalia de
+                        Palermo.</hi>
                   </head>
-                  
+
                   <l rend="indent">Dejamos á Rosalía</l>
                   <l>penitente y ermitaña</l>
                   <l>en el monte de Quisquina</l>
@@ -530,11 +536,11 @@
                   <l>todo cuanto deseaba;</l>
                   <l>como hallar tan alta prenda</l>
                   <l>que tomé empeño en buscarla,</l>
-                  
-                  <pb n="6" source="Moreno_117_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_117_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>despues de haber penetrado</l>
                   <l>Italia, Francia y España,</l>
                   <l>buscondo tu real persona,</l>
@@ -635,11 +641,11 @@
                   <l>pondré fuego á esta montaña,</l>
                   <l>ó haré que una horrible fiera</l>
                   <l>te despedace en sus garras</l>
-                  
-                  <pb n="7" source="Moreno_117_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_117_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>Mas viendo que no responde</l>
                   <l>ni teme sus amenazas,</l>
                   <l>la maltrata á crueles golpes</l>
@@ -740,11 +746,11 @@
                   <l>en una píedra grabadas</l>
                   <l>dejó unas letras que dicen</l>
                   <l>Rosalía Sinibalda,</l>
-                  
-                  <pb n="8" source="Moreno_117_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_117_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>hija del Conde de Rosas,</l>
                   <l>y princesa propietaria,</l>
                   <l>de mi voluntad renuncio</l>
@@ -831,13 +837,13 @@
                   <l>nos alcance de Dios gracia,</l>
                   <l>de imitarla en sus virtudes</l>
                   <l>y libre de peste á España.</l>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />CARMONA:—Imprenta de D. José Maria Moreno calle Madre de Dios, núm. 1</p>
+               <p><lb/>CARMONA:—Imprenta de D. José Maria Moreno calle Madre de Dios, núm. 1</p>
             </div>
          </div>
       </body>
