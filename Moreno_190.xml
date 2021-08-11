@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_190">
    <teiHeader>
       <fileDesc>
@@ -41,11 +42,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5040727</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 199</idno>
                   </altIdentifier>
@@ -89,7 +92,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -117,25 +126,26 @@
       <revisionDesc>
          <change when="2021-04-05" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_190_thumbnail.jpg" />
+      <graphic url="Moreno_190_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
-         
+
          <div>
 
-            <pb n="1" source="Moreno_190_1.jpg" />
+            <pb n="1" source="Moreno_190_1.jpg"/>
 
             <fw type="impresorNum">Núm. 199.</fw>
 
             <head rend="negrita" type="primer_titulo">EL MALTES DE MADRID.</head>
             <head rend="cursiva" type="subtitulo">Romance en que se declara una prision que ha sido
-               hecha en la córte <lb />de Madrid de tres hombres y dos mujeres, por haber dado muerte
-               á <lb />veinte y siete personas; y como se descubrió por un caballero Maltés <lb />con
+               hecha en la córte <lb/>de Madrid de tres hombres y dos mujeres, por haber dado muerte
+               á <lb/>veinte y siete personas; y como se descubrió por un caballero Maltés <lb/>con
                quien querian ejecutar lo mismo con él.</head>
 
             <div n="1" type="parte">
@@ -171,7 +181,7 @@
                <l>llegándose al caballero,</l>
                <l>le dice aquestas palabras:</l>
 
-               <pb n="2" source="Moreno_190_2.jpg" />
+               <pb n="2" source="Moreno_190_2.jpg"/>
 
                <fw type="paginaNum">2</fw>
 
@@ -264,7 +274,7 @@
                <l>diciendo: que buen reloj:</l>
                <l>Veámosle camarada,</l>
 
-               <pb n="3" source="Moreno_190_3.jpg" />
+               <pb n="3" source="Moreno_190_3.jpg"/>
 
                <fw type="paginaNum">3</fw>
 
@@ -357,7 +367,7 @@
                <l>cuatro fuertes carabinas,</l>
                <l>y á la papelera marcha.</l>
 
-               <pb n="4" source="Moreno_190_4.jpg" />
+               <pb n="4" source="Moreno_190_4.jpg"/>
 
                <fw type="paginaNum">4</fw>
 
@@ -448,7 +458,7 @@
 
             <div n="2" type="parte">
 
-               <pb n="5" source="Moreno_190_5.jpg" />
+               <pb n="5" source="Moreno_190_5.jpg"/>
 
                <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
                <head rend="negrita" type="primer_titulo">EL MALTES DE MADRID.</head>
@@ -510,7 +520,7 @@
                <l>los tenian allí presos.</l>
                <l>Y por los señores visto</l>
 
-               <pb n="6" source="Moreno_190_6.jpg" />
+               <pb n="6" source="Moreno_190_6.jpg"/>
 
                <fw type="paginaNum">6</fw>
 
@@ -602,11 +612,11 @@
                <l>de secos y consumidos,</l>
                <l>se iban de noche sacando,</l>
                <l>y se tiraban al rio;</l>
-               
-               <pb n="7" source="Moreno_190_7.jpg" />
-               
+
+               <pb n="7" source="Moreno_190_7.jpg"/>
+
                <fw type="paginaNum">7</fw>
-               
+
                <l>de esta suerte hemos muerto</l>
                <l>veinte y seis hombres y un niño,</l>
                <l>que entró tambien con su padre</l>
@@ -695,11 +705,11 @@
                <l>en unas sarrias metidos</l>
                <l>los sacaron de la cárcel,</l>
                <l>y de caridad movidos</l>
-               
-               <pb n="8" source="Moreno_190_8.jpg" />
-               
+
+               <pb n="8" source="Moreno_190_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
-               
+
                <l>los religiosos los llevan</l>
                <l>en el aire suspendidos,</l>
                <l>con grande acompañamiento</l>
@@ -772,7 +782,7 @@
             </div>
 
          </div>
-         
+
       </body>
    </text>
 </TEI>

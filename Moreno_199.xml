@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_199">
    <teiHeader>
       <fileDesc>
@@ -21,10 +22,10 @@
                <titleStmt>
                   <title type="titulo_completo">Sainete nuevo titulado El paje de la
                      obligacion.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5040800</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 210</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,15 +79,21 @@
                </physDesc>
                <history>
                   <acquisition>
-                     <p />
+                     <p/>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><projectDesc>
-            <p />
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
+            <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -105,7 +114,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -114,38 +123,35 @@
       <revisionDesc>
          <change when="2021-03-19" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-07-01" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_199_thumbnail.jpg" />
+      <graphic url="Moreno_199_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_199_1.jpg" />
+            <pb n="1" source="Moreno_199_1.jpg"/>
 
             <fw type="impresorNum">Núm. 210.</fw>
 
             <head type="primer_titulo">
-               <lb /><hi rend="negrita">SAINETE NUEVO</hi>
-               <lb />TITULADO:
-               <hi rend="negrita"><lb />EL PAJE
-               <lb />DE LA OBLIGACION.</hi>
+               <lb/><hi rend="negrita">SAINETE NUEVO</hi>
+               <lb/>TITULADO: <hi rend="negrita"><lb/>EL PAJE <lb/>DE LA OBLIGACION.</hi>
             </head>
             <head type="subtitulo">PARA SIETE PERSONAS.</head>
 
             <div type="colofon">
                <p>
-                  <lb />Carmona, 1865
-                  <lb />Imprenta y librería de D. José María Moreno, 
-                  <lb />calle, Madre de Dios, número 1.
-               </p>
+                  <lb/>Carmona, 1865 <lb/>Imprenta y librería de D. José María Moreno, <lb/>calle,
+                  Madre de Dios, número 1. </p>
             </div>
 
             <div type="reparto">
-               <pb n="2" source="Moreno_199_2.jpg" />
+               <pb n="2" source="Moreno_199_2.jpg"/>
 
                <head type="reparto_titulo">PERSONAS.</head>
                <castList rend="negrita">
@@ -160,14 +166,12 @@
             </div>
 
             <div>
-               <pb n="3" source="Moreno_199_3.jpg" />
-               
+               <pb n="3" source="Moreno_199_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <stage rend="cursiva">
-                  <lb />Sala de Don Anacleto, aparese este, y
-                  <lb />sale el Baron.
-               </stage>
+                  <lb/>Sala de Don Anacleto, aparese este, y <lb/>sale el Baron. </stage>
 
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
@@ -270,7 +274,7 @@
                   <l>porque se case con mi hija,</l>
                   <l>sin tocar yo mis talegos.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Paje.</stage>
 
                <sp>
@@ -300,7 +304,7 @@
                   <l>Está bien. Tu ama sale,</l>
                   <l>mira que hermoso portento.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Sinforasa de figurona.</stage>
 
                <sp>
@@ -320,7 +324,7 @@
                   <l>Con el Baron Tutiplen</l>
                   <l>ya convenido lo tengo.</l>
                </sp>
-               
+
                <sp>
                   <speaker>Sinf</speaker>
                   <l>Y será esta misma noche?</l>
@@ -361,7 +365,7 @@
                   <speaker rend="cursiva">Anac.</speaker>
                   <l>Es menester mas de espacio.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sinf. </speaker>
                   <l>Pues yo de prisa lo quiero.</l>
@@ -376,11 +380,11 @@
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
                   <l>Esta prisa me parece</l>
-                  
-               <pb n="4" source="Moreno_199_4.jpg" />
-                  
-               <fw type="paginaNum">4</fw>
-                  
+
+                  <pb n="4" source="Moreno_199_4.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
                   <l>que puede ser de provecho</l>
                   <l>para poderse lograr,</l>
                   <l>el intento que deseo:</l>
@@ -421,7 +425,7 @@
                   <l>el lamedor y seretas,</l>
                   <l>que sino está volaverunt.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Lec. </speaker>
                   <l>«Estarás en la antesala,</l>
@@ -444,7 +448,7 @@
                   <l>«y tambien por el Barbero,</l>
                   <l>«le darás la esponja al.....</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale la Criada.</stage>
 
                <sp>
@@ -495,7 +499,7 @@
                   <l>Si te cojo juro al cielo</l>
                   <l>que lo tienes de llevar</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Anacleto.</stage>
 
                <sp>
@@ -529,11 +533,9 @@
                   <l>no que con estas fregonas</l>
                   <l>es necesario andar tieso.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Sale Sinforosa corriendo y al decir
-                  <lb />los primeros versos tropiesa y cae.
-               </stage>
+                  <lb/>Sale Sinforosa corriendo y al decir <lb/>los primeros versos tropiesa y cae. </stage>
 
                <sp>
                   <speaker rend="cursiva">Sinf.</speaker>
@@ -586,7 +588,7 @@
                   <l>que yo lo que no me toca,</l>
                   <l>digo que no quiero hacerlo.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Baron.</stage>
 
                <sp>
@@ -604,11 +606,11 @@
                <sp>
                   <speaker rend="cursiva">Bar.</speaker>
                   <l>Pues yo sí; dame la mano</l>
-                  
-               <pb n="5" source="Moreno_199_5.jpg" />
-                  
-               <fw type="paginaNum">5</fw>
-                  
+
+                  <pb n="5" source="Moreno_199_5.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
                   <l>ya que vine á tan buen tiempo,</l>
                   <l>levántate hermosa ninfa</l>
                   <l>no hagas caso de jumentos.</l>
@@ -679,7 +681,7 @@
                   <l>No está mala esta jugada,</l>
                   <l>codillo les doy si puedo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bar.</speaker>
                   <l>Pues mi bien hasta las once.</l>
@@ -703,7 +705,7 @@
                   <l>ganancia de pescadores</l>
                   <l>cuando está el rio revuelto. <stage rend="cursiva">vase.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Anacleto.</stage>
 
                <sp>
@@ -723,7 +725,7 @@
                   <l>Ola, Alfonso, muchacho,</l>
                   <l>vamos, al instante; presto.</l>
                </sp>
-                  
+
                <stage rend="cursiva">Sale el Paje.</stage>
 
                <sp>
@@ -762,7 +764,7 @@
                   <speaker rend="cursiva">Anac.</speaker>
                   <l>Ve pronto mostrenco.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Paj. </speaker>
                   <l>«Por el maestro de Sastre,</l>
@@ -773,7 +775,7 @@
                   <speaker rend="cursiva">Anac.</speaker>
                   <l>Que te doy un silletazo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Paj. </speaker>
                   <l>«Le darás:::</l>
@@ -802,20 +804,18 @@
                   <l>pues toditas esas cosas,</l>
                   <l>ponerlas en el cuaderno.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Le quita Anacleto el papel y lo
-                  <lb />rasga.
-               </stage>
+                  <lb/>Le quita Anacleto el papel y lo <lb/>rasga. </stage>
 
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
                   <l>Animal, de aquesta suerte</l>
                   <l>acabáranse los pleitos.</l>
                </sp>
-               
-               <pb n="6" source="Moreno_199_6.jpg" />
-                  
+
+               <pb n="6" source="Moreno_199_6.jpg"/>
+
                <fw type="paginaNum">6</fw>
 
                <sp>
@@ -841,11 +841,9 @@
                   <l>dos ó tres gorros, que aquí</l>
                   <l>en las faldriqueras tengo.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Saca de las faldriqueras los gorros
-                  <lb />que pueda y se los va poniendo
-               </stage>
+                  <lb/>Saca de las faldriqueras los gorros <lb/>que pueda y se los va poniendo </stage>
 
                <sp>
                   <speaker rend="cursiva">Agac.</speaker>
@@ -864,7 +862,7 @@
                   <l>Se habrá visto tal paciencia,</l>
                   <l>yo de cólera reviento.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Paj </speaker>
                   <l>Mire Vm. de aquesta suerte</l>
@@ -875,7 +873,7 @@
                   <speaker rend="cursiva">Anac.</speaker>
                   <l>Pícaro, marcha al instante.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Sinforosa.</stage>
 
                <sp>
@@ -940,7 +938,7 @@
                   <speaker rend="cursiva">Sinf.</speaker>
                   <l>Ay Paje tan atrevido?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Paj </speaker>
                   <l>Que demonios será esto?</l>
@@ -978,7 +976,7 @@
                   <l>Pues al instante</l>
                   <l>se la pido, lo primero.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale la Criada.</stage>
 
                <sp>
@@ -1045,15 +1043,13 @@
                   <l>que no pueden tardar mucho</l>
                   <l>y no han de lograr saberlo.</l>
                </sp>
-               
-               <pb n="7" source="Moreno_199_7.jpg" />
-               
+
+               <pb n="7" source="Moreno_199_7.jpg"/>
+
                <fw type="paginaNum">7</fw>
-               
+
                <stage rend="cursiva">
-                  <lb />Sale el Paje, y despues á su tiempo
-                  <lb />el Escribano y dos testigos.
-               </stage>
+                  <lb/>Sale el Paje, y despues á su tiempo <lb/>el Escribano y dos testigos. </stage>
 
                <sp>
                   <speaker rend="cursiva">Paj.</speaker>
@@ -1075,7 +1071,7 @@
                   <l>Mi Señor D. Anacleto!</l>
                   <l>tenga V. muy buenas noches.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
                   <l>Dios les guarde caballeros.</l>
@@ -1100,7 +1096,7 @@
                   <speaker rend="cursiva">Los 3.</speaker>
                   <l>No tengais ningun recelo.</l>
                </sp>
-               
+
                <stage rend="cursiva">Vanse.</stage>
 
                <sp>
@@ -1120,11 +1116,9 @@
                   <l>porque se acerca la hora</l>
                   <l>de darle fin á mí enredo. <stage rend="cursiva">vase.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Salon obscuro, salen D. Anacleto,
-                  <lb />Escribano y testigos.
-               </stage>
+                  <lb/>Salon obscuro, salen D. Anacleto, <lb/>Escribano y testigos. </stage>
 
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
@@ -1150,7 +1144,7 @@
                   <l>antes que vengan, porque</l>
                   <l>las once ya pienso dieron.</l>
                </sp>
-               
+
                <stage rend="cursiva">Escóndense y salo le Criada.</stage>
 
                <sp>
@@ -1158,7 +1152,7 @@
                   <l>Que malo es andar á obscuras,</l>
                   <l>á cada paso un tropiezo.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Paje.</stage>
 
                <sp>
@@ -1190,7 +1184,7 @@
                   <l>Ponte pues en este lado</l>
                   <l>y mira que andes con tiento.</l>
                </sp>
-               
+
                <sp>
                   <speaker>Cria.</speaker>
                   <l>Ahora di, qué he de hacer?</l>
@@ -1228,13 +1222,10 @@
                   <l>sin duda que es Sinforosa</l>
                   <l>que hácia esta parte la siento.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Pónese la Criada á la parte por
-                  <lb />donde saldrá el Baron, y el Paje
-                  <lb />al contrario pero ambos unidos
-                  <lb />en medio del teatro.
-               </stage>
+                  <lb/>Pónese la Criada á la parte por <lb/>donde saldrá el Baron, y el Paje <lb/>al
+                  contrario pero ambos unidos <lb/>en medio del teatro. </stage>
 
                <sp>
                   <speaker rend="cursiva">Sinf.</speaker>
@@ -1247,9 +1238,9 @@
                   <l>Yo digo que miel caliente</l>
                   <l>es lo que busca el buñuelo.</l>
                </sp>
-               
-               <pb n="8" source="Moreno_199_8.jpg" />
-                  
+
+               <pb n="8" source="Moreno_199_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
 
                <sp>
@@ -1273,9 +1264,9 @@
                   <speaker rend="cursiva">Cria.</speaker>
                   <l>El Baron ya entra aquí dentro.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Baron Armado.</stage>
-               
+
                <sp>
                   <speaker rend="cursiva">Bar.</speaker>
                   <l>Las once vendrán á ser</l>
@@ -1315,12 +1306,10 @@
                   <l>Si es que sale Sinforosa</l>
                   <l>que chasco llevará el Viejo</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Sinfarosa habla con el Paje, y el
-                  <lb />Baron con la Criada, todos fingiendo
-                  <lb />secreto.
-               </stage>
+                  <lb/>Sinfarosa habla con el Paje, y el <lb/>Baron con la Criada, todos fingiendo
+                  <lb/>secreto. </stage>
 
                <sp>
                   <speaker rend="cursiva">Sinf.</speaker>
@@ -1367,11 +1356,9 @@
                   <speaker rend="cursiva">Paj.</speaker>
                   <l>Píllala, que ya la pillo.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Salen todos con luces, despues de ha-
-                  <lb />berse tomado las manos.
-               </stage>
+                  <lb/>Salen todos con luces, despues de ha- <lb/>berse tomado las manos. </stage>
 
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
@@ -1454,7 +1441,7 @@
                   <l>Con el Paje, y qué tenemos?</l>
                   <l>dígame V. ¿qué no es hombre?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Paj.</speaker>
                   <l>Sí lo soy, y muy completo.</l>
@@ -1465,7 +1452,7 @@
                   <l>Y ven acá picaron:</l>
                   <l>es de tu obligacion eso?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Paj.</speaker>
                   <l>Es Señor mi conveniencia</l>
@@ -1473,7 +1460,7 @@
                   <l>y aquí se acaba el Sainete,</l>
                   <l>perdonad sus muchos yerros.</l>
                </sp>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
          </div>
