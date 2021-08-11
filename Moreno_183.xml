@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_183">
    <teiHeader>
       <fileDesc>
@@ -20,10 +21,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Sainete. El mesonero encantado.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,20 +36,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5040682</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 192</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -66,21 +69,27 @@
                   </objectDesc>
                   <decoDesc>
                      <decoNote>
-                        <p />
+                        <p/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <history>
                   <acquisition>
-                     <p />
+                     <p/>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><projectDesc>
-            <p />
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
+            <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -101,33 +110,33 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
          <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
          <change when="2021-07-01" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_183_thumbnail.jpg" />
+      <graphic url="Moreno_183_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_183_1.jpg" />
+            <pb n="1" source="Moreno_183_1.jpg"/>
 
             <fw type="impresorNum">Núm. 192.</fw>
 
             <head type="primer_titulo">
-               <lb /><hi rend="negrita">SAINETE</hi>
-               <lb /><hi rend="negrita">EL MESONERO</hi>
-               <lb />ENCANTADO.
-            </head>
+               <lb/><hi rend="negrita">SAINETE</hi>
+               <lb/><hi rend="negrita">EL MESONERO</hi>
+               <lb/>ENCANTADO. </head>
 
             <div type="reparto">
                <head>PERSONA.</head>
@@ -143,9 +152,8 @@
 
             <div>
                <stage rend="cursiva">
-                  <lb />Salen los cuatro hombres corriendo, y el primero
-                  <lb />con un cordel, como que quiere ahorcarse.
-               </stage>
+                  <lb/>Salen los cuatro hombres corriendo, y el primero <lb/>con un cordel, como que
+                  quiere ahorcarse. </stage>
 
 
                <sp>
@@ -185,11 +193,11 @@
                   <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
                   <l>Es rencor, </l>
                   <l>ira, sarna, amor y peste.</l>
-                  
+
                </sp>
-               
-               <pb n="2" source="Moreno_183_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_183_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
 
                <sp>
@@ -232,7 +240,7 @@
                   <l>que encuentre este hombre comedia</l>
                   <l>y nos quedamos asperges.</l>
                </sp>
-               
+
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 3</speaker>
                   <l>Este puñal en mi pecho</l>
@@ -248,11 +256,11 @@
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
                   <l>Mucho sentiré Benita,</l>
-                  
-               <pb n="3" source="Moreno_183_3.jpg" />
-               
-               <fw type="paginaNum">3</fw>
-                  
+
+                  <pb n="3" source="Moreno_183_3.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
                   <l>si mi amor fino te pierde:</l>
                   <l>pero morir como esotros,</l>
                   <l>dígo, que no me conviene</l>
@@ -319,11 +327,11 @@
                   <l>y con trages diferentes</l>
                   <l>os disfrazareis, por sí</l>
                   <l>es que acaso no siguiere,</l>
-                  
-               <pb n="4" source="Moreno_183_4.jpg" />
-                  
-               <fw type="paginaNum">4</fw>
-                  
+
+                  <pb n="4" source="Moreno_183_4.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
                   <l>donde un chasco le daremos,</l>
                   <l>para que crea el pobrete</l>
                   <l>que es un palacio encantado.</l>
@@ -368,7 +376,10 @@
 
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
-                  <l>Ellas son como <choice><sic>!a</sic><corr>la</corr></choice> fruta,</l>
+                  <l>Ellas son como <choice>
+                        <sic>!a</sic>
+                        <corr>la</corr>
+                     </choice> fruta,</l>
                   <l>que todo el daño advierten,</l>
                   <l>y todos quieren comerla,</l>
                </sp>
@@ -393,18 +404,19 @@
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
                   <l>Pues decid todos conmigo,</l>
-                  <l>mientras vamos á emprenderle.</l></sp>
-               
+                  <l>mientras vamos á emprenderle.</l>
+               </sp>
+
                <stage rend="cursiva">Dice el hombre primero y luego repiten todos</stage>
-               
+
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 1,</speaker>
                   <l>A Dios, mosqueteros,</l>
-                  
-               <pb n="5" source="Moreno_183_5.jpg" />
-                  
-               <fw type="paginaNum">5</fw>
-                  
+
+                  <pb n="5" source="Moreno_183_5.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
                   <l>siempre amigos fieles,</l>
                   <l>que un chasco á dar vamos;</l>
                   <l>y si bien sucede,</l>
@@ -412,7 +424,7 @@
                   <l>al pobre inocente;</l>
                   <l>Pues al chasco;</l>
                </sp>
-               
+
                <sp>
                   <speaker><hi rend="cursiva">Los</hi> 3 </speaker>
                   <l>Al chasco.</l>
@@ -427,7 +439,7 @@
                   <speaker rend="cursiva">Todos.</speaker>
                   <l>Y muera el pobrete. <stage rend="cursiva">Vanse.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Salen las cuatro mugeres.</stage>
 
                <sp>
@@ -453,7 +465,7 @@
                   <l>siento tan gran comezon;</l>
                   <l>que por casarme yo rabio.</l>
                </sp>
-               
+
                <sp>
                   <speaker><hi rend="cursiva">Mug.</hi> 4</speaker>
                   <l>Estará creido el tonto</l>
@@ -461,11 +473,11 @@
                   <l>y eso, <hi rend="cursiva">nequaquam</hi>, porque</l>
                   <l>mientras viva mi Bernaldo,</l>
                   <l>de otro alguno no he de ser</l>
-                  
-               <pb n="6" source="Moreno_183_6.jpg" />
-                  
-               <fw type="paginaNum">6</fw>
-                  
+
+                  <pb n="6" source="Moreno_183_6.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
                   <l>esta planta y este garvo.</l>
                </sp>
 
@@ -481,9 +493,9 @@
                   <speaker><hi rend="cursiva">Mug.</hi> 2.</speaker>
                   <l>Aquesto del matrimonio</l>
                   <l>es bellisimo vocablo.</l>
-                  
+
                </sp>
-               
+
                <stage rend="cursiva">Sale Pacorro.</stage>
 
                <sp>
@@ -516,11 +528,11 @@
                   <l>Primero tú, luego tú.</l>
                   <l>ahora tù, y ahora... <stage rend="cursiva">Abrázala.</stage></l>
                </sp>
-               
-               <pb n="7" source="Moreno_183_7.jpg" />
-               
+
+               <pb n="7" source="Moreno_183_7.jpg"/>
+
                <fw type="paginaNum">7</fw>
-               
+
                <stage rend="cursiva">Sale el Mesonero.</stage>
 
                <sp>
@@ -579,15 +591,15 @@
                   <l>monte, no se halla comedia,</l>
                   <l>y en esto estoy empeñado.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Pacorro alborotado.</stage>
 
                <sp>
                   <speaker rend="cursiva">Pac.</speaker>
                   <l>Señor, Señor.</l>
-                  
+
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Meson </speaker>
                   <l>Qué hay de nuevo?</l>
@@ -597,11 +609,11 @@
                   <speaker rend="cursiva">Pac.</speaker>
                   <l>A la puerta está llamando</l>
                   <l>un poeta, que le trae,</l>
-                  
-               <pb n="8" source="Moreno_183_8.jpg" />
-                  
-               <fw type="paginaNum">8</fw>
-                  
+
+                  <pb n="8" source="Moreno_183_8.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
                   <l>una comedia, de pasmo.</l>
                </sp>
 
@@ -619,11 +631,11 @@
                <sp>
                   <speaker rend="cursiva">Meson.</speaker>
                   <l>Algun angel le ha enviado.</l>
-                  
+
                </sp>
-               
+
                <stage rend="cursiva">Sale el hombre primero de poeta ridículo,</stage>
-               
+
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 1 </speaker>
                   <l>Demonio dirás que soy</l>
@@ -668,7 +680,7 @@
                <sp>
                   <speaker><hi rend="cursiva">Las.</hi> 4.</speaker>
                   <l>Ya nos vamos. <stage rend="cursiva">Vanse.</stage></l>
-                  
+
                </sp>
 
                <sp>
@@ -682,9 +694,9 @@
                   <l>solos habemos quedado:</l>
                   <l>Empezad,</l>
                </sp>
-               
-               <pb n="9" source="Moreno_183_9.jpg" />
-                  
+
+               <pb n="9" source="Moreno_183_9.jpg"/>
+
                <fw type="paginaNum">9</fw>
 
                <sp>
@@ -735,11 +747,11 @@
                   <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
                   <l>Si señor, pero la idea</l>
                   <l>es asi mas esquisita; </l>
-                  
-               <pb n="10" source="Moreno_183_10.jpg" />
-                  
-               <fw type="paginaNum">10</fw>
-                  
+
+                  <pb n="10" source="Moreno_183_10.jpg"/>
+
+                  <fw type="paginaNum">10</fw>
+
                   <l>en que el ingenio dá pruebas</l>
                   <l>de su mucha gallardia.</l>
                   <l>Mire usted, qué friolera! <stage rend="cursiva">Siéntanse.</stage></l>
@@ -757,9 +769,9 @@
                <sp>
                   <speaker><hi rend="cursiva">Hombre</hi> 1.</speaker>
                   <l>Mire usted, qué friolera!</l>
-                  
+
                </sp>
-               
+
                <stage rend="cursiva">Sale Pacorro.</stage>
 
                <sp>
@@ -810,15 +822,15 @@
                   <speaker rend="cursiva">Meson.</speaker>
                   <l>Sácame aquí los trabucos,</l>
                   <l>las espadas y escopetas</l>
-                  
-               <pb n="11" source="Moreno_183_11.jpg" />
-                  
-               <fw type="paginaNum">11</fw>
-                  
+
+                  <pb n="11" source="Moreno_183_11.jpg"/>
+
+                  <fw type="paginaNum">11</fw>
+
                   <l>para tomar la venganza</l>
                   <l>antes que logren mi afrenta. <stage rend="cursiva">Vánse.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Salen las mugeres y hombres.</stage>
 
                <sp>
@@ -852,21 +864,21 @@
                   <speaker rend="cursiva">Todos.</speaker>
                   <l>Adentro. <stage rend="cursiva">Vánse.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Salen el Mesonero con armas.</stage>
 
                <sp>
                   <speaker rend="cursiva">Meson.</speaker>
                   <l>Esta la casa parece,</l>
                   <l>y no parece que hay nadie.</l>
-                  
+
                   <stage rend="cursiva">Suenan cadenas.</stage>
-                  
+
                   <l>Pero por aquí.... (San Lesmes!)</l>
                   <l>cadenas? Buenos estamos.</l>
                   <l>Lo mejor será volverme.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el hombre segundo de vizcaino.</stage>
 
                <sp>
@@ -874,11 +886,11 @@
                   <l>O señores, bien venidas,</l>
                   <l>porque me aclares ustedes</l>
                   <l>estas cuentas de los amos,</l>
-                  
-               <pb n="12" source="Moreno_183_12.jpg" />
-                  
-               <fw type="paginaNum">12</fw>
-                  
+
+                  <pb n="12" source="Moreno_183_12.jpg"/>
+
+                  <fw type="paginaNum">12</fw>
+
                   <l>que no hay formas de entenderles.</l>
                   <l>Diez cuartos y mas diez cuartos</l>
                   <l>hanme dichos, que haces veintes:</l>
@@ -925,7 +937,7 @@
                   <l>y en ajustando las cuentas</l>
                   <l>volveré á ver que me debes.</l>
                </sp>
-               
+
                <stage rend="cursiva">Dale con matapecados y vase</stage>
 
                <sp>
@@ -933,16 +945,19 @@
                   <l>Maldita sea la casa,</l>
                   <l>y quien me dijo viniese.</l>
                </sp>
-               
-               <stage rend="cursiva">Sale el hombre <choice><sic>tereero</sic><corr>tercero</corr></choice> de gallega</stage>
+
+               <stage rend="cursiva">Sale el hombre <choice>
+                     <sic>tereero</sic>
+                     <corr>tercero</corr>
+                  </choice> de gallega</stage>
 
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
                   <l>Es pusible que te veyu?</l>
                </sp>
-               
-               <pb n="13" source="Moreno_183_13.jpg" />
-               
+
+               <pb n="13" source="Moreno_183_13.jpg"/>
+
                <fw type="paginaNum">13</fw>
 
                <sp>
@@ -973,7 +988,7 @@
                   <l>No me has dado la palabra</l>
                   <l>de matrimonio?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Meson </speaker>
                   <l>Qué emprendes, </l>
@@ -988,7 +1003,7 @@
                   <l>Toma tus fillos, ruín,</l>
                   <l>picarote, é insolente.</l>
                </sp>
-               
+
                <stage rend="cursiva">Pégale, y le entrega dos chiquillos, y váse.</stage>
 
                <sp>
@@ -998,16 +1013,14 @@
                   <l>Mas vale que yo me vaya,</l>
                   <l>antes que me desespere.</l>
                </sp>
-               
-               <pb n="14" source="Moreno_183_14.jpg" />
-               
+
+               <pb n="14" source="Moreno_183_14.jpg"/>
+
                <fw type="paginaNum">14</fw>
-               
+
                <stage rend="cursiva">
-                  <lb />Sale el hombre primero vestido de frances, con un
-                  <lb />cesto, y en él figurado que trae bolas de jabon, pa-
-                  <lb />peles de polvos y otras frioleras.
-               </stage>
+                  <lb/>Sale el hombre primero vestido de frances, con un <lb/>cesto, y en él
+                  figurado que trae bolas de jabon, pa- <lb/>peles de polvos y otras frioleras. </stage>
 
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
@@ -1104,7 +1117,7 @@
                   <speaker rend="cursiva">Meson.</speaker>
                   <l>Calla, Olofernes.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Homb. 1 </speaker>
                   <l>Güi, Monsiur.</l>
@@ -1114,9 +1127,9 @@
                   <speaker rend="cursiva">Meson.</speaker>
                   <l>Demonio, vete.</l>
                </sp>
-               
-               <pb n="15" source="Moreno_183_15.jpg" />
-               
+
+               <pb n="15" source="Moreno_183_15.jpg"/>
+
                <fw type="paginaNum">15</fw>
 
                <sp>
@@ -1135,7 +1148,7 @@
                   <l>Yo groñir? O Sacre Diú!</l>
                   <l>Tú peiras. <stage rend="cursiva">Pégale.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el hombre segundo de vizcáino.</stage>
 
                <sp>
@@ -1149,7 +1162,7 @@
                   <speaker rend="cursiva">Meson.</speaker>
                   <l>Huya de este laberinto.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale la gallega.</stage>
 
                <sp>
@@ -1174,11 +1187,9 @@
                   <l>Pues á patadas, y á coces</l>
                   <l>lo vereis.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Sale el hombre cuarto con disfráz de turco y dos
-                  <lb />Morillos con sables.
-               </stage>
+                  <lb/>Sale el hombre cuarto con disfráz de turco y dos <lb/>Morillos con sables. </stage>
 
                <sp>
                   <speaker><hi rend="cursiva">Homb.</hi> 4.</speaker>
@@ -1195,9 +1206,9 @@
                   <speaker rend="cursiva">Meson.</speaker>
                   <l>San Nicomedes.</l>
                </sp>
-               
-               <pb n="16" source="Moreno_183_16.jpg" />
-               
+
+               <pb n="16" source="Moreno_183_16.jpg"/>
+
                <fw type="paginaNum">16</fw>
 
                <sp>
@@ -1228,7 +1239,7 @@
                   <l>Lindamente.</l>
                   <l>Bien sabe Dios que es de miedo. <stage rend="cursiva">Ap.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Salen las cuatro mugeres.</stage>
 
                <sp>
@@ -1255,7 +1266,7 @@
                   <speaker rend="cursiva">Meson.</speaker>
                   <l>Pues ya atrás no he de volverme</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Todos.</speaker>
                   <l>Viva, viva el Mesonero;</l>
@@ -1269,9 +1280,7 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1850.
-                  <lb />Imprenta de D. José M. Moreno. Descalzas, 1.
-               </p>
+                  <lb/>CARMONA:—1850. <lb/>Imprenta de D. José M. Moreno. Descalzas, 1. </p>
             </div>
          </div>
       </body>

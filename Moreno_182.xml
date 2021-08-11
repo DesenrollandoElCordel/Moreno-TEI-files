@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_182">
    <teiHeader>
       <fileDesc>
@@ -26,7 +27,7 @@
                   <title type="titulo_completo">Curioso romance, en que se declara la historia de
                      los quince novios y once amores nuevos que tuvo una Señora de
                      Andalucía.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (s.a.): <ref target="Moreno_182.xml">Moreno_182</ref></p>
@@ -41,20 +42,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5040677</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 190</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -83,7 +86,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -111,11 +120,12 @@
       <revisionDesc>
          <change when="2021-04-01" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_182_thumbnail.jpg" />
+      <graphic url="Moreno_182_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -124,13 +134,13 @@
 
             <div>
 
-               <pb n="1" source="Moreno_182_1.jpg" />
+               <pb n="1" source="Moreno_182_1.jpg"/>
 
                <fw type="impresorNum">Núm. 190.</fw>
 
                <head type="primer_titulo"><hi rend="negrita">CURIOSO ROMANCE,</hi>
-                  <lb />en que se declara la historia de los quince no- <lb />vios y once amores
-                  nuevos que tuvo una <lb />Señora de Andalucía.</head>
+                  <lb/>en que se declara la historia de los quince no- <lb/>vios y once amores
+                  nuevos que tuvo una <lb/>Señora de Andalucía.</head>
 
                <l rend="indent">Puesto que me preguntais</l>
                <l>la causa de mis tristezas</l>
@@ -163,7 +173,7 @@
                <l>era muy vana por galas,</l>
                <l>y en los usos la primera,</l>
 
-               <pb n="2" source="Moreno_182_2.jpg" />
+               <pb n="2" source="Moreno_182_2.jpg"/>
 
                <l>pues no venian al mundo</l>
                <l>que ya yo no las tuviera.</l>
@@ -262,7 +272,7 @@
                <l>Despues quise á un Pastelero,</l>
                <l>es muy cierto que en su tienda</l>
 
-               <pb n="3" source="Moreno_182_3.jpg" />
+               <pb n="3" source="Moreno_182_3.jpg"/>
 
                <l>no se forjaba pastel</l>
                <l>que á mi casa no viniera;</l>
@@ -361,7 +371,7 @@
                <l>ésta mando se le dé</l>
                <l>en largando sus monedas</l>
 
-               <pb n="4" source="Moreno_182_4.jpg" />
+               <pb n="4" source="Moreno_182_4.jpg"/>
 
                <l>á un sobrinito que, tengo</l>
                <l>que está viviendo en Espera,</l>
@@ -438,9 +448,7 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1855,
-                  <lb />Imprenta de D. José María Moreno, Descalzas. núm. 1.
-               </p>
+                  <lb/>CARMONA:—1855, <lb/>Imprenta de D. José María Moreno, Descalzas. núm. 1. </p>
             </div>
 
          </div>
