@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_152">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">El Ave Maria en verso.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5036948</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 161</idno>
                   </altIdentifier>
@@ -86,7 +89,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -116,17 +125,18 @@
       <revisionDesc>
          <change when="2021-03-29" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_152_thumbnail.jpg" />
+      <graphic url="Moreno_152_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_152_1.jpg" />
+               <pb n="1" source="Moreno_152_1.jpg"/>
 
                <fw type="impresorNum">(Numero 161.)</fw>
 
@@ -139,7 +149,7 @@
                   <l>que encierra el <hi rend="cursiva">Ave Maria</hi>.</l>
                   <l>Estad, pues, fieles, atentos.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Mas que la aurora del dia</l>
                   <l>bella y pura pareciste,</l>
@@ -147,7 +157,7 @@
                   <l>cuando del Angel oiste</l>
                   <l>el <hi rend="cursiva">Dios te salve</hi>, Maria.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El celeste embajador</l>
                   <l>con prodigiosa eficacia</l>
@@ -155,7 +165,7 @@
                   <l>con respeto y con amor</l>
                   <l>te llama <hi rend="cursiva">llena de gracia</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Dichosa entre las criaturas,</l>
                   <l>vences al fiero enemigo,</l>
@@ -164,7 +174,7 @@
                   <l>de que <hi rend="cursiva">el Señor es contigo</hi>.</l>
                </lg>
 
-               <pb n="2" source="Moreno_152_2.jpg" />
+               <pb n="2" source="Moreno_152_2.jpg"/>
 
                <lg>
                   <l rend="indent">En la progenie de Adan</l>
@@ -173,7 +183,7 @@
                   <l>con asombro te dirán</l>
                   <l>siempre <hi rend="cursiva">bendita Tú eres</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">De la muger seducida</l>
                   <l>la libertadora eres;</l>
@@ -181,7 +191,7 @@
                   <l>serás Madre, y bendecida</l>
                   <l rend="cursiva">entre todas las mugeres.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Darás libertad y paz</l>
                   <l>al mundo envuelto en el luto,</l>
@@ -189,7 +199,7 @@
                   <l>hollarás la culpa audaz,</l>
                   <l>porque <hi rend="cursiva">bendito es el Fruto</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y sin perder el candor</l>
                   <l>al Niño darás á luz,</l>
@@ -197,7 +207,7 @@
                   <l>pues fruto de tanto amor</l>
                   <l>es <hi rend="cursiva">de tu vientre, Jesus</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">La Esposa del Cordero,</l>
                   <l>con angélica alegria,</l>
@@ -205,7 +215,7 @@
                   <l>del celeste mensagero,</l>
                   <l>te añade: <hi rend="cursiva">Santa Maria</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y por darte mayor gloria</l>
                   <l>incluye en tu Nombre dos,</l>
@@ -213,7 +223,7 @@
                   <l>contra la herética escoria,</l>
                   <l>te aclama: <hi rend="cursiva">Madre de Dios</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y por los tristes mortales</l>
                   <l>á quienes la culpa ciega,</l>
@@ -221,7 +231,7 @@
                   <l>y en tus aras maternales,</l>
                   <l>rogando, te dice: <hi rend="cursiva">ruega</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Ruega Vírgen sin igual,</l>
                   <l>por los que siembran errores,</l>
@@ -229,7 +239,7 @@
                   <l>ruega, Madre virginal,</l>
                   <l rend="cursiva">por nosotros, pecadores,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">No olvides, dulce María,</l>
                   <l>de míseros protectora,</l>
@@ -237,7 +247,7 @@
                   <l>siervo á una turba impía,</l>
                   <l>si no rogases <hi rend="cursiva">ahora</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Hay sobre todo un momento</l>
                   <l>que es la muerte aterradora;</l>
@@ -245,7 +255,7 @@
                   <l>hora del postrer aliento,</l>
                   <l>ruega ¡oh Virgen!<hi rend="cursiva"> y en la hora</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Entonces todo el averno</l>
                   <l>se alzará contra mí fuerte,</l>
@@ -253,7 +263,7 @@
                   <l>y hora de destino eterno</l>
                   <l>será la <hi rend="cursiva">de nuestra muerte</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Habed, pues de mí piedad,</l>
                   <l>Madre del que murió en cruz,</l>
@@ -264,12 +274,10 @@
             </div>
 
             <div>
-               <pb n="3" source="Moreno_152_3.jpg" />
+               <pb n="3" source="Moreno_152_3.jpg"/>
 
                <head rend="negrita" type="primer_titulo">
-                  <lb />GLOSA
-                  <lb />DE LA SALVE REGINA.
-               </head>
+                  <lb/>GLOSA <lb/>DE LA SALVE REGINA. </head>
 
                <lg>
                   <l rend="indent">Hija del Eterno Padre</l>
@@ -277,21 +285,21 @@
                   <l>del Hijo Madre amorosa,</l>
                   <l rend="cursiva">Dios te salve, Reina y Madre.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El mónstruo de la discordia</l>
                   <l>ruge aplastado á tus plantas,</l>
                   <l>y Tú su cerviz quebrantas,</l>
                   <l rend="cursiva">Madre de misericordia.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">De Virgenes la mas pura,</l>
                   <l>para los que en este suelo</l>
                   <l>esperamos tu consuelo,</l>
                   <l>eres <hi rend="cursiva">Tú vida y dulzura</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que eres Madre nos demuestra</l>
                   <l>tu inagotable bondad,</l>
@@ -304,163 +312,163 @@
                   <l>y en Tí nuestro pecho alienta</l>
                   <l><hi rend="cursiva">Dios te salve</hi>, te invocamos.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y aunque hundidos nos veamos</l>
                   <l>de la culpa en el abismo,</l>
                   <l>ay Madre! por eso mismo</l>
                   <l>mas fuertes <hi rend="cursiva">á Tí clamamos</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y si por nuestros pecados</l>
                   <l>arrastramos la cadena,</l>
                   <l>acuérdate, Madre buena,</l>
                   <l>que somos <hi rend="cursiva">los desterrados</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">A tierna piedad te mueva</l>
                   <l>nuestro clamor infinito,</l>
                   <l>pues de linaje proscrito</l>
                   <l>somos los <hi rend="cursiva">hijos de Eva</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Con gran fervor te rogamos</l>
                   <l>se nos alivie el penar,</l>
                   <l>y por esto sin cesar</l>
                   <l>todos <hi rend="cursiva">á Tí suspiramos</hi>.</l>
                </lg>
-               
-               <pb n="4" source="Moreno_152_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_152_4.jpg"/>
+
                <lg>
                   <l rend="indent">Contra este mundo luchando,</l>
                   <l>y nuestra carne y Luzbel,</l>
                   <l>como el cautívo Israel,</l>
                   <l>nos ves <hi rend="cursiva">gimiendo y llorando</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Pues causa angustia y espanto</l>
                   <l>ver la miseria y los males</l>
                   <l>que agovian á los mortales</l>
                   <l rend="cursiva">en este valle de llanto.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">A la raza pecadora</l>
                   <l>que el mismo Dios redimió,</l>
                   <l>por Madre á Tí te dejó:</l>
                   <l><hi rend="cursiva">ea</hi>, selo, <hi rend="cursiva">pues, Señora</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Huya la culpa siniestra</l>
                   <l>que en Tí no pudo tocar,</l>
                   <l>y podamos alcanzar</l>
                   <l>seas <hi rend="cursiva">Abogada nuestra</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Nuestros votos no son otros</l>
                   <l>que el ser amados de Tí,</l>
                   <l>y para que sea asi</l>
                   <l>tu vista <hi rend="cursiva">vuelve á nosotros</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">En las espinas y abrojos</l>
                   <l>que por doquier nos rodean,</l>
                   <l>tus miseros hijos vean</l>
                   <l>propicios <hi rend="cursiva">esos tus ojos</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Pues los hace tan hermosos</l>
                   <l>el sol que refleja en ellos,</l>
                   <l>que lucen cuanto mas bellos</l>
                   <l>tan <hi rend="cursiva">misericordiosos</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Mientras en frágil encierro</l>
                   <l>nuestra vida es viadora,</l>
                   <l>ampáranos, ¡oh Señora!</l>
                   <l rend="cursiva">y despues de este destierro.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El rescate de la Cruz</l>
                   <l>nos dé la eterna ventura;</l>
                   <l>lógranosla, Virgen pura,</l>
                   <l>y <hi rend="cursiva">muéstranos á Jesus</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Por su mérito infinito</l>
                   <l>consiga tu intercesion;</l>
                   <l>sea nuestro galardon</l>
                   <l>ese tu <hi rend="cursiva">Fruto bendito</hi>.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Bendita, los siglos, entre</l>
                   <l>las mugeres te dirán,</l>
                   <l>y todas te ensalzarán</l>
                   <l>por el Fruto <hi rend="cursiva">de tu vientre</hi>,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El que por Reina te aclama</l>
                   <l>y por gracia Omnipotente,</l>
                   <l>al verse tan indigente,</l>
                   <l><hi rend="cursiva">¡oh clementisima!</hi> esclama.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y al verte tan amorosa,</l>
                   <l>¡oh Madre del bello amor!</l>
                   <l>en su profundo clamor</l>
                   <l>te invoca siempre <hi rend="cursiva">¡oh piadosa!</hi></l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Oh dulce! cual la ambrosía,</l>
                   <l>si eres para Dios placer,</l>
                   <l>¡cuán grata nos has de ser,</l>
                   <l rend="cursiva">oh dulce Virgen Maria! </l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Tú, que delante de Dios</l>
                   <l>eres Hija, Esposa y Madre</l>
                   <l>al Esposo, al Hijo, al Padre,</l>
                   <l rend="cursiva">Maria, ruega por, nos.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Si ya en la Cruz fuiste á nos</l>
                   <l>por Madre recomendada,</l>
                   <l>eres nuestra Madre amada,</l>
                   <l rend="cursiva">¡oh santa Madre de Dios!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y si las culpas indignos</l>
                   <l>nos hacen de ese tu amor,</l>
                   <l>danos, ¡oh Madre! dolor,</l>
                   <l rend="cursiva">para que seamos dignos.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">No vivamos sin amar</l>
                   <l>tu incomparable pureza,</l>
                   <l>pues por Tí tanta fineza</l>
                   <l>nos es fácil <hi rend="cursiva">de alcanzar</hi>,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">No, Madre, ya no resisto</l>
                   <l>de ese tu amor la eficacia:</l>
@@ -471,9 +479,7 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1855.
-                  <lb />Imprenta de D. José María Moreno, Descalzas núm. 1.
-               </p>
+                  <lb/>CARMONA:—1855. <lb/>Imprenta de D. José María Moreno, Descalzas núm. 1. </p>
             </div>
          </div>
       </body>
