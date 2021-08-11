@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_178">
    <teiHeader>
       <fileDesc>
@@ -21,10 +22,10 @@
                <titleStmt>
                   <title type="titulo_completo">Pasillo del capitán Cascada y el licenciado
                      Torrejon.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5037149</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 187</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -79,7 +82,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -98,7 +107,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -107,26 +116,26 @@
       <revisionDesc>
          <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
          <change when="2021-07-01" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_178_thumbnail.jpg" />
+      <graphic url="Moreno_178_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_178_1.jpg" />
+               <pb n="1" source="Moreno_178_1.jpg"/>
 
                <fw type="impresorNum">Número 187.</fw>
 
                <head type="primer_titulo">
-                  <lb />PASILLO
-                  <lb />DEL CAPITAN CASCADA
-                  <lb /><hi rend="cursiva">y el licenciado Torrejon.</hi>
+                  <lb/>PASILLO <lb/>DEL CAPITAN CASCADA <lb/><hi rend="cursiva">y el licenciado
+                     Torrejon.</hi>
                </head>
 
                <sp>
@@ -170,9 +179,9 @@
                <sp>
                   <speaker rend="cursiva">Torrejon.</speaker>
                   <l>Mas picotera que hermosa </l>
-                  
-               <pb n="2" source="Moreno_178_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_178_2.jpg"/>
+
                   <l>al fin, hija de Comadreja.</l>
                </sp>
 
@@ -262,7 +271,10 @@
 
                <sp>
                   <speaker rend="cursiva">Torrejon.</speaker>
-                  <l>Unos vinte mil <choice><sic>iibrones</sic><corr>librones</corr></choice>,</l>
+                  <l>Unos vinte mil <choice>
+                        <sic>iibrones</sic>
+                        <corr>librones</corr>
+                     </choice>,</l>
                   <l>mas viejos que la tia Paca.</l>
                </sp>
 
@@ -293,7 +305,7 @@
                   <l>De vuestra vida la historia</l>
                   <l>quiero me conteis tambien.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Cascada</speaker>
                   <l>La mia es muy diferente</l>
@@ -308,9 +320,9 @@
 
                <sp>
                   <speaker rend="cursiva">Cascada.</speaker>
-                  
-               <pb n="3" source="Moreno_178_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_178_3.jpg"/>
+
                   <l>En verdad que como has dicho</l>
                   <l>no faltan sus valentias</l>
                   <l>en que entretuve mis dias,</l>
@@ -398,9 +410,9 @@
                   <l>Amigo sois grande hombre</l>
                   <l>y me temo que la ley, </l>
                   <l>os ha de alcanzar del Rey</l>
-                  
-               <pb n="4" source="Moreno_178_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_178_4.jpg"/>
+
                   <l>un titulo á vuestro nombre.</l>
                   <l>Compadre yo ensalzarè</l>
                   <l>vuestro valor singular</l>
@@ -455,7 +467,7 @@
                   <l>que el perdon me lo concedan</l>
                   <l>si soy digno de alcanzarle.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Cascada.</speaker>
                   <l>Yo le pido por la mia </l>

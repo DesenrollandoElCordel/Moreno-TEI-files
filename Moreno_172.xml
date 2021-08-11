@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_172">
    <teiHeader>
       <fileDesc>
@@ -27,7 +28,7 @@
                   <title type="titulo_breve">D. Diego de Peñaloza y Doña Maria Leonarda.</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno (hijo)</publisher>
@@ -40,11 +41,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5037126</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 182</idno>
                   </altIdentifier>
@@ -86,7 +89,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -114,11 +123,12 @@
       <revisionDesc>
          <change when="2021-03-31" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_172_thumbnail.jpg" />
+      <graphic url="Moreno_172_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -126,13 +136,13 @@
 
             <div>
 
-               <pb n="1" source="Moreno_172_1.jpg" />
+               <pb n="1" source="Moreno_172_1.jpg"/>
 
                <fw type="impresorNum">Número 182.</fw>
 
-               <head rend="negrita" type="primer_titulo">D. DIEGO DE PEÑALOZA <lb />Y <lb />DOÑA MARIA
+               <head rend="negrita" type="primer_titulo">D. DIEGO DE PEÑALOZA <lb/>Y <lb/>DOÑA MARIA
                   LEONARDA.</head>
-               <head type="subtitulo">Romance de los amorosos sucesos de estos <lb />dos finos
+               <head type="subtitulo">Romance de los amorosos sucesos de estos <lb/>dos finos
                   amantes.</head>
 
                <div n="1" type="parte">
@@ -154,7 +164,7 @@
                   <l>Y porque duda no quede,</l>
                   <l>es preciso declarla</l>
 
-                  <pb n="2" source="Moreno_172_2.jpg" />
+                  <pb n="2" source="Moreno_172_2.jpg"/>
 
                   <fw type="paginaNum">2</fw>
 
@@ -233,7 +243,7 @@
                   <l>pero su esquivéz altiva</l>
                   <l>á todos los despreciaba,</l>
 
-                  <pb n="3" source="Moreno_172_3.jpg" />
+                  <pb n="3" source="Moreno_172_3.jpg"/>
 
                   <fw type="paginaNum">3</fw>
 
@@ -312,7 +322,7 @@
                   <l>No ves, que ese hombre es pobre?</l>
                   <l>Y ella entonces replicaba:</l>
 
-                  <pb n="4" source="Moreno_172_4.jpg" />
+                  <pb n="4" source="Moreno_172_4.jpg"/>
 
                   <fw type="paginaNum">4</fw>
 
@@ -391,7 +401,7 @@
                   <l>de árboles, pinos, y encinas</l>
                   <l>laureles, olmos, y palmas.</l>
 
-                  <pb n="5" source="Moreno_172_5.jpg" />
+                  <pb n="5" source="Moreno_172_5.jpg"/>
 
                   <fw type="paginaNum">5</fw>
 
@@ -442,20 +452,19 @@
                </div>
 
                <div n="2" type="parte">
-                  
-                  <head>SEGUNDA PARTE
-                  <lb />DE
-                  <lb /><hi rend="negrita">D. DIEGO DE PEÑALOZA.</hi></head>
-                  
+
+                  <head>SEGUNDA PARTE <lb/>DE <lb/><hi rend="negrita">D. DIEGO DE
+                     PEÑALOZA.</hi></head>
+
                   <l rend="indent">Ya dije, como en el monte,</l>
                   <l>entre ánsias y congojas,</l>
                   <l>amarrada en aquel árbol</l>
                   <l>quedó aquella hermosa Rosa,</l>
-                  
-                  <pb n="6" source="Moreno_172_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_172_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>y su padre la buscaba</l>
                   <l>todo lleno de zozobras,</l>
                   <l>y no pudiendo encontrarla,</l>
@@ -530,11 +539,11 @@
                   <l>V. merced la socorra,</l>
                   <l>y do su parte procure</l>
                   <l>buscarla, pues que le loca.</l>
-                  
-                  <pb n="7" source="Moreno_172_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_172_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>Ya no puedo escribir mas,</l>
                   <l>porque las lelras se borran</l>
                   <l>con el agua de mis ojos,</l>
@@ -609,11 +618,11 @@
                   <l>donde estaba esta Señora</l>
                   <l>toda anegada en suspiros,</l>
                   <l>cuajada toda la ropa</l>
-                  
-                  <pb n="8" source="Moreno_172_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_172_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>de las perlas que sus ojos</l>
                   <l>derramaban bulliciosas,</l>
                   <l>y llegándose bien cerca,</l>
@@ -660,9 +669,8 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA: —1874.
-                  <lb />Imp. y lib. de Manuel Belloso y Moreno (menor.) — Madre de Dios, 1.
-               </p>
+                  <lb/>CARMONA: —1874. <lb/>Imp. y lib. de Manuel Belloso y Moreno (menor.) — Madre
+                  de Dios, 1. </p>
             </div>
          </div>
       </body>
