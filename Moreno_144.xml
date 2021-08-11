@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_144">
    <teiHeader>
       <fileDesc>
@@ -20,10 +21,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Entremes de los Porfiados.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,20 +36,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5036833</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 152</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -66,7 +69,7 @@
                   </objectDesc>
                   <decoDesc>
                      <decoNote>
-                        <p />
+                        <p/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -74,7 +77,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -93,7 +102,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4876786.html" type="tipo_texto">Entremeses</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -102,36 +111,34 @@
       <revisionDesc>
          <change when="2021-03-29" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-30" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_144_thumbnail.jpg" />
+      <graphic url="Moreno_144_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_144_1.jpg" />
+            <pb n="1" source="Moreno_144_1.jpg"/>
 
             <fw type="impresorNum">Núm. 152.</fw>
 
             <head type="primer_titulo">
-               <lb /><hi rend="negrita">ENTREMES</hi>
-               <lb />DE LOS
-               <lb /><hi rend="negrita">PORFIADOS.</hi>
+               <lb/><hi rend="negrita">ENTREMES</hi>
+               <lb/>DE LOS <lb/><hi rend="negrita">PORFIADOS.</hi>
             </head>
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1850.
-                  <lb />Imprenta de D. José M. Moreno. Descalzas, 1.
-               </p>
+                  <lb/>CARMONA:—1850. <lb/>Imprenta de D. José M. Moreno. Descalzas, 1. </p>
             </div>
 
             <div type="reparto">
 
-               <pb n="2" source="Moreno_144_2.jpg" />
+               <pb n="2" source="Moreno_144_2.jpg"/>
 
                <head type="reparto_titulo">PERSONAS</head>
 
@@ -143,10 +150,10 @@
             </div>
 
             <div>
-               <pb n="3" source="Moreno_144_3.jpg" />
+               <pb n="3" source="Moreno_144_3.jpg"/>
 
                <fw type="paginaNum">3</fw>
-               
+
                <stage rend="cursiva">Sale la Graciosa.</stage>
 
                <sp>
@@ -160,7 +167,7 @@
                   <l>mas nostánte en porfias le he ganado,</l>
                   <l>la misma soy.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Gracioso.</stage>
 
                <sp>
@@ -187,7 +194,7 @@
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Y ella la casada. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Grac.a</speaker>
                   <l>Mejor fuera la viuda malograda.</l>
@@ -212,9 +219,9 @@
                   <speaker rend="cursiva">Graciosa.</speaker>
                   <l>Casamonos.</l>
                </sp>
-               
-               <pb n="4" source="Moreno_144_4.jpg" />
-                  
+
+               <pb n="4" source="Moreno_144_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
 
                <sp>
@@ -294,11 +301,11 @@
                   <speaker rend="cursiva">Dentr. Homb. 1.</speaker>
                   <l>El agua se acrecienta,</l>
                   <l>no se ha visto jamas mayor tormenta:</l>
-                  
-                  <pb n="5" source="Moreno_144_5.jpg" />
-                  
+
+                  <pb n="5" source="Moreno_144_5.jpg"/>
+
                   <fw type="paginaNum">5</fw>
-                  
+
                   <l>Pedro, qué harémos?</l>
                </sp>
 
@@ -322,9 +329,9 @@
                <sp>
                   <speaker rend="cursiva">H. 2.</speaker>
                   <l>Ella ha de ser sin duda nuestro norte.</l>
-                  
+
                   <stage rend="cursiva">Salen los dos.</stage>
-                  
+
                   <l>Ha de casa, señor huésped,</l>
                   <l>habrá en la vuestra posada, </l>
                   <l>que en el lugar no es posible por</l>
@@ -342,11 +349,11 @@
                   <l>Si es burla, basta la burla, </l>
                   <l>si es chanza, basta la chanza.</l>
                   <l>Pedro anda, </l>
-                  
-                  <pb n="6" source="Moreno_144_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_144_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>dá una vuelta á la cocina,</l>
                   <l>y revuelveles la casa;</l>
                   <l>picarle quiero á este necio.</l>
@@ -354,7 +361,7 @@
                   <l>pues á los zelos no vuelve</l>
                   <l>de que hable no hay esperanza.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sale Hombre. 2.</speaker>
                   <l>El ganado está cenando</l>
@@ -363,11 +370,9 @@
                   <l>y una olla no muy mala</l>
                   <l>he topado en la cocina.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Saca una mesa con pan, vino y un puchero
-                  <lb />con bizcochos.
-               </stage>
+                  <lb/>Saca una mesa con pan, vino y un puchero <lb/>con bizcochos. </stage>
 
                <sp>
                   <speaker rend="cursiva">Homb. 1.</speaker>
@@ -395,11 +400,11 @@
                <sp>
                   <speaker rend="cursiva">Homb. 1.</speaker>
                   <l>Y añade, que sobre buena, </l>
-                  
-                  <pb n="7" source="Moreno_144_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_144_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>no nos ha de costar blanca:</l>
                </sp>
 
@@ -472,9 +477,9 @@
                   <l>Labradora de mi alma, </l>
                   <l>vive Dios que es bueno el cuento.</l>
                </sp>
-               
-               <pb n="8" source="Moreno_144_8.jpg" />
-                  
+
+               <pb n="8" source="Moreno_144_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
 
                <sp>
@@ -485,13 +490,16 @@
                </sp>
 
                <sp>
-                  <speaker rend="cursiva"><choice><sic>Garciosa</sic><corr>Graciosa</corr></choice>.</speaker>
+                  <speaker rend="cursiva"><choice>
+                        <sic>Garciosa</sic>
+                        <corr>Graciosa</corr>
+                     </choice>.</speaker>
                   <l>Su mala condicion</l>
                   <l>me tiene muerta.</l>
                </sp>
-               
+
                <stage rend="cursiva">Levántanse de las sillas.</stage>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso</speaker>
                   <l>Ya habeis hablado,</l>
@@ -523,7 +531,7 @@
                   <l>porfiando una muger</l>
                   <l>ser mas porfiado.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Canta Graciosa.</speaker>
                   <l>Como le vá de temas,</l>

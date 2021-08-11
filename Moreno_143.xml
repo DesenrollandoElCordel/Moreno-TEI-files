@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_143">
    <teiHeader>
       <fileDesc>
@@ -23,10 +24,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Ana Contreras.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -38,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5036822</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 149</idno>
                   </altIdentifier>
@@ -87,7 +90,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -115,18 +124,19 @@
       <revisionDesc>
          <change when="2021-03-26" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_143_thumbnail.jpg" />
+      <graphic url="Moreno_143_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
 
          <div>
 
-            <pb n="1" source="Moreno_143_1.jpg" />
+            <pb n="1" source="Moreno_143_1.jpg"/>
 
             <fw type="impresorNum">Núm. 149.</fw>
 
@@ -134,12 +144,13 @@
 
             <div n="1" type="parte">
 
-               <head type="titulo_parte">PRIMERA PARTE, DONDE SE DA CUENTA Y DECLARA <lb /><hi rend="cursiva">como una mujer llamada ANA CONTRERAS, inducida del demo- </hi>
-                  <lb /><hi rend="cursiva">nio, dió muerte á su marido y á dos hijos por amores de su
+               <head type="titulo_parte">PRIMERA PARTE, DONDE SE DA CUENTA Y DECLARA <lb/><hi
+                     rend="cursiva">como una mujer llamada ANA CONTRERAS, inducida del demo- </hi>
+                  <lb/><hi rend="cursiva">nio, dió muerte á su marido y á dos hijos por amores de su
                      ga-</hi>
-                  <lb /><hi rend="cursiva">lán; refierese como fueron descubiertos y ajusticiados en
+                  <lb/><hi rend="cursiva">lán; refierese como fueron descubiertos y ajusticiados en
                      la ciudad</hi>
-                  <lb /><hi rend="cursiva">de Valencia; con lo demas que verá el curioso lector.</hi>
+                  <lb/><hi rend="cursiva">de Valencia; con lo demas que verá el curioso lector.</hi>
                </head>
 
                <l rend="indent">Atemorícese el mundo,</l>
@@ -177,7 +188,7 @@
                <l>otros están en presidios</l>
                <l>y en carceles encerrados</l>
 
-               <pb n="2" source="Moreno_143_2.jpg" />
+               <pb n="2" source="Moreno_143_2.jpg"/>
 
                <l>con cadenas y con grillos,</l>
                <l>llenos de piojos con rabo,</l>
@@ -280,7 +291,7 @@
                <l>bajó Ana María á abrir,</l>
                <l>y los dos regocijados</l>
 
-               <pb n="3" source="Moreno_143_3.jpg" />
+               <pb n="3" source="Moreno_143_3.jpg"/>
 
                <l>subieron al punto arriba,</l>
                <l>y una mesa preparando</l>
@@ -381,7 +392,7 @@
                <l>que no ha de haber nada oculto</l>
                <l>por escondido y tapado,</l>
 
-               <pb n="4" source="Moreno_143_4.jpg" />
+               <pb n="4" source="Moreno_143_4.jpg"/>
 
                <l>Este quiso que Ginés</l>
                <l>con unas cargas de paño</l>
