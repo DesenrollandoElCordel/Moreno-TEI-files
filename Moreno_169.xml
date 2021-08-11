@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_169">
    <teiHeader>
       <fileDesc>
@@ -20,10 +21,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Sainete titulado Francisco que tienes.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,20 +36,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5037053</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 279</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -66,21 +69,27 @@
                   </objectDesc>
                   <decoDesc>
                      <decoNote>
-                        <p />
+                        <p/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <history>
                   <acquisition>
-                     <p />
+                     <p/>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><projectDesc>
-            <p />
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
+            <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -101,7 +110,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -115,20 +124,19 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_169_thumbnail.jpg" />
+      <graphic url="Moreno_169_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_169_1.jpg" />
+            <pb n="1" source="Moreno_169_1.jpg"/>
 
             <fw type="impresorNum">(Núm. 279.)</fw>
 
             <head type="primer_titulo">
-               <lb /><hi rend="negrita">SAINETE.</hi>
-               <lb />TITULADO
-               <lb /><hi rend="negrita">FRANCISCO</hi>
-               <lb /><hi rend="cursiva">QUE TIENES.</hi>
+               <lb/><hi rend="negrita">SAINETE.</hi>
+               <lb/>TITULADO <lb/><hi rend="negrita">FRANCISCO</hi>
+               <lb/><hi rend="cursiva">QUE TIENES.</hi>
             </head>
 
             <div type="reparto">
@@ -143,14 +151,12 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1859.
-                  <lb />Imp. de D. Josè M.a Moreno, calle Madre de Dios.
-               </p>
+                  <lb/>CARMONA:—1859. <lb/>Imp. de D. Josè M.a Moreno, calle Madre de Dios. </p>
             </div>
 
             <div>
-               <pb n="2" source="Moreno_169_2.jpg" />
-               
+               <pb n="2" source="Moreno_169_2.jpg"/>
+
                <stage>Salen Gerundio y Sacristan.</stage>
 
                <sp>
@@ -178,7 +184,7 @@
                   <l>Has de saber amigo, que me abraso! Ay que</l>
                   <l>me quemo!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sac. </speaker>
                   <l>Tente por tu vida.</l>
@@ -188,7 +194,7 @@
                   <speaker rend="cursiva">Ger.</speaker>
                   <l>Ay que rabio de amor!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sac. </speaker>
                   <l>Linda partida!</l>
@@ -224,11 +230,11 @@
                   <l>(mirad si mi fortuna es bien escasa)</l>
                   <l>á sacarla esta noche;</l>
                   <l>mas como pobre soy, y no ando en coche, </l>
-                  
-               <pb n="3" source="Moreno_169_3.jpg" />
-                  
-               <fw type="paginaNum">3</fw>
-                  
+
+                  <pb n="3" source="Moreno_169_3.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
                   <l>el modo no lo alcanza mi porfia</l>
                   <l>de hablarla, por poder (ay suerte impia!)</l>
                   <l>en santo casamiento (ay desdichado!)</l>
@@ -267,9 +273,9 @@
                <sp>
                   <speaker rend="cursiva">Sac.</speaker>
                   <l>Venid luego á su casa.</l>
-                  
+
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Ger. </speaker>
                   <l>Mas pregunto,</l>
@@ -290,11 +296,11 @@
                <sp>
                   <speaker rend="cursiva">Sale Vej.</speaker>
                   <l>O cuidados de aquesta vida humana!</l>
-                  
-               <pb n="4" source="Moreno_169_4.jpg" />
-                  
-               <fw type="paginaNum">4</fw>
-                  
+
+                  <pb n="4" source="Moreno_169_4.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
                   <l>no he descansado un dia en la semana.</l>
                   <l>Como me hallo Maestro en esta villa,</l>
                   <l>y me tienen metido en la capilla,</l>
@@ -312,7 +318,7 @@
                   <l>que los de habilidad eso tenemos.</l>
                   <l>Ola Mencia? hija?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sale Menc. </speaker>
                   <l>Señor padre,</l>
@@ -335,13 +341,13 @@
                   <speaker rend="cursiva">Menc.</speaker>
                   <l>Señor padre, siharé.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Vej.</speaker>
                   <l>Eso me agrada,</l>
                   <l>Han venido á buscarme? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Menc. </speaker>
                   <l>Señor padre,</l>
@@ -353,11 +359,11 @@
                   <l>Hasta en esto es á su madre,</l>
                   <l>qué se entiende, saber ella de mundo!</l>
                   <l>lo que pasaba en casa. Es muy profundo</l>
-                  
-               <pb n="5" source="Moreno_169_5.jpg" />
-                  
-               <fw type="paginaNum">5</fw>
-                  
+
+                  <pb n="5" source="Moreno_169_5.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
                   <l>el sentimiento que hago en su memoria,</l>
                   <l>cuando me acuerdo:-Dios te tenga en la gloria.</l>
                   <l>Ois, Doña Mencía, si vinieren</l>
@@ -375,7 +381,7 @@
                   <l>Qué obediencia !todita es á su madre!</l>
                   <l>Pero ya el Sacristan se tarda mucho.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Dentro Sac. </speaker>
                   <l>Ha de casa.</l>
@@ -406,7 +412,7 @@
                   <speaker rend="cursiva">Vej.</speaker>
                   <l>Seor Sacristan? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sac. </speaker>
                   <l>En todo son iguales</l>
@@ -428,7 +434,7 @@
                   <speaker rend="cursiva">Vej.</speaker>
                   <l>Quién es este señor? Ola Mencía?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Menc.</speaker>
                   <l>Padre.</l>
@@ -450,12 +456,12 @@
                   <speaker rend="cursiva">Ger.</speaker>
                   <l>Solo á ser capellan á su capilla.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Vej.</speaker>
                   <l>En fin, tambien vos:-Ola, Mencia?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Menc.</speaker>
                   <l>Señor padre</l>
@@ -479,23 +485,26 @@
                   <l>y probemos papeles, que estas fiestas</l>
                   <l>novedad habrá habido.</l>
                </sp>
-               
+
                <sp>
                   <l> Vej Id con cuidado</l>
-                  
-               <pb n="6" source="Moreno_169_6.jpg" />
-                  
-               <fw type="paginaNum"><choice><sic>5</sic><corr>6</corr></choice></fw>
-                  
+
+                  <pb n="6" source="Moreno_169_6.jpg"/>
+
+                  <fw type="paginaNum"><choice>
+                        <sic>5</sic>
+                        <corr>6</corr>
+                     </choice></fw>
+
                   <l>mirando este papel semicopado.</l>
                </sp>
-               
+
 
                <sp>
                   <speaker rend="cursiva">Ger.</speaker>
                   <l>Mencia, está avisada. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Menc. </speaker>
                   <l>Ya te entiendo.</l>
@@ -505,7 +514,7 @@
                   <speaker rend="cursiva">Ger.</speaker>
                   <l>En avisando yo. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Menc. </speaker>
                   <l>Eso pretendo,</l>
@@ -563,7 +572,7 @@
                   <speaker rend="cursiva">Menc.</speaker>
                   <l>Dueño del alma, si.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Ger. </speaker>
                   <l>Quiero abrazarte,</l>
@@ -619,13 +628,13 @@
                   <speaker rend="cursiva">Ger.</speaker>
                   <l>En la ocasion será. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Menc. </speaker>
                   <l>Pues por tu vida</l>
                   <l>que sea luego al punto. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Vej. </speaker>
                   <l>Id con cuidado,</l>
@@ -636,9 +645,9 @@
                   <speaker rend="cursiva">Sac.</speaker>
                   <l>Como errado? tened por Dios, amigo.</l>
                </sp>
-               
-               <pb n="7" source="Moreno_169_7.jpg" />
-                  
+
+               <pb n="7" source="Moreno_169_7.jpg"/>
+
                <fw type="paginaNum">7</fw>
 
                <sp>
@@ -661,7 +670,7 @@
                   <speaker rend="cursiva">Ger.</speaker>
                   <l>El Vejete es un lince.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Vej. </speaker>
                   <l>Id con cuidado. <stage rend="cursiva">cantan.</stage></l>
@@ -688,7 +697,10 @@
 
                <sp>
                   <speaker rend="cursiva">Sac.</speaker>
-                  <l>Ay <choice><sic>Erancisco</sic><corr>Francisco</corr></choice>, que tienes!</l>
+                  <l>Ay <choice>
+                        <sic>Erancisco</sic>
+                        <corr>Francisco</corr>
+                     </choice>, que tienes!</l>
                </sp>
 
                <sp>
@@ -708,13 +720,19 @@
 
                <sp>
                   <speaker rend="cursiva">Sac.</speaker>
-                  <l>Ay <choice><sic>Erancisco</sic><corr>Francisco</corr></choice>, que tienes!</l>
+                  <l>Ay <choice>
+                        <sic>Erancisco</sic>
+                        <corr>Francisco</corr>
+                     </choice>, que tienes!</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Vej.</speaker>
                   <l>En confusion me ha puesto.</l>
-                  <l>Sabeis do está <choice><sic>Mecía</sic><corr>Mencía</corr></choice>? Que es aquesto!</l>
+                  <l>Sabeis do está <choice>
+                        <sic>Mecía</sic>
+                        <corr>Mencía</corr>
+                     </choice>? Que es aquesto!</l>
                </sp>
 
                <sp>
@@ -761,9 +779,9 @@
                   <l>Allá dentro he de entrar, Ola, Mencía?</l>
                   <l>Aguardad, que ya salgo. Ay honra mia! </l>
                </sp>
-               
-               <pb n="8" source="Moreno_169_8.jpg" />
-                 
+
+               <pb n="8" source="Moreno_169_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
 
                <sp>
@@ -771,7 +789,7 @@
                   <l>Pues se entró, yo me voy, porque en saliendo,</l>
                   <l>conozca don Ortuño que lo entiendo.</l>
                </sp>
-               
+
                <stage rend="cursiva">Vase, y sale el Vegete con espada y broquel.</stage>
 
                <sp>
@@ -831,7 +849,7 @@
                   <speaker rend="cursiva">Menc.</speaker>
                   <l>Si, señor padre.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Canta Vej.</speaker>
                   <l>Quien se fia de amigos,</l>
@@ -839,7 +857,7 @@
                   <l>porque el mas fiel amigo</l>
                   <l>suele dar chasco.</l>
                </sp>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
          </div>
