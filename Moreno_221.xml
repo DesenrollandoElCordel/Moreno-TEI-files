@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_221">
    <teiHeader>
       <fileDesc>
@@ -40,11 +41,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5041046</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 230</idno>
                   </altIdentifier>
@@ -88,7 +91,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -116,24 +125,25 @@
       <revisionDesc>
          <change when="2021-04-12" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout du lien vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout du lien vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_221_thumbnail.jpg" />
+      <graphic url="Moreno_221_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_221_1.jpg" />
+               <pb n="1" source="Moreno_221_1.jpg"/>
 
                <fw type="impresorNum">Número 230.</fw>
 
                <head rend="negrita" type="primer_titulo">CELINDA Y D. ANTONIO MORENO.</head>
                <head type="subtitulo">Refiérese el cautíverio de este y las amorosas ternezas dé
-                  está Argelina, y como <lb />la redujo á nuestra santa Fe, declárándole el
+                  está Argelina, y como <lb/>la redujo á nuestra santa Fe, declárándole el
                   nacimiento y muerte de Mahoma.</head>
 
                <div n="1" type="parte">
@@ -189,9 +199,9 @@
                   <l>pues le amaba con desvelo.</l>
                   <l>Un dia le llamó á solas,</l>
                   <l>dentro de su jardin mesmo,</l>
-                  
-                  <pb n="2" source="Moreno_221_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_221_2.jpg"/>
+
                   <l>le dice: Cristiano mio,</l>
                   <l>escuháme que pretendo,</l>
                   <l>que me digas la verdad</l>
@@ -294,9 +304,9 @@
                   <l>hasta los mismos cabellos;</l>
                   <l>y viendo no parecia,</l>
                   <l>sus amigos le echan menos,</l>
-                  
-                  <pb n="3" source="Moreno_221_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_221_3.jpg"/>
+
                   <l>y procurando buscarle,</l>
                   <l>casa la Judia fueron,</l>
                   <l>y preguntando por él,</l>
@@ -338,7 +348,7 @@
                </div>
 
                <div n="2" type="parte">
-                  
+
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
                   <l>Ya dije en la primer parte</l>
                   <l>como se quedó en sileneio,</l>
@@ -394,7 +404,10 @@
                   <l>al punto te lo concedo;</l>
                   <l>pero eso que ahora me dices</l>
                   <l>nunca lo tendré por cierto:</l>
-                  <l>parir y quedar <choice><sic>Doneella</sic><corr>Doncella</corr></choice></l>
+                  <l>parir y quedar <choice>
+                        <sic>Doneella</sic>
+                        <corr>Doncella</corr>
+                     </choice></l>
                   <l>una muger, no lo creo.</l>
                   <l>Pues bien lo puedes.creer,</l>
                   <l>y nunca dudes en ello</l>
@@ -408,9 +421,9 @@
                   <l>sin lastimarse lo terso,</l>
                   <l>penetrarse lá luz pura</l>
                   <l>del Sol la Luna, ó Luceros?</l>
-                  
-                  <pb n="4" source="Moreno_221_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_221_4.jpg"/>
+
                   <l>Pues de ese modo pasó</l>
                   <l>aquel superior reflejo,</l>
                   <l>por donde su utilidad,</l>
@@ -522,14 +535,12 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARNONA:=1891.
-                  <lb />Imp. de D. José María Moreno, calle de Madre de Dios, núm.
-                  1
-               </p>
+                  <lb/>CARNONA:=1891. <lb/>Imp. de D. José María Moreno, calle de Madre de Dios,
+                  núm. 1 </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

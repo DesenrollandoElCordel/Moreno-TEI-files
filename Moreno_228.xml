@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_228">
    <teiHeader>
       <fileDesc>
@@ -22,16 +23,16 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Siete hermanos vandoleros. Famosa jacara nueva, donde
-                     se dá cuenta de la vida, prision y muerte de siete hermanos vandoleros, en que
-                     se refleren las grandes crueldades, insultos, muertes y robos que hizo Andrés
-                     Vazquez y sus seis hermanos, como lo verá el curioso lector; los nombres de
-                     cada uno son: Miguel, Juan, Francisco, Pedro, Gerónimo, y Antonio Vazquez,
+                  <title type="titulo_completo">Siete hermanos vandoleros. Famosa jacara nueva,
+                     donde se dá cuenta de la vida, prision y muerte de siete hermanos vandoleros,
+                     en que se refleren las grandes crueldades, insultos, muertes y robos que hizo
+                     Andrés Vazquez y sus seis hermanos, como lo verá el curioso lector; los nombres
+                     de cada uno son: Miguel, Juan, Francisco, Pedro, Gerónimo, y Antonio Vazquez,
                      castigados en Ciudad-Real.</title>
                   <title type="titulo_breve">Siete hermanos vandoleros.</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -43,20 +44,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5041077</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 237</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -85,7 +88,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -113,30 +122,31 @@
       <revisionDesc>
          <change when="2021-04-14" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_228_thumbnail.jpg" />
+      <graphic url="Moreno_228_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               
-               <pb n="1" source="Moreno_228_1.jpg" />
-               
+
+               <pb n="1" source="Moreno_228_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 237)</fw>
-               
+
                <head rend="negrita" type="primer_titulo">SIETE HERMANOS VANDOLEROS.</head>
-               
+
                <head rend="cursiva" type="subtitulo">FAMOSA JACARA NUEVA, DONDE SE DÁ CUENTA DE LA
-               <lb />vida, prision y muerte de siete hermanos vandoleros, en que se re
-               <lb />fleren las grandes crueldades, insultos, muertes y robos que hizo
-               <lb />Andrés Vazquez y sus seis hermanos, como lo verá el curioso lector;
-               <lb />los nombres de cada uno son: Miguel, Juan, Francisco, Pedro,
-               <lb />Gerónimo, y Antonio Vazquez, castigados en Ciudad-Real.</head>
-               
+                  <lb/>vida, prision y muerte de siete hermanos vandoleros, en que se re <lb/>fleren
+                  las grandes crueldades, insultos, muertes y robos que hizo <lb/>Andrés Vazquez y
+                  sus seis hermanos, como lo verá el curioso lector; <lb/>los nombres de cada uno
+                  son: Miguel, Juan, Francisco, Pedro, <lb/>Gerónimo, y Antonio Vazquez, castigados
+                  en Ciudad-Real.</head>
+
                <l rend="indent">Favor le pido á Jesus</l>
                <l>y á la Vírgen madre nuestra</l>
                <l>para que pueda cantar</l>
@@ -161,9 +171,9 @@
                <l>(mejor diré siete fieras)</l>
                <l>estos quitaban á todos</l>
                <l>las vidas y las haciendas.</l>
-               
-               <pb n="2" source="Moreno_228_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_228_2.jpg"/>
+
                <l>Camino de Cantillana</l>
                <l>á cuatro frailes encuentran</l>
                <l>de la órden franciscana,</l>
@@ -250,9 +260,9 @@
                <l>en camino de Orihuela</l>
                <l>les quitaron los doblonos</l>
                <l>y maniatados los dejan:</l>
-               
-               <pb n="3" source="Moreno_228_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_228_3.jpg"/>
+
                <l>y á una Vírgen soberana</l>
                <l>junto á la ciudad de Cuenca, </l>
                <l>la quitaron cuanto habia</l>
@@ -339,9 +349,9 @@
                <l>calzan, visten, gastan, juegan,</l>
                <l>hasta que todos quedaron</l>
                <l>sin blanca en las faltriqueras.</l>
-               
-               <pb n="4" source="Moreno_228_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_228_4.jpg"/>
+
                <l>Se salieron de Madrid</l>
                <l>como aquellos que apedrean:</l>
                <l>dentro de Toledo quitaron</l>
@@ -410,16 +420,14 @@
                <l>y nos dé la gloria eterna.</l>
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1854.
-                  <lb />Imprenta de D. José María Moreno, Descalzas núm. 1.
-               </p>
+                  <lb/>CARMONA:—1854. <lb/>Imprenta de D. José María Moreno, Descalzas núm. 1. </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

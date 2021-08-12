@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_222">
    <teiHeader>
       <fileDesc>
@@ -40,11 +41,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5041048</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 230</idno>
                   </altIdentifier>
@@ -70,7 +73,7 @@
                         <condition>Bueno</condition>
                      </supportDesc>
                      <layoutDesc>
-                       <p>2 columnas</p>
+                        <p>2 columnas</p>
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
@@ -88,7 +91,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -116,27 +125,28 @@
       <revisionDesc>
          <change when="2021-04-12" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_222_thumbnail.jpg" />
+      <graphic url="Moreno_222_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_222_1.jpg" />
+               <pb n="1" source="Moreno_222_1.jpg"/>
 
                <fw type="impresorNum">(Número <corr>217</corr>230)</fw>
 
                <head rend="negrita" type="primer_titulo">CELINDA Y D ANTONIO MORENO.</head>
                <head type="subtitulo">Refiórese el cautiverio de este y las amorosas ternezas de
-                  esta Argelina, y como <lb />la radujo á nuestra santa Fé, declarándole el
+                  esta Argelina, y como <lb/>la radujo á nuestra santa Fé, declarándole el
                   nacimiento y muerte de Mahoma.</head>
 
                <div n="1" type="parte">
-                  
+
                   <head type="titulo_parte">PRIMERA PARTE.</head>
 
                   <l rend="indent">Ayudado de Dios Padre,</l>
@@ -183,9 +193,9 @@
                   <l>de todos, porque tenia</l>
                   <l>la volúntad y amor puesto</l>
                   <l>en el cautivo cristiano,</l>
-                  
-                  <pb n="2" source="Moreno_222_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_222_2.jpg"/>
+
                   <l>le dice: Cristiano mio,</l>
                   <l>escuchame que pretendo,</l>
                   <l>que me digas la verdad</l>
@@ -286,9 +296,9 @@
                   <l>y se lo comieron todo,</l>
                   <l>hasta los mismos cábellos;</l>
                   <l>y viendo no parecia</l>
-                  
-                  <pb n="3" source="Moreno_222_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_222_3.jpg"/>
+
                   <l>y procurando buscarle, </l>
                   <l>casa la Judia fueron,</l>
                   <l>y preguntando por él,</l>
@@ -328,11 +338,11 @@
                   <l>Y en otra segunda parte</l>
                   <l>daré fin á este suceso.</l>
                </div>
-               
+
                <div n="2" type="parte">
-                  
+
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Ya dije en la primer parte</l>
                   <l>como se quedó en silencio,</l>
                   <l>la respuesta del Cristiano</l>
@@ -398,9 +408,9 @@
                   <l>escucha este bello ejemplo.</l>
                   <l>¿No has visto por un cristal,</l>
                   <l>sin lastimarse lo terso,</l>
-                  
-                  <pb n="4" source="Moreno_222_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_222_4.jpg"/>
+
                   <l>Pues de ese modo pasó</l>
                   <l>aquel superior reflejo,</l>
                   <l>por don de su utilidad,</l>

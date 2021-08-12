@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_223">
    <teiHeader>
       <fileDesc>
@@ -21,10 +22,10 @@
                <titleStmt>
                   <title type="titulo_completo">Pasillo entre padre é hija hablando de la oracion
                      del Padre Nuestro.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5041054</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 231</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,15 +79,21 @@
                </physDesc>
                <history>
                   <acquisition>
-                     <p />
+                     <p/>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><projectDesc>
-            <p />
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
+            <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -105,43 +114,44 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-22" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-22" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-07-02" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_223_thumbnail.jpg" />
+      <graphic url="Moreno_223_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_223_1.jpg" />
+               <pb n="1" source="Moreno_223_1.jpg"/>
 
                <fw type="impresorNum">(Núm. 231.)</fw>
-   
+
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">PASILLO</hi>
-                  <lb />ENTRE PADRE É HIJA,
-                  <lb />HABLANDO DE LA ORACION
-                  <lb /><hi rend="negrita">DEL PADRE NUESTRO.</hi>
+                  <lb/><hi rend="negrita">PASILLO</hi>
+                  <lb/>ENTRE PADRE É HIJA, <lb/>HABLANDO DE LA ORACION <lb/><hi rend="negrita">DEL
+                     PADRE NUESTRO.</hi>
                </head>
-   
-   
+
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>Buenos dias tenga usted</l>
                   <l>llenos de la eterna gracia.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Padre.</speaker>
                   <l>Buenos te los de Dios hija</l>
@@ -151,7 +161,7 @@
                   <l>de haber llegado á este dia,</l>
                   <l>y ver del sol la luz clara?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>Si señor, me he persignado,</l>
@@ -159,12 +169,12 @@
                   <l>con la mayor oracion,</l>
                   <l>que reza la Iglesia Santa.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Y cual es hija querida?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>No creí me preguntara usted,</l>
@@ -173,33 +183,36 @@
                   <l>me ha dichoque el Padre nuestro</l>
                   <l>se llama la Oracion Magna.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Es verdad, que te lo digo,</l>
-                  <l><choice><sic>qne</sic><corr>que</corr></choice> és regla de todas cuantas</l>
+                  <l><choice>
+                        <sic>qne</sic>
+                        <corr>que</corr>
+                     </choice> és regla de todas cuantas</l>
                   <l>se hancompuesto y compondrán</l>
                   <l>en toda la Iglesia sabia;</l>
-                  
-                  <pb n="2" source="Moreno_223_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_223_2.jpg"/>
+
                   <l>pero te lo pregunté</l>
                   <l>por ver si te se olvidaba</l>
                   <l>lo que tanto te he encargado.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>Siempre la tengo en mi alma;</l>
                   <l>porque es de honra y provecho.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Quisiera, que me esplicaras</l>
                   <l>la honra, y provecho, que tiene.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>Eso es una cosa clara,</l>
@@ -221,7 +234,7 @@
                   <l>las puertas suaves, y anchas</l>
                   <l>por donde se entra en el Cielo.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Hija mia, basta, basta,</l>
@@ -240,7 +253,7 @@
                   <l>Pero de que sabes tú,</l>
                   <l>que nos ha hecho esas gracias?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>De este memorial Santo</l>
@@ -260,7 +273,7 @@
                   <l>para esperar y pedir</l>
                   <l>cosas de mucha substancia.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Todo eso es cierto hija mia,</l>
@@ -295,16 +308,16 @@
                   <l>viendo tu poca crianza</l>
                   <l>esa loca echarla fuera,</l>
                   <l>y de un brazo te sacaran</l>
-                  
-                  <pb n="3" source="Moreno_223_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_223_3.jpg"/>
+
                   <l>quedabas vituperiosa,</l>
                   <l>y nada en ello alcanzaras?</l>
                   <l>Asimismo, hija querida,</l>
                   <l>mira, que grande distancia</l>
                   <l>hay de criatura, á Criador!</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Ha.</speaker>
                   <l>Me ha hecho Padre fuerza tanta</l>
@@ -317,7 +330,7 @@
                   <l>en no poniendo cuidado.</l>
                   <l>no hay cosa bien acabada.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Para ti será el provecho</l>
@@ -327,7 +340,7 @@
                   <l>qué es lo que piden, y como,</l>
                   <l>y que encierran esas clausulas?</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Ha.</speaker>
                   <l>En lo poco que yo entiendo</l>
@@ -373,7 +386,7 @@
                   <l>que es menester que nos fuerce!</l>
                   <l>que ingratitud tan infausta!</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Ay hija querida mia!</l>
@@ -398,7 +411,7 @@
                   <l>toda injuria y toda ofensa,</l>
                   <l>pues que Dios asi lo manda.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>Y si acaso á mi me hacen</l>
@@ -407,9 +420,9 @@
                   <l>ú otra notable infamia,</l>
                   <l>qué he de hacer en este caso?</l>
                </sp>
-               
-               <pb n="4" source="Moreno_223_4.jpg" />
-   
+
+               <pb n="4" source="Moreno_223_4.jpg"/>
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Eso hija se propala</l>
@@ -436,7 +449,7 @@
                   <l>y si acaso hablaren algo</l>
                   <l>achácatelo á tus faltas.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>Dios le pague Padre amado</l>
@@ -450,13 +463,13 @@
                   <l>porque el comun enemigo</l>
                   <l>no se ria en la desgracia.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Amen, y que sea asi,</l>
                   <l>por su Madre Sacrosanta.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>Una pregunta queria</l>
@@ -470,7 +483,7 @@
                   <l>y solo en el Padre nuestro</l>
                   <l>no lo mienta, eso me para.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Como Dios todo lo sabe,</l>
@@ -488,7 +501,7 @@
                   <l>todo aquello, que tu crees</l>
                   <l>de nuestra ley soberana.</l>
                </sp>
-   
+
                <sp>
                   <speaker rend="cursiva">Hija.</speaker>
                   <l>Como tengo dicho creo</l>
@@ -512,7 +525,7 @@
                   <l>y tambien hay muerte eterna;</l>
                   <l>Dios nos libre de desgracia!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
                   <l>Dios por su misericordia</l>
@@ -521,9 +534,9 @@
                   <l>en la ultima jornada.</l>
                </sp>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />CARMONA—1856 Imp. de D. J. M. M. calle Juan de la Cabra, núm. 5.</p>
+               <p><lb/>CARMONA—1856 Imp. de D. J. M. M. calle Juan de la Cabra, núm. 5.</p>
             </div>
          </div>
       </body>
