@@ -68,8 +68,11 @@
                                 </layoutDesc>
                             </objectDesc>
                             <decoDesc>
-                                <decoNote>
-                                    <p></p>
+                                <decoNote n="" type="num_grabados"></decoNote>
+                                <decoNote type="lista_grabados">
+                                    <list>
+                                        <item></item>
+                                    </list>
                                 </decoNote>
                             </decoDesc>
                         </physDesc>
