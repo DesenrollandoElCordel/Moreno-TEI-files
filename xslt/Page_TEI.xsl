@@ -42,6 +42,7 @@
                             <settlement>Genève</settlement>
                             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/></repository>
                             <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                            <idno type="DOI"></idno>
                             <altIdentifier>
                                 <idno type="num_impresor">Número </idno>
                             </altIdentifier>
@@ -76,6 +77,17 @@
                 </sourceDesc>
             </fileDesc>
             <encodingDesc>
+                <projectDesc>
+                    <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+                        cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+                        Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+                        Sandoz-Monique de Meuron.</p>
+                </projectDesc>
+                <classDecl>
+                    <taxonomy xml:id="dato_bne">
+                        <bibl>El portal de datos bibliográficos de la Biblioteca Nacional de España</bibl>
+                    </taxonomy>
+                </classDecl>
                 <editorialDecl>
                     <correction>
                         <p>OCR non corregido</p>
@@ -93,7 +105,7 @@
                     <language ident="es">Español</language>
                 </langUsage>
                 <textClass>
-                    <keywords xml:base="http://datos.bne.es/tema/">
+                    <keywords scheme="#dato_bne">
                         <term type="tipo_texto"></term>
                         <term type="tipo_estrofa"></term>
                         <term type="verso_prosa">Verso</term>
