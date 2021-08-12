@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_284">
    <teiHeader>
       <fileDesc>
@@ -23,10 +24,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">EL JARDIN ENGAÑOSO.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -38,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5055125</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 297</idno>
                   </altIdentifier>
@@ -84,7 +87,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -112,26 +121,27 @@
       <revisionDesc>
          <change when="2021-04-22" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_284_thumbnail.jpg" />
+      <graphic url="Moreno_284_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
-         
+
          <div>
-               
-               <pb n="1" source="Moreno_284_1.jpg" />
-               
-               <fw type="impresorNum">Número 297.</fw>
-               
-               <head rend="negrita" type="primer_titulo">EL JARDIN ENGAÑOSO.</head>
-               
-               <div n="1" type="parte">
-                  <head rend="cursiva" type="subtitulo">PRIMERA PARTE.</head>
-               
+
+            <pb n="1" source="Moreno_284_1.jpg"/>
+
+            <fw type="impresorNum">Número 297.</fw>
+
+            <head rend="negrita" type="primer_titulo">EL JARDIN ENGAÑOSO.</head>
+
+            <div n="1" type="parte">
+               <head rend="cursiva" type="subtitulo">PRIMERA PARTE.</head>
+
                <l rend="indent">Con el favor de Maria,</l>
                <l>que como Madre de gracia</l>
                <l>á los hombres comunica</l>
@@ -142,11 +152,11 @@
                <l>ya fué á Dios destinada</l>
                <l>para ser del Verbo Madre,</l>
                <l>y fué concebida en gracia,</l>
-               
-               <pb n="2" source="Moreno_284_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_284_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>poniendo èl fiero dragon</l>
                <l>por trofeo de sus plantas:</l>
                <l>aquella que vió San Juan</l>
@@ -203,7 +213,10 @@
                <l>el otro se le aventaja.</l>
                <l>Tan ilustres y aplaudidos</l>
                <l>en la ciudad se admiraban,</l>
-               <l>que <choice><sic>fneron</sic><corr>fueron</corr></choice> los dos pimpollos</l>
+               <l>que <choice>
+                     <sic>fneron</sic>
+                     <corr>fueron</corr>
+                  </choice> los dos pimpollos</l>
                <l>de la real casa de Alvara.</l>
                <l>Siendo pues de doce años</l>
                <l>Don José, segun declara</l>
@@ -233,11 +246,11 @@
                <l>y mas airosa que Palas, </l>
                <l>y que solo con su vista</l>
                <l>los corazones robaba.</l>
-               
-               <pb n="3" source="Moreno_284_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_284_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>Sus perfecciones no digo,</l>
                <l>por no hacer la hístoria larga;</l>
                <l>pues era mortal envidia</l>
@@ -324,11 +337,11 @@
                <l>que navegó con bonanza</l>
                <l>hasta el reino de Sicilia;</l>
                <l>y en la provincia de Italia</l>
-               
-               <pb n="4" source="Moreno_284_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_284_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>estuvo catorce años,</l>
                <l>sin dar la vuelta á su patria,</l>
                <l>espendiendo su tesoro;</l>
@@ -391,18 +404,16 @@
                <l>Y en otra segunda plana</l>
                <l>diré como Don Fadriqne,</l>
                <l>se restituyo á su patria.</l>
-               <trailer rend="negrita">FIN
-               <lb />de la primera parte.</trailer>
-               </div>
-               
-               <div n="2" type="parte">
-                  
-                  <pb n="5" source="Moreno_284_5.jpg" />
-                  
-               <head rend="negrita" type="titulo_parte">SEGUNDA PARTE
-               <lb />DEL
-               <lb />JARDIN ENGAÑOSO.</head>
-                  
+               <trailer rend="negrita">FIN <lb/>de la primera parte.</trailer>
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="5" source="Moreno_284_5.jpg"/>
+
+               <head rend="negrita" type="titulo_parte">SEGUNDA PARTE <lb/>DEL <lb/>JARDIN
+                  ENGAÑOSO.</head>
+
                <l rend="indent">Ya deja la primer parte</l>
                <l>casada á Doña Constanza,</l>
                <l>Don José de Alvara muerto,</l>
@@ -449,11 +460,11 @@
                <l>y aunque tanto no le amara, </l>
                <l>el haber nacido noble</l>
                <l>para su honradéz bastara,</l>
-                  
-               <pb n="6" source="Moreno_284_6.jpg" />
-                  
+
+               <pb n="6" source="Moreno_284_6.jpg"/>
+
                <fw type="paginaNum">6</fw>
-                  
+
                <l>Y asi cuando algun papel</l>
                <l>de Don Fadrique la daban,</l>
                <l>con juiciosa pesadumbre</l>
@@ -540,11 +551,11 @@
                <l>de cuantas flores se hallan,</l>
                <l>entonces conseguirias</l>
                <l>tu intento y aquesa vana</l>
-                  
-               <pb n="7" source="Moreno_284_7.jpg" />
-                  
+
+               <pb n="7" source="Moreno_284_7.jpg"/>
+
                <fw type="paginaNum">7</fw>
-                  
+
                <l>pretencion de tu locura.</l>
                <l>Y dicho esto, se aparta</l>
                <l>de su vista; y él quedando</l>
@@ -631,11 +642,11 @@
                <l>y en razones mal formadas</l>
                <l>á la Virgen del Rosario</l>
                <l>en su ayuda implora y llama,</l>
-                  
-               <pb n="8" source="Moreno_284_8.jpg" />
-                  
+
+               <pb n="8" source="Moreno_284_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
-                  
+
                <l>Del susto que recibió,</l>
                <l>quedóse allí desmayada</l>
                <l>en los brazos de su esposo:</l>
@@ -720,8 +731,8 @@
                <l>y aqui rendida la pluma</l>
                <l>el benigno indulto aguarda,</l>
                <trailer>FIN.</trailer>
-               </div>
-            
+            </div>
+
 
             <div type="colofon">
                <p>CARMONA: 1859. Imp. de D. J. M. Moreno, calle de Madre de Dios.</p>
