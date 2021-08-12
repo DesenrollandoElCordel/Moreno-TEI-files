@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_278">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Décimas.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5055052</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 290</idno>
                   </altIdentifier>
@@ -86,7 +89,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -114,17 +123,18 @@
       <revisionDesc>
          <change when="2021-04-08" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_278_thumbnail.jpg" />
+      <graphic url="Moreno_278_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_278_1.jpg" />
+               <pb n="1" source="Moreno_278_1.jpeg"/>
 
                <fw type="impresorNum">Número 290.</fw>
 
@@ -189,7 +199,7 @@
                   <l rend="cursiva">que el diablo se lo hizo hacer</l>
                </lg>
 
-               <pb n="2" source="Moreno_278_2.jpg" />
+               <pb n="2" source="Moreno_278_2.jpeg"/>
 
                <lg rend="cursiva">
                   <l rend="indent">En esta carta mi bien</l>
@@ -311,13 +321,11 @@
             </div>
 
             <div>
-               <pb n="3" source="Moreno_278_3.jpg" />
+               <pb n="3" source="Moreno_278_3.jpeg"/>
 
                <head rend="negrita" type="primer_titulo">
-                  <lb />DECIMAS GLOSADAS,
-                  <lb />compuestas por Juan Bautista Gomez,
-                  <lb />conocidas por la de los Negritos.
-               </head>
+                  <lb/>DECIMAS GLOSADAS, <lb/>compuestas por Juan Bautista Gomez, <lb/>conocidas por
+                  la de los Negritos. </head>
 
                <lg rend="cursiva">
                   <l rend="indent">A tus plantas bella Flora</l>
@@ -410,8 +418,8 @@
                   <l>acaba con ella Flora</l>
                   <l rend="cursiva">no temas ser homicida.</l>
                </lg>
-               
-               <pb n="4" source="Moreno_278_4.jpg" />
+
+               <pb n="4" source="Moreno_278_4.jpeg"/>
 
                <lg>
                   <l rend="indent">Si en brazos de ofro te viera</l>
@@ -505,9 +513,8 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1860.
-                  <lb />Imprenta de D. José Maria Moreno, calle de Madre de Dios, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1860. <lb/>Imprenta de D. José Maria Moreno, calle de Madre de Dios,
+                  núm. 1. </p>
             </div>
          </div>
       </body>
