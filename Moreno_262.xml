@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_262">
    <teiHeader>
       <fileDesc>
@@ -23,7 +24,7 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Nueva relación del torero andaluz.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (1856): <ref target="Moreno_261.xml">Moreno_261</ref></p>
@@ -38,20 +39,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045993</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 276</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -81,7 +84,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -109,26 +118,26 @@
       <revisionDesc>
          <change when="2021-04-20" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_262_thumbnail.jpg" />
+      <graphic url="Moreno_262_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
 
             <div>
-               
-               <pb n="1" source="Moreno_262_1.jpg" />
-               
+
+               <pb n="1" source="Moreno_262_1.jpeg"/>
+
                <fw type="impresorNum">Núm. 276.</fw>
-               
-               <head rend="negrita" type="primer_titulo">NUEVA RELACION
-               <lb />DEL
-               <lb />TORERO ANDALUZ.</head>
-               
+
+               <head rend="negrita" type="primer_titulo">NUEVA RELACION <lb/>DEL <lb/>TORERO
+                  ANDALUZ.</head>
+
                <l rend="indent">Esta es la casa chorré</l>
                <l>y esta que ves la ventana</l>
                <l>ande sale esa mujé;</l>
@@ -147,11 +156,11 @@
                <l>y despues que se guiyó</l>
                <l>como estaria yo, José,</l>
                <l>que el verla me pareció;</l>
-               
-               <pb n="2" source="Moreno_262_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_262_2.jpeg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>y era la sombra que el sol</l>
                <l>me jacia en la paré.</l>
                <l>¿De donde es?—Garitana,</l>
@@ -230,11 +239,11 @@
                <l>er tiene mucho poé con tu pare.</l>
                <l>¿Y á mí qué?</l>
                <l>lo quié mi pare casá, </l>
-               
-               <pb n="3" source="Moreno_262_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_262_3.jpeg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>po que se case co né.</l>
                <l>Por que mientras tu me quieras,</l>
                <l>Frasquiyo, soy tuya yó</l>
@@ -313,11 +322,11 @@
                <l>Fueron seis toros endinos</l>
                <l>de aquellos salamanquinos;</l>
                <l>por que allí no los habia</l>
-               
-               <pb n="4" source="Moreno_262_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_262_4.jpeg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>brabo, y se armó la corria...</l>
                <l>Salieron toitos vestios,</l>
                <l>de frasque mu presumios,</l>

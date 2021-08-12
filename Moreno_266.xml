@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_266">
    <teiHeader>
       <fileDesc>
@@ -19,7 +20,7 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Relación andaluza. El Tremendo.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (1866): <ref target="Moreno_267.xml">Moreno_267</ref></p>
@@ -34,20 +35,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5046018</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 279</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,7 +79,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -95,7 +104,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term type="tipo_texto">Relaciones</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -104,17 +113,18 @@
       <revisionDesc>
          <change when="2021-04-08" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_266_thumbnail.jpg" />
+      <graphic url="Moreno_266_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_266_1.jpg" />
+               <pb n="1" source="Moreno_266_1.jpg"/>
 
                <fw type="impresorNum">(Núm, 279.)</fw>
 
@@ -145,7 +155,7 @@
                   <l>lo embuto á osté en la paré</l>
                   <l>y lo ejo po un divé,</l>
 
-                  <pb n="2" source="Moreno_266_2.jpg" />
+                  <pb n="2" source="Moreno_266_2.jpg"/>
 
                   <l>con la cabeza sacá </l>
                   <l>pa que se rian de osté.</l>
@@ -239,7 +249,7 @@
                <lg>
                   <l rend="indent">Y quien es osté?</l>
 
-                  <pb n="3" source="Moreno_266_3.jpg" />
+                  <pb n="3" source="Moreno_266_3.jpg"/>
 
                   <l>Yo soy Curro Boleones, </l>
                   <l>hijo de Coní, estasté?.</l>
@@ -334,7 +344,7 @@
                   <l>me pie cosa picante</l>
                   <l>lo entendiste chabosillo! </l>
 
-                  <pb n="4" source="Moreno_266_4.jpg" />
+                  <pb n="4" source="Moreno_266_4.jpg"/>
 
                   <l>eso es Currillo,</l>
                   <l>es osté mu tunante.</l>
@@ -411,9 +421,8 @@
 
             <div type="colofon">
                <p>
-                  <lb />REIMPRESO EN CARMONA.
-                  <lb />Imprenta. de D. J. M. Moreno, calle Juan de la Cabra, núm.4
-               </p>
+                  <lb/>REIMPRESO EN CARMONA. <lb/>Imprenta. de D. J. M. Moreno, calle Juan de la
+                  Cabra, núm.4 </p>
             </div>
          </div>
       </body>
