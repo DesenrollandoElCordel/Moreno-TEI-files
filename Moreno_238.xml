@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_238">
    <teiHeader>
       <fileDesc>
@@ -24,10 +25,10 @@
                <titleStmt>
                   <title type="titulo_completo">Las desgracias de Torivio y fracasos de los
                      duendes.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -39,20 +40,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045431</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 246</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -82,7 +85,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -110,26 +119,26 @@
       <revisionDesc>
          <change when="2021-04-19" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_238_thumbnail.jpg" />
+      <graphic url="Moreno_238_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            
+
             <div>
-               
-               <pb n="1" source="Moreno_238_1.jpg" />
-               
+
+               <pb n="1" source="Moreno_238_1.jpg"/>
+
                <fw type="impresorNum">(Número 246.)</fw>
-               
+
                <head><hi rend="negrita">LAS DESGRACIAS DE TORIVO</hi>
-               <lb />Y
-               <lb /><hi rend="negrita">FRACASOS DE LOS DUENDES.</hi></head>
-                  
+                  <lb/>Y <lb/><hi rend="negrita">FRACASOS DE LOS DUENDES.</hi></head>
+
                <l rend="indent">Ya que estoy en la Palestra</l>
                <l>entre tan pulidas damas,</l>
                <l>entre tan bellos primores,</l>
@@ -162,9 +171,9 @@
                <l>y dí que estás lastimada,</l>
                <l>y poquirritico á poco,</l>
                <l>como cofradia á pausas,</l>
-               
-               <pb n="2" source="Moreno_238_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_238_2.jpg"/>
+
                <l>ya la tenemos presente,</l>
                <l>y mas que viene empeñada</l>
                <l>en decir un cirquiloquio</l>
@@ -249,9 +258,9 @@
                <l>mis zelos tan dura carga,</l>
                <l>me conceptuaba solo,</l>
                <l>cuando vide una fantasma</l>
-               
-               <pb n="3" source="Moreno_238_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_238_3.jpg"/>
+
                <l>salir de mi propio cuarto</l>
                <l>por la puerta de la sala,</l>
                <l>y yo queriendo seguir</l>
@@ -336,9 +345,9 @@
                <l>rodeado de mil ancias,</l>
                <l>anduve mas de una hora</l>
                <l>medió en pino, medio á gatas,</l>
-               
-               <pb n="4" source="Moreno_238_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_238_4.jpg"/>
+
                <l>aqui caigo, alli tropiezo,</l>
                <l>hasta que caí de espaldas,</l>
                <l>y me puse, ya se vé,</l>
@@ -397,16 +406,15 @@
                <l>á mi no se me dá nada.</l>
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1854.
-                  <lb />Imprenta D. de José Maria Moreno, calle de las Delzassca núm. .
-               </p>
+                  <lb/>CARMONA:—1854. <lb/>Imprenta D. de José Maria Moreno, calle de las Delzassca
+                  núm. . </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

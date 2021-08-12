@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_231">
    <teiHeader>
       <fileDesc>
@@ -22,7 +23,10 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Andrionico y el leon.. Romance en que se refiere el cautiverio y gventuras de Andriónico. Dáse cuenta de sus amores, y de lo que le sucedió con un leon, que reconocido á los beneficios que de él habia recibido, se humiltó á sus piés.</title>
+                  <title type="titulo_completo">Andrionico y el leon.. Romance en que se refiere el
+                     cautiverio y gventuras de Andriónico. Dáse cuenta de sus amores, y de lo que le
+                     sucedió con un leon, que reconocido á los beneficios que de él habia recibido,
+                     se humiltó á sus piés.</title>
                   <title type="titulo_breve">Andrionico y el leon.</title>
                </titleStmt>
                <editionStmt>
@@ -38,20 +42,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045408</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 239</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -80,7 +86,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -108,27 +120,29 @@
       <revisionDesc>
          <change when="2021-04-14" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_231_thumbnail.jpg" />
+      <graphic url="Moreno_231_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_231_1.jpg" />
-               
+               <pb n="1" source="Moreno_231_1.jpg"/>
+
                <fw type="impresorNum">Número 239.</fw>
-               
+
                <head rend="negrita" type="primer_titulo">ANDRIONICO Y EL LEON.</head>
-               
-               <head rend="cursiva" type="subtitulo">Romance en que se refiere el cautiverio y gventuras de Andriónico. Dáse cuenta
-               <lb />de sus amores, y de lo que le sucedió con un leon, que reconocido á los
-               <lb />beneficios que de él habia recibido, se humiltó á sus piés.</head>
-               
+
+               <head rend="cursiva" type="subtitulo">Romance en que se refiere el cautiverio y
+                  gventuras de Andriónico. Dáse cuenta <lb/>de sus amores, y de lo que le sucedió
+                  con un leon, que reconocido á los <lb/>beneficios que de él habia recibido, se
+                  humiltó á sus piés.</head>
+
                <l rend="indent">Escúchame, Invicto César,</l>
                <l>si el escuchar no te enfada;</l>
                <l>y verás, que de Esclavonia</l>
@@ -169,11 +183,11 @@
                <l>es la mia y que me llaman</l>
                <l>Andriónico, pues mi padre</l>
                <l>así tambien se llamaba,</l>
-               
-               <pb n="2" source="Moreno_231_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_231_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>y mis abuelos lo mismo,</l>
                <l>por ser familio tan clara</l>
                <l>como la de Fabio en Roma,</l>
@@ -222,7 +236,10 @@
                <l>años, y aun pienso que pasan</l>
                <l>de once mil segun la cuenta,</l>
                <l>y lo mal que lo pasaba,</l>
-               <l>cuya <choice><sic>afiigida</sic><corr>afligida</corr></choice> pasion</l>
+               <l>cuya <choice>
+                     <sic>afiigida</sic>
+                     <corr>afligida</corr>
+                  </choice> pasion</l>
                <l>dió ocasion á que dejára</l>
                <l>á mi amo, y fugitivo</l>
                <l>me fuí al monte, pues estaba</l>
@@ -262,11 +279,11 @@
                <l>que por la puerta se entraba</l>
                <l>un feroz leon, y que</l>
                <l>manos, pechos, boca y barba,</l>
-               
-               <pb n="3" source="Moreno_231_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_231_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>tenia en sangre teñidas,</l>
                <l>cuyas señales me daban</l>
                <l>á entender, ser de algun hombre</l>
@@ -355,11 +372,11 @@
                <l>ocasion á que dejára</l>
                <l>este sitio, por la pena:</l>
                <l>!mas mi tirána desgracia</l>
-               
-               <pb n="4" source="Moreno_231_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_231_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>me llevó donde los mismos,</l>
                <l>que á mí señor, me buscaban</l>
                <l>me prendieron, y à mi amo</l>

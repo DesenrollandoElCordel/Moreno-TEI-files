@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_236">
    <teiHeader>
       <fileDesc>
@@ -23,7 +24,7 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">El rey Basilio de Dinamarca.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (1858): <ref target="Moreno_237.xml">Moreno_237</ref></p>
@@ -38,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045425</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -86,7 +89,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -114,23 +123,24 @@
       <revisionDesc>
          <change when="2021-04-19" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_200_thumbnail.jpg" />
+      <graphic url="Moreno_200_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
 
-               <pb n="1" source="Moreno_236_1.jpg" />
+               <pb n="1" source="Moreno_236_1.jpg"/>
 
                <fw type="impresorNum">(Número 245.)</fw>
 
                <head type="primer_titulo"><hi rend="negrita">EL REY BASILIO</hi>
-                  <lb />DE <lb /><hi rend="cursiva">DINAMARCA.</hi></head>
+                  <lb/>DE <lb/><hi rend="cursiva">DINAMARCA.</hi></head>
 
                <div n="1" type="parte">
 
@@ -157,7 +167,7 @@
                   <l>Inteligencia Divina,</l>
                   <l>reparte su mano escelsa</l>
 
-                  <pb n="2" source="Moreno_236_2.jpg" />
+                  <pb n="2" source="Moreno_236_2.jpg"/>
 
                   <fw type="paginaNum">2</fw>
 
@@ -248,7 +258,7 @@
                   <l>Respondió el Conde, Señora,</l>
                   <l>muéstromelo vuestra Alteza</l>
 
-                  <pb n="3" source="Moreno_236_3.jpg" />
+                  <pb n="3" source="Moreno_236_3.jpg"/>
 
                   <fw type="paginaNum">3</fw>
 
@@ -339,7 +349,7 @@
                   <l>El Rey, y el Consejo todo,</l>
                   <l>sin dar cuenta á la Princesa,</l>
 
-                  <pb n="4" source="Moreno_236_4.jpg" />
+                  <pb n="4" source="Moreno_236_4.jpg"/>
 
                   <fw type="paginaNum">4</fw>
 
@@ -421,10 +431,10 @@
                </div>
 
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_236_5.jpg" />
+                  <pb n="5" source="Moreno_236_5.jpg"/>
 
                   <head type="primer_titulo"><hi rend="negrita">EL REY BASILIO</hi>
-                     <lb />DE <lb /><hi rend="negrita">DINAMARCA.</hi></head>
+                     <lb/>DE <lb/><hi rend="negrita">DINAMARCA.</hi></head>
 
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
 
@@ -470,11 +480,11 @@
                   <l>y por estremo entendida,</l>
                   <l>es afable, y cariñosa.</l>
                   <l>y en efecto es toda linda.</l>
-                  
-                  <pb n="6" source="Moreno_236_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_236_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>El Príncipe vió sus ojos,</l>
                   <l>su discrecion, gallardia,</l>
                   <l>y Cupido le tiró</l>
@@ -561,11 +571,11 @@
                   <l>una carta medio escrita</l>
                   <l>de cariñosos requiebros,</l>
                   <l>que de esta suerte decia:</l>
-                  
-                  <pb n="7" source="Moreno_236_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_236_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>Glorioso Capitan mio,</l>
                   <l>mil abrazos dar queria</l>
                   <l>en lugar de parabienes</l>
@@ -652,11 +662,11 @@
                   <l>porque la Princesa invicta,</l>
                   <l>estaba un poco indispuesta,</l>
                   <l>de graves melancolías;</l>
-                  
-                  <pb n="8" source="Moreno_236_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_236_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>y solo por alegrarla,</l>
                   <l>discurrieron cierto dia</l>
                   <l>unos torneos de gala</l>
@@ -729,9 +739,8 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA—1858.
-                  <lb />Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
-               </p>
+                  <lb/>CARMONA—1858. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  4. </p>
             </div>
          </div>
       </body>
