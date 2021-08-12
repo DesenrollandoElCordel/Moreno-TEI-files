@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_253">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Coleccion de canciones andaluzas.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045721</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 266</idno>
                   </altIdentifier>
@@ -89,7 +92,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -117,22 +126,22 @@
       <revisionDesc>
          <change when="2021-04-07" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_253_thumbnail.jpg" />
+      <graphic url="Moreno_253_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_253_1.jpg" />
+            <pb n="1" source="Moreno_253_1.jpg"/>
 
             <fw type="impresorNum">(Núm. 286.)</fw>
 
             <head type="primer_titulo">
-               <lb />COLECCION
-               <lb /><hi rend="negrita">DE CANCIONES ANDALUZAS.</hi>
+               <lb/>COLECCION <lb/><hi rend="negrita">DE CANCIONES ANDALUZAS.</hi>
             </head>
 
             <div n="1" type="cancion">
@@ -158,7 +167,7 @@
                   <l>nadie se atreve en el llano</l>
                   <l>mi capricho á contrariar.</l>
 
-                  <pb n="2" source="Moreno_253_2.jpg" />
+                  <pb n="2" source="Moreno_253_2.jpg"/>
 
                   <l>Que vengan guardias civiles, </l>
                   <l>que vengan carabineros,</l>
@@ -237,7 +246,7 @@
                <lg>
                   <l rend="indent">Soy un pobre... eso es verdá, </l>
 
-                  <pb n="3" source="Moreno_253_3.jpg" />
+                  <pb n="3" source="Moreno_253_3.jpg"/>
 
                   <l>pero tengo mucho honó, </l>
                   <l>mucho aqué... y un arma honrá</l>
@@ -321,7 +330,7 @@
             </div>
 
             <div n="4" type="cancion">
-               <pb n="4" source="Moreno_253_4.jpg" />
+               <pb n="4" source="Moreno_253_4.jpg"/>
 
                <head rend="negrita" type="titulo_cancion">EL ROMANCERO.</head>
 
@@ -374,7 +383,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA: 1858.—Imp. de D. José M.a Moreno.</p>
+               <p><lb/>CARMONA: 1858.—Imp. de D. José M.a Moreno.</p>
             </div>
          </div>
       </body>

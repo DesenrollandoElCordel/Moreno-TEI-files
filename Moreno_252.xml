@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_252">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">El testamento de Cristo.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045698</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 265</idno>
                   </altIdentifier>
@@ -90,7 +93,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -120,25 +129,25 @@
       <revisionDesc>
          <change when="2021-04-07" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_252_thumbnail.jpg" />
+      <graphic url="Moreno_252_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_252_1.jpg" />
-               
+               <pb n="1" source="Moreno_252_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 265.)</fw>
-               
+
                <head type="primer_titulo">
-                  <lb />EL TESTAMENTO
-                  <lb /><hi>DE CRISTO.</hi>
+                  <lb/>EL TESTAMENTO <lb/><hi>DE CRISTO.</hi>
                </head>
-               
+
                <l rend="indent">Sepan cuantos esta carta</l>
                <l>vieren de mi testamento</l>
                <l>como yo Cristo Jesus,</l>
@@ -157,9 +166,9 @@
                <l>asiste el saber inmenso:</l>
                <l>Viendo cercana la muerte</l>
                <l>que ha de dar vida á los muertos,</l>
-               
-               <pb n="2" source="Moreno_252_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_252_2.jpg"/>
+
                <l>y que ya de mi partida</l>
                <l>tanto se apresura el tiempo:</l>
                <l>Otorgo lo que contiene</l>
@@ -220,15 +229,15 @@
                <l>como Escribanos del Cielo,</l>
                <l>en sus Escrituras Santas</l>
                <l>den fé y testimonio de ello.</l>
-               
+
                <trailer rend="cursiva">FIN.</trailer>
             </div>
-            
+
             <div>
-               <pb n="3" source="Moreno_252_3.jpg" />
-               
+               <pb n="3" source="Moreno_252_3.jpg"/>
+
                <head type="primer_titulo">CODICILO.</head>
-               
+
                <l>Despues que yo Dios y Hombre,</l>
                <l>Criador de tierra y cielo,</l>
                <l>en el Cenáculo Santo</l>
@@ -297,15 +306,13 @@
                <l>commendo Spiritum meum.</l>
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div>
-               <pb n="4" source="Moreno_252_4.jpg" />
-               
+               <pb n="4" source="Moreno_252_4.jpg"/>
+
                <head rend="negrita" type="primer_titulo">
-                  <lb />ROMANCE
-                  <lb />DE UN ALMA CONTRITA.
-               </head>
-               
+                  <lb/>ROMANCE <lb/>DE UN ALMA CONTRITA. </head>
+
                <l rend="indent">Penas en llanto desechas</l>
                <l>del curso de sangre yagua</l>
                <l>que de su costado vierte</l>
@@ -356,15 +363,14 @@
                <l>que es buen dia en esta casa</l>
                <l>cuando llora un penitente,</l>
                <l>pues que los Angeles cantan.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMOMA:—1857.
-                  <lb />Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
-               </p>
+                  <lb/>CARMOMA:—1857. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  4. </p>
             </div>
          </div>
       </body>

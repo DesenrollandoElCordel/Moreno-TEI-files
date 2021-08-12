@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_250">
    <teiHeader>
       <fileDesc>
@@ -25,7 +26,7 @@
                      desprecios que hace una dama</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -37,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045620</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 260</idno>
                   </altIdentifier>
@@ -90,7 +93,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -120,24 +129,25 @@
       <revisionDesc>
          <change when="2021-04-07" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_250_thumbnail.jpg" />
+      <graphic url="Moreno_250_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_250_1.jpg" />
+               <pb n="1" source="Moreno_250_1.jpg"/>
 
                <fw type="impresorNum">(Núm. 260.)</fw>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">DECIMAS GLOSADAS,</hi>
-                  <hi rend="cursiva"><lb />en las que se manifiesta los desprecios que hace una dama á todos
-                  <lb />los que la pretenden.</hi>
+                  <lb/><hi rend="negrita">DECIMAS GLOSADAS,</hi>
+                  <hi rend="cursiva"><lb/>en las que se manifiesta los desprecios que hace una dama
+                     á todos <lb/>los que la pretenden.</hi>
                </head>
 
                <lg rend="cursiva">
@@ -178,9 +188,9 @@
                   <l>rara vez vo me sonrio,</l>
                   <l>solo en mí se haya desvio</l>
                   <l>amores he despreciado</l>
-                  
-                  <pb n="2" source="Moreno_250_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_250_2.jpg"/>
+
                   <l>y de todos me he burlado.</l>
                   <l>No me mueve á compasion</l>
                   <l>las penas, ni la afliccion</l>
@@ -260,7 +270,7 @@
                   <l>porque gasta tirapié,</l>
                   <l rend="cursiva">me incomoda el zapatero.</l>
                </lg>
-               
+
                <lg rend="cursiva">
                   <l rend="indent">¿Quién se enamora, señores,</l>
                   <l>de sillero ó bailarin?</l>
@@ -293,15 +303,15 @@
                   <l>no siendo sino una loca,</l>
                   <l rend="cursiva">de sillero ó bailarin?</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Entregarme yo á un gaché</l>
                   <l>de los de faja y sombrero?...</l>
                   <l>Dios me libre, mas no quiero</l>
                   <l>la manta y el calañés</l>
-                  
-                  <pb n="3" source="Moreno_250_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_250_3.jpg"/>
+
                   <l>no me place, que el parnés</l>
                   <l>solo á mi me hacen tilin,</l>
                   <l>vale mas que un serafin:</l>
@@ -323,7 +333,7 @@
                   <l>y por andar con venenos</l>
                   <l rend="cursiva">no me gustan los pintores.</l>
                </lg>
-               
+
                <lg rend="cursiva">
                   <l rend="indent">No me agrada el aguador; </l>
                   <l>los albarderos tampoco,</l>
@@ -422,7 +432,7 @@
                   <l>ni su mugriento manteo,</l>
                   <l>siempre está, dilin, dalan,</l>
 
-                  <pb n="4" source="Moreno_250_4.jpg" />
+                  <pb n="4" source="Moreno_250_4.jpg"/>
 
                   <l>los difuntos es su afan;</l>
                   <l>de los santos el cepillo</l>
@@ -548,9 +558,7 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA.=1856.
-                  <lb />Imprenta de D. José María Moreno, Descalzas, núm.1.
-               </p>
+                  <lb/>CARMONA.=1856. <lb/>Imprenta de D. José María Moreno, Descalzas, núm.1. </p>
             </div>
          </div>
       </body>
