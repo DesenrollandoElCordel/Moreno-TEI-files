@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_297">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Coleccion de canciones nuevas.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5055407</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 313</idno>
                   </altIdentifier>
@@ -87,7 +90,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -115,16 +124,17 @@
       <revisionDesc>
          <change when="2021-04-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_297_thumbnail.jpg" />
+      <graphic url="Moreno_297_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_297_1.jpg" />
+            <pb n="1" source="Moreno_297_1.jpeg"/>
 
             <fw type="impresorNum">(Número 313.)</fw>
 
@@ -167,7 +177,7 @@
                <l>unas manos é oro</l>
                <l>pa parti nuezes.</l>
 
-               <pb n="2" source="Moreno_297_2.jpg" />
+               <pb n="2" source="Moreno_297_2.jpeg"/>
 
                <l rend="indent">Cataniya, tiene oblones.</l>
                <l>y traga guita el chabó.</l>
@@ -246,7 +256,7 @@
                   <l rend="indent">¿Para que me dijiste</l>
                   <l>toma mi alma</l>
 
-                  <pb n="3" source="Moreno_297_3.jpg" />
+                  <pb n="3" source="Moreno_297_3.jpeg"/>
 
                   <l>si volaba los vientos</l>
                   <l>de la inconstacia?</l>
@@ -345,7 +355,7 @@
             </div>
 
             <div n="3" type="cancion">
-               <pb n="4" source="Moreno_297_4.jpg" />
+               <pb n="4" source="Moreno_297_4.jpeg"/>
 
                <head rend="negrita" type="titulo_cancion">LA CARACOLERA.</head>
 
@@ -420,7 +430,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA: Imp: de D. J. M.Moreno. Calle Juan de la Cabra, núm 4.</p>
+               <p><lb/>CARMONA: Imp: de D. J. M.Moreno. Calle Juan de la Cabra, núm 4.</p>
             </div>
          </div>
       </body>

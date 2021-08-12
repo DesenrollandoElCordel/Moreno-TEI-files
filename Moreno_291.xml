@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_291">
    <teiHeader>
       <fileDesc>
@@ -19,11 +20,12 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Sainete nuevo titulado El payo de la carta. Para siete personas.</title>
+                  <title type="titulo_completo">Sainete nuevo titulado El payo de la carta. Para
+                     siete personas.</title>
                   <title type="titulo_breve">Sainete nuevo titulado El payo de la carta.</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5055240</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 305</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -77,7 +81,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR corregido</p>
             </correction>
@@ -96,7 +106,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -105,36 +115,34 @@
       <revisionDesc>
          <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-07-05" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_291_thumbnail.jpg" />
+      <graphic url="Moreno_291_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_291_1.jpg" />
+            <pb n="1" source="Moreno_291_1.jpeg"/>
 
             <fw type="impresorNum">(Núm. 307.)</fw>
 
             <head type="primer_titulo">
-               <lb /><hi rend="negrita">SAINETE NUEVO</hi>
-               <lb />TITULADO
-               <lb /><hi rend="negrita">EL PAYO</hi>
-               <lb />DE LA CARTA.
-            </head>
+               <lb/><hi rend="negrita">SAINETE NUEVO</hi>
+               <lb/>TITULADO <lb/><hi rend="negrita">EL PAYO</hi>
+               <lb/>DE LA CARTA. </head>
             <head type="subtitulo">PARA SIETE PERSONAS.</head>
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1859.
-                  <lb />Imprenta de D. José María Moreno, calle Juan de la Cabra.
+                  <lb/>CARMONA:—1859. <lb/>Imprenta de D. José María Moreno, calle Juan de la Cabra.
                </p>
             </div>
 
-            <pb n="2" source="Moreno_291_2.jpg" />
+            <pb n="2" source="Moreno_291_2.jpeg"/>
 
             <div type="reparto">
                <head type="reparto_titulo">PERSONAS.</head>
@@ -152,9 +160,7 @@
 
             <div>
                <stage rend="cursiva">
-                  <lb />DECORACION DE CALLE CORTA: Y SALEN DON ANTO-
-                  <lb />nio y Don Pedro.
-               </stage>
+                  <lb/>DECORACION DE CALLE CORTA: Y SALEN DON ANTO- <lb/>nio y Don Pedro. </stage>
 
                <sp>
                   <speaker rend="cursiva">Ped.</speaker>
@@ -243,7 +249,7 @@
                   <l>Sí.</l>
                   <l>si es la graciosa.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Ant.</speaker>
                   <l>Pues deja,</l>
@@ -257,17 +263,17 @@
                   <speaker rend="cursiva">Ped.</speaker>
                   <l>Sea</l>
                   <l>como quieras.</l>
-                  
+
                   <stage rend="cursiva">
-                     <lb />Salen Pascual y Bartolo de payos
-                     <lb />andaluces: Bartolo trae una carta
-                     <lb />en la <choice><sic>mamo</sic><corr>mano</corr></choice>, y mirando las casas,
-                     <lb />tropieza con Don Pedro que
-                     <lb />está en accíon de irse.
-                  </stage>
-                  
+                     <lb/>Salen Pascual y Bartolo de payos <lb/>andaluces: Bartolo trae una carta
+                     <lb/>en la <choice>
+                        <sic>mamo</sic>
+                        <corr>mano</corr>
+                     </choice>, y mirando las casas, <lb/>tropieza con Don Pedro que <lb/>está en
+                     accíon de irse. </stage>
+
                   <l>Habrá bruto! <stage rend="cursiva">apa.</stage></l>
-                  
+
                </sp>
 
                <sp>
@@ -287,11 +293,11 @@
                <sp>
                   <speaker rend="cursiva">Ant.</speaker>
                   <l>Hombre, cállate por Dios,</l>
-                  
-                  <pb n="3" source="Moreno_291_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_291_3.jpeg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>y con cachaza tolera</l>
                   <l>el empujon, pues no es nuevo</l>
                   <l>dar tropezones con bestias.</l>
@@ -347,7 +353,7 @@
                   <speaker rend="cursiva">Ant.</speaker>
                   <l>El demonio del postema! </l>
                </sp>
-               
+
                <stage rend="cursiva">Vanse los dos.</stage>
 
                <sp>
@@ -357,7 +363,7 @@
                   <l>que me dieron en la villa:</l>
                   <l>sabes leer? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pasc.</speaker>
                   <l>Algunas letras.</l>
@@ -430,7 +436,7 @@
                   <l>Ya que tanto yociferas, </l>
                   <l>léela tú.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Pues ya se ve:</l>
@@ -447,7 +453,7 @@
                   <l>Atiende, salvage:</l>
                   <l>aquí dice.. dice... </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pasc.</speaker>
                   <l>Bueno!</l>
@@ -460,7 +466,7 @@
                   <l>mas calla;aquí viene un hombre,</l>
                   <l>si no me mienten las señas.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale un Hombre.</stage>
 
                <sp>
@@ -507,28 +513,28 @@
                <sp>
                   <speaker rend="cursiva">Homb.</speaker>
                   <l>Amigo, yo voy de priesa:</l>
-                  
-                  <pb n="4" source="Moreno_291_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_291_4.jpeg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>qué se ofrece, vaya.</l>
                </sp>
-               
+
                <sp>
                   <speaker>Bart.</speaker>
                   <l>Solo</l>
                   <l>me diga la carta esta</l>
                   <l>á quién viene? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Homb. </speaker>
                   <l>Dice así:</l>
                   <l>Lee: <hi rend="cursiva">A la Señora</hi></l>
                   <l><hi rend="cursiva">comica de las comedias</hi>.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Aprende á leer, gransalvage.</l>
@@ -558,14 +564,11 @@
                   <l>la puerta abierta se mira;</l>
                   <l>Pascual, sube la escalera. <stage rend="cursiva">vase.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Mutacion de salon con sillas, me-
-                  <lb />sa y una comedia encima de ella,
-                  <lb />y salen por la izquierda la
-                  <lb />Graciosa y Cuarta.
-               </stage>
-               
+                  <lb/>Mutacion de salon con sillas, me- <lb/>sa y una comedia encima de ella,
+                  <lb/>y salen por la izquierda la <lb/>Graciosa y Cuarta. </stage>
+
                <sp>
                   <speaker rend="cursiva">Grac.</speaker>
                   <l>Haz que todo esté dispuesto,</l>
@@ -588,7 +591,7 @@
                <sp>
                   <speaker rend="cursiva">Cuar.</speaker>
                   <l>Voy corriendo. <stage rend="cursiva">vase.</stage></l>
-                  
+
                </sp>
 
                <sp>
@@ -597,7 +600,7 @@
                   <l>si el vestido no me trae,</l>
                   <l>le he de romper la cabeza.</l>
                </sp>
-               
+
                <stage rend="cursiva"> Sale Cuarta.</stage>
 
                <sp>
@@ -630,7 +633,7 @@
                   <speaker rend="cursiva">Cuar.</speaker>
                   <l>Ya se han entrado en la pieza.</l>
                </sp>
-               
+
                <stage rend="cursiva">Salen Bartolo y Pascual.</stage>
 
                <sp>
@@ -711,9 +714,9 @@
                   <l>quién es y con ligereza,</l>
                   <l>loque buscan en mi casa.</l>
                </sp>
-               
-               <pb n="5" source="Moreno_291_5.jpg" />
-               
+
+               <pb n="5" source="Moreno_291_5.jpeg"/>
+
                <fw type="paginaNum">5</fw>
 
                <sp>
@@ -740,7 +743,7 @@
                   <speaker rend="cursiva">Grac.</speaker>
                   <l>Se podrá ver tal llaneza!</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Como soy, que es como un oro</l>
@@ -808,7 +811,7 @@
                   <l>Usted viené á sofocarme:</l>
                   <l>se habrá visto tal postema?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Si usted quiere que de pronto</l>
@@ -854,14 +857,14 @@
                   <l>de cebada la fanega</l>
                   <l>á como esta por acá?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Grac.</speaker>
                   <l>Hombre, no sea usted bestia,</l>
                   <l>que eso no es aquí del caso:</l>
                   <l>váyase usté, y no nos muela.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Me espanto que en este pueblo</l>
@@ -874,7 +877,7 @@
                   <l>no me acuerdo: ¿no trae el vino</l>
                   <l>la chica?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Grac. </speaker>
                   <l>Tómate esa:</l>
@@ -901,11 +904,11 @@
                   <l>Gracias á Dios, que acabamos:</l>
                   <l>y para una friolera</l>
                   <l>como traerme una carta,</l>
-                  
-                  <pb n="6" source="Moreno_291_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_291_6.jpeg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>ha gastado tanta flema!</l>
                   <l>vaya, déme usted la carta,</l>
                </sp>
@@ -934,7 +937,7 @@
                   <l>que me quiero ir al teatro</l>
                   <l>por no escuchar á este bestia.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pasc</speaker>
                   <l>Dice bien, dale la carta.</l>
@@ -1007,18 +1010,18 @@
                   <l>sin darme antes la respuesta:</l>
                   <l>allá va.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Grac. </speaker>
                   <l>Gracias á Dios.</l>
                   <l>que alargó la carta.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart. </speaker>
                   <l>Lea.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Lee la Grac. </speaker>
                   <l>«Señora usted me dis-</l>
@@ -1061,7 +1064,7 @@
                   <speaker rend="cursiva">Grac.</speaker>
                   <l>Si señor.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">B.</speaker>
                   <l>Y la respuesta?</l>
@@ -1075,21 +1078,21 @@
                   <l>para bromas: vayan fuera</l>
                   <l>al instante.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart. </speaker>
                   <l>No te dije</l>
                   <l>que me iria sin respuesta?</l>
-                  
-                  <pb n="7" source="Moreno_291_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_291_7.jpeg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>lo ves? yo tengo la culpa</l>
                   <l>en dar la carta: paciencia!</l>
                   <l>con que nos vamos?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Cuar. </speaker>
                   <l>Sra.,</l>
@@ -1105,7 +1108,7 @@
                   <l>No dices mal; y decidme...</l>
                   <l>pero quién anda allá fuera?</l>
                </sp>
-               
+
                <stage rend="cursiva">Salen Don Pedro y Don Antonio.</stage>
 
                <sp>
@@ -1124,7 +1127,7 @@
                   <l>politica de mostrarse</l>
                   <l>mi apasionado de veras.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Los 2.</speaker>
                   <l>Favor con que nos honramos.</l>
@@ -1202,7 +1205,7 @@
                   <l>Ciertamente: ¿y el señor</l>
                   <l>no hace papel?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Deletrea</l>
@@ -1215,7 +1218,7 @@
                   <l>Será una funcion famosa;</l>
                   <l>cómo titula? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>De veras</l>
@@ -1248,20 +1251,18 @@
                   <l>haga lo que yo diré,</l>
                   <l>para ver como le pega,</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb />Pónese Bartolo en figura ridicula;
-                  <lb />la Graciosa representa trágico;
-                  <lb />y él la quiere imitar.
-               </stage>
+                  <lb/>Pónese Bartolo en figura ridicula; <lb/>la Graciosa representa trágico;
+                  <lb/>y él la quiere imitar. </stage>
 
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Eche usted por esa boca.</l>
                </sp>
-               
-               <pb n="8" source="Moreno_291_8.jpg" />
-                  
+
+               <pb n="8" source="Moreno_291_8.jpeg"/>
+
                <fw type="paginaNum">8</fw>
 
                <sp>
@@ -1284,7 +1285,7 @@
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Que no he empezado,salvage.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Grac.</speaker>
                   <l>Aguarda que ahora comienzo</l>
@@ -1308,7 +1309,7 @@
                   <l>estos versos que yo he dicho:</l>
                   <l>con seriedad. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Allá voy:</l>
@@ -1389,7 +1390,7 @@
                   <speaker rend="cursiva">Gra.</speaker>
                   <l>Lo habeis hecho cual ninguno.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>No haré una damamuy buena,</l>
@@ -1438,14 +1439,14 @@
                   <l>la leccion: dáme tú, chica,</l>
                   <l>mantilla y basquiña. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Bart. </speaker>
                   <l>Ea,</l>
                   <l>pues agur, hasta mañana.</l>
-                  
+
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">P. </speaker>
                   <l>Vamos, que estarán las bestias,</l>
@@ -1462,14 +1463,17 @@
                   <speaker rend="cursiva">Bart.</speaker>
                   <l>Cuidado con la respuesta.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Todos.</speaker>
                   <l>Y aquí dá fin el Sainete,</l>
                   <l>perdonad las faltas nuestras,</l>
                </sp>
-               
-               <trailer><choice><sic>FNI.</sic><corr>FIN.</corr></choice></trailer>
+
+               <trailer><choice>
+                     <sic>FNI.</sic>
+                     <corr>FIN.</corr>
+                  </choice></trailer>
             </div>
          </div>
       </body>
