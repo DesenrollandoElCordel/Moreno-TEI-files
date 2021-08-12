@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_210">
    <teiHeader>
       <fileDesc>
@@ -19,7 +20,7 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Florisela</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (s.a.): <ref target="Moreno_209.xml">Moreno_209</ref></p>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5040869</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 220</idno>
                   </altIdentifier>
@@ -90,7 +93,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -123,13 +132,13 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_210_thumbnail.jpg" />
+      <graphic url="Moreno_210_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_210_1.jpg" />
+               <pb n="1" source="Moreno_210_1.jpg"/>
 
                <fw type="impresorNum">(Número 220.)</fw>
 
@@ -138,11 +147,10 @@
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
                   <head rend="cursiva" type="subtitulo_parte">
-                     <lb />En que se dá cuenta de los amores de la princesa Flamina y el
-                     <lb />conde de Barcelona, con los varios acontecimientos del duque
-                     <lb />de Milan y el rey de Irlanda.
-                  </head>
-                  
+                     <lb/>En que se dá cuenta de los amores de la princesa Flamina y el <lb/>conde
+                     de Barcelona, con los varios acontecimientos del duque <lb/>de Milan y el rey
+                     de Irlanda. </head>
+
                   <l rend="indent">Desde el atlantico polo</l>
                   <l>cuna y balcon del oriente,</l>
                   <l>donde el emífero carro</l>
@@ -175,9 +183,9 @@
                   <l>aquien la fama engrandece</l>
                   <l>que reinó despues de muerta</l>
                   <l>con la corona en la frente.</l>
-                  
-                  <pb n="2" source="Moreno_210_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_210_2.jpg"/>
+
                   <l>Solo quiero referiros</l>
                   <l>con palabras reverentes</l>
                   <l>la historia de una princesa</l>
@@ -262,9 +270,9 @@
                   <l>con un amor muy ardiente.</l>
                   <l>El uno y otro disponen</l>
                   <l>de que á la noche siguiente</l>
-                  
-                  <pb n="3" source="Moreno_210_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_210_3.jpg"/>
+
                   <l>en el cuarto de la infanta</l>
                   <l>sin que nadie lo sintiese</l>
                   <l>trataran con mas despacio</l>
@@ -349,9 +357,9 @@
                   <l>¿Por ventura te arrepientes?</l>
                   <l>Pues si te enfado ya es tarde</l>
                   <l>habla dime lo que sientes.</l>
-                  
-                  <pb n="4" source="Moreno_210_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_210_4.jpg"/>
+
                   <l>Atento escuchaba el conde</l>
                   <l>y le dice de esta suerte:</l>
                   <l>señora que os engañais</l>
@@ -431,20 +439,19 @@
                   <l>ahora en la parte siguiente</l>
                   <l>pues ya cansada mi pluma</l>
                   <l>el cortarla es muy urgente.</l>
-                  
+
                   <trailer>FIN DE LA PRIMERA PARTE.</trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_210_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_210_5.jpg"/>
+
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
                   <head rend="cursiva">
-                     <lb />En que se refieren los trabajos que sufrieron el conde don
-                     <lb />Federico de Barcelona, y su esposa Florisela en la corte
-                     <lb />del rey Casimiro de Irlanda.
-                  </head>
-                  
+                     <lb/>En que se refieren los trabajos que sufrieron el conde don <lb/>Federico
+                     de Barcelona, y su esposa Florisela en la corte <lb/>del rey Casimiro de
+                     Irlanda. </head>
+
                   <l rend="indent">Quedó la infanta Flamina</l>
                   <l>tan yerta como confusa,</l>
                   <l>viendo en su presencia al conde</l>
@@ -499,9 +506,9 @@
                   <l>irse todos y dejarla</l>
                   <l>pues la soledad le gusta.</l>
                   <l>Quedó el rey solo con ella</l>
-                  
-                  <pb n="6" source="Moreno_210_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_210_6.jpg"/>
+
                   <l>y con alagos y astucias</l>
                   <l>y paternales cariños,</l>
                   <l>le dice hija mia, escucha.</l>
@@ -552,7 +559,10 @@
                   <l>dándole libre licencia</l>
                   <l>que entrase una noche á oscuras</l>
                   <l>en el jardin y en mi cuarto,</l>
-                  <l>llevada de amor pues <choice><sic>nuuca</sic><corr>nunca</corr></choice></l>
+                  <l>llevada de amor pues <choice>
+                        <sic>nuuca</sic>
+                        <corr>nunca</corr>
+                     </choice></l>
                   <l>el hidrópico repara</l>
                   <l>beber con la calentura;</l>
                   <l>allí con mano y palabra</l>
@@ -586,9 +596,9 @@
                   <l>porque de tu buen discurso</l>
                   <l>y por ser tu ciencia mucha</l>
                   <l>me des amigo un consejo</l>
-                  
-                  <pb n="7" source="Moreno_210_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_210_7.jpg"/>
+
                   <l>y es bien que á tí me descubra.</l>
                   <l>El rey de Albania mi tio</l>
                   <l>tiene una hija en quien funda</l>
@@ -673,9 +683,9 @@
                   <l>tal rigor ejecutaran</l>
                   <l>y para que no me huya</l>
                   <l>ha mandado que el palacio</l>
-                  
-                  <pb n="8" source="Moreno_210_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_210_8.jpg"/>
+
                   <l>de dobles guardias circundan.</l>
                   <l>Y esto es porque la infanta</l>
                   <l>con diabólicas astucias</l>
@@ -737,19 +747,18 @@
                   <l>todas las verdades juntas</l>
                   <l>en otra tercera parte</l>
                   <l>pues no puede en la segunda.</l>
-                  
+
                   <trailer>FIN DE LA SEGUNDA PARTE.</trailer>
                </div>
-               
+
                <div n="3" type="parte">
-                  <pb n="9" source="Moreno_210_9.jpg" />
-                  
+                  <pb n="9" source="Moreno_210_9.jpg"/>
+
                   <head rend="negrita" type="titulo_parte">TERCERA PARTE.</head>
                   <head type="subtitulo_parte">
-                     <lb />En que tienen fin los peregrinos sucesos que acontecieron
-                     <lb />á la condesa Florisela.
-                  </head>
-                  
+                     <lb/>En que tienen fin los peregrinos sucesos que acontecieron <lb/>á la
+                     condesa Florisela. </head>
+
                   <l rend="indent">Aumentaba Florisela</l>
                   <l>sus cristalinos raudales</l>
                   <l>hecha sirena en el mar</l>
@@ -804,9 +813,9 @@
                   <l>y porque en tí reconozco</l>
                   <l>deciendes de alto linage.</l>
                   <l>por mas heróica fineza</l>
-                  
-                  <pb n="10" source="Moreno_210_10.jpg" />
-                  
+
+                  <pb n="10" source="Moreno_210_10.jpg"/>
+
                   <l>este anillo quiero darte,</l>
                   <l>ponlo en tu mano y advierte</l>
                   <l>que encierra misterio grande,</l>
@@ -891,9 +900,9 @@
                   <l>es Florisela tu madre.</l>
                   <l>Prevenidas las escuadras</l>
                   <l>les dió licencia que marchen.</l>
-                  
-                  <pb n="11" source="Moreno_210_11.jpg" />
-                  
+
+                  <pb n="11" source="Moreno_210_11.jpg"/>
+
                   <l>Vamos á don Federico</l>
                   <l>que desde aquel mismo instante</l>
                   <l>que hechó á Florisela al mar</l>
@@ -978,9 +987,9 @@
                   <l>viva copia semejante,</l>
                   <l>de un bien que perdí, y ahora </l>
                   <l>miro en tu vista su imagen,</l>
-                  
-                  <pb n="12" source="Moreno_210_12.jpg" />
-                  
+
+                  <pb n="12" source="Moreno_210_12.jpg"/>
+
                   <l>y quisieca con mi vida</l>
                   <l>la tuya poder librarte,</l>
                   <l>solo porque os pareceis</l>
@@ -1053,15 +1062,14 @@
                   <l>le suplica muy afable</l>
                   <l>que le perdonen las faltas</l>
                   <l>que ha tenido en las tres partes.</l>
-                  
+
                   <trailer>FIN.</trailer>
                </div>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1856.
-                  <lb />Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 5.
+                  <lb/>CARMONA:—1856. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 5.
                </p>
             </div>
          </div>

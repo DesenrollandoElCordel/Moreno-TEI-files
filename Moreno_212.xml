@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_212">
    <teiHeader>
       <fileDesc>
@@ -23,10 +24,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Doña Rosa la cautiva.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -38,20 +39,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5040907</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 223</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -81,7 +84,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -113,21 +122,21 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_212_thumbnail.jpg" />
+      <graphic url="Moreno_212_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
-         
+
          <div>
-            
+
             <div>
-               
-               <pb n="1" source="Moreno_212_1.jpg" />
-               
+
+               <pb n="1" source="Moreno_212_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 223.)</fw>
-               
+
                <head rend="negrita" type="primer_titulo">DOÑA ROSA LA CAUTIVA.</head>
-               
+
                <l><hi rend="negrita">G</hi>loria es de los horizontes</l>
                <l>ese farol luminante</l>
                <l>del Sol, que esparce sus luces</l>
@@ -162,9 +171,9 @@
                <l>de este jóven arrogante,</l>
                <l>y le dió de capitan </l>
                <l>la Vengala por honrarlo,</l>
-               
-               <pb n="2" source="Moreno_212_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_212_2.jpg"/>
+
                <l>A este tiemdo á Barcelona</l>
                <l>le fué preciso pasarse</l>
                <l>por mandado de su rey. </l>
@@ -253,9 +262,9 @@
                <l>con tal garbo y con tal arte,</l>
                <l>que reparando la turca </l>
                <l>le causó novedad grande,</l>
-               
-               <pb n="3" source="Moreno_212_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_212_3.jpg"/>
+
                <l>y á doña Elena le dice:</l>
                <l>Mira qué turco tan grave;</l>
                <l>mas doña Elena le mira,</l>
@@ -346,9 +355,9 @@
                <l>pasemos luego al instante</l>
                <l>al general que en su casa</l>
                <l>en lágrimas se deshace,</l>
-               
-               <pb n="4" source="Moreno_212_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_212_4.jpg"/>
+
                <l>despues que leyó la carta;</l>
                <l>pero por el amor grande</l>
                <l>que á su dulce esposa tiene,</l>
@@ -440,15 +449,14 @@
                <l>tambien de nuestra Señora</l>
                <l>María Vírgen del Cármen.</l>
             </div>
-            
+
             <div type="colofon">
-               <p>Carmona: 1859—Imp. de D. José María Moreno.
-               </p>
-               
+               <p>Carmona: 1859—Imp. de D. José María Moreno. </p>
+
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

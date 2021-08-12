@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_213">
    <teiHeader>
       <fileDesc>
@@ -30,7 +31,7 @@
                      mancebo</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -42,20 +43,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5040909</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 224</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -84,7 +87,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -112,28 +121,30 @@
       <revisionDesc>
          <change when="2021-04-12" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_213_thumbnail.jpg" />
+      <graphic url="Moreno_213_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
-         
+
          <div>
-            
+
             <div>
-               
-               <pb n="1" source="Moreno_213_1.jpg" />
-               
+
+               <pb n="1" source="Moreno_213_1.jpg"/>
+
                <fw type="impresorNum">Número 224.</fw>
-               
+
                <head type="primer_titulo">ROMANCE NUEVO DEL CHASCO QUE LE DIO UNA VIEJA A UN
-               <lb />mancebo , dándole una sobrina suya por doncella, llamada
-               <lb /><hi rend="negrita">TERESA MOCARRO Y GANGARRILLA.</hi></head>
-               <head rend="cursiva" type="subtitulo">Compuesto por un capador de grillos y cardador de lana de tortugas.</head>
-               
+                  <lb/>mancebo , dándole una sobrina suya por doncella, llamada <lb/><hi
+                     rend="negrita">TERESA MOCARRO Y GANGARRILLA.</hi></head>
+               <head rend="cursiva" type="subtitulo">Compuesto por un capador de grillos y cardador
+                  de lana de tortugas.</head>
+
                <l rend="indent"><hi rend="negrita">D</hi>iscreto auditorio mio</l>
                <l>tengan en mi historia cuenta</l>
                <l>verán con qué brevedad</l>
@@ -158,9 +169,9 @@
                <l>tálegazos más de treinta.</l>
                <l>Mas yéndome paseando</l>
                <l>martes de Carnestolendas, </l>
-               
-               <pb n="2" source="Moreno_213_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_213_2.jpg"/>
+
                <l>presagio de mi desdicha,</l>
                <l>ó de mi fortuna adversa,</l>
                <l>llegóse una vieja á mí,</l>
@@ -251,9 +262,9 @@
                <l>me senté en una silleta:</l>
                <l>cuando la vide venir</l>
                <l>Cielos, prestadme paciencia!</l>
-               
-               <pb n="3" source="Moreno_213_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_213_3.jpg"/>
+
                <l>quién vió la muerte pintada?</l>
                <l>pues sepan por cosa cierta,</l>
                <l>que si allí estuviera entonces</l>
@@ -344,9 +355,9 @@
                <l>y el cura á decir empieza:</l>
                <l>Recibe usted por esposa</l>
                <l>á la señora Teresa</l>
-               
-               <pb n="4" source="Moreno_213_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_213_4.jpg"/>
+
                <l>de Mocarro y Gangarrilla,</l>
                <l>que viene por línea recta</l>
                <l>de la casa de Pilatos.</l>
@@ -435,9 +446,9 @@
             <div type="colofon">
                <p>CARMONA: 1860. Imp. de D. José M. Moreno, cálle de Madre de Dios </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_219">
    <teiHeader>
       <fileDesc>
@@ -20,7 +21,7 @@
                <titleStmt>
                   <title type="titulo_completo">Satira nueva y curiosa que declara ¡¡¡O cuanto puede
                      el dinero!!!</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (1856): <ref target="Moreno_220.xml">Moreno_220</ref></p>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5040981</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 229</idno>
                   </altIdentifier>
@@ -88,7 +91,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -108,7 +117,7 @@
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
                <term target="XX5711649.html" type="tipo_texto">Seguidillas</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -117,24 +126,24 @@
       <revisionDesc>
          <change when="2021-04-06" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_219_thumbnail.jpg" />
+      <graphic url="Moreno_219_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_219_1.jpg" />
+               <pb n="1" source="Moreno_219_1.jpg"/>
 
                <fw type="impresorNum">Núm. 229.</fw>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">SATIRA NUEVA Y CURIOSA.</hi>
-                  <lb />QUE DECLARA
-                  <lb /><hi rend="negrita">¡¡¡O CUANTO PUEDE EL DINEROR!!!</hi>
+                  <lb/><hi rend="negrita">SATIRA NUEVA Y CURIOSA.</hi>
+                  <lb/>QUE DECLARA <lb/><hi rend="negrita">¡¡¡O CUANTO PUEDE EL DINEROR!!!</hi>
                </head>
 
                <lg>
@@ -184,9 +193,9 @@
                   <l>por ver si está aguado ó huero</l>
                   <l>¡O cuánto puede el dinero!</l>
                </lg>
-               
-               <pb n="2" source="Moreno_219_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_219_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
 
                <lg>
@@ -296,7 +305,7 @@
                   <l>matará al mundo entero.</l>
                   <l>¡O cuánto puede el dinero!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Para embargar un Borrico</l>
                   <l>se descubre luego al fin,</l>
@@ -316,11 +325,11 @@
                   <l>todo cuanto á ellos le sale:</l>
                   <l>compró uno por diez reales</l>
                   <l>un dia á un enterrador,</l>
-                  
-                  <pb n="3" source="Moreno_219_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_219_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>dos sabanas y un colchon,</l>
                   <l>una capa y un sombrero.</l>
                   <l>¡O cuanto puede el dinero!</l>
@@ -349,7 +358,7 @@
                   <l>y se la encubre el tendero.</l>
                   <l>¡O cuánto puede el dinero! </l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Muchos hay que quieren ser</l>
                   <l>á poca costa señores,</l>
@@ -408,179 +417,179 @@
                   <l>mas como son Cupidos</l>
                   <l>muero por ellos:</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que es fuego dulce,</l>
                   <l>que cuanto mas abrasa,</l>
                   <l>menos consume.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Cuando mas tiraniza, </l>
                   <l>mas le deseo,</l>
                   <l>porque con sus rigores</l>
                   <l>crece mi anhelo.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que mi destino</l>
                   <l>se alienta en lo tirano,</l>
                   <l>como en lo fino.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Ofreciendo á tus aras</l>
                   <l>mis sacrificios,</l>
                   <l>nunca logro la dicha</l>
                   <l>de mis alivios.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Porque inhumano,</l>
                   <l>no se rinde á lo dulce</l>
                   <l>ni á lo tirano.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Siempre tuve por dichas</l>
-                  
-                  <pb n="4" source="Moreno_219_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_219_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>sus sinrazones,</l>
                   <l>porque en él las locuras</l>
                   <l>son discreciones.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que como es ciego,</l>
                   <l>no distingue lo altivo</l>
                   <l>de lo discreto.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Aunque mas se retire</l>
                   <l>de mi esperanza, </l>
                   <l>nunca estará distante</l>
                   <l>de mi alabanza.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Porque asi entiendo</l>
                   <l>pagar á sus rigores</l>
                   <l>amante feudo.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">A un amor hechizero</l>
                   <l>fino adoraba;</l>
                   <l>mas ya solo ha quedado</l>
                   <l>tormento al alma.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que en los amores</l>
                   <l>primero que las dichas</l>
                   <l>son los rigores.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Descubríle mi pecho</l>
                   <l>por obligarle;</l>
                   <l>y juzgando rendirle,</l>
                   <l>vine á irritarle.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Pues siendo ciego,</l>
                   <l>se rinde á los rigores,</l>
                   <l>no á los absequios.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Discurriendo en sus aras</l>
                   <l>hallar piedades,</l>
                   <l>encontré sinrazones,</l>
                   <l>y falsedades.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Porque lo altivo</l>
                   <l>se irrita en lo piadoso,</l>
                   <l>y en lo rendido.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Cuando amante intentaba</l>
                   <l>lograr mis ánsias,</l>
                   <l>han salido mentidas</l>
                   <l>mis esperanzas.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que en lo esperado</l>
                   <l>siempre es mas lo mentido</l>
                   <l>que lo gozado.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Adoraba yo ciego</l>
                   <l>su cautiverío,</l>
                   <l>juzgando que obligaba</l>
                   <l>su noble incendio.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Pero es eugaño, </l>
                   <l>persuadir sus finezas</l>
                   <l>con mis halagos.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">El rigor inconstante</l>
                   <l>de mi tormento,</l>
                   <l>soy feliz en sentirlo,</l>
                   <l>no en padecerlo.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Porque quisiera</l>
                   <l>parecer holocausto,</l>
                   <l>pero no ofrenda.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Y pues á lo tirano</l>
                   <l>le ofende el culto</l>
                   <l>fallezca en su silencio</l>
                   <l>mi amante impulso,</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Siendo mi queja</l>
                   <l>el mas mudo lamento</l>
                   <l>de mi querella. </l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Pues tirano Cupido</l>
                   <l>si no te mueven</l>
                   <l>mis tan justas querellas,</l>
                   <l>vengan desdenes.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que á padecerlos</l>
                   <l>desde luego me obligo,</l>
                   <l>aunque muriendo.</l>
                </lg>
-               
+
                <trailer>FIN.</trailer>
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA:—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
+               <p><lb/>CARMONA:—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
             </div>
          </div>
       </body>
