@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_246">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Cancion del rosero.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045534</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 254</idno>
                   </altIdentifier>
@@ -89,7 +92,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -117,17 +126,18 @@
       <revisionDesc>
          <change when="2021-04-07" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_246_thumbnail.jpg" />
+      <graphic url="Moreno_246_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div n="1" type="cancion">
-               <pb n="1" source="Moreno_246_1.jpg" />
+               <pb n="1" source="Moreno_246_1.jpg"/>
 
                <fw type="impresorNum">Número 254.</fw>
 
@@ -158,7 +168,7 @@
                   <l>por qué no te adosnas, di.</l>
                   <l rend="indent">Quiéreme á mí, que me pirro</l>
 
-                  <pb n="2" source="Moreno_246_2.jpg" />
+                  <pb n="2" source="Moreno_246_2.jpg"/>
 
                   <l>por las jembras salerosas,</l>
                   <l>cambiáme rosas por rosas</l>
@@ -273,11 +283,10 @@
             </div>
 
             <div n="3" type="cancion">
-               <pb n="3" source="Moreno_246_3.jpg" />
+               <pb n="3" source="Moreno_246_3.jpg"/>
 
                <head type="titulo_cancion">
-                  <lb />LA CASTAÑERA.
-                  <lb /><hi rend="negrita">CANCION.</hi>
+                  <lb/>LA CASTAÑERA. <lb/><hi rend="negrita">CANCION.</hi>
                </head>
 
                <lg>
@@ -345,12 +354,10 @@
             </div>
 
             <div n="4" type="cancion">
-               <pb n="4" source="Moreno_246_4.jpg" />
+               <pb n="4" source="Moreno_246_4.jpg"/>
 
                <head type="titulo_cancion">
-                  <lb />CANCION.
-                  <lb />DE
-                  <lb /><hi rend="cursiva">LA CARACOLERA.</hi>
+                  <lb/>CANCION. <lb/>DE <lb/><hi rend="cursiva">LA CARACOLERA.</hi>
                </head>
 
                <lg>
@@ -359,56 +366,56 @@
                   <l>que se me errama... er puchero.</l>
                   <l>mosita, vengasté acá.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">No son tan chicos, canela!</l>
                   <l>venga otro cuarto, jermoso,</l>
                   <l>no lo quiero, este es fasioso,</l>
                   <l>y yo soy muydiber</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Caracoles! </l>
                   <l>hermano... que ve usté?</l>
                   <l>que son mis ojos dossoles!</l>
                   <l>vamos viviendo chorré.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que too es cáscára, tia Paca!</l>
                   <l>que calunia, Dios eterno!!</l>
                   <l>pos si aviyelan caa cuesno</l>
                   <l>como su marío de osté.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que me escurro! quien yama! </l>
                   <l>con su salsa, y bien guisaos,</l>
                   <l>un selemin de casaos</l>
                   <l>vendo yo por un calé.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Caracoles!</l>
                   <l>maestro, yamaba usté!</l>
                   <l>matrimonios españoles...</l>
                   <l>vamos viviendo chorré.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Que dise usté, don Futraque?</l>
                   <l>quequié osté ser miquerio!</l>
                   <l>soy casaa y tengo marió,</l>
                   <l>hermano, viene usté má.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Yo soy honraa y mi Currelo</l>
                   <l>es de los mosos mas cruos,</l>
                   <l>y aunque vendo los cosnuos</l>
                   <l>no los jago... puñalá!</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Caracoles!</l>
                   <l>mosito, najesusté,</l>
@@ -416,12 +423,11 @@
                   <l>vamos viendo chorré..</l>
                </lg>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1859.
-                  <lb />Imprenta de D. José M.a Moreno, calle de Madre de Dios, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1859. <lb/>Imprenta de D. José M.a Moreno, calle de Madre de Dios,
+                  núm. 1. </p>
             </div>
          </div>
       </body>

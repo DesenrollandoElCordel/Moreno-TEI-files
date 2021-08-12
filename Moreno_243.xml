@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -24,7 +25,7 @@
                <titleStmt>
                   <title type="titulo_completo">Daños que vienen a los hombres por las señoras
                      mujeres.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (s.a.): <ref target="Moreno_242.xml">Moreno_242</ref></p>
@@ -39,11 +40,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045484</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 251</idno>
                   </altIdentifier>
@@ -86,7 +89,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
             </correction>
@@ -114,11 +123,12 @@
       <revisionDesc>
          <change when="2021-04-19" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_243_thumbnail.jpg" />
+      <graphic url="Moreno_243_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -126,16 +136,19 @@
 
             <div>
 
-               <pb n="1" source="Moreno_243_1.jpg" />
+               <pb n="1" source="Moreno_243_1.jpg"/>
 
                <fw type="impresorNum">Núm. 251.</fw>
 
-               <head type="primer_titulo">DAÑO QUE VIENE A LOS HOMERES <lb />POR LAS SEÑORAS
+               <head type="primer_titulo">DAÑO QUE VIENE A LOS HOMERES <lb/>POR LAS SEÑORAS
                   MUGERES.</head>
 
                <div n="1" type="parte">
 
-                  <head type="titulo_parte"><choice><sic>RIMERA</sic><corr>PRIMERA</corr></choice> PARTE.</head>
+                  <head type="titulo_parte"><choice>
+                        <sic>RIMERA</sic>
+                        <corr>PRIMERA</corr>
+                     </choice> PARTE.</head>
 
                   <l rend="indent">Escúchenme atentamente</l>
                   <l>todo el que fuere discreto,</l>
@@ -178,7 +191,7 @@
                   <l>por entregarse atrevido</l>
                   <l>á lascivos devaneos;</l>
 
-                  <pb n="2" source="Moreno_243_2.jpg" />
+                  <pb n="2" source="Moreno_243_2.jpg"/>
 
                   <l>un David, y un Salomon,</l>
                   <l>sin otros muchos, que dejo</l>
@@ -281,7 +294,7 @@
                   <l>y en el del fuerte Mercurio</l>
                   <l>muchos han dado el pellejo.</l>
 
-                  <pb n="3" source="Moreno_243_3.jpg" />
+                  <pb n="3" source="Moreno_243_3.jpg"/>
 
                   <l>Por las mugeres se ha visto</l>
                   <l>perder la gracia del Cielo</l>
@@ -316,9 +329,10 @@
                </div>
 
                <div n="2" type="parte">
-                  
-                  <head type="titulo_parte">Beneficios que logran los Hombres por las señoras Mugeres.</head>
-                  
+
+                  <head type="titulo_parte">Beneficios que logran los Hombres por las señoras
+                     Mugeres.</head>
+
                   <l rend="indent">Muy irrtado he quedado</l>
                   <l>de oir á un músiconecio</l>
                   <l>decir mal de las mugeres;</l>
@@ -391,9 +405,9 @@
                   <l>Yo le aseguro y prometo,</l>
                   <l>que si nadie las quisiera,</l>
                   <l>no sucedieran excesos.</l>
-                  
-                  <pb n="4" source="Moreno_243_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_243_4.jpg"/>
+
                   <l>Si las mugeres son malas;</l>
                   <l>¿por qué procura el soltero</l>
                   <l>cuando una novia pretende,</l>

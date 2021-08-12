@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_241">
    <teiHeader>
       <fileDesc>
@@ -24,7 +25,7 @@
                      mañanas</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5045458</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 289</idno>
                   </altIdentifier>
@@ -83,7 +86,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -111,25 +120,24 @@
       <revisionDesc>
          <change when="2021-04-06" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_241_thumbnail.jpg" />
+      <graphic url="Moreno_241_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_241_1.jpg" />
+               <pb n="1" source="Moreno_241_1.jpeg"/>
 
                <fw type="impresorNum">Núm. 289.</fw>
 
                <head type="primer_titulo">
-                  <lb />COPLAS PARA CANTAR
-                  <lb />LOS DESPERTADORES DE LAS MAÑANAS, LLAMANDO
-                  <lb />A REZAR EL ROSARIO DE LA AURORA.
-               </head>
+                  <lb/>COPLAS PARA CANTAR <lb/>LOS DESPERTADORES DE LAS MAÑANAS, LLAMANDO <lb/>A
+                  REZAR EL ROSARIO DE LA AURORA. </head>
 
                <lg>
                   <l rend="indent">La Pastora, mortales, os busca</l>
@@ -140,7 +148,7 @@
                   <l>Pues os llama la Vírgen María,</l>
                   <l>Zagala divina, la mas singular.</l>
                </lg>
-               
+
                <lg rend="cursiva">
                   <l rend="indent">Venid á rezar:</l>
                   <l>Que al oir vuestras Ave-Marías</l>
@@ -187,12 +195,12 @@
                   <l>Salid sin tardar:</l>
                   <l>Que por rato tan breve, la Vírgen</l>
 
-                  <pb n="2" source="Moreno_241_2.jpg" />
+                  <pb n="2" source="Moreno_241_2.jpeg"/>
 
                   <l>Promete la gloria de una eternidad.</l>
                   <l rend="cursiva">Venid á rezar, etc.</l>
                </lg>
-               
+
                <lg>
                   <l rend="indent">Son saétas las Ave-Marías,</l>
                   <l>Que á Luzbel causan herida mortal;</l>
@@ -326,11 +334,10 @@
 
             <div type="colofon">
                <p>
-                  <lb />NOTA:—Hay concedidas muchas indulgancias por varios Prelados, á todos
-                  <lb />los que cón devocion rezaren el santo rosario á María Santisima.
-               </p>
-               
-               <p><lb />CARMONA:—1856. Imp. de D, J. M. Moreno, Descalzas, núm. 1.</p>
+                  <lb/>NOTA:—Hay concedidas muchas indulgancias por varios Prelados, á todos
+                  <lb/>los que cón devocion rezaren el santo rosario á María Santisima. </p>
+
+               <p><lb/>CARMONA:—1856. Imp. de D, J. M. Moreno, Descalzas, núm. 1.</p>
             </div>
          </div>
       </body>
