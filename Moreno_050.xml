@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,8 +20,8 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Coloquio entre un moro y un cristiano sobre la pureza de la Virgen Maria,
-                                                y nacimiento de su santisimo hijo.</title>
+                  <title type="titulo_completo">Coloquio entre un moro y un cristiano sobre la
+                     pureza de la Virgen Maria, y nacimiento de su santisimo hijo.</title>
                   <title type="titulo_breve">Coloquio entre un moro y un cristiano</title>
                </titleStmt>
                <editionStmt>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5018438</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 59</idno>
                   </altIdentifier>
@@ -66,7 +69,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_050_1.xml">grabado_m_050_1</item>
@@ -78,9 +81,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -104,8 +113,11 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-02" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-02" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-23" who="#EL">Correction OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -115,18 +127,16 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_050_1.jpg"/>
+
                <fw type="impresorNum">(Número 59.</fw>
-               
+
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">COLOQUIO ENTRE UN MORO Y UN CRISTIANO,</hi>
-                  <lb/>SOBRE LA PUREZA DE LA VIRGEN MARIA, Y NACIMIENTO
-                  <lb/>DE SU SANTISIMO HIJO.
-               </head>
-               
+                  <lb/>SOBRE LA PUREZA DE LA VIRGEN MARIA, Y NACIMIENTO <lb/>DE SU SANTISIMO HIJO. </head>
+
                <stage rend="cursiva">Sale el Moro.</stage>
-               
+
                <sp>
                   <speaker rend="cursiva">Moro.</speaker>
                   <l>Ante que salga la aurora</l>
@@ -143,7 +153,7 @@
                   <l>con tan heróicos designos:</l>
                   <l>Hoy que celebra el Cristiano</l>
                   <l>con fiestas y regocijos</l>
-                  <l>aquel dia en que nació</l>
+                  <l>aquel dia en que nacio</l>
                   <l>el que llaman Dios Divino,</l>
                   <l>aquel profeta de Alá,</l>
                   <l>al que algunos llaman Cristo,</l>
@@ -158,10 +168,11 @@
                   <l>se les vuelva en gran pesar:</l>
                   <l>porque es grande desatino</l>
                   <l>el que á mi vista esten</l>
-                  
-                  <pb n="2"/>
-                  
-                  <l>en fiestas tan diver<damage agent="letras_borradas"><supplied>ti</supplied></damage>dos.</l>
+
+                  <pb n="2" source="Moreno_050_2.jpg"/>
+
+                  <l>en fiestas tan diver<damage agent="letras_borradas"
+                        ><supplied>ti</supplied></damage>dos.</l>
                   <l>En cólera y rabia arc<gap/></l>
                   <l>y de mi cuchilla el filo</l>
                   <l>está rabiando por darles</l>
@@ -170,12 +181,10 @@
                   <l>pues soy leon vengativo,</l>
                   <l>que despedazo entre las manos</l>
                   <l>á cuantos me han ofendido.</l>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>(Ve un retrato de MARIA y dice
-                     <lb/>suspenso.
-                  </stage>
-                  
+                     <lb/>(Ve un retrato de MARIA y dice <lb/>suspenso. </stage>
+
                   <l>Mas cielo ¡qué es lo quo veo!</l>
                   <l>¡Confuso estoy y aturdido!</l>
                   <l>¿Quién el atrevido fué</l>
@@ -195,8 +204,8 @@
                   <l>en dando solo un amago,</l>
                   <l>quedan todos aturdidos?</l>
                   <l>¿Y no soy aquel, tambien,</l>
-                  <l>queen pecho de una leona</l>
-                  <l>mamé su leche cruel, </l>
+                  <l>que en pecho de una leona</l>
+                  <l>mamé su leche cruel,</l>
                   <l>y á quien perdona la muerte</l>
                   <l>como hace el rayo al laurel?</l>
                   <l>Pues aquí de mi furor:</l>
@@ -214,29 +223,27 @@
                   <l>Salid, si quereis batalla,</l>
                   <l>y si no dejad el sitio;</l>
                   <l>huid que os busca un leon</l>
-                  <l>én volcanes encendidos.</l>
-                  <l>Y pues tuvisteis valor.</l>
+                  <l>en volcanes encendidos.</l>
+                  <l>Y pues tuvisteis valor</l>
                   <l>en andar tan atrevidos,</l>
                   <l>de fijar en mi real tienda</l>
                   <l>esta que mas me ha ofendido</l>
                   <l>tenedlo para salir</l>
                   <l>á la batalla conmigo:</l>
                   <l>y si no quereis salir</l>
-                  <l>en este retrato mismo.</l>
-                  <l>qué es el que mas estimaís,</l>
+                  <l>en este retrato mismo,</l>
+                  <l>que es el que mas estimaís,</l>
                   <l>me he de vengar atrevido,</l>
                   <l>convirtiéndolo en pedazos</l>
                   <l>con rabia y furor altivo.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb/>(Va á rasgarlo, y sale el Cristiano
-                  <lb/>y le detiene)
-               </stage>
-               
+                  <lb/>(Va á rasgarlo, y sale el Cristiano <lb/>y le detiene) </stage>
+
                <sp>
-                  <speaker rend="cursiva">Crist. </speaker>
-                  <l>Detente, bárbaro impio</l>
+                  <speaker rend="cursiva">Crist.</speaker>
+                  <l>Detente, bàrbaro impio</l>
                   <l>que si te sufrió el valor</l>
                   <l>en llegar tan atrevido</l>
                   <l>á desafiar á cuantos</l>
@@ -255,12 +262,12 @@
                   <l>ultrajan su Ser Divino,</l>
                   <l>y de su Divina gracia</l>
                   <l>mi fuerte brazo asistido</l>
-                  <l>despedace cuántos niegan</l>
+                  <l>despedace cuantos niegan</l>
                   <l>la fé de su Santo Hijo;</l>
                   <l>y ya cansado de verte</l>
-                  
-                  <pb n="3"/>
-                  
+
+                  <pb n="3" source="Moreno_050_3.jpg"/>
+
                   <l>soberbio, tan altivo,</l>
                   <l>vengo á que sepas, tirano,</l>
                   <l>que habrá quien te de castigo</l>
@@ -269,7 +276,7 @@
                   <l>Y pues que tanto blasonas</l>
                   <l>de valiente y atrevido,</l>
                   <l>saca ese corbade acero,</l>
-                  <l>saca ese barbaro filo,</l>
+                  <l>saca ese bàrbaro filo,</l>
                   <l>y verás en breve tiempo</l>
                   <l>del mas humilde caudillo</l>
                   <l>que tiene la cristiandad</l>
@@ -278,11 +285,11 @@
                   <l>Ea, bárbaro atrevido,</l>
                   <l>apercíbete á batalla.</l>
                </sp>
-               
+
                <stage rend="cursiva">(Sacon las espadas.)</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Moro. </speaker>
+                  <speaker rend="cursiva">Moro.</speaker>
                   <l>Ya, Cristiano, me apercibo</l>
                   <l>y te responderá ahora</l>
                   <l>esta fuerte cimitarra,</l>
@@ -293,25 +300,25 @@
                   <l>castigando tu soberbia</l>
                   <l>con esta corva cuchilla...</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Crist. </speaker>
+                  <speaker rend="cursiva">Crist.</speaker>
                   <l>Habla menos y obra mas</l>
                   <l>que me enojan tus razones.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Moro. </speaker>
+                  <speaker rend="cursiva">Moro.</speaker>
                   <l>Obrar, y hablar, porque soy</l>
                   <l>rayo yo en las ocasiones.</l>
                   <l>Mas ¡ay de mi que la tierra</l>
                   <l>que pisaba, me ha faltado!</l>
                </sp>
-               
+
                <stage rend="cursiva">(Cae el moro en tierra)</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Crist. </speaker>
+                  <speaker rend="cursiva">Crist.</speaker>
                   <l>Ya estás vencido, tirano,</l>
                   <l>y castigada tu infamia:</l>
                   <l>y si á Dios no te confiesas</l>
@@ -323,11 +330,11 @@
                   <l>Ea, Moro, á Dios confiesa</l>
                   <l>y á su Madre Soberana.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Moro. </speaker>
+                  <speaker rend="cursiva">Moro.</speaker>
                   <l>¿Oh valeroso Cristiano?</l>
-                  <l>leten tú valiente espada,</l>
+                  <l>deten tu valiente espada,</l>
                   <l>y ayúdame á levantar,</l>
                   <l>que ya vencido en batalla,</l>
                   <l>si me vence el argumento,</l>
@@ -337,14 +344,14 @@
                   <l>confesar de Dios el nombre,</l>
                   <l>y á su Madre Soberana</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Crist. </speaker>
                   <l>Pues con aquesta propuesta</l>
                   <l>levanta, Moro, levanta.</l>
-                  
+
                   <stage rend="cursiva">Ayúdale el Cristiano á levantar.</stage>
-                  
+
                   <l>Propon tu dificultad,</l>
                   <l>que confiado en la gracia</l>
                   <l>de MARIA he de vencerte;</l>
@@ -356,9 +363,9 @@
                   <l>que es MARIA en mi respuesta</l>
                   <l>espero victoria larga.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Moro. </speaker>
+                  <speaker rend="cursiva">Moro.</speaker>
                   <l>Digo que no puede ser</l>
                   <l>que de una doncella intacta</l>
                   <l>naciese este Dios y Hombre,</l>
@@ -368,9 +375,9 @@
                   <l>parir y quedar doncella,</l>
                   <l>parece cosa de fabula.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Crist. </speaker>
+                  <speaker rend="cursiva">Crist.</speaker>
                   <l>No tienes que poner duda,</l>
                   <l>que en eso no cupo mancha.</l>
                   <l>¿No has visto en un cristal</l>
@@ -381,9 +388,9 @@
                   <l>de Jesucristo en MARIA,</l>
                   <l>quedando aquel cristal fino</l>
                   <l>de Santidad tan perfecto</l>
-               
-               <pb n="4"/>
-               
+
+                  <pb n="4" source="Moreno_050_4.jpg"/>
+
                   <l>como antes de haber nacido:</l>
                   <l>porque usado el Sumo bien</l>
                   <l>de aquel dote tan altivo</l>
@@ -406,7 +413,7 @@
                   <l>y me tendrás á tu lado</l>
                   <l>por tu mas leal amigo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Moro. </speaker>
                   <l>Basta, valiente Cristiano,</l>
@@ -428,7 +435,7 @@
                   <l>y confesando la fé</l>
                   <l>viva Cristo, viva Cristo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Crist. </speaker>
                   <l>Para haber de cristianarte,</l>
@@ -466,14 +473,13 @@
                   <l>quisiera ser un Apeles</l>
                   <l>para haberlo corregido.</l>
                </sp>
-               
+
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1858
-                  <lb/>Imp. de D. J.M. Moreno, calle Juan de la Cabra. núm, 4.
+                  <lb/>CARMONA:—1858 <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra. núm, 4.
                </p>
             </div>
          </div>

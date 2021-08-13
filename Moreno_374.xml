@@ -37,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5069814</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 367</idno>
                   </altIdentifier>
@@ -75,7 +77,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_374_1.xml">grabado_m_374_1</item>
@@ -88,6 +90,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -116,7 +124,8 @@
       <revisionDesc>
          <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,15 +135,14 @@
       <body>
          <div>
             <div>
-               <pb n="1" />
+               <pb n="1" source="Moreno_374_1.jpeg"/>
 
                <fw type="impresorNum">Núm. 36</fw>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">DÉCIMAS TROVADAS,</hi>
-                  <lb />que cantan al valiente ejército español vencedor
-                  <lb />de la raza mahometana en Africa.
-               </head>
+                  <lb/><hi rend="negrita">DÉCIMAS TROVADAS,</hi>
+                  <lb/>que cantan al valiente ejército español vencedor <lb/>de la raza mahometana
+                  en Africa. </head>
 
                <div n="1">
                   <lg rend="cursiva">
@@ -157,7 +165,7 @@
                      <l rend="cursiva">Dios libre á los españoles,</l>
                   </lg>
 
-                  <pb n="2" />
+                  <pb n="2" source="Moreno_374_2.jpeg"/>
 
                   <fw type="paginaNum">2</fw>
 
@@ -238,7 +246,7 @@
                      <l rend="cursiva">pierdo todo mi tesoro.</l>
                   </lg>
 
-                  <pb n="3" />
+                  <pb n="3" source="Moreno_374_3.jpeg"/>
 
                   <fw type="paginaNum">3</fw>
 
@@ -329,7 +337,7 @@
                </div>
 
                <div n="3">
-                  <pb n="4" />
+                  <pb n="4" source="Moreno_374_4.jpeg"/>
 
                   <fw type="paginaNum">4</fw>
 
@@ -393,13 +401,13 @@
                      <l>viva toda la nacion,</l>
                      <l rend="cursiva">que se ha colmado de gloria.</l>
                   </lg>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />Carmona.—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
+               <p><lb/>Carmona.—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
             </div>
          </div>
       </body>

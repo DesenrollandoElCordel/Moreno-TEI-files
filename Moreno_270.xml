@@ -40,11 +40,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5046046</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 281</idno>
                   </altIdentifier>
@@ -70,7 +72,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_270_1.xml">grabado_m_270_1</item>
@@ -83,6 +85,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -111,7 +119,8 @@
       <revisionDesc>
          <change when="2021-04-21" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,19 +129,19 @@
    <text>
       <body>
          <div>
-            
+
             <div>
-               
-               <pb n="1"/>
-               
+
+               <pb n="1" source="Moreno_270_1.jpg"/>
+
                <fw type="impresorNum">Núm. <corr>357.</corr>281</fw>
-               
-               <head type="primer_titulo">NUEVA RELACION
-               <lb/><hi rend="negrita">CONTRA LOS HOMBRES.</hi>
-               <lb/>PARA MUGER</head>
-               
+
+               <head type="primer_titulo">NUEVA RELACION <lb/><hi rend="negrita">CONTRA LOS
+                     HOMBRES.</hi>
+                  <lb/>PARA MUGER</head>
+
                <head rend="cursiva">La actriz figurará hablar con otra.</head>
-               
+
                <l rend="indent">No te canses, Margarita, </l>
                <l>no me reduce tu charla;</l>
                <l>de mi opinion nada cedo</l>
@@ -163,9 +172,9 @@
                <l>han perdido ya su májia.</l>
                <l>No lo digo por decir;</l>
                <l>hablo con sobrada causa; </l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_270_2.jpg"/>
+
                <l>qua tambien un tiempo quise,</l>
                <l>y como tú suspiraba.</l>
                <l>¡Que tiempo tan mal gastado,</l>
@@ -274,9 +283,9 @@
                <l>que son gazmoñas, beatas,</l>
                <l>de un genial insoportable,</l>
                <l>ó ya bien desaseadas;</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_270_3.jpg"/>
+
                <l>amigas de diversiones, </l>
                <l>coquetas, volubles, falsas,</l>
                <l>¡pobre infeliz la muger</l>
@@ -380,9 +389,9 @@
                <l>ni te aplacan mis ternezas,</l>
                <l>ni desenoja mis ruegos?...</l>
                <l>angel divino de luz!...</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_270_4.jpg"/>
+
                <l>del Edén, grato portento! </l>
                <l>=¡O que romántico estais!</l>
                <l>representais á Roméo,</l>
@@ -467,14 +476,12 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1859.
-                  <lb/>Imprenta de D. José María Moreno, calle de Madre de Dios,
-                  número 1.
-               </p>
+                  <lb/>CARMONA:—1859. <lb/>Imprenta de D. José María Moreno, calle de Madre de Dios,
+                  número 1. </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,7 +20,8 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Sainete nuevo titulado El cuarto de la viuda. Para ocho personas.</title>
+                  <title type="titulo_completo">Sainete nuevo titulado El cuarto de la viuda. Para
+                     ocho personas.</title>
                   <title type="titulo_breve">Sainete nuevo titulado El cuarto de la viuda</title>
                </titleStmt>
                <editionStmt>
@@ -35,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5027347</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 107</idno>
                   </altIdentifier>
@@ -65,7 +69,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_098_1.xml">grabado_m_098_1</item>
@@ -77,9 +81,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -103,8 +113,11 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-11" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-11" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-28" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -113,30 +126,27 @@
    <text>
       <body>
          <div>
-            <pb n="1"/>
-            
+            <pb n="1" source="Moreno_098_1.jpg"/>
+
             <fw type="impresorNum">(Núm. 107.)</fw>
-            
+
             <head type="primer_titulo">
-               <lb/>SAINETE NUEVO
-               <lb/>TITULADO
-               <lb/><hi rend="negrita">EL CUARTO</hi>
+               <lb/>SAINETE NUEVO <lb/>TITULADO <lb/><hi rend="negrita">EL CUARTO</hi>
                <lb/><hi rend="negrita">DE LA VIUDA.</hi>
             </head>
             <head rend="negrita" type="subtitulo">PARA OCHO PERSONAS.</head>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA=1850.
-                  <lb/>Imprenta y librería de D. José M. MORENO, calle de las Descalzas n. 1.
-               </p>
+                  <lb/>CARMONA=1850. <lb/>Imprenta y librería de D. José M. MORENO, calle de las
+                  Descalzas n. 1. </p>
             </div>
-            
+
             <div type="reparto">
-               <pb n="2"/>
-               
+               <pb n="2" source="Moreno_098_2.jpg"/>
+
                <head type="reparto_titulo">PERSONAS.</head>
-               
+
                <castList rend="negrita">
                   <castItem>Un Poeta.</castItem>
                   <castItem>Un Abogado.</castItem>
@@ -148,60 +158,60 @@
                   <castItem>Un Hijo suyo.</castItem>
                </castList>
             </div>
-            
+
             <div>
-               <pb n="3"/>
-               
+               <pb n="3" source="Moreno_098_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <stage rend="cursiva">Salon con ocho sillas: sale la Viuda y doña Magdalena.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Cierto que el cuarto es al-</l>
                   <l>haja</l>
                   <l>y de todas conveniencias.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Vueno está, pero, amiguita,</l>
                   <l>para mi gusto esta pieza,</l>
                   <l>por lo ancha, larga y hermosa.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Y no es la mitad de buena</l>
                   <l>la de doña Beatriz,</l>
                   <l>que tanto, tanto pondera.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Qué ha de hacer,</l>
                   <l>si esta señora</l>
                   <l>es de primera tigera.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>A dónde esta don Pepito?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Rompiéndose la cabeza</l>
                   <l>en cosas muy importantes.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Pues qué cursa las escuelas?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Hasta ahora las ha cursado;</l>
                   <l>y como ya deletrea</l>
                   <l>y escribe tal cual de gordo,</l>
@@ -215,237 +225,237 @@
                   <l>y otras cosas mas precisas</l>
                   <l>que no cusar las escuelas.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Higo.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Señoritas, como debo,</l>
                   <l>como corresponde, cierta,</l>
                   <l>menor, mayor, indulgente,</l>
                   <l>y á toda benevolencia</l>
                   <l>estoy postrado á esas plantas.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Mag. </speaker>
+                  <speaker rend="cursiva">Mag.</speaker>
                   <l>Jesus, qué entrada tan tierna!</l>
                   <l>ya es ingenio el señorito.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Qué no conozcas ni adviertas</l>
                   <l>que es esta la hora que bajan á</l>
                   <l>darnos la enhorabuena,</l>
                   <l>de habernos venido al cuarto,</l>
                   <l>los vecinos!</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Madre, apenas</l>
                   <l>he hecho las diez visitas,</l>
                   <l>con la devocion mas tierna,</l>
                   <l>y espresion recopilada,</l>
                   <l>me he venido, madre nuestra.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Esto si que es hablar culto,</l>
                   <l>si digo que estas enseñan</l>
                   <l>á ser bestias á sus hijos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud </speaker>
+                  <speaker rend="cursiva">Viud</speaker>
                   <l>Qué te ha dicho la Marquesa?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Que estoy un rico muchacho.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Se oirá necedad como esta!</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Qué te parece del chico?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Qué quieres que me parezca,</l>
                   <l>sino que es hijo de madre.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Señora, por linea recta;</l>
                   <l>y así vuelvo á repetir</l>
                   <l>con la devocion mas tierna</l>
                   <l>de amor, honor y poder.</l>
                   <l>que estoy á las plantas vuestras.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Bien dicho, y á tiempo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>es cierto:</l>
                   <l>será látisma se pierda</l>
                   <l>porque es mozo de esperanza.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Payo.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>A la obediencia, señores,</l>
                   <l>me alegro que esté usted güena,</l>
                   <l>señor don Pepe José,</l>
                   <l>y todos á la obediencia.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Bien venido, amigo Anton.</l>
                   <l>Cómo va?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Pago. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>De la manera </l>
                   <l>que me dicen que estoy güeno,</l>
-                  <l>mas yo no lo se.</l>
+                  <l>mas yo no lo sé.</l>
                </sp>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_098_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Esta es buena. <stage rend="cursiva">Ap.</stage></l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Me mandan ustedes algo?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viuda. </speaker>
+                  <speaker rend="cursiva">Viuda.</speaker>
                   <l>No creo que acá se ofrezca</l>
                   <l>cosa alguna.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Pues Señora...</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>No te vayas, hombre, espera</l>
-                  <l>dí, quién vive en estacasa?</l>
+                  <l>dí, quién vive en esta casa?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Señora gente muy reta:</l>
                   <l>en el cuarto principal</l>
                   <l>don Pedro y doña Ruperta</l>
                   <l>viven: y el es agogao:</l>
                   <l>y saco yo por mi cuenta,</l>
-                  <l>que enseis mundos no habrá otro</l>
+                  <l>que en seis mundos no habrá otro</l>
                   <l>agogao de mas cencia.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Y en qué te fundas?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>En qué?</l>
                   <l>en que tiene la vos gruesa.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
-                  <l>Es verdad, que hoyen el dia</l>
+                  <speaker rend="cursiva">Magd.</speaker>
+                  <l>Es verdad, que hoy en el dia</l>
                   <l>aquellos que mas vocean</l>
                   <l>son los mayores letrados.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Una tal doña Lorenza</l>
                   <l>vive en el cuarto segundo,</l>
                   <l>y dicen que es peor que vieja.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Peor qué vieja? hombre, por</l>
                   <l>que?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Yo no lo sé: de manera,</l>
                   <l>que allí tiene una sobrina</l>
                   <l>muy guapa, y muy petimetra,</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Conqué es bonita?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Mal rayo:</l>
                   <l>sopas en una cazuela,</l>
                   <l>en concencia, y sin aquel,</l>
                   <l>se pueden comer con ella.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Eso, Anton, tambien yo lo</l>
                   <l>hago</l>
                   <l>con mi criada Prudencia.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
-                  <l>Es verdad que algunas veces </l>
+                  <speaker rend="cursiva">Viud.</speaker>
+                  <l>Es verdad que algunas veces</l>
                   <l>almuerzan, comen y cenan.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Esto va de tonto á tonto.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Concluye de darme cuenta.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>En la una guardilla vive</l>
                   <l>un cadete, que en la guerra</l>
                   <l>es muy guapo segun dice;</l>
@@ -453,112 +463,122 @@
                   <l>en el pescuezo, hácia aquí</l>
                   <l>unas heridas tremendas.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Y en la otra?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo </speaker>
-                  <l>Un don Esquina, </l>
-                  <l>que es guapísimo pocta.</l>
+                  <speaker rend="cursiva">Payo</speaker>
+                  <l>Un don Esquina,</l>
+                  <l>que es guapísimo poeta.</l>
                </sp>
-               
-              <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+
+               <sp>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Hombre, hombre, tu qué</l>
                   <l>entiendes</l>
                   <l>de hacer coplas?</l>
-              </sp>
-               
+               </sp>
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>De manera</l>
-                  <l>que yo lo digo, <choice><sic>porqne</sic><corr>porque</corr></choice></l>
+                  <l>que yo lo digo, <choice>
+                        <sic>porqne</sic>
+                        <corr>porque</corr>
+                     </choice></l>
                   <l>á cualquier hombre que encuen-<add place="encima">(tra</add></l>
                   <l>le echa una copla ó dos, si</l>
                   <l>se le pone en la cabeza.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale doña Ruperta.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>No podré yo ponderar</l>
-                  <l>el gusto de que usted tenga, </l>
+                  <l>el gusto de que usted tenga,</l>
                   <l>el que en casa le deseamos,</l>
                   <l>ciertamente sin que sea</l>
-                  <l>en detrimento del niño, </l>
+                  <l>en detrimento del niño,</l>
                   <l>de su salud, ni de aquellas</l>
                   <l>personas que usted bien quiere.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Pero V. me hace una ofensa</l>
                   <l>en venir por la mañana.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>Hija, no forme usted queja</l>
                   <l>de eso, porque es visita</l>
                   <l>sin detrimento.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Echa, echa, <stage rend="cursiva">Ap.</stage></l>
                   <l>qué relamida que viene</l>
                   <l>la señora detrimenta!</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
-                  <l><choice><sic>Hja</sic><corr>Hija</corr></choice>, me alegro que usted,</l>
+                  <speaker rend="cursiva">Rup.</speaker>
+                  <l><choice>
+                        <sic>Hja</sic>
+                        <corr>Hija</corr>
+                     </choice>, me alegro que usted,</l>
                   <l>á Dios gracias, este buena,</l>
                   <l>y sin detrimento alguno.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Qué descansada que queda!</l>
                   <stage rend="cursiva">Ap.</stage>
                   <l>Apuesto que el terminillo</l>
                   <l>lo tiene puesto en cabeza</l>
-               
-               <pb n="5"/>
-                  
-               <fw type="paginaNum">5</fw>
-               
+
+                  <pb n="5" source="Moreno_098_5.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
                   <l>de mayorazgo tambien:</l>
                   <l>estoy á vuestra obediencia.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>Ciertamente es bello cuarto.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Señora solo desea</l>
                   <l>le mande usted, que sé yo</l>
                   <l>lo hará con todas sus fuerzas.</l>
-                  <l>Payo. No sabia yo hasta ahora</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Payo.</speaker>
+                  <l>No sabia yo hasta ahora</l>
                   <l>fuerza los cuartos tuvieran:</l>
                   <l>me temo que mi señor,</l>
                   <l>segun las pláticas hechas,</l>
                   <l>es mas tonto que no yo.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Soldado.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Qué bello parage es este</l>
-                  <l>para armar una pelea! </l>
+                  <l>para armar una pelea!</l>
                   <l>La artillería á esta parte,</l>
                   <l>la vanguardia á mano izquierda,</l>
                   <l>los víveres adelante</l>
@@ -571,30 +591,30 @@
                   <l>con toda su parentela,</l>
                   <l>á quien me ofrezco rendido.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Estimamos la fineza</l>
                   <l>y este grande ofrecimiento.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Pues qué quiere usted que</l>
                   <l>ofrezca</l>
-                  <l>unsoldado sino bombas,</l>
+                  <l>un soldado sino bombas,</l>
                   <l>pólvora y balas, mi reina?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>Pero hijo, sin detrimento,</l>
                   <l>ofrezca usted lo que pueda,</l>
                   <l>como hacen todos los hombres.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Es que, señora, en mi tierra</l>
                   <l>se habla poco y se obra mucho:</l>
                   <l>allí se halla la firmeza,</l>
@@ -603,73 +623,73 @@
                   <l>porque son los andaluces</l>
                   <l>como se sabe.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Esa es cierta.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Y son tan cortos de genio</l>
                   <l>como se vé. <stage rend="cursiva">Se sienta.</stage></l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>De manera,</l>
                   <l>que lo que se vé no es malo,</l>
                   <l>lo que no se vé es la fiesta.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Abogado.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Ab. </speaker>
+                  <speaker rend="cursiva">Ab.</speaker>
                   <l>Lo qué el curtito ha ganado!</l>
                   <l>Señora, fuera molestias,</l>
                   <l>y así en la forma ordinaria</l>
                   <l>lo mismo que mi parienta...</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Cómo se conoce luego</l>
                   <l>los hombres que son de letras.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Señor don Pedro, lo estimo</l>
                   <l>muy mucho: y así usted tenga</l>
                   <l>por suya esta pobre choza.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Solo me falta una pieza</l>
                   <l>como esta para mi estudio:</l>
                   <l>qué buena está la samblea!</l>
                   <l>ustedes manden, que tengo</l>
                   <l>que escribir una querella.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Como yo mandara el mundo,</l>
                   <l>como mandarlo pudiera,</l>
                   <l>si las cosas fueran bien,</l>
                   <l>yo quitara las querellas.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Pues qué tan guapo es us-</l>
                   <l>ted?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Pregunte usted en la goleta</l>
                   <l>á los moros y á los turcos,</l>
                   <l>en estas carnestolendas,</l>
@@ -680,30 +700,30 @@
                   <l>cuerpo á cuerpo, codo á codo</l>
                   <l>y brazo á brazo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>No me entra</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Eso es poco.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>No te metas en quimeras.</l>
                </sp>
-               
-               <pb n="6"/>
-               
+
+               <pb n="6" source="Moreno_098_6.jpg"/>
+
                <fw type="paginaNum">6</fw>
-               
+
                <stage rend="cursiva">Sale el Poeta.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>C, r, o, clo, Chamorro. bue-<add place="debajo">(no:</add></l>
                   <l>c, l, a, canela: lindo,</l>
                   <l>bravo par de consonantes</l>
@@ -713,20 +733,20 @@
                   <l>necio fuí, porque sois todo,</l>
                   <l>y sobre todo, canela.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo </speaker>
+                  <speaker rend="cursiva">Hijo</speaker>
                   <l>Gran cosa! mucho decir:</l>
                   <l>un asombro es la cuarteta.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Lo estimo mucho.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>De oir esto,</l>
                   <l>ya los demonios me llevan,</l>
                   <l>porque ha hecho una coplita,</l>
@@ -734,245 +754,245 @@
                   <l>véalo usted, amo de casa,</l>
                   <l>á que el soldado perezca.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>No sienta usted eso, señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>No quiere usted que lo sienta</l>
                   <l>habiéndose un hombre visto</l>
                   <l>con todas las tripas fuera</l>
                   <l>mil veces, sin piernas, muslos,</l>
                   <l>sin brazos y sin cabeza.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Jesus, qué horror! y eso es</l>
                   <l>cierto?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Pregunte usted en la goleta</l>
                   <l>por manteca el Sevillano,</l>
                   <l>á aquella canalla perra.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Este hombre es leon ó di-</l>
                   <l>monche?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Yo me temo que este sea</l>
                   <l>para con mugeres hombre</l>
                   <l>y para los hombres hembra</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Pepito, danos un polvo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Señoras con mil ternezas.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>Tiene usted del de palillo?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>No he de tener? y me cuesta</l>
                   <l>trabajo inmenso el buscarlo:</l>
                   <l>pero de mi qué digeran</l>
                   <l>si fuera sin él.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Yo quiero habano.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo </speaker>
+                  <speaker rend="cursiva">Hijo</speaker>
                   <l>En la faldriquera derecha</l>
                   <l>le tengo muy rico.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>Ciertamente es cosa régia:</l>
                   <l>si me hará algun detrimento?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo </speaker>
+                  <speaker rend="cursiva">Hijo</speaker>
                   <l>No pase usted de eso pena,</l>
                   <l>porque yo de prevencion</l>
                   <l>traigo simpre una docena</l>
                   <l>de pañuelos empapados</l>
                   <l>en agua de olor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>No me entra.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Doña Magdalena, el chico,</l>
                   <l>digo, que tal aprovecha?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Mucho; puede presidir</l>
                   <l>la academia...</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>De la y griega.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Yo tomo comun.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo </speaker>
+                  <speaker rend="cursiva">Hijo</speaker>
                   <l>Pues en la caja de madre, per-<add place="debajo">(la,</add></l>
                   <l>lo tengo muy especial</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Bueno es: qué brava cabeza!</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Si usted quisiera llenarme</l>
                   <l>una cajita pequeña?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Si señor, saquela usted;</l>
                   <l>quiere usted enterrarme en ella?</l>
                   <l>Caja hay ahi para un difunto.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Pues no vé usted quien la</l>
                   <l>lleva.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>Jesus, yo me pongo mala.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Qué tienes, hija Ruperta?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>La Cabeza se me vá.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Pues voy á cerrar la puerta.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hij. </speaker>
+                  <speaker rend="cursiva">Hij.</speaker>
                   <l>No hay que asustarse, señoras,</l>
                   <l>que aquí traigo yo receta:</l>
                   <l>se pasa ya, señorita?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>Si, señor esto es flaqueza</l>
                   <l>de estómago.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
-                  <l>De manera, </l>
+                  <speaker rend="cursiva">Payo.</speaker>
+                  <l>De manera,</l>
                   <l>que tambien podria ser</l>
                   <l>debilidad de cabeza.</l>
                </sp>
-               
-               <pb n="7"/>
-               
+
+               <pb n="7" source="Moreno_098_7.jpg"/>
+
                <fw type="paginaNum">7</fw>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>El maldito del palurdo</l>
-                  <l>tiene sacrilega lengua.</l>
+                  <l>tiene sacrílega lengua.</l>
                </sp>
-              
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Señor don Esquina, usted</l>
                   <l>no dice alguna cosuela?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Señora, en dándome el pié</l>
                   <l>que lo dejen por mi cuenta.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Cuidado, que hay en el corro</l>
                   <l>quien de poeta se aprecia.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>De poeta á poeta no temo,</l>
                   <l>señora, á nadie en la tierra,</l>
                   <l>en fuego, en aire y en agua</l>
                   <l>y vamos á la esperiencia.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Dé usted pie, Sr. D. Pedro</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>A la piocha que lleva</l>
                   <l>doña Magdalena, vaya </l>
                   <l>(pues de poeta se precia)</l>
                   <l>bien puesta está la piocha,</l>
                   <l>es el pie.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>En hora buena:</l>
                   <l>Señora, tus pocresías</l>
                   <l>y tu grande hermosidad,</l>
@@ -985,43 +1005,43 @@
                   <l>para tomar un bocado,</l>
                   <l>bien puesta está la piocha.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Viva la décima.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Bomba.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Viva, y el poeta con ella.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Viva Manteca el soldado,</l>
                   <l>y el sitio de la goleta.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>Ahora es preciso, otro pié,</l>
                   <l>dé usted, á doña Magdalena,</l>
                   <l>para que al poeta diga.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Es verdad, pues el pie sea,</l>
                   <l>bien tiene á quien parecer.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Pues otra décima atiendan:</l>
                   <l>La naturaleza avara</l>
                   <l>contigo anduvo cortés,</l>
@@ -1035,159 +1055,159 @@
                   <l>si fué muy largo este verso,</l>
                   <l>bien tiene á quien parecer.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Gran décima.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>No es malita.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Bomba.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>La falta mucha agudeza.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Viud. </speaker>
+                  <speaker rend="cursiva">Viud.</speaker>
                   <l>A donde vas?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Salgo luego. <stage rend="cursiva">Vase.</stage></l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Mug. </speaker>
+                  <speaker rend="cursiva">Mug.</speaker>
                   <l>Viva doña Magdalena.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Y viva la fé de Dios,</l>
                   <l>que es la verdadera ciencia.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Lo grande que hay hoy que</l>
                   <l>ver.</l>
                   <l>es esta obra que tengo hecha</l>
                   <l>para ese gran coliseo</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Y qué es, alguna comedia?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Y hecha toda de mi ingenio:</l>
                   <l>ya, ya será gusto el verla:</l>
-                  <l>por cierto la traigo aquí. </l>
+                  <l>por cierto la traigo aquí.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Estuvo usted en la goleta?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Si señor, estuve allá,</l>
                   <l>que escriví sobre el asunto</l>
-                  <l>tres millones de cuartetas</l>
+                  <l>tres millones de cuartetas.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Usted bien conocería</l>
                   <l>allí al soldado Manteca?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Si señor, era un borracho</l>
                   <l>de los pies á la cabeza.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Hombre, Manteca borracho?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Si señor: y tambien era</l>
                   <l>un grandisimo ladron,</l>
                   <l>que se me llevó unas piernas.</l>
                </sp>
-               
-               <pb n="8"/>
-               
+
+               <pb n="8" source="Moreno_098_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Con qué anda usted?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Poet. </speaker>
+                  <speaker rend="cursiva">Poet.</speaker>
                   <l>Con otras</l>
                   <l>que heredé de mis abuelos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Todo esto es mucha verdad.</l>
                   <l>Válgome de la prudencia. <stage rend="cursiva">Ap.</stage></l>
                   <l>Ha sido el mejor soldado</l>
                   <l>que ha habido en toda la guerra.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
+                  <speaker rend="cursiva">Payo.</speaker>
                   <l>Repare usted en el pizcuezo</l>
                   <l>las cuchilladas que lleva.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Es señal que habrá peleado</l>
                   <l>mucho con las tropas francesas.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Señoras para mí ha sido</l>
                   <l>todo eso una friolera.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Rup. </speaker>
+                  <speaker rend="cursiva">Rup.</speaker>
                   <l>No obstante, sin detrimento,</l>
                   <l>es, hijo cosa muy recta.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Y en esa comedia, amigo,</l>
                   <l>qué personas son las qué entran?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">poet. </speaker>
+                  <speaker rend="cursiva">poet.</speaker>
                   <l>Entran el sol y la luna,</l>
                   <l>entran todas las estrellas,</l>
                   <l>entran los cuatro elementos,</l>
@@ -1197,49 +1217,49 @@
                   <l>entra el mar, entran sus peces,</l>
                   <l>y hasta los navíos entran.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo. </speaker>
-                  <l>Qué laberinto que será, </l>
+                  <speaker rend="cursiva">Payo.</speaker>
+                  <l>Qué laberinto que será,</l>
                   <l>señores, la tal comedia!</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Magd. </speaker>
+                  <speaker rend="cursiva">Magd.</speaker>
                   <l>Vaya muy enhoramala,</l>
                   <l>no nos rompa la cabeza:</l>
                   <l>no me admiro que estén hoy</l>
                   <l>tan abatidos los poetas.</l>
                   <l>si todos son como usted.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Hijo.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Hijo. </speaker>
+                  <speaker rend="cursiva">Hijo.</speaker>
                   <l>Señores, que pulla es esta!</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sold. </speaker>
+                  <speaker rend="cursiva">Sold.</speaker>
                   <l>Ponga fin á este disgusto</l>
                   <l>el saber que en la goleta</l>
                   <l>hice el destrozo mayor</l>
                   <l>que se ha visto en esta tierra.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Payo </speaker>
+                  <speaker rend="cursiva">Payo</speaker>
                   <l>Manteca tiene razon.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Todos. </speaker>
+                  <speaker rend="cursiva">Todos.</speaker>
                   <l>Pues acabese la fiesta,</l>
                   <l>pidiendo á todos perdon</l>
                   <l>por las faltas que este lleva.</l>
                </sp>
-               
+
                <trailer>FIN.</trailer>
             </div>
          </div>

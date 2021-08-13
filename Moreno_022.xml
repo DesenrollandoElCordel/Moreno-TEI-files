@@ -35,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5171915</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 22</idno>
                   </altIdentifier>
@@ -65,7 +67,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_022_1.xml">grabado_m_022_1</item>
@@ -78,6 +80,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -98,15 +106,17 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term type="tipo_texto">Relaciones</term>
-               <term type="tipo_estrofa" target="XX527614.html">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -116,15 +126,13 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_022_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 22.)</fw>
-               
+
                <head rend="negrita" type="primer_titulo">
-                  <lb/>RELACION
-                  <lb/>DEL DESPRECIO BIEN VENGADO.
-               </head>
-               
+                  <lb/>RELACION <lb/>DEL DESPRECIO BIEN VENGADO. </head>
+
                <l rend="indent">¿Qué me pariera mi madre,</l>
                <l>para verme en esta puesto?</l>
                <l>¿Con qué he de reprensentar?</l>
@@ -159,9 +167,9 @@
                <l>me acerqué á la vera de ellos,</l>
                <l>y con mucho disimulo</l>
                <l>empecé á darles encuentro,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_022_2.jpg"/>
+
                <l>tanto, que llené un talégo</l>
                <l>y la copa del sombrero.</l>
                <l>Hecha ya la prevencion,</l>
@@ -246,9 +254,9 @@
                <l>Unos salian degollados,</l>
                <l>otros con medio pescuezo,</l>
                <l>peos cónicos y curvos</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_022_3.jpg"/>
+
                <l>y hasta oblicuos hubo peos,</l>
                <l>hubo peos que salian</l>
                <l>como bomba de mortero:</l>
@@ -333,9 +341,9 @@
                <l>Dice un Quimico, este gaz</l>
                <l>analizarlo pretendo,</l>
                <l>no es oesigenio, no es azoe,</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_022_4.jpg"/>
+
                <l>un metifico compuesto,</l>
                <l>merdifero ha de llamarse</l>
                <l>siendo hijo de escremento.</l>
@@ -411,15 +419,14 @@
                <l>y birriendo por el suelo</l>
                <l>quedaron libres y alegres</l>
                <l>de su pasado tormento.</l>
-               
+
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1857.
-                  <lb/>Imprenta de D. José Maria Moreno, calle Juan de la Cabra núm. 5.
-               </p>
+                  <lb/>CARMONA:—1857. <lb/>Imprenta de D. José Maria Moreno, calle Juan de la Cabra
+                  núm. 5. </p>
             </div>
          </div>
       </body>

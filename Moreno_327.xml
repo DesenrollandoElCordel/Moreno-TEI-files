@@ -40,11 +40,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5060430</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -74,7 +76,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="3">Tres grabados (p.1)</decoNote>
+                     <decoNote n="3" type="num_grabados">Tres grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_327_1.xml">grabado_m_327_1</item>
@@ -88,6 +90,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -116,7 +124,8 @@
       <revisionDesc>
          <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,7 +135,7 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_327_1.jpeg"/>
 
                <head type="primer_titulo">DIONISIA PEREZ LOSADA.</head>
                <head type="subtitulo">
@@ -135,12 +144,11 @@
                   <lb/>ciudad de Zaragoza, en este presente año, contra un caballero, por haber le-
                   <lb/>vantado un falso testimonio á una doncella honesta y viriuosa, la cual se
                   <lb/>vió libre de las asechanzas y engaños del demonio por ser devota de la
-                  <lb/>Virgen del Pilar y llevar los Santos Evangelios.
-               </head>
+                  <lb/>Virgen del Pilar y llevar los Santos Evangelios. </head>
 
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">A la celestial Princesa,</l>
                   <l>muy tiernamente se amaban.</l>
                   <l>que es de gloria coronada,</l>
@@ -175,9 +183,9 @@
                   <l>con los Santos Evangelios</l>
                   <l>que en union del matrimonio</l>
                   <l>que son reliquias sagradas</l>
-                  
-                  <pb n="2"/>
-                  
+
+                  <pb n="2" source="Moreno_327_2.jpeg"/>
+
                   <l>para vencer al demonio</l>
                   <l>sus astucias y asechanzas.</l>
                   <l>La sucedió á esta doncella</l>
@@ -281,10 +289,10 @@
                </div>
 
                <div n="2" type="parte">
-                  <pb n="3"/>
-                  
+                  <pb n="3" source="Moreno_327_3.jpeg"/>
+
                   <head rend="negrita" type="titulo_parte">SECUNDA PARTE</head>
-                  
+
                   <l rend="indent">Ya que la noble doncella</l>
                   <l>por sentencia desterrada</l>
                   <l>va á salir de la ciudad,</l>
@@ -384,7 +392,7 @@
                   <l>allí se le apareció</l>
                   <l>una divina Zagala</l>
 
-                  <pb n="4"/>
+                  <pb n="4" source="Moreno_327_4.jpeg"/>
 
                   <l>que trae un niño en sus brazos</l>
                   <l>de resplandores cercada.</l>
@@ -473,10 +481,8 @@
 
             <div type="colofon">
                <p>
-                  <lb/>REIMPRESO EN CARMONA:—1860.
-                  <lb/>Imprenta de D. José María Moreno, calle de
-                  Madre de Dios.
-               </p>
+                  <lb/>REIMPRESO EN CARMONA:—1860. <lb/>Imprenta de D. José María Moreno, calle de
+                  Madre de Dios. </p>
             </div>
          </div>
       </body>

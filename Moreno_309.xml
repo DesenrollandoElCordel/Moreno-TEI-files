@@ -39,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5055521</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 331</idno>
                   </altIdentifier>
@@ -69,7 +71,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_309_1.xml">grabado_m_309_1</item>
@@ -81,6 +83,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -109,7 +117,8 @@
       <revisionDesc>
          <change when="2021-04-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,16 +128,15 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_309_1.jpeg"/>
 
                <fw type="impresorNum">(Número 331.)</fw>
 
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">TROBOS DISCRETOS Y DIVERTIDOS,</hi>
-                  <lb/>PARA ENTRETENER A LOS CURIOSOS Y CANTAR LOS GALANES
-                  <lb/>á sus queridas damas, y especialmente los que se sienten agraviados por
-                  <lb/>no ser correspondidos.
-               </head>
+                  <lb/>PARA ENTRETENER A LOS CURIOSOS Y CANTAR LOS GALANES <lb/>á sus queridas
+                  damas, y especialmente los que se sienten agraviados por <lb/>no ser
+                  correspondidos. </head>
 
                <lg n="1">
                   <head type="titulo_estrofa">TROBO PRIMERO.</head>
@@ -180,7 +188,7 @@
                      <l rend="indent">Todo el mundo nos murmura</l>
                      <l>te sientas á mi lado,</l>
 
-                     <pb n="2"/>
+                     <pb n="2" source="Moreno_309_2.jpeg"/>
 
                      <l>en estando yo gustoso</l>
                      <l>todo el mundo está pagado.</l>
@@ -332,7 +340,7 @@
                      <l rend="cursiva">por Dios descubre tu pecho.</l>
                   </lg>
 
-                  <pb n="3"/>
+                  <pb n="3" source="Moreno_309_3.jpeg"/>
 
                   <lg>
                      <l rend="indent">Es mí querer tan profundo</l>
@@ -483,7 +491,7 @@
                   <lg>
                      <l rend="indent">Aunque me intentas vencer 4.</l>
 
-                     <pb n="4"/>
+                     <pb n="4" source="Moreno_309_4.jpeg"/>
 
                      <l>con tu loco desvaro,</l>
                      <l>que tu cofazon es mio,</l>
@@ -582,9 +590,8 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1858.
-                  <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra, n.°, 4.
-               </p>
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra, n.°,
+                  4. </p>
             </div>
          </div>
       </body>

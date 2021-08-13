@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5037149</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 187</idno>
                   </altIdentifier>
@@ -66,7 +69,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_178_1.xml">grabado_m_178_1</item>
@@ -79,9 +82,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -107,7 +116,10 @@
       <revisionDesc>
          <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
+         <change when="2021-07-01" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,19 +129,18 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_178_1.jpg"/>
 
                <fw type="impresorNum">Número 187.</fw>
 
                <head type="primer_titulo">
-                  <lb/>PASILLO
-                  <lb/>DEL CAPITAN CASCADA
-                  <lb/><hi rend="cursiva">y el licenciado Torrejon.</hi>
+                  <lb/>PASILLO <lb/>DEL CAPITAN CASCADA <lb/><hi rend="cursiva">y el licenciado
+                     Torrejon.</hi>
                </head>
 
                <sp>
                   <speaker rend="cursiva">Torrejon.</speaker>
-                  <l rend="indent">Buenas nochesDon Cascada, </l>
+                  <l rend="indent">Buenas noches Don Cascada, </l>
                   <l>capítan muy valeroso.</l>
                </sp>
 
@@ -162,15 +173,15 @@
                <sp>
                   <speaker rend="cursiva">Cascada.</speaker>
                   <l>¿Que tal es la mozoleja?</l>
-                  <l>¿Es bonita y salerosa.</l>
+                  <l>¿Es bonita y salerosa?</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Torrejon.</speaker>
                   <l>Mas picotera que hermosa </l>
-                  
-               <pb n="2"/>
-                  
+
+                  <pb n="2" source="Moreno_178_2.jpg"/>
+
                   <l>al fin, hija de Comadreja.</l>
                </sp>
 
@@ -207,24 +218,24 @@
                <sp>
                   <speaker rend="cursiva">Cascada.</speaker>
                   <l>Luego es hecha esta aventura.</l>
-                  <l>¿Y su padré os la consiente?</l>
+                  <l>¿Y su padre os la consiente?</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Torrejon.</speaker>
                   <l>Que se dé dientes con dientes</l>
-                  <l>si me niega esta hermosura:</l>
+                  <l>si me niega esta hermosura.</l>
                   <l>Soy poéta atropellado</l>
-                  <l>inconvenientes no miro</l>
+                  <l>inconvenientes no miro,</l>
                   <l>y en berdad que yo admiro</l>
                   <l>de mi no se haya prendado.</l>
                   <l>Mi estampa es un poco linda,</l>
-                  <l>y siento dentro de mi:...</l>
+                  <l>y siento dentro de mi</l>
                   <l>un gallo quiquiriquí</l>
-                  <l>con que enamoré á Rosinda</l>
+                  <l>con que enamoré á Rosinda,</l>
                   <l>esta jovencita bella</l>
                   <l>no pudiendo resistir</l>
-                  <l>estar ausente de mí</l>
+                  <l>estar ausente de mi</l>
                   <l>se remontó á las estrellas.</l>
                </sp>
 
@@ -260,7 +271,10 @@
 
                <sp>
                   <speaker rend="cursiva">Torrejon.</speaker>
-                  <l>Unos vinte mil iibrones,</l>
+                  <l>Unos vinte mil <choice>
+                        <sic>iibrones</sic>
+                        <corr>librones</corr>
+                     </choice>,</l>
                   <l>mas viejos que la tia Paca.</l>
                </sp>
 
@@ -276,7 +290,7 @@
                   <l>me salen por el cogote.</l>
                   <l>¿Por qué es poco poseer</l>
                   <l>las selectas de Virgilio,</l>
-                  <l>elamigo de los niños;</l>
+                  <l>el amigo de los niños;</l>
                   <l>y el Fleuri para aprender?</l>
                </sp>
 
@@ -291,11 +305,11 @@
                   <l>De vuestra vida la historia</l>
                   <l>quiero me conteis tambien.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Cascada</speaker>
-                  <l>La mia es muy diferente.</l>
-                  <l>á la que me habeis contado..</l>
+                  <l>La mia es muy diferente</l>
+                  <l>á la que me habeis contado.</l>
                </sp>
 
                <sp>
@@ -306,9 +320,9 @@
 
                <sp>
                   <speaker rend="cursiva">Cascada.</speaker>
-                  
-               <pb n="3"/>
-                  
+
+                  <pb n="3" source="Moreno_178_3.jpg"/>
+
                   <l>En verdad que como has dicho</l>
                   <l>no faltan sus valentias</l>
                   <l>en que entretuve mis dias,</l>
@@ -325,7 +339,7 @@
 
                <sp>
                   <speaker rend="cursiva">Cascada.</speaker>
-                  <l>Con mucho gusto señor.</l>
+                  <l>Con mucho gusto señor</l>
                   <l>esta historia os contaré,</l>
                   <l>por ser quien la egecuté, </l>
                   <l>camino del gran Mogol.</l>
@@ -334,15 +348,15 @@
                   <l>con una damita hermosa</l>
                   <l>llamada la bella Juana.</l>
                   <l>Esta bonita Sañora </l>
-                  <l>me hablaba con mucho amor</l>
+                  <l>me hablaba con mucho amor,</l>
                   <l>y le acometio un dolor</l>
                   <l>que le duró un cuarto de hora.</l>
                   <l>Al instanté me turbé,</l>
                   <l>mas cobrando mi valor</l>
                   <l>sin miedo ya ni temor,</l>
-                  <l>al punto la levanté.</l>
+                  <l>al punto la levantè.</l>
                   <l>Le pregunté por qué causa</l>
-                  <l>un accidente le dió,</l>
+                  <l>un accidente le diò,</l>
                   <l>y ella me respondió</l>
                   <l>con temor y grande pausa:</l>
                   <l>¿conservais aun el valor</l>
@@ -356,7 +370,7 @@
                   <l>Un vicho muy largo, si,</l>
                   <l>á todas partes me sigue</l>
                   <l>y dó quiera me persigue,</l>
-                  <l>de esto me dá miedo á mr</l>
+                  <l>de esto me dá miedo á mi</l>
                   <l>y si logro ser vengada</l>
                   <l>de tan infame animal,</l>
                   <l>no tendré mas que penar</l>
@@ -365,10 +379,10 @@
                   <l>metido en aquel rincon;</l>
                   <l>cubierto de un gran ceron</l>
                   <l>que me lo ha robado á mi.</l>
-                  <l>ld conla espada sacada </l>
+                  <l>ld con la espada sacada </l>
                   <l>por que es valiente y traidor</l>
                   <l>si os arranca el corazon</l>
-                  <l>no os valdrá ser don Cascada, </l>
+                  <l>no os valdrà ser don Cascada, </l>
                   <l>esto dijo, y silenciosa</l>
                   <l>los ojos al suelo bajó,</l>
                   <l>cosa que á mi me encantó</l>
@@ -396,16 +410,16 @@
                   <l>Amigo sois grande hombre</l>
                   <l>y me temo que la ley, </l>
                   <l>os ha de alcanzar del Rey</l>
-                  
-               <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_178_4.jpg"/>
+
                   <l>un titulo á vuestro nombre.</l>
                   <l>Compadre yo ensalzarè</l>
                   <l>vuestro valor singular</l>
                   <l>hasta que os llegue á lograr</l>
                   <l>un empleo aragones, </l>
                   <l>y aun aqui no he de acabar</l>
-                  <l>en misveridicos versos,</l>
+                  <l>en mis veridicos versos,</l>
                   <l>ponderaré vuestros hechos</l>
                   <l>aumentandolos aun mas,</l>
                   <l>pasarè á ver á Hinestrosa</l>
@@ -453,7 +467,7 @@
                   <l>que el perdon me lo concedan</l>
                   <l>si soy digno de alcanzarle.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Cascada.</speaker>
                   <l>Yo le pido por la mia </l>

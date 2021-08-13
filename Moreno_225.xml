@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_225">
    <teiHeader>
@@ -37,9 +37,10 @@
                   <settlement>Genève</settlement>
                   <repository>Bibliothèque Universitaire de Genève <ref
                         target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                    />
+                     />
                   </repository>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5041062</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 234</idno>
                   </altIdentifier>
@@ -65,7 +66,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_225_1.xml">grabado_m_225_1</item>
@@ -77,6 +78,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -96,17 +103,18 @@
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
-               <term type="tipo_texto" target="XX527614.html">Romances</term>
-               <term type="tipo_estrofa" target="XX527614.html">Romances</term>
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#EL" when="2021-05-31">Création du fichier TEI P5 et encodage du corps du
+         <change when="2021-05-31" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -116,15 +124,12 @@
       <body>
          <div>
             <div>
-               <pb facs="Moreno_225_1.jpg" n="1"/>
+               <pb facs="Moreno_225_1.jpg" n="1" source="Moreno_225_1.jpg"/>
 
                <fw type="impresorNum">(Número 234.)</fw>
 
                <head type="primer_titulo">
-                  <lb/>ESCELENCIAS
-                  <lb/>DE LA
-                  <lb/>SANTISIMA CRUZ.
-               </head>
+                  <lb/>ESCELENCIAS <lb/>DE LA <lb/>SANTISIMA CRUZ. </head>
 
                <l rend="indent">Madero excelso de Cristo,</l>
                <l>de quien la fábrica toda</l>
@@ -160,9 +165,9 @@
                <l>y con elocuencia poca;</l>
                <l>pero alcanzando la gracia</l>
                <l>de aquel que la perfecciona.</l>
-               
-               <pb facs="Moreno_225_2.jpg" n="2"/>
-               
+
+               <pb facs="Moreno_225_2.jpg" n="2" source="Moreno_225_2.jpg"/>
+
                <l>que por sor de gracia tú,</l>
                <l>te quiso hacer mas graciosa;</l>
                <l>podré a este piélago undoso,</l>
@@ -249,9 +254,9 @@
                <l>y le aplicaron la esponja</l>
                <l>cuando fué sed de que el mundo</l>
                <l>se salvase á tanta costa.</l>
-               
-               <pb facs="Moreno_225_3.jpg" n="3"/>
-               
+
+               <pb facs="Moreno_225_3.jpg" n="3" source="Moreno_225_3.jpg"/>
+
                <l rend="cursiva">Sesta consumatum etc;</l>
                <l>que aqui dieron fin las cosas</l>
                <l>de todas las profesias,</l>
@@ -338,9 +343,9 @@
                <l>la que era de Cristo sola.</l>
                <l>Tocaron á una difunta</l>
                <l>con las dos no hicieron cosa</l>
-               
-               <pb facs="Moreno_225_4.jpg" n="4"/>
-               
+
+               <pb facs="Moreno_225_4.jpg" n="4" source="Moreno_225_4.jpg"/>
+
                <l>hasla llegar la tercera,</l>
                <l>que apenas la muger toca,</l>
                <l>cuando con velocidad</l>
@@ -403,14 +408,13 @@
                <l>dé el cielo con mano pronta</l>
                <l>auxilio, luz y saber,</l>
                <l>para alabarle dichosa.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1854.
-                  <lb/>Imprenta de D. José María Moreno, Descalzas núm. 1.</p>
+                  <lb/>CARMONA:—1854. <lb/>Imprenta de D. José María Moreno, Descalzas núm. 1.</p>
             </div>
          </div>
       </body>

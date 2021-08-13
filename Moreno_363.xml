@@ -36,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5069715</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 396</idno>
                   </altIdentifier>
@@ -66,7 +68,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_363_1.xml">grabado_m_363_1</item>
@@ -79,6 +81,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -107,7 +115,8 @@
       <revisionDesc>
          <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,16 +126,12 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_363_1.jpg"/>
 
                <fw type="impresorNum">Número 396. </fw>
 
                <head type="primer_titulo">
-                  <lb/>RELACION NUEVA.
-                  <lb/>EL
-                  <lb/>MAYOR MONSTRUO,
-                  <lb/>LOS ZELOS.
-               </head>
+                  <lb/>RELACION NUEVA. <lb/>EL <lb/>MAYOR MONSTRUO, <lb/>LOS ZELOS. </head>
                <head type="subtitulo">DE HOMBRE.</head>
 
                <l rend="indent">Si todas cuantas desdichas,</l>
@@ -135,11 +140,11 @@
                <l>Deidad de los hombres varia,</l>
                <l>se perdieran, todas juntas</l>
                <l>y en mi solo se hallarán,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_363_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>que soy epílogo, y cifra</l>
                <l>de las miserias humanas.</l>
                <l>Yó, que ayer de Mariene</l>
@@ -206,11 +211,11 @@
                <l>que siempre á riesgo se guarda:</l>
                <l>si no se defiende muere,</l>
                <l>si se defiende, se mancha.</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_363_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>No pues mi ambicion Filipino,</l>
                <l>no mi atrevida arrogancia,</l>
                <l>no ser parcial con Antonio,</l>
@@ -277,11 +282,11 @@
                <l>sea frenesí, sea rabia,</l>
                <l>sea ira, sea letargo,</l>
                <l>ó cuanto despues mis ancias</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_363_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>quisieren, que todo quiero</l>
                <l>que sea, pues todo es nada,</l>
                <l>como no sean mis zelos;</l>
@@ -332,15 +337,14 @@
                <l>(salgan todos á esta cáusa)</l>
                <l>que no quisiera ver antes</l>
                <l>muerta, que agena su dama.</l>
-               
+
                <trailer rend="cursiva">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1865.
-                  <lb/>Imprenta y librería de D. José María Moreno, Madre de Dios 1.
-               </p>
+                  <lb/>CARMONA:—1865. <lb/>Imprenta y librería de D. José María Moreno, Madre de
+                  Dios 1. </p>
             </div>
          </div>
       </body>

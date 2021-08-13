@@ -40,9 +40,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
-                  <collection>Colleción Moreno</collection><idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5046003</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 278</idno>
                   </altIdentifier>
@@ -68,7 +72,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_264_1.xml">grabado_m_264_1</item>
@@ -81,6 +85,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -110,7 +120,9 @@
       <revisionDesc>
          <change when="2021-04-20" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,17 +131,17 @@
    <text>
       <body>
          <div>
-            
+
             <div>
-               
-               <pb n="1"/>
-               
+
+               <pb n="1" source="Moreno_264_1.jpg"/>
+
                <fw type="impresorNum">Número 278.</fw>
-               
+
                <head type="primer_titulo"><hi rend="negrita">RELACION</hi>
-               <lb/>DE CURRILLO Y DON CAMILO,
-               <lb/><hi rend="negrita">EN VERSO ANDALUZ.</hi></head>
-               
+                  <lb/>DE CURRILLO Y DON CAMILO, <lb/><hi rend="negrita">EN VERSO
+                  ANDALUZ.</hi></head>
+
                <l rend="indent">Que noche, Curro que noche...</l>
                <l> cadistante mas malegro</l>
                <l>le haber venio á Seviya:</l>
@@ -152,9 +164,9 @@
                <l>¿pues acaso osté es delienso?</l>
                <l>esta veláa me encanta,</l>
                <l>digo pues poquita ay</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_264_2.jpg"/>
+
                <l>ahoramesmo en el paseo...</l>
                <l>Curro, Curriyo, que ejesto?</l>
                <l>esta es la gloria aliñáa</l>
@@ -163,7 +175,10 @@
                <l>Cuanta mosa, que jaleo,</l>
                <l>que jarana, que ruio,</l>
                <l>que tronchito de cabeyo,</l>
-               <l>Vaya uua mosa, me muero.</l>
+               <l>Vaya <choice>
+                     <sic>uua</sic>
+                     <corr>una</corr>
+                  </choice> mosa, me muero.</l>
                <l>¡Vaya unos piel tamañito,</l>
                <l>Jaciendo pórbo en el suelo;</l>
                <l>y sacando mosquetita</l>
@@ -231,9 +246,9 @@
                <l>mas que sea una serpiente</l>
                <l>le tengo de arriar candela.</l>
                <l>Tú no sabe quien soy yo;</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_264_3.jpg"/>
+
                <l>no sabe que soy bravio,</l>
                <l>por dentro y fuera cosio,</l>
                <l>ardiendo como un faror?</l>
@@ -310,9 +325,9 @@
                <l>Jesú me quemo Dios mio,</l>
                <l>haiga arrastrá que se case</l>
                <l>y que quiera un compromiso?</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_264_4.jpg"/>
+
                <l>Esa chiquilla se tarda; </l>
                <l>si vendrá ó se habrá perdio?</l>
                <l>Pero aqui viene... mejo,</l>
@@ -366,16 +381,15 @@
                <l>viva lo valiente y gueno.</l>
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1861.
-                  <lb/>Imprenta de D. José María Moreno, calle de Madre de Dios núm, 1.
-               </p>
+                  <lb/>CARMONA:—1861. <lb/>Imprenta de D. José María Moreno, calle de Madre de Dios
+                  núm, 1. </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

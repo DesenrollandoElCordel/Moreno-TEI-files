@@ -9,6 +9,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -37,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5060583</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 262</idno>
                   </altIdentifier>
@@ -67,7 +70,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_332_1.xml">grabado_m_332_1</item>
@@ -80,9 +83,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -108,7 +117,9 @@
       <revisionDesc>
          <change when="2021-03-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-08" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,17 +129,16 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_332_1.jpeg"/>
 
                <fw type="impresorNum">Número 202.</fw>
 
                <head type="primer_titulo">
-                  <lb/>PASILLO NUEVO ANDALUZ,
-                  <lb/>EJECUTADO ENTRE
-                  <lb/><hi rend="negrita">Tio Curro el enamorado y Pepe el valenton.</hi>
+                  <lb/>PASILLO NUEVO ANDALUZ, <lb/>EJECUTADO ENTRE <lb/><hi rend="negrita">Tio Curro
+                     el enamorado y Pepe el valenton.</hi>
                </head>
 
-               <stage rend="cursiva">Salén los dos.</stage>
+               <stage rend="cursiva">Salen los dos.</stage>
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
@@ -144,14 +154,14 @@
                <sp>
                   <speaker rend="cursiva">Pepe:</speaker>
                   <l>Una broma no asi ná...</l>
-                  <l>tio Curfíto verasté;</l>
-                  <l>llegó á mi un mozó cosio</l>
+                  <l>tio Currito verasté;</l>
+                  <l>llegó á mi un mozo cosio</l>
                   <l>conísu bigote torsio...</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
-                  <l>A pintarlá....</l>
+                  <l>A pintarla....</l>
                </sp>
 
                <sp>
@@ -161,45 +171,45 @@
 
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
-                  <l>Ay que igñoranciá, Josú....</l>
-                  <l>eso fuédha tonteria, :1</l>
-                  <l>y que tal vez lo járía</l>
-                  <l>sin saber quien eras tu.</l>
+                  <l>Ay que igñorancia, Jesú....</l>
+                  <l>eso fué una tonteria</l>
+                  <l>y que tal vez lo jaría</l>
+                  <l>sin saber quien eras tú.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
-                  <l>Esó mesmo pense yo</l>
+                  <l>Eso mesmo pense yo</l>
                   <l>y viendo su bañiá, </l>
                   <l>lo miré con cariá.</l>
-                  <l>Tio Curro porque si hó....</l>
+                  <l>Tio Curro porque si nó....</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
-                  <l>Nó ha menester que igas mas.</l>
+                  <l>No ha menester que igas mas.</l>
                   <l>que yo sé tus proceeres</l>
                   <l>y lo valiente que eres;</l>
-                  <l>nadie chistá á onde tú esás:</l>
+                  <l>nadie chista á onde tú estás.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
-                  <l>Tio Curro lo sabósté</l>
-                  <l>pos yo mé ajegro infinito.</l>
+                  <l>Tio Curro lo sabosté</l>
+                  <l>pos yo me alegro infinito.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
                   <l>No te sofoques Pepito</l>
-                  <l>que tienes Hiucho poé.</l>
+                  <l>que tienes mucho poé.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>Me pongo como una hoguera </l>
-                  <l>y no quieo pensá eh esto:</l>
-                  <l>tio Curro, soy yó algun tiesto?</l>
+                  <l>y no quieo pensá en esto:</l>
+                  <l>tio Curro, soy yo algun tiesto?</l>
                </sp>
 
                <sp>
@@ -212,22 +222,25 @@
                   <l>Valla ese puro compare</l>
                   <l>y no tengaste cudiao</l>
                   <l>que esta noche sa juntao</l>
-                  <l>con úño é los doce pare.</l>
+                  <l>con uno é los doce pare.</l>
                   <l>Como buelva ésé chávó,</l>
-                  <l>tio Curro no tiemblosté....</l>
+                  <l><choice>
+                        <sic>iio</sic>
+                        <corr>tio</corr>
+                     </choice> Curro no tiemblosté....</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
-                  <l>Estandó tú aquí porqué .</l>
+                  <l>Estandó tu aqui porqué </l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
-                  <l>Bien sabosté quien soy yo, </l>
-                  
-                  <pb n="2"/>
-                  
+                  <l>Bien sabosté quien soy yo,</l>
+
+                  <pb n="2" source="Moreno_332_2.jpeg"/>
+
                   <l>osté sabe que soy neto</l>
                   <l>y en metiendome en jarana,</l>
                   <l>dobla al punto la campana</l>
@@ -254,26 +267,26 @@
                   <l>porque se fué avergonsao:</l>
                   <l>llegó sin poerme jablá</l>
                   <l>y se queó como un difunto</l>
-                  <l>á si que yo le pregpnto</l>
+                  <l>á si que yo le pregunto</l>
                   <l>el que quioste camará? </l>
                   <l>se esmalló en aquel instante</l>
                   <l>y oyendo mi voz tan fuerte</l>
                   <l>los colores de la muerte</l>
-                  <l>le asomaron al semblante,</l>
+                  <l>le asomaron al semblante.</l>
                   <l>Yo entonses con espalpajo</l>
                   <l>por no dalle que contá</l>
                   <l>le dije: lla pué toma</l>
-                  <l>calle arriba ú dalle abajo.</l>
+                  <l>calle arriba ú calle abajo.</l>
                   <l>No quiso asperá otra chanza</l>
                   <l>y tomó jacia ay arriba,</l>
                   <l>dando seña positiva</l>
-                  <l>de tené buena crianza</l>
+                  <l>de tené buena crianza.</l>
                   <l>Por no tener mas quimera</l>
                   <l>al instante se najó.</l>
                   <l>Tio Curro y me respetó</l>
                   <l>como si su padre fuera.</l>
                   <l>¿Y hosté qué busca po aqui</l>
-                  <l>á estas horas digasté?</l>
+                  <l>á estas horas, digasté?</l>
                </sp>
 
                <sp>
@@ -293,6 +306,7 @@
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
                   <l>Hombre pasó lo siguiente:</l>
+                  <l>esa mosa que yo adoro</l>
                   <l>ayer la vie en los toro</l>
                   <l>y me gustó ciertamente.</l>
                   <l>Mientras duró la corria</l>
@@ -301,12 +315,12 @@
                   <l>senta á la vera mia.</l>
                   <l>Es una mosa lachó</l>
                   <l>que tiene dos mil primores,</l>
-                  <l>rubia con unas colores,</l>
+                  <l>rubia, con unas colores,</l>
                   <l>viva el cielo, de mistó.</l>
                   <l>Eya es blanca, colorá, </l>
                   <l>mu graciosa, delgaita,</l>
                   <l>con mu poca cinturita</l>
-                  <l>y de aquí mu abulta.</l>
+                  <l>y de aqui mu abulta.</l>
                   <l>Con su ropa mu airosa,</l>
                   <l>que cada vez que dá un paso,</l>
                   <l>a mi me jaciá peaso</l>
@@ -350,7 +364,7 @@
                   <l>Es verdad lo que tú dice</l>
                   <l>pero estoy tan vivaracho</l>
                   <l>como cualquiera muchacho</l>
-                  <l>que tenga caterge ò quince,</l>
+                  <l>que tenga catorce ò quince.</l>
                   <l>Este movimiento mio,</l>
                   <l>esta facha, esta soltura....</l>
                </sp>
@@ -373,12 +387,12 @@
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
                   <l>Caya tú,</l>
-                  <l>que otabia nó me tarda.</l>
+                  <l>que otabia no me tarda.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
-                  <l>Vaya, osté ño se acobarda</l>
+                  <l>Vaya, osté no se acobarda</l>
                   <l>y ya es una senetú.</l>
                </sp>
 
@@ -386,24 +400,23 @@
                   <speaker rend="cursiva">Tio C.</speaker>
                   <l>Pepe, no digas tú eso,</l>
                   <l>mirame á mi bien mirao;</l>
-                  <l>¿no soy majo y bien plántao?</l>
+                  <l>¿no soy majo y bien plantao?</l>
                   <l>no es verdad que soy mu tieso?</l>
-                  <l>esa mosa que yo adoro</l>
                   <l>La mosa que a mi me vea</l>
                   <l>cuanto yo le jaga un giñe,</l>
                   <l>hasta con su padre riñe</l>
-                  
-                  <pb n="3"/>
-                  
+
+                  <pb n="3" source="Moreno_332_3.jpeg"/>
+
                   <l>y cual jorno se caldea.</l>
                   <l>En dandole una gromita</l>
                   <l>á cualquier mosa, Pepito,</l>
                   <l>lo mesmo que un madroñito</l>
                   <l>se pone de encarnaita</l>
                   <l>Asi es como se camela</l>
-                  <l>y en siendo un hombre saláo</l>
+                  <l>y en siendo un hombre saláo,</l>
                   <l>aun cuerpo que esté apagao</l>
-                  <l>le jace brotar candela</l>
+                  <l>le jace brotar candela.</l>
                </sp>
 
                <sp>
@@ -419,7 +432,7 @@
                   <l>Pepe, si ubiera querio,</l>
                   <l>no igo ná, mas de docientas</l>
                   <l>an sio las pretendientas</l>
-                  <l>que mi persona á tenio</l>
+                  <l>que mi persona á tenio.</l>
                </sp>
 
                <sp>
@@ -439,20 +452,20 @@
                   <l>Es tan graciosa esta chica,</l>
                   <l>que no la pueo olvidá,</l>
                   <l>me ha puesto é conformiá</l>
-                  <l>que toito el cuerpo me pica</l>
+                  <l>que toito el cuerpo me pica.</l>
                   <l>Tiene dos ojos, salero</l>
                   <l>que con un mirá me mata,</l>
                   <l>y se merecen mas plata</l>
-                  <l>que el pais del estrangeno</l>
+                  <l>que el pais del estrangero.</l>
                   <l>Tiene una nariz filena</l>
                   <l>hecha con tanto primó </l>
                   <l>que allí la gracia, paró</l>
-                  <l>dibujando, esta azucena.</l>
+                  <l>dibujando esta azucena.</l>
                   <l>Y tiene dos rosetonas</l>
                   <l>en sus mejillas bariles;</l>
                   <l>que valen, Pepe, mas miles</l>
-                  <l>que él orbe con sus coronas.</l>
-                  <l>Tiene en su cara un lúna</l>
+                  <l>que el orbe con sus coronas.</l>
+                  <l>Tiene en su cara un luna</l>
                   <l>que el mesmo Dios se lo puso,</l>
                   <l>pa que yo esté mas confuso</l>
                   <l>y eya mas netá y juncá.</l>
@@ -475,11 +488,11 @@
                   <l>Jablosté con mas sentio,</l>
                   <l>tio Curro que estoy quemao</l>
                   <l>y si yo le he preguntao</l>
-                  <l>con su cuentecita ha sio</l>
+                  <l>con su cuentecita ha sio.</l>
                   <l>Digamoste la verdà,</l>
-                  <l>respandame sin demora</l>
+                  <l>respondame sin demora;</l>
                   <l>dóndé vive esa señora</l>
-                  <l>que de osté está enamoná?</l>
+                  <l>que de osté está enamorá?</l>
                </sp>
 
                <sp>
@@ -497,7 +510,7 @@
                   <l>á su casa lo llamaba</l>
                   <l>ó en algo lo concintó?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
                   <l>Esas son muchas jonduras.</l>
@@ -511,8 +524,8 @@
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
                   <l>Yo de eya enamoré</l>
-                  <l>por toas mis coyunturas.</l>
-                  <l>cuando la ví, me gustó,</l>
+                  <l>por toas mis coyunturas;</l>
+                  <l>cuando la ví, me gustó;</l>
                   <l>y las pisas le sigó</l>
                   <l>y en esa calle que digo</l>
                   <l>en una casita entró.</l>
@@ -536,7 +549,7 @@
                   <l>se hace el hombre apetecible</l>
                   <l>y no se encuentra imposible</l>
                   <l>que no ayane el interés.</l>
-                  <l>Todo hombre que no estila</l>
+                  <l>Todo hombre que no estila,</l>
                   <l>cuando quiere camelá</l>
                   <l>á cualquier mosa le dá</l>
                   <l>pa un pañuelo de Manila.</l>
@@ -547,9 +560,9 @@
                   <l>Cuando le di mi bromita</l>
                   <l>algo suspensa se quea</l>
                   <l>pero en biendo la monea</l>
-                  
-                  <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_332_4.jpeg"/>
+
                   <l>todo el reparo se le quita.</l>
                   <l>Me an dicho que un balenton</l>
                   <l>la camela y á mi qué</l>
@@ -582,7 +595,7 @@
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
-                  <l>Y aqué biene ese tembló?</l>
+                  <l>Y aqué biene ese temblo?</l>
                   <l>Me está dundo una benate</l>
                   <l>de volverle asi la mano.</l>
                </sp>
@@ -599,7 +612,7 @@
 
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
-                  <l>Pos bueno lo que tú digas</l>
+                  <l>Pos bueno lo que tú digas.</l>
                </sp>
 
                <sp>
@@ -627,7 +640,7 @@
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
-                  <l>Osté es un tuno mu largo;</l>
+                  <l>Osté es un tuno mu largo.</l>
                </sp>
 
                <sp>
@@ -643,13 +656,13 @@
                   <l>Algun diablo me tentó</l>
                   <l>pa mirar yo esa muger;</l>
                   <l>pero como abia de ser,</l>
-                  <l>la erré, Pepé, anda condió.</l>
+                  <l>la erré, Pepe, anda condió.</l>
                   <l>Por mi lengua me perdí</l>
-                  <l>sin saber con quien jablába, </l>
+                  <l>sin saber con quien jablaba, </l>
                   <l>y la pacion me cegaba</l>
                   <l>al yerro que cometí.</l>
                   <l>Pero, Pepe, la razon</l>
-                  <l>no tiene mas de un camíno,</l>
+                  <l>no tiene mas de un camino,</l>
                   <l>aun ángel tan perigrino</l>
                   <l>quien no le dá el corazon?</l>
                   <l>Tú quieres á la muger</l>
@@ -665,33 +678,33 @@
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>Se acabó esá tonteria:</l>
-                  <l>á mareharse prontamente</l>
-                  <l>y á quitarsé dél rélente.</l>
+                  <l>á marcharse prontamente</l>
+                  <l>y á quitarsé dél relente.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
-                  <l>Siempre soy tu amigo yá; </l>
+                  <l>Siempre soy tu amigo yó,</l>
                   <l>dame la maño.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>Corriente</l>
-                  <l>y que tengasté presénté...</l>
+                  <l>y que tengasté presente...</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Tio C.</speaker>
-                  <l>Valla, Pepe, no qué no. <stage rend="cursiva">(Vase)</stage></l>
+                  <l>Valla, Pepe, no que no. <stage rend="cursiva">(Vase)</stage></l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>Buen susto llevá él pobrete;</l>
                   <l>como que sabé mi humó:</l>
-                  <l>pero al fin sé disculpó</l>
-                  <l>y me ha gustaó el dicheto.</l>
+                  <l>pero al fin se disculpó</l>
+                  <l>y me ha gustao el dicheto.</l>
                   <l>Una mosa tan bari</l>
                   <l>no se encuentra donde quiera</l>
                   <l>como la tubo á la vera</l>
@@ -699,10 +712,10 @@
                   <l>Si un cuerpo casi difunto</l>
                   <l>de ese modo resucita,</l>
                   <l>que será mí personita</l>
-                  <l>cuando sede siente juntó.</l>
+                  <l>cuando sede siente junto.</l>
                   <l>Bamos no quiero pensar</l>
                   <l>estas cosas, que me errito,</l>
-                  <l>voy á versu cielecito</l>
+                  <l>voy á ver su cielecito</l>
                   <l>con Diós, Señores, mandar.</l>
                </sp>
 
@@ -711,9 +724,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:1861
-                  <lb/>Imp. de D. José María Moreno, calle de Madre de Dios.
-               </p>
+                  <lb/>CARMONA:1861 <lb/>Imp. de D. José María Moreno, calle de Madre de Dios. </p>
             </div>
          </div>
       </body>

@@ -39,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5055040</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 287</idno>
                   </altIdentifier>
@@ -69,7 +71,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_276_1.xml">grabado_m_276_1</item>
@@ -82,6 +84,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -110,7 +118,8 @@
       <revisionDesc>
          <change when="2021-04-21" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,17 +128,16 @@
    <text>
       <body>
          <div>
-            
+
             <div>
-               
-               <pb n="1"/>
-               
+
+               <pb n="1" source="Moreno_276_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 287.)</fw>
-               
+
                <head type="primer_titulo"><hi rend="negrita">RELACION</hi>
-               <lb/>DE LAS
-               <lb/><hi rend="negrita">CIGARRERAS.</hi></head>
-               
+                  <lb/>DE LAS <lb/><hi rend="negrita">CIGARRERAS.</hi></head>
+
                <l rend="indent">Donde se declaran sus dichos, hechos,</l>
                <l>costumbres y lo que pasa entre ellas.</l>
                <l>Si ustedes, Señores mios,</l>
@@ -140,9 +148,9 @@
                <l>compuesta á las cigarreras,</l>
                <l>y ¡vaya qué relacion!</l>
                <l>como relacion y media.</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_276_2.jpg"/>
+
                <l>Vivia yo cierta vez</l>
                <l>en casa de dos pureras</l>
                <l>(no volvere á vivir mas</l>
@@ -215,9 +223,9 @@
                <l>como berdolaga en huerta.</l>
                <l>Unos les regalan flores;</l>
                <l>otros blancas azucenas</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_276_3.jpg"/>
+
                <l>otros unós capullazos</l>
                <l>mas gordasos que ciruelas.</l>
                <l>En fin, llegan al taller,</l>
@@ -290,9 +298,9 @@
                <l>yo ya las he visto esas</l>
                <l>y las otras, ven al Prado,</l>
                <l>vámonos á Castilleja,</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_276_4.jpg"/>
+
                <l>dice otra, que las madres</l>
                <l>no lo saben, ¡linda flema</l>
                <l>en yendo á casa á la hora</l>
@@ -359,13 +367,12 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1858.
-                  <lb/>Imp: de D. J. M. Moreno. Calle Juan de la Cabra, núm 4.
+                  <lb/>CARMONA:—1858. <lb/>Imp: de D. J. M. Moreno. Calle Juan de la Cabra, núm 4.
                </p>
             </div>
 
          </div>
-         
+
       </body>
    </text>
 </TEI>

@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,8 +20,8 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Dialogo entre galan y dama, cuyo titulo es, Cobrar la
-                     fama es nobleza y desempeñar su agravio.</title>
+                  <title type="titulo_completo">Dialogo entre galan y dama, cuyo titulo es, Cobrar
+                     la fama es nobleza y desempeñar su agravio.</title>
                   <title type="titulo_breve">Dialogo entre galan y dama cuyo titulo es, Cobrar la
                      fama es nobleza</title>
                </titleStmt>
@@ -37,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5031916</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 136</idno>
                   </altIdentifier>
@@ -67,7 +70,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_128_1.xml">grabado_m_128_1</item>
@@ -80,9 +83,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -106,8 +115,11 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-29" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,23 +129,19 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_128_1.jpg"/>
 
                <fw type="impresorNum">(Núm. 186.)</fw>
 
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">DIALOGO</hi>
                   <lb/><hi rend="negrita">ENTRE GALAN Y DAMA,</hi>
-                  <lb/>CUYTO TITULO ES, 
-                  <lb/><hi rend="negrita">COBRAR LA FAMA ES NOBLEZA</hi>
-                  <lb/>Y DESEMPEÑAR SU AGRAVIO.
-               </head>
+                  <lb/>CUYO TITULO ES, <lb/><hi rend="negrita">COBRAR LA FAMA ES NOBLEZA</hi>
+                  <lb/>Y DESEMPEÑAR SU AGRAVIO. </head>
 
                <stage rend="cursiva">
-                  <lb/>Saldrá la Dama con una espada
-                  <lb/>en la mano y dirá de esta suerte.
-               </stage>
-               
+                  <lb/>Saldrá la Dama con una espada <lb/>en la mano y dirá de esta suerte. </stage>
+
                <sp>
                   <l rend="indent">A desempeñar mi agravio</l>
                   <l>vengo, quejosa de un hombre,</l>
@@ -151,22 +159,19 @@
                   <l>de ser mi esposo, y faltóme</l>
                   <l>á las leyes de mi amor,</l>
                   <l>quebrando sus pundonores:</l>
-                  
-              <pb n="2"/>
-                  
+
+                  <pb n="2" source="Moreno_128_2.jpg"/>
+
                   <l>si lo hizo no me pesa,</l>
                   <l>seré contra él un bronce,</l>
                   <l>seré una sierpe atrevida</l>
                   <l>de verdinegros colores,</l>
                   <l>que vonitándo veneno</l>
                   <l>castigaré sus acciones.</l>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>Se aparecerá el Galan en la
-                     <lb/>Sala, ó teatro y dirá
-                     <lb/>la Dama.
-                  </stage>
-                  
+                     <lb/>Se aparecerá el Galan en la <lb/>Sala, ó teatro y dirá <lb/>la Dama. </stage>
+
                   <l rend="indent">Fementido Caballero,</l>
                   <l>hombre falso entre los hombres,</l>
                   <l>saca, cobarde esa espada,</l>
@@ -186,14 +191,10 @@
                   <l>que ya me tienen sin vida</l>
                   <l>tus eruditas razones.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb/>Meterá su espada en la baina ir.
-                  <lb/>ritada del agravio, hará la Da.
-                  <lb/>ma que llora y el Galan le dará
-                  <lb/>un pañuelo, con que se
-                  <lb/>limpie el rostro.
-               </stage>
+                  <lb/>Meterá su espada en la baina ir- <lb/>ritada del agravio, hará la Da. <lb/>ma
+                  que llora y el Galan le dará <lb/>un pañuelo, con que se <lb/>limpie el rostro. </stage>
 
                <sp>
                   <speaker rend="cursiva">Dam.</speaker>
@@ -241,15 +242,15 @@
                   <l>el dia se vuelva noche;</l>
                   <l>y que las olas del mar</l>
                   <l>suspendan su curso móvil,</l>
-                  
-               <pb n="3"/>
-                  
+
+                  <pb n="3" source="Moreno_128_3.jpg"/>
+
                   <l>y abierta la tierra en piras,</l>
                   <l>me oculte en sus panteones.</l>
                   <l>Confusa y maravillada,</l>
                   <l>llena de mil confusiones,</l>
-                  <l>vengo á definir la lcausa,</l>
-                  <l>que infama sus pundonores:.</l>
+                  <l>vengo á definir la causa,</l>
+                  <l>que infama sus pundonores:</l>
                   <l>Pediré al Cielo venganza,</l>
                   <l>á los Astros, á los Orbes,</l>
                   <l>á los Rios, á los Mares,</l>
@@ -272,26 +273,26 @@
                   <l>supuesto de que eres noble;</l>
                   <l>mas fácil es perdonar,</l>
                   <l>que seguir ciegos errores.</l>
-                  <l>Y supuesto que eres Diosa,</l>
+                  <l>Y supuesto que eres Díosa,</l>
                   <l>deja varias opiniones.</l>
                   <l>Peregrino soy, Señora,</l>
                   <l>que al Cielo de vuestra córte</l>
                   <l>camino, y caminaré</l>
-                  <l>ignorante, cie go y torpe,</l>
+                  <l>ignorante, ciego y torpe,</l>
                   <l>hasta hallar seguro puerto,</l>
                   <l>y alivio en mis aflicciones.</l>
                   <l>Yo soy pelícano amante,</l>
                   <l>corta, despedaza y rompe</l>
                   <l>mí pecho, y verás en él</l>
-                  <l>impresas mis sinrazines.</l>
+                  <l>impresas mis sinrazanes.</l>
                   <l>Obliguente mis querellas,</l>
                   <l>reprimánte mis pasiones</l>
                   <l>ablandente mis suspiros,</l>
                   <l>y suavisente mis voces.</l>
                </sp>
-               
+
                <sp>
-                  <speaker>Dam, </speaker>
+                  <speaker>Dam,</speaker>
                   <l>Ni me rindo á tus caricias</l>
                   <l>ni me ablando á tus razones,</l>
                   <l>seré un mármol, seré un bronce,</l>
@@ -300,9 +301,10 @@
                   <l>y el buríl mas acerado</l>
                   <l>no imprime en él sus retoques.</l>
                </sp>
-               
+
                <sp>
-                  <l>Gal No niego, señora mia.</l>
+                  <speaker rend="cursiva">Gal</speaker>
+                  <l>No niego, señora mia.</l>
                   <l>que anduve mal por entoces,</l>
                   <l>mas quien confiesa el delito</l>
                   <l>razon es que se perdone.</l>
@@ -328,74 +330,72 @@
                   <l>que en esa alfombra de flores</l>
                   <l>están para celebrar</l>
                   <l>de este alarde los primores.</l>
-               
+
                   <stage rend="cursiva">
-                     <lb/>Se darán las manos, y dirá
-                     <lb/>la Duma.
-                  </stage>
-               
-               <pb n="4"/>
-                  
+                     <lb/>Se darán las manos, y dirá <lb/>la Duma. </stage>
+
+                  <pb n="4" source="Moreno_128_4.jpg"/>
+
                   <l>Mucho han podido tus ruegos</l>
                   <l>toma mi mano, y responde:</l>
                   <l>estimarás mis finezas?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gal.</speaker>
                   <l>Premiaré tus pundonores.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Dam.</speaker>
                   <l>Te parece que soy linda.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gal.</speaker>
                   <l>Díganlo bien tus dos Soles</l>
                   <l>que flecheros de Cupido,</l>
                   <l>van rindiendo corazones.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Dam.</speaker>
                   <l>Parece que eres discreto.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gal.</speaker>
                   <l>Soy mas discreto que doce</l>
                   <l>Poétas, que del Parnaso</l>
                   <l>bebieron dulces licores.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Dam.</speaker>
                   <l>Y tu me has querido mucho?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gal.</speaker>
-                  <l>Diganlo mis atenciones</l>
+                  <l>Díganlo mis atenciones</l>
                   <l>pues te serviré, señora,</l>
                   <l>con todas resoluciones,</l>
                   <l>ciego sigo tus pisadas,</l>
                   <l>imán registro tu norte.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Dam.</speaker>
                   <l>Quisiste bien á Liserda?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gal.</speaker>
                   <l>Jamás rondé sus balcones,</l>
                   <l>que nadie pudo robar</l>
                   <l>el volcan de mis pasiones,</l>
                   <l>sola tú, bella Diana,</l>
-                  <l>imán de los corazónes:</l>
+                  <l>imán de los corazónes.</l>
                </sp>
 
                <sp>
@@ -413,13 +413,13 @@
                <sp>
                   <speaker rend="cursiva">Dam.</speaker>
                   <l>Y en cambio de estas finezas,</l>
-                  <l>ya doy prenio á tus amores,</l>
+                  <l>ya doy premio á tus amores,</l>
                   <l>y alivio en tus esperanzas,</l>
                   <l>sin que haya contradicciones.</l>
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Gol.</speaker>
+                  <speaker rend="cursiva">Gal.</speaker>
                   <l>Beso tus plantas, señora,</l>
                   <l>sacra deidad de esos bosques,</l>
                   <l>Venus de esos promontorios,</l>
@@ -429,7 +429,7 @@
                   <l>al desterrar el Aurora</l>
                   <l>las ámbitos á la noche,</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juntos.</speaker>
                   <l>Y Juan Garcia Valero</l>
@@ -437,15 +437,14 @@
                   <l>un victor pide al Senado,</l>
                   <l>si lo merecen sus voces.</l>
                </sp>
-               
+
                <trailer>FIN.</trailer>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA;—1859.
-                  <lb/>Imprenta de D. José M. Moreno, calle Juan de la Cabra, núm. 4.
-               </p>
+                  <lb/>CARMONA;—1859. <lb/>Imprenta de D. José M. Moreno, calle Juan de la Cabra,
+                  núm. 4. </p>
             </div>
          </div>
       </body>

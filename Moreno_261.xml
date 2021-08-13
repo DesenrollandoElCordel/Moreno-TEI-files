@@ -39,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5045983</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 276</idno>
                   </altIdentifier>
@@ -69,7 +71,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_261_1.xml">grabado_m_261_1</item>
@@ -82,6 +84,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -110,7 +118,8 @@
       <revisionDesc>
          <change when="2021-04-20" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,17 +128,16 @@
    <text>
       <body>
          <div>
-            
+
             <div>
-               
-               <pb n="1"/>
-               
+
+               <pb n="1" source="Moreno_261_1.jpeg"/>
+
                <fw type="impresorNum">(Núm. 276.)</fw>
-               
-               <head rend="negrita" type="primer_titulo">Nueva relacion,
-               <lb/>DEL
-               <lb/>TORERO ANDALUZ.</head>
-               
+
+               <head rend="negrita" type="primer_titulo">Nueva relacion, <lb/>DEL <lb/>TORERO
+                  ANDALUZ.</head>
+
                <l rend="indent">Esta es la casa chorré,</l>
                <l>y esta que ves la ventana</l>
                <l>ande sale esa mugé;</l>
@@ -144,9 +152,9 @@
                <l>Jesucristo, no se iga</l>
                <l>toita la boca abrí</l>
                <l>ay Joseliyo y sentí</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_261_2.jpeg"/>
+
                <l>un frio por la barriga....</l>
                <l>y despues que se guiyó</l>
                <l>como estaria yo José</l>
@@ -221,9 +229,9 @@
                <l>y á la fin sale juío.</l>
                <l>Po to ése moso tu paré</l>
                <l>te quié dá.</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_261_3.jpeg"/>
+
                <l>—Yo igo que none.</l>
                <l>me lo ha dicho mi compare...</l>
                <l>—Vaya á enamorá á su mare,</l>
@@ -296,9 +304,9 @@
                <l>Guerbe á soná la trompeta</l>
                <l>la monteriya, aya vá, </l>
                <l>toro, á la cuartapasá</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_261_4.jpeg"/>
+
                <l>bien se lia la muleta.</l>
                <l>y entra en lo rubio la espá...</l>
                <l>Po señó escucha inglé,</l>
@@ -364,16 +372,15 @@
                <l>lo mesmo que un caramelo.</l>
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>REIMPRESO EN CARMONA:=1856.
-                  <lb/>Imprenta de D. José M. Moreño. Calle Juan de la Cabra, núm. 5.
-               </p>
+                  <lb/>REIMPRESO EN CARMONA:=1856. <lb/>Imprenta de D. José M. Moreño. Calle Juan de
+                  la Cabra, núm. 5. </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

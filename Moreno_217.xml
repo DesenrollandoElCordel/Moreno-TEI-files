@@ -38,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5040963</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 227</idno>
                   </altIdentifier>
@@ -75,7 +77,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_217_1.xml">grabado_m_217_1</item>
@@ -88,6 +90,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -114,8 +122,10 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-06" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-04-06" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,18 +135,16 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_217_1.jpg"/>
 
                <fw type="impresorNum">(Número 227.)</fw>
 
                <head type="primer_titulo">SATIRA GRASIOSA.</head>
                <head rend="cursiva" type="subtitulo">
-                  <lb/>De los ciento y ocho motivos que manifestamos ta mugeres, por
-                  <lb/>los cuales los hombres deben casarse, estimarnos y querernos; pues
-                  <lb/>por razon natural nos quieren y nos aman, como no lo pueden
-                  <lb/>negar.
-               </head>
-               
+                  <lb/>De los ciento y ocho motivos que manifestamos ta mugeres, por <lb/>los cuales
+                  los hombres deben casarse, estimarnos y querernos; pues <lb/>por razon natural nos
+                  quieren y nos aman, como no lo pueden <lb/>negar. </head>
+
                <l rend="indent">Viste, Marica, el papel</l>
                <l>que publicaron los ciegos</l>
                <l>con cuarenta y ocho motivos</l>
@@ -155,9 +163,9 @@
                <l>la burra y los aparejos?</l>
                <l>Tan inocentes y tontos</l>
                <l>se hacen estos caballeros,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_217_2.jpg"/>
+
                <l>que es menester los avisen</l>
                <l>hasta en la calle los ciegos.</l>
                <l>No saben que el que se casa </l>
@@ -193,10 +201,10 @@
                <l>procuramos ahorrarlo</l>
                <l>como unas inocentes.</l>
             </div>
-            
+
             <div>
                <head rend="negrita" type="primer_titulo">OTRA SATIRA AL PROPIO INTENTO.</head>
-               
+
                <l rend="indent">Digan los malvados</l>
                <l>todo cuanto quieran,</l>
                <l>y vivamos solas </l>
@@ -215,9 +223,9 @@
                <l>hasta un mal salario.</l>
                <l>Si quieren criadas, </l>
                <l>que por conveniencia</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_217_3.jpg"/>
+
                <l>le tengan de valde</l>
                <l>y con residencia,</l>
                <l>tomen una esclava,</l>
@@ -282,9 +290,9 @@
                <l>cuéntaselo ahora:</l>
                <l>y como enfadado</l>
                <l>se vuelve de espalda,</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_217_4.jpg"/>
+
                <l>rièndose solo,</l>
                <l>dando carcajadas.</l>
                <l>Y ella la pobre</l>
@@ -339,15 +347,14 @@
                <l>en este papel;</l>
                <l>pues el pobre ha estado</l>
                <l>cabilaudo en él.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMOMA:—1855.
-                  <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
-               </p>
+                  <lb/>CARMOMA:—1855. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  4. </p>
             </div>
          </div>
       </body>

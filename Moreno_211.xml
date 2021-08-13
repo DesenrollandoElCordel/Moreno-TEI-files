@@ -36,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5040901</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 221</idno>
                   </altIdentifier>
@@ -66,7 +68,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_211_1.xml">grabado_m_211_1</item>
@@ -78,6 +80,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -107,6 +115,7 @@
          <change when="2021-04-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
          <change when="2021-06-11">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-21">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -116,14 +125,12 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_211_1.jpg"/>
 
                <fw type="impresorNum">(Num. 221)</fw>
 
                <head type="primer_titulo">
-                  <lb/>TESTAMENTO Y SUBIDA A LOS CIELOS
-                  <lb/>DE MARIA SANTISIMA.
-               </head>
+                  <lb/>TESTAMENTO Y SUBIDA A LOS CIELOS <lb/>DE MARIA SANTISIMA. </head>
 
                <l rend="indent">Sepan cuantos esta Carta, </l>
                <l>vieren de mi testamento, </l>
@@ -135,15 +142,18 @@
                <l>de los tribus el mas bueno.</l>
                <l>estando cerca á la muerte,</l>
                <l>y no como el hombre enfermo,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_211_2.jpg"/>
+
                <l>sana, y en mi sano juicio</l>
                <l>tanto cuanta haverle puedo:</l>
                <l>y porque es cierto el partirme</l>
                <l>á gozar del santo Cielo,</l>
                <l>ante vosotros, amigos,</l>
-               <l>este testnmento ordeno.</l>
+               <l>este <choice>
+                     <sic>testnmento</sic>
+                     <corr>testamento</corr>
+                  </choice> ordeno.</l>
                <l>Lo primero, y principal,</l>
                <l>á Dios Padre me encomiendo,</l>
                <l>y á mi poderoso Hijo,</l>
@@ -151,7 +161,7 @@
                <l>Y pues estais todos juntos,</l>
                <l>mis amigos verdaderos, </l>
                <l>atenciun mientras la hora</l>
-               <l>lle,a de mi partimiento.</l>
+               <l>llega de mi partimiento.</l>
                <l>Ya mi Hijo amado os mandó</l>
                <l>cuando hizo su testamento,</l>
                <l>lo que tendreis en memoria</l>
@@ -218,9 +228,9 @@
                <l>leche de mis castos pechos.</l>
                <l>Iten, mando á mi lldefonso</l>
                <l>el toledano discreto,</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_211_3.jpg"/>
+
                <l>una lucida Casulla,</l>
                <l>y ponersela prometo,</l>
                <l>por defender mi limpieza.</l>
@@ -296,16 +306,16 @@
 
                <div>
                   <head rend="cursiva" type="subtitulo_parte">Subida á los Cielos.</head>
-                  
+
                   <l rend="indent">Hoy la Paloma Divina,</l>
                   <l>en quien nunca cupo falta</l>
                   <l>para suvir á su nido,</l>
                   <l>el dulce vuelo levanta.</l>
                   <l>es la paloma la Virgen</l>
                   <l>MARIA llena de gracia, </l>
-                  
-                  <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_211_4.jpg"/>
+
                   <l>que suve á reinar al cielo,</l>
                   <l>de virtudes caronada.</l>
                   <l>Lleva en sus Divinos pies</l>
@@ -372,16 +382,14 @@
                   <l>dicen en voz levantada:</l>
                   <l>Viva la Reina del cielo,</l>
                   <l>que hoy sube á ser coronada.</l>
-                  
+
                   <trailer>FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA=1856.
-                  <lb/>Imprenta de D. José María Moreno, Descalzas, núm. 1.
-               </p>
+                  <lb/>CARMONA=1856. <lb/>Imprenta de D. José María Moreno, Descalzas, núm. 1. </p>
             </div>
          </div>
       </body>

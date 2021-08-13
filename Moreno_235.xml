@@ -9,6 +9,10 @@
                <name xml:id="MB">Miguel Betti</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
@@ -38,11 +42,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5045423</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 242</idno>
                   </altIdentifier>
@@ -68,7 +74,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p. 1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_235_1.xml">grabado_m_235_1</item>
@@ -80,6 +86,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -108,7 +120,8 @@
       <revisionDesc>
          <change when="2021-04-19" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,18 +133,18 @@
 
             <div>
 
-               <pb n="1"/>
+               <pb n="1" source="Moreno_235_1.jpg"/>
 
                <fw type="impresorNum">(Núm. 242)</fw>
 
-               <head rend="negrita" type="primer_titulo">JOCOSA RELACION.
-                  <lb/>PARA REIR Y PASAR EL TIEMPO,</head>
-               
-               <head rend="cursiva" type="subtitulo">en que se refiere y da cuenta de una cruel y sangrienta batalla, que
-               <lb/>en los campos de Araviana tuvo el valiente y esforzado Leon,
-               <lb/>rey de todos los animales, con el famoso y alentado Grillo.
-               <lb/>rey de todas las sabandijas.</head>
-               
+               <head rend="negrita" type="primer_titulo">JOCOSA RELACION. <lb/>PARA REIR Y PASAR EL
+                  TIEMPO,</head>
+
+               <head rend="cursiva" type="subtitulo">en que se refiere y da cuenta de una cruel y
+                  sangrienta batalla, que <lb/>en los campos de Araviana tuvo el valiente y
+                  esforzado Leon, <lb/>rey de todos los animales, con el famoso y alentado Grillo.
+                  <lb/>rey de todas las sabandijas.</head>
+
                <l rend="indent">Atiéndame todo el orbe</l>
                <l>sin perder punto ni paso,</l>
                <l>escuchando á boca abíerta,</l>
@@ -146,9 +159,9 @@
                <l>de pasatiempo y regalo;</l>
                <l>de placer y de alagria,</l>
                <l>que ha sucedido en el año</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_235_2.jpg"/>
+
                <l>de cien mil y novecientos,</l>
                <l>pasados noventa y tanto.</l>
                <l>En tiempo de primavera,</l>
@@ -231,9 +244,9 @@
                <l>atrevido y denodado,</l>
                <l>Apercíbase á la guerra,</l>
                <l>convóquese todo el camío,</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_235_3.jpg"/>
+
                <l>tremolen los estandartes,</l>
                <l>los tambores resonando.</l>
                <l>Dijo entonces el borrico:</l>
@@ -316,9 +329,9 @@
                <l>dándose à dos mil diablos,</l>
                <l>y sin detenerse un punto</l>
                <l>se lanza en el Guadiano,</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_235_4.jpg"/>
+
                <l>Y luego que se vió libre</l>
                <l>de tan penosos contrarios,</l>
                <l>aunque es verdad que sa ió</l>
@@ -394,14 +407,12 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA=1859.
-                  <lb/>Imp. de D, José María Moreno, calle de Madre de Dios, núm.
-                  1.
-               </p>
+                  <lb/>CARMONA=1859. <lb/>Imp. de D, José María Moreno, calle de Madre de Dios, núm.
+                  1. </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

@@ -9,6 +9,10 @@
                <name xml:id="MB">Miguel Betti</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
@@ -38,11 +42,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5055167</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 300</idno>
                   </altIdentifier>
@@ -72,7 +78,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="3">Tres grabados (p. 1)</decoNote>
+                     <decoNote n="3" type="num_grabados">Tres grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_289_1.xml">grabado_m_289_1</item>
@@ -86,6 +92,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -114,7 +126,8 @@
       <revisionDesc>
          <change when="2021-04-22" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,7 +138,7 @@
 
          <div>
 
-            <pb n="1"/>
+            <pb n="1" source="Moreno_289_1.jpeg"/>
 
             <fw type="impresorNum">(Número 3)</fw>
 
@@ -177,7 +190,7 @@
                <l>en una oscura mazmorra</l>
                <l>me tienen sin compañía,</l>
 
-               <pb n="2"/>
+               <pb n="2" source="Moreno_289_2.jpeg"/>
 
                <l>y que es castigo del cielo . </l>
                <l>aquesta falta caida:</l>
@@ -280,7 +293,7 @@
                <l>me casaria con ella</l>
                <l>y riquezas gozaria;</l>
 
-               <pb n="3"/>
+               <pb n="3" source="Moreno_289_3.jpeg"/>
 
                <l>pero yo muy claramente</l>
                <l>la dije, que no queria</l>
@@ -291,7 +304,7 @@
                <l>le dijo á su amante moro</l>
                <l>de que yo la perseguia.</l>
                <l>El moro que aquestó oyó, </l>
-               <l>ei el jardin que tciia.</l>
+               <l>ei el jardin que tenia.</l>
                <l>me ató con una cadena</l>
                <l>contra un árbol, y en tres dias</l>
                <l>no me dió á comer bocado,</l>
@@ -383,7 +396,7 @@
                <l>Hijo, yo tengo la culpa,</l>
                <l>y yo solo he merecido</l>
 
-               <pb n="4"/>
+               <pb n="4" source="Moreno_289_4.jpeg"/>
 
                <l>los castigos que te aflijen:</l>
                <l>pero ya es fuerza decirlo:</l>
@@ -486,7 +499,7 @@
             <div type="colofon">
                <p>CARMONA:—1856. Imp. de D. José M. Moreno, Juan de la Cabra. 5.</p>
             </div>
-            
+
          </div>
 
       </body>

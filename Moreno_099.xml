@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,7 +20,8 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Sainete nuevo intitulado Fuera. Para seis personas.</title>
+                  <title type="titulo_completo">Sainete nuevo intitulado Fuera. Para seis
+                     personas.</title>
                   <title type="titulo_breve">Sainete nuevo intitulado Fuera.</title>
                </titleStmt>
                <editionStmt>
@@ -35,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5027353</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -80,11 +84,17 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
             <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -108,8 +118,12 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-16" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
+         <change when="2021-06-29" who="#EL">Correction OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,15 +133,12 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_099_1.jpg"/>
+
                <head rend="negrita" type="primer_titulo">
-                  <lb/>SAINETE NUEVO
-                  <lb/>INTITULADO
-                  <lb/>FUERA.
-               </head>
+                  <lb/>SAINETE NUEVO <lb/>INTITULADO <lb/>FUERA. </head>
                <head rend="negrita" type="subtitulo">PARA SEIS PERSONAS.</head>
-               
+
                <div type="reparto">
                   <head type="reparto_titulo">PERSONAS.</head>
                   <castList>
@@ -139,64 +150,63 @@
                      <castItem>Pepa.</castItem>
                   </castList>
                </div>
-               
+
                <div>
                   <stage rend="cursiva">
                      <lb/>Mutacion de patio ó portada cerca de la sala, que es entrada á la casa
                      <lb/>de D. Terencio, puerta al segundo bastidor de la izquierda que dá entra-
-                     <lb/>da á toda la casa. Sale D. Terencio de casaca, sombrero y baston.
-                  </stage>
-                  
+                     <lb/>da á toda la casa. Sale D. Terencio de casaca, sombrero y baston. </stage>
+
                   <sp>
-                     <speaker rend="cursiva">Terenc. </speaker>
+                     <speaker rend="cursiva">Terenc.</speaker>
                      <l>Qué hora será? Yo no sé</l>
                      <l>porque el reloj mio anda</l>
                      <l>cuando quiere, y para eso</l>
-                     <l>ó se adelanta ó se atrasa:</l>
+                     <l>ó se adelanta ó se atrasa.</l>
                      <l>Sobre poco mas ó menos</l>
-                     <l>ya será hora: vaya, vaya, </l>
+                     <l>ya será hora: vaya, vaya,</l>
                      <l>este criado perverso</l>
                      <l>hace una hora que á la plaza</l>
-                     <l>lo mandé que me tragera, </l>
-                     <l>para cenar hoy en casa, </l>
+                     <l>lo mandé que me tragera,</l>
+                     <l>para cenar hoy en casa,</l>
                      <l>una asadura de cerdo,</l>
                      <l>y el gran bribon tanto tarda,</l>
-                     <l>que estoy por desesperarme;:</l>
-                     <l>mas ya viene: llega, acaba. </l>
+                     <l>que estoy por desesperarme;</l>
+                     <l>mas ya viene: llega, acaba.</l>
                      <l>Qué risa es esa, salvage?</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Sale niquiñaque con un papel.</stage>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Como usted á saber llegára</l>
                      <l>de que me rio, se habia</l>
                      <l>de reir á carcajadas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Pues cuéntalo.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Deme usted</l>
                      <l>cuatro cuartos por la gracia,</l>
                      <l>y de P. á Pa le encajo</l>
                      <l>como fué.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Con una estaca</l>
                      <l>te romperé una costilla </l>
                      <l>si te me vienes con chanzas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>No señor, yo lo agradezco,</l>
                      <l>oiga usted el cuento: de casa</l>
                      <l>salí (como usted mandó</l>
@@ -205,21 +215,21 @@
                      <l>iba por ella en volandas</l>
                      <l>por tenerla, y me dijo</l>
                      <l>la cocinera que estaba</l>
-                  
-                  <pb n="2"/>
-                     
-                  <fw type="paginaNum">2</fw>
-                  
+
+                     <pb n="2" source="Moreno_099_2.jpg"/>
+
+                     <fw type="paginaNum">2</fw>
+
                      <l>con jaqueca, y no podia</l>
                      <l>asistir á cocinarla,</l>
                      <l>por lo que era menester</l>
                      <l>que yo á V. se la guisára:</l>
                      <l>como no he sido hosterero</l>
                      <l>ni cocinero, dudaba</l>
-                     <l>como, con qué y de qué forma</l>
+                     <l>còmo, con qué y de qué forma</l>
                      <l>la tal cosa se estofaba;</l>
                      <l>por fin me determiné,</l>
-                     <l>fui por ella, y al que estaba</l>
+                     <l>fuí por ella, y al que estaba</l>
                      <l>vendiendo le pregunté</l>
                      <l>de que forma se gisaba,</l>
                      <l>y me dijo que la mas</l>
@@ -233,7 +243,7 @@
                      <l>y no se me olvidaría:</l>
                      <l>hízolo de buena gana;</l>
                      <l>tomé pues mi papelito,</l>
-                     <l>y viniendo por da plaza</l>
+                     <l>y viniendo por la plaza</l>
                      <l>llegó un perro, y sin decir</l>
                      <l>oste, ni moste, me agarra</l>
                      <l>la asadura entre sus dientes,</l>
@@ -249,32 +259,32 @@
                      <l>porque yo tengo en mi mano</l>
                      <l>el papel que lo relata.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Pues el perro necesita</l>
                      <l>para comerla le hagan</l>
                      <l>guisado alguno?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>La come cruda?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Y muy cruda.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Caramba! </l>
                      <l>Sin guisarla le hará daño.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>A los perros no les daña.</l>
                      <l>Deja, chilindrinas, y oye:</l>
                      <l>Yo tengo que irme de casa </l>
@@ -284,95 +294,96 @@
                      <l>y el mueble de la criada:</l>
                      <l>y pues que viudo me encuentro,</l>
                      <l>(de lo que doy á Dios gracias)</l>
-                     <l>cumple tu comigo bien, </l>
-                     <l>que si acaso me dá gana </l>
+                     <l>cumple tu comigo bien,</l>
+                     <l>que si acaso me dá gana</l>
                      <l>de casarme, puede que...</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Conmigo V. se casára?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Calla, hombre, no digo eso:</l>
                      <l>Si, que por no dar madrastra</l>
                      <l>á mi hija la dotaría,</l>
                      <l>y tál vez te la entregára.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>A mi!</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>A tí.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>A mi!</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>A tí.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Vaya, V. señor, se chanza.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>No me chanzo, tú eres hijo</l>
                      <l>de buenos padres, tu cara</l>
                      <l>no es maleja, aunque un poquillo</l>
                      <l>la persona estrafalaria;</l>
                      <l>pero en vistiéndote...</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ya;</l>
                      <l>solo saber ahora falta</l>
                      <l>si querré casarme.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Eh!</l>
                      <l>Querrás? </l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>No querré.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>La causa! </l>
                   </sp>
-                  
+
                   <sp>
-                     <l>Niq. Amo mio, V. es ya viejo,</l>
-                  
-                  <pb n="3"/>
-                     
-                  <fw type="paginaNum">3</fw>
-                  
+                     <speaker rend="cursiva">Niq.</speaker>
+                     <l>Amo mio, V. es ya viejo,</l>
+
+                     <pb n="3" source="Moreno_099_3.jpg"/>
+
+                     <fw type="paginaNum">3</fw>
+
                      <l>y las culpas atrasadas</l>
                      <l>lo tienen algo achacoso:</l>
                      <l>y si á las primeras aguas</l>
                      <l>se revuelven los humores</l>
                      <l>vá V. á mascar tierra: Vaya </l>
                      <l>que me encontré ya casado,</l>
-                     <l>que heredamos cuanto haya, </l>
+                     <l>que heredamos cuanto haya,</l>
                      <l>que en gastos de boda, entierro,</l>
                      <l>médicos, hotica, y cuanta</l>
                      <l>zarandaja se ha ofrecido</l>
@@ -381,7 +392,7 @@
                      <l>como ama de su casa</l>
                      <l>y legítima heredera,</l>
                      <l>triunfa, derrota, malgasta</l>
-                     <l>en bailes, cenas, cortejos.</l>
+                     <l>en bailes, cenas, cortejos</l>
                      <l>y ungüentos para la cara.</l>
                      <l>He, ya se acabó el dinero;</l>
                      <l>quedan algunas alhajas,</l>
@@ -390,7 +401,7 @@
                      <l>y nos quedamos asperges</l>
                      <l>cantando la nininaina.</l>
                      <l>Empieza á tener la esposa</l>
-                     <l>ánsias de heredero: cata, </l>
+                     <l>ánsias de heredero: cata,</l>
                      <l>que se la antojan comer</l>
                      <l>ongos de menomotapa,</l>
                      <l>que se los traigan preciso,</l>
@@ -416,55 +427,54 @@
                      <l>intenciones de casarme,</l>
                      <l>aunque me hicieran Tetrarca.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Dices bien, </l>
                      <l>porque el buey suelto...</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Las costuras le hacen llagas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <l>Ter. Ya que no quieras casarte,</l>
+                     <speaker rend="cursiva">Ter.</speaker>
+                     <l>Ya que no quieras casarte,</l>
                      <l>con todo, mi confianza</l>
                      <l>la dejo en tí, para que</l>
                      <l>no dejes que nadie en casa</l>
                      <l>entre á parlar con las niñas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Descuide V. que aunque lanza</l>
                      <l>á lanza, viniese don</l>
                      <l>Quijote con Sancho Panza</l>
                      <l>no pasarian del umbral</l>
                      <l>sin quedar en la estacada.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Pues para advertirlas á ellas</l>
                      <l>de todo, voy á llamarlas.</l>
                      <l>A, muchachas: Margarita,</l>
                      <l>Pepa.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>Salen por la izquierda Margarita y
-                     <lb/>Pepa.
-                  </stage>
-                  
+                     <lb/>Salen por la izquierda Margarita y <lb/>Pepa. </stage>
+
                   <sp>
-                     <speaker rend="cursiva">Las dos, </speaker>
+                     <speaker rend="cursiva">Las dos,</speaker>
                      <l>Señor, qué nos manda V?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Chicas, yo me voy</l>
                      <l>ahora á mi huerta, de entrambas</l>
                      <l>espero guardeis el mismo</l>
@@ -475,130 +485,130 @@
                      <l>de padre, pues confianza</l>
                      <l>tengo de sus procederes.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Marg. </speaker>
-                     <l>Descuidese V. que en nada</l>
+                     <speaker rend="cursiva">Marg.</speaker>
+                     <l>Descuídese V. que en nada</l>
                      <l>faltaremos al respeto</l>
-                     
-                  <pb n="4"/>
-                     
-                  <fw type="paginaNum">4</fw>
-                     
-                     <l>que exige nuestra crianza. </l>
+
+                     <pb n="4" source="Moreno_099_4.jpg"/>
+
+                     <fw type="paginaNum">4</fw>
+
+                     <l>que exige nuestra crianza.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Quedaos con Dios: Niquiñaque,</l>
                      <l>cuenta con lo que te encarga</l>
                      <l>mi cuidado.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>V. descuide... <stage rend="cursiva">Vase D. Terenc.</stage></l>
                      <l>que no, no habrá falta en nada.</l>
                      <l>Niñas?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Pepa. </speaker>
+                     <speaker rend="cursiva">Pepa.</speaker>
                      <l>Què hay?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Marchad adentro,</l>
                      <l>que ya empieza mi eficacia</l>
                      <l>á egercer las facultades</l>
                      <l>que mi buen amo me encarga.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Marg. </speaker>
+                     <speaker rend="cursiva">Marg.</speaker>
                      <l>Ya nos iremos.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Prontito.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Pepa. </speaker>
+                     <speaker rend="cursiva">Pepa.</speaker>
                      <l>Poca buya y pocas plantas,</l>
                      <l>que no tengo la cabeza</l>
                      <l>para oir mamarrachadas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Cómo! qué término es ese</l>
                      <l>á un hombre de mi prosapia?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Pepa. </speaker>
+                     <speaker rend="cursiva">Pepa.</speaker>
                      <l>Ha! el buen Niquiñaque</l>
-                     <l>desciende de la Giralda,</l>
+                     <l>desciende de la Giralda.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Vaya, con gente sin barbas</l>
                      <l>no quiero gastar razones,</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Marg. </speaker>
+                     <speaker rend="cursiva">Marg.</speaker>
                      <l>A su ama brabatas!</l>
                      <l>Pepa, démosle una tunda</l>
                      <l>y no volverá á echar plantas,</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Pepa. </speaker>
+                     <speaker rend="cursiva">Pepa.</speaker>
                      <l>Mejor será. <stage rend="cursiva">Le dan una soba</stage></l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ay que demonios,</l>
                      <l>que me repelan las barbas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Marg. </speaker>
+                     <speaker rend="cursiva">Marg.</speaker>
                      <l>Por cierto buen pedagogo</l>
                      <l>mi padre me destinaba.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ay, no es nada, ¡San Macario!</l>
                      <l>de perro dogo me tratan.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Las 2. </speaker>
+                     <speaker><hi rend="cursiva">Las</hi> 2.</speaker>
                      <l>Toma estos cuantos pelliscos</l>
                      <l>en pago de tu eficacia.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Vase izquierda.</stage>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ay! ay! malditas seais;</l>
                      <l>ciertamente que me tratan</l>
                      <l>como si fuera su padre:</l>
                      <l>no, pues ahora en la trampa</l>
                      <l>caísteis, que os echo la llave,</l>
                      <l>y no saldreis para nada.</l>
-                     
+
                      <stage rend="cursiva">Cierra la puerta izquierda.</stage>
-                     
+
                      <l>Voy.. mas cátate á los novios</l>
                      <l>de mi ama y la criada;</l>
                      <l>ellos me matan á palos</l>
@@ -608,21 +618,19 @@
                      <l>no hay duda; hoy es dia aciago</l>
                      <l>y todo serán desgracias.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>Han salido por la derecha don Ge-
-                     <lb/>naro y Martin, y hablan á parte.
-                  </stage>
-                  
+                     <lb/>Han salido por la derecha don Ge- <lb/>naro y Martin, y hablan á parte. </stage>
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
-                     <l>Vamos á ver si lograidos</l>
+                     <speaker rend="cursiva">Gen.</speaker>
+                     <l>Vamos á ver si logramos</l>
                      <l>echarle de casa, y sea</l>
                      <l>del modo que hemos dispuesto.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Vamos á ver. Qué paciencia,</l>
                      <l>Niquiñaque, te acompaña</l>
                      <l>cuando á esta hora debieras</l>
@@ -631,136 +639,136 @@
                      <l>que contra el caudal de tu amo</l>
                      <l>está pasando en la huerta?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues qué es do que ha sucedido?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Ay, no es nada: á la hora de esta</l>
                      <l>ya es tu amo casi pobre.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues quién le roba la hacienda?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>La desgracia.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Qué desgracia?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Echa á correr con viveza</l>
                      <l>á remediar el estrago.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Y á dónde?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Dónde? A la huerta.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues voy por el sombrero.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Ahora te detienes en frioleras?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues iré sin él.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Corriendo.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Corriendo voy: pero sepa</l>
                      <l>yo á lo qué voy, y qué desgracia</l>
                      <l>es la que pasa en la huerta.</l>
                   </sp>
-                  
-                  <pb n="5"/>
-                  
+
+                  <pb n="5" source="Moreno_099_5.jpg"/>
+
                   <fw type="paginaNum">5</fw>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Que la viña de tu amo</l>
                      <l>está ardiendo, sin que pueda</l>
                      <l>apagar nadie el incendio.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ay Dios que infausta tragedia!</l>
                      <l>San Anton sea con nosotros.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Anda corriendo, qué esperas?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Voy volando: y arde mucho?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Un dolor es ver las cepas</l>
                      <l>arder, sin haber un alma</l>
                      <l>que cortar el fuego pueda.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
-                     <l>Jesús, Jesus, qué desgracia!</l>
+                     <speaker rend="cursiva">Niq.</speaker>
+                     <l>Jesus, Jesus, qué desgracia!</l>
                      <l>voy... una pregunta suelta.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Vaya, dí.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Y usted ha visto el fuego?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Por mis ojos, y no quedan</l>
                      <l>mas que seis cepas ú ocho</l>
                      <l>en la viña, que no sean</l>
                      <l>arrasadas del incendio.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues si hay de aquí allá tres leguas</l>
                      <l>todo estará hecho cenizas</l>
                      <l>cuando yo llegue, y no es cuenta</l>
@@ -768,9 +776,9 @@
                      <l>y nada remedie; sea</l>
                      <l>lo que Dios quisiere.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Hombre, <stage rend="cursiva">Aparte los dos.</stage></l>
                      <l>mal nos salió nuestra idea:</l>
                      <l>mejor es lo que pensamos</l>
@@ -779,38 +787,38 @@
                      <l>el dinero es llave maestra</l>
                      <l>hasta de los corazones.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Bien decís: vamos, y sea</l>
                      <l>pronto, antes que venga el viejo.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Pues entablemos la arenga.</l>
                      <l>Díme, hombre, bastarán</l>
                      <l>veinte y cuatro, serán treinta?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Si serán palos, Dios mio!</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>No serán treinta, cincuenta <add place="debajo">(y fuertes.</add></l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>San Sinforiano</l>
                      <l>permita no sea Palencia.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Oyeme aquí, Niquiñaque;</l>
                      <l>todo cuanto de la huerta</l>
                      <l>y de la viña hemos dicho</l>
@@ -831,136 +839,132 @@
                      <l>hemos de darte cincuenta</l>
                      <l>pesos fuertes cabalitos.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Conque quieren á la puerta</l>
                      <l>hablar solo dos palabras</l>
                      <l>con Margarita y con Pepa</l>
                      <l>y darme cincuenta duros</l>
                      <l>por esta condescendencia?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Sí.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Me convengo.</l>
-                     <l>A Dios houra montañesa,</l>
+                     <l>A Dios honra montañesa,</l>
                      <l>ya se la llevo el demonio</l>
                      <l>en cuanto olió las pesetas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
-                     <l>Vaya, hombre, en que te de-<add place="encima">(tienes</add>?</l>
+                     <speaker rend="cursiva">Gen.</speaker>
+                     <l>Vaya, hombre, en que te de-<add place="encima">(tienes?</add>?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ya voy corriendo á traerlas.</l>
                      <l>Ah, muchacha! Margarita.</l>
-                     
+
                      <stage rend="cursiva">
-                        <lb/>4 Saca á Margarita en brazos por la
-                        <lb/>puerta izquierda.
-                     </stage>
-                     
-                     <l>Don Genaro aquí está. </l>
+                        <lb/>4 Saca á Margarita en brazos por la <lb/>puerta izquierda. </stage>
+
+                     <l>Don Genaro aquí está.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Vá por la otra.</stage>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Marg. </speaker>
+                     <speaker rend="cursiva">Marg.</speaker>
                      <l>Querido Genaro mio...</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Qué de fatigas me cuesta</l>
                      <l>verte y hablarte! </l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Saca Niquiñaque á Pepa.</stage>
-                  
-                  <pb n="6"/>
-                  
+
+                  <pb n="6" source="Moreno_099_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq, </speaker>
+                     <speaker rend="cursiva">Niq,</speaker>
                      <l>Martin,</l>
                      <l>aquí está estotra.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Mi prenda...</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Pepa. </speaker>
+                     <speaker rend="cursiva">Pepa.</speaker>
                      <l>Querido Martin, mi bien...</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ahora me llevo esta.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Vase con Margarita.</stage>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Cómo tan prestó? oye, aguarda.</l>
                   </sp>
-                  
+
                   <stage>
-                     <lb/>Sale Niquiñaque y se lleva á Pe-
-                     <lb/>pa, cierra con llave la puerta y
-                     <lb/>vuelve al teatro.
-                  </stage>
-                  
+                     <lb/>Sale Niquiñaque y se lleva á Pe- <lb/>pa, cierra con llave la puerta y
+                     <lb/>vuelve al teatro. </stage>
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Vámonos corriendo, Pepa.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Aguarda con mil diablos.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Cierto ha estado buena</l>
                      <l>la locura.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>No he visto otra.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ahora la paga venga.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Cómo hemos de pagarte</l>
                      <l>si apenas hablar nos dejas,</l>
                      <l>cuando las vuelves á dentro</l>
                      <l>y luego la llave echas?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ustedes me han dicho á mí</l>
                      <l>que querian hablar con ellas</l>
                      <l>tan solo dos palabritas:</l>
@@ -968,53 +972,53 @@
                      <l>los cincuenta megicanos</l>
                      <l>pues yo cumplí mi promesa.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Hombre, qué material eres!</l>
                      <l>Dos palabras, cosa es cierta,</l>
-                     <l>quiere decir un par de horas, </l>
+                     <l>quiere decir un par de horas,</l>
                      <l>ó á lo menos hora y media.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
-                     <l>Diganme V. V. que quieren</l>
+                     <speaker rend="cursiva">Niq.</speaker>
+                     <l>Díganme V. V. que quieren</l>
                      <l>ampliamente hablar con ellas</l>
                      <l>dos ó tres horas ó cuatro</l>
                      <l>y está entendida la idea.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Eso, eso.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues me parece</l>
                      <l>(salvo meliori) que hicieran</l>
                      <l>lo que voy á proponer.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>A ver, dí.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Toda decencia</l>
                      <l>no es buena siempre?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Es así.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Hay mil gentes que si llegan</l>
                      <l>á ver que mi amo ha salido</l>
                      <l>y que entran con tal llaneza</l>
@@ -1027,135 +1031,148 @@
                      <l>hablen lo que no es razon</l>
                      <l>contra gentes de modestia.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Es idea como tuya.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Qué grandemente que piensas!</l>
-                     <l>solo <choice><sic>uua</sic><corr>una</corr></choice> <choice><sic>dificnltad</sic><corr>dificultad</corr></choice></l>
+                     <l>solo <choice>
+                           <sic>uua</sic>
+                           <corr>una</corr>
+                        </choice>
+                        <choice>
+                           <sic>dificnltad</sic>
+                           <corr>dificultad</corr>
+                        </choice></l>
                      <l>encuentro: y si el padre llega?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Que nos avise Juanillo.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>El como ha de ser,</l>
                      <l>contempla mi discurso.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Yo diré</l>
                      <l>que viene el viejo.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>No pega.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Que viene el padre.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Tampoco:</l>
                      <l>Una palabra que tenga</l>
                      <l>dos sentidos ha de ser.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pero cuál será?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
-                     <l>Dí... Fuera.</l>
+                     <speaker rend="cursiva">Mart.</speaker>
+                     <l>Dí... <hi rend="cursiva">Fuera.</hi></l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Quédense Vs. con Dios.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>No, no te vayas, espera:</l>
                      <l>Si lo que quiero decir</l>
                      <l>es, que cuando el padre venga</l>
-                     <l>digas fuera, para que</l>
+                     <l>digas <hi rend="cursiva">fuera</hi>, para que</l>
                      <l>nosotros á toda priesa</l>
                      <l>salgamos.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ay! ya lo entiendo:</l>
                      <l>conque yo para que sepan</l>
                      <l>que llega el padre diré</l>
                      <l><hi rend="cursiva">fuera</hi>.</l>
                   </sp>
-                  
-                  <pb n="7"/>
-                  
+
+                  <pb n="7" source="Moreno_099_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
-                     <l>Esa será la seña. </l>
+                     <speaker rend="cursiva">Gen.</speaker>
+                     <l>Esa será la seña.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
-                     <l>Y nstedes al instantito</l>
+                     <speaker rend="cursiva">Niq.</speaker>
+                     <l>Y <choice>
+                           <sic>nstedes</sic>
+                           <corr>ustedes</corr>
+                        </choice> al instantito</l>
                      <l>corriendo saldrán á <hi rend="cursiva">fuera</hi>?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Los dos. </speaker>
+                     <speaker rend="cursiva">Los dos.</speaker>
                      <l>Sin detenernos.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues vayan,</l>
                      <l>sin tener la menor pena</l>
                      <l>y hablen cuanto les dé gana</l>
                      <l>hasta que yo diga <hi rend="cursiva">fuera</hi>.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Cuidado que avises, chico.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Primero el dinero venga.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Ahí lo tienes todo en oro.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
-                     <l>Entren <choice><sic>nstedes</sic><corr>ustedes</corr></choice>, no teman.</l>
-                  
+                     <speaker rend="cursiva">Niq.</speaker>
+                     <l>Entren <choice>
+                           <sic>nstedes</sic>
+                           <corr>ustedes</corr>
+                        </choice>, no teman.</l>
+
                      <stage rend="cursiva">Abre y los entra.</stage>
-                  
+
                      <l>Qué fortuna que he tenido!</l>
                      <l>vean ustedes, con cincuenta</l>
                      <l>pesos fuertes de ganancia</l>
@@ -1164,95 +1181,98 @@
                      <l>de un irabajo que no vale</l>
                      <l>dos cuartos, por decir <hi rend="cursiva">fuera</hi>.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>Salen <choice><sic>dou</sic><corr>don</corr></choice> Genaro y Martin por
-                     <lb/>la puerta izquierda tropezaudo por
-                     <lb/>la prisa.
-                  </stage>
-                  
+                     <lb/>Salen <choice>
+                        <sic>dou</sic>
+                        <corr>don</corr>
+                     </choice> Genaro y Martin por <lb/>la puerta izquierda <choice>
+                        <sic>tropezaudo</sic>
+                        <corr>tropezando</corr>
+                     </choice> por <lb/>la prisa. </stage>
+
                   <sp>
-                     <speaker rend="cursiva">Los dos. </speaker>
+                     <speaker rend="cursiva">Los dos.</speaker>
                      <l>El padre, el padre.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Por dónde</l>
                      <l>viene el padre?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
-                     <l>Aquesta es buena! </l>
+                     <speaker rend="cursiva">Mart.</speaker>
+                     <l>Aquesta es buena!</l>
                      <l>pues no avisastes diciendo</l>
-                     <l><hi rend="cursiva">fuera</hi>? </l>
+                     <l><hi rend="cursiva">fuera</hi>?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
-                     <l>Miren qué pamema! </l>
+                     <speaker rend="cursiva">Niq.</speaker>
+                     <l>Miren qué pamema!</l>
                      <l>Yo estaba hablando conmigo</l>
                      <l>sin que por aviso <hi rend="cursiva">fuera</hi>.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Por salir pronto me he hecho</l>
                      <l>un chichon en la cabeza.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Ye por correr me he dado</l>
                      <l>un trastazo en esta pierna.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Vaya, adentro.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Los dos. </speaker>
+                     <speaker rend="cursiva">Los dos.</speaker>
                      <l>Pues cuidado.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Ya que entrais á hablar con ellas</l>
                      <l>el cuidado es, proceder</l>
                      <l>en un todo con modestia</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Pues de nosotros podia</l>
                      <l>pensarse de otramanera?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Ademas de esto, las niñas</l>
                      <l>son muy honestas doncellas,</l>
                      <l>recatadas, virtuosas</l>
                      <l>y con estremo muy buenas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Muy buenas: parece</l>
                      <l>que hablan Vs. por esperiencia.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Nosotros no, mas la vista</l>
                      <l>no crea que engañarse pueda.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>No puede? pues cuando vá</l>
                      <l>alguno á comprar manteca</l>
                      <l>de Flandes, prueba de una</l>
@@ -1260,47 +1280,47 @@
                      <l>una buena que le gusta:</l>
                      <l>por qué asegura que es buena?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Solo porque la ha probado</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues aplique usted la cuenta.</l>
                      <l>A la muger y al caballo,</l>
                      <l>al que le lleva la rienda,</l>
                      <l>conoce sus intenciones,</l>
                      <l>los demas no las penetran.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Me gusta tu genio toma</l>
                      <l>diez duros por la agudeza.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Toma otros diez.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Vaya, entren</l>
                      <l>y prosigan con su arenga,</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Los dos. </speaker>
+                     <speaker rend="cursiva">Los dos.</speaker>
                      <l>Está bien.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Los entra á los dos</stage>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>He encontrado un buen oficio;</l>
                      <l>cuando uno menos lo piensa</l>
                      <l>le dá la fortuna un gusto</l>
@@ -1311,31 +1331,31 @@
                      <l>pajuelas, medias de seda,</l>
                      <l>vinagre, galones de oro.</l>
                      <l>Al mes doblo la ganancia,</l>
-                     
-                  <pb n="8"/>
-                     
-                  <fw type="paginaNum">8</fw>
-                     
-                     <l>de suerte que en doce meses, </l>
+
+                     <pb n="8" source="Moreno_099_8.jpg"/>
+
+                     <fw type="paginaNum">8</fw>
+
+                     <l>de suerte que en doce meses,</l>
                      <l>que son los que el año cuenta,</l>
                      <l>tendré el caudal, sin duda,</l>
                      <l>ochocientos y cuarenta</l>
                      <l>duritos...</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Sale D. Terencio derecha.</stage>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Juanillo, has visto</l>
                      <l>si la llave de la puerta</l>
                      <l>del lagar me la he dejado</l>
                      <l>caer de la faldriquera</l>
                      <l>por aquí?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Por dónde vino</l>
                      <l>este demonio: aquí <hi rend="cursiva">fuera</hi>.</l>
                      <l>no se le ha caido á usted,</l>
@@ -1344,27 +1364,27 @@
                      <l>y así la perdería <hi rend="cursiva">fuera</hi>,</l>
                      <l>ó en el camino.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>No puedo</l>
                      <l>discurrir donde sea.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Y en hallando usted la llave</l>
                      <l>se vuelve V. luego á ir <hi rend="cursiva">fuera</hi>?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Precisamente: ha venido</l>
                      <l>alguno á vuscarme?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Nid. </speaker>
+                     <speaker rend="cursiva">Nid.</speaker>
                      <l><hi rend="cursiva">Fuera</hi></l>
                      <l>lo he dicho á don Antolin,</l>
                      <l>que estaba V., que de <hi rend="cursiva">fuera</hi></l>
@@ -1375,15 +1395,16 @@
                      <l>á su casa, y me encargó</l>
                      <l>que cuando posible <hi rend="cursiva">fuera</hi>...</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Calla, con mil de acaballo,</l>
                      <l>y no digas tantos <hi rend="cursiva">fueras</hi>.</l>
                   </sp>
-                  
+
                   <sp>
-                     <l>Niq. Señor, no se enfade usted,</l>
+                     <speaker rend="cursiva">Niq.</speaker>
+                     <l>Señor, no se enfade usted,</l>
                      <l>porque si yo digo <hi rend="cursiva">fuera</hi>,</l>
                      <l>es porque <hi rend="cursiva">fuera</hi> razon</l>
                      <l>que dijese estaba <hi rend="cursiva">fuera</hi>;</l>
@@ -1392,108 +1413,110 @@
                      <l><hi rend="cursiva">fuera</hi>, ó no <hi rend="cursiva">fuera</hi> razon.</l>
                      <l>debo decir que está <hi rend="cursiva">fuera</hi>.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Déjame con mil demonios:</l>
-                     
-                     <stage rend="cursiva">Vase por la izguierda.</stage>
-                     
+
+                     <stage rend="cursiva">Vase por la <choice>
+                           <sic>izguierda</sic>
+                           <corr>izquierda</corr>
+                        </choice>.</stage>
+
                      <l>malditos sean tus <hi rend="cursiva">fueras</hi>.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>De esta</l>
                      <l>vez nos pega fuego</l>
                      <l>y ardemos hechos pavesas.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>Salen D. Genaro. Margarita, Mar-
-                     <lb/>tin y Pepa huyendo de D. Terencio
-                     <lb/>que sale tras ellos con el baston por
-                     <lb/>la puerta izquierda.
-                  </stage>
-                  
+                     <lb/>Salen D. Genaro. Margarita, Mar- <lb/>tin y Pepa huyendo de D. Terencio
+                     <lb/>que sale tras ellos con el baston por <lb/>la puerta izquierda. </stage>
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Bribones, cómo en mi casa</l>
                      <l>os hallo de esta manera!</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Señor don Terencio, oid:</l>
                      <l>de vuestra hija la belleza</l>
                      <l>me ha gustado, y os la pido</l>
                      <l>para esposa.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Y yo á la Pepa.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Pues si vosotras quereis</l>
                      <l>yo es preciso me convenga.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Las dos. </speaker>
+                     <speaker rend="cursiva">Las dos.</speaker>
                      <l>Nosotras somos gustosas.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Ter. </speaker>
+                     <speaker rend="cursiva">Ter.</speaker>
                      <l>Pues casaos enhorabuena.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Estaban ustedes dentro</l>
-                     <l>del pajar que tantos <hi rend="cursiva"><choice><sic>fneras</sic><corr>fueras</corr></choice></hi></l>
+                     <l>del pajar que tantos <hi rend="cursiva"><choice>
+                              <sic>fneras</sic>
+                              <corr>fueras</corr>
+                           </choice></hi></l>
                      <l>no han oido?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Mart. </speaker>
+                     <speaker rend="cursiva">Mart.</speaker>
                      <l>Calla, hombre,</l>
                      <l>por cierto que eres un bestia.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>A prevenir, pues, las bodas</l>
                      <l>luego.</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Niq. </speaker>
+                     <speaker rend="cursiva">Niq.</speaker>
                      <l>Pues qué resta?</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Gen. </speaker>
+                     <speaker rend="cursiva">Gen.</speaker>
                      <l>Pedir humildes perdon</l>
                   </sp>
-                  
+
                   <sp>
-                     <speaker rend="cursiva">Todos. </speaker>
+                     <speaker rend="cursiva">Todos.</speaker>
                      <l>de todas las faltas nuestras.</l>
                   </sp>
-                  
+
                   <trailer>FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA=1850.
-                  <lb/>Imprenta y librería de D. JOSÉ M. MORENO, calle de las Descalzas n. 1.
-               </p>
+                  <lb/>CARMONA=1850. <lb/>Imprenta y librería de D. JOSÉ M. MORENO, calle de las
+                  Descalzas n. 1. </p>
             </div>
          </div>
       </body>

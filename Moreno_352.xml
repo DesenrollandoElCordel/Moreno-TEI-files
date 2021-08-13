@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -37,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5196188</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 382</idno>
                   </altIdentifier>
@@ -67,7 +70,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_252_1.xml">grabado_m_252_1</item>
@@ -80,9 +83,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -94,7 +103,7 @@
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="es">Español</language>
+            <language ident="">Habla andaluz</language>
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
@@ -108,7 +117,9 @@
       <revisionDesc>
          <change when="2021-03-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-08" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,17 +129,14 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_352_1.jpeg"/>
 
                <fw type="impresorNum">Número 382.</fw>
 
                <head>
-                  <lb/>PASILLO DIVERTIDO
-                  <lb/>ENTRE
-                  <lb/><hi rend="negrita">MAZAPAN Y CHICHARRON,</hi>
-                  <lb/>ó sea el convite de dos gitanos á un entierro.
-               </head>
-
+                  <lb/>PASILLO DIVERTIDO <lb/>ENTRE <lb/><hi rend="negrita">MAZAPAN Y
+                     CHICHARRON,</hi>
+                  <lb/>ó sea el convíte de dos gitanos á un entierro. </head>
 
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
@@ -149,7 +157,7 @@
                <sp>
                   <speaker rend="cursiva">Maz.</speaker>
                   <l>Juy, comparito; no é jeso;</l>
-                  <l>es otra cosa peó.</l>
+                  <l>es otra cosa peò.</l>
                </sp>
 
                <sp>
@@ -180,9 +188,9 @@
                   <l>too vestio é tínieblas,</l>
                   <l>que paesco un cuervo negro.</l>
                </sp>
-               
-               <pb n="2"/>
-                  
+
+               <pb n="2" source="Moreno_352_2.jpeg"/>
+
                <fw type="paginaNum">2</fw>
 
                <sp>
@@ -193,7 +201,7 @@
                <sp>
                   <speaker rend="cursiva">Maz.</speaker>
                   <l>Compare va osté á saberlo:</l>
-                  <l>la probe é tia Catalina,</l>
+                  <l>la probe è tia Catalina,</l>
                   <l>esta noche sigun pienso</l>
                   <l>le atacó... una sincoplégia,</l>
                   <l>y lo mesmito que un perro</l>
@@ -218,8 +226,8 @@
                   <l>lo atrincaba... ¡Jesucristo!</l>
                   <l>y le retorcia el pescuezo</l>
                   <l>lo mesmito que una pava.</l>
-                  <l>(No sé como me asugetoj:</l>
-                  <l>¿con que porque ya era vieja...</l>
+                  <l>(No sé como me asugeto):</l>
+                  <l>¿con que porque ya era vieja.,.</l>
                   <l>no le jase que haya muerto?</l>
                   <l>Pus no tenia tanta edá:</l>
                   <l>mas puri es osté.</l>
@@ -256,7 +264,10 @@
                   <l>hombre é mucho talento,</l>
                   <l>me han suplicao su gente</l>
                   <l>que le jaga en el entierro</l>
-                  <l>el prencipá presonaje.</l>
+                  <l>el prencipá <choice>
+                        <sic>presonaje</sic>
+                        <corr>personaje</corr>
+                     </choice>.</l>
                </sp>
 
                <sp>
@@ -308,9 +319,9 @@
                   <speaker rend="cursiva">Chich.</speaker>
                   <l>Ejarla sin enterrá.</l>
                </sp>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_352_3.jpeg"/>
+
                <fw type="paginaNum">3</fw>
 
                <sp>
@@ -319,12 +330,12 @@
                   <l>no avilla osté religion</l>
                   <l>¿Que tiene é malo eso?</l>
                   <l>Si no se quie osté arrimá</l>
-                  <l>le jabla osté ende lejos</l>
+                  <l>le jabla ostè ende lejos</l>
                   <l>y encarguele á esos leones,</l>
                   <l>que cuando vengan po er muerto</l>
                   <l>se la lleven con cudiao.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Chich. </speaker>
                   <l>¿Y poique no jue por ello</l>
@@ -333,7 +344,7 @@
 
                <sp>
                   <speaker rend="cursiva">Maz.</speaker>
-                  <l>Si le da asco,</l>
+                  <l>Si le da asco.</l>
                </sp>
 
                <sp>
@@ -354,22 +365,22 @@
                   <speaker rend="cursiva">Maz.</speaker>
                   <l>Pos compare... lo ejaremo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Chich.</speaker>
+                  <speaker rend="cursiva">Chích.</speaker>
                   <l>¿Pero osté poique no va?</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Maz.</speaker>
                   <l>Compare, poique no quiero</l>
-                  <l>tratá con gente tan furrí, </l>
+                  <l>tratá con gente tan furri; </l>
                   <l>si na ma de pensá eso...</l>
                   <l>me se columpian las tripas</l>
                   <l>y me se abaja er pejeño:</l>
                   <l>que por lo emás, comparito</l>
                   <l>sabe osté que soy é jierro</l>
-                  <l>(mas bien iria á lá guerral.</l>
+                  <l>(mas bien iria á lá guerra).</l>
                   <l>Pero ya vé osté, lo siento,</l>
                   <l>poique me veo obligao</l>
                   <l>á goberna el entierro</l>
@@ -403,7 +414,7 @@
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Chich.</speaker>
+                  <speaker rend="cursiva">Chích.</speaker>
                   <l>(Que tiro)</l>
                </sp>
 
@@ -419,8 +430,10 @@
                <sp>
                   <speaker rend="cursiva">Maz.</speaker>
                   <l>Alla vá</l>
-                  <l>(Saca del bolsillo dos monedas y</l>
-                  <l>las juego)</l>
+
+                  <stage rend="cursiva">
+                     <lb/>(Saca del bolsillo dos monedas y <lb/>las juego) </stage>
+
                   <l>Premita un divé del cielo</l>
                   <l>que pierda osté, comparito.</l>
                   <l>Pia osté.</l>
@@ -430,7 +443,7 @@
                   <speaker rend="cursiva">Chich.</speaker>
                   <l>Pares.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Maz.</speaker>
                   <l>Pares jueron,</l>
@@ -444,7 +457,7 @@
 
                <sp>
                   <speaker rend="cursiva">Maz.</speaker>
-                  <l>Y yo perdí: (só fulero!)</l>
+                  <l>Y yo perdí: (sò fulero!)</l>
                </sp>
 
                <sp>
@@ -456,11 +469,11 @@
                   <speaker rend="cursiva">Maz.</speaker>
                   <l>Está bien (mejó iba preso...)</l>
                   <l>Pero será rigulá</l>
-                  
-                  <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_352_4.jpeg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>que se jalle osté en el duelo</l>
                   <l>pa acompañá la familia.</l>
                </sp>
@@ -470,7 +483,7 @@
                   <l>Eso sí; iré corriendo</l>
                   <l>á consolá á las muchacha</l>
                   <l>y jasé los cumplimientos</l>
-                  <l>del mortorio;</l>
+                  <l>del mortorio.</l>
                </sp>
 
                <sp>
@@ -489,7 +502,7 @@
                <sp>
                   <speaker rend="cursiva">Maz.</speaker>
                   <l>Compare, no hubo remedio:</l>
-                  <l>la visitó un cirujano...</l>
+                  <l>la visitò un cirujano...</l>
                   <l>ajorcao se vean sus güesos!</l>
                   <l>Por seña que le diñé</l>
                   <l>un puñao é jigos negros</l>
@@ -526,7 +539,7 @@
                   <speaker rend="cursiva">Chich.</speaker>
                   <l>Jasta luego.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Chicharron solo.</speaker>
                   <l>Po señó, ya sarregló</l>
@@ -547,14 +560,14 @@
                   <l>¡Vaya! no me quieo acordá</l>
                   <l>me laigaban mas limones,</l>
                   <l>que un navio qué cargá</l>
-                  <l>grasnando: el aenterraor»</l>
+                  <l>grasnando: el «enterraor»</l>
                   <l>Y tenia que najá</l>
                   <l>como un chusqué que va é pira</l>
                   <l>con un envuo po etras.</l>
                   <l>Po señó, vamos ar duelo;</l>
                   <l>¿que sa he jasé? es rigular</l>
-                  <l>cumpli como jente esente:</l>
-                  <l>no quiero tengan que hablá</l>
+                  <l>cumplì como jente esente:</l>
+                  <l>no quiero tengan que hablà</l>
                   <l>los flamencos é Chicharron.</l>
                   <l>Pero antes é dí allá,</l>
                   <l>sameneste di é gala</l>
@@ -576,8 +589,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>Impreso en Barcelona.
-                  <lb/>REIMPRESO EN CARMONA Imp. de D. José Maria Moreno.
+                  <lb/>Impreso en Barcelona. <lb/>REIMPRESO EN CARMONA Imp. de D. Josè Maria Moreno.
                </p>
             </div>
          </div>

@@ -40,11 +40,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5045431</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 246</idno>
                   </altIdentifier>
@@ -70,7 +72,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_238_1.xml">grabado_m_238_1</item>
@@ -83,6 +85,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -111,7 +119,8 @@
       <revisionDesc>
          <change when="2021-04-19" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,17 +129,16 @@
    <text>
       <body>
          <div>
-            
+
             <div>
-               
-               <pb n="1"/>
-               
+
+               <pb n="1" source="Moreno_238_1.jpg"/>
+
                <fw type="impresorNum">(Número 246.)</fw>
-               
+
                <head><hi rend="negrita">LAS DESGRACIAS DE TORIVO</hi>
-               <lb/>Y
-               <lb/><hi rend="negrita">FRACASOS DE LOS DUENDES.</hi></head>
-                  
+                  <lb/>Y <lb/><hi rend="negrita">FRACASOS DE LOS DUENDES.</hi></head>
+
                <l rend="indent">Ya que estoy en la Palestra</l>
                <l>entre tan pulidas damas,</l>
                <l>entre tan bellos primores,</l>
@@ -163,9 +171,9 @@
                <l>y dí que estás lastimada,</l>
                <l>y poquirritico á poco,</l>
                <l>como cofradia á pausas,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_238_2.jpg"/>
+
                <l>ya la tenemos presente,</l>
                <l>y mas que viene empeñada</l>
                <l>en decir un cirquiloquio</l>
@@ -250,9 +258,9 @@
                <l>mis zelos tan dura carga,</l>
                <l>me conceptuaba solo,</l>
                <l>cuando vide una fantasma</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_238_3.jpg"/>
+
                <l>salir de mi propio cuarto</l>
                <l>por la puerta de la sala,</l>
                <l>y yo queriendo seguir</l>
@@ -337,9 +345,9 @@
                <l>rodeado de mil ancias,</l>
                <l>anduve mas de una hora</l>
                <l>medió en pino, medio á gatas,</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_238_4.jpg"/>
+
                <l>aqui caigo, alli tropiezo,</l>
                <l>hasta que caí de espaldas,</l>
                <l>y me puse, ya se vé,</l>
@@ -398,16 +406,15 @@
                <l>á mi no se me dá nada.</l>
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1854.
-                  <lb/>Imprenta D. de José Maria Moreno, calle de las Delzassca núm. .
-               </p>
+                  <lb/>CARMONA:—1854. <lb/>Imprenta D. de José Maria Moreno, calle de las Delzassca
+                  núm. . </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

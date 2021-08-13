@@ -40,11 +40,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5046011</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 278</idno>
                   </altIdentifier>
@@ -70,7 +72,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_265_1.xml">grabado_m_265_1</item>
@@ -83,6 +85,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -111,7 +119,8 @@
       <revisionDesc>
          <change when="2021-04-20" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,15 +131,14 @@
          <div>
 
             <div>
-               
-               <pb n="1"/>
-               
+
+               <pb n="1" source="Moreno_265_1.jpg"/>
+
                <fw type="impresorNum">Número 278.</fw>
-               
+
                <head type="primer_titulo"><hi rend="negrita">RELACION</hi>
-               <lb/>DE CURRILLO Y DON CAMILO.
-               <lb/>EN VERSO ANDALUZ.</head>
-               
+                  <lb/>DE CURRILLO Y DON CAMILO. <lb/>EN VERSO ANDALUZ.</head>
+
                <l rend="indent">Que noche, Curro, que noche:</l>
                <l>cadistante mas malegro</l>
                <l>de haber venio á Seviya:</l>
@@ -149,11 +157,11 @@
                <l>viva Seviya, salero.</l>
                <l>Ay!... Curriyo, estoy loco:</l>
                <l>me espeluno y me quiebro:</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_265_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>ya me jilacho, Curriyo;</l>
                <l>¿pues acaso osté es delienso?</l>
                <l>esta veláa me encanta,</l>
@@ -234,11 +242,11 @@
                <l>mas que sea una sirpinte</l>
                <l>le tengo de arriar candela.</l>
                <l>Tú no sabe quien soy yo, </l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_265_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>no sabe que soy bravío,</l>
                <l>por dentro y fuera cosio,</l>
                <l>ardiendo como un faró?</l>
@@ -319,11 +327,11 @@
                <l>si vendrá ó se habrá perdío?</l>
                <l>Pero aquí viene... mejó, </l>
                <l>pues se vá armá poco lio:</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_265_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>la logra si viene antes</l>
                <l>y me vé con su marío.</l>
                <l>Tengo pa mi salero</l>
@@ -376,13 +384,12 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA;—1866.
-                  <lb/>Imp. y librería de D. José María Moreno, Madre de Dios, núm. 1.
-               </p>
+                  <lb/>CARMONA;—1866. <lb/>Imp. y librería de D. José María Moreno, Madre de Dios,
+                  núm. 1. </p>
             </div>
 
          </div>
-         
+
       </body>
    </text>
 </TEI>

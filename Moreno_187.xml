@@ -39,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5040709</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 197</idno>
                   </altIdentifier>
@@ -69,7 +71,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_187_1.xml">grabado_m_187_1</item>
@@ -82,6 +84,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -110,7 +118,8 @@
       <revisionDesc>
          <change when="2021-04-05" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,16 +128,16 @@
    <text>
       <body>
 
-<div>
+         <div>
 
             <div>
-               
-               <pb n="1"/>
+
+               <pb n="1" source="Moreno_187_1.jpg"/>
 
                <fw type="impresorNum">Núm. 1957</fw>
 
                <head rend="negrita" type="primer_titulo">CARLO MAGNO.</head>
-               
+
                <l rend="indent">Escucha, gran Carlo Magno,</l>
                <l>mi tio, y Señor escelso,</l>
                <l>que quiero sin digresiones,</l>
@@ -185,9 +194,9 @@
                <l>metropoli de tu imperio,</l>
                <l>Gran Señor sin tu licencia,</l>
                <l>con hidropicos deseos</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_187_2.jpg"/>
+
                <l>de añadir á tu Corona</l>
                <l>nuévos lauros y trofeos:</l>
                <l>á Guarin lleve conmigo</l>
@@ -223,7 +232,7 @@
                <l>para que de su valor</l>
                <l>luego quedeis satisfecho.</l>
                <l>Dijele entonces: Señor,</l>
-               <l>el caballo tiene deeño</l>
+               <l>el caballo tiene dueño</l>
                <l>muy digno de merecerle,</l>
                <l>y asi ahora no lo vendo</l>
                <l>por que lo he de menester.</l>
@@ -286,9 +295,9 @@
                <l>y grande acompañamiento,</l>
                <l>vestidos de finas armas</l>
                <l>entró el Principe Arismeno</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_187_3.jpg"/>
+
                <l>en la suntuosa plaza,</l>
                <l>galan, valiente y soberbio,</l>
                <l>pues todos profetizaron</l>
@@ -387,9 +396,9 @@
                <l>estas palabras diciendo:</l>
                <l>Si el Dios que nació en Esparta,</l>
                <l>aquel monstruo tan soberbio,</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_187_4.jpg"/>
+
                <l>que el barbaro gentilísmo</l>
                <l>coloco en el quinto cielo</l>
                <l>fueras, y á mi te opusieras,</l>
@@ -472,16 +481,15 @@
                <l>humildemente me ofrezco.</l>
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1856
-                  <lb/>Imprenta de D. José M. Moreno. Calle Juan da la Cabra, núm. 5.
-               </p>
+                  <lb/>CARMONA:—1856 <lb/>Imprenta de D. José M. Moreno. Calle Juan da la Cabra,
+                  núm. 5. </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

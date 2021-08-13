@@ -9,6 +9,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -37,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5055110</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 295</idno>
                   </altIdentifier>
@@ -82,11 +85,17 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <projectDesc>
             <p/>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -113,6 +122,7 @@
          <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
          <change when="2021-06-14" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-07-05" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,14 +132,14 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_282_1.jpeg"/>
 
                <fw type="impresorNum">(Num. 295.)</fw>
 
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">NUEVO PASILLO</hi>
-                  <lb/>TITULADO <lb/><hi rend="negrita">CADA CUAL CON SU CUIDADO, </hi>
-                  <lb/>Ó SEA <lb/>EL JUICIO DE LOS TRES SORDOS. </head>
+                  <lb/>TITULADO <lb/><hi rend="negrita">CADA CUAL CON SU CUIDADO,</hi>
+                  <lb/>Ó SEA <lb/>EL JUICIO DE LOS TRES SORDOS.</head>
 
                <div type="reparto">
                   <head type="reparto_titulo">PERSONAS.</head>
@@ -146,8 +156,7 @@
                <div>
                   <stage rend="cursiva">
                      <lb/>Sala con dos puertas, se presenla Berlinche embozado en capa, con un
-                     <lb/>garrote bajo de ella, y un brazo liado como que está herido.
-                  </stage>
+                     <lb/>garrote bajo de ella, y un brazo liado como que está herido. </stage>
 
                   <sp>
                      <speaker rend="cursiva">Berlinc.</speaker>
@@ -155,7 +164,7 @@
                      <l>perseguir á un desgraciado.</l>
                      <l>aunque la fortuna corra</l>
                      <l>no le alcanza, es probado:</l>
-                     <l>en una noche comó esta,</l>
+                     <l>en una noche como esta,</l>
                      <l>oscura por su nublado,</l>
                      <l>despues de andar por las calles</l>
                      <l>bien herido y mal cenado,</l>
@@ -175,11 +184,11 @@
                      <l>sé hallaría mas desahogado,</l>
                      <l>y estaria mas contento.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Catacaldos por la otra puerta.</stage>
 
                   <sp>
-                     <speaker rend="cursiva">Cala.</speaker>
+                     <speaker rend="cursiva">Cata.</speaker>
                      <l>Aquí huele á bacalao,</l>
                      <l>sin duda le están friendo,</l>
                      <l>si llegára por un lado</l>
@@ -208,7 +217,7 @@
 
                   <sp>
                      <speaker rend="cursiva">Berlinc.</speaker>
-                     <l>Quién biene! </l>
+                     <l>Quién biene? </l>
                   </sp>
 
                   <sp>
@@ -216,8 +225,8 @@
                      <l>Hableme usted un poco alto</l>
                      <l>que soy un poco teniente.</l>
                   </sp>
-                  
-                  <pb n="2"/>
+
+                  <pb n="2" source="Moreno_282_2.jpeg"/>
 
                   <sp>
                      <speaker rend="cursiva">Berlinc.</speaker>
@@ -242,7 +251,7 @@
 
                   <sp>
                      <speaker rend="cursiva">Berl.</speaker>
-                     <l>Encontré lo que buscaba..ap.</l>
+                     <l>Encontré lo que buscaba...<stage rend="cursiva">ap.</stage></l>
                      <l>¿Con qué se llama Juan Blanco</l>
                      <l>el que ha herido á ese pobre?</l>
                      <l>¿y no han podido agarrarlo?</l>
@@ -251,7 +260,7 @@
                      <l>Pues amiguito mandar,</l>
                      <l>que tengo mucho cuidado.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Váse á dar cuenta.</stage>
 
                   <sp>
@@ -262,7 +271,7 @@
                      <l>y me ha dejado plantado:</l>
                      <l>le aseguro á ese señor</l>
                      <l>no quedará sin pagarlo:</l>
-                     <l>ese pobre que yo herí</l>
+                     <l>ese pobre que yo heri</l>
                      <l>sin ser él que iba buscando</l>
                      <l>ha sufrido ese infeliz</l>
                      <l>sin tener culpa, ese agravio,</l>
@@ -285,11 +294,10 @@
                      <l>el otro sufrió una herida,</l>
                      <l>pero éste ha de llevar cuatro.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>Váse por una puerta y por la otra sale
-                     <lb/>Juan Blanco descalzo y en cuerpo.
-                  </stage>
+                     <lb/>Váse por una puerta y por la otra sale <lb/>Juan Blanco descalzo y en
+                     cuerpo. </stage>
 
                   <sp>
                      <speaker rend="cursiva">J. Blanco.</speaker>
@@ -307,7 +315,7 @@
                      <l>porque la novia he dejado?</l>
                      <l>Si á el contrario hubiese sido</l>
                      <l>á mi me hubiera tocado....</l>
-                     <l>y si quedrán de pof fuerza</l>
+                     <l>y si quedrán de por fuerza</l>
                      <l>que sea con ella casado?</l>
                      <l>pues están mal entendidos,</l>
                      <l>que aunque me lleven los diablos</l>
@@ -329,11 +337,14 @@
                      <l>cuerpo á cuerpo y mano á mano.</l>
                      <l>y que los ví yo tambien....</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Sale Catacaldos y dice.</stage>
 
                   <sp>
-                     <speaker rend="cursiva">Catae.</speaker>
+                     <speaker rend="cursiva"><choice>
+                           <sic>Catae</sic>
+                           <corr>Catac</corr>
+                        </choice>.</speaker>
                      <l>Adios señor de Juan Blanco,</l>
                      <l>que tal vá amiguito mio.</l>
                   </sp>
@@ -344,7 +355,7 @@
                   </sp>
 
                   <sp>
-                     <speaker rend="cursiva">Calac.</speaker>
+                     <speaker rend="cursiva">Catac.</speaker>
                      <l>Me ha dicho el señor Alcalde,</l>
                      <l>que tienes en este barrio,</l>
                      <l>que los dos marchemos juntos</l>
@@ -356,9 +367,9 @@
                      <speaker rend="cursiva">J. Blanco.</speaker>
                      <l>Amonestaciones....malo:</l>
                      <l>¿yo amonestarme á disgusto?</l>
-                     
-                     <pb n="3"/>
-                     
+
+                     <pb n="3" source="Moreno_282_3.jpeg"/>
+
                      <l>¿quién diablos tal ha pensado?</l>
                   </sp>
 
@@ -369,7 +380,7 @@
                      <l>vamos que se pasa el tiempo <hi rend="cursiva">récio</hi>.</l>
                      <l>y está el Alcalde aguardando.</l>
                   </sp>
-                  
+
                   <sp>
                      <speaker rend="cursiva">Blanco.</speaker>
                      <l>Que preste alguna paciencia</l>
@@ -381,7 +392,7 @@
                   <sp>
                      <speaker rend="cursiva">Catac.</speaker>
                      <l>El demonio es don Berlincho,</l>
-                     <l>¿qué diablos habrá ordenadó?</l>
+                     <l>¿qué diablos habrá ordenado?</l>
                      <l>yo le herí, mucha verdad,</l>
                      <l>pero el Alcalde del barrio</l>
                      <l>segun me ha dicho, no es eso</l>
@@ -390,9 +401,9 @@
                      <l>esto me tiene en cuidado....</l>
                      <l>por fin, sea lo que fuese.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">Sale Juan Blanco con capa y dice:</stage>
-                  
+
                   <sp>
                      <l>Camará vamos andando,</l>
                      <l>pero aunque sepa que me hechan</l>
@@ -402,14 +413,12 @@
                      <l>consentir consentiduras,</l>
                      <l>y ser conde sin condado?</l>
                      <l>pues lleve el diablo la novia</l>
-                     <l>y á su casta... vaya vamos.</l> 
+                     <l>y á su casta... vaya vamos.</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>Sale por una puerta, y por la otra en-
-                     <lb/>tra el Alcalde y Berlincho con un bra-
-                     <lb/>zo liado, lo dice el Alcalde al oido.
-                  </stage>
+                     <lb/>Sale por una puerta, y por la otra en- <lb/>tra el Alcalde y Berlincho con
+                     un bra- <lb/>zo liado, lo dice el Alcalde al oido. </stage>
 
                   <sp>
                      <speaker rend="cursiva">Alcalde.</speaker>
@@ -430,25 +439,22 @@
                   <sp>
                      <speaker rend="cursiva">Alcalde.</speaker>
                      <l>Si señor, pronto vendrá,</l>
-                     <l>que hay rato que lé he enviado</l>
-                     <l>á llamar al delincuente. Se sienta.</l>
+                     <l>que hay rato que le he enviado</l>
+                     <l>á llamar al delincuente. <stage rend="cursiva">Se sienta.</stage></l>
                   </sp>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>Llegan á la puerta Calacaldos y
-                     <lb/>Juan Blanco, y dice éste.
-                  </stage>
+                     <lb/>Llegan á la puerta Catacaldos y <lb/>Juan Blanco, y dice éste. </stage>
 
                   <sp>
                      <speaker rend="cursiva">Blanco.</speaker>
                      <l>Dios en casa sea alabado,</l>
                      <l>¿dá su merced su licencia?</l>
                   </sp>
-                  
+
                   <stage rend="cursiva">
-                     <lb/>El Alcalde hace seña con la mano pa-
-                     <lb/>ra que entren y pasen adelante ambos.
-                  </stage>
+                     <lb/>El Alcalde hace seña con la mano pa- <lb/>ra que entren y pasen adelante
+                     ambos. </stage>
 
                   <sp>
                      <speaker rend="cursiva">Alcalde. </speaker>
@@ -457,16 +463,16 @@
                      <l>¿en dónde estuvo usted anoche</l>
                      <l>desde las doce á las cuatro?</l>
                   </sp>
-                  
+
                   <sp>
                      <speaker rend="cursiva">J. Blanco.</speaker>
                      <l>Oiga usted señor Alcalde</l>
-                     <l>yo le voy á hablaz claro,</l>
+                     <l>yo le voy á hablar claro,</l>
                      <l>es verdad que la he querido</l>
                      <l>muy cerquita de dos años,</l>
                      <l>pero hace unas cuantas noches</l>
                      <l>que he visto a cierto embozado</l>
-                     <l>entrar por la, puertá falsa</l>
+                     <l>entrar por la puertá falsa</l>
                      <l>y salir de dia claro,</l>
                      <l>y pienso no está en el órden</l>
                      <l>el que yo le siga hablando.</l>
@@ -474,18 +480,21 @@
 
                   <sp>
                      <speaker rend="cursiva">Alc.</speaker>
-                     <l>Qué diablos biene áser esto. <stage rend="cursiva">ap.</stage></l>
+                     <l>Qué diablos biene á ser esto. <stage rend="cursiva">ap.</stage></l>
                      <l>descubriremos el campo.</l>
                   </sp>
 
                   <sp>
                      <speaker rend="cursiva">Blanco.</speaker>
                      <l>Yo no digo que este hombre</l>
-                     <l>entre allí por aada malo,</l>
+                     <l>entre allí por nada malo,</l>
                      <l>pero creo que no será</l>
                      <l>para rezar el Rosaria,</l>
-                     <l>y por fin, reze ó no reze,</l>
-                     <l>allá su almá en su almario,</l>
+                     <l>y por <choice>
+                           <sic>fln</sic>
+                           <corr>fin</corr>
+                        </choice>, reze ó no reze,</l>
+                     <l>allá su alma en su almario,</l>
                      <l>á mi no me pide prisa</l>
                      <l>por ahora ser casado,</l>
                      <l>si mañana me precisa</l>
@@ -517,10 +526,10 @@
                      <speaker rend="cursiva">Blanco.</speaker>
                      <l>Me mato de un trabucazo,</l>
                      <l>me pego una puñalada</l>
-                     
-                     <pb n="4"/>
-                     
-                     <l>antes de hacei tal disparo.</l>
+
+                     <pb n="4" source="Moreno_282_4.jpeg"/>
+
+                     <l>antes de hacer tal disparo.</l>
                   </sp>
 
                   <sp>
@@ -530,7 +539,10 @@
                   </sp>
 
                   <sp>
-                     <speaker rend="cursiva">Blane.</speaker>
+                     <speaker rend="cursiva"><choice>
+                           <sic>Blane</sic>
+                           <corr>Blanc</corr>
+                        </choice>.</speaker>
                      <l>Pienso que voy á la iglesia.</l>
                      <l>el cuerpo me éstá temblando.</l>
                   </sp>
@@ -555,12 +567,15 @@
                      <speaker rend="cursiva">Alc.</speaker>
                      <l>Se sabe que estuvo usted</l>
                      <l>en la calle de San Pablo</l>
-                     <l>y riñó usted eon un hombre,</l>
+                     <l>y riñó usted <choice>
+                           <sic>eon</sic>
+                           <corr>con</corr>
+                        </choice> un hombre,</l>
                   </sp>
 
                   <sp>
                      <speaker rend="cursiva">Blanc.</speaker>
-                     <l>¿Quiéntal disparate á hablado.</l>
+                     <l>¿Quién tal disparate á hablado.</l>
                   </sp>
 
                   <sp>
@@ -576,9 +591,9 @@
                      <l>señor Alcalde, mire usted...</l>
                      <l>yó señor contaré el caso.</l>
                      <l>Pues ha de saber usted</l>
-                     <l>que yo me hiabia equivocado;</l>
+                     <l>que yo me habia equivocado;</l>
                      <l>tuve palabras con uno</l>
-                     <l>que vive en el barrie alto,</l>
+                     <l>que vive en el barrio alto,</l>
                      <l>y me pegó dos palillos</l>
                      <l>que me puso mareado</l>
                      <l>y el picarrillo se fué</l>
@@ -594,10 +609,10 @@
                      <l>él que me vió á mi cercarme</l>
                      <l>se previno con un palo,</l>
                      <l>y yo dije para mi</l>
-                     <l>que te mata Catacidos.</l>
+                     <l>que te mata Catacaldos.</l>
                      <l>Tiré entonces de mi espada</l>
                      <l>y tuve tan buena mano,</l>
-                     <l>que le encendí un par do puros</l>
+                     <l>que le encendí un par de puros</l>
                      <l>que los estará chupando:</l>
                      <l>pero diga usted señor Alcalde,</l>
                      <l>si á usted le hubiera pasado</l>
@@ -609,7 +624,7 @@
                      <l>Pues señor, no ha estado malo,</l>
                      <l>se podrá ver un enredo</l>
                      <l>como el que se ha presentado,</l>
-                     <l>pues á la cárcel va usted, <hi rend="cursiva">al oido</hi>.</l>
+                     <l>pues á la carcel va usted, <hi rend="cursiva">al oido</hi>.</l>
                      <l>despues será sentenciado.</l>
                   </sp>
 
@@ -638,7 +653,7 @@
                   </sp>
 
                   <sp>
-                     <speaker rend="cursiva">Alguacit.</speaker>
+                     <speaker rend="cursiva">Alguacil.</speaker>
                      <l>Allá le llevo volando,</l>
                      <l>heche V. á andar por delante. <stage rend="cursiva">van.</stage></l>
                   </sp>
@@ -662,24 +677,24 @@
                      <l>y si á el remate me caso,</l>
                      <l>haré lo que dijo el otro,</l>
                      <l>á cazazo, morterazo.</l>
-                     <l>Ea usted lo pase bien.... <stage rend="cursiva">vá e.</stage></l>
+                     <l>Ea usted lo pase bien.... <stage rend="cursiva">váse.</stage></l>
                   </sp>
-                  
+
                   <sp>
                      <speaker rend="cursiva">Alc. </speaker>
                      <l>Ha estado bonito el chasco,</l>
-                     <l>Señor Bierlicho, usted marcha</l>
-                     <l>á huscar á el cirujano,</l>
+                     <l>Señor Berlicho, usted marcha</l>
+                     <l>á buscar á el cirujano,</l>
                      <l>y todo lo que se gaste</l>
                      <l>lo pagará el encausado.</l>
                   </sp>
 
                   <sp>
-                     <speaker rend="cursiva">Bertinc.</speaker>
+                     <speaker rend="cursiva">Berlinc.</speaker>
                      <l>Mil gracias señor Alcalde,</l>
-                     <l>voy al instante á buiscarlo. <stage rend="cursiva">váse.</stage></l>
+                     <l>voy al instante á buscarlo. <stage rend="cursiva">váse.</stage></l>
                   </sp>
-                  
+
                   <sp>
                      <speaker rend="cursiva">Alc.</speaker>
                      <l>Y ustedes perdonarán</l>
@@ -687,7 +702,7 @@
                      <l>del juicio de los tres sordos</l>
                      <l>ó cada cual con su cuidado.</l>
                   </sp>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>

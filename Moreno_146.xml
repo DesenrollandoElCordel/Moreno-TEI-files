@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5036858</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -70,21 +73,19 @@
                      </decoNote>
                   </decoDesc>
                </physDesc>
-               <history>
-                  <acquisition>
-                     <p/>
-                  </acquisition>
-               </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p/>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -97,11 +98,12 @@
       <profileDesc>
          <langUsage>
             <language ident="es">Español</language>
+            <language ident="lat">Latín</language>
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-               <term target="XX4843218.html" type="tipo_estrofa">Romances</term>
+               <term target="XX4843218.html" type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -111,6 +113,7 @@
          <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
          <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-06-30" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,12 +122,11 @@
    <text>
       <body>
          <div>
-            <pb n="1"/>
+            <pb n="1" source="Moreno_146_1.jpg"/>
 
             <head type="primer_titulo">
                <lb/><hi rend="negrita">SAYNETE NUEVO</hi>
-               <lb/>TITULADO
-               <lb/><hi rend="cursiva">EL MAJO ESCRUPULOSO.</hi>
+               <lb/>TITULADO <lb/><hi rend="cursiva">EL MAJO ESCRUPULOSO.</hi>
             </head>
 
             <div type="reparto">
@@ -141,17 +143,15 @@
                </castList>
 
                <stage>
-                  <lb/>CASA: Y EN ELLA APARECE EL ABOCADO SENTADO A
-                  <lb/>una mesa que habrá con libros, y los dos Pasantes sentados á
-                  <lb/>los lados de dicha mesa.
-               </stage>
+                  <lb/>CASA: Y EN ELLA APARECE EL ABOGADO SENTADO A <lb/>una mesa que habrá con
+                  libros, y los dos Pasantes sentados á <lb/>los lados de dicha mesa. </stage>
             </div>
 
             <div>
                <sp>
                   <speaker rend="cursiva">Abog.</speaker>
                   <l>Quid est Justicia? Justicia</l>
-                  <l>y segun dice Justiniano, </l>
+                  <l>segun dice Justiniano, </l>
                   <l>es la voluntad constante</l>
                   <l>y perpetua en cualquier acto</l>
                   <l>de darle á cada individuo</l>
@@ -165,7 +165,11 @@
                <sp>
                   <speaker rend="cursiva">Los 2.</speaker>
                   <l>Vivad, Magister, vivad.</l>
-                  <l>Sale Joaq. Deo gracias.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Joaq.</speaker>
+                  <l>Deo gracias.</l>
                </sp>
 
                <sp>
@@ -181,11 +185,10 @@
                <sp>
                   <speaker rend="cursiva">Abog.</speaker>
                   <l>Amigo Joaquin?</l>
-                  
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Joaq </speaker>
+                  <speaker rend="cursiva">Joaq</speaker>
                   <l>Ya puede</l>
                   <l>usted ver señor don Mauro.</l>
                </sp>
@@ -214,7 +217,7 @@
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>Como quiere usted</l>
-                  <l>que venga,si me he casado,</l>
+                  <l>que venga, si me he casado,</l>
                   <l>despues de haber resistido</l>
                   <l>la tentacion tantos años?</l>
                </sp>
@@ -225,7 +228,7 @@
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Joad.</speaker>
+                  <speaker rend="cursiva">Joaq.</speaker>
                   <l>Yo no lo sé,</l>
                   <l>ocho dias ha que estamos</l>
                   <l>juntos la señora y yo,</l>
@@ -246,12 +249,12 @@
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>Con el tiempo</l>
-                  <l>toma mas vicios el árbol, ;</l>
-                  
-               <pb n="2"/>
-                  
-               <fw type="paginaNum">2</fw>
-                  
+                  <l>toma mas vicios el árbol,</l>
+
+                  <pb n="2" source="Moreno_146_2.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
                   <l>por eso desde el principio</l>
                   <l>es preciso enderezarlo.</l>
                </sp>
@@ -266,7 +269,7 @@
                <sp>
                   <speaker rend="cursiva">Joaq,</speaker>
                   <l>Eso si señor,</l>
-                  <l>y aunque vengan cohvidados.</l>
+                  <l>y aunque vengan convidados.</l>
                </sp>
 
                <sp>
@@ -322,7 +325,7 @@
                   <l>por soltera, he consultado</l>
                   <l>antes de elejir muger,</l>
                   <l>á Teólogos y Letrados,</l>
-                  <l>á mi tia la Comadre</l>
+                  <l>á mi tia la Comadre,</l>
                   <l>á mi primo el Boticario, </l>
                   <l>y á cuantas personas doctas</l>
                   <l>pudieran darme en el caso</l>
@@ -332,7 +335,7 @@
 
                <sp>
                   <speaker rend="cursiva">Abog.</speaker>
-                  <l>Hubiéralo consultado;</l>
+                  <l>Hubiéralo consultado</l>
                   <l>con los maridos ancianos,</l>
                   <l>que sin la esperiencia, nadie</l>
                   <l>sabe lo que son trabajos. </l>
@@ -345,7 +348,7 @@
                   <l>tiempo, ya sabeis que yo</l>
                   <l>soy un oficial honrado,</l>
                   <l>me casé como ya he dicho</l>
-                  <l>para vivir como un santo;</l>
+                  <l>para vivir como un santo,</l>
                   <l>y á dos dias de la boda</l>
                   <l>se metió en mi casa el diablo</l>
                   <l>en forma de un petimetre,</l>
@@ -376,17 +379,17 @@
                   <l>vean ustedes lo que dicen</l>
                   <l>los autores sobre el caso.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Patr. </speaker>
+                  <speaker rend="cursiva">Patr.</speaker>
                   <l>Voy al instante á traer</l>
                   <l>celso de ritu nuptiarum.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
-                  <l>No esmenester,queen la uña</l>
-                  <l>tengo yo lo necesario...</l>
+                  <speaker rend="cursiva">Abog.</speaker>
+                  <l>No esmenester,que en la uña</l>
+                  <l>tengo yo lo necesario.</l>
                </sp>
 
                <sp>
@@ -400,7 +403,7 @@
                   <l>que por principio sentado,</l>
                   <l>el daño no perjudica</l>
                   <l>mientras no es espreso el daño,</l>
-                  <l>que daño hay aqui? ninguno,</l>
+                  <l>que daño hay aquí? ninguno,</l>
                   <l>que es lo que hay? un temor</l>
                   <l>vano</l>
                   <l>de que le suceda á usted</l>
@@ -412,11 +415,11 @@
                   <l>cuando,</l>
                   <l>(ó á ver á vuestra muger,</l>
                   <l>que es lo mismo para el caso)</l>
-                  
-                <pb n="3"/>
-                  
-                <fw type="paginaNum">3</fw>
-                  
+
+                  <pb n="3" source="Moreno_146_3.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
                   <l>no señor espresamente</l>
                   <l>lo previene el libro octavo</l>
                   <l>del digesto, non est vani</l>
@@ -424,18 +427,18 @@
                   <l>Demas que hay ciertos sugetos</l>
                   <l>que nacen privilegiados</l>
                   <l>en tales y tales causas,</l>
-                  <l>ibí in libris regularum,</l>
+                  <l>ibi ín libris regularum,</l>
                   <l>pues que sacamos de aquí?</l>
                   <l>lo que dice un testo claro</l>
                   <l>de las Pandectas, que hay gentes</l>
-                  <l>á quien debe el ordinarío</l>
+                  <l>á quien debe el ordinario</l>
                   <l>proptener diversas razones,</l>
                   <l>prohibirlas los contratos</l>
                   <l>matrimoniales, y usted</l>
                   <l>no debio casarse, estando</l>
                   <l>tocado de la epidemia</l>
                   <l>de los zelosos espantos.</l>
-                  <l>Vaya, y que son zelos? si.</l>
+                  <l>Vaya, y que son zelos? si</l>
                   <l>de la Teórica bajamos</l>
                   <l>á la practica, una sombra,</l>
                   <l>lo propio que los encantos</l>
@@ -443,8 +446,8 @@
                   <l>contaban á los muchachos,</l>
                   <l>y en este siglo de ahora,</l>
                   <l>desprecian hasta los payos.</l>
-                  <l>No esmas, créame buen hombre,</l>
-                  <l>coma y duerma con déscanso,</l>
+                  <l>No es mas, créame buen hombre,</l>
+                  <l>coma y duerma con descanso,</l>
                   <l>y no se espante de sombras,</l>
                   <l>porque tendrá malos ratos,</l>
                   <l>y puede tenerlos lindos</l>
@@ -466,13 +469,13 @@
                   <l>Conque el dictámen de ustedes</l>
                   <l>es, que se cierren los labios,</l>
                   <l>y los ojos, y se ensanchen</l>
-                  <l>Bien la cabeza y el cuajo,</l>
+                  <l>bien la cabeza y el cuajo,</l>
                   <l>para que á un hombre le quepa</l>
                   <l>cuanto le vayan echando?</l>
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Aboy.</speaker>
+                  <speaker rend="cursiva">Abog.</speaker>
                   <l>Distingo.</l>
                </sp>
 
@@ -514,9 +517,10 @@
                   <l>pudiéndole hacer mas breve,</l>
                   <l>y egecutivo mi mano. <stage>Vase.</stage></l>
                </sp>
-               
+
                <sp>
-                  <l>Patr. El es hombre muy formal.</l>
+                  <speaker rend="cursiva">Patr.</speaker>
+                  <l>El es hombre muy formal.</l>
                </sp>
 
                <sp>
@@ -528,7 +532,7 @@
                <sp>
                   <speaker rend="cursiva">Marc.</speaker>
                   <l>Esto</l>
-                  <l>prúeba que en todos estados</l>
+                  <l>prueba que en todos estados</l>
                   <l>cabe la honra.</l>
                </sp>
 
@@ -544,18 +548,18 @@
                   <l>Vaya</l>
                   <l>uno corriendo á alcanzarlo,</l>
                   <l>y diga que vuelva á verme</l>
-                  <l>dirijiremos el caso..</l>
+                  <l>dirijiremos el caso</l>
                   <l>de otro modo, aunque es preciso</l>
                   <l>antes de determinarlo</l>
                   <l>ver la novia.</l>
                </sp>
-                  
-               <pb n="4"/>
-                  
+
+               <pb n="4" source="Moreno_146_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
 
                <sp>
-                  <speaker rend="cursiva">Patr </speaker>
+                  <speaker rend="cursiva">Patr</speaker>
                   <l>Voy corriendo, <stage rend="cursiva">Vase,</stage></l>
                </sp>
 
@@ -567,25 +571,23 @@
                   <l>y vaya á que le dé el ayre <stage rend="cursiva">Vanse.</stage></l>
                   <l>en las sienes y en los cascos.</l>
                </sp>
-                  
+
                <stage rend="cursiva">
-                  <lb/>Diferente casá, y sale Catalina
-                  <lb/>barriendo, y canta.
-               </stage>
-               
+                  <lb/>Diferente casa, y sale Catalina <lb/>barriendo, y canta. </stage>
+
                <sp>
-                  <speaker rend="cursiva">Cat. </speaker>
+                  <speaker rend="cursiva">Cat.</speaker>
                   <l>,,Aunque soy pobrecita</l>
                   <l>,,vivo contenta, </l>
                   <l>,,pues salud no me falta,</l>
                   <l>,,ni quien me quiera.</l>
-                  <l>,,Pesares huyo,</l>
+                  <l rend="indent">,,Pesares huyo,</l>
                   <l>,,pues de todos me rio</l>
                   <l>,,con mucho gusto</l>
                </sp>
-                  
+
                <stage rend="cursiva">Sale Doña Sabina.</stage>
-               
+
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Deja el cantico y despacha.</l>
@@ -596,9 +598,9 @@
                   <l>Por mi ya está despachado</l>
                   <l>este negocio.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>Pues cierra</l>
                   <l>la puerta.</l>
                </sp>
@@ -607,7 +609,7 @@
                   <speaker rend="cursiva">Cat.</speaker>
                   <l>Voy, don Leandro</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Don Leandro.</stage>
 
                <sp>
@@ -631,7 +633,7 @@
                   <speaker rend="cursiva">Leand.</speaker>
                   <l>Porque ya he sabido</l>
                   <l>el motivo de empeñaros</l>
-                  <l>en que yas no venga aquí,</l>
+                  <l>en que ya no venga aquí,</l>
                   <l>por mas que disimularlo</l>
                   <l>querais.</l>
                </sp>
@@ -639,12 +641,12 @@
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Y cual puede ser?</l>
-                  
+
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Leand.</speaker>
-                  <l>Que Joaquin hasospechado,</l>
+                  <l>Que Joaquin ha sospechado,</l>
                   <l>que yo os quiero cortejar.</l>
                </sp>
 
@@ -661,10 +663,10 @@
                   <l>le contó que os he tratado</l>
                   <l>siempre en casa de mi tio</l>
                   <l>con distincion y agasajo;</l>
-                  <l>picada (de gusanos sea ella</l>
+                  <l>picada (de gusanos sea ella)</l>
                   <l>de que siempre que la hallo;</l>
                   <l>la digo, que es maldiciente,</l>
-                  <l>y que no quiero su trato.</l>
+                  <l>y que no quíero su trato.</l>
                </sp>
 
                <sp>
@@ -718,11 +720,11 @@
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Usted se vaya con Dios,</l>
                   <l>y solo el favor le encargo</l>
-                  
-               <pb n="5"/>
-                  
-               <fw type="paginaNum">5</fw>
-                  
+
+                  <pb n="5" source="Moreno_146_5.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
                   <l>de no venir por aquí.</l>
                </sp>
 
@@ -757,24 +759,24 @@
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Dent. Joaq. </speaker>
+                  <speaker rend="cursiva">Dent. Joaq.</speaker>
                   <l>Catalina?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sale Cat. </speaker>
+                  <speaker rend="cursiva">Sale Cat.</speaker>
                   <l>Señora abro, ó no abro?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
-                  <l>Que has de hacer, y ustedseñor</l>
+                  <l>Que has de hacer, y usted señor</l>
                   <l>escóndase en ese cuarto</l>
-                  <l>mientras pasa.</l> 
+                  <l>mientras pasa.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Leand. </speaker>
+                  <speaker rend="cursiva">Leand.</speaker>
                   <l>Voy allá,</l>
                   <l>embiale á algun recado</l>
                   <l>pronto. <stage rend="cursiva">Vase.</stage></l>
@@ -785,9 +787,9 @@
                   <l>Que sin culpa mia</l>
                   <l>ande yo en estos trabajos!</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sale Joaq. </speaker>
+                  <speaker rend="cursiva">Sale Joaq.</speaker>
                   <l>No hallabas el picaporte?</l>
                </sp>
 
@@ -816,29 +818,29 @@
 
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
-                  <l>Ya iré, no nos favorece.</l>
-                  <l>el sobrino de tu amo.</l>
+                  <l>Ya iré, no nos favorece</l>
+                  <l>el sobrino de tu amo</l>
                   <l>esta tarde?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>Como tu</l>
                   <l>le muestras tanto agasajo.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
-                  <l>Yo, hé?.</l>
+                  <l>Yo, hé?</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Tienes calentura? </l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Joaq. </speaker>
+                  <speaker rend="cursiva">Joaq.</speaker>
                   <l>No.</l>
                </sp>
 
@@ -853,7 +855,7 @@
                   <l>Al prado? bien,</l>
                   <l>luego iré, que aun es temprano:</l>
                   <l>que señal será salirle</l>
-                  <l>á un hombretantospadrastos?<stage rend="cursiva">ap.</stage></l>
+                  <l>á un hombre tantos padrastos?<stage rend="cursiva">ap.</stage></l>
                </sp>
 
                <sp>
@@ -866,16 +868,16 @@
                   <l>A ver á tu tia? y cuanto</l>
                   <l>te detendrás?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>Que se yo.</l>
                   <l>Jesus hombre, que pelmazo</l>
                   <l>estás esta tarde!</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Joaq. </speaker>
+                  <speaker rend="cursiva">Joaq.</speaker>
                   <l>Ya,</l>
                   <l>conque estoy algo pesado?</l>
                </sp>
@@ -887,7 +889,7 @@
 
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
-                  <l>Vaya con Dios:.</l>
+                  <l>Vaya con Dios:</l>
                   <l>que rascamoño tan guapo</l>
                   <l>te he de hacer, con unas piedras</l>
                   <l>finas, que el maestro me ha dado</l>
@@ -915,13 +917,13 @@
 
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
-                  <l>Ya, supongo.</l>
+                  <l>Ya, supongo</l>
                   <l>que estaré yo convidado</l>
                   <l>tambien.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>Mucho.</l>
                </sp>
 
@@ -931,17 +933,17 @@
                   <l>supongo, estará encargado</l>
                   <l>de asistir á la segunda</l>
                   <l>mesa, para hacerte plato.</l>
-               </sp>   
-               
+               </sp>
+
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Vienes á mortificarme?</l>
                   <l>hombre vete con mil diablos.</l>
-                  
-               <pb n="6"/>
-                  
-               <fw type="paginaNum">6</fw>
-                  
+
+                  <pb n="6" source="Moreno_146_6.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
                   <l>que quiero acabar en paz.</l>
                </sp>
 
@@ -965,9 +967,9 @@
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Te vas?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Joaq. </speaker>
+                  <speaker rend="cursiva">Joaq.</speaker>
                   <l>Sabes que he reparado,</l>
                   <l>que eres buena moza.</l>
                </sp>
@@ -976,7 +978,7 @@
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Toma,</l>
                   <l>no lo habias reparado</l>
-                  <l>hasta ahorá?</l>
+                  <l>hasta ahora?</l>
                </sp>
 
                <sp>
@@ -989,7 +991,7 @@
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Ni mas chinches que tu.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>Hija</l>
@@ -997,9 +999,9 @@
                   <l>que no tardaré, muchacha,</l>
                   <l>cierra.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>Yo cerraré, vamos.</l>
                </sp>
 
@@ -1017,7 +1019,7 @@
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>Vendré volando. <stage rend="cursiva">Vase.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Don Leandro</stage>
 
                <sp>
@@ -1032,18 +1034,18 @@
                   <l>dormirse refunfuñando</l>
                   <l>en una silla.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Leand. </speaker>
+                  <speaker rend="cursiva">Leand.</speaker>
                   <l>Os estimo,</l>
                   <l>y escusaré visitaros,</l>
                   <l>porque no tengais, señora,</l>
                   <l>tan continuos sobresaltos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
-                  <l>Y yo siempre ágradecida,</l>
+                  <speaker rend="cursiva">Sab.</speaker>
+                  <l>Y yo siempre agradecida,</l>
                   <l>os estaré don Leandro.</l>
                </sp>
 
@@ -1055,11 +1057,11 @@
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>El cieló os guarde mil años,</l>
-                  <l> en lo que pueda serviros</l>
+                  <l>y en lo que pueda serviros</l>
                   <l>mandad con desembarazo.</l>
                </sp>
-               
-               <stage>Vase Don Leandro.</stage>
+
+               <stage rend="cursiva">Vase Don Leandro.</stage>
 
                <sp>
                   <speaker rend="cursiva">Cat.</speaker>
@@ -1067,9 +1069,9 @@
                   <l>todavia estoy temblando</l>
                   <l>del suceso. </l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>Sino fuera</l>
                   <l>él zeloso, era escusado</l>
                   <l>este misterio, pues nada</l>
@@ -1077,7 +1079,7 @@
                   <l>dame luego la basquiña</l>
                   <l>y la mantilla, que hago</l>
                   <l>ánimo de salir antes</l>
-                  <l>que vuelva aquí á macñacarnos</l>
+                  <l>que vuelva aquí á machacarnos</l>
                   <l>con sus manias, y yo</l>
                   <l>he de procurar curarlo</l>
                   <l>de ellas, con el desprecio,</l>
@@ -1090,11 +1092,10 @@
                   <l>deben vivir los casados,</l>
                   <l>y nosotras divertidas,</l>
                   <l>que pará eso nos casamos.</l>
-                  
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sale Patr </speaker>
+                  <speaker rend="cursiva">Sale Patr</speaker>
                   <l>Ay Vecina! </l>
                </sp>
 
@@ -1112,11 +1113,11 @@
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Por que?</l>
-                  
+
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sale Marc. </speaker>
+                  <speaker rend="cursiva">Sale Marc.</speaker>
                   <l>Sálgase por el tejado;</l>
                   <l>y pase por él señora</l>
                   <l>á casa, la pondré en salvo</l>
@@ -1135,16 +1136,16 @@
 
                <sp>
                   <speaker rend="cursiva">Patr.</speaker>
-                  <l>Tiene usted pozo en él patio?</l>
+                  <l>Tiene usted pozo en el patio?</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
-                  <l>Si.</l> 
+                  <l>Sí.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Patr. </speaker>
+                  <speaker rend="cursiva">Patr.</speaker>
                   <l>Echese usté en él,</l>
                   <l>y esté escondida hasta tanto</l>
                   <l>qué se compongan las cosas.</l>
@@ -1161,7 +1162,7 @@
                   <l>no me gusta, yo me voy</l>
                   <l>á esconder piano piano. <stage rend="cursiva">Vase.</stage></l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Patr.</speaker>
                   <l>Por Dios que viene?</l>
@@ -1179,26 +1180,26 @@
 
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
-                  <l>Quién?</l>
+                  <l>Quien?</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Marc.</speaker>
-                  <l>Vuestro marído, huid,</l>
+                  <l>Vuestro marido, huid,</l>
                   <l>no haga con vos un estrago.</l>
                </sp>
-                  
-               <pb n="7"/>
-                  
+
+               <pb n="7" source="Moreno_146_7.jpg"/>
+
                <fw type="paginaNum">7</fw>
-                  
+
                <stage rend="cursiva">Sale el Abogado.</stage>
 
                <sp>
                   <speaker rend="cursiva">Abog.</speaker>
                   <l>Madama sea enhorabuena,</l>
                   <l>Dios os haga bien casados,</l>
-                  <l>y vos, y el señor Joaquin:</l>
+                  <l>y vos, y el señor Joaquin</l>
                   <l>os goceis por muchos años.</l>
                   <l>A buena hora llego, que <stage rend="cursiva">ap.</stage></l>
                   <l>parece que hay convidados.</l>
@@ -1208,18 +1209,18 @@
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Usted sabe.... <stage rend="cursiva">al abogado.</stage></l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Los Pasant. </speaker>
+                  <speaker rend="cursiva">Los Pasant.</speaker>
                   <l>Que ya llega,</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Joaquin.</stage>
 
                <sp>
                   <speaker rend="cursiva">Patr.</speaker>
                   <l>Don Joaquin en estos casos,</l>
-                  <l>es preciso la prudencia..</l>
+                  <l>es preciso la prudencia.</l>
                </sp>
 
                <sp>
@@ -1229,9 +1230,12 @@
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Joap.</speaker>
+                  <speaker rend="cursiva"><choice>
+                        <sic>Joap</sic>
+                        <corr>Joaq</corr>
+                     </choice>.</speaker>
                   <l>Mira loca,</l>
-                  <l>si yo me quejaba en vano...</l>
+                  <l>si yo me quejaba en vano.</l>
                </sp>
 
                <sp>
@@ -1242,7 +1246,7 @@
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>Mejor lo entiendes</l>
-                  <l>tu, que no yo.</l>
+                  <l>tú, que no yo.</l>
                </sp>
 
                <sp>
@@ -1262,10 +1266,10 @@
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Y yo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Abog. </speaker>
-                  <l>Puesbaya de pleyto</l>
+                  <speaker rend="cursiva">Abog.</speaker>
+                  <l>Pues baya de pleyto</l>
                   <l>que yo defenderé á entrambos.</l>
                </sp>
 
@@ -1279,7 +1283,7 @@
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Así es.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>Y te atreverás</l>
@@ -1318,7 +1322,7 @@
                   <l>cuerpo del delito, debe</l>
                   <l>ir cosido con los autos,</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>De quien es?</l>
@@ -1326,8 +1330,8 @@
 
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
-                  <l>Bien le conozcoja</l>
-                  <l>del sobrino de mi amo;</l>
+                  <l>Bien le conozco</l>
+                  <l>del sobrino de mi amo,</l>
                   <l>por señas que le estrenó</l>
                   <l>el dia de todos santos,</l>
                   <l>y le costó nueve pesos</l>
@@ -1338,7 +1342,7 @@
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>Y que te parece?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>Que</l>
@@ -1354,9 +1358,9 @@
                   <l>con el pleyto: pues en la hora</l>
                   <l>resuelvo... </l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>Que?</l>
                </sp>
 
@@ -1373,7 +1377,7 @@
 
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
-                  <l>Pobre de mí! que salida <stage rend="cursiva">ap:</stage></l>
+                  <l>Pobre de mí! que salida <stage rend="cursiva">ap.</stage></l>
                   <l>habrá para deslumbrarlo?.</l>
                </sp>
 
@@ -1383,12 +1387,12 @@
                   <l>cuando fuese necesario</l>
                   <l>de testigos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Los Pasant. </speaker>
-                  <l>Bien está:</l>
+                  <speaker rend="cursiva">Los Pasant.</speaker>
+                  <l>Bien está.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Don Leandro.</stage>
 
                <sp>
@@ -1426,11 +1430,11 @@
                   <speaker rend="cursiva">Joao.</speaker>
                   <l>Viva usted mil años.</l>
                </sp>
-               
-               <pb n="8"/>
-               
+
+               <pb n="8" source="Moreno_146_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
-               
+
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
                   <l>No replicaba yo á usted</l>
@@ -1467,28 +1471,28 @@
 
                <sp>
                   <speaker rend="cursiva">Sab.</speaker>
-                  <l>Pues ya lo ha visto ustedclaro.</l>
+                  <l>Pues ya lo ha visto usted claro.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
-                  <l>Yo no, quien dió al señor</l>
+                  <l>Yo no, quien diò al señor</l>
                   <l>mi sombrero.?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>Mentecato</l>
                   <l>al punto que tu saliste</l>
                   <l>yo propia se lo he embiado</l>
                   <l>con la moza </l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Joaq. </speaker>
+                  <speaker rend="cursiva">Joaq.</speaker>
                   <l>Catalina?</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Calalina.</stage>
 
                <sp>
@@ -1496,15 +1500,15 @@
                   <l>Ya voy, que estaba doblando</l>
                   <l>la mantilla.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Joaq. </speaker>
+                  <speaker rend="cursiva">Joaq.</speaker>
                   <l>Pues de donde</l>
                   <l>vienes ahora? </l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Cat. </speaker>
+                  <speaker rend="cursiva">Cat.</speaker>
                   <l>De un recado</l>
                   <l>de mi ama; bien lo puede</l>
                   <l>decir usted don Leandro.</l>
@@ -1520,9 +1524,9 @@
                   <l>Aunque fuera cierto el caso,</l>
                   <l>quien no disimula? </l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Joaq. </speaker>
+                  <speaker rend="cursiva">Joaq.</speaker>
                   <l>Como</l>
                   <l>podia disimularle, </l>
                   <l>si yo iba por mi camino,</l>
@@ -1551,16 +1555,16 @@
                   <l>producen zelos fundados.</l>
                   <l>Me entiendes?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Joaq.</speaker>
                   <l>Creo que sí,</l>
                   <l>troquemos pues, don Leandro,</l>
                   <l>y seamos amigos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sab. </speaker>
+                  <speaker rend="cursiva">Sab.</speaker>
                   <l>De eso,</l>
                   <l>luego hablaremos de espacio,</l>
                   <l>que ahora, ya que le dimos</l>
@@ -1568,13 +1572,13 @@
                   <l>es muy justo que el perdon</l>
                   <l>de los defectos pidamos.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Tod.</speaker>
                   <l>Y que de los dos sombreros,</l>
                   <l>concluya el capricho raro.</l>
                </sp>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
 

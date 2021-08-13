@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5018403</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 53</idno>
                   </altIdentifier>
@@ -65,7 +68,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_047_1.xml">grabado_m_047_1</item>
@@ -77,9 +80,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -104,8 +113,11 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-02" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-02" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-22" who="#EL">Correction OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -115,17 +127,17 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_047_1.jpg"/>
+
                <fw type="impresorNum">Nùm. 53.</fw>
-               
+
                <head type="primer_titulo">
-                  <lb/>PASILLO JOCOSO,
-                  <lb/><hi rend="negrita">DE LA VISITA DEL HOSPITAL.</hi>
+                  <lb/>PASILLO JOCOSO, <lb/><hi rend="negrita">DE LA VISITA DEL HOSPITAL.</hi>
                </head>
-               
+
                <sp>
-                  <speaker rend="cursiva">Médico </speaker><l>Amigo, confuso estoy</l>
+                  <speaker rend="cursiva">Médico</speaker>
+                  <l>Amigo, confuso estoy</l>
                   <l>solamente de pensar</l>
                   <l>la muerte de aquel enfermo</l>
                   <l>que ayer fuimos á curar</l>
@@ -133,37 +145,37 @@
                   <l>para con tan poco mal</l>
                   <l>morir en tan poco tiempo?</l>
                   <l>¡Y qué modo de espirar!</l>
-                  <l>¿ Vió Vd. lívido el semblante?</l>
+                  <l>¿Vió Vd. lívido el semblante?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enfermero. </speaker>
+                  <speaker rend="cursiva">Enfermero.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Qué eficacia en el mirar.</l>
                   <l>¿Esputó alguna sangre?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Le dió alguna sincopal?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Si señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Amigo, el caso está claro,</l>
                   <l>no me deja que dudar;</l>
                   <l>desde que cayó en la cama</l>
@@ -195,9 +207,9 @@
                   <l>sin embargo un buen talento,</l>
                   <l>que sepa filosofar </l>
                   <l>da sus golpes de patusca</l>
-               
-               <pb n="2"/>
-               
+
+                  <pb n="2" source="Moreno_047_2.jpg"/>
+
                   <l>con que se suele acertar,</l>
                   <l>y sino díganlo cuantos</l>
                   <l>en el campo santo están,</l>
@@ -219,42 +231,42 @@
                   <l>de todo me ha de enterar,</l>
                   <l>seguro estoy que su informe</l>
                   <l>en nada me engañará.</l>
-                  
+
                   <stage rend="cursiva">Llega á un enfermo y le pulsa.</stage>
-                  
+
                   <l>Venga el pulso, buen amigo,</l>
                   <l>si se le ha de recetar:</l>
                   <l>Vd, amigo está muy malo,</l>
                   <l>y tanto que el hospital</l>
                   <l>no tiene enfermo peor</l>
-                  <l>ni mas Guro de curar.</l>
+                  <l>ni mas curo de curar.</l>
                   <l>¿Este enfermo se ha purgado?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Ha conseguido sudar?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>A Vd. la fiebre amarilla</l>
                   <l>le ha cogido por detrás,</l>
                   <l>y aun creo que por delante</l>
                   <l>está dado á Barrabas,</l>
                   <l>y si no digame Vd.</l>
                   <l>¿en mirando un delantal</l>
-                  <l>siente Vd, alteracion?</l>
+                  <l>siente Vd. alteracion?</l>
                   <l>No me deja que dudar;</l>
                   <l>ahora por desahogo</l>
                   <l>usted deberá tomar</l>
@@ -263,70 +275,70 @@
                   <l>que segun está agravado</l>
                   <l>no le sentará muy mal.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Le parece bien mandado ?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Abur, amigo, mandar.</l>
-                  
+
                   <stage rend="cursiva">Se acerca á otro enfermo.</stage>
-                  
+
                   <l>¡Jesús qué cara de muerto!</l>
                   <l>muy malo este pobre está.</l>
                   <l>¿Se le echaron sanguijuelas?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Se le ha dado el pectoral?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Se ha recogido la orina?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Durmió despues de sudar?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor. <stage rend="cursiva">Le pulsa.</stage></l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Esto ya está declarado...</l>
                   <l>poco me gusta este mal...</l>
                   <l>tercianas en las orejas,</l>
@@ -341,50 +353,50 @@
                   <l>mandar hagan la señal</l>
                   <l>en la parroquia, que muere</l>
                   <l>sin poderlo remediar.</l>
-                  
+
                   <stage rend="cursiva">Se acerca á otro enfermo.</stage>
-                  
+
                   <l>Vamos á ver este pobre.</l>
                   <l>¿Cómo va de enfermedad?</l>
                   <l>¿se ha ventriculado algo?</l>
                   <l>¿fué la causa ocasional?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor,</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Mèd. </speaker>
+                  <speaker rend="cursiva">Mèd.</speaker>
                   <l>¿Le sobrevinieron náuseas?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿A esto siguió el vomitar?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
-                  <l>No señor,</l>
+                  <speaker rend="cursiva">Enf.</speaker>
+                  <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
-                  <l>Quedo del todo enterado;</l>
+                  <speaker rend="cursiva">Méd.</speaker>
+                  <l>Quedo del todo enterado,</l>
                   <l>y satisfecho del mal,</l>
                   <l>pues dejó escrito Galeno</l>
                   <l>en su obra universal,</l>
                   <l>que, <hi rend="cursiva">vane curatum cerebrum,</hi></l>
-               
-               <pb n="3"/>
-               
+
+                  <pb n="3" source="Moreno_047_3.jpg"/>
+
                   <l>es preciso vomitar.</l>
                   <l>Y asi lo que Vd. padece</l>
                   <l>es un mal de madre tal,</l>
@@ -393,7 +405,7 @@
                   <l>y será mucho mas fuerte</l>
                   <l>al tiempo de ir á mascar.</l>
                   <l>En la pantorrilla izquierda</l>
-                  <l>tendrá como un alacran, </l>
+                  <l>tendrá como un alacran,</l>
                   <l>pero no me dá cuidado,</l>
                   <l>que es muy fácil de curar;</l>
                   <l>traigan un gato y un perro,</l>
@@ -410,31 +422,31 @@
                   <l>¡Lo que hay en este hospital</l>
                   <l>de males, y á lo que alcanza</l>
                   <l>una aplicacion formal !</l>
-                  
+
                   <stage rend="cursiva">Se acerca á otra.</stage>
-                  
+
                   <l>¿Quién es esa señorita</l>
                   <l>que está en la flor de su edad?</l>
-                  <l>¿ Viene enferma por ventura ?</l>
+                  <l>¿Viene enferma por ventura?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Si señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Y se sabe ya su mal?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Señorita, Vd. perdone,</l>
                   <l>solo el pulso es la señal</l>
                   <l>que nos demuestra los males,</l>
@@ -461,41 +473,41 @@
                   <l>que antes se debe quemar,</l>
                   <l>y en dos cuartillos de agua, </l>
                   <l>se pueden administrar,</l>
-                  <l>el uno por la mañana, </l>
+                  <l>el uno por la mañana,</l>
                   <l>y el otro al irse á costar</l>
                   <l>Con eso sudará Vd.,</l>
-                  <l>el mal se corregirá, </l>
+                  <l>el mal se corregirá,</l>
                   <l>se quitará la opresion</l>
                   <l>que impide la facultad,</l>
                   <l><hi rend="cursiva">tanquam convulsionem magnam</hi></l>
                   <l>y el vientre se ensanchará.</l>
                   <l>Pasadlo bien, señorita.</l>
-                  
+
                   <stage rend="cursiva">Se acerca á otro.</stage>
-                  
+
                   <l>¿Quién es este que aquí está?</l>
                   <l>¡Qué color tan moribundo!</l>
                   <l>mucho dá que sospechar.</l>
                   <l>¿Este enfermo ha vomitado?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Y le sigue la ansiedad?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>En tantas implicaciones</l>
                   <l>mucho tengo que dudar;</l>
                   <l>pero veamos ese pulso. <stage rend="cursiva">Le pulsa.</stage></l>
@@ -507,46 +519,46 @@
                   <l>A Vd. se le ha congelado</l>
                   <l>una hernia intestinal,</l>
                   <l>esta pasará á almorranas;</l>
-                  <l>despues se engangrenará; </l>
+                  <l>despues se engangrenará;</l>
                   <l>una accesion espasmódica,</l>
                   <l>se seguirá al nausear,</l>
                   <l><hi rend="cursiva">igitur semper morieris</hi></l>
-               
-               <pb n="4"/>
-               
+
+                  <pb n="4" source="Moreno_047_4.jpg"/>
+
                   <l>porque es regla general.</l>
                   <l>Echará Vd, por la boca</l>
-                  <l>la tripa del cagalar, </l>
+                  <l>la tripa del cagalar,</l>
                   <l>las asaduras, los bofes,</l>
                   <l>el redaño y el cuajar,</l>
                   <l>pero no me dá cuidado</l>
                   <l>aunque echára mucho mas: </l>
                   <l>¿teneis la nieve abundante?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Y un lebrillo de lavar?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
-                  <l>Pues que lo busquen corriendo, </l>
+                  <speaker rend="cursiva">Méd.</speaker>
+                  <l>Pues que lo busquen corriendo,</l>
                   <l>y luego en él se pondrán</l>
                   <l>veinte libras de pimiento</l>
                   <l>con dos fanegas de sal,</l>
                   <l>y con vino generoso</l>
-                  <l>tedo se incorporará, </l>
+                  <l>todo se incorporará,</l>
                   <l>y á fuerza de lavativas</l>
                   <l>este mal se ha de atajar.</l>
                   <l>En lo mas bajo del vientre</l>
@@ -561,32 +573,32 @@
                   <l>que lo lleven á enterrar,</l>
                   <l>porque no apeste la sala.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <stage rend="cursiva">Se acerca á otra.</stage>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Dios guarde á Vd., señorita.</l>
                   <l>Digame con claridad</l>
-                  <l>¿ ese burujo ó bulto</l>
+                  <l>¿ese burujo ó bulto</l>
                   <l>es de la ventosidad?</l>
                   <l>Pero ya no es menester</l>
                   <l>que yo lo sabré acertar.</l>
                   <l>¿Esta niña come coles?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Si señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Pues hija no hay que dudar</l>
                   <l>determinarse á la cura; </l>
                   <l>Vd. ha de principiar</l>
@@ -596,84 +608,84 @@
                   <l>que es un remedio especial.</l>
                   <l>Con mucha fé, señorita,</l>
                   <l>la medicina tomad.</l>
-                  <l>Penitencias mal cumplidas, </l>
+                  <l>Penitencias mal cumplidas,</l>
                   <l>escrúpulos y demás</l>
                   <l>os tiene tan pavorosa,</l>
                   <l>tan confusa y tan fatal:</l>
                   <l>asi el pulso palpitante</l>
-                  <l>indicándolo está ya; </l>
+                  <l>indicandolo está ya; </l>
                   <l>si lo dicho no os alivia,</l>
                   <l>de hora en hora tomará</l>
                   <l>dos ó tres, ó cuatro polvos</l>
                   <l>de la caja de Fray Blas.</l>
                   <l>Hasta mas ver, señorita,</l>
                   <l>paciencia, y conformidad.</l>
-                  
+
                   <stage rend="cursiva">Se acerca á otro.</stage>
-                  
+
                   <l>¡Ola <hi rend="cursiva">Domine</hi>! ¿Se estudia?</l>
                   <l>¿Se trata de argumentar?</l>
                   <l>Vamos á ver, amiguito,</l>
                   <l>levántese Vd. el pañal.</l>
                   <l>¡Jesús qué peste tan grande!</l>
-                  <l>usted se hubo de ensuciar,</l>
+                  <l>usted se hubo de ensuciar.</l>
                   <l>Inmediatamente, pronto</l>
                   <l>al cirujano llamad,</l>
                   <l>y que mueva de improviso</l>
-                  <l>una batalla campal, </l>
+                  <l>una batalla campal,</l>
                   <l>que de este modo, amiguito,</l>
-                  <l>curarse solo podrá, </l>
+                  <l>curarse solo podrá,</l>
                   <l>y se quedará aliviado</l>
                   <l>de tan grande enfermedad.</l>
                   <l>Vamos inmediatamente</l>
                   <l>á recorrer la ciudad.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Pidamos el perdon ambos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Pues es cosa regular.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>Sí señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>¿Con el sí ó el nó señor</l>
                   <l>me quiere Vd. jeringar?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Enf. </speaker>
+                  <speaker rend="cursiva">Enf.</speaker>
                   <l>No señor.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Méd. </speaker>
+                  <speaker rend="cursiva">Méd.</speaker>
                   <l>Incomode allá á su abuela,</l>
                   <l>que yo no puedo aguantar</l>
                   <l>un bruto que á mis preguntas</l>
                   <l>no hace mas que rebuznar.</l>
                </sp>
             </div>
-            
+
             <div type="colofon">
                <p><lb/>CARMONA:—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
             </div>

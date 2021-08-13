@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5040759</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -74,9 +77,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -100,8 +109,10 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-19" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
+         <change when="2021-03-19" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
          <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-07-01" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -110,12 +121,11 @@
    <text>
       <body>
          <div>
-            <pb n="1"/>
+            <pb n="1" source="Moreno_192_1.jpg"/>
 
             <head type="primer_titulo">
                <lb/><hi rend="negrita">EL PAYO</hi>
-               <lb/>EN
-               <lb/><hi rend="negrita">CENTINELA.</hi>
+               <lb/>EN <lb/><hi rend="negrita">CENTINELA.</hi>
             </head>
             <head type="subtitulo">SAINETE</head>
 
@@ -133,11 +143,9 @@
 
             <div>
                <stage rend="cursiva">
-                  <lb/>El teatro representa un portal de casa particu-
-                  <lb/>lar con puerta á laizquierda, salen D. Tibur-
-                  <lb/>cio, que trae de la mano á D.a Rosaura; aquel
-                  <lb/>viene con sombrero y baston.
-               </stage>
+                  <lb/>El teatro representa un portal de casa particu- <lb/>lar con puerta á la
+                  izquierda, salen D. Tibur- <lb/>cio, que trae de la mano á D.a Rosaura: aquel
+                  <lb/>viene con sombrero y baston. </stage>
 
                <sp>
                   <speaker>TIB.</speaker>
@@ -151,7 +159,7 @@
                   <l>de lo que ahora poco acaban</l>
                   <l>de contarme.</l>
                </sp>
-               
+
                <sp>
                   <speaker>ROS.</speaker>
                   <l>Padre mio....</l>
@@ -173,11 +181,11 @@
                   <l>prezendo que quedes bien</l>
                   <l>dejándote ya casada.</l>
                   <l>A tí te quiere por suya </l>
-                  
-                <pb n="2"/>
-                  
-                <fw type="paginaNum">2</fw>
-                  
+
+                  <pb n="2" source="Moreno_192_2.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
                   <l>un don Lucas de la Raspa, </l>
                   <l>hombre machucho, rumboso,</l>
                   <l>y muy rico; si te agrada</l>
@@ -196,7 +204,7 @@
                   <l>amor que sea mi marido;</l>
                   <l>quid faciendum!</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Hija ingrata! </l>
@@ -213,7 +221,7 @@
                   <l>Yo á don Florindo Ramiro! </l>
                   <l>nohay tal.</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>De decirme acaban</l>
@@ -237,7 +245,7 @@
                   <l>con humildad bien postrada</l>
                   <l>me admitan....</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Que es lo que dices,</l>
@@ -264,7 +272,7 @@
                <sp>
                   <speaker>ROS.</speaker>
                   <l>Si señor porque me falta</l>
-                  <l>que ofrecer mis devociones.</l>
+                  <l>que ofrecer mís devociones.</l>
                </sp>
 
                <sp>
@@ -286,20 +294,18 @@
                   <speaker>ROS.</speaker>
                   <l>Ya he salido de este aprieto.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb/>Va á irse y deja caer un papel y Tiburcio
-                  <lb/>lo vé.
-               </stage>
+                  <lb/>Va á irse y deja caer un papel y Tiburcio <lb/>lo vé. </stage>
 
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Rosaura vuelve, repara</l>
                   <l>que un papel te se ha caido.</l>
                </sp>
-               
+
                <stage rend="cursiva">Vuelve ella y viendolo lo levanta.</stage>
-               
+
                <sp>
                   <speaker>ROS.</speaker>
                   <l><stage rend="cursiva">ap.</stage> Pobre de mi desdichada! </l>
@@ -309,7 +315,7 @@
                   <speaker>TIB.</speaker>
                   <l>Dámele acá. </l>
                </sp>
-               
+
                <sp>
                   <speaker>ROS.</speaker>
                   <l>Padre mio....</l>
@@ -323,15 +329,15 @@
                <sp>
                   <speaker>ROS.</speaker>
                   <l>Si esto es para devanar</l>
-                  <l>un poco de hile.</l>
+                  <l>un poco de hilo.</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Taimada, </l>
-                  <l>damelo aca. <stage rend="cursiva">se lo quita.</stage></l>
+                  <l>damelo aca. <stage rend="cursiva">se lo quíta.</stage></l>
                </sp>
-               
+
                <sp>
                   <speaker>ROS. </speaker>
                   <l><stage rend="cursiva">ap.</stage> De esta hecha</l>
@@ -341,15 +347,15 @@
                <sp>
                   <speaker>TIB.</speaker>
                   <l><stage rend="cursiva">Lee</stage> «Florindo, dueño, amor mio,</l>
-                  <l>ano te encarezco las ansias</l>
-                  <l>¿y el continuo sobresalto</l>
-                  <l>ade que me miro cercada,</l>
-                  <l>asácame de esta prision,</l>
-                  <l>qpues mi padre me maltrata;</l>
-                  <l>¿tuya soy, seré y he sido</l>
+                  <l>«no te encarezco las ansias</l>
+                  <l>«y el continuo sobresalto</l>
+                  <l>«de que me miro cercada,</l>
+                  <l>«sácame de esta prision,</l>
+                  <l>«pues mi padre me maltrata;</l>
+                  <l>«tuya soy, seré y he sido</l>
                   <l>«hasta la muerte, Rosaura.»</l>
                   <l>¿Estas eran las completas</l>
-                  <l>y maitines que rezabas?</l>
+                  <l>y maítines que rezabas?</l>
                   <l>Yo te pondré luego el velo,</l>
                   <l>mas será con una tranca.</l>
                </sp>
@@ -362,29 +368,24 @@
 
                <sp>
                   <speaker>TIB.</speaker>
-                  <l>Quitate de mi presencia,</l>
-                  <l>serpiente con forma humána. </l>
-                  
+                  <l>Quítate de mi presencia,</l>
+                  <l>serpiente con forma humana.</l>
+
                   <stage rend="cursiva">Vase ella por la izquierda.</stage>
-                  
+
                   <l>Que bien dijo aquel que dijo</l>
                   <l>que era la cosa mas mala</l>
                   <l>de cuantas contiene el mundo,</l>
                   <l>una muger despechada! </l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb/>Ha salido por la derecha, vestido de pi-
-                  <lb/>llastre Cachumeno con un papel en ta ma-
-                  <lb/>no, y al ver á Tiburcio lo guarda en el seno
-                  
-               <pb n="3"/>
-                  
-               <fw type="paginaNum">3</fw>
-                  
-                  <lb/>y tira manotones como para coger mos-
-                  <lb/>cas, tocandole por detras á Tiburcio.
-               </stage>
+                  <lb/>Ha salido por la derecha, vestido de pi- <lb/>llastre Cachumeno con un papel
+                  en la ma- <lb/>no, y al ver á Tiburcio lo guarda en el seno <pb n="3"
+                     source="Moreno_192_3.jpg"/>
+                  <fw type="paginaNum">3</fw>
+                  <lb/>y tira manotones como para coger mos- <lb/>cas, tocandole por detras á
+                  Tiburcio. </stage>
 
                <sp>
                   <speaker>CACH.</speaker>
@@ -398,21 +399,21 @@
                   <l>pero quien me anda en la zaga?</l>
                   <l>quien eres?</l>
                </sp>
-               
+
                <sp>
-                  <l>CACH.</l>
+                  <speaker>CACH.</speaker>
                   <l>No sabe usted</l>
                   <l>Que soy yo?</l>
                </sp>
-               
+
                <stage rend="cursiva">No deja de cojer moscas.</stage>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Va que me saltas</l>
                   <l>un ojo!</l>
                </sp>
-               
+
                <sp>
                   <speaker>CACH.</speaker>
                   <l>Me se escapó.</l>
@@ -427,7 +428,7 @@
                   <speaker>CACH.</speaker>
                   <l>Lo atrapé.</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Qué has atrapado?</l>
@@ -439,9 +440,9 @@
                   <stage rend="cursiva">Lo mira y hace que lo deja.</stage>
                   <l>Dios guarde á usted; esta es embra, </l>
                   <l>tampoco me sirve.</l>
-                  <stage rend="cursiva">La coge y hace lo mismo.</stage>
+                  <stage rend="cursiva">La coge y hace lo mísmo.</stage>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Calla?</l>
@@ -450,24 +451,24 @@
                   <l>Qué tracamandana es esa?</l>
                   <l>no oyes que te hablo? <stage rend="cursiva">le dá.</stage></l>
                </sp>
-               
+
                <sp>
                   <speaker>CACH.</speaker>
                   <l>Valla,</l>
                   <l>que quiere usted?</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Que me digas, <stage rend="cursiva">le remeda.</stage></l>
-                  <l>qué son esas garambainas?.</l>
+                  <l>qué son esas garambainas?</l>
                </sp>
 
                <sp>
                   <speaker>CACH.</speaker>
                   <l>Usted me conoce?</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Nó.</l>
@@ -477,7 +478,7 @@
                   <speaker>CACH.</speaker>
                   <l>Me alegro.</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Quien eres? habla.</l>
@@ -512,7 +513,7 @@
                   <speaker>CACH.</speaker>
                   <l>Pues....</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>El confitero? Valla. </l>
@@ -540,7 +541,7 @@
                   <l>Un real cada canasta </l>
                   <l>de mosquitos.</l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Un real?</l>
@@ -554,10 +555,10 @@
                   <l>Porque los machos no sirven</l>
                   <l>ni las hembras. </l>
                </sp>
-               
+
                <sp>
                   <speaker>TIB.</speaker>
-                  <l>Tu te chanzeas, </l>
+                  <l>Tu te chanzeas.</l>
                </sp>
 
                <sp>
@@ -570,7 +571,7 @@
                   <l>Picaro, si no te largas</l>
                   <l>te asesino.</l>
                </sp>
-               
+
                <sp>
                   <speaker>CACH. </speaker>
                   <l><stage rend="cursiva">ap.</stage> Doy la vuelta,</l>
@@ -578,7 +579,7 @@
                   <l>emboco el papel, que luego</l>
                   <l>para salir habrá traza.</l>
                </sp>
-               
+
                <stage rend="cursiva">Vase por la izquierda.</stage>
 
                <sp>
@@ -589,12 +590,12 @@
                   <l>modo de que á la muchacha</l>
                   <l>no me la robe el bribon</l>
                   <l>del novio: si yo en contrara</l>
-                  <l>un amigo á quien fiarle....</l>
+                  <l>un amigo á quíen fiarle....</l>
                   <l>pero, ó la vista me engaña,</l>
                   <l>ó aquel sargento es Fabricio;</l>
                   <l>dicho y hecho camarada! </l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Fabricio de Sargento.</stage>
 
                <sp>
@@ -618,16 +619,16 @@
                <sp>
                   <speaker>TIB.</speaker>
                   <l>Pues sabed, amigo mio;</l>
-                  
-               <pb n="4"/>
-                  
-               <fw type="paginaNum">4</fw>
-                  
+
+                  <pb n="4" source="Moreno_192_4.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
                   <l>que aquesta propia mañana</l>
                   <l>me han dicho que un don Florindo</l>
                   <l>de mi casa ha de sacarla:</l>
                   <l>si vos me hicierais favor</l>
-                  <l>mientras que yo busco traza</l>
+                  <l>(mientras que yo busco traza</l>
                   <l>de meterla en un convento</l>
                   <l>de cuidarme de mi casa,</l>
                   <l>seria un placer muy grande.</l>
@@ -665,11 +666,10 @@
                   <l>pues yo conozco á Florindo,</l>
                   <l>y es hombre de circunstancias.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb/>Sale Pancho por lo alto de la derecha ves-
-                  <lb/>tido de payo, cantando y bailando.
-               </stage>
+                  <lb/>Sale Pancho por lo alto de la derecha ves- <lb/>tido de payo, cantando y
+                  bailando. </stage>
 
                <sp>
                   <speaker>PANC.</speaker>
@@ -705,7 +705,7 @@
                   <speaker>FAB.</speaker>
                   <l>Pancho, amigo!</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Ola Fabricio....</l>
@@ -717,7 +717,7 @@
 
                <sp>
                   <speaker>FAB.</speaker>
-                  <l>Es que estoysirviendo al Rey.</l>
+                  <l>Es que estoy sirviendo al Rey.</l>
                </sp>
 
                <sp>
@@ -732,7 +732,7 @@
                   <l>á ascender en mi carrera,</l>
                   <l>pues ya soy sargento.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Aparta,</l>
@@ -742,9 +742,9 @@
                <sp>
                   <speaker>FAB.</speaker>
                   <l>No te digo eso, bestiaza.</l>
-                  <l>Hoy soy sargénto, yseré</l>
+                  <l>Hoy soy sargénto, y seré</l>
                   <l>muy pronto, esto no es chanza,</l>
-                  <l>Alferes, Teniente, y luego</l>
+                  <l>Alferes. Teniente, y luego</l>
                   <l>Comandante ó Coronel....</l>
                </sp>
 
@@ -752,7 +752,7 @@
                   <speaker>PANCH.</speaker>
                   <l>Y á tí que jornal te dan? </l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB </speaker>
                   <l>Tres reales al dia, cama,</l>
@@ -782,12 +782,14 @@
                   <speaker>FAB.</speaker>
                   <l>Fornituras es la espada, </l>
                   <l>el cinturon....</l>
-                  
                </sp>
-               
+
                <sp>
                   <speaker>PANC. </speaker>
-                  <l>el cinturion?</l>
+                  <l>el <choice>
+                        <sic>cinturion</sic>
+                        <corr>cinturon</corr>
+                     </choice>?</l>
                </sp>
 
                <sp>
@@ -816,7 +818,7 @@
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Mientes que he estado sentado</l>
-                  <l>yo esta mañana enla plaza</l>
+                  <l>yo esta mañana en la plaza</l>
                   <l>y no ha habido siquiera</l>
                   <l>quien me diera dos castañas.</l>
                </sp>
@@ -839,7 +841,7 @@
                   <speaker>FAB.</speaker>
                   <l>Soldado raso.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Abrenuncio,</l>
@@ -852,7 +854,7 @@
                   <speaker>FAB.</speaker>
                   <l>No seas terco,</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC</speaker>
                   <l>Ten paciencia,</l>
@@ -862,11 +864,11 @@
                   <l>el ser pelado ó con pelo,</l>
                   <l>como yo llene la panza.</l>
                </sp>
-               
-               <pb n="5"/>
-               
+
+               <pb n="5" source="Moreno_192_5.jpg"/>
+
                <fw type="paginaNum">5</fw>
-               
+
                <sp>
                   <speaker>FAB </speaker>
                   <l>Pues lo primero ha de ser</l>
@@ -894,12 +896,10 @@
                   <l>sin duda es esto mejor</l>
                   <l>que guardar machos y cabras.</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb/>Sale Fabricio con el vestido de soldado,
-                  <lb/>sombrero y fusil: ejecutan lo que dicen los
-                  <lb/>versos.
-               </stage>
+                  <lb/>Sale Fabricio con el vestido de soldado, <lb/>sombrero y fusil: ejecutan lo
+                  que dicen los <lb/>versos. </stage>
 
                <sp>
                   <speaker>FAB.</speaker>
@@ -919,7 +919,7 @@
 
                <sp>
                   <speaker>PANC.</speaker>
-                  <l>Y estopor donde se mete?</l>
+                  <l>Y esto por donde se mete?</l>
                </sp>
 
                <sp>
@@ -1011,13 +1011,13 @@
                   <speaker>FR.</speaker>
                   <l>El fusil.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAC.</speaker>
                   <l>Y aquesto, amigo,</l>
                   <l>tieno nombre?</l>
                </sp>
-               
+
                <sp>
                   <speaker>F.</speaker>
                   <l>La culata. </l>
@@ -1027,15 +1027,18 @@
                   <speaker>PAC.</speaker>
                   <l>Y aquesto que es?</l>
                </sp>
-               
+
                <sp>
                   <speaker>F.</speaker>
-                  <l>La llave;</l>
+                  <l>La llave.</l>
                </sp>
 
                <sp>
                   <speaker>PAC.</speaker>
-                  <l>Será para habrir la casa.</l>
+                  <l>Será para habrir <choice>
+                        <sic>!a</sic>
+                        <corr>la</corr>
+                     </choice> casa.</l>
                   <l>Y este hierrecito aquí? </l>
                </sp>
 
@@ -1048,7 +1051,7 @@
                   <speaker>PANC.</speaker>
                   <l>Y este largo?</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB.</speaker>
                   <l>La baqueta.</l>
@@ -1067,9 +1070,9 @@
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Válgame Dios, que cosazas! </l>
-                  <l>Y esto gordo?.</l>
+                  <l>Y esto gordo?</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB.</speaker>
                   <l>Es el cañon.</l>
@@ -1093,7 +1096,7 @@
                   <l>de modo que nadie llegue,</l>
                   <l>ni se acerque con cien varas,</l>
                   <l>y si acaso cumples bien</l>
-                  <l>te daré sinque haya falta,</l>
+                  <l>te daré sin que haya falta,</l>
                   <l>tu racion de pan, é irás</l>
                   <l>al rancho á llenar la panza.</l>
                </sp>
@@ -1136,7 +1139,7 @@
                   <speaker>PANC.</speaker>
                   <l>Pero si yo sé quien eres.</l>
                </sp>
-               
+
                <stage rend="cursiva">Le dá el fusil y le planta.</stage>
 
                <sp>
@@ -1151,7 +1154,7 @@
                   <speaker>PANC.</speaker>
                   <l>Lo haré yo de buena gana.</l>
                </sp>
-               
+
                <stage rend="cursiva">Echa á andar.</stage>
 
                <sp>
@@ -1173,9 +1176,9 @@
                   <speaker>PANC.</speaker>
                   <l>Es verdad, no me acordaba.</l>
                </sp>
-               
-               <pb n="6"/>
-               
+
+               <pb n="6" source="Moreno_192_6.jpg"/>
+
                <fw type="paginaNum">6</fw>
 
                <sp>
@@ -1210,7 +1213,7 @@
                   <l>y sin detenerte; pronto</l>
                   <l>la boca en qué te paras?</l>
                </sp>
-               
+
                <stage rend="cursiva">Abre la boca.</stage>
 
                <sp>
@@ -1228,10 +1231,10 @@
                   <speaker>FAB.</speaker>
                   <l>Digo la del fusil.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PAC.</speaker>
-                  <l>Vaya!. </l>
+                  <l>Vaya!</l>
                   <l>me has dicho que el fusil </l>
                   <l>tiene boca ó calabaza?</l>
                </sp>
@@ -1255,7 +1258,7 @@
                   <speaker>PAC.</speaker>
                   <l>Pues qué es lo que hace?</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB.</speaker>
                   <l>Mata. </l>
@@ -1265,7 +1268,7 @@
                   <speaker>PANC.</speaker>
                   <l>Y aquien mata?</l>
                </sp>
-               
+
                <sp>
                   <l>FAB.</l>
                   <l>A todo el mundo.</l>
@@ -1280,7 +1283,7 @@
                   <speaker>FAB.</speaker>
                   <l>Con el aliento.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Zambomba?</l>
@@ -1298,7 +1301,7 @@
                   <l>Y con trece cuartos quieres</l>
                   <l>que compre yo esta ensalada?</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB </speaker>
                   <l>Si lo dá tambien el Rey.</l>
@@ -1313,13 +1316,13 @@
                   <speaker>FAB.</speaker>
                   <l>Vamos, pregunta.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Quien vive?</l>
                   <l>quién vive? quién víve?</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB.</speaker>
                   <l>España. </l>
@@ -1329,7 +1332,7 @@
                   <speaker>PANC.</speaker>
                   <l>Y ahora?</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB.</speaker>
                   <l>Pregunta, qué gente?</l>
@@ -1339,12 +1342,12 @@
                   <speaker>PANC.</speaker>
                   <l>Que gente?</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB.</speaker>
                   <l>Ronda.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Caramba, </l>
@@ -1393,16 +1396,17 @@
                   <l>Pues hombre vamos á ello,</l>
                   <l>ya lo aprendí</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB.</speaker>
                   <l>Pues vaya. </l>
                </sp>
-               
-               <stage rend="cursiva">Cachumeno va á salir y sedetiene.</stage>
-               
+
+               <stage rend="cursiva">Cachumeno va á salir y se detiene.</stage>
+
                <sp>
-                  <l>CACH Ay que no puedo salir,</l>
+                  <speaker>CACH</speaker>
+                  <l>Ay que no puedo salir,</l>
                   <l>que está á la puerta de guardia</l>
                   <l>un sargento y un soldado.</l>
                   <l>Esperaré á que se vayan. <stage rend="cursiva">vase.</stage></l>
@@ -1412,12 +1416,12 @@
                   <speaker>PANC.</speaker>
                   <l>Quien vive?</l>
                </sp>
-               
+
                <sp>
                   <speaker>FAB.</speaker>
                   <l>España. </l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Qué gente?</l>
@@ -1427,7 +1431,7 @@
                   <speaker>FAB.</speaker>
                   <l>Ronda mayor.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC</speaker>
                   <l>Pues avanza.</l>
@@ -1450,23 +1454,20 @@
                   <l>Cuidado que no te tardes,</l>
                   <l>Porque la hambre me mata. </l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb/>Cachumeno abre la puerta, y para salir se
-                  <lb/>mete por entre las piernas de Pancho, de-
-                  <lb/>jándole caer de espaldas y escapa sin que
-                  <lb/>lo vea.
-               </stage>
+                  <lb/>Cachumeno abre la puerta, y para salir se <lb/>mete por entre las piernas de
+                  Pancho, de- <lb/>jándole caer de espaldas y escapa sin que <lb/>lo vea. </stage>
 
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Ya se fué el sargento, y queda</l>
                   <l>solo el soldado de guardia,</l>
-                  
-               <pb n="7"/>
-                  
-               <fw type="paginaNum">7</fw>
-                  
+
+                  <pb n="7" source="Moreno_192_7.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
                   <l>y yo no puedo salir:</l>
                   <l>don Florindo que me aguarda</l>
                   <l>con la respuesta, estará....</l>
@@ -1491,11 +1492,14 @@
                   <l>Señores, quien me ha metido</l>
                   <l>á mi en esta salagarda?</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Florindo y Cachumeno.</stage>
-               
+
                <sp>
-                  <speaker>CAHC </speaker>
+                  <speaker><choice>
+                        <sic>CAHC</sic>
+                        <corr>CACH</corr>
+                     </choice></speaker>
                   <l>Señor don Florindo, sepa</l>
                   <l>vd. que le ví la cara</l>
                   <l>al miedo, pero escapé.</l>
@@ -1524,7 +1528,7 @@
                   <speaker>FLOR.</speaker>
                   <l>Puos estamos mal.</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANCH.</speaker>
                   <l>Abanza.</l>
@@ -1544,20 +1548,20 @@
                   <speaker>CACH.</speaker>
                   <l>Voy en un brinco.</l>
                </sp>
-               
+
                <sp>
                   <speaker>FLOR.</speaker>
                   <l>Amiguito.</l>
                   <l>qué tal va? </l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC. </speaker>
                   <l>Quién vive? avanza:</l>
                   <l>venga la racion de pan</l>
                   <l>que ya la tengo ganada.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Cachumeno y Rosaura.</stage>
 
                <sp>
@@ -1573,7 +1577,7 @@
                   <l>que han puesto á este estafermo</l>
                   <l>de centinela, Dí?</l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Avanza.</l>
@@ -1593,7 +1597,7 @@
                </sp>
 
                <sp>
-                  <speaker>RoS.</speaker>
+                  <speaker>ROS.</speaker>
                   <l>Lo estorbará ese panarra,</l>
                   <l>pues teniendo armas de fuego....</l>
                </sp>
@@ -1602,7 +1606,7 @@
                   <speaker>FLOR.</speaker>
                   <l>Para mí, prenda adorada,</l>
                   <l>ese es corto inconveniente</l>
-                  <l>Atienda usted,. camarada.</l>
+                  <l>Atienda usted, camarada.</l>
                </sp>
 
                <sp>
@@ -1627,7 +1631,11 @@
                   <speaker>FLOR.</speaker>
                   <l>En el corazon las llevas</l>
                   <l>si me hablas otra palabra.</l>
-                  <l>nos. Ya que has dejado el fusil,</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Ya que has dejado el fusil,</l>
                   <l>te has de quitar la casaca;</l>
                   <l>vaya, quitatela pronto.</l>
                </sp>
@@ -1648,9 +1656,12 @@
                   <speaker>CACH.</speaker>
                   <l>A Dios, centinela.</l>
                </sp>
-               
+
                <sp>
-                  <speaker>PANH.</speaker>
+                  <speaker><choice>
+                        <sic>PANH</sic>
+                        <corr>PANCH</corr>
+                     </choice>.</speaker>
                   <l>Avanza.</l>
                </sp>
 
@@ -1663,7 +1674,7 @@
                <sp>
                   <speaker>CACH.</speaker>
                   <l>Amigo, para otra vez</l>
-                  <l>aprenda vd, hacer la guardia. va sen.</l>
+                  <l>aprenda vd, hacer la guardia. <stage rend="cursiva">va sen.</stage></l>
                </sp>
 
                <sp>
@@ -1673,18 +1684,18 @@
                   <l>pero no que me darian</l>
                   <l>un puntapié en la culata </l>
                </sp>
-               
+
                <stage rend="cursiva">Sale don Tiburcio.</stage>
 
                <sp>
-                  <speaker>TIR.</speaker>
+                  <speaker>TIB.</speaker>
                   <l>Ya queda todo dispuesto, </l>
                   <l>hoy ha de quedar sin falta</l>
                   <l>en unconvento mi hija,</l>
                </sp>
-               
-               <pb n="8"/>
-               
+
+               <pb n="8" source="Moreno_192_8.jpg"/>
+
                <fw type="paginaNum">8</fw>
 
                <sp>
@@ -1725,7 +1736,7 @@
                   <l>y si el rancho no me trae</l>
                   <l>esta vida es arto mala.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale D. Tiburcio.</stage>
 
                <sp>
@@ -1736,7 +1747,7 @@
                   <l>tengo de vengar mi rabia;</l>
                   <l>toma, infame. <stage rend="cursiva">le dá.</stage></l>
                </sp>
-               
+
                <sp>
                   <speaker>PANC.</speaker>
                   <l>Hola! este pan</l>
@@ -1747,7 +1758,7 @@
                   <speaker>TIB.</speaker>
                   <l>La paga asi te la doy.</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Fabricio.</stage>
 
                <sp>
@@ -1772,7 +1783,7 @@
                   <l>Usted se ha tardado mucho,</l>
                   <l>la obligacion me llamaba,</l>
                   <l>dejé aqui este centinela, </l>
-                  <l>y veo, segun latraza,</l>
+                  <l>y veo, segun la traza,</l>
                   <l>que tambien á el han quitado</l>
                   <l>el fusil y la casaca.</l>
                </sp>
@@ -1782,7 +1793,7 @@
                   <l>Donde podré yo encontrar</l>
                   <l>á esta hija mia malvada?</l>
                </sp>
-               
+
                <stage rend="cursiva">Sale Florindo y Rosaura.</stage>
 
                <sp>
@@ -1794,7 +1805,7 @@
                   <speaker>FLOR.</speaker>
                   <l>A mi obediencia postrada</l>
                   <l>os la pido para esposa,</l>
-                  <l>pues ya en mi poder se halla.</l>
+                  <l>pues ya en mí poder se halla.</l>
                </sp>
 
                <sp>
@@ -1810,7 +1821,10 @@
                </sp>
 
                <sp>
-                  <speaker>FAR.</speaker>
+                  <speaker><choice>
+                        <sic>FAR</sic>
+                        <corr>FAB</corr>
+                     </choice>.</speaker>
                   <l>Sí por lo bien que has cumplido.</l>
                   <l>Qué hiciste de la casaca?</l>
                </sp>
@@ -1825,24 +1839,30 @@
                   <speaker>PANC.</speaker>
                   <l>Vamos al rancho por dios,</l>
                   <l>porque tengo buenas ganas.</l>
-                  <l>FAR Lo mejor será que vuelvas</l>
+               </sp>
+
+               <sp>
+                  <speaker><choice>
+                        <sic>FAR</sic>
+                        <corr>FAB</corr>
+                     </choice></speaker>
+                  <l>Lo mejor será que vuelvas</l>
                   <l>á guardar machos y cabras. </l>
                </sp>
-               
+
                <sp>
                   <speaker>TODOS.</speaker>
                   <l>Y aqui acaba este sainete,</l>
                   <l>perdonar sus muchas faltas.</l>
                </sp>
-               
+
                <trailer rend="negrita">FIN</trailer>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb/>REIMPRESO EN CARMONA.
-                  <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
-               </p>
+                  <lb/>REIMPRESO EN CARMONA. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la
+                  Cabra núm. 4. </p>
             </div>
          </div>
       </body>

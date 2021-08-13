@@ -42,11 +42,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5041119</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 239</idno>
                   </altIdentifier>
@@ -72,7 +74,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_230_1.xml">grabado_m_230_1</item>
@@ -85,6 +87,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -113,7 +121,8 @@
       <revisionDesc>
          <change when="2021-04-14" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,17 +132,18 @@
       <body>
          <div>
             <div>
-               
-               <pb n="1"/>
-               
+
+               <pb n="1" source="Moreno_230_1.jpg"/>
+
                <fw type="impresorNum">(Número 239.)</fw>
-               
+
                <head type="primer_titulo">ANDRIONICO Y EL LEON.</head>
-               
-               <head type="subtitulo">Romance en que se refiere el cautive rio y aventuras de Andrionico. Dáse
-               <lb/>cuenta de sus amores, y de lo que le sucedió con un leon, que reconocido
-               <lb/>á los beñeficios que de él habia recibido, se humilló á sus pies.</head>
-               
+
+               <head type="subtitulo">Romance en que se refiere el cautive rio y aventuras de
+                  Andrionico. Dáse <lb/>cuenta de sus amores, y de lo que le sucedió con un leon,
+                  que reconocido <lb/>á los beñeficios que de él habia recibido, se humilló á sus
+                  pies.</head>
+
                <l rend="indent">Escúchame, Invicto Cesar,</l>
                <l>si el escuchar no te enfada;</l>
                <l>y verás, que de Esclavonia</l>
@@ -174,9 +184,9 @@
                <l>es la mia y que me llaman</l>
                <l>Andrionico, pues mi padre</l>
                <l>así tambien se llamaba,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_230_2.jpg"/>
+
                <l>y mis abuelos lo mismo,</l>
                <l>por ser familia tan clara</l>
                <l>como la de Fábio en Roma,</l>
@@ -265,9 +275,9 @@
                <l>que por la puerta se entraba</l>
                <l>un feroz leon, y que</l>
                <l>manos, pechos, boca y barba</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_230_3.jpg"/>
+
                <l>tenia en sangre teñidas,</l>
                <l>cuyas señales me daban</l>
                <l>á entender, ser de algun hombre</l>
@@ -356,9 +366,9 @@
                <l>ocasion á que dejára</l>
                <l>este sitio, por la pena;</l>
                <l>mas mi tiraña desgracia</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_230_4.jpg"/>
+
                <l>me llevó donde los mismos,</l>
                <l>que á mí, señor, me buscaban</l>
                <l>me prendieron, y á mi amo</l>
@@ -421,13 +431,12 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA. =1859.
-                  <lb/>Imprenta de D. José M. Moreno, calle Juan de la Cabra.
+                  <lb/>CARMONA. =1859. <lb/>Imprenta de D. José M. Moreno, calle Juan de la Cabra.
                </p>
             </div>
-            
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

@@ -35,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
+                  <idno type="DOI">10.5281/zenodo.5040796</idno>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 209</idno>
                   </altIdentifier>
@@ -69,7 +71,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="3">Tres grabados (p.1)</decoNote>
+                     <decoNote n="3" type="num_grabados">Tres grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_198_1.xml">grabado_m_198_1</item>
@@ -83,6 +85,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -111,7 +119,8 @@
       <revisionDesc>
          <change when="2021-03-19" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,20 +130,23 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_198_1.jpg"/>
 
                <fw type="impresorNum">(Número 209.)</fw>
 
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">PASILLO</hi>
-                  <lb/>DE
-                  <lb/>DIEGO CORRIENTE.
-               </head>
+                  <lb/>DE <lb/>DIEGO CORRIENTE. </head>
 
                <div n="1" type="parte">
                   <div type="reparto">
                      <head type="reparto_titulo">PERSONAS.</head>
-                     <castList><castItem>GASPAR,</castItem><castItem> DIEGO,</castItem><castItem> CONSUELO Y </castItem><castItem>EL RENEGAO.</castItem></castList>
+                     <castList>
+                        <castItem>GASPAR,</castItem>
+                        <castItem> DIEGO,</castItem>
+                        <castItem> CONSUELO Y </castItem>
+                        <castItem>EL RENEGAO.</castItem>
+                     </castList>
                   </div>
 
                   <div>
@@ -184,11 +196,11 @@
                         <l>Y yo le alabo ergusto</l>
                         <l>yo como, é lo que trabajo</l>
                         <l>y le igo que socorra</l>
-                        
-                     <pb n="2"/>
-                        
-                     <fw type="paginaNum">2</fw>
-                        
+
+                        <pb n="2" source="Moreno_198_2.jpg"/>
+
+                        <fw type="paginaNum">2</fw>
+
                         <l>á los probes esdichao,</l>
                         <l>lo que á tanto riejo junta</l>
                         <l>penando po esos campo.</l>
@@ -254,9 +266,9 @@
                         <l>una misita te mando</l>
                         <l>si libras á mi compañero</l>
                         <l>de fatigas y trabajos.</l>
-                        
+
                         <stage rend="cursiva">(Se oye una voz.)</stage>
-                        
+
                         <l>Consuelo del alma mia,</l>
                         <l>la de los ojitos garsos.</l>
                         <l>muerto está mi corazon,</l>
@@ -277,9 +289,9 @@
                      <sp>
                         <speaker rend="cursiva">Cons.</speaker>
                         <l>Mi nombre viene cantando.</l>
-                        
+
                         <stage rend="cursiva">(La voz mas cerca.)</stage>
-                        
+
                         <l>Alla vá Diego Corriente,</l>
                         <l>con su caballo cuatrarbo</l>
                         <l>su jembra en el pensamiento,</l>
@@ -298,9 +310,9 @@
                         <l>é que está escubierto el campo,</l>
                         <l>que entro la venta aguarda</l>
                         <l>y el cantá es su reclamo.</l>
-                        
+
                         <stage rend="cursiva">(La voz mas cerca.)</stage>
-                        
+
                         <l>Vale mas de mi Consuelo</l>
                         <l>la gracia, sandunga y garbo</l>
                         <l>que los tesoros que tiene</l>
@@ -367,11 +379,11 @@
                         <l>ven acá y sientate aqui</l>
                         <l>que tu Diego te ba á isí</l>
                         <l>to lo que tu saber quiere,</l>
-                        
-                     <pb n="3"/>
-                        
-                     <fw type="paginaNum">3</fw>
-                        
+
+                        <pb n="3" source="Moreno_198_3.jpg"/>
+
+                        <fw type="paginaNum">3</fw>
+
                         <l>dejé aller tarde la venta</l>
                         <l>cuando er só se abia ocultáo</l>
                         <l>y le ije ar tio Pelao</l>
@@ -425,7 +437,7 @@
                         <l>sentió la mesma alegria</l>
                         <l>los angeles que los hombres.</l>
                      </sp>
-                     
+
                      <sp>
                         <speaker rend="cursiva">Cons. </speaker>
                         <l>Debera está mu salao,</l>
@@ -485,9 +497,9 @@
                         <l>niña, el hombre que tu ama</l>
                         <l>con tu queré solo é rico.</l>
                      </sp>
-                     
-                     <pb n="4"/>
-                        
+
+                     <pb n="4" source="Moreno_198_4.jpg"/>
+
                      <fw type="paginaNum">4</fw>
 
                      <sp>
@@ -603,20 +615,22 @@
                         <l>Que no se enteren que</l>
                         <l>estamos en este sitio: A viví.</l>
                      </sp>
-                     
+
                      <trailer>FIN DE LA PRIMERA PARTE.</trailer>
                   </div>
                </div>
 
                <div n="2" type="parte">
 
-                  <pb n="5"/>
+                  <pb n="5" source="Moreno_198_5.jpg"/>
 
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
 
                   <div type="reparto">
                      <head type="reparto_titulo">PERSONAS.</head>
-                     <castList><castItem>DIEGO Y CONSUELO.</castItem></castList>
+                     <castList>
+                        <castItem>DIEGO Y CONSUELO.</castItem>
+                     </castList>
                   </div>
 
                   <div>
@@ -678,11 +692,11 @@
                         <l>yo.... que tanto te queria</l>
                         <l>Torre de Santa Maria</l>
                         <l>ya no te gorberé á vé,</l>
-                        
-                     <pb n="6"/>
-                        
-                     <fw type="paginaNum">6</fw>
-                        
+
+                        <pb n="6" source="Moreno_198_6.jpg"/>
+
+                        <fw type="paginaNum">6</fw>
+
                         <l>por líbertá una mugé</l>
                         <l>yo vine á entregarme hoy...</l>
                         <l>y por mi desgracia estoy</l>
@@ -708,7 +722,7 @@
                         <l>«¡Po el arma é Diego Coriente</l>
                         <l>á quien van á justisiá?</l>
                      </sp>
-                     
+
                      <sp>
                         <speaker rend="cursiva">Cons. </speaker>
                         <l><stage rend="cursiva">(Entrando)</stage> ¡Diego! </l>
@@ -751,7 +765,7 @@
                         <l>jasé una cosa orp mi...</l>
                         <l>«¡cuanto te lo agraesiera!»</l>
                      </sp>
-                     
+
                      <sp>
                         <speaker rend="cursiva">Cons.</speaker>
                         <l>Yo lo jaré.</l>
@@ -815,7 +829,7 @@
                         <speaker rend="cursiva">Dieg.</speaker>
                         <l>¿Tendrás valor?</l>
                      </sp>
-                     
+
                      <sp>
                         <speaker rend="cursiva">Cons.</speaker>
                         <l>Lo tendré.</l>
@@ -847,11 +861,11 @@
                         <l>con mis manos romperé.</l>
                         <l>las caenas que te ligan. <stage rend="cursiva">(Pausa.)</stage></l>
                      </sp>
-                     
+
                      <stage rend="cursiva">Acompaña la accion.</stage>
-                        
-                     <pb n="7"/>
-                        
+
+                     <pb n="7" source="Moreno_198_7.jpg"/>
+
                      <fw type="paginaNum">7</fw>
 
                      <sp>
@@ -961,11 +975,11 @@
                         <l>si no me mata er doló,</l>
                         <l>yo nunca podré ofreserte,</l>
                         <l>Diego aqui tengo mi suerte.</l>
-                        
+
                         <stage rend="cursiva">(Mostrandole el relicario.)</stage>
-                        
+
                         <l>Esta es la prueba mayor.</l>
-                        
+
                         <stage rend="cursiva">(Lo vesa y lo arrojapor laventana)</stage>
                      </sp>
 
@@ -1003,17 +1017,17 @@
                         <l>quisá el último, ¿ay mi bíen?</l>
                         <l>que cuando las doce den</l>
                         <l>me lleban á la capilla. <stage rend="cursiva">(Pausa.)</stage></l>
-                        
+
                         <stage rend="cursiva">(Dá un reló las doce)</stage>
-                        
+
                         <l>¿Ay el reló é la Audencia</l>
                         <l>por mi bienen no hay remedio.</l>
                         <l>Ya llegó la orita amarga:</l>
-                        
-                     <pb n="8"/>
-                        
-                     <fw type="paginaNum">8</fw>
-                        
+
+                        <pb n="8" source="Moreno_198_8.jpg"/>
+
+                        <fw type="paginaNum">8</fw>
+
                         <l>¿aonde está corazon mio?</l>
                         <l>güerbe á recobrá tu brio;</l>
                         <l>la sereniá me barga. </l>
@@ -1044,7 +1058,7 @@
                         <l>¡Ay me yeban á morí! </l>
                         <l>ponte luto siquiea un dia.</l>
                      </sp>
-                     
+
                      <stage rend="cursiva">El Escribano, (lee)</stage>
 
                      <sp>
@@ -1067,12 +1081,12 @@
                         <speaker rend="cursiva">Dieg.</speaker>
                         <l>Consuelo! </l>
                      </sp>
-                     
+
                      <sp>
                         <speaker rend="cursiva">Cons.</speaker>
                         <l>¡Diego!. </l>
                      </sp>
-                     
+
                      <sp>
                         <speaker rend="cursiva">Dieg.</speaker>
                         <l>La muerte cerca me ví,</l>
@@ -1096,7 +1110,7 @@
                         <l>er que á los ricos robaba,</l>
                         <l>y á los probes socorria.</l>
                      </sp>
-                     
+
                      <trailer rend="negrita">FIN.</trailer>
                   </div>
                </div>

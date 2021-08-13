@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,7 +20,7 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Sainete del Sí</title>
+                  <title type="titulo_completo">Sainete del Sí.</title>
                   <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5045999</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 277</idno>
                   </altIdentifier>
@@ -74,9 +77,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -102,7 +111,9 @@
       <revisionDesc>
          <change when="2021-03-22" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-02" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -111,7 +122,7 @@
    <text>
       <body>
          <div>
-            <pb n="1"/>
+            <pb n="1" source="Moreno_263_1.jpeg"/>
 
             <fw type="impresorNum">Núm. 277.</fw>
 
@@ -139,9 +150,9 @@
             </div>
 
             <div>
-               <pb n="2"/>
+               <pb n="2" source="Moreno_263_2.jpeg"/>
 
-               <pb n="3"/>
+               <pb n="3" source="Moreno_263_3.jpeg"/>
 
                <head type="subtitulo">SAINETE DEL SI.</head>
 
@@ -178,7 +189,7 @@
                   <l>un hombre tan majadero,</l>
                   <l>que con nosotros viniera,</l>
                   <l>y metiéndole en un coche, </l>
-                  <l>bien vestido, á una almoneda</l>
+                  <l>bien vestido, a una almoneda</l>
                   <l>le lleváremos, y todos</l>
                   <l>con muy grandes reverencias,</l>
                   <l>fingiéndonos criados suyos,</l>
@@ -189,7 +200,7 @@
                   <l>venia desde su tierra,</l>
                   <l>y despues de haber tomado</l>
                   <l>fuentes, braseros y telas,</l>
-                  <l>dicie ndo que ibamos todos</l>
+                  <l>diciendo que ibamos todos</l>
                   <l>por dineró, á él en la tienda</l>
                   <l>le dejáramos, yo sé</l>
                   <l>que pudierá aquesta treta</l>
@@ -221,7 +232,7 @@
                   <l>que viene gente.</l>
                </sp>
 
-               <stage>Sale el Vejete y el Gracioso,</stage>
+               <stage rend="cursiva">Sale el Vejete y el Gracioso,</stage>
 
                <sp>
                   <speaker rend="cursiva">Vejete.</speaker>
@@ -231,14 +242,14 @@
                   <l>me habló el otro dia? </l>
                </sp>
 
-               <pb n="4"/>
+               <pb n="4" source="Moreno_263_4.jpeg"/>
 
                <fw type="paginaNum">4</fw>
 
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Yo,</l>
-                  <l>bien le vi, mas si las señas</l>
+                  <l>bien le ví, mas si las señas</l>
                   <l>el no me dá, no es posible</l>
                   <l>conocerle aunque le viera.</l>
                </sp>
@@ -256,12 +267,13 @@
                <sp>
                   <speaker rend="cursiva">Vejete.</speaker>
                   <l>Tan alto.</l>
-                  <l>Pone la mano alla, y siempre es-</l>
-                  <l>tá de aquella suerte.</l>
                </sp>
-               
+
+               <stage rend="cursiva">
+                  <lb/>Pone la mano alla, y síempre es- <lb/>tá de aquella suerte. </stage>
+
                <sp>
-                  <speaker>Gracioso.</speaker>
+                  <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Estese quedito.</l>
                </sp>
 
@@ -297,7 +309,7 @@
                   <l>y vete con mil demonios,</l>
                   <l>que por no verte, quisiera</l>
                   <l>no mandarte nunca nada,</l>
-                  <l>y servirme yo. <stage>Vase.</stage></l>
+                  <l>y servirme yo. <stage rend="cursiva">Vase.</stage></l>
                </sp>
 
                <sp>
@@ -318,7 +330,7 @@
                   <speaker>1.</speaker>
                   <l>Pues lleguemos.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Vaya de esta.</l>
@@ -328,25 +340,25 @@
                   <speaker>2.</speaker>
                   <l>Ay que me ha muerto.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Este es grande:</l>
                   <l>vamos á este otro.</l>
                </sp>
-               
+
                <stage>Mide al primero.</stage>
 
                <sp>
                   <speaker>1.</speaker>
                   <l>Qué intentas?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Este es chico.</l>
                </sp>
-               
+
                <stage>Mide al segundo.</stage>
 
                <sp>
@@ -354,29 +366,33 @@
                   <l>Majadero,</l>
                   <l>baja este brazo.</l>
                </sp>
-               
+
                <stage>Baja el brazo.</stage>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Ay águila,</l>
                   <l>que se me ha ido aquí! </l>
                   <l>ay San Antonio! ay mi muestra!</l>
                </sp>
-               
+
                <stage>Hace que la busca.</stage>
 
                <sp>
                   <speaker>1.</speaker>
                   <l>Qué buscas?</l>
-                  <l>Gracioso Aquí cayó.</l>
+               </sp>
+
+               <sp>
+                  <speaker>Gracioso.</speaker>
+                  <l>Aquí cayó.</l>
                </sp>
 
                <sp>
                   <speaker>2.</speaker>
                   <l>Qué se ha caido?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>La mesma</l>
@@ -389,7 +405,7 @@
                   <l>Cumplióse apriesa</l>
                   <l>nuestro deseo, que es simple.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Ay mi medida.</l>
@@ -399,7 +415,7 @@
                   <speaker>1.</speaker>
                   <l>Eso deja.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso. </speaker>
                   <l>Ayúdenmela á buscar,</l>
@@ -412,7 +428,7 @@
                   <l>Pues para que no le temas,</l>
                   <l>puedes venir con nosotros.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Y habrá de comer siquiera</l>
@@ -426,12 +442,12 @@
                   <l>capones, tortas rellenas</l>
                   <l>de guindas, y manjar blanco.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Para mi solo? </l>
                </sp>
-               
+
                <sp>
                   <speaker>2.</speaker>
                   <l>Si.</l>
@@ -449,21 +465,21 @@
                   <l>que todo esto te daré,</l>
                   <l>si haces lo que yo te advierta.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso. </speaker>
-                  <l>Y qué he de hacer?</l> 
+                  <l>Y qué he de hacer?</l>
                </sp>
 
                <sp>
                   <speaker>2.</speaker>
                   <l>Que vestido de gala,</l>
                   <l>y plumas diversas,</l>
-                  
-                  <pb n="5"/>
-                  
+
+                  <pb n="5" source="Moreno_263_5.jpeg"/>
+
                   <fw type="paginaNum">5</fw>
-                  
+
                   <l>has de venir con nosotros,</l>
                   <l>y entrar en una almoneda,</l>
                   <l>y á cuanto te preguntaren,</l>
@@ -472,7 +488,7 @@
                   <l>tal vez cuando te se ofrezca,</l>
                   <l>dí tambien, es mucha cosa.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso.</speaker>
                   <l>Como yo coma sin pena</l>
@@ -488,7 +504,7 @@
                   <speaker>2.</speaker>
                   <l>Que en fin lo harás?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gra.</speaker>
                   <l>Sí.</l>
@@ -503,7 +519,7 @@
                   <speaker>1.</speaker>
                   <l>Cómo te llamas? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracioso. </speaker>
                   <l>Si.</l>
@@ -520,7 +536,7 @@
                   <l>Mas pregunto tu simpleza,</l>
                   <l>nos has de echar á perder? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gr. </speaker>
                   <l>Si.</l>
@@ -531,7 +547,7 @@
                   <l>A mil diablos, si esto hicieras,</l>
                   <l>te daria.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Gracios.</speaker>
                   <l>Es mucha cosa.</l>
@@ -543,12 +559,12 @@
                   <l>imaginado, ninguno</l>
                   <l>mas á propósito fuera.</l>
                </sp>
-               
-               <stage>Entranse, y sale el Almonedero con su mujer.</stage>
+
+               <stage rend="cursiva">Entranse, y sale el Almonedero con su mujer.</stage>
 
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
-                  <l>Cuelga aquestas polieras.</l>
+                  <l>Cuelga aquestas polieras,</l>
                   <l>ponlas enfrente de las ordinarias,</l>
                   <l>para que mas reluzca la esterilla,</l>
                   <l>alcanza ese vestido, y mas le ensancha,</l>
@@ -578,8 +594,8 @@
                   <speaker rend="cursiva">Dentro.</speaker>
                   <l>Para, para.</l>
                </sp>
-               
-               <stage>Sale Cosme de gala, con pluma y banda.</stage>
+
+               <stage rend="cursiva">Sale Cosme de gala, con pluma y banda.</stage>
 
                <sp>
                   <speaker>1.</speaker>
@@ -615,16 +631,16 @@
 
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
-                  <l>Quiere vueseñoria sentarse;</l>
+                  <l>Quiere vueseñoria sentarse¿</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Cosme.</speaker>
                   <l>Sí.</l>
                </sp>
-               
-               <pb n="6"/>
-                  
+
+               <pb n="6" source="Moreno_263_6.jpeg"/>
+
                <fw type="paginaNum">6</fw>
 
                <sp>
@@ -660,7 +676,7 @@
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
                   <l>Quiere vueseñoría,</l>
-                  <l>este aguamanil y esta vacia?</l>
+                  <l>este aguamanil y esta vacìa?</l>
                </sp>
 
                <sp>
@@ -691,7 +707,7 @@
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Almonod.</speaker>
+                  <speaker rend="cursiva">Almoned.</speaker>
                   <l>Gran caballero.</l>
                </sp>
 
@@ -705,14 +721,14 @@
                   <speaker rend="cursiva">Almoned.</speaker>
                   <l>Todo tiene su tasa. </l>
                </sp>
-               
+
                <sp>
                   <speaker>2. </speaker>
                   <l>Eso queremos,</l>
                   <l>y en ajustando por dinero iremos,</l>
                   <l>si gusta vueseñoría. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Cosme. </speaker>
                   <l>Sí.</l>
@@ -741,14 +757,14 @@
 
                <sp>
                   <speaker>1.</speaker>
-                  <l>Son melancolicones..</l>
+                  <l>Son melancolicones.</l>
                   <l>y el Varon de Grandi trae un cuidado,</l>
                   <l>que está de un imposible enamorado.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Mujer.</speaker>
-                  <l>Su grán silencio admira.</l>
+                  <l>Su gran silencio admira.</l>
                </sp>
 
                <sp>
@@ -800,9 +816,9 @@
                   <l>porque halle el coche desembarazado</l>
                   <l>el Varon mi señor para volverse.</l>
                </sp>
-               
-               <pb n="7"/>
-                  
+
+               <pb n="7" source="Moreno_263_7.jpeg"/>
+
                <fw type="paginaNum">7</fw>
 
                <sp>
@@ -845,7 +861,10 @@
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
                   <l>Ola, Teresa,</l>
-                  <l>luego al instante pon aquí la mesa.</l>
+                  <l>luego al instante <choice>
+                        <sic>pon</sic>
+                        <corr>por</corr>
+                     </choice> aquí la mesa.</l>
                </sp>
 
                <sp>
@@ -865,7 +884,10 @@
 
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
-                  <l>Cracias á Dios que hallé una polla blanda; </l>
+                  <l><choice>
+                        <sic>Cracias</sic>
+                        <corr>Gracias</corr>
+                     </choice> á Dios que hallé una polla blanda; </l>
                   <l>quiere vueseñoría un bocado?</l>
                </sp>
 
@@ -873,8 +895,8 @@
                   <speaker rend="cursiva">Cosme.</speaker>
                   <l>Sí, gran cosa es, señor, el ser soldado.</l>
                </sp>
-               
-               <stage>Llega la silla á la mesa Cosme, y pónese á comer.</stage>
+
+               <stage rend="cursiva">Llega la silla á la mesa Cosme, y pónese á comer.</stage>
 
                <sp>
                   <speaker rend="cursiva">Almoned.</speaker>
@@ -892,7 +914,7 @@
                   <l>Digo, aquestos criados</l>
                   <l>no quisiera que fueran redomados,</l>
                   <l>y se llevasen lo que os he vendido:</l>
-                  <l>pareceos que con todo se habrán ido?</l>
+                  <l>pareceos que con todo se habrán ído?</l>
                </sp>
 
                <sp>
@@ -963,9 +985,9 @@
                   <speaker rend="cursiva">Almoned.</speaker>
                   <l>Es verdad que has venido disfrazado?</l>
                </sp>
-               
-               <pb n="8"/>
-               
+
+               <pb n="8" source="Moreno_263_8.jpeg"/>
+
                <fw type="paginaNum">8</fw>
 
                <sp>
@@ -1057,7 +1079,7 @@
                   <l>no, no, no,</l>
                   <l>cuantos entendidos</l>
                   <l>opinion cobran,</l>
-                  <l>si, sí, sí,</l>
+                  <l>sí, sí, sí,</l>
                   <l>con un sí solamente,</l>
                   <l>y un mucha cosa,</l>
                   <l>no, no, no, no, no.</l>

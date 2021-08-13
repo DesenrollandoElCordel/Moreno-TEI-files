@@ -35,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5060401</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 351</idno>
                   </altIdentifier>
@@ -65,7 +67,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="3">Tres grabados (p.1)</decoNote>
+                     <decoNote n="3" type="num_grabados">Tres grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_323_1.xml">grabado_m_323_1</item>
@@ -79,6 +81,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -107,7 +115,8 @@
       <revisionDesc>
          <change when="2021-04-12" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,7 +126,7 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_323_1.jpeg"/>
 
                <fw type="impresorNum"><choice>
                      <sic>Nómero</sic>
@@ -125,9 +134,7 @@
                   </choice> 351.</fw>
 
                <head rend="negrita" type="primer_titulo">
-                  <lb/>COPLAS
-                  <lb/>DE SEGUIDILLAS.
-               </head>
+                  <lb/>COPLAS <lb/>DE SEGUIDILLAS. </head>
 
                <lg>
                   <l rend="indent">En el piélago inmenso</l>
@@ -178,7 +185,7 @@
                   <l>con los gustos quo logra</l>
                   <l>la pena pasa.</l>
                </lg>
-               <pb n=""/>
+               <pb n="" source="Moreno_323_.jpeg"/>
 
                <lg>
                   <l rend="indent">Ciego quedé al mirarte, </l>
@@ -289,7 +296,7 @@
                   <l>mas quiero estés con gusto</l>
                   <l>que no quejósa,</l>
                </lg>
-               <pb n=""/>
+               <pb n="" source="Moreno_323_.jpeg"/>
 
                <lg>
                   <l rend="indent">Dos mil ansias padece</l>
@@ -400,7 +407,7 @@
                   <l>no hay tesoro en el mundo</l>
                   <l>que se la iguale.</l>
                </lg>
-               <pb n=""/>
+               <pb n="" source="Moreno_323_.jpeg"/>
 
                <lg>
                   <l rend="indent">Es tan grande el imperio</l>
@@ -497,9 +504,8 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1861.
-                  <lb/>Imprenta de Don José María Moreno, calle de Madre de Dios, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1861. <lb/>Imprenta de Don José María Moreno, calle de Madre de
+                  Dios, núm. 1. </p>
             </div>
          </div>
       </body>

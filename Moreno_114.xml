@@ -39,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5031527</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 123</idno>
                   </altIdentifier>
@@ -69,7 +71,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="3">Tres grabados (p.1)</decoNote>
+                     <decoNote n="3" type="num_grabados">Tres grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_114_1.xml">grabado_m_114_1</item>
@@ -83,6 +85,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -102,15 +110,17 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
-               <term type="tipo_estrofa" target="XX527614.html">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,17 +130,16 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_114_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 123.)</fw>
-               
+
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">SATIRA GRACIOSA,</hi>
-                  <lb/>EN LA QUE SE MANIFIESTAN
-                  <hi rend="cursiva"><lb/>los nombres, propiedades y faltas, que las mugeres han notado en los
-                  <lb/>hombres que hay en el dia.</hi>
+                  <lb/>EN LA QUE SE MANIFIESTAN <hi rend="cursiva"><lb/>los nombres, propiedades y
+                     faltas, que las mugeres han notado en los <lb/>hombres que hay en el dia.</hi>
                </head>
-               
+
                <l rend="indent">Escuche todo viviente,</l>
                <l>el que me quiera escuchar</l>
                <l>varias faltas que en los hombres, </l>
@@ -167,9 +176,9 @@
                <l>en el arte de engañar:</l>
                <l>dicen que hubo muchos justos</l>
                <l>en tiempo del padre Adan:</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_114_2.jpg"/>
+
                <l>¡qué lástima que el diluvio</l>
                <l>causase tal mortandad!</l>
                <l>La memoria en los Manueles</l>
@@ -262,9 +271,9 @@
                <l>¡vaya una casualidad!.</l>
                <l>En punto á los Alejandros,</l>
                <l>dificil es acertar,</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_114_3.jpg"/>
+
                <l>porque son tan solapados</l>
                <l>que ¡quién los ha de juzgar!</l>
                <l>atendida esta razon</l>
@@ -357,9 +366,9 @@
                <l>al que los llegue á tratar!</l>
                <l>y las bienaventuranza</l>
                <l>fijamente alcanzará.</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_114_4.jpg"/>
+
                <l>Los Bráulios, nombre enfadoso,</l>
                <l>dificil de pronunciar,</l>
                <l>el primero impertinente</l>
@@ -442,14 +451,13 @@
                <l>y conoceis su verdad,</l>
                <l>echádles la bendicion</l>
                <l>por toda una eternidad.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—Imp. de D. J. M. Moreno, calle Juan de laCabra núm. 4.
-               </p>
+                  <lb/>CARMONA:—Imp. de D. J. M. Moreno, calle Juan de laCabra núm. 4. </p>
             </div>
          </div>
       </body>

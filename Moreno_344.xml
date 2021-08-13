@@ -35,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5060884</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -65,7 +67,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_344_1.xml">grabado_m_344_1</item>
@@ -77,6 +79,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -105,7 +113,8 @@
       <revisionDesc>
          <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -115,19 +124,16 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_344_1.jpg"/>
 
                <head type="primer_titulo">
-                  <lb/>MARIA SANTISIMA
-                  <lb/><hi rend="negrita">DE GRACIA.</hi>
+                  <lb/>MARIA SANTISIMA <lb/><hi rend="negrita">DE GRACIA.</hi>
                </head>
 
-               <pb n="2"/>
+               <pb n="2" source="Moreno_344_2.jpg"/>
                <head rend="negrita" type="titulo_parte">
-                  <lb/>SALVE
-                  <lb/>A MARIA SANTISIMA DE GRACIA.
-               </head>
-               
+                  <lb/>SALVE <lb/>A MARIA SANTISIMA DE GRACIA. </head>
+
                <l rend="indent">Dios te Salve, Virgen pura</l>
                <l>Reina del Cielo y le tierra, </l>
                <l>Madre de Misericordia, </l>
@@ -140,7 +146,7 @@
                <l>Gimiendo y llorando penas, </l>
                <l>En aqueste triste valle </l>
                <l>Dé lágrimas y miserias,</l>
-               <l>Ea pues diilce Señora,</l>
+               <l>Ea pues dulce Señora,</l>
                <l>Madre y Abogada nuestra,</l>
                <l>Esos tus divinos ojos </l>
                <l>A nosotros siempre, buelzas,</l>
@@ -162,12 +168,11 @@
                <l>En los Cielos y en la tierra, </l>
                <l rend="derecha">AMEN.</l>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1861
-                  <lb/>Imp. de D. José Maria Moreno, calle de Madre de Dios, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1861 <lb/>Imp. de D. José Maria Moreno, calle de Madre de Dios, núm.
+                  1. </p>
             </div>
          </div>
       </body>

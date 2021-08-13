@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5069804</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 187</idno>
                   </altIdentifier>
@@ -66,7 +69,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_372_1.xml">grabado_m_372_1</item>
@@ -79,9 +82,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -107,7 +116,9 @@
       <revisionDesc>
          <change when="2021-03-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-08" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,19 +128,18 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_372_1.jpg"/>
 
                <fw type="impresorNum">Núm. 187.</fw>
 
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">PASILLO NUEVO</hi>
-                  <lb/>TITULADO:
-                  <lb/><hi rend="negrita">EL ANIMAL DE UNGRIA.</hi>
+                  <lb/>TITULADO: <lb/><hi rend="negrita">EL ANIMAL DE UNGRIA.</hi>
                   <lb/><hi rend="negrita">LO EJECUTAN, TEODOSIA Y ROSAURA.</hi>
                </head>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Siempre tengo de reñirte,</l>
                   <l>sobre que de aquí no salgas</l>
                   <l>y tu peligro decirte?</l>
@@ -168,13 +178,13 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Cielo, en que vive el Autor</l>
-                  
-                  <pb n="2"/>
-                  
+
+                  <pb n="2" source="Moreno_372_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>de cuanto es, ha sido y fué.</l>
                </sp>
 
@@ -186,7 +196,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Sí digo.</l>
                </sp>
 
@@ -198,7 +208,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Como un Escultor figuras,</l>
                   <l>ó modelos suele hacer,</l>
                   <l>hizo al hombre.</l>
@@ -214,9 +224,9 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Sí, porque los hizo Dios</l>
-                  <l>para aumento del humanogénero</l>
+                  <l>para aumento del humano género</l>
                </sp>
 
                <sp>
@@ -234,7 +244,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>De cuanto vive en el suelo</l>
                   <l>solo al hombre le conviene,</l>
                </sp>
@@ -256,7 +266,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Eres fiera en ser tratada</l>
                   <l>como fiera, y donde quiera</l>
                   <l>del hombre cruel buscada.</l>
@@ -272,7 +282,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>No eres tú muger.</l>
                </sp>
 
@@ -282,7 +292,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Cosa que degeneró</l>
                   <l>del primero sér que fué.</l>
                </sp>
@@ -290,14 +300,14 @@
                <sp>
                   <speaker>Ros.</speaker>
                   <l>Pues á mí quién me engendró?</l>
-                  <l>porque segun vuestra fe</l>
+                  <l>porque segun vuestra fè</l>
                   <l>yo no naci como planta;</l>
                   <l>pues alma tengo, que al Cielo</l>
                   <l>mis pensamientos levanta.</l>
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Ese monte, nieve y yelo.</l>
                </sp>
 
@@ -310,7 +320,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Y estos Ciervos corredores,</l>
                   <l>y aves que vísteis volar,</l>
                   <l>no los engendra esta sierra?</l>
@@ -327,7 +337,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Engañaste.</l>
                </sp>
 
@@ -337,7 +347,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Porque en oir me entretengo</l>
                   <l>su canto, y su lengua sé.</l>
                </sp>
@@ -348,7 +358,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Yo.</l>
                </sp>
 
@@ -359,7 +369,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Dice que á su esposa adora.</l>
                </sp>
 
@@ -370,13 +380,13 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Pues eso cómo lo sabes,</l>
                   <l>si tú no entiendes las aves?</l>
                </sp>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_372_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
 
                <sp>
@@ -391,7 +401,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Ea, ya no mas porfia.</l>
                </sp>
 
@@ -402,7 +412,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Las fieras han de callar,</l>
                   <l>las fieras no han de entender,</l>
                   <l>no arguir, ni preguntar.</l>
@@ -424,7 +434,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Yo soy tu Madre y tu Padre.</l>
                </sp>
 
@@ -434,7 +444,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>El nacer de perlas madre</l>
                   <l>hija, engendra del rocio;</l>
                   <l>ábrese la concha bella,</l>
@@ -464,11 +474,11 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Por eso mismo te digo,</l>
                   <l>que el Sol que una vez llegó</l>
                   <l>á estar, Rosaura conmigo,</l>
-                  <l>en mi misma te engendró.</l>
+                  <l>en mì misma te engendró.</l>
                </sp>
 
                <sp>
@@ -485,7 +495,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Quién te dió</l>
                   <l>ese pensamiento?</l>
                </sp>
@@ -502,7 +512,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Hombre has visto?</l>
                </sp>
 
@@ -514,8 +524,8 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
-                  <l>Ay, Rosaura, que por tí</l>
+                  <speaker>TEOD.</speaker>
+                  <l>Ay, Ros.ura, que por tí</l>
                   <l>espero mi perdicion!</l>
                </sp>
 
@@ -531,11 +541,11 @@
                   <l>y volviéndose á vestir,</l>
                   <l>no me harté de bendecir</l>
                   <l>la madre que lo parió.</l>
-                  
-                  <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_372_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>Aunque tambien me reí</l>
                   <l>de ver que vestir se pudo,</l>
                   <l>y dije, madre, entre mí:</l>
@@ -544,7 +554,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Calla, que me enojas tanto,</l>
                   <l>que de mi furor me espanto,</l>
                   <l>como te sufro.</l>
@@ -558,7 +568,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Es porque pudo abrasarte, </l>
                   <l>que no por otra ocasion,</l>
                   <l>si el Sol vendria á mirarte.</l>
@@ -573,12 +583,12 @@
                   <l>que ni comer, ni dormir</l>
                   <l>he podido mas, ni verme</l>
                   <l>conmigo en quietud vivir;</l>
-                  <l>diga, Madre, estaba así</l>
+                  <l>diga, Madre, estaba asi</l>
                   <l>aquel dia que al Sol vió?</l>
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Qué dices (triste de mí!)</l>
                   <l>hombre has visto?</l>
                </sp>
@@ -590,7 +600,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Vive el Cielo, que te mate</l>
                   <l>si sales de aquesta cueva:</l>
                   <l>no temes que te maltrate,</l>
@@ -606,7 +616,7 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Advierte,</l>
                   <l>que puede darte la muerte,</l>
                   <l>si te acertase á coger,</l>
@@ -620,10 +630,10 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Sí, Rosaura.</l>
                </sp>
-               
+
                <sp>
                   <speaker>R. </speaker>
                   <l>Pues á fé</l>
@@ -631,21 +641,21 @@
                </sp>
 
                <sp>
-                  <speaker>Teod.</speaker>
+                  <speaker>TEOD.</speaker>
                   <l>Vén por aquesta espesura,</l>
                   <l>que al pié desta fuente clara</l>
                   <l>es la caza mas segura.</l>
                </sp>
-               
+
                <sp>
                   <speaker>Ros.</speaker>
                   <l>Madre si él no abrasára,</l>
                   <l>era muy mala criatura.</l>
                </sp>
-               
+
                <trailer rend="cursiva">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p><lb/>CARMONA:—Imp. y lib. de D. José M. Moreno, Madre de Dios, 1.</p>
             </div>

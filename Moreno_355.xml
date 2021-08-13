@@ -36,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5069563</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -66,7 +68,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_355_1.xml">grabado_m_355_1</item>
@@ -78,6 +80,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -106,7 +114,8 @@
       <revisionDesc>
          <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -116,13 +125,11 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_355_1.jpg"/>
 
                <head type="primer_titulo">
-                  <hi rend="negrita"><lb/>COPLA DEL CREDO
-                  <lb/>CON LA TOMA DE MORELLA.</hi>
-                  <lb/>Segun me han informado.
-               </head>
+                  <hi rend="negrita"><lb/>COPLA DEL CREDO <lb/>CON LA TOMA DE MORELLA.</hi>
+                  <lb/>Segun me han informado. </head>
 
                <lg>
                   <l rend="indent">Ha permitido mi estrella </l>
@@ -153,7 +160,7 @@
                   <l>circuló todo el recinto,</l>
                   <l>y estaban los granaderos</l>
 
-                  <pb n="2"/>
+                  <pb n="2" source="Moreno_355_2.jpg"/>
 
                   <l>todos aclamando á un grito,</l>
                   <l>á aquel Criador del cielo.</l>
@@ -266,7 +273,7 @@
                <lg>
                   <l rend="indent">Yo mismo al decirlo tiemblo,</l>
 
-                  <pb n="3"/>
+                  <pb n="3" source="Moreno_355_3.jpg"/>
 
                   <l>que fatigas pasarian </l>
                   <l>en las llamas del incendio,</l>
@@ -376,7 +383,7 @@
                   <l>llamar al Crucificado,</l>
                   <l>y podremos alcanzar</l>
 
-                  <pb n="4"/>
+                  <pb n="4" source="Moreno_355_4.jpg"/>
 
                   <l>el perdon de los pecados.</l>
                </lg>
@@ -406,17 +413,16 @@
                </lg>
 
                <p>
-                  <lb rend="indent"/>Compuesto por Antonio Sanchez Roldan, natural del viso <lb/>del Alcor,
-                  Provincia de Sevilla trabajador del campo, sin saber <lb/>leer ni escribir: el que
-                  me lea, me dispense las faltas. </p>
+                  <lb rend="indent"/>Compuesto por Antonio Sanchez Roldan, natural del viso <lb/>del
+                  Alcor, Provincia de Sevilla trabajador del campo, sin saber <lb/>leer ni escribir:
+                  el que me lea, me dispense las faltas. </p>
 
                <trailer rend="negrita">Fin.</trailer>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb/>Impreso en Sevilla.
-                  <lb/>Reimpreso en Carmona:—Imprenta de D. José M. Moreno.
+                  <lb/>Impreso en Sevilla. <lb/>Reimpreso en Carmona:—Imprenta de D. José M. Moreno.
                </p>
             </div>
          </div>

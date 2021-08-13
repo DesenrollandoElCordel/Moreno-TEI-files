@@ -38,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5040917</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 224</idno>
                   </altIdentifier>
@@ -68,7 +70,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="3">Tres grabados (p.1)</decoNote>
+                     <decoNote n="3" type="num_grabados">Tres grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_214_1.xml">grabado_m_214_1</item>
@@ -82,6 +84,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -110,7 +118,8 @@
       <revisionDesc>
          <change when="2021-04-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,18 +129,18 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_214_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 224.)</fw>
-               
+
                <head type="primer_titulo">TERESA MOJARRO Y GANGARRILLA.</head>
                <head type="subtitulo">
-                  <lb/>CHASCO <hi rend="cursiva">que le dió una vieja á un mancebo, dándole una sobrino
-                  <lb/>suya por doncella, la que sin otras fallas que tenia, era tuerta
-                  <lb/>tiñosa y calva. Compuesto por un capador de grillos, cardador de
-                  <lb/>lana de tortugas; en este presente año.</hi>
+                  <lb/>CHASCO <hi rend="cursiva">que le dió una vieja á un mancebo, dándole una
+                     sobrino <lb/>suya por doncella, la que sin otras fallas que tenia, era tuerta
+                     <lb/>tiñosa y calva. Compuesto por un capador de grillos, cardador de <lb/>lana
+                     de tortugas; en este presente año.</hi>
                </head>
-               
+
                <l rend="indent">Discreto auditorio mio,</l>
                <l>tengan en mi historia cuenta,</l>
                <l>verán con qué brevedad</l>
@@ -158,9 +167,9 @@
                <l>martes de Carnestolendas</l>
                <l>presagio de mi desdicha</l>
                <l>ó de mi fortuna adversa,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_214_2.jpg"/>
+
                <l>llegóse una vieja á mí,</l>
                <l>que he presumido que era</l>
                <l>la que engañó á san Anton</l>
@@ -247,9 +256,9 @@
                <l>para la muy sucia puerca.</l>
                <l>En fin, por ver á mi Filis</l>
                <l>me senté en una silleta:</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_214_3.jpg"/>
+
                <l>cuando la vide venir</l>
                <l>(¡Cielos, prestadme paciencia!)</l>
                <l>quien vió la muerte pintada!</l>
@@ -336,9 +345,9 @@
                <l>ninguno, pase por ella.</l>
                <l>Por fin, nos dimos las manos,</l>
                <l>y el cura á decir empieza.</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_214_4.jpg"/>
+
                <l>recive usted por esposa</l>
                <l>á la señora Teresa</l>
                <l>de Mojaro y Gangarrilla,</l>
@@ -411,15 +420,13 @@
                <l>me pasa con mi Teresa,</l>
                <l>y ahora pido á mi auditorio</l>
                <l>perdonen la impertinencia.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA.=1856.
-                  <lb/>Imprenta de D. José María Moreno, Descalzas, núm.1.
-               </p>
+                  <lb/>CARMONA.=1856. <lb/>Imprenta de D. José María Moreno, Descalzas, núm.1. </p>
             </div>
          </div>
       </body>

@@ -36,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5045414</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 240</idno>
                   </altIdentifier>
@@ -66,7 +68,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_233_1.xml">grabado_m_233_1</item>
@@ -79,6 +81,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -107,7 +115,8 @@
       <revisionDesc>
          <change when="2021-04-28" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,15 +126,16 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
-               <fw type="impresorNum">(Núm. <choice><sic>140</sic><corr>240</corr></choice>.)</fw>
-               
+               <pb n="1" source="Moreno_233_1.jpg"/>
+
+               <fw type="impresorNum">(Núm. <choice>
+                     <sic>140</sic>
+                     <corr>240</corr>
+                  </choice>.)</fw>
+
                <head type="primer_titulo">
-                  <lb/>CONDICIONES, VICIOS Y PROPIEDADES
-                  <lb/>de las Señoras Mugeres.
-               </head>
-               
+                  <lb/>CONDICIONES, VICIOS Y PROPIEDADES <lb/>de las Señoras Mugeres. </head>
+
                <l rend="indent">Promete el Cielo vestido</l>
                <l>de nubes pardas, y densas</l>
                <l>agua al mundo, y tempestades</l>
@@ -156,9 +166,9 @@
                <l>cosa buena en su defensa:</l>
                <l>asi lo dice Alarcón,</l>
                <l>afirmando, que las hembras</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_233_2.jpg"/>
+
                <l>son garzas en las ventanas,</l>
                <l>picoraces en las puertas,</l>
                <l>escorpiones en las calles,</l>
@@ -239,9 +249,9 @@
                <l>y me dijo mil ternezas.</l>
                <l>No es lindo mozo mi vida</l>
                <l>Cué galan! Qué gentileza</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_233_3.jpg"/>
+
                <l>Qué discreto! Qué donaire! </l>
                <l>Ojalá que me cupiera</l>
                <l>en suerte! dice la otra:</l>
@@ -322,9 +332,9 @@
                <l>pero si la mia vieras,</l>
                <l>ni aquella Venus antigua</l>
                <l>pudo hacerle competencia.</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_233_4.jpg"/>
+
                <l>Y á todas juntas igualan</l>
                <l>con Cleopatra, conLucrecia,</l>
                <l>Pues siendo aquesto verdad</l>
@@ -357,14 +367,13 @@
                <l>perdon le otorgo al Poéta, </l>
                <l>y el favorecer las Damas</l>
                <l>aqueste perdon merezca.</l>
-               
+
                <trailer rend="cursiva">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1857.
-                  <lb/>Imprenta de D. J. M. M. calle Juan de la Cabra núm. 4.
+                  <lb/>CARMONA:—1857. <lb/>Imprenta de D. J. M. M. calle Juan de la Cabra núm. 4.
                </p>
             </div>
          </div>

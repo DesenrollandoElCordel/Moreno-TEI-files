@@ -38,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5031489</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 118</idno>
                   </altIdentifier>
@@ -68,7 +70,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_110_1.xml">grabado_m_110_1</item>
@@ -80,6 +82,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR corregido</p>
@@ -108,7 +116,8 @@
       <revisionDesc>
          <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,17 +127,17 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_110_1.jpg"/>
+
                <fw type="impresorNum">(Número 118.)</fw>
-               
+
                <head type="primer_titulo">PEDRO CADENAS.</head>
                <head type="subtitulo">
-                  <lb/>RELACION VERDADERA
-                  <hi rend="cursiva"><lb/>de los amores y desafos que tuvieron en Barcelona cuatro valerosos
-                  <lb/>soldados de la marina española.</hi>
+                  <lb/>RELACION VERDADERA <hi rend="cursiva"><lb/>de los amores y desafos que
+                     tuvieron en Barcelona cuatro valerosos <lb/>soldados de la marina
+                     española.</hi>
                </head>
-               
+
                <l rend="indent">Atencion, noble auditorio,</l>
                <l>todo el orbe se suspenda</l>
                <l>mientras mi lengua declara</l>
@@ -159,9 +168,9 @@
                <l>el cuarto es Pedro Cadenas</l>
                <l>que es alférez reformado,</l>
                <l>sargento vivo en Galeras.</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_110_2.jpg"/>
+
                <l>Vivia en esta ciudad</l>
                <l>una dama hermosa y bella,</l>
                <l>espejo de lá hermosura,</l>
@@ -250,9 +259,9 @@
                <l>con su contrario Cadenas.</l>
                <l>Como son los agraviados</l>
                <l>se tiraban muy de veras, </l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_110_3.jpg"/>
+
                <l>con gran ira y con ahinco</l>
                <l>estocadas muy soberbias,</l>
                <l>sin?reparar en las puntas</l>
@@ -341,9 +350,9 @@
                <l>muy encendido Contreras;</l>
                <l>y con fuerza rabiosa</l>
                <l>le dió la muerte violenta.</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_110_4.jpg"/>
+
                <l>Y de que se vido solo,</l>
                <l>y la noche que le cerca, </l>
                <l>tendiendo su negro manto,</l>
@@ -412,15 +421,13 @@
                <l>y á la Virgen madre nuestra,</l>
                <l>porque despues de esta vida</l>
                <l>gocemos su gloria eterna.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1855.
-                  <lb/>Imprenta de D. José María Moreno, Descalzas, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1855. <lb/>Imprenta de D. José María Moreno, Descalzas, núm. 1. </p>
             </div>
          </div>
       </body>

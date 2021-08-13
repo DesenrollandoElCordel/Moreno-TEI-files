@@ -36,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5060420</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 354</idno>
                   </altIdentifier>
@@ -71,7 +73,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1, p.5)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1, p.5)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_326_1.xml">grabado_m_326_1</item>
@@ -84,6 +86,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -112,7 +120,8 @@
       <revisionDesc>
          <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,20 +131,19 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_326_1.jpg"/>
+
                <fw type="impresorNum">Núm. 354.</fw>
-               
+
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">ROMANCE</hi>
-                  <lb/>DE LOS MISTERIOS
-                  <hi rend="negrita"><lb/>DEL SANTO SACRIFICIO
-                  <lb/>DE LA MISA.</hi>
+                  <lb/>DE LOS MISTERIOS <hi rend="negrita"><lb/>DEL SANTO SACRIFICIO <lb/>DE LA
+                     MISA.</hi>
                </head>
-               
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Aplique mi rudo labio</l>
                   <l>su voz á la eterna fama,</l>
                   <l>y por el mundo á los hombres</l>
@@ -164,11 +172,11 @@
                   <l>de doctrina se dilata</l>
                   <l>como rio por el mundo,</l>
                   <l>que corre al mar de la gracia.</l>
-                  
-                  <pb n="2"/>
-                  
+
+                  <pb n="2" source="Moreno_326_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>Un Agustin, un Ambrosio,</l>
                   <l>cuya predicacion santa</l>
                   <l>á los Hereges confunde,</l>
@@ -255,11 +263,11 @@
                   <l>la Ley divina de Gracia,</l>
                   <l>que en la Católica Iglesia</l>
                   <l>desde aquel tiempo se guarda.</l>
-                  
-                  <pb n="3"/>
-                  
+
+                  <pb n="3" source="Moreno_326_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>En bajar el Sacerdote</l>
                   <l>hasta la primera grada,</l>
                   <l>significa, cuando Dios</l>
@@ -346,11 +354,11 @@
                   <l>antes de espirar le habla.</l>
                   <l>En los AGNUS hallarás,</l>
                   <l>como San Juan nos encarga,</l>
-                  
-                  <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_326_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>la memoria dé Jesús,</l>
                   <l>Y tú, Cristiano, que oyes,</l>
                   <l>que todas las culpas lava.</l>
@@ -403,24 +411,21 @@
                   <l>y en el segundo romance</l>
                   <l>te dirá lo que aquí falta.</l>
                   <l>para poder conservarla.</l>
-                  
+
                   <trailer rend="negrita">
-                     <lb/>FIN.
-                     <lb/>de la primera parte.
-                  </trailer>
+                     <lb/>FIN. <lb/>de la primera parte. </trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5"/>
-                  
+                  <pb n="5" source="Moreno_326_5.jpg"/>
+
                   <head type="titulo_parte">
                      <lb/><hi rend="negrita">ROMANCE</hi>
-                     <lb/>DE LOS MISTERIOS
-                     <lb/>DEL SANTO SACRIFICIO
-                     <lb/><hi rend="negrita">DE LA MISA.</hi>
+                     <lb/>DE LOS MISTERIOS <lb/>DEL SANTO SACRIFICIO <lb/><hi rend="negrita">DE LA
+                        MISA.</hi>
                   </head>
                   <head rend="cursiva" type="subtitulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Suspenda su voz suave</l>
                   <l>el Ruyseñor elocuente,</l>
                   <l>pare su dulce cancion</l>
@@ -443,11 +448,11 @@
                   <l>que á las almas le conceden</l>
                   <l>los Pontifices Sagrados,</l>
                   <l>con que á los Cristianos mueven,</l>
-                  
-                  <pb n="6"/>
-                  
+
+                  <pb n="6" source="Moreno_326_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>á que á la misa los hombres</l>
                   <l>todos su devocion presten.</l>
                   <l>El que instituyó la Misa</l>
@@ -534,11 +539,11 @@
                   <l>que de su mano nos viene.</l>
                   <l>Telesforo aquel gran Papa</l>
                   <l>Carmelita, de quien tiene</l>
-                  
-                  <pb n="7"/>
-                  
+
+                  <pb n="7" source="Moreno_326_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>su religion tanto honor,</l>
                   <l>cuanto pudo concederle,</l>
                   <l>ordenó pues que las Pascuas</l>
@@ -625,11 +630,11 @@
                   <l>y arrepentirse de suerte,</l>
                   <l>que su buen Dios le perdone</l>
                   <l>por su pasion, y su muerte. </l>
-                  
-                  <pb n="8"/>
-                  
+
+                  <pb n="8" source="Moreno_326_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>dejas la misa, y permites,</l>
                   <l>Y en fin todos conseguimos,</l>
                   <l>que el Demonio vil te lleve</l>
@@ -678,16 +683,15 @@
                   <l>¡Mas ay alma desdichada</l>
                   <l>mientras mas misas oyesen.</l>
                   <l>si por gozar tus deleites</l>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1859.
-                  <lb/>Imprenta de D. José M.a Moreno, calle Madre de Dios, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1859. <lb/>Imprenta de D. José M.a Moreno, calle Madre de Dios, núm.
+                  1. </p>
             </div>
          </div>
       </body>

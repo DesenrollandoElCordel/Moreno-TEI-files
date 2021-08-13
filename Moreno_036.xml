@@ -35,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5018212</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 40</idno>
                   </altIdentifier>
@@ -65,7 +67,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_036_1.xml">grabado_m_036_1</item>
@@ -77,6 +79,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -95,7 +103,7 @@
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
-               <term type="tipo_texto" target="XX527614.html">Romances</term>
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
                <term target="XX527614.html" type="tipo_estrofa">Romances</term>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
@@ -103,8 +111,10 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-26" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-02-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,12 +124,12 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_036_1.jpg"/>
 
                <fw type="impresorNum">Número 40.</fw>
-               
+
                <head type="primer_titulo">EL SUEÑO DE MORALES.</head>
-               
+
                <l rend="indent">Era la funesta hora</l>
                <l>en que ya el Planeta rojo</l>
                <l>de su estacion presurosa</l>
@@ -178,11 +188,11 @@
                <l>que de entretegidos olmos</l>
                <l>con las yedras, y arayanes</l>
                <l>formaban palos vistosos,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_036_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>ó paises de cipreces</l>
                <l>ó alcázares de biombos:</l>
                <l>Alegre me divertia,</l>
@@ -283,11 +293,11 @@
                <l>has de ver de aqueste modo:</l>
                <l>Un horroroso Gigante,</l>
                <l>que está en pié, y tan horroroso,</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_036_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>que si lo miras, caerás</l>
                <l>muerto de susto y asombro:</l>
                <l>Llégate á el sin recelo,</l>
@@ -388,11 +398,11 @@
                <l>el prodigio mas heróico,</l>
                <l>que en humanas hermosuras</l>
                <l>pudo caber, y el adorno</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_036_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>de unas doradas preseas</l>
                <l>de Damascos inuy costosos:</l>
                <l>iba á besarme mis nianos,</l>
@@ -465,12 +475,13 @@
                <l>le notifica á el curioso,</l>
                <l>que no den crédito á sueños,</l>
                <l>porque es muy pecaminoso</l>
-               
+
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
-               <p><lb/>CARMONA:—<hi rend="cursiva">Imp. de</hi> D. Jose Maria Moreno, <hi rend="cursiva">Madre de Dios, 1.</hi></p>
+               <p><lb/>CARMONA:—<hi rend="cursiva">Imp. de</hi> D. Jose Maria Moreno, <hi
+                     rend="cursiva">Madre de Dios, 1.</hi></p>
             </div>
          </div>
       </body>

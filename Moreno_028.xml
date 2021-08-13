@@ -35,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5171927</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 30</idno>
                   </altIdentifier>
@@ -65,7 +67,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_028_1.xml">grabado_m_028_1</item>
@@ -77,6 +79,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -95,16 +103,18 @@
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
-               <term type="tipo_texto" target="XX527614.html">Romances</term>
-               <term type="tipo_estrofa" target="XX527614.html">Romances</term>
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-26" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-02-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,12 +124,12 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_028_1.jpg"/>
+
                <fw type="impresorNum">Número 30.)</fw>
-               
+
                <head rend="negrita" type="primer_titulo">ZELOS DE SAN JOSÉ.</head>
-               
+
                <l rend="indent">De casa de Zacarias</l>
                <l>salió la Sagrada Reina,</l>
                <l>acompañando á su esposo,</l>
@@ -150,9 +160,9 @@
                <l>donde gentes no me vean,</l>
                <l>y allí acabaré mi vida</l>
                <l>en áspera penitencia,</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_028_2.jpg"/>
+
                <l>rogando continno á Dios, </l>
                <l>que la ampare, y la defienda.</l>
                <l>Quédate con Dios, Maria,</l>
@@ -231,9 +241,9 @@
                <l>Oh! quien tan dichoso fuera</l>
                <l>que les fuese acompañando!</l>
                <l>O mi Dios, y quien los veria</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_028_3.jpg"/>
+
                <l>cercados de Serafines!</l>
                <l>Que bien guarnecidos llevan</l>
                <l>el lecho de Salomon,</l>
@@ -312,9 +322,9 @@
                <l>y elevadas las potencias,</l>
                <l>parió al Salvador del Mundo</l>
                <l>quedando siempre doncella:</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_028_4.jpg"/>
+
                <l>San Migel y San Grabiel,</l>
                <l>con debida reverencia</l>
                <l>le reciben en sus manos,</l>
@@ -375,15 +385,14 @@
                <l>contemplando en su belleza,</l>
                <l>sirviendole en esta vida</l>
                <l>para gozarle en la eterna.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1858.
-                  <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
-               </p>
+                  <lb/>CARMONA:—1858. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  4. </p>
             </div>
          </div>
       </body>

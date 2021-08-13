@@ -39,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5036944</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 160</idno>
                   </altIdentifier>
@@ -73,7 +75,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="4">Cuatro grabados (p. 1, 3)</decoNote>
+                     <decoNote n="4" type="num_grabados">Cuatro grabados (p. 1, 3)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_151_1.xml">grabado_m_151_1</item>
@@ -88,6 +90,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -118,7 +126,8 @@
       <revisionDesc>
          <change when="2021-03-27" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,12 +135,12 @@
    </facsimile>
    <text>
       <body>
-         
+
          <div>
-            
+
             <div n="1" type="parte">
 
-               <pb n="1"/>
+               <pb n="1" source="Moreno_151_1.jpg"/>
 
                <fw type="impresorNum">Número 160.</fw>
 
@@ -152,7 +161,7 @@
                <l>—Ingrato mal caballero! </l>
                <l>¡Chicuelo que amamanté! </l>
 
-               <pb n="2"/>
+               <pb n="2" source="Moreno_151_2.jpg"/>
 
                <l>á quien vestí de alto abajo</l>
                <l>e dí asilo y de comer;</l>
@@ -209,7 +218,7 @@
 
             <div n="2" type="parte">
 
-               <pb n="3"/>
+               <pb n="3" source="Moreno_151_3.jpg"/>
 
                <head rend="negrita">EL CONSEJO <lb/>DE UN AMIGO. </head>
 
@@ -230,7 +239,7 @@
                <l>Es una chanza pesada,</l>
                <l>Mira, no te cases, Diego.</l>
 
-               <pb n="4"/>
+               <pb n="4" source="Moreno_151_4.jpg"/>
 
                <l rend="indent">En el libro soberano</l>
                <l>Del destino, escrito está</l>
@@ -286,9 +295,8 @@
 
             <div type="colofon">
                <p>
-                  <lb/>Carmona:-1861
-                  <lb/>Imprenta de D. José M. Moreno, calle de Madre de Dios núm. 1.
-               </p>
+                  <lb/>Carmona:-1861 <lb/>Imprenta de D. José M. Moreno, calle de Madre de Dios núm.
+                  1. </p>
             </div>
 
          </div>

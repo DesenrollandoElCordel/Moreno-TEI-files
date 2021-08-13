@@ -44,11 +44,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5031926</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 139</idno>
                   </altIdentifier>
@@ -78,7 +80,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p. 1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p. 1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_130_1.xml">grabado_m_130_1</item>
@@ -91,6 +93,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR corregido</p>
@@ -117,8 +125,10 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-25" who="#MB">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-25" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,17 +137,15 @@
    <text>
       <body>
          <div>
-            
-            <pb n="1"/>
+
+            <pb n="1" source="Moreno_130_1.jpg"/>
             <fw type="impresorNum">Número 139.</fw>
 
             <head type="primer_titulo"><hi rend="negrita">NUEVA RELACION</hi>
-               <lb/>elegre y divertida del chasco que le ha dado una
-               <lb/>mujer á su marido siendo arriero, y las clases 
-               <lb/>de mujeres que hay hoy en dia, con lo demás 
-               <lb/>que verá el curioso lector.
-            </head>
-            
+               <lb/>elegre y divertida del chasco que le ha dado una <lb/>mujer á su marido siendo
+               arriero, y las clases <lb/>de mujeres que hay hoy en dia, con lo demás <lb/>que verá
+               el curioso lector. </head>
+
             <div n="1" type="parte">
                <l rend="indent">Oigan una cancion nueva</l>
                <l>que le voy á referir,</l>
@@ -165,11 +173,11 @@
                <l>para que le abrieran.</l>
                <l>La mujer que á su marido</l>
                <l>aquella noche no esperaba</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_130_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>otro galan ocupaba.</l>
                <l>su lado y la cabecera.</l>
                <l>Aunque él daba golpes,</l>
@@ -266,11 +274,11 @@
                <l>y el le respondió que sí.</l>
                <l>Veras la trastienda</l>
                <l>de algunas mujeres</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_130_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>mal fuego las labre</l>
                <l>á la que asi fuere.</l>
                <l>Se entro en el cuarto ligera</l>
@@ -317,8 +325,9 @@
 
             <div n="2" type="parte">
                <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
-               <head rend="cursiva" type="subtitulo_parte">En que se declaran las cualidades de las señoras mujeres.</head>
-               
+               <head rend="cursiva" type="subtitulo_parte">En que se declaran las cualidades de las
+                  señoras mujeres.</head>
+
                <l rend="indent">De las señoras mujeres</l>
                <l>voy á contar una idea.</l>
                <l>que son peores que el diablo</l>
@@ -341,11 +350,11 @@
                <l>que bien las corrija.</l>
                <l>Hay algunas casaditas,</l>
                <l>que no quieren trabajar</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_130_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>el chocolate y vizcochos</l>
                <l>jamás les ha de faltar:</l>
                <l>Y el pobre marido</l>
@@ -419,11 +428,11 @@
                <trailer rend="negrita">FIN</trailer>
             </div>
          </div>
-         
+
          <div type="colofon">
-            <p><lb/>CARMONA:—Imprenta de D. José M.a Moreno, calle de Madre de Dios.</p>          
+            <p><lb/>CARMONA:—Imprenta de D. José M.a Moreno, calle de Madre de Dios.</p>
          </div>
-         
+
       </body>
    </text>
 </TEI>

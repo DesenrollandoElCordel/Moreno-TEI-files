@@ -19,7 +19,8 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">La Enamorada de Cristo María Jesus de Gracia.</title>
+                  <title type="titulo_completo">La Enamorada de Cristo María Jesus de
+                     Gracia.</title>
                   <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5171855</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 8</idno>
                   </altIdentifier>
@@ -65,7 +68,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_009_1.xml">grabado_m_009_1</item>
@@ -77,6 +80,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -103,8 +112,11 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-24" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-02-24" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,15 +126,13 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_009_1.jpg"/>
+
                <fw type="impresorNum">Num. 8.</fw>
-               
+
                <head type="primer_titulo">
-                  <lb/>LA ENAMORADA DE CRISTO
-                  <lb/>MARÍA JESUS DE GRACIA.
-               </head>
-               
+                  <lb/>LA ENAMORADA DE CRISTO <lb/>MARÍA JESUS DE GRACIA. </head>
+
                <l rend="indent">A las mujeres discretas</l>
                <l>que presumen de entendidas</l>
                <l>y de amorosas se precian </l>
@@ -167,11 +177,11 @@
                <l>¡Qué politica es la niña!</l>
                <l>y tiene buena crianza;</l>
                <l>dime, niña, de quien eres?</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_009_2.jpg"/>
+
                <fw type="paginaNum">2.</fw>
-               
+
                <l rend="indent">–Respondió, la vista baja;</l>
                <l>de mi señor Jesucristo</l>
                <l>es todo mi cuerpo y alma. </l>
@@ -276,11 +286,11 @@
                <l>para redimir al honibre,</l>
                <l>álceme usia esa baza</l>
                <l>con un varon que merezca</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_009_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>hechos de tanta importancia.</l>
                <l>A esto sefencogió de hombros</l>
                <l>y dijo; no puedo alzarla.</l>
@@ -323,7 +333,10 @@
                <l>mi vida, potencias y alma,</l>
                <l>que mi Señor San José</l>
                <l>os el todo de la gracia, </l>
-               <l>es iuspector general</l>
+               <l>es <choice>
+                     <sic>iuspector</sic>
+                     <corr>inspector</corr>
+                  </choice> general</l>
                <l>con la insignia de la vara </l>
                <l>¿mas sabe usía por qué tiene</l>
                <l>altura tan elevada?</l>
@@ -385,11 +398,11 @@
                <l>venida tan deseada. </l>
                <l>una mujer dió su vientre</l>
                <l>para que Dios encarnara; </l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_009_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>una mujer dió su pecho</l>
                <l>para que se alimentara, </l>
                <l>una mujer dió su sangre</l>
@@ -465,7 +478,7 @@
                <l>y por eso se la llama</l>
                <l>la enamorada de Cristo</l>
                <l>MARIA JESUS DE GRACIA.</l>
-               
+
                <trailer>FIN.</trailer>
             </div>
             <div type="colofon">

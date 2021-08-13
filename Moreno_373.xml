@@ -38,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5069810</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 394</idno>
                   </altIdentifier>
@@ -68,7 +70,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_373_1.xml">grabado_m_373_1</item>
@@ -81,6 +83,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -109,7 +117,8 @@
       <revisionDesc>
          <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,19 +128,14 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_373_1.jpeg"/>
 
                <fw type="impresorNum">394.</fw>
 
                <head type="primer_titulo">
-                  <lb/>RELACION NUEVA.
-                  <lb/>REGLAS DE UN DICTÁMEN,
-                  <lb/>Y DICTÁMEN DE UNAS REGLAS,
-                  <lb/>QUE PARA ELECCION
-                  <lb/><hi rend="negrita">DEL MATRIMONIO,</hi>
-                  <lb/>PIDIÓ UN AMIGO
-                  <lb/>A DON ANTONIO FRANCISCO JANIN Y RAZANELI.
-               </head>
+                  <lb/>RELACION NUEVA. <lb/>REGLAS DE UN DICTÁMEN, <lb/>Y DICTÁMEN DE UNAS REGLAS,
+                  <lb/>QUE PARA ELECCION <lb/><hi rend="negrita">DEL MATRIMONIO,</hi>
+                  <lb/>PIDIÓ UN AMIGO <lb/>A DON ANTONIO FRANCISCO JANIN Y RAZANELI. </head>
 
                <lg>
                   <l rend="indent">Ya, amigo, que por capricho</l>
@@ -147,7 +151,7 @@
                   <l>tan dificil experiencia.</l>
                </lg>
 
-               <pb n="2"/>
+               <pb n="2" source="Moreno_373_2.jpeg"/>
 
                <fw type="paginaNum">2</fw>
 
@@ -263,7 +267,7 @@
                   <l>á la mujer, que mas tenga.</l>
                </lg>
 
-               <pb n="3"/>
+               <pb n="3" source="Moreno_373_3.jpeg"/>
 
                <fw type="paginaNum">3</fw>
 
@@ -379,7 +383,7 @@
                   <l>darte que sentir, si es cierta.</l>
                </lg>
 
-               <pb n="4"/>
+               <pb n="4" source="Moreno_373_4.jpeg"/>
 
                <fw type="paginaNum">4</fw>
 
@@ -413,8 +417,8 @@
 
                <lg>
                   <l rend="indent">No dudes, que es imposible</l>
-                  <l>encontrar mujer perfecta, (llarla</l>
-                  <l>que aunque quiera un hombre ha-</l>
+                  <l>encontrar mujer perfecta,</l>
+                  <l>que aunque quiera un hombre ha-<add place="encima">(llarla</add></l>
                   <l>no la halla, así como quiera.</l>
                </lg>
 
@@ -430,9 +434,8 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1865.
-                  <lb/>Imp. y librería de D. José M.a Moreno, calle Madre de Dios núm. 1.
-               </p>
+                  <lb/>CARMONA:—1865. <lb/>Imp. y librería de D. José M.a Moreno, calle Madre de
+                  Dios núm. 1. </p>
             </div>
          </div>
       </body>

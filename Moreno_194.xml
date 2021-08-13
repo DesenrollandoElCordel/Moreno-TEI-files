@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5040769</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 204</idno>
                   </altIdentifier>
@@ -74,9 +77,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -103,6 +112,7 @@
          <change when="2021-03-19" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
          <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-07-01" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -111,17 +121,16 @@
    <text>
       <body>
          <div>
-            <pb n="1"/>
+            <pb n="1" source="Moreno_194_1.jpg"/>
 
             <fw type="impresorNum">(Núm. 204.)</fw>
 
             <head rend="negrita" type="primer_titulo">
-               <lb/>SAINETE.
-               <lb/>EL ZAPATERO SORDO.
-            </head>
+               <lb/>SAINETE. <lb/>EL ZAPATERO SORDO. </head>
 
             <div>
-               <head rend="negrita" type="reparto_titulo">Hablan en él las personas siguientes:</head>
+               <head rend="negrita" type="reparto_titulo">Hablan en él las personas
+                  siguientes:</head>
                <castList rend="cursiva">
                   <castItem>Un Zapatero.</castItem>
                   <castItem>Un Vejete.</castItem>
@@ -148,25 +157,25 @@
                   <l>me hace dar á dos mil diablos,</l>
                   <l>que sino por mi persona</l>
                   <l>merecia un Obispado.</l>
-                  <l>Ah, Dios me dé buena dicha! </l>
+                  <l>¡Ah, Dios me dé buena dicha! </l>
                   <l>Ahora vamos trabajando, </l>
-                  
-                <pb n="2"/>
-                  
-                <fw type="paginaNum">2</fw>
-                  
+
+                  <pb n="2" source="Moreno_194_2.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
                   <l>que no ha de tardar Susana </l>
                   <l>en venir por sus zapatos, </l>
                   <l>y en viniendo, dentro ó fuera, </l>
                   <l>habemos de echarlo á un lado.</l>
-                  
+
                   <stage rend="cursiva">Siéntase á coser y canta.</stage>
-                  
-                  <l>¿Arriba jaramandina, </l>
-                  <l>carriba jaramandaina. </l>
+
+                  <l>«Arriba jaramandina, </l>
+                  <l>«carriba jaramandaina. </l>
                   <l>«Escúcheme todo crudo:</l>
                </sp>
-               
+
                <stage rend="cursiva">Picase con la lezna y la tira. </stage>
 
                <sp>
@@ -176,9 +185,9 @@
                   <l>que á fé, á fé, voto á Dios, </l>
                   <l>que me he pasado una mano. </l>
                </sp>
-               
+
                <stage rend="cursiva">Al paño Juana y Susana. </stage>
-               
+
                <sp>
                   <speaker rend="cursiva">Susan. </speaker>
                   <l>¿No ves aquesto, Juanilla?</l>
@@ -186,15 +195,16 @@
 
                <sp>
                   <speaker rend="cursiva">Juan.</speaker>
-                  <l>Todo, tia, loshe mirado, </l>
+                  <l>Todo, tia, lo he mirado, </l>
                   <l>y me parece muy bien.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
                   <l>¿Si traeré yo aquí tabaco?</l>
-                  <l>Saca un papel del seno</l>
                </sp>
+
+               <stage rend="cursiva">Saca un papel del seno</stage>
 
                <sp>
                   <speaker rend="cursiva">Susan.</speaker>
@@ -212,9 +222,9 @@
                   <speaker rend="cursiva">Susan.</speaker>
                   <l>¿Qué te parece del novio?</l>
                </sp>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_194_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
 
                <sp>
@@ -236,20 +246,25 @@
                <sp>
                   <speaker rend="cursiva">Susan.</speaker>
                   <l>Adios, sobrina, </l>
-                  <l>que muy buen lance has echado..</l>
+                  <l>que muy buen lance has echado.</l>
                   <l>Ella nunca ha de saber</l>
                   <l>que es sordo su enamorado;</l>
                   <l>ahora bien, quiero llegar:</l>
                   <l>Seor Maestro, bien hallado.</l>
                </sp>
-               
-               <stage rend="cursiva">Hácele cortestas.</stage>
+
+               <stage rend="cursiva">Hácele cortesías.</stage>
 
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
                   <l>¿Qué ha de ser? Voto á dios</l>
                   <l>que no sé como un cristiano</l>
-                  <l>tiene paciencia. Susan. Ya empieza, </l>
+                  <l>tiene paciencia. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Susan.</speaker>
+                  <l>Ya empieza,</l>
                   <l>que nada de eso te hablo.</l>
                </sp>
 
@@ -288,16 +303,16 @@
                   <l>Mira que he estado con Juana, </l>
                   <l>y acerca de tí la he hablado.</l>
                </sp>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_194_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
 
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
                   <l>¿Salvado? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Susan. </speaker>
                   <l>Juana. </l>
@@ -326,7 +341,7 @@
                   <l>dará luego de contado;</l>
                   <l>¿entiendes?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Zap. </speaker>
                   <l>¿Qué está indispuesta?</l>
@@ -340,7 +355,7 @@
 
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
-                  <l>Ahl ya lo entiendo;</l>
+                  <l>Ah! ya lo entiendo;</l>
                   <l>¿y qué tenemos del causo?</l>
                </sp>
 
@@ -358,7 +373,7 @@
 
                <sp>
                   <speaker rend="cursiva">Susan.</speaker>
-                  <l>¡Ay qué sorderas señores, </l>
+                  <l>¡Ay qué sorderas, señores, </l>
                   <l>él es sordo temerario! </l>
                   <l>A dios: con lo que dijere</l>
                   <l>vuelvo luego de contado. <stage>(vase.)</stage></l>
@@ -373,16 +388,16 @@
                   <l>no sé si podré muy bien</l>
                   <l>coser con aquesta mano. <stage rend="cursiva">Siéntase y canta.</stage></l>
                </sp>
-               
+
                <stage rend="cursiva">Sale el Sacristan.</stage>
-               
-               <pb n="5"/>
-                  
+
+               <pb n="5" source="Moreno_194_5.jpg"/>
+
                <fw type="paginaNum">5</fw>
 
                <sp>
                   <speaker rend="cursiva">Sac.</speaker>
-                  <l>Buenos dias, seor Maestro</l>
+                  <l>Buenos dias, seor Maestro.</l>
                </sp>
 
                <sp>
@@ -467,9 +482,9 @@
                   <l>¿Otra? por Dios que me dán</l>
                   <l>tentaciones de matarlo.</l>
                </sp>
-               
-               <pb n="6"/>
-                  
+
+               <pb n="6" source="Moreno_194_6.jpg"/>
+
                <fw type="paginaNum">6</fw>
 
                <sp>
@@ -483,8 +498,8 @@
                   <l>¿Dígote yo nada de eso?</l>
                   <l>hombre ¿tú eres maza ó mazo?</l>
                </sp>
-               
-               <stage rend="cursiva">Levántase el lapatero riéndose.</stage>
+
+               <stage rend="cursiva">Levántase el Zapatero riéndose.</stage>
 
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
@@ -543,11 +558,11 @@
                   <l>No tiene usté que volver,</l>
                   <l>ya los llevará el muchacho.</l>
                   <l>¡Famoso es el Sacristan!</l>
-                  
-               <pb n="7"/>
-                  
-               <fw type="paginaNum">7</fw>
-                  
+
+                  <pb n="7" source="Moreno_194_7.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
                   <l>El me hace mil agasajos; </l>
                   <l>yo apostaré que vá ahora </l>
                   <l>y que la mete en los cascos</l>
@@ -560,7 +575,7 @@
                   <l>dias ha, y temo que venga</l>
                   <l>áver si están acabados.</l>
                </sp>
-               
+
                <stage rend="cursiva">Siéntase á coser, canta y sale el Vejete.</stage>
 
                <sp>
@@ -609,11 +624,11 @@
                   <speaker rend="cursiva">Zap.</speaker>
                   <l>Pues si entra por otra parte</l>
                   <l>volaba toda la mano. </l>
-                  
-               <pb n="8"/>
-                  
-               <fw type="paginaNum">8</fw>
-                  
+
+                  <pb n="8" source="Moreno_194_8.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
                   <l>porque mire usté que punta. </l>
                </sp>
 
@@ -646,16 +661,16 @@
                   <speaker rend="cursiva">Vej.</speaker>
                   <l>Vive dios... mas mejor es</l>
                   <l>el no hacer de aquesto caso:</l>
-                  <l>ca, trabajad con brio, </l>
+                  <l>ea, trabajad con brio, </l>
                   <l>que aquí os estoy aguardando.</l>
                </sp>
 
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
                   <l>Luego á usté ya se lo han dicho,</l>
-                  
+
                   <stage rend="cursiva">Levántase riendo.</stage>
-                  
+
                   <l>que no está en hora ajustado;</l>
                   <l>mas tengo esperanza en Dios</l>
                   <l>tendrá buen efecto el causo.</l>
@@ -680,11 +695,11 @@
                <sp>
                   <speaker rend="cursiva">Vej.</speaker>
                   <l>Casamentero me hace, </l>
-                  
-               <pb n="9"/>
-                  
-               <fw type="paginaNum">9</fw>
-                  
+
+                  <pb n="9" source="Moreno_194_9.jpg"/>
+
+                  <fw type="paginaNum">9</fw>
+
                   <l>por la mitra de Pilatos!</l>
                   <l>hombre, á trueque de no oirte</l>
                   <l>me iré aunque ande sin zapatos.</l>
@@ -719,7 +734,7 @@
                   <l>¿Conoce ultra de ello</l>
                   <l>que ella gusta?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Vej. </speaker>
                   <l> Por san Pablo, </l>
@@ -747,11 +762,7 @@
                   <l>que haya podido enojarlo;</l>
                   <l>que por Cristo que...</l>
                </sp>
-               
-               <pb n="10"/>
-               
-               <fw type="paginaNum">10</fw>
-               
+
                <sp>
                   <speaker rend="cursiva">Sale Susan. </speaker>
                   <l>Lorenzo,</l>
@@ -759,6 +770,10 @@
                   <l>ponte la capa, que viene</l>
                   <l>la novia hablando del caso.</l>
                </sp>
+
+               <pb n="10" source="Moreno_194_10.jpg"/>
+
+               <fw type="paginaNum">10</fw>
 
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
@@ -773,7 +788,7 @@
 
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
-                  <l>Cómo qué, pues no alzó un pala </l>
+                  <l>Cómo qué, pues no alzó un palo </l>
                   <l>y me dió dos ó tres muertos?</l>
                </sp>
 
@@ -791,7 +806,7 @@
                <sp>
                   <speaker rend="cursiva">Susan.</speaker>
                   <l>Quiero llegar al oido.</l>
-                  <l>mira que te está esperando la novia </l>
+                  <l>mira que te está esperando la novia.</l>
                </sp>
 
                <sp>
@@ -842,11 +857,11 @@
                   <l>lo primero, te dirá </l>
                   <l>buenas tardes (lo ordinario)</l>
                   <l>luego te ha de preguntar</l>
-                  
-               <pb n="11"/>
-                  
-               <fw type="paginaNum">11</fw>
-                  
+
+                  <pb n="11" source="Moreno_194_11.jpg"/>
+
+                  <fw type="paginaNum">11</fw>
+
                   <l>qué hacienda tienes? qué años?</l>
                   <l>de dónde eres natural?</l>
                   <l>Y respondes con cuidado;</l>
@@ -855,7 +870,7 @@
                   <l>Mira si lo has entendido</l>
                   <l>como lo he dicho. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Zap. </speaker>
                   <l>Mal ajo, </l>
@@ -870,7 +885,7 @@
                   <l>y que la haga un buen vestido, </l>
                   <l>no es esto? </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Susan </speaker>
                   <l>Sí, sí.</l>
@@ -894,8 +909,8 @@
                   <l>gran cosa fué el avisarme</l>
                   <l>para no poder errarlo.</l>
                </sp>
-               
-               <stage rend="cursiva">Sale Juana y hace una cortesia.</stage>
+
+               <stage rend="cursiva">Sale Juana y hace una cortesía.</stage>
 
                <sp>
                   <speaker rend="cursiva">Juan.</speaker>
@@ -906,11 +921,11 @@
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
                   <l>Ya sin duda habló conmigo, </l>
-                  
-               <pb n="12"/>
-                  
-               <fw type="paginaNum">12</fw>
-                  
+
+                  <pb n="12" source="Moreno_194_12.jpg"/>
+
+                  <fw type="paginaNum">12</fw>
+
                   <l>porque meneó los lábios, </l>
                   <l>¿pero que fué lo primero</l>
                   <l>que habia de entrar hablando?</l>
@@ -924,7 +939,7 @@
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
                   <l>Ansina, ya me he acordado:</l>
-                  <l>Muy buenas las tenga usté.</l>
+                  <l>Muy buenas las tenga usté,</l>
                   <l>y viva usté muchos años por el favor.</l>
                </sp>
 
@@ -971,15 +986,15 @@
                <sp>
                   <speaker rend="cursiva">Zap.</speaker>
                   <l>A eso voy: yo nací el año</l>
-                  
-               <pb n="13"/>
-                  
-               <fw type="paginaNum">13</fw>
-                  
+
+                  <pb n="13" source="Moreno_194_13.jpg"/>
+
+                  <fw type="paginaNum">13</fw>
+
                   <l>de sesenta y ocho ó cinco,</l>
                   <l>y hasta este de treinta y cuatro, </l>
                   <l>tengo yo segun mi cuenta, </l>
-                  <l>entre doce y cuarenta años,.</l>
+                  <l>entre doce y cuarenta años,</l>
                   <l>y aquesto los cumplo siempre</l>
                   <l>allá en el mes de los gatos.</l>
                   <l>Porque mire usté, mi padre</l>
@@ -1013,11 +1028,11 @@
                   <l>hoy permanecen sus nombres</l>
                   <l>en una Iglesia estampados.</l>
                </sp>
-               
-               <pb n="14"/>
-                  
+
+               <pb n="14" source="Moreno_194_14.jpg"/>
+
                <fw type="paginaNum">14</fw>
-               
+
                <sp>
                   <speaker rend="cursiva">Juan </speaker>
                   <l>El es sordo, no hay que andar: <stage rend="cursiva">ap.</stage></l>
@@ -1073,7 +1088,7 @@
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>Tia mia.</l>
                </sp>
-               
+
                <stage rend="cursiva">Dá voces y sale Susana.</stage>
 
                <sp>
@@ -1109,11 +1124,11 @@
                <sp>
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>Tia mia, tia mia,</l>
-                  
-               <pb n="15"/>
-                  
-               <fw type="paginaNum">15</fw>
-                  
+
+                  <pb n="15" source="Moreno_194_15.jpg"/>
+
+                  <fw type="paginaNum">15</fw>
+
                   <l>él es sordo, no me caso. </l>
                </sp>
 
@@ -1122,11 +1137,9 @@
                   <l>Si aquesto es público ya </l>
                   <l>¿cómo puedes remediarlo?</l>
                </sp>
-               
+
                <stage rend="cursiva">
-                  <lb/>Salen el Sacristan y el Vejete y hacen
-                  <lb/>cortesías.
-               </stage>
+                  <lb/>Salen el Sacristan y el Vejete y hacen <lb/>cortesías. </stage>
 
                <sp>
                   <speaker rend="cursiva">Sacr.</speaker>
@@ -1157,7 +1170,7 @@
                   <l>porque con aquesta boda</l>
                   <l>hemos arrimado el banco. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Los dos. </speaker>
                   <l>Juana, sea enhorabuena. </l>
@@ -1174,7 +1187,7 @@
                   <l>Buen lance habemos echado</l>
                   <l>con tal marido. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Zap. </speaker>
                   <l>Si quiero.</l>
@@ -1185,7 +1198,7 @@
                   <l>Poneos á estotro lado, </l>
                   <l>y dá señas. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Zap. </speaker>
                   <l>Si recibo.</l>
@@ -1210,29 +1223,29 @@
                   <speaker rend="cursiva">Zan.</speaker>
                   <l>Si señora, esta es mi mano.</l>
                </sp>
-               
-               <pb n="16"/>
-               
+
+               <pb n="16" source="Moreno_194_16.jpg"/>
+
                <fw type="paginaNum">16</fw>
-               
+
                <sp>
                   <speaker rend="cursiva">Sac. y Vej. </speaker>
                   <l>Pues celebremos la fiesta </l>
                   <l>todos bailando y cantando. <stage rend="cursiva">Cant.</stage></l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sac. y Vej. </speaker>
                   <l>Con un sordo casamos</l>
                   <l>hoy á Juanilla.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Susan. y Sac. </speaker>
                   <l>Y el dote que la damos</l>
                   <l>es la banquilla. </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Sac. y Vej. </speaker>
                   <l>Zapatero es el sordo,</l>
@@ -1270,23 +1283,20 @@
                   <l>Démosle fin al baile</l>
                   <l>si te parece.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Vej.</speaker>
                   <l>Aunque no tiene cepas </l>
                   <l>bien vale veinte.</l>
                </sp>
-               
+
                <trailer>FIN.</trailer>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA.
-                  <lb/>IMPRENTA Y LIBRERIA DE DON JOSÉ MARIA RORENO
-                  <lb/>CALLE MADRE DE DIOS, NÚM. 1.
-                  <lb/>1865.
-               </p>
+                  <lb/>CARMONA. <lb/>IMPRENTA Y LIBRERÍA DE DON JOSÉ MARÍA RORENO <lb/>CALLE MADRE
+                  DE DIOS, NÚM. 1. <lb/>1865. </p>
             </div>
          </div>
       </body>

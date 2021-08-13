@@ -6,7 +6,7 @@
          <titleStmt>
             <title>Juan de Prados, ó chasco del arriero</title>
             <respStmt>
-               <name/>
+               <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
          </titleStmt>
@@ -35,11 +35,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5026807</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 93</idno>
                   </altIdentifier>
@@ -69,7 +71,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1, p.5)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1, p.5)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_083_1.xml">grabado_m_083_1</item>
@@ -82,6 +84,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -110,7 +118,8 @@
       <revisionDesc>
          <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,19 +129,17 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_083_1.jpg"/>
+
                <fw type="impresorNum">Número 93,</fw>
-               
+
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">JUAN DE PRADOS,</hi>
-                  <lb/>ò
-                  <lb/>CHASCO DEL ARRIERO.
-               </head>
-               
+                  <lb/>ò <lb/>CHASCO DEL ARRIERO. </head>
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l><hi rend="negrita">E</hi>n Valladolid famosa,</l>
                   <l>tan rica de ciudadanos </l>
                   <l>cuanto llena de edificios</l>
@@ -163,9 +170,9 @@
                   <l>mas astutas que los diablos?</l>
                   <l>De la Cruz el diablo huye,</l>
                   <l>el enemigo del lazo,</l>
-                  
-                  <pb n="2"/>
-                  
+
+                  <pb n="2" source="Moreno_083_2.jpg"/>
+
                   <l>de la eseopeta el ladron</l>
                   <l>por las cuestas rodeando.</l>
                   <l>Mas de las mujeres, cruces, </l>
@@ -250,9 +257,9 @@
                   <l>hacía tornasolados.</l>
                   <l>Mirába alCielo y decia:</l>
                   <l>é no veis qué de hombres aimados</l>
-                  
-                  <pb n="3"/>
-                  
+
+                  <pb n="3" source="Moreno_083_3.jpg"/>
+
                   <l>bajan? dad acá mis armas, </l>
                   <l>Juana Gutierrez, ¿qué aguardo?</l>
                   <l>hacia una mona alegre,</l>
@@ -337,9 +344,9 @@
                   <l>Juan Prados dijo: sí, vamos.</l>
                   <l>Fuéronse ambos á Simancas,</l>
                   <l>y el cura regecijado</l>
-                  
-                  <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_083_4.jpg"/>
+
                   <l>al nuevo Predicador</l>
                   <l>le recibe entre los brazos.</l>
                   <l>Diéronle una librería</l>
@@ -425,17 +432,15 @@
                   <l>de la burla tan pesada</l>
                   <l>que su mujer le ha ordenado.</l>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5"/>
-                  
+                  <pb n="5" source="Moreno_083_5.jpg"/>
+
                   <head type="titulo_parte">
                      <lb/><hi rend="negrita">JUAN DE PRADOS,</hi>
-                     <lb/>ó
-                     <lb/>CHASCO DEL ARRIERO.
-                  </head>
+                     <lb/>ó <lb/>CHASCO DEL ARRIERO. </head>
                   <head type="subtitulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l><hi rend="negrita">P</hi>ieado Juan Prados luego</l>
                   <l>de aquel tan pesado chasco</l>
                   <l>que su mujer le dispuso,</l>
@@ -458,9 +463,9 @@
                   <l>boca, discrecion y garbo.</l>
                   <l>Juan Prados lo entendió luego,</l>
                   <l>y dijo : por Dios sagrado,</l>
-                  
-                  <pb n="6"/>
-                  
+
+                  <pb n="6" source="Moreno_083_6.jpg"/>
+
                   <l>que en el cuerno de la luna</l>
                   <l>y me quieren poner mis hados.</l>
                   <l>Sin duda que á mi mujer</l>
@@ -545,9 +550,9 @@
                   <l>recibió con muchos palos.</l>
                   <l>Meneóla las costillas, </l>
                   <l>diciendo con ecos raros;</l>
-                  
-                  <pb n="7"/>
-                  
+
+                  <pb n="7" source="Moreno_083_7.jpg"/>
+
                   <l>acude á vuestro marido,</l>
                   <l>no busqueis tres piés al gato,</l>
                   <l>noramala para vos,</l>
@@ -632,9 +637,9 @@
                   <l>por descubrirme á un bellaco ?</l>
                   <l>vive Dios que he de molerle.</l>
                   <l>Estaba el fraile temblando,</l>
-                  
-                  <pb n="8"/>
-                  
+
+                  <pb n="8" source="Moreno_083_8.jpg"/>
+
                   <l>y la mujer arrojóle</l>
                   <l>hácia la cabeza un plato.</l>
                   <l>El padre sacó el hisopo,</l>
@@ -693,16 +698,14 @@
                   <l>Juana Gutierrez callando,</l>
                   <l>vivió con él muchos dias,</l>
                   <l>y fueron buenos casados.</l>
-                  
+
                   <trailer rend="negrita">FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>Carmona, 1865. 
-                  <lb/>Imp. y lib. de D. J. M. Moreno, Madre de Dios, 1.
-               </p>
+                  <lb/>Carmona, 1865. <lb/>Imp. y lib. de D. J. M. Moreno, Madre de Dios, 1. </p>
             </div>
          </div>
       </body>

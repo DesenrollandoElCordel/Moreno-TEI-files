@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5171908</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 21</idno>
                   </altIdentifier>
@@ -65,10 +68,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_022_1.xml">grabado_m_022_1</item>
+                           <item corresp="grabado_m_022_2.xml">grabado_m_022_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -77,9 +81,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -103,8 +113,11 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-22" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,15 +127,13 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_021_1.jpg"/>
+
                <fw type="impresorNum">(Núm. 21)</fw>
-               
+
                <head rend="negrita" type="primer_titulo">
-                  <lb/>MATRACA
-                  <lb/>DE HOMBRE Y MUGER.
-               </head>
-               
+                  <lb/>MATRACA <lb/>DE HOMBRE Y MUGER. </head>
+
                <lg>
                   <head rend="cursiva">Hombre.</head>
                   <l rend="indent">Norabuena estés, señora,</l>
@@ -136,7 +147,7 @@
                   <l>no tires tantas centellas,</l>
                   <l>que me matas.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger</head>
                   <l rend="indent">Para que son pataratas,</l>
@@ -146,7 +157,7 @@
                   <l>hijo de la relamida</l>
                   <l>me parece.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre.</head>
                   <l rend="indent">No, sino que lo merece</l>
@@ -156,7 +167,7 @@
                   <l>Tratemos algo de ajuste,</l>
                   <l>si te agrada.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger.</head>
                   <l rend="indent">Miren con qué media espada</l>
@@ -166,20 +177,20 @@
                   <l>que aunque soy niña no tengo</l>
                   <l>sencilleces.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre,</head>
                   <l rend="indent">Deja ya las esquiveces,</l>
                   <l>pues Cupido</l>
                   <l>por ti el corazon me ha herido</l>
-               
-               <pb n="2"/>
-               
+
+                  <pb n="2" source="Moreno_021_2.jpg"/>
+
                   <l>de un flechazo,</l>
                   <l>Admitame en su regazo</l>
                   <l>tu belleza.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger</head>
                   <l rend="indent">Oigan qué brava llaneza</l>
@@ -187,9 +198,9 @@
                   <l>Pase adelante que basta</l>
                   <l>ser honrada</l>
                   <l>Pretende verme enojada,</l>
-                  <l>ó qué quiere?</l>
+                  <l>o qué quiere?</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre.</head>
                   <l rend="indent">Que admitas al que se muere</l>
@@ -203,7 +214,7 @@
                   <l>porque está mi amor sin par</l>
                   <l>que se las pela.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger.</head>
                   <l rend="indent">Vaya con eso á su abuela</l>
@@ -213,7 +224,7 @@
                   <l>á otro mejor admitiera,</l>
                   <l>que no á él.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre</head>
                   <l rend="indent">Pues picára, mala piel,</l>
@@ -235,7 +246,7 @@
                   <l>que habrás sido despreciada</l>
                   <l>de dos mil.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger</head>
                   <l rend="indent">Mire el picaro mandil</l>
@@ -249,7 +260,7 @@
                   <l>de que me ha de pagar,</l>
                   <l>el sucio necio.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre.</head>
                   <l rend="indent">Fregona de bajo precio,</l>
@@ -262,7 +273,7 @@
                   <l>desangrado,</l>
                   <l>y como tu desollado,</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger</head>
                   <l rend="indent">Arrogante</l>
@@ -278,16 +289,16 @@
                   <l>su vestido,</l>
                   <l>mas que su cara raido.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre</head>
                   <l rend="indent">Vil pelota,</l>
                   <l>con los ojos de gaviota,</l>
                   <l>y avestruz,</l>
                   <l>enemiga de la luz,</l>
-               
-               <pb n="3"/>
-               
+
+                  <pb n="3" source="Moreno_021_3.jpg"/>
+
                   <l>y de sus bienes:</l>
                   <l>ya te conozco que tienes</l>
                   <l>sarna y tiña.</l>
@@ -311,7 +322,7 @@
                   <l>y hechicera;</l>
                   <l>zurcidora y embustera.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger.</head>
                   <l rend="indent">Pelambron,</l>
@@ -325,7 +336,7 @@
                   <l>pues zurcido,</l>
                   <l>se ha hecho un roto cosido.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre</head>
                   <l rend="indent">Alcahueta,</l>
@@ -342,7 +353,7 @@
                   <l>engendradora de truenos</l>
                   <l>y de rayos.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger</head>
                   <l rend="indent">Ya conozco tus ensayos,</l>
@@ -356,7 +367,7 @@
                   <l>la que de una calavera</l>
                   <l>saca dientes.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre.</head>
                   <l rend="indent">Mil veces, bribona, mientes,</l>
@@ -368,7 +379,7 @@
                   <l>que de racion de hospitales</l>
                   <l>te sustentas.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger.</head>
                   <l rend="indent">Y tu de qué te alimentas,</l>
@@ -384,7 +395,7 @@
                   <l>que no esté seguro un santo</l>
                   <l>de tu lengua.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre,</head>
                   <l rend="indent">Oye, de mujeres mengua.</l>
@@ -392,12 +403,12 @@
                   <l>Cierra, cierrá ese aposento,</l>
                   <l>que si entrára,</l>
                   <l>te cruzára aquesa cara</l>
-               
-               <pb n="4"/>
-               
+
+                  <pb n="4" source="Moreno_021_4.jpg"/>
+
                   <l>de pandero.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger.</head>
                   <l rend="indent">Anda, galeoto embustero,</l>
@@ -409,7 +420,7 @@
                   <l>Más supla el barreteado,</l>
                   <l>que está en bete,</l>
                   <l>y llevarás capirote</l>
-                  <l>por sombrero,</l>
+                  <l>por sombrero.</l>
                   <l>Echartele encima espero,</l>
                   <l>pues me enfado.</l>
                   <l>Allá va seor licenciado,</l>
@@ -417,7 +428,7 @@
                   <l>ese trago porque beba,</l>
                   <l>y se consuele.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre.</head>
                   <l rend="indent">Ah picaña, y que mal huele!</l>
@@ -431,7 +442,7 @@
                   <l>asi dejarte pudiera</l>
                   <l>sin vidriado</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger.</head>
                   <l rend="indent">Ay picaro, que has quebrado</l>
@@ -450,19 +461,19 @@
                   <l>de la Villa,</l>
                   <l>que te saquen la ropilla.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Hombre.</head>
-                  <l rend="indent">Porcanchona, </l>
+                  <l rend="indent">Porcanchona,</l>
                   <l>deshonra de Baraona,</l>
                   <l>el en cerrarte</l>
                   <l>la vida puede salvarte.</l>
                </lg>
-               
+
                <lg>
                   <head rend="cursiva">Muger.</head>
                   <l rend="indent">Hasta mañana;</l>
-                  <l>que yo cieiro la ventana,</l>
+                  <l>que yo cierro la ventana,</l>
                   <l>y me recojo,</l>
                   <l>mientras el se echa en remojo</l>
                   <l>en una artesa:</l>
@@ -474,14 +485,13 @@
                   <l>dientes de baca,</l>
                   <l>llevate alla esa matraca.</l>
                </lg>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1856.
-                  <lb/>Imprenta de D. José María Moreno, calle Juan de la Cabra.
+                  <lb/>CARMONA:—1856. <lb/>Imprenta de D. José María Moreno, calle Juan de la Cabra.
                </p>
             </div>
          </div>

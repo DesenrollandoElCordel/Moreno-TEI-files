@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5024953</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 75</idno>
                   </altIdentifier>
@@ -65,7 +68,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_064_1.xml">grabado_m_064_1</item>
@@ -78,9 +81,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -104,8 +113,11 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-05" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-05" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-25" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -115,17 +127,15 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
-               
+               <pb n="1" source="Moreno_064_1.jpg"/>
+
                <fw type="impresorNum">(Numero 75.)</fw>
-               
+
                <head type="primer_titulo">
-                  <lb/>PASILLO
-                  <lb/>DEL SORDO Y EL ARRIERO.
-               </head>
-               
+                  <lb/>PASILLO <lb/>DEL SORDO Y EL ARRIERO. </head>
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>V engo á ver cómo anda esto,</l>
                   <l>porque me tiene en cuidiao</l>
                   <l>el demonio de la jaza,</l>
@@ -133,64 +143,64 @@
                   <l>por Cristo que me perdió</l>
                   <l>habérseme elao los nabos:</l>
                   <l>éh ! paciencia y barajar;</l>
-                  <l>á aralla voy de contao, </l>
+                  <l>á aralla voy de contao,</l>
                   <l>y sembralla de barbecho</l>
                   <l>y á cogella de garbanzos</l>
-                  <l>que serán como manteca. </l>
+                  <l>que serán como manteca.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Gracias á Dios que he topao</l>
                   <l>á la vera del camino</l>
                   <l>este hombre trabajando;</l>
-                  <l>él no tiene buena traza, </l>
+                  <l>él no tiene buena traza,</l>
                   <l>pues parece un alelao,</l>
                   <l>pero por aquí no hay otro</l>
                   <l>que sea mas avisao;</l>
                   <l>voy á ver si por fortuna</l>
-                  <l>con mi mulo se ha encontrao, </l>
+                  <l>con mi mulo se ha encontrao,</l>
                   <l>ó si le ha visto pasar</l>
                   <l>jácia arriba ó jácia abajo.</l>
                   <l>Dios guarde á Vd. buen amiho.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Sí señor, toos los nabos</l>
                   <l>de la jaza que Vd. ve,</l>
-                  <l>toitos se me han elao. </l>
+                  <l>toitos se me han elao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Amigo, no digo eso;</l>
                   <l>¡qué maldito lance he echao!</l>
                   <l>este es sordo sin remedio;</l>
                   <l>vaya que estoy abiao</l>
                   <l>sin saber lo que he de hacer</l>
                   <l>en lance tan apurao:</l>
-               
-               <pb n="2"/>
-               
+
+                  <pb n="2" source="Moreno_064_2.jpg"/>
+
                   <l>le preguntaré otra vez.</l>
                   <l>¿Es Vd. de oido falto?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Como tres y dos son cinco,</l>
                   <l>pintará bien el garbanzo:</l>
                   <l>hoy quedará de barbecho,</l>
                   <l>y esta semana sembrao,</l>
-                  <l>porque no hay duda ninguna </l>
+                  <l>porque no hay duda ninguna</l>
                   <l>que esta tierra es para el caso,</l>
                   <l>y que serán sin remedio</l>
-                  <l>mas tiernas que mantecao. </l>
+                  <l>mas tiernas que mantecao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Ahora sí que llueve gordo</l>
                   <l>sin haber ningun nublao;</l>
                   <l>este hombre no me entiende,</l>
@@ -200,70 +210,70 @@
                   <l>jácia por aquí un mulillo</l>
                   <l>que es de cuatro á cinco años</l>
                   <l>con una jáquima nueva</l>
-                  <l>y el albardon remendao ?</l>
+                  <l>y el albardon remendao?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Várgame Dios, qué desgracia.</l>
                   <l>con que too eso ha pasao ?</l>
                   <l>miren qué diablo é ñublo,</l>
                   <l>y grande seria el relámpago:</l>
-                  <l>¿ cuántos murieron, amigo?</l>
+                  <l>¿cuántos murieron, amigo?</l>
                   <l>¿cuantos cayeron abajo?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Mejor fuera que bajáran</l>
                   <l>las cuentas de tu espinazo;</l>
                   <l>sordo de dos mil demonios</l>
-                  <l>que no es eso lo que  jablo:</l>
+                  <l>que no es eso lo que jablo:</l>
                   <l>yo pregunto por un mulo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Si me ha ejao Vd. parao</l>
                   <l>con semejante noticia:</l>
                   <l>Jesus, qué suor me ha dao,</l>
                   <l>de pensar solo en el ñublo;</l>
                   <l>toico me he sufocao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Por Dios que dice que suda,</l>
                   <l>pero yo estoy cardeao,</l>
                   <l>usté me quiere decir</l>
                   <l>si en el camino ha encontrao</l>
                   <l>algun pasajero un mulo</l>
                   <l>que se me perdió allá abajo</l>
-                  <l>con una jáquima nueva </l>
-                  <l>y el albardon remendao ? </l>
+                  <l>con una jáquima nueva</l>
+                  <l>y el albardon remendao?</l>
                   <l>deje la porfía del ñublo</l>
                   <l>sordo de doscientos diablos;</l>
                   <l>responda á lo que le digo</l>
                   <l>ó le santiguo los cascos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Amigo, Vd. me perdone</l>
                   <l>que yo estaba equivocao;</l>
-                  <l>ya tiene el negocio pelos, </l>
+                  <l>ya tiene el negocio pelos,</l>
                   <l>sé yo muy bien ese caso.</l>
                   <l>Con que por fin perdió el juicio</l>
-                  <l>con el diablo del ¿preñao</l>
+                  <l>con el diablo del preñao</l>
                   <l>la muchacha del tio Lucas, </l>
                   <l>la del cortijillo bajo?</l>
-                  <l>Diga Vd. no valió empeño.</l>
+                  <l>Diga Vd. no valió empeño</l>
                   <l>Con que Vd. por cuatro años</l>
                   <l>fué á presillo sin remedio!</l>
                   <l>eso fué haberse enconao</l>
                   <l>el demonio de la tia</l>
                   <l>en no querer alzar mano.</l>
-                  <l>Y qué ¿ se casó por fin?</l>
+                  <l>Y qué ¿se casó por fin?</l>
                   <l>se puso en ama el muchacho?</l>
                   <l>se hicieron las amistades ?</l>
                   <l>queó Vd. como hombre honrao?</l>
@@ -274,9 +284,9 @@
                   <l>ha queao Vd. entonces</l>
                   <l>como hombre deshonrao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Este hombre, no hay remedio,</l>
                   <l>ó está loco ó muy borracho;</l>
                   <l>á too lo que le pregunto</l>
@@ -284,40 +294,40 @@
                   <l>yo pregunto por un mulo,</l>
                   <l>por un mulo he preguntao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Qué se quebró Vd. un muslo?</l>
                   <l>haber llamao el cirujano.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Yo pregunto por un mulo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
-                  <l>Qué, por fin le dió ñublon ?</l>
+                  <speaker rend="cursiva">Sor.</speaker>
+                  <l>Qué, por fin le dió ñublon?</l>
                   <l>haber presentao el despacho.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Un despacho para Indias</l>
                   <l>te diera, sordo del diablo;</l>
                   <l>responda á lo que le digo</l>
                   <l>ó le tiro un garrotazo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Yo me alegro; mire Vd.</l>
                   <l>que me habia dao cudiao;</l>
                   <l>pero ya veo que es verdá</l>
-               
-               <pb n="3"/>
-               
+
+                  <pb n="3" source="Moreno_064_3.jpg"/>
+
                   <l>y me alegro por Dios Santo;</l>
                   <l>y bien sabe donde aprieta</l>
                   <l>la correa del zapato;</l>
@@ -328,21 +338,21 @@
                   <l>ea, dejémonos de eso</l>
                   <l>porque el lance es muy pesao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Pesaas se vean tus tripas,</l>
                   <l>tu corazon, y reaño,</l>
                   <l>sordo de dos mil demonios,</l>
                   <l>que no es eso lo que jablo;</l>
-                  <l>usté me quiere deeir</l>
+                  <l>usté me quiere decir</l>
                   <l>por Dios ó por tres mil diablos,</l>
                   <l>si en el camino algun mulo</l>
                   <l>un pasajero ha encontrao?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Como plata. No que no,</l>
                   <l>á toos los que pasamos</l>
                   <l>para comer y vestir</l>
@@ -361,41 +371,41 @@
                   <l>del moo que se ha portao;</l>
                   <l>viva usté cuarenta siglos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Llévente cuarenta diablos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor, </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Bendita sea la madre</l>
                   <l>que parió un hombre tan sábio;</l>
-                  <l>qué lindamente que casca </l>
-                  <l>sin caña , porra, ni palo;</l>
+                  <l>qué lindamente que casca</l>
+                  <l>sin caña, porra, ni palo;</l>
                   <l>bien me ha gustao el ratico.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Pues yo estoy desesperao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>¿Cuándo quiere que hablemos</l>
-                  <l>otra tarde mas despacio ?</l>
+                  <l>otra tarde mas despacio?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
-                  <l>En la vida , nunca mas,</l>
+                  <speaker rend="cursiva">Arr.</speaker>
+                  <l>En la vida, nunca mas,</l>
                   <l>que estoy ya desesperao</l>
                   <l>de ver un hombre tan bruto.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Me ha ejao Vd. obligao</l>
                   <l>y me precisa serville:</l>
                   <l>en mi vida é trompezao</l>
@@ -404,16 +414,16 @@
                   <l>trate un negocio que Vd.</l>
                   <l>que parece que es letrao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Con que Vd. no me dirá</l>
                   <l>si en el camino ha encontrao</l>
                   <l>algun pasajero un mulo ?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Que sea por muchos años, </l>
                   <l>y Dios le dé á Vd. salú</l>
                   <l>para poder disfrutallo:</l>
@@ -421,17 +431,17 @@
                   <l>es nuevo ó es ya cerrao ?</l>
                   <l>es castellano ó gallego?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Es que lo vengo buscando;</l>
                   <l>que si Vd. lo ha visto digo,</l>
-                  <l>ó si por aquí ha pasao. </l>
+                  <l>ó si por aquí ha pasao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
-                  <l>Várgame Dios qué desgracia; </l>
+                  <speaker rend="cursiva">Sor.</speaker>
+                  <l>Várgame Dios qué desgracia;</l>
                   <l>donde le dió á Vd. el porrazo?</l>
                   <l>ese es gallego sin duda</l>
                   <l>que sirven á un hombre un año</l>
@@ -440,47 +450,47 @@
                   <l>amigo, tener paciencia</l>
                   <l>y metelle bien la mano.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
-                  <l>Yo no sé aonde estoy, </l>
+                  <speaker rend="cursiva">Arr.</speaker>
+                  <l>Yo no sé aonde estoy,</l>
                   <l>yo me tiento y no me jallo;</l>
                   <l>este hombre es el demonio,</l>
                   <l>le hablaré un poco mas alto </l>
                   <l>mire Vd. <stage rend="cursiva">le pega un grito.</stage></l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Jesús, María,</l>
                   <l>no me dé Vd. esos gritazos,</l>
                   <l>que no jabla con un sordo,</l>
                   <l>ni soy de oido apurao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
-                  <l>Al sordo darle barreno, </l>
-                  <l>y dejarlo taladrao. </l>
+                  <speaker rend="cursiva">Arr.</speaker>
+                  <l>Al sordo darle barreno,</l>
+                  <l>y dejarlo taladrao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Y no soy mas que teniente,</l>
-                  <l>y el haberle aconsejaó</l>
+                  <l>y el haberle aconsejao</l>
                   <l>que le eche buena carga </l>
                   <l>y le meta bien la mano,</l>
                   <l>me parece que no es eso</l>
                   <l>estar taciendo disparos:</l>
-               
-               <pb n="4"/>
-               
+
+                  <pb n="4" source="Moreno_064_4.jpg"/>
+
                   <l>pues yo bién entiendo á Vd.</l>
                   <l>y digo lo que ha jablao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Responde Vd. muy acorde</l>
                   <l>á cuanto le he preguntao:</l>
                   <l>yo temo que me vá á dar</l>
@@ -488,35 +498,35 @@
                   <l>y antes de irme he de saber</l>
                   <l>el nombre de este zamarro.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Vd. le jaria cosquillas</l>
                   <l>y le sacudió el trancazo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Cómo es la gracia de Vd.?</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>En mas de setenta años</l>
                   <l>no he tenido tal desgracia:</l>
                   <l>y es porque siempre he andao</l>
                   <l>con los ojos en la cara</l>
                   <l>con los animales falsos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Yo pregunto por su gracia,</l>
                   <l>por su nombre he preguntao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Muy servidora de Vd.</l>
                   <l>es nieta del escribano,</l>
                   <l>sobrina del sacristan</l>
@@ -542,16 +552,16 @@
                   <l>y ya que me ha conecio</l>
                   <l>que vaya bien enterao</l>
                   <l>de toda su parentela</l>
-                  <l>que sé que le habrá gustao, </l>
+                  <l>que sé que le habrá gustao</l>
                   <l>que aunque probe es mal nacia</l>
                   <l>por toos cuatro costaos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Yo no sé aonde estoy:</l>
                   <l>ese hombre me ha soplao</l>
-                  <l>toita su analogía, </l>
+                  <l>toita su analogía,</l>
                   <l>y esto sin venir al caso:</l>
                   <l>no siento mas que mi mulo</l>
                   <l>que me es préciso buscallo,</l>
@@ -563,67 +573,66 @@
                   <l>que yo le daré el jallazgo</l>
                   <l>y quearemos amigos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Too eso está escusao;</l>
                   <l>y cudiao con el mulillo</l>
                   <l>no lo eje usté de la mano.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Ese mulo se perdió,</l>
                   <l>y yo lo vengo buscando;</l>
                   <l>pregunto si Vd. lo ha visto</l>
                   <l>ó si por aquí ha pasao,</l>
                   <l>que me lo iga al momento.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Se perdió? Pues á buscallo,</l>
                   <l>y si no lo encuentra, es</l>
                   <l>señal que no lo ha jallao,</l>
-                  <l>comprar otro y santas pascuas; </l>
+                  <l>comprar otro y santas pascuas;</l>
                   <l>ese remedio le jallo.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Eso yo me lo sabia.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Pues no sea Vd. pesao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Arr. </speaker>
+                  <speaker rend="cursiva">Arr.</speaker>
                   <l>Tengo la sangre quemaa </l>
                   <l>de oir tantos disparos.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Sor. </speaker>
+                  <speaker rend="cursiva">Sor.</speaker>
                   <l>Pues tenga paciencia y calle,</l>
                   <l>que está claro y está llano</l>
                   <l>que el que jabla con un sordo</l>
                   <l>tiene de salir cargao.</l>
                </sp>
-               
+
                <sp>
-                  <speaker rend="cursiva">Los dos. </speaker>
+                  <speaker rend="cursiva">Los dos.</speaker>
                   <l>Y aquí se acaba el Pasillo</l>
                   <l>del arriero y hortelano.</l>
                </sp>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1858.
-                  <lb/>Imp: de D. J. M. Moreno, Calle Juan de la Cabra, núm 4.
+                  <lb/>CARMONA:—1858. <lb/>Imp: de D. J. M. Moreno. Calle Juan de la Cabra. núm 4.
                </p>
             </div>
          </div>

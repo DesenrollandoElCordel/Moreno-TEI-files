@@ -8,6 +8,7 @@
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5055159</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 301</idno>
                   </altIdentifier>
@@ -66,7 +69,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_288_1.xml">grabado_m_288_1</item>
@@ -79,9 +82,15 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -93,7 +102,7 @@
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="es">Español</language>
+            <language ident="">Andaluz</language>
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
@@ -107,7 +116,9 @@
       <revisionDesc>
          <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-05" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,16 +128,13 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_288_1.jpeg"/>
 
                <fw type="impresorNum">(Núm. 301)</fw>
 
                <head rend="negrita" type="primer_titulo">
-                  <lb/>PASILLO
-                  <lb/>EN VERSO ANDALUZ,
-                  <lb/>LO EJECUTAN
-                  <lb/>CURRO, DOLORES Y EL TREMENDO.
-               </head>
+                  <lb/>PASILLO <lb/>EN VERSO ANDALUZ, <lb/>LO EJECUTAN <lb/>CURRO, DOLORES Y EL
+                  TREMENDO. </head>
 
                <sp>
                   <speaker>D.</speaker>
@@ -158,13 +166,13 @@
 
                <sp>
                   <speaker>T.</speaker>
-                  <l>Bálgame Dios, cielecitó,</l>
+                  <l>Bálgame Dios, cíelecitó,</l>
                   <l>donde espera V. acuío,</l>
                   <l>me está V. esperando amí?</l>
                   <l>respónda V. que me irrito,</l>
-                  
-                  <pb n="2"/>
-                  
+
+                  <pb n="2" source="Moreno_288_2.jpeg"/>
+
                   <l>hable V. una palabrita</l>
                   <l>y no mesté tan callá </l>
                   <l>que me ba V. á hacer llorar, </l>
@@ -273,7 +281,7 @@
                   <speaker>T.</speaker>
                   <l>Mirusté que yo hago empeño</l>
                   <l>de estarme aquí en esta puerta</l>
-                  <l>déjela V, un rato abierta</l>
+                  <l>déjela V. un rato abierta</l>
                   <l>y no sea V. así mi dueño.</l>
                </sp>
 
@@ -305,8 +313,8 @@
 
                <sp>
                   <speaker>D.</speaker>
-                  <l>Que sies V. muy tremendita,</l>
-                  <l>y ya quedó V, hajilao.</l>
+                  <l>Que síes V. muy tremendita,</l>
+                  <l>y ya quedó V. hajilao.</l>
                </sp>
 
                <sp>
@@ -366,8 +374,8 @@
                   <l>que si V. cuite ablando</l>
                   <l>le á dao calentura y frio.</l>
                </sp>
-               
-               <pb n="3"/>
+
+               <pb n="3" source="Moreno_288_3.jpeg"/>
 
                <sp>
                   <speaker>T.</speaker>
@@ -411,7 +419,7 @@
                   <l>y en mirando un baliente</l>
                   <l>se jiñan en los calzones, </l>
                   <l>yá biene hay mi currillo.</l>
-                  <l>Cielo hombre no se ba y ca</l>
+                  <l>Cielo hombre no se ba y caya,</l>
                   <l>una bofetá se jaya</l>
                   <l>mas grande que la de Cristo. </l>
                   <l>La fortuniya será, </l>
@@ -473,7 +481,7 @@
                   <l>En estando tu contenta</l>
                   <l>soy un hombre poderoso,</l>
                   <l>y tengo entre mi mas gozo,</l>
-                  <l>que con un millon de renta</l>
+                  <l>que con un millon de renta,</l>
                   <l>tu cielesito, Dolores.</l>
                   <l>Cuando alegrita te hallo</l>
                   <l>me alegra a mí mas que Mayo</l>
@@ -492,23 +500,26 @@
                   <speaker>D.</speaker>
                   <l>Que si te quiero, Jesus.</l>
                   <l>Curro mas bale callar,</l>
-                  <l>porqne voy á isparata,</l>
+                  <l><choice>
+                        <sic>porqne</sic>
+                        <corr>porque</corr>
+                     </choice> voy á isparata,</l>
                   <l>¿no lo está chanando tú?</l>
                   <l>el sentio se me sierra,</l>
                   <l>Curro no sé lo que digo,</l>
                   <l>por que idolatro contigo,</l>
                   <l>y eres mi Dios en la tierra.</l>
                   <l>Bien sabes que me he ofrecio,</l>
-                  
-                  <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_288_4.jpeg"/>
+
                   <l>ha ser tuya consagrada,</l>
                   <l>y la facultad te he dao</l>
                   <l>para que mandes en mí,</l>
                   <l>si faltare á tu querer, </l>
                   <l>ó te diera algun disgusto</l>
                   <l>mátame en el mismo instante</l>
-                  <l>que gustosa moriré..</l>
+                  <l>que gustosa moriré.</l>
                </sp>
 
                <sp>
@@ -523,14 +534,14 @@
                   <l>los santos me han de envidiar.</l>
                   <l>Biban las mozas chorré</l>
                   <l>camelando con primor,</l>
-                  <l>tu me. á partío el corazon</l>
+                  <l>tu me á partío el corazon</l>
                   <l>con tu palabra Dolores.</l>
                   <l>Eres ángel soberano</l>
                   <l>que mi discursos no yerran, </l>
                   <l>y te bajas á la tierra</l>
                   <l>á matar fieles cristianos.</l>
                   <l>Dame un abrazo muchacha,</l>
-                  <l>que eres tú muy salamera.</l>
+                  <l>que eres tù muy salamera.</l>
                </sp>
 
                <sp>
@@ -541,7 +552,7 @@
 
                <sp>
                   <speaker>C.</speaker>
-                  <l>Seras mia?</l>
+                  <l>Serás mia?</l>
                </sp>
 
                <sp>
@@ -583,7 +594,7 @@
 
                <sp>
                   <speaker>C.</speaker>
-                  <l>Yó te tengo é camelá</l>
+                  <l>Yó te tengo é camelà</l>
                   <l>aun que al mundo no le cuadre.</l>
                </sp>
 
@@ -618,19 +629,19 @@
                   <l>dímelo y lo hecho á pená</l>
                   <l>con las sánimas benditas.</l>
                   <l>Astillita de canela</l>
-                  <l>quieníse atermina á ofenderte</l>
+                  <l>quien se atermina á ofenderte</l>
                   <l>saviendo ya claramente</l>
                   <l>que tu curro te camela.</l>
                </sp>
 
                <sp>
                   <speaker>D.</speaker>
-                  <l>Bien reconosco que muncha. </l>
+                  <l>Bien reconosco que muncha</l>
                   <l>la ley que me tienes tú,</l>
-                  <l>pero bien sabe Jesús</l>
+                  <l>pero bien sabe Jesus</l>
                   <l>que se oyen pasos,</l>
                   <l>escucha mi madre es,</l>
-                  <l>¡no te lo isia! </l>
+                  <l>¡no te lo isìa! </l>
                   <l>Babono de aquí los dos.</l>
                </sp>
 
@@ -638,20 +649,19 @@
                   <speaker>C.</speaker>
                   <l>Dolores, quédate con Dios.</l>
                </sp>
-               
+
                <sp>
                   <speaker>D.</speaker>
                   <l>A dios.</l>
                </sp>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:=1858.
-                  <lb/>Imbrenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
-               </p>
+                  <lb/>CARMONA:=1858. <lb/>Imbrenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  4. </p>
             </div>
          </div>
       </body>

@@ -39,11 +39,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI"></idno>
+                  <idno type="DOI">10.5281/zenodo.5036807</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 148</idno>
                   </altIdentifier>
@@ -69,7 +71,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="2">Dos grabados (p.1)</decoNote>
+                     <decoNote n="2" type="num_grabados">Dos grabados (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_141_1">grabado_m_141_1</item>
@@ -82,6 +84,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR no corregido</p>
@@ -110,7 +118,8 @@
       <revisionDesc>
          <change when="2021-03-26" who="#MB">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,20 +127,19 @@
    </facsimile>
    <text>
       <body>
-            
+
+         <div>
+
             <div>
-               
-               <div>
-               
-               <pb n="1"/>
-               
+
+               <pb n="1" source="Moreno_141_1.jpg"/>
+
                <fw type="impresorNum">Núm. 149</fw>
-               
-               <head type="primer_titulo">NUEVA RELACION
-                  <lb/><hi rend="negrita">DE</hi>
+
+               <head type="primer_titulo">NUEVA RELACION <lb/><hi rend="negrita">DE</hi>
                   <lb/><hi rend="negrita">LA RIQUEZA Y LA POBREZA.</hi>
                </head>
-               
+
                <l rend="indent">Supuesto de que mi pluma</l>
                <l>está puesta en la palestra</l>
                <l>presentando la batalla</l>
@@ -164,9 +172,9 @@
                <l>su engaño, quiero que entienda</l>
                <l>que es ignorancia muy grande</l>
                <l>no amarla, y aborrecerla:</l>
-               
-               <pb n="2"/>
-               
+
+               <pb n="2" source="Moreno_141_2.jpg"/>
+
                <l>yque muy ciegos vivimos,</l>
                <l>adorando á la Riqueza,</l>
                <l>como dama tan hermosa,</l>
@@ -257,9 +265,9 @@
                <l>doy cargos y doy nobleza,</l>
                <l>y de un humilde villano</l>
                <l>hago un general apriesa:</l>
-               
-               <pb n="3"/>
-               
+
+               <pb n="3" source="Moreno_141_3.jpg"/>
+
                <l>duques y grandes de España</l>
                <l>muchos son con mi licencia,</l>
                <l>y así de las voluntades</l>
@@ -350,9 +358,9 @@
                <l>una facil escalera.</l>
                <l>Y si no, atiende y veras</l>
                <l>cuán grande es la diferencia,</l>
-               
-               <pb n="4"/>
-               
+
+               <pb n="4" source="Moreno_141_4.jpg"/>
+
                <l>que entre los tuyos ha habido</l>
                <l>á los mios, en la tierra,</l>
                <l>Tu amigo el Rico Avariento,</l>
@@ -423,16 +431,14 @@
                <l>ella escribirá contenta.</l>
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb/>CARMONA—1854.
-                  <lb/>Imp. de D. José M. Moreno. Descalzas. 1.
-               </p>
+                  <lb/>CARMONA—1854. <lb/>Imp. de D. José M. Moreno. Descalzas. 1. </p>
             </div>
-               
+
          </div>
-         
+
       </body>
    </text>
 </TEI>

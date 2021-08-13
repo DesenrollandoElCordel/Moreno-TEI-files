@@ -40,10 +40,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"/>
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5069567</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -69,7 +72,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="num_grabados" n="1">Un grabado (p.1)</decoNote>
+                     <decoNote n="1" type="num_grabados">Un grabado (p.1)</decoNote>
                      <decoNote type="lista_grabados">
                         <list>
                            <item corresp="grabado_m_354_1.xml">grabado_m_354_1</item>
@@ -81,6 +84,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
          <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
@@ -107,8 +116,10 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,16 +129,14 @@
       <body>
          <div>
             <div>
-               <pb n="1"/>
+               <pb n="1" source="Moreno_354_1.jpg"/>
 
                <head type="primer_titulo">
                   <lb/><hi rend="negrita">COMPOSICION</hi>
-                  <lb/>de la prision que sufrieron los que desgracia-
-                  <lb/>damente fueron aprisionados, por el General
-                  <lb/>de las filas enemigas,
-                  <lb/><hi rend="negrita">DON RAMON CABRERA.</hi>
-                  <lb/>SEGUN ME HAN INFORMADO.
-               </head>
+                  <lb/>de la prision que sufrieron los que desgracia- <lb/>damente fueron
+                  aprisionados, por el General <lb/>de las filas enemigas, <lb/><hi rend="negrita"
+                     >DON RAMON CABRERA.</hi>
+                  <lb/>SEGUN ME HAN INFORMADO. </head>
 
                <lg>
                   <l rend="indent">Soldado que te formaron</l>
@@ -145,7 +154,7 @@
                   <l>diciéndole: reina y madre.</l>
                </lg>
 
-               <pb n="2"/>
+               <pb n="2" source="Moreno_354_2.jpg"/>
 
 
                <lg>
@@ -255,7 +264,7 @@
                <lg>
                   <l rend="indent">Todos llevamos la cruz</l>
 
-                  <pb n="3"/>
+                  <pb n="3" source="Moreno_354_3.jpg"/>
 
                   <l>sufriéndola con paciencia,</l>
                   <l>acostándonos sin luz</l>
@@ -362,9 +371,9 @@
                <lg>
                   <l rend="indent">lban sufriendo la marcha</l>
                   <l>faltándole los alientos</l>
-                  
-                  <pb n="4"/>
-                  
+
+                  <pb n="4" source="Moreno_354_4.jpg"/>
+
                   <l>y al Cielo piden venganza</l>
                   <l>de aquel que asi los ha puesto,</l>
                   <l>y al mismo tiempo dán gracias.</l>
@@ -387,10 +396,9 @@
                </lg>
 
                <p>
-                  <lb rend="indent"/>Compuesta por Antonio Sanchez Roldan, natural del Viso
-                  <lb/>del Alcór, Provincia de Sevilla, trabajador del campo, sin saber
-                  <lb/>leer ni escribir; el que me lea, me dispense las faltas. 
-               </p>
+                  <lb rend="indent"/>Compuesta por Antonio Sanchez Roldan, natural del Viso <lb/>del
+                  Alcór, Provincia de Sevilla, trabajador del campo, sin saber <lb/>leer ni
+                  escribir; el que me lea, me dispense las faltas. </p>
 
                <trailer rend="negrita">FIN.</trailer>
             </div>
@@ -398,8 +406,7 @@
             <div type="colofon">
                <p>
                   <lb/><hi rend="cursiva">Impreso en Sevilla.</hi>
-                  <lb/>Reimpreso en Carmona:—Imprenta de D. José Maria Moreno.
-               </p>
+                  <lb/>Reimpreso en Carmona:—Imprenta de D. José Maria Moreno. </p>
             </div>
          </div>
       </body>
