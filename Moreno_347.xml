@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_347">
    <teiHeader>
       <fileDesc>
@@ -20,10 +21,10 @@
                <titleStmt>
                   <title type="titulo_completo">Coplas nuevas en que se declara un amante y dama su
                      amor.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5060941</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -88,7 +91,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -118,23 +127,21 @@
       <revisionDesc>
          <change when="2021-04-13" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_347_thumbnail.jpg" />
+      <graphic url="Moreno_347_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_347_1.jpg" />
+               <pb n="1" source="Moreno_347_1.jpg"/>
 
                <head type="primer_titulo">
-                  <lb />COPLAS NUEVAS
-                  <lb />en que se declara 
-                  <lb />UN AMANTE Y DAMA SU AMOR.
-               </head>
+                  <lb/>COPLAS NUEVAS <lb/>en que se declara <lb/>UN AMANTE Y DAMA SU AMOR. </head>
 
                <lg>
                   <l rend="indent">Por fin ha llegado el dia </l>
@@ -190,7 +197,7 @@
                   <l>no me harto de mirarte</l>
                   <l>porque para mi eres sola,</l>
 
-                  <pb n="2" source="Moreno_347_2.jpg" />
+                  <pb n="2" source="Moreno_347_2.jpg"/>
 
                   <l>será imposible olvidarte.</l>
                </lg>
@@ -331,13 +338,11 @@
                   <l>cara de diablo mayor.</l>
                </lg>
 
-               <pb n="3" source="Moreno_347_3.jpg" />
+               <pb n="3" source="Moreno_347_3.jpg"/>
 
                <div>
                   <head type="titulo_parte">
-                     <lb />Despedida que hace un quinto á su dama y la
-                     <lb />contestacion.
-                  </head>
+                     <lb/>Despedida que hace un quinto á su dama y la <lb/>contestacion. </head>
 
                   <lg>
                      <l rend="indent">Fatal ha sido mi suerte,</l>
@@ -463,12 +468,11 @@
             </div>
 
             <div>
-               <pb n="4" source="Moreno_347_4.jpg" />
+               <pb n="4" source="Moreno_347_4.jpg"/>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">CANCION</hi>
-                  <lb />DEL PEREGIL DE ANDALUCIA.
-               </head>
+                  <lb/><hi rend="negrita">CANCION</hi>
+                  <lb/>DEL PEREGIL DE ANDALUCIA. </head>
 
                <lg>
                   <l rend="indent">Quien compra, la verdulera</l>
@@ -501,9 +505,8 @@
 
             <div type="colofon">
                <p>
-                  <lb />REIMPRESO EN CARMONA:—1861.
-                  <lb />Imp. de D. José María Moreno, calle de Madre de Dios núm. 1.
-               </p>
+                  <lb/>REIMPRESO EN CARMONA:—1861. <lb/>Imp. de D. José María Moreno, calle de Madre
+                  de Dios núm. 1. </p>
             </div>
          </div>
       </body>

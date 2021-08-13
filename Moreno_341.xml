@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_341">
    <teiHeader>
       <fileDesc>
@@ -19,11 +20,11 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Las desdichas de un soldado.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                   <author>Antonio Sanchez Roldan</author>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5060819</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
@@ -81,7 +84,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -109,21 +118,21 @@
       <revisionDesc>
          <change when="2021-04-13" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_341_thumbnail.jpg" />
+      <graphic url="Moreno_341_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_341_1.jpg" />
+               <pb n="1" source="Moreno_341_1.jpeg"/>
 
                <head type="primer_titulo">
-                  <lb />LAS DESDICHAS
-                  <lb /><hi rend="negrita">DE UN SOLDADO.</hi>
+                  <lb/>LAS DESDICHAS <lb/><hi rend="negrita">DE UN SOLDADO.</hi>
                </head>
 
                <lg>
@@ -168,7 +177,7 @@
                   <l>que hasta el cielo tiritaba.</l>
                </lg>
 
-               <pb n="2" source="Moreno_341_2.jpg" />
+               <pb n="2" source="Moreno_341_2.jpeg"/>
 
                <fw type="paginaNum">2</fw>
 
@@ -299,7 +308,7 @@
                   <l>que llevaba pan y carne,</l>
                </lg>
 
-               <pb n="3" source="Moreno_341_3.jpg" />
+               <pb n="3" source="Moreno_341_3.jpeg"/>
 
                <fw type="paginaNum">3</fw>
 
@@ -430,7 +439,7 @@
                   <l>como mi dedo pulgar,</l>
                </lg>
 
-               <pb n="4" source="Moreno_341_4.jpg" />
+               <pb n="4" source="Moreno_341_4.jpeg"/>
 
 
                <lg>
@@ -507,13 +516,12 @@
 
             <div type="colofon">
                <p>
-                  <lb />Esta composicion es propiedad de Antonio Sanchez Roldan,
-                  <lb />natural del, Viso del Alcor, provincia de Sevilla, trabajador del
-                  <lb />campo, sin saber leer ni escribir.—El que me lea me dispensará
-                  <lb />las faltas.
-               </p>
+                  <lb/>Esta composicion es propiedad de Antonio Sanchez Roldan, <lb/>natural del,
+                  Viso del Alcor, provincia de Sevilla, trabajador del <lb/>campo, sin saber leer ni
+                  escribir.—El que me lea me dispensará <lb/>las faltas. </p>
 
-               <p><lb />CARMONA:—<hi rend="cursiva">Imprenta de D.</hi> José M.a Moreno, calle de Madre de Dios.</p>
+               <p><lb/>CARMONA:—<hi rend="cursiva">Imprenta de D.</hi> José M.a Moreno, calle de
+                  Madre de Dios.</p>
             </div>
          </div>
       </body>
