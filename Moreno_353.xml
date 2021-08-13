@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_353">
    <teiHeader>
       <fileDesc>
@@ -36,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5069503</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 382</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -104,7 +107,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -119,23 +122,20 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_353_thumbnail.jpg" />
+      <graphic url="Moreno_353_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_353_1.jpg" />
+               <pb n="1" source="Moreno_353_1.jpeg"/>
 
                <fw type="impresorNum">Núm. 382.</fw>
 
                <head>
-                  <lb />PASILLO DIVERTIDO
-                  <lb />ENTRE
-                  <lb /><hi rend="negrita">MAZAPAN Y CHICHARRON</hi>
-                  <lb />Ó SEA
-                  <lb />el convite de dos Gitanos à un entierro.
-               </head>
+                  <lb/>PASILLO DIVERTIDO <lb/>ENTRE <lb/><hi rend="negrita">MAZAPAN Y
+                     CHICHARRON</hi>
+                  <lb/>Ó SEA <lb/>el convite de dos Gitanos à un entierro. </head>
 
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
@@ -188,7 +188,7 @@
                   <l>que paesco un cuervo negro.</l>
                </sp>
 
-               <pb n="2" source="Moreno_353_2.jpg" />
+               <pb n="2" source="Moreno_353_2.jpeg"/>
 
                <fw type="paginaNum">2</fw>
 
@@ -263,7 +263,10 @@
                   <l>hombre é mucho talento,</l>
                   <l>me han suplicao su gente</l>
                   <l>que le jaga en el entierro</l>
-                  <l>el principá <choice><sic>presonaje</sic><corr>personaje</corr></choice>.</l>
+                  <l>el principá <choice>
+                        <sic>presonaje</sic>
+                        <corr>personaje</corr>
+                     </choice>.</l>
                </sp>
 
                <sp>
@@ -321,7 +324,7 @@
                   <l>Compare! ¡Vaigame er cielo!</l>
                   <l>no avilla osté religíon.</l>
 
-                  <pb n="3" source="Moreno_353_3.jpg" />
+                  <pb n="3" source="Moreno_353_3.jpeg"/>
 
                   <fw type="paginaNum">3</fw>
 
@@ -427,12 +430,10 @@
                <sp>
                   <speaker rend="cursiva">Mazapan.</speaker>
                   <l>Allá vá.</l>
-                  
+
                   <stage rend="cursiva">
-                     <lb />(Saca del bolsillo dos monedas y
-                     <lb />las juega.
-                  </stage>
-                  
+                     <lb/>(Saca del bolsillo dos monedas y <lb/>las juega. </stage>
+
                   <l>Permita un divé del cielo</l>
                   <l>que pierda osté comparito.</l>
                   <l>Pia osté.</l>
@@ -478,7 +479,7 @@
                   <l>á consolá á las muchachas</l>
                   <l>y jasé los cumplimientos</l>
 
-                  <pb n="4" source="Moreno_353_4.jpg" />
+                  <pb n="4" source="Moreno_353_4.jpeg"/>
 
                   <fw type="paginaNum">4</fw>
 
@@ -589,7 +590,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA:— Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
+               <p><lb/>CARMONA:— Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
             </div>
          </div>
       </body>

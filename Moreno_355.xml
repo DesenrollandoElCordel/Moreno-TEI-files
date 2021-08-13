@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_355">
    <teiHeader>
       <fileDesc>
@@ -35,20 +36,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5069563</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -77,7 +80,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -96,7 +105,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4885496.html" type="tipo_texto">Oraciones</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
@@ -105,23 +114,22 @@
       <revisionDesc>
          <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_355_thumbnail.jpg" />
+      <graphic url="Moreno_355_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_355_1.jpg" />
+               <pb n="1" source="Moreno_355_1.jpg"/>
 
                <head type="primer_titulo">
-                  <hi rend="negrita"><lb />COPLA DEL CREDO
-                  <lb />CON LA TOMA DE MORELLA.</hi>
-                  <lb />Segun me han informado.
-               </head>
+                  <hi rend="negrita"><lb/>COPLA DEL CREDO <lb/>CON LA TOMA DE MORELLA.</hi>
+                  <lb/>Segun me han informado. </head>
 
                <lg>
                   <l rend="indent">Ha permitido mi estrella </l>
@@ -152,7 +160,7 @@
                   <l>circuló todo el recinto,</l>
                   <l>y estaban los granaderos</l>
 
-                  <pb n="2" source="Moreno_355_2.jpg" />
+                  <pb n="2" source="Moreno_355_2.jpg"/>
 
                   <l>todos aclamando á un grito,</l>
                   <l>á aquel Criador del cielo.</l>
@@ -265,7 +273,7 @@
                <lg>
                   <l rend="indent">Yo mismo al decirlo tiemblo,</l>
 
-                  <pb n="3" source="Moreno_355_3.jpg" />
+                  <pb n="3" source="Moreno_355_3.jpg"/>
 
                   <l>que fatigas pasarian </l>
                   <l>en las llamas del incendio,</l>
@@ -375,7 +383,7 @@
                   <l>llamar al Crucificado,</l>
                   <l>y podremos alcanzar</l>
 
-                  <pb n="4" source="Moreno_355_4.jpg" />
+                  <pb n="4" source="Moreno_355_4.jpg"/>
 
                   <l>el perdon de los pecados.</l>
                </lg>
@@ -405,17 +413,16 @@
                </lg>
 
                <p>
-                  <lb rend="indent" />Compuesto por Antonio Sanchez Roldan, natural del viso <lb />del Alcor,
-                  Provincia de Sevilla trabajador del campo, sin saber <lb />leer ni escribir: el que
-                  me lea, me dispense las faltas. </p>
+                  <lb rend="indent"/>Compuesto por Antonio Sanchez Roldan, natural del viso <lb/>del
+                  Alcor, Provincia de Sevilla trabajador del campo, sin saber <lb/>leer ni escribir:
+                  el que me lea, me dispense las faltas. </p>
 
                <trailer rend="negrita">Fin.</trailer>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb />Impreso en Sevilla.
-                  <lb />Reimpreso en Carmona:—Imprenta de D. José M. Moreno.
+                  <lb/>Impreso en Sevilla. <lb/>Reimpreso en Carmona:—Imprenta de D. José M. Moreno.
                </p>
             </div>
          </div>
