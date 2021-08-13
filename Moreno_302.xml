@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_302">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">El molinero de Arcos.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,20 +35,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5055477</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 319</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,7 +79,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -104,22 +113,23 @@
       <revisionDesc>
          <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_302_thumbnail.jpg" />
+      <graphic url="Moreno_302_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_302_1.jpg" />
-               
+               <pb n="1" source="Moreno_302_1.jpeg"/>
+
                <fw type="impresorNum">(Núm. 319.)</fw>
-               
+
                <head type="primer_titulo">EL MOLINERO DE ARCOS.</head>
-               
+
                <l><hi rend="negrita">G</hi>alanes enamorados,</l>
                <l>hijos de la primavera,</l>
                <l>los que en batallas de amor</l>
@@ -170,9 +180,9 @@
                <l>que en el año venir puedan,</l>
                <l>porque del depositario</l>
                <l>penden estas diligencias;</l>
-               
-               <pb n="2" source="Moreno_302_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_302_2.jpeg"/>
+
                <l>este fué el primer motiyo</l>
                <l>que el depositario encuentra</l>
                <l>para hablarle á esta señora, </l>
@@ -263,9 +273,9 @@
                <l>que ni aun el diablo lo hieiera, </l>
                <l>la puso en la misma silla,</l>
                <l>que estaba á la cabecera,</l>
-               
-               <pb n="3" source="Moreno_302_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_302_3.jpeg"/>
+
                <l>lesamarró su caballo,</l>
                <l>ató el suyo por la rienda,</l>
                <l>salió á la calle furioso</l>
@@ -356,9 +366,9 @@
                <l>qué traicion ha sido esta ?</l>
                <l>cómo entró Vd. en mi casa?</l>
                <l>y mi esposo dónde queda?</l>
-               
-               <pb n="4" source="Moreno_302_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_302_4.jpeg"/>
+
                <l><damage><supplied>d</supplied></damage>e respondio el molmuero,</l>
                <l>no me quiebre la cabeza,</l>
                <l>y en viniendo su marido</l>
@@ -431,14 +441,13 @@
                <l>advierte que no es novela</l>
                <l>que por testigo de vista</l>
                <l>pone al ciego de la Peña.</l>
-               
+
                <trailer>FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1858.
-                  <lb />Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 4.
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 4.
                </p>
             </div>
          </div>
