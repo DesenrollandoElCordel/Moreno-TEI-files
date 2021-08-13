@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_337">
    <teiHeader>
       <fileDesc>
@@ -19,10 +20,10 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">La guerra de Africa. Campamento y sangre.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -34,20 +35,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5060665</idno>
                   <altIdentifier>
                      <idno type="num_impresor">[s.n.]</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -65,7 +68,7 @@
                   </objectDesc>
                   <decoDesc>
                      <decoNote>
-                        <p />
+                        <p/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -73,7 +76,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -91,8 +100,8 @@
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
-               <term type="tipo_texto" />
-               <term type="tipo_estrofa" />
+               <term type="tipo_texto"/>
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -105,17 +114,17 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_337_thumbnail.jpg" />
+      <graphic url="Moreno_337_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_337_1.jpg" />
-               
+               <pb n="1" source="Moreno_337_1.jpg"/>
+
                <head rend="negrita" type="primer_titulo">LA GUERRA DE AFRICA.</head>
                <head type="subtitulo">CAMPAMENTO Y SANGRE.</head>
-               
+
                <l rend="indent">Quedaron nuestros valientes</l>
                <l>firmes en el campamento,</l>
                <l>aguardando al marroquí</l>
@@ -200,11 +209,11 @@
                <l>y alinear batallones,</l>
                <l>y el clarin á botar silla</l>
                <l>y formar los escuadrones.</l>
-               
-               <pb n="2" source="Moreno_337_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_337_2.jpg"/>
+
                <fw type="paginaNum">2</fw>
-               
+
                <l>Al frente del enemigo</l>
                <l>puso la caballeria</l>
                <l>y detras de los caballos</l>
@@ -303,11 +312,11 @@
                <l>esta muerte tan amarga.</l>
                <l>Los lamentos que sonaban,</l>
                <l>los clamores! dugise ofan;</l>
-               
-               <pb n="3" source="Moreno_337_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_337_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>trastornaban el sentido,</l>
                <l>los golpes de antillenta.</l>
                <l>Morian los infelices </l>
@@ -406,11 +415,11 @@
                <l>con tal ira y con tal brio,</l>
                <l>la mayor parte enemiga</l>
                <l>le carga al general Rios, </l>
-               
-               <pb n="4" source="Moreno_337_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_337_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>Viéndose este general</l>
                <l>que tanto fuego le cerca,</l>
                <l>le obligó formar el cuadro</l>
@@ -508,9 +517,10 @@
                <l>no se puede imaginar</l>
                <l>la sangre que han derramado!</l>
             </div>
-            
+
             <div type="colofon">
-               <p><lb /><hi rend="cursiva">Reimpreso en Carmona</hi>–:Imprenta de D. José M.a Moreno.</p>
+               <p><lb/><hi rend="cursiva">Reimpreso en Carmona</hi>–:Imprenta de D. José M.a
+                  Moreno.</p>
             </div>
          </div>
       </body>

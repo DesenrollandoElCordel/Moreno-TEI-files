@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_336">
    <teiHeader>
       <fileDesc>
@@ -23,7 +24,7 @@
                   <title type="titulo_breve">Tratado de paz de la guerra de Africa</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,20 +36,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5060658</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 365</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -66,7 +69,7 @@
                   </objectDesc>
                   <decoDesc>
                      <decoNote>
-                        <p />
+                        <p/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -74,7 +77,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -93,7 +102,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX5379362.html" type="tipo_texto">Diálogos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -106,20 +115,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_336_thumbnail.jpg" />
+      <graphic url="Moreno_336_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_336_1.jpg" />
+               <pb n="1" source="Moreno_336_1.jpg"/>
 
                <fw type="impresorNum">Número 365. </fw>
 
                <head rend="negrita" type="primer_titulo">
-                  <lb />TRATADO DE PAZ
-                  <lb />DE LA GUERRA DE AFRICA.
-               </head>
+                  <lb/>TRATADO DE PAZ <lb/>DE LA GUERRA DE AFRICA. </head>
                <head rend="cursiva" type="subtitulo">Entrevista entre el General O'donnell y el
                   Califa Muley-el-Albas.</head>
 
@@ -213,92 +220,93 @@
                   <l rend="indent">Cristiano asustado estoy, </l>
                   <l>¿faltaran á tu obediencia</l>
                   <l>y ofendidos como estan</l>
-                  <l>me haran perder la existencia?</l></sp>
-                  
-                  <sp>
-                     <speaker rend="cursiva">Cristiano.</speaker>
-                     <l rend="indent">Descuida, nada te harán</l>
-                     <l>¿acaso son mis soldados.</l>
-                     <l>bárbaros como los tuyos </l>
-                     <l>que se matan á bocados? </l>
-                     <l>¿no sabes que en los cristianos</l>
-                     <l>está la caridad humana? </l>
-                     <l>si tu me hubieras vencido </l>
-                     <l>mis hijos no lo contaran. </l>
-                     
-                     <pb n="2" source="Moreno_336_2.jpg" />
-                     
-                     <fw type="paginaNum">2</fw>
-                     
-                     <l>Cuando un prisionero tuyo</l>
-                     <l>ha venido á mi poder</l>
-                     <l>lo primero que he mandado</l>
-                     <l>que se le dé de comer.</l>
-                     <l>Los que tu has cogido mios, </l>
-                     <l>infelices, desgraciados,</l>
-                     <l>que entre los bárbaros moros</l>
-                     <l>han sido sacrificados.</l>
-                     <l>Mira, moro, que me tienes</l>
-                     <l>traspasado el corazon,</l>
-                     <l>que me ha tenido sin sueño</l>
-                     <l>tu mala comportacion.</l>
-                     <l>Acuerdate que en Melilla</l>
-                     <l>un Provincial degollaste....</l>
-                     <l>si el cielo me diera alas</l>
-                     <l>me hallaría en todas partes.</l>
-                     <l>No se comerá la tierra</l>
-                     <l>las lágrimas de las madres,</l>
-                     <l>que en aquel caso quedaron</l>
-                     <l>muchos hijitos sin padre.</l>
-                     <l>Vente conmigo á los llanos</l>
-                     <l>y el Inglés que te habilíta,</l>
-                     <l>verás la fuerza que manda</l>
-                     <l>la armada de Isabelita.</l>
-                     <l>Dicen que somos cobardes</l>
-                     <l>y que no somos guerreros.</l>
-                     <l>el ablar á discrecion</l>
-                     <l>es medida sin rasero.</l>
-                     <l>El te dió las bayonetas,</l>
-                     <l>pólvora y comestibles,</l>
-                     <l>y tambien te dió á la mano</l>
-                     <l>piezas del mayor calibre.</l>
-                     <l>No habia de mirar mas</l>
-                     <l>que lo he sentado á mi mesa, </l>
-                     <l>y me ha cargado á la oreja</l>
-                     <l>como los perros de presa.</l>
-                     <l>En el golfo de la guerra</l>
-                     <l>una deuda me pidió, </l>
-                     <l>y apenas vino la orden</l>
-                     <l>al punto se la pagó.</l>
-                     <l>Tuvo presente el adagio</l>
-                     <l>como dice el resentido:</l>
-                     <l>Todo el mundo corta leña</l>
-                     <l>del árbol que está caido.</l>
-                     <l>Entre los pobres mendigos</l>
-                     <l>que tiene España en su centro,</l>
-                     <l>Juntan cuarenta millones</l>
-                     <l>para pagarle á un hambriento.</l>
-                     <l>Vaya el ingles muy con Dios,</l>
-                     <l>lo mismo te digo á tí,</l>
-                     <l>que componeis dos canallas</l>
-                     <l>uno y otro contra mi.</l>
-                     <l>Mi cuerpo se me estremece, </l>
-                     <l>no puedo tener consuelo,</l>
-                     <l>no he visto en ti una partida</l>
-                     <l>que sea de caballero.</l>
-                     <l>Estando en misa los mios</l>
-                     <l>con los tuyos me cargastes,</l>
-                     <l>¿Como tuvistes valor </l>
-                     <l>estando Dios por delante?</l>
-                     <l>La suerte que tu has tenido,</l>
-                     <l>y asi lo puedes decir,</l>
-                     <l>que te han quedado soldados</l>
-                     <l>por ser hijos del pais.</l>
-                     <l>¡Cuantos has matado mios</l>
-                     <l>que han muerto por su desgraci a</l>
-                     <l>porque le han perturbado</l>
-                     <l>las vendas de la ignorancia.</l>
-                     <l>En fin, moro, ¿que me pides?</l>
+                  <l>me haran perder la existencia?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cristiano.</speaker>
+                  <l rend="indent">Descuida, nada te harán</l>
+                  <l>¿acaso son mis soldados.</l>
+                  <l>bárbaros como los tuyos </l>
+                  <l>que se matan á bocados? </l>
+                  <l>¿no sabes que en los cristianos</l>
+                  <l>está la caridad humana? </l>
+                  <l>si tu me hubieras vencido </l>
+                  <l>mis hijos no lo contaran. </l>
+
+                  <pb n="2" source="Moreno_336_2.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>Cuando un prisionero tuyo</l>
+                  <l>ha venido á mi poder</l>
+                  <l>lo primero que he mandado</l>
+                  <l>que se le dé de comer.</l>
+                  <l>Los que tu has cogido mios, </l>
+                  <l>infelices, desgraciados,</l>
+                  <l>que entre los bárbaros moros</l>
+                  <l>han sido sacrificados.</l>
+                  <l>Mira, moro, que me tienes</l>
+                  <l>traspasado el corazon,</l>
+                  <l>que me ha tenido sin sueño</l>
+                  <l>tu mala comportacion.</l>
+                  <l>Acuerdate que en Melilla</l>
+                  <l>un Provincial degollaste....</l>
+                  <l>si el cielo me diera alas</l>
+                  <l>me hallaría en todas partes.</l>
+                  <l>No se comerá la tierra</l>
+                  <l>las lágrimas de las madres,</l>
+                  <l>que en aquel caso quedaron</l>
+                  <l>muchos hijitos sin padre.</l>
+                  <l>Vente conmigo á los llanos</l>
+                  <l>y el Inglés que te habilíta,</l>
+                  <l>verás la fuerza que manda</l>
+                  <l>la armada de Isabelita.</l>
+                  <l>Dicen que somos cobardes</l>
+                  <l>y que no somos guerreros.</l>
+                  <l>el ablar á discrecion</l>
+                  <l>es medida sin rasero.</l>
+                  <l>El te dió las bayonetas,</l>
+                  <l>pólvora y comestibles,</l>
+                  <l>y tambien te dió á la mano</l>
+                  <l>piezas del mayor calibre.</l>
+                  <l>No habia de mirar mas</l>
+                  <l>que lo he sentado á mi mesa, </l>
+                  <l>y me ha cargado á la oreja</l>
+                  <l>como los perros de presa.</l>
+                  <l>En el golfo de la guerra</l>
+                  <l>una deuda me pidió, </l>
+                  <l>y apenas vino la orden</l>
+                  <l>al punto se la pagó.</l>
+                  <l>Tuvo presente el adagio</l>
+                  <l>como dice el resentido:</l>
+                  <l>Todo el mundo corta leña</l>
+                  <l>del árbol que está caido.</l>
+                  <l>Entre los pobres mendigos</l>
+                  <l>que tiene España en su centro,</l>
+                  <l>Juntan cuarenta millones</l>
+                  <l>para pagarle á un hambriento.</l>
+                  <l>Vaya el ingles muy con Dios,</l>
+                  <l>lo mismo te digo á tí,</l>
+                  <l>que componeis dos canallas</l>
+                  <l>uno y otro contra mi.</l>
+                  <l>Mi cuerpo se me estremece, </l>
+                  <l>no puedo tener consuelo,</l>
+                  <l>no he visto en ti una partida</l>
+                  <l>que sea de caballero.</l>
+                  <l>Estando en misa los mios</l>
+                  <l>con los tuyos me cargastes,</l>
+                  <l>¿Como tuvistes valor </l>
+                  <l>estando Dios por delante?</l>
+                  <l>La suerte que tu has tenido,</l>
+                  <l>y asi lo puedes decir,</l>
+                  <l>que te han quedado soldados</l>
+                  <l>por ser hijos del pais.</l>
+                  <l>¡Cuantos has matado mios</l>
+                  <l>que han muerto por su desgraci a</l>
+                  <l>porque le han perturbado</l>
+                  <l>las vendas de la ignorancia.</l>
+                  <l>En fin, moro, ¿que me pides?</l>
                </sp>
 
                <sp>
@@ -341,11 +349,11 @@
                </sp>
 
                <l rend="indent">Amaneció el dia siguiente</l>
-               
-               <pb n="3" source="Moreno_336_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_336_3.jpg"/>
+
                <fw type="paginaNum">3</fw>
-               
+
                <l>cuanto la hora llegó</l>
                <l>no pudo venir á tiempo</l>
                <l>y un mensagero mandó.</l>
@@ -447,11 +455,11 @@
                <l>hasta que la hermosa aurora</l>
                <l>amaneció en el naciente.</l>
                <l>y Principian á pasan lista</l>
-               
-               <pb n="4" source="Moreno_336_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_336_4.jpg"/>
+
                <fw type="paginaNum">4</fw>
-               
+
                <l>en todos los batallones</l>
                <l>y en las escuadras del mar</l>
                <l>baterias y escuadrones.</l>
@@ -529,7 +537,10 @@
                <l>por quien teneis ese luto?</l>
                <l>¡Españoles y españolas,</l>
                <l>ya la guerra se acabó!</l>
-               <l>demos gracias <choice><sic>iufinitas</sic><corr>infinitas</corr></choice></l>
+               <l>demos gracias <choice>
+                     <sic>iufinitas</sic>
+                     <corr>infinitas</corr>
+                  </choice></l>
                <l>al divino Salvador!</l>
                <l>¡Viva la misericordia</l>
                <l>de un Dios de tanto poder!</l>
@@ -539,12 +550,12 @@
                <l>que tanto se ha desvelado</l>
                <l>podemos considerar</l>
                <l>los trabajos que han pasado!</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />CARMONA:—Imprenta de D. José M.a Moreno, calle de Madre de Dios </p>
+               <p><lb/>CARMONA:—Imprenta de D. José M.a Moreno, calle de Madre de Dios </p>
             </div>
          </div>
       </body>
