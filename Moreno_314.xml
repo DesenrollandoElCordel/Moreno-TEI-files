@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_314">
    <teiHeader>
       <fileDesc>
@@ -24,7 +25,7 @@
                      Agustin Florencio</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5060324</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 342</idno>
                   </altIdentifier>
@@ -88,7 +91,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -116,28 +125,28 @@
       <revisionDesc>
          <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
          <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_314_thumbnail.jpg" />
+      <graphic url="Moreno_314_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_314_1.jpg" />
+               <pb n="1" source="Moreno_314_1.jpeg"/>
 
                <fw type="impresorNum">Número 342.</fw>
 
                <head type="primer_titulo">
                   <hi rend="negrita">CURIOSO ROMANCE,</hi>
-                  <hi rend="cursiva"><lb />de la vida, hechos y atrocidades, de Don
-                  <lb />Agustin Florencio, natural de Jerez
-                  <lb />de la Frontera.</hi>
+                  <hi rend="cursiva"><lb/>de la vida, hechos y atrocidades, de Don <lb/>Agustin
+                     Florencio, natural de Jerez <lb/>de la Frontera.</hi>
                </head>
-               
+
                <div n="1" type="parte">
                   <l rend="indent">Pare el norte su carrera,</l>
                   <l>esconda el sol sus reflejos</l>
@@ -173,11 +182,11 @@
                   <l>en la cárcel me metieron</l>
                   <l>pero aunque presos, el valor</l>
                   <l>iba con la edadcreciendo:</l>
-                  
-                  <pb n="2" source="Moreno_314_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_314_2.jpeg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>esto dígalo un Mulato,</l>
                   <l>que era de guapos respeto</l>
                   <l>á quien con grande frescura,</l>
@@ -274,11 +283,11 @@
                   <l>la dejaron, y se furon.</l>
                   <l>Desde allí me pasé á Osuna,</l>
                   <l>y recibí el sacramento</l>
-                  
-                  <pb n="3" source="Moreno_314_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_314_3.jpeg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>y carga de matrimonio</l>
                   <l>pero la dejé muy presto.</l>
                   <l>Luego me fui en un caballo</l>
@@ -299,7 +308,10 @@
                   <l>á todos mis compañeros</l>
                   <l>para vestirse muy bien,</l>
                   <l>todo lo que ellos quisieron,</l>
-                  <l>Desde allí me <choice><sic>fni</sic><corr>fui</corr></choice> a Baena</l>
+                  <l>Desde allí me <choice>
+                        <sic>fni</sic>
+                        <corr>fui</corr>
+                     </choice> a Baena</l>
                   <l>con mucho tabaco y bueno,</l>
                   <l>y para venderlo apriesa</l>
                   <l>me fui á ver el estanquero,</l>
@@ -375,11 +387,11 @@
                   <l>le abri ventana á los sesos.</l>
                   <l>Luego me fuí á Torre Campo</l>
                   <l>sin ningun temor ni miedo,</l>
-                  
-                  <pb n="4" source="Moreno_314_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_314_4.jpeg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>cuando de Jaen la ronda</l>
                   <l>del tabaco de aquel reino,</l>
                   <l>llegó en seguimiento mio,</l>
@@ -444,23 +456,21 @@
                   <l>en su santísimo reino,</l>
                   <l>y á nosotros,en el mundo</l>
                   <l>nos dé buenos pensamientos.</l>
-                  
+
                   <trailer>FIN DE LA PRIMERA PARTE.</trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_314_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_314_5.jpeg"/>
+
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
                   <head type="subtitulo_parte">
-                     <lb />Verdadera Relacion y curioso Romance, en que se refieren los
-                     <lb />delitos y causas de Don Agustin Florencio, sacada de la que
-                     <lb />se hizo en la real Cancillería de Granada. Refiérese en ella sus
-                     <lb />muchos arrojos y valentias, y el grande arrepentimiento que tuvo
-                     <lb />á la hora de su muerte, con todo lo demás que verá
-                     <lb />el curioso lector.
-                  </head>
-                  
+                     <lb/>Verdadera Relacion y curioso Romance, en que se refieren los <lb/>delitos
+                     y causas de Don Agustin Florencio, sacada de la que <lb/>se hizo en la real
+                     Cancillería de Granada. Refiérese en ella sus <lb/>muchos arrojos y valentias,
+                     y el grande arrepentimiento que tuvo <lb/>á la hora de su muerte, con todo lo
+                     demás que verá <lb/>el curioso lector. </head>
+
                   <l rend="indent">Suene al compas de mi lira</l>
                   <l>el clarin dorado, siendo</l>
                   <l>con la voz de mi discurso,</l>
@@ -517,11 +527,11 @@
                   <l>iba á montar sobre él dieron.</l>
                   <l>Hizo fuego con las armas,</l>
                   <l>disparó bocas de fuego,</l>
-                  
-                  <pb n="6" source="Moreno_314_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_314_6.jpeg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>con lo cual no fue bastante</l>
                   <l>á eximirse de este ciesgo,</l>
                   <l>se condujo á aquesta corte,</l>
@@ -618,11 +628,11 @@
                   <l>los presos que habia dentro.</l>
                   <l>A la Plaza en su caballo.</l>
                   <l>con muchas armas de fuego ;</l>
-                  
-                  <pb n="7" source="Moreno_314_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_314_7.jpeg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>salió diciendo; no habia</l>
                   <l>mas Rey, ni Marqués, que él mesmo.</l>
                   <l>A una doncella tambien</l>
@@ -719,11 +729,11 @@
                   <l>muchas porciones Florencio ;</l>
                   <l>el cual indignado fué</l>
                   <l>para quitarlo, de enmedio....</l>
-                  
-                  <pb n="8" source="Moreno_314_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_314_8.jpeg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>se escondió, y derramó el vino</l>
                   <l>de los toneles sobervio.</l>
                   <l>A un sirujano pidió</l>
@@ -822,7 +832,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA;=Imprenta de D. José María Moreno, calle de Madre de Dios.</p>
+               <p><lb/>CARMONA;=Imprenta de D. José María Moreno, calle de Madre de Dios.</p>
             </div>
          </div>
       </body>

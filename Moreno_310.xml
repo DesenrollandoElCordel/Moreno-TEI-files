@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_310">
    <teiHeader>
       <fileDesc>
@@ -20,10 +21,10 @@
                <titleStmt>
                   <title type="titulo_completo">Toma de Sevilla por el santo rey Don
                      Fernando</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,11 +36,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5055527</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 334</idno>
                   </altIdentifier>
@@ -82,7 +85,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -108,30 +117,32 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_310_thumbnail.jpg" />
+      <graphic url="Moreno_310_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_310_1.jpg" />
+               <pb n="1" source="Moreno_310_1.jpeg"/>
 
                <fw type="impresorNum">Número 334. </fw>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">TOMA DE SEVILLA,</hi>
-                  <lb /><hi rend="cursiva">por el Santo Rey</hi>
-                  <lb /><hi rend="negrita">DON FERNANDO.</hi>
+                  <lb/><hi rend="negrita">TOMA DE SEVILLA,</hi>
+                  <lb/><hi rend="cursiva">por el Santo Rey</hi>
+                  <lb/><hi rend="negrita">DON FERNANDO.</hi>
                </head>
 
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Dios te salve Virgen Santa,</l>
                   <l>de misericordiadllena</l>
                   <l>Virgen Santa de los Reyés.</l>
@@ -156,11 +167,11 @@
                   <l>por conseguir su empresa;,</l>
                   <l>viendose con fuerzas pocas,</l>
                   <l>se valió de agenas fuerzas,</l>
-                  
-                  <pb n="2" source="Moreno_310_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_310_2.jpeg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>daudo entrada al agareno</l>
                   <l>por Tarifa, que éran tierras</l>
                   <l>de don Julian poseidas,</l>
@@ -249,11 +260,11 @@
                   <l>juntaré todas mis fuerzas.</l>
                   <l>Mandó el Rey tocar al arma,</l>
                   <l>tomando toda la senda</l>
-                  
-                  <pb n="3" source="Moreno_310_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_310_3.jpeg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>por las orillas del Rio</l>
                   <l>á los Humeros; se acerca. </l>
                   <l>á la Puerta Real en donde</l>
@@ -342,11 +353,11 @@
                   <l>mandó envestir con fiereza.</l>
                   <l>Entonces nuestro Rey Santo</l>
                   <l>dice: cierra, cierra, cierra,</l>
-                  
-                  <pb n="4" source="Moreno_310_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_310_4.jpeg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>Santiago, que somos pocos,</l>
                   <l>morireis, perros, por fuerza.</l>
                   <l>Como los Moros son muclios</l>
@@ -397,19 +408,17 @@
                   <l>Y aqui el humilde poéta</l>
                   <l>pide perdon al lector,</l>
                   <l>porque sus yerros confiesa.</l>
-                  
+
                   <trailer rend="negrita">
-                     <lb />FIN
-                     <lb />de la primera parte.
-                  </trailer>
+                     <lb/>FIN <lb/>de la primera parte. </trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_310_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_310_5.jpeg"/>
+
                   <head rend="negrita" type="titulo_parte">TOMA DE SEVILLA.</head>
                   <head rend="cursiva" type="subtitulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Ya que al discreto lector</l>
                   <l>dige en la parte primera,</l>
                   <l>que el Santo Rey don Fernando</l>
@@ -424,11 +433,11 @@
                   <l>y habló, porque las potencias,</l>
                   <l>alma, corazon y vida,</l>
                   <l>le robó con su luz bella.</l>
-                  
-                  <pb n="6" source="Moreno_310_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_310_6.jpeg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>Y yo para describir,</l>
                   <l>alta y Divina Princesa,</l>
                   <l>vuestro origen necesito</l>
@@ -517,11 +526,11 @@
                   <l>pero no los halló en ella,</l>
                   <l>de lo cual quedó admirado</l>
                   <l>y mas viendo manifiesta</l>
-                  
-                  <pb n="7" source="Moreno_310_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_310_7.jpeg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>la comida que mandó</l>
                   <l>se les pusiese, y que entera,</l>
                   <l>conforme alli la pusieron</l>
@@ -610,11 +619,11 @@
                   <l>y en S. Francisco se encierran.</l>
                   <l>La Espada y el Estandarte,</l>
                   <l>con el Crucifijo ordena</l>
-                  
-                  <pb n="8" source="Moreno_310_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_310_8.jpeg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>que á sus queridas las Mónjas</l>
                   <l>de San Clemente les dieran,</l>
                   <l>las cuales dos prendas dieron</l>
@@ -685,7 +694,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA=1860. Imp.de D. José Maria Moreno, calle de Madre deDios.</p>
+               <p><lb/>CARMONA=1860. Imp.de D. José Maria Moreno, calle de Madre deDios.</p>
             </div>
          </div>
       </body>

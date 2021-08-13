@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_312">
    <teiHeader>
       <fileDesc>
@@ -20,10 +21,10 @@
                <titleStmt>
                   <title type="titulo_completo">Pasillo andaluz entre Juan el Perdío y Pepe
                      Nargas.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -35,20 +36,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5060313</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 337</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -78,7 +81,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -97,32 +106,33 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-25" who="#EL">Création du fichier TEI P5 et encodage du corps du texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-03-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_312_thumbnail.jpg" />
+      <graphic url="Moreno_312_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_312_1.jpg" />
+               <pb n="1" source="Moreno_312_1.jpeg"/>
 
                <fw type="impresorNum">Número 357.</fw>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">PASILLO ANDALUZ</hi>
-                  <lb />ENTRE
-                  <lb /><hi rend="negrita">JUAN EL PERDIO Y PEPE NARGAS.</hi>
+                  <lb/><hi rend="negrita">PASILLO ANDALUZ</hi>
+                  <lb/>ENTRE <lb/><hi rend="negrita">JUAN EL PERDIO Y PEPE NARGAS.</hi>
                </head>
 
                <sp>
@@ -142,7 +152,7 @@
                   <l>—Entonces me da en el vagío</l>
                   <l>pues osté....</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—¡Pepe Nargas!</l>
@@ -152,7 +162,7 @@
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>—Y yo Juan el perdio! </l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pep.</speaker>
                   <l>-Si osté quiere despacharemos.</l>
@@ -162,7 +172,7 @@
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>—Hay mucha priesa?</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—No hay poca.</l>
@@ -183,7 +193,7 @@
                   <l>en el término de un año</l>
                   <l>y salvo y libre gorvia.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Jua.</speaker>
                   <l>-Pues comience oste su cuento.</l>
@@ -194,7 +204,7 @@
                   <l>—No me toca principiá, </l>
                   <l>osté primero.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juan. </speaker>
                   <l>=Ar momento:</l>
@@ -205,9 +215,9 @@
                   <l>jácia Malaga me juí,</l>
                   <l>y en el barrio del Percher,</l>
                   <l>camará me estabresí.</l>
-                  
-                  <pb n="2" source="Moreno_312_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_312_2.jpeg"/>
+
                   <l>De cuantas er mundo encierra</l>
                   <l>era la mejor suidá</l>
                   <l>pa buscar truenos y guerra,</l>
@@ -233,7 +243,10 @@
                   <l>jechas é las paletiyas</l>
                   <l>que le arranqué á un aguasí.</l>
                   <l>Como jice tanto remate</l>
-                  <l>de hombres, pusieron <choice><sic>nn</sic><corr>un</corr></choice> bando</l>
+                  <l>de hombres, pusieron <choice>
+                        <sic>nn</sic>
+                        <corr>un</corr>
+                     </choice> bando</l>
                   <l>pa pregonar mi gaznate,</l>
                   <l>y me di por er contrabando,</l>
                   <l>lo emás era un isparate.</l>
@@ -294,9 +307,9 @@
                   <l>ó muerto un moso barí.</l>
                   <l>Esto es lo que jise yo;</l>
                   <l>y en á contando estos ñuos</l>
-                  
-                  <pb n="3" source="Moreno_312_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_312_3.jpeg"/>
+
                   <l>en que viene apuntao tó,</l>
                   <l>se verá si aquí hay való</l>
                   <l>sobre tos los mosos cruos.</l>
@@ -354,7 +367,10 @@
                   <l>asi que pasé dos meses</l>
                   <l>en esta via escansá,</l>
                   <l>me faltaron los parneses</l>
-                  <l>y los <choice><sic>tnve</sic><corr>tuve</corr></choice> que buscar.</l>
+                  <l>y los <choice>
+                        <sic>tnve</sic>
+                        <corr>tuve</corr>
+                     </choice> que buscar.</l>
                   <l>Aquello si que eran volatines,</l>
                   <l>un dia á tres figurines</l>
                   <l>de estos é la nueva frota,</l>
@@ -403,9 +419,9 @@
                   <l>Y como osté en to lugar</l>
                   <l>he llevao la ventaja,</l>
                   <l>ya largando bofetás</l>
-                  
-                  <pb n="4" source="Moreno_312_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_312_4.jpeg"/>
+
                   <l>tomandome puñalá,</l>
                   <l>y cobrando la baraja.</l>
                   <l>Ahora he venió á Siviya,</l>
@@ -418,12 +434,12 @@
                   <l>se verá si aqui hay valor</l>
                   <l>sobre los los mosos cruos.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>—Vamos á vé.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—A contá. </l>
@@ -446,7 +462,7 @@
                   <l>Mosas hay aqui cuarenta</l>
                   <l>y prumazos veinte y dos.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—Pus segun reza esta cuenta</l>
@@ -458,7 +474,7 @@
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>—Pus gano yo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—Cabá, que atrás me queé.</l>
@@ -476,7 +492,7 @@
                   <l>Ias jago entrar en er selo.</l>
                   <l>y en seguia me las guiyo.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—Toas mosas de distincíon?</l>
@@ -496,7 +512,7 @@
                   <l>no ha conseguio en su juício</l>
                   <l>lo ques mas ificir.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>—Cuar?</l>
@@ -526,7 +542,7 @@
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>—Yo solito, si.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pep.</speaker>
                   <l>—Como, si está esguarnia por mi.</l>
@@ -536,7 +552,7 @@
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>—Pierdusté una perla.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—Vá.</l>
@@ -546,7 +562,7 @@
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>—Es que la gano.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—A vivi.</l>
@@ -556,7 +572,7 @@
                   <speaker rend="cursiva">Juan..</speaker>
                   <l>—De formal.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—La cosa es crara.</l>
@@ -574,7 +590,7 @@
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—Jasta impues, camaraiya.</l>
                </sp>
-               
+
                <sp>
                   <speaker rend="cursiva">Juan.</speaker>
                   <l>-Jasta impues, moso con arte.</l>
@@ -588,9 +604,8 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA—1860.
-                  <lb />Imp. de D. J. Maria Moreno calle de Madre de Dios nümero 1.
-               </p>
+                  <lb/>CARMONA—1860. <lb/>Imp. de D. J. Maria Moreno calle de Madre de Dios nümero
+                  1. </p>
             </div>
          </div>
       </body>

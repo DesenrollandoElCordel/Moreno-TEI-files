@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_311">
    <teiHeader>
       <fileDesc>
@@ -24,7 +25,7 @@
                   <title type="titulo_breve">Don Fernando del Pulgar. Relacion verdadera</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,11 +37,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5060309</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 336</idno>
                   </altIdentifier>
@@ -82,7 +85,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -116,21 +125,19 @@
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_311_1.jpg" />
+               <pb n="1" source="Moreno_311_1.jpeg"/>
 
                <fw type="impresorNum">Número 356.</fw>
 
                <head rend="negrita" type="primer_titulo">DON FERÑANDO DEL PULGAR.</head>
                <head type="subtitulo">
-                  <lb />RELACION VERDADERA
-                  <lb />de los árrestos y valentias de este esforzado
-                  <lb />Caballero, que puso en la Mezquita de Granada,
-                  <lb />cuando era de Moros, el AVE-MARIA.
-               </head>
+                  <lb/>RELACION VERDADERA <lb/>de los árrestos y valentias de este esforzado
+                  <lb/>Caballero, que puso en la Mezquita de Granada, <lb/>cuando era de Moros, el
+                  AVE-MARIA. </head>
 
                <div>
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Santa Fé, qué bien pareces</l>
                   <l>en la Vega de Granada,</l>
                   <l>toda cercada de Muros,</l>
@@ -139,11 +146,11 @@
                   <l>que toda te cerca, y baña.</l>
                   <l>Te fundó el Rey Don Fernando</l>
                   <l>Doña Isabel en compaña,</l>
-                  
-                  <pb n="2" source="Moreno_311_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_311_2.jpeg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>y otros muchos Caballeros</l>
                   <l>de la nobleza de España.</l>
                   <l>Con el secreto silencio,</l>
@@ -230,11 +237,11 @@
                   <l>halló dormida la Guardia</l>
                   <l>quiso Dios y su fortuná;,</l>
                   <l>que Darro le diera ófitrada</l>
-                  
-                  <pb n="3" source="Moreno_311_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_311_3.jpeg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>por el hueco de la puente</l>
                   <l>hasta llegar á la escala,</l>
                   <l>que á veces Dios á los suyos</l>
@@ -321,11 +328,11 @@
                   <l>que una azagalla le pasa:</l>
                   <l>Aqui se enojó Pulgar</l>
                   <l>y como perro que rabia</l>
-                  
-                  <pb n="4" source="Moreno_311_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_311_4.jpeg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>dejó caer la marlota,</l>
                   <l>metiendo mano á la espada,</l>
                   <l>al que no mata atropella,</l>
@@ -342,23 +349,20 @@
                   <l>que está dentro de la Alhambra:</l>
                   <l>cuando el Rey bajó con gente</l>
                   <l>Pulgar ya en Santa Fé estaba.</l>
-                  
+
                   <trailer type="negrita">
-                     <lb />FIN
-                     <lb />de la primera parte.
-                  </trailer>
+                     <lb/>FIN <lb/>de la primera parte. </trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_311_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_311_5.jpeg"/>
+
                   <head type="titulo_parte">
-                     <hi rend="negrita"><lb />EL TRIUNFO
-                     <lb />DEL AVE-MARÍA.</hi>
-                     <lb /><hi rend="cursiva">Garcilaso de la Vega.</hi>
+                     <hi rend="negrita"><lb/>EL TRIUNFO <lb/>DEL AVE-MARÍA.</hi>
+                     <lb/><hi rend="cursiva">Garcilaso de la Vega.</hi>
                   </head>
                   <head type="subtitulo_parte">SEGUNDA PARTE.</head>
-                  
+
                   <l rend="indent">Despues de haber acabado</l>
                   <l>con alegria bastante</l>
                   <l>muchos saraos y zambras,</l>
@@ -395,7 +399,10 @@
                   <l>una fuerte adarga bate</l>
                   <l>con una letra que dice:</l>
                   <l>salga el atrevido infame.</l>
-                  <l><choice><sic>Uua</sic><corr>Una</corr></choice> gruesa lanza empuña,</l>
+                  <l><choice>
+                        <sic>Uua</sic>
+                        <corr>Una</corr>
+                     </choice> gruesa lanza empuña,</l>
                   <l>que la heredó de su Padre.</l>
                   <l>Iba tan galan el Moro,</l>
                   <l>que los corazones parte,</l>
@@ -419,11 +426,11 @@
                   <l>sobre las conchas de arambre</l>
                   <l>de la dorada Mezquita</l>
                   <l>el pergamino que trae</l>
-                  
-                  <pb n="6" source="Moreno_311_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_311_6.jpeg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>la cola de mi caballo:</l>
                   <l>no fué accion tan arrogante,</l>
                   <l>que un cauteloso y aleve,</l>
@@ -510,11 +517,11 @@
                   <l>y casi quiso abrazarle,</l>
                   <l>mas volviendo en sí prudente</l>
                   <l>refrenó su amor constante.</l>
-                  
-                  <pb n="7" source="Moreno_311_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_311_7.jpeg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>Dice: Garcilaso amigo,</l>
                   <l>muy digno es de celebrarse</l>
                   <l>vuestro valor; mas sois mozo</l>
@@ -601,11 +608,11 @@
                   <l>muger, ni niño al combate.</l>
                   <l>Vuélvete engañado jóven,</l>
                   <l>y agradece mis piedades,</l>
-                  
-                  <pb n="8" source="Moreno_311_8.jpg" />
-                  
+
+                  <pb n="8" source="Moreno_311_8.jpeg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>que para que esto les cuentes</l>
                   <l>la vida quiero dejarte.</l>
                   <l>Enfadado Garcilaso,</l>
@@ -668,16 +675,15 @@
                   <l>desde hoy has de llamarte,</l>
                   <l>porque en la Vega hicísteis</l>
                   <l>hazaña de tanto alarde.</l>
-                  
+
                   <trailer>FIN.</trailer>
                </div>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1861.
-                  <lb />Imprenta de Don José María Moreno, calle de Madre de Dios, núm. 1.
-               </p>
+                  <lb/>CARMONA:—1861. <lb/>Imprenta de Don José María Moreno, calle de Madre de
+                  Dios, núm. 1. </p>
             </div>
          </div>
       </body>

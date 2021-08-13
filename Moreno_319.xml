@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_319">
    <teiHeader>
       <fileDesc>
@@ -25,7 +26,7 @@
                   <title type="titulo_breve">Admirable historia de Don Cárlos y Lucinda</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -37,11 +38,13 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5060357</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 347</idno>
                   </altIdentifier>
@@ -86,7 +89,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -114,30 +123,31 @@
       <revisionDesc>
          <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_319_thumbnail.jpg" />
+      <graphic url="Moreno_319_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_319_1.jpg" />
-               
+               <pb n="1" source="Moreno_319_1.jpg"/>
+
                <fw type="impresorNum">Número 347.</fw>
-               
+
                <head type="primer_titulo">
                   <hi rend="negrita">ADMIRABLE HISTORIA</hi>
-                  <hi rend="cursiva"><lb />de don Cárlos y Lucinda, naturales de Valencia, y como á un hijo
-                  <lb />que tuvieron llamado Julián, le habló un Ciervo saliendo á caza.
-                  <lb />Declarase lo que le dijo, y lo que después sucedió á Julian.</hi>
+                  <hi rend="cursiva"><lb/>de don Cárlos y Lucinda, naturales de Valencia, y como á
+                     un hijo <lb/>que tuvieron llamado Julián, le habló un Ciervo saliendo á caza.
+                     <lb/>Declarase lo que le dijo, y lo que después sucedió á Julian.</hi>
                </head>
-               
+
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
-                  
+
                   <l rend="indent">Suene el clarin de la fama</l>
                   <l>con sus sonoros acentos,</l>
                   <l>y por la region del aire</l>
@@ -162,11 +172,11 @@
                   <l>de Chipre, jardin ameno,</l>
                   <l>un caballero vivía</l>
                   <l>do los nobles de aquel reino:</l>
-                  
-                  <pb n="2" source="Moreno_319_2.jpg" />
-                  
+
+                  <pb n="2" source="Moreno_319_2.jpg"/>
+
                   <fw type="paginaNum">2</fw>
-                  
+
                   <l>llamado don Juan de Lara,</l>
                   <l>que era rico en estremo,</l>
                   <l>casado con doña Inés</l>
@@ -245,11 +255,11 @@
                   <l>enfadado del suceso,</l>
                   <l>dispone robar la dama</l>
                   <l>y sacarla del monasterio,</l>
-                  
-                  <pb n="3" source="Moreno_319_3.jpg" />
-                  
+
+                  <pb n="3" source="Moreno_319_3.jpg"/>
+
                   <fw type="paginaNum">3</fw>
-                  
+
                   <l>sin mirar que estos arrojos</l>
                   <l>Dios los castiga severo,</l>
                   <l>y que puede ser que al fin</l>
@@ -328,11 +338,11 @@
                   <l>el bruto montaráz, luego</l>
                   <l>paró su velóz carrera,</l>
                   <l>se encaró con el mancebo,</l>
-                  
-                  <pb n="4" source="Moreno_319_4.jpg" />
-                  
+
+                  <pb n="4" source="Moreno_319_4.jpg"/>
+
                   <fw type="paginaNum">4</fw>
-                  
+
                   <l>y con voz humána le dice</l>
                   <l>enojado y muy soberbio:</l>
                   <l><hi rend="cursiva">Dí, homicida de tus padres,</hi></l>
@@ -409,22 +419,20 @@
                   <l>se dirá de este sucoso</l>
                   <l>lo que falta, que es muy largo</l>
                   <l>y no es para medio pliego.</l>
-                  
+
                   <trailer rend="negrita">FIN DE LA PRIMERA PARTE.</trailer>
                </div>
-               
+
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_319_5.jpg" />
-                  
+                  <pb n="5" source="Moreno_319_5.jpg"/>
+
                   <head type="titulo_parte">
-                     <lb /><hi rend="negrita">SEGUNDA PARTE</hi>
-                     <lb />de la admirable Historia de don Cárlos y Lu-
-                     <lb />cinda, y como fueron muertos á manos de su
-                     <lb />hijo Julian sin conocerlos él, saliendo cíerto el
-                     <lb />pronóstico del Ciervo, y como èl con su esposa
-                     <lb />se fueron á un hospital á hacer penitencia.
-                  </head>
-                  
+                     <lb/><hi rend="negrita">SEGUNDA PARTE</hi>
+                     <lb/>de la admirable Historia de don Cárlos y Lu- <lb/>cinda, y como fueron
+                     muertos á manos de su <lb/>hijo Julian sin conocerlos él, saliendo cíerto el
+                     <lb/>pronóstico del Ciervo, y como èl con su esposa <lb/>se fueron á un
+                     hospital á hacer penitencia. </head>
+
                   <l rend="indent">En el pasado romance</l>
                   <l>ya dije como salieron</l>
                   <l>los padres de Julian</l>
@@ -471,11 +479,11 @@
                   <l>joya de subído precio,</l>
                   <l>dejando rumbos de Marte</l>
                   <l>por las delicias de Venus.</l>
-                  
-                  <pb n="6" source="Moreno_319_6.jpg" />
-                  
+
+                  <pb n="6" source="Moreno_319_6.jpg"/>
+
                   <fw type="paginaNum">6</fw>
-                  
+
                   <l>Muy olvidado vívia</l>
                   <l>Julián aun de sí mismo,</l>
                   <l>y de aquel pasado lance</l>
@@ -554,11 +562,11 @@
                   <l>y á los dos les dá su lecho</l>
                   <l>adornado de brocados,</l>
                   <l>joyas, galas y aderezos.</l>
-                  
-                  <pb n="7" source="Moreno_319_7.jpg" />
-                  
+
+                  <pb n="7" source="Moreno_319_7.jpg"/>
+
                   <fw type="paginaNum">7</fw>
-                  
+
                   <l>Ya que los dejó acostados,</l>
                   <l>cuando ya iba amaneciendo,</l>
                   <l>salió la Misa del alba,</l>
@@ -637,10 +645,10 @@
                   <l>de lo que le dijo el Ciervo</l>
                   <l>cuando le siguió en la caza,</l>
                   <l>haciendo en matarle empeño.</l>
-                  <pb n="8" source="Moreno_319_8.jpg" />
-                  
+                  <pb n="8" source="Moreno_319_8.jpg"/>
+
                   <fw type="paginaNum">8</fw>
-                  
+
                   <l>Llora, suspira, lamenta,</l>
                   <l>los ojos levanta al cielo,</l>
                   <l>pidiendo misericordia</l>
@@ -703,15 +711,14 @@
                   <l>para que tomen ejemplo,</l>
                   <l>teman á Dios y le pidan</l>
                   <l>que nos dé su santo reino.</l>
-                  
+
                   <trailer rend="cursiva">FIN.</trailer>
                </div>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1862.
-                  <lb />Imp. de D, José Maria Moreno, calle de Madre de Dios.
+                  <lb/>CARMONA:—1862. <lb/>Imp. de D, José Maria Moreno, calle de Madre de Dios.
                </p>
             </div>
          </div>
