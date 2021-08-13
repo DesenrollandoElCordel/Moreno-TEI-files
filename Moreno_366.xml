@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_366">
    <teiHeader>
       <fileDesc>
@@ -19,7 +20,7 @@
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">El baratero</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (s.a.): <ref target="Moreno_367.xml">Moreno_367</ref></p>
@@ -34,20 +35,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5069745</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 399</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -77,7 +80,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -96,7 +105,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -105,26 +114,26 @@
       <revisionDesc>
          <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_366_thumbnail.jpg" />
+      <graphic url="Moreno_366_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_366_1.jpg" />
+               <pb n="1" source="Moreno_366_1.jpg"/>
 
                <fw type="impresorNum">Núm. 399.</fw>
 
                <head type="primer_titulo">EL BARATERO.</head>
                <head rend="cursiva" type="subtitulo">
-                  <lb />Sátira nueva en que se declara el famoso Baratero que ha salido en
-                  <lb />Cuarte, y en ella hallarán las demás hazañas y valentías que
-                  <lb />ha hecho en España y en Francia.
-               </head>
+                  <lb/>Sátira nueva en que se declara el famoso Baratero que ha salido en
+                  <lb/>Cuarte, y en ella hallarán las demás hazañas y valentías que <lb/>ha hecho en
+                  España y en Francia. </head>
 
                <lg>
                   <l rend="indent">Todo el mundo ha de temblar</l>
@@ -172,7 +181,7 @@
                   <l rend="indent">Solo por estas razones</l>
                   <l>me despedí de mi gente,</l>
 
-                  <pb n="2" source="Moreno_366_2.jpg" />
+                  <pb n="2" source="Moreno_366_2.jpg"/>
 
                   <fw type="paginaNum">2</fw>
 
@@ -317,7 +326,7 @@
                   <l rend="indent">De una cuchillada</l>
                   <l>maté treinta y dos</l>
 
-                  <pb n="3" source="Moreno_366_3.jpg" />
+                  <pb n="3" source="Moreno_366_3.jpg"/>
 
                   <fw type="paginaNum">3</fw>
 
@@ -462,7 +471,7 @@
                   <l rend="indent">Porque las columnas</l>
                   <l>las veo venir,</l>
 
-                  <pb n="4" source="Moreno_366_4.jpg" />
+                  <pb n="4" source="Moreno_366_4.jpg"/>
 
                   <fw type="paginaNum">4</fw>
 
@@ -603,9 +612,9 @@
                   <l>por lo que valiera.</l>
                </lg>
             </div>
-            
+
             <div type="colofon">
-               <p><lb />Carmona. Imp. de D. José Maria Moreno, calle Madre de Dios, n. 1.</p>
+               <p><lb/>Carmona. Imp. de D. José Maria Moreno, calle Madre de Dios, n. 1.</p>
             </div>
          </div>
       </body>

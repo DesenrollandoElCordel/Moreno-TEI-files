@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_369">
    <teiHeader>
       <fileDesc>
@@ -24,7 +25,7 @@
                   <title type="titulo_breve">Boda de negros.</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -36,20 +37,22 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502" />
+                  <repository>Bibliothèque Universitaire de Genève <ref
+                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     />
                   </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
-                  <idno type="DOI" />
+                  <idno type="DOI">10.5281/zenodo.5069771</idno>
                   <altIdentifier>
                      <idno type="num_impresor">Número 301</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -80,7 +83,13 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p></projectDesc><editorialDecl>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl>
             <correction>
                <p>OCR non corregido</p>
             </correction>
@@ -108,26 +117,26 @@
       <revisionDesc>
          <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le thumbnail</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_369_thumbnail.jpg" />
+      <graphic url="Moreno_369_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_369_1.jpg" />
-               
+               <pb n="1" source="Moreno_369_1.jpeg"/>
+
                <fw type="impresorNum">(Número 301)</fw>
-               
+
                <head type="primer_titulo">BODA DE NEGROS.</head>
                <head type="subtitulo">
-                  <lb />Romance en que se refiere la celebridad, galánteo, y acasos de esta boda,
-                  <lb />que se ejecutó en la Ciudad de el Puerto de Santa Maria.
-               </head>
-               
+                  <lb/>Romance en que se refiere la celebridad, galánteo, y acasos de esta boda,
+                  <lb/>que se ejecutó en la Ciudad de el Puerto de Santa Maria. </head>
+
                <l rend="indent">Cese todo regocijo,</l>
                <l>párese todo recreo,</l>
                <l>dilatense los festines,</l>
@@ -168,9 +177,9 @@
                <l>de gran trabajo al resuello,</l>
                <l>gran caudal de ventanage,</l>
                <l>de mal olor el aliento,</l>
-               
-               <pb n="2" source="Moreno_369_2.jpg" />
-               
+
+               <pb n="2" source="Moreno_369_2.jpeg"/>
+
                <l>Su boca parece bolsa, </l>
                <l>los dientes como de perro,</l>
                <l>los labios como morcillas,</l>
@@ -259,9 +268,9 @@
                <l>llegaron cuatro mancebos</l>
                <l>embosados; que venian</l>
                <l>ya dispuestos para ello,</l>
-               
-               <pb n="3" source="Moreno_369_3.jpg" />
-               
+
+               <pb n="3" source="Moreno_369_3.jpeg"/>
+
                <l>y las puertas de la calle</l>
                <l>muy astutos las abrieron,</l>
                <l>y sin detenerse un punto</l>
@@ -350,9 +359,9 @@
                <l>echando los ojos fuegos</l>
                <l>la cara toda arañada:</l>
                <l>y á el aire todo el trasero,</l>
-               
-               <pb n="4" source="Moreno_369_4.jpg" />
-               
+
+               <pb n="4" source="Moreno_369_4.jpeg"/>
+
                <l>Echan al Novio en la cama</l>
                <l>á la Novia acuden luego,</l>
                <l>que pegaba los soplidos</l>
@@ -429,15 +438,14 @@
                <l>porque los demas perdieron;</l>
                <l>en esto paró la boda,</l>
                <l>que al fin fue cosa de Negros.</l>
-               
+
                <trailer rend="negrita">FIN.</trailer>
             </div>
-            
+
             <div type="colofon">
                <p>
-                  <lb />CARMONA—1858.
-                  <lb />Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm. 4.
-               </p>
+                  <lb/>CARMONA—1858. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  4. </p>
             </div>
          </div>
       </body>
