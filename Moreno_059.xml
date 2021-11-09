@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_059">
    <teiHeader>
       <fileDesc>
@@ -16,22 +15,21 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">El valiente enamorao.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -39,10 +37,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5018796</idno>
@@ -51,10 +46,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -108,8 +103,8 @@
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
-               <term type="tipo_texto"/>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_texto" />
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -123,18 +118,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_059_thumbnail.jpg"/>
+      <graphic url="Moreno_059_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_059_1.jpg"/>
+               <pb n="1" source="Moreno_059_1.jpg" />
 
                <fw type="impresorNum">Núm. 69.</fw>
 
                <head rend="negrita" type="primer_titulo">
-                  <lb/>EL VALIENTE <lb/>ENAMORAO. </head>
+                  <lb />EL VALIENTE <lb />ENAMORAO. </head>
 
                <l rend="indent">Señores, es tontería, </l>
                <l>no hay un mozo como yó </l>
@@ -153,7 +148,7 @@
                <l>que pasa un escarabajo </l>
                <l>con la pelota que lia. </l>
 
-               <pb n="2" source="Moreno_059_2.jpg"/>
+               <pb n="2" source="Moreno_059_2.jpg" />
 
                <fw type="paginaNum">2</fw>
 
@@ -234,7 +229,7 @@
                <l>mas que ochenta señorita. </l>
                <l>Compare, jablo é bera:</l>
 
-               <pb n="3" source="Moreno_059_3.jpg"/>
+               <pb n="3" source="Moreno_059_3.jpg" />
 
                <fw type="paginaNum">3</fw>
 
@@ -315,7 +310,7 @@
                <l>ma choco contra una esquina. </l>
                <l>No lo pueo remediar</l>
 
-               <pb n="4" source="Moreno_059_4.jpg"/>
+               <pb n="4" source="Moreno_059_4.jpg" />
 
                <fw type="paginaNum">4</fw>
 
@@ -358,7 +353,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA:—Imp. y lib. de D. José M. Moreno, Madre de Dios, 1.</p>
+               <p><lb />CARMONA:—Imp. y lib. de D. José M. Moreno, Madre de Dios, 1.</p>
             </div>
          </div>
       </body>

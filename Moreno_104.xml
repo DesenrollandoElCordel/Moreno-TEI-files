@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_104">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -28,7 +26,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1856</date>
                </publicationStmt>
             </biblFull>
@@ -36,10 +34,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5031447</idno>
@@ -48,10 +43,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -119,20 +114,19 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_104_thumbnail.jpg"/>
+      <graphic url="Moreno_104_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_104_1.jpg"/>
+               <pb n="1" source="Moreno_104_1.jpg" />
 
-               <fw type="impresorNum"><hi rend="cursiva">(Núm.</hi> 113<hi rend="cursiva"
-                  >.)</hi></fw>
+               <fw type="impresorNum"><hi rend="cursiva">(Núm.</hi> 113<hi rend="cursiva">.)</hi></fw>
 
                <head type="primer_titulo">LA VALIENTE ESPINELA.</head>
                <head type="subtitulo">
-                  <lb/>Nueva relacion y curioso romance en que se dá cuenta de lo que <lb/>le
+                  <lb />Nueva relacion y curioso romance en que se dá cuenta de lo que <lb />le
                   sucedió á esta doncella. </head>
 
                <l rend="indent">El sol detenga sus rayos, </l>
@@ -168,7 +162,7 @@
                <l>que de mi furor temblaban </l>
                <l>muchos en la ciudad misma.</l>
 
-               <pb n="2" source="Moreno_104_2.jpg"/>
+               <pb n="2" source="Moreno_104_2.jpg" />
 
                <l>Aprendí á jugar las armas</l>
                <l>con tal valor y destreza,</l>
@@ -267,7 +261,7 @@
                <l>con un capitan que iba</l>
                <l>á ver su casa y hacienda.</l>
 
-               <pb n="3" source="Moreno_104_3.jpg"/>
+               <pb n="3" source="Moreno_104_3.jpg" />
 
                <l>Desembarquéme, y estando</l>
                <l>una tarde en la Alameda</l>
@@ -366,7 +360,7 @@
                <l>En el monte de Archidon</l>
                <l>cogimos una calesa</l>
 
-               <pb n="4" source="Moreno_104_4.jpg"/>
+               <pb n="4" source="Moreno_104_4.jpg" />
 
                <l>con un caballero noble</l>
                <l>y una señora discreta.</l>
@@ -458,7 +452,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1856 <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 5.
+                  <lb />CARMONA:—1856 <lb />Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 5.
                </p>
             </div>
          </div>

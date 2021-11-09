@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_310">
    <teiHeader>
       <fileDesc>
@@ -12,23 +11,22 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Toma de Sevilla por el santo rey Don
                      Fernando</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1860</date>
                </publicationStmt>
             </biblFull>
@@ -36,10 +34,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5055527</idno>
@@ -124,20 +119,20 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_310_thumbnail.jpg"/>
+      <graphic url="Moreno_310_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_310_1.jpeg"/>
+               <pb n="1" source="Moreno_310_1.jpeg" />
 
                <fw type="impresorNum">Número 334. </fw>
 
                <head type="primer_titulo">
-                  <lb/><hi rend="negrita">TOMA DE SEVILLA,</hi>
-                  <lb/><hi rend="cursiva">por el Santo Rey</hi>
-                  <lb/><hi rend="negrita">DON FERNANDO.</hi>
+                  <lb /><hi rend="negrita">TOMA DE SEVILLA,</hi>
+                  <lb /><hi rend="cursiva">por el Santo Rey</hi>
+                  <lb /><hi rend="negrita">DON FERNANDO.</hi>
                </head>
 
                <div n="1" type="parte">
@@ -168,7 +163,7 @@
                   <l>viendose con fuerzas pocas,</l>
                   <l>se valió de agenas fuerzas,</l>
 
-                  <pb n="2" source="Moreno_310_2.jpeg"/>
+                  <pb n="2" source="Moreno_310_2.jpeg" />
 
                   <fw type="paginaNum">2</fw>
 
@@ -261,7 +256,7 @@
                   <l>Mandó el Rey tocar al arma,</l>
                   <l>tomando toda la senda</l>
 
-                  <pb n="3" source="Moreno_310_3.jpeg"/>
+                  <pb n="3" source="Moreno_310_3.jpeg" />
 
                   <fw type="paginaNum">3</fw>
 
@@ -354,7 +349,7 @@
                   <l>Entonces nuestro Rey Santo</l>
                   <l>dice: cierra, cierra, cierra,</l>
 
-                  <pb n="4" source="Moreno_310_4.jpeg"/>
+                  <pb n="4" source="Moreno_310_4.jpeg" />
 
                   <fw type="paginaNum">4</fw>
 
@@ -410,11 +405,11 @@
                   <l>porque sus yerros confiesa.</l>
 
                   <trailer rend="negrita">
-                     <lb/>FIN <lb/>de la primera parte. </trailer>
+                     <lb />FIN <lb />de la primera parte. </trailer>
                </div>
 
                <div n="2" type="parte">
-                  <pb n="5" source="Moreno_310_5.jpeg"/>
+                  <pb n="5" source="Moreno_310_5.jpeg" />
 
                   <head rend="negrita" type="titulo_parte">TOMA DE SEVILLA.</head>
                   <head rend="cursiva" type="subtitulo_parte">SEGUNDA PARTE.</head>
@@ -434,7 +429,7 @@
                   <l>alma, corazon y vida,</l>
                   <l>le robó con su luz bella.</l>
 
-                  <pb n="6" source="Moreno_310_6.jpeg"/>
+                  <pb n="6" source="Moreno_310_6.jpeg" />
 
                   <fw type="paginaNum">6</fw>
 
@@ -527,7 +522,7 @@
                   <l>de lo cual quedó admirado</l>
                   <l>y mas viendo manifiesta</l>
 
-                  <pb n="7" source="Moreno_310_7.jpeg"/>
+                  <pb n="7" source="Moreno_310_7.jpeg" />
 
                   <fw type="paginaNum">7</fw>
 
@@ -620,7 +615,7 @@
                   <l>La Espada y el Estandarte,</l>
                   <l>con el Crucifijo ordena</l>
 
-                  <pb n="8" source="Moreno_310_8.jpeg"/>
+                  <pb n="8" source="Moreno_310_8.jpeg" />
 
                   <fw type="paginaNum">8</fw>
 
@@ -694,7 +689,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA=1860. Imp.de D. José Maria Moreno, calle de Madre deDios.</p>
+               <p><lb />CARMONA=1860. Imp.de D. José Maria Moreno, calle de Madre deDios.</p>
             </div>
          </div>
       </body>

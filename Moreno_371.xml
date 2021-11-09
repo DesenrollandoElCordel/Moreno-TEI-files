@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_371">
    <teiHeader>
       <fileDesc>
@@ -12,22 +11,21 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Coplas nuevas, para cantar los aficionados.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -35,10 +33,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5069791</idno>
@@ -47,10 +42,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -120,18 +115,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_371_thumbnail.jpg"/>
+      <graphic url="Moreno_371_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_371_1.jpg"/>
+               <pb n="1" source="Moreno_371_1.jpg" />
 
                <fw type="impresorNum">Núm. 403.</fw>
 
                <head rend="negrita" type="primer_titulo">
-                  <lb/>COPLAS NUEVAS, <lb/>para cantar los aficionados. </head>
+                  <lb />COPLAS NUEVAS, <lb />para cantar los aficionados. </head>
 
 
                <lg>
@@ -190,7 +185,7 @@
                   <l>algun nuevo desengaño!</l>
                </lg>
 
-               <pb n="2" source="Moreno_371_2.jpg"/>
+               <pb n="2" source="Moreno_371_2.jpg" />
 
                <fw type="paginaNum">2</fw>
 
@@ -321,7 +316,7 @@
                   <l>mil en los tuyos dejára!</l>
                </lg>
 
-               <pb n="3" source="Moreno_371_3.jpg"/>
+               <pb n="3" source="Moreno_371_3.jpg" />
 
                <fw type="paginaNum">3</fw>
 
@@ -452,7 +447,7 @@
                   <l>los riega todos los dias.</l>
                </lg>
 
-               <pb n="4" source="Moreno_371_4.jpg"/>
+               <pb n="4" source="Moreno_371_4.jpg" />
 
                <fw type="paginaNum">4</fw>
 
@@ -531,7 +526,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA:—Imp. de D. José M.a Moreno, Madre de Dios núm. 1.</p>
+               <p><lb />CARMONA:—Imp. de D. José M.a Moreno, Madre de Dios núm. 1.</p>
             </div>
          </div>
       </body>

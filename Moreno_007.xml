@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_007">
    <teiHeader>
       <fileDesc>
@@ -16,22 +15,21 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Antonio Narvaez y Rosaura.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1858</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +37,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     /></repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5171852</idno>
@@ -131,26 +127,26 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_007_thumbnail.jpg"/>
+      <graphic url="Moreno_007_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
 
-            <pb n="1" source="Moreno_007_1.jpg"/>
+            <pb n="1" source="Moreno_007_1.jpg" />
 
             <fw type="impresorNum">(Número 6.)</fw>
 
-            <head rend="cursiva" type="primer_titulo"><lb/>Antonio Narvaez y Rosaura.</head>
+            <head rend="cursiva" type="primer_titulo"><lb />Antonio Narvaez y Rosaura.</head>
 
             <div n="1" type="parte">
-               <head rend="negrita" type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+               <head rend="negrita" type="titulo_parte"><lb />PRIMERA PARTE.</head>
                <head rend="cursiva" type="subtitulo_parte">
-                  <lb/>DE LOS AMOROSOS LANCES Y PARTICULARES SUCESOS QUE
-                  <lb/>acaecieron á una hermosa dama llamada Rosaura, y á su amante D. Anto-
-                  <lb/>nio Narvaez, natural de Córdoba; dase cuenta del modo con que se des-
-                  <lb/>cubrió á la dama en Sierra-Morena que la guardaba un Oso, y como di-
-                  <lb/>cho caballero lo mató; con todo lo demás que verá el curioso lector.
+                  <lb />DE LOS AMOROSOS LANCES Y PARTICULARES SUCESOS QUE
+                  <lb />acaecieron á una hermosa dama llamada Rosaura, y á su amante D. Anto-
+                  <lb />nio Narvaez, natural de Córdoba; dase cuenta del modo con que se des-
+                  <lb />cubrió á la dama en Sierra-Morena que la guardaba un Oso, y como di-
+                  <lb />cho caballero lo mató; con todo lo demás que verá el curioso lector.
                </head>
 
                <l rend="indent">A olvidar vanas memorias</l>
@@ -176,7 +172,7 @@
                <l>lo saqué de la corriente,</l>
                <l>y sacudiendolo, veo</l>
 
-               <pb n="2" source="Moreno_007_2.jpg"/>
+               <pb n="2" source="Moreno_007_2.jpg" />
 
                <fw type="paginaNum">2</fw>
 
@@ -261,7 +257,7 @@
                <l>vé á mi casa, y á mis Padres</l>
                <l>dá el referido suceso. </l>
 
-               <pb n="3" source="Moreno_007_3.jpg"/>
+               <pb n="3" source="Moreno_007_3.jpg" />
 
                <fw type="paginaNum">3</fw>
 
@@ -347,7 +343,7 @@
                <l>Yo me quedé en la espesura</l>
                <l>confuso, triste y suspenso: </l>
 
-               <pb n="4" source="Moreno_007_4.jpg"/>
+               <pb n="4" source="Moreno_007_4.jpg" />
 
                <fw type="paginaNum">4</fw>
 
@@ -424,13 +420,13 @@
                <trailer>Fin de la primera parte.</trailer>
             </div>
             <div n="2" type="parte">
-               <pb n="5" source="Moreno_007_5.jpg"/>
+               <pb n="5" source="Moreno_007_5.jpg" />
 
                <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
                <head rend="cursiva" type="subtitulo_parte">
-                  <lb/>EN QUE SE PROSIGUEN LOS <lb/>Sucesos de Rosaura y D. Antonio
-                  <lb/>Narvaez:dáse cuenta de varios lan- <lb/>ces,y como se la trajo á Córdoba,
-                  <lb/>donde se desposaron, y lo demas <lb/>que verá el curioso lector. </head>
+                  <lb />EN QUE SE PROSIGUEN LOS <lb />Sucesos de Rosaura y D. Antonio
+                  <lb />Narvaez:dáse cuenta de varios lan- <lb />ces,y como se la trajo á Córdoba,
+                  <lb />donde se desposaron, y lo demas <lb />que verá el curioso lector. </head>
 
                <l rend="indent">Ya dije en la primera parte</l>
                <l>como quedé tan absorto</l>
@@ -463,7 +459,7 @@
                <l>loco sin sentido digo:</l>
                <l>montes, aves, fieras, mónstruos, </l>
 
-               <pb n="6" source="Moreno_007_6.jpg"/>
+               <pb n="6" source="Moreno_007_6.jpg" />
 
                <fw type="paginaNum">6</fw>
 
@@ -548,7 +544,7 @@
                <l>perdió Rosaura, y la cinta</l>
                <l>que tambien me dió á mi propio,</l>
 
-               <pb n="7" source="Moreno_007_7.jpg"/>
+               <pb n="7" source="Moreno_007_7.jpg" />
 
                <fw type="paginaNum">7</fw>
 
@@ -633,7 +629,7 @@
                <l>de aqui de Madrid: mas tú</l>
                <l>solo eres mi querido esposo; </l>
 
-               <pb n="8" source="Moreno_007_8.jpg"/>
+               <pb n="8" source="Moreno_007_8.jpg" />
 
                <fw type="paginaNum">8</fw>
 
@@ -698,7 +694,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 4.
+                  <lb />CARMONA:—1858. <lb />Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 4.
                </p>
             </div>
          </div>

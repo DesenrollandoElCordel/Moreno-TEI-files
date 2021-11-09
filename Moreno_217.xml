@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_217">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -26,11 +24,11 @@
                   <title type="titulo_breve">Satira graciosa. De los ciento y ocho motivos</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1855</date>
                </publicationStmt>
             </biblFull>
@@ -38,10 +36,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5040963</idno>
@@ -115,7 +110,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -129,21 +124,21 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_217_thumbnail.jpg"/>
+      <graphic url="Moreno_217_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_217_1.jpg"/>
+               <pb n="1" source="Moreno_217_1.jpg" />
 
                <fw type="impresorNum">(Número 227.)</fw>
 
                <head type="primer_titulo">SATIRA GRASIOSA.</head>
                <head rend="cursiva" type="subtitulo">
-                  <lb/>De los ciento y ocho motivos que manifestamos ta mugeres, por <lb/>los cuales
-                  los hombres deben casarse, estimarnos y querernos; pues <lb/>por razon natural nos
-                  quieren y nos aman, como no lo pueden <lb/>negar. </head>
+                  <lb />De los ciento y ocho motivos que manifestamos ta mugeres, por <lb />los cuales
+                  los hombres deben casarse, estimarnos y querernos; pues <lb />por razon natural nos
+                  quieren y nos aman, como no lo pueden <lb />negar. </head>
 
                <l rend="indent">Viste, Marica, el papel</l>
                <l>que publicaron los ciegos</l>
@@ -164,7 +159,7 @@
                <l>Tan inocentes y tontos</l>
                <l>se hacen estos caballeros,</l>
 
-               <pb n="2" source="Moreno_217_2.jpg"/>
+               <pb n="2" source="Moreno_217_2.jpg" />
 
                <l>que es menester los avisen</l>
                <l>hasta en la calle los ciegos.</l>
@@ -224,7 +219,7 @@
                <l>Si quieren criadas, </l>
                <l>que por conveniencia</l>
 
-               <pb n="3" source="Moreno_217_3.jpg"/>
+               <pb n="3" source="Moreno_217_3.jpg" />
 
                <l>le tengan de valde</l>
                <l>y con residencia,</l>
@@ -291,7 +286,7 @@
                <l>y como enfadado</l>
                <l>se vuelve de espalda,</l>
 
-               <pb n="4" source="Moreno_217_4.jpg"/>
+               <pb n="4" source="Moreno_217_4.jpg" />
 
                <l>rièndose solo,</l>
                <l>dando carcajadas.</l>
@@ -353,7 +348,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMOMA:—1855. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  <lb />CARMOMA:—1855. <lb />Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
                   4. </p>
             </div>
          </div>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_334">
    <teiHeader>
       <fileDesc>
@@ -12,22 +11,21 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Nueva relacion del cuerno del caracol.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (1861): <ref target="Moreno_333.xml">Moreno_333</ref></p>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -35,10 +33,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5060619</idno>
@@ -47,10 +42,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -104,7 +99,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term type="tipo_texto">Relaciones</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -118,18 +113,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_334_thumbnail.jpg"/>
+      <graphic url="Moreno_334_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_334_1.jpeg"/>
+               <pb n="1" source="Moreno_334_1.jpeg" />
 
                <fw type="impresorNum">N. 363.</fw>
 
                <head type="primer_titulo">
-                  <lb/>NUEVA RELACION <lb/>DEL <lb/>CUERNO DEL CARACOL </head>
+                  <lb />NUEVA RELACION <lb />DEL <lb />CUERNO DEL CARACOL </head>
 
                <lg>
                   <l rend="indent">En el Soto Cantaespina</l>
@@ -185,7 +180,7 @@
                   <l>y el pueblo Belchite</l>
                   <l>escapó á correr.</l>
 
-                  <pb n="2" source="Moreno_334_2.jpeg"/>
+                  <pb n="2" source="Moreno_334_2.jpeg" />
 
                   <fw type="paginaNum">2</fw>
                   <l>Todos escaparon</l>
@@ -295,7 +290,7 @@
                   <l>á la ciudad de Alfocea</l>
                   <l>se fueron á reunir.</l>
 
-                  <pb n="3" source="Moreno_334_3.jpeg"/>
+                  <pb n="3" source="Moreno_334_3.jpeg" />
 
                   <fw type="paginaNum">3</fw>
 
@@ -405,7 +400,7 @@
                   <l>de hojás de pánizó. </l>
                </lg>
 
-               <pb n="4" source="Moreno_334_4.jpeg"/>
+               <pb n="4" source="Moreno_334_4.jpeg" />
 
                <fw type="paginaNum">4</fw>
 
@@ -477,7 +472,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA.—Imp. y lib. de D. José M. Moreno, Madre de Dios, n. 4.</p>
+               <p><lb />CARMONA.—Imp. y lib. de D. José M. Moreno, Madre de Dios, n. 4.</p>
             </div>
          </div>
       </body>

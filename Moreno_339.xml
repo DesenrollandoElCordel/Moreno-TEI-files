@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_339">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -27,11 +25,11 @@
                   <author>Antonio Sanchez Roldan</author>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -39,10 +37,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5060689</idno>
@@ -51,10 +46,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -72,7 +67,7 @@
                   </objectDesc>
                   <decoDesc>
                      <decoNote>
-                        <p/>
+                        <p />
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -105,7 +100,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term type="tipo_texto">Composiciones</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -118,20 +113,20 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_339_thumbnail.jpg"/>
+      <graphic url="Moreno_339_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_339_1.jpg"/>
+               <pb n="1" source="Moreno_339_1.jpg" />
 
                <head rend="negrita" type="primer_titulo">
-                  <lb/>GUERRA <lb/>DE AFRICA. </head>
+                  <lb />GUERRA <lb />DE AFRICA. </head>
                <head rend="cursiva" type="subtitulo">
-                  <lb/>Composicion que hace un aficionado segun le han informado los tes- <lb/>tigos
-                  de la verdad, en donde encontraremos la sangrienta y fati- <lb/>gosa lucha que
-                  sostuvieron los cristianos españoles, para poder <lb/>conseguir la toma de las
+                  <lb />Composicion que hace un aficionado segun le han informado los tes- <lb />tigos
+                  de la verdad, en donde encontraremos la sangrienta y fati- <lb />gosa lucha que
+                  sostuvieron los cristianos españoles, para poder <lb />conseguir la toma de las
                   trincheras, el dia 4 de Febrero. </head>
 
                <l rend="indent">En sus tiendas descansaba</l>
@@ -187,7 +182,7 @@
                <l>A ocultarse en la espesura</l>
                <l>Y se ván multiplicando.</l>
 
-               <pb n="2" source="Moreno_339_2.jpg"/>
+               <pb n="2" source="Moreno_339_2.jpg" />
 
                <l>Al redor de las trincheras</l>
                <l>Mucha fuerza se le vé,</l>
@@ -300,7 +295,7 @@
                <l>Si le tememos al fuego</l>
                <l>Y á los filos de las gumias,</l>
 
-               <pb n="3" source="Moreno_339_3.jpg"/>
+               <pb n="3" source="Moreno_339_3.jpg" />
 
                <l>Aqui vamos á perder</l>
                <l>El honor de Cataluña. </l>
@@ -413,7 +408,7 @@
                <l>Que golpe que al frente daban</l>
                <l>No sé como tenga cura.</l>
 
-               <pb n="4" source="Moreno_339_4.jpg"/>
+               <pb n="4" source="Moreno_339_4.jpg" />
 
                <l>Al mismo tiempo cargaron</l>
                <l>Las masas de infanteria,</l>
@@ -497,12 +492,11 @@
 
             <div type="colofon">
                <p>
-                  <lb/>Compuesta por Antonio Sanchez Roldan, natural de la Villa del <lb/>Alcor,
-                  provincia de Sevilla, trabajador del campo sin saber leer ni <lb/>escribir, el que
+                  <lb />Compuesta por Antonio Sanchez Roldan, natural de la Villa del <lb />Alcor,
+                  provincia de Sevilla, trabajador del campo sin saber leer ni <lb />escribir, el que
                   me lea me dispensará las faltas. </p>
 
-               <p><lb/>CARMONA:—<hi rend="cursiva">Imp. de D.</hi> José María Moreno, <hi
-                     rend="cursiva">Madre de Dios,</hi></p>
+               <p><lb />CARMONA:—<hi rend="cursiva">Imp. de D.</hi> José María Moreno, <hi rend="cursiva">Madre de Dios,</hi></p>
             </div>
          </div>
       </body>

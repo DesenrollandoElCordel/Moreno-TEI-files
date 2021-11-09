@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_011">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -28,7 +26,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -36,10 +34,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5171870</idno>
@@ -110,7 +105,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term type="tipo_texto">Relaciones</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -125,18 +120,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_011_thumbnail.jpg"/>
+      <graphic url="Moreno_011_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_011_1.jpg"/>
+            <pb n="1" source="Moreno_011_1.jpg" />
 
             <fw type="impresorNum">Núm. 11.</fw>
 
             <head type="primer_titulo">
-               <lb/>RELACION CHISTOSA <lb/>TITULADA <lb/>TODAS ME GUSTAN, <lb/>SEGUIDA DE OTRA
-               SERIA, CUYO TTTULO ES <lb/>DESENGAÑO DE LAS DONCELLAS. </head>
+               <lb />RELACION CHISTOSA <lb />TITULADA <lb />TODAS ME GUSTAN, <lb />SEGUIDA DE OTRA
+               SERIA, CUYO TTTULO ES <lb />DESENGAÑO DE LAS DONCELLAS. </head>
 
             <div n="1" type="parte">
                <l rend="indent">Ya que quieren las señoras,</l>
@@ -166,7 +161,7 @@
                <l>tente borrico del diablo,</l>
                <l>pues si agarro un barejon</l>
 
-               <pb n="2" source="Moreno_011_2.jpg"/>
+               <pb n="2" source="Moreno_011_2.jpg" />
 
                <fw type="paginaNum">2</fw>
 
@@ -259,7 +254,7 @@
                <l>porque parece mujer</l>
                <l>la quiero, que es un horror;</l>
 
-               <pb n="3" source="Moreno_011_3.jpg"/>
+               <pb n="3" source="Moreno_011_3.jpg" />
 
                <fw type="paginaNum">3</fw>
 
@@ -343,7 +338,7 @@
                <l>las perfecciones reunen</l>
                <l>en grado muy eminente.</l>
 
-               <pb n="4" source="Moreno_011_4.jpg"/>
+               <pb n="4" source="Moreno_011_4.jpg" />
 
                <fw type="paginaNum">4</fw>
 
@@ -420,7 +415,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA:—Imp. y lib. de D. José María Moreno, Madre de Dios, 1.</p>
+               <p><lb />CARMONA:—Imp. y lib. de D. José María Moreno, Madre de Dios, 1.</p>
             </div>
          </div>
       </body>

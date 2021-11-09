@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_003">
    <teiHeader>
       <fileDesc>
@@ -12,22 +11,21 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Pasillo de D. Sancho y su mayordomo Crispín.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1857</date>
                </publicationStmt>
             </biblFull>
@@ -35,10 +33,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5171842</idno>
@@ -47,10 +42,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -78,7 +73,7 @@
                </physDesc>
                <history>
                   <acquisition>
-                     <p/>
+                     <p />
                   </acquisition>
                </history>
             </msDesc>
@@ -92,7 +87,7 @@
                Sandoz-Monique de Meuron.</p>
          </projectDesc>
          <projectDesc>
-            <p/>
+            <p />
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -113,7 +108,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -127,19 +122,19 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_003_thumbnail.jpg"/>
+      <graphic url="Moreno_003_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_003_1.jpg"/>
+               <pb n="1" source="Moreno_003_1.jpg" />
 
                <fw type="impresorNum">(Núm. 3.)</fw>
 
                <head>
-                  <lb/>PASILLO
-                  <lb/>DE D.SANCHO Y SU MAYORDOMO CRISPIN.
+                  <lb />PASILLO
+                  <lb />DE D.SANCHO Y SU MAYORDOMO CRISPIN.
                </head>
 
                <sp>
@@ -278,7 +273,7 @@
                      <l>¡Habrá hombre mas menguado</l>
                      <l>tú por todo te atascas:</l>
 
-                     <pb n="2" source="Moreno_003_2.jpg"/>
+                     <pb n="2" source="Moreno_003_2.jpg" />
 
                      <l>en Madrid entra un forastero</l>
                      <l>tal como hoy por la mañana,</l>
@@ -557,7 +552,7 @@
 
                <stage rend="cursiva">(Sale Crisp. con un papel de estraza.</stage>
 
-               <pb n="3" source="Moreno_003_3.jpg"/>
+               <pb n="3" source="Moreno_003_3.jpg" />
 
                <sp>
                   <speaker rend="cursiva">Cris.</speaker>
@@ -773,7 +768,7 @@
 
                <stage rend="cursiva">(Entra Crispin con mala cara.)</stage>
 
-               <pb n="4" source="Moreno_003_4.jpg"/>
+               <pb n="4" source="Moreno_003_4.jpg" />
 
                <sp>
                   <speaker rend="cursiva">Crisp.</speaker>
@@ -1003,7 +998,7 @@
             </div>
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1857. <lb/>Imprenta de D. Jose Maria Moreno, calle Juan de la Cabra
+                  <lb />CARMONA:—1857. <lb />Imprenta de D. Jose Maria Moreno, calle Juan de la Cabra
                   núm. </p>
             </div>
          </div>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_223">
    <teiHeader>
       <fileDesc>
@@ -13,23 +12,22 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Pasillo entre padre é hija hablando de la oracion
                      del Padre Nuestro.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1856</date>
                </publicationStmt>
             </biblFull>
@@ -37,10 +35,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5041054</idno>
@@ -49,10 +44,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -79,7 +74,7 @@
                </physDesc>
                <history>
                   <acquisition>
-                     <p/>
+                     <p />
                   </acquisition>
                </history>
             </msDesc>
@@ -93,7 +88,7 @@
                Sandoz-Monique de Meuron.</p>
          </projectDesc>
          <projectDesc>
-            <p/>
+            <p />
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -114,7 +109,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
@@ -129,19 +124,19 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_223_thumbnail.jpg"/>
+      <graphic url="Moreno_223_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_223_1.jpg"/>
+               <pb n="1" source="Moreno_223_1.jpg" />
 
                <fw type="impresorNum">(Núm. 231.)</fw>
 
                <head type="primer_titulo">
-                  <lb/><hi rend="negrita">PASILLO</hi>
-                  <lb/>ENTRE PADRE É HIJA, <lb/>HABLANDO DE LA ORACION <lb/><hi rend="negrita">DEL
+                  <lb /><hi rend="negrita">PASILLO</hi>
+                  <lb />ENTRE PADRE É HIJA, <lb />HABLANDO DE LA ORACION <lb /><hi rend="negrita">DEL
                      PADRE NUESTRO.</hi>
                </head>
 
@@ -194,7 +189,7 @@
                   <l>se hancompuesto y compondrán</l>
                   <l>en toda la Iglesia sabia;</l>
 
-                  <pb n="2" source="Moreno_223_2.jpg"/>
+                  <pb n="2" source="Moreno_223_2.jpg" />
 
                   <l>pero te lo pregunté</l>
                   <l>por ver si te se olvidaba</l>
@@ -309,7 +304,7 @@
                   <l>esa loca echarla fuera,</l>
                   <l>y de un brazo te sacaran</l>
 
-                  <pb n="3" source="Moreno_223_3.jpg"/>
+                  <pb n="3" source="Moreno_223_3.jpg" />
 
                   <l>quedabas vituperiosa,</l>
                   <l>y nada en ello alcanzaras?</l>
@@ -421,7 +416,7 @@
                   <l>qué he de hacer en este caso?</l>
                </sp>
 
-               <pb n="4" source="Moreno_223_4.jpg"/>
+               <pb n="4" source="Moreno_223_4.jpg" />
 
                <sp>
                   <speaker rend="cursiva">Pad.</speaker>
@@ -536,7 +531,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA—1856 Imp. de D. J. M. M. calle Juan de la Cabra, núm. 5.</p>
+               <p><lb />CARMONA—1856 Imp. de D. J. M. M. calle Juan de la Cabra, núm. 5.</p>
             </div>
          </div>
       </body>

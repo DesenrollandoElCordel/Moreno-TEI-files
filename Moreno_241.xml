@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_241">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -25,11 +23,11 @@
                      mañanas</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1856</date>
                </publicationStmt>
             </biblFull>
@@ -37,10 +35,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5045458</idno>
@@ -125,18 +120,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_241_thumbnail.jpg"/>
+      <graphic url="Moreno_241_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_241_1.jpeg"/>
+               <pb n="1" source="Moreno_241_1.jpeg" />
 
                <fw type="impresorNum">Núm. 289.</fw>
 
                <head type="primer_titulo">
-                  <lb/>COPLAS PARA CANTAR <lb/>LOS DESPERTADORES DE LAS MAÑANAS, LLAMANDO <lb/>A
+                  <lb />COPLAS PARA CANTAR <lb />LOS DESPERTADORES DE LAS MAÑANAS, LLAMANDO <lb />A
                   REZAR EL ROSARIO DE LA AURORA. </head>
 
                <lg>
@@ -195,7 +190,7 @@
                   <l>Salid sin tardar:</l>
                   <l>Que por rato tan breve, la Vírgen</l>
 
-                  <pb n="2" source="Moreno_241_2.jpeg"/>
+                  <pb n="2" source="Moreno_241_2.jpeg" />
 
                   <l>Promete la gloria de una eternidad.</l>
                   <l rend="cursiva">Venid á rezar, etc.</l>
@@ -334,10 +329,10 @@
 
             <div type="colofon">
                <p>
-                  <lb/>NOTA:—Hay concedidas muchas indulgancias por varios Prelados, á todos
-                  <lb/>los que cón devocion rezaren el santo rosario á María Santisima. </p>
+                  <lb />NOTA:—Hay concedidas muchas indulgancias por varios Prelados, á todos
+                  <lb />los que cón devocion rezaren el santo rosario á María Santisima. </p>
 
-               <p><lb/>CARMONA:—1856. Imp. de D, J. M. Moreno, Descalzas, núm. 1.</p>
+               <p><lb />CARMONA:—1856. Imp. de D, J. M. Moreno, Descalzas, núm. 1.</p>
             </div>
          </div>
       </body>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_031">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -25,11 +23,11 @@
                   <title type="titulo_breve">Graciosa relación de los treinta reales</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1857</date>
                </publicationStmt>
             </biblFull>
@@ -37,10 +35,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5018122</idno>
@@ -49,10 +44,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -108,7 +103,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term type="tipo_texto">Relaciones</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -122,21 +117,21 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_031_thumbnail.jpg"/>
+      <graphic url="Moreno_031_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_031_1.jpg"/>
+               <pb n="1" source="Moreno_031_1.jpg" />
 
                <fw type="impresorNum">Número 34.</fw>
 
                <head type="primer_titulo">
-                  <lb/>GRACIOSA RELACION <lb/>DE LOS <lb/><hi rend="negrita">TREINTA REALES,</hi>
+                  <lb />GRACIOSA RELACION <lb />DE LOS <lb /><hi rend="negrita">TREINTA REALES,</hi>
                </head>
                <head rend="cursiva" type="subtitulo">
-                  <lb/>en la que se refiere lo que sucedió á un pobre lechuguino con una <lb/>señora
+                  <lb />en la que se refiere lo que sucedió á un pobre lechuguino con una <lb />señora
                   marquesa de boardilla. </head>
 
                <l rend="indent">Cierto, señores, que habia</l>
@@ -160,7 +155,7 @@
                <l>en la música mil sales,</l>
                <l>y la gracia en el danzar,</l>
 
-               <pb n="2" source="Moreno_031_2.jpg"/>
+               <pb n="2" source="Moreno_031_2.jpg" />
 
                <l>primores en lo jocoso,</l>
                <l>y en lo serio mucho mas,</l>
@@ -249,7 +244,7 @@
                <l>volvéroslos cuanto antes,</l>
                <l>pues ya muy pronto vendrán</l>
 
-               <pb n="3" source="Moreno_031_3.jpg"/>
+               <pb n="3" source="Moreno_031_3.jpg" />
 
                <l>unos dineros que espero</l>
                <l>de un mi pariente que está</l>
@@ -338,7 +333,7 @@
                <l>Si tú treinta reales quiere</l>
                <l>puedes ir á Tetuan,</l>
 
-               <pb n="4" source="Moreno_031_4.jpg"/>
+               <pb n="4" source="Moreno_031_4.jpg" />
 
                <l>que allí tienen buen despacho</l>
                <l>con poco ó ningun afan,</l>
@@ -418,7 +413,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1857. <lb/>Imprenta de D. J. M. M. calle Juan de la Cabra núm, 4.
+                  <lb />CARMONA:—1857. <lb />Imprenta de D. J. M. M. calle Juan de la Cabra núm, 4.
                </p>
             </div>
          </div>

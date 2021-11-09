@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_077">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -27,11 +25,11 @@
                   <title type="titulo_breve">Doña Teresa en la cueva</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -39,10 +37,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5026657</idno>
@@ -127,22 +122,22 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_077_thumbnail.jpg"/>
+      <graphic url="Moreno_077_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_077_1.jpg"/>
+               <pb n="1" source="Moreno_077_1.jpg" />
 
                <fw type="impresorNum">Núm. 88.</fw>
 
                <head type="primer_titulo">DOÑA TERESA EN LA GUEVA.</head>
                <head type="subtitulo">
-                  <lb/>RELACION DE LOS VARIOS SUCESOS DE DON MANUEL DE CONTRERAS <hi rend="cursiva">
-                     <lb/>y doña Teresa de Rivera; en que se declara como don Manuel sacó á doña
-                     <lb/>Teresa de su convento de la ciudad de Salamanca, y partiendo á Córdoba
-                     <lb/>fué muerto en Sierra-Morena por un hermano de doña Teresa.</hi>
+                  <lb />RELACION DE LOS VARIOS SUCESOS DE DON MANUEL DE CONTRERAS <hi rend="cursiva">
+                     <lb />y doña Teresa de Rivera; en que se declara como don Manuel sacó á doña
+                     <lb />Teresa de su convento de la ciudad de Salamanca, y partiendo á Córdoba
+                     <lb />fué muerto en Sierra-Morena por un hermano de doña Teresa.</hi>
                </head>
 
                <div n="1" type="parte">
@@ -177,7 +172,7 @@
                   <l>un sol para adorno suyo </l>
                   <l>acompañado de estrellas,</l>
 
-                  <pb n="2" source="Moreno_077_2.jpg"/>
+                  <pb n="2" source="Moreno_077_2.jpg" />
 
                   <fw type="paginaNum">2</fw>
 
@@ -268,7 +263,7 @@
                   <l>volvió en sí la hermosa dama</l>
                   <l>toda en suspiros envuelta.</l>
 
-                  <pb n="3" source="Moreno_077_3.jpg"/>
+                  <pb n="3" source="Moreno_077_3.jpg" />
 
                   <fw type="paginaNum">3</fw>
 
@@ -359,7 +354,7 @@
                   <l>del convento me sacase,</l>
                   <l>y logrado el verme fuera,</l>
 
-                  <pb n="4" source="Moreno_077_4.jpg"/>
+                  <pb n="4" source="Moreno_077_4.jpg" />
 
                   <fw type="paginaNum">4</fw>
 
@@ -450,7 +445,7 @@
                   <l>te pido que me perdones, </l>
                   <l>porque perdonada seas,</l>
 
-                  <pb n="5" source="Moreno_077_5.jpg"/>
+                  <pb n="5" source="Moreno_077_5.jpg" />
 
                   <fw type="paginaNum">5</fw>
 
@@ -540,7 +535,7 @@
                   <l>ya Teresa en el dolor</l>
                   <l>y en el llanto las imita,</l>
 
-                  <pb n="6" source="Moreno_077_6.jpg"/>
+                  <pb n="6" source="Moreno_077_6.jpg" />
 
                   <fw type="paginaNum">6</fw>
 
@@ -631,7 +626,7 @@
                   <l>Aquí traigo muchas galas, </l>
                   <l>las que quisieres aplica:</l>
 
-                  <pb n="7" source="Moreno_077_7.jpg"/>
+                  <pb n="7" source="Moreno_077_7.jpg" />
 
                   <fw type="paginaNum">7</fw>
 
@@ -722,7 +717,7 @@
                   <l>Vuelve, Señor, á la vaina</l>
                   <l>la espada de tu justicia,</l>
 
-                  <pb n="8" source="Moreno_077_8.jpg"/>
+                  <pb n="8" source="Moreno_077_8.jpg" />
 
                   <fw type="paginaNum">8</fw>
 
@@ -812,7 +807,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA:—Imp. y lib. de D. José M. Moreno, Mádre de Dios, 1.</p>
+               <p><lb />CARMONA:—Imp. y lib. de D. José M. Moreno, Mádre de Dios, 1.</p>
             </div>
          </div>
       </body>

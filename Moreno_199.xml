@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_199">
    <teiHeader>
       <fileDesc>
@@ -13,23 +12,22 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Sainete nuevo titulado El paje de la
                      obligacion.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1865</date>
                </publicationStmt>
             </biblFull>
@@ -37,10 +35,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5040800</idno>
@@ -49,10 +44,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -79,7 +74,7 @@
                </physDesc>
                <history>
                   <acquisition>
-                     <p/>
+                     <p />
                   </acquisition>
                </history>
             </msDesc>
@@ -93,7 +88,7 @@
                Sandoz-Monique de Meuron.</p>
          </projectDesc>
          <projectDesc>
-            <p/>
+            <p />
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -114,7 +109,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -129,29 +124,29 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_199_thumbnail.jpg"/>
+      <graphic url="Moreno_199_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_199_1.jpg"/>
+            <pb n="1" source="Moreno_199_1.jpg" />
 
             <fw type="impresorNum">Núm. 210.</fw>
 
             <head type="primer_titulo">
-               <lb/><hi rend="negrita">SAINETE NUEVO</hi>
-               <lb/>TITULADO: <hi rend="negrita"><lb/>EL PAJE <lb/>DE LA OBLIGACION.</hi>
+               <lb /><hi rend="negrita">SAINETE NUEVO</hi>
+               <lb />TITULADO: <hi rend="negrita"><lb />EL PAJE <lb />DE LA OBLIGACION.</hi>
             </head>
             <head type="subtitulo">PARA SIETE PERSONAS.</head>
 
             <div type="colofon">
                <p>
-                  <lb/>Carmona, 1865 <lb/>Imprenta y librería de D. José María Moreno, <lb/>calle,
+                  <lb />Carmona, 1865 <lb />Imprenta y librería de D. José María Moreno, <lb />calle,
                   Madre de Dios, número 1. </p>
             </div>
 
             <div type="reparto">
-               <pb n="2" source="Moreno_199_2.jpg"/>
+               <pb n="2" source="Moreno_199_2.jpg" />
 
                <head type="reparto_titulo">PERSONAS.</head>
                <castList rend="negrita">
@@ -166,12 +161,12 @@
             </div>
 
             <div>
-               <pb n="3" source="Moreno_199_3.jpg"/>
+               <pb n="3" source="Moreno_199_3.jpg" />
 
                <fw type="paginaNum">3</fw>
 
                <stage rend="cursiva">
-                  <lb/>Sala de Don Anacleto, aparese este, y <lb/>sale el Baron. </stage>
+                  <lb />Sala de Don Anacleto, aparese este, y <lb />sale el Baron. </stage>
 
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
@@ -381,7 +376,7 @@
                   <speaker rend="cursiva">Anac.</speaker>
                   <l>Esta prisa me parece</l>
 
-                  <pb n="4" source="Moreno_199_4.jpg"/>
+                  <pb n="4" source="Moreno_199_4.jpg" />
 
                   <fw type="paginaNum">4</fw>
 
@@ -535,7 +530,7 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb/>Sale Sinforosa corriendo y al decir <lb/>los primeros versos tropiesa y cae. </stage>
+                  <lb />Sale Sinforosa corriendo y al decir <lb />los primeros versos tropiesa y cae. </stage>
 
                <sp>
                   <speaker rend="cursiva">Sinf.</speaker>
@@ -607,7 +602,7 @@
                   <speaker rend="cursiva">Bar.</speaker>
                   <l>Pues yo sí; dame la mano</l>
 
-                  <pb n="5" source="Moreno_199_5.jpg"/>
+                  <pb n="5" source="Moreno_199_5.jpg" />
 
                   <fw type="paginaNum">5</fw>
 
@@ -806,7 +801,7 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb/>Le quita Anacleto el papel y lo <lb/>rasga. </stage>
+                  <lb />Le quita Anacleto el papel y lo <lb />rasga. </stage>
 
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
@@ -814,7 +809,7 @@
                   <l>acabáranse los pleitos.</l>
                </sp>
 
-               <pb n="6" source="Moreno_199_6.jpg"/>
+               <pb n="6" source="Moreno_199_6.jpg" />
 
                <fw type="paginaNum">6</fw>
 
@@ -843,7 +838,7 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb/>Saca de las faldriqueras los gorros <lb/>que pueda y se los va poniendo </stage>
+                  <lb />Saca de las faldriqueras los gorros <lb />que pueda y se los va poniendo </stage>
 
                <sp>
                   <speaker rend="cursiva">Agac.</speaker>
@@ -1044,12 +1039,12 @@
                   <l>y no han de lograr saberlo.</l>
                </sp>
 
-               <pb n="7" source="Moreno_199_7.jpg"/>
+               <pb n="7" source="Moreno_199_7.jpg" />
 
                <fw type="paginaNum">7</fw>
 
                <stage rend="cursiva">
-                  <lb/>Sale el Paje, y despues á su tiempo <lb/>el Escribano y dos testigos. </stage>
+                  <lb />Sale el Paje, y despues á su tiempo <lb />el Escribano y dos testigos. </stage>
 
                <sp>
                   <speaker rend="cursiva">Paj.</speaker>
@@ -1118,7 +1113,7 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb/>Salon obscuro, salen D. Anacleto, <lb/>Escribano y testigos. </stage>
+                  <lb />Salon obscuro, salen D. Anacleto, <lb />Escribano y testigos. </stage>
 
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>
@@ -1224,8 +1219,8 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb/>Pónese la Criada á la parte por <lb/>donde saldrá el Baron, y el Paje <lb/>al
-                  contrario pero ambos unidos <lb/>en medio del teatro. </stage>
+                  <lb />Pónese la Criada á la parte por <lb />donde saldrá el Baron, y el Paje <lb />al
+                  contrario pero ambos unidos <lb />en medio del teatro. </stage>
 
                <sp>
                   <speaker rend="cursiva">Sinf.</speaker>
@@ -1239,7 +1234,7 @@
                   <l>es lo que busca el buñuelo.</l>
                </sp>
 
-               <pb n="8" source="Moreno_199_8.jpg"/>
+               <pb n="8" source="Moreno_199_8.jpg" />
 
                <fw type="paginaNum">8</fw>
 
@@ -1308,8 +1303,8 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb/>Sinfarosa habla con el Paje, y el <lb/>Baron con la Criada, todos fingiendo
-                  <lb/>secreto. </stage>
+                  <lb />Sinfarosa habla con el Paje, y el <lb />Baron con la Criada, todos fingiendo
+                  <lb />secreto. </stage>
 
                <sp>
                   <speaker rend="cursiva">Sinf.</speaker>
@@ -1358,7 +1353,7 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb/>Salen todos con luces, despues de ha- <lb/>berse tomado las manos. </stage>
+                  <lb />Salen todos con luces, despues de ha- <lb />berse tomado las manos. </stage>
 
                <sp>
                   <speaker rend="cursiva">Anac.</speaker>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_364">
    <teiHeader>
       <fileDesc>
@@ -12,22 +11,21 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Relacion nueva de Caramba que no me caso.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión en <name type="otro_lugar_impresion">Huelva</name>.</p>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -35,10 +33,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5069719</idno>
@@ -47,10 +42,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -118,19 +113,19 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_364_thumbnail.jpg"/>
+      <graphic url="Moreno_364_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_364_1.jpg"/>
+               <pb n="1" source="Moreno_364_1.jpg" />
 
                <fw type="impresorNum">Núm. 397.</fw>
 
                <head type="primer_titulo">
-                  <lb/><hi rend="negrita">RELACION NUEVA</hi>
-                  <lb/>DE <lb/><hi rend="negrita">CARAMBA QUE NO ME CASO.</hi>
+                  <lb /><hi rend="negrita">RELACION NUEVA</hi>
+                  <lb />DE <lb /><hi rend="negrita">CARAMBA QUE NO ME CASO.</hi>
                </head>
 
                <l rend="indent">Porque no digan ustedes</l>
@@ -162,7 +157,7 @@
                <l>y el tocador cojo y manco, </l>
                <l>con tan solo un movimiento,</l>
 
-               <pb n="2" source="Moreno_364_2.jpg"/>
+               <pb n="2" source="Moreno_364_2.jpg" />
 
                <fw type="paginaNum">2</fw>
 
@@ -249,7 +244,7 @@
                <l>que se la llene el demonio, </l>
                <l>caramba, que no me caso.</l>
 
-               <pb n="3" source="Moreno_364_3.jpg"/>
+               <pb n="3" source="Moreno_364_3.jpg" />
 
                <fw type="paginaNum">3</fw>
 
@@ -336,7 +331,7 @@
                <l>me echo el chaleco á los pies, </l>
                <l>y con el culo me tapo;</l>
 
-               <pb n="4" source="Moreno_364_4.jpg"/>
+               <pb n="4" source="Moreno_364_4.jpg" />
 
                <fw type="paginaNum">4</fw>
 
@@ -403,7 +398,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>IMPRESO EN HUELVA. <lb/>Reimpreso en Carmona, imp. de D. José M. Moreno,
+                  <lb />IMPRESO EN HUELVA. <lb />Reimpreso en Carmona, imp. de D. José M. Moreno,
                   Madre de Dios, 1. </p>
             </div>
          </div>

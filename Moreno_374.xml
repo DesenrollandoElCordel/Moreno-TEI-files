@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_374">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -29,7 +27,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -37,10 +35,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5069814</idno>
@@ -129,19 +124,19 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_374_thumbnail.jpg"/>
+      <graphic url="Moreno_374_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_374_1.jpeg"/>
+               <pb n="1" source="Moreno_374_1.jpeg" />
 
                <fw type="impresorNum">Núm. 36</fw>
 
                <head type="primer_titulo">
-                  <lb/><hi rend="negrita">DÉCIMAS TROVADAS,</hi>
-                  <lb/>que cantan al valiente ejército español vencedor <lb/>de la raza mahometana
+                  <lb /><hi rend="negrita">DÉCIMAS TROVADAS,</hi>
+                  <lb />que cantan al valiente ejército español vencedor <lb />de la raza mahometana
                   en Africa. </head>
 
                <div n="1">
@@ -165,7 +160,7 @@
                      <l rend="cursiva">Dios libre á los españoles,</l>
                   </lg>
 
-                  <pb n="2" source="Moreno_374_2.jpeg"/>
+                  <pb n="2" source="Moreno_374_2.jpeg" />
 
                   <fw type="paginaNum">2</fw>
 
@@ -246,7 +241,7 @@
                      <l rend="cursiva">pierdo todo mi tesoro.</l>
                   </lg>
 
-                  <pb n="3" source="Moreno_374_3.jpeg"/>
+                  <pb n="3" source="Moreno_374_3.jpeg" />
 
                   <fw type="paginaNum">3</fw>
 
@@ -337,7 +332,7 @@
                </div>
 
                <div n="3">
-                  <pb n="4" source="Moreno_374_4.jpeg"/>
+                  <pb n="4" source="Moreno_374_4.jpeg" />
 
                   <fw type="paginaNum">4</fw>
 
@@ -407,7 +402,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>Carmona.—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
+               <p><lb />Carmona.—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
             </div>
          </div>
       </body>

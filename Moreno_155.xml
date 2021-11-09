@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_155">
    <teiHeader>
       <fileDesc>
@@ -13,9 +12,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -27,11 +25,11 @@
                      motivo que hay para no casarse</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -39,10 +37,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5036959</idno>
@@ -138,20 +133,20 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_155_thumbnail.jpg"/>
+      <graphic url="Moreno_155_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_155_1.jpg"/>
+               <pb n="1" source="Moreno_155_1.jpg" />
 
                <fw type="impresorNum">(Núm. 165.)</fw>
 
                <head type="primer_titulo">
-                  <lb/><hi rend="negrita">SATIRA GRACIOSA</hi>
-                  <lb/>en que se avisa á todos los hombres los moti- <lb/>vo que hay para no
-                  casarse, y lo que se pasa con <lb/>las mugeres por los males que ocasionan. </head>
+                  <lb /><hi rend="negrita">SATIRA GRACIOSA</hi>
+                  <lb />en que se avisa á todos los hombres los moti- <lb />vo que hay para no
+                  casarse, y lo que se pasa con <lb />las mugeres por los males que ocasionan. </head>
 
                <l rend="indent">Los que se quieren casar</l>
                <l>piensan que van á la gloria,</l>
@@ -180,7 +175,7 @@
                <l>y á la noche viene</l>
                <l>el pobrete helado;</l>
 
-               <pb n="2" source="Moreno_155_2.jpg"/>
+               <pb n="2" source="Moreno_155_2.jpg" />
 
                <l>toma esa peseta</l>
                <l>que hoy he ganado.</l>
@@ -267,7 +262,7 @@
                <l>entre madre é hija</l>
                <l>quíerenle arañar,</l>
 
-               <pb n="3" source="Moreno_155_3.jpg"/>
+               <pb n="3" source="Moreno_155_3.jpg" />
 
                <l>y el pobre lo que hace </l>
                <l>sufrir y callar.</l>
@@ -346,12 +341,12 @@
             </div>
 
             <div>
-               <pb n="4" source="Moreno_155_4.jpg"/>
+               <pb n="4" source="Moreno_155_4.jpg" />
 
                <head type="primer_titulo">LETRITLLA GRACIOSA Y NUEVA,</head>
                <head rend="cursiva" type="subtitulo">
-                  <lb/>compuesta por un astrólogo moderno, que avisa á todos los casados el
-                  <lb/>modo con que podrán librarse de las demasias y locuras de sus mugeres. </head>
+                  <lb />compuesta por un astrólogo moderno, que avisa á todos los casados el
+                  <lb />modo con que podrán librarse de las demasias y locuras de sus mugeres. </head>
 
                <lg>
                   <l rend="indent">Oigan esta satirilla</l>
@@ -482,7 +477,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA:—Imp. de D. J. M. Moreno.</p>
+               <p><lb />CARMONA:—Imp. de D. J. M. Moreno.</p>
             </div>
          </div>
       </body>

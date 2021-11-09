@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_088">
    <teiHeader>
       <fileDesc>
@@ -13,9 +12,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -24,11 +22,11 @@
                   <title type="titulo_breve">Juan Rana y Antón Rapao.</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1856</date>
                </publicationStmt>
             </biblFull>
@@ -36,10 +34,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5026915</idno>
@@ -48,10 +43,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -106,7 +101,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -121,18 +116,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_088_thumbnail.jpg"/>
+      <graphic url="Moreno_088_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_088_1.jpg"/>
+               <pb n="1" source="Moreno_088_1.jpg" />
 
                <fw type="impresorNum">(Núm. 97)</fw>
 
                <head type="primer_titulo">
-                  <lb/>JUAN RANA Y ANTON RAPAO. <lb/>PASILLO. </head>
+                  <lb />JUAN RANA Y ANTON RAPAO. <lb />PASILLO. </head>
 
                <sp>
                   <speaker>J.</speaker>
@@ -275,7 +270,7 @@
                   <l>dice usted muy lindamente.</l>
                </sp>
 
-               <pb n="2" source="Moreno_088_2.jpg"/>
+               <pb n="2" source="Moreno_088_2.jpg" />
 
                <sp>
                   <speaker>J.</speaker>
@@ -526,7 +521,7 @@
                   <l>y á todos causa alegria</l>
                   <l>pues las novias en la sala</l>
 
-                  <pb n="3" source="Moreno_088_3.jpg"/>
+                  <pb n="3" source="Moreno_088_3.jpg" />
 
                   <l>tienen cierto no sé qué</l>
                   <l>que yo esplicarlo no sé.</l>
@@ -627,7 +622,7 @@
                   <l>el padre que lo engendró</l>
                   <l>y quien le dá de mamar;</l>
 
-                  <pb n="4" source="Moreno_088_4.jpg"/>
+                  <pb n="4" source="Moreno_088_4.jpg" />
 
                   <l>sí hay suegro empieza á gruñir,</l>
                   <l>si hay suegra empieza á rabiar,</l>
@@ -817,7 +812,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1856. <lb/>Imp. de D.J.M. Moreno, calle Juan de la Cabra, núm. 5.
+                  <lb />CARMONA:—1856. <lb />Imp. de D.J.M. Moreno, calle Juan de la Cabra, núm. 5.
                </p>
             </div>
          </div>

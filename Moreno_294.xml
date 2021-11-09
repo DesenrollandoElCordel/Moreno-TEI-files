@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Moreno_294">
    <teiHeader>
       <fileDesc>
@@ -12,22 +11,21 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Romance del valiente Santa Cruz.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1861</date>
                </publicationStmt>
             </biblFull>
@@ -35,10 +33,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5055345</idno>
@@ -127,18 +122,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_294_thumbnail.jpg"/>
+      <graphic url="Moreno_294_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_294_1.jpeg"/>
+               <pb n="1" source="Moreno_294_1.jpeg" />
 
                <fw type="impresorNum">Número 308.</fw>
 
                <head rend="negrita" type="primer_titulo">
-                  <lb/>ROMANCE DEL VALIENTE <lb/>SANTA CRUZ </head>
+                  <lb />ROMANCE DEL VALIENTE <lb />SANTA CRUZ </head>
 
                <div n="1" type="parte">
                   <head rend="cursiva" type="titulo_parte">PRIMERA PARTE.</head>
@@ -170,7 +165,7 @@
                   <l>en este lugar pasó</l>
                   <l>el niño su edad primera,</l>
 
-                  <pb n="2" source="Moreno_294_2.jpeg"/>
+                  <pb n="2" source="Moreno_294_2.jpeg" />
 
                   <fw type="paginaNum">2</fw>
 
@@ -271,7 +266,7 @@
                   <l>á la Cárcel de Pedralva,</l>
                   <l>y asegurado lo dejan.</l>
 
-                  <pb n="3" source="Moreno_294_3.jpeg"/>
+                  <pb n="3" source="Moreno_294_3.jpeg" />
 
                   <fw type="paginaNum">3</fw>
 
@@ -372,7 +367,7 @@
                   <l>de miñones y soldados,</l>
                   <l>y él á Pedralva dió vuelta,</l>
 
-                  <pb n="4" source="Moreno_294_4.jpeg"/>
+                  <pb n="4" source="Moreno_294_4.jpeg" />
 
                   <fw type="paginaNum">4</fw>
 
@@ -475,7 +470,7 @@
                   <l>le pareció que el paisano</l>
                   <l>seria algun desertor,</l>
 
-                  <pb n="5" source="Moreno_294_5.jpeg"/>
+                  <pb n="5" source="Moreno_294_5.jpeg" />
 
                   <fw type="paginaNum">5</fw>
 
@@ -576,7 +571,7 @@
                   <l>estaba ya pregonado:</l>
                   <l>este á un sugeto de Chelva</l>
 
-                  <pb n="6" source="Moreno_294_6.jpeg"/>
+                  <pb n="6" source="Moreno_294_6.jpeg" />
 
                   <fw type="paginaNum">6</fw>
 
@@ -677,7 +672,7 @@
                   <l>y se le llevó el caballo.</l>
                   <l>Y en la etra tercera parte</l>
 
-                  <pb n="7" source="Moreno_294_7.jpeg"/>
+                  <pb n="7" source="Moreno_294_7.jpeg" />
 
                   <fw type="paginaNum">7</fw>
 
@@ -780,7 +775,7 @@
                   <l>dentro de muy pocos dias</l>
                   <l>en Villamarchante entraron,</l>
 
-                  <pb n="8" source="Moreno_294_8.jpeg"/>
+                  <pb n="8" source="Moreno_294_8.jpeg" />
 
                   <fw type="paginaNum">8</fw>
 
@@ -882,7 +877,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA:—1861. Imp. de D. José M. Moreno, calle de Madre de Dios.</p>
+               <p><lb />CARMONA:—1861. Imp. de D. José M. Moreno, calle de Madre de Dios.</p>
             </div>
          </div>
       </body>

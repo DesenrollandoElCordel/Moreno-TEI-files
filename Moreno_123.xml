@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_123">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -29,11 +27,11 @@
                   <title type="titulo_breve">Los cinco hijos de un parto.</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1856</date>
                </publicationStmt>
             </biblFull>
@@ -41,10 +39,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5031879</idno>
@@ -136,25 +131,24 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_123_thumbnail.jpg"/>
+      <graphic url="Moreno_123_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_123_1.jpg"/>
+               <pb n="1" source="Moreno_123_1.jpg" />
 
                <fw type="impresorNum">(Número 131.)</fw>
 
                <head rend="negrita" type="primer_titulo">LOS CINCO HIJOS DE UN PARTO.</head>
                <head>
-                  <lb/>VERDADERA Y ESTRAÑA RELACION DEL MARAVILLOSO PARTO, <hi rend="cursiva"
-                     ><lb/>de cinco hijos varones, que ha dado á luz una muger llamada Ma- <lb/>ria
-                     Gutierrez: natural del pueblo de Jalapa, casada con Isidro <lb/>Lopez.
-                     Declárase la señal con que nació cada uno. El primero <lb/>con una espiga de
-                     trigo en la mano: el segundo, con otra de ce- <lb/>bada: el tercero con dos
-                     espadas en cruz sobre el vientre: el cuar- <lb/>to, con un racimo de ubas en la
-                     mano derecha; y el quinto, con <lb/>una vara tambien en la mano derecha.</hi>
+                  <lb />VERDADERA Y ESTRAÑA RELACION DEL MARAVILLOSO PARTO, <hi rend="cursiva"><lb />de cinco hijos varones, que ha dado á luz una muger llamada Ma- <lb />ria
+                     Gutierrez: natural del pueblo de Jalapa, casada con Isidro <lb />Lopez.
+                     Declárase la señal con que nació cada uno. El primero <lb />con una espiga de
+                     trigo en la mano: el segundo, con otra de ce- <lb />bada: el tercero con dos
+                     espadas en cruz sobre el vientre: el cuar- <lb />to, con un racimo de ubas en la
+                     mano derecha; y el quinto, con <lb />una vara tambien en la mano derecha.</hi>
                </head>
 
                <l rend="indent">Por los ámbitos del mundo</l>
@@ -170,7 +164,7 @@
                <l>para que pueda mi pluma</l>
                <l>ir dirigiendo estos rasgos,</l>
 
-               <pb n="2" source="Moreno_123_2.jpg"/>
+               <pb n="2" source="Moreno_123_2.jpg" />
 
                <l>En un pueblo que se haya</l>
                <l>én el reino valenciano,</l>
@@ -257,7 +251,7 @@
                <l>autores clásicos trae</l>
                <l>el Ente dilucidado,</l>
 
-               <pb n="3" source="Moreno_123_3.jpg"/>
+               <pb n="3" source="Moreno_123_3.jpg" />
 
                <l>como Plinio y Nieremberg</l>
                <l>refieren en un tratado,</l>
@@ -303,7 +297,7 @@
 
             <div>
                <head type="primer_titulo">
-                  <lb/>LAMENTQS FÚNEBRES, <lb/>del tierno esposo á la inesperada muerte de su amada
+                  <lb />LAMENTQS FÚNEBRES, <lb />del tierno esposo á la inesperada muerte de su amada
                   consorte. </head>
 
                <lg>
@@ -350,7 +344,7 @@
                   <l>un já Dios! decir.</l>
                </lg>
 
-               <pb n="4" source="Moreno_123_4.jpg"/>
+               <pb n="4" source="Moreno_123_4.jpg" />
 
                <lg>
                   <l rend="indent">Sus ojos brillantes</l>
@@ -445,7 +439,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1856. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 5.
+                  <lb />CARMONA:—1856. <lb />Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 5.
                </p>
             </div>
          </div>

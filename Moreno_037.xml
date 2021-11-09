@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_037">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -24,11 +22,11 @@
                   <title type="titulo_breve">Chiste gracioso de un médico y un arriero</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -36,10 +34,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5018222</idno>
@@ -129,13 +124,13 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_037_thumbnail.jpg"/>
+      <graphic url="Moreno_037_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_037_1.jpg"/>
+               <pb n="1" source="Moreno_037_1.jpg" />
 
                <fw type="impresorNum">Número 41.</fw>
 
@@ -183,7 +178,7 @@
                <l>de amor, y no lograba</l>
                <l>sino un desvio;</l>
 
-               <pb n="2" source="Moreno_037_2.jpg"/>
+               <pb n="2" source="Moreno_037_2.jpg" />
 
                <l>hasta que resuelto</l>
                <l>dijo á Juana, ¿Me vendes tu huerto?</l>
@@ -282,7 +277,7 @@
                <l>decia el arriero,</l>
                <l>abre, chica, pronto que me muero,</l>
 
-               <pb n="3" source="Moreno_037_3.jpg"/>
+               <pb n="3" source="Moreno_037_3.jpg" />
 
                <l>y Juana que opina</l>
                <l>esconderle en el arca de harina,</l>
@@ -383,7 +378,7 @@
             </div>
 
             <div>
-               <pb n="4" source="Moreno_037_4.jpg"/>
+               <pb n="4" source="Moreno_037_4.jpg" />
 
                <head rend="negrita" type="primer_titulo">TROVOS</head>
                <head rend="cursiva" type="subtitulo">Que se cantan en la tonada de la dota.</head>
@@ -507,7 +502,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA:—Imp. de D. J. M. M. calle Juan de la Cabra núm. 5.</p>
+               <p><lb />CARMONA:—Imp. de D. J. M. M. calle Juan de la Cabra núm. 5.</p>
             </div>
          </div>
       </body>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_128">
    <teiHeader>
       <fileDesc>
@@ -13,9 +12,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -26,11 +24,11 @@
                      fama es nobleza</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1859</date>
                </publicationStmt>
             </biblFull>
@@ -38,10 +36,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5031916</idno>
@@ -50,10 +45,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -123,24 +118,24 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_128_thumbnail.jpg"/>
+      <graphic url="Moreno_128_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_128_1.jpg"/>
+               <pb n="1" source="Moreno_128_1.jpg" />
 
                <fw type="impresorNum">(Núm. 186.)</fw>
 
                <head type="primer_titulo">
-                  <lb/><hi rend="negrita">DIALOGO</hi>
-                  <lb/><hi rend="negrita">ENTRE GALAN Y DAMA,</hi>
-                  <lb/>CUYO TITULO ES, <lb/><hi rend="negrita">COBRAR LA FAMA ES NOBLEZA</hi>
-                  <lb/>Y DESEMPEÑAR SU AGRAVIO. </head>
+                  <lb /><hi rend="negrita">DIALOGO</hi>
+                  <lb /><hi rend="negrita">ENTRE GALAN Y DAMA,</hi>
+                  <lb />CUYO TITULO ES, <lb /><hi rend="negrita">COBRAR LA FAMA ES NOBLEZA</hi>
+                  <lb />Y DESEMPEÑAR SU AGRAVIO. </head>
 
                <stage rend="cursiva">
-                  <lb/>Saldrá la Dama con una espada <lb/>en la mano y dirá de esta suerte. </stage>
+                  <lb />Saldrá la Dama con una espada <lb />en la mano y dirá de esta suerte. </stage>
 
                <sp>
                   <l rend="indent">A desempeñar mi agravio</l>
@@ -160,7 +155,7 @@
                   <l>á las leyes de mi amor,</l>
                   <l>quebrando sus pundonores:</l>
 
-                  <pb n="2" source="Moreno_128_2.jpg"/>
+                  <pb n="2" source="Moreno_128_2.jpg" />
 
                   <l>si lo hizo no me pesa,</l>
                   <l>seré contra él un bronce,</l>
@@ -170,7 +165,7 @@
                   <l>castigaré sus acciones.</l>
 
                   <stage rend="cursiva">
-                     <lb/>Se aparecerá el Galan en la <lb/>Sala, ó teatro y dirá <lb/>la Dama. </stage>
+                     <lb />Se aparecerá el Galan en la <lb />Sala, ó teatro y dirá <lb />la Dama. </stage>
 
                   <l rend="indent">Fementido Caballero,</l>
                   <l>hombre falso entre los hombres,</l>
@@ -193,8 +188,8 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb/>Meterá su espada en la baina ir- <lb/>ritada del agravio, hará la Da. <lb/>ma
-                  que llora y el Galan le dará <lb/>un pañuelo, con que se <lb/>limpie el rostro. </stage>
+                  <lb />Meterá su espada en la baina ir- <lb />ritada del agravio, hará la Da. <lb />ma
+                  que llora y el Galan le dará <lb />un pañuelo, con que se <lb />limpie el rostro. </stage>
 
                <sp>
                   <speaker rend="cursiva">Dam.</speaker>
@@ -243,7 +238,7 @@
                   <l>y que las olas del mar</l>
                   <l>suspendan su curso móvil,</l>
 
-                  <pb n="3" source="Moreno_128_3.jpg"/>
+                  <pb n="3" source="Moreno_128_3.jpg" />
 
                   <l>y abierta la tierra en piras,</l>
                   <l>me oculte en sus panteones.</l>
@@ -332,9 +327,9 @@
                   <l>de este alarde los primores.</l>
 
                   <stage rend="cursiva">
-                     <lb/>Se darán las manos, y dirá <lb/>la Duma. </stage>
+                     <lb />Se darán las manos, y dirá <lb />la Duma. </stage>
 
-                  <pb n="4" source="Moreno_128_4.jpg"/>
+                  <pb n="4" source="Moreno_128_4.jpg" />
 
                   <l>Mucho han podido tus ruegos</l>
                   <l>toma mi mano, y responde:</l>
@@ -443,7 +438,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA;—1859. <lb/>Imprenta de D. José M. Moreno, calle Juan de la Cabra,
+                  <lb />CARMONA;—1859. <lb />Imprenta de D. José M. Moreno, calle Juan de la Cabra,
                   núm. 4. </p>
             </div>
          </div>

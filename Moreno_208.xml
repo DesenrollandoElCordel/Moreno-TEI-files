@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_208">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -25,11 +23,11 @@
                      cristiano</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -37,10 +35,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5040859</idno>
@@ -125,21 +120,20 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_208_thumbnail.jpg"/>
+      <graphic url="Moreno_208_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_208_1.jpg"/>
+               <pb n="1" source="Moreno_208_1.jpg" />
 
                <fw type="impresorNum">(Núm 219.)</fw>
 
                <head rend="negrita" type="primer_titulo">DECIMAS NUEVAS.</head>
 
                <head type="subtitulo">
-                  <lb/>DISPUTA ENTRE UN MORO Y UN CRISTIANO, <lb/>SOBRE LOS MANDAMIENTOS <lb/><hi
-                     rend="negrita">DE LA LEY DE DIOS.</hi>
+                  <lb />DISPUTA ENTRE UN MORO Y UN CRISTIANO, <lb />SOBRE LOS MANDAMIENTOS <lb /><hi rend="negrita">DE LA LEY DE DIOS.</hi>
                </head>
 
                <l rend="indent">Pregunta un Moro á un Cristiano,</l>
@@ -155,7 +149,7 @@
 
                <lg>
                   <head rend="cursiva" type="titulo_estrofa">
-                     <lb/>El primero, amar á Dios sobre <lb/>todos las cosas. </head>
+                     <lb />El primero, amar á Dios sobre <lb />todos las cosas. </head>
 
                   <l rend="indent">Con el amor mas perfecto</l>
                   <l>debiamos amar á Dios; </l>
@@ -171,12 +165,12 @@
 
                <lg>
                   <head rend="cursiva" type="titulo_estrofa">
-                     <lb/>El segundo, no jurar el nombre <lb/>de Dios en vano. </head>
+                     <lb />El segundo, no jurar el nombre <lb />de Dios en vano. </head>
 
                   <l rend="indent">Cosa de poco momento</l>
                   <l>le parece al relajado,</l>
 
-                  <pb n="2" source="Moreno_208_2.jpg"/>
+                  <pb n="2" source="Moreno_208_2.jpg" />
 
                   <l>mentir bajo del sagrado</l>
                   <l>vinculo del juramento.</l>
@@ -266,7 +260,7 @@
 
                <lg>
                   <head rend="cursiva" type="titulo_estrofa">
-                     <lb/>El octavo, no levantar falso testimonio <lb/>ni mentir. </head>
+                     <lb />El octavo, no levantar falso testimonio <lb />ni mentir. </head>
 
                   <l>Miente el turco y africano,</l>
                   <l>miente el herége perverso,</l>
@@ -282,11 +276,11 @@
 
                <lg>
                   <head rend="cursiva" type="titulo_estrofa">
-                     <lb/>El noveno, no desear la muger <lb/>de tu prógimo. </head>
+                     <lb />El noveno, no desear la muger <lb />de tu prógimo. </head>
 
                   <l rend="indent">Vemos con sumo dolor</l>
 
-                  <pb n="3" source="Moreno_208_3.jpg"/>
+                  <pb n="3" source="Moreno_208_3.jpg" />
 
                   <l>el saber que has de pa. tir,</l>
                   <l>y no sabes donde vás.</l>
@@ -303,7 +297,7 @@
 
                <lg>
                   <head rend="cursiva" type="titulo_estrofa">
-                     <lb/>El décimo no codiciar los bienes <lb/>agenos. </head>
+                     <lb />El décimo no codiciar los bienes <lb />agenos. </head>
 
                   <l rend="indent">De caer en la avaricia</l>
                   <l>vemos al avaricioso,</l>
@@ -378,7 +372,7 @@
             </div>
 
             <div>
-               <pb n="4" source="Moreno_208_4.jpg"/>
+               <pb n="4" source="Moreno_208_4.jpg" />
 
                <head rend="negrita" type="primer_titulo">DECIMAS GLOSADAS.</head>
 
@@ -484,7 +478,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1856. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra núm. 5.
+                  <lb />CARMONA:—1856. <lb />Imp. de D. J. M. Moreno, calle Juan de la Cabra núm. 5.
                </p>
             </div>
          </div>

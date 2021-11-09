@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_106">
    <teiHeader>
       <fileDesc>
@@ -14,23 +13,22 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Los siete dolores que pasó María Santísima en la
                      sacrada pasion y muerte de su amantísimo hijo.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
                   <p>Otra impresión (sin año): <ref target="Moreno_105.xml">moreno_105</ref></p>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -38,10 +36,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5031461</idno>
@@ -50,10 +45,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -106,8 +101,8 @@
          </langUsage>
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
-               <term type="tipo_texto"/>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_texto" />
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
@@ -121,13 +116,13 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_106_thumbnail.jpg"/>
+      <graphic url="Moreno_106_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_106_1.jpg"/>
+               <pb n="1" source="Moreno_106_1.jpg" />
 
                <fw type="impresorNum">Número 114.</fw>
 
@@ -170,7 +165,7 @@
                   <l>hermoso y que tanto estimas,</l>
                   <l>le verás preso, azotado,</l>
 
-                  <pb n="2" source="Moreno_106_2.jpg"/>
+                  <pb n="2" source="Moreno_106_2.jpg" />
 
                   <l>y coronado de espinas,</l>
                   <l>muriendo crucificado.</l>
@@ -270,7 +265,7 @@
                   <l>por la calle de Amargura</l>
                   <l>cada instante tropezando.</l>
 
-                  <pb n="3" source="Moreno_106_3.jpg"/>
+                  <pb n="3" source="Moreno_106_3.jpg" />
 
                   <l rend="indent">Siendo la sentencia dada,</l>
                   <l>vino Juan á mi retiro,</l>
@@ -365,7 +360,7 @@
                   <l rend="indent">Con ungüentos olorosos</l>
                   <l>que prevenidos traian,</l>
 
-                  <pb n="4" source="Moreno_106_4.jpg"/>
+                  <pb n="4" source="Moreno_106_4.jpg" />
 
                   <l>le unjieron estos piadosos</l>
                   <l>varones, que me asistian</l>
@@ -445,19 +440,19 @@
                   <head type="titulo_parte">ACTO DE CONTRICION.</head>
 
                   <p>
-                     <lb rend="indent"/>Afligidisima Madre de Dios y Señora mia, de todo mi corazón
-                     me pesa de haber <lb/>ofendido á tu amantisimo Unigénito Hijo, mi Señor
-                     Jesucristo, viendo que los gol- <lb/>pes que dieron mis culpas en su Cuerpo,
-                     han sido penetrantes cuchillos que atravie- <lb/>san tu corazon. ¡Oh Madre
-                     llena de Dolores! me pesa de haberos ofendido, y pro- <lb/>pongo de nunca mas
-                     pecar, rogándote me alcances la gracia de cumplirlo y el <lb/>perdon que espero
+                     <lb rend="indent" />Afligidisima Madre de Dios y Señora mia, de todo mi corazón
+                     me pesa de haber <lb />ofendido á tu amantisimo Unigénito Hijo, mi Señor
+                     Jesucristo, viendo que los gol- <lb />pes que dieron mis culpas en su Cuerpo,
+                     han sido penetrantes cuchillos que atravie- <lb />san tu corazon. ¡Oh Madre
+                     llena de Dolores! me pesa de haberos ofendido, y pro- <lb />pongo de nunca mas
+                     pecar, rogándote me alcances la gracia de cumplirlo y el <lb />perdon que espero
                      mediante tu piadosa intercesion. </p>
                </div>
             </div>
 
             <div type="colofon">
                <p>
-                  <lb/>REIMPRESO EN CARMONA:—Imprenta de D. José Maria Moreno. </p>
+                  <lb />REIMPRESO EN CARMONA:—Imprenta de D. José Maria Moreno. </p>
             </div>
          </div>
       </body>

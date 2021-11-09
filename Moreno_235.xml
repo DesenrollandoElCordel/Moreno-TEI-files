@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_235">
    <teiHeader>
       <fileDesc>
@@ -16,9 +15,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -30,11 +28,11 @@
                   <title type="titulo_breve">Jocosa relacion. Para reir y pasar el tiempo</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1859</date>
                </publicationStmt>
             </biblFull>
@@ -42,10 +40,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5045423</idno>
@@ -54,10 +49,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -125,7 +120,7 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_235_thumbnail.jpg"/>
+      <graphic url="Moreno_235_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
@@ -133,17 +128,17 @@
 
             <div>
 
-               <pb n="1" source="Moreno_235_1.jpg"/>
+               <pb n="1" source="Moreno_235_1.jpg" />
 
                <fw type="impresorNum">(Núm. 242)</fw>
 
-               <head rend="negrita" type="primer_titulo">JOCOSA RELACION. <lb/>PARA REIR Y PASAR EL
+               <head rend="negrita" type="primer_titulo">JOCOSA RELACION. <lb />PARA REIR Y PASAR EL
                   TIEMPO,</head>
 
                <head rend="cursiva" type="subtitulo">en que se refiere y da cuenta de una cruel y
-                  sangrienta batalla, que <lb/>en los campos de Araviana tuvo el valiente y
-                  esforzado Leon, <lb/>rey de todos los animales, con el famoso y alentado Grillo.
-                  <lb/>rey de todas las sabandijas.</head>
+                  sangrienta batalla, que <lb />en los campos de Araviana tuvo el valiente y
+                  esforzado Leon, <lb />rey de todos los animales, con el famoso y alentado Grillo.
+                  <lb />rey de todas las sabandijas.</head>
 
                <l rend="indent">Atiéndame todo el orbe</l>
                <l>sin perder punto ni paso,</l>
@@ -160,7 +155,7 @@
                <l>de placer y de alagria,</l>
                <l>que ha sucedido en el año</l>
 
-               <pb n="2" source="Moreno_235_2.jpg"/>
+               <pb n="2" source="Moreno_235_2.jpg" />
 
                <l>de cien mil y novecientos,</l>
                <l>pasados noventa y tanto.</l>
@@ -245,7 +240,7 @@
                <l>Apercíbase á la guerra,</l>
                <l>convóquese todo el camío,</l>
 
-               <pb n="3" source="Moreno_235_3.jpg"/>
+               <pb n="3" source="Moreno_235_3.jpg" />
 
                <l>tremolen los estandartes,</l>
                <l>los tambores resonando.</l>
@@ -330,7 +325,7 @@
                <l>y sin detenerse un punto</l>
                <l>se lanza en el Guadiano,</l>
 
-               <pb n="4" source="Moreno_235_4.jpg"/>
+               <pb n="4" source="Moreno_235_4.jpg" />
 
                <l>Y luego que se vió libre</l>
                <l>de tan penosos contrarios,</l>
@@ -407,7 +402,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA=1859. <lb/>Imp. de D, José María Moreno, calle de Madre de Dios, núm.
+                  <lb />CARMONA=1859. <lb />Imp. de D, José María Moreno, calle de Madre de Dios, núm.
                   1. </p>
             </div>
 

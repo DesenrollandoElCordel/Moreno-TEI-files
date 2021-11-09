@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_256">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -32,7 +30,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1865</date>
                </publicationStmt>
             </biblFull>
@@ -40,10 +38,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5045796</idno>
@@ -129,19 +124,19 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_256_thumbnail.jpg"/>
+      <graphic url="Moreno_256_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_256_1.jpg"/>
+               <pb n="1" source="Moreno_256_1.jpg" />
 
                <fw type="impresorNum">Número 270.</fw>
 
                <head type="primer_titulo">
-                  <lb/><hi rend="negrita">FAMOSOS ROMANCES</hi>
-                  <lb/>DEL GIGANTE CANANEO SAN CRISTOBAL. </head>
+                  <lb /><hi rend="negrita">FAMOSOS ROMANCES</hi>
+                  <lb />DEL GIGANTE CANANEO SAN CRISTOBAL. </head>
                <head type="subtitulo">
                   <l>Dáse cuenta como por órden de Jesucristo fué á predicar á los gen-</l>
                   <l>tiles, y convirtió á cuarenta y ocho mil personas; como fué martiriza-</l>
@@ -157,7 +152,7 @@
                   <l>hoy intenta mi discurso,</l>
                   <l>con vivo y ardiente celo,</l>
 
-                  <pb n="2" source="Moreno_256_2.jpg"/>
+                  <pb n="2" source="Moreno_256_2.jpg" />
 
                   <fw type="paginaNum">2</fw>
 
@@ -240,7 +235,7 @@
                   <l>corrido, inmóvíl, pasmado</l>
                   <l>te has quedado en un momento,</l>
 
-                  <pb n="3" source="Moreno_256_3.jpg"/>
+                  <pb n="3" source="Moreno_256_3.jpg" />
 
                   <fw type="paginaNum">3</fw>
 
@@ -323,7 +318,7 @@
                   <l>de miLey, Cristóbal mio,</l>
                   <l>para que vengas al Cielo,</l>
 
-                  <pb n="4" source="Moreno_256_4.jpg"/>
+                  <pb n="4" source="Moreno_256_4.jpg" />
 
                   <fw type="paginaNum">4</fw>
 
@@ -387,15 +382,15 @@
 
                <div n="2" type="parte">
 
-                  <pb n="5" source="Moreno_256_5.jpg"/>
+                  <pb n="5" source="Moreno_256_5.jpg" />
 
                   <fw type="paginaNum">5</fw>
 
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
                   <head rend="cursiva" type="subtitulo_parte">
-                     <lb/>Dáse cuenta de los prodigios que <lb/>hizo en la predicacion del Evange.
-                     <lb/>lio, y los crueles tormentos que pa- <lb/>deció este glortoso mártir de la
-                     <lb/>religion cristiana. </head>
+                     <lb />Dáse cuenta de los prodigios que <lb />hizo en la predicacion del Evange.
+                     <lb />lio, y los crueles tormentos que pa- <lb />deció este glortoso mártir de la
+                     <lb />religion cristiana. </head>
 
                   <l rend="indent">Ya dije en la primera parte,</l>
                   <l>noble auditorio discreto,</l>
@@ -434,7 +429,7 @@
                   <l>y al capo de pocos dias</l>
                   <l>el Sacerdote del pueblo</l>
 
-                  <pb n="6" source="Moreno_256_6.jpg"/>
+                  <pb n="6" source="Moreno_256_6.jpg" />
 
                   <fw type="paginaNum">6</fw>
 
@@ -517,7 +512,7 @@
                   <l>con mas soberbia que nunca</l>
                   <l>se levantó echando fuego</l>
 
-                  <pb n="7" source="Moreno_256_7.jpg"/>
+                  <pb n="7" source="Moreno_256_7.jpg" />
 
                   <fw type="paginaNum">7</fw>
 
@@ -600,7 +595,7 @@
                   <l>en altas voces publica:</l>
                   <l>viva, viva el Cananeo,</l>
 
-                  <pb n="8" source="Moreno_256_8.jpg"/>
+                  <pb n="8" source="Moreno_256_8.jpg" />
 
                   <fw type="paginaNum">8</fw>
 
@@ -639,7 +634,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA.—1865. <lb/>Imprenta y lib. de D. José M. Moreno, calle Madre de Dios
+                  <lb />CARMONA.—1865. <lb />Imprenta y lib. de D. José M. Moreno, calle Madre de Dios
                   núm. 1. </p>
             </div>
          </div>

@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_356">
    <teiHeader>
       <fileDesc>
@@ -12,22 +11,21 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Relacion burlesca. La calle de la feria.</title>
-                  <title type="titulo_breve"/>
+                  <title type="titulo_breve" />
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -35,10 +33,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5069592</idno>
@@ -129,18 +124,18 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_356_thumbnail.jpg"/>
+      <graphic url="Moreno_356_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_356_1.jpeg"/>
+               <pb n="1" source="Moreno_356_1.jpeg" />
 
                <fw type="impresorNum">Número 386. </fw>
 
                <head type="primer_titulo">
-                  <lb/>RELACION BURLESCA <lb/>LA CALLE DE LA TERRA. </head>
+                  <lb />RELACION BURLESCA <lb />LA CALLE DE LA TERRA. </head>
 
                <l rend="indent">Salgo á serviros Señores,</l>
                <l>Señoras, salgo á serviros,</l>
@@ -180,7 +175,7 @@
                <l>y cada uno así mismo</l>
                <l>me mandara, Dios nos libre! </l>
                <l>solo en pensarlo me fino.</l>
-               <pb n="" source="Moreno_356_.jpeg"/>
+               <pb n="" source="Moreno_356_.jpeg" />
                <fw type="paginaNum">2</fw>
                <l>Lo que si haré por ustedes, </l>
                <l>para quedar mas lucido</l>
@@ -261,7 +256,7 @@
                <l>mirándome la persona,</l>
                <l>por si acaso estaba herido,</l>
 
-               <pb n="3" source="Moreno_356_3.jpeg"/>
+               <pb n="3" source="Moreno_356_3.jpeg" />
 
                <fw type="paginaNum">3</fw>
 
@@ -321,7 +316,7 @@
 
             <div>
                <head type="primer_titulo">
-                  <lb/>PASILLO <lb/>DE PABLO Y NICOLAS. </head>
+                  <lb />PASILLO <lb />DE PABLO Y NICOLAS. </head>
 
                <sp>
                   <speaker rend="cursiva">Pab.</speaker>
@@ -356,7 +351,7 @@
                   <l>A las doce, yo creí</l>
                   <l>que bajase usted rodando</l>
 
-                  <pb n="4" source="Moreno_356_4.jpeg"/>
+                  <pb n="4" source="Moreno_356_4.jpeg" />
 
                   <fw type="paginaNum">4</fw>
 
@@ -473,7 +468,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA:—Imprenta de D. José Maria Moreno.</p>
+               <p><lb />CARMONA:—Imprenta de D. José Maria Moreno.</p>
             </div>
          </div>
       </body>

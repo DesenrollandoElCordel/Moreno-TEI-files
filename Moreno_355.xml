@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_355">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -28,7 +26,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -36,10 +34,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5069563</idno>
@@ -48,10 +43,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -105,7 +100,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4885496.html" type="tipo_texto">Oraciones</term>
-               <term type="tipo_estrofa"/>
+               <term type="tipo_estrofa" />
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
@@ -119,17 +114,17 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_355_thumbnail.jpg"/>
+      <graphic url="Moreno_355_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_355_1.jpg"/>
+               <pb n="1" source="Moreno_355_1.jpg" />
 
                <head type="primer_titulo">
-                  <hi rend="negrita"><lb/>COPLA DEL CREDO <lb/>CON LA TOMA DE MORELLA.</hi>
-                  <lb/>Segun me han informado. </head>
+                  <hi rend="negrita"><lb />COPLA DEL CREDO <lb />CON LA TOMA DE MORELLA.</hi>
+                  <lb />Segun me han informado. </head>
 
                <lg>
                   <l rend="indent">Ha permitido mi estrella </l>
@@ -160,7 +155,7 @@
                   <l>circuló todo el recinto,</l>
                   <l>y estaban los granaderos</l>
 
-                  <pb n="2" source="Moreno_355_2.jpg"/>
+                  <pb n="2" source="Moreno_355_2.jpg" />
 
                   <l>todos aclamando á un grito,</l>
                   <l>á aquel Criador del cielo.</l>
@@ -273,7 +268,7 @@
                <lg>
                   <l rend="indent">Yo mismo al decirlo tiemblo,</l>
 
-                  <pb n="3" source="Moreno_355_3.jpg"/>
+                  <pb n="3" source="Moreno_355_3.jpg" />
 
                   <l>que fatigas pasarian </l>
                   <l>en las llamas del incendio,</l>
@@ -383,7 +378,7 @@
                   <l>llamar al Crucificado,</l>
                   <l>y podremos alcanzar</l>
 
-                  <pb n="4" source="Moreno_355_4.jpg"/>
+                  <pb n="4" source="Moreno_355_4.jpg" />
 
                   <l>el perdon de los pecados.</l>
                </lg>
@@ -413,8 +408,8 @@
                </lg>
 
                <p>
-                  <lb rend="indent"/>Compuesto por Antonio Sanchez Roldan, natural del viso <lb/>del
-                  Alcor, Provincia de Sevilla trabajador del campo, sin saber <lb/>leer ni escribir:
+                  <lb rend="indent" />Compuesto por Antonio Sanchez Roldan, natural del viso <lb />del
+                  Alcor, Provincia de Sevilla trabajador del campo, sin saber <lb />leer ni escribir:
                   el que me lea, me dispense las faltas. </p>
 
                <trailer rend="negrita">Fin.</trailer>
@@ -422,7 +417,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>Impreso en Sevilla. <lb/>Reimpreso en Carmona:—Imprenta de D. José M. Moreno.
+                  <lb />Impreso en Sevilla. <lb />Reimpreso en Carmona:—Imprenta de D. José M. Moreno.
                </p>
             </div>
          </div>

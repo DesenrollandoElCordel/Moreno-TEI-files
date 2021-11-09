@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_327">
    <teiHeader>
       <fileDesc>
@@ -12,9 +11,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -28,11 +26,11 @@
                   <title type="titulo_breve">Dionisia Perez Losada. Nueva y curiosa relacion</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1860</date>
                </publicationStmt>
             </biblFull>
@@ -40,10 +38,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5060430</idno>
@@ -129,22 +124,22 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_327_thumbnail.jpg"/>
+      <graphic url="Moreno_327_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_327_1.jpeg"/>
+               <pb n="1" source="Moreno_327_1.jpeg" />
 
                <head type="primer_titulo">DIONISIA PEREZ LOSADA.</head>
                <head type="subtitulo">
-                  <lb/><hi rend="negrita">NUEVA Y CURIOSA RELACION</hi>
-                  <lb/>en que se dá cuenta del ejemplar castigo que Dios N. S. ha obrado en la
-                  <lb/>ciudad de Zaragoza, en este presente año, contra un caballero, por haber le-
-                  <lb/>vantado un falso testimonio á una doncella honesta y viriuosa, la cual se
-                  <lb/>vió libre de las asechanzas y engaños del demonio por ser devota de la
-                  <lb/>Virgen del Pilar y llevar los Santos Evangelios. </head>
+                  <lb /><hi rend="negrita">NUEVA Y CURIOSA RELACION</hi>
+                  <lb />en que se dá cuenta del ejemplar castigo que Dios N. S. ha obrado en la
+                  <lb />ciudad de Zaragoza, en este presente año, contra un caballero, por haber le-
+                  <lb />vantado un falso testimonio á una doncella honesta y viriuosa, la cual se
+                  <lb />vió libre de las asechanzas y engaños del demonio por ser devota de la
+                  <lb />Virgen del Pilar y llevar los Santos Evangelios. </head>
 
                <div n="1" type="parte">
                   <head type="titulo_parte">PRIMERA PARTE.</head>
@@ -184,7 +179,7 @@
                   <l>que en union del matrimonio</l>
                   <l>que son reliquias sagradas</l>
 
-                  <pb n="2" source="Moreno_327_2.jpeg"/>
+                  <pb n="2" source="Moreno_327_2.jpeg" />
 
                   <l>para vencer al demonio</l>
                   <l>sus astucias y asechanzas.</l>
@@ -289,7 +284,7 @@
                </div>
 
                <div n="2" type="parte">
-                  <pb n="3" source="Moreno_327_3.jpeg"/>
+                  <pb n="3" source="Moreno_327_3.jpeg" />
 
                   <head rend="negrita" type="titulo_parte">SECUNDA PARTE</head>
 
@@ -392,7 +387,7 @@
                   <l>allí se le apareció</l>
                   <l>una divina Zagala</l>
 
-                  <pb n="4" source="Moreno_327_4.jpeg"/>
+                  <pb n="4" source="Moreno_327_4.jpeg" />
 
                   <l>que trae un niño en sus brazos</l>
                   <l>de resplandores cercada.</l>
@@ -481,7 +476,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>REIMPRESO EN CARMONA:—1860. <lb/>Imprenta de D. José María Moreno, calle de
+                  <lb />REIMPRESO EN CARMONA:—1860. <lb />Imprenta de D. José María Moreno, calle de
                   Madre de Dios. </p>
             </div>
          </div>

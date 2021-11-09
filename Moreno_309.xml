@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/tei_pliegos.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_309">
    <teiHeader>
       <fileDesc>
@@ -13,9 +12,8 @@
          </titleStmt>
          <publicationStmt>
             <authority>Bibliothèque Universitaire de Genève</authority>
-            <availability>
-               <p>CC-BY-NC-SA</p>
-            </availability>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" /></availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -27,11 +25,11 @@
                      curiosos y cantar los galanes</title>
                </titleStmt>
                <editionStmt>
-                  <p/>
+                  <p />
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace>Carmona (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date>1858</date>
                </publicationStmt>
             </biblFull>
@@ -39,10 +37,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository>Bibliothèque Universitaire de Genève <ref
-                        target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     />
-                  </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.5055521</idno>
@@ -51,10 +46,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary />
                   <msItem>
-                     <locus/>
-                     <title/>
+                     <locus />
+                     <title />
                   </msItem>
                </msContents>
                <physDesc>
@@ -122,20 +117,20 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <graphic url="Moreno_309_thumbnail.jpg"/>
+      <graphic url="Moreno_309_thumbnail.jpg" />
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_309_1.jpeg"/>
+               <pb n="1" source="Moreno_309_1.jpeg" />
 
                <fw type="impresorNum">(Número 331.)</fw>
 
                <head type="primer_titulo">
-                  <lb/><hi rend="negrita">TROBOS DISCRETOS Y DIVERTIDOS,</hi>
-                  <lb/>PARA ENTRETENER A LOS CURIOSOS Y CANTAR LOS GALANES <lb/>á sus queridas
-                  damas, y especialmente los que se sienten agraviados por <lb/>no ser
+                  <lb /><hi rend="negrita">TROBOS DISCRETOS Y DIVERTIDOS,</hi>
+                  <lb />PARA ENTRETENER A LOS CURIOSOS Y CANTAR LOS GALANES <lb />á sus queridas
+                  damas, y especialmente los que se sienten agraviados por <lb />no ser
                   correspondidos. </head>
 
                <lg n="1">
@@ -188,7 +183,7 @@
                      <l rend="indent">Todo el mundo nos murmura</l>
                      <l>te sientas á mi lado,</l>
 
-                     <pb n="2" source="Moreno_309_2.jpeg"/>
+                     <pb n="2" source="Moreno_309_2.jpeg" />
 
                      <l>en estando yo gustoso</l>
                      <l>todo el mundo está pagado.</l>
@@ -340,7 +335,7 @@
                      <l rend="cursiva">por Dios descubre tu pecho.</l>
                   </lg>
 
-                  <pb n="3" source="Moreno_309_3.jpeg"/>
+                  <pb n="3" source="Moreno_309_3.jpeg" />
 
                   <lg>
                      <l rend="indent">Es mí querer tan profundo</l>
@@ -491,7 +486,7 @@
                   <lg>
                      <l rend="indent">Aunque me intentas vencer 4.</l>
 
-                     <pb n="4" source="Moreno_309_4.jpeg"/>
+                     <pb n="4" source="Moreno_309_4.jpeg" />
 
                      <l>con tu loco desvaro,</l>
                      <l>que tu cofazon es mio,</l>
@@ -590,7 +585,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra, n.°,
+                  <lb />CARMONA:—1858. <lb />Imp. de D. José M. Moreno, calle Juan de la Cabra, n.°,
                   4. </p>
             </div>
          </div>
