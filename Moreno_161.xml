@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_161">
    <teiHeader>
       <fileDesc>
@@ -12,7 +13,7 @@
          <publicationStmt>
             <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -28,7 +29,7 @@
                   <author>Un señor obispo de Tortosa</author>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -110,7 +111,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4885496.html" type="tipo_texto">Oraciones</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
@@ -121,27 +122,29 @@
             texte</change>
          <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
             thumbnail</change>
-         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj du format de @when</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
       </revisionDesc>
    </teiHeader>
    <facsimile facs="https://iiif.unige.ch/dhportal/ug8105704/manifest">
-      <graphic url="Moreno_161_thumbnail.jpg" />
+      <graphic url="Moreno_161_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
                <div>
-                  <pb n="1" source="Moreno_161_1.jpg" facs="fedora_ug8109683/full/full/0/default.jpg" />
+                  <pb n="1" source="Moreno_161_1.jpg"
+                     facs="fedora_ug8109683/full/full/0/default.jpg"/>
 
                   <head type="primer_titulo">
-                     <lb /><hi rend="negrita">CANTICO</hi>
-                     <lb />A LA SAGRADA MAGNIFICA, TRADUCIDA DEL LATIN AL CASTELLANO <lb />por un
-                     verdadero Sacerdote, Canónigo de la Santa Iglesia Catedral de To- <lb />ledo, y
-                     revisada por el Sr. Arzobispo de dicha Iglesia se ha dignado el con- <lb />ceder
+                     <lb/><hi rend="negrita">CANTICO</hi>
+                     <lb/>A LA SAGRADA MAGNIFICA, TRADUCIDA DEL LATIN AL CASTELLANO <lb/>por un
+                     verdadero Sacerdote, Canónigo de la Santa Iglesia Catedral de To- <lb/>ledo, y
+                     revisada por el Sr. Arzobispo de dicha Iglesia se ha dignado el con- <lb/>ceder
                      ochenta dias de indulgencias á toda persona que rezare ó leyere la
-                     <lb />Magnífica de la Virgen, defensa singular para toda clase de tormentas,
-                     <lb />nuves tempestuosas, rayos y centellas. </head>
+                     <lb/>Magnífica de la Virgen, defensa singular para toda clase de tormentas,
+                     <lb/>nuves tempestuosas, rayos y centellas. </head>
 
                   <l rend="indent">Magnifica y engrandece</l>
                   <l>mi alma con todo amor</l>
@@ -166,7 +169,8 @@
                   <l>y su gran misericordia</l>
                   <l>de gente en gente pasó,</l>
 
-                  <pb n="2" source="Moreno_161_2.jpg" facs="fedora_ug8110037/full/full/0/default.jpg" />
+                  <pb n="2" source="Moreno_161_2.jpg"
+                     facs="fedora_ug8110037/full/full/0/default.jpg"/>
 
                   <l>y todos los que iz sirven</l>
                   <l>con reverencia y amor</l>
@@ -202,10 +206,10 @@
 
                <div>
                   <head type="primer_titulo">
-                     <lb />JACULATORIA. <hi rend="cursiva"><lb />CONPUESTA POR EL Sr. OBISPO DE
-                        TORTOSA PARA <lb />que todos los fieles pidan al Señor misericordia, y
-                        concede el dicho <lb />señor Obispo cuarenta dias de indulgencias á todas las
-                        personas que <lb />diariamente rezaren ó leyeren dicha Jaculatoria.</hi>
+                     <lb/>JACULATORIA. <hi rend="cursiva"><lb/>CONPUESTA POR EL Sr. OBISPO DE
+                        TORTOSA PARA <lb/>que todos los fieles pidan al Señor misericordia, y
+                        concede el dicho <lb/>señor Obispo cuarenta dias de indulgencias á todas las
+                        personas que <lb/>diariamente rezaren ó leyeren dicha Jaculatoria.</hi>
                   </head>
 
                   <l rend="indent">Pues que te amo Señor, </l>
@@ -237,8 +241,8 @@
 
             <div type="colofon">
                <p>
-                  <lb />REIMPRESO EN CARMONA.
-                  <lb />Imprenta de D. José M.a Moreno, calle de Madre de Dios núm. 1. </p>
+                  <lb/>REIMPRESO EN CARMONA. <lb/>Imprenta de D. José M.a Moreno, calle de Madre de
+                  Dios núm. 1. </p>
             </div>
          </div>
       </body>

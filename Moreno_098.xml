@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_098">
    <teiHeader>
       <fileDesc>
@@ -13,7 +14,7 @@
          <publicationStmt>
             <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -24,7 +25,7 @@
                   <title type="titulo_breve">Sainete nuevo titulado El cuarto de la viuda</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -45,10 +46,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -102,7 +103,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term type="tipo_texto">Sainetes</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -114,33 +115,34 @@
          <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
             thumbnail</change>
          <change when="2021-06-28" who="#EL">Correction de l'OCR</change>
-         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj du format de @when</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
       </revisionDesc>
    </teiHeader>
    <facsimile facs="https://iiif.unige.ch/dhportal/ug8103778/manifest">
-      <graphic url="Moreno_098_thumbnail.jpg" />
+      <graphic url="Moreno_098_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
-            <pb n="1" source="Moreno_098_1.jpg" facs="fedora_ug8107898/full/full/0/default.jpg" />
+            <pb n="1" source="Moreno_098_1.jpg" facs="fedora_ug8107898/full/full/0/default.jpg"/>
 
             <fw type="impresorNum">(Núm. 107.)</fw>
 
             <head type="primer_titulo">
-               <lb />SAINETE NUEVO <lb />TITULADO <lb /><hi rend="negrita">EL CUARTO</hi>
-               <lb /><hi rend="negrita">DE LA VIUDA.</hi>
+               <lb/>SAINETE NUEVO <lb/>TITULADO <lb/><hi rend="negrita">EL CUARTO</hi>
+               <lb/><hi rend="negrita">DE LA VIUDA.</hi>
             </head>
             <head rend="negrita" type="subtitulo">PARA OCHO PERSONAS.</head>
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA=1850. <lb />Imprenta y librería de D. José M. MORENO, calle de las
+                  <lb/>CARMONA=1850. <lb/>Imprenta y librería de D. José M. MORENO, calle de las
                   Descalzas n. 1. </p>
             </div>
 
             <div type="reparto">
-               <pb n="2" source="Moreno_098_2.jpg" facs="fedora_ug8106453/full/full/0/default.jpg" />
+               <pb n="2" source="Moreno_098_2.jpg" facs="fedora_ug8106453/full/full/0/default.jpg"/>
 
                <head type="reparto_titulo">PERSONAS.</head>
 
@@ -157,7 +159,7 @@
             </div>
 
             <div>
-               <pb n="3" source="Moreno_098_3.jpg" facs="fedora_ug8109625/full/full/0/default.jpg" />
+               <pb n="3" source="Moreno_098_3.jpg" facs="fedora_ug8109625/full/full/0/default.jpg"/>
 
                <fw type="paginaNum">3</fw>
 
@@ -335,7 +337,7 @@
                   <l>mas yo no lo sé.</l>
                </sp>
 
-               <pb n="4" source="Moreno_098_4.jpg" facs="fedora_ug8107810/full/full/0/default.jpg" />
+               <pb n="4" source="Moreno_098_4.jpg" facs="fedora_ug8107810/full/full/0/default.jpg"/>
 
                <fw type="paginaNum">4</fw>
 
@@ -541,7 +543,8 @@
                   <l>Apuesto que el terminillo</l>
                   <l>lo tiene puesto en cabeza</l>
 
-                  <pb n="5" source="Moreno_098_5.jpg" facs="fedora_ug8105163/full/full/0/default.jpg" />
+                  <pb n="5" source="Moreno_098_5.jpg"
+                     facs="fedora_ug8105163/full/full/0/default.jpg"/>
 
                   <fw type="paginaNum">5</fw>
 
@@ -713,7 +716,7 @@
                   <l>No te metas en quimeras.</l>
                </sp>
 
-               <pb n="6" source="Moreno_098_6.jpg" facs="fedora_ug8109603/full/full/0/default.jpg" />
+               <pb n="6" source="Moreno_098_6.jpg" facs="fedora_ug8109603/full/full/0/default.jpg"/>
 
                <fw type="paginaNum">6</fw>
 
@@ -938,7 +941,7 @@
                   <l>debilidad de cabeza.</l>
                </sp>
 
-               <pb n="7" source="Moreno_098_7.jpg" facs="fedora_ug8109981/full/full/0/default.jpg" />
+               <pb n="7" source="Moreno_098_7.jpg" facs="fedora_ug8109981/full/full/0/default.jpg"/>
 
                <fw type="paginaNum">7</fw>
 
@@ -1150,7 +1153,7 @@
                   <l>que se me llevó unas piernas.</l>
                </sp>
 
-               <pb n="8" source="Moreno_098_8.jpg" facs="fedora_ug8107529/full/full/0/default.jpg" />
+               <pb n="8" source="Moreno_098_8.jpg" facs="fedora_ug8107529/full/full/0/default.jpg"/>
 
                <fw type="paginaNum">8</fw>
 

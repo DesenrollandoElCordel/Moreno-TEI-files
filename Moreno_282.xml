@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_282">
    <teiHeader>
       <fileDesc>
@@ -14,7 +15,7 @@
          <publicationStmt>
             <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -22,10 +23,10 @@
                <titleStmt>
                   <title type="titulo_completo">Nuevo pasillo titulado Cada cual con su cuidado, ó
                      sea el juicio de los tres sordos.</title>
-                  <title type="titulo_breve" />
+                  <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -46,10 +47,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -67,7 +68,7 @@
                   </objectDesc>
                   <decoDesc>
                      <decoNote>
-                        <p />
+                        <p/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -100,7 +101,7 @@
          <textClass>
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX555916.html" type="tipo_texto">Pasillos</term>
-               <term type="tipo_estrofa" />
+               <term type="tipo_estrofa"/>
                <term type="verso_prosa">Verso</term>
                <term type="sagrado_profano">Profano</term>
             </keywords>
@@ -111,24 +112,25 @@
             texte</change>
          <change when="2021-06-14" who="#EL">Ajout des liens vers le thumbnail</change>
          <change when="2021-07-05" who="#EL">Correction de l'OCR</change>
-         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj du format de @when</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
       </revisionDesc>
    </teiHeader>
    <facsimile facs="https://iiif.unige.ch/dhportal/ug8103971/manifest">
-      <graphic url="Moreno_282_thumbnail.jpg" />
+      <graphic url="Moreno_282_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_282_1.jpeg" facs="fedora_ug8108357/full/full/0/default.jpg" />
+               <pb n="1" source="Moreno_282_1.jpeg" facs="fedora_ug8108357/full/full/0/default.jpg"/>
 
                <fw type="impresorNum">(Num. 295.)</fw>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">NUEVO PASILLO</hi>
-                  <lb />TITULADO <lb /><hi rend="negrita">CADA CUAL CON SU CUIDADO,</hi>
-                  <lb />Ó SEA <lb />EL JUICIO DE LOS TRES SORDOS.</head>
+                  <lb/><hi rend="negrita">NUEVO PASILLO</hi>
+                  <lb/>TITULADO <lb/><hi rend="negrita">CADA CUAL CON SU CUIDADO,</hi>
+                  <lb/>Ó SEA <lb/>EL JUICIO DE LOS TRES SORDOS.</head>
 
                <div type="reparto">
                   <head type="reparto_titulo">PERSONAS.</head>
@@ -136,7 +138,7 @@
                      <castItem><hi rend="cursiva">Berlinche</hi>... Sordo.</castItem>
                      <castItem>—<hi rend="cursiva">Juan Blanco</hi>... Sordo.</castItem>
                      <castItem>—<hi rend="cursiva">Catacaldos</hi>... Sordo.</castItem>
-                     <lb />
+                     <lb/>
                      <castItem><hi rend="cursiva">El Alcalde</hi>.—</castItem>
                      <castItem><hi rend="cursiva">Pepe Trinca</hi>.... Alguacil.</castItem>
                   </castList>
@@ -144,8 +146,8 @@
 
                <div>
                   <stage rend="cursiva">
-                     <lb />Sala con dos puertas, se presenla Berlinche embozado en capa, con un
-                     <lb />garrote bajo de ella, y un brazo liado como que está herido. </stage>
+                     <lb/>Sala con dos puertas, se presenla Berlinche embozado en capa, con un
+                     <lb/>garrote bajo de ella, y un brazo liado como que está herido. </stage>
 
                   <sp>
                      <speaker rend="cursiva">Berlinc.</speaker>
@@ -215,7 +217,8 @@
                      <l>que soy un poco teniente.</l>
                   </sp>
 
-                  <pb n="2" source="Moreno_282_2.jpeg" facs="fedora_ug8107459/full/full/0/default.jpg" />
+                  <pb n="2" source="Moreno_282_2.jpeg"
+                     facs="fedora_ug8107459/full/full/0/default.jpg"/>
 
                   <sp>
                      <speaker rend="cursiva">Berlinc.</speaker>
@@ -285,7 +288,7 @@
                   </sp>
 
                   <stage rend="cursiva">
-                     <lb />Váse por una puerta y por la otra sale <lb />Juan Blanco descalzo y en
+                     <lb/>Váse por una puerta y por la otra sale <lb/>Juan Blanco descalzo y en
                      cuerpo. </stage>
 
                   <sp>
@@ -357,7 +360,8 @@
                      <l>Amonestaciones....malo:</l>
                      <l>¿yo amonestarme á disgusto?</l>
 
-                     <pb n="3" source="Moreno_282_3.jpeg" facs="fedora_ug8105919/full/full/0/default.jpg" />
+                     <pb n="3" source="Moreno_282_3.jpeg"
+                        facs="fedora_ug8105919/full/full/0/default.jpg"/>
 
                      <l>¿quién diablos tal ha pensado?</l>
                   </sp>
@@ -406,8 +410,8 @@
                   </sp>
 
                   <stage rend="cursiva">
-                     <lb />Sale por una puerta, y por la otra en- <lb />tra el Alcalde y Berlincho con
-                     un bra- <lb />zo liado, lo dice el Alcalde al oido. </stage>
+                     <lb/>Sale por una puerta, y por la otra en- <lb/>tra el Alcalde y Berlincho con
+                     un bra- <lb/>zo liado, lo dice el Alcalde al oido. </stage>
 
                   <sp>
                      <speaker rend="cursiva">Alcalde.</speaker>
@@ -433,7 +437,7 @@
                   </sp>
 
                   <stage rend="cursiva">
-                     <lb />Llegan á la puerta Catacaldos y <lb />Juan Blanco, y dice éste. </stage>
+                     <lb/>Llegan á la puerta Catacaldos y <lb/>Juan Blanco, y dice éste. </stage>
 
                   <sp>
                      <speaker rend="cursiva">Blanco.</speaker>
@@ -442,7 +446,7 @@
                   </sp>
 
                   <stage rend="cursiva">
-                     <lb />El Alcalde hace seña con la mano pa- <lb />ra que entren y pasen adelante
+                     <lb/>El Alcalde hace seña con la mano pa- <lb/>ra que entren y pasen adelante
                      ambos. </stage>
 
                   <sp>
@@ -516,7 +520,8 @@
                      <l>Me mato de un trabucazo,</l>
                      <l>me pego una puñalada</l>
 
-                     <pb n="4" source="Moreno_282_4.jpeg" facs="fedora_ug8106545/full/full/0/default.jpg" />
+                     <pb n="4" source="Moreno_282_4.jpeg"
+                        facs="fedora_ug8106545/full/full/0/default.jpg"/>
 
                      <l>antes de hacer tal disparo.</l>
                   </sp>
@@ -697,7 +702,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb />CARMONA:—1856. Imp. de D. J. M. Moreno, Descalzas, núm, 1.</p>
+               <p><lb/>CARMONA:—1856. Imp. de D. J. M. Moreno, Descalzas, núm, 1.</p>
             </div>
          </div>
       </body>

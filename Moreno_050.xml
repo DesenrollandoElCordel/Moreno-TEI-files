@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_050">
    <teiHeader>
       <fileDesc>
@@ -13,7 +14,7 @@
          <publicationStmt>
             <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -24,7 +25,7 @@
                   <title type="titulo_breve">Coloquio entre un moro y un cristiano</title>
                </titleStmt>
                <editionStmt>
-                  <p />
+                  <p/>
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
@@ -45,10 +46,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary />
+                  <summary/>
                   <msItem>
-                     <locus />
-                     <title />
+                     <locus/>
+                     <title/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -114,23 +115,24 @@
          <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
             thumbnail</change>
          <change when="2021-06-23" who="#EL">Correction OCR</change>
-         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj du format de @when</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
       </revisionDesc>
    </teiHeader>
    <facsimile facs="https://iiif.unige.ch/dhportal/ug8104021/manifest">
-      <graphic url="Moreno_050_thumbnail.jpg" />
+      <graphic url="Moreno_050_thumbnail.jpg"/>
    </facsimile>
    <text>
       <body>
          <div>
             <div>
-               <pb n="1" source="Moreno_050_1.jpg" facs="fedora_ug8106070/full/full/0/default.jpg" />
+               <pb n="1" source="Moreno_050_1.jpg" facs="fedora_ug8106070/full/full/0/default.jpg"/>
 
                <fw type="impresorNum">(Número 59.</fw>
 
                <head type="primer_titulo">
-                  <lb /><hi rend="negrita">COLOQUIO ENTRE UN MORO Y UN CRISTIANO,</hi>
-                  <lb />SOBRE LA PUREZA DE LA VIRGEN MARIA, Y NACIMIENTO <lb />DE SU SANTISIMO HIJO. </head>
+                  <lb/><hi rend="negrita">COLOQUIO ENTRE UN MORO Y UN CRISTIANO,</hi>
+                  <lb/>SOBRE LA PUREZA DE LA VIRGEN MARIA, Y NACIMIENTO <lb/>DE SU SANTISIMO HIJO. </head>
 
                <stage rend="cursiva">Sale el Moro.</stage>
 
@@ -166,10 +168,12 @@
                   <l>porque es grande desatino</l>
                   <l>el que á mi vista esten</l>
 
-                  <pb n="2" source="Moreno_050_2.jpg" facs="fedora_ug8109669/full/full/0/default.jpg" />
+                  <pb n="2" source="Moreno_050_2.jpg"
+                     facs="fedora_ug8109669/full/full/0/default.jpg"/>
 
-                  <l>en fiestas tan diver<damage agent="letras_borradas"><supplied>ti</supplied></damage>dos.</l>
-                  <l>En cólera y rabia arc<gap /></l>
+                  <l>en fiestas tan diver<damage agent="letras_borradas"
+                        ><supplied>ti</supplied></damage>dos.</l>
+                  <l>En cólera y rabia arc<gap/></l>
                   <l>y de mi cuchilla el filo</l>
                   <l>está rabiando por darles</l>
                   <l>muerte á cuantos atrevidos</l>
@@ -179,7 +183,7 @@
                   <l>á cuantos me han ofendido.</l>
 
                   <stage rend="cursiva">
-                     <lb />(Ve un retrato de MARIA y dice <lb />suspenso. </stage>
+                     <lb/>(Ve un retrato de MARIA y dice <lb/>suspenso. </stage>
 
                   <l>Mas cielo ¡qué es lo quo veo!</l>
                   <l>¡Confuso estoy y aturdido!</l>
@@ -235,7 +239,7 @@
                </sp>
 
                <stage rend="cursiva">
-                  <lb />(Va á rasgarlo, y sale el Cristiano <lb />y le detiene) </stage>
+                  <lb/>(Va á rasgarlo, y sale el Cristiano <lb/>y le detiene) </stage>
 
                <sp>
                   <speaker rend="cursiva">Crist.</speaker>
@@ -262,7 +266,8 @@
                   <l>la fé de su Santo Hijo;</l>
                   <l>y ya cansado de verte</l>
 
-                  <pb n="3" source="Moreno_050_3.jpg" facs="fedora_ug8107823/full/full/0/default.jpg" />
+                  <pb n="3" source="Moreno_050_3.jpg"
+                     facs="fedora_ug8107823/full/full/0/default.jpg"/>
 
                   <l>soberbio, tan altivo,</l>
                   <l>vengo á que sepas, tirano,</l>
@@ -385,7 +390,8 @@
                   <l>quedando aquel cristal fino</l>
                   <l>de Santidad tan perfecto</l>
 
-                  <pb n="4" source="Moreno_050_4.jpg" facs="fedora_ug8110290/full/full/0/default.jpg" />
+                  <pb n="4" source="Moreno_050_4.jpg"
+                     facs="fedora_ug8110290/full/full/0/default.jpg"/>
 
                   <l>como antes de haber nacido:</l>
                   <l>porque usado el Sumo bien</l>
@@ -475,7 +481,7 @@
 
             <div type="colofon">
                <p>
-                  <lb />CARMONA:—1858 <lb />Imp. de D. J. M. Moreno, calle Juan de la Cabra. núm, 4.
+                  <lb/>CARMONA:—1858 <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra. núm, 4.
                </p>
             </div>
          </div>
