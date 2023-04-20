@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_025">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_025">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -68,7 +66,7 @@
                      <summary n="1">Un grabado</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_025_1.xml">grabado_m_025_1</item>
+                           <item corresp="grabado_m_025_1.xml" facs="fedora_ug8103136/364,189,966,660/200,/0/default.jpg">grabado_m_025_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -85,7 +83,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -116,6 +114,7 @@
          <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
          <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
             du format de @when</change>
+         <change when="2023-03-27" who="#EL">Correction de la transcription automatique</change>
       </revisionDesc>
    </teiHeader>
    <facsimile facs="https://iiif.unige.ch/dhportal/ug8106079/manifest">
@@ -144,7 +143,7 @@
                   <l>cuidando de su regalo,</l>
                   <l>que es de Ecequiel la carroza</l>
                   <l>y al cielo envidia ha causado.</l>
-                  <l rend="cursiva">San José dijo á la Virgen.</l>
+                  <l rend="indent"><hi rend="cursiva">San José dijo á la Virgen.</hi></l>
                   <l>Animaos, querida Esposa,</l>
                   <l>no os falte ahora el esfuerzo,</l>
                   <l>que pues ya los gallos cantan</l>
@@ -244,7 +243,7 @@
                   <head type="titulo_estrofa">VILLANCICO SEGUNDO.</head>
                   <l><hi rend="cursiva">Solo.</hi> Hoy han llegado al portal</l>
                   <l>los niños que en otros años</l>
-                  <l>al recien nacido Iufante</l>
+                  <l>al recien nacido Infante</l>
                   <l>su tonada le cantaron:</l>
                   <l>en esta dicen que traen</l>
                   <l>una nueva muy del caso,</l>
@@ -269,11 +268,11 @@
                   <l>¡hay Niño del alma!</l>
                   <l>á besar esa cuna en que naces</l>
                   <l>llorando tus gracias,</l>
-                  <l>¡Ay qué pérlitas</l>
+                  <l>¡Ay qué perlitas</l>
                   <l>tan redonditas,</l>
                   <l>tan nacaradas!</l>
-                  <l>¡quién las bebieraf</l>
-                  <l>¡quién las gustáral</l>
+                  <l>¡quién las bebiera!</l>
+                  <l>¡quién las gustára!</l>
                   <l><hi rend="cursiva">Coro.</hi> Preciosa idea,</l>
                   <l>nueva tonada,</l>
                   <l>viva ese Infante,</l>
@@ -299,7 +298,7 @@
                   <l>pues tanto la amas.</l>
                   <l>La niña bella</l>
                   <l>es pura estrella,</l>
-                  <l>no sino el Alba.</l>
+                  <l>no sino el Alba</l>
                   <l>que trae el dia</l>
                   <l>risueña y blanda.</l>
                   <l><hi rend="cursiva">Coro.</hi> Preciosa idea, etc.</l>
@@ -351,7 +350,7 @@
                   <l>1. Zagalito, chiquito,</l>
                   <l>graciosito sin igual,</l>
                   <l>que has venido á nuestros montes</l>
-                  <l>los ganados á guardar,</l>
+                  <l>los ganados á guardar.</l>
                   <l>Sí del cielo vienes,</l>
                   <l>divino Zagal,</l>
                   <l>dichosa la tierra</l>
@@ -411,7 +410,7 @@
                   <head type="titulo_estrofa">COPLAS.</head>
                   <l>1. Las ovejas inocentes</l>
                   <l>tras la golosina corren,</l>
-                  <l>dejando el pasto, con qne</l>
+                  <l>dejando el pasto, con <choice><sic>qne</sic><corr>que</corr></choice></l>
                   <l>su buen Pastor las socorre.</l>
                   <l><hi rend="cursiva">Coro.</hi> Estad atentos, etc.</l>
                   <l>2. El Niño que en el pesebre</l>
@@ -429,7 +428,7 @@
                <lg>
                   <head type="titulo_estrofa">VILLANCICO QUINTO.</head>
                   <l><hi rend="cursiva">Solo.</hi> Pues la noche se ha pasado</l>
-                  <l>entre el júbilo y gracejo. </l>
+                  <l>entre el júbilo y gracejo</l>
                   <l>al ver en nuestras majadas</l>
                   <l>al Hijo del Verbo eterno;</l>
                   <l>con música pastoril</l>
@@ -449,7 +448,7 @@
                <lg>
                   <head type="titulo_estrofa">TONADA.</head>
                   <l><hi rend="cursiva">Niños.</hi> A Dios, Zagalito,</l>
-                  <l>tennos en tu grácia,</l>
+                  <l>tennos en tu gracia,</l>
                   <l>hasta que nos lleves</l>
                   <l>á la eterna Patria.</l>
                   <l><hi rend="cursiva">Coro.</hi> A Dios, etc,</l>
@@ -458,7 +457,7 @@
                <lg>
                   <head type="titulo_estrofa">COPLAS.</head>
                   <l>1. A Dios, Pastorcito,</l>
-                  <l>que del cielo bájas,</l>
+                  <l>que del cielo bajas,</l>
                   <l>y habitas el suelo</l>
                   <l>sufriendo desgracias:</l>
                   <l>no nos olvides,</l>
@@ -477,16 +476,16 @@
                   <l><hi rend="cursiva">Coro.</hi> A Dios, etc.</l>
                   <l>3. A Dios, casto Esposo,</l>
                   <l>de tu Esposa casta,</l>
-                  <l>pues hás conseguido</l>
+                  <l>pues has conseguido</l>
                   <l>la dicha mas alta:</l>
                   <l>pide á tu Hijo</l>
                   <l>con eficacia</l>
                   <l>que en los trabajos</l>
-                  <l>nos dé contancia:</l>
+                  <l>nos dé contancia.</l>
                   <l><hi rend="cursiva">Coro.</hi> A Dios, etc.</l>
                </lg>
 
-               <trailer>FIN.</trailer>
+               <trailer rend="negrita">FIN.</trailer>
             </div>
 
             <div type="colofon">

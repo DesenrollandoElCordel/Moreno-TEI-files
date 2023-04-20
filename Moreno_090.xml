@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_090">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_090">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -79,8 +77,8 @@
                      <summary n="2">Dos grabados (p.1, p.3)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_090_1.xml">grabado_m_090_1</item>
-                           <item corresp="grabado_m_090_2.xml">grabado_m_090_2</item>
+                           <item corresp="grabado_m_090_1.xml" facs="fedora_ug8109345/571,190,500,815/100,/0/default.jpg">grabado_m_090_1</item>
+                           <item corresp="grabado_m_090_2.xml" facs="fedora_ug8109709/721,223,530,930/100,/0/default.jpg">grabado_m_090_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -140,8 +138,10 @@
 
                <fw type="impresorNum">(Número 99.)</fw>
 
-               <head type="titulo_cancion">
-                  <lb/>CANCION <lb/>DE LA PEPA. </head>
+               <head type="primer_titulo">
+                  <lb/>CANCION
+                  <lb/><hi rend="negrita">DE LA PEPA.</hi>
+               </head>
 
                <lg>
                   <l rend="indent">Quiero á mi Pepa y no es groma,</l>

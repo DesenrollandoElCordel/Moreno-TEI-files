@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_123">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_123">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -81,9 +79,9 @@
                   </objectDesc>
                   <decoDesc>
                      <summary n="1">Un grabado (p.1)</summary>
-                     <decoNote>
+                     <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_123_1.xml">grabado_m_123_1</item>
+                           <item corresp="grabado_m_123_1.xml" facs="fedora_ug8103500/303,307,1144,924/100,/0/default.jpg">grabado_m_123_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -100,7 +98,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -146,7 +144,7 @@
                <fw type="impresorNum">(Número 131.)</fw>
 
                <head rend="negrita" type="primer_titulo">LOS CINCO HIJOS DE UN PARTO.</head>
-               <head>
+               <head type="subtitulo">
                   <lb/>VERDADERA Y ESTRAÑA RELACION DEL MARAVILLOSO PARTO, <hi rend="cursiva"><lb/>de cinco hijos varones, que ha dado á luz una muger llamada Ma- <lb/>ria
                      Gutierrez: natural del pueblo de Jalapa, casada con Isidro <lb/>Lopez.
                      Declárase la señal con que nació cada uno. El primero <lb/>con una espiga de
@@ -189,7 +187,7 @@
                <l>pues lo mas estraño es, que</l>
                <l>cada uno va señalado</l>
                <l>con una señal distinta,</l>
-               <l>las cuales iré esplicando</l>
+               <l>las cuales iré esplicando.</l>
                <l>El primero que nació,</l>
                <l>asída en su diestra mano</l>
                <l>sacó una espiga de trigo.</l>
@@ -223,12 +221,12 @@
                <l>un riguroso castigo,</l>
                <l>y así se fué divulgando.</l>
                <l>Llegó á Valencia la nueva,</l>
-               <l>y al momento ha públicado</l>
+               <l>y al momento ha publicado</l>
                <l>una orden el gobierno</l>
                <l>discreto, prudente y sabio,</l>
                <l>mandando llamar al punto</l>
                <l>los hombres mas literatos</l>
-               <l>que hubiese en todo el reino</l>
+               <l>que hubiese en todo el reino.</l>
                <l>Vinieron los magistrados</l>
                <l>y por mas que discurrieron,</l>
                <l>ni en libros que registraron</l>
@@ -301,8 +299,9 @@
 
             <div>
                <head type="primer_titulo">
-                  <lb/>LAMENTQS FÚNEBRES, <lb/>del tierno esposo á la inesperada muerte de su amada
-                  consorte. </head>
+                  <lb/><choice><sic>LAMENTQS</sic><corr>LAMENTOS</corr></choice> FÚNEBRES,
+                  <lb/>del tierno esposo á la inesperada muerte de su amada consorte.
+               </head>
 
                <lg>
                   <l>Oh musa! (si acaso</l>
@@ -345,7 +344,7 @@
                   <l>mas en aquel punto</l>
                   <l>cerrarse los ví,</l>
                   <l>y yo solo pude</l>
-                  <l>un já Dios! decir.</l>
+                  <l>un ¡á Dios! decir.</l>
                </lg>
 
                <pb n="4" source="Moreno_123_4.jpg" facs="fedora_ug8104608/full/full/0/default.jpg"/>
@@ -358,7 +357,7 @@
                   <l>de un fuerte desmayo</l>
                   <l>todo lo perdi,</l>
                   <l>al ver que mi esposa</l>
-                  <l>quedó yerta alli.</l>
+                  <l>quedó yerta allí.</l>
                </lg>
 
                <lg>
@@ -378,7 +377,7 @@
                   <l>que á tu fiel cariño</l>
                   <l>dictó amor sutil,</l>
                   <l>en quien mi esperanza</l>
-                  <l>puso su vivir:</l>
+                  <l>puso su vivir;</l>
                   <l>¡resto desgraciado</l>
                   <l>de amor infeliz!</l>
                </lg>

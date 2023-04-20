@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_041">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_041">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -72,8 +70,8 @@
                      <summary n="2">Dos grabados (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_041_1.xml">grabado_m_041_1</item>
-                           <item corresp="grabado_m_041_2.xml">grabado_m_041_2</item>
+                           <item corresp="grabado_m_041_1.xml" facs="fedora_ug8107453/383,302,395,834/100,/0/default.jpg">grabado_m_041_1</item>
+                           <item corresp="grabado_m_041_2.xml" facs="fedora_ug8107453/973,353,415,783/100,/0/default.jpg">grabado_m_041_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -90,7 +88,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -134,14 +132,19 @@
                <fw type="impresorNum">Núm. 46.</fw>
 
                <head type="primer_titulo">
-                  <lb/>EL NUNCA BIEN PONDERADO, <lb/>CÈLEBRE CUAL NO OTRO, Y ALEGRE COMO CUALQUIERA,
-                     <hi rend="negrita"><lb/>CASAMIENTO <lb/>DE JUAN PINDAJO,</hi>
+                  <lb/>EL NUNCA BIEN PONDERADO,
+                  <lb/>CÈLEBRE CUAL NO OTRO, Y ALEGRE COMO CUALQUIERA,
+                  <hi rend="negrita">
+                     <lb/>CASAMIENTO
+                     <lb/>DE JUAN PINDAJO,
+                  </hi>
                   <lb/><hi rend="cursiva">CON MARIA CURIANA.</hi>
                </head>
 
                <head rend="cursiva" type="subtitulo">
-                  <lb/>Sus celebridades, ropa, comida, dote, y demás ocurrencias que verá <lb/>quien
-                  pagare dos cuartos por cada papelillo. </head>
+                  <lb/>Sus celebridades, ropa, comida, dote, y demás ocurrencias que verá
+                  <lb/>quien pagare dos cuartos por cada papelillo.
+               </head>
 
                <l rend="indent">Mariquita Curiana</l>
                <l>y Juan Pindajo</l>
@@ -193,7 +196,7 @@
                <l>manton de balleta,</l>
                <l>que en Marruecos</l>
                <l>se compró á peseta;</l>
-               <l>con nn rico moño,</l>
+               <l>con <choice><sic>nn</sic><corr>un</corr></choice> rico moño,</l>
                <l>de raiz y fruto de madroño,</l>
                <l>brazos remangados,</l>
                <l>de color de chorizo tostado.</l>
@@ -211,7 +214,7 @@
                <l>con gran contento,</l>
                <l>y cada uno vino</l>
                <l>con su instrumento,</l>
-               <l>quien tráia un cuerno,</l>
+               <l>quien traia un cuerno,</l>
                <l>quien un pito</l>
                <l>de cárcel muy tierno,</l>
                <l>quien flauta, zanbomba,</l>
@@ -231,7 +234,7 @@
                <l>y cigarros de matalauga.</l>
                <l rend="indent">Despues de haber cenado,</l>
                <l>cual escopeta</l>
-               <l>andan elnovio y la novia</l>
+               <l>andan el novio y la novia</l>
                <l>de carreleta</l>
                <l>y á los convidados</l>
                <l>los estómagos se le han ablandado</l>
@@ -268,7 +271,7 @@
                <l>y la gente seguia</l>
                <l>su alegre fiesta,</l>
                <l>y á la madrugada</l>
-               <l>cnando está la gente sosegada</l>
+               <l><choice><sic>cnando</sic><corr>cuando</corr></choice> está la gente sosegada</l>
                <l>que nadie se oia</l>
                <l>un acaso chusco sucedia:</l>
                <l>se asustó Pindajo</l>
@@ -323,8 +326,7 @@
                <l>cuatro clavos</l>
                <l>para herrar á un potro,</l>
                <l>un bacin rompido,</l>
-               <l>y podridos.</l>
-               <l>y tres cuadrós viejos</l>
+               <l>y tres cuadrós viejos y podridos.</l>
                <l rend="indent">Despues de algunos dias</l>
                <l>Doña Curiana</l>
                <l>de unos fuertes dolores</l>
