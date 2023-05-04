@@ -92,7 +92,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -122,6 +122,7 @@
             thumbnail</change>
          <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
             du format de @when</change>
+         <change when="2023-05-03" who="#EL">Correction de l'OCR</change>
       </revisionDesc>
    </teiHeader>
    <facsimile facs="https://iiif.unige.ch/dhportal/ug8103699/manifest">
@@ -137,9 +138,11 @@
 
                <head type="primer_titulo">
                   <hi rend="negrita">ADMIRABLE HISTORIA</hi>
-                  <hi rend="cursiva"><lb/>de don Cárlos y Lucinda, naturales de Valencia, y como á
-                     un hijo <lb/>que tuvieron llamado Julián, le habló un Ciervo saliendo á caza.
-                     <lb/>Declarase lo que le dijo, y lo que después sucedió á Julian.</hi>
+                  <hi rend="cursiva">
+                     <lb/>de don Cárlos y Lucinda, naturales de Valencia, y como á un hijo 
+                     <lb/>que tuvieron llamado Julian, le habló un Ciervo saliendo á caza.
+                     <lb/>Declarase lo que le dijo, y lo que despues sucedió á Julian.
+                  </hi>
                </head>
 
                <div n="1" type="parte">
@@ -149,14 +152,14 @@
                   <l>con sus sonoros acentos,</l>
                   <l>y por la region del aire</l>
                   <l>esparza sus dulces écos:</l>
-                  <l>oiga lodo enamorado,</l>
+                  <l>oiga todo enamorado,</l>
                   <l>atienda todo discreto,</l>
                   <l>todo galán presto oidos,</l>
                   <l>todo jóven esté atento,</l>
                   <l>los que de finos se precian,</l>
                   <l>de amantes y caballeros,</l>
                   <l>pues todos en esta historia</l>
-                  <l>bien pueden lomar ejemplo.</l>
+                  <l>bien pueden tomar ejemplo.</l>
                   <l>En la ciudad de Valencia,</l>
                   <l>córte y emporio del reino</l>
                   <l>Valenciano, donde habitan</l>
@@ -179,7 +182,7 @@
                   <l>casado con doña Inés</l>
                   <l>de los Rios y Acebedo,</l>
                   <l>señora de muchas prendas</l>
-                  <l>y de grande entendimiento,</l>
+                  <l>y de grande entendimiento.</l>
                   <l>Tenian estos señores</l>
                   <l>una hija, á quien el cielo</l>
                   <l>la dotó de tal belleza,</l>
@@ -212,7 +215,7 @@
                   <l>con músicas y festejos,</l>
                   <l>suspiros enamorados,</l>
                   <l>y amorosos galanteos.</l>
-                  <l>Dos gastó de amores,</l>
+                  <l>Dos años gastó de amores,</l>
                   <l>sin que á su amoroso fuego,</l>
                   <l>llegase á emprender dichoso</l>
                   <l>en la ocasion sus incendios.</l>
@@ -272,7 +275,7 @@
                   <l>cual otro Paris Troyano,</l>
                   <l>que á Elena robó del Griego.</l>
                   <l>Mas en medio de este gozo,</l>
-                  <l>de la noche en el silecio,</l>
+                  <l>de la noche en el <choice><sic>silecio</sic><corr>silencio</corr></choice>,</l>
                   <l>se levantó una tormenta</l>
                   <l>en aquel golfo soberbio</l>
                   <l>que las olas de Neptuno</l>
@@ -286,7 +289,7 @@
                   <l>en sus quebrados cristales</l>
                   <l>como á Leandro y á Ero.</l>
                   <l>Hízose el vajél pedazos</l>
-                  <l>á la furia do los vientos,</l>
+                  <l>á la furia de los vientos,</l>
                   <l>y á la fuerza de las olas</l>
                   <l>el mar salió de su centro.</l>
                   <l>Fluctuando entre las aguas,</l>
@@ -296,7 +299,7 @@
                   <l>de milagro, á las orillas</l>
                   <l>de dominios estrangeros,</l>
                   <l>como monstruos de fortuna,</l>
-                  <l>pues de furtuna vivieron.</l>
+                  <l>pues de <choice><sic>furtuna</sic><corr>fortuna</corr></choice> vivieron.</l>
                   <l>Besan la mojada arena,</l>
                   <l>donde alli los dos se vieron;</l>
                   <l>ella Nereida del agua,</l>
@@ -347,13 +350,13 @@
                   <l>Apenas oyó sus voces,</l>
                   <l>cuando se cayó en el suelo</l>
                   <l>amortecido y sin habla,</l>
-                  <l>(no filé el caso para menos)</l>
+                  <l>(no fué el caso para menos)</l>
                   <l>quedando como difunto</l>
                   <l>en el asombro y el miedo,</l>
                   <l>que no hay humano valor</l>
                   <l>en casos tan estupendos.</l>
                   <l>Al cabo de mucho rato,</l>
-                  <l>ya cuando volvió en su acuerdo</l>
+                  <l>ya cuando volvió en su acuerdo,</l>
                   <l>hácia su casa camina,</l>
                   <l>triste, confuso y suspenso;</l>
                   <l>pero viendo habia sido</l>
@@ -371,7 +374,7 @@
                   <l>se ausentó secretamente,</l>
                   <l>queriendo por este medio</l>
                   <l>evitar aquel desastre</l>
-                  <l>cruel, terrible y sangriento.</l>
+                  <l>cruel, terríble y sangriento.</l>
                   <l>En fin, salióse Julian</l>
                   <l>por varios climas y reinos,</l>
                   <l>anduvo muchas ciudades,</l>
@@ -510,8 +513,8 @@
                   <l>donde á la sazon estaba</l>
                   <l>gozando de amor trofeos</l>
                   <l>con su hermosa Margaríta,</l>
-                  <l>mucho mas bella que Venus;</l>
-                  <l>halda salido á caza,</l>
+                  <l>mucho mas bella que Venus:</l>
+                  <l>habia salido á caza,</l>
                   <l>que era su divertimiento,</l>
                   <l>y se quedó Margarita,</l>
                   <l>con el acompañamiento</l>
@@ -547,14 +550,14 @@
                   <l>suspensa lo estaba oyendo,</l>
                   <l>admirada del caso</l>
                   <l>que la estaba sucediendo,</l>
-                  <l>y después de haber cenado,</l>
+                  <l>y despues de haber cenado,</l>
                   <l>con el aparato régio</l>
                   <l>que á los tres pertenecia,</l>
                   <l>con placer y con consuelo,</l>
                   <l>con lágrimas de alegría,</l>
                   <l>cuando era hora que el sueño</l>
                   <l>(que es pension de los mortales)</l>
-                  <l>les diese el descanso quicio,</l>
+                  <l>les diese el descanso quieto,</l>
                   <l>los llevó á su misma estancia,</l>
                   <l>y á los dos les dá su lecho</l>
                   <l>adornado de brocados,</l>
@@ -630,7 +633,7 @@
                   <l>y yo los metí aquí dentro,</l>
                   <l>hospedándolos en casa,</l>
                   <l>y en fin le contó el suceso,</l>
-                  <l>lodo lo que pasó;</l>
+                  <l>todo lo que pasó;</l>
                   <l>y él atónito y suspenso,</l>
                   <l>pasmado de aquel acaso,</l>
                   <l>arrepentido del hecho,</l>
