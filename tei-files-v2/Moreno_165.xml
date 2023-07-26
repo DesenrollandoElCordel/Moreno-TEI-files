@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_165">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La Feria de Córdoba</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">La Feria de Cordoba.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1865-01-01">1865</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473004</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 176</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_165_1.xml"
+                              facs="fedora_ug8108264/333,349,1018,646/100,/0/default.jpg"
+                              >grabado_m_165_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q5818">
+                  <placeName key="Córdoba">Córdoba</placeName>
+                  <location>
+                     <geo>37.883333333333 -4.7666666666667</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Quintillas</term>
+               <term type="tipo_estrofa">Quintillas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-30" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103557/manifest">
+      <graphic url="fedora_ug8108264/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_165_1.jpg" facs="fedora_ug8108264/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 176.</fw>
+
+               <head rend="negrita" type="primer_titulo">LA FERIA <lb/>DE <lb/>CORDOBA.</head>
+
+               <l rend="indent">Al tiempo que nueva vida</l>
+               <l>Dá á natura primavera</l>
+               <l>Se vé en <name>Córdoba</name> reunida</l>
+               <l>La gente que mas lucida</l>
+               <l>Hay en la provincia entera.</l>
+               <l rend="indent">Los unos con el afan</l>
+               <l>De lo que menester han:</l>
+               <l>Los otros por solazarse</l>
+               <l>Y á diversion entregarse,</l>
+               <l>Todos á la feria van.</l>
+               <l rend="indent">Va el labrador cuidadoso</l>
+               <l>De su casa y de su apero;</l>
+               <l>Y á gastar allí el dinero</l>
+               <l>Ostentándose lujoso</l>
+               <l>De lugar el caballero.</l>
+               <l rend="indent">La confusion á aumentar</l>
+               <l>Diversa gente concurre</l>
+               <l>Que en un contínuo vagar,</l>
+               <l>La vida yendo á buscar</l>
+               <l>Por todas partes discurre.</l>
+               <l rend="indent">Tambien sale con razon</l>
+               <l>De su curso en tal sazon</l>
+               <l>La gente de la ciudad,</l>
+               <l>Pues que es va necesidad</l>
+               <l>Gozar de la diversion.</l>
+               <l rend="indent">Bulle el campo destinado</l>
+
+               <pb n="2" source="Moreno_165_2.jpg" facs="fedora_ug8109959/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Esta fiesta á celebrar,</l>
+               <l>En concurso que ha llamado</l>
+               <l>El deseo de observar</l>
+               <l>La formacion del mercado.</l>
+               <l rend="indent">Y lleva allí cada cual</l>
+               <l>El trasto que ha menester:</l>
+               <l>Yá el mostrador, yá el puntal,</l>
+               <l>Yá la estera que han de ser</l>
+               <l>De la tienda material.</l>
+               <l rend="indent">Y otros mil chismes allí</l>
+               <l>Se ven que cada año salen</l>
+               <l>Del sucio zaquizamí;</l>
+               <l>Mas que juntos aun no valen</l>
+               <l>Treinta y un maravedí.</l>
+               <l rend="indent">No hay uno que no eche cuenta</l>
+               <l>Sobre lo que ha de comprar</l>
+               <l>Aunque no alcance su renta,</l>
+               <l>O lo que allí ha de llevar</l>
+               <l>Para ponerlo de venta.</l>
+               <l rend="indent">El muchacho se desvela</l>
+               <l>Ansiando comprar juguetes,</l>
+               <l>Y acicalándose vela</l>
+               <l>Para enganchar, la mozuela</l>
+               <l>A los simples mozalvetes</l>
+               <l rend="indent">Del gran tono las señoras</l>
+               <l>Sériamente á ventilar,</l>
+               <l>Los trages que han de llevar</l>
+               <l>Se juntan á todas horas:</l>
+               <l>Que es cuento de no acabar.</l>
+               <l rend="indent">Por disfrutar la mañana</l>
+               <l>Fresca, apacible, y lozana,</l>
+               <l>Llegando á tiempo oportuno</l>
+               <l>De tomar el desayuno,</l>
+               <l>Cada familia se afana.</l>
+               <l rend="indent">Y allí, pues que en la llaneza</l>
+               <l>El placer tambien está,</l>
+               <l>Chocolate se adereza,</l>
+               <l>Y á consumirlo se empieza</l>
+               <l>Con lo que la feria dá.</l>
+               <l rend="indent">Que todo en ella al instante</l>
+               <l>Se sirve y ponen delante</l>
+               <l>Buñuelos y confituras,</l>
+               <l>Bizcochos de cien hechuras,</l>
+               <l>Y licor del mas fragante.</l>
+               <l rend="indent">Entonces, que no entorpece</l>
+               <l>La confusion molestosa,</l>
+               <l>A la cita comparece</l>
+               <l>El amante que apetece</l>
+               <l>Hablar á su dama hermosa.</l>
+               <l rend="indent">Y por mas leve que sea</l>
+               <l>De amor su demostracion,</l>
+               <l>Bastante es para que él crea</l>
+               <l>Que posee aquel corazon,</l>
+               <l>Que acaso en otros emplea.</l>
+               <l rend="indent">Cúbrese el campo de gente</l>
+               <l>Anhelando negociar</l>
+               <l>Y se levanta el ambiente</l>
+               <l>Tal nube de polvo ardiente</l>
+               <l>Que amenaza sofocar.</l>
+               <l rend="indent">De ella por medio pisadas</l>
+               <l>Resuenan de las manadas</l>
+               <l>De ganado numerosas,</l>
+               <l>Y voces mil destempladas</l>
+               <l>De bocas aguardentosas.</l>
+               <l rend="indent">Se oye el llorar del muchacho,</l>
+               <l>El disputar del borracho,</l>
+               <l>Y el penetrante alarido</l>
+               <l>Del que por tener despacho</l>
+               <l>A grito pregona herido.</l>
+               <l rend="indent">Con tan discordes sonidos</l>
+               <l>Y el de la trompa pueríl</l>
+               <l>Y el del ronco tamboríl</l>
+               <l>Atúrdense los oidos,</l>
+               <l>Sin contar otros cien mil.</l>
+               <l rend="indent">Pasa por aquí corriendo</l>
+               <l>Una vaca desmandada,</l>
+               <l>Y á una mujer derrengada</l>
+               <l>Deja en el suelo gimiendo,</l>
+
+               <pb n="3" source="Moreno_165_3.jpg" facs="fedora_ug8110001/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>Sin que le diese cornada.</l>
+               <l rend="indent">Por allí vá un jaqueton</l>
+               <l>Y patillado gitano</l>
+               <l>Agujjando un matalon,</l>
+               <l>Que parece mas lozano</l>
+               <l>Que el corcel del Macedon.</l>
+               <l rend="indent">Mas si lo suelta el catrero</l>
+               <l>Volverá á ser tan pesado</l>
+               <l>Cual burro de basurero</l>
+               <l>Que no puede con su cuero</l>
+               <l>De puro flaco y cascado.</l>
+               <l rend="indent">Por otra parte un zagal,</l>
+               <l>Rigiendo un jumento mal</l>
+               <l>Una mesa derribó</l>
+               <l>De barquillos, y perdió</l>
+               <l>Al dueño de este caudal.</l>
+               <l rend="indent">Pues avanzan con tremenda,</l>
+               <l>Griteria los chiquillos,</l>
+               <l>Y sin que nadie defienda</l>
+               <l>Aquella misera hacienda,</l>
+               <l>Engúllense los barquillos.</l>
+               <l rend="indent">No haymas allá quien bastante</l>
+               <l>Sea un caballo á sujetar,</l>
+               <l>Y al cabo se vé escapar</l>
+               <l>Por el vulgo circunstante</l>
+               <l>Maltratando un centenar.</l>
+               <l rend="indent">Y corre precipitado</l>
+               <l>Causando susto y ruina</l>
+               <l>Por todo el ancho mercado</l>
+               <l>Que vá dejando sembrado</l>
+               <l>De tiestos de loza fina.</l>
+               <l rend="indent">A este tiempo una quimera</l>
+               <l>Que todo el concurso altera</l>
+               <l>Suscítase entre faquines</l>
+               <l>Que se dan sendos sosquines</l>
+               <l>Por una leve friolera.</l>
+               <l rend="indent">Ya de las navajas tiran</l>
+               <l>Y amenazan golpes fieros;</l>
+               <l>Mas nunca horadan sus cueros</l>
+               <l>Y todos en cerco miran</l>
+               <l>Con semblantes placenteros.</l>
+               <l rend="indent">Pone entretanto un pilluelo,</l>
+               <l>(Gracias á la confusion)</l>
+               <l>Acechanzas al turron,</l>
+               <l>Y sin verlo el dueño, al vuelo</l>
+               <l>Arrebata un cuarteron..</l>
+               <l rend="indent">De los montes en la cumbre</l>
+               <l>La hora llega en que su lumbre</l>
+               <l>Oculte el sol, y acrecianta</l>
+               <l>El concurso muchedumbre</l>
+               <l>De la gente de mas cuenta.</l>
+               <l rend="indent">Y entre alamedas frondosas</l>
+               <l>Se presentan á rendir</l>
+               <l>Corazones las hermosas</l>
+               <l>Que las riberas famosas</l>
+               <l>Pisan del Guadalquivir</l>
+               <l rend="indent">Y tambien tal sitio encierra</l>
+               <l>Las bellezas que la Sierra</l>
+               <l>Produce entre sus montañas</l>
+               <l>Y las que habitan la tierra</l>
+               <l>De las fértiles campañas.</l>
+               <l rend="indent">Que en los trajes galantes</l>
+               <l>Y magníficos que ostentan</l>
+               <l>Y en las joyas y brillantes</l>
+               <l>El esplendor acrecientan</l>
+               <l>De sus talles elegantes.</l>
+               <l rend="indent">Indagar de cada una</l>
+               <l>Sin que se omita ninguna</l>
+               <l>Nombre, patria y residencia</l>
+               <l>Pretende con impaciencia</l>
+               <l>La juventud importuna.</l>
+               <l rend="indent">Y aun de amor allí en efecto</l>
+               <l>Hurtos se llegan á hacer</l>
+               <l>Sin que los hechen de ver</l>
+               <l>Las personas de respeto,</l>
+               <l>Pues se suelen distraer</l>
+               <l rend="indent">Que es época esta reunion</l>
+               <l>De amores que de ella nacen</l>
+
+               <pb n="4" source="Moreno_165_4.jpg" facs="fedora_ug8105417/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>Por levísima ocasion,</l>
+               <l>Y de otros que se deshacen</l>
+               <l>Con motivo ó sin razon.</l>
+               <l rend="indent">Y mientras, á competencia</l>
+               <l>Se observan las damas todas</l>
+               <l>con estraña diligencia,</l>
+               <l>Y cada cual su sentencia</l>
+               <l>Da sobre adornos y modas.</l>
+               <l rend="indent">Dejan muchos por un rato</l>
+               <l>Estas visitas lisonjeras,</l>
+               <l>Y van á gustar del trato</l>
+               <l rend="indent">Que por no comun es grato</l>
+               <l>De las bellas buñoleras.</l>
+               <l>Que llevan si son gitanas</l>
+               <l>Las naguas cortas, galanas,</l>
+               <l>Cintas, moños, relicarios,</l>
+               <l>Y adornos estrafalarios</l>
+               <l>Conque ellas van tan ufanas.</l>
+               <l rend="indent">Y allí ofrecen sin cordura,</l>
+               <l>Mas con gracia singular,</l>
+               <l>A toda humana criatura</l>
+               <l>Por las manos descifrar</l>
+               <l>Su buena ó mala ventura.</l>
+               <l rend="indent">Cuanta diversion desea</l>
+               <l>La plebe, está allí reunida,</l>
+               <l>Pues que bebe, se pasea,</l>
+               <l>Líbremente se travesea,</l>
+               <l>Y del trabajo se olvida.</l>
+               <l rend="indent">Y por que mas se divierta,</l>
+               <l>El mundo, por agujero</l>
+               <l>Muestra un insigne maulero,</l>
+               <l>A la turba boquiabierta</l>
+               <l>Con lindísimo salero.</l>
+               <l rend="indent">Claro, azul, sin nube alguna,</l>
+               <l>En el alto firmamento,</l>
+               <l>Para alargar el contento</l>
+               <l>Se ve la argentada luna</l>
+               <l>Que á paso vá soñoliento.</l>
+               <l rend="indent">De dejar aquel lugar, </l>
+               <l>Aunque hermoso y alhagueño</l>
+               <l>Ya es hora, y á su pesar</l>
+               <l>Se principia á retirar</l>
+               <l>La gente, y se entrega al sueño.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA, 1865. <lb/>Imp. y lib, de D. José M. Moreno, Madre de Dios número 1.
+               </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

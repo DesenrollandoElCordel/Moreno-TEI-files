@@ -1,0 +1,1312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_183">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sainete. El mesonero encantado</title>
+            <respStmt>
+               <name>Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete. El mesonero encantado.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1850-01-01">1850</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473220</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 192</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>16 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>1 columna</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_183_1.xml"
+                              facs="fedora_ug8109465/144,911,960,50/100,/0/default.jpg"
+                              >grabado_m_183_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q2807">
+                  <placeName key="Madrid">Madrid</placeName>
+                  <location>
+                     <geo>40.41694444444445 -3.703333333333333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q12164">
+                  <placeName key="Ponferrada">Ponferrada</placeName>
+                  <location>
+                     <geo>42.54611111111111 -6.590833333333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-07-01" who="#EL">Correction de l'OCR</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104444/manifest">
+      <graphic url="fedora_ug8109465/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_183_1.jpg" facs="fedora_ug8109465/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Núm. 192.</fw>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">SAINETE</hi>
+               <lb/><hi rend="negrita">EL MESONERO</hi>
+               <lb/>ENCANTADO. </head>
+
+            <div type="reparto">
+               <head>PERSONA.</head>
+
+               <castList>
+                  <castItem rend="cursiva">Mesonero.</castItem>
+                  <castItem rend="cursiva">Pacorro.</castItem>
+                  <castItem>4 <hi rend="cursiva">Hombres.</hi></castItem>
+                  <castItem>4 <hi rend="cursiva">Mugeres.</hi></castItem>
+                  <castItem>2 <hi rend="cursiva">Morillos.</hi></castItem>
+               </castList>
+            </div>
+
+            <div>
+               <stage rend="cursiva">
+                  <lb/>Salen los cuatro hombres corriendo, y el primero <lb/>con un cordel, como que
+                  quiere ahorcarse. </stage>
+
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Nadie me estorve amigos,</l>
+                  <l>porque me he de dar la muerte.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Los.</hi> 3.</speaker>
+                  <l>Qué te atormenta menguado?</l>
+                  <l>Dinos en fin lo que tienes.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Qué esto me suceda! Hay triste!</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Los</hi> 3.</speaker>
+                  <l>Dinos tu mal: de qué pende?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>En habiéndome ahorcado,</l>
+                  <l>lo diré muy brevemente.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>Eso es simpleza.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Es rencor, </l>
+                  <l>ira, sarna, amor y peste.</l>
+
+               </sp>
+
+               <pb n="2" source="Moreno_183_2.jpg" facs="fedora_ug8110300/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Los.</hi> 3,</speaker>
+                  <l>Esplícamos tu pesar.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Hay tormentos mas crueles?</l>
+                  <l>Pues sabed...</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Los.</hi> 3.</speaker>
+                  <l>Prosigue, dí.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Que en este papel me advierte</l>
+                  <l>Casilda, que el Mesonero</l>
+                  <l>su blanca mano pretende</l>
+                  <l>pues le sirve en el meson;</l>
+                  <l>y que á sus hermanas quiere</l>
+                  <l>casar tambíen, y que solo</l>
+                  <l>las cuatro bodas detíene</l>
+                  <l>por una tema, en que ha dado,</l>
+                  <l>que ha jurado no han de hacerse</l>
+                  <l>hasta que encuentre comedia,</l>
+                  <l>ò ingenio que lo escribiere,</l>
+                  <l>para hacerla por festejo</l>
+                  <l>el dia infeliz que lleguen</l>
+                  <l>á darse todas las manos.</l>
+                  <l>Mirad si en lance como este</l>
+                  <l>en que nos vemos prendados</l>
+                  <l>de las cuatro, tener puede</l>
+                  <l>paciencia nuestra desgracia,</l>
+                  <l>y mas si el demonio quiere</l>
+                  <l>que encuentre este hombre comedia</l>
+                  <l>y nos quedamos asperges.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3</speaker>
+                  <l>Este puñal en mi pecho</l>
+                  <l>al punto pienso esconderme.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 4.</speaker>
+                  <l>Muera yo, sí es que no logro</l>
+                  <l>de mi Antonia los claveles.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>Mucho sentiré Benita,</l>
+
+                  <pb n="3" source="Moreno_183_3.jpg"
+                     facs="fedora_ug8104766/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>si mi amor fino te pierde:</l>
+                  <l>pero morir como esotros,</l>
+                  <l>dígo, que no me conviene</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
+                  <l>Qué siempre aquestas malvadas</l>
+                  <l>tantas fatigas nos cuesten?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Hom.</hi> 1.</speaker>
+                  <l>El diablo las lleve á todas,</l>
+                  <l>amen, plegue á Dios mil veces,</l>
+                  <l>adonde yo esté con ellas,</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
+                  <l>Navarro por ellas muere,</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Hom.</hi> 4.</speaker>
+                  <l>Hombre, pues en los embustes</l>
+                  <l>otro nuevo Ulises eres,</l>
+                  <l>no hallarás algun remedio?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Hom.</hi> 1.</speaker>
+                  <l>Darnos los cuatro la muerte.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Hom.</hi> 2.</speaker>
+                  <l>Otro medio mas suave</l>
+                  <l>pide lance como este.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Que nos vamos al Hospicio.</l>
+                  <l>y que se casen si quieren.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Los.</hi> 3.</speaker>
+                  <l>No hay remedio.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Sí hay remedio,</l>
+                  <l>El hermano solo quiere</l>
+                  <l>comedia para las bodas:</l>
+                  <l>y siendo así, yo he de hacerme</l>
+                  <l>poeta: y mientras que yo</l>
+                  <l>al tonto le entretuviere,</l>
+                  <l>os llevareis á las cuatro</l>
+                  <l>á esa casa que se advierte</l>
+                  <l>fuera del lugar, caida;</l>
+                  <l>y con trages diferentes</l>
+                  <l>os disfrazareis, por sí</l>
+                  <l>es que acaso no siguiere,</l>
+
+                  <pb n="4" source="Moreno_183_4.jpg"
+                     facs="fedora_ug8105098/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>donde un chasco le daremos,</l>
+                  <l>para que crea el pobrete</l>
+                  <l>que es un palacio encantado.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
+                  <l>Digo, que bien lo previenes,</l>
+                  <l>pero ellas?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Ellas ya </l>
+                  <l>estarán muy obedientes.</l>
+                  <l>que yo las avisaré,</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Los.</hi> 3.</speaker>
+                  <l>Pues al chasco.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>Ven ustedes,</l>
+                  <l>como sin puñal y soga,</l>
+                  <l>hay remedio que se encuentre?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 4.</speaker>
+                  <l>Lo que mucho vale, muchos</l>
+                  <l>cuesta el refran nos advierte.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Ellas nos quitan el juicio</l>
+                  <l>y nos ponen lo que quieren,</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>Ellas son como <choice>
+                        <sic>!a</sic>
+                        <corr>la</corr>
+                     </choice> fruta,</l>
+                  <l>que todo el daño advierten,</l>
+                  <l>y todos quieren comerla,</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
+                  <l>Navarro por ellas muere.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>No hay hombre, á quien sus enredos</l>
+                  <l>la cabeza no trastruequen.</l>
+                  <l>En fin, os determinais?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Los</hi> 3.</speaker>
+                  <l>Luego al punto se concierte.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Pues decid todos conmigo,</l>
+                  <l>mientras vamos á emprenderle.</l>
+               </sp>
+
+               <stage rend="cursiva">Dice el hombre primero y luego repiten todos</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1,</speaker>
+                  <l>A Dios, mosqueteros,</l>
+
+                  <pb n="5" source="Moreno_183_5.jpg"
+                     facs="fedora_ug8108438/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
+                  <l>siempre amigos fieles,</l>
+                  <l>que un chasco á dar vamos;</l>
+                  <l>y si bien sucede,</l>
+                  <l>vereis cual ponemos</l>
+                  <l>al pobre inocente;</l>
+                  <l>Pues al chasco;</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Los</hi> 3 </speaker>
+                  <l>Al chasco.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Y muera el pobrete</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Y muera el pobrete. <stage rend="cursiva">Vanse.</stage></l>
+               </sp>
+
+               <stage rend="cursiva">Salen las cuatro mugeres.</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug.</hi> 1.</speaker>
+                  <l>Primero el novio reviente,</l>
+                  <l>que llegue á darle mi mano,</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug.</hi> 2.</speaker>
+                  <l>Hermana, no os aflijais,</l>
+                  <l>y dejad esos disparos,</l>
+                  <l>que como á mi me den novio</l>
+                  <l>aunque sea un maragato.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug.</hi> 3.</speaker>
+                  <l>Nunca he querido casarme,</l>
+                  <l>que he sido opuesta á ese estado;</l>
+                  <l>y así que hermano nos dijo</l>
+                  <l>el que queria casarnos</l>
+                  <l>siento tan gran comezon;</l>
+                  <l>que por casarme yo rabio.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug.</hi> 4</speaker>
+                  <l>Estará creido el tonto</l>
+                  <l>de que yo con él me caso,</l>
+                  <l>y eso, <hi rend="cursiva">nequaquam</hi>, porque</l>
+                  <l>mientras viva mi Bernaldo,</l>
+                  <l>de otro alguno no he de ser</l>
+
+                  <pb n="6" source="Moreno_183_6.jpg"
+                     facs="fedora_ug8106044/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>esta planta y este garvo.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug.</hi> 3.</speaker>
+                  <l>No digais mas desatinos,</l>
+                  <l>y demos luego la mano</l>
+                  <l>á cualquiera, que no es bien,</l>
+                  <l>que aquesta ocasion perdamos.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug.</hi> 2.</speaker>
+                  <l>Aquesto del matrimonio</l>
+                  <l>es bellisimo vocablo.</l>
+
+               </sp>
+
+               <stage rend="cursiva">Sale Pacorro.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Pac.</speaker>
+                  <l>Ha muchachas, orrio, atania,</l>
+                  <l>válgame Dios lo que traigo:</l>
+                  <l>Sabed (Jesus, y qué risa!)</l>
+                  <l>como ya están avisados</l>
+                  <l>vuestros amantes, y han dicho,</l>
+                  <l>que le han de pegar un chasco</l>
+                  <l>á vuestro hermano; y vosotras,</l>
+                  <l>cuando un poeta haya entrado</l>
+                  <l>á leer una comedia,</l>
+                  <l>con disimulo y recato</l>
+                  <l>os saldreis por el postigo</l>
+                  <l>para ir á disfrazaros</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Las</hi> 4.</speaker>
+                  <l>Para qué?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pac.</speaker>
+                  <l>Lo qué conviene,</l>
+                  <l>es, que me deis un abrazo,</l>
+                  <l>que siempre cobra primero</l>
+                  <l>el que sirve en estos tratos.</l>
+                  <l>Primero tú, luego tú.</l>
+                  <l>ahora tù, y ahora... <stage rend="cursiva">Abrázala.</stage></l>
+               </sp>
+
+               <pb n="7" source="Moreno_183_7.jpg" facs="fedora_ug8106507/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <stage rend="cursiva">Sale el Mesonero.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Pedazos</l>
+                  <l>del alma mia, qué haceis</l>
+                  <l>en este retiro?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Las</hi> 4.</speaker>
+                  <l>Estamos, </l>
+                  <l>desesperadas de ver</l>
+                  <l>que un poeta no se ha hallado</l>
+                  <l>para podernos casar.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Ten paciencia, escarabajo</l>
+                  <l>de mi amor, pues yo la tengo</l>
+                  <l>siendo tan interesado.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug</hi> 1.</speaker>
+                  <l>Yo, hermano, pienso ahorcarme.</l>
+                  <l>si cuanto antes no me caso.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug.</hi> 2.</speaker>
+                  <l>Cáseme yo, y mas que no haya</l>
+                  <l>ni comedia ni sarao.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug</hi> 3.</speaker>
+                  <l>Casarme quiero yo, y todo.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Mug.</hi> 4.</speaker>
+                  <l>Yo quiero casarme.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Las.</hi> 4.</speaker>
+                  <l>Vamos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Como este lugar está</l>
+                  <l>en aqueste solitario</l>
+                  <l>monte, no se halla comedia,</l>
+                  <l>y en esto estoy empeñado.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale Pacorro alborotado.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Pac.</speaker>
+                  <l>Señor, Señor.</l>
+
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson </speaker>
+                  <l>Qué hay de nuevo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pac.</speaker>
+                  <l>A la puerta está llamando</l>
+                  <l>un poeta, que le trae,</l>
+
+                  <pb n="8" source="Moreno_183_8.jpg"
+                     facs="fedora_ug8103340/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>una comedia, de pasmo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Pues dile que entre al instante,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pac,</speaker>
+                  <l>Voy allá: tened cuidado <stage rend="cursiva">A ellas.</stage></l>
+                  <l>que el lagarto esta en campaña. <stage rend="cursiva">Vónse.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Algun angel le ha enviado.</l>
+
+               </sp>
+
+               <stage rend="cursiva">Sale el hombre primero de poeta ridículo,</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1 </speaker>
+                  <l>Demonio dirás que soy</l>
+                  <l>en pasando un breve rato.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Dónde está el Poeta?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb</hi> 1.</speaker>
+                  <l>Pues yo</l>
+                  <l>sabiendo que habeis buscado</l>
+                  <l>una comedia, escribí</l>
+                  <l>el robo de Elena.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Bravo.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb</hi> 1.</speaker>
+                  <l>Qué dirás cuando te robe</l>
+                  <l>lo que tu tanto has guardado?</l>
+                  <l>con que os lo vengo á leer,</l>
+                  <l>por ver si os gusta,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Sentaos. <stage rend="cursiva">Siéntanse.</stage></l>
+                  <l>Hermanas, salíos afuera,</l>
+                  <l>y tu tambien, dulce encanto,</l>
+                  <l>que á su tiempo ya vereis</l>
+                  <l>la comedia.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Las.</hi> 4.</speaker>
+                  <l>Ya nos vamos. <stage rend="cursiva">Vanse.</stage></l>
+
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Lindamente.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Seor ingenios,</l>
+                  <l>solos habemos quedado:</l>
+                  <l>Empezad,</l>
+               </sp>
+
+               <pb n="9" source="Moreno_183_9.jpg" facs="fedora_ug8106910/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">9</fw>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Dice al principio,</l>
+                  <l>porque lo entendais mas claro,</l>
+                  <l>en verso escrita;</l>
+                  <l>La gran Comedia</l>
+                  <l>del robo de Páris</l>
+                  <l>con Elena.</l>
+                  <l>Habrá un gran puerto de mar,</l>
+                  <l>con su playa y arboleda:</l>
+                  <l>luego la calle mayor,</l>
+                  <l>que está en <name>Madrid</name>, toda entera</l>
+                  <l>la traerán cuatro gallegos</l>
+                  <l>con gran tiento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Eso es quimera, <stage rend="cursiva">Levántase.</stage></l>
+                  <l>pues para qué la queremos?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Quíere usted que mi señora Elena, </l>
+                  <l>cuando salga del navio,</l>
+                  <l>no encuentre ninguna tienda</l>
+                  <l>en que comprar Arracadas?</l>
+                  <l>Mire usted, qué friolera! <stage rend="cursiva">Siéntanse.</stage></l>
+                  <l>Pues saldrá con mil enanos,</l>
+                  <l>mil eunucos, dos mil negras,</l>
+                  <l>diez mil niños de á tres años,</l>
+                  <l>con botas, y con espuelas</l>
+                  <l>el gran Varela famoso</l>
+                  <l>que quiere robar á Elena.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Varela? Qué decis hombre! <stage rend="cursiva">Levántanse.</stage></l>
+                  <l>No fue Páris (hay tal pena?)</l>
+                  <l>el que de Elena hizo el robo?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Si señor, pero la idea</l>
+                  <l>es asi mas esquisita; </l>
+
+                  <pb n="10" source="Moreno_183_10.jpg"
+                     facs="fedora_ug8108582/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">10</fw>
+
+                  <l>en que el ingenio dá pruebas</l>
+                  <l>de su mucha gallardia.</l>
+                  <l>Mire usted, qué friolera! <stage rend="cursiva">Siéntanse.</stage></l>
+                  <l>Despues saldrán con buen órden,</l>
+                  <l>haciendo la guardia á Elena,</l>
+                  <l>ochocientos mil soldados,</l>
+                  <l>sin calzones ni cabezas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Eso ha de ser imposible.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Hombre</hi> 1.</speaker>
+                  <l>Mire usted, qué friolera!</l>
+
+               </sp>
+
+               <stage rend="cursiva">Sale Pacorro.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Pac.</speaker>
+                  <l>Señor qué risa me dá.</l>
+                  <l>Mis amas (qué buenas pescas)</l>
+                  <l>se han vuelto tortolas dulces,</l>
+                  <l>y tras los tórtolos vuelan.</l>
+                  <l>Tambien Casilda afufo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Qué dices?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pac.</speaker>
+                  <l>Que se las llevan.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Hácia donde?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pac.</speaker>
+                  <l>Hácia la casa </l>
+                  <l>caida, que está á las puertas</l>
+                  <l>del lugar, y están ya allá.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Y por si dan en la treta</l>
+                  <l>dando un pasito tras otro,</l>
+                  <l>me voy de aquesta manera.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pac.</speaker>
+                  <l>El guardar á las mugeres</l>
+                  <l>es muy dificil empresa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Sácame aquí los trabucos,</l>
+                  <l>las espadas y escopetas</l>
+
+                  <pb n="11" source="Moreno_183_11.jpg"
+                     facs="fedora_ug8108177/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">11</fw>
+
+                  <l>para tomar la venganza</l>
+                  <l>antes que logren mi afrenta. <stage rend="cursiva">Vánse.</stage></l>
+               </sp>
+
+               <stage rend="cursiva">Salen las mugeres y hombres.</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Muchachos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Juanillo qué hay?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Que ya vuestro hermano viene.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Las.</hi> 4.</speaker>
+                  <l>Hay tristes!</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Nada temais,</l>
+                  <l>Y pues ruido se siente,</l>
+                  <l>adentro todos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Adentro. <stage rend="cursiva">Vánse.</stage></l>
+               </sp>
+
+               <stage rend="cursiva">Salen el Mesonero con armas.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Esta la casa parece,</l>
+                  <l>y no parece que hay nadie.</l>
+
+                  <stage rend="cursiva">Suenan cadenas.</stage>
+
+                  <l>Pero por aquí.... (San Lesmes!)</l>
+                  <l>cadenas? Buenos estamos.</l>
+                  <l>Lo mejor será volverme.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale el hombre segundo de vizcaino.</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>O señores, bien venidas,</l>
+                  <l>porque me aclares ustedes</l>
+                  <l>estas cuentas de los amos,</l>
+
+                  <pb n="12" source="Moreno_183_12.jpg"
+                     facs="fedora_ug8110096/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">12</fw>
+
+                  <l>que no hay formas de entenderles.</l>
+                  <l>Diez cuartos y mas diez cuartos</l>
+                  <l>hanme dichos, que haces veintes:</l>
+                  <l>veintes, son dos veces diez;</l>
+                  <l>y dos veces diez son veintes:</l>
+                  <l>con que veintes con los diez,</l>
+                  <l>y mas los diez con los veintes,</l>
+                  <l>hacen veintes por aquí,</l>
+                  <l>y por aquí hacen los veintes.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>A este salvage, quien diablos</l>
+                  <l>ha de poder entenderle?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>No está ustedes en las cuentas?</l>
+                  <l>ya voy á decirlo, atiendes.</l>
+                  <l>Diez cuartos, y mas diez cuartos,</l>
+                  <l>hanme dichos que haces veintes...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Calla burro.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>Yo borricas:</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Qué es esto!</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2,</speaker>
+                  <l>Pues usted cuentes,</l>
+                  <l>y en ajustando las cuentas</l>
+                  <l>volveré á ver que me debes.</l>
+               </sp>
+
+               <stage rend="cursiva">Dale con matapecados y vase</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Maldita sea la casa,</l>
+                  <l>y quien me dijo viniese.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale el hombre <choice>
+                     <sic>tereero</sic>
+                     <corr>tercero</corr>
+                  </choice> de gallega</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
+                  <l>Es pusible que te veyu?</l>
+               </sp>
+
+               <pb n="13" source="Moreno_183_13.jpg" facs="fedora_ug8104288/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">13</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Señores, que encanto es este?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3,</speaker>
+                  <l>Ven á que las bendiciones</l>
+                  <l>ou cura luegu nos heche:</l>
+                  <l>Eu soy tu mullier, é tú</l>
+                  <l>mi marido que me quiere.</l>
+                  <l>Abrázame fillo, abraza.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Cuánto vá que á esta á cachetes</l>
+                  <l>la deshago las narices?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
+                  <l>Fillu, pois qué te suspende?</l>
+                  <l>Soy Dumiña <name>Ponferrada</name>,</l>
+                  <l>á quien adorando mueres.</l>
+                  <l>No me has dado la palabra</l>
+                  <l>de matrimonio?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson </speaker>
+                  <l>Qué emprendes, </l>
+                  <l>gallega de los demonios?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
+                  <l>Vengar aquestos desdenes,</l>
+                  <l>que estoy toda dada au demo;</l>
+                  <l>non has de volver á verme</l>
+                  <l>Toma tus fillos, ruín,</l>
+                  <l>picarote, é insolente.</l>
+               </sp>
+
+               <stage rend="cursiva">Pégale, y le entrega dos chiquillos, y váse.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Yo chiquillos? Yo gallega?</l>
+                  <l>Señores, qué me sucede!</l>
+                  <l>Mas vale que yo me vaya,</l>
+                  <l>antes que me desespere.</l>
+               </sp>
+
+               <pb n="14" source="Moreno_183_14.jpg" facs="fedora_ug8108899/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">14</fw>
+
+               <stage rend="cursiva">
+                  <lb/>Sale el hombre primero vestido de frances, con un <lb/>cesto, y en él
+                  figurado que trae bolas de jabon, pa- <lb/>peles de polvos y otras frioleras. </stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Pulvi di mati la pulgui.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Habrá desdicha mas fuerte!</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Hombre.</hi> 1.</speaker>
+                  <l>Pulvi di mati li pulgui,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Dime, demonio, qué véndes?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Pulvi di mati li pulgui.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Y cómo se mata?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Atiende:</l>
+                  <l>Mire usted, cogi li pulgui,</l>
+                  <l>mire usted, li boqui abierte,</l>
+                  <l>mire usted, li echi li pulvi,</l>
+                  <l>mire usted, li pulgui muerte.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Pues, Gavacho, no es mas fácil</l>
+                  <l>estregarla de esta suerte?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>O Monsiar, quis qui bu di,</l>
+                  <l>a hallarse en mi boda viene?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Se casa usted?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Güi, Monsiur.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Cuando?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Güi, Monsiur,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Atiende.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Güi, Monsiur.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Quién es la novia?</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Güi, Monsiur.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Calla, Olofernes.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Homb. 1 </speaker>
+                  <l>Güi, Monsiur.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Demonio, vete.</l>
+               </sp>
+
+               <pb n="15" source="Moreno_183_15.jpg" facs="fedora_ug8110286/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">15</fw>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Gúi, Monsiur.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Por qué me gruñes?</l>
+                  <l>Cochino, ó marrano, vete.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Yo groñir? O Sacre Diú!</l>
+                  <l>Tú peiras. <stage rend="cursiva">Pégale.</stage></l>
+               </sp>
+
+               <stage rend="cursiva">Sale el hombre segundo de vizcáino.</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>Usted me cuentes:</l>
+                  <l>Díez cuartos, y mas diez cuartos,</l>
+                  <l>hanme dicho que son veintes.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Huya de este laberinto.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale la gallega.</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 3.</speaker>
+                  <l>Meu fillu, ya se me quieres:</l>
+                  <l>abrázame fillu, abraza.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Maldita seas mil veces.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Pulvi di mati li Pulgui.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Ahora con eso te vienes?</l>
+                  <l>Pues á patadas, y á coces</l>
+                  <l>lo vereis.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Sale el hombre cuarto con disfráz de turco y dos <lb/>Morillos con sables. </stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 4.</speaker>
+                  <l>Quién de esta suerte</l>
+                  <l>alborota mi palacio?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mor.</speaker>
+                  <l>Este hombre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>San Nicomedes.</l>
+               </sp>
+
+               <pb n="16" source="Moreno_183_16.jpg" facs="fedora_ug8105445/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">16</fw>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 2.</speaker>
+                  <l>Este estorva sus hermanas</l>
+                  <l>se casen.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 4.</speaker>
+                  <l>Sin detenerse,</l>
+                  <l>que muera escuartizado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>No señor, tal no se piense.</l>
+                  <l>Cásense, que soy gustoso.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 4.</speaker>
+                  <l>Qué consentís?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Lindamente.</l>
+                  <l>Bien sabe Dios que es de miedo. <stage rend="cursiva">Ap.</stage></l>
+               </sp>
+
+               <stage rend="cursiva">Salen las cuatro mugeres.</stage>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Las.</hi> 4,</speaker>
+                  <l>Pues Hermano, aqui obedientes..,,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Daos las manos al instante,</l>
+                  <l>y sacula saculare.</l>
+               </sp>
+
+               <sp>
+                  <speaker><hi rend="cursiva">Homb.</hi> 1.</speaker>
+                  <l>Pues ya estamos perdonados,</l>
+                  <l>el chasco se manifieste,</l>
+                  <l>y sepa que ha sido burla,</l>
+                  <l>por no poder de otra suerte</l>
+                  <l>casarnos con sus hermanas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Meson.</speaker>
+                  <l>Pues ya atrás no he de volverme</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Viva, viva el Mesonero;</l>
+                  <l>y por si largo parece,</l>
+                  <l>pidamos perdon humildes</l>
+                  <l>á todos los concurrentes.</l>
+               </sp>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1850. <lb/>Imprenta de D. José M. Moreno. Descalzas, 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

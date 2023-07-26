@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_051">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La Gitanilla de Madrid. Nueva relación</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">La Gitanilla de Madrid. Nueva relacion en la que se
+                     declara la peregrina y rara historia de la gitanilla de Madrid: de la suerte
+                     que la robó una gitana en Zaragoza, y otros varios sucesos que acaecieron, como
+                     verá el curioso lector.</title>
+                  <title type="titulo_breve">La Gitanilla de Madrid. Nueva relacion</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6452237</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte. en la, qne se refiere como andando corriendo la España,
+                        vinieron á parar á Zaragoza, y en manos de la Justicia por un falso
+                        testimonio; y estando sentenciados á la horca, se descubrió ser hija del
+                        Virey.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_051_1.xml"
+                              facs="fedora_ug8107024/220,345,1337,1035/100,/0/default.jpg"
+                              >grabado_m_051_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q2807">
+                  <placeName key="Madrid">Madrid</placeName>
+                  <location>
+                     <geo>40.41694444444445 -3.703333333333333</geo>
+                  </location>
+               </place>
+               <place n="4" corresp="Q10305">
+                  <placeName key="Zaragoza">Zaragoza</placeName>
+                  <location>
+                     <geo>41.65 -0.88333333333333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="3" corresp="Q1853429">
+                  <placeName key="Valverde">Valverde</placeName>
+                  <location>
+                     <geo>27.809685 -17.9151468</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4857424.html" type="tipo_texto">Relaciones de sucesos</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-03" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105289/manifest">
+      <graphic url="fedora_ug8107024/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_051_1.jpg" facs="fedora_ug8107024/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 61.</fw>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>LA GITANILLA DE MADRID. <lb/>NUEVA RELACION </head>
+               <head rend="cursiva" type="subtitulo">
+                  <lb/>en la que se declara la peregrina y rara historia de la gitanilla de Madrid:
+                  <lb/>de la suerte que la robó una gitana en Zaragoza, y otros varios sucesos
+                  <lb/>que acaecieron, como verá el curioso lector. </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">Publique á voces la fama,</l>
+                  <l>por los reinos mas remotos,</l>
+                  <l>la mas peregrina historia</l>
+                  <l>el caso mas prodigioso</l>
+                  <l>el mas estraño prodigio;</l>
+                  <l>el suceso mas heróico,</l>
+                  <l>que jamás suceder pudo</l>
+                  <l>desde Adan hasta nosotros.</l>
+                  <l>Oigan los que amantes finos</l>
+                  <l>son prisioneros dichosos,</l>
+                  <l>sujetando su alvedrío</l>
+                  <l>á los casos peligrosos</l>
+                  <l>que resultan muchas veces</l>
+                  <l>de los lances amorosos.</l>
+                  <l>No quiero gastar mas tiempo</l>
+                  <l>en fraces ni en episodios,</l>
+
+                  <pb n="2" source="Moreno_051_2.jpg"
+                     facs="fedora_ug8106206/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>sino pasar al asunto</l>
+                  <l>que es digno de ser notorio,</l>
+                  <l>y así voy á dar principio,</l>
+                  <l>atencion, noble auditorio.</l>
+                  <l>En la mas célebre pátria</l>
+                  <l>de cuantas el claro Apolo</l>
+                  <l>penetra con sus hermosos</l>
+                  <l>y brillantes rayos de oro,</l>
+                  <l>que en Zaragora la bella,</l>
+                  <l>cuyos timbres no remonto</l>
+                  <l>porque por mucho que diga</l>
+                  <l>siempre quedaré muy corto.</l>
+                  <l>En este jardin ó parque,</l>
+                  <l>residía un poderoso</l>
+                  <l>conde, de muy alta esfera,</l>
+                  <l>y de grande patrimonio,</l>
+                  <l>casado con una diosa,</l>
+                  <l>igual á su sér en todo.</l>
+                  <l>Vivian con mucho gusto,</l>
+                  <l>con quietud, paz y reposo</l>
+                  <l>solamente deseaban.</l>
+                  <l>para encontrarse dichosos,</l>
+                  <l>de bienes un sucesor,</l>
+                  <l>para que con este logro</l>
+                  <l>se coronasen las dichas</l>
+                  <l>en tan feliz matrimonio.</l>
+                  <l>Con este deseo, pues,</l>
+                  <l>hicieron los dos esposos</l>
+                  <l>á la soberana Madre</l>
+                  <l>de Dios Todopoderoso,</l>
+                  <l>Virgen santa del Pilar,</l>
+                  <l>una promesa gustosos,</l>
+                  <l>diciendo: que si lograban</l>
+                  <l>sucesion, para su abono,</l>
+                  <l>le harian un novenario</l>
+                  <l>de fiestas muy suntuoso,</l>
+                  <l>de misas y de sermones,</l>
+                  <l>juegos, torneos y toros.</l>
+                  <l>Hecha pues esta promesa,</l>
+                  <l>pasaron dias muy pocos</l>
+                  <l>cuando la hermosa condesa</l>
+                  <l>amaneció en cinta, y tedo</l>
+                  <l>fueron gustos y placeres,</l>
+                  <l>de grande alegría asomos.</l>
+                  <l>Pasados los nueve meses,</l>
+                  <l>sacó á luz un prodigioso</l>
+                  <l>estremo de la belleza</l>
+                  <l>en una niña, que solo</l>
+                  <l>se esmeró el cielo en dotarla</l>
+                  <l>de perfecciones á colmo.</l>
+                  <l>No refiero los festines</l>
+                  <l>que celebró el conde heróico,</l>
+                  <l>que seria perder el tiempo,</l>
+                  <l>y cansar al auditorio.</l>
+                  <l>Digo, pues, que recibió</l>
+                  <l>de los nobles muy gustoso</l>
+                  <l>los parabienes, y fué</l>
+                  <l>todo placer, gusto y gozo.</l>
+                  <l>Crióse la hermosa niña,</l>
+                  <l>siendo el espejo de todos,</l>
+                  <l>hasta dos años cumplidos,</l>
+                  <l>cuando el conde muy gozoso</l>
+                  <l>determinó celebrar</l>
+                  <l>al simulacro precioso</l>
+                  <l>de la Virgen del Pilar</l>
+                  <l>el novenario; y ansiosos</l>
+                  <l>buscaron los oradores</l>
+                  <l>inteligentes y doctos:</l>
+                  <l>y los músicos mas diestros,</l>
+                  <l>con gran prevension en todo.</l>
+                  <l>Llegó el dia señalado,</l>
+                  <l>cuando de todo el contorno</l>
+                  <l>á <name>Zaragoza</name> acudió</l>
+                  <l>un concurso numeroso.</l>
+                  <l>Con grande acompañamiento</l>
+                  <l>y muy lucidos adornos,</l>
+                  <l>el conde y su esposa parten</l>
+                  <l>para el templo grodijioso,</l>
+                  <l>y la nodriza tambien,</l>
+                  <l>llevando en sus brazos propios</l>
+                  <l>la niña, por quien se hacian</l>
+                  <l>estos obsequios honrosos.</l>
+
+                  <pb n="3" source="Moreno_051_3.jpg"
+                     facs="fedora_ug8106450/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>Era tan grande el tumulto</l>
+                  <l>que les era muy costoso</l>
+                  <l>el poder cruzar las calles</l>
+                  <l>por el gentio copioso.</l>
+                  <l>lban el conde y condesa</l>
+                  <l>mano á mano y hombro á hombro</l>
+                  <l>el ama tambien con ellos,</l>
+                  <l>y los pages, pero todos</l>
+                  <l>con tal gusto, que en sus pechos</l>
+                  <l>no cabia el alborozo.</l>
+                  <l>¡Pero ay Dios, y qué fingidas</l>
+                  <l>son de este mundo engañoso</l>
+                  <l>las glorias y los contentos;</l>
+                  <l>qué poco duran, qué poco!</l>
+                  <l>Decia bien el que dijo,</l>
+                  <l>que cuando es mayor el gozo,</l>
+                  <l>suele ser mayor la pena</l>
+                  <l>que sobreviene á los ojos.</l>
+                  <l>¡Quién habia de decir,</l>
+                  <l>que un dia de tanto gozo,</l>
+                  <l>se habia de reducir</l>
+                  <l>á pena, llanto y asombro!</l>
+                  <l>Así, pues, oyentes mios,</l>
+                  <l>sucedió, y fué de este modo;</l>
+                  <l>que yendo los dos consortes</l>
+                  <l>para el templo primoroso;</l>
+                  <l>con toda la comitiva,</l>
+                  <l>muy alegres y gozosos,</l>
+                  <l>entre el confuso bullicio,</l>
+                  <l>sin saber por donde ó como</l>
+                  <l>una gitana aparece</l>
+                  <l>inducida del demonio:</l>
+                  <l>llega del ama á los brazos</l>
+                  <l>y hurta el precioso tesoro</l>
+                  <l>de la niña, y muy veloz</l>
+                  <l>huyó por medio de todos,</l>
+                  <l>sin que persona ninguna</l>
+                  <l>reparara en este robo,</l>
+                  <l>que siempre en lances como este</l>
+                  <l>suelen ser ciegos y sordos.</l>
+                  <l>El ama muy afligida</l>
+                  <l>con suspiros y sollozos</l>
+                  <l>le dió parte á la condesa;</l>
+                  <l>considere aqui el curioso</l>
+                  <l>cuál quedarian los padres,</l>
+                  <l>oyendo este lastimoso</l>
+                  <l>suceso tan no esperado!</l>
+                  <l>Quedáronse muy absortos,</l>
+                  <l>y de la pena en el suelo</l>
+                  <l>los dos cayeron redondos,</l>
+                  <l>con un fatal accidente,</l>
+                  <l>causando grande alboroto.</l>
+                  <l>Los pages que acompañaban</l>
+                  <l>á los queridos esposos</l>
+                  <l>confusos y atribulados,</l>
+                  <l>viendo el caso lastimoso</l>
+                  <l>en hombros los condujeron</l>
+                  <l>al palacio cuidadosos,</l>
+                  <l>buscando médicos sábios,</l>
+                  <l>que diligentes y ansiosos</l>
+                  <l>aplicaron los remedios</l>
+                  <l>mas oportunos y propios;</l>
+                  <l>y con estas diligencias,</l>
+                  <l>aunque con grandes sollozos,</l>
+                  <l>volvieron en si los dos;</l>
+                  <l>mas con llanto tan copioso</l>
+                  <l>que el corazon parecia</l>
+                  <l>destilaban por los ojos.</l>
+                  <l>La condesa suspiraba,</l>
+                  <l>y con ayes dolorosos,</l>
+                  <l>decia querida prenda,</l>
+                  <l>á quien con el alma adoro,</l>
+                  <l>pedazo de mis entrañas,</l>
+                  <l>de mi cara espejo hermoso,</l>
+                  <l>¡dónde estarás, hija mia!</l>
+                  <l>quién te dará algun socorro!</l>
+                  <l>El conde tambien lloraba,</l>
+                  <l>como padre, y congojoso</l>
+                  <l>hacía dos mil estremos,</l>
+                  <l>y con cuidado celoso</l>
+                  <l>hizo várias diligencias,</l>
+                  <l>despachando muchos propios</l>
+
+                  <pb n="4" source="Moreno_051_4.jpg"
+                     facs="fedora_ug8109860/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>por diferentes caminos;</l>
+                  <l>pero fué dificultoso</l>
+                  <l>hallar consuelo, pues nadie</l>
+                  <l>trajo el indicio mas corto,</l>
+                  <l>como si hubiera caido</l>
+                  <l>en el mas profundo pozo.</l>
+                  <l>Aumentóse la congoja</l>
+                  <l>creció el llanto doloroso,</l>
+                  <l>duplicáronse las, penas:</l>
+                  <l>pero me será forzoso</l>
+                  <l>dejarles en este estado</l>
+                  <l>porque tan grandes ahogos,</l>
+                  <l>los padres que tienen hijos</l>
+                  <l>pueden comteplarlos solo.</l>
+                  <l>mientras vuelvo á la gitana,</l>
+                  <l>que con paso presuroso,</l>
+                  <l>así como llego al hato,</l>
+                  <l>en donde estaban los otros,</l>
+                  <l>despojó lá tierna niña.</l>
+                  <l>de los vestidos costosos,</l>
+                  <l>y dentro de un cofrecillo</l>
+                  <l>con gran cuidado guardólos</l>
+                  <l>y vistió de gitanilla</l>
+                  <l>aquel ángel prodijioso;</l>
+                  <l>y aunque afligida lloraba,</l>
+                  <l>con halagos cariñosos.</l>
+                  <l>la consolaron;y en fin, s.</l>
+                  <l>partieron de allí muy pronto,</l>
+                  <l>Anduvieron por provincias</l>
+                  <l>y paises muy remotos..</l>
+                  <l>criáronla á sus costumbres,</l>
+                  <l>y esmerándose en todo</l>
+                  <l>en enseñarle á danzar,</l>
+                  <l>y cantar versos sonoros.</l>
+                  <l>Diéronla á entender, que aquella</l>
+                  <l>era su madre, y su esposo</l>
+                  <l>era su querido padre,</l>
+                  <l>ella inocente creyólo.</l>
+                  <l>Creció en edad, y era tál</l>
+                  <l>la belleza de su rostro,</l>
+                  <l>que pudo rendir á cuantos</l>
+                  <l>miraban su talle hermoso.</l>
+                  <l>Salió en danzar tan diestra</l>
+                  <l>que era admiracion de todos,</l>
+                  <l>y en un salterio tañía</l>
+                  <l>con aire tan primoroso.</l>
+                  <l>que si la voz entonaba.</l>
+                  <l>elevaba al auditorio,</l>
+                  <l>dudando si era algun ángel</l>
+                  <l>por lo agradable y gracioso.</l>
+                  <l>En fin, tan privilegiada</l>
+                  <l>era del Cielo en un todo</l>
+                  <l>que por su fama lograban</l>
+                  <l>hospedages muy honrosos</l>
+                  <l>su habilidad celebrando</l>
+                  <l>donde quiera los mas doctos,</l>
+                  <l>Yendo, pues, por varias tierras,</l>
+                  <l>llegaron á donde el sólio</l>
+                  <l>tiene nuestro gran monarca</l>
+                  <l>y entre aquellos poderosos</l>
+                  <l>duques, condes y marqueses</l>
+                  <l>en los saraos famosos</l>
+                  <l>se introdujeron, y tuvo</l>
+                  <l>su habilidad tanto abono,</l>
+                  <l>que á mas de adquirir gran fama,</l>
+                  <l>logró regalos preciosos.</l>
+                  <l>Tanto su fama voló,</l>
+                  <l>y se estableció de modo.</l>
+                  <l>que llegó al rey la noticia,</l>
+                  <l>el cual viendo los apoyos</l>
+                  <l>con tanto encarecimiento</l>
+                  <l>de verla muy deseoso,</l>
+                  <l>á dos grandes les dió orden</l>
+                  <l>que aquella noche á las ocho.</l>
+                  <l>ante su real presencia</l>
+                  <l>la lleven, sin que haya estorvo.</l>
+                  <l>Párome en aqueste punto</l>
+                  <l>noble y discreto auditorio</l>
+                  <l>que Vicente Benavente</l>
+                  <l>propone darle al curioso,</l>
+                  <l>en otra segunda parte,</l>
+                  <l>largas noticias de todo.</l>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_051_5.jpg"
+                     facs="fedora_ug8106322/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">SEGUNDA PARTE</head>
+                  <head rend="cursiva" type="subtitulo_parte">
+                     <l>en la, <choice>
+                           <sic>qne</sic>
+                           <corr>que</corr>
+                        </choice> se refiere como andando corriendo la</l>
+                     <l><name>España</name>, vinieron á parar á <name>Zaragoza</name>, y en</l>
+                     <l>manos de la Justicia por un falso testimonio;</l>
+                     <l>y estando sentenciados á la horca, se</l>
+                     <l>descubrió ser hija del Virey.</l>
+                  </head>
+
+                  <l rend="indent">Ya dije, como mandó</l>
+                  <l>el rey que ante su presencia,</l>
+                  <l>aquella próxima noche,</l>
+                  <l>llevasen la bella Estela,</l>
+                  <l>que este fué el nombre que tuvo</l>
+                  <l>aquella veldad discreta.</l>
+                  <l>Cumplióse el real mandato</l>
+                  <l>con muy pronta diligencia;</l>
+                  <l>entró por el real palacio,</l>
+                  <l>subió, y con mucha destreza</l>
+                  <l>hizo los acatamientos</l>
+                  <l>ante la magested régia.</l>
+                  <l>y postrándose á sus plantas,</l>
+                  <l>sus reales manos besa,</l>
+                  <l>diciéndoles gran Señor,</l>
+                  <l>á quien Dios por su elemencia</l>
+                  <l>prospere en felicidades</l>
+                  <l>y aumente la real diadema,</l>
+                  <l>á vuestras plantas me rindo,</l>
+                  <l>sujeta á vuestra obediencia,</l>
+                  <l>aunque indigna, y os suplico,</l>
+                  <l>perdoneis mi inadvertencia.</l>
+                  <l>El rey mandó que al instante</l>
+                  <l>un sarao dispusieran;</l>
+                  <l>ordenóse, y con tal arte</l>
+                  <l>se portó la linda Estela,en un vesubio amoroso,</l>
+                  <l>que quedó admirado el rey,</l>
+                  <l>aficionada la reina,</l>
+                  <l>apasionados los grandes;.</l>
+                  <l>y todos á competencia</l>
+                  <l>la rendian los aplausos,</l>
+                  <l>víctores y enhorabuenas</l>
+                  <l>Dijo el rey que este sarao</l>
+                  <l>én la noche venidera</l>
+                  <l>se habia de proseguir,</l>
+                  <l>que era gustonde su alteza,</l>
+                  <l>y le dió de regalía</l>
+                  <l>dos mil escudos á Estela.</l>
+                  <l>Acabóse la funcion,</l>
+                  <l>cuando sagaz y discreta,</l>
+                  <l>haciendo el debido obsequio,</l>
+                  <l>al rey le pidió licencia</l>
+                  <l>para partirse, y de todos</l>
+                  <l>se despidió con prudencia.</l>
+                  <l>Quedaron muy admirados</l>
+                  <l>de su docta inteligencia;</l>
+                  <l>pero el conde de <name>Valverde</name>,</l>
+                  <l>que con mayor advertencia</l>
+                  <l>atendia á sus acciones</l>
+                  <l>y habilidades diversas,</l>
+                  <l>quedó tan apasionado,</l>
+                  <l>que si bien se considera,</l>
+                  <l>se le transformó el festin</l>
+                  <l>en un piélago de ideas,</l>
+                  <l>principio de sus tragedias.</l>
+                  <l>Hallábase tan prendado,</l>
+                  <l>que séntidos y potencias</l>
+
+                  <pb n="6" source="Moreno_051_6.jpg"
+                     facs="fedora_ug8109982/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>voluntariamente ofrece,</l>
+                  <l>sin que atienda á su nobleza</l>
+                  <l>porque el amar tarde ó nunca</l>
+                  <l>en el desdoro contempla.</l>
+                  <l>Vino la siguienté noche,</l>
+                  <l>y si bien en la primera</l>
+                  <l>sé porto Estela, parece</l>
+                  <l>que en la segunda se empeña</l>
+                  <l>á que con admiraciones</l>
+                  <l>celebre su gentileza,</l>
+                  <l>siendo esto para el conde,</l>
+                  <l>como al fuego añadir leña.</l>
+                  <l>Prosiguió en fin muchas noches,</l>
+                  <l>siendo en cada una de ellas</l>
+                  <l>un prodigio los aplausos</l>
+                  <l>que logró: con que la reina,</l>
+                  <l>viendo del rey los estremos</l>
+                  <l>comenzó á formar sospechas,</l>
+                  <l>trocándose su aficion</l>
+                  <l>en celos que la atormentan;</l>
+                  <l>y para salir de dudas,</l>
+                  <l>y dar fin á sus quimeras,</l>
+                  <l>dió secretamente órden</l>
+                  <l>que de la córte salieran</l>
+                  <l>Estela y su compañía,</l>
+                  <l>sin que un punto se detengan,</l>
+                  <l>so pena de su desgracia.</l>
+                  <l>Supiéronlo, y con presteza</l>
+                  <l>ordenaron su viage</l>
+                  <l>con notable ditigencia.</l>
+                  <l>Llegó al conde de <name>valverde</name></l>
+                  <l>la noticia de esta ausencia</l>
+                  <l>el cual instantáneamente</l>
+                  <l>mandó que se detuvieran;</l>
+                  <l>pero le satisfacieron,</l>
+                  <l>diciéndole que era fuerza</l>
+                  <l>salir luego de la córte,</l>
+                  <l>que su Magestad lo ordena.</l>
+                  <l>Quedóse pasmado el conde: </l>
+                  <l>pero como considera</l>
+                  <l>que dentro de su corazon</l>
+                  <l>quedaba estampada Estela,</l>
+                  <l>decia consigo mismo:</l>
+                  <l>si este lucero se ausenta</l>
+                  <l>¿quien dará alivio á mis ánsias,</l>
+                  <l>y á mi pensamiento tregua?</l>
+                  <l>¿quién ha de poder vivir,</l>
+                  <l>sin gozar de su presencia!</l>
+                  <l>Conde soy, ella gitana;</l>
+                  <l>mas ¿qué importa que lo sea?</l>
+                  <l>¿acaso será el primero</l>
+                  <l>que desluzca mi nobleza?</l>
+                  <l>Dios fué quien me crió conde,</l>
+                  <l>en tan baja esfera á ella;</l>
+                  <l>pero tambien puede ser,</l>
+                  <l>que esté viviendo encubierta;</l>
+                  <l>en fin, sea lo que fuere,</l>
+                  <l>vo no puedo estar sin ella,</l>
+                  <l>donde hay amor no hay reparo,</l>
+                  <l>amarla ó morir es fuerza.</l>
+                  <l>Llamó aparte al que juzgaba</l>
+                  <l>padre de aquella belleza,</l>
+                  <l>y le dijo: señor mio,</l>
+                  <l>ya que la fortuna adversa</l>
+                  <l>de esta suerte lo ha ordenado,</l>
+                  <l>es preciso que usted sepa,</l>
+                  <l>como estoy determinado</l>
+                  <l>(sin lisonja en la materia)</l>
+                  <l>á ser dichoso marido</l>
+                  <l>de la bellísima Estela.</l>
+                  <l>A qué respondió el gitano:</l>
+                  <l>señor, mire su escelencia,</l>
+                  <l>el que de una á la otra parte</l>
+                  <l>es mucha la diferencia</l>
+                  <l>y aquesta desigualdad</l>
+                  <l>puede suceder que sea</l>
+                  <l>motivo de arrepentirse,</l>
+                  <l>cuando remedio no tenga;</l>
+                  <l>no faltan en esta córte</l>
+                  <l>damas de su igual esfera,</l>
+                  <l>y así puede refrenar</l>
+                  <l>esa loca pasion ciega.</l>
+
+                  <pb n="7" source="Moreno_051_7.jpg"
+                     facs="fedora_ug8109884/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>Dijo al conde: no es posible,</l>
+                  <l>por que si posible fuera</l>
+                  <l>no llegara á tal estremo,</l>
+                  <l>ni en tal confusion me viera.</l>
+                  <l>Replicó el gitano, y dijo:</l>
+                  <l>pues si el amor que profesa</l>
+                  <l>su escelencia es verdadero,</l>
+                  <l>se ha de examinar la prueba</l>
+                  <l>para quedar satisfechos,</l>
+                  <l>y ha de ser de esta manera:</l>
+                  <l>que si pretende lograr</l>
+                  <l>lo que su aficion desea,</l>
+                  <l>se ha de venir con nosotros</l>
+                  <l>vistiendo nuestra librea,</l>
+                  <l>dos años corriendo el mundo,</l>
+                  <l>y sabrás por esperiencia</l>
+                  <l>nuestro modo de vivir:</l>
+                  <l>y si al cabo se contenta,</l>
+                  <l>luego puede disponer</l>
+                  <l>lo que de su gusto sea.</l>
+                  <l>Aceptó el partido el conde,</l>
+                  <l>que el amor mucho atropella,</l>
+                  <l>y luego instantáneamente</l>
+                  <l>todos sus estados deja</l>
+                  <l>en manos de un tio suyo,</l>
+                  <l>diciéndole, que se ausenta</l>
+                  <l>de la córte con secreto,</l>
+                  <l>á cumplir una promesa.</l>
+                  <l>Vistióse en fin de gitano,</l>
+                  <l>(¡qué caro el amor le cuesta!)</l>
+                  <l>trocó su palácio rico,</l>
+                  <l>su regalo y asistencia</l>
+                  <l>en un miserable estado,</l>
+                  <l>en el que se representa.</l>
+                  <l>Quien era conde en la córte</l>
+                  <l>adornado de grandeza,</l>
+                  <l>se vé en trage de gitano,</l>
+                  <l>que es la última miseria.</l>
+                  <l>Quién blanda cama tenia,</l>
+                  <l>que descanso al cuerpo era,</l>
+                  <l>ahora diversas noches</l>
+                  <l>en el campo á la inclemencia,</l>
+                  <l>del tiempo se vé abatido,</l>
+                  <l>sin que remediarlo pueda;</l>
+                  <l>pero nada siente el conde,</l>
+                  <l>todo con gusto lo lleva,</l>
+                  <l>porque á vista de quien ama</l>
+                  <l>todo es gloria, nada es pena.</l>
+                  <l>Cumplidos veinte y dos meses</l>
+                  <l>cabales por buena cuenta,</l>
+                  <l>llegaron á un lugarcillo</l>
+                  <l>de <name>Zaragoza</name> dos leguas,</l>
+                  <l>y en el meson se hospedaron,</l>
+                  <l>que así lo quiso su estrella.</l>
+                  <l>Tenía este mesonero</l>
+                  <l>una hija, que en belleza</l>
+                  <l>pudo competir con Venus,</l>
+                  <l>y enamorada y resuelta</l>
+                  <l>del conde, nuevo gitano</l>
+                  <l>le hacía dos mil finezas;</l>
+                  <l>pero viendo que no hallaba</l>
+                  <l>alguna correspondencia,</l>
+                  <l>determinó declarar,</l>
+                  <l>la pasion que la atormenta.</l>
+                  <l>El la despidió, diciendo</l>
+                  <l>que freno á su amor pusiera,</l>
+                  <l>porque no le convenia;</l>
+                  <l>y ella porfiaba nécia</l>
+                  <l>diciendo, con él se iria.</l>
+                  <l>Y viéndola tan resuelta,</l>
+                  <l>el conde la desengaña;</l>
+                  <l>mas viendo que le despreciá,</l>
+                  <l>quiso de él tomar venganza,</l>
+                  <l>y en su mochila le encierra</l>
+                  <l>todo un servicio de plata;</l>
+                  <l>y cuando estuvieron fuera,</l>
+                  <l>dijo á sus padres, faltaba</l>
+                  <l>la plata que dicho queda.</l>
+                  <l>Fuése el padre á la justicia,</l>
+                  <l>salieron mas de cuarenta</l>
+                  <l>hombres, y los alcanzaron:</l>
+                  <l>registráronlos, y encuentran</l>
+
+                  <pb n="8" source="Moreno_051_8.jpg"
+                     facs="fedora_ug8109927/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>las prendas: con que el alcalde,</l>
+                  <l>falto de toda prudencia,</l>
+                  <l>les ultrajó de palabras,</l>
+                  <l>alzó la mano violenta</l>
+                  <l>para darle un bofeton</l>
+                  <l>al conde: mas con fiereza</l>
+                  <l>de una crul estocada</l>
+                  <l>muerto cadáver lo deja.</l>
+                  <l>Por fin, fueron á la cárcel,</l>
+                  <l>y con grillos y cadenas,</l>
+                  <l>al otro siguiente dia</l>
+                  <l>á <name>Zaragoza</name> los llevan.</l>
+                  <l>A este tiempo el que erá padre</l>
+                  <l>de la bellísima Estela,</l>
+                  <l>se hallaba siendo virey,</l>
+                  <l>y fué quien dió la sentencia</l>
+                  <l>de que ahorquen los gitanos;</l>
+                  <l>y en este tropel de penas</l>
+                  <l>iban las pobres gitanas</l>
+                  <l>suplicando á la vireina,</l>
+                  <l>intercediese piadosa,</l>
+                  <l>que hubiera alguna clemencia:</l>
+                  <l>mas no pudo conseguirse</l>
+                  <l>y viendo que el plazo llega</l>
+                  <l>de entrarlos en capilla;</l>
+                  <l>y que remedio no encuentran</l>
+                  <l>la que entonces fué madre</l>
+                  <l>finjida de nuéstra Estela,</l>
+                  <l>de la vireina á las plantas</l>
+                  <l>se postró, y su mano besa</l>
+                  <l>diciéndola: gran señora,</l>
+                  <l>como el perdon me conceda</l>
+                  <l>la declararé un enigma,</l>
+                  <l>que puede ser que nos sea</l>
+                  <l>de gran gusto pará todos.</l>
+                  <l>Y para saber lo que era,</l>
+                  <l>la perdonó; y la gitana</l>
+                  <l>por estenso la dió cuenta</l>
+                  <l>de todo lo referido,</l>
+                  <l>diciéndola. como era</l>
+                  <l>su hija lo que miraba;</l>
+                  <l>y para prueba le enseña</l>
+                  <l>los vestidos que guardaba</l>
+                  <l>en <choice>
+                        <sic>uu</sic>
+                        <corr>un</corr>
+                     </choice> cofre; y viendo cierta</l>
+                  <l>la novedad, del contento</l>
+                  <l>cayó desmayada en tierra.</l>
+                  <l>En esto subió el virey</l>
+                  <l>y vuelta en sí la, vireina,</l>
+                  <l>le dió cuenta del suceso.</l>
+                  <l>y también declaró Estela,</l>
+                  <l>como el que estaba en la cárcel</l>
+                  <l>de muerte con la sentencia,</l>
+                  <l>era el conde de <name>Valverde</name>,</l>
+                  <l>que ha de casarse con ella.</l>
+                  <l>Todo fué placer y gusto.</l>
+                  <l>fueron y lo echaron fuera:</l>
+                  <l>el conde dió su descargó,</l>
+                  <l>y quedó como quien era:</l>
+                  <l>á los gitanos les dieron</l>
+                  <l>bienes con que mantuvieran.</l>
+                  <l>decentemente su vida,</l>
+                  <l>luego las bodas celebran.</l>
+                  <l>Súpose en la córte el caso</l>
+                  <l>de lo cual muchos se alegran,</l>
+                  <l>y á la Vírgen del Pilar</l>
+                  <l>le hicieron solemnes fiestas</l>
+                  <l>en hacimiento de gracias</l>
+                  <l>de dicha tan placentera,</l>
+                  <l>Y Vicente Benavente</l>
+                  <l>de esta gustosa novela</l>
+                  <l>concluye la relacion,,</l>
+                  <l>y humilde el perdon espera,</l>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859. <lb/>Imp. de D. J. María Moreno, calle Juan de la Cabra, núm.
+                  1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

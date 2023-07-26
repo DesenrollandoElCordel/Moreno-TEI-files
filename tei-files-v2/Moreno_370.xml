@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_370">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nueva relación que hace Doña Margarita Cachuela</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Nueva relacion que hace Doña Margarita Cachuela, de
+                     los vicios y costumbres de los hombres, aduirtiendo á las mujeres no se
+                     casen.</title>
+                  <title type="titulo_breve">Nueva relacion que hace Doña Margarita Cachuela</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5069775</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 296</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Segunda parte. En que declara Don Fabian, esposo de Margarita, cuanto
+                        con ella le ha sucedido.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_370_1.xml"
+                              facs="fedora_ug8103323/452,208,320,658/100,/0/default.jpg"
+                              >grabado_m_370_1</item>
+                           <item corresp="grabado_m_370_2.xml"
+                              facs="fedora_ug8103323/789,360,361,551/100,/0/default.jpg"
+                              >grabado_m_370_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q8378">
+                  <placeName key="Palencia">Palencia</placeName>
+                  <location>
+                     <geo>42.016666666667 -4.5333333333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106041/manifest">
+      <graphic url="fedora_ug8103323/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_370_1.jpeg" facs="fedora_ug8103323/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 296.</fw>
+
+               <head rend="negrita" type="primer_titulo">NUEVA RELACION</head>
+               <head rend="cursiva" type="subtitulo">
+                  <lb/>que hace doña Margarita Cachuela, de los vicios y costumbres de los hombres,
+                  <lb/>advirtiendo á las mujeres no se casen. </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">Vengan acá las mujeres,</l>
+                  <l>vengan todas á escuchar</l>
+                  <l>esta nueva relacion</l>
+                  <l>que las tiene que agradar.</l>
+                  <l>Y es de los hombres</l>
+                  <l>que nos quieren mal, </l>
+                  <l>mereciendo ellos</l>
+                  <l>pena capital.</l>
+                  <l>De nosotras dicen</l>
+                  <l>dos mil picardías,</l>
+                  <l>y son las que hacen</l>
+                  <l>ellos todos los dias.</l>
+                  <l rend="indent">Tengo ciento trece años</l>
+                  <l>que cumplí el mes de Enero,</l>
+                  <l>y Margarita me llamo</l>
+                  <l>como lo dirá mi abuelo. </l>
+                  <l>Con once maridos</l>
+                  <l>he sido casada, </l>
+                  <l>muy bien de los hombres</l>
+                  <l>estoy enterada.</l>
+                  <l>Así la verdad</l>
+                  <l>diré sin recelo,</l>
+                  <l>tanto de casados</l>
+                  <l>como de solteros.</l>
+                  <l rend="indent">Os diré de los mocitos</l>
+                  <l>de chaquetilla y gaban, </l>
+                  <l>porque todos son iguales</l>
+                  <l>en materia de engañar. </l>
+                  <l>Cuando á una mocita</l>
+                  <l>van á festejar </l>
+                  <l>santitos parecen</l>
+                  <l>al modo de hablar.</l>
+                  <l>Todos su palabra </l>
+                  <l>dicen cumplirán,</l>
+                  <l>mas son como el ouco</l>
+                  <l>que luego se van.</l>
+                  <l rend="indent">Voy á decirlas ahora </l>
+                  <l>cuanto á mí me ha sucedido</l>
+                  <l>cuando moza con galanes, </l>
+                  <l>y despues con los maridos.</l>
+                  <l>De soltera un dia</l>
+                  <l>yo estaba á la puerta, </l>
+                  <l>muy entretenida</l>
+                  <l>haciendo calceta. </l>
+                  <l>Cuando se aproxima</l>
+                  <l>un jóven gallardo,</l>
+                  <l>alla vá, amiguitas,</l>
+                  <l>el primer petardo.</l>
+                  <l rend="indent">Sacó al punto la petaca</l>
+                  <l>que tenia en la levita, </l>
+                  <l>y despues de saludarme</l>
+                  <l>con muy tiernas palabritas.</l>
+
+                  <pb n="2" source="Moreno_370_2.jpeg"
+                     facs="fedora_ug8103704/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>Me ha pedido lumbre,</l>
+                  <l>yo como ignorante</l>
+                  <l>le dije al momento</l>
+                  <l>pase usted adelante, </l>
+                  <l>y sin detenerse</l>
+                  <l>pasó á la cocina, </l>
+                  <l>encendió el cigarro,</l>
+                  <l>luego á mí se arrima.</l>
+                  <l rend="indent">Y me dice; bella, hermosa, </l>
+                  <l>de las mas lindas de Mayo,</l>
+                  <l>si vos quereis ser mi esposa</l>
+                  <l>aquí teneis vuostro esclavo.</l>
+                  <l>Yo dije que sí</l>
+                  <l>y sin picardía,</l>
+                  <l>creyendo que él</l>
+                  <l>la verdad decia.</l>
+                  <l>Me pidió un favor,</l>
+                  <l>yo se lo entregué,</l>
+                  <l>lo que allí perdí</l>
+                  <l>no he vuelte á tener.</l>
+                  <l rend="indent">Asi mucho ojo mocitas, </l>
+                  <l>de los jóvenes de hoy dia,</l>
+                  <l>no fiarse en sus palabras</l>
+                  <l>porque todo es picardía.</l>
+                  <l>Si os solicitan</l>
+                  <l>para casamiento, </l>
+                  <l>no les presteis nada,</l>
+                  <l>cuidado con esto.</l>
+                  <l>Porque si les dais</l>
+                  <l>alguna cosita,</l>
+                  <l>sin ello quedais</l>
+                  <l>como Margarita.</l>
+                  <l rend="indent">No digo mas de los mozos</l>
+                  <l>aunque mucho me ha faltado,</l>
+                  <l>por adelantar diré</l>
+                  <l>de los señores casados.</l>
+                  <l>Mientras que pretenden</l>
+                  <l>son muy placenteros,</l>
+                  <l>siempre cariñosos</l>
+                  <l>y haciendo requiebros,</l>
+                  <l>pero ya casados,</l>
+                  <l>por cualquier cosilla</l>
+                  <l>jabon de <name>Palencia</name></l>
+                  <l>te va á las costillas.</l>
+                  <l rend="indent">Nunca por entero dan</l>
+                  <l>el jornal á la mujer,</l>
+                  <l>que siempre se han de quedar</l>
+                  <l>para sus bromas correr.</l>
+                  <l>Aunque poco ganen,</l>
+                  <l>á ollos no les falta; </l>
+                  <l>en cafés, tabernas,</l>
+                  <l>buenas bromas pasan, </l>
+                  <l>y si entre semana </l>
+                  <l>no hay que comer, </l>
+                  <l>busca prestado, </l>
+                  <l>la dicen, mujer.</l>
+                  <l rend="indent">Hé aquí ya la mujer</l>
+                  <l>pidiendo todo al fiado, </l>
+                  <l>teniendo la culpa el hombre</l>
+                  <l>con sus vicios escusados.</l>
+                  <l>Almuerzo y comida</l>
+                  <l>y tambien la cena </l>
+                  <l>ténles prevenido,</l>
+                  <l>venga donde venga.</l>
+                  <l>Y si no lo tienes</l>
+                  <l>todo puntual,</l>
+                  <l>ya tienes encima</l>
+                  <l>el pim, pim, plam, plam.</l>
+                  <l rend="indent">Y tambien algunos hombres</l>
+                  <l>aunque casados están,</l>
+                  <l>se olvidan de su mujer</l>
+                  <l>y á otra van á festejar.</l>
+                  <l>Con ella el dinero</l>
+                  <l>se suelen gastar</l>
+                  <l>y aunque esto so sepa </l>
+                  <l>obliga el callar:</l>
+                  <l>por decirme yo un dia</l>
+                  <l>callarme no quiero,</l>
+                  <l>en un tres por dos</l>
+                  <l>me arrimó un solfeo.</l>
+                  <l rend="indent">La que soltera se halle</l>
+                  <l>y tuviese este papel,</l>
+                  <l>que le presenten muy grave</l>
+                  <l>si le van á pretender.</l>
+                  <l>Diga de contado</l>
+                  <l>no quiero casar,</l>
+                  <l>porque este es el pago</l>
+                  <l>que los hombres dan.</l>
+                  <l>Siempre á una mocita </l>
+                  <l>la hacen agazajos,</l>
+                  <l>y luego casada </l>
+                  <l>todos son trabajos.</l>
+                  <l rend="indent">Aquí doy fin á mi historia,</l>
+                  <l>arrepentida me hallo</l>
+                  <l>de decir mal de los hombres,</l>
+                  <l>al mejor de ellos quemarlo.</l>
+                  <l>Esta relacion</l>
+                  <l>es lo positivo</l>
+                  <l>y no hay que creer</l>
+                  <l>la de mi marido.</l>
+                  <l>Digan las mujeres</l>
+                  <l>todas á una voz,</l>
+                  <l>viva Margarita </l>
+                  <l>que tiene razon.</l>
+               </div>
+               <div>
+                  <pb n="3" source="Moreno_370_3.jpeg"
+                     facs="fedora_ug8103096/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+                  <head rend="cursiva" type="subtitulo_parte">
+                     <lb/>En que declara Don Fabian, esposo de Margarita, cuanto con ella le <lb/>ha
+                     sucedido. </head>
+
+                  <l rend="indent">De una mujer han oido</l>
+                  <l>á los hombres tratar mal, </l>
+                  <l>yo tambien de las mujeres</l>
+                  <l>ahora os voy á contar.</l>
+                  <l>Ellas son la causa </l>
+                  <l>de todos los males,</l>
+                  <l>pues son manantial</l>
+                  <l>de todas maldades.</l>
+                  <l>Algunas solteras</l>
+                  <l>son de condicion,</l>
+                  <l>que aunque sea á quince</l>
+                  <l>dan conversacion.</l>
+                  <l rend="indent">Ellas de todos reciben</l>
+                  <l>si las dan algun regalo,</l>
+                  <l>y con palabras de amor</l>
+                  <l>asi los van engañando.</l>
+                  <l>Hacen mil halagos,</l>
+                  <l>dicen... yo te quiero,</l>
+                  <l>y dan gran palique</l>
+                  <l>si corre el dinero.</l>
+                  <l>Pero si se acaba </l>
+                  <l>dicen con gran arte,</l>
+                  <l>no quieren mis padres</l>
+                  <l>que contigo trate.</l>
+                  <l rend="indent">Asi le dá la disculpa,</l>
+                  <l>queda el mozo despedido,</l>
+                  <l>y ella al momento la trama </l>
+                  <l>si se acerca otro querido.</l>
+                  <l>Sea italiano,</l>
+                  <l>que sea francés,</l>
+                  <l>sonando el bolsillo</l>
+                  <l>para servir á usted.</l>
+                  <l>Este es el motivo</l>
+                  <l>que algunas mocitas,</l>
+                  <l>las suele pasar</l>
+                  <l>lo que á Margarita.</l>
+                  <l rend="indent">Otras de solteras dicen,</l>
+                  <l>á mí no me gusta el vino,</l>
+                  <l>y luego que están casadas </l>
+                  <l>anda el jarro de contínuo.</l>
+                  <l>Si por la mañana </l>
+                  <l>salen á comprar, </l>
+                  <l>dos ó tres amigas</l>
+                  <l>se suelen juntar.</l>
+                  <l>Toman sus buñuelos</l>
+                  <l>y bollos calientes,</l>
+                  <l>y al punto caminan</l>
+                  <l>para el aguardiente.</l>
+                  <l rend="indent">Ellas los dias de fiesta</l>
+                  <l>tambien suelen reunirse,</l>
+                  <l>entre todas las vecinas</l>
+                  <l>á la brisa á divertirse.</l>
+                  <l>Hacen sus meriendas</l>
+                  <l>con grande armonia,</l>
+                  <l>dicen: venga vino, </l>
+                  <l>heche, tia Maria. </l>
+                  <l>Siguen bien la broma</l>
+                  <l>y al anochecer</l>
+                  <l>se van para casa </l>
+                  <l>hablando en inglés.</l>
+                  <l rend="indent">Llega el marido y la dice:</l>
+                  <l>mujer, vamos á cenar, </l>
+                  <l>hombre, no he podido hacerla</l>
+                  <l>porque me encuentro muy mal.</l>
+                  <l>Yo sufrir no puedo,</l>
+                  <l>y es de la cabeza,</l>
+                  <l>y no dudos que esto</l>
+                  <l>debe ser jaqueca. </l>
+                  <l>Mas él conociendo</l>
+                  <l>la causa es el vino,</l>
+                  <l>por eso reparte</l>
+                  <l>jabon Palentino.</l>
+                  <l rend="indent">Esta es la verdad, y cierto</l>
+                  <l>cuanto acabo de esplicar,</l>
+                  <l>y ahora de mi casamiento</l>
+                  <l>tambien os voy á contar.</l>
+                  <l>Por cierto una noche</l>
+                  <l>en el mes de Mayo, </l>
+                  <l>yo de Margarita</l>
+                  <l>quedé enamorado.</l>
+                  <l>La ví tan compuesta, </l>
+                  <l>y un andar tenia,</l>
+                  <l>que unos veinte años</l>
+                  <l>yo juzgué tendria.</l>
+                  <l rend="indent">La pedí en fin por esposa, </l>
+                  <l>me dijo que sí al contado, </l>
+                  <l>y al otro siguiente dia </l>
+                  <l>al punto fuimos casados.</l>
+
+                  <pb n="4" source="Moreno_370_4.jpeg"
+                     facs="fedora_ug8105773/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>Fuímos á su casa </l>
+                  <l>donde la madama </l>
+                  <l>una estera rota </l>
+                  <l>tenia por cama. </l>
+                  <l>Y de silleria,</l>
+                  <l>sin adulacion,</l>
+                  <l>solo una tenia</l>
+                  <l>y esa sin hondon.</l>
+                  <l rend="indent">Al ver tan raro aparato</l>
+                  <l>la dije: ¿es usted, madama,</l>
+                  <l>la que gasta miriñaque,</l>
+                  <l>güantes, abanico y talma?</l>
+                  <l>Y ahora aqui habitais </l>
+                  <l>en esta bohardilla, </l>
+                  <l>donde libre estais </l>
+                  <l>de recoger polilla.</l>
+                  <l>Y atencion, señores,</l>
+                  <l>es cosa de risa,</l>
+                  <l>muchas guarniciones,</l>
+                  <l>pero sin camisa. </l>
+                  <l rend="indent">Solteros, alerta, alerta,</l>
+                  <l>tener en esto atencion,</l>
+                  <l>porque hay muchas hoy dia</l>
+                  <l>que aparentan y no son.</l>
+                  <l>Un dia de fiesta</l>
+                  <l>veis á una señora,</l>
+                  <l>luego á otro dia</l>
+                  <l>es una aguadora. </l>
+                  <l>Tampoco de noche</l>
+                  <l>tomareis amor,</l>
+                  <l>no lleveis el chasco,</l>
+                  <l>que me llevé yo.</l>
+                  <l rend="indent">Yo de noche la miré, </l>
+                  <l>se me figuró un pimpollo,</l>
+                  <l>y noventa y siete años</l>
+                  <l>ya tenia el vejestorio.</l>
+                  <l>Pelo no tenia</l>
+                  <l>sobre su mollera, </l>
+                  <l>tambien la faltahan</l>
+                  <l>los dientes y muelas.</l>
+                  <l>Lo que si conserva </l>
+                  <l>muy sano y entero, </l>
+                  <l>para aguardiente y vino</l>
+                  <l>un buen tragadero.</l>
+                  <l rend="indent">Todos los dias yo gano</l>
+                  <l>once reales de jornal, </l>
+                  <l>los que entrego en su mano</l>
+                  <l>sin un ochavo faltar.</l>
+                  <l>Pero ella la infame</l>
+                  <l>todo lo malgasta, </l>
+                  <l>que no queda un dia </l>
+                  <l>sin cojer carpanta.</l>
+                  <l>Ella chocolate, </l>
+                  <l>dulces y licores,</l>
+                  <l>y es la que dice</l>
+                  <l>tan mal de los hombres.</l>
+                  <l rend="indent">Y tambien debeis saber,</l>
+                  <l>confiado yo vivia,</l>
+                  <l>contemplando en su vejez</l>
+                  <l>que al truque no jugaria.</l>
+                  <l>Pero una mañana </l>
+                  <l>por casualidad,</l>
+                  <l>la encontré jugando</l>
+                  <l>con un colegial.</l>
+                  <l>Falto de paciencia</l>
+                  <l>tiré del capote,</l>
+                  <l>y repartí al punto</l>
+                  <l>anguila de monte.</l>
+                  <l rend="indent">Por estos y otros motivos</l>
+                  <l>los hombres algunas veces</l>
+                  <l>alumbran á las mujeres, </l>
+                  <l>y mucho mas se merecen.</l>
+                  <l>Aunque nada alcanzan, </l>
+                  <l>que estas y las yeguas</l>
+                  <l>la que sale falsa </l>
+                  <l>nunca tiene enmienda.</l>
+                  <l>Así como otras</l>
+                  <l>tambien suele haber</l>
+                  <l>que son virtuosas</l>
+                  <l>mujeres de bien.</l>
+                  <l rend="indent">Por eso digo, mocitos,</l>
+                  <l>en casar no tengais pena, </l>
+                  <l>que asi como las hay malas</l>
+                  <l>acaso la hallareis buena.</l>
+                  <l>Y vos, solteritas,</l>
+                  <l>si alguno os habla,</l>
+                  <l>mirar que sois muchas,</l>
+                  <l>cojer la palabra.</l>
+                  <l>La que no aprovecho</l>
+                  <l>luego la ocasion, </l>
+                  <l>quedará cantando</l>
+                  <l>el Kyrie eleison.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA.—Imp. de D. José M. Moreno, Madre de Dios, n. 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

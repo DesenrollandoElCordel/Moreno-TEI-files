@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_112">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación histórica de santa Genoveva</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion historica en que se refiere la peregrina y
+                     trágica vida de la penitente anacoreta, la Princesa de Brabante, Santa
+                     Genoveva. Sacada de la verídica historia de la misma santa.</title>
+                  <title type="titulo_breve">Relacion historica en que se refiere la peregrina y
+                     trágica vida de la penitente anacoreta, la Princesa de Brabante, Santa
+                     Genoveva.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6470482</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 121</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte. En que se dá fin á la pere grina histora de la virtuosa
+                        princesa de Brabante Santa Genoveva.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>La parte inferior de las páginas está cortada.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_112_1.xml"
+                              facs="fedora_ug8106190/293,370,1390,1085/100,/0/default.jpg"
+                              >grabado_m_112_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="4" corresp="Q1101">
+                  <placeName key="Brabante_Septentrional">Brabante Septentrional</placeName>
+                  <location>
+                     <geo>51.63333333333333 5.1</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q38060">
+                  <placeName key="Galia">Galia</placeName>
+                  <location>
+                     <geo>46.5 2.9</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-27" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105715/manifest">
+      <graphic url="fedora_ug8106190/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_112_1.jpg" facs="fedora_ug8106190/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 121.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">RELACION HISTORICA</hi>
+                  <lb/>en que se refiere la peregrina y trágica vida de la penitente <lb/>anacoreta,
+                  la Princesa de Brabante, <lb/>SANTA GENOVEVA. </head>
+               <head type="subtitulo">SACADA DE LA VERIDICA HISTORIA DE LA MISMA SANTA.</head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">No canto fingidos hechos,</l>
+                  <l>ni invento falsas novelas,</l>
+                  <l>que endoradas copas brinda</l>
+                  <l>estragos á la inocencia.</l>
+                  <l>un diseño, donde vea</l>
+                  <l>el mundo todo que Dios,</l>
+                  <l>amoroso Padre, vela,</l>
+                  <l>favoreciendo al que sigue</l>
+
+                  <pb n="2" source="Moreno_112_2.jpg"
+                     facs="fedora_ug8110202/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>Cuanto la trágica vida</l>
+                  <l>de una singular Princesa,</l>
+                  <l>cuyos prodigios agotan</l>
+                  <l>los rios de la elocuencia:.</l>
+                  <l>De los duques de <name>Brabante</name>, </l>
+                  <l>cuya antigua estirpe régia</l>
+                  <l>produce con los laureles</l>
+                  <l>enlazadas las diademas,</l>
+                  <l>nació un ángel de hiermosura,</l>
+                  <l>de los que naturaleza</l>
+                  <l>gasta un siglo en producir,</l>
+                  <l>pues en ellos selo ostenta</l>
+                  <l>acumular perfecciones</l>
+                  <l>que el sexo frágil desmienta.</l>
+                  <l>Por el algua del Bautismo</l>
+                  <l>subió á superior esfera,</l>
+                  <l>siendo ángel de su alma</l>
+                  <l>la que en su cuerpo lo era.</l>
+                  <l>Apeticion de los duques,</l>
+                  <l>su nombre fue Genoveva,</l>
+                  <l>aunque despues el de ángel</l>
+                  <l>se mereció por sus prendas..</l>
+                  <l>Crióse en la tierna edad</l>
+                  <l>dando tan sensibles muestras</l>
+                  <l>de su gracía y susdoñáiré</l>
+                  <l>que todos á competencia</l>
+                  <l>admiraban ver unidas</l>
+                  <l>en una edad tan tierna,</l>
+                  <l>discresion de muchos años,</l>
+                  <l>y de pocos la inocencia.</l>
+                  <l>Apenas empezó á andar,</l>
+                  <l>cuando dió muy claras; muestras</l>
+                  <l>que al retiro y sofedad</l>
+                  <l>la destinaba su estrella.</l>
+                  <l>Con este objeto, á un jardin!.</l>
+                  <l>donde Flora y Amaltéa</l>
+                  <l>empeñaron sus pinceles</l>
+                  <l>para ostentar su destreza,</l>
+                  <l>halló un sitio retirado</l>
+                  <l>entretegido de yervas.</l>
+                  <l>Allí formó una capilla</l>
+                  <l>de mil primores compuesta;</l>
+                  <l>as hizo un altarito,</l>
+                  <l>á ofrecer al Redentor</l>
+                  <l>primicias de su inocencia.</l>
+                  <l>Esta fue su diversion;</l>
+                  <l>y á su culto siempre atenta,</l>
+                  <l>no dió lugar á los juegos</l>
+                  <l>que lleva la edad primera.</l>
+                  <l>Así vivió entretenida,</l>
+                  <l>hasta que su fama vuela</l>
+                  <l>por el orbe, despertando</l>
+                  <l>principes que la pretendan.</l>
+                  <l>Muchos al duque su padre,</l>
+                  <l>con muy rendidas ofertas</l>
+                  <l>la pidieron por esposa.</l>
+                  <l>Solo pudo merecerla</l>
+                  <l>el gran conde Palatino</l>
+                  <l>Sigifredo, cuyas prendas</l>
+                  <l>aun mayores que la fama,</l>
+                  <l>compiten con su nobleza.</l>
+                  <l>Célebráronse las;bodas,</l>
+                  <l>displicente Genoveva,</l>
+                  <l>que amaba mas su retiro;</l>
+                  <l>y solo por obediencia.</l>
+                  <l>trocó en brazos de Himeneo</l>
+                  <l>el puro esplendor de Vesta.</l>
+                  <l>Uivfeban Mgunds arñfa</l>
+                  <l>disfrutando la riqueza,</l>
+                  <l>con que afable la fortuna ra</l>
+                  <l>les brindaba, á manos llenas;</l>
+                  <l>hasta que le fue preciso</l>
+                  <l>á Sigifredo-la ausencia,</l>
+                  <l>por reprimir el orgullo</l>
+                  <l>con que la africana secta</l>
+                  <l>intentaba enarbólar</l>
+                  <l>en la <name>Galia</name> sus banderas.</l>
+                  <l>No espresaré los isuspiros..</l>
+                  <l>con que sintió Genoveva</l>
+                  <l>la marcha de su marido</l>
+                  <l>á tan peligrosa guerra:</l>
+                  <l>baste decir que le amaba</l>
+                  <l>que el pecho donde amor reina,</l>
+                  <l>mas sabe sufrir la muerte</l>
+                  <l>que tolerar una ausencia,</l>
+                  <l>Tiene el conde un mayordomo</l>
+
+                  <pb n="3" source="Moreno_112_3.jpg"
+                     facs="fedora_ug8108617/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>á este encarga que cuide</l>
+                  <l>con esmero y diligencia</l>
+                  <l>de su esposa pues se parte</l>
+                  <l>dejándose el alma con ella.</l>
+                  <l>Alegróse el mayordomo.</l>
+                  <l>y con traidora reserva,</l>
+                  <l>ofrece rendido al conde</l>
+                  <l>atender á Genoveva.</l>
+                  <l>¡Oh pobre inocente conde! </l>
+                  <l>¡ojalá no te partieras,</l>
+                  <l>pues tienes mayor contrario</l>
+                  <l>en tu casa que en la gverra!</l>
+                  <l>Ausentóse en fin, el conde,</l>
+                  <l>quedándose la condesa</l>
+                  <l>en cinta de pocos meses,</l>
+                  <l>y el mavordomo que encuentra</l>
+                  <l>la ocasion que pretendia,</l>
+                  <l>soltó á su furor la rienda.</l>
+                  <l>Primero disimulaba,</l>
+                  <l>por no atreverse á la esfera</l>
+                  <l>de tanto sol, contemplando,</l>
+                  <l>que son sus álas de cera;</l>
+                  <l>mas como nunca el fuego</l>
+                  <l>puede ocultar su fuerza,</l>
+                  <l>en muy estudiadas voces</l>
+                  <l>declaró á Génoveva</l>
+                  <l>el incendio que ocultaba:</l>
+                  <l>pero siempre la princesa</l>
+                  <l>disimulaba advertida,</l>
+                  <l>crevendo que á la insolencia</l>
+                  <l>suele ser freno el desprecio;</l>
+                  <l>mas se engañó, pues empieza</l>
+                  <l>sin embozo el mayordomo</l>
+                  <l>á conquistar su pureza;</l>
+                  <l>hasta tanto que furioso</l>
+                  <l>un dia en su cuarto entra</l>
+                  <l>con un puñal en la mano,</l>
+                  <l>diciendo de esta manera:</l>
+                  <l>señora, no es atrevido</l>
+                  <l>el que fino amante llega</l>
+                  <l>á esplicar aquel incendio,</l>
+                  <l>que por sí se manifiesta.</l>
+                  <l>Yo vivo por ti muriendo,</l>
+                  <l>y por aliviar mi pena</l>
+                  <l>he resuelto declararme,.</l>
+                  <l>pues es preciso que vea</l>
+                  <l>logrado el fin de mis áncias,</l>
+                  <l>ó que de una vez perezca</l>
+                  <l>á los filos de este aceró:</l>
+                  <l>en tus manos, gran princesa,</l>
+                  <l>está mi vida ó mi muerte...</l>
+                  <l>Aun no dejó Genoveva</l>
+                  <l>que acabara el mayordomo</l>
+                  <l>de declarar su insolencia,</l>
+                  <l>cuando con un santo enojo</l>
+                  <l>desató su pura lengüa,</l>
+                  <l>diciendo; loco, atrevido,</l>
+                  <l>¿es esta aquella promesa</l>
+                  <l>con que ófreciste á mi esposo</l>
+                  <l>servirme miéntras su ausencia?</l>
+                  <l>Vete de aqui si no quieres,</l>
+                  <l>(indigno de mi presencia)</l>
+                  <l>que llamando á los criados,</l>
+                  <l>castiguen tal desvergüenza.</l>
+                  <l>Ausentóse el máyordomo,</l>
+                  <l>mas como rabiosa fiera</l>
+                  <l>intenta viles venganzas</l>
+                  <l> por ver frustrada su ideá;</l>
+                  <l>y así un dia á los criados</l>
+                  <l>llama con grande reserva</l>
+                  <l>y les dice: amigos mios,</l>
+                  <l>ya es preciso que mi lengua</l>
+                  <l>publique lo que ócultara</l>
+                  <l>si tan público no fuera.</l>
+                  <l>Sabed, que rotas las leyes</l>
+                  <l> de cristiandad y nobleza,</l>
+                  <l>vive mal entretenida</l>
+                  <l>la Princesa Genoveva, </l>
+                  <l>con un infáme criado</l>
+                  <l>hombre de muy baja esfera.</l>
+                  <l>La deshonra es va notoria, </l>
+                  <l>y temo que el condo sepa</l>
+                  <l>lo que pasa en su palacio</l>
+                  <l>antes que yo le dé cuenta.</l>
+                  <l>Mi dictámen es que al punto</l>
+                  <l>este criado se prenda,</l>
+                  <l>y que en una oculta sala</l>
+                  <l>pongamos á la princesa,</l>
+
+                  <pb n="4" source="Moreno_112_4.jpg"
+                     facs="fedora_ug8103828/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>hasta dar aviso al conde.</l>
+                  <l>Ejecutó su sentencia</l>
+                  <l>el ingrato mayordomo,</l>
+                  <l>y envia con diligencia</l>
+                  <l>un posta, para que al conde</l>
+                  <l>del suceso diese cuenta.</l>
+                  <l>Dejemos marchar al posta,</l>
+                  <l>y vamos á la condesa.</l>
+                  <l>Apenas se vió encerrada,</l>
+                  <l>cuanto en lágrimas deshecha</l>
+                  <l>suspira quejosa al Cielo,</l>
+                  <l>implorando su clemencia.</l>
+                  <l>¿Qué delito he cometido</l>
+                  <l>(decia con dulces quejas,)</l>
+                  <l>¡oh Dios! para que asi trateis</l>
+                  <l>á esta humilde esclava vuestra?</l>
+                  <l>Pero si es, Señor, tu gusto</l>
+                  <l>acrisolarme con penas,</l>
+                  <l>vengan mas y mas trabajos,</l>
+                  <l>que ya me doy por contenta</l>
+                  <l>en saber que yo padezco,</l>
+                  <l>porque tú, mi Dios lo ordenas.</l>
+                  <l>Mas creciendo sus fatigas</l>
+                  <l>conoció de que se llega</l>
+                  <l>el parto, sin toner nadie</l>
+                  <l>que pudiese socorrerla,</l>
+                  <l>y asi sola entre suspiros,</l>
+                  <l>entre sollozos y penas,</l>
+                  <l>dió á luz un hermoso infante</l>
+                  <l>heredero de su estrella;</l>
+                  <l>pues aun antes de nacer</l>
+                  <l>ya tenia la sentencia</l>
+                  <l>de muerte, que el mayordomo</l>
+                  <l>por culpar á la inocencia,</l>
+                  <l>y dar color à su engaño,</l>
+                  <l>pulicó que el niño era</l>
+                  <l>parto de los torpes lazos</l>
+                  <l>en que estaba la condesa.</l>
+                  <l>Apenas le vió nacido</l>
+                  <l>sobre la desnuda tierra,</l>
+                  <l>la triste madre le dice:</l>
+                  <l>verdaderamente, apenas</l>
+                  <l>naces, hijo, cuando empiezas</l>
+                  <l>á padecer la tormenta</l>
+                  <l>en que naufraga tu madre,</l>
+                  <l>y has de ser en la tragedia</l>
+                  <l>cómplice de mi infortunio,</l>
+                  <l>porque asi el Cielo lo ordena:</l>
+                  <l>y ya que en este desamparo</l>
+                  <l>no puedo aliviarte, espera,</l>
+                  <l>te daré lo que mas vale</l>
+                  <l>alistándote en la iglesia.</l>
+                  <l>En este devoto empleo</l>
+                  <l>dejemos á Genoveva,</l>
+                  <l>y en la segunda parte</l>
+                  <l>daré fin á la tragedia,</l>
+                  <l>de la penitente vida</l>
+                  <l>de esta gloriosa princesa.</l>
+
+                  <trailer rend="negrita">FIN DE LA PRIMERA PARTE,</trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_112_5.jpg"
+                     facs="fedora_ug8109890/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+                  <head rend="cursiva" type="subtitulo_parte">
+                     <l>En que se dá fin á la pere grina histora de la</l>
+                     <l>virtuosa princesa de <name>Brabante</name> Santa Genoveva.</l>
+                  </head>
+
+                  <l rend="indent">Militaba Sigifredo</l>
+                  <l>contra la tropa agarena</l>
+                  <l>dando asuntos á la fama,</l>
+                  <l>y triunfos á sus banderas,</l>
+                  <l>cuando recibió del posta</l>
+                  <l>la carta en que le cuenta</l>
+                  <l>el mayordomo el enredo</l>
+                  <l>con que culpó á Genoveva.</l>
+                  <l>Apenas la leyó el conde</l>
+                  <l>cuando como cruel fiera</l>
+                  <l>saliendo de sí furioso,</l>
+                  <l>esclamó; ¡oh vil princesa!</l>
+                  <l>¿así miras por mi honor</l>
+                  <l>al tiempo que yo en la guerra,</l>
+                  <l>con mi propia sangre añado</l>
+                  <l>nuevo lustre á tu nobleza?</l>
+                  <l>¿Es posible que asi pagues</l>
+                  <l>el amor y la fineza</l>
+                  <l>con que siempre te he querido?</l>
+                  <l>¿Qué se hizo tu firmeza?</l>
+                  <l>Mas ¿qué es esto que me pasa?</l>
+                  <l>No, no es posible que quepa</l>
+                  <l>tal desórden en mi esposa,</l>
+                  <l>mas pura que las estrellas.</l>
+                  <l>Pero, ¿cómo no ha de ser,</l>
+                  <l>si lo dice por mi afrenta</l>
+                  <l>ese infante que es aborto</l>
+                  <l>de su torpe incontinencia?</l>
+                  <l>¡Oh tirana! yo te ofrezco</l>
+                  <l>el darte la recompenza</l>
+                  <l>por tu loco desvaneo,</l>
+                  <l>Así dijo y con presteza</l>
+                  <l>escribió, y despacho al posta</l>
+                  <l>con una carta que entrega</l>
+                  <l>el mayordomo, en que el conde</l>
+                  <l>manda que con gran cautela </l>
+                  <l>al criado den la muerte,</l>
+                  <l>y que luego á Genoveva</l>
+                  <l>con el hijo que ha parido</l>
+                  <l>los retiren á una sierra</l>
+                  <l>donde les quiten las vidas:</l>
+                  <l>y que se traigan por señas</l>
+                  <l>de que queda ejecutado,</l>
+                  <l>la lengua de la princesa.</l>
+                  <l>Alegróse el mayordomo</l>
+                  <l>con estas infaustas nuevas,</l>
+                  <l>y al punto dió al criado</l>
+                  <l>una bebida en que beba</l>
+                  <l>y sin ser sentida la muerte:</l>
+                  <l>y manda que á Genoveva</l>
+                  <l>le avisen que se prepare,</l>
+                  <l>que está su muerte muy cerca.</l>
+                  <l>Lleváronla la noticia,</l>
+                  <l>á esta inocente princesa,</l>
+                  <l>y bañada en tierno llanto...</l>
+                  <l>arroja al Cielo sus quejas,</l>
+                  <l>diciendo: ¡Jesus piadoso,</l>
+                  <l>es justo que la inocencia</l>
+                  <l>padezca tales rigores.</l>
+                  <l>á manos de la insolencia!</l>
+                  <l>Si acaso os he ofendido,</l>
+                  <l>pague yo sola la pena:</l>
+
+                  <pb n="6" source="Moreno_112_6.jpg"
+                     facs="fedora_ug8104361/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>pero este inocente niño,</l>
+                  <l>¿que culpa tiene, que ofensa</l>
+                  <l>pudo cometer naciendo</l>
+                  <l>sino nacer de mi mesma?</l>
+                  <l>¡Ay hijo de mis entreñas</l>
+                  <l>que has venido ha pasar penas</l>
+                  <l>por nacer de una infeliz!</l>
+                  <l>Mas detente, infame lengua,</l>
+                  <l>que quiero morir gustosa,</l>
+                  <l>su puesto que así lo ordena</l>
+                  <l>aquel Dios, á quien he dado,</l>
+                  <l>de mi amor la imejor prenda.</l>
+                  <l>Mientras esto, el mayordomo</l>
+                  <l>á dos cridos les ordena, </l>
+                  <l>que con disimulo saquen</l>
+                  <l>hacia un bosque á la princesa</l>
+                  <l>con su hijo, y que á los dos</l>
+                  <l>les dén la muerte que espresa</l>
+                  <l>en su carta Sigifredo,</l>
+                  <l>para vengar sus afrentas.</l>
+                  <l>Obedecen los criados,</l>
+                  <l>y á estos dos corderos llevan</l>
+                  <l>para ser sacrificados.</l>
+                  <l>Aquí enmudece mi lengua,</l>
+                  <l>aquí faltan los sentidos</l>
+                  <l>y el corazon titubea</l>
+                  <l>al oir el dulce llanto,</l>
+                  <l>los suspiros y las quejas, </l>
+                  <l>con que humilde se despide</l>
+                  <l>de su casa Génoveva.</l>
+                  <l>A Dios, hermanos (decia), </l>
+                  <l>á Dios montes, á Dios, selvas:</l>
+                  <l>á Dios, pátria amada mia:</l>
+                  <l>á Dios, amigos, que es fuerza</l>
+                  <l>obedecer á mi esposo,</l>
+                  <l>llorad tristes, mis exéquias,</l>
+                  <l>y sedme fieles testigos.</l>
+                  <l>que mantuve la firmeza,</l>
+                  <l>que á tal esposo debia.</l>
+                  <l>Con esto llegó á la breña,</l>
+                  <l>destinada para campo</l>
+                  <l>de tan funesta tragedia.</l>
+                  <l>Paráronse los criados,</l>
+                  <l>y la dicen; Genoveva,</l>
+                  <l>como mandados, venimos</l>
+                  <l> á ejecutar la sentencia</l>
+                  <l>que manda el conde; tu esposo:</l>
+                  <l>y así es preciso que muera</l>
+                  <l>este niño y luego tú</l>
+                  <l>la misma suerte padezcas:</l>
+                  <l>dijeron: y al dar el golpe</l>
+                  <l>en aquella planta tierna,</l>
+                  <l>les dijo la triste madre</l>
+                  <l>deténed, si no sois fieras,</l>
+                  <l>ese golpe en mi primero,</l>
+                  <l>ese agudo acero hiera</l>
+                  <l>y no querais que una triste,</l>
+                  <l>duplicada muerte tenga</l>
+                  <l>viendo morir á mi hijo.</l>
+                  <l>Mas por alta providencia</l>
+                  <l>los criados se conduelen,</l>
+                  <l>y entre si mismo conciertan</l>
+                  <l>dejar vivos á los dos</l>
+                  <l>en aquella oculta tierra.</l>
+                  <l>Asi lo hicieroní llevando</l>
+                  <l>al mayordomo la lengua</l>
+                  <l> de un perro, con que ocultaron</l>
+                  <l>su compasiva clemencia.</l>
+                  <l>Quedáronse los dos solos</l>
+                  <l>en la entrincada maleza</l>
+                  <l>de aquel monte sin tener</l>
+                  <l>mas abrigo que las peñas, </l>
+                  <l>mas amparo que el del Cielo, </l>
+                  <l>ni mas compañía que fieras.</l>
+                  <l>Anduvieron algun poco</l>
+                  <l>al eco de una risueña</l>
+                  <l>fuente que los convidaba</l>
+                  <l>con sus cristalinas perlas.</l>
+                  <l>Se acercó la triste madre,</l>
+                  <l>y reparó que allí cerca, </l>
+                  <l>se ocultaba entre unas ramas</l>
+                  <l>una retirada cueva.</l>
+                  <l>Alegróse por hallar</l>
+                  <l>algun sitio donde pueda</l>
+                  <l>reclinar ál tierno infante, </l>
+                  <l>suguro de tantas fieras.</l>
+                  <l>Levantó al Cielo los ojos,</l>
+                  <l>y agradeció con fineza</l>
+
+                  <pb n="7" source="Moreno_112_7.jpg"
+                     facs="fedora_ug8109680/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>encontrar algun amparo</l>
+                  <l>contra tantas inclemencias.</l>
+                  <l>En este tiempo repara</l>
+                  <l>que por la celeste esfera</l>
+                  <l>bajó un ángel que en sus manos</l>
+                  <l>trae la imágen perfecta</l>
+                  <l>de JESUS crucificado,</l>
+                  <l>y llegándose á la cueva,</l>
+                  <l>le dice en dúlces palabras,</l>
+                  <l>ea amada Genoveva</l>
+                  <l>por mas penas que te sigan,</l>
+                  <l>por mas trabajos que tengas,</l>
+                  <l>los endulzará JESUS</l>
+                  <l>con la sangre de sus venas.</l>
+                  <l>En él hallarás alivio,</l>
+                  <l>veslo, aquí lo dejo en prenda</l>
+                  <l>de que no te desampara,</l>
+                  <l>vive en Dios, con él te quedas!</l>
+                  <l>Desapareciendo el ángel,</l>
+                  <l>quedó la santa princesa</l>
+                  <l>tan alentada, que todos</l>
+                  <l>los trabajos é inclemencias</l>
+                  <l>los llevaba con mas gusto</l>
+                  <l>que su perdida grandeza.</l>
+                  <l>Así pasó algunos dias</l>
+                  <l>manteniéndose con yervas,</l>
+                  <l>con que llegó á tal estado,</l>
+                  <l>que perdida la belleza</l>
+                  <l>de su rostro, aun no era sombra</l>
+                  <l>de su antigua gentileza;</l>
+                  <l>pero lo que mas la aflige</l>
+                  <l>es que la mucha abstinencia</l>
+                  <l>la debilita de modo</l>
+                  <l>que falta á sus pechos néctar</l>
+                  <l>conque mantener al niño</l>
+                  <l>que con llantos y con señas</l>
+                  <l>la pedia de mamar;</l>
+                  <l>y acudiendo á la clemencia</l>
+                  <l>de Cristo crucificado</l>
+                  <l>reparó que hácia la cueva</l>
+                  <l>se venia presurosa</l>
+                  <l>una muy hermosa cierva,</l>
+                  <l>y acercándose al niño</l>
+                  <l>le dió de mamar hala, </l>
+                  <l>Con este raro prodigio</l>
+                  <l>se consoló Genoveva</l>
+                  <l>y mas viendo que dos veces</l>
+                  <l>en cada dia la cierva</l>
+                  <l>daba de mamar al niño.</l>
+                  <l>Dejemos á la princesa</l>
+                  <l>y vamos á Sigifredo</l>
+                  <l>que concluida la guerra</l>
+                  <l>se volvia á su palacio</l>
+                  <l>sin apartar de su ideá</l>
+                  <l>la muerte que mandó dar</l>
+                  <l>á su amada Genoveva.</l>
+                  <l>Andaba siempre confuso</l>
+                  <l>ulpando su ligereza</l>
+                  <l>le mandar quitar la vida</l>
+                  <l>sin examinar las pruebas.</l>
+                  <l>os amigos lle ácompañan</l>
+                  <l>y piden que se divierta.</l>
+                  <l>A este fin dispuso un dia</l>
+                  <l>irse á un bosqué, donde pueda</l>
+                  <l>divertir su pensamiento</l>
+                  <l>en la gustosa tarea</l>
+                  <l>de la caza; y convidando</l>
+                  <l>á sus parientes, se acercan</l>
+                  <l>á un monte, y á pocos pasos</l>
+                  <l>descubrió el conde una cierva</l>
+                  <l>que medrosa se retira;</l>
+                  <l>y Sigifredo se empeña</l>
+                  <l>en seguirla, hasta tanto</l>
+                  <l>que se ampró de una cueva</l>
+                  <l>á donde llevaba al conde</l>
+                  <l>la Divina Providencia.</l>
+                  <l>Desmontóse del caballo,</l>
+                  <l>para hallar con mas presteza</l>
+                  <l>la cierva que perseguia,</l>
+                  <l>y muy cerca de la puerta</l>
+                  <l>divisa un bulto, y dudando</l>
+                  <l>si era hombre ó si era fiera,</l>
+                  <l>entre confuso y turbado,</l>
+                  <l>le preguntó que quien era;</l>
+                  <l>entonces anegada en llanto,</l>
+                  <l>le respondió la princesa.</l>
+                  <l>Soy una infeliz mujer,</l>
+                  <l>á quien traio á esta aspereza</l>
+
+                  <pb n="8" source="Moreno_112_8.jpg"
+                     facs="fedora_ug8103291/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>el haber sido constante;</l>
+                  <l>y por escusár molestias,</l>
+                  <l>digo de una vez que soy</l>
+                  <l>la infelice Genoveva.</l>
+                  <l>Apenas la escuchó el conde,</l>
+                  <l>cuando postrado en la tierra,</l>
+                  <l>la pide que le perdone,</l>
+                  <l>diciéndola; ¡oh gran princesa!</l>
+                  <l>yo soy quien tiene la culpa,</l>
+                  <l>por creer con ligereza</l>
+                  <l>delitos donde no caben:</l>
+                  <l>perdóname, amada prenda,</l>
+                  <l>y á trueque de hallarte viva;</l>
+                  <l>cesen pasadas ofensas.</l>
+                  <l>Convocó á los compañeros</l>
+                  <l>y del caso les da cuenta;</l>
+                  <l>vinieron á la ciudad,</l>
+                  <l>y con suntuosas fiestas</l>
+                  <l>celebraron el hallazgo</l>
+                  <l>del infante y la princesa.</l>
+                  <l>Luego al punto mandó el conde</l>
+                  <l>que al mayordomo se prenda</l>
+                  <l>que atado á cuatro brutos,</l>
+                  <l>pague el infame la pena</l>
+                  <l>de haber supuesto un delito</l>
+                  <l>contra tan santa princesa.</l>
+                  <l>Poco el gusto les duró</l>
+                  <l>porque la mucha abstínecia</l>
+                  <l> que por casi siete años</l>
+                  <l>padeció esta gran princesa,</l>
+                  <l>la redujo á tal estado,</l>
+                  <l>que sin poder socorrerla,</l>
+                  <l>llegó el trance de la muerte;</l>
+                  <l>porque es preciso que tengan</l>
+                  <l>su premio tantos trabajos</l>
+                  <l>y goce de gloria eterna.</l>
+                  <l>Sintiólo en estremo el conde,</l>
+                  <l>que fino amante quisíera</l>
+                  <l>morir tambien con su esposa</l>
+                  <l>por no morirse de pena.</l>
+                  <l>Y viendo cuán poco dura</l>
+                  <l>de este mundo la grandeza, </l>
+                  <l> se retiró con su hijo</l>
+                  <l>á una religion austera,</l>
+                  <l>donde haciendo santa vida</l>
+                  <l>fueran á gozar la eterna.</l>
+                  <l>Esta es la admirable historia</l>
+                  <l>de la trágica princesa</l>
+                  <l>de <name>Brabante</name>, cuya vida</l>
+                  <l>la santa romana Iglesia</l>
+                  <l>nos propone para ejemplo.</l>
+                  <l>Pidamos que nos defienda</l>
+                  <l>de traidores enemigos,</l>
+                  <l>y de tan nocivas lenguas.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:1859. <lb/><damage agent="cortada"><supplied>Imprenta
+                     de</supplied></damage> José Maria Moreno, calle Juan de la Cabra, núm. 4. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

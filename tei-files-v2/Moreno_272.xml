@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_272">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El príncipe de los montes</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El principe de los montes.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477257</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 283</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_272_1.xml"
+                              facs="fedora_ug8104088/469,323,430,708/100,/0/default.jpg"
+                              >grabado_m_272_1</item>
+                           <item corresp="grabado_m_272_2.xml"
+                              facs="fedora_ug8104088/903,285,397,745/100,/0/default.jpg"
+                              >grabado_m_272_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q43">
+                  <placeName key="turquia">Turquia</placeName>
+                  <location>
+                     <geo>23 46</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q41">
+                  <placeName key="Grecia">Grecia</placeName>
+                  <location>
+                     <geo>38.5 23</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q222">
+                  <placeName key="Albania">Albania</placeName>
+                  <location>
+                     <geo>41 20</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-21" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107154/manifest">
+      <graphic url="fedora_ug8104088/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_272_1.jpg" facs="fedora_ug8104088/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 283.</fw>
+
+               <head rend="negrita" type="primer_titulo">EL PRINCIPE DE LOS MONTES.</head>
+
+               <l rend="indent">Mi hermano, y yo, Rey invicto</l>
+               <l>y bellisima princesa,</l>
+               <l>que como el Ave de <name>Arabia</name></l>
+               <l>vivais edades eternas.</l>
+               <l>Mi hermano, y yo somos hijos</l>
+               <l>de Segismundo que en <name>Grecia</name></l>
+               <l>fué el octavo de este nombre,</l>
+               <l>sin que de los dos se pueda</l>
+               <l>saber cual nació primero,</l>
+               <l>porque saliendo la Reina,</l>
+               <l>que estaba en cinta de entrambos</l>
+               <l>una tarde á las florestas,</l>
+               <l>que con racimos de aljofar</l>
+               <l>l is salpica el Euro, ó riega,</l>
+               <l>le dió el parto, sin tener</l>
+               <l>mas tes igos que la yerba,</l>
+               <l>mas arrimo que el de un árbol,</l>
+               <l>ni mas favor qne sus quejas.</l>
+               <l>Vino á dar en sangre envueltos</l>
+               <l>dos Infantes á la arena,</l>
+               <l>que somos los dos: aqui </l>
+               <l>nuestras emulacion empieza.</l>
+               <l>Dividióse el Reino en vandos,</l>
+               <l>y viendo la diferencia</l>
+               <l>de pareceres, por ser</l>
+               <l>uso antiguo de la tierra,</l>
+               <l>que se llame Segismundo</l>
+               <l>el Principe que lo hereda,</l>
+               <l>á entrambos un mismo nombre,</l>
+               <l>aunque no una misma estrella,</l>
+               <l>nos dieron hasta que el Cielo</l>
+               <l>el secreto descubriera.</l>
+               <l>Viéndonos pues el Senado</l>
+               <l>ya con brios, que cualquiera </l>
+               <l>lo pudiera gobernar</l>
+               <l>en guerra, ó en paz, ordena,</l>
+               <l>que se dé el Cetro por votos;</l>
+               <l>y en fin, porque mi modestia</l>
+               <l>solicitó con callar</l>
+               <l>ó su agrado, ó su conciencia,</l>
+               <l>me dieron el Cetro á mi;</l>
+               <l>mas mi hermano con cautela,</l>
+               <l>que ya empezaba soberbio</l>
+               <l>á dar de su envidia muestras,</l>
+
+               <pb n="2" source="Moreno_272_2.jpg" facs="fedora_ug8108692/full/full/0/default.jpg"/>
+
+               <l>convocó algunos rebeldes,</l>
+               <l>y anulando la primera</l>
+               <l>eleccion, al Pueblo dice,</l>
+               <l>que para quitar sospechas</l>
+               <l>de intereses, y pasiones,</l>
+               <l>traten que la suerte sea</l>
+               <l>quien de el Reino al mas dichoso,</l>
+               <l>ó al que mejor le merezca.</l>
+               <l>Dejemos en este estado</l>
+               <l>del Reino la competencia,</l>
+               <l>y vamos á Nise, á quien</l>
+               <l>por influencia de estrellas,</l>
+               <l>como los peces el agua,</l>
+               <l>como las flores la tierra,</l>
+               <l>y como el viento las aves, </l>
+               <l>adoraban mis potencias,</l>
+               <l>porque era Nise su centro,</l>
+               <l>su luz, su gloria, y su esfera.</l>
+               <l>Supo mi hermano que yo</l>
+               <l>solicitaba esta empresa,</l>
+               <l>y solo por molestarme,</l>
+               <l>con fingidas apariencias</l>
+               <l>comenzó á galantearla</l>
+               <l>publicamente, á quien ella</l>
+               <l>viendose amar (ay de mi!)</l>
+               <l>de dos que cualquiera espera</l>
+               <l>ser su Principe, responde,</l>
+               <l>que de quien la hiciere Reina,</l>
+               <l>será esposa sea quien fuere</l>
+               <l>(quien tan de su amor creyera! </l>
+               <l>Sin duda que se enojó</l>
+               <l>el amor de aquesta ofensa,</l>
+               <l>si es ofensa, aventurar</l>
+               <l>el gusto por la grandeza;</l>
+               <l>pues dentro de pocos dias</l>
+               <l>se sintió tan mal dispuesta,</l>
+               <l>que puso en cuidado á cuantos</l>
+               <l>adorabamos sus prendas.</l>
+               <l>Fuese aumentando el achaque</l>
+               <l>con porfia tan grosera,</l>
+               <l>que convirtió poco á poco</l>
+               <l>los claveles en violetas.</l>
+               <l>Y en efecto de un desmayo</l>
+               <l>vasalla, pues no le deja</l>
+               <l>ni sentir, ni respirar,</l>
+               <l>muda, torpe, elada y yerta,</l>
+               <l>pidió sepulcro á sus deudos,</l>
+               <l>y lágrimas á las piedras.</l>
+               <l>Pensando pues, que habia dado</l>
+               <l>la respiracion postrera,</l>
+               <l>la enterraron (qué ingnorancia! </l>
+               <l>sabiendo por cosa cierta,</l>
+               <l>que era mi vida su vida,</l>
+               <l>ó por menos la media:</l>
+               <l>y que pues yo estaba vivo,</l>
+               <l>no debía de ser muerta.</l>
+               <l>Es costumbre introducida</l>
+               <l>en <name>Grecia</name>, que á las doncellas</l>
+               <l>en el dia de su muerte</l>
+               <l>las vistan, como si fueran</l>
+               <l>á una fiesta, ó á una boda</l>
+               <l>(quien vió galas en tragedias?)</l>
+               <l>Y asi los padres de Nise</l>
+               <l>de joyas, piedras, y telas</l>
+               <l>de manera la adornaron,</l>
+               <l>que un hombre, por cuya cuenta</l>
+               <l>acaso entonces corria</l>
+               <l>el cuidado de la Iglesia,</l>
+               <l>puso ambiciosa codicia,</l>
+               <l>de quitarla parte de ellas.</l>
+               <l>Y asi en mitad de la noche</l>
+               <l>con una luz baja, y entra</l>
+               <l>por la Iglesia á la Capilla,</l>
+               <l>á tiempo que mi terneza</l>
+               <l>me traia como loco,</l>
+               <l>dando á la Iglesia mil vueltas;</l>
+               <l>que quien la perla no logra,</l>
+               <l>con la caja se contenta.</l>
+               <l>Lleguéme al templo lloroso;</l>
+               <l>y el postigo toco apenas,</l>
+               <l>cuando para recibirme,</l>
+               <l>se aparta sin resistencia</l>
+               <l>que la prisa del ladron</l>
+               <l>le divirtió de manera,</l>
+               <l>que se olvidó de cerrale,</l>
+               <l>mas viendo alzada la piedra</l>
+               <l>de la bobeda, confuso</l>
+               <l>por una angosta escalera</l>
+
+               <pb n="3" source="Moreno_272_3.jpg" facs="fedora_ug8110018/full/full/0/default.jpg"/>
+
+               <l>hasta el centro bajo, donde</l>
+               <l>la misma muerte se ospeda,</l>
+               <l>y en el nicho miro (ay Cielos!)</l>
+               <l>á Nise, y junto con ella</l>
+               <l>al hombre que he referido,</l>
+               <l>á quien yo de la primera</l>
+               <l>estocada dí la muerte</l>
+               <l>por la injuria, ó por la ofensa,</l>
+               <l>que á Nise, y al cielo hacia,</l>
+               <l>á sus padres, y á la Iglesia,</l>
+               <l>ó lo que mas cierto fué,</l>
+               <l>si á buena luz se contempla,</l>
+               <l>porque vi, que la tocaba</l>
+               <l>que era mi amor de manera,</l>
+               <l>que pienso que tuve zelos,</l>
+               <l>aun con tenerla por muerta.</l>
+               <l>Admirado del fracaso,</l>
+               <l>con vida, y con alma atenta</l>
+               <l>la miro despues, á tiempo,</l>
+               <l>que del parasismo vuelta</l>
+               <l>Nise, empieza á estremecerse,</l>
+               <l>cosa, con que ahora tiembla</l>
+               <l>el alma de imaginarlo,</l>
+               <l>viendo en un palmo de tierra</l>
+               <l>muerto á un hombre que está vivo,</l>
+               <l>viva la que yace muerta:</l>
+               <l>con ansias de muerte aqueste,</l>
+               <l>con rayos de vida aquella,</l>
+               <l>él revolcado en su sangre,</l>
+               <l>ella articulando quejas.</l>
+               <l>Y en efecto en un instante</l>
+               <l>la fortuna tan revuelta,</l>
+               <l>que quien no lo espera, vive,</l>
+               <l>y muere quien no lo espera.</l>
+               <l>Dudo al principio, confuso;</l>
+               <l>pero el amor que me alienta,</l>
+               <l>en lugar de retirarme,</l>
+               <l>mas á su bulto me acerca;</l>
+               <l>y tomándola las manos,</l>
+               <l>viendo, que entre sí se queja, </l>
+               <l>apelo al pulso, del cual,</l>
+               <l>aunque debil, y sin fuerzas,</l>
+               <l>me informo que tiene vida,</l>
+               <l>y luego en mis brazos puesta</l>
+               <l>hasta su casa la llevo,</l>
+               <l>sobre su hermosa azucena</l>
+               <l>tantas lagrimas llorando,</l>
+               <l>de placer, y gusto llenas</l>
+               <l>que la excuso, que en su casa</l>
+               <l>hiciesen la diligencia</l>
+               <l>comun de rosiarle el rostro;</l>
+               <l>porque á mis ojos atenta</l>
+               <l>bebió el agua, que bastó</l>
+               <l>para que en su ser volviera.</l>
+               <l>Con lágrimas finalmente,</l>
+               <l>con amores, con ternezas</l>
+               <l>pudo decir, que la dí</l>
+               <l>nuevo ser, y vida nueva,</l>
+               <l>que aunque estaba al parecer</l>
+               <l>muerta la cándida vela,</l>
+               <l>como la luz de mi vida</l>
+               <l>llegó á la suya tan cerca,</l>
+               <l>con el humo, que quedó,</l>
+               <l>pudo volver á encenderla.</l>
+               <l>Mejoró Nise, y vivio:</l>
+               <l>vivió Nise: quien dijera,</l>
+               <l>que no me hiciera su esposo</l>
+               <l>por satisfacer siquiera</l>
+               <l>con una mano, y un si,</l>
+               <l>tanto linage de deudas.</l>
+               <l>Pero mintió mi esperanza,</l>
+               <l>y mintieron sus finezas;</l>
+               <l>porque aunque salió la suerte</l>
+               <l>en mi favor, la soberbia</l>
+               <l>de mi hermano el Reino todo</l>
+               <l>con sangre, y armas altera,</l>
+               <l>y á pesar de la razon</l>
+               <l>pone sobre su cabeza</l>
+               <l>la Corona, que era mia;</l>
+               <l>y porque el vulgo no oyera</l>
+               <l>mis quejas, mandó prenderme:</l>
+               <l>triste del Reino, y la tierra,</l>
+               <l>donde el que se queja quieren</l>
+               <l>castigar porque se queja!</l>
+               <l>lloró Nise á los principios</l>
+               <l>de agradecida, ó de tierna;</l>
+               <l>mas oyó al Rey, y cansose,</l>
+               <l>porque como las orejas,</l>
+
+               <pb n="4" source="Moreno_272_4.jpg" facs="fedora_ug8105713/full/full/0/default.jpg"/>
+
+               <l>que son los ojos del alma:</l>
+               <l>tienen la puerta de cera,</l>
+               <l>y son fuego las palabras</l>
+               <l>de un Rey, á pocas respuestas</l>
+               <l>ablandó la cera el fuego,</l>
+               <l>y el alma rindió la puerta.</l>
+               <l>Casose, casose Nise</l>
+               <l>con condicion, que me dieran</l>
+               <l>libertad, como si el daño</l>
+               <l>en la prision estuviera.</l>
+               <l>Casose en fin, si bien supe</l>
+               <l>despues por cosa muy cierta,</l>
+               <l>que la repudió mi hermano,</l>
+               <l>cansado de su belleza,</l>
+               <l>porque nunca dura mas</l>
+               <l>lo que se goza por tema.</l>
+               <l>Salí al campo, di mil voces,</l>
+               <l>y aunque senti mis ofensas,</l>
+               <l>mas cuerdo, que vengativo,</l>
+               <l>por no verle, y por no verla,</l>
+               <l>á los montes, á los valles,</l>
+               <l>á los riscos, á las peñas,</l>
+               <l>á los prados, á las fuentes,</l>
+               <l>á los yermos, y á las selvas</l>
+               <l>me voy, de la Corte huyo:</l>
+               <l>llego á <name>Albania</name>, pero en ella</l>
+               <l>subo al monte, vivo en monte,</l>
+               <l>visto pieles, dejo sedas,</l>
+               <l>miento afectos, busco olvidos,</l>
+               <l>calzo abarcas, trato fieras,</l>
+               <l>rindo brutos, siembro flores,</l>
+               <l>bebo arroyos, como yerbas,</l>
+               <l>hago versos, miro libros,</l>
+               <l>paso historias, toco ciencias</l>
+               <l>y estando (ay Dios!) una tarde</l>
+               <l>yo recogido en mi cueva,</l>
+               <l>oi una vez, salí al monte,</l>
+               <l>miro el Sol, hallo á Clavela,</l>
+               <l>doila favor, vuelve á verme,</l>
+               <l>entretengome con ella,</l>
+               <l>vino con Celia una tarde,</l>
+               <l>enamoréme de Celia, </l>
+               <l>siendo Celia, y labradora</l>
+               <l>la que es Aurora, y Princisa.</l>
+               <l>Digole mi pensamiento,</l>
+               <l>oyele atenta, y contenta.</l>
+               <l>Hablo à Clavela una noche,</l>
+               <l>y para que me aborrezca,</l>
+               <l>digola que soy villano,</l>
+               <l>y que la Princesa es fea.</l>
+               <l>Hablanse las dos despues,</l>
+               <l>cuentaselo poco cuerda,</l>
+               <l>hallo un hombre en el jardin,</l>
+               <l>que dicen que la festeja. </l>
+               <l>Siento, callo, dudo, muero,</l>
+               <l>y ella sorda, ingrata, y fiera,</l>
+               <l>sin Dios, sin ley, sin razon</l>
+               <l>de su tierra me destierra.</l>
+               <l>Esto es lo menos que paso,</l>
+               <l>diga lo demas su Alteza.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859. <lb/>Imp. de D. José M.a Moreno, calle de Madre de Dios núm.
+                  1. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_005">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coplas al sagrado nacimiento de nuestro Señor Jesucristo</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Corrección del OCR</resp>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coplas al sagrado nacimiento de nuestro
+                     SeñorJesucristo.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6425598</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_005_1.xml"
+                              facs="fedora_ug8109256/493,267,758,1047/100,/0/default.jpg"
+                              >grabado_m_005_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5501105.html" type="tipo_texto">Coplas</term>
+               <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-10-13" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2020-11-17" who="#EL">Encodage du TEI Header et modifications du corps du
+            texte</change>
+         <change when="2021-02-17" who="#EL">Modification du fichier TEI en fonction de la v.3 du
+            manuel d'encodage</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106592/manifest">
+      <graphic url="fedora_ug8109256/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_005_1.jpg" facs="fedora_ug8109256/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Número 5.</fw>
+
+            <head type="primer_titulo">
+               <lb/>COPLAS <lb/>AL SAGRADO NACIMIENTO <lb/>DE NUESTRO SEÑOR JESUCRISTO. </head>
+
+            <head type="estribillo">ESTRIVILLO.</head>
+
+            <lg rend="cursiva">
+               <l>Camina, camina,</l>
+               <l>Esposo José</l>
+               <l>y no te separes</l>
+               <l>de tu amado bien.</l>
+            </lg>
+
+            <lg>
+               <l>La Virgen y San José,</l>
+               <l>empezaron su camino,</l>
+               <l>y en el vientre de Maria</l>
+               <l>llevan al Verbo Divino.</l>
+            </lg>
+
+            <lg>
+               <l>A Belen van caminando</l>
+               <l>la Virgen y San José,</l>
+               <l>la Virgen va en su mulita</l>
+               <l>San José camina á pié.</l>
+            </lg>
+
+            <pb n="2" source="Moreno_005_2.jpg" facs="fedora_ug8107567/full/full/0/default.jpg"/>
+
+            <fw type="paginaNum">2</fw>
+
+            <lg>
+               <l>San Josè dice á su esposa</l>
+               <l>si sufre martirio grande,</l>
+               <l>si se apoca ó se fatiga,</l>
+               <l>para algun alivio darle.</l>
+            </lg>
+
+            <lg>
+               <l>Por lo alto de la sierra</l>
+               <l>y de aquel monte encumbrado</l>
+               <l>va la Virgen, y José</l>
+               <l>no se aparta de su lado.</l>
+            </lg>
+
+            <lg>
+               <l>San José mira á su esposa</l>
+               <l>y al bajar por la aspereza,</l>
+               <l>le pregunta si va bien</l>
+               <l>con estremada terneza.</l>
+            </lg>
+
+            <lg>
+               <l>La Virgen le ha respondido</l>
+               <l>con indecible placer,</l>
+               <l>no me acivára el trabajo</l>
+               <l>de tan dulce padecer.</l>
+            </lg>
+
+            <lg>
+               <l>Lluvias y frios rodean</l>
+               <l>á la estrella matutina,</l>
+               <l>tostando el hermoso cutis</l>
+               <l>de su cara peregrina.</l>
+            </lg>
+
+            <lg>
+               <l>El patriarca José</l>
+               <l>viendo el agua no cesar,</l>
+               <l>se apesadumbra y desea</l>
+               <l>á su esposa consolar.</l>
+            </lg>
+
+            <lg>
+               <l>Ya se acercaba la noche</l>
+               <l>y la lluvia no cesaba,</l>
+               <l>y José con diligencia</l>
+               <l>con su manto la tapaba.</l>
+            </lg>
+
+            <lg>
+               <l>Al acercarse á Belen</l>
+               <l>la Virgen dijo à su esposo,</l>
+               <l>pronto llegará la hora</l>
+               <l>que abrace à mi niño hermoso.</l>
+            </lg>
+
+            <lg>
+               <l>Y le responde José</l>
+               <l>tus trabajos me dan pena,</l>
+               <l>y lo que deseo es,</l>
+               <l>el darle la enhorabuena.</l>
+            </lg>
+
+            <lg>
+               <l>Por fin llegan á Belen</l>
+               <l>la noche muy avanzada</l>
+               <l>y como era ya tarde,</l>
+               <l>nadie le daba posada.</l>
+            </lg>
+
+            <lg>
+               <l>En diferentes mesones</l>
+               <l>que habia en la poblacion,</l>
+               <l>como los miran tan pobres</l>
+               <l>no les dan colocacion.</l>
+            </lg>
+
+            <lg>
+               <l>Pide San José le admitan</l>
+               <l>aunque sea en el pajar,</l>
+               <l>por estar la noche mala</l>
+               <l>y serle imposible andar.</l>
+            </lg>
+
+            <lg>
+               <l>Pero los muy inhumanos</l>
+               <l>los despiden sin consuelo,</l>
+               <l>sin quererlos admitir,</l>
+               <l>aunque duerman en el suelo.</l>
+            </lg>
+
+            <lg>
+               <l>Viendo José su abandono</l>
+               <l>y no sabiendo que hacer,</l>
+               <l>salen al campo á buscar</l>
+               <l>quien los quiera recoger.</l>
+            </lg>
+
+            <pb n="3" source="Moreno_005_3.jpg" facs="fedora_ug8105572/full/full/0/default.jpg"/>
+
+            <fw type="paginaNum">3</fw>
+
+            <lg>
+               <l>La Virgen lo consolaba,</l>
+               <l>Esposo tened paciencia,</l>
+               <l>porque lo dispone el cielo</l>
+               <l>y no hay que hacer resistencia.</l>
+            </lg>
+
+            <lg>
+               <l>Los dos juntos se lamentan</l>
+               <l>y á aquel Señor inmortal,</l>
+               <l>le piden en oracion</l>
+               <l>le depare algun portal.</l>
+            </lg>
+
+            <lg>
+               <l>A poco tiempo de andar</l>
+               <l>en aquellos campos vieron</l>
+               <l>un establo de animales,</l>
+               <l>y hácia él se dirigieron.</l>
+            </lg>
+
+            <lg>
+               <l>Para abrigar el portal</l>
+               <l>Josè encendió candela,</l>
+               <l>y su Esposa al Criador</l>
+               <l>en oracion se desvela.</l>
+            </lg>
+
+            <lg>
+               <l>Puesta estaba de rodillas</l>
+               <l>orando con grande ardor,</l>
+               <l>y entre las doce y la una</l>
+               <l>dió á luz al Redentor.</l>
+            </lg>
+
+            <lg>
+               <l>Los Angeles por los aires</l>
+               <l>con resplandor se presentan,</l>
+               <l>los pastores que lo ven</l>
+               <l>se amotinan y amedrentan.</l>
+            </lg>
+
+            <lg>
+               <l>Los Angeles les digeron:</l>
+               <l>no temais que ha nacido</l>
+               <l>el Salvador de los hombres,</l>
+               <l>el hijo de Dios querido.</l>
+            </lg>
+
+            <lg>
+               <l>A Belen marchar pastores</l>
+               <l>tras-muros de la ciudad,</l>
+               <l>vereis al Rey de los Cielos</l>
+               <l>en el mas pobre Portal.</l>
+            </lg>
+
+            <lg>
+               <l>Aunque lo veis tan pobre</l>
+               <l>entre humildes pajas echado</l>
+               <l>es el hijo de Dios, hombre</l>
+               <l>que os librará del pecado.</l>
+            </lg>
+
+            <lg>
+               <l>Todos brincan de contento</l>
+               <l>y á Belen se encaminaron</l>
+               <l>y así que vieron al niño,</l>
+               <l>humildes se arrodillaron.</l>
+            </lg>
+
+            <lg>
+               <l>No sabian que traerle</l>
+               <l>como era tan chiquito,</l>
+               <l>y se levanta un Zagal</l>
+               <l>y le trajo un corderito.</l>
+            </lg>
+
+            <lg>
+               <l>Otros le traian miel,</l>
+               <l>queso, leche y requesones</l>
+               <l>y para quitarle el frio</l>
+               <l>le dieron unos calzones.</l>
+            </lg>
+
+            <lg>
+               <l>Para festejar al niño</l>
+               <l>tocaban mil instrumentos,</l>
+               <l>de Zambombas y Rabeles</l>
+               <l>y saltaban de contentos.</l>
+            </lg>
+
+            <lg>
+               <l>Todos le llevan al niño</l>
+               <l>cuanto tienen en sus chozas,</l>
+               <l>pues como lo ven tan pobre</l>
+               <l>le regalan muchas cosas. </l>
+            </lg>
+
+            <pb n="4" source="Moreno_005_4.jpg" facs="fedora_ug8110277/full/full/0/default.jpg"/>
+
+            <fw type="paginaNum">4</fw>
+
+            <lg>
+               <l>San José estaba contento,</l>
+               <l>todo respira alegria,</l>
+               <l>pues hubo vez que la Virgen</l>
+               <l>á carcajadas reia.</l>
+            </lg>
+
+            <lg>
+               <l>Muchachos con mantas,</l>
+               <l>zagales con palos,</l>
+               <l>al recien nacido</l>
+               <l>le traen regalos.</l>
+            </lg>
+
+            <lg>
+               <l>Mientras la noche duró</l>
+               <l>no cesaron de llegar</l>
+               <l>pastores y pastorcitas,</l>
+               <l>para el niño regalar.</l>
+            </lg>
+
+            <lg>
+               <l>Antes del amanecer</l>
+               <l>llegó al portal un vaquero</l>
+               <l>y al niño de Dios le trajo,</l>
+               <l>una vaca y un ternero.</l>
+            </lg>
+
+            <lg>
+               <l>Con una estrella por guia</l>
+               <l>los Reyes magos vinieron,</l>
+               <l>y todo cuanto tenian</l>
+               <l>al niño se lo ofrecieron.</l>
+            </lg>
+
+            <lg>
+               <l>Tocando cajas y trompas</l>
+               <l>entraron en el portal,</l>
+               <l>y cuando vieron á Dios</l>
+               <l>lo empezaron á adorar.</l>
+            </lg>
+
+            <lg>
+               <l>Que era mas que todo el mundo</l>
+               <l>los tres Reyes conocieron,</l>
+               <l>y sus armas y coronas</l>
+               <l>á su presencia rindieron.</l>
+            </lg>
+
+            <lg>
+               <l>Incienso, oro y mirra</l>
+               <l>y gran parle de riqueza,</l>
+               <l>le ofrecen al Salvador</l>
+               <l>admirando su pobreza.</l>
+            </lg>
+
+            <lg rend="cursiva">
+               <l>Tocaban, cantaban</l>
+               <l>con grande alegria,</l>
+               <l>y el Rey de los cielos</l>
+               <l>de verlos reia.</l>
+            </lg>
+
+            <trailer>FIN.</trailer>
+         </div>
+
+         <div type="colofon">
+            <p><lb/>CARMONA:—Imp. de D. José. M.a Moreno, calle Madre Dios nùm. 1.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

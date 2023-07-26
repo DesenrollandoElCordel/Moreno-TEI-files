@@ -1,0 +1,680 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_340">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Papel nuevo para presentar</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Papel nuevo para presentar, donde encontrarémos el
+                     raro nacimiento de un desgraciado.</title>
+                  <title type="titulo_breve">Papel nuevo para presentar</title>
+                  <author>Antonio Sanchez Roldan</author>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5060709</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">[s.n.]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>3 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_340_1.xml"
+                              facs="fedora_ug8110127/336,310,570,843/100,/0/default.jpg"
+                              >grabado_m_340_1</item>
+                           <item corresp="grabado_m_340_2.xml"
+                              facs="fedora_ug8110127/922,351,444,769/100,/0/default.jpg"
+                              >grabado_m_340_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q969581">
+                  <placeName key="El_Viso_del_Alcor">El Viso Del Alcor</placeName>
+                  <location>
+                     <geo>37.388611111111 -5.7188888888889</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q8717">
+                  <placeName key="Sevilla">Sevilla</placeName>
+                  <location>
+                     <geo>37.383333333333 -5.9833333333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-13" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8109282/manifest">
+      <graphic url="fedora_ug8110127/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_340_1.jpeg" facs="fedora_ug8110127/full/full/0/default.jpg"/>
+
+               <head type="primer_titulo">
+                  <lb/>PAPEL NUEVO PARA PRESENTAR, <lb/>donde encontrarémos el raro nacimiento
+                  <lb/>de un desgraciado. </head>
+
+               <l rend="indent">Atiendame todo el orbe</l>
+               <l>el que me quiera escuchar,</l>
+               <l>paren los sábios la pluma</l>
+               <l>sin poder continuar,</l>
+               <l>registrense las historias</l>
+               <l>donde no se encontrarán</l>
+               <l>en los hijos de los siglos </l>
+               <l>ni en otros que nacerán </l>
+               <l>quien conmigo se compare</l>
+               <l>ni quien se pueda igualar, </l>
+               <l>ni el rigor de las desdichas, </l>
+               <l>ni Job en el muladar.</l>
+               <l>Los signos y los planetas</l>
+               <l>se ponen á disputar</l>
+               <l>porque ninguno quería </l>
+               <l>que bajo su potestad</l>
+               <l>tal niño viniera al mundo</l>
+               <l>por no oirme lamentar.</l>
+               <l>Si cuento de mi fortuna</l>
+               <l>ino es posible el acabar </l>
+               <l>en los dias que me restan</l>
+               <l>de esta vida temporal</l>
+               <l>Os diré alguna cosita</l>
+               <l>pues la voy á principiar.</l>
+               <l>El padre que me engendró, </l>
+               <l>lle dieron dos arqueás </l>
+               <l>y cayó muerto rodando:</l>
+               <l>quedó mi madre ya está</l>
+               <l>el embarazo mas malo</l>
+               <l>que se puede imaginar:</l>
+               <l>mientras me tuvo en el cuerpo,</l>
+               <l>padecia de un bacial.</l>
+               <l>que á los veinte y cuatro pasos</l>
+               <l>mataba á las cogujás: </l>
+               <l>se quedó sorda y sin vista,</l>
+               <l>ly sin color natural</l>
+               <l>mi madre se iba secando, </l>
+               <l>seca, secándose yá</l>
+               <l>cuando entró en los siete meses,</l>
+               <l>yo no podia parar.</l>
+               <l>Yo estaba allí muy estrecho</l>
+               <l>y me queria estirazar</l>
+               <l>y al mismo tiempo queria, </l>
+               <l>yo queria retozar,</l>
+               <l>retozar, quería yo, </l>
+               <l>yo buscaba la salida</l>
+               <l>y sin poderla encontrar,</l>
+               <l>y estando mi madre un dia</l>
+               <l>apretando en el corral</l>
+               <l>lveo aquel postigo abierto</l>
+               <l>déjome ir por detrás </l>
+               <l>por el bujero contrario</l>
+               <l>y envuelto en pura verdad</l>
+               <l>ldonde cai de cabeza</l>
+
+               <pb n="2" source="Moreno_340_2.jpeg" facs="fedora_ug8104971/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>que por no oirme llorar</l>
+               <l>se podria dar dinero;</l>
+               <l>principié á patalear</l>
+               <l>y échole mano á mi madre</l>
+               <l>donde le pude agarrar.</l>
+               <l>Por mas que forcejeaba, </l>
+               <l>quien me hacia soltar; </l>
+               <l>daba vueltas biravueltas, </l>
+               <l>qué será qué no será</l>
+               <l>si será algun gato clavo </l>
+               <l>ó algun demonio infernal.</l>
+               <l>De susto se cayó muerta</l>
+               <l>y acudió la vecindad.</l>
+               <l>¡Ay que niño tan bonito</l>
+               <l>quien lo pudiera agarrar!</l>
+               <l>pero como olisca tanto, </l>
+               <l>no se puede afianzar:</l>
+               <l>me rodaron con un palo</l>
+               <l>como las piñas asá,</l>
+               <l>una dijo poco á poco </l>
+               <l>que lo vamos á lavar; </l>
+               <l>veinte y dos cubos de agua</l>
+               <l>como quien apaga cal</l>
+               <l>me tiraron por encima, </l>
+               <l>yo principié á tiritar</l>
+               <l>que frio, ¡me cago en el mundo!</l>
+               <l>llorando cada vez mas.</l>
+               <l>Me visten con unos trapos</l>
+               <l>que los iban á tirar, </l>
+               <l>y acabado de vestir</l>
+               <l>llegó por casualidad</l>
+               <l>la mujer del pregonero</l>
+               <l>y cansada de mirar,</l>
+               <l>dijo, venga acá ese niño</l>
+               <l>que le voy á dar de mamar</l>
+               <l>que yo tengo un pecho malo</l>
+               <l>y me lo va á desahogar</l>
+               <l>de postillas y diviesos</l>
+               <l>y bocas acángrenás:</l>
+               <l>el olor que echaba el pecho</l>
+               <l>no se podia aguantar.</l>
+               <l>Me soltó un pezon tamaño </l>
+               <l>y vo comencé á tragar</l>
+               <l>allí me atraqué de zupia </l>
+               <l>hasta que no quise mas </l>
+               <l>me cargó una diarrea</l>
+               <l>que me giñé de churán</l>
+               <l>en esto llegó un borracho</l>
+               <l>forastero ó del lugar</l>
+               <l>y besandome decia</l>
+               <l>yo le voy á cristianar:</l>
+               <l>me pilló debajo del brazo</l>
+               <l>coma, una capa robá</l>
+               <l>y en la puerta de la Iglesia,</l>
+               <l>preguntó, se puede entrar?</l>
+               <l>tropezó, cayó de boca</l>
+               <l>y yo principié á rodar, </l>
+               <l>lloré por toda mi casta,</l>
+               <l>me recogió el sacristan</l>
+               <l>y le dijo al padre cura </l>
+               <l>hágalo V. en caridad</l>
+               <l>de bautizar á este niño</l>
+               <l>y póngale V. Pascual</l>
+               <l>porque ya se aproximaba</l>
+               <l>la pascua de Navidad,</l>
+               <l>que gracioso estaba el cura</l>
+               <l>dando en el suelo patás</l>
+               <l>porque una beata vieja </l>
+               <l>habia robado un misal,</l>
+               <l>¡cualquiera podia pedirle</l>
+               <l>una peseta prestá, </l>
+               <l>ui una vela me encendieron</l>
+               <l>lni sé si me dijo ná.</l>
+               <l>Me agarró por los zancajos</l>
+               <l>y apretándome de atrás</l>
+               <l>me zambulló la cabeza</l>
+               <l>ly dijo: póngote Pascual.</l>
+               <l>Yo con el susto arrié</l>
+               <l>la limosna por detrás,</l>
+               <l>noticiado por el usmo</l>
+               <l>sellegó el cura á enterar;</l>
+               <l>como quien tira un chusqué </l>
+               <l>me tiró contra un altar,</l>
+               <l>de allí salió el cura dao </l>
+               <l>renegando de Pascual.</l>
+               <l>El enterraó que llega</l>
+               <l>me comenzó á acariciar</l>
+               <l>y dijo que iba á buscarme</l>
+               <l>quien me diera de mamar.</l>
+               <l>Una burra con percol</l>
+               <l>que era de un municipal</l>
+               <l>la cual era cosquillosa</l>
+               <l>y me soltó una patá</l>
+               <l>que si no tira de mi</l>
+               <l>me bolea la quijá.</l>
+               <l>¡Cielo para que nací</l>
+               <l>yo nací para penar! </l>
+               <l>Luego entre muchas mujeres, </l>
+               <l>movidas de caridad.</l>
+               <l>me criaron á traguitos, </l>
+               <l>me limpiaba el temporal</l>
+               <l>¡trage mas moscas á cuestas</l>
+               <l>que una melera colgá</l>
+               <l>y dentro depocos dias</l>
+               <l>que asi lo puedocontar:</l>
+               <l>eché dientes y colmillos, 1.</l>
+               <l>las muelas encadenás</l>
+               <l>preparado para lo mismo ::</l>
+               <l>cuando hubiera que rumiar,</l>
+               <l>cuando agarraba un pezon</l>
+               <l>lle soltaba una entallá; </l>
+               <l>já la mujer le dolía</l>
+               <l>podemos considerar, </l>
+               <l>á la par que daba un grito</l>
+               <l>me daba una bofetá</l>
+               <l>probó mi cara mas manos</l>
+               <l>(que pila de Catedrá; </l>
+               <l>el Miércoles de ceniza</l>
+               <l>haciendo el ceremonial</l>
+               <l>la que me daba una vez, </l>
+               <l>ño volvia á darme mas. </l>
+               <l>La suerte que yo he tenido</l>
+               <l>que saqué buena quijá, </l>
+               <l>yo no he encontrao pan duro</l>
+               <l>ni comia mal guisá; </l>
+               <l>para mi toas están buenas, </l>
+               <l>Ini están sosas ni salás,</l>
+               <l>yo como de todo pasto</l>
+               <l>y no dejo de engordar; </l>
+               <l>llas pesas que hay en la plaza</l>
+               <l>y ademas en la ciudad</l>
+               <l>mi cabeza dá razon</l>
+               <l>de aquella que pesa mas. </l>
+               <l>Ya que fui grandesito</l>
+               <l>loficio quise tomar,</l>
+               <l>fuí mozo de tabernero;</l>
+               <l>lsi me tocaba espachar</l>
+               <l>yo solia equivocarme</l>
+               <l>poniendo siempre de mas;</l>
+               <l>hasta que un dia un borracho</l>
+               <l>me entendió la enfermedad</l>
+               <l>ly me dijo agachadito</l>
+               <l>escuche V. camará:</l>
+               <l>¿por qué me pone Y cinco</l>
+               <l>siendo dos las convidás?</l>
+               <l>y sin guardá consecuencia</l>
+               <l>me soltó una bofetá</l>
+               <l>que la cara me echó luz;</l>
+               <l>yo me quedé tambalan, </l>
+               <l>al pronto creí que un mulo</l>
+               <l>me habia dado una patá;</l>
+               <l>reniego de la taberna, </l>
+               <l>no soy tabernero mas, </l>
+               <l>yo quiero ser zapatero</l>
+               <l>que me gusta dar puntás,</l>
+               <l>el maestro de las dos potras,</l>
+               <l>que ustedes lo conocerán</l>
+               <l>está llorando por mí</l>
+               <l>pues yo he sido su oficial,</l>
+               <l>yo sé esbaratar un zapato</l>
+               <l>con la mayor propiedad.</l>
+               <l>y me ajusté con los cargos</l>
+
+               <pb n="3" source="Moreno_340_3.jpeg" facs="fedora_ug8108958/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>que no mohabia de faltar </l>
+               <l>agua la que yo quisiera</l>
+               <l>teniendo franco el corral</l>
+               <l>para cuando me diera gana</l>
+               <l>desatracarme de atrás, </l>
+               <l>era muy en tarde en tarde</l>
+               <l>porque no comia ná</l>
+               <l>Al descuido del maestro</l>
+               <l>yo solia visitar</l>
+               <l>la cocina, y el puchero.</l>
+               <l>me gustaba destapar</l>
+               <l>cuando encontraba gandinga</l>
+               <l>en menos de un presinar</l>
+               <l>la quitaba yo del mundo,</l>
+               <l>y asi podia pasar</l>
+               <l>y estando engolfado un dia,</l>
+               <l>tirando de la tajá,</l>
+               <l>el maestro que me toca</l>
+               <l>en un hombro por detrás,</l>
+               <l>y me dijo, ya caites. </l>
+               <l>¿y ahora te escaparás?</l>
+               <l>si supiera ir á un presidio</l>
+               <l>voy hacer un ejemplar:</l>
+               <l>cogió el puchero por un asa</l>
+               <l>y tirando un poco atrás</l>
+               <l>me lo estrelló en la cabeza</l>
+               <l>que aqui tengo la señal</l>
+               <l>salí que no ví la puerta </l>
+               <l>me principian á gritar,</l>
+               <l>unos decian, á ese,</l>
+               <l>otros dicen alla vá, </l>
+               <l>el que se comió la carne,</l>
+               <l>¿te supo buena, Pascual?</l>
+               <l>yo al mismo tiempo me daba</l>
+               <l>con los zancajos atrás</l>
+               <l>de allí salí acreditado</l>
+               <l>para no volver jamás, </l>
+               <l>me fuí á otro pueblo que estaba</l>
+               <l>cuatro leguas mas allá.</l>
+               <l>y á la entrada de la calle</l>
+               <l>está una mujer sentá</l>
+               <l>y yo le dije señora </l>
+               <l>donde ire sin errar </l>
+               <l>á una tienda de bárbero </l>
+               <l>que haga falta un oficial, </l>
+               <l>allí en una casa de esquina</l>
+               <l>el maestro Baltasar</l>
+               <l>está clamando por uno, </l>
+               <l>yo dije, vamos allá, </l>
+               <l>llegué diciendo á Dios gracias,</l>
+               <l>me contestán á Dios sean dás</l>
+               <l>Dios guarde á usted buen maes-</l>
+               <l>hace falta un oficial, (tro</l>
+               <l>se le acreditará lá tienda, </l>
+               <l>en viéndome trabajar,</l>
+               <l>me dijo pase usted alante,</l>
+               <l>siéntese usted á descansar </l>
+               <l>cuando llegó un carbonero</l>
+               <l>que se venia afeitar </l>
+               <l>cada barba como una lesna</l>
+               <l>acabada de amolar, </l>
+               <l>y entró y diciendo, maestro</l>
+               <l>hágalo usted por hondad </l>
+               <l>de espacharme por lo pronto</l>
+               <l>que está la burra cargá, </l>
+               <l>siéntese usted buen amigo</l>
+               <l>yo lo comencé á bañar </l>
+               <l>bastantes chispas de agua</l>
+               <l>salieron por el corral</l>
+               <l>luego tomé la nabaja</l>
+               <l>y la comencé á molar</l>
+               <l>seis veces hizo; tris, tris..</l>
+               <l>pillolo aquí á mano vuelta </l>
+               <l>y apretándolo de atras </l>
+               <l>como aquel que monda nabos</l>
+               <l>la nabaja echó á roncar,</l>
+               <l>el hombre hacia moines</l>
+               <l>sin dejar de suspirar,</l>
+               <l>yo dije alpronto, este hombre,</l>
+               <l>nada tiene de particular</l>
+               <l>que tenga por que sentir, </l>
+               <l>y que le obligue á llorar </l>
+               <l>por alguno de su familia</l>
+               <l>dejelo maniobrar,</l>
+               <l>y yo con mi violencia</l>
+               <l>demo stré mi abilidá</l>
+               <l>en todo el lao izquierdo</l>
+               <l>le saqué una rebaná</l>
+               <l>desde la oreja á la barba,</l>
+               <l>se le veia la quijá,</l>
+               <l>me agarró por la cintura</l>
+               <l>y me tire hacia atrás </l>
+               <l>liándome en la cabeza </l>
+               <l>luna agua viento de patás </l>
+               <l>grité con todo mi pecho</l>
+               <l>acudió la vecindad</l>
+               <l>vino el alcalde primero</l>
+               <l>que fué el que pudo evitar</l>
+               <l>de que no me rematará</l>
+               <l>el cirujanó ya está </l>
+               <l>con una aguja de ré </l>
+               <l>y una tremilla encerá</l>
+               <l>le hizo un culo de pollo,</l>
+               <l>como quien cose un costal</l>
+               <l>y el cirujano pregunta,</l>
+               <l>usted se halla capaz</l>
+               <l>de hacer las diligencias</l>
+               <l>por lo que pueda resultar,</l>
+               <l>esta herida no es de muerte</l>
+               <l>bastante padecerá </l>
+               <l>si la carnadura es buena</l>
+               <l>en sabiéndolo curar,</l>
+               <l>dentro de cincuenta meses.</l>
+               <l>ha de poder trabajar</l>
+               <l>y yo como puerca sorda </l>
+               <l>escuchando en el portal</l>
+               <l>sin despedirme de nadie</l>
+               <l>me salí por el corral ca</l>
+               <l>hice noche en un cortijo</l>
+               <l>donde llegué á preguntar</l>
+               <l>donde está el aperaor,</l>
+               <l>me dijeron allí está: </l>
+               <l>Dios guarde á usted aperaor</l>
+               <l>me dá usted la peoná </l>
+               <l>para trabajar, mañana;</l>
+               <l>á un hombre de agilidad?. </l>
+               <l>y me dijo si señor, o</l>
+               <l>vayase usted á calentar</l>
+               <l>que alli está la gañania;</l>
+               <l>y allí puede usted cenar</l>
+               <l>luego que la gente venga</l>
+               <l>si ponen dificultad, </l>
+               <l>diga usted que yo lo mando</l>
+               <l>que nadie le dirá ná....</l>
+               <l>á la entrar por el cortijo,</l>
+               <l>se me abalanzó un animal</l>
+               <l>atado por el pescuezo</l>
+               <l>que si me llegar á pillar.</l>
+               <l>hace colacion conmigo,</l>
+               <l>y yo salté hacia atras...</l>
+               <l>mas rápido que un bolero,</l>
+               <l>me dirigi sin errar.</l>
+               <l>lsentandome á la calor</l>
+               <l>ya principian á llegar, </l>
+               <l>con unos palos muy largos, </l>
+               <l>y en la punta una rejár</l>
+               <l>diciéndo alabao sea</l>
+               <l>lel que mata á los gallegos, </l>
+               <l>ya estamos en la posaa</l>
+               <l>da la nabaja fulano,</l>
+               <l>mira que voy á grasnar, </l>
+               <l>el últimb que allientró</l>
+               <l>que fué el que vino detrás</l>
+               <l> con una clfibata larga, </l>
+               <l>dijo; yamos á denar </l>
+               <l>preparar ese gatuperio</l>
+               <l>princiniamá mmenaar ¡4.: </l>
+               <l>y una musica entonaron</l>
+               <l>como una cajaasfeapla;2::)</l>
+               <l>luego dicen arreor,</l>
+               <l>larrimese usted á cenar, </l>
+               <l>á llenar la falfaracha;</l>
+
+               <pb n="4" source="Moreno_340_4.jpeg" facs="fedora_ug8110062/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>y yo principié á tragar,</l>
+               <l>acabando el cuchareo </l>
+               <l>estando cómiendo pan</l>
+               <l>dijo uno vale miche:</l>
+               <l>y el otro aprieta de atras </l>
+               <l>y retorciendo el hocico</l>
+               <l>con la cabeza incliná </l>
+               <l>levantó el cuarto trasero</l>
+               <l>y dió guita al temporal</l>
+               <l>como el principio de un trueno,</l>
+               <l>dos veces hizo, tras, tras,</l>
+               <l>uno dijo para el méico</l>
+               <l>otro para el cacristan</l>
+               <l>para el que mas á gusto viva</l>
+               <l>en esta vida mortal</l>
+               <l>dejále al amo una astilla</l>
+               <l>la que no le faltará,</l>
+               <l>vamos goliendo de golpe</l>
+               <l>que voy preparando ya</l>
+               <l>para soltar otro cuesco</l>
+               <l>que á mí modo de pensar</l>
+               <l>como no me falte tela </l>
+               <l>un ciento voy á largar</l>
+               <l>desde esta tarde me duele</l>
+               <l>la barriga y un hijar:</l>
+               <l>estaba allí un esgreñao</l>
+               <l>de este pueblo naturalí </l>
+               <l>aquel dijo tóo preso</l>
+               <l>aclama su libertad</l>
+               <l>y levantando la penca</l>
+               <l>recesandose patras</l>
+               <l>se puso jorobarto</l>
+               <l>y fué la bentosa tal</l>
+               <l>que se atolondró el cortíjo;</l>
+               <l>uno respondió, echa y bebe</l>
+               <l>hijo de la que salta y topa, </l>
+               <l>y dame aqui con la bota</l>
+               <l>por lo que me sucediere;</l>
+               <l>otro respondió atar corto </l>
+               <l>y afianzar ese camueso</l>
+               <l>len ese tono te crujan,</l>
+               <l>las cuerdas de tu pescuezo</l>
+               <l>otro dijo buenas voces</l>
+               <l>lá sacado esa guitarra;</l>
+               <l>lotro suelte como ese</l>
+               <l>donde canta la chicharra</l>
+               <l>otro respondió que truene,</l>
+               <l>que este es un puerto seguro</l>
+               <l>voy á ehar una pipá ...</l>
+               <l>que me llegue el jumo al culo,</l>
+               <l>ellos todos se reian</l>
+               <l>y á mi todos me miraban, </l>
+               <l>y yo oir, ver y callar, </l>
+               <l>y con nadie aconsejaba</l>
+               <l>en fin pasé alli la noche,</l>
+               <l>y antes que rompiera el alba </l>
+               <l>con algo mas de dos horas</l>
+               <l>nos fuimos á la besana</l>
+               <l>me reataron dos bueyes</l>
+               <l>lno sé como se llaniaban</l>
+               <l>principiaron á dar voces </l>
+               <l>antes que el sol calentara</l>
+               <l>y nos fuimos almozar,</l>
+               <l>yo creí que se estilaba: </l>
+               <l>estar comiendo y peendo,</l>
+               <l>y á mí me vino la gana </l>
+               <l>y me desataqué de atrás </l>
+               <l>me entraron cuatro á la carga</l>
+               <l>de allí no pude escaparme </l>
+               <l>valerme santa Suseña, </l>
+               <l>ldos me agarran por las manos</l>
+               <l>dos por las patas de atras, </l>
+               <l>lsobre el cubo de una reja</l>
+               <l>Jesus que balbaridad; </l>
+               <l>me dieron siete baivienes,</l>
+               <l>lesto no es imponderar:</l>
+               <l>lsi mi culo quedó entero</l>
+               <l>fué por lascasualidad</l>
+               <l>lme salí de aquella gente</l>
+               <l>con nuevo modo de andar,</l>
+               <l>esto me ha pasado á mi </l>
+               <l>mas me queda que pasar, </l>
+               <l>ahora trato de casarme</l>
+               <l>con una moza juncalá.</l>
+               <l>lquieren Vds. ver á mi novia?</l>
+               <l>esa que esta ahí sentá</l>
+               <l>lse lo he dicho y está loca,</l>
+               <l>loca, loquita total,</l>
+               <l>lestá loca materialmente,</l>
+               <l>loca, que la van á atar.</l>
+               <l>Yo la miraré en mi casa </l>
+               <l>lcomo espejo dé cristal</l>
+               <l>haré cuanto ella me mande,</l>
+               <l>¿con perfecta voluntad;</l>
+               <l>lsolamente en una cosa</l>
+               <l>me tiene de perdonar</l>
+               <l>que aunque yo pase trabajos, </l>
+               <l>no, voy á un cortijo mas.</l>
+               <l>Si llego; á ir otra vez</l>
+               <l>me acaban de rematar:</l>
+               <l>cada vez que yo me acuerdo,</l>
+               <l>cuando me tiento aqui atrás. </l>
+               <l>del coraje que me entra</l>
+               <l>yo no sé lo que me dá,</l>
+               <l>Pascualito el desgraciao</l>
+               <l>me tengo yo é llamar;</l>
+               <l>como fué mi nacimiento</l>
+               <l>asi será mi final;</l>
+               <l>Y ahora os pido perdon.</l>
+               <l>si es que no está bien versaa,</l>
+               <l>aqui concluyó la historia</l>
+               <l>que le he compuesto á Pascual.</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>Esta composicion es propiedad de Antonio <lb/>Sanchez, Roldan, natural del
+                  Viso del Alcor, pro- <lb/>vincia de Sevilla, trabajador del campo sin saber
+                  <lb/>leer ni escribir--El que me lea me dispensará <lb/>las faltas. </p>
+
+               <p><lb/>REIMPRESO EN CARMONA. <hi rend="cursiva">Imprenta de</hi> D. José M.a
+                  Moreno,</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

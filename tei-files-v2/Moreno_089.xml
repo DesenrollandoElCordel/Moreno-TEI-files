@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_089">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juan Portela</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Juan Portela. Nuevo romance en el que se declara los
+                     robos y asesinatos que ha cometido el valeroso Portela en las inmediaciones de
+                     Córdoba.</title>
+                  <title type="titulo_breve">Juan Portela.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461264</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 98</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>[Primera parte.]</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Segunda parte en decimas.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_089_1.xml"
+                              facs="fedora_ug8109672/282,459,1344,863/100,/0/default.jpg"
+                              >grabado_m_089_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q686362">
+                  <placeName key="Sierra_Morena">Sierra Morena</placeName>
+                  <location>
+                     <geo>38.3 -5.4</geo>
+                  </location>
+               </place>
+               <place n="7" corresp="Q5818">
+                  <placeName key="Córdoba">Córdoba</placeName>
+                  <location>
+                     <geo>37.883333333333 -4.7666666666667</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q2000446">
+                  <placeName key="Carpio_del_Campo">Carpio Del Campo</placeName>
+                  <location>
+                     <geo>41.2126514 -5.10906</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q753825">
+                  <placeName key="Utrera">Utrera</placeName>
+                  <location>
+                     <geo>37.1824646 -5.7817506</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q572041">
+                  <placeName key="Antequera">Antequera</placeName>
+                  <location>
+                     <geo>37.0183652 -4.5596649</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107231/manifest">
+      <graphic url="fedora_ug8109672/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_089_1.jpg" facs="fedora_ug8109672/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 98.)</fw>
+
+               <head rend="negrita" type="primer_titulo">JUAN PORTELA.</head>
+               <head type="subtitulo">
+                  <lb/><hi rend="negrita">NUEVO ROMANCE,</hi>
+                  <lb/>en el que se declara los robos y asesinatos <lb/>que ha cometido el valeroso
+                  Portela en <lb/>las inmediaciones de Córdoba. </head>
+
+               <div n="1" type="parte">
+                  <l rend="indent">Escuchen, señores mios,</l>
+                  <l>les diré de Juan Portela,</l>
+                  <l>el ladron mas afamado</l>
+                  <l>de la gran <name>Sierra Morena</name>.</l>
+                  <l rend="indent">De mis padres fui querido,</l>
+                  <l>todos los gustos me daban;</l>
+                  <l>mas de verme yo perdido,</l>
+                  <l>una muger fue la causa;</l>
+                  <l>oscuchen, señores mios.</l>
+                  <l rend="indent">Nos dimos palabra cierta</l>
+                  <l>para casarnos los dos,</l>
+                  <l>puse mi aficion en ella,</l>
+                  <l>la que fué mi perdicion;</l>
+                  <l>les diré de Juan Portela.</l>
+                  <l rend="indent">Fuí un labrador honrado</l>
+                  <l>que en <name>Córdoba</name> trabajaba; </l>
+                  <l>á una hacienda retirado</l>
+                  <l>y por querer á una dama,</l>
+                  <l>fui el ladron mas afamado.</l>
+                  <l rend="indent">Sin tener de mi una queja</l>
+                  <l>esta jóven se casó</l>
+                  <l>con otro, y á mi me deja:</l>
+                  <l>cuya causa me llevó</l>
+                  <l>á la gran <name>Sierra-Morena</name>.</l>
+
+                  <pb n="2" source="Moreno_089_2.jpg"
+                     facs="fedora_ug8108008/full/full/0/default.jpg"/>
+
+                  <l rend="indent">Lloraba de noche y dia</l>
+                  <l>siempre por una muger,</l>
+                  <l>mas al ver su tirania</l>
+                  <l>vengaza determiné.</l>
+                  <l rend="indent">Con el sol de mediodia</l>
+                  <l>un puñal fui disputando,</l>
+                  <l>mis amigos qué dirian,</l>
+                  <l>cuando me vi despresiado,</l>
+                  <l>lloraba de noche y dia.</l>
+                  <l rend="indent">Sus quejas llegué á entender</l>
+                  <l>de una pícara traidora,</l>
+                  <l>que tan falsa vino á ser;</l>
+                  <l>pensaba todas las horas</l>
+                  <l>siempre por una muger.</l>
+                  <l rend="indent">Pronto á perder mi vida,</l>
+                  <l>muy fiero valor mostré,</l>
+                  <l>y al lograr lo que queria</l>
+                  <l>na noche me marché,</l>
+                  <l>al ver yo su tiranía,</l>
+                  <l rend="indent">Con mi trabuco me entré</l>
+                  <l>á la casa que habitaban,</l>
+                  <l>y á su marido encontré,</l>
+                  <l>que los dos cenando estaban,</l>
+                  <l>venganza determiné.</l>
+                  <l rend="indent">Vongo á quitarte la vida</l>
+                  <l>delante de tu marido,</l>
+                  <l>y pagaré con la mia</l>
+                  <l>si acaso soy atrevido.</l>
+                  <l rend="indent">Lloraba la falsa niña</l>
+                  <l>al sentir estas palabras;</l>
+                  <l>detén traidor tu gran ira</l>
+                  <l>te daré de puñaladas</l>
+                  <l>para quitarte la vida.</l>
+                  <l rend="indent">Su esposo quedó rendido,</l>
+                  <l>me miraba con fiereza,</l>
+                  <l>sin color y sin sentido,</l>
+                  <l>cuando ella cayó muerta</l>
+                  <l>delante de su marido.</l>
+                  <l rend="indent">Aquí acabó mi alegria,</l>
+                  <l>dige luego, soy perdido:</l>
+                  <l>sin decir Ave Maria</l>
+                  <l>de un tiro maté al marido</l>
+                  <l>yo pagaré con la mia.</l>
+                  <l rend="indent">Sali con mi trabuquillo,</l>
+                  <l>vi un gran grupo que decia</l>
+                  <l>alto y justicia pido;</l>
+                  <l>y ella mis pasos seguia</l>
+                  <l>si acaso algun atrevido.</l>
+                  <l rend="indent">Giré un poco mi cabeza </l>
+                  <l>con mi trabuco apuntando,</l>
+                  <l>que disparo á toda prisa</l>
+                  <l>cuatro muertos he dejado.</l>
+                  <l rend="indent">Me escapé por una puerta,</l>
+                  <l>aquella noche me buscaron;</l>
+                  <l>en <name>Córdoba</name>, Juan Portela,</l>
+                  <l>seis personas ha matado:</l>
+                  <l>giré un poco la cabeza.</l>
+                  <l rend="indent">Caminaba con cuidado</l>
+                  <l>y al romper el claro dia,</l>
+                  <l>junto á la venta del <name>Cárpio</name></l>
+                  <l>un caballero venia;</l>
+                  <l>yo mi trabuco apuntando.</l>
+                  <l rend="indent">Dije: alto, no te muevas;</l>
+                  <l>tu caballo y los dineros</l>
+                  <l>entregarás á Portela,</l>
+                  <l>y si no, dirás el Credo</l>
+                  <l>que lo disparo de priesa.</l>
+                  <l rend="indent">Se marchó el pobre pelado</l>
+                  <l>lo mismo que una patena,</l>
+                  <l>yo piré con su caballo</l>
+                  <l>porque en las puertas de <name>Utrera</name></l>
+                  <l>cuatro muertos he dejado.</l>
+                  <l rend="indent">Las partidas me persiguen</l>
+                  <l>van detrás de mi que vuelan;</l>
+                  <l>pero tengo yo un caballo,</l>
+                  <l>que metiéndole la espuela...</l>
+                  <l rend="indent">A mi trabuco le dije:</l>
+                  <l>tú te llamas boca-negra,</l>
+                  <l>que disparo á pié firme</l>
+                  <l>necesito una docena;</l>
+                  <l>las partidas me persiguen:</l>
+                  <l rend="indent">En los montes de <name>Antequera</name></l>
+                  <l>una mañana robé</l>
+                  <l>á un coche y una galera,</l>
+                  <l>seiscientos machos, chorré;</l>
+                  <l>van detrás de mi que vuelan.</l>
+                  <l rend="indent">He matado seis soldados,</l>
+                  <l>de Gendarmes una escuadra,</l>
+                  <l>disparé seis trabucazos;</l>
+                  <l>y á Portela no le agarran,</l>
+                  <l>porque tengo yo un caballo...</l>
+                  <l rend="indent">Arriba, jaca morena,</l>
+                  <l>que nos queda el comandante,</l>
+                  <l>vuelve cara boca negra,</l>
+                  <l>de un tiro cayò al instante,</l>
+                  <l>y metiendole la espuela...</l>
+
+                  <trailer>FIN DE LA PRIMERA PARTE.</trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="3" source="Moreno_089_3.jpg"
+                     facs="fedora_ug8107309/full/full/0/default.jpg"/>
+
+                  <head type="titulo_parte">SEGUNDA PARTE EN DECIMAS.</head>
+
+                  <l rend="indent">A dar pienso á mi caballo</l>
+                  <l>¡ay de mi que soy perdido</l>
+                  <l>en una casa de campo</l>
+                  <l>veinte pasos del camino.</l>
+                  <l rend="indent">A este punto destinado</l>
+                  <l>precipitado llegué,</l>
+                  <l>por el amo pregunté</l>
+                  <l>quedaron todos burlados;</l>
+                  <l>¿qué se ofrece caballero?</l>
+                  <l>respondió luego un anciano.</l>
+                  <l>—Esta gente que hace aquí?</l>
+                  <l>—tres hombres están cenando:</l>
+                  <l>—aquí teneis á Portela;</l>
+                  <l>darle un pienso á mi caballo.</l>
+                  <l rend="indent">Uno de ellos dió un suspiro,</l>
+                  <l>de los tales que cenaban,</l>
+                  <l>sus lágrimas derramaba,</l>
+                  <l>cuando á Portela le dijo:</l>
+                  <l>qué suerte tan desgraciada!</l>
+                  <l>donde vas, desconocido?</l>
+                  <l>tu padre me dió esta carta;</l>
+                  <l>adelante, soy tu amigo;</l>
+                  <l>en las manos de Portela</l>
+                  <l>¡ay de mí, que soy perdido!</l>
+                  <l rend="indent">Y leyendo con cuidado</l>
+                  <l>estas palabras decia;</l>
+                  <l>dte van á quitar la vida,</l>
+                  <l>hijo mio, lo he pensado</l>
+                  <l>que te marches de la <name>España</name>, </l>
+                  <l>no cemetas mas estragos.</l>
+                  <l>que en <name>Córdoba</name>, tu cabeza</l>
+                  <l>ayer mismo pregonaron:»</l>
+                  <l>¡oh! que noticias recibo</l>
+                  <l>en esta casa de campo.</l>
+                  <l rend="indent">Un año justo y seguido</l>
+                  <l>de ladron mas afamado;</l>
+                  <l>mi vida ya he despreciado;</l>
+                  <l>que para nada la estimo,</l>
+                  <l>vengan pollos y gallinas,</l>
+                  <l>y á cenar todos conmigo:</l>
+                  <l>y despues venga fandango</l>
+                  <l>y buenos tragos de vino,</l>
+                  <l>que este gasto yo lo pago</l>
+                  <l>veinte pasos del camino.</l>
+                  <l rend="indent">A mi nada me acobarda,</l>
+                  <l>me llaman el temerario,</l>
+                  <l>facineroso en mi planta:</l>
+                  <l>cuando el trabuco disparo. </l>
+                  <l rend="indent">Cuando llegó la mañana,</l>
+                  <l>le dije á mi compañero, </l>
+                  <l>como amigo te la entrego</l>
+                  <l>cuando llegues á mi casa</l>
+                  <l>á mi padré con secreto</l>
+                  <l>le entregarás esta carta,</l>
+                  <l>los dineros y el bolsillo,</l>
+                  <l>porque á mi no me hacen falta,</l>
+                  <l>y vivir todos tranquilos</l>
+                  <l>que á mi nada me acobarda.</l>
+                  <l rend="indent">Bien montado en mi caballo</l>
+                  <l>de la casa me despido</l>
+                  <l>me tiraron cinco tiros</l>
+                  <l>al subir por un barranco</l>
+                  <l>aqui te quiero, Portela,</l>
+                  <l>y amparandome de un árbol,</l>
+                  <l>dos heridos ban por tierra</l>
+                  <l>de un tremendo trabucazo,</l>
+                  <l>y quedó el leon guerrero;</l>
+                  <l>me llaman el temerario.</l>
+                  <l rend="indent">Una partida de capa,</l>
+                  <l>diez hombres muy bien armados</l>
+                  <l>del Gobierno son pagados,</l>
+                  <l>y agarrarme se adelantan,</l>
+                  <l>todos somos andaluces,</l>
+                  <l>fanfarrones no me bastan,</l>
+                  <l>y al salir de unos pinos</l>
+                  <l>me tiran otra descarga,</l>
+                  <l>me mataron el caballo,</l>
+                  <l>fascineroso en mi planta.</l>
+                  <l rend="indent">Cuando me ví desmontado</l>
+                  <l>de setimiento lloraba,</l>
+                  <l>á unas peñas retiraba,</l>
+                  <l>cuando todos me cercaron.</l>
+                  <l>dáte, dáte, Juan Portela:</l>
+                  <l>ocho tiros me arrojaron</l>
+                  <l>los que hirieron al valiente</l>
+                  <l>de la cabeza y un brazo,</l>
+                  <l>de sangre bañado estaba,</l>
+                  <l>cuando el trabuco disparo.</l>
+                  <l rend="indent">Ya perdí las esperanzas,</l>
+                  <l>de mis padres el honor,</l>
+                  <l>las fuerzas me faltan ya,</l>
+                  <l>del cielo baje el perdon,</l>
+                  <l>la sangre que derramaba</l>
+                  <l>me cubria el corazon;</l>
+
+                  <pb n="4" source="Moreno_089_4.jpg"
+                     facs="fedora_ug8108549/full/full/0/default.jpg"/>
+
+                  <l>no siento mi muerte, no,</l>
+                  <l>vas á pagar tus hazañas,</l>
+                  <l>me ágarran entre dos</l>
+                  <l>y con cordeles me amarran,</l>
+                  <l>cuando llegò el comandante</l>
+                  <l>todos ocho me acompañan,</l>
+                  <l>y me llevan en un bagaje,</l>
+                  <l>ya perdí mis esperanzas,</l>
+                  <l>quedarse todos con Dios.</l>
+                  <l rend="indent">Con tal anhelo y cuidado</l>
+                  <l>á pasos dobles marchaban,</l>
+                  <l>con bayoneta calada,</l>
+                  <l>antes de ponerse el sol</l>
+                  <l>les pedi un poco de agua</l>
+                  <l>y les dije en alta voz:</l>
+                  <l>por Dios quitarme la vida,</l>
+                  <l>que en <name>Córdoba</name> no entro yó,</l>
+                  <l>que está mi familia honrada,</l>
+                  <l>de mis padres el honor.</l>
+                  <l rend="indent">No paedo remediar,</l>
+                  <l>el comandante me dijo</l>
+                  <l>ya no tienes mas recursos,</l>
+                  <l>es preciso caminar,</l>
+                  <l>á <name>Córdoba</name> te llevamos,</l>
+                  <l>por òrden del general.</l>
+                  <l>Padre, madre y hermanitos,</l>
+                  <l>mis culpas voy á pagar,</l>
+                  <l>un año que no me han visto,</l>
+                  <l>las fuerzas me faltan ya.</l>
+                  <l rend="indent">Multiplicó mi dolor</l>
+                  <l>al entrar por la ciudad,</l>
+                  <l>padre, madre y familia</l>
+                  <l>causó gran admiracion,</l>
+                  <l>todos me vienen detrás,</l>
+                  <l>ya cojieron el traidor;</l>
+                  <l>otros lloran sin cesar,</l>
+                  <l>me llevan á lá prision,</l>
+                  <l>me cargaron de cadenas;</l>
+                  <l>del cielo baje el perdon.</l>
+                  <l rend="indent">Quedarse todos con Dios;</l>
+                  <l>perdon les pido á las gentes,</l>
+                  <l>que una muger fué la causa</l>
+                  <l>de pelear con la muerte.</l>
+                  <l>Me toman declaracion,</l>
+                  <l>trece muertos, dos heridos,</l>
+                  <l>de ladron un año he sido:</l>
+                  <l>mi causa finalizó,</l>
+                  <l>tiene pena de la vida</l>
+                  <l>todo el tribunal firmó,</l>
+                  <l>ya me ponen en capilla</l>
+                  <l>con un Cristo Redentor,</l>
+                  <l>jay! padres y hermanitos,</l>
+                  <l>quedarse todos con Dios.</l>
+                  <l rend="indent">Aqui se amansa el valiente,</l>
+                  <l>aqui se pierde el valor,</l>
+                  <l>la honradez y el pundonor</l>
+                  <l>y se afrentan los parientes;</l>
+                  <l>aqui tengo el confesor,</l>
+                  <l>ya Portela se arrepiente,</l>
+                  <l>ya el patíbulo me espera</l>
+                  <l>para mañana á las once,</l>
+                  <l>de los males que he causado</l>
+                  <l>perdonen todos las gentes.</l>
+                  <l rend="indent">Calles, ventanas y casas,</l>
+                  <l><name>Córdoba</name> y sus habitantes,</l>
+                  <l>perdonadme en adelante,</l>
+                  <l>socorred mis dos hermanas;</l>
+                  <l>ancianos, padres y niños,</l>
+                  <l>las peñas y las montañas</l>
+                  <l>las fuentes y mis amigos,</l>
+                  <l>llorad vuestras dulce calma,</l>
+                  <l>vuestra bendicion confio,</l>
+                  <l>que una muger fué la causa,</l>
+                  <l rend="indent">Ya salgo con un piquete</l>
+                  <l>y una caja destemplada,</l>
+                  <l>la caridad me acompaña</l>
+                  <l>me miran todas las gentes,</l>
+                  <l>á Dios, á Dios, compañeros,</l>
+                  <l>á Dios, á Dios para siempre,</l>
+                  <l>veinte y cinco años de mundo,</l>
+                  <l>mirad todos á mi suerte;</l>
+                  <l>un Santo Cristo en mis manos,</l>
+                  <l>le pido que no me deje.</l>
+                  <l rend="indent">Ya subo por la escalera,</l>
+                  <l>y el verdugo me acomete,</l>
+                  <l>creo en Dios padre y Dios Hijo,</l>
+                  <l>aqui fué el dolor mas fuerte,</l>
+                  <l>ya me sientan en el palo,</l>
+                  <l>mirando estoy á la jente,</l>
+                  <l>me retiran la cabeza,</l>
+                  <l>un torno al cuello meten,</l>
+                  <l>y al decir su único Hijo,</l>
+                  <l>á pelear con la muerte.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:=1859. Imp. de D. J. M. Moreno, calle Juan de la Cabra núm. 4</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

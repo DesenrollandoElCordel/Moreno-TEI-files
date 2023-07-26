@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_295">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Trovos de amor para cantar con acompañamiento de guitarra</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Trovos de amor para cantar con acompañamiento de
+                     guitarra.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477644</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 311</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_295_1.xml"
+                              facs="fedora_ug8104524/487,369,707,775/100,/0/default.jpg"
+                              >grabado_m_295_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Trovos</term>
+               <term type="tipo_estrofa">Trovos</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103347/manifest">
+      <graphic url="fedora_ug8104524/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_295_1.jpeg" facs="fedora_ug8104524/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 311.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">TROVOS DE AMOR</hi>
+                  <lb/>para cantar con acompañamiento de guitarra. </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Envidia tiene la rosa</l>
+                  <l>de tu belleza y primor</l>
+                  <l>y á la clavellina hermosa</l>
+                  <l>le hace perder el color.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Eres, mujer, tan garbosa,</l>
+                  <l>con tanta sabíduría</l>
+                  <l>y en un todo tan graciosa,</l>
+                  <l>que al mirar tu bizarria</l>
+                  <l rend="cursiva">envidia tiene la rosa.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Te perdono el disfavor</l>
+                  <l>que tu delito ha causado,</l>
+                  <l>porque al mirar tu arrebo!</l>
+                  <l>vuelvo á quedar encantado</l>
+                  <l rend="cursiva">de tu hermosura y primor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No haré con acierto cosa</l>
+                  <l>si llegares á faltarme,</l>
+                  <l>si te muestras desdeñosa</l>
+                  <l>á Vénus voy á quejarme</l>
+                  <l rend="cursiva">y á la clavellina hermosa.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Demuestras tanto valor</l>
+                  <l>para vencer á tu amante,</l>
+                  <l>que tu brillo y esplendor</l>
+                  <l>á la perla y al diamante</l>
+                  <l rend="cursiva">le haces perder el color</l>
+               </lg>
+
+               <pb n="2" source="Moreno_295_2.jpeg" facs="fedora_ug8105780/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Ningun galan se detenga</l>
+                  <l>en pedir algo á su dama</l>
+                  <l>que los niños en la cuna</l>
+                  <l>el que no llora no mama.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aun cuando le sobrevenga</l>
+                  <l>algo que entibie su ardor</l>
+                  <l>y dificultades tenga</l>
+                  <l>en la carrera de amor,</l>
+                  <l rend="cursiva">ningum galan se detenga.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si en un pecho arde la llama,</l>
+                  <l>animese, yo le exhorto,</l>
+                  <l>pues ha de saber quien ama,</l>
+                  <l>que nunca se ha de quedar corto</l>
+                  <l rend="cursiva">en pedir algo d su dama.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No espere hacer fortuna</l>
+                  <l>el que es cobarde en amar,</l>
+                  <l>se quedará sin ninguna,</l>
+                  <l>y lo mismo vendrá á estar</l>
+                  <l rend="cursiva">que los niños en la cuna.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El que quiera á una da ma</l>
+                  <l>porfie con mucho afán,</l>
+                  <l>su situacion lo reclama,</l>
+                  <l>porque dice aquel refran:</l>
+                  <l rend="cursiva">el que no llora, no mama.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Si sabes corresponder</l>
+                  <l>á mis finas atenciones,</l>
+                  <l>se unirán los corazones</l>
+                  <l>con mucho gusto y placer.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Firme y constánte he de ser,</l>
+                  <l>esta palabra te dí,</l>
+                  <l>desde el punto que te amé,</l>
+                  <l>pero tambien te advertí</l>
+                  <l rend="cursiva">si sabes corresponder.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Soy feliz si mis amores</l>
+                  <l>los admite tu beldad,</l>
+                  <l>dichoso si estás conforme</l>
+                  <l>en seguir la voluntad</l>
+                  <l rend="cursiva">á mis finas atenciones.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Espero de tus favores</l>
+                  <l>para vivir con descuido,</l>
+                  <l>ser llave de tus pasiones,</l>
+                  <l>pues asi, dice Cupido,</l>
+                  <l rend="cursiva">se unirán los corazones.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si llégase á poseer</l>
+                  <l>tiernainente tu alvedrío,</l>
+                  <l>que es lo qüe intento, mi bien,</l>
+                  <l>seré siempre amante fino</l>
+                  <l rend="cursiva">con mucho gusto y placer</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">En tré pajar empezado;</l>
+                  <l>puéde cualquier arriero,</l>
+                  <l>dar un pienso á su caballo,</l>
+                  <l>sin que lo conozca el dueño.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Allá voy determiñado</l>
+                  <l>en teniendo un peso duro,</l>
+                  <l>á cualquier parte me ágarro,</l>
+                  <l>y digo con disimulo,</l>
+                  <l rend="cursiva">en un pujar empezádò.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Allá voy sin ningun miedo</l>
+
+                  <pb n="3" source="Moreno_295_3.jpeg"
+                     facs="fedora_ug8110098/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>á dar gusto á mi pasion;</l>
+                  <l>y si encuentro al mesonero</l>
+                  <l>le diré que en un meson</l>
+                  <l rend="cursiva">puede cualquier arriero...</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Lo primero que un soldado</l>
+                  <l>lleva siempre en la memoria</l>
+                  <l>si es que se queda alojado,</l>
+                  <l>y le gusta la patrona:</l>
+                  <l rend="cursiva">dar un pienso á su caballo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En un molino me atrevo</l>
+                  <l>á moler con tanto afan,</l>
+                  <l>y á vaciarle el granero,</l>
+                  <l>y despues comerme el pan:</l>
+                  <l rend="cursiva">sin que lo conozca el dueño.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Solo te encargo que guardes</l>
+                  <l>el secreto hasta que quiera</l>
+                  <l>darnos el Cielo ocasion</l>
+                  <l>de lograr la dicha nuestra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que te quiero bien lo sabes</l>
+                  <l>aunque voy disimulando;</l>
+                  <l>siento mucho tus pesares;</l>
+                  <l>la palabra que te he dado,</l>
+                  <l rend="cursiva">solo te encargo que guardes,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mucho mi amor te venera,..</l>
+                  <l>no tengas triste que estar;</l>
+                  <l>yo te adoro en gran manera,;</l>
+                  <l>mas no te puedo esplicar...</l>
+                  <l rend="cursiva">el secreto hasta que quiera..</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En tí he puesto una aficion</l>
+                  <l>muy firme y muy verdadera,</l>
+                  <l>imán de mi corazon,</l>
+                  <l>ten paciencia hasta que quiera</l>
+                  <l rend="cursiva">darnos el Cielo ocaston.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo soy uno en la firmeza,</l>
+                  <l>firme será mi pasion,</l>
+                  <l>yo sufro y tengo paciencia</l>
+                  <l>hasta tener ocasion</l>
+                  <l rend="cursiva">de lograr la dicha niestra.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent"> Cuanto mas firmete quiero;</l>
+                  <l>Mú aborreciéndome vas;</l>
+                  <l>yá que asieme has olvidadoja</l>
+                  <l>tcomo pagasicobrarás.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si pregunto por quién muero,</l>
+                  <l>tú eres quien me va matando,</l>
+                  <l>pues soy tu amor verdadero,</l>
+                  <l>y tú me vas olvidando</l>
+                  <l rend="cursiva">cuanto mas firme te quiero,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Jamás decirme podrás</l>
+                  <l>que ha sido falso mi amor,</l>
+                  <l>y si reparas, verás</l>
+                  <l>que cuando el mio es mayor</l>
+                  <l rend="cursiva">tu aborreciendome Vas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo con firmeza te he amado,</l>
+                  <l>con decoro y lealtad,</l>
+                  <l>lo que en tí nunca he hallado,</l>
+                  <l>dejaré tu voluntad,</l>
+                  <l rend="cursiva">ya que asi me has olvidado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dime si puedo hacer mas</l>
+                  <l>amarte mas que á mi vida,</l>
+                  <l>tu no lo has hecho jamás:</l>
+                  <l>pues si ahora tu me olvidas,</l>
+                  <l rend="cursiva">como pagas cobrarás.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_295_4.jpeg" facs="fedora_ug8103643/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Acuérdate, falsa ingrata,</l>
+                  <l>del tiempo de cuando entonces</l>
+                  <l>bajabas descalza á abrirme,</l>
+                  <l>y ahtora no me conoces.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si mi voluntad te cansa</l>
+                  <l>como mujer te has portado,</l>
+                  <l>sin reparar que eres falsa;</l>
+                  <l>mis glorias se han malogrado</l>
+                  <l rend="cursiva">acuérdate, falsa ingrata.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Eres mas dura que un bronce, </l>
+                  <l>jamás en tí lo creyera</l>
+                  <l>que dieras tan bajo golpe,</l>
+                  <l>y que no me conocieras</l>
+                  <l rend="cursiva">del tiempo de cuando entonces.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No comias por servirme.</l>
+                  <l>por verme te desvelabas,</l>
+                  <l>y era tu amor tan sensible,</l>
+                  <l>que en sintiendo mis pisadas</l>
+                  <l rend="cursiva">bajabas descalza á abrirme.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sin que yo tediera voces</l>
+                  <l>seguias fina mi rumbo,</l>
+                  <l>y con cariños atroces</l>
+                  <l>era yo solo en el mundo,</l>
+                  <l rend="cursiva">y ahora no me conoces.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Serás dueña de mi vida</l>
+                  <l>si sabes corresponder;</l>
+                  <l>solo temo lu mudanza,</l>
+                  <l>porque al fin eres mujer.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Puedes estar persuadida</l>
+                  <l>de que soy tu fino amante;</l>
+                  <l>tú dices ser mi querida,</l>
+                  <l>mientras me seas constante</l>
+                  <l rend="cursiva">serás dueña de mi vida.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Quisiera darte á leer</l>
+                  <l>escritos del corazon,</l>
+                  <l>para que pudieras ver</l>
+                  <l>lo fino de mi aficion</l>
+                  <l rend="cursiva">si sabes corresponder.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que en mi tengas confianza,</l>
+                  <l>yo te agradesco el favor,</l>
+                  <l>tengo la plèna probanza</l>
+                  <l>en lo fino de tu amor,</l>
+                  <l rend="cursiva">solo espero tu mudanza.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por mas que llegue á querer,</l>
+                  <l>en tí no me he de fiar,</l>
+                  <l>por si me has de aborrecer,</l>
+                  <l>que es fácil el olvidar,</l>
+                  <l rend="cursiva">porque al fin eres mujer.</l>
+               </lg>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—<hi rend="cursiva">Imprenta de D.</hi> José M.a Moreno, calle de
+                  Madre de Dios.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

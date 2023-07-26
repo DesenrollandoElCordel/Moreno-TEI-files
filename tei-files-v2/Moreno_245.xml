@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_245">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Colección de canciones andaluzas, para cantar al gusto del dia</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coleccion de canciones andaluzas, para cantar al
+                     gusto del dia.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475925</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 253</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cuatro canciones</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>El tango americano.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3</locus>
+                     <title>La gitanilla.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Mi chay.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Declaracion a lo Andaluz.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_245_1.xml"
+                              facs="fedora_ug8110151/446,256,469,771/100,/0/default.jpg"
+                              >grabado_m_245_1</item>
+                           <item corresp="grabado_m_245_2.xml"
+                              facs="fedora_ug8110151/922,265,434,757/100,/0/default.jpg"
+                              >grabado_m_245_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q669037">
+                  <placeName key="Indias_Occidentales">Indias Occidentales</placeName>
+                  <location>
+                     <geo>21.98333333 -79.03333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX525577.html" type="tipo_texto">Canciones</term>
+               <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-07" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103982/manifest">
+      <graphic url="fedora_ug8110151/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_245_1.jpg" facs="fedora_ug8110151/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">(Núm. 253)</fw>
+
+            <head type="primer_titulo">
+               <lb/>COLECCION <lb/><hi rend="negrita">DE CANCIONES ANDALUZAS,</hi>
+               <lb/>PARA CANTAR AL GUSTO DEL DIA. </head>
+
+            <div n="1" type="cancion">
+               <head type="titulo_cancion">EL TANGO AMERICANO.</head>
+
+               <lg>
+                  <l rend="indent">Uté no e ná, uté no e ná, </l>
+                  <l>uté no e chicha ni limoná, </l>
+                  <l>uté no e ná, uté no e ná, </l>
+                  <l>uté no sirve pa enamorá.</l>
+               </lg>
+
+               <lg>
+                  <head type="estribillo">CORO.</head>
+                  <l rend="indent">Si viri viri corona in quan quan, </l>
+                  <l>si viri viri qui ley, </l>
+                  <l>si viri viri qui negui, </l>
+                  <l>fuali blanqui li está endiablá.</l>
+                  <l rend="indent">Mamita, qué querrá este hombe, </l>
+                  <l>qué duce está la buena guana! </l>
+                  <l>que me tira de la saya,</l>
+                  <l>qué duce está la buena guaná! </l>
+                  <l>y dice que no me vaya, </l>
+                  <l>qué duce está la buena guaná! </l>
+                  <l>si no le doy la papaya, </l>
+                  <l>qué duce está la buena guaná! </l>
+                  <l rend="indent">A la guaná duce y asucará: </l>
+                  <l>que chupa, rechupa y chupa,</l>
+                  <l> qué duce está la buena guaná! </l>
+                  <l>y cuanto mas chupa y chupa,</l>
+                  <l> rechupa y chupa y no sacá ná.</l>
+                  <l rend="indent">Mi neguito vino é las <name>Indias</name>, </l>
+                  <l>toito venia yenito e tiña; </l>
+                  <l>mi neguito, paque lo conocas,</l>
+
+                  <pb n="2" source="Moreno_245_2.jpg"
+                     facs="fedora_ug8108305/full/full/0/default.jpg"/>
+
+                  <l>tae unos cazones e colo e rosa. </l>
+                  <l rend="indent">—Fasica.—Señó. </l>
+                  <l>—Qué tienes.—Caló. </l>
+                  <l>—Que no te arrime a fuego, </l>
+                  <l>que te hará un chicharon.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Maria Fasica se quiée casá, </l>
+                  <l>pide lisensia, y su amo dá; </l>
+                  <l>no tiene ropa tiene ná, </l>
+                  <l>Maria Fasica se quiée casá. </l>
+               </lg>
+
+               <lg>
+                  <head type="estribillo">CORO.</head>
+                  <l rend="indent">Si viri viri corona etc. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Biyete grande que yo jugá,</l>
+                  <l>la lotería me vá tocá; </l>
+                  <l>mi su amo branco me vá robá </l>
+                  <l>poque me dise no tabajá.</l>
+               </lg>
+
+               <lg>
+                  <head type="estribillo">CORO.</head>
+                  <l rend="indent">Si viri viri corona, etc. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cochino gande que yo criá, </l>
+                  <l>la mayorola me lo há quitá; </l>
+                  <l>pobe cochino, pobe animá, </l>
+                  <l>qué de tabajo no vá á pasá. </l>
+               </lg>
+
+               <lg>
+                  <head type="estribillo">CORO.</head>
+                  <l rend="indent">Si viri viri corona, etc. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo vá la compa, yo va la má, </l>
+                  <l>mi su amo dise que vá sobá: </l>
+                  <l>ahora ota cosa, ahora ota cosa,</l>
+                  <l>luego me manda a cafetá. </l>
+               </lg>
+
+               <lg>
+                  <head type="estribillo">CORO.</head>
+                  <l rend="indent">Si viri viri corona, etc, </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Oye Fasica, oye Fasica, </l>
+                  <l>po qué á tu nego no quiés habá? </l>
+                  <l>po qué demoño, po qué demoño, </l>
+                  <l>po qué conmigo no quié bailá? </l>
+               </lg>
+
+               <lg>
+                  <head type="estribillo">CORO.</head>
+                  <l rend="indent">Si viri viri corona, etc. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo vá lotero, yo vá lotero, </l>
+                  <l>y le biyete le vá enseñá; </l>
+                  <l>y me lo mira, y me lo mira, </l>
+                  <l>e me reponde que no pagá. </l>
+               </lg>
+
+               <lg>
+                  <head type="estribillo">CORO.</head>
+                  <l rend="indent">Si viri viri corona, etc. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pobe neguito, qué tite etá, </l>
+                  <l>tabaja mucho y no gana ná; </l>
+                  <l>pobe neguito, qué tite está, </l>
+                  <l>su mismo amo le etá robá.</l>
+               </lg>
+
+               <lg>
+                  <head type="estribillo">CORO.</head>
+                  <l rend="indent">Si viri viri corona in quan quan, </l>
+                  <l>si viri viri qui ley, </l>
+                  <l>si viri viri qui negui. </l>
+                  <l>fuali blanqui está endiablá. </l>
+                  <l rend="indent">Mamita, qué querrá ete hombe, </l>
+                  <l>qué duce etá la buena guaná! </l>
+                  <l>que me tira de la saya, </l>
+                  <l>qué duce está la buena guaná! </l>
+                  <l>y dice que no me vaya, </l>
+                  <l>qué duce está la buena guaná! </l>
+                  <l>si no le doy la papaya: </l>
+                  <l>qué duce etá la buena guaná! </l>
+                  <l rend="indent">A la guaná duce y asucará:</l>
+                  <l>que chupa, rechupa y chupa, </l>
+                  <l>qué duce etá la buena guaná! </l>
+                  <l>y cuanto mas chupa y chupa, </l>
+                  <l>rechupa y chupa y no saca ná.</l>
+                  <l rend="indent">Mi neguito vino é las <name>Indias</name>, </l>
+                  <l>toito venia yenito e tiña; </l>
+                  <l>mi neguito paque lo conoscas, </l>
+                  <l>tae unos cazones e coló e rosa.</l>
+                  <l rend="indent">—Fasica.—Señó. </l>
+                  <l>—Qué tienes?—Caló. </l>
+                  <l>—Que no te arrime á fuego, </l>
+                  <l>que te hará un chicharon.</l>
+               </lg>
+            </div>
+
+            <div n="2" type="cancion">
+               <pb n="3" source="Moreno_245_3.jpg" facs="fedora_ug8103311/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="titulo_cancion">LA GITANILLA</head>
+
+               <lg>
+                  <l rend="indent">Venga la palma e la mano, </l>
+                  <l>salerosa, y viva el mundo: </l>
+                  <l>juy, prontito, que me jundo! </l>
+                  <l>vaya, suéltame un calé, </l>
+                  <l>y verás con qué sandunga </l>
+                  <l>digo la buena ventura; </l>
+                  <l>no seas juraña, criatura, </l>
+                  <l>niña, éjate querer.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Estoy en ayunas joy; </l>
+                  <l>¿qué, no habrá alguna cosiya? </l>
+                  <l>aqui estoy, </l>
+                  <l>¿quién yama á la gitaniya?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No hay un peasito e bayeta </l>
+                  <l>aunque sea mu serviito? </l>
+                  <l>anda que está muertesito </l>
+                  <l>de frio mi churumbel; </l>
+                  <l>malos mengues te trajelen, </l>
+                  <l>¿no atiendes: esaboría? </l>
+                  <l>anda vete, mala via; </l>
+                  <l>sí tienes cara e pastel.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Como que una probe soy, </l>
+                  <l>no atiendes, mala poliya; </l>
+                  <l>aqui estoy, </l>
+                  <l>¿quién yama á la gitaniya?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Oiga osté, patas e catre; </l>
+                  <l>si tiene osté esos sacais </l>
+                  <l>mas turbios que el agua e Cais </l>
+                  <l>y que pescuezo san Juan. </l>
+                  <l>Echa pinreles, canela! </l>
+                  <l>y qué bien bailará el vito </l>
+                  <l>el diablo el señorito! </l>
+                  <l>paese un esparaban! </l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Estoy en ayunas joy; </l>
+                  <l>¿no hay mendruguiyos, chiquiya? </l>
+                  <l>aquí estoy; </l>
+                  <l>¿no hay pan pa la gitaniya? </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">¿No hay unas chancliyas viejas? </l>
+                  <l>asi te veas en el sielo! </l>
+                  <l>dame una limosna, abuelo;</l>
+                  <l>juy, qué viejo tan ruin! </l>
+                  <l>Premita Jesús del Paño, </l>
+                  <l>endino, dientes postisos, </l>
+                  <l>te veas con esos clisos </l>
+                  <l>en las bragas del buchí. </l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">¿Has jugao el rulé al rentoy? </l>
+                  <l>¡qué diablo é pantorriya! </l>
+                  <l>ya me voy, </l>
+                  <l>¿no hay na pa la gitaniya? </l>
+               </lg>
+            </div>
+
+            <div n="3" type="cancion">
+               <head rend="negrita" type="titulo_cancion">MI CHAY.</head>
+
+               <lg>
+                  <l rend="indent">Vaya una jembra </l>
+                  <l>con caliá! </l>
+                  <l>vaya unos clisos </l>
+                  <l>que asen pená!.... </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">¡Juy! que me jundo! </l>
+                  <l>vengaste acá; </l>
+                  <l>diña siquiera </l>
+                  <l>una mirá. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando yo miro </l>
+                  <l>ese meneo </l>
+                  <l>y ese mundiyo.... </l>
+                  <l>¡jui! me mareo. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dame, morena, </l>
+                  <l>dame tu sá; </l>
+                  <l>di que me quieres </l>
+                  <l>por cariá.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En la ventana </l>
+                  <l>me esperarás, </l>
+                  <l>que quieo contigo </l>
+                  <l>yo platicá. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cara jermosa! </l>
+                  <l>cara salá!.... </l>
+                  <l>¡juy! qué ratiyos </l>
+                  <l>voy á pasá! </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tu beya fila, </l>
+                  <l>chay rezalá, </l>
+                  <l>puede á un muerto </l>
+                  <l>rezucitá. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vaya un zalero </l>
+                  <l>con mucha zá,</l>
+                  <l> juy! ca mis clisos </l>
+                  <l>jacen pená. </l>
+               </lg>
+
+               <pb n="4" source="Moreno_245_4.jpg"/>
+
+               <lg>
+                  <l rend="indent">Un Dibel zolo </l>
+                  <l>pue camelar </l>
+                  <l>lo que yo quieo </l>
+                  <l>e jonjabar. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">¡Juy qué fortuna </l>
+                  <l>voy á lograr, </l>
+                  <l>si no me haces </l>
+                  <l>mas suspirar! </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Juy serranita, </l>
+                  <l>jembra barbal, </l>
+                  <l>yo quio tu barco</l>
+                  <l>pa navegar. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si tú me quiees </l>
+                  <l>desenojar, </l>
+                  <l>dame tus brazos </l>
+                  <l>pa descansar. </l>
+               </lg>
+            </div>
+
+            <div n="4" type="cancion">
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>DECLARACION <lb/>A LO ANDALUZ. </head>
+
+               <lg>
+                  <l rend="indent">Te ví morena, y te amé, </l>
+                  <l>como quié la gente honráa, </l>
+                  <l>dime amen si te guzté, </l>
+                  <l>y si nó, no he dicho náa;</l>
+                  <l>jazte cargo que no hablé. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nunca he jandao con chanela, </l>
+                  <l>zi una moza me camela </l>
+                  <l>la camelo, y jinco el tole, </l>
+                  <l>y zi me ize, acá no cuala, </l>
+                  <l>ze me dan tres caracole: </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con que, mi prenda al avio, </l>
+                  <l>zepa osté que la requiero, </l>
+                  <l>con fatiga y con jipío,</l>
+                  <l>y mas que á mi naide habío </l>
+                  <l>á quien gorpée ese salero: </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Esto, jitana, es la pura, </l>
+                  <l>zin cháchara ni palique; </l>
+                  <l>zuerta mi güena ventura, </l>
+                  <l>y aunque sea mala locura </l>
+                  <l>zerá pensar que me pique. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ca, zi, morena te amé, </l>
+                  <l>ar punto que te guipé, </l>
+                  <l>como quiée la gente honráa, </l>
+                  <l>zi po el ojo no te entré </l>
+                  <l>piensa que no he dicho náa</l>
+               </lg>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. <lb/>Imp.de D. J. M. Moreno, calle Juan de la Cabra núm. 5.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

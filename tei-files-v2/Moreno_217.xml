@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_217">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sátira graciosa de los ciento y ocho motivos</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Satira graciosa. De los ciento y ocho motivos que
+                     manifestamos ta mugeres, por los cuales los hombres deben casarse, estimarnos y
+                     querernos; pues por razon natural nos quieren y nos aman, como no lo
+                     pueden.</title>
+                  <title type="titulo_breve">Satira graciosa. De los ciento y ocho motivos</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1855-01-01">1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475620</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 227</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos sátiras</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title type="titulo_completo">Satira graciosa. De los ciento y ocho motivos que
+                        manifestamos ta mugeres, por los cuales los hombres deben casarse,
+                        estimarnos y querernos; pues por razon natural nos quieren y nos aman, como
+                        no lo pueden.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>2-4</locus>
+                     <title>Otra satira al proprio intento.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_217_1.xml"
+                              facs="fedora_ug8107368/556,499,329,661/100,/0/default.jpg"
+                              >grabado_m_217_1</item>
+                           <item corresp="grabado_m_217_2.xml"
+                              facs="fedora_ug8107368/889,353,459,786/100,/0/default.jpg"
+                              >grabado_m_217_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-06" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106863/manifest">
+      <graphic url="fedora_ug8107368/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_217_1.jpg" facs="fedora_ug8107368/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 227.)</fw>
+
+               <head type="primer_titulo">SATIRA GRASIOSA.</head>
+               <head rend="cursiva" type="subtitulo">
+                  <lb/>De los ciento y ocho motivos que manifestamos ta mugeres, por <lb/>los cuales
+                  los hombres deben casarse, estimarnos y querernos; pues <lb/>por razon natural nos
+                  quieren y nos aman, como no lo pueden <lb/>negar. </head>
+
+               <l rend="indent">Viste, Marica, el papel</l>
+               <l>que publicaron los ciegos</l>
+               <l>con cuarenta y ocho motivos</l>
+               <l>para qué no nos casamos?</l>
+               <l>Estamos bien aviadas,</l>
+               <l>si todas no defendemos</l>
+               <l>tantas cosas como dicen</l>
+               <l>de nuestro infeliz sezo.</l>
+               <l>¿Quien mil demonios los llama, </l>
+               <l>y quién va á pretenderlos?</l>
+               <l>esténse en sus casas quietos,</l>
+               <l>que nosotras lo estaremos.</l>
+               <l>¿Quién los manda que se cásen?</l>
+               <l>¿quièn los manda sean necios?</l>
+               <l>¿No saben ya lo que cuesta</l>
+               <l>la burra y los aparejos?</l>
+               <l>Tan inocentes y tontos</l>
+               <l>se hacen estos caballeros,</l>
+
+               <pb n="2" source="Moreno_217_2.jpg" facs="fedora_ug8105968/full/full/0/default.jpg"/>
+
+               <l>que es menester los avisen</l>
+               <l>hasta en la calle los ciegos.</l>
+               <l>No saben que el que se casa </l>
+               <l>goza del dulce Himeneo,</l>
+               <l>que como se lleve bien</l>
+               <l>no hay cosa de mas consuelo.</l>
+               <l>Que se libran de los males</l>
+               <l>de que está el mundo lleno,</l>
+               <l>y de otros mil enredos</l>
+               <l>que siempre estan sucediendo.</l>
+               <l>Quien los asiste en la cama</l>
+               <l>si les duele la cabeza,</l>
+               <l>es la moza, es la manceba,</l>
+               <l>ó es la muger y doncella.</l>
+               <l>Y apenas caen enfermos</l>
+               <l>tienen bien quien los asista,</l>
+               <l>y aunque pasen malas noches</l>
+               <l>siempre con cara de risa. </l>
+               <l>Si miran á gastar mucho</l>
+               <l>¿no lo gastan con las amas?</l>
+               <l>no lo gastan en los cafés:</l>
+               <l>fondas y otras bobadas? </l>
+               <l>Si tienen sus disensiones;</l>
+               <l>tambien los platos regañan, </l>
+               <l>y tambien regañan ellos</l>
+               <l>que por bien poco se enfadan.</l>
+               <l>Cuando estuvieran solteros</l>
+               <l>y nunca gastaran nada, </l>
+               <l>podian decir gastábamos</l>
+               <l>todo lo que ellos ganaban.</l>
+               <l>Pero es todo lo contrario,</l>
+               <l>que nosotras diligentes</l>
+               <l>procuramos ahorrarlo</l>
+               <l>como unas inocentes.</l>
+            </div>
+
+            <div>
+               <head rend="negrita" type="primer_titulo">OTRA SATIRA AL PROPIO INTENTO.</head>
+
+               <l rend="indent">Digan los malvados</l>
+               <l>todo cuanto quieran,</l>
+               <l>y vivamos solas </l>
+               <l>sin su penitencia.</l>
+               <l>Para mantenernos</l>
+               <l>todas bien tenemos,</l>
+               <l>y con el trabajo</l>
+               <l>muy bien comeremos.</l>
+               <l>Si alguno nos quiere,</l>
+               <l>sea sin lisonja;</l>
+               <l>y si es por mal fin,</l>
+               <l>doblemos la hoja.</l>
+               <l>Pues tener marido</l>
+               <l>es tener un amoy</l>
+               <l>que todo nos quita,</l>
+               <l>hasta un mal salario.</l>
+               <l>Si quieren criadas, </l>
+               <l>que por conveniencia</l>
+
+               <pb n="3" source="Moreno_217_3.jpg" facs="fedora_ug8104751/full/full/0/default.jpg"/>
+
+               <l>le tengan de valde</l>
+               <l>y con residencia,</l>
+               <l>tomen una esclava,</l>
+               <l>compren una mona,</l>
+               <l>diviéntanse con ella,</l>
+               <l>no con mi persona.</l>
+               <l>¿Què premio nos dan</l>
+               <l>estos haraganes?</l>
+               <l>Comernos el dote,</l>
+               <l>llenarnos de males.</l>
+               <l>Y si asi contentos</l>
+               <l>estuviaran tales</l>
+               <l>que nos obsequiasen</l>
+               <l>quisiesen y amasen,</l>
+               <l>nosotras constantes</l>
+               <l>á su fiel amor</l>
+               <l>estariamos siempre</l>
+               <l>como el ruiseñor.</l>
+               <l>Pero los tunantes</l>
+               <l>luego á lo mejor</l>
+               <l>nos dejan por otra,</l>
+               <l>aunque sea peor,</l>
+               <l>Para nosotras nada;</l>
+               <l>todo para ellas, </l>
+               <l>vestidos, mantillas,</l>
+               <l>y ricas meriendas.</l>
+               <l>Y reciba á gusto</l>
+               <l>aquesta fineza;</l>
+               <l>pues si hay mala cara </l>
+               <l>luego el palo endereza.</l>
+               <l>Ya pega en el brazo,</l>
+               <l>ya rompe cabeza, </l>
+               <l>ya quiebra costilla,</l>
+               <l>¡adios pobre pierna!</l>
+               <l>Estas son las magras</l>
+               <l>y las longanizas, </l>
+               <l>que comen las pobres</l>
+               <l>los mas de los dias.</l>
+               <l>Este el rico lomo</l>
+               <l>y buenas morcillas,</l>
+               <l>y los ricos dulces</l>
+               <l>de confitería.</l>
+               <l>En tanto ellos comen</l>
+               <l>en las hosterías</l>
+               <l>los ricos capones</l>
+               <l>y las aves frias.</l>
+               <l>Nosotras con sopas</l>
+               <l>y cuatro habas frias,</l>
+               <l>pasamos las noches</l>
+               <l>los mas de los dias.</l>
+               <l>Este sí que es gusto, </l>
+               <l>y este gran regalo,</l>
+               <l>comer unas sopas</l>
+               <l>y hartarnos de palos.</l>
+               <l>Y si lo contamos</l>
+               <l>al padre ó la madre, </l>
+               <l>nos cogen del brazo</l>
+               <l>y echan á la calle.</l>
+               <l>Y con gran enfado</l>
+               <l>dicen: picarona, </l>
+               <l>toma esas patatas, </l>
+               <l>cuéntaselo ahora:</l>
+               <l>y como enfadado</l>
+               <l>se vuelve de espalda,</l>
+
+               <pb n="4" source="Moreno_217_4.jpg" facs="fedora_ug8107936/full/full/0/default.jpg"/>
+
+               <l>rièndose solo,</l>
+               <l>dando carcajadas.</l>
+               <l>Y ella la pobre</l>
+               <l>no le habla palabra, </l>
+               <l>temiendo no vuelva</l>
+               <l>otra empalizada.</l>
+               <l>Todo cuanto digo</l>
+               <l>es la verdad clara:</l>
+               <l>bien lo saben todas,</l>
+               <l>aunque estan calladas.</l>
+               <l>Mas á pesar de esto,</l>
+               <l>si hacen juramento</l>
+               <l>de enmendarse luego,</l>
+               <l>quiero casamiento.</l>
+               <l>Porque Dios lo manda, </l>
+               <l>porque en sí es bueno,</l>
+               <l>amándose todos</l>
+               <l>como es de derecho.</l>
+               <l>Y no hay disputas; </l>
+               <l>y seamos constantes;</l>
+               <l>amándonos siempre</l>
+               <l>como los amantes.</l>
+               <l>Pues es cosa cierta, </l>
+               <l>que si esto se logra,</l>
+               <l>estaremos siempre</l>
+               <l>llenitas de gloria:</l>
+               <l>iremos al baile</l>
+               <l>y botellería,</l>
+               <l>veremos novillos</l>
+               <l>toditos los dias.</l>
+               <l>Iremos á toros </l>
+               <l>por mañana y tarde,</l>
+               <l>sin miedo que nunca</l>
+               <l>el dinero se acabe:</l>
+               <l>pues aunque se gaste</l>
+               <l>por fuera en la calle,</l>
+               <l>luego en casa yo</l>
+               <l>procuraré ahorrarle.</l>
+               <l>Y asi, amiguitos,</l>
+               <l>casémonos luego,</l>
+               <l>dejando las coplas</l>
+               <l>que cantan los ciegos.</l>
+               <l>Mirad que os lo pido</l>
+               <l>en nombre de todas,</l>
+               <l>y que en paz viviendo</l>
+               <l>merezcan la gloria.</l>
+               <l>Y ahora el poéta </l>
+               <l>humilde le pide</l>
+               <l>al lector curioso,</l>
+               <l>que le disimule</l>
+               <l>las faltas que haya </l>
+               <l>en este papel;</l>
+               <l>pues el pobre ha estado</l>
+               <l>cabilaudo en él.</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMOMA:—1855. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  4. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

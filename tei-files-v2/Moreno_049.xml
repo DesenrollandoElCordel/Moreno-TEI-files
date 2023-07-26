@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_049">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La tía Girula. Chiste moderno</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">La tia Girula. Chiste moderno, acaecido en el pueblo
+                     de Almeria con una mujer que mató envenenados á cuatro maridos, y el fin que
+                     tuvo con el quinto.</title>
+                  <title type="titulo_breve">La tia Girula. Chiste moderno</title>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (sin año): <ref target="Moreno_048.xml">Moreno_048</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6448112</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Chiste</item>
+                        <item>Carta</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>La tía Girula. Chiste moderno</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Carta que envió desde Orán a la corte Perico Pata Gorda a un amigo
+                        suyo</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_049_1.xml"
+                              facs="fedora_ug8105156/560,170,399,793/100,/0/default.jpg"
+                              >grabado_m_049_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q10400">
+                  <placeName key="Almería">Almería</placeName>
+                  <location>
+                     <geo>36.84 -2.4675000000000002</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q5783">
+                  <placeName key="Andalucía">Andalucía</placeName>
+                  <location>
+                     <geo>37.46 -4.16</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q8818">
+                  <placeName key="Valencia">Valencia</placeName>
+                  <location>
+                     <geo>39.47 -0.3763888888888889</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q131818">
+                  <placeName key="Orán">Orán</placeName>
+                  <location>
+                     <geo>35.696944444444 -0.63305555555556</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5418613.html" type="tipo_texto">Chistes</term>
+               <term target="XX5491920.html" type="tip_texto">Cartas</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-02" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-03-03" who="#EL">Modification des titres et du summary</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105940/manifest">
+      <graphic url="fedora_ug8105156/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_049_1.jpg" facs="fedora_ug8105156/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 58. </fw>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>LA TIA GIRULA. <lb/>CHISTE MODERNO </head>
+               <head rend="cursiva" type="subtitulo">
+                  <lb/>acaecido en el pueblo de Almeria con una mujer que mató envenena- <lb/>dos á
+                  cuatro maridos, y el fin que tuvo con el quinto. </head>
+
+               <l rend="indent">Si place á mi auditorio</l>
+               <l>prestar oido;</l>
+               <l>voy á contar un caso</l>
+               <l>que ha sucedido</l>
+               <l>en la <name>Andalucia</name></l>
+               <l>en un pueblo llamado <name>Almería</name>,</l>
+               <l>con la tia Girula,</l>
+               <l>la mujer mas salada y mas chula</l>
+               <l>que se ha conocido</l>
+               <l>entre cuantas en el mundo ha habido;</l>
+               <l>hermosa chupeno,</l>
+               <l>la cual era casada</l>
+               <l>con un sereno.</l>
+               <l rend="indent">Tenia un huertecito</l>
+               <l>la tia Girula</l>
+               <l>y detrás del marido</l>
+               <l>vendia fruta;</l>
+               <l>el que la compraba,</l>
+               <l>sin recurso en el hospital entraba;</l>
+               <l>y el que la comia,</l>
+               <l>dos muletas seguras tenia;</l>
+               <l>y sí lo contaba,</l>
+               <l>cojeando su vida acababa;</l>
+               <l>él si que ayunaba</l>
+               <l>pero ella bien se regalaba;</l>
+               <l>y al pobre sereno</l>
+               <l>no le dada mas que pan duro</l>
+               <l>y por libra le contaba un duro:</l>
+               <l>murió en cuatro dias</l>
+               <l>porque estaba el pan lleno de picar-<add place="encima">(dias.</add></l>
+               <l rend="indent">El segundo marido</l>
+               <l>que era un enaguas,</l>
+               <l>no la dejaba ir sola</l>
+               <l>ni aun á hacer aguas,</l>
+               <l>y porque fué á misa,.</l>
+               <l>cuando vino la dió una paliza;</l>
+               <l>al ver que el zañudo</l>
+               <l>la solia zurrar á menudo,</l>
+               <l>determinó luego</l>
+               <l>enviarle donde fué el sereno,</l>
+               <l>para vivir suelta</l>
+               <l>y que no le ajustara cuenta</l>
+
+               <pb n="2" source="Moreno_049_2.jpg" facs="fedora_ug8108892/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>le dió pasaporte:</l>
+               <l>que esto pasa en <name>Valencia</name></l>
+               <l>como en la córte.</l>
+               <l rend="indent">Aunque amaba al segundo</l>
+               <l>mas que al primero, </l>
+               <l>lo mató por casarse</l>
+               <l>con el tercero;</l>
+               <l>y era un vagamundo,</l>
+               <l>que cansado de ir por el mundo</l>
+               <l>corriendo la tuna</l>
+               <l>y diciendo la buena-ventura,</l>
+               <l>tuvo la fortuna</l>
+               <l>de casarse con la tia Girula;</l>
+               <l>la cual, ya cansada</l>
+               <l>de sufrirle, le echó en la ensalada</l>
+               <l>no sé que polvito,</l>
+               <l>que le dejó mnerto</l>
+               <l>como un pollito.</l>
+               <l rend="indent">Amanecido el dia,</l>
+               <l>la tia Girula,</l>
+               <l>se levantó llorando</l>
+               <l>como una bruja,</l>
+               <l>con ayes forzados</l>
+               <l>daba gritos muy descompasados.</l>
+               <l>Vecinas, decia,</l>
+               <l>acudid, calmad la pena mia,</l>
+               <l>que estoy en cuidado,</l>
+               <l>á mi esposo no sé que le ha dado</l>
+               <l>que está sin aliento.</l>
+               <l>¡Ay Dios mio, si se me habrá muerto!</l>
+               <l>Al llanto acudieron</l>
+               <l>y entre todas de palos la dieron</l>
+               <l>y la maltrataron,</l>
+               <l>y de mata maridos no la dejaron.</l>
+               <l rend="indent">Los viudos y solteros</l>
+               <l>todos la odiaban, </l>
+               <l>tanto, que hasta los niños</l>
+               <l>la apedreaban:</l>
+               <l>mas la tia Girula,</l>
+               <l>como va la picaban las pulgas,</l>
+               <l>trató de casarse,</l>
+               <l>que era invierno y queria abrigarse,</l>
+               <l>aunque á sus maridos</l>
+               <l>la taimada no les daba abrigo,</l>
+               <l>porque los mataba</l>
+               <l>con sangria ó los envenenaba,</l>
+               <l>por ir variando,</l>
+               <l>y á mas tambien fumaba de contra-<add place="debajo">(bando.</add></l>
+               <l rend="indent">Puso la tierna viuda</l>
+               <l>la red en planta.</l>
+               <l>y por fin un gitano</l>
+               <l>cayó en la trampa,</l>
+               <l>el cual sin disputa</l>
+               <l>se encargó del huerto y de la fruta,</l>
+               <l>y á la novensada</l>
+               <l>la zurraba muy bien la badana,</l>
+               <l>pero la andaluza</l>
+               <l>al gitano le arrimó una purga,</l>
+               <l>sin ser boticario,</l>
+               <l>que el pobrete se fué al otro barrio,</l>
+               <l>y la tia Girula</l>
+               <l>quedó viuda y mas fresca</l>
+               <l>que una lechuga</l>
+               <l rend="indent">Se casó últimamente</l>
+               <l>con un soldado</l>
+               <l>que le ajustó la cuenta</l>
+               <l>hasta un ochavo,</l>
+               <l>porque ya sabia</l>
+               <l>de las mañas que ella se valia,</l>
+               <l>y estaba avisado,</l>
+               <l>y el decia: no me da cuidado</l>
+               <l>á mi domar potros,</l>
+               <l>pagará lo que hizo con los otros:</l>
+               <l>la tarde primera</l>
+               <l>va y la saca á merendar fuera,</l>
+               <l>monta en su burra,</l>
+               <l>y en medio del camino</l>
+               <l>le dio una zurra.</l>
+               <l rend="indent">Llegó por fin al sitio</l>
+               <l>de la merienda,</l>
+               <l>y á la burra la dijo de esta manera:</l>
+               <l>ves como te ato,</l>
+               <l>si del trigo que está ahi inmediato</l>
+               <l>comes ni una caña</l>
+               <l>con la vida pagarás tu hazaña;</l>
+               <l>¿burra, lo has oido?</l>
+               <l>ves alerta, cuidado conmigo,</l>
+               <l>la burra bromando</l>
+               <l>ciertamente no comprendió el bando,</l>
+               <l>se fué á comer trigo,</l>
+               <l>y el soldado muy enfuricido</l>
+               <l>dió muerte á la burra</l>
+               <l>por ver si escarmentaba la tia Girula.</l>
+               <l rend="indent">Si no haces lo que mando,</l>
+               <l>picara bruja,</l>
+               <l>lo mismo haré contigo</l>
+               <l>que con la burra:</l>
+               <l>oma ese aparejo,</l>
+               <l>que con él has de entrar en el pueblo,</l>
+               <l>eso quiero aprisa,</l>
+
+               <pb n="3" source="Moreno_049_3.jpg" facs="fedora_ug8108297/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>y si nó, mas pronto que la vista</l>
+               <l>te parto de un tiro:</l>
+               <l>y Girula exhalando un suspiro,</l>
+               <l>cargó con la albarda,</l>
+               <l>porque el miedo á todos acobarda;</l>
+               <l>de grado ó por fuerza</l>
+               <l>lo siguió con su aibardon á cuestas,</l>
+               <l>y pasó la novia</l>
+               <l>por do estaban jugando la pelota,</l>
+               <l>entre los silvidos</l>
+               <l>la pusieron de mata-maridos,</l>
+               <l>que era una hermosura,</l>
+               <l>y el soldado á la mala ventura</l>
+               <l>se fué con la dama</l>
+               <l>á su casa, y la novia</l>
+               <l>se echó en la cama.</l>
+               <l rend="indent">Iba la tia Girula</l>
+               <l>tras del desquite,</l>
+               <l>y por asegurarle</l>
+               <l>hizo un convite</l>
+               <l>para hacer las paces;</l>
+               <l>y él decia: mira lo que haces,</l>
+               <l>y la amanazaba,</l>
+               <l>pero ella no se acobardaba,</l>
+               <l>siempre decidida</l>
+               <l>y resuelta á quitarle la vida,</l>
+               <l>preparó el veneno</l>
+               <l>en un vaso de ponzoña lleno;</l>
+               <l>mas ella ignoraba</l>
+               <l>que el soldado todo lo miraba,</l>
+               <l>y estando comiendo</l>
+               <l>cuando el vino iba repartiendo;</l>
+               <l>presentó al marido</l>
+               <l>aquel vaso de veneno activo</l>
+               <l>diciéndole: bebe,</l>
+               <l>y él la dijo: el diablo te lleve,</l>
+               <l>bebe tú primero,</l>
+               <l>esto dicho: y sacando su acero</l>
+               <l>la hizo abrir la boca</l>
+               <l>y en el vientre la purga emboca,</l>
+               <l>dió una media vuelta</l>
+               <l>y á presencia de todos</l>
+               <l>se cayó muerta.</l>
+               <l rend="indent">Algo mas que de prisa</l>
+               <l>los convidados</l>
+               <l>se fueron á sus casas</l>
+               <l>muy asustados;</l>
+               <l>dió parte el marido</l>
+               <l>al alcalde de lo acaecido:</l>
+               <l>como era ordinario</l>
+               <l>á presidio envió al boticario</l>
+               <l>que vendió el veneno,</l>
+               <l>pues con él mató á tres y al sereno:</l>
+               <l>la que mató á cuatro</l>
+               <l>justo es que pagara el pato;</l>
+               <l>al quinto no pudo</l>
+               <l>aplicarla la ley del embudo.</l>
+               <l rend="indent">Alerta, casados,</l>
+               <l>no olvideis la leccion del soldado,</l>
+               <l>cuidado, solteros,</l>
+               <l>no os caseis en pueblos forasteros,</l>
+               <l>no deis con alguna</l>
+               <l>de la clase de la tia Girula.</l>
+               <l rend="indent">Hermosas doncellas,</l>
+               <l>ya que sois tan graciosas y bellas,</l>
+               <l>tomad escarmiento</l>
+               <l>de este chiste ocurrido ó cuento:</l>
+               <l>pues ya he concluido,</l>
+               <l>y perdonen las faltas</l>
+               <l>si las ha habido.</l>
+            </div>
+
+            <div>
+               <head rend="negrita" type="primer_titulo">CARTA,</head>
+               <head rend="cursiva" type="subtitulo">
+                  <l>que envió desde <name>Orán</name> á la córte Perico Pata-gorda á un amigo
+                     suyo,</l>
+                  <l>aconsejándole que no se case con la tia Girula.</l>
+               </head>
+
+               <l rend="indent">Generoso Periquillo,</l>
+               <l>el de la hebilla dorada,</l>
+               <l>con el capote raido</l>
+               <l>y la montera calada.</l>
+               <l rend="indent">Amigo el mas cicatero</l>
+               <l>de cuantos juegan la taba,</l>
+               <l>querido de las doncellas,</l>
+               <l>(si es que las hay en <name>España</name>.)</l>
+               <l rend="indent">Me alegraré que estés bueno,</l>
+               <l>hijo mio de mi alma;</l>
+               <l>yo, me mantengo tan fresco</l>
+               <l>en esta tierra lozana.</l>
+               <l rend="indent">Ya he sabido que en la córte</l>
+               <l>grande revolucion anda,</l>
+               <l>y que han declarado guerra</l>
+               <l>á todas las maturrangas,</l>
+
+               <pb n="4" source="Moreno_049_4.jpg" facs="fedora_ug8110159/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l rend="indent">Ellas se tienen la culpa</l>
+               <l>pues tanto que decir daban, </l>
+               <l>estubiéranse rezando</l>
+               <l>que nadie las inquietara;</l>
+               <l rend="indent">Ello cosas son del mundo,</l>
+               <l>todo, Perico, se acaba;</l>
+               <l>ayer fuimos, y hoy no somos,</l>
+               <l>hay hijo! parece chanza.</l>
+               <l rend="indent">He sabido en este correo</l>
+               <l>que con Girula te casas;</l>
+               <l>hombre ¿estás endemoniado?</l>
+               <l>¿tienes ojos en la cara?</l>
+               <l rend="indent">Me para que abras los ojos,</l>
+               <l>y sepas donde te encajas,</l>
+               <l>escucha en esta cartilla</l>
+               <l>lo que los casados pasan.</l>
+               <l rend="indent">Cásase un hombre de bien</l>
+               <l>que ocho ó nueve reales gana, </l>
+               <l>si trabaja, que si no</l>
+               <l>por Dios que no coje blanca</l>
+               <l rend="indent">Lo primero necesita</l>
+               <l>empeñarse hasta las calzas</l>
+               <l>para vestir á la novia,</l>
+               <l>y para poner la casa.</l>
+               <l rend="indent">Despues en la vicaría</l>
+               <l>pagar las licencias santas,</l>
+               <l>que algunos por descasarse</l>
+               <l>las pagarian dobladas.</l>
+               <l rend="indent">Aquellos dias primeros</l>
+               <l>le sabe muy bien la cama,</l>
+               <l>se levanta al otro dia,</l>
+               <l>se pasea y se regala.</l>
+               <l rend="indent">Acábanse en fin los cuartos</l>
+               <l>vá á trabajar, si lo halla,</l>
+               <l>dá á su mujer el dinero,</l>
+               <l>y ella en rosquillas lo gasta.</l>
+               <l rend="indent">Pide luego para carne,</l>
+               <l>y él dice: esposa del alma,</l>
+               <l>¿no te dí ayer dos pesetas?</l>
+               <l>vamos con tiento hermana.</l>
+               <l rend="indent">Buen dinero es dos pesetas!</l>
+               <l>miren qué cuarto de plata!</l>
+               <l>para vizcochos no tengo</l>
+               <l>si me levanto con gana.</l>
+               <l rend="indent">Mujer, vamos poco á poco</l>
+               <l>ó andará la zurribunda;</l>
+               <l>¿que zurribunda, borracho?</l>
+               <l>¡conmigo esas palabradas!</l>
+               <l rend="indent">Bien me lo decia á mí</l>
+               <l>mi comadre que Dios haya, </l>
+               <l>que eras un picaro chulo,</l>
+               <l>sin vergüenza y sin alma,</l>
+               <l rend="indent">A bien que no soy tan fea</l>
+               <l>que en saliendo yo á la plaza,</l>
+               <l>no me faltará quien me diga</l>
+               <l>por ahí te se pudra muchacha.</l>
+               <l rend="indent">Ha pícara, vil nacida,</l>
+               <l>¿hacerme carnero tratas?</l>
+               <l>Sí, grandísimo borracho.</l>
+               <l>Ahora lo verás, aguarda.</l>
+               <l rend="indent">Saca el marido un garrote</l>
+               <l>y la cabeza la raja,</l>
+               <l>y luego el pobre cornudo</l>
+               <l>que pagar tiene curarla.</l>
+               <l rend="indent">Otras á los cuatro meses,</l>
+               <l>para no trabajar nada,</l>
+               <l>les dicen á sus maridos:</l>
+               <l>¡hay hijo, yo estoy preñada!</l>
+               <l rend="indent">¡Jesus hija! ¿qué me cuentas?</l>
+               <l>Sí, bien mio de mi alma;</l>
+               <l>se me ha antojado un vesugo</l>
+               <l>anda por él á la plaza.</l>
+               <l rend="indent">Mira que no tengo un cuarto</l>
+               <l>y que camisa me falta.</l>
+               <l>¿Qué importa que andes encueros?</l>
+               <l>has lo que te digo, marcha</l>
+               <l rend="indent">Llegosé el dia del parto,</l>
+               <l>son las diez de la mañana,</l>
+               <l>enciende lumbre volando</l>
+               <l>no seas necio, despacha.</l>
+               <l rend="indent">Aqui el pobre majadero,</l>
+               <l>como un azogado anda,</l>
+               <l>desde el patio á la cocina,</l>
+               <l>desde la alcoba á la sala.</l>
+               <l rend="indent">Ea, que ya nace el niño.</l>
+               <l>maldita sea su casta,</l>
+               <l>es parecido á su padre.</l>
+               <l>como el huevo á la castaña.</l>
+               <l rend="indent">Luego se sigue el bateo</l>
+               <l>y el baile en accion de gracias,</l>
+               <l>y en músicas y danzantes</l>
+               <l>un mayorazgo se gasta.</l>
+               <l rend="indent">Con que amigo Perico,</l>
+               <l>mira que yo te hablo al alma,</l>
+               <l>toma mi consejo y huye</l>
+               <l>que te pierdes si te casas.</l>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. y lib. de Moreno Hermanos, Madre de Dios 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

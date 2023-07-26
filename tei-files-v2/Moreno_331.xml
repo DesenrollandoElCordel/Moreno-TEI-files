@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_341">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación en contra de las mujeres</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion en contra de las mujeres</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1861-01-01">1861</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5060571</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 361</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="3">Tres grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_331_1.xml"
+                              facs="fedora_ug8105478/214,257,460,819/100,/0/default.jpg"
+                              >grabado_m_331_1</item>
+                           <item corresp="grabado_m_331_2.xml"
+                              facs="fedora_ug8105478/667,346,398,703/100,/0/default.jpg"
+                              >grabado_m_331_2</item>
+                           <item corresp="grabado_m_331_3.xml"
+                              facs="fedora_ug8105478/1064,330,453,744/100,/0/default.jpg"
+                              >grabado_m_331_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q496424">
+                  <placeName key="Calatayud">Calatayud</placeName>
+                  <location>
+                     <geo>41.35 -1.633333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q969581">
+                  <placeName key="El_Viso_del_Alcor">El Viso Del Alcor</placeName>
+                  <location>
+                     <geo>37.388611111111 -5.7188888888889</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q8717">
+                  <placeName key="Sevilla">Sevilla</placeName>
+                  <location>
+                     <geo>37.383333333333 -5.9833333333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106141/manifest">
+      <graphic url="fedora_ug8105478/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_331_1.jpeg" facs="fedora_ug8105478/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 361.</fw>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>RELACION <lb/>EN CONTRA DE LAS MUGERES. </head>
+
+               <l>Señores, no soy yo el mismo,</l>
+               <l>que en aquesta misma cuadra</l>
+               <l>ante este mismo Auditorio,</l>
+               <l>y en esta regocijada</l>
+               <l>tarde, habrá un rato muy corto,</l>
+               <l>me puse á loar las gracias,</l>
+               <l>las virtudes, el ingenio</l>
+               <l>la agudéza, y celebradas</l>
+               <l>prendas, que aquestas señoras</l>
+               <l>quieren algunos, que haya </l>
+               <l>naturaleza dotado?</l>
+               <l>Si la idea no me engaña,</l>
+               <l>esto es asi: pues ahora</l>
+               <l>vengo á aquesta misma cuadra,</l>
+               <l>ante este mismo Auditorio</l>
+               <l>á decir en voz muy clara,</l>
+               <l>que me retracto de todo,</l>
+               <l>y es mi opinion muy contraria.</l>
+               <l>Yo loar á las mugeres,</l>
+               <l>cundo su nombre me enfada,</l>
+               <l>y el verlas me causa asombro,</l>
+               <l>y temblores el mirarlas,</l>
+               <l>pues por ellas me han tenido</l>
+               <l>diez meses en una cama?</l>
+               <l>Aqueso no, alto pues digo,</l>
+               <l>y á publicar voy sus fattas.</l>
+               <l>Señores lo que al principío</l>
+               <l>llevo dicho de estas Damas</l>
+
+               <pb n="2" source="Moreno_331_2.jpeg" facs="fedora_ug8106720/full/full/0/default.jpg"/>
+
+               <l>son mentiras; y embelecos</l>
+               <l>son fábulas, y patrañas,</l>
+               <l>que han sucedido en el Mundo</l>
+               <l>Por ellas se pierden casas,</l>
+               <l>por ellas se pieiden honras,</l>
+               <l>y hasta los hombres se matan.</l>
+               <l>lnventoras de lazenvidia</l>
+               <l>principio de las desgracias,</l>
+               <l>de las desdichas asunto,</l>
+               <l>y de las tragedias causa.</l>
+               <l>Son amigas de embelecos;</l>
+               <l>de mentiras, y de chanzas,</l>
+               <l>de juegos, y de comedias,</l>
+               <l>de holgorios y de risadas,</l>
+               <l>y de meterse en aquello,</l>
+               <l>que no les toca, ni llama:</l>
+               <l>amigas de andar en chismes,</l>
+               <l>y de afeitarse lacara,</l>
+               <l>poniendose mil menjuges</l>
+               <l>cun intencion deprabada:</l>
+               <l>voy á referir algunos</l>
+               <l>de los muy muchos que gastan.</l>
+               <l>Lo primero es soliman,</l>
+               <l>adormideras y habas,</l>
+               <l>salvia, alcanfor, yhuevos,</l>
+               <l>ajonjoli, vino y pasas,</l>
+               <l>de las pipas del membrillo</l>
+               <l>junto con las mismas agrias</l>
+               <l>hacen tambien un licor,</l>
+               <l>que dá gran lustre á la cara.</l>
+               <l>Ponense la mantequilla</l>
+               <l>de camuesas preparada,</l>
+               <l>el jaboncillo, y la miel,</l>
+               <l>y de las almendras sacan</l>
+               <l>echadas en infusion,</l>
+               <l>la leche por alquitara.</l>
+               <l>En fin, de estos ingredientes</l>
+               <l>hacen con tal arte, y maña</l>
+               <l>un caldo, que aunque una tenga</l>
+               <l>como un demonio la cara</l>
+               <l>en poniendose este caldo</l>
+               <l>se transformará en Diana</l>
+               <l>pero aquel proberbio antiguo</l>
+               <l>(ó qué lindamente encaja!)</l>
+               <l>que aunque la mona se vista,</l>
+               <l>ecetera que esto basta.</l>
+               <l>Luego adornan su persona</l>
+               <l>en la riquesa, y la gala.</l>
+               <l>Lo primero, las camisas</l>
+               <l>son muy finas, delgadas,</l>
+               <l>los tocados prodigiosos,</l>
+               <l>gargantillas, y arracadas,</l>
+               <l>los aderezos muy finos,</l>
+               <l>de tocados, y de gasas,</l>
+               <l>las perlas en las muñecas,</l>
+               <l>los ricos guantes de ambar;</l>
+               <l>los cintillos, en los dedos</l>
+               <l>de diamántes, y esmeraldas,</l>
+               <l>los encaramados siempre</l>
+               <l>cuajados de oro y de plata,</l>
+               <l>los polleros tan costosos,</l>
+               <l>ya guarnecidos de franjas,</l>
+               <l>las medias de mil colores</l>
+               <l>con las ligas dibujadas,</l>
+               <l>el zapatillo picado</l>
+               <l>parece que del pie salta;</l>
+               <l>y mirandola realmente,</l>
+               <l>como ello es á la clara</l>
+               <l>luz de la razon, parecen</l>
+               <l>tan redondas, y sopladas</l>
+               <l>á la que el dia del Corpus</l>
+               <l>el yulgo llaman Parasca.</l>
+               <l>Y á qué pensarásel discreto,</l>
+               <l>que se dirige está gala,</l>
+               <l>este fausto, y esta pompa?</l>
+               <l>A qué (ó polilla malvada!)</l>
+               <l>á perturbar á los hombres</l>
+               <l>el espiritu, y la gracia.</l>
+               <l>Pues digáme uñás cajiflas,</l>
+               <l>que traen eón aftej y mañá</l>
+               <l>de tabaco en lós bolsiflos,</l>
+               <l>que es tabaco palvònada,</l>
+               <l>pastelés, que ásofa el mundo,</l>
+               <l>y es contagio de las álmas.</l>
+               <l>Pues asi comó el pobrete,</l>
+               <l>que á orilla del agua se halla,</l>
+               <l>tiende la caña; y el hilo,</l>
+               <l>por vér si algun pez saca,</l>
+               <l>asi tambien en cualquiera</l>
+               <l>parte, ó lugar donde sé hullan</l>
+               <l>en un instante fránquean</l>
+               <l>todas cuantas hay las cajas,</l>
+
+               <pb n="3" source="Moreno_331_3.jpeg" facs="fedora_ug8108178/full/full/0/default.jpg"/>
+
+               <l>por vér si algun inocente</l>
+               <l>en estas redes se enlaza.</l>
+               <l>Señores vivid alerta,</l>
+               <l>porque esta infame canalla</l>
+               <l>todo se le vá en pensar</l>
+               <l>los enredos; y las trazas,</l>
+               <l>que han de urdir para buscarnos:</l>
+               <l>nuestra ruina, y desgracia;</l>
+               <l>pues es nuestra desventura,</l>
+               <l>y nuestra miseria tanta.</l>
+               <l>que es el mayor enemigo</l>
+               <l>que hane guerra á nuestros almas:</l>
+               <l>aqueste infame avechucho,</l>
+               <l>y asi hermanos, ni aun mirarlas, </l>
+               <l>ni aun oir mentar sus nombres</l>
+               <l>ni verlas, ni conversarlas,</l>
+               <l>su trato, y conversacion;</l>
+               <l>es sacar algunas faltas,</l>
+               <l>que uno no tiene en sí;</l>
+               <l>sino porque se las fraguan</l>
+               <l>Pues cuando van por la calle</l>
+               <l>con el mantillo setapan; </l>
+               <l>que parece que no vén;,</l>
+               <l>y quemando ván á cuantas</l>
+               <l>encuentran en el camino;</l>
+               <l>ponièndoles cien mil tachas</l>
+               <l>y no se miran? ár asi,</l>
+               <l>que merecen otras tantas.</l>
+               <l>Cuantos se-dían visto en el mundo</l>
+               <l>arrastrados porsu causa,</l>
+               <l>aperreados de noche</l>
+               <l>por hablar por las ventanas,</l>
+               <l>y ellas qué es lo que imaginan?</l>
+               <l>El tirarles de la capa,</l>
+               <l>y luego decirles: fuera.</l>
+               <l>Quién por los pies las colgara,</l>
+               <l>para que no se metieran</l>
+               <l>en andar con tanta trampa!</l>
+               <l>Que parecen (y aun lo son)</l>
+               <l>hechiceras bien formadas.</l>
+               <l>Sus paseos, y visitas</l>
+               <l>son de campaña en campaña;</l>
+               <l>que como las mas son brujas,</l>
+               <l>no se hallan sino en volandas;</l>
+               <l>pero no podrán negar</l>
+               <l>lo que el Demonio declara,</l>
+               <l>que para formar enredos!</l>
+               <l>de las mugeres se ampara,</l>
+               <l>con que de aqui sacarémos,</l>
+               <l>que peores y más malas</l>
+               <l>son que todos los Demonios,</l>
+               <l>que allá en el Infierno andan.</l>
+               <l>pues el ejemplo, y doctrina</l>
+               <l>que ellas tienen, y declaran</l>
+               <l>es solo lo que aprendieron</l>
+               <l>de Ana Bolena, y la Cába</l>
+               <l>pues por esta se perdió¡</l>
+               <l>la fiel Corona de España, </l>
+               <l>y por la otra se introdujo</l>
+               <l>la heregía en cuantas almas</l>
+               <l>habia en Inglaterra,</l>
+               <l>y esto bien claro se halla</l>
+               <l>que yo no digo mentiras..</l>
+               <l>sino es vendades que pasan</l>
+               <l>y aquesto lo aflímaré,</l>
+               <l>pues despues queaquellas faltan,</l>
+               <l>hay hechicerasmas, finas,</l>
+               <l>y de peores entrañas.</l>
+               <l>Bien sé yo, que estas senoras</l>
+               <l>estaran muy disgustadas</l>
+               <l>de oir de esta bocá humildé</l>
+               <l>verdadestan á la clara,</l>
+               <l>y que si posible fuera,</l>
+               <l>que á sus uñas me pescaran,</l>
+               <l>yo aseguro que saliera</l>
+               <l>mi melena bien rizada,</l>
+               <l>y por oso no me atrevo</l>
+               <l>yo á arrimarme, guárda guarda.</l>
+               <l>Qué haya quien nos las alabe?</l>
+               <l>De bueno nunca hacen nada,</l>
+               <l>ni cosa que caiga en gusto,</l>
+               <l>pofque si miran, enfadan,</l>
+               <l>si rien abren tanta boca,</l>
+               <l>que parecen la Tarasca,</l>
+               <l>si cantan, pienso, que ahullan,</l>
+               <l>si representan, que rabian,</l>
+               <l>si danzan, todo es corcobos,</l>
+               <l>no aciertan nada si mandan,</l>
+               <l>si acaso están de visita,</l>
+               <l>ninguna se está callada,</l>
+               <l>porque tódas de monton</l>
+               <l>quieren dár su cucharada.</l>
+
+               <pb n="4" source="Moreno_331_4.jpeg" facs="fedora_ug8110109/full/full/0/default.jpg"/>
+
+               <l>Y en fin no sois de provecho</l>
+               <l>en cosa de las criadas:</l>
+               <l>y por lo tanto leruego</l>
+               <l>a Dios con pias entrañas,</l>
+               <l>que os llene de sarampion,</l>
+               <l>de ladillas, lepra, y sarna,</l>
+               <l>tabardillo, calenturas,</l>
+               <l>de viruelas, y tercianas,</l>
+               <l>dolor de muelas, y dientes,</l>
+               <l>el de jaqueca, la hijada,</l>
+               <l>mal de piedra, y de la orina,</l>
+               <l>que os dé pujos, y almorranas,</l>
+               <l>sabañones en los pies,</l>
+               <l>las piernas traigan hinchadas,</l>
+               <l>y que las manos cubiertas</l>
+               <l>tengais de flema salada,</l>
+               <l>en los pechos zaratanes,</l>
+               <l>en el pescuezo, y garganta</l>
+               <l>traigais el fuego, y la tiña,</l>
+               <l>y en vuestro cuerpo morada</l>
+               <l>hagan de San Blas las bubas;</l>
+               <l>y de Lazaro las llagas:</l>
+               <l>y qué mas? no digo mas,</l>
+               <l>porque alli aquella taimada</l>
+               <l>con los ojos me la jura,</l>
+               <l>y quiero huir de sus garras,</l>
+               <l>porque es efigie, y retráto</l>
+               <l>de aquella viega malvada,</l>
+               <l>que al bendito San Anton</l>
+               <l>con la fruta le brindaba,</l>
+               <l>llevando en ella mezclado</l>
+               <l>el veneno, que ocultaba</l>
+               <l>aquel corazon maldito;</l>
+               <l>mas el Santo, en quien se hallaban</l>
+               <l>todas las virtudes juntas,</l>
+               <l>como su sentro, y morada,</l>
+               <l>resistió con gran valor</l>
+               <l>la diabolica asechanza,</l>
+               <l>quedando la infame viega</l>
+               <l>arrepentida, y burlada,</l>
+               <l>y así os pido, santo mio,</l>
+               <l>que antes que de aqui me vaya</l>
+               <l>un rayo de vuestro fuego</l>
+               <l>desateis con furias tantas,</l>
+               <l>que á estas infernales viejas</l>
+               <l>les abrase las entrañas,</l>
+               <l>para que viendo las mozas</l>
+               <l>el fin en que aquestas paran,</l>
+               <l>traten de sevir á Dios,</l>
+               <l>recogiendose en sus casas,</l>
+               <l>dejando estas compañias,</l>
+               <l>pues todo el año cargadas</l>
+               <l>de medallas yRosarios,</l>
+               <l>traen la opinion muy sentada</l>
+               <l>de que sus almas son justas,</l>
+               <l>y son hipocritas falsas.</l>
+               <l>En fin, de viejas, y mozas,</l>
+               <l>de solteras, y casadas</l>
+               <l>ruego á Dios que en todo el mundo</l>
+               <l>no quede una sin calva,</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1881. <lb/>Imp. de D. José María Moreno, calle de Madre de Dios,
+                  núm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

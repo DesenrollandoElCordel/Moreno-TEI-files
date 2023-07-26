@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_046">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Historia del Conde Niño y canción de Gerineldo</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Historia del Conde Niño y cancion de Gerineldo. En
+                     la que se espresan los amores y fuga de Gerineldo con la bella Enildas, Sultana
+                     favorita del Gran Señor.</title>
+                  <title type="titulo_breve">Historia del Conde Niño y cancion de Gerineldo.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6448087</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 52</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Historia</item>
+                        <item>Canción</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Historia del Conde Niño</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Canción de Gerineldo</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_046_1.xml"
+                              facs="fedora_ug8110276/220,200,1220,1020/100,/0/default.jpg"
+                              >grabado_m_046_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q45">
+                  <placeName key="Portugal">Portugal</placeName>
+                  <location>
+                     <geo>38.7 -9.1833333333333</geo>
+                  </location>
+               </place>
+               <place n="4" corresp="Q142">
+                  <placeName key="Francia">Francia</placeName>
+                  <location>
+                     <geo>47 2</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q16869">
+                  <placeName key="Constantinopla">Constantinopla</placeName>
+                  <location>
+                     <geo>41.0125 28.98</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q83971">
+                  <placeName key="Tartaria">Tartaria</placeName>
+                  <location>
+                     <geo>49.53358 18.20526</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Historias</term>
+               <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-02" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105273/manifest">
+      <graphic url="fedora_ug8110276/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_046_1.jpg" facs="fedora_ug8110276/full/full/0/default.jpg"/>
+
+               <fw>Núm. 52.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">HISTORIA DEL CONDE NINO,</hi>
+                  <lb/>Y CANCION DE GERINELDO. </head>
+
+               <head type="subtitulo">
+                  <lb/>En la que se espresan los amores y fuga de Gerineldo con la bella
+                  <lb/>Enildas, Sultana favorita del Gran Señor. </head>
+
+               <div>
+                  <l rend="indent">Se levanta el conde Niño,</l>
+                  <l>la mañana de San Juan,</l>
+                  <l>á dar agua á su caballo</l>
+                  <l>en la corriente del mar;</l>
+                  <l>las aves que van volando</l>
+                  <l>se han parado á escuchar.</l>
+                  <l>Grandes guerras se publican</l>
+                  <l>entre <name>España</name> y <name>Portugal</name></l>
+                  <l>y nombran al conde niño</l>
+                  <l>de capitan general.</l>
+                  <l rend="indent">La hermosa Enildas lo llora</l>
+                  <l>sin poderlo remediar,</l>
+                  <l>pues debe con él casarse,</l>
+                  <l>segun contrato formal</l>
+                  <l>que sus padres celebraron.</l>
+                  <l rend="indent">Señora de mi alvedrio</l>
+                  <l>no os tomeis tan gran pesar,</l>
+                  <l>si á los seis años no he vuelto,</l>
+                  <l>con otro os podeis casar.</l>
+                  <l rend="indent">Pasáronse seis años</l>
+                  <l>sin haber razon formal</l>
+                  <l>para consolar á Enildas</l>
+                  <l>que morirá de pesar.</l>
+                  <l rend="indent">Mas al cabo de este tiempo</l>
+
+                  <pb n="2" source="Moreno_046_2.jpg"
+                     facs="fedora_ug8105030/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>un criado muy sagaz,</l>
+                  <l>vino á traerles noticias</l>
+                  <l>de que se iba á casar</l>
+                  <l>el conde Niño su amo</l>
+                  <l>con una hermosa deidad</l>
+                  <l>que era en <name>Francia</name> celebrada</l>
+                  <l>por su garvo y por su sal.</l>
+                  <l rend="indent">Sabida esta fiel noticia</l>
+                  <l>no se detiene en pensar</l>
+                  <l>y á su criado le dice</l>
+                  <l>si la quiere acompañar,</l>
+                  <l>que para <name>Francia</name> la vuelta</l>
+                  <l>muy al punto va á tomar;</l>
+                  <l>quitóse el traje de seda,</l>
+                  <l>y poniéndose un sayal</l>
+                  <l>en compaña del criado</l>
+                  <l>en el camino están ya;</l>
+                  <l>bien provistos de dineros</l>
+                  <l>porque no puedan faltar.</l>
+                  <l rend="indent">Andando de dia y noche</l>
+                  <l>no permite descansar</l>
+                  <l>hasta que á <name>Francia</name> llegaron:</l>
+                  <l>mas cual seria su pesar</l>
+                  <l>cuando supieron que el conde</l>
+                  <l>en <name>Francia</name> no estaba ya, </l>
+                  <l>pues con una gran armada</l>
+                  <l>tres dias hacia no mas</l>
+                  <l>que se habian embarcado</l>
+                  <l rend="indent">En un mar de confusiones</l>
+                  <l>sin discurrir ni pensar</l>
+                  <l>á su criado Gerineldo</l>
+                  <l>lo hace que vaya á buscar</l>
+                  <l>marineros y un buen buque</l>
+                  <l>conque poder alcanzar</l>
+                  <l>la escuadra del conde niño.</l>
+                  <l rend="indent">Todo está listo, Señora,</l>
+                  <l>al punto como quereis</l>
+                  <l>y sin detencion ninguna,</l>
+                  <l>vámonos luego á embarcar.</l>
+                  <l rend="indent">Cuatro dias de buen viento</l>
+                  <l>siguiendo las aguas van</l>
+                  <l>de la escuadra deseada,</l>
+                  <l>del que iba á conquistar</l>
+                  <l>la casa santa del moro,</l>
+                  <l>mas ál quinto ¡qué pesar!</l>
+                  <l>siete jabeques morunos</l>
+                  <l>los rodean sin parar</l>
+                  <l>hasta que abordaje fueron.</l>
+                  <l rend="indent">Los cristianos se defienden</l>
+                  <l>con coraje sin igual,</l>
+                  <l>pero de tanta morisma</l>
+                  <l>es imposible escapar,</l>
+                  <l>aquel que no ha sido muerto</l>
+                  <l>lo maniatan sin piedad</l>
+                  <l>y en la bodega lo meten,</l>
+                  <l rend="indent">El infeliz Gerineldo</l>
+                  <l>sobre la cubierta está</l>
+                  <l>todo de heridas cubierto, </l>
+                  <l>al agua lo van á echar,</l>
+                  <l>pero Enildas presurosa</l>
+                  <l>lo apadrina con afan</l>
+                  <l>cubriéndolo con su cuerpo.</l>
+                  <l rend="indent">Todos se quedan suspensos</l>
+                  <l>y obedientes sin igual</l>
+                  <l>a las órdenes de Enildas,</l>
+                  <l>que con piedad singular</l>
+                  <l>ha labado sus heridas,</l>
+                  <l>y en un lecho bien mullido</l>
+                  <l>lo ha mandado descansar,</l>
+                  <l rend="indent">El gefe de aquellos moros</l>
+                  <l>á Enildas le llega á hablar</l>
+                  <l>diciéndole de esta suerte:</l>
+                  <l>¿Cristiana, tú eres mi presa</l>
+                  <l>pues no te pueden librar</l>
+                  <l>ya ninguno de los tuyos</l>
+                  <l>siendo el golpe musulman</l>
+                  <l>el que á todos ha rendido</l>
+                  <l rend="indent">Tu suerte va á cambiar,</l>
+                  <l>desde este instante, Señora,</l>
+                  <l>así me permitirás</l>
+                  <l>te cubra con este velo</l>
+                  <l>que solo se podrá alzar</l>
+                  <l>delante del gran señor</l>
+                  <l>á quien destinada vas..</l>
+                  <l rend="indent">Dichas tan breves palabras</l>
+                  <l>manda velas desplegar,</l>
+                  <l>y el rumbo á <name>Constantinopla</name></l>
+                  <l>no se detiene en tomar</l>
+                  <l>llegando muy felizmente</l>
+                  <l>del puerto á desembarcar</l>
+                  <l rend="indent">El gefe de los Eunucos</l>
+                  <l>se ha llegado á presentar</l>
+                  <l>para entregarse de Enilda,</l>
+                  <l>el que al punto y sin tardar</l>
+                  <l>la conduce presuroso</l>
+                  <l>ante el Solio del Sultan.</l>
+
+                  <pb n="3" source="Moreno_046_3.jpg"
+                     facs="fedora_ug8108639/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum"><choice>
+                        <sic>5</sic>
+                        <corr>3</corr>
+                     </choice></fw>
+
+                  <l rend="indent">Quedóse el Sultan pasmado</l>
+                  <l>viendo hermosura tan rara,</l>
+                  <l>y ha mandado la obedezcan</l>
+                  <l>cual favorita Sultana.</l>
+                  <l rend="indent">Enildas no olvida nunca</l>
+                  <l>que Gerineldos se halla</l>
+                  <l>entre cadenas y herido,</l>
+                  <l>y al Sultan pide la gracia</l>
+                  <l>que en libertad lo pongan.</l>
+                  <l rend="indent">Esa es muy pequeña gracia</l>
+                  <l>la que me pides, Sultana,</l>
+                  <l>manda cosa de importancia</l>
+                  <l>en que obedecida sea</l>
+                  <l>tu voluntad soberana.</l>
+                  <l rend="indent">A Gerineldo lo nombro</l>
+                  <l>por oficial de mi guardia,</l>
+                  <l>pues quiero que su persona</l>
+                  <l>no esté lejos de este alcázar.</l>
+                  <l rend="indent">Muchos dias se pasaron</l>
+                  <l>sin ver y sin saber nada</l>
+                  <l>Enildas de Gerineldo,</l>
+                  <l>mas al fin una manana</l>
+                  <l>lo vió que por los jardines</l>
+                  <l>solitario se paseaba.</l>
+                  <l rend="indent">Entónces con un pañuelo</l>
+                  <l>le hizo señas que llegara</l>
+                  <l>y desde el balcon le dice</l>
+                  <l>con cariñosas palabras.</l>
+               </div>
+
+               <div>
+                  <head type="primer_titulo">CANCION.</head>
+
+                  <l rend="indent">Gerineldo, Gerineldo,</l>
+                  <l>Gerineldillo querido,</l>
+                  <l>bien conozco que el amor</l>
+                  <l>te ha hecho tan atrevido;</l>
+                  <l>mas no creas que por eso</l>
+                  <l>caigas jamás en olvido</l>
+                  <l>de quien tiernamente te ama</l>
+                  <l>hace tiempo sin decirlo.</l>
+                  <l rend="indent">Bella Enildas, tu respuesta</l>
+                  <l>me ha dejado sumergido</l>
+                  <l>en un mar de pensamientos</l>
+                  <l>sin lograr seguro asilo:</l>
+                  <l>pues noto la diferencia</l>
+                  <l>que va de tu culto al mio,</l>
+                  <l>y no abandono mi ley</l>
+                  <l>por tu amor ni mi destino.</l>
+                  <l rend="indent">No desmayes, Gerineldo,</l>
+                  <l>que amor todo lo ha vencido;</l>
+                  <l>estoy de tí enamorada,</l>
+                  <l>y esto basta, dueño mio,</l>
+                  <l>pero has de ser reservado</l>
+                  <l>á cuanto ahora te digo;</l>
+                  <l>hablarte esta noche quiero</l>
+                  <l>en este jardin sombrio.</l>
+                  <l rend="indent">Verdad es que amor vence</l>
+                  <l>pues tiene gran poderio,</l>
+                  <l>y espondré hasta mi existencia</l>
+                  <l>si tal fortuna consigo;</l>
+                  <l>mas siendo vuestro criado,</l>
+                  <l>creo que os burlais conmigo.</l>
+                  <l>¿A que hora de la noche</l>
+                  <l>cumplireis lo prometido?</l>
+                  <l rend="indent">Entre las doce y la una,</l>
+                  <l>que estará el Sultan dormido,</l>
+                  <l>para esta hora te espero,</l>
+                  <l>que vendrás bien prevenido:</l>
+                  <l>tres vueltas dá á su palacio,</l>
+                  <l>pero siempre con sigilo:</l>
+                  <l>las botas lleva en la mano,</l>
+                  <l>y no serás de él sentido.</l>
+                  <l rend="indent">Eternas fueron las horas</l>
+                  <l>para el amante rendido,</l>
+                  <l>deseando por instantes</l>
+                  <l>verse con su amor unido:</l>
+                  <l>cumplió fielmente la cita</l>
+                  <l>resuelto, animoso y fino,</l>
+                  <l>y entró al cuarto de la dama</l>
+                  <l>sin ser de nadie sentido</l>
+                  <l rend="indent">La Sultana que oyó pasos,</l>
+                  <l>dijo con ánimo y brio:</l>
+                  <l>¿quién se introduce en mi cuarto?</l>
+                  <l>¿quién ha sido el atrevido</l>
+                  <l>que profana mi decoro</l>
+                  <l>y el honor de mi marido?</l>
+                  <l>tema, tema la venganza</l>
+                  <l>del Sultan enfurecido.</l>
+                  <l rend="indent">Gerineldo la responde</l>
+                  <l>al momento: hechizo mio</l>
+                  <l>no os asusteis, gran Señora,</l>
+                  <l>que es vuestro amante querido:</l>
+                  <l>media hora os ando buscando,</l>
+                  <l>todo el jardin he corrido,</l>
+                  <l>y por cumpliros la cita</l>
+                  <l>vengo del amor herido.</l>
+                  <l rend="indent">Le toma la mano Enildas,</l>
+                  <l>con afectuoso cariño,</l>
+
+                  <pb n="4" source="Moreno_046_4.jpg"
+                     facs="fedora_ug8106459/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>dándose satisfacciones</l>
+                  <l>como mujer y marido,</l>
+                  <l>siendo el gozo tan cabal</l>
+                  <l>que se quedaron dormidos,</l>
+                  <l>y al despertar se encontraron</l>
+                  <l>entre variados designios.</l>
+                  <l rend="indent">El Sultan quiere vestirse,</l>
+                  <l>mas no encuentra el vestido;</l>
+                  <l>que llamen á Gerineldo,</l>
+                  <l>que es suoficial mas querido:</l>
+                  <l>unos dicen que no estaba,</l>
+                  <l>otros que no habia venido,</l>
+                  <l>y el gran Señor receloso,</l>
+                  <l>se levantó comedido.</l>
+                  <l rend="indent">Al cuarto de Enildas entra,</l>
+                  <l>y allí lo encontró dormido:</l>
+                  <l>estuvo algunos momentos</l>
+                  <l>su Alteza muy pensativo,</l>
+                  <l>reflexionando que haria</l>
+                  <l>contra el audaz y atrevido,</l>
+                  <l>pues si grande era su ofensa</l>
+                  <l>no era menos su cariño.</l>
+                  <l rend="indent">¿Mataré yo á Gerineldo,</l>
+                  <l>ya que lo encuentro dormido?</l>
+                  <l>pues si mato á la Sultana</l>
+                  <l>tengo mi reino perdido;</l>
+                  <l>no, pondré el puñal por medio</l>
+                  <l>que me sirva de testigo;</l>
+                  <l>hácelo asi, y se retira</l>
+                  <l>del jardin a un bosquecillo.</l>
+                  <l rend="indent">Enildas al despertarse,</l>
+                  <l>mirando que estaba el filo</l>
+                  <l>del puñal entre los dos,</l>
+                  <l>dijo á su amante querido:</l>
+                  <l>levántate Gerineldo,</l>
+                  <l>levántate, dueño mio,</l>
+                  <l>que el puñal del gran Señor,</l>
+                  <l>entre los dos ha dormido.</l>
+                  <l rend="indent">Al oir esto Gerineldo</l>
+                  <l>se levantó despavorido,</l>
+                  <l>todo confuso y turbado, </l>
+                  <l>creyéndose ya perdido;</l>
+                  <l>la Sultana lo animaba,</l>
+                  <l>y él respondia afligido:</l>
+                  <l>¡á donde iré, mi hermosa!</l>
+                  <l>¡á donde me iré, Dios mio!</l>
+                  <l rend="indent">No te aflijas, Gerineldo,</l>
+                  <l>que siempre estaré contigo;</l>
+                  <l>márchate, por el jardin,</l>
+                  <l>que luego al punto te sigo;</l>
+                  <l>obedeció à la Sultana,</l>
+                  <l>haciendo lo que le dijo:</l>
+                  <l>y el Sultan que está en acecho</l>
+                  <l>se hizo el encontradizo.</l>
+                  <l rend="indent">¿Dónde vas, buen Gerineldo?</l>
+                  <l>¿cómo estás tan pensativo?</l>
+                  <l>Recorriendo aquestas matas</l>
+                  <l>per ver si han florecido:</l>
+                  <l>y una rosa muy fragante</l>
+                  <l>el color me lo ha comido.</l>
+                  <l>Mientes, mienies, Gerineldo,</l>
+                  <l>que con Enildas has dormido.</l>
+                  <l rend="indent">Estando en esto el Sultan</l>
+                  <l>un gran pliego ha recibido;</l>
+                  <l>ábrelo, y en el instante</l>
+                  <l>todo el color ha perdido.</l>
+                  <l rend="indent">Que prendan á Gerineldo,</l>
+                  <l>y encierren en un castillo:</l>
+                  <l>marchando determinado</l>
+                  <l>á cumplir lo contenido.</l>
+                  <l rend="indent">En esto la hermosa Enildas,</l>
+                  <l>acude á aquel mismo sitio,</l>
+                  <l>infórmase muy en breve,</l>
+                  <l>y conociendo el peligro;</l>
+                  <l>sin esperar á que vuelva</l>
+                  <l>el Sultan enfurecido,</l>
+                  <l>salta á la verja ligera,</l>
+                  <l>guiada del ciego niño.</l>
+                  <l rend="indent">Fúgase á la gran <name>Tartaria</name></l>
+                  <l>con su amante y fiel amigo,</l>
+                  <l>con dos fogosos caballos,</l>
+                  <l>mudando trage y vestido,</l>
+                  <l>y con las joyas que lleva</l>
+                  <l>en un rico cofrecillo</l>
+                  <l>una vida regalada</l>
+                  <l>á su dueño ha prometido.</l>
+               </div>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>Imprenta y libreria de don José M. Moreno, calle Madre de Dios <choice>
+                     <sic>uúm.</sic>
+                     <corr>núm.</corr>
+                  </choice> 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

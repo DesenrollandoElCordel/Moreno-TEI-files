@@ -1,0 +1,824 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_027">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nueva y curiosa relación de la peregrina doctora</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Nueva y curiosa relacion de la peregrina
+                     doctora.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6447919</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-5</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_127_1.xml"
+                              facs="fedora_ug8109824/118,266,1055,897/100,/0/default.jpg"
+                              >grabado_m_127_1</item>
+                           <item corresp="grabado_m_127_2.xml"
+                              facs="fedora_ug8109824/1176,264,333,894/100,/0/default.jpg"
+                              >grabado_m_127_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="3" corresp="Q597">
+                  <placeName key="Lisboa">Lisboa</placeName>
+                  <location>
+                     <geo>38.708042 -9.139016</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8109451/manifest">
+      <graphic url="fedora_ug8109824/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_027_1.jpg" facs="fedora_ug8109824/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 29.</fw>
+
+               <head type="primer_titulo">
+                  <lb/>NUEVA Y CURIOSA RELACION <lb/>DE LA <lb/><hi rend="negrita">PEREGRINA
+                     DOCTORA.</hi>
+               </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">Soberana luz brillante,</l>
+                  <l>Madre del divino Verbo,</l>
+                  <l>amparo de pecadores,</l>
+                  <l>palma, luz, libano y huerto;</l>
+                  <l>dad á mi pluma la gracia,</l>
+                  <l>que si la logro, pretendo</l>
+                  <l>contar un caso admirable</l>
+                  <l>de los muchos que habeis hecho.</l>
+                  <l>En la ciudad de <name>Lisboa</name>,</l>
+                  <l>y en su lucido pueblo,</l>
+                  <l>vivia un gran potentado,</l>
+                  <l>tan noble y tan caballero,</l>
+                  <l>que general de las tropas</l>
+                  <l>le hizo su rey don Pedro;</l>
+                  <l>le llaman don Alejandro</l>
+                  <l>de Figueróa y Sarmiento.</l>
+                  <l>Este tal era casado</l>
+                  <l>(¡con qué pena lo refiero!</l>
+                  <l>¡con qué pesares lo digo!</l>
+                  <l>¡y con qué dolor lo siento!)</l>
+                  <l>con una preciosa dama,</l>
+                  <l>con un peregrino objeto:</l>
+                  <l>con la muger mas hermosa</l>
+                  <l>que habia en todo aquél reino;</l>
+                  <l>tan discreta y tan bizarra,</l>
+                  <l>que si á Venus eligieron</l>
+
+                  <pb n="2" source="Moreno_027_2.jpg"
+                     facs="fedora_ug8106379/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>por diosa de la hermosura,</l>
+                  <l>dando la manzana en premio,</l>
+                  <l>en doña Inés con mas gracia</l>
+                  <l>se halla Palas, luno y Venus.</l>
+                  <l>Se llamaba aquesta señora</l>
+                  <l>doña Inés Portocarrero,</l>
+                  <l>su esposo don Alejandro,</l>
+                  <l>que adora sus pensamientos,</l>
+                  <l>la tierra que pisa, besa;</l>
+                  <l>y de continuo su pecho</l>
+                  <l>la idolatra retratada,</l>
+                  <l>que es su mayor consuelo.</l>
+                  <l>Este tal tiene un hermano</l>
+                  <l>dentro en su palacio mismo</l>
+                  <l>que le llaman Federico,</l>
+                  <l>liviano, altivo y soberbio;</l>
+                  <l>aqueste se queda en casa</l>
+                  <l>para despachar los pliegos</l>
+                  <l>cuando el hermano salia</l>
+                  <l>á cumplir con sus empleos,</l>
+                  <l>siendo pirata de esclavos</l>
+                  <l>y verdugo de los negros</l>
+                  <l>enfado de las doncellas</l>
+                  <l>que le estaban asistiendo,</l>
+                  <l>porque á todos le servia</l>
+                  <l>de muy gravísimo peso,</l>
+                  <l>que lo que pasa en palacio</l>
+                  <l>en todo se está metiendo.</l>
+                  <l>Este tal se enamoró,</l>
+                  <l>con mal nacidos intentos,</l>
+                  <l>de la muger de su hermano,</l>
+                  <l>doña Inés Portocarrero,</l>
+                  <l>anda triste y desvalido,</l>
+                  <l>sin color y macilento,</l>
+                  <l>hasta las aves le enfadan</l>
+                  <l>cuando vuelan por el viento.</l>
+                  <l>En fin, se determinó</l>
+                  <l>cierto dia en unos versos,</l>
+                  <l>que su esposo la escribió</l>
+                  <l>echando un papel en medio</l>
+                  <l>darla parte de su amor</l>
+                  <l>con infernales intentos.</l>
+                  <l>Tomó doña Inés las cartas</l>
+                  <l>con alegria y contento,</l>
+                  <l>por ser de don Alejandro,</l>
+                  <l>su consorte y compañero.</l>
+                  <l>Estándola repasando,</l>
+                  <l>reparando en aquel pliego</l>
+                  <l>que estaba muy poco hollado</l>
+                  <l>y escrito de poco tiempo,</l>
+                  <l>rompió la mena y al punto</l>
+                  <l>que ha comenzado á leerlo,</l>
+                  <l>en su presencia lo arroja,</l>
+                  <l>hecho pedazos al viento.</l>
+                  <l>Detente, muger heróica,</l>
+                  <l>guarda el papel en tu pecho,</l>
+                  <l>que podrá ser que te sirva</l>
+                  <l>algun dia de provecho;</l>
+                  <l>mas en fin ya lo rompió,</l>
+                  <l>¡qué lástima! no hay remedio.</l>
+                  <l>Mas viendo don Federico</l>
+                  <l>el desaire que le ha hecho,</l>
+                  <l>cólerico y enojado</l>
+                  <l>brota por los ojos fuego.</l>
+                  <l>Mas ella disimulaba</l>
+                  <l>y á solas está diciendo:</l>
+                  <l>¿quién ha de guardar mi honor</l>
+                  <l>quiere ofender mi respeto?</l>
+                  <l>Mire por sí, Federico,</l>
+                  <l>y respétese asi mismo,</l>
+                  <l>supuesto que dos hermanos</l>
+                  <l>son dos armas y un cuerpo,</l>
+                  <l>no le quiso decir mas,</l>
+                  <l>él se metió en su aposento,</l>
+                  <l>maldiciendo su fortuna:</l>
+                  <l>jura por los altos cielos,</l>
+                  <l>que á pesar de todo el mundo</l>
+                  <l>ha de lograr sus intentos.</l>
+                  <l>Miró doña Inés un dia</l>
+                  <l>á don Féderico atento,</l>
+                  <l>y le vió de que traia</l>
+                  <l>el rostro muy descompuesto,</l>
+                  <l>y que le estaba brotando</l>
+                  <l>la ponzoña y el veneno:</l>
+                  <l>mas ella como discreta,</l>
+                  <l>entre si estaba diciendo:</l>
+                  <l>aqueste quiere intentar</l>
+                  <l>un villano atrevimiento:</l>
+
+                  <pb n="3" source="Moreno_027_3.jpg"
+                     facs="fedora_ug8107850/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>mas antes que lo ejecute</l>
+                  <l>yo quiero poner remedio.</l>
+                  <l>Mandó al punto que viniesen</l>
+                  <l>albañiles y arquitectos,</l>
+                  <l>y que en medio del jardin</l>
+                  <l>hiciesen del jaspe negro</l>
+                  <l>unas bóvedas curiosas,</l>
+                  <l>pintadas con azulejos,</l>
+                  <l>cuanto cupiese una cama,</l>
+                  <l>mesa, silla é instrumentos;</l>
+                  <l>y que á la puerta le pongan</l>
+                  <l>unas barretas de hierro,</l>
+                  <l>cuanto se pueda por ellas</l>
+                  <l>meter el mantenimiento,</l>
+                  <l>con su golpe como cárcel,</l>
+                  <l>el pestillo fuerte y récio.</l>
+                  <l>En breve tiempo se hizo,</l>
+                  <l>que en donde sobra el dinero,</l>
+                  <l>muy pronto se facilita</l>
+                  <l>por largo que sea el cuento.</l>
+                  <l>De que estuvo aderezada</l>
+                  <l>con su cama y lucimiento,</l>
+                  <l>llamando á don Federico</l>
+                  <l>doña Inés Portocarrero,</l>
+                  <l>le dice: hermano mio,</l>
+                  <l>porque muy triste te veo,</l>
+                  <l>quiero llevarte al jardin</l>
+                  <l>á ver los árboles bellos,</l>
+                  <l>verás una arquitectura</l>
+                  <l>hecha por un hombre maestro,</l>
+                  <l>para en viniendo mi esposo</l>
+                  <l>que salga á tomar el fresco,</l>
+                  <l>De que oyó estas razones,</l>
+                  <l>se alegró en grande estremo,</l>
+                  <l>que entendio ya que la rosa</l>
+                  <l>se iba convirtiendo en celos.</l>
+                  <l>Se fueron hácia el jardin,</l>
+                  <l>viendo aquel casino ameno,</l>
+                  <l>con la cama tan curiosa,</l>
+                  <l>le dió el corazon un vuelco,</l>
+                  <l>diciendo: aquesta es mi suerte,</l>
+                  <l>hoy se logran mis deseos;</l>
+                  <l>mas dijole doña Inés.</l>
+                  <l>con engañosos intentos,</l>
+                  <l>entre usted don Federico,</l>
+                  <l>toque usted ese instrumento</l>
+                  <l>mientras yo cojo unas flores</l>
+                  <l>de las mejores del huerto.</l>
+                  <l>Hizo lo que le mandó,</l>
+                  <l>y apenas le vió adentro.</l>
+                  <l>cuando tirándo la puerta</l>
+                  <l>con tan voronil esfuerzos,</l>
+                  <l>uedando el golpe echado</l>
+                  <l>quedó Féderico preso,</l>
+                  <l>diciendole: aquí se pagan</l>
+                  <l>malicias y atrevimientos.</l>
+                  <l>De que oyó aquestas razones,</l>
+                  <l>tiró al suelo el instrumento,</l>
+                  <l>escarba, bufa y patea,</l>
+                  <l>parece un leon sangriento,</l>
+                  <l>ura que se ha de vengar</l>
+                  <l>á pesar del mundo entero:</l>
+                  <l>si el papel no hubiera roto</l>
+                  <l>no se viera en este espejo.</l>
+                  <l>Ella se fué á su retrete,</l>
+                  <l>dejándolo en cautiverio.</l>
+                  <l>Cuando vienen á palacio</l>
+                  <l>visitas de caballeros,</l>
+                  <l>de señoras principales,</l>
+                  <l>de sus parientes y deudos,</l>
+                  <l>cuando preguntan por él,</l>
+                  <l>dice doña Inés á tiempo</l>
+                  <l>que le ha dado un accidente</l>
+                  <l>y un frenesí descompuesto,</l>
+                  <l>que allí lo tiene metido</l>
+                  <l>para tenerlo sujeto,</l>
+                  <l>que los regalos del mundo</l>
+                  <l>de sobra los tiene dentro.</l>
+                  <l>Desde entonces doña Inés</l>
+                  <l>despachó todos lo pliegos</l>
+                  <l>diciendo que está su hermano,</l>
+                  <l>melancólico y enfermo.</l>
+                  <l>De allí á seis meses se supo</l>
+                  <l>en la corte por muy cierto,</l>
+                  <l>como el campo se levanta,</l>
+                  <l>conviniéndose los reyes</l>
+                  <l>en dar treguas á la guerra,</l>
+                  <l>y que próspero y contento</l>
+
+                  <pb n="4" source="Moreno_027_4.jpg"
+                     facs="fedora_ug8109976/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>viene ya don Alejandro</l>
+                  <l>echando plumas al viento</l>
+                  <l>Doña Inés á Federico</l>
+                  <l>le llevó un vestido nuevo.</l>
+                  <l>un caballo enjaezado,</l>
+                  <l>la peluca y el sombrero,</l>
+                  <l>un maestro que lo afeite</l>
+                  <l>y que montase ligero,</l>
+                  <l>y le sale á recibir</l>
+                  <l>con ambos brazos abiertos,</l>
+                  <l>sin darse por entendido</l>
+                  <l>del intentado suceso,</l>
+                  <l>que lo que ha hecho con èl</l>
+                  <l>él debia agradecerlo.</l>
+                  <l>Con esto abrióle las puertas,</l>
+                  <l>aunque con algun recelo;</l>
+                  <l>y él no se quiso vestir,</l>
+                  <l>que con el ropage mesmo</l>
+                  <l>y sin afeitar se monta</l>
+                  <l>en el andaluz soberbio.</l>
+                  <l>El hermano que lo vió</l>
+                  <l>tan abominable y feo,</l>
+                  <l>le pregunta hermano mio,</l>
+                  <l>¿cómo bienes tan horrendo?</l>
+                  <l>¿que pesares te molestan?</l>
+                  <l>¿qué disfraces son aquestos?</l>
+                  <l>Entonces le respondió</l>
+                  <l>de esta manera diciendo:</l>
+                  <l>tu esposa tiene la culpa</l>
+                  <l>de verme como me veo:</l>
+                  <l>porque no hice su gusto,</l>
+                  <l>que descansando en mi lecho</l>
+                  <l>una noche me insitó</l>
+                  <l>echandome mil requiebros,</l>
+                  <l>pero yo la respondí,</l>
+                  <l>dándola dos mil consejos.</l>
+                  <l>y por aquesta ocasion</l>
+                  <l>me ha estado dando tormentos,</l>
+                  <l>y me ha tenido hasta ahora</l>
+                  <l>en este recinto preso.</l>
+                  <l>Don Alejandro que escucha</l>
+                  <l>tan terrible atrevimiento,</l>
+                  <l>como un mármol se quedó</l>
+                  <l>un largo rato suspenso,</l>
+                  <l>que quisiera que el abismo</l>
+                  <l>le sepultará en su centro:</l>
+                  <l>y entrando por el palacio</l>
+                  <l>le salió al recibimiento</l>
+                  <l>aquella blanca azucena,</l>
+                  <l>aquella jolla sin precio,</l>
+                  <l>á recibirlo en sus brazos</l>
+                  <l>del alma, y él con despego</l>
+                  <l>le pegó una bofetada</l>
+                  <l>con injuria de los cielos,</l>
+                  <l>y por no ver su hermosura</l>
+                  <l>mandó que cuatro monteros</l>
+                  <l>que son hombres de mal alma,</l>
+                  <l>le llevasen á un desierto.</l>
+                  <l>y que le saquen los ojos</l>
+                  <l>y el corazon de su centro,</l>
+                  <l>que en un paño se los traigan</l>
+                  <l>para quedar satisfecho.</l>
+                  <l>¡Qué lástima! ¡qué dolor!</l>
+                  <l>¡qué pena! ¡qué sentimiento!</l>
+                  <l>¡oh qué injusticia, qué agravio!</l>
+                  <l>¡qué castigo sin deberlo!</l>
+                  <l>Salen una noche triste,</l>
+                  <l>amparados del silencio</l>
+                  <l>aquellos facinerosos,</l>
+                  <l>y antes que rompiera Febo</l>
+                  <l>en un monte se hallaron</l>
+                  <l>tan encumbrado y espeso,</l>
+                  <l>que aquel dorado planeta</l>
+                  <l>que vive en el cuarto cie lo</l>
+                  <l>no ha podído con sus rayos</l>
+                  <l>descubrirle sus cimientos.</l>
+                  <l>Estando en aqueste sitio</l>
+                  <l>arrimada á un duro fresno,</l>
+                  <l>antes de darla la muerte</l>
+                  <l>quisieron gozar primero</l>
+                  <l>aquella prenda del orbe,</l>
+                  <l>aquella joya sin precio.</l>
+                  <l>Arman tan cruel batalla</l>
+                  <l>sobre el que ha de entrar primero,</l>
+                  <l>que los cuatro parecian</l>
+                  <l>unos lobos carniceros;</l>
+                  <l>pero la Virgen María</l>
+                  <l>los aires bajó rompiendo</l>
+
+                  <pb n="5" source="Moreno_027_5.jpg"
+                     facs="fedora_ug8110226/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
+                  <l>con su hijo de la mano,</l>
+                  <l>sacro Niño y rey inmenso</l>
+                  <l>la dice, devota mia,</l>
+                  <l>libre estas no tengas miedo,</l>
+                  <l>que yo vendré á visitarte,</l>
+                  <l>aunque yo nunca te dejo:</l>
+                  <l>un leon te ha de traer</l>
+                  <l>proporcionado alimento,</l>
+                  <l>y aqueste te ha de guardar,</l>
+                  <l>que estés velando ó durmiendo.</l>
+                  <l>La Virgen y el bello Niño</l>
+                  <l>luego desaparecieron,</l>
+                  <l>quedándose doña Inés</l>
+                  <l>confusa en su pensamiento</l>
+                  <l>por saber de que un leon</l>
+                  <l>le ha dé dar el alimento.</l>
+                  <l>Y en la segunda parte</l>
+                  <l>dará Juan Miguel del Fuego</l>
+                  <l>á todo oyente gusto</l>
+                  <l>del suceso verdadero.</l>
+               </div>
+
+               <div n="2" type="parte">
+                  <head type="titulo_parte">SEGUNDA PARTE</head>
+
+                  <l rend="indent">Vamos ahora á los cuatro</l>
+                  <l>que se quedaron riñendo</l>
+                  <l>que entre los tres dieron muerte</l>
+                  <l>al que era mayoral de ellos,</l>
+                  <l>y los otros que se hallaron</l>
+                  <l>la jaula sin el jilguero,</l>
+                  <l>la buscaron por el monte</l>
+                  <l>como caballos sin freno;</l>
+                  <l>mas viendo que no la hallan</l>
+                  <l>hicieron este concepto:</l>
+                  <l>¡muy bien habemos quedado!</l>
+                  <l>¿que buena cuenta daremos</l>
+                  <l>allá de nuestras personas</l>
+                  <l>del encargo que traemos?</l>
+                  <l>Lo que podemos hacer</l>
+                  <l>con ese difunto cuerpo,</l>
+                  <l>será sacarle los ojos,</l>
+                  <l>el corazon y en un lienzo</l>
+                  <l>se lo podemos llevar,</l>
+                  <l>y cumpliremos con esto:</l>
+                  <l>en breve lo ejecutaron,</l>
+                  <l>que fue diciendo y haciendo.</l>
+                  <l>Dan la vuelta á palacio,</l>
+                  <l>y entregan en el pañuelo</l>
+                  <l>el corazon y los ojos,</l>
+                  <l>y don Alejandro atento,</l>
+                  <l>con cuidado preguntó</l>
+                  <l>por el otro compañero</l>
+                  <l>todos juntos á un voz</l>
+                  <l>estas palabras dijeron:</l>
+                  <l>tambien se quedó en el monte</l>
+                  <l>por que quiso muy soberbio</l>
+                  <l>profanar á doña Inés,</l>
+                  <l>y lo matamos por eso,</l>
+                  <l>y en el monte se quedó</l>
+                  <l>por andar tan descompuesto.</l>
+                  <l>Volvamos á doña Inés,</l>
+                  <l>que estando tomando el fresco</l>
+                  <l>sentada junto á una fuente,</l>
+                  <l>volviendo el rostro sereno</l>
+                  <l>vió que venia el leon</l>
+                  <l>tan galan, tan alagüeño,</l>
+                  <l>tan hermoso tan bizarro,</l>
+                  <l>que daba contento el verlo,</l>
+                  <l>y que en la boca traia</l>
+                  <l>un canastillo pequeño</l>
+                  <l>hechos con dos mil primores,</l>
+                  <l>todo de viandas lleno.</l>
+                  <l>Hízola una cortesía</l>
+                  <l>y lamiendola los dedos,</l>
+                  <l>la entregó el canastillo</l>
+                  <l>á su señora y su dueño;</l>
+                  <l>y á la puerta de la cueva</l>
+                  <l>paseándose y rugiendo,</l>
+                  <l>anda haciendo centinela,</l>
+                  <l>guardándola muy atento.</l>
+                  <l>Al otro dia siguiente</l>
+                  <l>volvia á hacer lo mismo:</l>
+                  <l>pasaban todos los dias</l>
+                  <l>las cosas que aqui refiero.</l>
+                  <l>Vamos á don Federico,</l>
+                  <l>que preguntó á los monteros</l>
+
+                  <pb n="6" source="Moreno_027_6.jpg"
+                     facs="fedora_ug8107448/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>si es verdad que la mataron;</l>
+                  <l>que les guardará secreto,</l>
+                  <l>y que tambien les dará</l>
+                  <l>gran cantidad de dinero.</l>
+                  <l>Todos digeron que no,</l>
+                  <l>y contaron el suceso</l>
+                  <l>como se quedó en el monte</l>
+                  <l>sin agraviarla en un pelo.</l>
+                  <l>Don Federico responde:</l>
+                  <l>en el alma lo agradezco;</l>
+                  <l>todos juntos hemos de ir</l>
+                  <l>á buscarla muy de cierto;</l>
+                  <l>antes hoy que no mañana;</l>
+                  <l>y á mi hermano le diremos</l>
+                  <l>que á una rica monteria</l>
+                  <l>voy con otros caballeros.</l>
+                  <l>Salen del pelacio y llegan</l>
+                  <l>al segundo Pirineo</l>
+                  <l>de aquel encumbrado risco,</l>
+                  <l>peñas y montes subiendo:</l>
+                  <l>mas quiso su mala suerte</l>
+                  <l>que con la bóveda dieron</l>
+                  <l>donde doñá Inés estaba</l>
+                  <l>para perdicion de ellos;</l>
+                  <l>que el leon de que los vió,</l>
+                  <l>muy enojado y sangriento,</l>
+                  <l>á los tres despedazó</l>
+                  <l>en menos que dura un credo</l>
+                  <l>rezado en latin, y el otro</l>
+                  <l>aunque vivo, casi muerto;</l>
+                  <l>mas doña Inés lo libró</l>
+                  <l>que hiciera con él lo mismo,</l>
+                  <l>y lo conoció al momento;</l>
+                  <l>porque era don Federico</l>
+                  <l>no cupo en su sangre noble</l>
+                  <l>aquel refran verdadero,</l>
+                  <l>porque ella la mala obra</l>
+                  <l>la pagó con buen estremo</l>
+                  <l>Dá la vuelta á palacio</l>
+                  <l>con mentiras y embelecos,</l>
+                  <l>diciendo que un jabalí</l>
+                  <l>le mató los compañeros,</l>
+                  <l>y que él con cinco heridas</l>
+                  <l>se subió encima de un cerro,</l>
+                  <l>y que de allí escapó</l>
+                  <l>de aquel tirano soberbio.</l>
+                  <l>En un dia señalado,</l>
+                  <l>de la Encarnacion del Yerbo,</l>
+                  <l>se apareció á doña Inés</l>
+                  <l>la Virgen de los Remedios,</l>
+                  <l>alegrando plantas, flores,</l>
+                  <l>riscos, montes y deciertos,</l>
+                  <l>diciendola; Dios te guarde</l>
+                  <l>hija ya se llegó el tiempo</l>
+                  <l>de que dejes este sitio</l>
+                  <l>y te vayas á tu pueblo,</l>
+                  <l>y curarás á tu esposo,</l>
+                  <l>que dias há que está enfermo,</l>
+                  <l>y tambien á tu cuñado</l>
+                  <l>que las heridas vertiendo</l>
+                  <l>todavia le echan sangre,</l>
+                  <l>y perdonale sus yerros.</l>
+                  <l>El leon que te ha traido</l>
+                  <l>el cotidiano alimento</l>
+                  <l>ha sido por mi mandado,</l>
+                  <l>que asi pago cuando quiero</l>
+                  <l>preservando á mis devotos</l>
+                  <l>de este semejante riesgo.</l>
+                  <l>Con esto la dió la Virgen</l>
+                  <l>un vasito muy pequeño.</l>
+                  <l>lleno de yálsamo heróico,</l>
+                  <l>como bajado del cielo,</l>
+                  <l>quedandose doña Inés.</l>
+                  <l>metida en un pasagero</l>
+                  <l>camino, que vá á <name>Lisboa</name>,</l>
+                  <l>con su báculo y sombrero,</l>
+                  <l>y peregrinando llega</l>
+                  <l>á la ciudad en breve tiempo,</l>
+                  <l>adonde en ella curó</l>
+                  <l>muy grande copia de enfermos,</l>
+                  <l>sin que él valsamo precioso</l>
+                  <l>se menoscabára un pelo.</l>
+                  <l>Toda la ciudad se admira</l>
+                  <l>de la peregrina, viendo</l>
+                  <l>los enfermos que curaba</l>
+                  <l>tan consumidos y secos,</l>
+                  <l>y luego los veian sanos</l>
+                  <l>dentro de muy breve tiempo,</l>
+
+                  <pb n="7" source="Moreno_027_7.jpg"
+                     facs="fedora_ug8105109/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>Vá la nueva al general</l>
+                  <l>don Alejandro Sarmiento,</l>
+                  <l>que estaba ya desauciado</l>
+                  <l>de los libros de Galeno,</l>
+                  <l>y juntamente su hermano.</l>
+                  <l>Al instante previnieron</l>
+                  <l>un coche con cuatro mulas,</l>
+                  <l>salen por la ciudad ciegos</l>
+                  <l>buscando la peregrina,</l>
+                  <l>preguntando á todo el pueblo;</l>
+                  <l>vinieron á dar con ella</l>
+                  <l>en un dichoso convento</l>
+                  <l>de las mongitas descalzas</l>
+                  <l>que estaba con santo celo</l>
+                  <l>curando á las religiosas</l>
+                  <l>de tabardillos molestos.</l>
+                  <l>Entre dos comendadores</l>
+                  <l>en el coche la metieron,</l>
+                  <l>dan la vuelto á palacio,</l>
+                  <l>y visitando al enfermo,</l>
+                  <l>tomándole el pulso, dice;</l>
+                  <l>diga señor caballero,</l>
+                  <l>¿de qué depende esa dolencia?</l>
+                  <l>él dice de sentimiento,</l>
+                  <l>y de un gran dolor continuo,</l>
+                  <l>que desecharlo no puedo.</l>
+                  <l>Entoces ella responde:</l>
+                  <l>no es mucho ese sentimiento,</l>
+                  <l>ni aqueste dolor es tanto</l>
+                  <l>pues que de el no ha muerto.</l>
+                  <l>Apenas le echo en los lábios</l>
+                  <l>aquel válsamo supremo,</l>
+                  <l>se levantó dando gracias</l>
+                  <l>al divino Padre Eterno.</l>
+                  <l>Queriendo tomar la puerta,</l>
+                  <l>la atajaron los vuelos</l>
+                  <l>diciendo; señora, detenga</l>
+                  <l>que hay que curar otro enfermo.</l>
+                  <l>Entonces ella responde:</l>
+                  <l>por mi vida que no puede</l>
+                  <l>detenerme ni un instante,</l>
+                  <l>ni á curarlo me atrevo,</l>
+                  <l>si en público no confiesa</l>
+                  <l>todas sus culpas y yerros.</l>
+                  <l>Dijo el enfermo qne sí,</l>
+                  <l>qué estaba ya casi muerto,</l>
+                  <l>y le huelen las heridas</l>
+                  <l>como trescientos mil perros,</l>
+                  <l>Mandó juntarse la gente</l>
+                  <l>de sus parientes y deudos,</l>
+                  <l>hastas los mismos criados</l>
+                  <l>que en palacio están sirviendo;</l>
+                  <l>á todos pido perdon,</l>
+                  <l>pero á mi hermano primero.</l>
+                  <l>El hermano le perdona</l>
+                  <l>en aquel mismo momento.</l>
+                  <l>Hermano y Señor: tu esposa</l>
+                  <l>era una joya sin precio,</l>
+                  <l>era una arca de esmeraldas,</l>
+                  <l>ejemplo de los ejemplos,</l>
+                  <l>dechado de las mugeres,</l>
+                  <l>y espejo de los espejos.</l>
+                  <l>Y yo tan vil criatura</l>
+                  <l>quise ofender tu respeto,</l>
+                  <l>y por querer ofenderla</l>
+                  <l>me tuvo seis meses preso;</l>
+                  <l>y yo por vengarme de ella</l>
+                  <l>le levantè el falso enredo.</l>
+                  <l>D. Alejandro que escucha,</l>
+                  <l>echó mano al fuerte acero,</l>
+                  <l>diciéndole; vil hermano,</l>
+                  <l>atrevido y desatento,</l>
+                  <l>por haberte perdonado</l>
+                  <l>en tu sangre no me vengo,</l>
+                  <l>Entonces la peregrina</l>
+                  <l>le fué untando con los dedos</l>
+                  <l>las heridas, y al instante</l>
+                  <l>se levantó tan bueno.</l>
+                  <l>Grande copia de doblones,</l>
+                  <l>que pasaban de trescientos,</l>
+                  <l>la dan á la peregrina,</l>
+                  <l>y ella haciendo menosprecio,</l>
+                  <l>dice: guarde las monedas,</l>
+                  <l>quiten allá ese dinero,</l>
+                  <l>que quizas les hará falta</l>
+                  <l>para sustentar los negros;</l>
+                  <l>mas con cuidado miraba</l>
+                  <l>don Alejandro atento</l>
+
+                  <pb n="8" source="Moreno_027_8.jpg"
+                     facs="fedora_ug8109588/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>el rostro á la peregrina,</l>
+                  <l>y el traslado de su pecho</l>
+                  <l>viendo que todo era uno,</l>
+                  <l>se abrazó en vivos incendios;</l>
+                  <l>la dice señora, mia,</l>
+                  <l>¿de que patria ó de que reino</l>
+                  <l>es V... aunque perdone?</l>
+                  <l>Ella con suaves ecos</l>
+                  <l>le responde: señor mio,</l>
+                  <l>yo soy de todos los reinos,</l>
+                  <l>vecina de todo el mundo,</l>
+                  <l>y á mi me llaman por eso,</l>
+                  <l>la peregrina doctora,</l>
+                  <l>sin interés de dinero,</l>
+                  <l>la que curó á su marido,</l>
+                  <l>y á su enemigo protervo.</l>
+                  <l>Entonces don Alejandro</l>
+                  <l>la dió un abrazo muy tierno,</l>
+                  <l>reconoció que es su esposa</l>
+                  <l>aquel hermoso portento.</l>
+                  <l>Toda la ciudad se admira,</l>
+                  <l>la gran maravilla viendo,</l>
+                  <l>de puro contento lloran,</l>
+                  <l>y parece un jubiléo</l>
+                  <l>de damas y de galanes</l>
+                  <l>y parientes que acudieron,</l>
+                  <l>que en el palacio no caben,</l>
+                  <l>sabiendo aqueste suceso.</l>
+                  <l>En la ciudad de <name>Lisboa</name>.</l>
+                  <l>hacen fiestas y torneos,</l>
+                  <l>toros, juegos de escañas,</l>
+                  <l>comedias y pasatiempos.</l>
+                  <l>A don Federico casan</l>
+                  <l>con otro retrato mesmo,</l>
+                  <l>hermana de doña Inés,</l>
+                  <l>doña Elvira de San Diego,</l>
+                  <l>quedando don Alejandro</l>
+                  <l>próspero, alegre y contento</l>
+                  <l>con su esposa doña Inés,</l>
+                  <l>rosa, clavellina, espejo,</l>
+                  <l>peregrina montañesa,</l>
+                  <l>la que estuvo en el desierto</l>
+                  <l>la que libró á su enemigo</l>
+                  <l>de manos del leon fiero.</l>
+                  <l>Con esto acaba la historia</l>
+                  <l>de aqueste breve compendio,</l>
+                  <l>de la muger mas heróica</l>
+                  <l>que se ha visto en tales riesgos,</l>
+                  <l>Y la Virgen nuestra madre</l>
+                  <l>la libró de los perversos</l>
+                  <l>cubriéndola con su manto,</l>
+                  <l>poniendo al demonio el freno,</l>
+                  <l>que siendo devota suya</l>
+                  <l>la libró del desconsuelo.</l>
+               </div>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858. <lb/>Imprenta de D. Josè M. Moreno, calle Juan de la Cabra
+                  núm. 4. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_215">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación jocosa del Ganzo del Cortijo</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion jocosa del Ganzo del Cortijo.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (s.a.): <ref target="Moreno_216.xml">Moreno_216</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475612</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 225</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_215_1.xml"
+                              facs="fedora_ug8107174/390,286,588,869/100,/0/default.jpg"
+                              >grabado_m_215_1</item>
+                           <item corresp="grabado_m_215_2.xml"
+                              facs="fedora_ug8107174/972,327,402,828/100,/0/default.jpg"
+                              >grabado_m_215_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q5836">
+                  <placeName key="Toledo">Toledo</placeName>
+                  <location>
+                     <geo>39.866666666667 -4.0333333333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-12" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106626/manifest">
+      <graphic url="fedora_ug8107174/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_215_1.jpg" facs="fedora_ug8107174/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 225.)</fw>
+
+               <head rend="negrita" type="primer_titulo">RELACION JOCOSA <lb/>DEL <lb/><hi
+                     rend="negrita">GANZO DEL CORTIJO.</hi></head>
+
+               <l rend="indent">Ya sabes Jesupe Osorio,</l>
+               <l>ca principios de Frebero</l>
+               <l>salí un dia é mi lugar,</l>
+               <l>pa la cudiá é <name>Toleo</name>;</l>
+               <l>pacer unas diligencias</l>
+               <l>que me mandaba mi suegro:</l>
+               <l>cogí la gurracha rucia,</l>
+               <l>y tomó tal guilopeo</l>
+               <l>la guena é la gurracha</l>
+               <l>ca llegamos á <name>Toleo</name></l>
+               <l>poco impuez de trez años;</l>
+               <l>me jui á la posá luego</l>
+               <l>y acomoando la gurra</l>
+               <l>hechemos; los dos un pienso,</l>
+               <l>despues desto me sali</l>
+               <l>por las calles, los paseos,</l>
+               <l>y las prazas porque iva</l>
+               <l>en busca dun caballero</l>
+               <l>llamao Pepe Jusepe</l>
+               <l>sobrino del pregonero,</l>
+               <l>y atopando con la Igresia</l>
+               <l>de nuestro paire S. Diego</l>
+               <l>sin peir licencia á naide</l>
+               <l>mentré dun rondon aentro;</l>
+               <l>y estaba la guena Igresia</l>
+               <l>tan llena é candelurios</l>
+               <l>é luces y é relicas</l>
+               <l>que paecia un fuego;</l>
+               <l>un demonche un Fraire habia</l>
+               <l>que pa tocar el Muérgano</l>
+
+               <pb n="2" source="Moreno_215_2.jpg" facs="fedora_ug8107230/full/full/0/default.jpg"/>
+
+               <l>digo se pintaba solo</l>
+               <l>pues por via é mi pecho</l>
+               <l>caunque suvieran juntao</l>
+               <l>tos los gurros del puebro</l>
+               <l>y asi jueran regusnao</l>
+               <l>aunque juera á un mesmo tiempo</l>
+               <l>no llegaran al zancajo</l>
+               <l>del gueno del estrumento:</l>
+               <l>tamien en el corro habia</l>
+               <l>munchos Fraires munchos Creiros</l>
+               <l>cantando con semetria</l>
+               <l>las vegilias de los muertos:</l>
+               <l>al pulpitorio suvia</l>
+               <l>el Paire preicaero</l>
+               <l>y encanándose con migo</l>
+               <l>¡virgen y quien viera aquello!</l>
+               <l>¡que chellios que me hechaba!</l>
+               <l>busurero, busurero,</l>
+               <l>mira que contigo habro</l>
+               <l>que lo que te cuesta medio</l>
+               <l>lo das por uno y taces</l>
+               <l>rico á costa de los guenos;</l>
+               <l>mira que contigo habro;</l>
+               <l>ansina que escuché aquello</l>
+               <l>sin llegar á la <name>Pileta</name></l>
+               <l>ni hacer el acataero</l>
+               <l>me salí á la calle quiva</l>
+               <l>comun gamo é ligero;</l>
+               <l>y golviendo la caeza</l>
+               <l>por si venia el porquero</l>
+               <l>(porcamigo dejemonos de cuentos</l>
+               <l>quellos con las celeprinas</l>
+               <l>ponen á ue hombre el trasero</l>
+               <l>que mas de cuarenta dias</l>
+               <l>no para dechalle juego.)</l>
+               <l>A la calle mayor jui</l>
+               <l>y vide en un balconejo</l>
+               <l>vaya ¿si podré dicillo?</l>
+               <l>si me atranca el gajuerro</l>
+               <l>al tiempo de pronunciallo,</l>
+               <l>vi un monstruo tan estupendio</l>
+               <l>cal vello tan verriendo</l>
+               <l>me cascó un gomito negro:</l>
+               <l>yo que bive una muchacha</l>
+               <l>de rechupete y salero</l>
+               <l>me se pusieron los ojos</l>
+               <l>lo mesmo ca los mochuelos,</l>
+               <l>me puse paticuadrao</l>
+               <l>en frente del balconejo</l>
+               <l>y como que tal no hacia</l>
+               <l>volvia medio piscuezo</l>
+               <l>y lechaba unos ojillos</l>
+               <l>con muncho isimulego</l>
+               <l>que si me vieras Jusepe</l>
+               <l>tan gallardo y tan bien puesto</l>
+               <l>que de los polios mozos</l>
+               <l>me llevava yo el palmeo;</l>
+               <l>tenia la frente ispaciosa,</l>
+               <l>que le llegaba al pizcuezo,</l>
+               <l>la nariz gorda y hermosa</l>
+               <l>y la boca era lo mesmo:</l>
+               <l>la centura ansi tamaña,</l>
+               <l>pero Jusepe, el trasero</l>
+               <l>era la cosa mas guapa</l>
+               <l>can visto los elementos;</l>
+               <l>un vestio de pecar</l>
+               <l>llevava con un pañuelo</l>
+               <l>de rejalgar abordao</l>
+               <l>por ajuera y por aentro</l>
+               <l>en las patas unas medias</l>
+               <l>lleneticas de abujeros;</l>
+               <l>y en la cabeza llevava::</l>
+               <l>yo no se lo que era aquello,</l>
+               <l>unos vidros paecian</l>
+               <l>repartios por el pelo;</l>
+               <l>mamantes eran ya caigo,</l>
+               <l>que valen mucho inero,</l>
+               <l>del gañote le colgava</l>
+               <l>una cruz de palmo y medio</l>
+               <l>con un collar de topazos</l>
+               <l>cauno como un guevo;</l>
+               <l>yo le íje bella umbrora</l>
+               <l>encanto de mi enteleto</l>
+               <l>quien mereciera vesar</l>
+               <l>ese tu ruto trasero</l>
+               <l>no esprecieis tontonaza</l>
+
+               <pb n="3" source="Moreno_215_3.jpg" facs="fedora_ug8109397/full/full/0/default.jpg"/>
+
+               <l>lo crecio de mi afleuto</l>
+               <l>mira que soy Juan Gutierrez</l>
+               <l>en mi lugar y en <name>Toleo</name></l>
+               <l>y aunque vestio é lana</l>
+               <l>cuenta que no soy boguerro;</l>
+               <l>yo tengo mucha nobreza</l>
+               <l>porque el paire de mi aguelo</l>
+               <l>tenia un escuo darmas</l>
+               <l>tan grande comun pandero</l>
+               <l>con liones y sirpientes</l>
+               <l>y adebajo un jilisteo;</l>
+               <l>entronces la señorica</l>
+               <l>me ijo seo caballero</l>
+               <l>si lo seis nosprecieis</l>
+               <l>ni seais tan lisongero</l>
+               <l>ni menos de mi hagais bulra</l>
+               <l>que yo con vos no me meto</l>
+               <l>pero yo con pisaumbre</l>
+               <l>le ije viven los cielos</l>
+               <l>que lo ca ícho la boca</l>
+               <l>agora es el corazon mesmo,</l>
+               <l>y si quereis que lo afirme</l>
+               <l>estoy pronto paracello</l>
+               <l>porque voy á pregonallo</l>
+               <l>á costa del mundo entero,</l>
+               <l>estronces aquella chiquia</l>
+               <l>con las orejas un guiño</l>
+               <l>me hizo, y tomé la escalera</l>
+               <l>comun gamo é ligero;</l>
+               <l>en la antipisala u estrago</l>
+               <l>entré y me quee patitieso</l>
+               <l>porque en mi via habia visto</l>
+               <l>unos trastes como aquellos;</l>
+               <l>habia en una paer</l>
+               <l>colgaos dos espejos</l>
+               <l>dembestir, y en otro un cuadro</l>
+               <l>que era de san mal engendro</l>
+               <l>otro san Jilgorio, y otro</l>
+               <l>san Juan Necomuniceno,</l>
+               <l>una ernia de cristal</l>
+               <l>y diez tauletes de cerdo</l>
+               <l>cortinas de dameasco</l>
+               <l>ca llegaban dica el techo;</l>
+               <l>en el tus tus de la sala</l>
+               <l>(aquello si quiera gueno)</l>
+               <l>tenian un camapie</l>
+               <l>tavia mestoy riyendo</l>
+               <l>de maera de caog</l>
+               <l>aforrao ee tieso empello</l>
+               <l>ataconeado doro</l>
+               <l>y el revete era lo mesmo;</l>
+               <l>sistetico me quee</l>
+               <l>al ver aquel ornimento;</l>
+               <l>pero yo con pulisia</l>
+               <l>y ejando cumprimientos</l>
+               <l>me tendí bien á la larga</l>
+               <l>encima el camapeo;</l>
+               <l>cuando catate Jusepe</l>
+               <l>que viene dos mozalejos</l>
+               <l>desos quentre los osias</l>
+               <l>llaman pajes o pajeros</l>
+               <l>con banipejas y piazos</l>
+               <l>que paesian de yeso</l>
+               <l>yo muy serio gui y tomé</l>
+               <l>creo que diez piazos da quellos</l>
+               <l>y los zampullé entrounbaso</l>
+               <l>que me dieron dagua lleno;</l>
+               <l>no bien los ube metió</l>
+               <l>cuando ya se esicieron</l>
+               <l>queandome chasqueao</l>
+               <l>porque me puse toesto</l>
+               <l>lo mesmo que si me jeuera</l>
+               <l>afeitao un Brabero;</l>
+               <l>empues salio otro page</l>
+               <l>(aquel si que venia serio)</l>
+               <l>con una jacara y prato</l>
+               <l>caora mesmo no macuerdo</l>
+               <l>lo quera, era:: uno cosa:::</l>
+               <l>que llabran los molineros:::</l>
+               <l>chícoflaute, chicoflaute</l>
+               <l>Angela Maria acabemos</l>
+               <l>y agarré la jacara</l>
+               <l>y me la empiné dunguelo</l>
+               <l>tuisca; peo comestaba</l>
+               <l>aquel dimonio gibiendo</l>
+               <l>me quemé el gañote y tripas</l>
+
+               <pb n="4" source="Moreno_215_4.jpg" facs="fedora_ug8110148/full/full/0/default.jpg"/>
+
+               <l>y el estantino lo mesmo;</l>
+               <l>yo que me sentí quemao</l>
+               <l>prencipié por la posento</l>
+               <l>venga un cantoro dagua</l>
+               <l>porque yo mestoy muriedo</l>
+               <l>y me pillaron dos pages</l>
+               <l>ambos á dos geringueros</l>
+               <l>y prencipian á escargar</l>
+               <l>en este probe trasero</l>
+               <l>tantagua que por la boca</l>
+               <l>toito el cardo iba saliendo</l>
+               <l>yo les dije:en el instante</l>
+               <l>queispare en el mimento</l>
+               <l>os bautizo, temerosos</l>
+               <l>pararon el tiroteo, </l>
+               <l>y subiéndame las bragas</l>
+               <l>encontreme mi trasero</l>
+               <l>mas fresco cunas lechugas</l>
+               <l>y di los agraecimientos;</l>
+               <l>empues vino otro page</l>
+               <l>con una cosa ó estrumento</l>
+               <l>que paecian onde llevan</l>
+               <l>agua tivia los Braberos</l>
+               <l>y me ize, veva osté</l>
+               <l>questo es cafre y es muy gueno</l>
+               <l>yo respondí, esto no cafre</l>
+               <l>que por via é mi pecho</l>
+               <l>questo os con lo que se pintan</l>
+               <l>las puertas de las conventos,</l>
+               <l>pero si quiere que veva</l>
+               <l>vaya y traigame un puchero</l>
+               <l>y no bien lo jube icho</l>
+               <l>cuando ya me lo trujeron</l>
+               <l>y asta que le vi la postre</l>
+               <l>no paré destar veviendo</l>
+               <l>y me puse aquesta panza</l>
+               <l>mas inchá cun pandero</l>
+               <l>daquel caldo de castañas;</l>
+               <l>y poniendome en pierecho</l>
+               <l>encarandome á maama</l>
+               <l>le di las gracias muy serio</l>
+               <l>diciendole, señorica</l>
+               <l>de mis mayores respeuto</l>
+               <l>ispones desta presona</l>
+               <l>por ca cualquier sarrilegio</l>
+               <l>mallareis aparejao</l>
+               <l>en siendo servicio guestro</l>
+               <l>yo vivo allá en mi lugar</l>
+               <l>y pa su erce sola tengo</l>
+               <l>igos de pala, billotas</l>
+               <l>y tamien un Pollinejo</l>
+               <l>ermano é mi gurrucha</l>
+               <l>peo sobre to un cerdo</l>
+               <l>ansina de su tamaño</l>
+               <l>si lo quiere está á su impuesto</l>
+               <l>ella no me ijo naa</l>
+               <l>aunque mescuchó to esto</l>
+               <l>y mencó la cabeza</l>
+               <l>á usanza de caballero</l>
+               <l>y yo arrastrando las patas</l>
+               <l>me sali del aposento</l>
+               <l>dando mil gracias á Dios</l>
+               <l>de semejante suceso</l>
+               <l>y ostes perdonarán</l>
+               <l>por lo largo de mi cuento.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA.—1858. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 4.
+               </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_067">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sátira nueva, graciosa y entretenida en que se declara el casamiento que hizo
+               Francisquito</title>
+            <respStmt>
+               <name>Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Satira nueva, graciosa y entretenida en que se
+                     declara el casamiento que hizo Francisquito con una doncellita de las de quince
+                     à veinte, con los demas que verá el curioso lector.</title>
+                  <title type="titulo_breve">Satira nueva, graciosa y entretenida en que se declara
+                     el casamiento que hizo Francisquito</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1860-01-01">1860</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6460703</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">[s.n.]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_067_1.xml"
+                              facs="fedora_ug8106059/393,180,469,879/100,/0/default.jpg"
+                              >grabado_m_067_1</item>
+                           <item corresp="grabado_m_067_2.xml"
+                              facs="fedora_ug8106059/854,192,517,861/100,/0/default.jpg"
+                              >grabado_m_067_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q4040">
+                  <placeName key="Aragón">Aragón</placeName>
+                  <location>
+                     <geo>41 -1</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q12225">
+                  <placeName key="Murcia">Murcia</placeName>
+                  <location>
+                     <geo>37.986111111111 -1.1302777777778</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
+               <term target="XX551260.html" type="tipo_estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103352/manifest">
+      <graphic url="fedora_ug8106059/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_067_1.jpg" facs="fedora_ug8106059/full/full/0/default.jpg"/>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">SATIRA NUEVA</hi>
+                  <lb/><hi rend="negrita">GRACIOSA Y ENTRETENIDA</hi>
+                  <lb/>en que se declara el casamiento que hizo <lb/>Francisquito con una doncellita
+                  de las de <lb/>quince à veinte, con lo demas que verá <lb/>el curioso lector. </head>
+
+               <l rend="indent">Atencion, señores mios,</l>
+               <l>atencion y aqui verán</l>
+               <l>la vida de las doncellas</l>
+               <l>y el mal estando en que están.</l>
+               <l>Cuando una mocita</l>
+               <l>tiene quince años</l>
+               <l>no pueden con ella</l>
+               <l>ni padre ni hermanos.</l>
+               <l>Si el padre la riñe</l>
+               <l>ella le contesta</l>
+               <l>yo me iré á servir,</l>
+               <l>esta es su respuesta.</l>
+               <l rend="indent">Ella coje su ropita</l>
+               <l>y se vá como enfadada,</l>
+               <l>á casa de don Pepito</l>
+               <l>preguntando por posada.</l>
+               <l>Y luego á la dueña</l>
+               <l>la principia á hablar, </l>
+               <l>diciendo que sabe</l>
+               <l>coser y bordar.</l>
+
+               <pb n="2" source="Moreno_067_2.jpg" facs="fedora_ug8110190/full/full/0/default.jpg"/>
+
+               <l>Y si usted me quiere</l>
+               <l>me podré quedar, </l>
+               <l>diez reales al mes</l>
+               <l>yo pienso ganar,</l>
+               <l rend="indent">Por fin, se quedó á servir</l>
+               <l>en casa de don Pepito</l>
+               <l>y á los tres dias que estaba</l>
+               <l>ya le chocó al señorito.</l>
+               <l>Y un dia en el cuarto</l>
+               <l>con gran disimulo,</l>
+               <l>este á su criada</l>
+               <l>le regaló un duro:</l>
+               <l>La dijo, bien mio,</l>
+               <l>ven aqui salero,</l>
+               <l>cuando te haga falta</l>
+               <l>pideme dinero,</l>
+               <l rend="indent">Oidas estas razones</l>
+               <l>á los tres dias siguientes</l>
+               <l>ya le pidió esta doncella</l>
+               <l>para un vestido y pendientes.</l>
+               <l>Tres onzas la dió</l>
+               <l>este don Pepito,</l>
+               <l>y ella se compró</l>
+               <l>un manton bonito.</l>
+               <l>Vestido de seda,</l>
+               <l>su gran mantiflon,</l>
+               <l>ricas guarnicioues,</l>
+               <l>bata y guarda-sol.</l>
+               <l rend="indent">En fin, que salió al paseo</l>
+               <l>siendo una triste criada</l>
+               <l>aun mas maja que la dueña</l>
+               <l>con diez reales que ganaba.</l>
+               <l>Lo que esta llevaba</l>
+               <l>valia un tesoro,</l>
+               <l>su peina de moda,</l>
+               <l>sus anillos de oro,</l>
+               <l>Gastaba relol,</l>
+               <l>su gran abanico,</l>
+               <l>porque lo ganaba </l>
+               <l>todo don Pepito.</l>
+               <l rend="indent">Un sábado por la tarde</l>
+               <l>habló un mozo á esta doncella, </l>
+               <l>diciendo que si quería</l>
+               <l>se casaria con ella.</l>
+               <l>Yo lo pensaré</l>
+               <l>le dijo al mocito</l>
+               <l>vuelva usted mañana</l>
+               <l>por aqui un ratito.</l>
+               <l>Porque yo estas cosas</l>
+               <l>diré á mi señor,</l>
+               <l>y asi podré á usted</l>
+               <l>darle el si ó el no.</l>
+               <l rend="indent">Al otro dia este joven</l>
+               <l>fué á su casa muy contento,</l>
+               <l>lo cual ella le dió el sí</l>
+               <l>en aquel mísmo momento.</l>
+               <l>Luego este mocito</l>
+               <l>le habló cara á cara, </l>
+               <l>yo creo seras</l>
+               <l>muger muy honrada.</l>
+               <l>Oye Francisquito</l>
+               <l>bien claro te digo</l>
+               <l>de mi en este mundo</l>
+               <l>nadie se ha reido.</l>
+               <l rend="indent">Si que chando yo servia,</l>
+               <l>ahora telo contaré,</l>
+               <l>con el señorito un dia</l>
+               <l>uná vezme resbalé.</l>
+               <l>Le contestó el mozo, </l>
+               <l>pues qué habia barro?</l>
+               <l>qué llovió en el cuarto?</l>
+               <l>vamos, vamos, vamos.</l>
+               <l>En mi vida he visto</l>
+               <l>nunca en <name>Aragon</name></l>
+               <l>de un modo como este</l>
+               <l>dar un resbalon.</l>
+               <l rend="indent">El mozo un poco suspenso</l>
+               <l>se despidió de la dama</l>
+               <l>y ella quedó con su madre</l>
+               <l>contando lo que pasaba.</l>
+               <l>Madre, sabe usted.</l>
+               <l>que se ha ido enfadado</l>
+               <l>y es del resbalon.</l>
+               <l>que yo le he contados</l>
+
+               <pb n="3" source="Moreno_067_3.jpg" facs="fedora_ug8103702/full/full/0/default.jpg"/>
+
+               <l>Ah picarona, infame,</l>
+               <l>grandísima arrastrada,</l>
+               <l>haberlo callado,</l>
+               <l>no haberle dicho nada.</l>
+               <l rend="indent">Cuando me resbalé yo</l>
+               <l>la dijo entonces su madre</l>
+               <l>aun mas de seiscientas veces</l>
+               <l>sin saber nada tu padre.</l>
+               <l>Y esta cuando á su hija</l>
+               <l>le daba las quejas,</l>
+               <l>se retorcia el morro</l>
+               <l>y arrugaba las cejas.</l>
+               <l>San José me valga</l>
+               <l>qué ratos tan malos</l>
+               <l>y entonces á su hija</l>
+               <l>me la mamprendió á palos.</l>
+               <l rend="indent">Al otro dia siguiente</l>
+               <l>llegó el novio muy temprano</l>
+               <l>á casa de esta y le dijo</l>
+               <l>ven aquí, dame la mano.</l>
+               <l>Azucena blanca,</l>
+               <l>colores de rosa</l>
+               <l>te quiero porque eres</l>
+               <l>muger virtuosa.</l>
+               <l>Como eres tan linda,</l>
+               <l>me has enamorado,</l>
+               <l>y yo quiero pronto</l>
+               <l>ser tu esposo amado.</l>
+               <l rend="indent">Despues de tantos obsequios</l>
+               <l>dice la madre enfadada,</l>
+               <l>si te casas con mi hija</l>
+               <l>no te llevas mala ganga.</l>
+               <l>Maldita la vieja</l>
+               <l>vaya pronto á hilar,</l>
+               <l>sino de un trancazo</l>
+               <l>la hecho al hospital.</l>
+               <l>Tunante, bribon,</l>
+               <l>dijo la abuelita,</l>
+               <l>vete á los infiernos</l>
+               <l>y deja à mi chica.</l>
+               <l rend="indent">Por fin, ya se hizo la boda</l>
+               <l>con tranquilidad y union</l>
+               <l>y él á la primera noche</l>
+               <l>fué en busca del comadron.</l>
+               <l>La mira y le dice;</l>
+               <l>cálla Francisquillo</l>
+               <l>no hay que pasar pena </l>
+               <l>que ya hay un chiquillo,</l>
+               <l>Dios mio, Señor</l>
+               <l>qué me pasa á mi,</l>
+               <l>será algun milagro</l>
+               <l>que obró san Fermin.</l>
+               <l rend="indent">Ya libró un niño precioso</l>
+               <l>en el rigor del invierno</l>
+               <l>y se parecia al padre</l>
+               <l>como el canario y el cuerbo.</l>
+               <l>La abuela contenta</l>
+               <l>fué á fajar al nieto,</l>
+               <l>y le dijó al yerno,</l>
+               <l>ahora estás contento.</l>
+               <l>Ah grandes sopazas</l>
+               <l>pedazo de asno,</l>
+               <l>ya te advertí yo</l>
+               <l>que serias venado.</l>
+               <l rend="indent">Oidme nobles casadas</l>
+               <l>aun no cuento lo mejor,</l>
+               <l>el gasto que hizo en el parto</l>
+               <l>este fué el mayor dolor.</l>
+               <l>Para el primer caldo</l>
+               <l>ya me hizo de menos</l>
+               <l>cuatrocientos pavos</l>
+               <l>y diez nil carneros.</l>
+               <l>Pues de chocolate</l>
+               <l>una friolera,</l>
+               <l>se tomó en dos dias</l>
+               <l>mas de arroba y media.</l>
+               <l rend="indent">Vendió él hasta la camisa,</l>
+               <l>los calzones y una capa, </l>
+               <l>una bota y un porron</l>
+               <l>y en seis cuartos una gata.</l>
+               <l>Válgame san Juan</l>
+               <l>qué parto tan fuerte,</l>
+               <l>de lo que le pasa</l>
+               <l>se reirá la gente.</l>
+
+               <pb n="4" source="Moreno_067_4.jpg" facs="fedora_ug8104841/full/full/0/default.jpg"/>
+
+               <l>Todas las desgracias</l>
+               <l>le han acontecido,</l>
+               <l>y ahora en el invierno</l>
+               <l>se hiela de frio.</l>
+               <l rend="indent">Luego fué á aprender á herrero</l>
+               <l>y llevó tan buena ropa,</l>
+               <l>era un pantalon de yesca</l>
+               <l>y una levita de estopa.</l>
+               <l>Se puso en la fragua</l>
+               <l>á hacer un velon,</l>
+               <l>le saltó un chispazo</l>
+               <l>lo cual lo encendió.</l>
+               <l rend="indent">Veinte y dos heridas</l>
+               <l>allí se le hicieron,</l>
+               <l>y en aquel instante</l>
+               <l>la uncion ya le dieron.</l>
+               <l>Veinte y tres meses estuvo</l>
+               <l>siempre en la cama de un lado</l>
+               <l>y venia á visitarle</l>
+               <l>un famoso cirujano.</l>
+               <l>Y todos los dias</l>
+               <l>le dá la señora</l>
+               <l>cinco lavativas </l>
+               <l>cada cuarto de hora.</l>
+               <l>Y el médico un dia</l>
+               <l>con muy grande esmero</l>
+               <l>á su amo le dijo</l>
+               <l>que le corte el pelo.</l>
+               <l rend="indent">El médico le sacó</l>
+               <l>todo lo que habia ganado,</l>
+               <l>que fueron cinco dineros</l>
+               <l>y aun creo que no habia llegado.</l>
+               <l>Asi es que señores</l>
+               <l>se halla asustado</l>
+               <l>lleno de mil trampas</l>
+               <l>desde que es casado.</l>
+               <l>Atencion, mocitos,</l>
+               <l>mirad lo que haceis, </l>
+               <l>festejar las mozas</l>
+               <l>y nunca os cáseis </l>
+
+               <trailer rend="negrita">FIN</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>Reimpreso en Murcia Imp. de Pedro Belda. <lb/>CARMONA:—1860. <lb/>Imprenta de
+                  D. José M. Moreno, calle de Madre de Dios. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

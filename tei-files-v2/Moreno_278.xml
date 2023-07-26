@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_278">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Décimas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Décimas.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1860-01-01">1860</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477296</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 290</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Varios décimas</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>Décimas.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Décimas glosadas compuestas por Juan Bautista Gomez, conocidas por la de
+                        los Negritos.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Redondillas glosadas con decimas.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_278_1.xml"
+                              facs="fedora_ug8105746/438,206,472,756/100,/0/default.jpg"
+                              >grabado_m_278_1</item>
+                           <item corresp="grabado_m_278_2.xml"
+                              facs="fedora_ug8105746/1023,272,433,678/100,/0/default.jpg"
+                              >grabado_m_278_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX546895.html" type="tipo_texto">Décimas</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-08" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103238/manifest">
+      <graphic url="fedora_ug8105746/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_278_1.jpeg" facs="fedora_ug8105746/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 290.</fw>
+
+               <head rend="negrita" type="primer_titulo">DECIMAS.</head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Una niña se entregó</l>
+                  <l>á su amante con placer,</l>
+                  <l>y la bribona decia</l>
+                  <l>que el diablo se lo hizo hacer.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Solicitaba, á su dama</l>
+                  <l>este amante con valor,</l>
+                  <l>y mas, le pidió un favor</l>
+                  <l>que no ignoran las casadas,</l>
+                  <l>y lo que le contestaba,</l>
+                  <l>no lo puedo decir yo;</l>
+                  <l>lo cierto es que concedió</l>
+                  <l>dentro de pocos momentos,</l>
+                  <l>y al cabo de poco tiempo</l>
+                  <l rend="cursiva">una niña se entregó.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No se lo que le ocurrió</l>
+                  <l>que decia suspirando</l>
+                  <l>en sus fatigas llorando:</l>
+                  <l>adios verdadero honor</l>
+                  <l>ya no, soy quien era yo,</l>
+                  <l>bien claro seidá, á entender</l>
+                  <l>lo que esto podria ser</l>
+                  <l>cuando se le pasó el susto</l>
+                  <l>procuraba darle gusto</l>
+                  <l rend="cursiva">á su amante con placer.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Esta niña se embarcó</l>
+                  <l>en tiempo que la marea</l>
+                  <l>subia con mucha idea,</l>
+                  <l>y asi ella se mareó;</l>
+                  <l>cuando el barco se lleno,</l>
+                  <l>que ocurtarlo no podia,</l>
+                  <l>sin saber lo quese hacia,</l>
+                  <l>ella tanto lo negaba</l>
+                  <l>que desembarcando estaba</l>
+                  <l rend="cursiva">y la bribona decia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando se le fue el mareo,</l>
+                  <l>y salia por las calles.</l>
+                  <l>adornandose su talle</l>
+                  <l>llena de gracia y meneo </l>
+                  <l>decia, por lo que veo,</l>
+                  <l>que era una buena, muger;</l>
+                  <l>pero mal se dá á entender,</l>
+                  <l>porque al que le preguntaba</l>
+                  <l>la contestacion que daba</l>
+                  <l rend="cursiva">que el diablo se lo hizo hacer</l>
+               </lg>
+
+               <pb n="2" source="Moreno_278_2.jpeg" facs="fedora_ug8109782/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">En esta carta mi bien</l>
+                  <l>te voy á manifestar,</l>
+                  <l>el pobre de tu querido</l>
+                  <l>en lo que vino á parar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si vieras, dueño querido</l>
+                  <l>á tu amante suspirar,</l>
+                  <l>te pusieras á llorar</l>
+                  <l>con un llanto enternecido;</l>
+                  <l>por amor de Dios te pido</l>
+                  <l>y por la Virgen tambien,</l>
+                  <l>que las nuevas que te den</l>
+                  <l>las recibas con paciencia,</l>
+                  <l>sabrás de mi larga ausencia</l>
+                  <l rend="cursiva">en esta carta mi bien.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tambien sabras, dueño mio</l>
+                  <l>que paso muchos trabajos,</l>
+                  <l>esos son los agasajos</l>
+                  <l>que yo de ti he recibido;</l>
+                  <l>aqui me veo metido</l>
+                  <l>sin poderlo remediar;</l>
+                  <l>¡En que ha venido á parar</l>
+                  <l>el dueño de tu recreo!</l>
+                  <l>el estado en que me veo</l>
+                  <l rend="cursiva">te voy á manifestar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ya se acabó para mí</l>
+                  <l>gustos y divertimientos,</l>
+                  <l>ahora puros tormentos</l>
+                  <l>y mas ausente de tí</l>
+                  <l>tanto como yo perdí</l>
+                  <l>en tu ausencia dueño mio,</l>
+                  <l>y ahora inféliz mé miro</l>
+                  <l>sufriendo en tierras agenas</l>
+                  <l>padeciendo dos mil penas</l>
+                  <l rend="cursiva">el pobre de tu querido:</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mas desgraciado que yo</l>
+                  <l>no habrá nacido de madre</l>
+                  <l>ni menos engendró padre</l>
+                  <l>hijo que tál mal se vió;</l>
+                  <l>ya para mi se acabó</l>
+                  <l>divertir y pasear</l>
+                  <l>y ahorá es un puro penar</l>
+                  <l>y mas ausente de ti,</l>
+                  <l>¡Oh desdichado de mi</l>
+                  <l rend="cursiva">en lo que vine á parar.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Tres fueron los pretendientes,</l>
+                  <l>uno solo fué el que entró,</l>
+                  <l>los dosse quedaron fuera</l>
+                  <l>esperando al gran señor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vayan prestando atencion</l>
+                  <l>todos los enámorados,</l>
+                  <l>y quedaran enterados</l>
+                  <l>de toda esta relacion;</l>
+                  <l>para lograr la ocasion</l>
+                  <l>todos los inteligentes,</l>
+                  <l>yo nada digo entre dientes</l>
+                  <l>bien lo pueden discurir,</l>
+                  <l>y les vuelvo á repetir.</l>
+                  <l rend="cursiva">tres fueron tos pretendientes.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Todos los fres bien se unieron</l>
+                  <l>marchando por un camino,</l>
+                  <l>¡oh que grande desatino</l>
+                  <l>y en que confusíon se vieron!</l>
+                  <l>pero así lo dispusieron</l>
+                  <l>con energía y ardor</l>
+                  <l>el mayor se incomodó</l>
+                  <l>de los otros se hizo alarde</l>
+                  <l>porque ya llegaron tarde</l>
+                  <l rend="cursiva">uno solo fué el que entró.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Causaban gran compasion</l>
+                  <l>los dos amigos leales, </l>
+                  <l>y asi quedaron iguales</l>
+                  <l>en esta tribulacion;</l>
+                  <l>y en la perfida ócasion</l>
+                  <l>no hubo quien se adoleciera</l>
+                  <l>verlo de aquella manera</l>
+                  <l>que causaba sentimiento</l>
+                  <l>y por no llegar á tiempo</l>
+                  <l rend="cursiva">los dos se quedaron fuera:</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El uno que dentro estaba</l>
+                  <l>se divertia en verdad,</l>
+                  <l>pero con fórmalidad</l>
+                  <l>sus dos amigos bailaban:</l>
+                  <l>pero el estruendo que daban</l>
+                  <l>con energia y ardor</l>
+                  <l>brincaban que era un primor</l>
+                  <l>á la portilla del coche</l>
+                  <l>y alli pasaron la noche</l>
+                  <l rend="cursiva">esperando al gran señor</l>
+               </lg>
+            </div>
+
+            <div>
+               <pb n="3" source="Moreno_278_3.jpeg" facs="fedora_ug8107357/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>DECIMAS GLOSADAS, <lb/>compuestas por Juan Bautista Gomez, <lb/>conocidas por
+                  la de los Negritos. </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">A tus plantas bella Flora</l>
+                  <l>está postrado un Negrito,</l>
+                  <l>que no tiene otro delito</l>
+                  <l>ni mas causa que te adora.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Divagando por los bosques,</l>
+                  <l>iba en trage de pastora:</l>
+                  <l>¿cuántas veces á deshora</l>
+                  <l>pasé sin sentir las noches</l>
+                  <l>entre amorosos reproches</l>
+                  <l>hasta amanecer la aurora? </l>
+                  <l>Desde tan dichosa hora</l>
+                  <l>tu retrato en mi alma llevo,</l>
+                  <l>para rendirme de nuevo</l>
+                  <l rend="cursiva">á tus plantas bella Flora.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando el amor ha triunfado</l>
+                  <l>del recato y deila ciencia,</l>
+                  <l>son tales las exigencias </l>
+                  <l>que impone al enamorado,</l>
+                  <l>que diera un hombre un condado</l>
+                  <l>por lograr un cariñitos:</l>
+                  <l>por un suspiro, un besito</l>
+                  <l>escapado. por fortunaz:</l>
+                  <l>al pie de su blanca luna</l>
+                  <l rend="cursiva">está postrado un Negrito.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vénus, que de mis dolores</l>
+                  <l>es juez, parte y testigo.</l>
+                  <l>dará el premio ó el castigo</l>
+                  <l>que merezcan mis amores;</l>
+                  <l>La diosa oyó susclamares</l>
+                  <l>compadeciendo al Negrito;</l>
+                  <l>Vénus sin mas requisito</l>
+                  <l>á su favor ha fallado,</l>
+                  <l>y la misma ha confesado</l>
+                  <l rend="cursiva">que nostiene otro delito.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por amorosas querellas</l>
+                  <l>que el amor á suscitado,</l>
+                  <l>fué el Negrito sentenciodo!</l>
+                  <l>á un serrallo de doncellas,</l>
+                  <l>cual gallo en medio de ellas</l>
+                  <l>canta ufano á toda hora,</l>
+                  <l>participándola á Flora</l>
+                  <l>aquí vive un sentenciado,</l>
+                  <l>que no tiene otro pecado</l>
+                  <l rend="cursiva">ni mas causa que te adora.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Si me juzgas atrevido</l>
+                  <l>no temas ser homicida</l>
+                  <l>quilate pronto la vida</l>
+                  <l>si es que no he de ser quenido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yó sabré crucificarme</l>
+                  <l>y estar siempre á tu servicio</l>
+                  <l>por el grande beneficio</l>
+                  <l>que acabas de dispensarme;</l>
+                  <l>del que no podré olvidarme</l>
+                  <l>porque soy agradecido;</l>
+                  <l>aun no soy correspondido</l>
+                  <l>y en el caso que lo fuera</l>
+                  <l>es preciso que yo muera</l>
+                  <l rend="cursiva">si me juzgas atrevido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mi ser y hasta mi existencia</l>
+                  <l>te consagro ángel humano,</l>
+                  <l>en cámbio tu blanca mano</l>
+                  <l>me darás sin resistencia;</l>
+                  <l>ni la muerfe ni la ausencia</l>
+                  <l>curarán de amor la herida.</l>
+                  <l>¿Para que quiero una vida</l>
+                  <l>que aborrezco desde ahora?</l>
+                  <l>acaba con ella Flora</l>
+                  <l rend="cursiva">no temas ser homicida.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_278_4.jpeg" facs="fedora_ug8109195/full/full/0/default.jpg"/>
+
+               <lg>
+                  <l rend="indent">Si en brazos de ofro te viera</l>
+                  <l>no dudes que moriria, </l>
+                  <l>aunque yo lo sentiria</l>
+                  <l>mucho por la vez primera;</l>
+                  <l>si en mi muerte consistiera</l>
+                  <l>nuestra union, Flora querida,</l>
+                  <l>á buscarla ten su guarida</l>
+                  <l>yo mismo me presentara,</l>
+                  <l>á decirle cara á cara</l>
+                  <l rend="cursiva">quitame pronto la vida</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ven muerte,cobra eltributo</l>
+                  <l>antes que te se olvide,</l>
+                  <l>que por favor te lo pide</l>
+                  <l>un Negrito aunque sin fruto;</l>
+                  <l>si Dios poder absoluto</l>
+                  <l>de matar te ha conferido,</l>
+                  <l>mátame que yo lo pidojo.</l>
+                  <l>si, Flora te dá licencia,</l>
+                  <l>acaba con mi existencia</l>
+                  <l rend="cursiva">si es que no he de ser querido.</l>
+               </lg>
+            </div>
+
+            <div>
+               <head type="primer_titulo">REDONDILLAS GLOSADAS CON DECIMAS.</head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Permitame señorita</l>
+                  <l>de que le ate el zapatito;</l>
+                  <l>no váya á dar un pasito</l>
+                  <l>y se rompa la patita.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Era la Mariblanca</l>
+                  <l>la dama del zapatito,</l>
+                  <l>la que contesto al Negrito:</l>
+                  <l>soy de piedra y no muy franca;</l>
+                  <l>necesito una paláncá</l>
+                  <l>para romper mi cintita,</l>
+                  <l>que ya soy algó durita;</l>
+                  <l>y el tontuelo enamorado</l>
+                  <l>le decia enagenado,</l>
+                  <l rend="cursiva">permitame señorita</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nadando su funtasia</l>
+                  <l>en un marde confusiones,</l>
+                  <l>rodeados de iluciones</l>
+                  <l>soñó el ciegó que ¿veia:</l>
+                  <l>cuando el alma se rompia</l>
+                  <l>contra un poste el pobrecito</l>
+                  <l>esclamaba el cieguecito</l>
+                  <l>alborozado y contento;</l>
+                  <l>vamos, señoragiya! esitiempo</l>
+                  <l rend="cursiva">de que le ute el zapatitó.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A una estatua que veia,</l>
+                  <l>el valiente majadero</l>
+                  <l>se le quitaba el sombrero</l>
+                  <l>y hacia la cortesia;</l>
+                  <l>y el publico le decia</l>
+                  <l>de cuando en cuando al Negrito</l>
+                  <l>chasco se lleva, amiguito,</l>
+                  <l>¿que hace alli tan afanado?</l>
+                  <l>estoy con mucho cuidado</l>
+                  <l rend="cursiva">no vaya á dar un pasito.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A una supuesta hermosura</l>
+                  <l>le dijo su pretendiente;</l>
+                  <l>¿no se cansa de estar siempre</l>
+                  <l>en esa misma postura?</l>
+                  <l>Si para andar mas segura</l>
+                  <l>de mi apoyo necesita,</l>
+                  <l>le daré mi manecita</l>
+                  <l>y seré su pagecito</l>
+                  <l>no dé algun resbaloncito</l>
+                  <l rend="cursiva">y se rompa la patita.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1860. <lb/>Imprenta de D. José Maria Moreno, calle de Madre de Dios,
+                  núm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

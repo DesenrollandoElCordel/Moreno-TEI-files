@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_053">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cartilla de casamientos</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Cartilla de casamientos. Curiosas seguidillas
+                     nuevas, y calidades que deben tener las Señoras Mugeres con quienes se quieren
+                     casar los Mocitos Solteros.</title>
+                  <title type="titulo_breve">Cartilla de casamientos</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6452302</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Segunda parte de las graciosas seguidillas nuevas, en que se manifiestan
+                        alegremente las partidas, clausulas, y circunstancias con que deben escoger
+                        á sus Novios las Señoras Doncellas.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_053_1.xml"
+                              facs="fedora_ug8109900/400,280,471,657/100,/0/default.jpg"
+                              >grabado_m_053_1</item>
+                           <item corresp="grabado_m_053_2.xml"
+                              facs="fedora_ug8109900/870,280,420,652/100,/0/default.jpg"
+                              >grabado_m_053_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q2807">
+                  <placeName key="Madrid">Madrid</placeName>
+                  <location>
+                     <geo>40.41694444444445 -3.703333333333333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q836948">
+                  <placeName key="Toro">Toro</placeName>
+                  <location>
+                     <geo>41.52 -5.394722222222223</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Cartillas</term>
+               <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-03" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103863/manifest">
+      <graphic url="fedora_ug8109900/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_053_1.jpg" facs="fedora_ug8109900/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 14.</fw>
+
+               <head rend="negrita" type="primer_titulo">CARTILLA DE CASAMIENTOS.</head>
+               <head type="subtitulo">
+                  <lb/>Curiosas seguidillas nuevas, y calidades que de- <lb/>ben tener las Señoras
+                  Mugeres con quienes se <lb/>quieren casar los Mocitos Solteros. </head>
+
+               <div n="1" type="parte">
+                  <head rend="cursiva" type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">Mancebitos solteros,</l>
+                  <l>los que sin falta</l>
+                  <l>andais para casaros</l>
+                  <l>á la que salta:</l>
+                  <l>daros intento</l>
+                  <l>una nueva Cartilla</l>
+                  <l>de Casamiento.</l>
+                  <l rend="indent">Todo el tiempo que puedas</l>
+                  <l>nunca te cases,</l>
+                  <l>porque el Buey suelto, amigo,</l>
+                  <l>muy bien se lame:</l>
+                  <l>mas es preciso,</l>
+                  <l>que abras el ojo y oigas</l>
+                  <l>estos avisos.</l>
+                  <l rend="indent">Nos busques Dama bella,</l>
+                  <l>porque á lo hermoso,</l>
+                  <l>como á la miel las moscas</l>
+                  <l>rondan golosos:</l>
+                  <l>y asi que llegue</l>
+                  <l>puede pegarse alguno,</l>
+                  <l>que te la pegue.</l>
+                  <l rend="indent">Tampoco que sea fea,</l>
+                  <l>que es testimonio</l>
+                  <l>estar tratando siempre</l>
+                  <l>con un demonio:</l>
+                  <l>y en tal romana</l>
+                  <l>no hay cosa mas segura</l>
+                  <l>que la mediana.</l>
+
+                  <pb n="2" source="Moreno_053_2.jpg"
+                     facs="fedora_ug8110299/full/full/0/default.jpg"/>
+
+                  <l rend="indent">Que la busques te digo</l>
+                  <l>limpia y curiosa,</l>
+                  <l>que la limpieza es buena</l>
+                  <l>mas no en la bolsa:</l>
+                  <l>pero es el modo,</l>
+                  <l>que por limpiar algunas</l>
+                  <l>lo limpian todo.</l>
+                  <l rend="indent">No muy gorda, ni flaca</l>
+                  <l>te lá encamino,</l>
+                  <l>sino entre magro y gerdo</l>
+                  <l>como el tocino:</l>
+                  <l>porque la flaca</l>
+                  <l>tiene cara de acelga,</l>
+                  <l>y es espinaca.</l>
+                  <l rend="indent">No la lleves tan niña,</l>
+                  <l>que diga Papa,</l>
+                  <l>ni tan vieja, que puedas</l>
+                  <l>llamarle Mama;</l>
+                  <l>porque la niña</l>
+                  <l>toda se vuelve dengues,</l>
+                  <l>la vieja riña.</l>
+                  <l rend="indent">Lo que te encargo amigo</l>
+                  <l>mi buena gerga</l>
+                  <l>es que si ser pudiere</l>
+                  <l>no lleves suegra:</l>
+                  <l>porque al momento</l>
+                  <l>bien puedes dar al diablo</l>
+                  <l>tu casamiento.</l>
+                  <l rend="indent">No te fies en dotes</l>
+                  <l>que es maña vieja,</l>
+                  <l>si no le tomas antes</l>
+                  <l>á toca teja:</l>
+                  <l>pues muchos tristes</l>
+                  <l>al buscar cañamones</l>
+                  <l>se ballan alpiste.</l>
+                  <l rend="indent">Discreta no la busques,</l>
+                  <l>pues las mas rudas</l>
+                  <l>para lo que ellas quieren</l>
+                  <l>son bien agudas:</l>
+                  <l>y aunque se alaben</l>
+                  <l>no han sabido los diablos</l>
+                  <l>lo que ellas saben.</l>
+                  <l rend="indent">Con las Cocinerillas</l>
+                  <l>no te resbales,</l>
+                  <l>que el que se arrima á ellas</l>
+                  <l>manchado sale:</l>
+                  <l>y sin trabajo</l>
+                  <l>tratan luego al marido</l>
+                  <l>como estropajo.</l>
+                  <l rend="indent">No creas en Beatas,</l>
+                  <l>que andan con tiento</l>
+                  <l>con el Rosario encima,</l>
+                  <l>y el diablo dentro,</l>
+                  <l>y á todo bobo</l>
+                  <l>los meten por el aro</l>
+                  <l>del matrimonio.</l>
+                  <l rend="indent">De doncellas sirvientes</l>
+                  <l>huirá tu estrella</l>
+                  <l>no sea que te encuentres</l>
+                  <l>sin la doncella:</l>
+                  <l>porque ya todas</l>
+                  <l>quieren salir mas majas,</l>
+                  <l>que sus señoras.</l>
+                  <l rend="indent">Para bodas las viudas,</l>
+                  <l>son el demonio, </l>
+                  <l>porque saben las cosas</l>
+                  <l>del matrimonio:</l>
+                  <l>pues se comprehende,</l>
+                  <l>que apenas les apuntan</l>
+                  <l>cuando lo entienden.</l>
+                  <l rend="indent">Usia, ni por pienso,</l>
+                  <l>que las Usias</l>
+                  <l>en tomar chocolate</l>
+                  <l>se les va el dia:</l>
+                  <l>y necesitas</l>
+                  <l>tener mucha paciencia</l>
+                  <l>con las visitas.</l>
+                  <l rend="indent">No sea en fin tu Novia</l>
+                  <l>con ringorrangos,</l>
+                  <l>amiga de balcones,</l>
+                  <l>y de fandangos:</l>
+                  <l>pues de este modo,</l>
+                  <l>aunque en <name>Madrid</name> te cases</l>
+                  <l>te irás á <name>Toro</name>.</l>
+                  <l rend="indent">Ultimamente dicen</l>
+                  <l>las seguidillas.</l>
+
+                  <pb n="3" source="Moreno_053_3.jpg"
+                     facs="fedora_ug8103406/full/full/0/default.jpg"/>
+
+                  <l>que no te andes con fiestas</l>
+                  <l>con las chiquillas:</l>
+                  <l>pues con matraca</l>
+                  <l>al punto las malditas</l>
+                  <l>piden casaca.</l>
+                  <l rend="indent">Ponen luego demanda</l>
+                  <l>las picaronas,</l>
+                  <l>lo zampan en la Carcel</l>
+                  <l>de la Corona:</l>
+                  <l>donde el menguado</l>
+                  <l>por bien que salgá, sale</l>
+                  <l>ya coronado.</l>
+                  <l rend="indent">Hasta aqui mi discurso</l>
+                  <l>decir previno</l>
+                  <l>cuatro verdades puras</l>
+                  <l>como el buen vino:</l>
+                  <l>y solo falta </l>
+                  <l>que aprovecheis algunas</l>
+                  <l>y santas Pascuas</l>
+                  <trailer rend="cursiva">Fin de la primera parte.</trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <head rend="cursiva" type="titulo_parte">SEGUNDA PARTE,</head>
+                  <head rend="cursiva" type="subtitulo_parte">
+                     <lb/>de las graciosas seguidillas nuevas, en que se manifiestan alegremente
+                     <lb/>las partidas, clausulas, y circunstancias con que deben <lb/>escoger á sus
+                     Novios las Señoras Doncellas. </head>
+
+                  <l rend="indent">Oiganme, si gustaren</l>
+                  <l>las solterillas,</l>
+                  <l>que no es razon se queden</l>
+                  <l>sin seguidillas:</l>
+                  <l>lograrán todas</l>
+                  <l>una nueva Cartilla</l>
+                  <l>para las bodas.</l>
+                  <l rend="indent">Que rabieis por casaros</l>
+                  <l>nadie se ofenda,</l>
+                  <l>pues no teneis Señoras,</l>
+                  <l>otra prebenda:</l>
+                  <l>y sin antojo</l>
+                  <l>escuchad mis avisos</l>
+                  <l>y abrir el ojos.</l>
+                  <l rend="indent">Sea á tu gusto el Novio</l>
+                  <l>que mas te agrade,</l>
+                  <l>porque sarna con gusto</l>
+                  <l>no pica á nadie;</l>
+                  <l>mas vé primero,</l>
+                  <l>no te salga la galga</l>
+                  <l>capada luego.</l>
+                  <l rend="indent">Que sea grande ó chico,</l>
+                  <l>blanco, ó moreno,</l>
+                  <l>en sabiendo que es hombre</l>
+                  <l>cualquiera es bueno;</l>
+                  <l>pero repara,</l>
+                  <l>que tenga buenas prendas,</l>
+                  <l>no buena cara.</l>
+                  <l rend="indent">En los casamenteros</l>
+                  <l>no fies tanto,</l>
+                  <l>pues el Novio que buscan</l>
+                  <l>siempre es un santo:</l>
+                  <l>y es testimonio,</l>
+                  <l>pues sale á pocos dias</l>
+                  <l>un gran demonio.</l>
+                  <l rend="indent">De los Frailes no admitas</l>
+                  <l>bodas apenas,</l>
+                  <l>porque bodas de Frailes</l>
+                  <l>jamás son buenas:</l>
+                  <l>pues con rebozo</l>
+                  <l>en tu negocio tiran</l>
+                  <l>á su negocio.</l>
+                  <l rend="indent">No fies de las viejas,</l>
+                  <l>aunque te digan,</l>
+                  <l>¡ay que Novio te traigo!</l>
+                  <l>Dios le bendiga:</l>
+                  <l>que estas marrajas</l>
+                  <l>andan juntando culos</l>
+                  <l>por sacar raja.</l>
+                  <l rend="indent">De los Pajes no creas.</l>
+
+                  <pb n="4" source="Moreno_053_4.jpg"
+                     facs="fedora_ug8104552/full/full/0/default.jpg"/>
+
+                  <l>necias bambollas, </l>
+                  <l>porque son muy amigos</l>
+                  <l>de cazarpollas;</l>
+                  <l>y si se casan,</l>
+                  <l>una racion de hambre</l>
+                  <l>traen á su casa.</l>
+                  <l rend="indent">No te cases con viudo,</l>
+                  <l>pues si se aturde;</l>
+                  <l>te pudrirá los huesos</l>
+                  <l>con la que pudre:</l>
+                  <l>y aquestas gentes</l>
+                  <l>suelen tentar el bulto</l>
+                  <l>muy lindamente.</l>
+                  <l rend="indent">No te fies tampoco</l>
+                  <l>de los pardales,</l>
+                  <l>que parecen Vizcondes,</l>
+                  <l>ó Maríscales:</l>
+                  <l>pues sin buscarlo,</l>
+                  <l>ayudan á comerlo,</l>
+                  <l>mas no á ganarlo.</l>
+                  <l rend="indent">A los Lacayos mozos</l>
+                  <l>no les permitas,</l>
+                  <l>que tomen en tu casa</l>
+                  <l>ni agua bendita:</l>
+                  <l>pues diligentes</l>
+                  <l>á la zaga se suben</l>
+                  <l>muy facilmente.</l>
+                  <l rend="indent">Si le buscas Cochero,</l>
+                  <l>vete con tiento</l>
+                  <l>porque es gente que anda</l>
+                  <l>en alto puesto:</l>
+                  <l>mas está lista,</l>
+                  <l>que si alzan la manopla</l>
+                  <l>Dios nos asista.</l>
+                  <l rend="indent">El casarse, hija mia,</l>
+                  <l>gozo es muy tierno;</l>
+                  <l>pero el vivir con suegra</l>
+                  <l>es un infierno:</l>
+                  <l>y porque penes,</l>
+                  <l>si tienes suegra en casa,</l>
+                  <l>buena la tienes.</l>
+                  <l rend="indent">Si llevas Novio rico,</l>
+                  <l>siendo tu pobre,</l>
+                  <l>no habrá mal en el mundo</l>
+                  <l>que no te sobre:</l>
+                  <l>porque se advierte,</l>
+                  <l>que á sus mugeres pegan</l>
+                  <l>palos de muerte.</l>
+                  <l rend="indent">Aunque rabies por Novio,</l>
+                  <l>no te descubras, </l>
+                  <l>pues no habrá quien te diga</l>
+                  <l>por ahi te pudras:</l>
+                  <l>mantente firme,</l>
+                  <l>que siempre anhela el hombre</l>
+                  <l>por lo imposible.</l>
+                  <l rend="indent">No fies en palabras</l>
+                  <l>de casamientos,</l>
+                  <l>que palabras y plumas</l>
+                  <l>las lleva el viento:</l>
+                  <l>y con trabajo</l>
+                  <l>si te escurres un poco,</l>
+                  <l>malo vá el ajo.</l>
+                  <l rend="indent">Hijas mias, cuidado</l>
+                  <l>con los que legan,</l>
+                  <l>porque pensais pegarla,</l>
+                  <l>pero os la pegan:</l>
+                  <l>pues con sosiego</l>
+                  <l>os componen el ato,</l>
+                  <l>y escapan luego.</l>
+                  <l rend="indent">En lo que llevo dicho</l>
+                  <l>de aquestos lances,</l>
+                  <l>todos dirán que he hablado</l>
+                  <l>por boca de Angel:</l>
+                  <l>bellas Auroras,</l>
+                  <l>la Cartilla se acaba,</l>
+                  <l>á Dios señoras.</l>
+
+                  <trailer rend="negrita">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:=1859. <lb/><hi rend="cursiva">Imprenta de</hi> D. José M.a Moreno,
+                     <hi rend="cursiva">calle de Madre de Dios.</hi>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

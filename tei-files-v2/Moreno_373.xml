@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_373">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación nueva. Reglas de un dictámen, y dictámen de unas reglas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion nueva. Reglas de un dictámen, y dictámen de
+                     unas reglas, que para eleccion del matrimonio, pidió un amigo á Don Antonio
+                     Francisco Janin y Razaneli.</title>
+                  <title type="titulo_breve">Relacion nueva. Reglas de un dictámen, y dictámen de
+                     unas reglas</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1865-01-01">1865</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5069810</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 394</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_373_1.xml"
+                              facs="fedora_ug8108202/366,237,447,882/100,/0/default.jpg"
+                              >grabado_m_373_1</item>
+                           <item corresp="grabado_m_373_2.xml"
+                              facs="fedora_ug8108202/813,313,521,804/100,/0/default.jpg"
+                              >grabado_m_373_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q1769099">
+                  <placeName key="Prado">Prado</placeName>
+                  <location>
+                     <geo>41.920555555556 -5.4188888888889</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106628/manifest">
+      <graphic url="fedora_ug8108202/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_373_1.jpeg" facs="fedora_ug8108202/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">394.</fw>
+
+               <head type="primer_titulo">
+                  <lb/>RELACION NUEVA. <lb/>REGLAS DE UN DICTÁMEN, <lb/>Y DICTÁMEN DE UNAS REGLAS,
+                  <lb/>QUE PARA ELECCION <lb/><hi rend="negrita">DEL MATRIMONIO,</hi>
+                  <lb/>PIDIÓ UN AMIGO <lb/>A DON ANTONIO FRANCISCO JANIN Y RAZANELI. </head>
+
+               <lg>
+                  <l rend="indent">Ya, amigo, que por capricho</l>
+                  <l>esta vez tu gusto aprecia</l>
+                  <l>las reglas de mi dictámen,</l>
+                  <l>por dictámen de tus reglas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y quieres, que te aconseje</l>
+                  <l>en el nuevo estado, que entras</l>
+                  <l>sin la experiencia, que pide</l>
+                  <l>tan dificil experiencia.</l>
+               </lg>
+
+               <pb n="2" source="Moreno_373_2.jpeg" facs="fedora_ug8109060/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <lg>
+                  <l rend="indent">Has de ver, ya que el asunto</l>
+                  <l>abre á mi discurso senda,</l>
+                  <l>en las veras de mis burlas</l>
+                  <l>unas burlas, que son veras.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tu dificultad estriva</l>
+                  <l>en que una mujer aprecias</l>
+                  <l>para esposa, buena carga,</l>
+                  <l>pero no es carga; si es buena.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hallarla así, es imposible,</l>
+                  <l>con que si en esta advertancia</l>
+                  <l>se encuentra con una duda,</l>
+                  <l>la duda es, que no se encuentra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Supongo, que la apeteces</l>
+                  <l>hermosa, que si esta prenda</l>
+                  <l>deleita, si se consigue,</l>
+                  <l>cuando se gozá deleita.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Considera, que te expones,</l>
+                  <l>cuando á guardarla te empeñas,</l>
+                  <l>sin que sienta tu recelo,</l>
+                  <l>que ay recelo en que lo sienta.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es la hermosura una alhaja,</l>
+                  <l>que el que conservarla quiera</l>
+                  <l>ajena aprchension oculta,</l>
+                  <l>pues la aprehension la hace ajena.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tampoco amor, con exceso</l>
+                  <l>la ha de mostrar tu finezas,</l>
+                  <l>que aunque convenga on el culto,</l>
+                  <l>puede ser, que no convenga..</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sí es discreta (que no siempre</l>
+                  <l>la hermosura ha de ser necia)</l>
+                  <l>y pesa cuanto, merece,</l>
+                  <l>tambien al marido pesa.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Advierto, que no hay deidad,</l>
+                  <l>que por deidad no se tenga,</l>
+                  <l>y cualquiera que la adore,</l>
+                  <l>es natural que á cualquiera.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si es fea, que puede ser</l>
+                  <l>que á esto te incline tu estrella;</l>
+                  <l>paciencia, si en este caso</l>
+                  <l>puede bastar la paciencia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El tolerar es preciso,</l>
+                  <l>y asíbaunque cueste violencia,</l>
+                  <l>es fuerza tu sufrimiento,</l>
+                  <l>pues el sufrimiento es fuerza.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Finge agrado, pues conviene</l>
+                  <l>que entre alhagos y finezas,</l>
+                  <l>consienta, en que tu la estimas,</l>
+                  <l>porqué acáso no consienta.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que una mujer despreciada,</l>
+                  <l>ó por venganza, ó por tema</l>
+                  <l>techa pof medio, y no hay medio</l>
+                  <l>si ella por medio se echa.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sufrirla, es obligacion,</l>
+                  <l>disimular, es prudencia;</l>
+                  <l>parezca eleccion tu mal,</l>
+                  <l>aunque ella mal te parezca.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En cuanto al riesgo, lo mismo</l>
+                  <l>es la lcermosa, que la fea,</l>
+                  <l>ruega á Dios que de él te libre,</l>
+                  <l>porque la que es fea, ruega.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Rica, nunca te aconsejo</l>
+                  <l>que la busques, porque es fuerza,</l>
+                  <l>que tenga mas que le sufras.</l>
+                  <l>á la mujer, que mas tenga.</l>
+               </lg>
+
+               <pb n="3" source="Moreno_373_3.jpeg" facs="fedora_ug8108478/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <lg>
+                  <l rend="indent">No obstante, si la encontrares,</l>
+                  <l>haz, que tu obsequio con ella</l>
+                  <l>te pueda dejar airoso</l>
+                  <l>por lo que dejarte pueda.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Festéjala en cuanto pida, </l>
+                  <l>aunqüe te canse, y te ofenda;</l>
+                  <l>destierra cualquier enojó</l>
+                  <l>hasta que tú la dés tierra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si es pobre, pobre de ti,</l>
+                  <l>que vendrá á ser en tu hacienda</l>
+                  <l>una gotera perenne,</l>
+                  <l>porque será la gotera.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si una mujer, cuando trae;</l>
+                  <l>insufrible es, é indigesta:</l>
+                  <l>sino te lleva interés</l>
+                  <l>dime, qué interés te lleva?,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mujer en pelo es un trasto,</l>
+                  <l>que embaraza, y no aprovecha,</l>
+                  <l>en la almoneda del gusto</l>
+                  <l>no hay gusto, sino hay moneda.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Desvanecida una hermosa :</l>
+                  <l>si el amor la lisongea,</l>
+                  <l>aprueba su gusto, y luego</l>
+                  <l>tal vez el gusto, vá á prueba.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Siendo discreta es forzoso</l>
+                  <l>querer que pase en su lengua</l>
+                  <l>por sentencia, cualquier dicho,</l>
+                  <l>que lo dicho, te sentencia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Toda perfeccion, es vana,</l>
+                  <l>y si es que llevarse deja</l>
+                  <l>de su estrella, en su opinion</l>
+                  <l>con toda opinion se estrella,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De aquesta altivez le nace</l>
+                  <l>una pura impertinencia.</l>
+                  <l>molestia, ó éspecie de dengue.</l>
+                  <l>con que al marido molesta.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si hay coche, quiero paseo,</l>
+                  <l>porque divertirsé, es fuerza;</l>
+                  <l>pero en las vueltas del <name>Prado</name></l>
+                  <l>suele haber muy malas vueltas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Allí auda el chisté, el embozo,</l>
+                  <l>la conversácion, y en ella</l>
+                  <l>se engendran algunas chanzas;</l>
+                  <l>chanzas, que tal vez engendran.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si la comedia apetece</l>
+                  <l>tambien tiene contingencias,</l>
+                  <l>por señas, de que hay peligro</l>
+                  <l>en la comedia, por señas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Para esto, pide la gala</l>
+                  <l>mas del uso, y sino es buena</l>
+                  <l>cuesta uña quimera, y luego,</l>
+                  <l>lo peor es, lo que cuesta.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si adoleces de celoso</l>
+                  <l>en tu misma aprehension necia,</l>
+                  <l>dá cuerda á tu desacierto,</l>
+                  <l>y es desacierto, si es cuerda.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si úna vez, la disimulas</l>
+                  <l>un desliz, á la que es necia,</l>
+                  <l>en la desecha, que haces,</l>
+                  <l>verás tu opinion deshecha.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sino lo es, y te confias,</l>
+                  <l>vás perdiendo, y es bien temas</l>
+                  <l>cierta libertad, que puede</l>
+                  <l>darte que sentir, si es cierta.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_373_4.jpeg" facs="fedora_ug8108987/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <lg>
+                  <l rend="indent">Dá á entender, sin que tu genio</l>
+                  <l>desconfianza parezca,</l>
+                  <l>que atenta observa tu industria,</l>
+                  <l>que esta industria la hará atenta.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sabe que yá no está el tiempo,</l>
+                  <l>para que un hombre se meta</l>
+                  <l>á secas, y sin llover</l>
+                  <l>con una mujer á secas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Doy, que es hermosa en estremo,</l>
+                  <l>de qué sirve su belleza,</l>
+                  <l>si aunque sea buena la cara,</l>
+                  <l>es fuerza, que cara sea?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De todo lo discurrido</l>
+                  <l>sabe, que ninguna es buena,</l>
+                  <l>puesto, que apenas te cases,</l>
+                  <l>estás sentenciado á pénas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No dudes, que es imposible</l>
+                  <l>encontrar mujer perfecta,</l>
+                  <l>que aunque quiera un hombre ha-<add place="encima">(llarla</add></l>
+                  <l>no la halla, así como quiera.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mas si á la mujer te inclinas</l>
+                  <l>alivia tu mal con ella,</l>
+                  <l>que si el tenerla es locura,</l>
+                  <l>tambien la cura es tenerla.</l>
+               </lg>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1865. <lb/>Imp. y librería de D. José M.a Moreno, calle Madre de
+                  Dios núm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_063">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El ratón de Canarias</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El raton de Canarias. Relacion graciosa y divertida
+                     en que se refieren los estragos, muertes y valentías ejecutadas por un raton
+                     que se descubrió en las lslas de Canarias, en casa de un tejedor, segun consta
+                     de una carta que recibió el autor de un amigo suyo; con lo demas que verá el
+                     curioso lector. </title>
+                  <title type="titulo_breve">El raton de Canarias.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1855-01-01">1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6452601</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 74</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Segunda parte. en la que se espresa como fué cojido el Raton por la
+                        industria y sagacidad de una vieja, lo que la sucedió á esta por la codicia
+                        de meterse á cojer ra-tones ; y se espresa la distribucion de los miembros
+                        del Raton.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_063_1.xml"
+                              facs="fedora_ug8110118/245,360,1200,731/100,/0/default.jpg"
+                              >grabado_m_063_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="4" corresp="Q5813">
+                  <placeName key="Canarias">Canarias</placeName>
+                  <location>
+                     <geo>28.536 -15.749</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105530/manifest">
+      <graphic url="fedora_ug8110118/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_063_1.jpg" facs="fedora_ug8110118/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 74.)</fw>
+
+               <head rend="negrita" type="primer_titulo">EL RATON DE CANARIAS.</head>
+               <head type="subtitulo">
+                  <lb/><hi rend="negrita">RELACION</hi>
+                  <lb/>graciosa y divertida en que se refieren los estragos, muertes y valentías
+                  <lb/>ejecutadas por un raton que se descubrió en las lslas de Canarias, en
+                  <lb/>casa de un tejedor, segun consta de una carta que recibió el autor <lb/>de un
+                  amigo suyo; con lo demas que verá el curioso lector. </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">Aunque todos mis oyentes </l>
+                  <l>me acraditen de bufon,</l>
+                  <l>voy á divertir al pueblo</l>
+                  <l>con un chusco noticion;</l>
+                  <l>escuchen todos á una</l>
+                  <l>con silencio y atencion,</l>
+                  <l>oiran en brebes versos</l>
+                  <l>las hazañas de un Raton.</l>
+                  <l>De las lslas de <name>Canarias</name></l>
+                  <l>un amigo me escribió</l>
+                  <l>en el correo pasado</l>
+                  <l>la siguiente relacion:</l>
+                  <l>"en este mes de enero</l>
+                  <l>en casa de un tejedor</l>
+                  <l>sin saber como ni cuando</l>
+                  <l>un Ranton se descubrió.</l>
+                  <l>Durmiendo como un perrazo</l>
+                  <l>se hallaba el buen tejedor</l>
+                  <l>á tiempo que en los telares</l>
+                  <l>un gran ruido se oyó,</l>
+                  <l>levantóse de la cama,</l>
+                  <l>luego un candil encendió</l>
+                  <l>para averiguar la causa</l>
+                  <l>de estrepido tan atroz;</l>
+                  <l>pero en el instante mismo</l>
+                  <l>que vió la luz el Raton</l>
+                  <l>(parece cosa increible</l>
+                  <l>lo que entonces sucedió)</l>
+                  <l>dió tan formidable soplo,</l>
+                  <l>que candil y tejedor</l>
+                  <l>estoy no han parecido</l>
+                  <l>por que el aire los llevó.</l>
+
+                  <pb n="2" source="Moreno_063_2.jpg"
+                     facs="fedora_ug8109223/full/full/0/default.jpg"/>
+
+                  <l>Esta es la primera hazaña</l>
+                  <l>del referido Raton,</l>
+                  <l>ahora empiezan sus lances;</l>
+                  <l>señores mios, chiton.</l>
+                  <l>A casa de un comerciante</l>
+                  <l>desde allí se encaminó</l>
+                  <l>por creerse mas seguro</l>
+                  <l>y libre de persecucion;</l>
+                  <l>halló cerrada la puerta:</l>
+                  <l>pero él sin mas detencion</l>
+                  <l>de la primer dentellada</l>
+                  <l>la cerradura partió,</l>
+                  <l>sin estorvarselo nadie</l>
+                  <l>como por su casa entró,</l>
+                  <l>y en un cuarto donde habia</l>
+                  <l>muchas telas, se metió,</l>
+                  <l>entre dos piezas de paño</l>
+                  <l>á descansar se acostó,</l>
+                  <l>dejando al paño lo propio</l>
+                  <l>que redes de un pescador,</l>
+                  <l>El mercader enojado,</l>
+                  <l>al instante que lo vió,</l>
+                  <l>quiso cobrar con su muerte</l>
+                  <l>el paño que le rompió;</l>
+                  <l>pero el Raton animoso,</l>
+                  <l>de una uñada que le dió</l>
+                  <l>le dejó tendido en tierra,</l>
+                  <l>y los ojos le socó.</l>
+                  <l>A los gritos del paciente</l>
+                  <l>la isla se alborotó,</l>
+                  <l>y acudieron los vecinos</l>
+                  <l>para coger el Raton;</l>
+                  <l>mas él puesto en salvamento,</l>
+                  <l>sin recelo ni temor,</l>
+                  <l>con los dientes y las uñas</l>
+                  <l>destrozó á setenta y dos.</l>
+                  <l>Temerosos los restantes: </l>
+                  <l>dan cuenta al gobernador,</l>
+                  <l>para ver lo que dispone</l>
+                  <l>de un animal tan feroz.</l>
+                  <l>Enterado del suceso,</l>
+                  <l>luego al instante mandó</l>
+                  <l>le diesen muerte á balazos</l>
+                  <l>pero poco les valió,</l>
+                  <l>porque el Raton arrogante</l>
+                  <l>en un agujero entró,</l>
+                  <l>y con los dientes de fuera</l>
+                  <l>solamente se quedó. </l>
+                  <l>Juntáronse diez mil hombres</l>
+                  <l>con armas y municion,</l>
+                  <l>tirando fieras descargas</l>
+                  <l>para matar el Raton;</l>
+                  <l>en el hocico le dieron</l>
+                  <l>cañonazos treinta y dos,</l>
+                  <l>partiendo todas las balas</l>
+                  <l>con los dientes, el Raton.</l>
+                  <l>Siendo imposible el matarle,</l>
+                  <l>la tropa determinó</l>
+                  <l>dejarle ya con la vida,</l>
+                  <l>y del agujero salió;</l>
+                  <l>paseandose y saltando,</l>
+                  <l>desde allí se dirigió</l>
+                  <l>á casa de un escribano,</l>
+                  <l>en el oficio se entró,</l>
+                  <l>destrozó muchos papeles</l>
+                  <l>y los autos encontró,</l>
+                  <l>de un reo que estaba preso</l>
+                  <l>por culpas que cometió;</l>
+                  <l>hizo el proceso pedazos,</l>
+                  <l>y libre el reo salió,</l>
+                  <l>dando las debidas gracias</l>
+                  <l>al referido Raton.</l>
+                  <l>Viendose tan perseguido,</l>
+                  <l>huyendo se retiró</l>
+                  <l>á casa de un zapatero</l>
+                  <l>y en ella se refugió:</l>
+                  <l>sin hablar, solo por señas,</l>
+                  <l>al maestro le pidió</l>
+                  <l>un par de zapatos nuevos</l>
+                  <l>sin que tengan reviron;</l>
+                  <l>puso su par de zapatos,</l>
+                  <l>y al punto se los calzó</l>
+                  <l>salióse la puerta afuera:</l>
+                  <l>y el maestro lo llamó,</l>
+                  <l>pidióle cincuenta reales,</l>
+                  <l>y enfurecido el Raton</l>
+                  <l>con un tranchete, al maestro</l>
+                  <l>la cabeza le cortó,</l>
+                  <l>Como aquel que no hace nada</l>
+                  <l>con un sastre se encontró</l>
+                  <l>que vivia no muy lejos, </l>
+                  <l>perfecto en su profesion:</l>
+                  <l>en su lenguaje le dijo</l>
+                  <l>que le hiera un pantalon</l>
+
+                  <pb n="3" source="Moreno_063_3.jpg"
+                     facs="fedora_ug8107373/full/full/0/default.jpg"/>
+
+                  <l>de muy rico terciopelo,</l>
+                  <l>aunque costara un millon.</l>
+                  <l>Hizolo el sastre, inocente,</l>
+                  <l>y vistiéndole el Raton, </l>
+                  <l>con dos docenas de coses</l>
+                  <l>tela y trabajo pagó.</l>
+                  <l>Tan recias fueron las coces</l>
+                  <l>que el pobre satre llevó,</l>
+                  <l>que quedó inutilazado,</l>
+                  <l>y al tercer dia murió.</l>
+                  <l>Tal fué el miedo que cobraron</l>
+                  <l>los vecinos al Raton,</l>
+                  <l>que los viejos por no verlo</l>
+                  <l>dejaban la poblacion.</l>
+                  <l>Esta es la primera parte,</l>
+                  <l>en la segunda su autor</l>
+                  <l>ofrece contar gustoso</l>
+                  <l>en lo que paró el Raton.</l>
+               </div>
+
+               <div n="2" type="parte">
+                  <head type="titulo_parte">
+                     <lb/><hi rend="negrita">SEGUNDA PARTE.</hi>
+                     <hi rend="cursiva"><lb/>en la que se espresa como fué cojido el Raton por la
+                        industria y sagacidad <lb/>de una vieja, lo que la sucedió á esta por la
+                        codicia de meterse á cojer ra- <lb/>tones; y se espresa la distribucion de
+                        los miembros del Raton.</hi>
+                  </head>
+
+                  <l rend="indent">En el romance primero</l>
+                  <l>mi torpe lengua escribió</l>
+                  <l>las vanlentías y hazañas</l>
+                  <l>del prodijioso Raton,</l>
+                  <l>en el segundo prometo</l>
+                  <l>contar el fin que llevó</l>
+                  <l>y para seguir la historiá</l>
+                  <l>á todos pido atencion.</l>
+                  <l>Cansado el animalito</l>
+                  <l>de tanta persecucion</l>
+                  <l>á la casa de una vieja</l>
+                  <l>se fué á tomar posesion.</l>
+                  <l>Apenas le vió la vieja</l>
+                  <l>dijo al pueblo en alta voz:</l>
+                  <l>yo me atrevo á darle</l>
+                  <l>a este leve malhechor;</l>
+                  <l>y para poder hacerlo</l>
+                  <l>tengo por medio mejor </l>
+                  <l>darle de comer bastante</l>
+                  <l>queso, tosino y jamon:</l>
+                  <l>mas para que esto suceda</l>
+                  <l>á nuestra satisfaccion,</l>
+                  <l>le he de echar en la comida</l>
+                  <l>de veneno gran porcion,</l>
+                  <l>que estando el Raton hambriento</l>
+                  <l>sin conocer la traicion,</l>
+                  <l>será preciso reviente,</l>
+                  <l>ó el diablo ha de ser sinó.</l>
+                  <l>Aprobaron el consejo,</l>
+                  <l>y para la operacion</l>
+                  <l> á la vieja la entregaron</l>
+                  <l>seis arrobas de jamon,</l>
+                  <l>otras tantas de tocino,</l>
+                  <l>y segun se me escribió, </l>
+                  <l>ochenta libras de queso</l>
+                  <l>para su casa llevó.</l>
+                  <l>Viendo la vieja en su casa</l>
+                  <l>junta tanta prevencion,</l>
+                  <l>daba saltos de alegria</l>
+                  <l>con notable admiracion.</l>
+                  <l>En un pernil de tocino</l>
+                  <l>hizo su composicion</l>
+                  <l>del soliman ó veneno</l>
+                  <l>segun ella lo pensó.</l>
+                  <l>En efecto, descuidado</l>
+                  <l>el miserable Raton</l>
+                  <l>comió de lo envenenado,</l>
+                  <l>y al instante reventó,</l>
+                  <l>Dió tan espantoso estruendo</l>
+                  <l>al punto que reventó</l>
+                  <l>que se oyó catorce leguas,</l>
+                  <l>y la caza derribó.</l>
+                  <l>Cuando la vieja pensaba</l>
+                  <l>ver lograda su intención;</l>
+                  <l>debajo de las paredes</l>
+                  <l>hecha tortilla se halló.</l>
+                  <l>Acudieron los vecinos,</l>
+                  <l>aunque llenos de temor</l>
+                  <l>y hallaron los dos difuntos,</l>
+                  <l>á la vieja y al Ratón;</l>
+
+                  <pb n="4" source="Moreno_063_4.jpg"
+                     facs="fedora_ug8103442/full/full/0/default.jpg"/>
+
+                  <l>enterraron á la vieja</l>
+                  <l>con solemne prosecion.</l>
+                  <l>Dios la haya dado su gloria;</l>
+                  <l>ahora vamos al Raton.</l>
+                  <l>A la plaza le llebaron</l>
+                  <l>y por determinacion</l>
+                  <l>de la Justicia del pueblo</l>
+                  <l>le desuellan á zurron:</l>
+                  <l>guardan para hacer zapatos</l>
+                  <l>el pellejo del Raton,</l>
+                  <l>trecientos pares sacaron</l>
+                  <l>y un retazo que sobró.</l>
+                  <l>El vientre con la asadura,</l>
+                  <l>dieron por disposicion</l>
+                  <l>los hiciesen en salchichas</l>
+                  <l>que valieron un millon.</l>
+                  <l>Con el hocico y cabeza,</l>
+                  <l>orejas y corpachon</l>
+                  <l>comieron quinientos hombres</l>
+                  <l>y aun todavia sobró.</l>
+                  <l>Las costillas y las piernas,</l>
+                  <l>y los dientes del Raton</l>
+                  <l>sirvieron para madera</l>
+                  <l>de la casa que cayó.</l>
+                  <l>No diré nada del rabo</l>
+                  <l>pues me ha dicho quien le vió</l>
+                  <l>que hicieron siete maromas</l>
+                  <l>un cabestro y un correon.</l>
+                  <l>El mercader y escribano,</l>
+                  <l>juntos con el tejedor,</l>
+                  <l>pedian á los vecinos</l>
+                  <l>lo que les desbarató:</l>
+                  <l>mas como no tiene bienes</l>
+                  <l>el infelice Raton</l>
+                  <l>han tenido que perderlo</l>
+                  <l>sin hallar apelacion.</l>
+                  <l>Solamente el comerciante</l>
+                  <l>para su casa llevó</l>
+                  <l>la mitad de las salchichas,</l>
+                  <l>que salieron del Raton:</l>
+                  <l>cuatro meses le duraron</l>
+                  <l>comiendo á satisfaccion,</l>
+                  <l>y la otra mitad restante</l>
+                  <l>el tejedor lás llevó.</l>
+                  <l>El escribano ingenioso</l>
+                  <l>por sus papeles cojió</l>
+                  <l>las uñas y muy contento</l>
+                  <l>con esta presa quedó:</l>
+                  <l>pues en solo quince dias,</l>
+                  <l>aseguran que ganó</l>
+                  <l>mas de doscientos doblones</l>
+                  <l>con las uñas del Raton.</l>
+                  <l>La muger del zapatero</l>
+                  <l>á la justicia pidió</l>
+                  <l>la muerte de su marido</l>
+                  <l>aunque sin mucha razon,</l>
+                  <l>mas esta por consolarla</l>
+                  <l>prontamente le entregó</l>
+                  <l>el tocino que sobraba</l>
+                  <l>de la muerte del Raton:</l>
+                  <l>Luego la muger del sastre</l>
+                  <l>apenas lo averiguó,</l>
+                  <l>llorando á lágrima viva</l>
+                  <l>ante el juez se presentó;</l>
+                  <l>poco tiempo duró el llanto,</l>
+                  <l>pues luego el juez la entregó</l>
+                  <l>el queso con que la vieja</l>
+                  <l>pensó dar muerte al Raton.</l>
+                  <l>La vieja, que segun dicen,</l>
+                  <l>fue la que mas trabajó</l>
+                  <l>ha sido segun mi juicio,</l>
+                  <l>la que mas cosas perdió</l>
+                  <l>pues ademas de su vida,</l>
+                  <l>es contante que perdió</l>
+                  <l>diez pucheros, seis cazuelas,</l>
+                  <l>un vacin y un tinajon.</l>
+                  <l>En las lslas de <name>Canarias</name></l>
+                  <l>este caso sucedió</l>
+                  <l>en este presente año,</l>
+                  <l>de enero á los veinte y dos.</l>
+                  <l>Si alguno comprar quisiere</l>
+                  <l>los despojos del Raton,</l>
+                  <l>acuda a Fernando Abanda</l>
+                  <l>que es de esta plana el autor</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA=1855. <lb/>Imprenta de D. José María Moreno, Descalzas, nùm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

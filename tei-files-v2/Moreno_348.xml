@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_348">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nueva relación burlesca en la que se refiere el chasco que le dio un arriero a un
+               sacristán</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Nueva relacion burlesca en la que se refiere el
+                     chasco que le diò un Arriero á un Sacristan, con lo demás que verá el curioso
+                     lector.</title>
+                  <title type="titulo_breve">Nueva relacion burlesca en la que se refiere el chasco
+                     que le diò un Arriero á un Sacristan</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5060959</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 379</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_348_1.xml"
+                              facs="fedora_ug8105997/327,388,450,740/100,/0/default.jpg"
+                              >grabado_m_348_1</item>
+                           <item corresp="grabado_m_348_2.xml"
+                              facs="fedora_ug8105997/845,380,484,742/100,/0/default.jpg"
+                              >grabado_m_348_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q367734">
+                  <placeName key="Tarancón">Tarancón</placeName>
+                  <location>
+                     <geo>40.0086075 -3.0102243</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103463/manifest">
+      <graphic url="fedora_ug8105997/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_348_1.jpeg" facs="fedora_ug8105997/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 379.</fw>
+
+               <head type="primer_titulo">
+                  <lb/>NUEVA RELACION BURLESCA, <lb/>en la que se refiere el chasco que le dió un
+                  <lb/>Arriero á un Sacristan, con lo demás que verá <lb/>el curioso lector. </head>
+
+               <l rend="indent">En lo que baña la luna</l>
+               <l>ó en lo que calienta el sol</l>
+               <l>no se puede contar chasco</l>
+               <l>como el que he presenciado yo;</l>
+               <l>qué chistoso, que celebre,</l>
+               <l>qué raro, qué tunanton,</l>
+               <l>acaecido en una Villa</l>
+               <l>que se llama <name>Tarancon</name>,</l>
+               <l>con un Sacristan vicioso</l>
+               <l>muy lascivo y socarron,</l>
+               <l>que servia su parroquia</l>
+               <l>el año cuarenta y dos:</l>
+               <l>fué el caso, que á este sujeto</l>
+               <l>le dominó la pasion</l>
+               <l>de amores, con una jóven</l>
+               <l>que el año anterior casó</l>
+               <l>con Francisco de las Peñas</l>
+               <l>hijo de esta poblacion:</l>
+               <l>este tenia el oficio</l>
+               <l>de cosario ó conductor</l>
+               <l>de encargos para otro pueblo</l>
+               <l>que le llaman <name>Albuidon</name>,</l>
+               <l>distante de allí diez leguas;</l>
+               <l>un dia. de San Anton</l>
+               <l>el cosario fué al Convento,</l>
+               <l>monjas de la Encarnacion,</l>
+               <l>á llevarle á la Priora</l>
+               <l>un pequeñito cajon.</l>
+               <l>con regalos de un sujeto</l>
+               <l>del lugar de <name>Tarancon</name>:</l>
+               <l>entró al locutorio Peñas,</l>
+               <l>y la Priora salió,</l>
+               <l>y en varias conversaciones</l>
+               <l>que pasan entre los dos,</l>
+               <l>tocaron á las efijies</l>
+               <l>trabajadas con primor; </l>
+               <l>y Peñas dijo á la madre,</l>
+               <l>en mi pueblo tengo yo</l>
+               <l>un amigo que es tallista,</l>
+               <l>retratista y escultor:</l>
+
+               <pb n="2" source="Moreno_348_2.jpeg" facs="fedora_ug8106682/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>es hábil mas que ninguno</l>
+               <l>que tenga esta profesion;</l>
+               <l>pues bien, dice la Priora:</l>
+               <l>quiero me haga usted el favor,</l>
+               <l>de mandarle trabajar</l>
+               <l>sin ninguna detencion,</l>
+               <l>un San Sebastian perfecto,</l>
+               <l>porque es nuestra relijion</l>
+               <l>le tenemos á este Santo,</l>
+               <l>estremada devocion:</l>
+               <l>tenemos uno muy viejó</l>
+               <l>y segun calcúlo yo,</l>
+               <l>ha de costar gobernarlo</l>
+               <l>mas que vale, y es mejor,</l>
+               <l>hacer un nuevo, y que sea</l>
+               <l>de aquello mas superior.</l>
+               <l>El cosario dijo al punto;</l>
+               <l>en ello me encargo yo,</l>
+               <l>y luego que se concluya</l>
+               <l>le metere en un arcon,</l>
+               <l>y en mis bestias le tracré</l>
+               <l>para que venga mejor; </l>
+               <l>pues señor, dice la madre,</l>
+               <l>¿quedamos en conclusion</l>
+               <l>en, que queda usted encargado,</l>
+               <l>es corriente, respondió</l>
+               <l>el cosario, y de la madre,</l>
+               <l>muy cortés se despidió.</l>
+               <l>Fué á la posada, y en ella</l>
+               <l>sus Bestias aparejó;</l>
+               <l>y marcha para su casa;</l>
+               <l>luego que á ella llegó;</l>
+               <l>su esposa que bien le estima</l>
+               <l>á recibirfe salió,</l>
+               <l>despues de mirchos requiebros</l>
+               <l>que pasan entre Jósedlos,</l>
+               <l>y ya que hubieron ceñado</l>
+               <l>haciendo conversáción</l>
+               <l>dice la esposa al marido</l>
+               <l>si no fuera por temor</l>
+               <l>de alguna mala resultas.</l>
+               <l>te diera cuenta y razon</l>
+               <l>de asuntos qué por mí pasan;</l>
+               <l>pero tengo alcun temor</l>
+               <l>que tu genio es muy livero,</l>
+               <l>y te enjendrá mal hurñór,</l>
+               <l>El que no era nada tólito</l>
+               <l>al punto se presumió,</l>
+               <l>si algun picarillo amigo</l>
+               <l>le quisiese hacer traicion,</l>
+               <l>y así muy disimulado</l>
+               <l>el márido respondió:</l>
+               <l>muy bien sabes tú Rosita</l>
+               <l>que de mi genio hago yo</l>
+               <l>cuanto quiero, y por lo mismo</l>
+               <l>puedes con satisfacion,</l>
+               <l>contarme cuanto te pase</l>
+               <l>sin ninguia detencion;</l>
+               <l>cuentame, esposa querida</l>
+               <l>no tengas ningun rubor:</l>
+               <l>que tengo yo mas paciencia</l>
+               <l>que el burro de un aguador;</l>
+               <l>pues mira, te lo diré,</l>
+               <l>Rosita le respondió</l>
+               <l>y por Dios que no te enfades</l>
+               <l>que me causa desazon.</l>
+               <l>Has de saber Francisquito,</l>
+               <l>que el Sacristan picaron,</l>
+               <l>hace ya unos cuantos dias</l>
+               <l>que en la calle me encontró</l>
+               <l>viniendo yo de la plaza</l>
+               <l>de haber comprado un melon,</l>
+               <l>y me dijo á Dios Rosita,</l>
+               <l>si ahora fueras tú melon,</l>
+               <l>pana oler los melones</l>
+               <l>a ti te oleria yo;</l>
+               <l>tienes un yo no sé qué</l>
+               <l>Rosa de mi corazón,</l>
+               <l>que me tiene amelonado</l>
+               <l>tu graciosa condicion</l>
+               <l>y si te atreves Rosilla</l>
+               <l>a pagar mi fino amor</l>
+               <l>venderia la solana</l>
+               <l>ó robaria el Copon;</l>
+               <l>para ser agradecido</l>
+               <l>á tan singular favor:</l>
+               <l>yo que lo estube escuchando,</l>
+               <l>me salió tanto calor</l>
+               <l>á la cara, que no pude</l>
+               <l>darle la contestacion;</l>
+               <l>volví la cara y me vine</l>
+               <l>sin decirle arre ni so,</l>
+               <l>y desde aquel mismo dia</l>
+               <l>por mañana, á la oracion,</l>
+               <l>y mas tarde, se pasea</l>
+               <l>por todo este alrededor,</l>
+
+               <pb n="3" source="Moreno_348_3.jpeg" facs="fedora_ug8108669/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>Esto es lo que me ha pasado</l>
+               <l>con este noble señor,</l>
+               <l>yo le aborrezco de muerte;</l>
+               <l>pero me harás él favor</l>
+               <l>de no hablarle una palabra</l>
+               <l>para evitar la ocasion</l>
+               <l>de una riña que produzca</l>
+               <l>una fatal perdicion.</l>
+               <l>El marido con sonfisa</l>
+               <l>á su mujer respondio.</l>
+               <l>descuida Rosita mia,</l>
+               <l>pero me harás el favor</l>
+               <l>de ayudar á armar un lazo,</l>
+               <l>para que ese gran bribon</l>
+               <l>se le dé su merecido</l>
+               <l>del modo que diga yo;</l>
+               <l>ten cuidado cuando pase</l>
+               <l>ese indecente, señor,</l>
+               <l>te muestras á él risueña </l>
+               <l>manifestándole amor,</l>
+               <l>te hablará con mil amorés,</l>
+               <l>le oyes con atencion,</l>
+               <l>y le dices: señor mio,</l>
+               <l>con la vida y corazón</l>
+               <l>deseo servir á usted;</l>
+               <l>pero será en ocasion</l>
+               <l>que mi marido esté fuera,</l>
+               <l>y segun convelsácion</l>
+               <l>tuvimos á noche mismo,</l>
+               <l>sale hoy á la oracion</l>
+               <l>por no sufrir entre el dia</l>
+               <l>tan rigorosa calor,</l>
+               <l>usted acecha su salida</l>
+               <l>y en seguida sin temor</l>
+               <l>se viene á esta su casa,</l>
+               <l>y al cuidado estaré yo</l>
+               <l>para tenerle la puerta</l>
+               <l>abiertá, en disposición</l>
+               <l>que sin ser de nadie vistos</l>
+               <l>disfrutemos nuestro amor,</l>
+               <l>y esto con tales palabras</l>
+               <l>que no sospeche traicion:</l>
+               <l>acto continuo dispongo</l>
+               <l>el viaje para <name>Albuidon</name>,</l>
+               <l>luego que el pájaro esté </l>
+               <l>encerrado en la prision,</l>
+               <l>y diga quiere gozar</l>
+               <l>los perfumes de la flor</l>
+               <l>le dices que tu acostumbras</l>
+               <l>para disfrutar mejor. viba.</l>
+               <l>momentos tan regalados</l>
+               <l>como los presentes son,</l>
+               <l>desnudarte de camisa.</l>
+               <l>y que lo mismó hago yo;</l>
+               <l>no se escusará él tampoco</l>
+               <l>y tú vas dando ocasion, </l>
+               <l>que se desnude él primero;</l>
+               <l>hecha esta operacion </l>
+               <l>le dices: voy a cerrar</l>
+               <l>el postigo del balcon.</l>
+               <l>te asomas y yo estaré</l>
+               <l>en toda esta observácion,</l>
+               <l>llego llamando á la puerta </l>
+               <l>con gran precipitácion,</l>
+               <l>tú te finges asustada</l>
+               <l>y le dices: ay señor, </l>
+               <l>mi marido es el que llama,</l>
+               <l>qué haré yo en esta ocasion?</l>
+               <l>él ansiará por, salvarse</l>
+               <l>y para esto el arcon,</l>
+               <l>aquel largo de cocina</l>
+               <l>lo tienes de prevencion,</l>
+               <l>desocupado y puesto.</l>
+               <l>en la misma habitacion.</l>
+               <l>le mandas se meta en él</l>
+               <l>cual su madre le parió,</l>
+               <l>echas la llave en el arca</l>
+               <l>y queda como el raton;</l>
+               <l>en seguida abres la puerta</l>
+               <l>y dejas á mi eleccion,</l>
+               <l>el resto de aquesta escena</l>
+               <l>que será de admiracion</l>
+               <l>La mujer queda conforme</l>
+               <l>en dar gusto á su senor,</l>
+               <l>con condicion de no herirle,</l>
+               <l>á lo que él condescendió;</l>
+               <l>pues señor todo se hizo</l>
+               <l>como el marido mando;</l>
+               <l>y á las siete de la noche</l>
+               <l>quedó hecha lá prision;</l>
+               <l>entra el marido en la casa. </l>
+               <l>renegando hasta de Dios, </l>
+               <l>á la mujer con oprovios sa</l>
+               <l>porque la puerta no abrio,</l>
+               <l>al punto de su llamada</l>
+               <l>cuando, el primer golpe dió;</l>
+
+               <pb n="4" source="Moreno_348_4.jpeg" facs="fedora_ug8108953/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>ella fingia asustarse</l>
+               <l>y le pedia perdon;</l>
+               <l>pero le dijo en secreto,</l>
+               <l>ya está echa la prision:</l>
+               <l>las bestias deja en la puerta</l>
+               <l>y la escalera subió,</l>
+               <l>diciéndole á la mujer</l>
+               <l>maldito sea el arcon,</l>
+               <l>que lo vendí hace dos meses</l>
+               <l>á las Monjas de <name>Albuidon</name>,</l>
+               <l>y en el viaje pasado</l>
+               <l>y en el otro de anterior,</l>
+               <l>como llevo tanto encargo</l>
+               <l>el maldito se olvidó;</l>
+               <l>ayuda le bajaremos:</l>
+               <l>la mujer muy bien fingió</l>
+               <l>evitando el ayudarle,</l>
+               <l>y él cojiendo un barejon</l>
+               <l>daba en aquellas paredes,</l>
+               <l>con conjuro y maldicion</l>
+               <l>cuanto el que estaba encerrado</l>
+               <l>satisfecho se quedó,</l>
+               <l>de que su amada Rosita</l>
+               <l>no le habia hecho traicion:</l>
+               <l>por fin bajaron el arca</l>
+               <l>arrastrando entre los dos,</l>
+               <l>la suben en una bestia</l>
+               <l>la que con sogas ató,</l>
+               <l>y tomando su camino</l>
+               <l>al dicho pueblo llegó</l>
+               <l>á otro dia de mañana:</l>
+               <l>luego al convento marchó,</l>
+               <l>llamó á la madre Priora,</l>
+               <l>la que al instante salió:</l>
+               <l>le dice: aquí tiene usted</l>
+               <l>la Imágen que me mandó,</l>
+               <l>un san Sebastian hermoso</l>
+               <l>no se hallará otro mejor,</l>
+               <l>al punto abrieron la puerta</l>
+               <l>la comunidad salió,</l>
+               <l>y entre todas ayudaron</l>
+               <l>y subieron el arcon</l>
+               <l>al coro, para sacarle</l>
+               <l>y darle colocacion.</l>
+               <l>Pues Señor llegan al coro,</l>
+               <l>y Peñas el arca abrió;</l>
+               <l> el picaro que está dentro</l>
+               <l>al disimulo se dió,</l>
+               <l>esperando si le dejan</l>
+               <l>una noche de funcion,</l>
+               <l>y sin mover las pestañas</l>
+               <l>como un muerto se quedó;</l>
+               <l>las madres todas le miran</l>
+               <l>y le dan gracias á Dios,</l>
+               <l>y al maestro que habia hecho</l>
+               <l>tan hermosa perfeccion.</l>
+               <l>pero la madre Priora</l>
+               <l>Aparte á Peñas llamó,</l>
+               <l>y le dice: señor mio,</l>
+               <l>muy bien está, si señor</l>
+               <l>pero tiene... pero tiene...</l>
+               <l>y qué tiene? respondió</l>
+               <l>el cosario: y ella dice:</l>
+               <l>tiene... un... que se yo </l>
+               <l>Vuelven á cercarse al arca,</l>
+               <l>la Priora prosiguió,</l>
+               <l>tiene... aquello... que parece</l>
+               <l>segun mi vista un... raton.</l>
+               <l>Dice otra á la Priora;</l>
+               <l>un sudario le haré yo;</l>
+               <l>pero la madre Priora</l>
+               <l>manifiesta desazon,</l>
+               <l>y visto por el cosario</l>
+               <l>al bolsillo mano echó,</l>
+               <l>y sacando una navaja</l>
+               <l>dice: ya se remató,</l>
+               <l>se le corta, y santas pascuas.</l>
+               <l>El sacristan que esto oyó,</l>
+               <l>pega un brinco y la escalera</l>
+               <l>la bajaba dos á dos.</l>
+               <l>Las madres que aquesto vieron</l>
+               <l>á Dios le piden perdon,</l>
+               <l>porque el santo se habia ido</l>
+               <l>por no sufrir tal herror</l>
+               <l>y en aquel estado el santo,</l>
+               <l>á su casa se marchó.</l>
+               <l>Escarmienten los galanes</l>
+               <l>que se andan de flor en flor,</l>
+               <l>porque les puede pasar</l>
+               <l>lo que al sacristan pasó,</l>
+               <l>y de todos mis defectos</l>
+               <l>señores pido perdon.</l>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>REIMPRESO EN CARMONA. Imp. de D. José Maria Moreno.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

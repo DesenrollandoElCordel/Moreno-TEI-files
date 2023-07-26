@@ -1,0 +1,752 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_189">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El contador espiritual</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El contador espiritual. Que contiene un nuevo y
+                     curioso romance declarando por los números lo que debe contemplar para no errar
+                     la cuenta que cada uno hemos de dar de nuestra vida en el tribunal de
+                     Dios.</title>
+                  <title type="titulo_breve">El contador espiritual.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p> Otra impresión (1857): <ref target="Moreno_188.xml">Moreno_188</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473263</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 198</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte. Que contiene del modo que se ha de sumar la cuenta para
+                        no llevarla errada al tribunal de Dios.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1, p. 5)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_189_1.xml"
+                              facs="fedora_ug8105500/221,301,1312,1317/100,/0/default.jpg"
+                              >grabado_m_189_1</item>
+                           <item corresp="grabado_m_189_2.xml"
+                              facs="fedora_ug8103134/632,232,509,679/100,/0/default.jpg"
+                              >grabado_m_189_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q170516">
+                  <placeName key="Calvario">Calvario</placeName>
+                  <location>
+                     <geo>31.778611111111 35.229444444444</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-05" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107053/manifest">
+      <graphic url="fedora_ug8105500/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <pb n="1" source="Moreno_189_1.jpg" facs="fedora_ug8105500/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Número 198.</fw>
+
+            <head rend="negrita" type="primer_titulo">EL CONTADOR ESPIRITUAL.</head>
+            <head rend="cursiva" type="subtitulo">Que contiene un nuevo y curioso romance declarando
+               por los números lo <lb/>que debe contemplar para no errar la cuenta que cada uno
+               hemos de dar <lb/>de nuestra vida en el tribunal de Dios.</head>
+
+            <div n="1" type="parte">
+
+               <head type="titulo_parte">PRIMERA PARTE.</head>
+
+               <l rend="indent">Habiendo considerado</l>
+               <l>que á Dios hemos de dar cuenta,</l>
+               <l>quisiera para no errarla</l>
+               <l>hacer una cuenta nueva;</l>
+               <l>lo que con ella pretendo</l>
+               <l>es dar á entender que sepan</l>
+               <l>lo que se ha de contemplar</l>
+               <l>en los números de cuenta.</l>
+
+               <pb n="2" source="Moreno_189_2.jpg" facs="fedora_ug8105522/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Pongo el uno, luego al punto</l>
+               <l>con mucho amor considera</l>
+               <l>que hay un solo Dios, que es</l>
+               <l>quien crió el cielo y la tierra;</l>
+               <l>que hay sola una Virgen pura</l>
+               <l>á quien no tocó ladeuda</l>
+               <l>del pecado original</l>
+               <l>que cometió Adan y Eva,</l>
+               <l>que en todo el mundo no hay</l>
+               <l>mas que una ley verdadera,</l>
+               <l>que es la ley de Jesucristo,</l>
+               <l>porque las demás son sectas;</l>
+               <l>que hay una gloria no mas,</l>
+               <l>un purgatorio de penas,</l>
+               <l>y un infierno donde siempre</l>
+               <l>los demonios atormentan.</l>
+               <l>La cuenta saldrá cabal</l>
+               <l>si es que asi lo consideras,</l>
+               <l>porque per otro camino</l>
+               <l>no sé si te saldrá cierta.</l>
+               <l>Pon el dos, y luego al punto</l>
+               <l>que tienes dos ojós piensa</l>
+               <l>para no ver cosas malas</l>
+               <l>si para ver cosas bueñas;</l>
+               <l>que Dios te dió dos oidos,</l>
+               <l>porque con ellos oyeras</l>
+               <l>del predicador las voces,</l>
+               <l>del confesor las sentencias;</l>
+               <l>que tienes tambien dos labios,</l>
+               <l>para que pronunciar puedas</l>
+               <l>las cosas de Dios bien claras</l>
+               <l>como lo son ellas mismas:</l>
+               <l>que tienes en las narices</l>
+               <l>dos ventanas con que huelas</l>
+               <l>de la gloria la fragancia</l>
+               <l>ó el hedor de las cabernas; </l>
+               <l>que tienes tambien dos manos</l>
+               <l>para remediar con ellas,</l>
+               <l>si acaso fuese posíble,</l>
+               <l>del prógimo las miserias;</l>
+               <l>dos pies para que camines</l>
+               <l>por la verdadera senda,</l>
+               <l>huyendo del precipicio</l>
+               <l>que la culpa te acarrea.</l>
+               <l>Esto es lo que el dos contiene, </l>
+               <l>y sabrás que se aumentan</l>
+               <l>sumando de aquesta suerte</l>
+               <l>dos millones de riqüezas.</l>
+               <l>Al poner el tres, te digo</l>
+               <l>que es fuerza que te detengas,</l>
+               <l>por ser el número tres</l>
+               <l>el que mas valor encierra:</l>
+               <l>Contemplarás en principio</l>
+               <l>con humilde reverencia</l>
+               <l>las tres divinas personas</l>
+               <l>de la Trinidad inmensa:</l>
+               <l>luego, que tienes un alma</l>
+               <l>formada de tres potencias,</l>
+               <l>pero que hay tres enemigos</l>
+               <l>que han de combatir con ellas</l>
+               <l>que han de tener tres virtudes</l>
+               <l>para que nunca la venzan;</l>
+               <l>Fé, Esperanza y Caridad,</l>
+               <l>armas con que se defienda.</l>
+               <l>Que recien nacido Cristo,</l>
+               <l>vinieron con diligencia</l>
+               <l>tres reyes á visitarlo</l>
+               <l>y à ofrecerle tres ofrendas:</l>
+               <l>que subió á transfigurarse</l>
+               <l>al Tabor, y con él lleva</l>
+               <l>tres discipulos que fuesen</l>
+               <l>testigos de su grandeza;</l>
+               <l>que oró en el Huerto tres veces</l>
+               <l>y que fué por culpas nuestra</l>
+               <l>amarrado con tres sogas</l>
+               <l>de Dios la suma inocencia:</l>
+               <l>que negó tres veces Pedro</l>
+               <l>y que con lágrimas tiernas</l>
+               <l>lloró su culpa, y quedó</l>
+               <l>absuelto de culpa y pena,</l>
+               <l>que anduvo tres tribunales</l>
+               <l>para darle la sentencia:</l>
+
+               <pb n="3" source="Moreno_189_3.jpg" facs="fedora_ug8110179/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>y la Cruz en que murió</l>
+               <l>que fué de tres palos hecha;</l>
+               <l>que llevándole al <name>Calvario</name></l>
+               <l>cayó tres veces con ella,</l>
+               <l>para que tú no cayeses</l>
+               <l>en las profundas cabernas;</l>
+               <l>que limpiado con un lienzo</l>
+               <l>su Rostro, nos dejó impresa</l>
+               <l>tres Veróficas, que hoy dia</l>
+               <l>en el mundo se conservan:</l>
+               <l>que fué clavádó en la Cruz</l>
+               <l>con tres clavos sin clemencia</l>
+               <l>y le dieron tres barrenos</l>
+               <l>por donde los clavos entran;</l>
+               <l>que estando al pié de la Cruz</l>
+               <l>paso la sagrada Reina</l>
+               <l>tres grandes necesidades</l>
+               <l>todas de cóngojas llenas:</l>
+               <l>que bajáron de la Cruz</l>
+               <l>á la difunta inocencia</l>
+               <l>tres varones y en los brazos</l>
+               <l>de su Madre se lo entregan:</l>
+               <l>que pusieron al sepulcro</l>
+               <l>tres guardias, y considera</l>
+               <l>que estando tres dias dentro</l>
+               <l>salió sin que éllos le vieran:</l>
+               <l>que salieron á buscarle</l>
+               <l>tres Marias con gran priesa,</l>
+               <l>que el que vá buscando á Dios</l>
+               <l>no es razón que se detenga.</l>
+               <l>Esto es del número tres</l>
+               <l>el grande valor que encierra,</l>
+               <l>si al formarle en cualquier parte</l>
+               <l>con amor lo consideras.</l>
+               <l>Al poner el cuarto, mira</l>
+               <l>cuatro Evangelios que enseñan</l>
+               <l>con claridad y patente</l>
+               <l>de Dios la ley verdadera.</l>
+               <l>Que hubo cuatro evangelitas,</l>
+               <l>que escribieron con prudencia,</l>
+               <l>siendo de Dios alumbrados</l>
+               <l>las sacras divinas letras.</l>
+               <l>Que crió cuatro elementos</l>
+               <l>con que el mundo se conserva</l>
+               <l> y que el año en cuatro tiempos</l>
+               <l>se parte sin diferencia;</l>
+               <l>que tu tienes cuatro humores</l>
+               <l> que cuatro edades te esperan</l>
+               <l>para vivir en el mundo</l>
+               <l>si acaso á ser viejo llegas.</l>
+               <l>Contemplarás en el cinco</l>
+               <l>que la Santa Madre Iglesia,</l>
+               <l>con sus cinco Mandamientos</l>
+               <l>te manda que la obedezcas, </l>
+               <l>que aquesos cinco sentidos</l>
+               <l>que tienes en la cabeza,</l>
+               <l>son para servir á Dios</l>
+               <l>con humilde reverencia;</l>
+               <l>que dejó Cristo en su cuerpo</l>
+               <l>cínco llagas, porque puedas</l>
+               <l>conocer el grande amor</l>
+               <l>que le obligó á padecerlas.</l>
+               <l>Al poner el seis, dirás,</l>
+               <l>que seis mil millones sea</l>
+               <l>bendecida y alabada </l>
+               <l>de Dios la suma grandeza.</l>
+               <l>Al siete conocerás</l>
+               <l>que la santa Madre Iglesia</l>
+               <l>te dá siete Sacramentos</l>
+               <l>para que te fortalezcas;</l>
+               <l>que hay siete culpas mortales</l>
+               <l>y que es menester que tengas</l>
+               <l>siete virtudes que estan</l>
+               <l>contra estos vicios opuestas:</l>
+               <l>que dijo siete palabras</l>
+               <l>Cristo en la Cruz cuando cerca</l>
+               <l>estaba para espirar</l>
+               <l>por redimir tus ofensas.</l>
+               <l>Aquellos siete dolores</l>
+               <l>de la Virgen, considera,</l>
+               <l>cuyas penetradas puntas</l>
+               <l>el corazon atraviesan.</l>
+
+               <pb n="4" source="Moreno_189_4.jpg" facs="fedora_ug8109739/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>Formando el ocho, diras,</l>
+               <l>que ochenta mil veces sea </l>
+               <l>por todo el mundo aplaudída</l>
+               <l>de Dios la ley verdadera.</l>
+               <l>Formarás el nueve, y luego</l>
+               <l>levantarás la cabeza</l>
+               <l>al cielo, donde verás</l>
+               <l>el sol la luna y estrellas</l>
+               <l>considerando en el nueve</l>
+               <l>los nueves coros que encierran</l>
+               <l>para que á Dios siempre alaben</l>
+               <l>divinas inteligencias.</l>
+               <l>Formarás el dia diez, pensando</l>
+               <l>que la ley de Diós ordena</l>
+               <l>que guardes diez Mandamientos, </l>
+               <l>so pena de grande pena,</l>
+               <l>de no quebrantar ninguno</l>
+               <l>tendrás siempre grando cuenta</l>
+               <l>ya que asi Dios te lo manda</l>
+               <l>razon es que lo obedezcas,</l>
+               <l>y mira que el diez se forma</l>
+               <l>con dos numero que enseña</l>
+               <l>lo que vá de Dios al mundo</l>
+               <l>si entrambos los consideras.</l>
+               <l>Con un uno y con un cero</l>
+               <l>forma el diez, y al punto piensa</l>
+               <l>que el uno es un solo Dios</l>
+               <l>y el cero al mundo semeja;</l>
+               <l>si pones el cero solo</l>
+               <l>y el uno por poner dejas,</l>
+               <l>dirás; cero y no vá nada</l>
+               <l>con que sin nada te quedas:</l>
+               <l>y asi podrás reparar</l>
+               <l>que si del mundo haces cuenta,</l>
+               <l>dirás; cero y no va nada,</l>
+               <l>y por el mundo á Dios dejas;</l>
+               <l>deja el mundo y busca á Dios</l>
+               <l>que en Dios están las riquezas</l>
+               <l>porque el mundo es como el cero</l>
+               <l>que solo habla con la cuenta.</l>
+               <l>¿Cuantos en aqueste mundo.</l>
+               <l>habrás visto con riquezas.</l>
+               <l>y despues los verás pobres, </l>
+               <l>pidiendo de puerta en puerta,</l>
+               <l>y si esto lo miras bien</l>
+               <l>hallarás por cosa cierta</l>
+               <l>que las cosas de este mundo</l>
+               <l>son cosas perecederas.</l>
+               <l>Verás un hombre llevado</l>
+               <l>de vanidad y soberbia</l>
+               <l>que no cabe en este mundo</l>
+               <l>por su valor y su fuerza,</l>
+               <l>mas en llegando á la muerte,</l>
+               <l>el que tan temido era</l>
+               <l>no cabiendo en todo el mundo</l>
+               <l>cupo en siete pies de tierra.</l>
+               <l>Pues dí; cero y no vá nada,</l>
+               <l>que cuando menos lo piensas</l>
+               <l>vuelves á la misma nada</l>
+               <l>por ser de la nada mesma;</l>
+               <l>por lo cual procura siempre</l>
+               <l>en cuanfas cosas emprendas</l>
+               <l>de poner á Dios primero,</l>
+               <l>porque el uno valor tenga.</l>
+               <l>Porque la cuenta no yerres,</l>
+               <l>válete de aquella Reina</l>
+               <l>que en todas las aflicciones</l>
+               <l>por los pecadores ruega;</l>
+               <l>rezala siempre el rosario</l>
+               <l>con fervor y reverencia,</l>
+               <l>saldrás con la cuenta bien</l>
+               <l>como ella te favorezca;</l>
+               <l>aqui el poétarendido</l>
+               <l>á aquesta parte primera</l>
+               <l>dá fin, porque en la segunda</l>
+               <l>decir lo que falta intenta.</l>
+               <l>Fin de la primera parte.</l>
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="5" source="Moreno_189_5.jpg" facs="fedora_ug8103134/full/full/0/default.jpg"/>
+
+               <head type="titulo_parte">SEGUNDA PARTE.</head>
+               <head rend="cursiva" type="subtitulo_parte">Que contiene del modo que se ha de sumar
+                  la cuenta para no llevarla <lb/>errada al tribunal de Dios.</head>
+
+               <l rend="indent">Habiendo, lector discreto,</l>
+               <l>prometido de la cuenta</l>
+               <l>sacar la segunda parte,</l>
+               <l>quiero cumplir la promesa.</l>
+               <l>Lo primero, declarar</l>
+               <l>es la suma de esta cuenta,</l>
+               <l>que despues de estar sumada</l>
+               <l>le sacaremos la prueba.</l>
+               <l>Suma pues, lector amigo,</l>
+               <l>de Dios la suma grandeza,</l>
+               <l>el poder, la magestad.</l>
+               <l>el saber, la providencia:</l>
+               <l>el grande amor, la piedad,</l>
+               <l>la mansedumbre y paciencia;</l>
+               <l>y en fin que es incomprensible</l>
+               <l>porque nadie lo penetra.</l>
+               <l>Si lo sumas poderoso,</l>
+               <l>mira al cielo, á las estrellas,</l>
+               <l>al sol, la luna, los astros,</l>
+               <l>con todos esos planetas.</l>
+               <l>Verás una arquitectura,</l>
+               <l>cuya fábrica opulenta</l>
+               <l>dá á entender con su hermosura</l>
+               <l>que solo Dios pudo hacerla.</l>
+               <l>Si miras con atencion</l>
+               <l>al circulo de la tierra,</l>
+               <l>verás las gentes, las aves,</l>
+               <l>los frutos, las menudencias</l>
+               <l>de pequeñuelos gusanos,</l>
+               <l>cuya multitud sustenta</l>
+               <l>el poder de Dios, que él solo</l>
+               <l>es quien sustentarlo pueda.</l>
+               <l>Si le sumas sábio, mira</l>
+               <l>y ten por cosa muy cierta</l>
+               <l>que el pensamiento mas leve</l>
+               <l>no se escapa de su ciencia.</l>
+               <l>Si lo sumas amoraso,</l>
+               <l>con humildad considera</l>
+               <l>que de tu amor obligado</l>
+               <l>dió la vida con afrenta.</l>
+               <l>Si piadoso, ¿donde pudo</l>
+               <l>caber piedad que ofreciera</l>
+
+               <pb n="6" source="Moreno_189_6.jpg" facs="fedora_ug8110112/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>la vida siendo tú el reo</l>
+               <l>para que tú no murieras?</l>
+               <l>Si paciente, ¿donde pudo</l>
+               <l>tan invencible paciencia,</l>
+               <l>que te ofrece beneficios</l>
+               <l>cuando tú le haces ofensas?</l>
+               <l>Si lo sumas justiciero,</l>
+               <l>tendrás por cosa muy cierta</l>
+               <l>que dejára de ser Dios</l>
+               <l>antes que injusticia hiciera.</l>
+               <l>Si incomprensible, no dudes</l>
+               <l>que es imposible que pueda</l>
+               <l>comprenderle cosa alguna</l>
+               <l>ni en los cielos ni en la tierra.</l>
+               <l>Sumando de Dios lo grande,</l>
+               <l>sumarás de tu bajeza,</l>
+               <l>lo débil, lo quebradizo,</l>
+               <l>la frágil naturaleza</l>
+               <l>el poco caudal que tienes:</l>
+               <l>pues si bien lo consideras,</l>
+               <l>no hay cosa que sea tuya,</l>
+               <l>sino es que la culpa sea.</l>
+               <l>Suma ahora la distancia</l>
+               <l>que hay de la suma grandeza</l>
+               <l>de Dios á la poquedad</l>
+               <l>de tu sobrada miseria,</l>
+               <l>y en sumándola podrás</l>
+               <l>afrentarte de vergüenza,</l>
+               <l>de que ofenda à un Dios tan grande</l>
+               <l>una cosa tan pequeña.</l>
+               <l>Ahora podrás sumar</l>
+               <l>que siempre que ingrato pecas,</l>
+               <l>à donde quiera que estás,</l>
+               <l>está Dios en tu presencia.</l>
+               <l>Dios está en todo lugar,</l>
+               <l>asi la fé nos enseña,</l>
+               <l>con que estará con el hombre</l>
+               <l>adonde quiera que peca.</l>
+               <l>Dios es puro é impecable,</l>
+               <l>la culpa es horrible y fea,</l>
+               <l>pues mira, ¿qué dirá Dios</l>
+               <l>cuando en su presencia pecas?</l>
+               <l>Deja el pecado, cristiano,</l>
+               <l>mira que es tu conveniencia,</l>
+               <l>que en pecar ó no pecar</l>
+               <l>está tú gloria ó tú pena.</l>
+               <l>Suma ahora de tus culpas</l>
+               <l>la cantidad con presteza</l>
+               <l>las dirás al confesor</l>
+               <l>con propósito de enmienda.</l>
+               <l>Deja los vanos deleites</l>
+               <l>y busca la penitencia,</l>
+               <l>pues para subir al cielo</l>
+               <l>es la mas firme escalcra.</l>
+               <l>Repara que un monte espeso</l>
+               <l>en sus entrañas encierra</l>
+               <l>zarzas, abrojos y espinos</l>
+               <l>con otras muchas malezas,</l>
+               <l>y que un labrador le tala,</l>
+               <l>le arranca, destruye y quema,</l>
+               <l>le cultiva, y cultivado,</l>
+               <l>de hermoso trigo le siembra,</l>
+               <l>y aquel que antes amparaba</l>
+               <l>en sus concabos las fieras,</l>
+               <l>ahora dá trigo hermoso</l>
+               <l>con que el trigo se sustenta;</l>
+               <l>pues tala, quema y arranca</l>
+               <l>de tu gran Dios las ofensas,</l>
+               <l>y cultivate á ti mismo</l>
+               <l>con áspera penitencia.</l>
+               <l>Siembra luego de virtudes</l>
+               <l>tu alma, no te detengas,</l>
+               <l>que siempre sembrar temprano</l>
+               <l>suele ser mejor cosecha.</l>
+               <l>Dos cosas quiero pedirte</l>
+               <l>porque en memoria las tengas,</l>
+               <l>que como no las olvides</l>
+               <l>serán para tí muy buenas.</l>
+               <l>Que has de ser antorcha ó leño</l>
+               <l>te quiero decir que sépas,</l>
+               <l>leño, si el pecado sigues,</l>
+               <l>bella antorcha, si le dejas</l>
+
+               <pb n="7" source="Moreno_189_7.jpg" facs="fedora_ug8108775/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>leño, para ser tizon</l>
+               <l>en las profundas cabernas,</l>
+               <l>antorcha, para lucir</l>
+               <l>en las celestiales fiestas.</l>
+               <l>De ser leño á ser antorcha</l>
+               <l>saca tu la consecuencias,</l>
+               <l>y escoge de estas dos cosas</l>
+               <l>la que mejor te parezca.</l>
+               <l>Si leño quieres quedarte</l>
+               <l>suma las horribles penas</l>
+               <l>con que son atormentados</l>
+               <l>los que erraron estas cuentas.</l>
+               <l>Procura ser como el agua,</l>
+               <l>que comenzando entre peñas,</l>
+               <l>si pasa por angosturas</l>
+               <l>sale mas clara y masfresca;</l>
+               <l>al contrario si muy ancha,</l>
+               <l>por donde pasa navega,</l>
+               <l>saldrá turbia, gorda y mala,</l>
+               <l>que nadie pueda beberla.</l>
+               <l>Si tú, cristiano te angostas</l>
+               <l>te humillas y te sugetas</l>
+               <l>á la ley de Dios, saldrá</l>
+               <l>como el agua clara y fresca;</l>
+               <l>mas si quieres ensancharte</l>
+               <l>caminando á rienda suelta,</l>
+               <l>darás en un precipicio</l>
+               <l>donde despreciado mueras,</l>
+               <l>pon freno à tus apetitos,</l>
+               <l>tírate bien de la rienda,</l>
+               <l>que has costado mucho á Dios</l>
+               <l>y es lástima que te pierdas.</l>
+               <l>Ya sé queno pecarás</l>
+               <l>si con amor consideras</l>
+               <l>como Dios por tí pasó</l>
+               <l>tantas injurias y afrentas.</l>
+               <l>Considera que bajó</l>
+               <l>desde el cielo hasta la tierra,</l>
+               <l>y que nació en un portal</l>
+               <l>con humildad y pobreza.</l>
+               <l>Saca de aqui el poco caso</l>
+               <l>que debes hacer de haciendas,</l>
+               <l>de empleos, de dignidades,</l>
+               <l>de mandos ni de riquezas,</l>
+               <l>que las cosas de esta vida</l>
+               <l>son cosas perecederas,</l>
+               <l>y cosas que no son firmes</l>
+               <l>no se ha de hacer caso de ellas.</l>
+               <l>Mira á Maria Egipciaca,</l>
+               <l>que haciendo á Dios mil ofensas,</l>
+               <l>pasaba lo mas del tiempo</l>
+               <l>necesidades estremas;</l>
+               <l>enmendóse del pecado</l>
+               <l>y haciendo de èl penitencia</l>
+               <l>la sugetaba el Señor</l>
+               <l>no comiendo mas que yerbas:</l>
+               <l>de aqui puedes inferir</l>
+               <l>que el pecado no sustenta,</l>
+               <l>que antes destruye y acaba</l>
+               <l>la complexion sana y buena.</l>
+               <l>La gracia de Dios alivia</l>
+               <l>las fatigas, las miserias,</l>
+               <l>las congojas y las ancias,</l>
+               <l>los trabajos y las penas,</l>
+               <l>¿pues cuanto mejor será</l>
+               <l>buscar á Dios porque puedas</l>
+               <l>hallar en tus aflicciones</l>
+               <l>el alivio que desas?</l>
+               <l>Animo, pues lector mio,</l>
+               <l>valor, tu espiritu alienta</l>
+               <l>para dejar el pecado</l>
+               <l>y para buscar la enmienda.</l>
+               <l>Considera por tu vida</l>
+               <l>que no hay nadie que merezca</l>
+               <l>ser mas amado, que Dios,</l>
+               <l>en las cielos y en la tierra.</l>
+               <l>Amale, pues, lector mio,</l>
+               <l>ofreciéndote de veras</l>
+               <l>antes perder cien mil vidas</l>
+               <l>que volver á hacerle ofensas:</l>
+               <l>mirar que su Magestad</l>
+               <l>te está aguardando que vengas,</l>
+
+               <pb n="8" source="Moreno_189_8.jpg" facs="fedora_ug8108489/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>que en pies, manos y costado</l>
+               <l>estan las puertas abiertas.</l>
+               <l>Mira que es Pastor que sabe</l>
+               <l>recoger bien sus ovejas,</l>
+               <l>que las compró con su sangre</l>
+               <l>y siente mucho perderlas,</l>
+               <l>llégate contrito y dile:</l>
+               <l>sacro Rey del cielo y tierra,</l>
+               <l>de yo haberos ofendido</l>
+               <l>una y mil veces me pesa;</l>
+               <l>prometo de aqui adelante</l>
+               <l>de mis pecados la enmienda</l>
+               <l>ayudado de la gracia</l>
+               <l>de vuestra bondad inmensa.</l>
+               <l>Muchas son, Señor, mis culpas,</l>
+               <l>mas tengo por cosa cierta,</l>
+               <l>que por muchas que ellas sean</l>
+               <l>es mayor vuestra clemencia.</l>
+               <l>Amparadme, gran Señor,</l>
+               <l>de aquel lobo que desea</l>
+               <l>comerme, puesto que sois</l>
+               <l>Vos Pastor y yo la oveja.</l>
+               <l>No permitais, Jesus mio,</l>
+               <l>que tal mi desdicha sea,</l>
+               <l>pues por no ampararme Vos</l>
+               <l>él me coja entre sus presas.</l>
+               <l>Pongo por mi intercesora</l>
+               <l>con Vos para mí defensa</l>
+               <l>á vuestra divina Madre,</l>
+               <l>que es del Cielo y Tierra Reina,</l>
+               <l>que yo tengo por sin duda</l>
+               <l>que sumaré bien la cuenta</l>
+               <l>que tengo de dar á Vos</l>
+               <l>como ella me favorezca.</l>
+               <l>Reina de las gerarquias,</l>
+               <l>cuya magestad celebran</l>
+               <l>las que rúbicas escuadras,</l>
+               <l>divinas inteligencias;</l>
+               <l>que seais mi protectora,</l>
+               <l>humilde mi amor os ruega</l>
+               <l>para que Dios me recoja</l>
+               <l>y porque yo no me pierda,</l>
+               <l>que yo tambien os prometo,</l>
+               <l>en tanto que vida tenga,</l>
+               <l>de rezar vuestro rosario</l>
+               <l>con fervor y reverencia.</l>
+               <l>Aquesta es, lector discreto.</l>
+               <l>la suma de aquesta cuenta,</l>
+               <l>y ya que la suma sabes</l>
+               <l>te quiero decir la prueba.</l>
+               <l>¿Cuantos bienaventurados</l>
+               <l>gozan de Dios la presencia</l>
+               <l>porque dijerón las culpas</l>
+               <l>buscando la penitencia?</l>
+               <l>¿Cuantos perdieron las vidas</l>
+               <l>al rigor de la inclemencia</l>
+               <l>de bárbaros que querian</l>
+               <l>reducirlos á las sectas?</l>
+               <l>¡Que dolores! ¡que fatigas!</l>
+               <l>¡que trabajos, y que penas</l>
+               <l>los mártires padecieron</l>
+               <l>por no errar aquestas cuentas</l>
+               <l>La prueba saldrá cabal,</l>
+               <l>si se mira y considera</l>
+               <l>que el que la acierta se salva,</l>
+               <l>y se pierde el que la yerra.</l>
+               <l>Ama á Dios; deja el pecado</l>
+               <l>que asi la cuenta es cierta,</l>
+               <l>que amar á Dios sin pecar</l>
+               <l>es la verdadera prueba.</l>
+               <l>Aqui, discrito lector,</l>
+               <l>la suma de aquesta cuenta</l>
+               <l>da fin, pidiendo perdon</l>
+               <l>las faltas de mi rudeza.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. de D. J. M.a M. calle de Madre de Dios n. 1.</p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

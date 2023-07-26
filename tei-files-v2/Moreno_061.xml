@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_061">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación burlesca de don Juan Ferlaque francés</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion burlesca de don Juan Ferlaque
+                     frances.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6452561</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Relación</item>
+                        <item>Canción</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Relación burlesca de don Juan Ferlaque frances</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Canción del tutile vendu</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_061_1.xml"
+                              facs="fedora_ug8105814/362,322,582,884/100,/0/default.jpg"
+                              >grabado_m_061_1</item>
+                           <item corresp="grabado_m_061_2.xml"
+                              facs="fedora_ug8105814/937,272,491,929/100,/0/default.jpg"
+                              >grabado_m_061_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q1296">
+                  <placeName key="Gante">Gante</placeName>
+                  <location>
+                     <geo>51.05361111111111 3.725277777777778</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q220">
+                  <placeName key="Roma">Roma</placeName>
+                  <location>
+                     <geo>41.893055555556 12.482777777778</geo>
+                  </location>
+               </place>
+               <place n="3" corresp="Q142">
+                  <placeName key="Francia">Francia</placeName>
+                  <location>
+                     <geo>47 2</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q183">
+                  <placeName key="Alemania">Alemania</placeName>
+                  <location>
+                     <geo>51 10</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+            <language ident="">Habla andaluza</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-05" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106094/manifest">
+      <graphic url="fedora_ug8105814/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <div>
+                  <pb n="1" source="Moreno_061_1.jpg"
+                     facs="fedora_ug8105814/full/full/0/default.jpg"/>
+
+                  <fw type="impresorNum">(Número 71.)</fw>
+
+                  <head type="primer_titulo">
+                     <lb/>RELACION BURLESCA <lb/>DE <hi rend="negrita">
+                        <lb/>DON JUAN FERLAQUE <lb/>FRANCES. </hi>
+                  </head>
+
+                  <l rend="indent">Albricias, señores mius,</l>
+                  <l>servitor bella medame:</l>
+                  <l>á fé mia que me alegru,</l>
+                  <l>si por vide de mi alme,</l>
+                  <l>de haber llegado á ocaciun,</l>
+                  <l>de meter mi cucharade,</l>
+                  <l>que pareciera yo ser</l>
+                  <l>un señor de la capache,</l>
+                  <l>si yo aqui no digera</l>
+                  <l>mi historie emargue.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Yo naci en la ciudad de <name>Gante</name>,</l>
+                  <l>la mas rica y porpulenta</l>
+                  <l>de los estatis de Francie</l>
+                  <l>Lu si señor.</l>
+                  <l>Eran mis padres muy ricos,</l>
+                  <l>y de muy lindo linaje.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Pues de mi pequeña edad</l>
+                  <l>me crie por esus calles,</l>
+                  <l>futti vendiendo vinagrí, </l>
+                  <l>y viviendo entre españolos, </l>
+                  <l>que son lu pie de lu diable</l>
+                  <l>Lu si señor.</l>
+
+                  <pb n="2" source="Moreno_061_2.jpg"
+                     facs="fedora_ug8108744/full/full/0/default.jpg"/>
+
+                  <l rend="indent">Viendome yu tan buenmoze, </l>
+                  <l>muchachitti muy gallardi,</l>
+                  <l>quise prenderme de amoris</l>
+                  <l>de una señorita como</l>
+                  <l>aquella que esta alli sentatí,</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">La vide un dia en lu iglesiu,</l>
+                  <l>y empezando á requebrarle,</l>
+                  <l>lé dije sierva de Diu,</l>
+                  <l>sirvase usted de darme</l>
+                  <l>manu y palabra desposu,</l>
+                  <l>he yu su querido amante,</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Me respondiu tan atenta,</l>
+                  <l>tan cortes y tan ufaní</l>
+                  <l>que estimabe lu favore</l>
+                  <l>de cagalleritu tant grandi,</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Alegrómo lu noticie,</l>
+                  <l>quise sacarle un regale,</l>
+                  <l>fui á mi casa y busqué</l>
+                  <l>lu lleve de la arque;</l>
+                  <l>con que le furté á mi padre</l>
+                  <l>treinta patates de plate.</l>
+                  <l>Lu si señor,</l>
+                  <l rend="indent">Con que le compré á la novie</l>
+                  <l>mierdus, papates pomade,</l>
+                  <l>moníquis para lus puñus,</l>
+                  <l>guantitis para lis manis,</l>
+                  <l>tambien le compre un mondille</l>
+                  <l>para que en el faga encaje,</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Conoció mi padre el furtu,</l>
+                  <l>y dándome puñetaci, </l>
+                  <l>y tantu toli lu diaple, </l>
+                  <l>que si no fuera por mi madrí,</l>
+                  <l>las orejas me arrancabe,</l>
+                  <l>como cambanu en el aire,</l>
+                  <l>Lu si señor,</l>
+                  <l rend="indent">De alli me escape fuyendo,</l>
+                  <l>me fui á casa de mi compadre,</l>
+                  <l>donde habie cuatru amigus, </l>
+                  <l>amigus, mas que del alme,</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Entre lus catre me cojen,</l>
+                  <l>me llevan á el hospitale,</l>
+                  <l>que le llamen de Santane</l>
+                  <l>finguiendo que estaba male.</l>
+                  <l>Lu si señor</l>
+                  <l rend="indent">Dunde me dejan en una came,</l>
+                  <l>cuando á el cabu de un gran rati,</l>
+                  <l>vinu un dimuñu de cagallerí</l>
+                  <l>tan vestiti, tan portati,</l>
+                  <l>él traia su espadinu,</l>
+                  <l>y su pellucon tan grande,</l>
+                  <l>un sumbreru de tres picus,</l>
+                  <l>una casacu tan largi,</l>
+                  <l>era el señor Mericuli.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Hé me dice: Juan Ferlaque, </l>
+                  <l>cumu vá? Dime al instante,</l>
+                  <l>cuandu asi per lu muñecu?</l>
+                  <l>á fina empezó á sobarme.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">A este es menester sangrarle,</l>
+                  <l>y echarle prestu une ayude,</l>
+                  <l>y estu que nu se dilate.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Cuando al cabu de un gran rati</l>
+                  <l>vino utru cagalleriti,</l>
+                  <l>no tan ben bestiti, ní tan portati,</l>
+                  <l>cumo el que vinu primeru:</l>
+                  <l>dice: Juan Ferlaque,</l>
+                  <l>saca lu pie para levarti;</l>
+                  <l>saquelu y me lu lavó,</l>
+                  <l>cuandu al cabu de utru rati, </l>
+                  <l>sacú un demoñu de un per futite</l>
+                  <l>deste tamañu de largui,</l>
+                  <l>tan beniti, que parecie de plate:</l>
+                  <l>de alli saco un pichoniti,</l>
+                  <l>y mediu tal pichonati,</l>
+                  <l>que vive Cristi de duy, </l>
+                  <l>que alboroté lu hospitali.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Pues no fue estu lu peore:</l>
+                  <l>porque á el cabu de otru ratí</l>
+                  <l>vinu el hermanu Fuse,</l>
+                  <l>con un demuño de un ferintgoti</l>
+                  <l>deste tamañu de largí,</l>
+                  <l>con un demoñi de un piqui, </l>
+                  <l>que pareci piqui de gavilani.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Dice Juan Ferlaque, culi en pompi.</l>
+                  <l>hermanu Fuse, ¿quiere forsarmí?</l>
+                  <l>Vaya á forsar á su padre;</l>
+                  <l>ó á su querida madri;</l>
+
+                  <pb n="3" source="Moreno_061_3.jpg"
+                     facs="fedora_ug8104544/full/full/0/default.jpg"/>
+
+                  <l>cuandu empiesa en altas voces.</l>
+                  <l>hermanu Pietri, hermanu Antoni,</l>
+                  <l>é tambien hermanu Juani:</l>
+                  <l>acudin tres muchachitis,</l>
+                  <l>cumu tres lindus galanis,</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Y entre lus catri me cojen,</l>
+                  <l>y me ponian boquibaji,</l>
+                  <l>y po el fodi de tras</l>
+                  <l>metiu lo pico de lo gavilani.</l>
+                  <l>Dice: Juan Ferlaque sorvi:</l>
+                  <l>yu le dije llorandi: hay hermanu</l>
+                  <l>Fuse; que ya sorbo,</l>
+                  <l>attuvi y megdiu de caldi;</l>
+                  <l>me meten en este cuerpu,</l>
+                  <l>que cuarenta cursos hice</l>
+                  <l>larguillus, porque un falti.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Cuando al cabi de otro rati</l>
+                  <l>vinu el de moñu del señor Mericuli,</l>
+                  <l>que yu lu mirabe cumu lu diapli;</l>
+                  <l>dice, Juan Ferlaque,cumu va;</l>
+                  <l>ya estoy buenu venga la ropu,</l>
+                  <l>que me quieru ir á la calle:</l>
+                  <l>diérunmela y me salí</l>
+                  <l>dandu al diaple lu hospitali,</l>
+                  <l>y mirandu fasia atras,</l>
+                  <l>á ver si venia el demoñu</l>
+                  <l>del hermanu Fuse é compañeru</l>
+                  <l>cun el demuñu del feringoti</l>
+                  <l>otra vez á feringarme.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">De alli me parti á mi case,</l>
+                  <l>donde estaba asi mi queridu</l>
+                  <l>padre cumo mi querida madre,</l>
+                  <l>y me decia mi madre:</l>
+                  <l>Juan Ferlaque, tú sabes,</l>
+                  <l>como aquella bella niña,</l>
+                  <l>que tú adorabes de antis,</l>
+                  <l>era tu prime segunde?</l>
+                  <l>Y ha enviado tu padre</l>
+                  <l>á <name>Roma</name> por lu licencia,</l>
+                  <l>para que te casi el Papi.</l>
+                  <l>Alegromi esta noticia:</l>
+                  <l>de alli fuimus á la iglesiu,</l>
+                  <l>donde estaba asi mi queridu</l>
+                  <l>padre, como mí querida madre,</l>
+                  <l>nobie, y compañamiento.</l>
+                  <l>Luego vinu el Padre curu,</l>
+                  <l>nos echo las bendiciones,</l>
+                  <l>quedamos como unos diaplis.</l>
+                  <l>Lu sí señor.</l>
+                  <l rend="indent">De alli fuimus á micase</l>
+                  <l>hubu unu cenu muy ricu</l>
+                  <l>hubu unu gasto muy grandi</l>
+                  <l>hubu palitos de zeresu;</l>
+                  <l>albondiga de tumati</l>
+                  <l>hubu un gisoti de perru,</l>
+                  <l>que lu pudia comer le diaple.</l>
+                  <l>Lu si señor.</l>
+                  <l rend="indent">Con el cuti de nuvi</l>
+                  <l>me pusu mi padri un tratí</l>
+                  <l>dundi lu pusu con decenciu.</l>
+                  <l>Soy merceder de lu anchu,</l>
+                  <l>dun de vendu, berengenus,</l>
+                  <l>calabazus y tomatis.</l>
+                  <l>Esta es mi historia, señuris,</l>
+                  <l>ustedes perdonaranmi,</l>
+                  <l>que yu quisiera ocasiun</l>
+                  <l>ser diapli para á todos llevarli.</l>
+               </div>
+
+               <div>
+                  <head rend="negrita" type="primer_titulo">CANCION DEL TUTILE VENDU.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Qui vamos, señori,</l>
+                     <l>qui tutti li vendu,</l>
+                     <l>navaja, cuchillu,</l>
+                     <l>dedal y alfileiru.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Aprochó, ticheri,</l>
+                     <l>portapluma medi:</l>
+                     <l>un escaroidori,</l>
+                     <l>de lu muñu peini. <hi rend="cursiva">Qui etc.</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Pañolo de gasi,</l>
+                     <l>velon y cuchari,</l>
+                     <l>teepidu de mesu</l>
+                     <l>suspiros de tachi.</l>
+                  </lg>
+
+                  <pb n="4" source="Moreno_061_4.jpg"
+                     facs="fedora_ug8106632/full/full/0/default.jpg"/>
+
+                  <lg>
+                     <l rend="indent">Gatum y manguitum,</l>
+                     <l>cordi de guitarri;</l>
+                     <l>dengue de grane</l>
+                     <l>ó de oro brodati. <hi rend="cursiva">Qui etc.</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Perli de linari</l>
+                     <l>grano de corali,</l>
+                     <l>vendu canotilu,</l>
+                     <l>é fino canonati.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">E si non estan forti,</l>
+                     <l>é si non defiliari,</l>
+                     <l>non desmu diñeru</l>
+                     <l>que doilo de valdi. <hi rend="cursiva">Qui etc.</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l>Heringue petite,</l>
+                     <l>trememitrum grandi;</l>
+                     <l>procula, cepíllu</l>
+                     <l>y de butas ganchi.</l>
+                  </lg>
+
+                  <lg>
+                     <l>Le pistole fini,</l>
+                     <l>tambien cacatrapi, </l>
+                     <l>une tocodore</l>
+                     <l>per lo enamorati. <hi rend="cursiva">Qui etc:</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Serda, monda-denti,</l>
+                     <l>jabon de afeitari,</l>
+                     <l>telescopi longui,</l>
+                     <l>en Frans fabricati.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Que á corenta leguas</l>
+                     <l>demostra gusani:</l>
+                     <l>é si non lo credí</l>
+                     <l>poderlo probari. <hi rend="cursiva">Qui etc.</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Cordoni de perli,</l>
+                     <l>butus de pomadi,</l>
+                     <l>sortijas artisti,</l>
+                     <l>de pulvura frasqui.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Espavilatori</l>
+                     <l>é rubis iraldi,</l>
+                     <l>é fino relojis</l>
+                     <l>qui mai sun parati. <hi rend="cursiva">Qui etc.</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Tenedore, hebille,</l>
+                     <l>abrocho, ernanti,</l>
+                     <l>ahulles estoqui,</l>
+                     <l>qui vendu barati.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Brillanti espejuele,</l>
+                     <l>abaníco capsi;, </l>
+                     <l>medula, tabeni,</l>
+                     <l>medalla rosari. <hi rend="cursiva">Qui etc.</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Mi li vendu tutto,</l>
+                     <l>di, qui vol comprare,</l>
+                     <l>un tuti li mundí</l>
+                     <l>de finu cristale.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">En la chilidecia</l>
+                     <l>de lu real retrati,</l>
+                     <l>qui sunt solo <name>Francia</name></l>
+                     <l>y lo de <name>Alemani</name>. <hi rend="cursiva">Qui etc.</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">De estare ó me marche,</l>
+                     <l>filio de bon pare,</l>
+                     <l>quil deo de amores,</l>
+                     <l>me falche esquilaire.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Que vene di <name>Francia</name>,</l>
+                     <l>átuti cargati,</l>
+                     <l>per millia cuchillu,</l>
+                     <l>prevengu á mi came. <hi rend="cursiva">Qui etc.</hi></l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Yo me vay de <name>España</name>,</l>
+                     <l>sin el equipaggí</l>
+                     <l>me vedu peputi, </l>
+                     <l>pur vender barati.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Voy á encontrar en <name>Francia</name>,</l>
+                     <l>con poco diñeru,</l>
+                     <l>con la pipa en boqui,</l>
+                     <l>y lo baston negro.</l>
+                  </lg>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Qui vamos, señori,</l>
+                     <l>qui tutti li vendu,</l>
+                     <l>navajé, cuchillu,</l>
+                     <l>dedal y alfileiru.</l>
+                  </lg>
+
+                  <trailer rend="negrita"><choice>
+                        <sic>EIN.</sic>
+                        <corr>FIN.</corr>
+                     </choice></trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. <lb/>Imprenta de D. José Maria Moreno, calle Juan de la Cabra
+                  núm. 5. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

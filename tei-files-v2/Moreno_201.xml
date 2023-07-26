@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_201">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El milagro de san Antonio del doblón</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El milagro de san Antonio del doblon. Curiosa
+                     relacion, en que se declara y da cuenta de lo que le sucedió á un caballero
+                     natural de Jerez, á quien el demonio impuso un falso testimonio, diciéndole que
+                     su esposa le era infiel, y como por intercesion de S. Antonio de Padua se
+                     vieron protegidos y libres.</title>
+                  <title type="titulo_breve">El milagro de san Antonio del doblon.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1854-01-01">1854</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475555</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 212</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_201_1.xml"
+                              facs="fedora_ug8105882/311,195,696,929/100,/0/default.jpg"
+                              >grabado_m_201_1</item>
+                           <item corresp="grabado_m_201_2.xml"
+                              facs="fedora_ug8105882/994,431,532,698/100,/0/default.jpg"
+                              >grabado_m_201_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="3" corresp="Q12303">
+                  <placeName key="Jerez_de_la_Frontera">Jerez De La Frontera</placeName>
+                  <location>
+                     <geo>36.7 -6.1166666666667</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q617">
+                  <placeName key="Padua">Padua</placeName>
+                  <location>
+                     <geo>45.406388888889 11.877777777778</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q15682">
+                  <placeName key="Cádiz">Cádiz</placeName>
+                  <location>
+                     <geo>36.535 -6.2975</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q669037">
+                  <placeName key="Indias_Occidentales">Indias Occidentales</placeName>
+                  <location>
+                     <geo>21.98333333 -79.03333333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q1149081">
+                  <placeName key="Oriente">Oriente</placeName>
+                  <location>
+                     <geo>51.208698 89.234375</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-06" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104357/manifest">
+      <graphic url="fedora_ug8105882/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_201_1.jpg" facs="fedora_ug8105882/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 212.)</fw>
+
+               <head type="primer_titulo"><hi rend="negrita">EL MILAGRO</hi>
+                  <lb/>DE <lb/><hi rend="negrita">SAN ANTONIO DEL DOBLON.</hi></head>
+
+               <head rend="cursiva" type="subtitulo">Curiosa relacion, en que se declara y da cuenta
+                  de lo que le sucedió <lb/>á un caballero natural de Jerez, á quien el demonio
+                  impuso un fal- <lb/>so testimonio, diciéndole que su esposa le era infiel, y como
+                  por in- <lb/>tercesion de S. Antonio de Padua se vieron protegidos y
+                  libres.</head>
+
+               <l rend="indent">Al Ave de gracia llena</l>
+               <l>Maria, Virgen y Madre</l>
+               <l>de Jesus Verbo humanado,</l>
+               <l>Hija del Eterno Padre,</l>
+               <l>y del Espíritu Esposa;</l>
+               <l>la que subió á coronarse</l>
+               <l>por princesa de los cielos,</l>
+               <l>y con musicas suaves</l>
+               <l>los nueve coros gloriosos</l>
+               <l>nunca cesan de alabarle.</l>
+               <l>A este encanto, á este prodigio,</l>
+               <l>hoy á sus plantas se abate,</l>
+               <l>una mal cortada pluma</l>
+               <l>muy humilde, á suplícarle</l>
+
+               <pb n="2" source="Moreno_201_2.jpg" facs="fedora_ug8109157/full/full/0/default.jpg"/>
+
+               <l>le dé su bendita gracía</l>
+               <l>para que en este romance</l>
+               <l>dé noticia á mi auditorio</l>
+               <l>del suceso mas notable,</l>
+               <l>del mas famoso milagro</l>
+               <l>que han visto las edades.</l>
+               <l>A todo el mundo convido,</l>
+               <l>y el que viniese é escucharme</l>
+               <l>oirá contar alabanzas</l>
+               <l>del gloriosisimo Padre</l>
+               <l>Antonio de <name>Padua</name>, siervo</l>
+               <l>de Jesus, firme y constante;</l>
+               <l>atencion, nobles oyentes,</l>
+               <l>que ya comienzo á esplicarme.</l>
+               <l>En la ciudad de <name>Jerez</name>,</l>
+               <l>noble, rica y abundante,</l>
+               <l>doña Maria Javiera</l>
+               <l>nació de muy nobles padres:</l>
+               <l>crióse esta bella dama,</l>
+               <l>y á los veinte años cabales</l>
+               <l>casó con un caballero,</l>
+               <l>que diré sin dilatarme</l>
+               <l>llamarse don Agustin</l>
+               <l>de Guevara, y esto baste.</l>
+               <l>Eran los dos muy devotos</l>
+               <l>de aquella antorcha brillante,</l>
+               <l>san Antonio esclarecido,</l>
+               <l>y en su pechos muy constantes</l>
+               <l>traian para memoria</l>
+               <l>en una estampa la Imágen</l>
+               <l>del bendito san Antonio,</l>
+               <l>que los defienda y ampare.</l>
+               <l>Pero el demonio envidioso,</l>
+               <l>envuejto en ira y corage,</l>
+               <l>encen dido en viva rabia</l>
+               <l>po r si puede derribarles</l>
+               <l>de tan santa devocion,</l>
+               <l>con manto y basquiña sale</l>
+               <l>en figura de una dama</l>
+               <l>muy conocido de antes</l>
+               <l>del caballero, y le dice</l>
+               <l>aquestas palabras tales:</l>
+               <l>sepa usted, don Agustin,</l>
+               <l>como en la huerta ayer tarde</l>
+               <l>vide que estaba su esposa</l>
+               <l>en un oculto parage,</l>
+               <l>con un cierto caballero,</l>
+               <l>manchando vuestro linage</l>
+               <l>entre profanos deleites:</l>
+               <l>¡quién tal horror intentase</l>
+               <l>con vos que sois bien nacido,</l>
+               <l>hijo de tan buenos padres!</l>
+               <l>por cuyo justo motivo</l>
+               <l>he venido á daros parte,</l>
+               <l>y á deciros la verdad,</l>
+               <l>asi el infierno me trague</l>
+               <l>si ne es como he referido;</l>
+               <l>anda, señor, al instante</l>
+               <l>si quieres tomar venganza</l>
+               <l>de quien tanto agravio os hace.</l>
+               <l>El caballero confuso</l>
+               <l>duego á su casa se parte;</l>
+               <l>sin darse por entendido,</l>
+               <l>ni ser notado de nadie,</l>
+               <l>tomó todos sus vestidos,</l>
+               <l>dinero, y sin declararse</l>
+               <l>con su esposa, una mañana</l>
+               <l>partió á la ciudad de <name>Cádiz</name>,</l>
+               <l>donde estuvo cuatro dias,</l>
+               <l>y en un navio mercante</l>
+               <l>para las <name>Indias</name> de <name>Oriente</name></l>
+               <l>se embarcó, y con favorable</l>
+               <l>viento á las <name>Indias</name> llegó</l>
+               <l>y saltó en tierra una tarde.</l>
+               <l>Volvamos á la señora</l>
+               <l>que quedó con tres infantes</l>
+               <l>sola, y sin tener en casa</l>
+               <l>quien su hacienda gobernase.</l>
+               <l>Amargamente lloraba</l>
+               <l>aquella ausencia tan grande</l>
+               <l>de su muy querido esposo,</l>
+               <l>y con llantos lamentables</l>
+               <l>decia: ¡oh mi Agustin!</l>
+               <l>¡cómo ha sido el olvidarme!</l>
+
+               <pb n="3" source="Moreno_201_3.jpg" facs="fedora_ug8106299/full/full/0/default.jpg"/>
+
+               <l>Dios sabe que yo en mi vida</l>
+               <l>no he pensado en agraviarte.</l>
+               <l>Acuérdate de estos niños,</l>
+               <l>muévate el amor de padre!</l>
+               <l>Es mi mayor sentimiento</l>
+               <l>el no poder encontrarse</l>
+               <l>alguno que dé razon</l>
+               <l>de tí, para ir a buscarte.</l>
+               <l>Y viendo que no parece</l>
+               <l>se vistió distinto trage,</l>
+               <l>la hacienda se le perdió</l>
+               <l>por no haber quien la cuidase.</l>
+               <l>Se vino á quedar tan pobre</l>
+               <l>que de noche por las calles</l>
+               <l>salia á pedir limosna</l>
+               <l>para poder sustentarse.</l>
+               <l>Asi estuve nueve años</l>
+               <l>y cuatro meses cabales,</l>
+               <l>y un domingo de mañana</l>
+               <l>llorando de casa sale</l>
+               <l>porque los niños querian</l>
+               <l>pan, y no tiene que darles.</l>
+               <l>Derecha fue á san Francisco,</l>
+               <l>y con lagrimas abundantes</l>
+               <l>á san Antonio de <name>Padua</name></l>
+               <l>esta suplica le hace:</l>
+               <l>bien sabes, Santo glorioso,</l>
+               <l>la necesidad tan grande</l>
+               <l>en que me veo metida;</l>
+               <l>mis hijos estan sin padre,</l>
+               <l>y yo me hallo sin esposo:</l>
+               <l>y pues sois tan finó amante</l>
+               <l>del dulcisimo Jesus,</l>
+               <l>suplicadle que me ampare,</l>
+               <l>me asista y me favorezca</l>
+               <l>en este aflijido lance;</l>
+               <l>mañana por la mañana</l>
+               <l>yo volvere á visitarle,</l>
+               <l>y me has de dar de mi esposo</l>
+               <l>noticia sin que esto falte.</l>
+               <l>Del santo se despidió,</l>
+               <l>y de la iglesia se sale.</l>
+               <l>Vamos á que la señora</l>
+               <l>llegando á su casa sale</l>
+               <l>el niño mayor de todos,</l>
+               <l>diciendo: señora madre,</l>
+               <l>un religioso francisco</l>
+               <l>ha traido tres costales</l>
+               <l>de trigo y estos dineros,</l>
+               <l>y que á usted los entregase,</l>
+               <l>y que comamos de elios,</l>
+               <l>que presto vendrá mi padre.</l>
+               <l>La madre le preguntó:</l>
+               <l>hijo ¿conoces al padre?</l>
+               <l>No señora, mas me ha dicho</l>
+               <l>que no ha dos horas cabales</l>
+               <l>que usted hablaba con él</l>
+               <l>para que nos remediase.</l>
+               <l>Viendo tan grande portento</l>
+               <l>doña María, al instante</l>
+               <l>incándose de rodillas</l>
+               <l>ante la divina Imágen,</l>
+               <l>á Dios le dio muchas gracias,</l>
+               <l>á su soberana Madre,</l>
+               <l>y á san Antonio bendito</l>
+               <l>por milagro tan notable.</l>
+               <l>Vamos á que al otro dia</l>
+               <l>asi que las puertas abre</l>
+               <l>el portero del convento,</l>
+               <l>fue á visitar los altares,</l>
+               <l>y á san Antonio de <name>Padua</name></l>
+               <l>con devocion á rezarle,</l>
+               <l>y viendo tiene en la mano</l>
+               <l>una carta, sin tardarse</l>
+               <l>le dió cuenta al guardian,</l>
+               <l>el cual mandó que al instante</l>
+               <l>toquen á comunidad,</l>
+               <l>y que todos se juntasen,</l>
+               <l>por ver á quien san Antonio</l>
+               <l>la carta quería darle;</l>
+               <l>y aunque llegaron humildes,</l>
+               <l>á nadie quiso entregarle</l>
+               <l>la carta, con que el prelado</l>
+               <l>dijo que todos llegasen</l>
+
+               <pb n="4" source="Moreno_201_4.jpg" facs="fedora_ug8105342/full/full/0/default.jpg"/>
+
+               <l>hombres niños y mugeres</l>
+               <l>cuantos en la iglesia entrasen,</l>
+               <l>y aunque llegó mucha gente,</l>
+               <l>en vano fue que llegasen,</l>
+               <l>hasta que doña Maria</l>
+               <l>fue á darle gracias al padre</l>
+               <l>san Antonio, por mercedes</l>
+               <l>tan colmadas y tan grandes.</l>
+               <l>Mandáronla que llegára,</l>
+               <l>y al punto la mano abre</l>
+               <l>san Antonio, y le entregó</l>
+               <l>la carta sin dilatarse,</l>
+               <l>y asi en presencia de todos</l>
+               <l>el padre guardían la abre</l>
+               <l>y leyendola, decia</l>
+               <l>estas palabras formales.</l>
+               <l>¿Quiera Dios, esposa mia,</l>
+               <l>que este mi carta te halle</l>
+               <l>en compañia de mis hijos,</l>
+               <l>y de tu querida madre</l>
+               <l>con salud, la mia es buena</l>
+               <l>en las Iudias Orientales;</l>
+               <l>ha nueve años que estoy</l>
+               <l>cumplidos y muy cabales,</l>
+               <l>y en este mes de enero</l>
+               <l>sabrás que hablé con un padre</l>
+               <l>de la orden franciscana,</l>
+               <l>muy cariñoso y afable,</l>
+               <l>que le llaman fray Antonio;</l>
+               <l>y me dijo que al instante</l>
+               <l>se embarcaba para <name>España</name>,</l>
+               <l>si tenia que mandarle,</l>
+               <l>que en la ciudad de <name>Jerez</name></l>
+               <l>estaba por habitante,</l>
+               <l>y por irse tan de prisa</l>
+               <l>no tuve al pronto que darle</l>
+               <l>sino un doblon de ochenta</l>
+               <l>con que puedes remediarte,</l>
+               <l>que si Dios quiere, pretendo</l>
+               <l>estar ahí cuanto antes,</l>
+               <l>para pedirte perdon</l>
+               <l>de las miserias y hambre</l>
+               <l>que has pasado por mi ausencia,</l>
+               <l>pues ya este gloríoso padre</l>
+               <l>ha disipado sospechas</l>
+               <l>qué mi corazon abaten,</l>
+               <l>A doña Maria Javiera</l>
+               <l>en la Plazuela del Carmen,</l>
+               <l>soy tu esposo Agustin,</l>
+               <l>que ruego á Dios te ampare.)</l>
+               <l>Asi que leyó la carta,</l>
+               <l>fue el guardian al instante</l>
+               <l>y á san Antonio empezó</l>
+               <l>el habito á registrarle,</l>
+               <l>y en una manga le halló</l>
+               <l>el doblon (¡caso admirable!)</l>
+               <l>se lo entregó á la señora,</l>
+               <l>y por milagro tan grande</l>
+               <l>todos diéron alabanzas</l>
+               <l>al gloriosísimo Adlante</l>
+               <l>Antonio, y el caballero</l>
+               <l>vino á su casa al instante,</l>
+               <l>y sabiendo estos prodigios</l>
+               <l>á san Antonio le hace</l>
+               <l>una suntuosa fiesta</l>
+               <l>con grandes solemnidades.</l>
+               <l>Ea, devotos de Antonio,</l>
+               <l>con milagros tan notables</l>
+               <l>avivad en vnestro pecho</l>
+               <l>la devocion muy constante,</l>
+               <l>Viva el portugués bizarro</l>
+               <l>eternidades, pues sabe</l>
+               <l>del demonio y sus errores</l>
+               <l>á sus devotos librarles.</l>
+               <l>Y aquí da fin á la historia</l>
+               <l>el poéta Pedro Saez,</l>
+               <l>suplicando le perdonen</l>
+               <l>las faltas de este romance.</l>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1854. <lb/>Imprenta de D. José Maria Moreno, calle de las Descalzas
+                  núm. 1. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

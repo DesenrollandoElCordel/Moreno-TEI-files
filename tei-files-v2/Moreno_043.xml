@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_043">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Décimas glosadas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Decimas glosadas</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6448069</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Décimas</item>
+                        <item>Trovos</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Décimas glosadas</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Trovos</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_043_1.xml"
+                              facs="fedora_ug8110211/403,189,492,909/100,/0/default.jpg"
+                              >grabado_m_043_1</item>
+                           <item corresp="grabado_m_043_2.xml"
+                              facs="fedora_ug8110211/1066,228,415,869/100,/0/default.jpg"
+                              >grabado_m_043_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q43">
+                  <placeName key="Turquía">Turquía</placeName>
+                  <location>
+                     <geo>39 36</geo>
+                  </location>
+               </place>
+               <place n="3" corresp="Q3561">
+                  <placeName key="Argel">Argel</placeName>
+                  <location>
+                     <geo>36.776388888889 3.0586111111111</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q669037">
+                  <placeName key="Indias_Occidentales">Indias Occidentales</placeName>
+                  <location>
+                     <geo>21.98333333 -79.03333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Trovos</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8108907/manifest">
+      <graphic url="fedora_ug8110211/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_043_1.jpg" facs="fedora_ug8110211/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Núm. 48.</fw>
+
+            <head rend="negrita" type="primer_titulo">DECIMAS GLOSADAS.</head>
+
+            <lg rend="cursiva" type="estribillo">
+               <l rend="indent">Por mi suerte yo sembré</l>
+               <l>en el huerto de una niña,</l>
+               <l>pensundo cojer la rosa</l>
+               <l>cojí abrojos y espinas.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Al cielo mil veces clamo</l>
+               <l>él gran error que yo hice,</l>
+               <l>sembrar desde luego quise</l>
+               <l>en un deleitoso campo:</l>
+               <l>al fin habiendo logrado</l>
+               <l>lo que yo queria hacer, </l>
+               <l>al sembrarlo me pinché</l>
+               <l>con penetrantes espinas,</l>
+               <l>que en una tierra maldita</l>
+               <l rend="cursiva">por mi suerte yo sembré.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">De estas espinas causante,</l>
+               <l>juro á Dios que no fuí yo,</l>
+               <l>otro la flor se llevó</l>
+               <l>aunque anduve vigilante:</l>
+               <l>con dos barajas jugaste</l>
+               <l>sin saber lo que te hacias,</l>
+               <l>llora si te ves perdida,</l>
+               <l>que yo tengo donde amar,</l>
+               <l>y donde podré sembrar</l>
+               <l rend="cursiva">en el huerto de una niña.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">En tu campo tan maldito</l>
+               <l>fuimos dos agricultores,</l>
+               <l>por mi suerte sembré flores</l>
+               <l>y cojí crueles espinas:</l>
+               <l>pues tú, falsa, me has perdido</l>
+               <l>con intencion muy dañosa,</l>
+               <l>y mi historia lastimosa</l>
+               <l>al mundo le haré saber,</l>
+               <l>que con espinas cargué</l>
+               <l rend="cursiva">pensando coger la rosa.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">En el hospital me veo</l>
+               <l>triste é infeliz de mí,</l>
+               <l>llorarás tu porvenir</l>
+               <l>y la traicion que me has hecho,</l>
+               <l>clama y pide á Dios del cielo,</l>
+               <l>de mis culpas cuenta pido,</l>
+               <l>que si me deja con vida</l>
+               <l>en tí vengaré mi agravio,</l>
+               <l>pues ya sabes que en tu campo</l>
+               <l rend="cursiva">cojí abrojos y espinas.</l>
+            </lg>
+
+            <pb n="2" source="Moreno_043_2.jpg" facs="fedora_ug8106135/full/full/0/default.jpg"/>
+
+            <lg rend="cursiva" type="estribillo">
+               <l rend="indent">Un moro de gran valor</l>
+               <l>le decia á su cautíua,</l>
+               <l>tu serás la gran sufiana,</l>
+               <l>renegando serás mia.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Presa y cautiva te veo</l>
+               <l>metida en triste mazmorra,</l>
+               <l>y tan solo mi persona</l>
+               <l>se propone desde luego</l>
+               <l>en tan grande cautiverio,</l>
+               <l>declararte con amor,</l>
+               <l>que mis ojos con pasion</l>
+               <l>se enternecen ál mirarte,</l>
+               <l>de ti quiere ser amante</l>
+               <l rend="cursiva">un moro de gran valor.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Mira que en esta ocasion</l>
+               <l>pudiera yo ser tu amparo,</l>
+               <l>hermosa, dame la mano</l>
+               <l>y deja tu religion,</l>
+               <l>que nn sultan con gran fervor</l>
+               <l>te hace dueño de su vida:</l>
+               <l>oye, hermosa clavellina,</l>
+               <l>deja gozar tus fragancias,</l>
+               <l>cesaras de ser esclava,</l>
+               <l rend="cursiva">le decia á su cautiva.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">En el serrallo estarás</l>
+               <l>como reina de <name>Turquia</name>,</l>
+               <l>los esclavos y cautivas</l>
+               <l>humildes te servirán,</l>
+               <l>á mi mesa asistirás</l>
+               <l>y te llevarás la palma, </l>
+               <l>los aplausos y alabanzas</l>
+               <l>te daré con mis riquezas,</l>
+               <l>y si admites tal fineza</l>
+               <l rend="cursiva">tu serás la gran sultana.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Desde el punto que reniegues</l>
+               <l>mandarás en mi persona,</l>
+               <l>y tambien en la corona</l>
+               <l>que me cedieron los reyes, </l>
+               <l>dispon que tu sola eres</l>
+               <l>la reyna de mis delicias</l>
+               <l>escojida entre las ninfas</l>
+               <l>de todo el dominio mio,</l>
+               <l>y por eso vuelvo y digo.</l>
+               <l rend="cursiva">renegando, serás mia.</l>
+            </lg>
+
+            <lg rend="cursiva">
+               <l rend="indent">Estaré triste y cauliva</l>
+               <l>toda mi vida en <name>Argel</name>,</l>
+               <l>metida en tristes mazmorras</l>
+               <l>yo jamás renegaré.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Eres necio en ofrecer,</l>
+               <l>pues de todo hago desprecio, </l>
+               <l>cristiana de nacimiento,</l>
+               <l>yo jamás renegaré:</l>
+               <l>en prisiones estaré</l>
+               <l>con contento y alegria,</l>
+               <l>consiento perder la vida</l>
+               <l>en las manos de un verdugo,</l>
+               <l>y en calavozos oscuros</l>
+               <l rend="cursiva">estaré triste y cautiva.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Renegaré de Mahoma</l>
+               <l>y de todos sus secuaces,</l>
+               <l>yo no temo á los alfanjes,</l>
+               <l>ni suplicios, ni mazmorras,</l>
+               <l>el morir con gusto es honra,</l>
+               <l>desprecio palma y laurel,</l>
+               <l>de todo hago desden,</l>
+               <l>renuncio de ser sultana,</l>
+               <l>aunque sepa estar esclava</l>
+               <l rend="cursiva">toda mi vida en <name>Argel</name>.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Aunque me dieras mas oro, </l>
+               <l>que valen las <name>Indias</name> todas,</l>
+               <l>no gozarás ui persona</l>
+               <l>ni mancharas mi decoro, </l>
+               <l>yo renuncio de tu trono</l>
+               <l>y támbien de tu corona,</l>
+               <l>diré á la brillante aurora</l>
+               <l>y al sol que me vé cautiva,</l>
+               <l>con gusto pierdo la vida</l>
+               <l rend="cursiva">metida en tristes mazmorras.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Pasaré mi crutiverio</l>
+               <l>entre grillos y cadenas, </l>
+               <l>la diré á la luna escelsa</l>
+               <l>que mande á los elementos</l>
+               <l>que publiquen los tormentos</l>
+               <l>que estoy pasando en <name>Argel</name>,</l>
+               <l>a los cielos clamaré</l>
+               <l>con suspiros y sollozos,</l>
+               <l>y aunque me pongan en potros</l>
+               <l rend="cursiva">yo jamas renegaré.</l>
+            </lg>
+
+            <pb n="3" source="Moreno_043_3.jpg" facs="fedora_ug8106595/full/full/0/default.jpg"/>
+
+            <lg rend="cursiva" type="estribillo">
+               <l rend="indent">Debajo de un naranjal</l>
+               <l>estando fresco y florido,</l>
+               <l>acuérdate, falsa ingrata,</l>
+               <l>gocé de tu paraiso.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">En un jardin dívertido,</l>
+               <l>al romper la aurora bella,</l>
+               <l>te encontré, bella doncella,</l>
+               <l>y no es falso lo que digo:</l>
+               <l>bien lo sabe el Dios divino,</l>
+               <l>como naciste no estas,</l>
+               <l>y la flor de tu rosal</l>
+               <l>ya no la tienes contigo,</l>
+               <l>que la perdiste, te digo,</l>
+               <l rend="cursiva">debajo de un naranjal,</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Nos pusimos con empeño</l>
+               <l>á comenzar la batalla,</l>
+               <l>siendo tan firme muralla</l>
+               <l>hubo que usar del mortero;</l>
+               <l>á fuerza del gran bloqueo</l>
+               <l>se dió el fuerte por vencido,</l>
+               <l>mas yó cansado y rendido</l>
+               <l>en el campo me senté,</l>
+               <l>disfrutando del laurel</l>
+               <l rend="cursiva">estando fresco y florido.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Se resistió el enemigo,</l>
+               <l>segunda vez batallé,</l>
+               <l>á las cinco descansé, </l>
+               <l>estropeado y molido:</l>
+               <l>yo soy aquel peregrino</l>
+               <l>que dejó tu puerta franca,</l>
+               <l>y apretó tu mano blanca</l>
+               <l>que tu madre te dejó,</l>
+               <l>y te digo en alta voz</l>
+               <l rend="cursiva">acuérdate, falsa ingrata.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">A Dios rosita de abril</l>
+               <l>escojida entre las flores,</l>
+               <l>pues gocé de tus olores</l>
+               <l>una tarde en tu jardin:</l>
+               <l>pro ¡ay infeliz de ti!</l>
+               <l>que pagarlo no es preciso,</l>
+               <l>pues con palabra no ha sido</l>
+               <l>de que yo tu esposo fuese,</l>
+               <l>y entre rosas y claveles</l>
+               <l rend="cursiva">gocé de tu paraiso.</l>
+            </lg>
+
+            <lg rend="cursiva" type="estribillo">
+               <l>Calla falso, no publiques</l>
+               <l>mi triste fragilidad.</l>
+               <l>miráras que soy mujer,</l>
+               <l>y bien pudieras callar.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Me diste buenes palabras,</l>
+               <l>me hiciste buenos acciones, </l>
+               <l>mas con tus malas razones</l>
+               <l>me dijiste que era ingrata,</l>
+               <l>yo jamás te he sido falsa,</l>
+               <l>pues con firmeza te quise, </l>
+               <l>tu mal me correspondiste</l>
+               <l>diciendole al mundo entero;</l>
+               <l>que gozaste de mi cuerpo,</l>
+               <l rend="cursiva">calla falso, no publiques.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Es cierto qne tu has sido</l>
+               <l>el que lograste mi flor,</l>
+               <l>y el que palabra me dió</l>
+               <l>que seria mi marido:</l>
+               <l>como no habia testigos</l>
+               <l>me dices ser falcedad,</l>
+               <l>bien sabe Dios que es verdad</l>
+               <l>la que mi pecho suspira,</l>
+               <l>lloraré toda mi vida</l>
+               <l rend="cursiva">mi triste fragilidad.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Yo me veo despreciada,</l>
+               <l>deshonrada de mi amante,</l>
+               <l>cesa traidor de alabarte,</l>
+               <l>que me dejas desgraciada,</l>
+               <l>muera, muera sin tardanza</l>
+               <l>antes gue llegue á saber</l>
+               <l>mi padre, mi triste ser</l>
+               <l>que publicas sin vergüenza,</l>
+               <l>y si tuvieras conciencia</l>
+               <l rend="cursiva">miráras que soy mujer.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Mientras viva lloraré</l>
+               <l>la gran traicion que me has hecho,</l>
+               <l>que estoy sin honor confieso,</l>
+               <l>sin conducta y honradez,</l>
+               <l>mas ya que pública es</l>
+               <l>mi desdicha tan fatal,</l>
+               <l>en un justo tribunal</l>
+               <l>me quejaré como debo, </l>
+               <l>sabes que sé tus secretos</l>
+               <l rend="cursiva">y bien pudieras callar.</l>
+            </lg>
+         </div>
+
+         <div>
+            <pb n="4" source="Moreno_043_4.jpg" facs="fedora_ug8107954/full/full/0/default.jpg"/>
+
+            <head rend="negrita" type="primer_titulo">TROVOS.</head>
+
+            <lg rend="cursiva" type="estribillo">
+               <l rend="indent">Unas damas cortesanas</l>
+               <l>á un sargento de artilleros</l>
+               <l>le han dejado sin conducta,</l>
+               <l>sin vergüenza y sin dinero.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Con bubones y almorranas, </l>
+               <l>calenturas y diviesos,</l>
+               <l>lleno de herpes y de sarna</l>
+               <l>de tal suerte le pusieron</l>
+               <l rend="cursiva">unas damas cortesanas.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Ellas con grande apaleo</l>
+               <l>y con vergüenza muy poca,</l>
+               <l>le han dejado sin dinero,</l>
+               <l>sin conducta y sin honra</l>
+               <l rend="cursiva">á un sargento de artilleros.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">De resultas de la fruta,</l>
+               <l>á san Juan de Dios se marcha,</l>
+               <l>con mercurio y con unturas</l>
+               <l>en tierra de Villa-Rasa</l>
+               <l rend="cursiva">le han dejado sin conducta.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Ay infeliz artillero, </l>
+               <l>que ya has perdido la mecha,</l>
+               <l>te has quedado sin empleo,</l>
+               <l>sin honor y sin herencia,</l>
+               <l rend="cursiva">sin vergüenza y sin dinero.</l>
+            </lg>
+
+            <lg rend="cursiva" type="estribillo">
+               <l rend="indent">¡Oh que maldito dinero,</l>
+               <l>que á todos nos vuelves locos!</l>
+               <l>que por ti se vende á Dios</l>
+               <l>y á los reyes con sus tronos.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Es un villano grosero</l>
+               <l>aquel que no tiene blanca, </l>
+               <l>si la tiene es caballero, </l>
+               <l>y sin ti, no somos nada,</l>
+               <l rend="cursiva">¡oh que maldito dinero!</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Contigo se ven los toros,</l>
+               <l>se gastan galas y coches,</l>
+               <l>se ven comedias, de modo</l>
+               <l>que con tantas diversiones</l>
+               <l rend="cursiva">á todos nos vuelves locos.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">El que tiene con amor</l>
+               <l>en su casa un Santo Cristo,</l>
+               <l>si le ofrecen un doblon</l>
+               <l>le diera aquesto es fijo,</l>
+               <l rend="cursiva">que por ti se vende á Dios.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Los generales por oro</l>
+               <l>luego se hacen rebeldes, </l>
+               <l>venden sus soldados todos,</l>
+               <l>y de aqueste modo venden</l>
+               <l rend="cursiva">á los reyes con sus tronos.</l>
+            </lg>
+
+            <lg rend="cursiva" type="estribillo">
+               <l rend="indent">El secreto yo te encargo,</l>
+               <l>guardamelo, que sinó</l>
+               <l>al mundo á voces diré</l>
+               <l>lo que hicimos tú y yó.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Tú dices que me has deja</l>
+               <l>y que tienes otro amante,</l>
+               <l>y que me veo agraviado,</l>
+               <l>si no quieres que mas hable</l>
+               <l rend="cursiva">el secreto yo te encargo.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Tú dices que con mi amor</l>
+               <l>dejaste de ser doncella</l>
+               <l>y te obligué con rigor</l>
+               <l>otro secreto te queda,</l>
+               <l rend="cursiva">guardamelo, que sinó......</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Yo no usé ningun doblez</l>
+               <l>cuando entré, niña en tu huerto,</l>
+               <l>ni con rigor te obligué</l>
+               <l>que todo esto es incierto</l>
+               <l rend="cursiva">al mundo á voces diré.</l>
+            </lg>
+
+            <lg>
+               <l rend="indent">Eso bien lo sabe Dios</l>
+               <l>lo que hiciste con tu dueño,</l>
+               <l>si fué obra de los dos,</l>
+               <l>jamás salga de tu seno</l>
+               <l rend="cursiva">lo que hieimos tú y yó.</l>
+            </lg>
+
+            <trailer>FIN.</trailer>
+         </div>
+
+         <div type="colofon">
+            <p><lb/>CARMONA:—Imprenta de D. José M.a Moreno, Descalzas, núm. 1.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

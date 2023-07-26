@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_306">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Romance en que se da cuenta y declara la trágica y verdadera historia de la
+               Hermosa Rosimunda</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Romance en que se da cuenta y declara la tragica y
+                     verdadera historia de la Hermosa Rosimunda.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6483432</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 325</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_306_1.xml"
+                              facs="fedora_ug8108997/302,292,1114,945/100,/0/default.jpg"
+                              >grabado_m_306_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q1210">
+                  <placeName key="Lombardía">Lombardía</placeName>
+                  <location>
+                     <geo>45.65 9.95</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q6259">
+                  <placeName key="Pavía">Pavía</placeName>
+                  <location>
+                     <geo>45.185280555556 9.155</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q38">
+                  <placeName key="Italia">Italia</placeName>
+                  <location>
+                     <geo>42.5 12.5</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q84">
+                  <placeName key="Londres">Londres</placeName>
+                  <location>
+                     <geo>51.507222222222 -0.1275</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q21">
+                  <placeName key="Inglaterra">Inglaterra</placeName>
+                  <location>
+                     <geo>54.6 -2</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105861/manifest">
+      <graphic url="fedora_ug8108997/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_306_1.jpeg" facs="fedora_ug8108997/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 325.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/>ROMANCE EN QUE SE DA CUENTA Y DECLARA LA TRAGICA Y <lb/>VERDADERA HISTORIA DE
+                  LA <lb/><hi rend="negrita">HERMOSA ROSIMUNDA.</hi>
+               </head>
+
+               <l><hi rend="negrita">A</hi>unque la pluma en desmayos</l>
+               <l>manifiesta sentimientos,</l>
+               <l>y el corazon con deliquios,</l>
+               <l>quebrantoyy dolor intenso;</l>
+               <l>no por eso la memoria,</l>
+               <l>voluntad y entendimiento</l>
+               <l>dejan de darle á los hombres</l>
+               <l>noticia de este suceso,</l>
+               <l>interesando que el mundo</l>
+               <l>admita algun escarmiento,</l>
+               <l>y se contenga, mirando,</l>
+               <l>y no audaz busque el despeño.</l>
+               <l>Asi con toda atencion</l>
+               <l>todo viviente esté atento,</l>
+               <l>oirán la mas rara historia </l>
+               <l>que han dado al Orbé los tiempos,</l>
+               <l>y á un incauto proceder.</l>
+               <l>las penas que se sigüieron,</l>
+               <l>que el mundo, como imprudente,</l>
+               <l>fiero enemigo encubierto</l>
+               <l>estimula á vil hazaña</l>
+               <l>por ser despues pregonero;</l>
+               <l>pero llevando por norte</l>
+               <l>la misma verdad que emprendo,</l>
+               <l>daré principio á esta historia:</l>
+               <l>y asi digo, que en el reino</l>
+               <l>de la hermosa <name>Lombardía</name>, </l>
+               <l>pensil frondoso y ameno,</l>
+
+               <pb n="2" source="Moreno_306_2.jpeg" facs="fedora_ug8109186/full/full/0/default.jpg"/>
+
+               <l>en su capital, que es <name>Pavia</name>,</l>
+               <l>uhbo un noble caballero,</l>
+               <l>allmado Angelio, que era</l>
+               <l>del Rey muy cercano deudo:</l>
+               <l>la reflexon aquí puede</l>
+               <l>medir quién era el sugeto.</l>
+               <l>Levantóse contra <name>Italia</name></l>
+               <l>la <name>Lombardía</name>, y atento</l>
+               <l>el Rey, á su deudo llama,</l>
+               <l>y con su real juramento,</l>
+               <l>por general de su campo</l>
+               <l>lo votó, y en marcha puesto,</l>
+               <l>llegó á la vista de Ialia,</l>
+               <l>haciendo al primer encuentro</l>
+               <l>que á su poder se rindiese</l>
+               <l>desde el grande hasta el pequeño.</l>
+               <l>Y al general italiano, </l>
+               <l>por audaz y desatento,</l>
+               <l>lo degolló, y de su casco</l>
+               <l>hizo un vaso bien pequeño, </l>
+               <l>memoria que de su muerte</l>
+               <l>fué desastrado instrumento,</l>
+               <l>y á una hija que tenia</l>
+               <l>se la llevó en cautiverio,</l>
+               <l>de la cual enamorado</l>
+               <l>quedó el general Angelio,</l>
+               <l>y la hermosa Rosimunda</l>
+               <l>gustosa en el casamiento</l>
+               <l>entró, quedando de esclav.</l>
+               <l>señora y dueña del dueño. </l>
+               <l>Retiróse á su Palacio,</l>
+               <l>y en honra, gloria y obsequio</l>
+               <l>de su conseguido enlace</l>
+               <l>y de su amor el acierto, </l>
+               <l>dispuso hacer un banquete, </l>
+               <l>y á su atencion concurrieron</l>
+               <l>los grandes de aquella Corte, </l>
+               <l>y rematando el festejo,</l>
+               <l>le dió gana á Rosimunda</l>
+               <l>de beber, y en el pequeño</l>
+               <l>vaso, casco de su padre,</l>
+               <l>lo dió el agua, asi diciendo:</l>
+               <l>bebe en la propia cabeza</l>
+               <l>de tu padre y de mi suegro.</l>
+               <l>Tanto sintió Rosimunda</l>
+               <l>este caso, que en silencio</l>
+               <l>lo pasó , mientras dispone</l>
+               <l>la venganza contra Angelio</l>
+               <l>su esposo, y á pocos dias,</l>
+               <l>convertido ya en veneno</l>
+               <l>mortal todo su cariño,</l>
+               <l>se valió de un escudero,</l>
+               <l>de quien mucha confianza</l>
+               <l>hizo para su mal hecho.</l>
+               <l>Y despues de mil promesas,</l>
+               <l>y varios ofrecimientos,</l>
+               <l>le dijo : dale la muerte</l>
+               <l>á tu amo, y para ello</l>
+               <l>induce á mi mayordomo,</l>
+               <l>pero sabe que te advierto,</l>
+               <l>que está á peligro tu vida,</l>
+               <l>no quitándosela á Angelio.</l>
+               <l>Buscó el paje al mayordomo</l>
+               <l>cuyo nombre es Paradeo;</l>
+               <l>le dijo lo que pasaba,</l>
+               <l>y juntos se convinieron</l>
+               <l>en dar muerte al general;</l>
+               <l>y una siesta, cuando al sueño</l>
+               <l>estaba entregado, entraron</l>
+               <l>los dos con fuertes pertrechos, </l>
+               <l>y sin poder defenderse</l>
+               <l>allí la muerte le dieron,</l>
+               <l>quedando en las tres personas</l>
+               <l>bien escondido el secreto,</l>
+               <l>dando al comun una voz</l>
+               <l>en que inculpables los vieron, </l>
+               <l>que siempre los agresores</l>
+               <l>son de su maldad correos,</l>
+               <l>Y despues del funeral</l>
+               <l>correspondiente á su empleo;</l>
+               <l>y Rosimunda tambien</l>
+               <l>satisfecha por entero,</l>
+               <l>concertó despues casarse</l>
+               <l>con el mayordomo, siendo</l>
+
+               <pb n="3" source="Moreno_306_3.jpeg" facs="fedora_ug8109928/full/full/0/default.jpg"/>
+
+               <l>sobre inmediata malaad</l>
+               <l>un desdoro vérdadero.</l>
+               <l>Y temiéndose que el Rey</l>
+               <l>o sepa, y haga un exceso</l>
+               <l>cosrespondiente al delito.</l>
+               <l>pues está clamando al Cielo, </l>
+               <l>recogieron el tesoro</l>
+               <l>y alhajas de mucho precio, </l>
+               <l>y en tres famosos caballos</l>
+               <l>ocultamente salieron,</l>
+               <l>y á la gran córte de <name>Lóndres</name></l>
+               <l>llegaron, con el pretesto</l>
+               <l>de estar algun tiempo en ella</l>
+               <l>admirando su embeleso.</l>
+               <l>Sentaron su domicilio</l>
+               <l>con aparato tan régio,</l>
+               <l>que en breve trajo la pompa</l>
+               <l>los grandes conocimientos.</l>
+               <l>En fin, á la novedad,</l>
+               <l>yarias gentes concurrieron</l>
+               <l>á visitarlos, y todos</l>
+               <l>suyos se constituyeron;</l>
+               <l>pero cuando el corazon</l>
+               <l>se pervierte en un sugeto</l>
+               <l>ensayado en las maldades, </l>
+               <l>vá á mas y olvida lo menos; </l>
+               <l>nsí pues en Rosimunda</l>
+               <l>sucedió que el que hace un cesto,</l>
+               <l>(dice un antiguo refran</l>
+               <l>hará sin dudar un ciento.</l>
+               <l>Y fué, que de su hermosura</l>
+               <l>Se enamoró un consejero,</l>
+               <l>que entre la nacion inglesa</l>
+               <l>era el de mayor respeto, </l>
+               <l>y conociendo que haria </l>
+               <l>la ingrata dama su intento,</l>
+               <l>su amante se declaró,</l>
+               <l>y sacaron en acuerdo,</l>
+               <l>que á Paradeo matase, </l>
+               <l>y que pasado ya el duelo</l>
+               <l>contraerian matrimonio,</l>
+               <l>que fué añadir yerro á yerro.</l>
+               <l>Y puesta en planta su infamia</l>
+               <l>con traidores pensamientos,</l>
+               <l>en un vaso cristalino</l>
+               <l>echó porcion de veneno</l>
+               <l>en ocasion que se hallaba</l>
+               <l>algo enfermo Paradeo,</l>
+               <l>y ageno de esta maldad,</l>
+               <l>Rosimunda con empeño</l>
+               <l>de sus cariños le hizo,</l>
+               <l>que tomára por remedio</l>
+               <l>aquella corta bebida,</l>
+               <l>para su alivio y recreo.</l>
+               <l>Tomó el inocente el vaso,</l>
+               <l>y habiendo bebido medio</l>
+               <l>se conoció atosigado,</l>
+               <l>y con ímpetu soberbio</l>
+               <l>la espada desenvainó,</l>
+               <l>y poniéndosela al pecho,</l>
+               <l>á Rosimundalle hizo</l>
+               <l>se bebiera el demás resto;</l>
+               <l>y de esta suerte los dos</l>
+               <l>de allí á muy poco murieron,</l>
+               <l>Supo el rey de <name>Inglaterra</name></l>
+               <l>la desgracia, y bien impuesto</l>
+               <l>desde el principio hasta el fin,</l>
+               <l>porque nada hay encubierto,</l>
+               <l>mandó al momento que el pajo</l>
+               <l>por agresor del primero,</l>
+               <l>le sacasen ambos ojos,</l>
+               <l>y que matándole luego</l>
+               <l>con los cuerpos de los dos</l>
+               <l>Rosimunda y Paradeo </l>
+               <l>los arrojasen al campo</l>
+               <l>para pasto de los perros;</l>
+               <l>y al consejero tambien,</l>
+               <l>por ser noble y ser sugeto,</l>
+               <l>mandó que lo degollasen, </l>
+               <l>y que á pregon fuera puesto</l>
+               <l>su delito , para que</l>
+               <l>sirva en el Orbe de espejo, </l>
+               <l>Esto es lo que el mundo ofraso</l>
+               <l>á cuantos le siguen ciegos,</l>
+
+               <pb n="4" source="Moreno_306_4.jpeg" facs="fedora_ug8107507/full/full/0/default.jpg"/>
+
+               <l>pues conforme con él viven.</l>
+               <l>así les ofrece el premio.</l>
+               <l>Oh fátuo soberbio hombre,</l>
+               <l>que cada instante estás viendo</l>
+               <l>en el jardin de las letras</l>
+               <l>de estas flores un sin cuento,</l>
+               <l>sin tomar en sus olores</l>
+               <l>un pequeño fundamento)</l>
+               <l>no, no has de tener disculpa</l>
+               <l>en el juicio venidero,</l>
+               <l>pues desprecias los auxilios</l>
+               <l>que Dios dá cada momento.</l>
+               <l>El nos conserve en su gracia</l>
+               <l>y nos dé su Santo Reino.</l>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA.—1858. <lb/>Imp: de D. Jósé M. Moreno, calle Juan de la Cabra n.°4.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_262">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nueva relación del torero andaluz</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Nueva relación del torero andaluz.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (1856): <ref target="Moreno_261.xml">Moreno_261</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477191</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 276</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_262_1.xml"
+                              facs="fedora_ug8104587/392,388,439,754/100,/0/default.jpg"
+                              >grabado_m_262_1</item>
+                           <item corresp="grabado_m_262_2.xml"
+                              facs="fedora_ug8104587/835,328,449,787/100,/0/default.jpg"
+                              >grabado_m_262_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q957828">
+                  <placeName key="Triana">Triana</placeName>
+                  <location>
+                     <geo>37.383580555556 -6.0052</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q5783">
+                  <placeName key="Andalucía">Andalucía</placeName>
+                  <location>
+                     <geo>37.46 -4.16</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q21">
+                  <placeName key="Inglaterra">Inglaterra</placeName>
+                  <location>
+                     <geo>54.6 -2</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q142">
+                  <placeName key="Francia">Francia</placeName>
+                  <location>
+                     <geo>47 2</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term type="tipo_estrofa">Quintilla</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-20" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104643/manifest">
+      <graphic url="fedora_ug8104587/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_262_1.jpeg" facs="fedora_ug8104587/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 276.</fw>
+
+               <head rend="negrita" type="primer_titulo">NUEVA RELACION <lb/>DEL <lb/>TORERO
+                  ANDALUZ.</head>
+
+               <l rend="indent">Esta es la casa chorré</l>
+               <l>y esta que ves la ventana</l>
+               <l>ande sale esa mujé;</l>
+               <l>Jesú! que jiso un Dibé</l>
+               <l>con su mano soberana.</l>
+               <l>—Tu vas aprevelicar</l>
+               <l>con esa mosa, Frasquillo,</l>
+               <l>—Cuando la guipes, chavá,</l>
+               <l>vas á laigá los cormiyo</l>
+               <l>de ver cosa tan juncá.</l>
+               <l>Mia tú, cuando yo la ví.</l>
+               <l>Jesucristo, no se iga,</l>
+               <l>toita la boca abrí,</l>
+               <l>ay Joseliyo, y sentí</l>
+               <l>un frio por la barriga...</l>
+               <l>y despues que se guiyó</l>
+               <l>como estaria yo, José,</l>
+               <l>que el verla me pareció;</l>
+
+               <pb n="2" source="Moreno_262_2.jpeg" facs="fedora_ug8104938/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>y era la sombra que el sol</l>
+               <l>me jacia en la paré.</l>
+               <l>¿De donde es?—<name>Garitana</name>,</l>
+               <l>de barrio é Santa Maria,</l>
+               <l>mas reonda que una mansana,</l>
+               <l>sabiendo mas que <name>Triana</name>:</l>
+               <l>con la sal é <name>Andalusia</name>.</l>
+               <l>—Es branca.—Como un papé</l>
+               <l>Y querenciosa una grama,</l>
+               <l>y con un pelo, José,</l>
+               <l>mas caracole hay ené</l>
+               <l>que pué abé en una retama.</l>
+               <l>Tiene los ojos de só,</l>
+               <l>los cachete de amapola,</l>
+               <l>¿y er pecho? hasta hay yegó,</l>
+               <l>¿y su caraiter? de cola.</l>
+               <l>Y si la oyes un rato</l>
+               <l>te queas por un Dibé</l>
+               <l>como tres en un sapato,</l>
+               <l>mas pegao á la paré</l>
+               <l>que un cartelon de treatro.</l>
+               <l>—En la corria habrá estao. </l>
+               <l>No que no iria, cabales, </l>
+               <l>con su pañolon bordao</l>
+               <l>y su trage colorao,</l>
+               <l>con mas de mil faralaes.</l>
+               <l>—Oye, que te ijo er librijano</l>
+               <l>cuando al toro capeé?</l>
+               <l>—No mire osté á esa mujé,</l>
+               <l>ó le tiendo á osté la mano.</l>
+               <l>—Y tu que le ijistes?—Ná.</l>
+               <l>Lo pincharé de soslayo</l>
+               <l>miré pa Soleá,</l>
+               <l>y me gorví como un rayo,</l>
+               <l>al berrendo á capeá.</l>
+               <l>—Y no la has visto ar salí?</l>
+               <l>—Al subirme en la calesa,</l>
+               <l>y er tambien me guipó á mí,</l>
+               <l>me meneó la cabeza.</l>
+               <l>Y en jablándole á Soleá</l>
+               <l>y ar verme vení paquí</l>
+               <l>mos vamos con la cuadriya</l>
+               <l>que en la tienda é Curro está</l>
+               <l>reunía pa selebrá</l>
+               <l>la funcion con mansaniya.</l>
+               <l>Frasquillo-Dios te guarde, Soleá.</l>
+               <l>—Que tarí—Tán bien, mujé.</l>
+               <l>—Oye te jiso algo el toro,</l>
+               <l>Jesúl cuanto me asusté!</l>
+               <l>—Que me habia á mi é jasé,</l>
+               <l>estando tu cuerpo é oro,</l>
+               <l>Junto á tí mi corazon,</l>
+               <l>me paesen los toros asuca;</l>
+               <l>y mato de un gofeton,</l>
+               <l>desde er beserro mamon,</l>
+               <l>jasta er toro de Sanluca.</l>
+               <l>Poique en viendo tu presona</l>
+               <l>los toros me paesen mona,</l>
+               <l>y er gentío un jormiguéro,</l>
+               <l>que de una patá, gachona!</l>
+               <l>juy! le junto en su agujero.</l>
+               <l>—Oye, que te ijo Perico?</l>
+               <l>—A mi? ná.</l>
+               <l>—Po er moso se á lusio,</l>
+               <l>caramba, paese querio,</l>
+               <l>pa poné una banderiya,</l>
+               <l>toita la plaza la triya</l>
+               <l>y á la fin sale juio.</l>
+               <l>—Por to ése moso tu pare</l>
+               <l>te quié dá.</l>
+               <l>Yo igo que none,</l>
+               <l>me lo ha dicho mi compare,</l>
+               <l>—Vaya á enamorá á su mare</l>
+               <l>que loque á mi, pitone!</l>
+               <l>—Ay Soleá, Soleá,</l>
+               <l>er tiene mucho poé con tu pare.</l>
+               <l>¿Y á mí qué?</l>
+               <l>lo quié mi pare casá, </l>
+
+               <pb n="3" source="Moreno_262_3.jpeg" facs="fedora_ug8110030/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>po que se case co né.</l>
+               <l>Por que mientras tu me quieras,</l>
+               <l>Frasquiyo, soy tuya yó</l>
+               <l>y con naide parto peras,</l>
+               <l>y vamos á dar carreras;</l>
+               <l>cuanto me jurgen. Salú!</l>
+               <l>—Oye, quienes ese moso?</l>
+               <l>—Es un inglé que conose,</l>
+               <l>aun mataó é toro.</l>
+               <l>-Moso güeno, ande basté?</l>
+               <l>—Piquí miqui, otro idioma,</l>
+               <l>hombre se está osté ibirtiendo</l>
+               <l>conmigo que estoy ardiendo</l>
+               <l>y no tengo gana é broma.</l>
+               <l>Y osté mosito cosio;</l>
+               <l>pueo saber porque está aquí.</l>
+               <l>—Yo estoy aquí.., por que sí.</l>
+               <l>Y osté mosito barí?</l>
+               <l>Yo vine... porque evenio.</l>
+               <l>Una vé yo te quisí</l>
+               <l>y otra vé te estoy quisiendo</l>
+               <l>el amor que te tuví</l>
+               <l>siempre te lo estoy tuviendo.</l>
+               <l>Dime tu por un Dibé,</l>
+               <l>la verdad purita y neta</l>
+               <l>é tu tierra vamos á vé;</l>
+               <l>y no me jurgues inglés,</l>
+               <l>que me rompes la chaqueta.</l>
+               <l>Mira, ante de yo ser torero,</l>
+               <l>esio yo marinero,</l>
+               <l>y estube en <name>Inglaterra</name>,</l>
+               <l>y lo se toito y quiero,</l>
+               <l>desirte lo que es tu tierra.</l>
+               <l>Di que es mas barbariá,</l>
+               <l>lo que jasen los inglese</l>
+               <l>cuando echan á peleá</l>
+               <l>dó sobre los parnese.</l>
+               <l>Señor, si tiene que vé,</l>
+               <l>lo mismo que asemo aquí,</l>
+               <l>oye con un poyo inglé;</l>
+               <l>asen eyo por ayá con hombre.</l>
+               <l>Le dan casne y aguardiente,</l>
+               <l>en fin le hacen engordá,</l>
+               <l>y así que está listo ya,</l>
+               <l>pué, se reune la gente,</l>
+               <l>y lo echan á peleá...</l>
+               <l>Ayí gritan, arbeyana!</l>
+               <l>aquí, pepitas tostá! </l>
+               <l>es la cosa mas gitana,</l>
+               <l>que jiso la soberana</l>
+               <l>mano de la eterniá...</l>
+               <l>Ya está er torito en la plaza,</l>
+               <l>Dios mio, que batacaso,</l>
+               <l>que corná, que paletaso,</l>
+               <l>y entre cien mil picardia</l>
+               <l>salen los banderiyero,</l>
+               <l>biene er toro, juy! salero;</l>
+               <l>que lo cogió, pero como,</l>
+               <l>le puso á topa carnero,</l>
+               <l>dos pares ensima er lomo...</l>
+               <l>Toro aquí paso sobrao</l>
+               <l>guerve er toro y se tapa;</l>
+               <l>y quea er vicho, á tortolao.</l>
+               <l>Guerbe á soná la trompeta</l>
+               <l>la monteriya, aya vá,</l>
+               <l>toro, á la cuarta pasá</l>
+               <l>bien se lia la muleta,</l>
+               <l>y entra en lo rubio la espá...</l>
+               <l>Po señó, escucha inglé,</l>
+               <l>lo que te voy á contá:</l>
+               <l>En parí de <name>Francia</name> una vé,</l>
+               <l>fueron á jasé, camará</l>
+               <l>una corria, ja... ja...</l>
+               <l>pensaron que era jase,</l>
+               <l>un tarriyo é pomá.</l>
+               <l>Fueron seis toros endinos</l>
+               <l>de aquellos salamanquinos;</l>
+               <l>por que allí no los habia</l>
+
+               <pb n="4" source="Moreno_262_4.jpeg" facs="fedora_ug8107689/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>brabo, y se armó la corria...</l>
+               <l>Salieron toitos vestios,</l>
+               <l>de frasque mu presumios,</l>
+               <l>no los toros, los franceses;</l>
+               <l>con sus guantes mu pulio,</l>
+               <l>¿miste guantes pa las reses?</l>
+               <l>cuando estaban en la plasa</l>
+               <l>el que jiso cabesera,</l>
+               <l>los puso á toos en jilera,</l>
+               <l>no reirse que no es guasa...</l>
+               <l>Aun le ijo tu será musiu piqué,</l>
+               <l>tu musiu banderiyé</l>
+               <l>y tu musiu maté.</l>
+               <l>Po señó, sonó á la fin,</l>
+               <l>no creas tú que fué clarin</l>
+               <l>er que tocaron al toro,</l>
+               <l>pa que fuea con mas ecoro,</l>
+               <l>tocaron un vigulin.</l>
+               <l>Po señó salió el primero, retinto,</l>
+               <l>camará y que laberinto</l>
+               <l>cuando er toro vió el frances</l>
+               <l>le envistió y fué á los quinto</l>
+               <l>el señó monsiu piqué,</l>
+               <l>fué ar segundo y lo bercó,</l>
+               <l>fué ar tersero y lo majó...</l>
+               <l>Allí metió los pitones,</l>
+               <l>á este le abre los carzones,</l>
+               <l>y aquel las tripas le pasa,</l>
+               <l>y entre siquirí y nones,</l>
+               <l>se quearon en la plasa</l>
+               <l>mas de quinientos fardones.</l>
+               <l>Toita la gente se fue</l>
+               <l>dejando sobre er reondé,</l>
+               <l>á musiu piqué roncando,</l>
+               <l>con musiu banderillé</l>
+               <l>y musiu maté, llorando.</l>
+               <l>—Dolores, que meise usté á mi?</l>
+               <l>so real tonta,</l>
+               <l>chavojido, piensa osté</l>
+               <l>que yo soy sorda?</l>
+               <l>si me quiere osté dá cangelo</l>
+               <l>no le vá osté á quear pelo</l>
+               <l>en esa cabesa gorda.</l>
+               <l>Y que queremos acá, </l>
+               <l>no tiene osté colegío,</l>
+               <l>que er santo de osté y er mio</l>
+               <l>se estan dando gofetá.</l>
+               <l>No me jurgue osté ar pelo,</l>
+               <l>que le jago á osté así,</l>
+               <l>me lo voy á osté á chupá</l>
+               <l>lo mesmo que un caramelo.</l>
+               <trailer rend="negrita">FIN</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>CARMONA:—Imp. y lib. de D. José M. Moreno, Madre de Dios, 1.</p>
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_271">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedro Becerra o el corazón de un bandido</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Pedro Becerra o el corazon de un bandido. Pasillo
+                     andaluz. Pedro y Juan.</title>
+                  <title type="titulo_breve">Pedro Becerra o el corazon de un bandido.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477256</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 282</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_271_1.xml"
+                              facs="fedora_ug8105265/326,285,428,802/100,/0/default.jpg"
+                              >grabado_m_271_1</item>
+                           <item corresp="grabado_m_271_2.xml"
+                              facs="fedora_ug8105265/877,389,475,693/100,/0/default.jpg"
+                              >grabado_m_271_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q220">
+                  <placeName key="Roma">Roma</placeName>
+                  <location>
+                     <geo>41.893055555556 12.482777777778</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q5783">
+                  <placeName key="Andalucía">Andalucía</placeName>
+                  <location>
+                     <geo>37.46 -4.16</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q5818">
+                  <placeName key="Córdoba">Córdoba</placeName>
+                  <location>
+                     <geo>37.883333333333 -4.7666666666667</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="">Habla andaluza</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-21" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-08" who="#EL">Correction de l'OCR</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8108827/manifest">
+      <graphic url="fedora_ug8105265/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+
+            <div>
+               <pb n="1" source="Moreno_271_1.jpg" facs="fedora_ug8105265/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 282.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">PEDRO BECERRA,</hi>
+                  <lb/><hi rend="negrita">O</hi>
+                  <lb/>EL CORAZON DE UN BANDIDO.</head>
+
+               <head type="subtitulo">
+                  <lb/><hi rend="negrita">PASILLO ANDALUZ.</hi>
+               </head>
+
+               <castList>
+                  <castItem>PEDRO</castItem>
+                  <castItem> Y JUAN.</castItem>
+               </castList>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Que va á suseer aqui!</l>
+                  <l>Dios mio! vaya un aprieto!</l>
+                  <l>y que jago yo, callarme,</l>
+                  <l>y ver en que para esto.</l>
+                  <l>¡El corpo cristi me barga! </l>
+                  <l>si yo pudiera, el remedio</l>
+                  <l>era jasé que se fuera</l>
+                  <l>antes que venga sin mié.</l>
+                  <l>Po señó, no tiene enmienda,</l>
+                  <l>ya está aqui el hònbre, que infierno</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Juanico, Dios te bendiga,</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Güenas noches te dé Dios.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Estamos solos los dos!</l>
+                  <l>y la gente?</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>De fatiga.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Quies sená?</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Que te aprobeche.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Hay alguna noveá?</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Mi capitan, casi ná,</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Mira acercame la leche.</l>
+
+                  <pb n="2" source="Moreno_271_2.jpg"
+                     facs="fedora_ug8108313/full/full/0/default.jpg"/>
+
+                  <l>que estará ayí ensima.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Toma.</l>
+                  <l>Por via er papa é <name>Roma</name>!</l>
+                  <l>que ta pasao? qué tienes?</l>
+                  <l>que tan silensioso vienes?</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>No tengo er gusto é broma....</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Mi capitan, la verda...!</l>
+                  <l>tu silencio y tu conducta</l>
+                  <l>han jarmao una disputa</l>
+                  <l>jase un rato aqui...</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Quisá</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Lo que oye...ha habio porfia.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Y quien es er que sa treve</l>
+                  <l>á fartar á lo que debe</l>
+                  <l>ar bravo da <name>Andalusía</name>?</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>No te amosques... sacabó...</l>
+                  <l>yo por tu bìen te lo digo,</l>
+                  <l>te é dao mir pruebas de amigo,</l>
+                  <l>y pa efenderte estoy yo...</l>
+                  <l>Por mí no te lo pregunto,</l>
+                  <l>pues te quiero muy de verás,</l>
+                  <l>y te ejo jaser lo que quieras</l>
+                  <l>y concluir el asunto,</l>
+                  <l>Acuerdate de aquer dia</l>
+                  <l>que ambos á <name>Córdoba</name> fimo,</l>
+                  <l>y en sus plasas mos metimos</l>
+                  <l>con arrojo y valentía.</l>
+                  <l>Y ar pasá por una calle</l>
+                  <l>en que asomá á una ventana</l>
+                  <l>una mosa mu galana</l>
+                  <l>estaba con un güen taye.</l>
+                  <l>Me dijistes, mira aqueya</l>
+                  <l>con despasio y precautoría</l>
+                  <l>y conserva en la memoria</l>
+                  <l>siempre su cara de estreya.</l>
+                  <l>Yo la miré y tu enseguia</l>
+                  <l>me dijiste Juan...Juan cudio!</l>
+                  <l>si esa jembra po argun lao</l>
+                  <l>te se presenta argun dia?</l>
+                  <l>Te lo advierto en este instante</l>
+                  <l>respétala como á Dios,</l>
+                  <l>y as que la respeten toos,</l>
+                  <l>cuar si tu fueras su amante...</l>
+                  <l>Y bien! dí ¿te pregunté,</l>
+                  <l>porque ese encargo me hasia?</l>
+                  <l>no: que tu me lo desia,</l>
+                  <l>y me bastava, y cayé.</l>
+                  <l>Despues te he visto mu serio</l>
+                  <l>pesaroso y aflijío,</l>
+                  <l>y aunque é sobra he conosio</l>
+                  <l>que guardabas un misterio.</l>
+                  <l>En jamás te he preguntao,</l>
+                  <l>he dicho siempre pa mí:</l>
+                  <l>er no me lo querrá desí;</l>
+                  <l>y sacabó y maguantao.</l>
+                  <l>Pero samosca la gente</l>
+                  <l>y jorman conversasiones,</l>
+                  <l>chismes y murmuraciones,</l>
+                  <l>y quien te estima lo siente...</l>
+                  <l>Si à mi na me quie contá, </l>
+                  <l>porque no me crees tu amigo,</l>
+                  <l>es corriente...no te obligo...</l>
+                  <l>mas á la fin, la verdá...</l>
+                  <l>Pa evitá una tonteria</l>
+                  <l>inventa cuarquiera cuento</l>
+                  <l>que tenga rasonamiento</l>
+                  <l>y charlalo á la partia.</l>
+                  <l>Con esa satisfaccion</l>
+                  <l>toa se quera campante,</l>
+                  <l>y se acabará, y aelante,</l>
+                  <l>la mala conversasíon.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Bíen? Juaníco mas vensio?</l>
+                  <l>tu me dirás lo que intente</l>
+                  <l>y lo contaré á la gente,</l>
+                  <l>y negocio concluio...</l>
+                  <l>Pero á mi pena sujeto</l>
+                  <l>y pues te escuché quejarte</l>
+                  <l>Juanico, voy á contarte</l>
+                  <l>mi aflision y mi secreto.</l>
+                  <l>Y mira, pues te lo higo</l>
+                  <l>cuando siempre reservao,</l>
+                  <l>en mi pecho lo he enserrao,</l>
+                  <l>si te tendré por amigo.</l>
+                  <l>Ascuchame con anhelo</l>
+                  <l>y dame por Dios la carma,</l>
+                  <l>que en las borrascas del arma</l>
+                  <l>un amigo es un consuelo...</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Pero dime, ¿qué te pasa?</l>
+               </sp>
+
+               <pb n="3" source="Moreno_271_3.jpg" facs="fedora_ug8110312/full/full/0/default.jpg"/>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Un tormento que me abrasa</l>
+                  <l>con mas fuego que un volcan...</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Y aun me lo callas así?</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Esverda! tú no lo sabes...</l>
+                  <l>Juanico... son penas graves...</l>
+                  <l>Ay! que me voy á morí...</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Tú morí?</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>La pena negra</l>
+                  <l>me va consumiendo el arma.</l>
+                  <l>desde que perdí la carma,</l>
+                  <l>nunca er pecho se me alegra.</l>
+                  <l>¡Probe de mí! ¿qué me importa</l>
+                  <l>ser amo de una partia,</l>
+                  <l>si con el arma aflijía</l>
+                  <l>nunca er pesá se me acorta?</l>
+                  <l>¿De qué sirve tené</l>
+                  <l>rey de campo un gran cabayo</l>
+                  <l>si soy er probe vasayo</l>
+                  <l>de una tunanta mugé....?</l>
+                  <l>De que me sirve la prata</l>
+                  <l>con que adorno mi vestio,</l>
+                  <l>si tengo er pecho jerio</l>
+                  <l>por la mano de una ingrata?</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>De una ingrata?</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Ascucha, Juan,</l>
+                  <l>mis desgraciaos amores</l>
+                  <l>y verás que mas dolores</l>
+                  <l>no pasó nadie en su afan.</l>
+                  <l>La jembra que te enseñé, </l>
+                  <l>aquer dia, es la criatura</l>
+                  <l>que ma yenao de amargura</l>
+                  <l>con tanto y tanto paesé...</l>
+                  <l>Serca jase de ocho años</l>
+                  <l>que la endina me egañó,</l>
+                  <l>y ensima además me dió</l>
+                  <l>tristesas y desengaños.</l>
+                  <l>Muchacho sin esperensia</l>
+                  <l>en er galisto caí.</l>
+                  <l>y mi voluntad le dí</l>
+                  <l>y mi via y mi consencia.</l>
+                  <l>Veleta me engatusó.</l>
+                  <l>y cuando mas las adoraba</l>
+                  <l>y en ella mas confiaba</l>
+                  <l>en la calle me plantó...</l>
+                  <l>Juanico...! cuanto he pasao!</l>
+                  <l>Ay! tu no sabes la pena,</l>
+                  <l>que ar corason encaena</l>
+                  <l>cuando uno está esamparao...</l>
+                  <l>Soliyo me ví en er mundo</l>
+                  <l>sin pas, ni dicha, ni gloria;</l>
+                  <l>solo Juan con su memoria</l>
+                  <l>y mi cariño profundo...</l>
+                  <l>No sabia que jasé</l>
+                  <l>por orbiá tanta ofensa,</l>
+                  <l>Juan, y para mas vergüensa</l>
+                  <l>como un muchacho lloré.</l>
+                  <l>Y en medio de mi agonia</l>
+                  <l>con apuros sobre apuros</l>
+                  <l>pasé los ratos mas duros</l>
+                  <l>que se pasan en la via.</l>
+                  <l>Aturdio y medio loco</l>
+                  <l>ar fin salí de mi tierra,</l>
+                  <l>y ni ayé en pas la guerra</l>
+                  <l>ni en la soleá tan poco.</l>
+                  <l>Si por mí muerte orrorosa</l>
+                  <l>iba al campo de la ingrata,</l>
+                  <l>via su cuerpo en caá mata</l>
+                  <l>y su cara en caá rosa.</l>
+                  <l>Y teniendo su bellesa</l>
+                  <l>siempre elante de mi,</l>
+                  <l>¿cómo era posible así</l>
+                  <l>que curase mi tristesa?</l>
+                  <l>Cansao de tanto afan</l>
+                  <l>y no pudiendo vencerme,</l>
+                  <l>formé ideas de jarcerme,</l>
+                  <l>de ladrones capitan;</l>
+                  <l>haber si en buya metío,</l>
+                  <l>y siendo yo er soberano,</l>
+                  <l>de su corason biyano</l>
+                  <l>tomaba venganza er mio.</l>
+                  <l>O haber si en argun tragin</l>
+                  <l>de nuestras luchas estrañas,</l>
+                  <l>un balaso en las entrañas,</l>
+                  <l>daba con mis penas fin.</l>
+                  <l>Pero la perra fortuna</l>
+                  <l>que conmigo se divierte,</l>
+                  <l>no ha querio darme la muerte,</l>
+                  <l>ni tampoco heria ninguna.</l>
+
+                  <pb n="4" source="Moreno_271_4.jpg"
+                     facs="fedora_ug8105487/full/full/0/default.jpg"/>
+
+                  <l>Y aquí me tienes pasando, </l>
+                  <l>mas penas que ningun hombre</l>
+                  <l>siempre pensando en su nombre</l>
+                  <l>y siempre en ella pensando.</l>
+                  <l>Cuando me aparto de aquí,</l>
+                  <l>y por esos campos voy</l>
+                  <l>no sabes á donde voy?</l>
+                  <l>á <name>Córdoba</name>... siempre ayi...</l>
+                  <l>No jago mas diligesia</l>
+                  <l>que buscarla es mi deseo! </l>
+                  <l>quiero buscarla y... no no la veo...</l>
+                  <l>como á è sé...l bien... pasencia!</l>
+                  <l>Pero cual será mi via,</l>
+                  <l>si mientras mas tíempo pasa,</l>
+                  <l>mas er pecho se me abrasa</l>
+                  <l>y la quiero mas caa dia?</l>
+                  <l>Ni un minuto ni en jamás</l>
+                  <l>la orbio na me consuela</l>
+                  <l>tengo aqui tanta candela</l>
+                  <l>que no pueo sufrir mas.</l>
+                  <l>Ya sin ella no respiro,</l>
+                  <l>ni tengo en mi confiansa</l>
+                  <l>y perdiá la esperansa</l>
+                  <l>me boy á pegar un tiro.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Suerta esa pistola pronto;</l>
+                  <l>¿quien eso Pedro imagina?</l>
+                  <l>el hombre que se asesina</l>
+                  <l>por una mujé es un tonto.</l>
+                  <l>Es tonto y loco de atá;</l>
+                  <l>pero el hombre que se mata</l>
+                  <l>por una mugé ingrata</l>
+                  <l>sobre tonto es animá.</l>
+                  <l>Orbiala, y se acabó:</l>
+                  <l>pon toitico tu cudiao</l>
+                  <l>en apartá de tu lao</l>
+                  <l>á la que asi te engañó.</l>
+                  <l>Jecha abajo esa agonia:</l>
+                  <l>recuerda que eres el hombre</l>
+                  <l>conosio por el nombre</l>
+                  <l>del bravo de <name>Andalusia</name>.</l>
+                  <l>Has valiente y no cruel</l>
+                  <l>rey de campo en tu cabayo</l>
+                  <l>que ese amor se tu basayo</l>
+                  <l>y no tú vasayo de él.</l>
+                  <l>Si esa mujé salamera</l>
+                  <l>te se dusió, ya me jundo!</l>
+                  <l>¿te fartará á tí en er mundo</l>
+                  <l>otra mejor que te quiera?</l>
+                  <l>orbiala y á viví.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Orbiarla, no pue sé.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Pues vive.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Arfin moriré.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Y qué vá á conseguí?</l>
+                  <l>aprietate er corason</l>
+                  <l>y aunque tengas amargura,</l>
+                  <l>vive por esa criatura.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Juanico tienes rason, </l>
+                  <l>por eya debo é viví,</l>
+                  <l>que ella sola me consuela,</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Otra ves?</l>
+                  <l>por via é mi abuela,</l>
+                  <l>vamonos, Pedro de aquí.</l>
+               </sp>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>REIMPRESO EN CARMONA. <lb/>Imp: de D. J.M. Moreno. Calle Juan de la Cabra,
+                  núm 4. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

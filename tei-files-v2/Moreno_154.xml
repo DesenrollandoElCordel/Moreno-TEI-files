@@ -1,0 +1,883 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_154">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Don Antonio Benavides de la Cerda</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">D. Antonio Benavides de la Cerda. Nueva relacion en
+                     la cual se refiere como un caballero andaluz se enamoró de una señora natural
+                     de Palermo, por la cual tuvo una reñida pendencia, y habiéndose embarcado para
+                     España, fueron cautivos de moros, con todo lo demás que verá el curioso
+                     lector.</title>
+                  <title type="titulo_breve">D. Antonio Benavides de la Cerda.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (1854): <ref target="Moreno_153.xml">Moreno_153</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1864-01-01">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6472930</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 162</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_154_1.xml"
+                              facs="fedora_ug8110210/300,346,1269,942/100,/0/default.jpg"
+                              >grabado_m_154_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="5" corresp="Q2656">
+                  <placeName key="Palermo">Palermo</placeName>
+                  <location>
+                     <geo>38.115658055555556 13.361261944444445</geo>
+                  </location>
+               </place>
+               <place n="8" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="5" corresp="Q572041">
+                  <placeName key="Antequera">Antequera</placeName>
+                  <location>
+                     <geo>37.0183652 -4.5596649</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q222">
+                  <placeName key="Albania">Albania</placeName>
+                  <location>
+                     <geo>41 20</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q2634">
+                  <placeName key="Nápoles">Nápoles</placeName>
+                  <location>
+                     <geo>40.833333333333 14.25</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q1460">
+                  <placeName key="Sicilia">Sicilia</placeName>
+                  <location>
+                     <geo>37.599958333333 14.015377777778</geo>
+                  </location>
+               </place>
+               <place n="4" corresp="Q3561">
+                  <placeName key="Argel">Argel</placeName>
+                  <location>
+                     <geo>36.776388888889 3.0586111111111</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q3572">
+                  <placeName key="Túnez">Túnez</placeName>
+                  <location>
+                     <geo>34 10</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q8851">
+                  <placeName key="Málaga">Málaga</placeName>
+                  <location>
+                     <geo>36.716666666667 -4.4166666666667</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-29" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105053/manifest">
+      <graphic url="fedora_ug8110210/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <pb n="1" source="Moreno_154_1.jpg" facs="fedora_ug8110210/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum"> Número 162.</fw>
+
+            <head rend="negrita" type="primer_titulo">D. ANTONIO BENAVIDES DE LA CERDA.</head>
+            <head rend="cursiva" type="subtitulo">Nueva relacion en la cual se refiere como un
+               caballero andaluz se <lb/>enamoró de una señora natural de Palermo, por la cual tuvo
+               una <lb/>reñida pendencia, y habiéndose embarcado para España, fueron <lb/>cautivos
+               de moros, con todo lo demás que verá el curioso lector.</head>
+
+            <div n="1" type="parte">
+
+               <head type="titulo_parte">PRIMERA PARTE.</head>
+
+               <l rend="indent">A vos reina Soberana,</l>
+               <l>madre de Dios pura y bella,</l>
+               <l>pido alumbreis mis sentidos,</l>
+               <l>para que mi torpe lengua</l>
+               <l>pueda referir la historia</l>
+               <l>mas peregrina y adversa</l>
+               <l>que en las humanas edades</l>
+               <l>por esquisita se cuenta..</l>
+               <l>En el pensíl mas florido</l>
+               <l>que rica naturaleza</l>
+               <l>puede producir primores</l>
+               <l>de hermosura y de grandeza,</l>
+               <l>donde mostró su poder</l>
+               <l>el autor de Cielo y tierra</l>
+               <l>(que con decir, es <name>Palermo</name></l>
+               <l>se dijo toda belleza)</l>
+               <l>se crió una hermosa dama,</l>
+               <l>tan preciosa que en si mesma</l>
+               <l>lleva el abono de linda</l>
+               <l>con desgracias que le esperan.</l>
+               <l>Es su nombre y apellido</l>
+               <l>doña María Teresa</l>
+               <l>de Faro Leon y Torres,</l>
+               <l>casa tan noble, que cuentan: </l>
+               <l>que muy pocas en <name>Palermo</name></l>
+               <l>la igualan en la nobleza.</l>
+               <l>Con ostentacion y gala.</l>
+               <l>creció esta dama bella,</l>
+
+               <pb n="2" source="Moreno_154_2.jpg" facs="fedora_ug8110223/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>y siendo de catorce años</l>
+               <l>disparóle una saéta</l>
+               <l>el vendado niño ciego</l>
+               <l>(que mas su poder ostenta</l>
+               <l>en lo humilde, tierno y débil,</l>
+               <l>que en el que fuerte desprecia</l>
+               <l>sus amorozos arpones,</l>
+               <l>resistiéndose á sus flechas,)</l>
+               <l>é inclinó su voluntad</l>
+               <l>á un andaluz de <name>Antequera</name>,</l>
+               <l>que le llaman don Antonio</l>
+               <l>Benavides de <name>Lacerda</name>,</l>
+               <l>tan singular, que en <name>España</name></l>
+               <l>es notoria su nobleza.</l>
+               <l>Estos dos finos amantes</l>
+               <l>se estiman con tantas veras,</l>
+               <l>que en los dos cuerpos un alma</l>
+               <l>con el amor se alimentan.</l>
+               <l>Viviendo con esta union</l>
+               <l>en que el amor los sujeta,</l>
+               <l>quiso don Juan Piñateli,</l>
+               <l>napolitano en inquietas</l>
+               <l>sediciones deshacer</l>
+               <l>tanta union con violencia.</l>
+               <l>Escribióle à don Antonio</l>
+               <l>un papel en que le reta</l>
+               <l>para el campo, y luego en él</l>
+               <l>le dirá la causa cierta,</l>
+               <l>que le mueve al desafio</l>
+               <l>de aquella campal empresa.</l>
+               <l>Admitióle luego al punto</l>
+               <l>su valor no dando treguas</l>
+               <l>hasta saber el motivo</l>
+               <l>que al napolitano mueva.</l>
+               <l>Llegaron los dos al sitio</l>
+               <l>señalado y sin espera</l>
+               <l>así dijo don Antonio</l>
+               <l>á Piñateli; ya es fuerza</l>
+               <l>que aquí me digas la causa</l>
+               <l>que me trae á la palestra.</l>
+               <l>Y Piñateli nesponde</l>
+               <l>con muy pronta diligencia;</l>
+               <l>sí la diré, pues es justo</l>
+               <l>que mi dolor os refiera.</l>
+               <l>Esa deidad que en el pecho</l>
+               <l>colocastes por diadema</l>
+               <l>de tu amor firme y dichoso</l>
+               <l>es quien mueve mis empresas;</l>
+               <l>ese cielo á que yo aspiro, </l>
+               <l>doña María Teresa</l>
+               <l>de Faro Leon y Torres, </l>
+               <l>es causa de mis dolencias:</l>
+               <l>y así suspende el impulso</l>
+               <l>que llevas en poseerla,</l>
+               <l>o los filos de mi espada</l>
+               <l>castigarán tus ideas.</l>
+               <l>El valiente don Antonio</l>
+               <l>al escuchar tal respuesta,</l>
+               <l>no hay tígre fiero de <name>Albania</name></l>
+               <l>que á su enojo igualar pueda,</l>
+               <l>y le dice: fementido</l>
+               <l>Piñateli ¿cómo intentas</l>
+               <l>quitarme el alma que tengo</l>
+               <l>dando vida á mis potencias?</l>
+               <l>¿no sabes que es corto orgullo</l>
+               <l>el tuyo para la empresa,</l>
+               <l>y que es imposible eso</l>
+               <l>aunque <name>Nápoles</name> viniera?</l>
+               <l>Se arroja con valentía</l>
+               <l>con tan no vista destreza,</l>
+               <l>que le alcanzó con un tajo,</l>
+               <l>rompiéndole la cabeza.</l>
+               <l>En cuyo trabado lance</l>
+               <l>dijo Piñateli: ea,</l>
+               <l>favor aquí de los mios,</l>
+               <l>y seis ó siete le cercan</l>
+               <l>que en emboscada tenia,</l>
+               <l>los cuales con ligereza</l>
+               <l>sembisten con don Antonio</l>
+               <l>quien esgrimiendo su diestra,</l>
+               <l>á los primeros embistes</l>
+               <l>uno muerto quedò en tierra.</l>
+               <l>En este fuerte intermedio</l>
+               <l>de accion tan infame y fea,</l>
+               <l>un turco acaso pasaba,</l>
+               <l>y mirando la tragedia,</l>
+               <l>tomó la espada del muerto,</l>
+               <l>y con invencibles fuerzas</l>
+               <l>al lado de don Antonio</l>
+               <l>se puso diciendo, perra,</l>
+               <l>canalla traidora, ¿cómo</l>
+               <l>con tan no vista insolencia</l>
+               <l>batallais tantos con uno?</l>
+               <l>Y partiendo con destreza,</l>
+               <l>no quedò traidor alguno</l>
+               <l>en el campo que no huyera.</l>
+
+               <pb n="3" source="Moreno_154_3.jpg" facs="fedora_ug8105515/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>Reconociendo esta accion</l>
+               <l>don Antonio de <name>Lacerda</name>,</l>
+               <l>le dice: quién eres, hombre,</l>
+               <l>que tan bizarro te muestras?</l>
+               <l>Dijo el esclavo: yo soy</l>
+               <l>un turco, á quien las tragedias</l>
+               <l>de mi fortuna inconstante</l>
+               <l>redujo á tanta miseria</l>
+               <l>de ser esclavo en <name>Sicilia</name>;</l>
+               <l>pero noble en tal manera,</l>
+               <l>que si volviera á mi pátria,</l>
+               <l>vasallos me obedecieran.</l>
+               <l>Este he sido y este soy,</l>
+               <l>perdonad mi osada empresa,</l>
+               <l>que solo quise serviros</l>
+               <l>en accion tan baja y fea</l>
+               <l>como en la que los contrarios</l>
+               <l>ejercitaron sus fuerzas.</l>
+               <l>No respondió don Antonio</l>
+               <l>mas que decirle que fuera</l>
+               <l>á acompañarle gustoso,</l>
+               <l>advirtiendo que era fuerza</l>
+               <l>el que los dos á sagrado</l>
+               <l>se retiraran, porque hecha</l>
+               <l>una muerte en el fracaso</l>
+               <l>quedaba por cosa cierta.</l>
+               <l>Retiráronse á un convento,</l>
+               <l>y á otro dia con presteza</l>
+               <l>supo el dueño del esclavo</l>
+               <l>que se valió con cautela</l>
+               <l>de un amigo confidente</l>
+               <l>para hacer la diligencia</l>
+               <l>del rescate y con dinero,</l>
+               <l>que la libertad tragera</l>
+               <l>como en efecto asi fué</l>
+               <l>y túvola sin resistencia.</l>
+               <l>Llamó al turco don Antonio</l>
+               <l>y hablóle de esta manera:</l>
+               <l>ya estás libre noble turco,</l>
+               <l>que si anoche tu nobleza</l>
+               <l>amparo me dió en el campo,</l>
+               <l>agradeciendo finezas,</l>
+               <l>hoy te doy la libertad;</l>
+               <l>este es el auto que expresa</l>
+               <l>tu rescate, ahí le tienes:</l>
+               <l>y porque mas bien lo creas,</l>
+               <l>ya queda en el puerto nave</l>
+               <l>que te conduzca á tu tierra.</l>
+               <l>El turco de agradecido</l>
+               <l>vertia lágrimas tiernas;</l>
+               <l>y le dijo: ¡oh! quiera Alá,</l>
+               <l>que algun dia pagar pueda</l>
+               <l>beneficio tan supremo;</l>
+               <l>y que la inconstante rueda</l>
+               <l>de la fortuna se fije</l>
+               <l>solo en dichas de tu esfera.</l>
+               <l>Despidiéronse amorosos</l>
+               <l>partiendo el turco á su tierra,</l>
+               <l>y el famoso don Antonio</l>
+               <l>escribióle la tragedia</l>
+               <l>que aconteció, á la hermosa</l>
+               <l>doña María Teresa.</l>
+               <l>La escribió por estenso</l>
+               <l>todo el caso, y que si era</l>
+               <l>gustosa, la sacaria</l>
+               <l>en aquella noche mesma</l>
+               <l>por seguro de su casa,</l>
+               <l>y puesto con ligereza</l>
+               <l>en una nave española</l>
+               <l>que estaba ya de su cuenta</l>
+               <l>para hacer viaje á <name>España</name></l>
+               <l>que enviase la respuesta</l>
+               <l>pues la justicia en <name>Palermo</name></l>
+               <l>que le buscase era fuerza:</l>
+               <l>y de esta suerte cesaban</l>
+               <l>tanta multitud de penas</l>
+               <l>como el corazon tenia</l>
+               <l>temeroso de perderla.</l>
+               <l>Recibió doña María</l>
+               <l>esta carta, y con presteza</l>
+               <l>respondióle: camante mio,</l>
+               <l>dulce iman de mis potencias,</l>
+               <l>ya reconoces mi afecto</l>
+               <l>el riesgo que con cautela</l>
+               <l>te ha buscado un alevoso;</l>
+               <l>y así respondo, que queda, </l>
+               <l>mi amor constanste esperando</l>
+               <l>el seguirte en tus tragedias.</l>
+               <l>Dios te guarde dueño mio,</l>
+               <l>Soy tuya María Teresa.»</l>
+               <l>Cerró el pliego y remitióle,</l>
+               <l>el cual al instante llega</l>
+               <l>á manos de don Antonio,</l>
+               <l>y en leyéndolo se apresta</l>
+               <l>para el caso, disponiendo</l>
+               <l>que se pusiese á la vela</l>
+
+               <pb n="4" source="Moreno_154_4.jpg" facs="fedora_ug8110278/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>la nave que queda dicha</l>
+               <l>para la presente urgencia.</l>
+               <l>Llegó la noche y resuelto</l>
+               <l>amante fino se llega</l>
+               <l>á la casa de su dama</l>
+               <l>que estaba de centinela</l>
+               <l>esperando que su amante.</l>
+               <l>como lo escribió viniera.</l>
+               <l>El que le dijo: ¿sois vos</l>
+               <l>doña María Tesesa?</l>
+               <l>Yo soy esposo del alma;</l>
+               <l>quien firme amante te espera.</l>
+               <l>Dijo don Antonio entonces:</l>
+               <l>agradezco tus finezas,</l>
+               <l>y así, dueño de mi vida,</l>
+               <l>vamos que lamave espera</l>
+               <l>para hacer viaje á <name>España</name>, </l>
+               <l>que allá en mi pátria <name>Antequera</name></l>
+               <l>ligarán los bendiciones</l>
+               <l>de nuestra madre la Iglesia</l>
+               <l>nuestras finas voluntades;</l>
+               <l>así el Dios supremo quiera</l>
+               <l>darnos próspero viaje.</l>
+               <l>Toda su ropa le entrega,</l>
+               <l>marchan al puerto, y la lancha</l>
+               <l>que de prevencion espera,</l>
+               <l>condujo á los dos amantes</l>
+               <l>á la nave, y á la velá</l>
+               <l>se hacen alegres, marchando</l>
+               <l>para <name>España</name> con presteza.</l>
+               <l>Pero estando en alta mar,</l>
+               <l>aquella inconstante rueda</l>
+               <l>que siempre de vana varía</l>
+               <l>las desdichas y tragedias,</l>
+               <l>les redujo á tal estado</l>
+               <l>que igual no es fácil se advierta.</l>
+               <l>Enojóse el gran Neptuno,</l>
+               <l>y sus espúmas se elevan</l>
+               <l>á la triste navecilla</l>
+               <l>hasta las estrellas mesmas</l>
+               <l>y á lo profundo la abaten,</l>
+               <l>ya entre cristales se anega,</l>
+               <l>y zozobrando afligida</l>
+               <l>la gente en ansiosas penas</l>
+               <l>no podia hallar récurso</l>
+               <l>que de algun alivio fuera.</l>
+               <l>Corrieron esta borrasca</l>
+               <l>tres dias, sin qué pudieran</l>
+               <l>los suspiros y oraciones</l>
+               <l>suspender tan gran tormenta;</l>
+               <l>y al cabo de ellos se hallaron</l>
+               <l>atacados con tal fuerza</l>
+               <l>por una nave argelina,</l>
+               <l>que sin hacer resistencia</l>
+               <l>fué preciso el entregarse</l>
+               <l>ó las vidas se perdieran.</l>
+               <l>Aquí fueron los sollozos;</l>
+               <l>vertiendo lágrimas tiernas</l>
+               <l>los afligidos amantes</l>
+               <l>viendo su fortuna adversa.</l>
+               <l>Fueron llevados á <name>Argél</name>,</l>
+               <l>y así que saltan en tierra</l>
+               <l>los pusieron como estilan</l>
+               <l>á los cautivos, en venta.</l>
+               <l>A pregon, siendo vendidos,</l>
+               <l>doña María Teresa</l>
+               <l>se destinó para <name>Túnez</name>,</l>
+               <l>que un turco de rica esfera</l>
+               <l>le enviaba de regalo</l>
+               <l>á un grande de aquella tierra</l>
+               <l>y el famoso don Antonio</l>
+               <l>Benavides de <name>Lacerda</name></l>
+               <l>quedóse pobre cautivo</l>
+               <l>en <name>Argél</name> con gran miseria.</l>
+               <l>¡Qué pluma podrá esplicar</l>
+               <l>el dolor, angustia y pena</l>
+               <l>que estos dos finos amantes</l>
+               <l>sufrian en su tragedía!</l>
+               <l>Decia doña María</l>
+               <l>vertiendo sus ojos perlas:</l>
+               <l>á Dios, esposo del alma;</l>
+               <l>quién en tus trabajos fuera</l>
+               <l>alivio, gozo y descanso,</l>
+               <l>que los mios menos fueran!</l>
+               <l>Respondiendo don Antonio:</l>
+               <l>hermosa dama, Dios quiera,</l>
+               <l>pues por mí te ves cautiva,</l>
+               <l>que con sangre de mis venas</l>
+               <l>consiga tu libertad</l>
+               <l>y así cesarán mis penas.</l>
+               <l>Y hablándose con los ojos</l>
+               <l> dividieron con fiereza</l>
+               <l>estos dos cuerpos y un alma</l>
+               <l>que de amores se alimentan,</l>
+               <l>Y en otra segunda párte</l>
+               <l>diré lo demás que resta.</l>
+
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="5" source="Moreno_154_5.jpg" facs="fedora_ug8109219/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+               <head rend="cursiva" type="subtitulo">En la que se refiere lo que pasaron en su
+                  cau--. <lb/>tiverio don Antonio Benavides y doña María Te: <lb/>resa; como
+                  llegaron con felicidad á España y se. <lb/>casaron; con lo demás que verá el
+                  curioso lector, </head>
+
+               <l rend="indent">Ya que en la primera parte</l>
+               <l>afrecí daria cuenta</l>
+               <l>del fin que tuvo esta historia</l>
+               <l>de don Antonio <name>Lacerda</name>
+               </l>
+               <l>quedamos en que cautivos</l>
+               <l>los dos amantes se quedan,</l>
+               <l>dentro de <name>Argél</name> don Antonid</l>
+               <l>arrastrando una cadena,</l>
+               <l>y á <name>Túnez</name> fué de regalo</l>
+               <l>doña María Teresa.</l>
+               <l>Llegó pues con ei presente</l>
+               <l>un turco que es quien lo lleva</l>
+               <l>à un gran señor á quien iba</l>
+               <l>remitida la belleza</l>
+               <l>de dama tan desgraciada;</l>
+               <l>y apenas el pliego entrega</l>
+               <l>con el regalo yá dicho,</l>
+               <l>cuando el noble turco queda</l>
+               <l>absorto de la hermosura</l>
+               <l>que la magestad suprema</l>
+               <l>epilogó en esta dama</l>
+               <l>ostentando su grandeza.</l>
+               <l>Y viendo que sus dos sol</l>
+               <l>estaban vertiendo perlás</l>
+               <l>lamentando su desdicha,</l>
+               <l>le dijo el turco, no temas</l>
+               <l>cristiana, pues te aseguro</l>
+               <l>vienes á tu casa mesma;</l>
+               <l>no pienses que como esclava</l>
+               <l>estarás en mi presencia.</l>
+               <l>Respondió doña María;</l>
+               <l>yo, señor, que piense es fuerza,</l>
+               <l>soy tu esclava, pues fortuna</l>
+               <l>con un vuelco de su rueda</l>
+               <l>me redujo á este estado</l>
+               <l>dichoso porque en él pueda</l>
+               <l>servirte con mucho gusto</l>
+               <l>obediente á tu grandeza</l>
+               <l>Dijo el turco: sobre hermosa,</l>
+               <l>sois cristiana muy discreta.</l>
+               <l>Despachó luego al instante</l>
+               <l>al enviado con treinta</l>
+               <l>cequíes de gratitud</l>
+               <l>para él solo, y otros treinta</l>
+               <l>valones de rica grana</l>
+               <l>y hermosas ropas de seda</l>
+               <l>para su corresponsal</l>
+               <l>como grata recompensa</l>
+               <l>del regalo recibido</l>
+               <l>que estima sobre manera.</l>
+               <l>Al cabo de algunos dias</l>
+               <l>el turco como se encuentra</l>
+               <l>tan herido del amor,</l>
+               <l>pues sus crueles saetas</l>
+               <l>penetraron hasta el alma,</l>
+               <l>discurria alla en su idea</l>
+               <l>una ocasion oportuná</l>
+               <l>con que hablarla pudiera</l>
+               <l>á su adorada cautiva,</l>
+               <l>á aquel cielo que venera</l>
+
+               <pb n="6" source="Moreno_154_6.jpg" facs="fedora_ug8109038/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+               <l>por imán de su alvedrío</l>
+               <l>y norte de sus potencias,</l>
+               <l>á aquel prodigio humanado,</l>
+               <l>doña María Teresa,</l>
+               <l>que triste y desconsolada</l>
+               <l>en sus oraciones tiernas</l>
+               <l>clamaba á la virgen pura</l>
+               <l>diciendo de esta manera:</l>
+               <l>madre de desamparados,</l>
+               <l>vírgen pura, hermosa y bella,</l>
+               <l>alcanzad de vuestro hijo</l>
+               <l>señor nuestro, me defienda</l>
+               <l>de tantas persecuciones</l>
+               <l>con que este turco me cerca.</l>
+               <l>No permitais, madre mia,</l>
+               <l>ya que cautiva me vea</l>
+               <l>el que ofenda á vuestro hijo,</l>
+               <l>sed mi amparo y mi defensa.</l>
+               <l>Así suspiraba triste</l>
+               <l>pero su amo que observa</l>
+               <l>sus aflicciones, la dice:</l>
+               <l>es posible, ingrata bella,</l>
+               <l>que la tristeza en tu pecho</l>
+               <l>tan de firme se aposenta?</l>
+               <l>tú eres señora absoluta</l>
+               <l>de mi alvedrío, y si fueras</l>
+               <l>agradecida á mi amor,</l>
+               <l>lo fueras de mis riquezas;</l>
+               <l>pero si ingrata prosigues</l>
+               <l>con el menosprecio, piensa</l>
+               <l>que quien te estima soy yo,</l>
+               <l>y si cruel tu belleza</l>
+               <l>no corres ponde á mi amor</l>
+               <l>y desprecias mis finezas,</l>
+               <l>lo que no hagan mis cariños</l>
+               <l>ha de lograrlo la fuerza,</l>
+               <l>Mas viéndola tan constante,</l>
+               <l>y firme hacer resistencia,</l>
+               <l>obstinado se arrojó</l>
+               <l>con acciones descompuestas,</l>
+               <l>que fué preciso á la dama</l>
+               <l>le dijese: aguarda, espera</l>
+               <l>que si piensas que estoy sola,</l>
+               <l>no estoy sola, no lo creas,</l>
+               <l>que tengo amante presente,</l>
+               <l>que se pondrá en mi defensa,</l>
+               <l>y que sabrá castigar</l>
+               <l>demasías desatentas.</l>
+               <l>Dijo el turco: ¿cómo es eso?</l>
+               <l>¿pues quién en mi casa fuera</l>
+               <l>capaz para ser tu amante,</l>
+               <l>que tan solo yo no fuera?</l>
+               <l>Respondióle muy briosa</l>
+               <l>doña María Teresa:</l>
+               <l>quien mi corazon ocupa</l>
+               <l>cual dueño de mis potencias</l>
+               <l>aunque ausente, con su imágen</l>
+               <l>haciéndome esta defensa.</l>
+               <l>Replicóle: no es posible</l>
+               <l>si mas claro no lo muestra.</l>
+               <l>Entonces doña María</l>
+               <l>le respondió: porque veas</l>
+               <l>que es muy cierto lo que digo,</l>
+               <l>esta caridad lo muestra.</l>
+               <l>¿No has visto un pomposo árbol</l>
+               <l>arraigado en fértil tierra,</l>
+               <l>que el labrador ingenioso</l>
+               <l>queriendo que el fruto sea</l>
+               <l>á medida de su gusto,</l>
+               <l>le acora en parte, y conciencia</l>
+               <l>le introduce cierta rama</l>
+               <l>de otro árbol, de manera</l>
+               <l>que queda con él unida,</l>
+               <l>y se vé por esperiencia,</l>
+               <l>que echa el fruto introducido</l>
+               <l>y el de su naturaleza.</l>
+               <l>siendo tan firme esta union</l>
+               <l>qué inseparable se muestra?</l>
+               <l>Pues de esta suerte yo fuí,</l>
+               <l>producida de la tierra,</l>
+               <l>llegó el amor ingenioso</l>
+               <l>con una aguda saeta</l>
+               <l>que me pasó el corazon</l>
+               <l>é introducida la deja,</l>
+               <l>con cuya especie ingirió</l>
+               <l>distinta naturaleza</l>
+               <l>á la mia, la cual vive</l>
+               <l>tan patente en mis potencias</l>
+               <l>que sin que pierda yo el ser</l>
+               <l>el suyo unido se queda:</l>
+               <l>y tambien de la amorosa</l>
+               <l>de don Antonio <name>Lacerda</name>;</l>
+               <l>mira si estará presente</l>
+               <l>donde estoy yo de manera</l>
+               <l>que no puede el uno al otro</l>
+               <l>lesasirse aunque tu quieras.</l>
+
+               <pb n="7" source="Moreno_154_7.jpg" facs="fedora_ug8105280/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>El turco que aquesto oyó,</l>
+               <l>prorumpió diciendo: espera</l>
+               <l>hermosa deidad, y dime</l>
+               <l>que don Antonio <name>Lacerda</name></l>
+               <l>es ese que me refieres,</l>
+               <l>que pendiente de tu lengua</l>
+               <l>está todo mi cuidado</l>
+               <l>aguardando la respuesta?</l>
+               <l>Respondió doña María;</l>
+               <l>es, señor, porque lo sepas</l>
+               <l>un caballero andaluz,</l>
+               <l>que es natural de <name>Antequera</name>,</l>
+               <l>tan galan como un Adonis,</l>
+               <l>discreto sobre manera,</l>
+               <l>esforzado como él mismo</l>
+               <l>y noble sin competencia.</l>
+               <l>Llegó á <name>Palermo</name> mi pátria</l>
+               <l>y Cupido con saetas</l>
+               <l>unió nuestros corazones</l>
+               <l>como ya dicho te queda:</l>
+               <l>á este tiempo un cruel traidor</l>
+               <l>napolitano, en inquietudes</l>
+               <l>sediciones intentó</l>
+               <l>romper la dulce cadena</l>
+               <l>de nuestras dos voluntades,</l>
+               <l>previniendo con cautela</l>
+               <l>una embocada traidora.</l>
+               <l>y luego al campo le reta</l>
+               <l>para que allí descuidado</l>
+               <l>infame muerte le dieran.</l>
+               <l>Llegaron por fin al sitio,</l>
+               <l>la emboscada estaba alerta,</l>
+               <l>salen, pero un noble turco</l>
+               <l>le defendió en la palestra,</l>
+               <l>y con sus favor y auxilio</l>
+               <l>don Antonio se liberta.</l>
+               <l>Quedó un muerto y un herido</l>
+               <l>en esta fuerte refriega,</l>
+               <l>y comprando de aquel turco</l>
+               <l>la libertad á su espensa,</l>
+               <l>nos embarcamos muy luego</l>
+               <l>para <name>España</name> con presteza.</l>
+               <l>Estando ya en alta mar,</l>
+               <l>los argelinos nos cercan,</l>
+               <l>y cautivos en su playa</l>
+               <l>nos pusieron luego en venta,</l>
+               <l>A mi amante le compró</l>
+               <l>un turco de gran riqueza,</l>
+               <l>y á mí tu corresponsal,</l>
+               <l>trayéndome á tu presencia,</l>
+               <l>en la cual...No digas mas,</l>
+               <l>suspende la voz, espera,</l>
+               <l>que no sabes los misterios</l>
+               <l>que tus fortunas encierran;</l>
+               <l>vive seguro en que presto</l>
+               <l>á tu amante libre veas.</l>
+               <l>Luego al instante dió órden</l>
+               <l>á sus criados, que fueran</l>
+               <l>à prevenir una nave</l>
+               <l>conducente á su grandeza.</l>
+               <l>Hecho esto, fué llamada</l>
+               <l>doña María Teresa</l>
+               <l>por el turco, y sin dedirle</l>
+               <l>sus pensamientos ni ideas,</l>
+               <l>ambos á dos se embarcaron</l>
+               <l>para <name>Argél</name> con gran presteza.</l>
+               <l>Llegaron pues á su puerto,</l>
+               <l>y desembarcando en tierra,</l>
+               <l>el turco fué y preguntó</l>
+               <l>con eficaz diligencia</l>
+               <l>por el que habia comprado</l>
+               <l>á don Antonio <name>Lacerda</name>.</l>
+               <l>Luego le dieron noticia,</l>
+               <l>y sabiendo el que era,</l>
+               <l>le visitó muy cortés,</l>
+               <l>y despues de sus zalemas,</l>
+               <l>le dijo: que era su empeño</l>
+               <l>que un cautivo de <name>Antequera</name></l>
+               <l>que se llama don Antonio</l>
+               <l>Benavides de <name>Lacerda</name>,</l>
+               <l>se lo otorgase al instente</l>
+               <l>por el precio que quisiera.</l>
+               <l>Le respondió que gustoso</l>
+               <l>en aquella hora mesma</l>
+               <l>le serviría, y llamóle,</l>
+               <l>que ocupado en su tarea</l>
+               <l>con los demás compañeros</l>
+               <l>estaba con mucha pena.</l>
+               <l>Pagó luego su rescate;</l>
+               <l>y dijo que le siguiera:</l>
+               <l>fueron ambos donde estaba</l>
+               <l>doña María Teresa,</l>
+               <l>y al instante que se vieron</l>
+               <l>mudas quedaron sus lenguas</l>
+               <l>del júbilo y alegría</l>
+               <l>que en sus corazones reina.</l>
+
+               <pb n="8" source="Moreno_154_8.jpg" facs="fedora_ug8107628/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>El turco con grande gozo</l>
+               <l>les dijo de esta manera:</l>
+               <l>ya estas libre hermosa dama,</l>
+               <l>tú y don Antonio <name>Lacerda</name></l>
+               <l>que si en <name>Sicilia</name> me distes</l>
+               <l>libertad con gran franqueza,</l>
+               <l>hoy en <name>Argél</name> yo te pago</l>
+               <l>con esa misma moneda.</l>
+               <l>Tu esposa intacta te entrego</l>
+               <l>con una nave ligera</l>
+               <l>cargada de bastimento</l>
+               <l>y regalos de mi tierra,</l>
+               <l>para que con fin dichoso</l>
+               <l>os conduzca hasta la vuestra.</l>
+               <l>ld en paz, noble español,</l>
+               <l>y que la fortuna adversa</l>
+               <l>se reduzca solo á dichas</l>
+               <l>á vuestro arbitrio sujeta.</l>
+               <l>Don Antonio con su dama</l>
+               <l>dan al turco con terneza</l>
+               <l>repetidisimas gracias</l>
+               <l>por tan singular fineza.</l>
+               <l>Se despiden amorosos,</l>
+               <l>y echando á la nave velas,</l>
+               <l>se encomiendan á la vírgen</l>
+               <l>para <name>España</name> dando vuelta,</l>
+               <l>cuyo viaje lograron</l>
+               <l>con felicidad entera</l>
+               <l>pues dentro de breves horas</l>
+               <l>llegan á <name>Málaga</name> bella,</l>
+               <l>y desdes allí se pasaron</l>
+               <l>con prontitud á <name>Antequera</name></l>
+               <l>donde de los suyos fueron</l>
+               <l>recibidos con gran fiesta.</l>
+               <l>Celebrose el matrimonio,</l>
+               <l>dando á la bondad suprema</l>
+               <l>repetidísimas gracias</l>
+               <l>por el bien que les dispensa.</l>
+               <l>Y concluyendo la historia</l>
+               <l>humilde pide el poéta</l>
+               <l>que le perdonen las faltas</l>
+               <l>que en este escrito se adviertan.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1864. <lb/>Imprenta de D. José María Moreno, calle Madre de Dios
+                  núm. 1. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

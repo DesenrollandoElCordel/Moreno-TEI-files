@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_345">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Décimas glosadas, discretas y divertidas para cantar los enamorados</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Decimas glosadas discretas y divertidas, para cantar
+                     los enamorados.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1854-01-01">1854</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5060899</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 376</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Décimas</item>
+                        <item>Trovos</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Decimas glosadas discretas y divertidas, para cantar los
+                        enamorados.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Trovos chistosos.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_345_1.xml"
+                              facs="fedora_ug8109238/211,275,440,749/100,/0/default.jpg"
+                              >grabado_m_345_1</item>
+                           <item corresp="grabado_m_345_2.xml"
+                              facs="fedora_ug8109238/650,272,922,722/100,/0/default.jpg"
+                              >grabado_m_345_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX546895.html" type="tipo_texto">Décimas</term>
+               <term type="tipo_texto">Glosas</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="tipo_estrofa">Quintillas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-13" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103972/manifest">
+      <graphic url="fedora_ug8109238/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_345_1.jpg" facs="fedora_ug8109238/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 376.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">DECIMAS GLOSADAS</hi>
+                  <lb/>DISCRETAS Y DIVERTIDAS <lb/><hi rend="negrita">PARA CANTAR LOS
+                     ENAMORADOS.</hi>
+               </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Adios arroyuelo, adios,</l>
+                  <l>secretario de mis penas,</l>
+                  <l>sabe Dios si volveré</l>
+                  <l>á engolfarme en tus arenas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A sentir y padecer, </l>
+                  <l>á padecer sin consuelo</l>
+                  <l>me voy, porque sabe el Cielo</l>
+                  <l>que se acabó mi placer; </l>
+                  <l>¿qué gusto podré tener</l>
+                  <l>estando ausente de vos?</l>
+                  <l>me es la fortuna atroz, </l>
+                  <l>mas quisiera no vivir; </l>
+                  <l>ya me voy á despedir, </l>
+                  <l rend="cursiva">adios, arroyuelo, adios.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mi desdicha haré patente</l>
+                  <l>á los montes y á las plantas, </l>
+                  <l>y todas mis asechanzas </l>
+                  <l>hoy las lloro amargamente;</l>
+                  <l>y tú, arroyo, no lo sientes </l>
+                  <l>cuando al verme en tus arenas </l>
+                  <l>labrándome las cadenas </l>
+                  <l>alegre me recibistes; </l>
+
+                  <pb n="2" source="Moreno_345_2.jpg"
+                     facs="fedora_ug8103256/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>adios, mas mira que fuistes</l>
+                  <l rend="cursiva">secretario de mis penas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con ánsias y con tormento</l>
+                  <l>se aumenta mas mi dolor, </l>
+                  <l>sientan con igual dolor </l>
+                  <l>las aves surcando el viento;</l>
+                  <l>publiquen mi sentimiento,</l>
+                  <l>lloren mi fatal querer, </l>
+                  <l>sientan, si es que puede ser, </l>
+                  <l>árboles, prados y flores, </l>
+                  <l>que á gozar de sus favores</l>
+                  <l rend="cursiva">sabe Dios sivolveré.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ya me voy de aquí veloz, </l>
+                  <l>para mí es un grande estrago, </l>
+                  <l>mas de no olvidarte hago</l>
+                  <l>el juramento ante Dios;</l>
+                  <l>la amistad entre los dos, </l>
+                  <l>aunque voy á tierra agena, </l>
+                  <l>será constante y amena </l>
+                  <l>como en tí no haya mudanza; </l>
+                  <l>no pierdo la esperanza</l>
+                  <l rend="cursiva">á engolfarme en tus arenas.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Ya no soy yo quien solia</l>
+                  <l>ni quien yo solia ser, </l>
+                  <l>soy un ramo de tristeza</l>
+                  <l>arrimado á una pared.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Toda mi dicha perdí </l>
+                  <l>por vivir en baja esfera, </l>
+                  <l>ya no soy quien antes era,</l>
+                  <l>aprended, flores, de mí;</l>
+                  <l>el tiempo me puso así</l>
+                  <l>á llorar de noche y dia, </l>
+                  <l>en tanto que mi alegría </l>
+                  <l>es en mí tan importuna, </l>
+                  <l>á veces digo: ¡hay fortuna! </l>
+                  <l rend="cursiva">ya no soy yo quien solia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aniquilándome voy</l>
+                  <l>pensando en tan larga ausencia, </l>
+                  <l>y juzgo con diligencia </l>
+                  <l>lo que vá de ayer á hoy; </l>
+                  <l>ya me llevan á un convoy</l>
+                  <l>para tanto padecer, </l>
+                  <l>¡quién pudiera merecer</l>
+                  <l>lo que un venturoso alcanza! </l>
+                  <l>pues no soy la semejanza</l>
+                  <l rend="cursiva">ni quien yo solia ser.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por esos prados me ví</l>
+                  <l>de las flores envidiado,</l>
+                  <l>hoy soy el mas desgraciado, </l>
+                  <l>ayer maravilla fuí, </l>
+                  <l>miré al Cielo, y dije así:</l>
+                  <l>ya mis desdichas empiezan, </l>
+                  <l>se acabaron mis grandezas, </l>
+                  <l>mis gustos y mis placeres;</l>
+                  <l>si me preguntan: ¿quién eres?</l>
+                  <l rend="cursiva">soy un ramo de tristeza.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, ni pido ni doy, </l>
+                  <l>ni me quejo ni me esplico;</l>
+                  <l>ayer fuí un tesoro rico, </l>
+                  <l>hoy sombra de mí no soy; </l>
+                  <l>por eso digo desde hoy </l>
+                  <l>que fuí lo que no pensé, </l>
+                  <l>en tanto que no gocé </l>
+                  <l>de mi fortuna en un punto, </l>
+                  <l>soy de penas un conjunto, </l>
+                  <l rend="cursiva">arrimado á una pared.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Tristes los dos viviremos,</l>
+                  <l>porque penamos los dos;</l>
+                  <l>estaré sin verte, sí,</l>
+                  <l>pero sin quererte no.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con suspiros y lamentos </l>
+                  <l>las piedras ablandaré,</l>
+                  <l>sin cesar yo lloraré</l>
+                  <l>tu ausencia y mi tormento,</l>
+
+                  <pb n="3" source="Moreno_345_3.jpg"
+                     facs="fedora_ug8109710/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>y con grande sentimiento</l>
+                  <l>lo padezco con estremo;</l>
+                  <l>triste corazon, daremos</l>
+                  <l>treguas, pero con dolencia, </l>
+                  <l>y contemplando en tu ausencia</l>
+                  <l rend="cursiva">tristes los dos viviremos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vivir sin tí no es vivir,</l>
+                  <l>no estar contigo es penar,</l>
+                  <l>sin verte bien podré estar, </l>
+                  <l>aunque esto es mucho decir; </l>
+                  <l>mas de amarte desistir</l>
+                  <l>imposible, esto es atroz,</l>
+                  <l>pues tu amor me lleva en pos, </l>
+                  <l>y por poderlo espresar,</l>
+                  <l>ojos, hacedme llorar,</l>
+                  <l rend="cursiva">porque penamos los dos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">La misma tirana muerte</l>
+                  <l>me quitará que te quiera </l>
+                  <l>pero será de manera, </l>
+                  <l>nadie escapa de esta suerte;</l>
+                  <l>mi bien, repara y advierte</l>
+                  <l>que si tu dicha perdí </l>
+                  <l>seré constante, y así, </l>
+                  <l>reinarás dentro de mi pecho, </l>
+                  <l>y por no estar descubierto </l>
+                  <l rend="cursiva">estaré sin verte, si.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No le temas á la muerte</l>
+                  <l>que previniéndose está, </l>
+                  <l>esta es mi gran ceguedad</l>
+                  <l>que hoy no tiene competencia;</l>
+                  <l>vida mia, ten paciencia,</l>
+                  <l>que aunque el amor enfermó, </l>
+                  <l>por su amante me buscó</l>
+                  <l>tu hermosura singular; </l>
+                  <l>sin verte si podré estar,</l>
+                  <l rend="cursiva">pero sin quererte no.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Mi dulce bien, tu rigor</l>
+                  <l>me tiene confuso y triste;</l>
+                  <l>sin saber en qué consiste</l>
+                  <l>la mudanza de tu amor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Desde aquel infeliz dia </l>
+                  <l>que de tu amor me aparté, </l>
+                  <l>no he encontrado quien me dé</l>
+                  <l>un ratito de alegria:</l>
+                  <l>solo si de noche y dia</l>
+                  <l>lloro y siento mi dolor, </l>
+                  <l>pero en tu inconstante amor</l>
+                  <l>vivo en tí, mi bien, pensando, </l>
+                  <l>porque me tendrá penando</l>
+                  <l rend="cursiva">mi dulce bien, tu rigor </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si acaso algun enemigo</l>
+                  <l>contra tí me quiere ver, </l>
+                  <l>es por quitarme el placer </l>
+                  <l>que tengo, mi bien, contigo;</l>
+                  <l>que no le creas te digo, </l>
+                  <l>que tú bien claro lo viste, </l>
+                  <l>cuando el alma me pediste</l>
+                  <l>toda el alma te entregué; </l>
+                  <l>entonces, mi bien, ¿por qué? </l>
+                  <l rend="cursiva">me tienes confuso y triste?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con amor y grande anhelo</l>
+                  <l>te llegué á idolatrar, </l>
+                  <l>por tí he sabido estar</l>
+                  <l>varias noches en desvelo,</l>
+                  <l>por tu afecto verdadero, </l>
+                  <l>ocasiones bien me diste,</l>
+                  <l>amor que me prometiste, </l>
+                  <l>te entregué toda mi alma, </l>
+                  <l>mi vida, yo estoy en calma</l>
+                  <l rend="cursiva">sin saber en qué consiste.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, dueño de mi anhelo, </l>
+                  <l>mucho quisiera decirte, </l>
+                  <l>y tambien quiero pedirte</l>
+                  <l>que descorras ese velo;</l>
+                  <l>dame, niña, ese consuelo, </l>
+                  <l>y te suplico por favor </l>
+                  <l>me declares el traidor</l>
+                  <l>que con su lengua atrevida, </l>
+                  <l>causó, prenda de mi vida, </l>
+                  <l rend="cursiva">la mudanza de tu amor.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_345_4.jpg" facs="fedora_ug8107726/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Mucho tiempo ha, bien mio,</l>
+                  <l>que mi amor anda encubierto, </l>
+                  <l>con los secretos del alma</l>
+                  <l>y las llaves del silencio.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que hicimos conocimiento</l>
+                  <l>qué tiempo piensas que habrá, </l>
+                  <l>y que mi firmeza andará, </l>
+                  <l>señora, en tu seguimiento?</l>
+                  <l>desde que te ví, al momento</l>
+                  <l>te entregué mi alvedrio, </l>
+                  <l>qué tiempo hace, y porfio</l>
+                  <l>que vivo triste y quejoso,</l>
+                  <l>y de hablarte deseoso </l>
+                  <l rend="cursiva">mucho tiempo ha, bien mio.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">He tenido grande esmero </l>
+                  <l>de esplicarme á tí amoroso, </l>
+                  <l>pero vivo vergonzoso </l>
+                  <l>temeroso de tu cielo;</l>
+                  <l>aunque es verdad que mi anhelo</l>
+                  <l>no ha hallado camino abierto, </l>
+                  <l>para esplicarte de cierto</l>
+                  <l>las fatales ansias mias, </l>
+                  <l>y por eso hay muchos dias </l>
+                  <l rend="cursiva">que mi amor anda encubierto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mil veces te he encontrado, </l>
+                  <l>apenas á mirarte llego, </l>
+                  <l>te he querido hablar y luego, </l>
+                  <l>me retiro recatado;</l>
+                  <l>y cuando me hallo animado</l>
+                  <l>por ver si logro la palma, </l>
+                  <l>te me apartas en tal calma </l>
+                  <l>y luego que no te veo </l>
+                  <l>vuelvo á guardar el deseo</l>
+                  <l rend="cursiva">con los secretos del alma.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mi bien, si te declarára </l>
+                  <l>lo que mi pecho te adora, </l>
+                  <l>temo quedarme, señora, </l>
+                  <l>con la vergüenza en la cara; </l>
+                  <l>y si en vano te mostrara</l>
+                  <l>lo bien que te reverencio,</l>
+                  <l>quererte es lo que agencio,</l>
+                  <l>y si esto te causa agravios</l>
+                  <l>tengo de cerrar los lábios </l>
+                  <l rend="cursiva">con las llaves del silencio.</l>
+               </lg>
+            </div>
+
+            <div>
+               <head rend="negrita" type="primer_titulo">TROVO CHISTOSO.</head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Si quieres llegar á viejo, </l>
+                  <l>hombre, las mujeres deja, </l>
+                  <l>echa un trago del pellejo</l>
+                  <l>y déjate de pellejas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">La mujer con su gracejo</l>
+                  <l>es cual sirena en el mar;</l>
+                  <l>toma, amigo, mi consejo, </l>
+                  <l>guárdate de ese animal</l>
+                  <l rend="cursiva">si quieres llegar á viejo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si no lo tomas á queja </l>
+                  <l>te daré un consejo yo, </l>
+                  <l>si no quieres con presteza</l>
+                  <l>morir en san Juan de Dios, </l>
+                  <l rend="cursiva">hombre, las mujeres deja</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo vide á un hombre viejo</l>
+                  <l>en una grande porfia, </l>
+                  <l>merendándose un conejo,</l>
+                  <l>y en altas voces decia:</l>
+                  <l rend="cursiva">echa un trago del pellejo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Amigo, de qué te quejas, </l>
+                  <l>toma el escarmiento en mí, </l>
+                  <l>aunque te gastes las cejas, </l>
+                  <l>vámonos á divertir </l>
+                  <l rend="cursiva">y déjate de pellejas.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>Carmona: 1854. = Imprenta y librería de Don José M. Moreno.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_212">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doña Rosa la cautiva</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Doña Rosa la cautiva.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475603</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 223</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_212_1.xml"
+                              facs="fedora_ug8106325/515,428,448,838/100,/0/default.jpg"
+                              >grabado_m_212_1</item>
+                           <item corresp="grabado_m_212_2.xml"
+                              facs="fedora_ug8106325/1019,563,407,682/100,/0/default.jpg"
+                              >grabado_m_212_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="5" corresp="Q131818">
+                  <placeName key="Orán">Orán</placeName>
+                  <location>
+                     <geo>35.696944444444 -0.63305555555556</geo>
+                  </location>
+               </place>
+               <place n="4" corresp="Q1492">
+                  <placeName key="Barcelona">Barcelona</placeName>
+                  <location>
+                     <geo>41.3825 2.1769444444444</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q43">
+                  <placeName key="Turquía">Turquía</placeName>
+                  <location>
+                     <geo>39 36</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q3561">
+                  <placeName key="Argel">Argel</placeName>
+                  <location>
+                     <geo>36.776388888889 3.0586111111111</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q63092">
+                  <placeName key="Carmona">Carmona</placeName>
+                  <location>
+                     <geo>37.471111111111 -5.6422222222222</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-12" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107672/manifest">
+      <graphic url="fedora_ug8106325/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_212_1.jpg" facs="fedora_ug8106325/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 223.)</fw>
+
+               <head rend="negrita" type="primer_titulo">DOÑA ROSA LA CAUTIVA.</head>
+
+               <l><hi rend="negrita">G</hi>loria es de los horizontes</l>
+               <l>ese farol luminante</l>
+               <l>del Sol, que esparce sus luces</l>
+               <l>y destierra obscuridades</l>
+               <l>oireis la historia mas rara </l>
+               <l>que se ha escrito en los anales.</l>
+               <l>Digo, señor, que en <name>Orán</name></l>
+               <l>nació de muy nobles padres</l>
+               <l>un don Gaspar de Leon;</l>
+               <l>y de muy realzada sangre:</l>
+               <l>este tal tuvo una hermana,</l>
+               <l>de ocho años no cabales</l>
+               <l>la cautivaron los turcos,</l>
+               <l>porque se salió una tarde</l>
+               <l>á pasear por el sitio</l>
+               <l>que llaman de los Ataques:.</l>
+               <l>Su hermano, que es de diezcaños,</l>
+               <l>esta noticia le traen </l>
+               <l>sintiendo su cautiverio</l>
+               <l>en lágrimas se deshace.</l>
+               <l>Se fué criando este jóven</l>
+               <l>hasta veinte años cabales, </l>
+               <l>salia todos los dias</l>
+               <l>al turco á desañarle;</l>
+               <l>mas ninguno se le atreve,</l>
+               <l>porque tiemblan al nombrarle.</l>
+               <l>Todos los dias traia </l>
+               <l>del moro presas muy grandes,</l>
+               <l>entre las cuales se trajo</l>
+               <l>del turco el real estandarte.</l>
+               <l>Supo el rey de este leon,</l>
+               <l>de este jóven arrogante,</l>
+               <l>y le dió de capitan </l>
+               <l>la Vengala por honrarlo,</l>
+
+               <pb n="2" source="Moreno_212_2.jpg" facs="fedora_ug8108698/full/full/0/default.jpg"/>
+
+               <l>A este tiemdo á <name>Barcelona</name></l>
+               <l>le fué preciso pasarse</l>
+               <l>por mandado de su rey. </l>
+               <l>Paseábase una tarde</l>
+               <l>por las riberas del mar</l>
+               <l>en unos festines grandes:</l>
+               <l>reparó y vió una diosa</l>
+               <l>que es de la hermosura esmalte,</l>
+               <l>un instrumento en sus manos,</l>
+               <l>que daba gloria al tocarle.</l>
+               <l>En fin se acabó el sarao,</l>
+               <l>y hácia su casa se parte;</l>
+               <l>y siguiéndole los pasos,</l>
+               <l>sabe donde vive el ángel.</l>
+               <l>Solicitó el conocerle,</l>
+               <l>y en su balcon una tarde</l>
+               <l>le hizo una cortesía,</l>
+               <l>con tal modo y con tal arte,</l>
+               <l>que atendiendo la señora,</l>
+               <l>quedó rendida al mirarle:</l>
+               <l>los dos quedaron á un tiempo</l>
+               <l>heridos en un instante.</l>
+               <l>Hablóle en fin don Gaspar,</l>
+               <l>y le dice : Bello ángel,</l>
+               <l>soy quien rendido te adoro,</l>
+               <l>imán de tus voluntades.</l>
+               <l>Doña Elena le responde:</l>
+               <l>señor, yo quiero pagarte</l>
+               <l>tu voluntad, y esta noche</l>
+               <l>ven á mi jardin, ó parque,</l>
+               <l>y en siendo las doce en punto</l>
+               <l>la respuesta podré darte.</l>
+               <l>Llegó la citada hora,</l>
+               <l>y para el jardin se parte,</l>
+               <l>y así que se vieron solos</l>
+               <l>estos dos finos amantes,</l>
+               <l>se dicen dos mil ternezas,</l>
+               <l>con el amor mas constante;</l>
+               <l>y él le dijo : mi señora,</l>
+               <l>si ahora gustais de darme</l>
+               <l>la dulce mano de esposa, </l>
+               <l>te cumpliré de mi parte</l>
+               <l>la palabra que te ofrezco, </l>
+               <l>que contigo he de casarme.</l>
+               <l>La niña con vigilancia </l>
+               <l>sacó la mano del guante,</l>
+               <l>y le dice : Dueño mio,</l>
+               <l>cúmplanse tus voluntades.</l>
+               <l>Se despidieron gustosos,</l>
+               <l>y cuando el alba renace</l>
+               <l>dan á don Garpar la órden</l>
+               <l>que para <name>Orán</name> se embarcase,</l>
+               <l>Surcando las negras ondas,</l>
+               <l>á otre dia por la tarde</l>
+               <l>en <name>Orán</name> desembarcó</l>
+               <l>este jóven arregante.</l>
+               <l>Y pasados nueve dias,</l>
+               <l>un barco de catalanes</l>
+               <l>llegó á la playa de <name>Orán</name>,</l>
+               <l>y don Gaspar al instante</l>
+               <l>bajó á registrarlo, y vido</l>
+               <l>un amigo, al que al instante</l>
+               <l>le pregunta por su dama</l>
+               <l>y mudando de semblante</l>
+               <l>le dice como es cautiva,</l>
+               <l>y en <name>Turquía</name> podrá hallarle.</l>
+               <l>Y él con mas pena que nunca</l>
+               <l>se despidió, y al instante</l>
+               <l>fué á su casa, y al punto</l>
+               <l>se vistió en turquesco traje,</l>
+               <l>y metiéndose en <name>Turquía</name>,</l>
+               <l>por las villas y ugares,</l>
+               <l>se fué sá la ciudad de <name>Argel</name>;</l>
+               <l>pascábase en sus calles,</l>
+               <l>porque la lengua turquesca</l>
+               <l>muy bien la corta y la sabe.</l>
+               <l>Conversaba con los moros,</l>
+               <l>cuando en la plaza una tarde</l>
+               <l>vido una gallarda turca </l>
+               <l>tan hermosa, que una imágen</l>
+               <l>era de la diosa Palas,</l>
+               <l>y en su compañía trae</l>
+               <l>á la hermosa doña Elena;</l>
+               <l>y acercándose al instante</l>
+               <l>le hizo una cortesía</l>
+               <l>con tal garbo y con tal arte,</l>
+               <l>que reparando la turca </l>
+               <l>le causó novedad grande,</l>
+
+               <pb n="3" source="Moreno_212_3.jpg" facs="fedora_ug8109197/full/full/0/default.jpg"/>
+
+               <l>y á doña Elena le dice:</l>
+               <l>Mira qué turco tan grave;</l>
+               <l>mas doña Elena le mira,</l>
+               <l>y le conoció al instante.</l>
+               <l>Cayó desmayada en tierra,</l>
+               <l>sus ojos hechos dos mares,</l>
+               <l>y la turca así le dice:</l>
+               <l>Aquí hay misterio muy grande,</l>
+               <l>y le dijo á la cristiana:</l>
+               <l>por tu vida me declares</l>
+               <l>lo que en tu pecho encerrado</l>
+               <l>tienes, porque soy bastante</l>
+               <l>para aliviar tus congojas,</l>
+               <l>y remediar tus pesares.</l>
+               <l>Doña Elena le responde:</l>
+               <l>Yo, señora, he de contarte</l>
+               <l>el caso que me sucede,</l>
+               <l>escúchame en este instante.</l>
+               <l>Ese caballero turco,</l>
+               <l>tan cortés y tan afable,</l>
+               <l>es cristiano, no lo ignores.</l>
+               <l>La turca mandó llamarle,</l>
+               <l>y encerrándolo en su cuarto,</l>
+               <l>allí empezó á preguntarle,</l>
+               <l>y le dijo que de Elena</l>
+               <l>era muy rendido amante,</l>
+               <l>y su nombre don Gaspar</l>
+               <l>de Leon de alto linaje.</l>
+               <l>La turca al oir su nombre</l>
+               <l>con mas cuidado que antes</l>
+               <l>le preguntó, de qué patria</l>
+               <l>fué su orígen y su sangre.</l>
+               <l>Señora, yo soy de <name>Orán</name>,</l>
+               <l>para lo que usted me mande,</l>
+               <l>Tuvísteis alguna hermana,</l>
+               <l>que en sus pequeñas edades</l>
+               <l>la cautivaron los turcos ?</l>
+               <l>Y él respondió muy afable:</l>
+               <l>Ay, hermana de mi vida!</l>
+               <l>ah, quien pudiera encontrarte</l>
+               <l>para poder sosegar,</l>
+               <l>y aliviar pena tan grande!</l>
+               <l>Le echó los brazos al cuello,</l>
+               <l>hechos sus ojos raudales:</l>
+               <l>yo soy la infeliz mujer,</l>
+               <l>soy tu hermana en este traje,</l>
+               <l>y mujer del general,</l>
+               <l>que olvidando un Dios tan grande</l>
+               <l>me casé, señor, ahora </l>
+               <l>no dilates el viaje;</l>
+               <l>y guardando el secreto</l>
+               <l>recoge luego al istante</l>
+               <l>oros , galas y dineros,</l>
+               <l>y sobre un bufete grande</l>
+               <l>dejó una carta á su esposo,</l>
+               <l>que si queria buscarle</l>
+               <l>que se pase leego á <name>España</name>,</l>
+               <l>y trate de bautrzarse.</l>
+               <l>Con cuarenta y dos cristianos</l>
+               <l>á una galera se parten, </l>
+               <l>por entre espumosas aguas,</l>
+               <l>corta el viento y rompeel aire.</l>
+               <l>Llegaron á <name>Barcelona</name>
+               </l>
+               <l>guiados de aquella imágen</l>
+               <l>de san Antonio de Padua,</l>
+               <l>y la Patrona del Cármen.</l>
+               <l>Escriben esta noticia</l>
+               <l>á el Rey, el que al escucharle</l>
+               <l>á don Gaspar le mandó</l>
+               <l>que por Regente quedase</l>
+               <l>en la ilustre <name>Barcelona</name>,</l>
+               <l>y luego al palacio parte.</l>
+               <l>Disponen con regocijo</l>
+               <l>el casamiento al instante,</l>
+               <l>y en los brazos de himenéo, </l>
+               <l>gozan mil tranquilidades.</l>
+               <l>Doña Rosa á su oratorio</l>
+               <l>se ha ido luego al instante,</l>
+               <l>donde estaba san Antonio,</l>
+               <l>y la soberana imágen</l>
+               <l>de la Vírgen del Carmelo,</l>
+               <l>y humilde empezó á rogarles</l>
+               <l>por su esposo, y una niña</l>
+               <l>que siete años no hace,</l>
+               <l>que les traigan á su vista.</l>
+               <l>Dejemos en este lance</l>
+               <l>á su esposa, y la atencion</l>
+               <l>pasemos luego al instante</l>
+               <l>al general que en su casa</l>
+               <l>en lágrimas se deshace,</l>
+
+               <pb n="4" source="Moreno_212_4.jpg" facs="fedora_ug8105969/full/full/0/default.jpg"/>
+
+               <l>despues que leyó la carta;</l>
+               <l>pero por el amor grande</l>
+               <l>que á su dulce esposa tiene,</l>
+               <l>se partió luego á buscarle</l>
+               <l>con su hija, y embarcóse</l>
+               <l>con felicidad tan grandé,</l>
+               <l>que en breve tiempo se halló</l>
+               <l>de <name>Barcelona</name> en la márgen.</l>
+               <l>Con la niña saltó ein tierra</l>
+               <l>á las cinco de la tarde;.</l>
+               <l>y cansado y pensativo.</l>
+               <l>se durmió en aquel paraje.</l>
+               <l>A las doce de la noche</l>
+               <l>hubo una quimera grande,</l>
+               <l>donde quedaron difuntos</l>
+               <l>tres soldados arrogantes.</l>
+               <l>Vino á el punto uña patrulla,</l>
+               <l>y registrando el paraje, </l>
+               <l>á este solamente hallaron,</l>
+               <l>y al principal se lo traen,</l>
+               <l>y las muertes le acumulan,</l>
+               <l>y mandan luego al instante.</l>
+               <l>que muera arcabuceado, </l>
+               <l>á la capilla lo traen; </l>
+               <l>viéndose en tanto conflicto,</l>
+               <l>así empezó á lamentarse:</l>
+               <l>Dulce esposa de mi vida,</l>
+               <l>que por venir á buscarte.</l>
+               <l>me veo en tan grande apuro,</l>
+               <l>Tráiganme luego al instante</l>
+               <l>á mi muy querida hija;, </l>
+               <l>y con suspiros muy grandes</l>
+               <l>dice : hija de mi vida;,</l>
+               <l>la querida de su:padre,</l>
+               <l>oh, qué sin calor te hallas!.</l>
+               <l>doy pregunta por tu madre</l>
+               <l>doña Rosa de Leon,</l>
+               <l>que puede ser que te ampare.</l>
+               <l>Y un soldado de la guardia</l>
+               <l>pone atencion á escucharle, </l>
+               <l>que es cuñado del regente,</l>
+               <l>fueron y le dieron parte,</l>
+               <l>el cual vino muy ligero,</l>
+               <l>y llegando vigilante,</l>
+               <l>le dá relacion de todo.</l>
+               <l>Doña Rosa en este instante:</l>
+               <l>se hallaba en el oratorio,</l>
+               <l>y tambien le dieron parte;</l>
+               <l>se fué donde estaba el reo,</l>
+               <l>y vió un sargento que afable</l>
+               <l>tiene la niña en los brazos:</l>
+               <l>ella reparó en su madre,</l>
+               <l>la conoció, y dando gritos</l>
+               <l>dice: cómo me olvidastes,</l>
+               <l>madre de mi corazon,</l>
+               <l>que á tus pechos me criastes ?</l>
+               <l>No desampares tu hija.</l>
+               <l>Y volviéndo en este instante</l>
+               <l>doña Rosa sus dos soles</l>
+               <l>la reconoció al instante,</l>
+               <l>y arrojándose hácia ella</l>
+               <l>dice. dónde está tu padre?</l>
+               <l>A el palació lo llevaron,</l>
+               <l>y don Gaspar ignorante</l>
+               <l>que era el turco su cuñado</l>
+               <l>con alegría bastante </l>
+               <l>se reconocen, y al punto</l>
+               <l>pide que lós bautizaren:</l>
+               <l>llevan la niña á la iglesia,</l>
+               <l>júntamente con su padre</l>
+               <l>los bautizaron, y luego</l>
+               <l>con solemnidad muy grande</l>
+               <l>se pasaron á el palacio,</l>
+               <l>y. doña Rosa al instante</l>
+               <l>se ha entrado en el oratorio</l>
+               <l>á dar gracias incesantes</l>
+               <l>al bendito san Antonio,</l>
+               <l>y á la Vírgen del Carmen</l>
+               <l>por el milagro que han hecho</l>
+               <l>en la conversion constante</l>
+               <l>de su esposo, y que con gusto</l>
+               <l>el santo bautismo abrace</l>
+               <l>En seguida los casaron,</l>
+               <l>y á san Antonio le hacen</l>
+               <l>una suntuosa fiesta.</l>
+               <l>Cristianos los mas amantes, </l>
+               <l>estos son en san Antonio</l>
+               <l>sus prodigios admirables,</l>
+               <l>tambien de nuestra Señora</l>
+               <l>María Vírgen del Cármen.</l>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>Carmona: 1859—Imp. de D. José María Moreno. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

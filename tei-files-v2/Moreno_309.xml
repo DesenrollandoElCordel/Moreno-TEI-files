@@ -1,0 +1,611 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_309">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Trobos discretos y divertidos para entretener a los curiosos y cantar los
+               galanes</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Trobos discretos y divertidos, para entretener a los
+                     curiosos y cantar los galanes á sus queridas damas, y especialmente los que se
+                     sienten agraviados por no ser correspondidos.</title>
+                  <title type="titulo_breve">Trobos discretos y divertidos, para entretener a los
+                     curiosos y cantar los galanes</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6483452</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 331</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_309_1.xml"
+                              facs="fedora_ug8103392/343,232,1210,1083/100,/0/default.jpg"
+                              >grabado_m_309_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Trovos</term>
+               <term type="tipo_estrofa">Trovos</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-05-04" who="#EL">Correction de l'OCR</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103922/manifest">
+      <graphic url="fedora_ug8103392/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_309_1.jpeg" facs="fedora_ug8103392/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 331.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">TROBOS DISCRETOS Y DIVERTIDOS,</hi>
+                  <lb/>PARA ENTRETENER A LOS CURIOSOS Y CANTAR LOS GALANES <lb/>á sus queridas
+                  damas, y especialmente los que se sienten agraviados por <lb/>no ser
+                  correspondidos. </head>
+
+               <lg n="1">
+                  <head type="titulo_estrofa">TROBO PRIMERO.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">El que corteja y no sabe</l>
+                     <l>la cuerda que ha de tirar,</l>
+                     <l>por buen sacristan que sea</l>
+                     <l>no llegará á repicar.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Nadie en el mundo se alabe</l>
+                     <l>ni quiera ser disoluto,</l>
+                     <l>porque es muy cierto y se sabe</l>
+                     <l>que nunca cogerá fruto</l>
+                     <l rend="cursiva">el que corteja y no sabe.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">El que quiera cortejar</l>
+                     <l>en este mundo tirano,</l>
+                     <l>no se detenga en gastar, </l>
+                     <l>ya se le vendrá á la mano</l>
+                     <l rend="cursiva">la cuerda que ha de tirar.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">El que corteja á una fea</l>
+                     <l>bien se puede preparar,</l>
+                     <l>que ellas tienen mucha idea,</l>
+                     <l>al fin le vendrá á engañar</l>
+                     <l rend="cursiva">por buen sacristan que sea.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">El que pretende alcanzar</l>
+                     <l>debe ser su pretension</l>
+                     <l>bolsa abierta antes de hablar; </l>
+                     <l>mas como no haga esta accion</l>
+                     <l rend="cursiva">no llegará á repicar.</l>
+                  </lg>
+               </lg>
+
+               <lg n="2">
+                  <head type="titulo_estrofa">2.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Todo el mundo nos murmura</l>
+                     <l>te sientas á mi lado,</l>
+
+                     <pb n="2" source="Moreno_309_2.jpeg"
+                        facs="fedora_ug8106486/full/full/0/default.jpg"/>
+
+                     <l>en estando yo gustoso</l>
+                     <l>todo el mundo está pagado.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Mi fina fé te asegura</l>
+                     <l>de nunca mas olvidarte,</l>
+                     <l>pero por mi desventura</l>
+                     <l>si alguna vez llego á hablarte, </l>
+                     <l rend="cursiva">todo el mundo nos murmura.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">De que yo te he idolatrado</l>
+                     <l>se vé por cosa muy clara.</l>
+                     <l>vida y alma te he entregado,</l>
+                     <l>y hay sugeto que repara</l>
+                     <l rend="cursiva">que te sientas á mi lado.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Yo te quiero sin rebozo,</l>
+                     <l>y sin recelo de nada,</l>
+                     <l>ponme el semblante amoroso,</l>
+                     <l>jamás estés disgustada</l>
+                     <l rend="cursiva">en estando yo gustoso.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Ya sabes que te he estimado,</l>
+                     <l>á ti y á nadie mas no:</l>
+                     <l>de nada te dé cuidado,</l>
+                     <l>porque en queriendo los dos</l>
+                     <l rend="cursiva">todo el mundo está pagado.</l>
+                  </lg>
+               </lg>
+
+
+               <lg n="2">
+                  <head type="titulo_estrofa">3.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Todo el resto de mi vida</l>
+                     <l>yo te tengo de querer:</l>
+                     <l>dificulto el olvidarte</l>
+                     <l>porque no sé aborrecer.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Ha sido mortal herida</l>
+                     <l>que has dado á mi corazon</l>
+                     <l>en dudar que eres querida;</l>
+                     <l>será firme mi pasion</l>
+                     <l rend="cursiva">todo el resto de mi vida.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Firme mi amor ha de ser</l>
+                     <l>á costa de mis desvelos:</l>
+                     <l>mudanza en mi no ha de haber,</l>
+                     <l>aunque me atormenten zelos</l>
+                     <l rend="cursiva">yo te tengo de querer.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Muy fino seré en amarte,</l>
+                     <l>y te puedo asegurar,</l>
+                     <l>que jamás he de faltarte</l>
+                     <l>pues llegándome á enterrar,</l>
+                     <l rend="cursiva">dificulto el olvidarte.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Será eterno mi querer,</l>
+                     <l>sin que la muerte lo impida:</l>
+                     <l>si mudas de parecer</l>
+                     <l>sabré yo perder la vida,</l>
+                     <l rend="cursiva">porque no sé aborrecer.</l>
+                  </lg>
+               </lg>
+
+               <lg n="4">
+                  <head type="titulo_estrofa">4.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Ten paciencia, dueño mio,</l>
+                     <l>que ya vendrá la ocasion,</l>
+                     <l>que en tus amorosos brazos</l>
+                     <l>descanse mi corazon.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Lograr vuestro bien confio,</l>
+                     <l>porque no ha de ser eterno</l>
+                     <l>hado que nos trata impío,</l>
+                     <l>él perderá su gobierno</l>
+                     <l rend="cursiva">ten paciencia, dueño mio.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Un volcan es tu pasion,</l>
+                     <l>y es un vesubio la mia:</l>
+                     <l>ten ánimo, corazon,</l>
+                     <l>no desmayes, prenda mia,</l>
+                     <l rend="cursiva">que ya vendrá la ocasion.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Ya despues de mis acasos</l>
+                     <l>no espero mayor ventura</l>
+                     <l>que es disfrutar tus regazos,</l>
+                     <l>enlazando mi ventura</l>
+                     <l rend="cursiva">en tus amorosos brazos.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Despues de la salvacion</l>
+                     <l>no espero mayor laurel,</l>
+                     <l>mas gloria ni mas blason,</l>
+                     <l>que sobre tu pecho fiel</l>
+                     <l rend="cursiva">descanse mi corazon.</l>
+                  </lg>
+               </lg>
+
+               <lg n="5">
+                  <head type="titulo_estrofa">5.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Dime, dama, si me quieres,</l>
+                     <l>por Dios descubre tu pecho,</l>
+                     <l>que no quiero en este mundo</l>
+                     <l>gastar tiempo sin provecho.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Me adulan los pareceres</l>
+                     <l>de tu pecho de diamante,</l>
+                     <l>de gusto, gozo y placeres,</l>
+                     <l>para pasar adelante</l>
+                     <l rend="cursiva">dime, dama, si me quieres</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Ya sabes que yo sospecho</l>
+                     <l>de verte con otro hablar,</l>
+                     <l>y si en lance tan estrecho</l>
+                     <l>gustas de verme penar,</l>
+                     <l rend="cursiva">por Dios descubre tu pecho.</l>
+                  </lg>
+
+                  <pb n="3" source="Moreno_309_3.jpeg"
+                     facs="fedora_ug8105398/full/full/0/default.jpg"/>
+
+                  <lg>
+                     <l rend="indent">Es mi querer tan profundo</l>
+                     <l>que si me olvidas sabré</l>
+                     <l>clamar á Dios, en quien fundo</l>
+                     <l>mi dicha, con que haré ver</l>
+                     <l rend="cursiva">que no quiero en este mundo.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Si otro quiere tu derecho,</l>
+                     <l>aunque seas la mas querida,</l>
+                     <l>dímelo pues, pecho á pecho,</l>
+                     <l>que no quiero en esta vida</l>
+                     <l rend="cursiva">gastar tiempo sin provecho,</l>
+                  </lg>
+               </lg>
+
+               <lg n="6">
+                  <head type="titulo_estrofa">6.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Ya me has vuelto las espaldas</l>
+                     <l>porque tienes nuevo amor</l>
+                     <l>bien puedes corresponderle,</l>
+                     <l>pues lo merece mejor.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Sobre alfombras de esmeraldas</l>
+                     <l>un galan enternecido,</l>
+                     <l>al pié de unas verdes palmas</l>
+                     <l>con ansias dice á Cupido:</l>
+                     <l rend="cursiva">ya me has vuelto las espaldas.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">De tu desden el favor</l>
+                     <l>me penetró toda el alma,</l>
+                     <l>olvidando á tu rigor,</l>
+                     <l>mi vida, se encuentra en calma,</l>
+                     <l rend="cursiva">porque tienes nuevo amor.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Me alegrára conocerle</l>
+                     <l>para envidiarle la dicha,</l>
+                     <l>y pues deseas tenerle,</l>
+                     <l>mientras lloro mi desdicha</l>
+                     <l rend="cursiva">bien puedes corresponderle.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">¡Oh qué pena!¡ ¡oh qué rigor!</l>
+                     <l>¡qué suerte! ¡qué desventura!</l>
+                     <l>por mí se acabe el horror,</l>
+                     <l>él goce de tu hermosura</l>
+                     <l rend="cursiva">pues lo merece mejor.</l>
+                  </lg>
+               </lg>
+
+               <lg n="7">
+                  <head type="titulo_estrofa">7.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Señora ya te olvidé</l>
+                     <l>á lo hecho no hay remedio,</l>
+                     <l>arrepentido no estoy, </l>
+                     <l>busca quien te dé consuelo.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Siempre constante te amé</l>
+                     <l>con muy fina voluntad,</l>
+                     <l>y fino te idolatré;</l>
+                     <l>pero al ver tu falsedad,</l>
+                     <l rend="cursiva">señora ya te olvidé.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Llegaste á mostrarme tédio,</l>
+                     <l>procuré desenojarte,</l>
+                     <l>mas viendo no hallaba medio,</l>
+                     <l>ya me resolví á dejarte,</l>
+                     <l rend="cursiva">á lo hecho no hay remedio.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Por bien empleado doy</l>
+                     <l>de tu vista el ausentarme,</l>
+                     <l>y aunque sepa desde hoy</l>
+                     <l>que el no verte ha de matarme,</l>
+                     <l rend="cursiva">arrepentído no estoy.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Ya falleció mi desvelo,</l>
+                     <l>ya mi cuidado murió,</l>
+                     <l>ya no quiero mas tu cielo,</l>
+                     <l>y pues que te olvidé yo</l>
+                     <l rend="cursiva">busca quien te dé consuelo.</l>
+                  </lg>
+               </lg>
+
+               <lg n="8">
+                  <head type="titulo_estrofa">8.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Si fueras la reina Ester</l>
+                     <l>y á su hermosura llegáras,</l>
+                     <l>por tu fálso proceder,</l>
+                     <l>si de rey me coronáras</l>
+                     <l>no te volviera á querer.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Muy tarde fuí en conocer</l>
+                     <l>tu traicion por mi desgracia;</l>
+                     <l>todo lo he llegado á ver,</l>
+                     <l>no volverás á mi gracia</l>
+                     <l rend="cursiva">si fueras la reina Ester.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Y si el mundo eternizáras </l>
+                     <l>é hicieras favores plenos,</l>
+                     <l>á mi no me conquistáras</l>
+                     <l>si fueras la diosa Venus,</l>
+                     <l rend="cursiva">y á su hermosura llegáras.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Si me pudiera volver</l>
+                     <l>basilisco ponzoñoso,</l>
+                     <l>leon sangriento, cruel</l>
+                     <l>te diera la muerte ansioso</l>
+                     <l rend="cursiva">por tu falso proceder.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Si de plata fabricáras</l>
+                     <l>un palacio y nuevo reino,</l>
+                     <l>y dentro me colocáras,</l>
+                     <l>lo tuviera por infierno</l>
+                     <l rend="cursiva">si de rey me coronáras.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Aunque me intentas vencer</l>
+
+                     <pb n="4" source="Moreno_309_4.jpeg"
+                        facs="fedora_ug8109489/full/full/0/default.jpg"/>
+
+                     <l>con tu loco desvarío,</l>
+                     <l>que tu corazon es mío,</l>
+                     <l rend="cursiva">no te volviera á querer.</l>
+                  </lg>
+               </lg>
+
+               <lg n="9">
+                  <head type="titulo_estrofa">9</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Aire, fuego, mar y tierra;</l>
+                     <l>hablad, si teneis sentidos:</l>
+                     <l>decid: ¿donde está mi amante?</l>
+                     <l>¿dónde lo hallaré escondido?</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Dentro de mi pecho encierra</l>
+                     <l>el dolor, mas lo perdí,</l>
+                     <l>amor firme me da guerra</l>
+                     <l>ya se han vuelto contra mí</l>
+                     <l rend="cursiva">aire, fuego, mar, y tierra.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Ya mis gustos son perdidos,</l>
+                     <l>vivo con ansias mortales,</l>
+                     <l>paré terribles gemidos;</l>
+                     <l>aves, peces y animales, </l>
+                     <l rend="cursiva">hablad, si teneis sentidos:</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Yo no sosiego un instante,</l>
+                     <l>se me arrancan las entrañas </l>
+                     <l>del dolor mas penetrante,</l>
+                     <l>riscos, valles y montañas</l>
+                     <l rend="cursiva">decid, dónde está mi amante?</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Pues yo ya lo habré perdido,</l>
+                     <l>que este es mi mayor tormento,</l>
+                     <l>siendo mi dueño querido,</l>
+                     <l>mundo, cielo y elementos,</l>
+                     <l rend="cursiva">dónde lo hallarè escondido?</l>
+                  </lg>
+               </lg>
+
+               <lg n="10">
+                  <head type="titulo_estrofa">10.</head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Serás dueña de mi vida</l>
+                     <l>si sabes corresponder,</l>
+                     <l>pero temo tu mudanza,</l>
+                     <l>porque al fin eres mujer.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Puedes estar persuadida</l>
+                     <l>de que soy tu fino amante;</l>
+                     <l>tú dices ser mi querida,</l>
+                     <l>mientras me seas constante</l>
+                     <l rend="cursiva">seras dueño de mi vida.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Quisiera darte á leer</l>
+                     <l>escritos del corazon,</l>
+                     <l>bien sé yo que habias de ver</l>
+                     <l>lo firme de mi aficion</l>
+                     <l rend="cursiva"><supplied>si</supplied> sabes corresponder.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Que tenga en ti confianza</l>
+                     <l>me aconseja tu favor,</l>
+                     <l>yo tengo plena probanza </l>
+                     <l>de lo firme de tu amor,</l>
+                     <l rend="cursiva">pero temo tu mudanza.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Por mas que llegue á querer</l>
+                     <l>en tí no me he de cegar</l>
+                     <l>por si me has de aborrecer,</l>
+                     <l>que es muy fácil olvidar,</l>
+                     <l rend="cursiva">porque al fin eres mujer.</l>
+                  </lg>
+               </lg>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra, n.°,
+                  4. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

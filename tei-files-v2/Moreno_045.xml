@@ -1,0 +1,776 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_045">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doña Francisca la cautiva</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Doña Francisca la cautiva. Romance en que se refiere
+                     como esta señora navegando á Roma con tres hijos pequeños, la cautivaron
+                     Turcos.</title>
+                  <title type="titulo_breve">Doña Francisca la cautiva.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6448078</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 51</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Romances (Dos partes)</item>
+                        <item>Coplas</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4-7</locus>
+                     <title>Doña Francisca la cautiva. Romance en que se da cuenta de un prodigioso
+                        milagro que hizo la Virgen Santisima del Cármen con esta Señora y sus hijos,
+                        librándolos del poder de los Turcos.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>8</locus>
+                     <title>Coplas del Fandango</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabado (p.1, p.5)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_045_1.xml"
+                              facs="fedora_ug8109384/474,262,1070,838/100,/0/default.jpg"
+                              >grabado_m_045_1</item>
+                           <item corresp="grabado_m_045_2.xml"
+                              facs="fedora_ug8108946/200,280,1131,939/100,/0/default.jpg"
+                              >grabado_m_045_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="4" corresp="Q220">
+                  <placeName key="Roma">Roma</placeName>
+                  <location>
+                     <geo>41.893055555556 12.482777777778</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q2634">
+                  <placeName key="Nápoles">Nápoles</placeName>
+                  <location>
+                     <geo>40.833333333333 14.25</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX5501105.html" type="tipo_texto">Coplas</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term target="XX5501105.html" type="tipo-estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103324/manifest">
+      <graphic url="fedora_ug8109384/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_045_1.jpg" facs="fedora_ug8109384/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 51.</fw>
+
+               <head type="primer_titulo">DONA FRANCISCA LA CAUTIVA.</head>
+               <head type="subtitulo">
+                  <lb/>ROMANCE EN QUE SE REFIERE COMO ESTA SEÑORA NAVEGANDO <lb/>á Roma con tres
+                  hijos pequeños, la cautivaron Turcos. </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l>Oh gran Reina de los Cielos,</l>
+                  <l>madre de Dios soberana,</l>
+                  <l>cefugio de pecadores,</l>
+                  <l>amparo de nuestras almas!</l>
+                  <l>Dadme tu gracia, Señora,</l>
+                  <l>para escribir esta plana</l>
+                  <l>la historia mas lastimosa</l>
+                  <l>que se ha escrito, ni se canta;</l>
+                  <l>atencion, noble auditorio,</l>
+                  <l>que ya voy á declararla.</l>
+                  <l>De <name>Nápoles</name> para <name>Roma</name>
+                  </l>
+                  <l>salió una nave marchanta</l>
+                  <l>con una noble señora</l>
+                  <l>de sangre calificada,</l>
+                  <l>lleva tres hijos consigo,</l>
+                  <l>Angeles en forma humana,</l>
+                  <l>el uno es de cinco años,</l>
+                  <l>y el otro á tres no llegaba, </l>
+                  <l>el otro es de cuatro meses,</l>
+                  <l>que á sus pechos lo criaba,</l>
+                  <l>y en medio de la marina</l>
+                  <l>los turcos la cautiváran;</l>
+                  <l>desembárcanlos en tierra,</l>
+                  <l>y los tres niños compraba, </l>
+                  <l>con la madre un renegado,</l>
+                  <l>para el servicio de casa;</l>
+                  <l>y al fin, le servió seis meses</l>
+                  <l>con paciencia muy sobrada:</l>
+                  <l>pero al cabo de esté tiempo</l>
+                  <l>un dia el perro la llama,</l>
+                  <l>diciendo : doña Francisca,</l>
+                  <l>sabrás qué tu amor me mata.</l>
+                  <l>Reniega de Dios, reniega, </l>
+                  <l>y serás muy estimada,</l>
+
+                  <pb n="2" source="Moreno_045_2.jpg"
+                     facs="fedora_ug8106462/full/full/0/default.jpg"/>
+
+                  <l>á señora mas querida, </l>
+                  <l>que en toda esta tierra haya.</l>
+                  <l>Doña Francisca responde,</l>
+                  <l>resuelta, y determinada:</l>
+                  <l>renegar de Dios no quiero,</l>
+                  <l>que Mahoma es un canalla. </l>
+                  <l>que metido en los infiernos</l>
+                  <l>tiene millones de almas,</l>
+                  <l>y yo creo en Jesucristo.</l>
+                  <l>en su Madre soberana,</l>
+                  <l>y en el Divino Misterio</l>
+                  <l>de la Trinidad Sagrada,</l>
+                  <l>un Dios solo, y tres personas,</l>
+                  <l>que asi la Iglesia lo canta.</l>
+                  <l>no mas de una vida tengo,</l>
+                  <l>y la doy de buena gana,</l>
+                  <l>solo por no quebrantar</l>
+                  <l>lo que la Iglesia me manda.</l>
+                  <l>Y el renegado soberbio</l>
+                  <l>á sus criados les manda,</l>
+                  <l>que á una mazmorra la lleven</l>
+                  <l>y que allí la aprisionáran.</l>
+                  <l>Obedecen el mandato,</l>
+                  <l>y á doña Francisca agarran</l>
+                  <l>dándoles crueles golpes, </l>
+                  <l>en la mazmorra la entraban</l>
+                  <l>con el niño mas pequeño,</l>
+                  <l>que á diez meses no llegaba</l>
+                  <l>le echaron á la cintura </l>
+                  <l>una cadena pesada,</l>
+                  <l>y á cada pie su grillete,</l>
+                  <l>y una argolla á la garganta,</l>
+                  <l>dábanle por alimento</l>
+                  <l>seis onzas de pan tasadas,</l>
+                  <l>y cuando le parecia,</l>
+                  <l>el infame perro baja </l>
+                  <l>y con un grueso cordél</l>
+                  <l>cruelmente le azotaba, </l>
+                  <l>y despues á el angelito</l>
+                  <l>sus ropas le desnudaba,</l>
+                  <l>y con unas disciplinas</l>
+                  <l>soberbio le descargaba, </l>
+                  <l>hasta qne la sangre brota </l>
+                  <l>por sus venas delicadas.</l>
+                  <l>Aquí fueron los lamentos</l>
+                  <l>del niño, y su madre amada,</l>
+                  <l>del gran dolor que recibe,</l>
+                  <l>cayó en tierra desmayada, </l>
+                  <l>y despues que volvió en sí,</l>
+                  <l>en tierno llanto anegada,</l>
+                  <l>se abrazaba con su hijo,</l>
+                  <l>y al pecho se lo arrimaba.</l>
+                  <l>De allí se fué el renegado</l>
+                  <l>lleno de furor, y saña,</l>
+                  <l>solo de ver que no puede</l>
+                  <l>lograr lo que deseaba.</l>
+                  <l>Mas no desiste; á otro dia</l>
+                  <l>vuelta á la mazmorra daba,</l>
+                  <l>le predica de Mahoma</l>
+                  <l>mil embustes, y trapazas, </l>
+                  <l>diciéndole: si reniegas,</l>
+                  <l>yo te daré muchas galas,</l>
+                  <l>y costosísimas joyas, </l>
+                  <l>para que estés adornada. </l>
+                  <l>Doña Francisca prudente, </l>
+                  <l>de aquesta suerte notaba:</l>
+                  <l>esas joyas, gran señor,</l>
+                  <l>usted bien puede guardarlas, </l>
+                  <l>que ese es un poco de tierra,</l>
+                  <l>y á quien el alma me dió</l>
+                  <l>por lo que no vale nada,</l>
+                  <l>no le costó tan barata.</l>
+                  <l>Mas viendo los menosprecios,</l>
+                  <l>que le hace la cristiana, </l>
+                  <l>soberbio se desespera,</l>
+                  <l>de coraje pateaba. </l>
+                  <l>De la mazmorra se sale, </l>
+                  <l>y á los dos niños agarra;</l>
+                  <l>asidos por los cabellos</l>
+                  <l>los arrastró por la casa, </l>
+                  <l>y á la mazmorra los lleva,</l>
+                  <l>á donde su madre estaba, </l>
+                  <l>los despoja de sus ropas, </l>
+                  <l>y de prisiones los carga. </l>
+                  <l>Tomó una vara, y con furia</l>
+                  <l>los niños apaleaba, </l>
+                  <l>y juntamente á la madre</l>
+                  <l>le decia estas palabras:</l>
+                  <l>Dime, cristiana enemiga, </l>
+                  <l>si la ley de Dios dejáras, </l>
+
+                  <pb n="3" source="Moreno_045_3.jpg"
+                     facs="fedora_ug8105012/full/full/0/default.jpg"/>
+
+                  <l>nuy mucho mejor te fuera,</l>
+                  <l>y la vida reserváras,</l>
+                  <l>tambien las de tus tres hijos,</l>
+                  <l>que en gran peligro se hallan.</l>
+                  <l>Pero viendo los tormentos,</l>
+                  <l>que el bárbaro ejecutaba </l>
+                  <l>en sus tres queridos hijos,</l>
+                  <l>á renegar la obligaba.</l>
+                  <l>Renegó de cumplimiento,</l>
+                  <l>solo porque se aquietára</l>
+                  <l>la furia de aquel cruél,</l>
+                  <l>que con rigor castigaba </l>
+                  <l>aquellas tres inocencias,</l>
+                  <l>sin haberle dado causa.</l>
+                  <l>Doña Francisca le dijo:</l>
+                  <l>desata, señor, desata</l>
+                  <l>á mis hijós de prision,</l>
+                  <l>que ya me humillo á tus plantas,</l>
+                  <l>Reniego de Jesucristo,</l>
+                  <l>tambien de la Vírgen santa,</l>
+                  <l>y del Divino Misterio</l>
+                  <l>de la Trinidad Sagrada.</l>
+                  <l>Pero nuestro Dios piadoso</l>
+                  <l>no quiso que aquesta alma</l>
+                  <l>se perdiese, y dió licencia </l>
+                  <l>al niño, que al pecho estaba,</l>
+                  <l>para que á su madre avise</l>
+                  <l>del peligro en que se halla,</l>
+                  <l>y entonces el angelito</l>
+                  <l>pronunció aquestas palabras:</l>
+                  <l>madre, qué es eso que dices?</l>
+                  <l>Mira bien lo que te hablas,</l>
+                  <l>que aunque sea de cumplimiento</l>
+                  <l>mucho le daña á tu alma,</l>
+                  <l>que para morir por Dios,</l>
+                  <l>no se han de tapar la cara.</l>
+                  <l>Vivan los santos Misterios</l>
+                  <l>de nuestra Iglesia <name>Roma</name>na, </l>
+                  <l>que mis hermanos y yo </l>
+                  <l>morimos de buena gana, </l>
+                  <l>solo porque nos defiendas</l>
+                  <l>con la vida y con el alma.</l>
+                  <l>Absorta quedó la madre,</l>
+                  <l>y de rodillas postrada,</l>
+                  <l>pidiendo misericordia</l>
+                  <l>al Cielo los ojos alza.</l>
+                  <l>El renegado que ha oido</l>
+                  <l>al niño aquestas palabras, </l>
+                  <l>en vez de compadecerse,</l>
+                  <l>mas el perro se encizaña,</l>
+                  <l>y cogiendo al inocente</l>
+                  <l>contra un cimiento le daba,</l>
+                  <l>hasta que de su cabeza</l>
+                  <l>los sesos se le saltaban.</l>
+                  <l>Murió el inocente niño, </l>
+                  <l>y volviendo á la cristiana,</l>
+                  <l>con una gruesa cadena,</l>
+                  <l>tan recios golpes le daba,</l>
+                  <l>que yá por los ojos brota</l>
+                  <l>la púrpura en vez de agua,</l>
+                  <l>y con soberbia le dice:</l>
+                  <l>dime, qué tienes, cristiana?</l>
+                  <l>Ves aquí tu hijo muerto,</l>
+                  <l>es eso lo que te falta?</l>
+                  <l>Yo os lo freiré en aceite,</l>
+                  <l>y os lo comereis mañana.</l>
+                  <l>De la mazmorra se sale, </l>
+                  <l>á sus mayordomos llama,</l>
+                  <l>diciéndoles: qué os parece, </l>
+                  <l>que se haga con la cristiana?</l>
+                  <l>Mi intento es darle la muerte, </l>
+                  <l>antes hoy que no mañana. </l>
+                  <l>Todos á una díjeron:</l>
+                  <l>es justo de que se haga.</l>
+                  <l>Dijo el renegado eñtonces</l>
+                  <l>pues idead nneva traza,</l>
+                  <l>qué castigo se ha de dar</l>
+                  <l>á esta homicida cristiana?</l>
+                  <l>y en otra segunda parte</l>
+                  <l>se dirá lo que aquí falta.</l>
+
+                  <trailer>FIN DE LA PRIMERA PARTE.</trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="4" source="Moreno_045_4.jpg"
+                     facs="fedora_ug8108946/full/full/0/default.jpg"/>
+
+                  <head type="titulo_parte">DOÑA FRANCISCA LA CAUTIVA.</head>
+                  <head type="subtitulo_parte">
+                     <lb/>ROMANCE EN QUE SE DA CUENTA DE UN PRODIGIOSO MILAGRO <lb/>que hizo la
+                     Virgen Santísima del Cármen con esta Señora y sus hijos, librán- <lb/>dolos del
+                     poder de los Turcos. <lb/>SEGUNDA PARTE. </head>
+
+                  <l>Sagrada Vírgen María,</l>
+                  <l>hija de Joaquin, y Ana,</l>
+                  <l>hoy, Señora, necesito,</l>
+                  <l>que me ayudes con tu gracia,</l>
+                  <l>por que mi turbada pluma</l>
+                  <l>dé finiquito á esta plana.</l>
+                  <l>Ya dije, como quedó</l>
+                  <l>en consulta esta canalla;</l>
+                  <l>pero todos convinieron</l>
+                  <l>de que muriese quemada.</l>
+                  <l>Mandó el renegado al punto,</l>
+                  <l>eque n medio de la real Plaza</l>
+                  <l>encendiesen una hoguera</l>
+                  <l>con presteza y vigilancia.</l>
+                  <l>Lo cual breve ejecutaron</l>
+                  <l>lo que su amo les manda.</l>
+                  <l>Dejemos en su alboroto</l>
+                  <l>á estos bárbaros piratas,</l>
+                  <l>y vamos á la cautiva,</l>
+                  <l>que entre prisiones estaba, </l>
+                  <l>mirando á sus hijos, dice:</l>
+                  <l>Ay, hijos de mis entrañas,</l>
+                  <l>si no os hubiera parido</l>
+                  <l>mi pena no fuera tanta.</l>
+
+                  <pb n="5" source="Moreno_045_5.jpg"
+                     facs="fedora_ug8103995/full/full/0/default.jpg"/>
+
+                  <l>Y á vos, aurora impecable,</l>
+                  <l>María, llena de gracia;</l>
+                  <l>estos hijos te encomiendo,</l>
+                  <l>que ya sin madre se hallan.</l>
+                  <l>Los infantes se enternecen, </l>
+                  <l>y amargamente lloraban, </l>
+                  <l>y á su madre le decian:</l>
+                  <l>Madre mia de mi alma,</l>
+                  <l>no desconfies, señora,</l>
+                  <l>que la Vírgen hos ampara.</l>
+                  <l>Y postrada de rodillas,</l>
+                  <l>puesta en oracion estaba</l>
+                  <l>hechos dos mares sus ojos</l>
+                  <l>las fuertes prisiones báña, </l>
+                  <l>y acabada la oracion</l>
+                  <l>de aquesta suerte notaba:</l>
+                  <l>Vos, oh celestial princesa, </l>
+                  <l>que sois la luz de la gracia,</l>
+                  <l>fuente hermosa de piedades,</l>
+                  <l>que misericordias manas, </l>
+                  <l>intercede con tu Hijo,</l>
+                  <l>se adolezca de mi alma,</l>
+                  <l>y que perdone mis culpas, </l>
+                  <l>ya conozco que son tantas,</l>
+                  <l>que las arenas del mar</l>
+                  <l>será poco al numerarlas,</l>
+                  <l>pero tu misericordia</l>
+                  <l>jamás á nadie le falta.</l>
+                  <l>Y dichas estas razones, </l>
+                  <l>la mazmorra se llenaba</l>
+                  <l>de un resplandor celestial,</l>
+                  <l>á los niños se arrimaba,</l>
+                  <l>quebrantando las prisiones,</l>
+                  <l>sueltos los dos se quedaban, </l>
+                  <l>y hácia su madre se arriman;</l>
+                  <l>con halagüeñas palabras</l>
+                  <l>le decia : madre mia,</l>
+                  <l>conoces á quien te habla?</l>
+                  <l>quedó la cristiana entonces</l>
+                  <l>del caso maravillada,</l>
+                  <l>y postrada de rodillas,</l>
+                  <l>así ha dicho en voces altas:</l>
+                  <l>Dime , quién eres, Señora,</l>
+                  <l>que tanta alegría causas?</l>
+                  <l>Yo soy la Vírgen del Cámmen,</l>
+                  <l>devota mia, levanta,</l>
+                  <l>que vengo por tus tres hijos,</l>
+                  <l>para cuando á <name>Roma</name> vayas;</l>
+                  <l>ves aquí el infante bueno,</l>
+                  <l>todas sus heridas sanas.</l>
+                  <l>En los brazos se lo pone,</l>
+                  <l>el pecho luego destapa, </l>
+                  <l>y dándole el alimento,</l>
+                  <l>de puro gozo lloraba.</l>
+                  <l>Mirábale á su cabeza,</l>
+                  <l>y viendo que estaba sana,</l>
+                  <l>como vió tan gran prodigio,</l>
+                  <l>llena de alegría estraña</l>
+                  <l>á la Reina de los cielos</l>
+                  <l>de aquesta suerte le habla:</l>
+                  <l>de dónde á mi tanto bien,</l>
+                  <l>siendo yo tu indigna esclava?</l>
+                  <l>Cuándo merecí, Señora, </l>
+                  <l>que esta visita se me haga?</l>
+                  <l>Y le respondió la Vírgen</l>
+                  <l>aquestas dulces palabras:</l>
+                  <l>hija, tu gran devocion</l>
+                  <l>me hizo á mi de que bajára</l>
+                  <l>desde el Cielo hasta la tierra,</l>
+                  <l>que amor con amor se paga.</l>
+                  <l>Has de saber, que este hombre,</l>
+                  <l>que tanto á ti te maltrata</l>
+                  <l>era muy devoto mio,</l>
+                  <l>y no quiero, que su alma</l>
+                  <l>se pierda, y de su rescate</l>
+                  <l>tú sola has de ser la causa,</l>
+                  <l>Con esto se despidieron,</l>
+                  <l>con amorosas palabras; </l>
+                  <l>muy alegres los infantes</l>
+                  <l>con su madre se abrazaban;</l>
+                  <l>quédate en paz, y no tema</l>
+                  <l>el castigo que te aguarda,</l>
+                  <l>que has de salir con victoria,</l>
+                  <l>libre, sin dolencia, y sana,</l>
+                  <l>y asi predica la fé</l>
+                  <l>de nuestra Iglesia <name>Roma</name>na. </l>
+                  <l>Remontóse y tomó vuelo</l>
+                  <l>aquella preciosa garza,</l>
+                  <l>la mas cándida Azucena, </l>
+                  <l>llevándose en su compaña</l>
+
+                  <pb n="6" source="Moreno_045_6.jpg"
+                     facs="fedora_ug8104963/full/full/0/default.jpg"/>
+
+                  <l>los tres hermosos infantes,</l>
+                  <l>y dejando á la cristiana</l>
+                  <l>fortalecida de suerte,</l>
+                  <l>que ya no le teme á nada, </l>
+                  <l>solo desea el morir</l>
+                  <l>por defender la ley santa</l>
+                  <l>Prevenido ya el martirio</l>
+                  <l>el vil renegado baja, </l>
+                  <l>y asi que la vido sola</l>
+                  <l>con descompuestas palabras </l>
+                  <l>dice: á dónde están tus hijos?</l>
+                  <l>Dónde se han ido, malvada; </l>
+                  <l>infame, no me respondes?</l>
+                  <l>pero la noble cristiana</l>
+                  <l>le dió relacion de todo,</l>
+                  <l>diciéndole lo que pasa:</l>
+                  <l>señor, la Virgen del Cármen</l>
+                  <l>se los llevó en su compaña, </l>
+                  <l>y al niño que usted mató,</l>
+                  <l>de nuevo vida le daba.</l>
+                  <l>A el oir estas razones</l>
+                  <l>se enciende en cólera y saña,</l>
+                  <l>y alzando cruel la mano</l>
+                  <l>le pegó tal bofetada,</l>
+                  <l>que la derribó en el suelo</l>
+                  <l>sin sentido, y desmayada;</l>
+                  <l>luego que volvió por si</l>
+                  <l>afligida se levanta,</l>
+                  <l>diciéndole: gran señor,</l>
+                  <l>dime, por qué me maltratas? </l>
+                  <l>No preguntas por mis hijos</l>
+                  <l>y te he dicho lo que pasa?</l>
+                  <l>segunda vez le repite.</l>
+                  <l>diciendo : calla, malvada,</l>
+                  <l>que pues no has hecho caso</l>
+                  <l>de mí, serás castigada;</l>
+                  <l>de la mazmorra se sale, </l>
+                  <l>y recias voces gritaba:</l>
+                  <l>acudid, criados mios,</l>
+                  <l>pues ya teneis puerta franca, </l>
+                  <l>esto no tiene remedio:</l>
+                  <l>quitadla ya de mi casa,</l>
+                  <l>porque es cosa que me irrita</l>
+                  <l>mujer tan desesperada,</l>
+                  <l>pues no le teme á la muerte;</l>
+                  <l>ea, al castigo llevadla.</l>
+                  <l>Al oir estas razones</l>
+                  <l>á la mazmorra bajaban, </l>
+                  <l>como unos leones fieros</l>
+                  <l>su ropa le desnudaban,</l>
+                  <l>y dándole recios golpes</l>
+                  <l>á la vergüenza la sacan, </l>
+                  <l>pero ella mas encendida</l>
+                  <l>la santa ley predicaba</l>
+                  <l>de mi Señor Jesucristo,</l>
+                  <l>Redentor de nuestras almas.</l>
+                  <l>Llegaron al sitio donde</l>
+                  <l>el incendio le aguardaba, </l>
+                  <l>y crueles la arrojaron</l>
+                  <l>entre las voraces llamas, </l>
+                  <l>Apenas hubo caido,</l>
+                  <l>el fuego altivo se apaga:</l>
+                  <l>perdió sus flamantes luces</l>
+                  <l>sin que al pelo le agraviaran.</l>
+                  <l>Mas viendo que queda viva,</l>
+                  <l>aquel alevoso manda,</l>
+                  <l>que de la trenza del pelo</l>
+                  <l>de una reja la colgarán;</l>
+                  <l>al instante lo ejecutan</l>
+                  <l>llenos de furor, y saña.</l>
+                  <l>De una reja la colgaron,</l>
+                  <l>y en ella se la dejaban,</l>
+                  <l>á donde estuvo tres dias</l>
+                  <l>publicando en voces altas</l>
+                  <l>de Dios sus sacros misterios,</l>
+                  <l>y de la Iglesia <name>Roma</name>na.</l>
+                  <l>Mas viendo que no moria,</l>
+                  <l>anda ideando mil trazas</l>
+                  <l>por donde poder quitar</l>
+                  <l>la vida á aquesta cristiana.</l>
+                  <l>Mandó trajesen dos potros,</l>
+                  <l>y á sus colas la amarrarán,</l>
+                  <l>y por las calles la saquen</l>
+                  <l>hasta que pedazos la hagan, </l>
+                  <l>y por si acaso no muere,</l>
+                  <l>que la maten á pedradas.</l>
+                  <l>Obedecen el mandato,</l>
+                  <l>aunque de muy mala gana, </l>
+                  <l>que ya algunos de los turcos</l>
+                  <l>solo de oirla lloraban:</l>
+
+                  <pb n="7" source="Moreno_045_7.jpg"
+                     facs="fedora_ug8107762/full/full/0/default.jpg"/>
+
+                  <l>y en fin, trajeron los potros,</l>
+                  <l>y por las calles la sacan.</l>
+                  <l>Los animales feroces </l>
+                  <l>humildes se arrodillaban, </l>
+                  <l>y entre tan grande tumulto</l>
+                  <l>todos á tirarle amagan, </l>
+                  <l>mas cuando á tirarle iban,</l>
+                  <l>inmóviles se quedaban, </l>
+                  <l>y entre tanta confusion</l>
+                  <l>volvieron á la cristiana</l>
+                  <l>á casa del renegado</l>
+                  <l>diciéndole lo que pasa. </l>
+                  <l>El renegado se admira, </l>
+                  <l>un golpe ei corazon daba,</l>
+                  <l>y conociendo sus yerros,</l>
+                  <l>arrepentido lloraba,</l>
+                  <l>ficiendo: divina Aurora,</l>
+                  <l>del Cármen Vírgen sagrada</l>
+                  <l>si de aquí salgo con bien,</l>
+                  <l>yo te empeño mi palabra</l>
+                  <l>de hscer vida penitente</l>
+                  <l>en una áspera montaña.</l>
+                  <l>Y ina noche de secreto</l>
+                  <l>en una nave se embarcan</l>
+                  <l>los dos con cuarenta turcos</l>
+                  <l>que á voces piden el agua</l>
+                  <l>del bautismo, porque quieren</l>
+                  <l>morir en la ley de gracia;</l>
+                  <l>y ochenta y siete cristianos</l>
+                  <l>trajeron de retaguardia.</l>
+                  <l>Les fué el viento tan feliz,</l>
+                  <l>que en breve tiempo llegaban</l>
+                  <l>á la gran ciudad de <name>Roma</name>,</l>
+                  <l>á que les absuelva el papa.</l>
+                  <l>Los turcos se cristianaron</l>
+                  <l>rindiéndole á Dios las gracias</l>
+                  <l>Don Juan Alonso se fué</l>
+                  <l>á cumplirle la palabra,</l>
+                  <l>que dió á la Vírgen del Cármen</l>
+                  <l>nuestra madre, y abogada, </l>
+                  <l>y despues Doña Francisca</l>
+                  <l>se fué á casa de su hermana, </l>
+                  <l>y en ella halló los tres hijos</l>
+                  <l>prendas queridas del alma.</l>
+                  <l>Ya dieron fin los pesares,</l>
+                  <l>ya las tristezas se acaban,</l>
+                  <l>ya todos se regocijan</l>
+                  <l>por maravillas tan altas. </l>
+                  <l>A la Vírgen del Carmelo</l>
+                  <l>démosle infinitas gracias.</l>
+                  <l>Y ahora Pedro de Fuentes, </l>
+                  <l>que es el autor de esta plana</l>
+                  <l>al auditorio suplica</l>
+                  <l>perdonen sus muchas faltas.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+
+               <div type="colofon">
+                  <p>
+                     <lb/>CARMONA:—1859. <lb/>Imprenta de D. José M.a Moreno, Juan de la Cabra, 4.
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <pb n="8" source="Moreno_045_8.jpg" facs="fedora_ug8105654/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>COPLAS <lb/>DEL FANDANGO. </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Las mugeres de estos tiempos</l>
+                  <l>las comparo á las medias.</l>
+                  <l>que en aflojandose un punto</l>
+                  <l>todas sevan de carrera.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Asesinatos sangrientos,</l>
+                  <l>robos, muertes, traicion,</l>
+                  <l>la causa principal son</l>
+                  <l rend="cursiva">las mugeres de estos tiempos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Entre toños y comedias</l>
+                  <l>suele el punto flogeáiy: </l>
+                  <l>ellas callan sul tnagedia, : </l>
+                  <l>y yo por no murmurar</l>
+                  <l rend="cursiva">las comparo á las medias.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No quisiera en este asunto</l>
+                  <l>á las damas agraviar,</l>
+                  <l>callaré como un difunto,</l>
+                  <l>que son como el trafalgar, </l>
+                  <l rend="cursiva">que en aflojandose un punto,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Eva, por ser la primera,</l>
+                  <l>ya perdió el genero humano;</l>
+                  <l>y las demas con cualquiera,</l>
+                  <l>que en untandolas la mano</l>
+                  <l rend="cursiva">todas se van de carrera.</l>
+               </lg>
+
+               <lg rend="cursiva" type="estribillo">
+                  <l rend="indent">En cierta Ciudad de España</l>
+                  <l>pusieron preso á un Gitano, </l>
+                  <l>porque se encontró una capa</l>
+                  <l>antes de perderla el amo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Señorita resalada</l>
+                  <l>tu amor me tiene postrado</l>
+                  <l>hermosísima diana,</l>
+                  <l>tus ojos me caútivaron</l>
+                  <l rend="cursiva">en cierta Ciudad de España.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Salada, dame la maño,</l>
+                  <l>y te daré él corazon</l>
+                  <l>y despues diré cantando,</l>
+                  <l>con razóY ó sin razon</l>
+                  <l rend="cursiva">pusieron preso á un Gitano.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El Gitano puesto en marcha</l>
+                  <l>seguia su caminillo,</l>
+                  <l>sin tener ninguna causa</l>
+                  <l>lo llevaron á presidio,</l>
+                  <l rend="cursiva">porque se encontró una capa.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Era capa de un Cerrano</l>
+                  <l>la capa no se perdió,</l>
+                  <l>como hera tuno el Gitano,</l>
+                  <l>la capa se la encentró</l>
+                  <l rend="cursiva">antes de perderla el amo,</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

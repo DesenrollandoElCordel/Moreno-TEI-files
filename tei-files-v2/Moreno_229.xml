@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_229">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación andaluza de las hazañas hechos y valentías de Pepillo el
+               Jerezano</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion andaluza de las hazañas hechos y valentias
+                     de Pepillo el Jerezano.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475799</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 238</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_229_1.xml"
+                              facs="fedora_ug8110010/611,315,544,694/100,/0/default.jpg"
+                              >grabado_m_229_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q12303">
+                  <placeName key="Jerez_de_la_Frontera">Jerez De La Frontera</placeName>
+                  <location>
+                     <geo>36.7 -6.1166666666667</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q35045">
+                  <placeName key="Potosí">Potosí</placeName>
+                  <location>
+                     <geo>-19.589166666666667 -65.75333333333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-14" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107372/manifest">
+      <graphic url="fedora_ug8110010/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+
+               <pb n="1" source="Moreno_229_1.jpg" facs="fedora_ug8110010/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 238.)</fw>
+
+               <head type="primer_titulo"><hi rend="negrita">RELACION ANDALUZA</hi>
+                  <lb/>DE LAS HAZAÑAS HECHOS Y VALENTIAS <lb/><hi rend="negrita">DE PEPILLO EL
+                     JEREZANO.</hi></head>
+
+               <l rend="indent">En lo que gobierna el zó</l>
+               <l>y los terrenos han visto,</l>
+               <l>no se encuntra otro mas jaque</l>
+               <l>ni mas terne que Pepillo.</l>
+               <l>Mí patria la quieo esi</l>
+               <l>para que naide lo inore,</l>
+               <l>y en mentando á mi presona</l>
+               <l>como á una imágen se adore.</l>
+               <l>En <name>Jerez de la Frontera</name>,</l>
+               <l>esa es mi patria, y crióme</l>
+               <l>mi maresita é mi alma</l>
+               <l>con sus pechitos tan nobles,</l>
+               <l>con grande gusto y regalo,</l>
+               <l>sin pena ni pesaumbre.</l>
+               <l>Jacía mil travesuras,</l>
+               <l>que aunque pequeñito entonces,</l>
+               <l>á muchachos é mi edá</l>
+               <l>los jería con mi estoque.</l>
+               <l>Cuando á la calle salia</l>
+               <l>toiticos decian á voces:</l>
+               <l>ya viene el Diablo Cojuelo,</l>
+               <l>y al verme toos se me esconden.</l>
+               <l>Esto pazó en mi niñez,</l>
+               <l>que asi que me jice ombre,</l>
+               <l>no temia á un rejimiento</l>
+               <l>de lanceros muy feroces;</l>
+
+               <pb n="2" source="Moreno_229_2.jpg" facs="fedora_ug8110219/full/full/0/default.jpg"/>
+
+               <l>y si alguno é los presentes</l>
+               <l>quisiera tirarse un corte,</l>
+               <l>que dé un pasito aelante</l>
+               <l>con navaja ó con estoque:</l>
+               <l>toito me viene bien,</l>
+               <l>no le temo á ningun hombre,</l>
+               <l>aunque me lleve una cuarta</l>
+               <l>y se tenga por diforme.</l>
+               <l>Yo no quiero jerramienta,</l>
+               <l>ni aun la muleta de un probe,</l>
+               <l>jago un pincho é mi cuchara</l>
+               <l>y el dia lo vuelvo noche,</l>
+               <l>lo blanco lo vuelvo pardo,</l>
+               <l>y á los hombres, mostachones,</l>
+               <l>y me estan mas dulcecitos</l>
+               <l>que el almivar y el arrope,</l>
+               <l>Solito cobro el barato,</l>
+               <l>á mi naide se me opone, </l>
+               <l>que el pincho é mi cuchara</l>
+               <l>se lo hará é ver entonces; </l>
+               <l>si no, me quito un zapato</l>
+               <l>y dientes y muelas corren,</l>
+               <l>y le pongo lo jocicos</l>
+               <l>como tinaja de á once.</l>
+               <l>Cuado llego á una funcion</l>
+               <l>y quiero bailar, entonces,</l>
+               <l>digo, jagaste el favo,</l>
+               <l>sin quimerita ni voces:</l>
+               <l>al punto el mosito abrasa</l>
+               <l>mas serio que un padre monje,</l>
+               <l>pero qué habia de hacer, </l>
+               <l>poquito pico y silencio,</l>
+               <l>porque sino la filosa</l>
+               <l>se la corto como acebo,</l>
+               <l>y le hago una jería</l>
+               <l>que puea pasar un perro.</l>
+               <l>La primer novia que tuve</l>
+               <l>estando yo mozolejo,</l>
+               <l>me la quiso barucar</l>
+               <l>un jambron de un zapatero:</l>
+               <l>una noche lo encontré</l>
+               <l>en la ventana mu fresco,</l>
+               <l>y le ije: comparito,</l>
+               <l>¿qué jace en estos terrenos?</l>
+               <l>y me respondió entre dientes,</l>
+               <l>toito cargao é mieo;</l>
+               <l>es que le jablo á esta niña</l>
+               <l>como cosa é mes y medio:</l>
+               <l>yo al oir esta jabla</l>
+               <l>y sin andar en rodeo,</l>
+               <l>conocí su poca fuerza,</l>
+               <l>no quise emplear mi acero, </l>
+               <l>que el pobrete se asustó,</l>
+               <l>y alli le dió sin remedio</l>
+               <l>unos cursos catalanes</l>
+               <l>que se iba é ligero;</l>
+               <l>pero no por eso yo</l>
+               <l>lo ejé se fuera riyendo:</l>
+               <l>lo coji de las patitas</l>
+               <l>y lo llevé mu sereno</l>
+               <l>á una posa é jamila</l>
+               <l>y alli le di un buen meneo,</l>
+               <l>que lo ejé lo mesmito</l>
+               <l>que á marráno en senaguero:</l>
+               <l>y le ije: tio jilí,</l>
+               <l>á esa jembra yo camelo,</l>
+               <l>y el que le jable, aquí viene</l>
+               <l>á este mismo senaguero.</l>
+               <l>Oigaste, mosito rubio,</l>
+               <l>¿le parece son agüeros?</l>
+               <l>piensa osté que yo me alabo?</l>
+               <l>esto se dice y jaciendo,</l>
+               <l>si osté quié alguna cosa</l>
+               <l>en este sitio io espero,</l>
+               <l>que é evé su soboná</l>
+               <l>la sangre se me está jirviendo:</l>
+               <l>parece que osté se burla</l>
+               <l>y jabla con cachondeo,</l>
+               <l>pues sabe que se lo ice</l>
+               <l>un mozo é rumbo y trueno,</l>
+               <l>y pues naide quie sali</l>
+               <l>al desafio ligero,</l>
+               <l>voy á jabla con mi chica</l>
+               <l>que en ella está mi consuelo:</l>
+               <l>por ella yo me errito</l>
+               <l>como una vela é sebo,</l>
+               <l>me desago, me escompongo,</l>
+               <l>me jago tiras é lienzo,</l>
+               <l>por que su cuerpo zalao</l>
+               <l>se merece toico esto;</l>
+
+               <pb n="3" source="Moreno_229_3.jpg" facs="fedora_ug8110074/full/full/0/default.jpg"/>
+
+               <l>sus ojos me tienen preso,</l>
+               <l>y su boquita encantao,</l>
+               <l>con los dichitos que dice</l>
+               <l>á mí me tiene pasmao;</l>
+               <l>por debajo é su barba, </l>
+               <l>¡ay Jesus, que me he chaslao!</l>
+               <l>si me atrevere á desillo.</l>
+               <l>que calorcita me ha dao.</l>
+               <l>Tiene un tesoro que vale</l>
+               <l>ma que las minas é Gao,</l>
+               <l>vale ma que un <name>Potosí</name></l>
+               <l>y la ma con too sus barcos,</l>
+               <l>¡Jesu, qué breva ma rica</l>
+               <l>que echa la giguera ogaño!</l>
+               <l>Me jago una batatita</l>
+               <l>y una harina de pensallo,</l>
+               <l>Algunas veces le igo</l>
+               <l>con palabritas y halagos,</l>
+               <l>¿quien será el gaché dichoso</l>
+               <l>que mereciere ese garbo?</l>
+               <l>y ella ise placentera,</l>
+               <l>que al oilla me esparramo:</l>
+               <l>ninguno se la merece,</l>
+               <l>solo Pepillo el Jerezano.</l>
+               <l>Le comiera su hoquita </l>
+               <l>con su elgaitos labios,</l>
+               <l>por esas cosas que ise</l>
+               <l>ya me tiene chanelao.</l>
+               <l>Siempre está muy placentera</l>
+               <l>en estando yo á su lao:</l>
+               <l>su gloria la tiene en mi,</l>
+               <l>y muere por mis retazos.</l>
+               <l>Si algun gaché pretendiere</l>
+               <l>el decille bueno ó malo,</l>
+               <l>bien se poia llamá</l>
+               <l>desde entonces esgrasiao:</l>
+               <l>que aunque se marchara al moro,</l>
+               <l>o se juera á otros estaos,</l>
+               <l>el corazon y azaura</l>
+               <l>me comiera en estofao,</l>
+               <l>le cortaria una oreja</l>
+               <l>y hasta su mesmo reaños,</l>
+               <l>y con un polvo de sá</l>
+               <l>lo comiera bien asao. </l>
+               <l>La justicia ya me teme,</l>
+               <l>las rondas me jacen lao,</l>
+               <l>que solo al oir mi voz</l>
+               <l>toicos quean pásmaos.</l>
+               <l>Po la calle é mi novia</l>
+               <l>de noche, aonque sea trempano,</l>
+               <l>ninguno asoma el jocico</l>
+               <l>de mieo que me fhan tomao.</l>
+               <l>Soy el amo é los hombres,</l>
+               <l>naide lo puee duar,</l>
+               <l>porque tiembla eluniverso</l>
+               <l>solo al oirme nombrá.</l>
+               <l>Oiga osté, so mosa rubia,</l>
+               <l>¿quioste conmigo baila?</l>
+               <l>que gasta osté mas fachenda</l>
+               <l>que un navío po la ma.</l>
+               <l>No se jaga oste mas pieza,</l>
+               <l>no viva tan desarma,</l>
+               <l>que otras casitas mas altas</l>
+               <l>ahora se ven derrotá.</l>
+               <l>Siga el jaleo, señores,</l>
+               <l>naide tenga que chistá, </l>
+               <l>que la boca tiene abierta</l>
+               <l>el pez que me ha de traga.</l>
+               <l>Cante osté, Nicolasita,</l>
+               <l>un jaleo é verdá;</l>
+               <l>mal haya sea la pena</l>
+               <l>y quien la quiea tomá.</l>
+               <l>Cuando voy á la taberna,</l>
+               <l>aonque no lleve un chavo,</l>
+               <l>toos me convian é mieo</l>
+               <l>con dos palabras que jablo;</l>
+               <l>toos me miran á la cara,</l>
+               <l>pero ninguno á las manos.</l>
+               <l>Son probesito con honra,</l>
+               <l>y el corazon muy humano.</l>
+               <l>Una noche mu ascura</l>
+               <l>encontrandome á desora</l>
+               <l>un sastre mu pinturero,</l>
+               <l>y al punto me ijo ¡ola!</l>
+               <l>ya puee él volverse atrá</l>
+               <l>si no ruea como bola;</l>
+               <l>me sacó una pistolilla,</l>
+               <l>y con ella me apuntó,</l>
+               <l>pero me arrojé hácia él</l>
+               <l>como gato al chicharron;</l>
+
+               <pb n="4" source="Moreno_229_4.jpg" facs="fedora_ug8108226/full/full/0/default.jpg"/>
+
+               <l>con mi faja lo amarré,</l>
+               <l>no se me juera á escapa, </l>
+               <l>para jacer yo mi gusto</l>
+               <l>con el probe perillan:</l>
+               <l>lo primerito que jise</l>
+               <l>fué echarme bragas atras,</l>
+               <l>y me jiñé en su bigote</l>
+               <l>pa que pudiese chupa.</l>
+               <l>Despues de toico esto</l>
+               <l>tambien le jalsé el pañal,</l>
+               <l>y le pegué una azotea</l>
+               <l>que suaba rejalgar.</l>
+               <l>La recamara de abajo</l>
+               <l>se le hubo de afloja,</l>
+               <l>y jué menesté dejarlo</l>
+               <l>porque nos iba á anega:</l>
+               <l>yo de verlo, compasivo,</l>
+               <l>entre mi puse á pensá,</l>
+               <l>que el probe estaba irrítao,</l>
+               <l>y podia resultá</l>
+               <l>una irritacion é sangre:</l>
+               <l>le ije, aguante y verá;</l>
+               <l>un favó quiere jaserle,</l>
+               <l>que mucho le puee importá,</l>
+               <l>que por la salu toico</l>
+               <l>lo tenemos que dejá:</l>
+               <l>quiero darle un refrescon</l>
+               <l>y la sangre aquietará:</l>
+               <l>lo coji é bajito el brazo,</l>
+               <l>como si juera un costa,</l>
+               <l>y le ije: mal gaché,</l>
+               <l>so criaturilla arrastrá,</l>
+               <l>no conoces el favó</l>
+               <l>que te voy á proporcioná:</l>
+               <l>ví una guertecilla al lao,</l>
+               <l>y buscando el albercon,</l>
+               <l>le di unos cuantos meneos,</l>
+               <l>y llevó buen refrescon:</l>
+               <l>y le ije con la güasa</l>
+               <l>un poquito amartelao:</l>
+               <l>mocito é la pistola;</l>
+               <l>el tirito no ha sonao.</l>
+               <l>Yo me marché y se queó</l>
+               <l>el probecito naando,</l>
+               <l>mas fresco que el mes de Enero,</l>
+               <l>las síguirillas cantando:</l>
+               <l>él se salió como puó</l>
+               <l>y toavia acobardao</l>
+               <l>en la huerta se metió</l>
+               <l>los perros lo ventearon,</l>
+               <l>y principian á ladrarle:</l>
+               <l>los hortelano salieron</l>
+               <l>un poquito acéleraos,</l>
+               <l>cada uno con su estaca,</l>
+               <l>y lo vieron amagao,</l>
+               <l>y el uno le dice al otro:</l>
+               <l>padre, ya hemos encontrao</l>
+               <l>el que se lleva los nabos</l>
+               <l>que madre tiene pa el gasto:</l>
+               <l>principian á garrotasos,</l>
+               <l>tres costillas le quetiraron,</l>
+               <l>dieron parte á la justicia,</l>
+               <l>al hospital le llevaron</l>
+               <l>pa curale las jerias,</l>
+               <l>que pasan de veinte y cuatro,</l>
+               <l>y luego el méico mandó</l>
+               <l>á un praticante afamao</l>
+               <l>le echen diez lavativas,</l>
+               <l>y así queó bien curao.</l>
+               <l>To esto jase Pepillo</l>
+               <l>y demas que no ha contao,</l>
+               <l>y el que no quiera creerlo</l>
+               <l>se lo harà ver de contao</l>
+               <l>el pincho desa cuchara </l>
+               <l>ó el tacon é mi zapato,</l>
+               <l>que no quieo jerramienta</l>
+               <l>ni en Jerez ni en otro lao.</l>
+               <l>Todos juyan de Pepillo</l>
+               <l>como de la cruz el diablo.</l>
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859. <lb/>Imprenta, de D. José María Moreno. calle Juan de la
+                  Cabra. 4. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
   schematypens="http://relaxng.org/ns/structure/1.0"?>
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron"
-    xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:lang="en" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,7 +28,7 @@
       <sourceDesc>
         <p/>
       </sourceDesc>
-    </fileDesc>
+    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.0.0" when="2023-07-26T12:11:25.119Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
     <revisionDesc>
       <listChange>
         <listChange>
@@ -54,15 +51,10 @@
         <p>A part of the corpus, Moreno-TEI-files, has been ocerised thanks to the Transkribus tool
           and then encoded following a first schema that corresponds to the specificity of this
           corpus. The rest of the corpus (Varios-TEI-files) was digitized from the infastructure
-          developed at the University of Geneva, <ref
-            target="https://www.unige.ch/lettres/humanites-numeriques/fr/recherche/projets-de-la-chaire/fondue/"
-            > FoNDUE</ref> : this infastructure uses the <ref target="#Cordel"><hi rend="italic"
-              >#eScriptorium2019</hi></ref> interface and The HTR engine <ref target="#Kraken2019"><hi rend="italic"
-                >Kraken</hi></ref>. This new schema was
+          developed at the University of Geneva, <ref target="https://www.unige.ch/lettres/humanites-numeriques/fr/recherche/projets-de-la-chaire/fondue/"> FoNDUE</ref> : this infastructure uses the <ref target="#Cordel"><hi rend="italic">#eScriptorium2019</hi></ref> interface and The HTR engine <ref target="#Kraken2019"><hi rend="italic">Kraken</hi></ref>. This new schema was
           thus created to fit the specificities of the Varios corpus and follows the new standards.
             This schema describes our encoding choices for publishing on TEI-Publisher: it has been
-          developed according to the <ref target="#segmonto2021"><hi rend="italic"
-            >SegmOnto</hi></ref> standards.</p>
+          developed according to the <ref target="#segmonto2021"><hi rend="italic">SegmOnto</hi></ref> standards.</p>
       </div>
       <div xml:id="Bibliography">
         <head>Bibliography</head>
@@ -74,8 +66,7 @@
             <title level="m">Colloque Humanistica 2021</title>
             <date>2021</date>
             <pubPlace> Rennes, France</pubPlace>
-            <ref target="https://humanistica2021.sciencesconf.org/340576/document"
-              >https://humanistica2021.sciencesconf.org/340576/document</ref>
+            <ref target="https://humanistica2021.sciencesconf.org/340576/document">https://humanistica2021.sciencesconf.org/340576/document</ref>
           </bibl>
           <bibl xml:id="Kraken2019">
             <author>Benjamin Kiessling</author>
@@ -83,8 +74,7 @@
             <title level="m">Digital Humanities 2019 Conference Abstracts</title>
             <date when="2019-07">July 2019</date>
             <pubPlace>Utrecht, The Netherlands</pubPlace>
-            <ref target="https://dev.clariah.nl/files/dh2019/boa/0673.html"
-              >https://dev.clariah.nl/files/dh2019/boa/0673.html</ref>
+            <ref target="https://dev.clariah.nl/files/dh2019/boa/0673.html">https://dev.clariah.nl/files/dh2019/boa/0673.html</ref>
           </bibl>
           <bibl xml:id="segmonto2021">
             <author>Simon Gabay, Jean-Baptiste Camps, Ariane Pinche, Claire Jahan</author>
@@ -94,8 +84,7 @@
               2021)</title>
             <date when="2021-09">Sep. 2021</date>
             <pubPlace>Lausanne, Switzerland</pubPlace>
-            <ref target="https://hal.archives-ouvertes.fr/hal-03336528"
-              >https://hal.archives-ouvertes.fr/hal-03336528</ref>
+            <ref target="https://hal.archives-ouvertes.fr/hal-03336528">https://hal.archives-ouvertes.fr/hal-03336528</ref>
           </bibl>
           <bibl xml:id="eScriptorium2019">
             <author>Benjamin Kiessling, Robin Tissot, Daniel Stökl Ben Ezra, Peter Stokes</author>
@@ -104,8 +93,7 @@
               and Recognition</title>
             <date when="2019-09">Sep. 2019</date>
             <pubPlace>Sydney, Australia</pubPlace>
-            <ref target="https://ieeexplore.ieee.org/document/8893029"
-              >https://ieeexplore.ieee.org/document/8893029</ref>
+            <ref target="https://ieeexplore.ieee.org/document/8893029">https://ieeexplore.ieee.org/document/8893029</ref>
           </bibl>
           <bibl xml:id="PAGE">
             <author>Stefan Pletschacher, Apostolos Antonacopoulos</author>
@@ -115,31 +103,25 @@
               (ICPR2010)</title>
             <date when="2010-08">Aug. 2010</date>
             <pubPlace>Istanbul, Turkey</pubPlace>
-            <ref target="https://ieeexplore.ieee.org/document/5597587"
-              >https://ieeexplore.ieee.org/document/5597587</ref>
+            <ref target="https://ieeexplore.ieee.org/document/5597587">https://ieeexplore.ieee.org/document/5597587</ref>
           </bibl>
           <bibl xml:id="TEIguidelines">
             <editor>TEI Consortium</editor>
             <title level="m">TEI Guidelines for Electronic Text Encoding and Interchange</title>
-            <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html"
-              >https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html</ref>
+            <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html</ref>
           </bibl>
         </listBibl>
       </div>
       <div>
-        <schemaSpec ident="oddPliego" prefix="tei_" start="TEI">
+        <schemaSpec ident="oddPliego" prefix="tei_" start="TEI" targetLang="en" docLang="en">
           <moduleRef key="tei"/>
-          <moduleRef key="header"
-            include=" authority appInfo application availability biblFull category change classDecl correction creation edition editionStmt editorialDecl encodingDesc extent fileDesc idno keywords language langUsage licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt punctuation rendition revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
-          <moduleRef key="core"
-            include="add author choice corr date del desc expan foreign gap graphic head hi item l lb lg list name note orig p pb publisher pubPlace ref resp respStmt sic sp speaker stage term title unclear"/>
+          <moduleRef key="header" include=" authority appInfo application availability biblFull category change classDecl correction creation edition editionStmt editorialDecl encodingDesc extent fileDesc idno keywords language langUsage licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt punctuation rendition revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
+          <moduleRef key="core" include="add author choice corr date del desc expan foreign gap graphic head hi item l lb lg list name note orig p pb publisher pubPlace ref resp respStmt sic sp speaker stage term title unclear"/>
           <moduleRef key="textstructure" include="body closer div front TEI text trailer"/>
           <moduleRef key="namesdates" include="country settlement listPlace placeName geo location place"/>
-          <moduleRef key="msdescription"
-            include="acquisition additions altIdentifier collection condition decoDesc decoNote dim history layout layoutDesc locus locusGrp material msContents msDesc msIdentifier msItem objectDesc origin physDesc provenance repository summary support supportDesc"/>
+          <moduleRef key="msdescription" include="acquisition additions altIdentifier collection condition decoDesc decoNote dim history layout layoutDesc locus locusGrp material msContents msDesc msIdentifier msItem objectDesc origin physDesc provenance repository summary support supportDesc"/>
           <moduleRef key="drama" include="castItem castList set"/>
-          <moduleRef key="transcr"
-            include="am ex facsimile fw sourceDoc subst supplied surface surfaceGrp zone"/>
+          <moduleRef key="transcr" include="am ex facsimile fw sourceDoc subst supplied surface surfaceGrp"/>
           <moduleRef key="linking" except=""/>
 
           <elementSpec ident="div" mode="change">
@@ -375,9 +357,7 @@
                   <sch:assert test="./tei:title/text()='CustomZone'">Element "category" with
                     attribute "@xml:id" and value "CustomZone" incomplete ; missing required element
                     "title" with content "CustomZone".</sch:assert>
-                  <sch:assert
-                    test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/CustomZone/CustomZone.md'"
-                    >Element "category" with attribute "@xml:id" and value "CustomZone" incomplete;
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/CustomZone/CustomZone.md'">Element "category" with attribute "@xml:id" and value "CustomZone" incomplete;
                     missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/CustomZone/CustomZone.md".</sch:assert>
                 </sch:rule>
@@ -389,9 +369,7 @@
                   <sch:assert test="./tei:title/text()='DamageZone'">Element "category" with
                     attribute "@xml:id" and value "DamageZone" incomplete ; missing required element
                     "title" with content "DamageZone".</sch:assert>
-                  <sch:assert
-                    test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DamageZone/DamageZone.md'"
-                    >Element "category" with attribute "@xml:id" and value "DamageZone" incomplete;
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DamageZone/DamageZone.md'">Element "category" with attribute "@xml:id" and value "DamageZone" incomplete;
                     missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/DamageZone/DamageZone.md".</sch:assert>
                 </sch:rule>
@@ -404,9 +382,7 @@
                     "category" with attribute "@xml:id" and value "DigitizationArtefactZone"
                     incomplete ; missing required element "title" with content
                     "DigitizationArtefactZone".</sch:assert>
-                  <sch:assert
-                    test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DigitizationArtefactZone/DigitizationArtefactZone.md'"
-                    >Element "category" with attribute "@xml:id" and value
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DigitizationArtefactZone/DigitizationArtefactZone.md'">Element "category" with attribute "@xml:id" and value
                     "DigitizationArtefactZone" incomplete; missing required element "ptr" with
                     attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/DigitizationArtefactZone/DigitizationArtefactZone.md".</sch:assert>
@@ -419,9 +395,7 @@
                   <sch:assert test="./tei:title/text()='DropCapitalZone'">Element "category" with
                     attribute "@xml:id" and value "DropCapitalZone" incomplete ; missing required
                     element "title" with content "DropCapitalZone".</sch:assert>
-                  <sch:assert
-                    test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DropCapitalZone/DropCapitalZone.md'"
-                    >Element "category" with attribute "@xml:id" and value "DropCapitalZone"
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DropCapitalZone/DropCapitalZone.md'">Element "category" with attribute "@xml:id" and value "DropCapitalZone"
                     incomplete; missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/DropCapitalZone/DropCapitalZone.md".</sch:assert>
                 </sch:rule>
@@ -433,9 +407,7 @@
                   <sch:assert test="./tei:title/text()='GraphicZone'">Element "category" with
                     attribute "@xml:id" and value "GraphicZone" incomplete ; missing required
                     element "title" with content "GraphicZone".</sch:assert>
-                  <sch:assert
-                    test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/GraphicZone/GraphicZone.md'"
-                    >Element "category" with attribute "@xml:id" and value "GraphicZone" incomplete;
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/GraphicZone/GraphicZone.md'">Element "category" with attribute "@xml:id" and value "GraphicZone" incomplete;
                     missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/GraphicZone/GraphicZone.md".</sch:assert>
                 </sch:rule>
@@ -447,9 +419,7 @@
                   <sch:assert test="./tei:title/text()='DefaultLine'">Element "category" with
                     attribute "@xml:id" and value "DefaultLine" incomplete; missing required element
                     "title" with content "DefaultLine".</sch:assert>
-                  <sch:assert
-                    test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/lines/DefaultLine/DefaultLine.md'"
-                    >Element "category" with attribute "@xml:id" and value "DefaultLine" incomplete;
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/lines/DefaultLine/DefaultLine.md'">Element "category" with attribute "@xml:id" and value "DefaultLine" incomplete;
                     missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/lines/Default/Default.md".</sch:assert>
                 </sch:rule>
@@ -519,13 +489,7 @@
             </attList>
           </elementSpec>
 
-          <elementSpec ident="path" mode="change">
-            <attList>
-              <attDef ident="xml:id" mode="change" usage="req"/>
-              <attDef ident="type" mode="change" usage="req"/>
-              <attDef ident="points" mode="change" usage="req"/>
-            </attList>
-          </elementSpec>
+          <elementSpec ident="path" mode="delete"/>
         </schemaSpec>
 
       </div>

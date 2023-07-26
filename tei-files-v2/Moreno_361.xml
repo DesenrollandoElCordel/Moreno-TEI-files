@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_361">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Romance admirable que refiere la vanidad del mundo y sus engaños, todo por
+               extenso</title>
+            <respStmt>
+               <name>Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Romance admirable, que refiere la vanidad del mundo
+                     y sus engaños, todo por extenso. noticiando cuanto acaese en todos los oficios,
+                     y estados, y los daños, que re: sultan por causa del interes en los
+                     matrimonios, y demaás tralos: como lodo lo verá el curioso, con otras muchas
+                     cosas, que llaman la atencion de todo Fiel Cristiano, para que lea este
+                     papel.</title>
+                  <title type="titulo_breve">Romance admirable, que refiere la vanidad del mundo y
+                     sus engaños, todo por extenso.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5069707</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 393</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_361_1.xml"
+                              facs="fedora_ug8108628/340,223,1025,641/100,/0/default.jpg"
+                              >grabado_m_361_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q916">
+                  <placeName key="Angola">Angola</placeName>
+                  <location>
+                     <geo>-12.35 17.35</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q220">
+                  <placeName key="Roma">Roma</placeName>
+                  <location>
+                     <geo>41.893055555556 12.482777777778</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104043/manifest">
+      <graphic url="fedora_ug8108628/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_361_1.jpeg" facs="fedora_ug8108628/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 393</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">ROMANCE ADMIRABLE,</hi>
+                  <lb/>QUE REFIERE <lb/>LA VANIDAD DEL MUNDO Y SUS ENGIÑOS, <lb/>TODO POR EXTENSO. </head>
+               <head rend="cursiva" type="subtitulo">
+                  <lb/>noticiando cuanto acaese en todos los oficios, y estados, y los daños, que
+                  re: <lb/>sultan por causa del interes en los matrimonios, y demaás tralos: como
+                  lodo <lb/>lo verá el curioso, con otras muchas cosas, que llaman la atencion de
+                  todo <lb/>Fiel Cristiano, para que lea este papel. </head>
+
+               <l rend="indent">Supuesto, noble auditorio,</l>
+               <l>que en empresa tan heroica</l>
+               <l>se vé mi pluma empeñada,</l>
+               <l>y la Musa geñerosa,</l>
+               <l>y con el plectro elocuente,</l>
+               <l>buril que le perfecciona</l>
+               <l>la Castalia fuente mia,</l>
+               <l>no es la fingida Elicona,</l>
+               <l>que á el acento de mi lira</l>
+               <l>cesará la voladora,</l>
+               <l>el caballo, que con alas</l>
+               <l>nació de la sangre roja</l>
+               <l>de Medusa, cuyo pié</l>
+               <l>abrió la Pegafla boca</l>
+               <l>del nectar, y la ambrosía,</l>
+               <l>que á los ingenios corona</l>
+               <l>con la pacifica oliva</l>
+               <l>Minerva, triunfante Diosa;</l>
+               <l>y pues de todó el Parnaso</l>
+               <l>me asiste luz, y memoria;</l>
+               <l>razon será en la ocasion</l>
+               <l>dár una regla ingeniosa</l>
+               <l>al noble auditorio mio</l>
+               <l>para que á muy poca costa</l>
+               <l>sepan, si quieren saber</l>
+               <l>que á mí muy poco me importa,</l>
+               <l>ter tan engañado el mundo</l>
+               <l>y tan necio, que blasona</l>
+               <l>el ignorante de sabio,</l>
+               <l>por andar todo á la contra,</l>
+               <l>como el Filósofo Griego;</l>
+               <l>que el gran Alejandro abona,</l>
+
+               <pb n="2" source="Moreno_361_2.jpeg" facs="fedora_ug8103837/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>cada cual sigue su rambo,</l>
+               <l>pues lo que engeñá, decora</l>
+               <l>la universidad del mundo,</l>
+               <l>pone él primero la boja</l>
+               <l>del amor propio, ignorancia,</l>
+               <l>ceguedad con vanagloria,</l>
+               <l>ván repasando esta regla</l>
+               <l>innumerables personas:</l>
+               <l>pasa un parlero elocuente</l>
+               <l>por hombre de gran memoria;</l>
+               <l>el temeron, por valiente,</l>
+               <l>de un rigido, un justo forma,</l>
+               <l>el lascivo, por gustoso,</l>
+               <l>la mentira, es ingeniosa,</l>
+               <l>la satira, entretenida,</l>
+               <l>la humildad, bajeza boba,</l>
+               <l>pundonor es la venganza,</l>
+               <l>la alabanza es la lisonja,.</l>
+               <l>la cautela, es yá prudencia,</l>
+               <l>ciencia, la Arte artificiosa,</l>
+               <l>santidad, la hipocresía, </l>
+               <l>el silencio, simple cosa</l>
+               <l>el valor, gran arrogancia;</l>
+               <l>el vicio, gala vistosa,</l>
+               <l>el rico pasa por noble,</l>
+               <l>aunque naciera en <name>Angola</name>;</l>
+               <l>solo el pobre viene á ser</l>
+               <l>de todo el mundo la escoria:</l>
+               <l>y el que en aquesta cartilla</l>
+               <l>no repasa bien la hoja</l>
+               <l>es en el mundo un estorvo</l>
+               <l>una fantasma asombrosa,</l>
+               <l>y con tan falso juicio</l>
+               <l>colorea la lisonja,</l>
+               <l>que ofender á Dios es uso:</l>
+               <l>y prosigue de está forma:?</l>
+               <l>la culpa dá por disculpá</l>
+               <l>de que el mundo la ocasiona,</l>
+               <l>pues todas las vanidades</l>
+               <l>de pompas, galas, y joyas;</l>
+               <l>cuanto pide la codicia</l>
+               <l>tanto el interés le otorga,</l>
+               <l>y de esta suerte se vé</l>
+               <l>hoy perdida <name>España</name> toda;</l>
+               <l>aun la Católica Fé</l>
+               <l>titubea de tal fórma,</l>
+               <l>que cada cual de por sí</l>
+               <l>viene á ser un idiota:</l>
+               <l>yá no hay mas Dios que es el gusto,</l>
+               <l>pues en él solo se adora,</l>
+               <l>el gloton tiene en el vientre</l>
+               <l>el idolo de sus glorias,</l>
+               <l>el loco vano en las galas,</l>
+               <l>el avariento en la bolsa,</l>
+               <l>el logrero en sus empleos,</l>
+               <l>idolatra en lo que logra</l>
+               <l>y él enamorado tiene</l>
+               <l>por Dios la ninfa que adora,</l>
+               <l>el Juez por el interés</l>
+               <l>hace injusticia notoria,</l>
+               <l>y el Abogado en sus pleitos</l>
+               <l>con nuevas leyes aboga,</l>
+               <l>el Escribano en su oficio</l>
+               <l>se mantiene á poca costa,</l>
+               <l>el Procurador procura</l>
+               <l>su negocio que le importa:</l>
+               <l>Doctores, y Enterradores</l>
+               <l>todo es una misma cosa,</l>
+               <l>el Cirujano á tirano</l>
+               <l>va diferencia muy poca;</l>
+               <l>el Mercader todo es trampa,</l>
+               <l>el Oficial todo droga,</l>
+               <l>el Usurero engañoso</l>
+               <l>no echa verdad por la boca,</l>
+               <l>el Logrero labrador</l>
+               <l>(que así Virgitio lo nombra)</l>
+               <l>sino logra su interés</l>
+               <l>todo el estipendio corra,</l>
+               <l>como si el pobre tuviera</l>
+               <l>la culpa de su derrota:</l>
+               <l>todo en el mundo es regalo,</l>
+               <l>profanidades pomposas;</l>
+               <l>de todas cuantas colores</l>
+               <l>de grana, y purpura roja,</l>
+               <l>toda es sudor de inocentes.</l>
+               <l>sangre de los pobres toda,</l>
+               <l>triunfa la horrible meotira,</l>
+               <l>la verdad triste, y llorosa,</l>
+               <l>no hay amigo verdadero,</l>
+               <l>sin que el interés se oponga;</l>
+               <l>el rico solo se aplaude,</l>
+               <l>sin haber quien reconozca</l>
+               <l>calidad, ó virtud en el pobre</l>
+               <l>como San Pablo lo nota</l>
+               <l>á su Discípulo amado</l>
+               <l>Timoteo, á quien le implora</l>
+
+               <pb n="3" source="Moreno_361_3.jpeg" facs="fedora_ug8104700/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>tiempo vendrá en que los hombres</l>
+               <l>con cautelas engañosas</l>
+               <l>dén el rostro á la mentira,</l>
+               <l>y á la verdad virtuosa</l>
+               <l>se taparán los oidos,</l>
+               <l>haciendolo todo mofa:</l>
+               <l>Es el siglo que tenemos</l>
+               <l>presente, y vemos ahora</l>
+               <l>la adulacion, el engaño,</l>
+               <l>la necedad perniciosa,</l>
+               <l>la necia murmuracion,</l>
+               <l>la mentira, y la lisonja.</l>
+               <l>Esto el mundo en su cartille</l>
+               <l>pone en la primera hoja,</l>
+               <l>y pasando la segunda</l>
+               <l>de este discurso la obra:</l>
+               <l>perdonen aquí las Damas,</l>
+               <l>que se precian de honorosas,</l>
+               <l>que por ser todas sentencias</l>
+               <l>pasaron por chanza ahora:</l>
+               <l>tiene un Padre de familia,</l>
+               <l>dos, ó tres hijas hermosas,</l>
+               <l>dote, que naturaleza</l>
+               <l>le ofrece á quien Dios le otorga,</l>
+               <l>por engalanar las niñas</l>
+               <l>la simple madre zelosa</l>
+               <l>no hay perendengue en el mundo</l>
+               <l>de guantes, galas, y joyas, </l>
+               <l>zarcillos, y gargantillas,</l>
+               <l>ahujas, petos, colonias,</l>
+               <l>guardainfantes, caderillas,</l>
+               <l>tapalo todo que nombran,</l>
+               <l>y allá vá esta fantasma</l>
+               <l>hecha blanco de mitonas, </l>
+               <l>andando como el cangrejo;</l>
+               <l>por no poder con la ropa,</l>
+               <l>y las mas veces sucede</l>
+               <l>llevar las camisas rotas,</l>
+               <l>porque la gente de punto</l>
+               <l>puso aqueste estilo ahora:</l>
+               <l>á lo interior todo es trampa,</l>
+               <l>y á lo exterior todo es pompa,</l>
+               <l>y el padre de aquestas damas</l>
+               <l>con su peluquin, ó escofia</l>
+               <l>suele llevar en las medias</l>
+               <l>mas puntos que hay en la solfa,</l>
+               <l>por engalanar las niñas,</l>
+               <l>pretendiendo de esta forma.</l>
+               <l>adquirir un novio Indiano</l>
+               <l>que pague toda la costa</l>
+               <l>porque este es el fin primero</l>
+               <l>que tienen en la memoria;</l>
+               <l>cuando apenas la doncella</l>
+               <l>se pone en pié cuando ansiosa</l>
+               <l>le asiste el conocimiento</l>
+               <l>forma un niño de una escoba;</l>
+               <l>pero en llegando á catorce</l>
+               <l>primaveras deleitosas,</l>
+               <l>no hay mas gusto que mirar</l>
+               <l>al galan que la enamora</l>
+               <l>quieren casarse, y no son</l>
+               <l>ni aun para guisar la olla:</l>
+               <l>todas quieren un buen mozo</l>
+               <l>aunque ella sea una mona</l>
+               <l>lindo mancebo, y que tenga</l>
+               <l>mas pelos que una mazorea</l>
+               <l>porque los hombres pelados</l>
+               <l>á estas tales se le antojan</l>
+               <l>Frailes Legos, y no quieren</l>
+               <l>sino que tengan corona,</l>
+               <l> y sino tiene caudal</l>
+               <l>para cebar la pichona;</l>
+               <l>aunque tenga mas virtudes</l>
+               <l>que prodigios hay en <name>Roma</name>,</l>
+               <l>le darán mas calabazas</l>
+               <l>que tomates tiene Rota</l>
+               <l>y al interés de que tiene</l>
+               <l>tan solo una jaca coja</l>
+               <l>le dán á un hombre incapaz</l>
+               <l>una mujer virtuosa,</l>
+               <l>y despues que han celebrado</l>
+               <l>del matrimonio las bodas,</l>
+               <l>rematados ya los gastos</l>
+               <l>del chocolate y la rosca</l>
+               <l>dió el peregil en la frente,</l>
+               <l>porque se apuró la bolsa:</l>
+               <l>ay del salvage engañado,</l>
+               <l>y con la niña se enoja</l>
+               <l>hasta llegar con las manos:</l>
+               <l>con palabras injuriosas,</l>
+               <l>y la mujer que es sentida</l>
+               <l>se vé burlada, y llorosa,</l>
+               <l>dá al demonio el casamiento</l>
+               <l>y aborrece do tal forma</l>
+               <l>y al marido, que no hay modo</l>
+               <l>de que le mire amorosa,</l>
+
+               <pb n="4" source="Moreno_361_4.jpeg" facs="fedora_ug8108253/full/full/0/default.jpg"/>
+
+               <l>y de aquí lo que sucede:</l>
+               <l>es una injuria afrentosa</l>
+               <l>para el pádre, y para el hijó,</l>
+               <l>para Dios, y pára tóda</l>
+               <l>la familia desgráciada,</l>
+               <l>que este veneno le toca.</l>
+               <l>¿Y quién es la causa de ello?</l>
+               <l>dirán los padres ahora;</l>
+               <l>O mal haya el inferés,</l>
+               <l>y la codicia ambiciosa,</l>
+               <l>puesto que por él perdemos</l>
+               <l>la mas estimada joya </l>
+               <l>de innumerable vafór,</l>
+               <l>que es el honor, y la honra.</l>
+               <l>Alerta, padres, aleria,</l>
+               <l>abrir los ojos; señoras;</l>
+               <l>y mirad cuando os casais,</l>
+               <l>que hay derechós, ó joróbas:</l>
+               <l>pues de tales matrimonios;</l>
+               <l>siendo el interés ladorma,</l>
+               <l>salió la generacion:</l>
+               <l>como el autor de la obra.</l>
+               <l>Así el mundo en insolencias</l>
+               <l>cada vez mas se remonta,</l>
+               <l>siendo lo que nos enseña</l>
+               <l>maldades, vicios, deshonras</l>
+               <l>adulaciones, y afrentas,</l>
+               <l>injurias superticiosas,</l>
+               <l>necedades, iguorancias,</l>
+               <l>burlas, mentiras, lisonjas,</l>
+               <l>calumnias, hipocresías,</l>
+               <l>soberbia, ambiciones, pompas.</l>
+               <l>y todo lo vá guiando</l>
+               <l>el interés, de tal forma,</l>
+               <l>que el que¿menos se acelera</l>
+               <l>vá mas veloz, que uná Onza,</l>
+               <l>hasta dár en un abismo</l>
+               <l>de penas, y dde congojas</l>
+               <l>porque estos así vivieron</l>
+               <l>sin Rey, sin lúz, y sin sombra</l>
+               <l>llevados del interés</l>
+               <l>y la codicia ambiciosa,</l>
+               <l>por lo que en profanidades</l>
+               <l>pompas, y galas vistosas</l>
+               <l>fuera mas bien emplearlo</l>
+               <l>en una humilde limosna</l>
+               <l>con lo cual alcanzarian</l>
+               <l>el Cielo á muy poca costa</l>
+               <l>donde gozarán de Dios.</l>
+               <l>en su presencia dichosa,</l>
+               <l>vida, amor, consuelo, y bienes,</l>
+               <l>alegría, gozo, y Gloria,</l>
+               <l>con todo cuanto en su Córte</l>
+               <l>el alto Dios atesora</l>
+               <l>para el, que sabe vivir</l>
+               <l>en paz, union y concordia,</l>
+               <l>guardando nuestra Ley Santa,</l>
+               <l>los preceptos que le abonan.</l>
+               <l>Y ahora pide a, mi auditorio</l>
+               <l>con atencion generosa</l>
+               <l>Miguel Jimenez Montero</l>
+               <l>suplicando de esta forma</l>
+               <l>un victor, que solo á Dios</l>
+               <l>humilde perdon le implora.</l>
+
+               <trailer rend="negrita">Fin.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>Carmona:-Imp. de D, José M. Moreno, Madre de Dios, núm. 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

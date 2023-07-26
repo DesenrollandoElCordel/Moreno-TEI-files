@@ -1,0 +1,758 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_311">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Don Fernando del Pulgar. Relación verdadera</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Don Fernando del Pulgar. Relacion verdadera de los
+                     arrestos y valentias de este esforzado Caballero, que puso en la Mezquita de
+                     Granada, cuando era de Moros, el AVE-MARIA.</title>
+                  <title type="titulo_breve">Don Fernando del Pulgar. Relacion verdadera</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1861-01-01">1861</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6483465</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 336</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>El triunfo del Ave-María. Garcilaso de la Vega. Segunda parte.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_311_1.xml"
+                              facs="fedora_ug8110283/420,282,914,878/100,/0/default.jpg"
+                              >grabado_m_311_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="7" corresp="Q615722">
+                  <placeName key="Santa_Fe">Santa Fe</placeName>
+                  <location>
+                     <geo>37.189444444444 -3.7180555555556</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q1116489">
+                  <placeName key="Vega_de_Granada">Vega De Granada</placeName>
+                  <location>
+                     <geo>37.1875 -3.61083</geo>
+                  </location>
+               </place>
+               <place n="9" corresp="Q8810">
+                  <placeName key="Granada">Granada</placeName>
+                  <location>
+                     <geo>37.178055555556 -3.6008333333333</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q17760">
+                  <placeName key="Genil">Genil</placeName>
+                  <location>
+                     <geo>37.69352 -5.316539</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q104900518">
+                  <placeName key="Zuriza">Zuriza</placeName>
+                  <location>
+                     <geo>42.8643956 -0.81286</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q47476">
+                  <placeName key="Alhambra">Alhambra</placeName>
+                  <location>
+                     <geo>38.8983204 -3.0535507</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q126148">
+                  <placeName key="Tánger">Tánger</placeName>
+                  <location>
+                     <geo>35.776666666666664 -5.803888888888888</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104198/manifest">
+      <graphic url="fedora_ug8110283/full/full/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_311_1.jpeg" facs="fedora_ug8110283/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 356.</fw>
+
+               <head rend="negrita" type="primer_titulo">DON FERÑANDO DEL PULGAR.</head>
+               <head type="subtitulo">
+                  <lb/>RELACION VERDADERA <lb/>de los árrestos y valentias de este esforzado
+                  <lb/>Caballero, que puso en la Mezquita de Granada, <lb/>cuando era de Moros, el
+                  AVE-MARIA. </head>
+
+               <div>
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent"><name>Santa Fé</name>, qué bien pareces</l>
+                  <l>en la <name><name>Vega</name> de <name>Granada</name></name>,</l>
+                  <l>toda cercada de Muros,</l>
+                  <l>de torres muy bien labradas,</l>
+                  <l>una caba á la redonda,</l>
+                  <l>que toda te cerca, y baña.</l>
+                  <l>Te fundó el Rey Don Fernando</l>
+                  <l>Doña Isabel en compaña,</l>
+
+                  <pb n="2" source="Moreno_311_2.jpeg"
+                     facs="fedora_ug8109835/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>y otros muchos Caballeros</l>
+                  <l>de la nobleza de <name>España</name>.</l>
+                  <l>Con el secreto silencio,</l>
+                  <l>y resplandor de Diana,</l>
+                  <l>una noche que hacia</l>
+                  <l>muy resplandeciente y clara,</l>
+                  <l>noche que huelgan los Moros</l>
+                  <l>y la estiman mas que al álma,</l>
+                  <l>mas que al Sábado el judio,</l>
+                  <l>mas que el Cristiano la Pascua,</l>
+                  <l>del venturoso Bautista,</l>
+                  <l>á quien la Iglesia señala</l>
+                  <l>por uno de los mayores,</l>
+                  <l>que en los nacidos se halla.</l>
+                  <l>Y aquesta noche los Moros</l>
+                  <l>hacen grande ruido y zambra,</l>
+                  <l>no en la <name>Vega</name>, ni en <name>Geníl</name>,</l>
+                  <l>como era su antigua usanza,</l>
+                  <l>porque de temor las fiestas</l>
+                  <l>hacen á puertas cerradas.</l>
+                  <l>Y luego el siguiente dia</l>
+                  <l>una zuriza gallarda</l>
+                  <l>de Moros, y de Cristianos,</l>
+                  <l>toros, y juegos de cañas.</l>
+                  <l>Parte Fernando Pulgar</l>
+                  <l>desde <name>Santa Fé</name> á <name>Granada</name></l>
+                  <l>en una yegua por posta,</l>
+                  <l>tres horas antes del Alva:</l>
+                  <l>y aunque vá de <name>Santa Fé</name>,</l>
+                  <l>nunca de la Fé se aparta.</l>
+                  <l>Las señas que Pulgar lleva</l>
+                  <l>las diré si me acordaba,</l>
+                  <l>Una Jacerina corta</l>
+                  <l>fina y de tan fina maya,</l>
+                  <l>que cabe dentro de un puño</l>
+                  <l>de menuda, y de liviana;</l>
+                  <l>lleva bordado en los tiros</l>
+                  <l>dos Serpientes cara á cara,</l>
+                  <l>que parece que estan vivas</l>
+                  <l>y á los vivos amenazan.</l>
+                  <l>Lleva un coleto de ante,</l>
+                  <l>que á la nieve se compara;</l>
+                  <l>llevaba un boemio verde,</l>
+                  <l>y fajas con cuátro mangas,</l>
+                  <l>las cortas bien guarnecidas,</l>
+                  <l>y acuchilladas las largas.</l>
+                  <l>Un sombrero á lo frances,</l>
+                  <l>acairelado con plata,</l>
+                  <l>entre cairel, y cairel,</l>
+                  <l>perlas, y aljofar sembrada:</l>
+                  <l>penacho largo, y caido</l>
+                  <l>entre la copa, y el ala.</l>
+                  <l>Por cintillo una cadena,</l>
+                  <l>por diamante una medalla,</l>
+                  <l>una cadena en el caello</l>
+                  <l>con una cruz de esmeraldas,</l>
+                  <l>en un brazo recogida,</l>
+                  <l>para que estorvo no haga.</l>
+                  <l>Pendiente de la pretina</l>
+                  <l>llevaba una rica daga,</l>
+                  <l>la espada no hay que pedir,</l>
+                  <l>sino el brazo que la manda,</l>
+                  <l>que ha derramado con ella</l>
+                  <l>tanta, y mas sangre pagáná,</l>
+                  <l>que otra clara, ni joyosa,</l>
+                  <l>ni tizona, ni cofada.</l>
+                  <l>Lleva unas blancas botillas,</l>
+                  <l>que rebientan de apretadas,</l>
+                  <l>la de la pierna derecha</l>
+                  <l>hasta el tobillo airugada</l>
+                  <l>con la rosca de la liga</l>
+                  <l>lo mas de la pierna tapa;</l>
+                  <l>lleva un zapatillo blanco,</l>
+                  <l>bordado de oro yplata;</l>
+                  <l>y apenas llega á dar vista</l>
+                  <l>á la invencible <name>Granada</name>,</l>
+                  <l>apeóse de láyegüa::..</l>
+                  <l>que por do quiera se vaya,</l>
+                  <l>confiado en su valor,</l>
+                  <l>con que todo lo allanaba.</l>
+                  <l>No vá por la puerta Elvira,</l>
+                  <l>que sabe que está cerrada,</l>
+                  <l>vá por lá puerta deFrastro:</l>
+                  <l>halló dormida la Guardia</l>
+                  <l>quiso Dios y su fortuná;,</l>
+                  <l>que Darro le diera ófitrada</l>
+
+                  <pb n="3" source="Moreno_311_3.jpeg"
+                     facs="fedora_ug8104822/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>por el hueco de la puente</l>
+                  <l>hasta llegar á la escala,</l>
+                  <l>que á veces Dios á los suyos</l>
+                  <l>los cubre con telarañas.</l>
+                  <l>Sube por la <name>Herreria</name>,</l>
+                  <l>cruzando la Vivarrambla,</l>
+                  <l>sube, por el Zacatin,</l>
+                  <l>con el Rey chico encontraba,</l>
+                  <l>el cual venia de ronda,</l>
+                  <l>porque la Ciudad celaba:</l>
+                  <l>El Rey le dice: qué gente?</l>
+                  <l>Y él sin turbarse palabra.</l>
+                  <l>le dico: soy Reduan,</l>
+                  <l>que estoy de fiesta mañana,</l>
+                  <l>porque hago en la <name>Zuriza</name></l>
+                  <l>una figura gallarda,</l>
+                  <l>Qué figura, dijo el Rey, </l>
+                  <l>no pensando que le engaña?</l>
+                  <l>Hago á Fernando Pulgar,</l>
+                  <l>le parezco hasta en el habla,</l>
+                  <l>y este vestido que traigo</l>
+                  <l>me lo hizo una Cristiana,</l>
+                  <l>que parece ser el mismo</l>
+                  <l>que Pulgar se viste, y calza:</l>
+                  <l>quedó el Rey agradecido</l>
+                  <l>de su bizarria, y gala,</l>
+                  <l>y mandó darle un caballo</l>
+                  <l>para que en la fiesta salga:</l>
+                  <l>dando vuelta á la Ciudad,</l>
+                  <l>se bajó á la Vivarrambla,</l>
+                  <l>y vido hecho un Castillo</l>
+                  <l>con artificio de tablas,</l>
+                  <l>y su caba á la redonda,</l>
+                  <l>que lecircunda, y le baña.</l>
+                  <l>Preguntó en Algaravia:</l>
+                  <l>cómo á el Castillo le llaman?</l>
+                  <l>Le dicen, que <name>Santa Fé</name>.</l>
+                  <l>que han de rendir, y ganarla.</l>
+                  <l>Rióse de esto Pulgar,</l>
+                  <l>y dice: perra canalla,</l>
+                  <l>no os vereis en ese gozo,</l>
+                  <l>i Dios me guarda mañana,</l>
+                  <l>Estando en estas razones</l>
+                  <l>vió un Moro con una hacha,</l>
+                  <l>la cual hacha le quitó</l>
+                  <l>y tan gran golpe le daba,</l>
+                  <l>que lo ha dejado por muerto</l>
+                  <l>tendido junto á la caba,</l>
+                  <l>y con el hacha encendida</l>
+                  <l>pegaba fuego á las casas.</l>
+                  <l>Unos dicen: Fuego, fuego,</l>
+                  <l>otros dicen: Agua, agua,</l>
+                  <l>otros dicen, que Pulgar</l>
+                  <l>está dentro de <name>Granada</name></l>
+                  <l>y Pulgar se anda entre ellos</l>
+                  <l>lleno de cólera, y saña.</l>
+                  <l>Se fué para la Mezquita,</l>
+                  <l>hallóla desocupada,</l>
+                  <l>y en lo mas alto que pudo,</l>
+                  <l>á donde su brazo alcanza,</l>
+                  <l>dejó el pergamíno escrito</l>
+                  <l>de la que es llena de gracia,</l>
+                  <l>que por mas seguridad</l>
+                  <l>dentro de su pecho guardaba.</l>
+                  <l>Salióse de la Mezquita,</l>
+                  <l>y entre sí consideraba</l>
+                  <l>de cobrar aquel caballo,</l>
+                  <l>del Rey no perder la manda.</l>
+                  <l>El Rey habia mandado</l>
+                  <l>á los.criados de casa</l>
+                  <l>que le diesen á escoger</l>
+                  <l>el caballo que gustara:</l>
+                  <l>escogió un caballo blanco,</l>
+                  <l>que á la nieve se compara,</l>
+                  <l>enjaezado de oro</l>
+                  <l>las herraduras de plata,</l>
+                  <l>caballo que en treinta pasos</l>
+                  <l>corre, galopea y para:</l>
+                  <l>se bajó á la plaza nueva,</l>
+                  <l>desde allí á la Vivarrambla.</l>
+                  <l>Los Moros habian hecho</l>
+                  <l>un Rey Fernando de paja,</l>
+                  <l>y un Moro hecho de bulto,</l>
+                  <l>que una azagalla le pasa:</l>
+                  <l>Aqui se enojó Pulgar</l>
+                  <l>y como perro que rabia</l>
+
+                  <pb n="4" source="Moreno_311_4.jpeg"
+                     facs="fedora_ug8110012/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>dejó caer la marlota,</l>
+                  <l>metiendo mano á la espada,</l>
+                  <l>al que no mata atropella,</l>
+                  <l>al que no atropella mata.</l>
+                  <l>Al que delante se pone</l>
+                  <l>de parte á parte lo pasa;</l>
+                  <l>todo es grita, todo es voces, </l>
+                  <l>todo es bulla, y algazara;</l>
+                  <l>unos huyen de temor</l>
+                  <l>otros de miedo se escapan.</l>
+                  <l>Los padres buscan los hijos</l>
+                  <l>los esconden en las casas;</l>
+                  <l>le lleván la nueva al Rey</l>
+                  <l>que está dentro de la <name>Alhambra</name>:</l>
+                  <l>cuando el Rey bajó con gente</l>
+                  <l>Pulgar ya en <name>Santa Fé</name> estaba.</l>
+
+                  <trailer type="negrita">
+                     <lb/>FIN <lb/>de la primera parte. </trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_311_5.jpeg"
+                     facs="fedora_ug8108753/full/full/0/default.jpg"/>
+
+                  <head type="titulo_parte">
+                     <hi rend="negrita"><lb/>EL TRIUNFO <lb/>DEL AVE-MARÍA.</hi>
+                     <lb/><hi rend="cursiva">Garcilaso de la Vega.</hi>
+                  </head>
+                  <head type="subtitulo_parte">SEGUNDA PARTE.</head>
+
+                  <l rend="indent">Despues de haber acabado</l>
+                  <l>con alegria bastante</l>
+                  <l>muchos saraos y zambras,</l>
+                  <l>mandó el Rey Chico se enlazen</l>
+                  <l>fiestas en la Vivarrambla;</l>
+                  <l>pero sus glorias abate</l>
+                  <l>de un Campeon la arrogancia;,</l>
+                  <l>y el esfuerzo vigilante.</l>
+                  <l>Este es Fernando Pulgar,</l>
+                  <l>que valiente y arrogante</l>
+                  <l>fijó sobre la Mezquita</l>
+                  <l>con resplandeciente esmalte</l>
+                  <l>el Ave llena de gracia,</l>
+                  <l>sin que su vista acobarde,</l>
+                  <l>estando el Real á la mira</l>
+                  <l>de <name>Granada</name> no distante</l>
+                  <l>del Católico Fernando,</l>
+                  <l>cuyo acero tan cortante</l>
+                  <l>fué azote de la Morisma,</l>
+                  <l>y de la <name>España</name> realce.</l>
+                  <l>Toda la Ciudad se altera,</l>
+                  <l>dando alaridos muy grandes;</l>
+                  <l>todos se quejan al Rey,</l>
+                  <l>que los Guardas castigase;</l>
+                  <l>pues si ellos no se durmieran,</l>
+                  <l>Pulgar no lograra el lance.</l>
+                  <l>Todos entran en acuerdo,</l>
+                  <l>y de la consulta sale,</l>
+                  <l>salga luego á la demanda</l>
+                  <l>el valiente Moro Tarfe.</l>
+                  <l>El gallardo Moro acepta,</l>
+                  <l>y armado de gran corage</l>
+                  <l>en un caballo Andaluz,</l>
+                  <l>una fuerte adarga bate</l>
+                  <l>con una letra que dice:</l>
+                  <l>salga el atrevido infame.</l>
+                  <l><choice>
+                        <sic>Uua</sic>
+                        <corr>Una</corr>
+                     </choice> gruesa lanza empuña,</l>
+                  <l>que la heredó de su Padre.</l>
+                  <l>Iba tan galan el Moro,</l>
+                  <l>que los corazones parte,</l>
+                  <l>por donde el fresco Genil</l>
+                  <l>todas sus aguas esparce</l>
+                  <l>y mirando á <name>Santa Fé</name></l>
+                  <l>como á sus muros llegase,</l>
+                  <l>alzándose la visera</l>
+                  <l>de esta suerte habló arrogante:</l>
+                  <l>cual será aquel Caballero,</l>
+                  <l>vista arnés, ó calce guanté,</l>
+                  <l>que anoche en <name>Granada</name> entró</l>
+                  <l>con industrias intrazables,</l>
+                  <l>como lobo cauteloso</l>
+                  <l>que deja dormir los canes</l>
+                  <l>como á los rayos del Sol</l>
+                  <l>cuando alumbra vigilante.</l>
+                  <l>Ese que llamais Pulgar::</l>
+                  <l>mucho debe á sus pulgares,</l>
+                  <l>pues con ellos fijar pudo</l>
+                  <l>sobre las conchas de arambre</l>
+                  <l>de la dorada Mezquita</l>
+                  <l>el pergamino que trae</l>
+
+                  <pb n="6" source="Moreno_311_6.jpeg"
+                     facs="fedora_ug8104953/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>la cola de mi caballo:</l>
+                  <l>no fué accion tan arrogante,</l>
+                  <l>que un cauteloso y aleve,</l>
+                  <l>fijara en plazas y calles</l>
+                  <l>libelos infamatorios,</l>
+                  <l>mas es hecho de cobardes.</l>
+                  <l>Pero sea lo que fuere,</l>
+                  <l><name>Granada</name> que el hecho sabe</l>
+                  <l>por agravio lo recibe.</l>
+                  <l>y lo tiene por ultraje,</l>
+                  <l>y á todos vengo á deciros</l>
+                  <l>en este libre lenguage</l>
+                  <l>razones que á todos pique, </l>
+                  <l>injurias que á todos cause.</l>
+                  <l>A todos os reto y trato</l>
+                  <l>de viles y de cobardes,</l>
+                  <l>Salga Pulgar, pues que supo</l>
+                  <l>fijar en <name>Granada</name> el Ave,</l>
+                  <l>á ver si sabe librarla</l>
+                  <l>de este Nebli que la trae.</l>
+                  <l>Salga ese gran Capitan,</l>
+                  <l>los Córdobas y Aguilares,</l>
+                  <l>porque vean divididos</l>
+                  <l>sus escudos por el aire.</l>
+                  <l>Salga si ha quedado alguno</l>
+                  <l>de los Manriques, Guzmanes,</l>
+                  <l>que de la sangre se precian,</l>
+                  <l>salgan todos al combate;</l>
+                  <l>y si acaso á todos juntos</l>
+                  <l>ánimo y valor faltase,</l>
+                  <l>salga el mismo Rey Fernando,</l>
+                  <l>de ánimo y valor se arme,</l>
+                  <l>porque su Isabel lo vea,</l>
+                  <l>si gusta de ver combates,</l>
+                  <l>Cobrad vuestra Ave-Maria,</l>
+                  <l>Cristianos viles, cobardes,</l>
+                  <l>que aquí en la <name>Vega</name> os espero</l>
+                  <l>hasta las seis de la tarde;</l>
+                  <l>y revolviendo el caballo,</l>
+                  <l>ligero á la Yega parte.</l>
+                  <l>En corbetas y escarceos</l>
+                  <l>mil escaramuzas hace</l>
+                  <l>el bruto, que con las manos</l>
+                  <l>la cincha quiere quitarse,</l>
+                  <l>siendo un monte que le oprime</l>
+                  <l>el gallardo Moro Tarfe,</l>
+                  <l>vuelve, y revuelve mil veces,</l>
+                  <l>haciendo el valor alarde.</l>
+                  <l>Todo el Real se ha alborotado</l>
+                  <l>en ver quien ha de tocarle</l>
+                  <l>empresa de tanto empeño,</l>
+                  <l>hazaña de tanto esmalte,</l>
+                  <l>Indeciso está Fernando,</l>
+                  <l>pesaroso de que falte</l>
+                  <l>Pulgar en esta ocasion,</l>
+                  <l>que en <name>Santa Fé</name> no se halle.</l>
+                  <l>Llamando á sus Caballeros, </l>
+                  <l>todos vienen vigilantes</l>
+                  <l>y el famoso Garcilaso</l>
+                  <l>se ha echado á sus plantas Reales</l>
+                  <l>mozo gallardo y valiente</l>
+                  <l>y de generosa sangre;</l>
+                  <l>mas tan jóven en sus años,</l>
+                  <l>que diez y siete no hace</l>
+                  <l>y le dice gran Señor, </l>
+                  <l>si ensalzar quieres mi sangre,</l>
+                  <l>y si premiar mis servicios,</l>
+                  <l>y ganar mis voluntades</l>
+                  <l>dadme, gran Señor licencia</l>
+                  <l>para salir al combate,</l>
+                  <l>verás eclipsar la Luna</l>
+                  <l>del que ves tan arrogante.</l>
+                  <l>No en verme jóven, Señor</l>
+                  <l>tus esperanzas desmayen,</l>
+                  <l>porque el valor heredado</l>
+                  <l>no necesita de edades,</l>
+                  <l>pues basta estar á tus rayos,</l>
+                  <l>como el Sol cuando renace,</l>
+                  <l>luz de las demas antorchas</l>
+                  <l>brilla en luces luminantes;</l>
+                  <l>pues aunque mi Padre es muerto</l>
+                  <l>en mi su valor renace.</l>
+                  <l>Admirado quedó el Rey</l>
+                  <l>y casi quiso abrazarle,</l>
+                  <l>mas volviendo en sí prudente</l>
+                  <l>refrenó su amor constante.</l>
+
+                  <pb n="7" source="Moreno_311_7.jpeg"
+                     facs="fedora_ug8109162/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>Dice: Garcilaso amigo,</l>
+                  <l>muy digno es de celebrarse</l>
+                  <l>vuestro valor; mas sois mozo</l>
+                  <l>pará una empresa tan grande,</l>
+                  <l>que esta ocasion pide mas</l>
+                  <l>esperiencia que corage.</l>
+                  <l>Quiso replicar, y el Rey</l>
+                  <l>lo dejó diciendo: baste.</l>
+                  <l>Toda la region del fuego</l>
+                  <l>en su pecho le dió cancer,</l>
+                  <l>vierten veneno sus ojos,</l>
+                  <l>y por sus dos lábios salen</l>
+                  <l>un tósigo en cada asiento,</l>
+                  <l>en cada suspiro un aspid.</l>
+                  <l>Salió del real irritado</l>
+                  <l>donde sus caballos pasen</l>
+                  <l>la llerva, y á sus criados</l>
+                  <l>mandó al puntó que lo armen</l>
+                  <l>de finas armas bruñidas,</l>
+                  <l>manoplas en vez de guantes,</l>
+                  <l>morrion clavado de acero;</l>
+                  <l>con cuatro negros plumages,</l>
+                  <l>que su tristezas publiquen,</l>
+                  <l>ó que sus ecsequias canten,</l>
+                  <l>en un caballo Andaluz</l>
+                  <l>hijo natural del aire</l>
+                  <l>tizon con alma de fuego,</l>
+                  <l>bruto con aliento de ave,</l>
+                  <l>cuyo volcan, cuya brasa</l>
+                  <l>se muestra por los hijares</l>
+                  <l>siendo un monte en cada choque, </l>
+                  <l>siendo un muro en cada cabe,</l>
+                  <l>en cada encuentro estremece</l>
+                  <l>á la legítima madre.</l>
+                  <l>Una fuerte adarga empuña,</l>
+                  <l>hecha de flamencos antes,</l>
+                  <l>con una letra que dice:</l>
+                  <l>quien se engaña desengañe:</l>
+                  <l>una gruesa lanza empuña,</l>
+                  <l>cuya punta penetrante</l>
+                  <l>se labró al temple del fuego</l>
+                  <l>en las riberas del. <name>Tanger</name>.</l>
+                  <l>Echándose la visera,</l>
+                  <l>porque no quiere que nadie</l>
+                  <l>lo conozca, y que dé cuentá</l>
+                  <l>como sin licencia sale.</l>
+                  <l>Así que descubrió al Moro</l>
+                  <l>batiendo los dos hijares</l>
+                  <l>corre entendiendo que vuela,</l>
+                  <l>vuela entendiendo que parte.</l>
+                  <l>Llegó donde Tarfe estaba,</l>
+                  <l>y despues de saludarle,</l>
+                  <l>le dice: bárbaro Moro,</l>
+                  <l>qué aguardas? Ya está delante</l>
+                  <l>quien te quitará mas vidas</l>
+                  <l>que tú tienes vanidades.</l>
+                  <l>Blasonas de ser Nebli</l>
+                  <l>del Ave, mas te engañaste.</l>
+                  <l>Quién te trajo al precipicio,</l>
+                  <l>donde no podrá librarte</l>
+                  <l>tu valor? Sácalo fuera</l>
+                  <l>de donde osado lo entraste.</l>
+                  <l>Con resolucion gallarda</l>
+                  <l>le atajó el Moro al instante.</l>
+                  <l>Eres Pulgar? Le pregunta.</l>
+                  <l>No soy quien imaginaste,</l>
+                  <l>que si Pulgar te escuchara,</l>
+                  <l>vieras que entre sus pulgares</l>
+                  <l>desbaratabá esos miembros.</l>
+                  <l>que los Moros otanto aplauden.</l>
+                  <l>Uno soy no conocidó,</l>
+                  <l>que en tu vida lía nde eñsayarse</l>
+                  <l>ni he dado horror á <name>Granada</name>,</l>
+                  <l>ni cobré los tafetanes</l>
+                  <l>perdidos que por desprecio</l>
+                  <l>suelen tremolar al aire.</l>
+                  <l>Descúbrete, pues ya ves,</l>
+                  <l>que descubierto me hallaste,</l>
+                  <l>Se alzó Laso la visera,</l>
+                  <l>y asi que lo vido Tarfe,</l>
+                  <l>eres muger? le pregunta.</l>
+                  <l>Si eres Dama no me engañes, </l>
+                  <l>porque mi esfuerzo no llama</l>
+                  <l>muger, ni niño al combate.</l>
+                  <l>Vuélvete engañado jóven,</l>
+                  <l>y agradece mis piedades,</l>
+
+                  <pb n="8" source="Moreno_311_8.jpeg"
+                     facs="fedora_ug8106495/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>que para que esto les cuentes</l>
+                  <l>la vida quiero dejarte.</l>
+                  <l>Enfadado Garcilaso,</l>
+                  <l>apretó los acicates.</l>
+                  <l>tal encuentro le dió al Moro.</l>
+                  <l>con resolucion tan grande,</l>
+                  <l>que la defensa previene</l>
+                  <l>la lanza llegó á enristrarle.</l>
+                  <l>Todo el Real está confuso,</l>
+                  <l>en ver esfuerzos tan grandes</l>
+                  <l>ninguno lo lia echado menos,</l>
+                  <l>mas el valeroso Infante</l>
+                  <l>falseándole en el peto</l>
+                  <l>lo pasó de parte á parte.</l>
+                  <l>Cayó del caballo el Moro,</l>
+                  <l>donde con ánsias mortales</l>
+                  <l>en monumentos de arena</l>
+                  <l>sirvieron á su cadáver.</l>
+                  <l>de tumba la blanca adarga,</l>
+                  <l>de pira el rojo turbanto.</l>
+                  <l>Se desmontó Garcilaso</l>
+                  <l>y desnudando el alfange,</l>
+                  <l>dividió el bárbaro cuello</l>
+                  <l>para que su Rey lo hollase</l>
+                  <l>y postrado de rodillas,</l>
+                  <l>quitó de la cola el. Ave,</l>
+                  <l>y destílando sus ojos</l>
+                  <l>aljofar, le dice: Salve.</l>
+                  <l>intacta Virgen Maria</l>
+                  <l>Pura, limpia y dulce Madre,</l>
+                  <l>Salve, Soberana Aurora,</l>
+                  <l>Salve, Luna sin menguante</l>
+                  <l>Salve, Estrella matutina,</l>
+                  <l>Salve, Astro el mas brillante</l>
+                  <l>Madre del Sol de Justicia</l>
+                  <l>Hija del Eterno Padre</l>
+                  <l>del amor Divina Esposa,</l>
+                  <l>del Cielo puerta admirable,</l>
+                  <l>Salve, Escala de Jacob</l>
+                  <l>Salve, Judit mas constante,</l>
+                  <l>Abigail mas prudente,</l>
+                  <l>y Ester benigna y afable</l>
+                  <l>que coronada de Estrellas</l>
+                  <l>pisas Tronos Célestiales,</l>
+                  <l>recibe el corto trofeo</l>
+                  <l>que ofrezco con humildades</l>
+                  <l>á tu Pura Concepcion:</l>
+                  <l>y con tiernos ademanes</l>
+                  <l>en la punta de la lanza</l>
+                  <l>la puso por Estandarte.</l>
+                  <l>Presentó al Rey y á la Reina.</l>
+                  <l>los despojos militares.</l>
+                  <l>Lo mandó prender el Rey</l>
+                  <l>porque sin licencia sale</l>
+                  <l>mas la Reina cuidadosa</l>
+                  <l>le alcanzó el perdon, y afable</l>
+                  <l>hizo que abrazara al Rey.</l>
+                  <l>y al Rey que á él lo abrazase.</l>
+                  <l>Garcilaso de la <name>Vega</name>.</l>
+                  <l>desde hoy has de llamarte,</l>
+                  <l>porque en la <name>Vega</name> hicísteis</l>
+                  <l>hazaña de tanto alarde.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1861. <lb/>Imprenta de Don José María Moreno, calle de Madre de
+                  Dios, núm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_196">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación burlesca, El Tagardinero de Sevilla</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion burlesca, El Tagardinero de
+                     Sevilla.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1857-01-01">1857</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473318</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 206</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_196_1.xml"
+                              facs="fedora_ug8107678/875,276,511,760/100,/0/default.jpg"
+                              >grabado_m_196_1</item>
+                           <item corresp="grabado_m_196_2.xml"
+                              facs="fedora_ug8107678/256,473,625,563/100,/0/default.jpg"
+                              >grabado_m_196_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q8717">
+                  <placeName key="Sevilla">Sevilla</placeName>
+                  <location>
+                     <geo>37.383333333333 -5.9833333333333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-06" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8109004/manifest">
+      <graphic url="fedora_ug8107678/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_196_1.jpg" facs="fedora_ug8107678/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 206.)</fw>
+
+               <head type="primer_titulo">RELACION BURLESCA, <lb/>EL TAGARDINERO DE SEVILLA. </head>
+
+               <l rend="indent">Ya parece que las dichas</l>
+               <l>penetro y he discurrido,</l>
+               <l>ó ya simple, ó ya ignorante,</l>
+               <l>ya discreto; ya entendido,</l>
+               <l>hoy he salido de pobre,</l>
+               <l>pues he comprado en pollino,</l>
+               <l>un jumento, un animal,</l>
+               <l>si he de decirlo un borrico,</l>
+               <l>ustedes estén atentos</l>
+               <l>que los pensamientos mios</l>
+               <l>ahora he de declararlos;</l>
+               <l>pues segun lo que dirijo,</l>
+               <l>para que todos lo sepan,</l>
+               <l>de esta suerte los publicó.</l>
+               <l>Quiero hacerme recobero;</l>
+               <l>pero no, que es mal oficio,</l>
+               <l>porque si quiebro los huevos,</l>
+               <l>quedo pobre y desvalido.</l>
+               <l>Voy á coger tagardinas;</l>
+               <l>á Dios, ya voy de camino,</l>
+               <l>ya salgo la puerta á fuera,</l>
+               <l>y ya arreo mí borrico,</l>
+               <l>quédense con Dios señores.</l>
+               <l>A Dios amigo Francisco,</l>
+               <l>Has de tardar muchos dias?</l>
+               <l>Los que Dios fuere servido.</l>
+               <l>Salí del lugar al campo,</l>
+               <l>y ejercitando mi oficio,</l>
+
+               <pb n="2" source="Moreno_196_2.jpg" facs="fedora_ug8104651/full/full/0/default.jpg"/>
+
+               <l>cogi tantas tagardinas,</l>
+               <l>espárragos largos, lindos,</l>
+               <l>gordos de aquellos trigueros,</l>
+               <l>y cargué mi jumentillo,</l>
+               <l>yo tambien vine cargado.</l>
+               <l>ola; que no fué de vino,</l>
+               <l>Vine á mi casa, al entrar</l>
+               <l>me encontró un vecino mio,</l>
+               <l>qué hai Francisco que haihermano?</l>
+               <l>Yo le dije; qué hay amigo?</l>
+               <l>Que hay una gran noveda,</l>
+               <l>sabes, se casa Perico</l>
+               <l>con Dionisia, buena moza,</l>
+               <l>que te juro á un cardo, amigo,</l>
+               <l>que no hay en todo el lugar</l>
+               <l>garvo, ni rostro mas lindo.</l>
+               <l>Bien la conoces. Si, y bien.</l>
+               <l>No fué aquella, que se dijo,</l>
+               <l>que tenia un cuando, y como?</l>
+               <l>Calla todo has de decirlo.</l>
+               <l>Pues hombre vamos allá?</l>
+               <l>Lo primero es mi borrico</l>
+               <l>descargarlo y luego iremos,</l>
+               <l>aguarda que en un proviso</l>
+               <l>irémos allá, y verás</l>
+               <l>quizas, lo que nunca has visto.</l>
+               <l>A questa noche es la boda?</l>
+               <l>Si, oyes á que somos venidos?</l>
+               <l>Valientemente hay tajadas,</l>
+               <l>sopaipas, y rico vino.</l>
+               <l>Buen vino hay? Adonde viven?</l>
+               <l>En la calle nueva, amigo.</l>
+               <l>Ea pues bamos cuanto antes;</l>
+               <l>Voto á tal que al borrico</l>
+               <l>no le he quitado la albarda.</l>
+               <l>Aguarda, esperate, amigo,</l>
+               <l>la quitaré en un instante.</l>
+               <l>Pues quitasela al proviso,</l>
+               <l>le dije, vamos ahora.</l>
+               <l>Llegué á la casa, ay Dios mio!</l>
+               <l>Entré dentro quedé absorto,</l>
+               <l>viendo tapises tan ricos,</l>
+               <l>láminas, cuadros, espejos.</l>
+               <l>Válgame el Divino Cristo!</l>
+               <l>Amigo Marcos, qué es esto?</l>
+               <l>es por suerte el Paraiso?</l>
+               <l>Esta es la boda, la boda?</l>
+               <l>La novia cual es, he dicho?</l>
+               <l>Aquella me señalo</l>
+               <l>Jesus tal bellesa miro;</l>
+               <l>tal deidad tengo delante.</l>
+               <l>Cuerpo de Cristo conmigo.</l>
+               <l>Suplicáronme las damas</l>
+               <l>queentre, y me siente un poquito</l>
+               <l>que paresco aficionado,</l>
+               <l>que diga unos versecitos.</l>
+               <l>Yo les dije: Reinas mias,</l>
+               <l>cuando un pobre campusino</l>
+               <l>ha merecido tal dicha?</l>
+               <l>Amígo Marcos, amigo,</l>
+               <l>toma esta llave, y ve ácasa,</l>
+               <l>y mirame aquel borrico,</l>
+               <l>y ven presto, que aquí aguardo,</l>
+               <l>tengo un cuidado excesivo</l>
+               <l>con esta bestia, señoras,</l>
+               <l>que como es el caudal mio,</l>
+               <l>y si lo dejo perder,</l>
+               <l>me hallaré un pobre mendigo.</l>
+               <l>Hace bien mirar por él;</l>
+               <l>mas vaya lo que pedimos.</l>
+               <l>Ea, pues, vaya señoras,</l>
+               <l>ya que el lance me es preciso,</l>
+               <l>y á vista de tantas flores,</l>
+               <l>que prorumpa el labio mio</l>
+               <l>alabanzas, no hago mucho,</l>
+               <l>quisiera aqui ser Ovidio:</l>
+
+               <pb n="3" source="Moreno_196_3.jpg" facs="fedora_ug8108840/full/full/0/default.jpg"/>
+
+               <l>Calderon, Lope de Vega,</l>
+               <l>Poétas que en sus escritos</l>
+               <l>dejaron tan poderosos,</l>
+               <l>y tan limados avisos,</l>
+               <l>para que los ignorantes</l>
+               <l>pasen á ser entendidos,</l>
+               <l>y que los términos cultos</l>
+               <l>diga con tales avisos.</l>
+               <l>Ya empiezo hermosas damas,</l>
+               <l>allá voy, cuenta conmigo,</l>
+               <l>que á vista de tantas rosas,</l>
+               <l>tantos claveles, y lirios,</l>
+               <l>tanta hermosa Margarita,</l>
+               <l>y tan preciados Jacintos,</l>
+               <l>tantas perlas y esmeraldas,</l>
+               <l>donde vas, discurso mio,</l>
+               <l>que por mas que decir quieras,</l>
+               <l>cómo has de poder decirlo</l>
+               <l>el grande merecimiento,</l>
+               <l>y un aplauso que es tan digno</l>
+               <l>á las señoras mugeres?</l>
+               <l>y pues que de ellas nacimos,</l>
+               <l>y que sin ellas los hombres</l>
+               <l>no pasamos ni vivimos,</l>
+               <l>y en fin, el primor, y aseo,</l>
+               <l>la gala y todo el aliño,</l>
+               <l>el gobierno de la casa</l>
+               <l>sin una muger es tibio.</l>
+               <l>Y puesto que en las mugeres</l>
+               <l>está el bien que he referido,</l>
+               <l>vivan dilatados años,</l>
+               <l>rosas, claveles, y lirios,</l>
+               <l>margaritas, y esmeraldas,</l>
+               <l>perlas, brillantes, jacintos.</l>
+               <l>Vivan para que viviendo</l>
+               <l>entre lazos de Cupido,</l>
+               <l>y en la cuna de himeneo</l>
+               <l>logren lances, con cariños,</l>
+               <l>Victor me dijeron todas,</l>
+               <l>que bueno ha estado y que lindo,</l>
+               <l>que buen discurso que tiene</l>
+               <l>á fe, que no es bobo el niño.</l>
+               <l>Todavia no he acabado,</l>
+               <l>porque ha llegado un amigo</l>
+               <l>por un lado el cual me dice,</l>
+               <l>prosíga el intento mio.</l>
+               <l>Oyga, qué triunfantes se hallan,</l>
+               <l>y como me han dado el victor,</l>
+               <l>al fin se canta la gloria,</l>
+               <l>este es el tema que sigo,</l>
+               <l>plugiese al Divino Cielo,</l>
+               <l>que nunca hubiera nacido</l>
+               <l>muger ninguna en el mundo,</l>
+               <l>sino la que fué preciso,</l>
+               <l>pues se ven por las mugeres</l>
+               <l>los mas atroces délitos,</l>
+               <l>las mas enormes desgracias,</l>
+               <l>pendencias, ruinas, ruidos,</l>
+               <l>alborotos, baraundas,</l>
+               <l>en fin son un precipício.</l>
+               <l>Por una muger se sabe</l>
+               <l>se perdió <name>españa</name>, esto es fijo,</l>
+               <l>por una muger pecó</l>
+               <l>Adan porque los cariños</l>
+               <l>de su esposa le vencieron</l>
+               <l>á cometer el delito.</l>
+               <l>Y para que sepan todos</l>
+               <l>sus tramas, y sus hechizos,</l>
+               <l>ahora que estamos despacio</l>
+               <l>les contaré un cuentecillo:</l>
+               <l>Quise bien á una mueger,</l>
+               <l>y tambien ella me quiso,</l>
+               <l>era casada esta tal,</l>
+               <l>y por temor del marido,</l>
+               <l>no tuvo ocasion, ni tiempo,</l>
+               <l>hasta que un dia me dijo:</l>
+
+               <pb n="4" source="Moreno_196_4.jpg" facs="fedora_ug8109977/full/full/0/default.jpg"/>
+
+               <l>esta noche aguardo á usted,</l>
+               <l>que está fuera el dueño mio.</l>
+               <l>Por abreviar fui á su casa,</l>
+               <l>y cuando dentro me miro</l>
+               <l>llamó el marido á la puerta,</l>
+               <l>yo dije: cuerpo de Cristo,</l>
+               <l>buenos princípios tenemos.</l>
+               <l>Es por suerte tu marído?</l>
+               <l>Si: pero no te menees,</l>
+               <l>seguro estas pues lo digo:</l>
+               <l>Bajó, y abriole la puerta,</l>
+               <l>yo temblando, y no de frio,</l>
+               <l>cuando discurrí ser hombre,</l>
+               <l>me vi hecho un canastíllo</l>
+               <l>con sus asas, y su forma,</l>
+               <l>como si fuera su oficio.</l>
+               <l>Entró el hombre dado al diablo,</l>
+               <l>ó con un trago de vino,</l>
+               <l>y á la muger le pregunta,</l>
+               <l>cuyo es aqueste cestillo?</l>
+               <l>Aqui lo trajo Juaníca:</l>
+               <l>y el dijo: pleguete Cristo,</l>
+               <l>quitar estorvos de en medio;</l>
+               <l>y con buen aire, y Buen brio</l>
+               <l>dos patadas me tiró,</l>
+               <l>y una me dió en el hocico,</l>
+               <l>que en mas de catorce dias</l>
+               <l>no comi pan bien cocido.</l>
+               <l>Aguardó á que se durmiera,</l>
+               <l>me hechó por la puerta, amigos,</l>
+               <l>yo díje, estas son mugeres?</l>
+               <l>En estos lances me he visto.</l>
+               <l>Reniego de todas ellas,</l>
+               <l>como el moro del tocino.</l>
+               <l>Pregunto señoras mias,</l>
+               <l>no me dirán el alivio,</l>
+               <l>que hacen muchas á los hombres.</l>
+               <l>Eso bien está sabido.</l>
+               <l>Por ellas tienen los hombres</l>
+               <l>almorranas, tabardillos,</l>
+               <l>sarampion, viruelas, sarna;</l>
+               <l>muy poco es lo que digo,</l>
+               <l>tumores; y purgaciones,</l>
+               <l>caballas y potros lindos,</l>
+               <l>y por fin los pobres hombres;</l>
+               <l>si llega el invierno frio,</l>
+               <l>ya se quejan de las piernas,</l>
+               <l>de los pies, de los tobillos;</l>
+               <l>ay que me duelen los brazos,</l>
+               <l>y en fin el pobre afligido</l>
+               <l>padece penas, dolores,</l>
+               <l>ansias, fatigas, suspiros;</l>
+               <l>hasta que se llega el tiempo,</l>
+               <l>que va á un Hospital, amigos,</l>
+               <l>y al rigor de las unciones</l>
+               <l>paga todos sus delitos.</l>
+               <l>O mugeres engañosas!</l>
+               <l>Las que con falsos cariños</l>
+               <l>asi engañais á los hombres,</l>
+               <l>y andan los pobres perdidos,</l>
+               <l>yo reniego de vosotras</l>
+               <l>vámonos Marcos amigo,</l>
+               <l>que voy á atar tagardinas,</l>
+               <l>por ser mañana Domingo.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1857. <lb/>Imprenta de D. José M. Moreno, calle Juan de la Cabra
+                  número 4, </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

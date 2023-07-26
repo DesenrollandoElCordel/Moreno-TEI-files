@@ -1,0 +1,740 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_007">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Antonio Narvaez y Rosaura</title>
+            <respStmt>
+               <name xml:id="PDM">Pablo Domínguez Muñoz</name>
+               <resp>Corrección del OCR</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Antonio Narvaez y Rosaura.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6447271</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 6.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte de los amorosos lances y particulares sucesos</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte. En que se prosiguen los sucesos de Rosaura y D. Antonio
+                        Narvaez</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>El papel está rasgado en la parte inferior de las páginas 7 y
+                           8.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="3">Tres grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_007_1.xml"
+                              facs="fedora_ug8109401/161,610,512,637/100,/0/default.jpg"
+                              >grabado_m_007_1</item>
+                           <item corresp="grabado_m_007_2.xml"
+                              facs="fedora_ug8109401/703,568,476,658/100,/0/default.jpg"
+                              >grabado_m_007_2</item>
+                           <item corresp="grabado_m_007_3.xml"
+                              facs="fedora_ug8109401/1199,568,387,679/100,/0/default.jpg"
+                              >grabado_m_007_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="3" corresp="Q686362">
+                  <placeName key="Sierra_Morena">Sierra Morena</placeName>
+                  <location>
+                     <geo>38.3 -5.4</geo>
+                  </location>
+               </place>
+               <place n="12" corresp="Q5818">
+                  <placeName key="Córdoba">Córdoba</placeName>
+                  <location>
+                     <geo>37.883333333333 -4.7666666666667</geo>
+                  </location>
+               </place>
+               <place n="8" corresp="Q2807">
+                  <placeName key="Madrid">Madrid</placeName>
+                  <location>
+                     <geo>40.41694444444445 -3.703333333333333</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://datos.bne.es/inicio.html" xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-11-17" who="#EL">Création du fichier TEI P5 ; Encodage du TEI Header et
+            du corps du texte</change>
+         <change when="2021-02-17" who="#EL">Modification du fichier TEI en fonction de la v.3 du
+            manuel d'encodage</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104326/manifest">
+      <graphic url="fedora_ug8109401/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+
+            <pb n="1" source="Moreno_007_1.jpg" facs="fedora_ug8109401/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">(Número 6.)</fw>
+
+            <head rend="cursiva" type="primer_titulo">
+               <lb/>Antonio Narvaez y Rosaura.</head>
+
+            <div n="1" type="parte">
+               <head rend="negrita" type="titulo_parte">
+                  <lb/>PRIMERA PARTE.</head>
+               <head rend="cursiva" type="subtitulo_parte">
+                  <lb/>DE LOS AMOROSOS LANCES Y PARTICULARES SUCESOS QUE <lb/>acaecieron á una
+                  hermosa dama llamada Rosaura, y á su amante D. Anto- <lb/>nio Narvaez, natural de
+                  Córdoba; dase cuenta del modo con que se des- <lb/>cubrió á la dama en
+                  Sierra-Morena que la guardaba un Oso, y como di- <lb/>cho caballero lo mató; con
+                  todo lo demás que verá el curioso lector. </head>
+
+               <l rend="indent">A olvidar vanas memorias</l>
+               <l>á divertir pensamientos,</l>
+               <l>á dar principio á mis ancias,</l>
+               <l>(esta es la verdad y lo ciento.)</l>
+               <l>Salí, pues una mañana,</l>
+               <l>cuando Abril de flores lleno,</l>
+               <l>consuela con su fragancias</l>
+               <l>los valles, montes y cerros:</l>
+               <l>alegre me divertía</l>
+               <l>en la maleza y saliendo</l>
+               <l>dandole vista á unos montes</l>
+               <l>donde para un arroyuelo,</l>
+               <l>que en derretidos cristales</l>
+               <l>sirve á una selva de espejo:</l>
+               <l>y mirando sus corrientes</l>
+               <l>en una sombra me siento:</l>
+               <l>y acabo de breve rato</l>
+               <l>que estaba sentado, veo</l>
+               <l>que bajaba por el agua</l>
+               <l>un guante el que yo de presto</l>
+               <l>lo saqué de la corriente,</l>
+               <l>y sacudiendolo, veo</l>
+
+               <pb n="2" source="Moreno_007_2.jpg" facs="fedora_ug8110268/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>que estaba todo bordado</l>
+               <l>de letras de oro fino y terso,</l>
+               <l>y unas letras que decian:</l>
+               <l>soy de la hija de Venus.</l>
+               <l>Confuso quedé al mirarlo;</l>
+               <l>y discurriendo que el dueño</l>
+               <l>mas arriba quedaría,</l>
+               <l>y que era muger es cierto,</l>
+               <l>sigo la fresca corriente;</l>
+               <l>donde á pocos pasos veo</l>
+               <l>que entretenida la dama</l>
+               <l>estaba con un pañuelo,</l>
+               <l>mojandolo en la corriente.</l>
+               <l>Helado quedé y suspenso</l>
+               <l>al ver tan rara belleza</l>
+               <l>sola en aquellos desiertos:</l>
+               <l>ocultéme entre unos ramos,</l>
+               <l>cuando vide, por lo menos,</l>
+               <l>que era la dama de prendas;</l>
+               <l>y á medio ceñir el cuerpo</l>
+               <l>tenia una mantellina</l>
+               <l>de muy rico terciopelo,</l>
+               <l>y una capa pies de damasco,</l>
+               <l>y de plumage un sombrero.</l>
+               <l>Levántase empie la dama</l>
+               <l>dió una vuelta, y echó menos</l>
+               <l>el guante que yo tenia:</l>
+               <l>siguió la márgen de presto,</l>
+               <l>y llegando junto á mí,</l>
+               <l>yo salgo de entre lo espeso:</l>
+               <l>helada quedó de verme:</l>
+               <l>y dice ¡Valgame el cielo!</l>
+               <l>Si acaso habrá quien me ampare,</l>
+               <l>hagalo usted caballero.</l>
+               <l>Yo le dije hermosa dama</l>
+               <l>encanto de estos desiertos,</l>
+               <l>pasmo de estas soledades,</l>
+               <l>yo de estas selvas lucero,</l>
+               <l>¿que hacéis sola en este sitio?</l>
+               <l>Y me dijo caballero,</l>
+               <l>siéntate y te contaré</l>
+               <l>mi tragedia en breve tiempo,</l>
+               <l>porque estás en gran peligro.</l>
+               <l>Y te digo lo primero,</l>
+               <l>como en <name>Córdoba</name> nací:</l>
+               <l>y es mi Padre un caballero,</l>
+               <l>tan noble, pues, que venera</l>
+               <l>la encomienda de Carrero.</l>
+               <l>Tiene mi Padre una Quinta,</l>
+               <l>cuatro leguas poco menos</l>
+               <l>de <name>Cordoba</name>, en unos montes,</l>
+               <l>y situada en lo espeso,</l>
+               <l>de la gran Sierra—Morena,</l>
+               <l>que este es mi comun paseo.</l>
+               <l>Saliendo, pues, una tarde</l>
+               <l>alegre á tomar el fresco,</l>
+               <l>y llevando dos criados,</l>
+               <l>llegamos en breve tiempo</l>
+               <l>no muy lejos de la Quinta;</l>
+               <l>cuando de repente vemos</l>
+               <l>que estaba junto á nosotros</l>
+               <l>un brabo animal sangriento,</l>
+               <l>un Oso, cuya cabeza</l>
+               <l>causaba temor el verlo:</l>
+               <l>los tres caimos en tierra;</l>
+               <l>y cuando volví en mi acuerdo</l>
+               <l>me halle en estas espesuras</l>
+               <l>sin que tuviese remedio:</l>
+               <l>y para que me alimente</l>
+               <l>me trae líquidos y tersos</l>
+               <l>panales de miel y cera</l>
+               <l>y con ellos me alimento.</l>
+               <l>Esto es lo que me sucede;</l>
+               <l>y ahora por Dios te ruego</l>
+               <l>que te apártes del peligro,</l>
+               <l>porque si viene el sangriento</l>
+               <l>bruto, y contigo me haya,</l>
+               <l>te dará la muerte luego:</l>
+               <l>vé á mi casa, y á mis Padres</l>
+               <l>dá el referido suceso. </l>
+
+               <pb n="3" source="Moreno_007_3.jpg" facs="fedora_ug8105692/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>Yo le dije: hermosa dama,</l>
+               <l>¿qué bruto ni qué soberbio</l>
+               <l>animal será bastante</l>
+               <l>á librarse del incendio</l>
+               <l>ó rayo de mi escopeta?</l>
+               <l>y asi si quieres que luego,</l>
+               <l>te saque de este peligro,</l>
+               <l>levanta no tengas miedo.</l>
+               <l>Tomándola de la mano,</l>
+               <l>sigo la márgen de presto:</l>
+               <l>y al cabo de breve rato</l>
+               <l>vino el Oso, y la echó menos;</l>
+               <l>y rastreando las huellas</l>
+               <l>siguió el monte como un trueno:</l>
+               <l>nos divisó, y dió un bufido</l>
+               <l>tan grande, que te prometo,</l>
+               <l>que se estremeció la selva</l>
+               <l>y la dama en este tiempo</l>
+               <l>se quedó toda turbada.</l>
+               <l>Y el irracional sangriento,</l>
+               <l>para quitarnos las vidas</l>
+               <l>se fue acercando soberbio</l>
+               <l>y encrespando la guedeja:</l>
+               <l>yo asegurando de presto,</l>
+               <l>dandome licencia el muelle,</l>
+               <l>despidió el cañon soberbio</l>
+               <l>cinco saetas de plomo,</l>
+               <l>que al animal en el pecho,</l>
+               <l>sin reparar su fiereza,</l>
+               <l>le abrieron cinco agujeros,</l>
+               <l>que por el menor la muerte</l>
+               <l>supo anchuroso entrar dentro;</l>
+               <l>dió un bufido, y al instante</l>
+               <l>midió con su cuerpo el suelo:</l>
+               <l>y volviendo en si la dama,</l>
+               <l>me echó los brazos al cuello.</l>
+               <l>Bizarro jóven; decia,</l>
+               <l>el ser tu esposa prometo</l>
+               <l>en pago de esta fineza.</l>
+               <l>Yo la respondí: concedo.</l>
+
+               <l>Nos dímos palabra y mano,</l>
+               <l>de esposos, y prosiguiendo</l>
+               <l>me dice: toma esta cinta,</l>
+               <l>que dias há que la tengo</l>
+               <l>para el que fuere mi esposo:</l>
+               <l>y si no quieres creerlo,</l>
+               <l>ella dira la verdad,</l>
+               <l>y quedarás satisfecho;</l>
+               <l>y el guante que mio tienes</l>
+               <l>guardalo, que en algun tiempo</l>
+               <l>podrá ser de que te sirva:</l>
+               <l>quedate en paz, dulce dueño,</l>
+               <l>y mira que no te olvides</l>
+               <l>que á la cuarta noche espero</l>
+               <l>en mi Quinta, en una reja</l>
+               <l>que tiene unos maceteros</l>
+               <l>de fragantes azucenas;</l>
+               <l>no haya falta por que espero,</l>
+               <l>y á breve rato, en el monte</l>
+               <l>vimos venir con estruendo</l>
+               <l>nueve hombres á caballo</l>
+               <l>y la dama conociendo</l>
+               <l>á su Padre y dos hermanos,</l>
+               <l>y otros de acompañamiento</l>
+               <l>que la venian buscando,</l>
+               <l>me dijo querido dueño,</l>
+               <l>conviene que ahora te apartes,</l>
+               <l>porque al primer movimiento</l>
+               <l>han de quitarte la vida,</l>
+               <l>y no con viene que á ellos</l>
+               <l>hagas fuga en este sitio.</l>
+               <l>Ocultéme entre lo espeso</l>
+               <l>sin ser visto de ninguno;</l>
+               <l>llegeron en breve tiempo</l>
+               <l>los que venian á caballo</l>
+               <l>con alegria y contento:</l>
+               <l>llegaron y la abrazaron,</l>
+               <l>y de aquel sitio se fueron.</l>
+               <l>Yo me quedé en la espesura</l>
+               <l>confuso, triste y suspenso: </l>
+
+               <pb n="4" source="Moreno_007_4.jpg" facs="fedora_ug8109965/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>saqué la sinta de seda</l>
+               <l>desdoblela, y un letrero</l>
+               <l>hallé en ella que decia:</l>
+               <l>el que de esta fuere dueño</l>
+               <l>tambien será de Rosaura, </l>
+               <l>esposo, queriendo el cielo.</l>
+               <l>Quedé alegre con mi cínta,</l>
+               <l>y breve á mi casa vuelvo:</l>
+               <l>y montando en un caballo</l>
+               <l>una tarde cuando Febo</l>
+               <l>queria ocultar sus luces,</l>
+               <l>vuelvo á buscar á mi dueño:</l>
+               <l>dile, pues, vista á la Quinta,</l>
+               <l>y alli me estuve encubierto,</l>
+               <l>hasta que la oscura noche</l>
+               <l>tendiera su manto negro,</l>
+               <l>A un árbol até el caballo</l>
+               <l>por que no anduviera inquieto:</l>
+               <l>le eché porcion de cebada</l>
+               <l>en la capa y con secreto</l>
+               <l>paseè toda la Quinta:</l>
+               <l>llegué al referido puesto</l>
+               <l>del balcon, hice una seña,</l>
+               <l>y la dama con anhelo</l>
+               <l>salio al balcón y me dijo:</l>
+               <l>Amante y querido dueño,</l>
+               <l>conviene de que esta noche</l>
+               <l>me saques, porque sé cierto</l>
+               <l>de que mi padre me tiene</l>
+               <l>prometida á un caballero</l>
+               <l>de <name>Madrid</name>, esto no dudes.</l>
+               <l>Pero fortuna, ¡qué presto</l>
+               <l>me transformaste en tu rueda!</l>
+               <l>Fué que un criado á este tiempo</l>
+
+               <l>me vido hablar con Rosaura</l>
+               <l>entró dentro como un trueno,</l>
+               <l>dandole cuenta á su Padre;</l>
+               <l>al punto se previnieron</l>
+               <l>los que estaban en la Quinta,</l>
+               <l>y yo ignorando el suceso</l>
+               <l>me dispararon dos tiros,</l>
+               <l>pero dieron en el suelo</l>
+               <l>las valas; y yo animoso</l>
+               <l>me opuse con todos ellos:</l>
+               <l>dispare tres carabinas,</l>
+               <l>y á uno quité los alientos,</l>
+               <l>hiriendo à los dos hermanos</l>
+               <l>de la dama; y conociendo</l>
+               <l>que era cosa imposible</l>
+               <l>en el referido empeño</l>
+               <l>poder sacar á Rosaura,</l>
+               <l>me escapé de todos ellos.</l>
+               <l>Fui donde estaba el caballo,</l>
+               <l>monté en el, y como un trueno</l>
+               <l>á <name>Córdoba</name> dí la vuelta:</l>
+               <l>pero como estaba ardiendo</l>
+               <l>en amores de Rosaura</l>
+               <l>en vivas ansias mi pecho</l>
+               <l>quise volver á buscarla,</l>
+               <l>y desierto me digeron</l>
+               <l>como su Padre, agraviado</l>
+               <l>del referido suceso,</l>
+               <l>una noche la sacó</l>
+               <l>y no saben donde fueron.</l>
+               <l>Del modo que yo quedé</l>
+               <l>considérelo el discreto</l>
+               <l>y en otra segunda parte</l>
+               <l>daré fin á este suceso. </l>
+
+               <trailer>Fin de la primera parte.</trailer>
+            </div>
+            <div n="2" type="parte">
+               <pb n="5" source="Moreno_007_5.jpg" facs="fedora_ug8110107/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+               <head rend="cursiva" type="subtitulo_parte">
+                  <lb/>EN QUE SE PROSIGUEN LOS <lb/>Sucesos de Rosaura y D. Antonio
+                  <lb/>Narvaez:dáse cuenta de varios lan- <lb/>ces,y como se la trajo á Córdoba,
+                  <lb/>donde se desposaron, y lo demas <lb/>que verá el curioso lector. </head>
+
+               <l rend="indent">Ya dije en la primera parte</l>
+               <l>como quedé tan absorto</l>
+               <l>en <name>Cordoba</name>, sin saber</l>
+               <l>de Rosaura, y de este modo</l>
+               <l>adquirí algunas noticias:</l>
+               <l>sagaz, astuto y mañoso</l>
+               <l>solicité la amistad</l>
+               <l>muy estrecha con un mozo</l>
+               <l>de la casa de Rosaura;</l>
+               <l>y éste me dijo á mi, como</l>
+               <l>á <name>Madrid</name> se la llevaron:</l>
+               <l>aqui quedé mas absorto,</l>
+               <l>por saber de que su padre</l>
+               <l>la prometió afectuoso</l>
+               <l>en <name>Madrid</name> á un caballero:</l>
+               <l>á buscarla me dispongo;</l>
+               <l>y un amigo me prestó</l>
+               <l>cincuenta pesos en oro.</l>
+               <l>Y disponiendo el viage,</l>
+               <l>al punto el camino tomo:</l>
+               <l>salgo de <name>Córdoba</name>, y entro</l>
+               <l>en aquel espeso toldo</l>
+               <l>de la gran Sierra—Morena,</l>
+               <l>aquel pirámide bronco,</l>
+               <l>aquella torre de ramas,</l>
+               <l>aquel paraiso tosco</l>
+               <l>de fragantes azucenas;</l>
+               <l>busco á Rosaura en troncos;</l>
+               <l>loco sin sentido digo:</l>
+               <l>montes, aves, fieras, mónstruos, </l>
+
+               <pb n="6" source="Moreno_007_6.jpg" facs="fedora_ug8103356/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>Aves que volais, decidme</l>
+               <l>con vuestros picos sonoros,</l>
+               <l>¿pasó por aqui Rosaura?</l>
+               <l>no me lo negueis piadoso:</l>
+               <l>no hallo á mi pena consuelo;</l>
+               <l>brebe las jornadas cojo.</l>
+               <l>Entré en <name>Madrid</name> una tarde:</l>
+               <l>aqui quedé mas absorto,</l>
+               <l>por mírar en este sitio</l>
+               <l>gentío tan numeroso:</l>
+               <l>porque buscar á Rosaura</l>
+               <l>en sitio tan tumultuoso,</l>
+               <l>era buscar una aguja</l>
+               <l>en ese salado golfo.</l>
+               <l>En fin, pasé á una posada;</l>
+               <l>tomo cuarto, me acomodo,</l>
+               <l>dí principio á mis intentos</l>
+               <l>escudriñandolo todo;</l>
+               <l>los balcones de palacio</l>
+               <l>registro muy cuidadoso</l>
+               <l>que como Rosaura era</l>
+               <l>encanto tan prodigioso,</l>
+               <l>me pareció que en palacio</l>
+               <l>depositarla era poco.</l>
+               <l>En <name>Madrid</name> gasté diez meses</l>
+               <l>de este referido modo,</l>
+               <l>sin saber en que parage</l>
+               <l>asiste la que yo adoro.</l>
+               <l>En fin, pasé á despedirme</l>
+               <l>del lucero prodigioso</l>
+               <l>de Atocha sagrada Reina,</l>
+               <l>Madre de Dios poderoso:</l>
+               <l>entré en su casa una tarde,</l>
+               <l>y á su sagrado me acojo:</l>
+               <l>la dije: Sacra Princesa,</l>
+               <l>Madre de los hombres todos,</l>
+               <l>conviene el que Rosaura</l>
+               <l>sea mi esposa, en vos pongo</l>
+               <l>hoy todas mis esperanzas,</l>
+               <l>pues que soy vuestro devoto.</l>
+               <l>Esta peticion la hice;</l>
+               <l>salgo del templo lloroso</l>
+               <l>en ocasíon que pasaban</l>
+               <l>dos coches: yo cuidadoso</l>
+               <l>miro por las vidrieras</l>
+               <l>del uno, donde conozco</l>
+               <l>y veo como es Rosaura;</l>
+               <l>aqui quedé mas absorto;</l>
+               <l>me pareció que soñaba</l>
+               <l>sigo el coche presuroso</l>
+               <l>en breve tiempo llegamos</l>
+               <l>á un palacio suntuoso;</l>
+               <l>donde desmontan del coche,</l>
+               <l>se entran en su casa todos.</l>
+               <l>Confuso quedé en la calle:</l>
+               <l>y preguntándole á un mozo</l>
+               <l>que trae las mulas le dije:</l>
+               <l>Amigo, porque lo ignoro:</l>
+               <l>¿es de <name>Córdoba</name> esta dama</l>
+               <l>que entró dentro? dijo pronto:</l>
+               <l>Es verdad lo que usted dice,</l>
+               <l>de <name>Córdoba</name> es, y ha poco</l>
+               <l>que vino aqui esta Señora;</l>
+               <l>mi Señor es Tio propio</l>
+               <l>suyo, y la tiene tratada</l>
+               <l>de casar con un famoso</l>
+               <l>caballero de <name>Madrid</name>.</l>
+               <l>Vertiendo llanto mis ojos</l>
+               <l>fui á mi cuarto, discurriendo</l>
+               <l>arbitrios, trazas y modos</l>
+               <l>para que sepa Rosaura</l>
+               <l>que estoy en <name>Madrid</name>: dispongo</l>
+               <l>lo mejor que fué comprar</l>
+               <l>cuatro cintillos de oro</l>
+               <l>muy ricos, y un cofrecillo</l>
+               <l>pequeñito y muy curioso:</l>
+               <l>metí dentró los cintillos</l>
+               <l>y el guante que en el arroyo</l>
+               <l>perdió Rosaura, y la cinta</l>
+               <l>que tambien me dió á mi propio,</l>
+
+               <pb n="7" source="Moreno_007_7.jpg" facs="fedora_ug8108524/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>cuando la encontré en el monte,</l>
+               <l>y resolviendome á todo,</l>
+               <l>en el nombre de su Padre</l>
+               <l>la escribí de aqueste modo:</l>
+               <l>Hija Rosaura, permitan</l>
+               <l>hoy los cielos poderosos</l>
+               <l>el que estas letras te hallen</l>
+               <l>como deseo yo propio:</l>
+               <l>en casa para servirte,</l>
+               <l>quedamos todos gustosos:</l>
+               <l>te envio cuatro cintillos</l>
+               <l>muy ricos de fino oro,</l>
+               <l>y la cinta que me diste</l>
+               <l>que te guardara yo propio:</l>
+               <l>bien te acordarás, Rosaura,</l>
+               <l>del guante que en el arroyo</l>
+               <l>perdiste, también te envio,</l>
+               <l>y todo lo lleva un mozo.</l>
+               <l>No dije mas, y con esto</l>
+               <l>cierro la carta y le pongo</l>
+               <l>la llave á mi cofrecillo.</l>
+               <l>Tomé la calle brioso,</l>
+               <l>llegué al postigo y tocando,</l>
+               <l>al instante bajó un mozo</l>
+               <l>y le dije, Caballero,</l>
+               <l>de parte de D. Antonio</l>
+               <l>de Carrero, que reside</l>
+               <l>en <name>Córdoba</name>, traigo un poco</l>
+               <l>recado aquí á una Señora,</l>
+               <l>y allá me dijeron como</l>
+               <l>asistia en esta casa.</l>
+               <l>Al punto respondio el mozo:</l>
+               <l>no se puede ver ni hablar.</l>
+               <l>Yo le dije importa poco,</l>
+               <l>no necesito de verla,</l>
+               <l>ni hablarla tampoco, solo</l>
+               <l>diga usted à esa Señora</l>
+               <l>que si mañana á las ocho</l>
+               <l>no ha escrito carta; no puedo</l>
+               <l>llevarla, que me es forzoso</l>
+               <l>el irme en esta hora.</l>
+               <l>Respondió: lo diré pronto:</l>
+               <l>tomó el cofre y se entró dentro:</l>
+               <l>yo me despedí gustoso,</l>
+               <l>donde pasé aquella noche</l>
+               <l>revolviendo promontorios</l>
+               <l>de pensamientos, y el dia</l>
+               <l>vino con rojos asomos.</l>
+               <l>Llegué al postigo, y tocando,</l>
+               <l>con pasos muy presurosos</l>
+               <l>salió Rosaura, y con ella</l>
+               <l>salen otros seis ú ocho.</l>
+               <l>Helada quedó de verme,</l>
+               <l>salióle el color al rostro,</l>
+               <l>y me dijo caballero,</l>
+               <l>¿sois de <name>Córdoba</name>? y respondo:</l>
+               <l>no Señora, pero soy</l>
+               <l>de cerca de sus contornos,</l>
+               <l>y asisto, para servirle,</l>
+               <l>en el arroyo del Oso.</l>
+               <l>Dijo Rosaura, ya he visto</l>
+               <l>ese sitio montuoso.</l>
+               <l>Digale usted á mi Padre</l>
+               <l>que no sea perezoso</l>
+               <l>en ejecutar lo escrito:</l>
+               <l>y con disimulo áiroso</l>
+               <l>me dió Rosaura un carta,</l>
+               <l>que decia de éste modo:</l>
+               <l>Aunque en nombre de mi Padre</l>
+               <l>me escribes con tal rebozo,</l>
+               <l>el guante y la cinta dicen</l>
+               <l>que eres mi querido esposo:</l>
+               <l>supuesto que me has buscado</l>
+               <l>tan atento y cuidadoso,</l>
+               <l>has de saber, dulce dueño,</l>
+               <l>que mi tio cuidadoso</l>
+               <l>me ha tratado casamiento</l>
+               <l>con un caballero mozo</l>
+               <l>de aqui de <name>Madrid</name>: mas tú</l>
+               <l>solo eres mi querido esposo; </l>
+
+               <pb n="8" source="Moreno_007_8.jpg" facs="fedora_ug8104599/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>para esta noche á las doce</l>
+               <l>vendrás, dueño mio, solo,</l>
+               <l>y en una reja que tiene</l>
+               <l>dos palmos, estarás pronto</l>
+               <l>en hacer alguna seña,</l>
+               <l>que este es mi retiro propio,</l>
+               <l>y una cuerda de diez varas</l>
+               <l>has de traer que es forzoso</l>
+               <l>bajar desde una azotea,</l>
+               <l>que aunque el paso es peligroso,</l>
+               <l>atropellaré peligros</l>
+               <l>porque tú seas mi esposo.</l>
+               <l>No dijo mas, y con esto,</l>
+               <l>señores quedé tan loco,</l>
+               <l>que no llegué á presumir</l>
+               <l>si era mio tanto gozo.</l>
+               <l>Tocó el reloj à las doce,</l>
+               <l>tomè la calle brioso,</l>
+               <l>llegué al postigo y tocando,</l>
+               <l>con pasos muy presurosos</l>
+               <l>salió Rosaura y me dijo:</l>
+               <l>amante y querido esposo,</l>
+               <l>recibe esta ropa y dame</l>
+               <l>la cuerda, y disela pronto.</l>
+               <l>Aseguróla, y bajando</l>
+               <l>con un denuedo animoso,</l>
+               <l>recibiéndola en los brazos</l>
+               <l>tomé la calle animoso.</l>
+               <l>El placer que aquella noche</l>
+               <l>tuve, nótele el curioso.</l>
+               <l>Al siguiente dia salgo</l>
+               <l>con un ingenio mañoso,</l>
+               <l>en un coche que pasaba</l>
+               <l>á <name>Córdoba</name>, la acomodo,</l>
+               <l>donde iba un caballero</l>
+               <l>y una señora, gustosos</l>
+               <l>de haber un pleito ganado</l>
+               <l>nos recibieron gustosos</l>
+               <l>y Rosaura á los señores</l>
+               <l>contó su suceso todo.</l>
+               <l>A su casa nos llevaron,</l>
+               <l>y en persona pasó él propio,</l>
+               <l>dió cuenta al Señor Obispo:</l>
+               <l>pero el pastor animoso</l>
+               <l>mandó que nos desposaran,</l>
+               <l>y lo ejecutaron pronto,</l>
+               <l>y componiendo las partes</l>
+               <l>quedaron todos gustosos.</l>
+               <l>Y porque de los oyentes</l>
+               <l>habrá algunos deseosos</l>
+               <l>de saber mi nombre, digo</l>
+               <l>que me llamo D. Antonio</l>
+               <l>de Narvaez y me obligo</l>
+               <l>para servirlos á todos,</l>
+               <l>porque perdonen mis faltas</l>
+               <l>y yerros que no habrá pocos.</l>
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 4.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

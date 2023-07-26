@@ -1,0 +1,1904 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_192">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El payo en centinela. Sainete</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El payo en centinela. Sainete.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473277</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">[s.n.]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q16508">
+                  <placeName key="Jarama">Jarama</placeName>
+                  <location>
+                     <geo>41.166111111111 -3.5383333333333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q142">
+                  <placeName key="Francia">Francia</placeName>
+                  <location>
+                     <geo>47 2</geo>
+                  </location>
+               </place>
+               <place n="3" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q220">
+                  <placeName key="Roma">Roma</placeName>
+                  <location>
+                     <geo>41.893055555556 12.482777777778</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-19" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-07-01" who="#EL">Correction de l'OCR</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104237/manifest">
+      <graphic url="fedora_ug8106652/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_192_1.jpg" facs="fedora_ug8106652/full/full/0/default.jpg"/>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">EL PAYO</hi>
+               <lb/>EN <lb/><hi rend="negrita">CENTINELA.</hi>
+            </head>
+            <head type="subtitulo">SAINETE</head>
+
+            <div type="reparto">
+               <head rend="negrita" type="reparto_titulo">PERSONAS.</head>
+               <castList>
+                  <castItem>
+                     <lb/>D. TIBURCIO, padre de RO- <lb/>SAURA. </castItem>
+                  <castItem>D. FLORINDO.</castItem>
+                  <castItem>CACHUMENO.</castItem>
+                  <castItem>PANCHO, payo.</castItem>
+                  <castItem>FABRICIO, sargento.</castItem>
+               </castList>
+            </div>
+
+            <div>
+               <stage rend="cursiva">
+                  <lb/>El teatro representa un portal de casa particu- <lb/>lar con puerta á la
+                  izquierda, salen D. Tibur- <lb/>cio, que trae de la mano á D.a Rosaura: aquel
+                  <lb/>viene con sombrero y baston. </stage>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Vamos, hija, yo te saco</l>
+                  <l>al portal de nuestra casa,</l>
+                  <l>porque enterarse no pueda</l>
+                  <l>allá dentro la criada,</l>
+                  <l>de lo que hablamos: y tú</l>
+                  <l>diciendo como Dios manda,</l>
+                  <l>la verdad me desengañes</l>
+                  <l>de lo que ahora poco acaban</l>
+                  <l>de contarme.</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Padre mio....</l>
+                  <l><stage rend="cursiva">ap. </stage>no tiene muy buena cara.</l>
+                  <l>Qué le han dicho á usted? que yo</l>
+                  <l>estoy pronta y resignada</l>
+                  <l>á satisfacerlo á usted.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Pues hija, ya que te hallo</l>
+                  <l>huérfana de madre y pronto</l>
+                  <l>lo serás de padre á causa</l>
+                  <l>de que ochenta años que tengo</l>
+                  <l>dicen que mi vida acaba</l>
+                  <l>en un ite misa est;</l>
+                  <l>antes que llegue el Deo gracias,</l>
+                  <l>prezendo que quedes bien</l>
+                  <l>dejándote ya casada.</l>
+                  <l>A tí te quiere por suya </l>
+
+                  <pb n="2" source="Moreno_192_2.jpg"
+                     facs="fedora_ug8103138/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>un don Lucas de la Raspa, </l>
+                  <l>hombre machucho, rumboso,</l>
+                  <l>y muy rico; si te agrada</l>
+                  <l>te casarás, y yo quedo</l>
+                  <l>contento como una pascua.</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Todo está muy bien;</l>
+                  <l>mas si despues de casada</l>
+                  <l>me fastidia el matrimonio</l>
+                  <l>y considero la carga</l>
+                  <l>que tengo para in eternum</l>
+                  <l>de un hombre á quien no me manda</l>
+                  <l>amor que sea mi marido;</l>
+                  <l>quid faciendum!</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Hija ingrata! </l>
+                  <l>tu te vienes con latines</l>
+                  <l>á mostrar tu repugnancia?</l>
+                  <l>Ya creo lo que me han dicho,</l>
+                  <l>sí, que estás enamorada</l>
+                  <l>de don Florindo Ramiro,</l>
+                  <l>y que le has dado palabra. </l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Yo á don Florindo Ramiro! </l>
+                  <l>nohay tal.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>De decirme acaban</l>
+                  <l>que si por bien no te entrego</l>
+                  <l>que te sacará de casa.</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Que lo digan no lo estraño,</l>
+                  <l>lo que si me sobresalta</l>
+                  <l>es que usted lo haya creido;</l>
+                  <l><stage rend="cursiva">ap.</stage> ojalá fuera mañana! </l>
+                  <l>y para satisfaceros</l>
+                  <l>de una idea tan estraña,</l>
+                  <l>os supli co de rodillas</l>
+                  <l>por mi madre, que Dios haya, </l>
+                  <l>me deis vuestra bendicion</l>
+                  <l>y licencia de que vaya </l>
+                  <l>á pedir en un convento</l>
+                  <l>con humildad bien postrada</l>
+                  <l>me admitan....</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Que es lo que dices,</l>
+                  <l>hija mia de mi alma?</l>
+                  <l>En tu vida puedes darme</l>
+                  <l>una noticia mas grata</l>
+                  <l>pretendes ser agustina,</l>
+                  <l>carmelita ó mercenaria?</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>La Trinidad, padre mio,</l>
+                  <l>es la que solo me agradra.</l>
+                  <l><stage rend="cursiva">ap.</stage> y digo bien, sí: tres somos;</l>
+                  <l>mí amante, yo y la criada.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Pues hija vete á tu cuarto.</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Si señor porque me falta</l>
+                  <l>que ofrecer mís devociones.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Dios te de su santa gracia.</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Dadme la mano, señor.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Si hija, de buena gana. </l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Ya he salido de este aprieto.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Va á irse y deja caer un papel y Tiburcio <lb/>lo vé. </stage>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Rosaura vuelve, repara</l>
+                  <l>que un papel te se ha caido.</l>
+               </sp>
+
+               <stage rend="cursiva">Vuelve ella y viendolo lo levanta.</stage>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l><stage rend="cursiva">ap.</stage> Pobre de mi desdichada! </l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Dámele acá. </l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Padre mio....</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>No me seas mal mandada. </l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Si esto es para devanar</l>
+                  <l>un poco de hilo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Taimada, </l>
+                  <l>damelo aca. <stage rend="cursiva">se lo quíta.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS. </speaker>
+                  <l><stage rend="cursiva">ap.</stage> De esta hecha</l>
+                  <l>si no me escapo me mata.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l><stage rend="cursiva">Lee</stage> «Florindo, dueño, amor mio,</l>
+                  <l>«no te encarezco las ansias</l>
+                  <l>«y el continuo sobresalto</l>
+                  <l>«de que me miro cercada,</l>
+                  <l>«sácame de esta prision,</l>
+                  <l>«pues mi padre me maltrata;</l>
+                  <l>«tuya soy, seré y he sido</l>
+                  <l>«hasta la muerte, Rosaura.»</l>
+                  <l>¿Estas eran las completas</l>
+                  <l>y maítines que rezabas?</l>
+                  <l>Yo te pondré luego el velo,</l>
+                  <l>mas será con una tranca.</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Padre mio, mire usted....</l>
+                  <l>si yo lo escribí por chanza. </l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Quítate de mi presencia,</l>
+                  <l>serpiente con forma humana.</l>
+
+                  <stage rend="cursiva">Vase ella por la izquierda.</stage>
+
+                  <l>Que bien dijo aquel que dijo</l>
+                  <l>que era la cosa mas mala</l>
+                  <l>de cuantas contiene el mundo,</l>
+                  <l>una muger despechada! </l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Ha salido por la derecha, vestido de pi- <lb/>llastre Cachumeno con un papel
+                  en la ma- <lb/>no, y al ver á Tiburcio lo guarda en el seno <pb n="3"
+                     source="Moreno_192_3.jpg" facs="fedora_ug8106334/full/full/0/default.jpg"/>
+                  <fw type="paginaNum">3</fw>
+                  <lb/>y tira manotones como para coger mos- <lb/>cas, tocandole por detras á
+                  Tiburcio. </stage>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>El viejo está aquí, me guardo</l>
+                  <l>el billete en la buchaca. <stage rend="cursiva">lo hace.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Si yo encontrara un arbitrio....</l>
+                  <l>pero quien me anda en la zaga?</l>
+                  <l>quien eres?</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>No sabe usted</l>
+                  <l>Que soy yo?</l>
+               </sp>
+
+               <stage rend="cursiva">No deja de cojer moscas.</stage>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Va que me saltas</l>
+                  <l>un ojo!</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Me se escapó.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Que son esas manotadas?</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Lo atrapé.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Qué has atrapado?</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Es macho, no vale nada.</l>
+                  <stage rend="cursiva">Lo mira y hace que lo deja.</stage>
+                  <l>Dios guarde á usted; esta es embra, </l>
+                  <l>tampoco me sirve.</l>
+                  <stage rend="cursiva">La coge y hace lo mísmo.</stage>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Calla?</l>
+                  <l>Esta es hembra no me sirve;</l>
+                  <l>el macho no vale nada.</l>
+                  <l>Qué tracamandana es esa?</l>
+                  <l>no oyes que te hablo? <stage rend="cursiva">le dá.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Valla,</l>
+                  <l>que quiere usted?</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Que me digas, <stage rend="cursiva">le remeda.</stage></l>
+                  <l>qué son esas garambainas?</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Usted me conoce?</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Nó.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Me alegro.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Quien eres? habla.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Yo me llamo Cachumeno,</l>
+                  <l>mi padre nació en <name>Jarama</name>,</l>
+                  <l>mi madre murió chiquita </l>
+                  <l>todavia no se afeitaba.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Pues si levanto el baston.....</l>
+               </sp>
+
+               <sp>
+                  <speaker>CAHC.</speaker>
+                  <l>Escuche usted, va sin chanza:</l>
+                  <l>como digo de mi cuento,</l>
+                  <l>un don Lucas de la Raspa...</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>El que pretende á mi hija?</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Pues....</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>El confitero? Valla. </l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Si señor, el confitero:</l>
+                  <l>me ha mandado le llevara</l>
+                  <l>un canasto de mosquitos;</l>
+                  <l>porque como ahora se casa,</l>
+                  <l>quiere hacer para las bodas</l>
+                  <l>unas pastillas de <name>Francia</name></l>
+                  <l>para obsequiar á la novía.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>La tarea es harto mala </l>
+                  <l>si no te las pagan bien.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Un real cada canasta </l>
+                  <l>de mosquitos.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Un real?</l>
+                  <l>Está la cosa barata! </l>
+                  <l>Y por qué los que has cogido</l>
+                  <l>has permitido se vayan? </l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Porque los machos no sirven</l>
+                  <l>ni las hembras. </l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Tu te chanzeas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Si han de ser hermafrodistas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Picaro, si no te largas</l>
+                  <l>te asesino.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH. </speaker>
+                  <l><stage rend="cursiva">ap.</stage> Doy la vuelta,</l>
+                  <l>y metiendome en su casa,</l>
+                  <l>emboco el papel, que luego</l>
+                  <l>para salir habrá traza.</l>
+               </sp>
+
+               <stage rend="cursiva">Vase por la izquierda.</stage>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Este gandul con su sambra</l>
+                  <l>me ha distraido, y se pasa</l>
+                  <l>el tiempo de disponer</l>
+                  <l>modo de que á la muchacha</l>
+                  <l>no me la robe el bribon</l>
+                  <l>del novio: si yo en contrara</l>
+                  <l>un amigo á quíen fiarle....</l>
+                  <l>pero, ó la vista me engaña,</l>
+                  <l>ó aquel sargento es Fabricio;</l>
+                  <l>dicho y hecho camarada! </l>
+               </sp>
+
+               <stage rend="cursiva">Sale Fabricio de Sargento.</stage>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Vecino y amigo mio! </l>
+                  <l>que teneis? que aquesa cara</l>
+                  <l>demuestra alguna tristeza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Si amigo, y con grande causa:</l>
+                  <l>ya sabeis tengo una hija....</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Y muy gallarda muchacha.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Pues sabed, amigo mio;</l>
+
+                  <pb n="4" source="Moreno_192_4.jpg"
+                     facs="fedora_ug8108557/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>que aquesta propia mañana</l>
+                  <l>me han dicho que un don Florindo</l>
+                  <l>de mi casa ha de sacarla:</l>
+                  <l>si vos me hicierais favor</l>
+                  <l>(mientras que yo busco traza</l>
+                  <l>de meterla en un convento</l>
+                  <l>de cuidarme de mi casa,</l>
+                  <l>seria un placer muy grande.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>No me digais mas palabras</l>
+                  <l>yo ofrezco guardar la puerta</l>
+                  <l>siendo poca la tardanza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Media hora no tardaré.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Pues confiad en mi espada.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>De vos quedo asegurado:</l>
+                  <l>A Dios amigo del alma.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Si se miran bien las cosas</l>
+                  <l>este hombre es un fantasma</l>
+                  <l>puesto que rehusa ver</l>
+                  <l>á su hija bien casada;</l>
+                  <l>pues yo conozco á Florindo,</l>
+                  <l>y es hombre de circunstancias.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Sale Pancho por lo alto de la derecha ves- <lb/>tido de payo, cantando y
+                  bailando. </stage>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Tanto bailé con la moza del gura,</l>
+                  <l>tanto bailé que me dió calentura.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Este es el mundo, unos lloran,</l>
+                  <l>otros rien y otros cantan.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Tanto bailé á la puerta del horno.</l>
+                  <l>tanto bailé que me dió pan y bollo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Si no me engaño, parece,</l>
+                  <l>que yo conozco esta cara. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Me parece que yo he visto</l>
+                  <l>otra vez este panarra.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Pancho, amigo!</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Ola Fabricio....</l>
+                  <l>que majo estás, quien pensara</l>
+                  <l>te habia de conocer?</l>
+                  <l>y á qué oficio te has metido</l>
+                  <l>que gastas esa casaca?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Es que estoy sirviendo al Rey.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>De qué le sirves? de nada?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>En el ejército sirvo</l>
+                  <l>llegando por mis hazañas</l>
+                  <l>á ascender en mi carrera,</l>
+                  <l>pues ya soy sargento.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Aparta,</l>
+                  <l>haste allá si eres serpiente.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>No te digo eso, bestiaza.</l>
+                  <l>Hoy soy sargénto, y seré</l>
+                  <l>muy pronto, esto no es chanza,</l>
+                  <l>Alferes. Teniente, y luego</l>
+                  <l>Comandante ó Coronel....</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANCH.</speaker>
+                  <l>Y á tí que jornal te dan? </l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB </speaker>
+                  <l>Tres reales al dia, cama,</l>
+                  <l>uniforme, pan, aceite.</l>
+                  <l>leña y otras cosas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Y es comida el uniforme?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>El uniforme es casaca,</l>
+                  <l>chupa, calzon, fornituras,</l>
+                  <l>sombrero....</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Fabricio, aguarda,</l>
+                  <l>que es eso de fornituras?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Fornituras es la espada, </l>
+                  <l>el cinturon....</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC. </speaker>
+                  <l>el <choice>
+                        <sic>cinturion</sic>
+                        <corr>cinturon</corr>
+                     </choice>?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Donde se lleva colgada.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Y si yo me hago sargento,</l>
+                  <l>me daran esa chanfaina </l>
+                  <l>de fornituras, sombrero.</l>
+                  <l>aceite, uniforme, espada....</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Sargento no puedes ser</l>
+                  <l>ahora á primera entrada:</l>
+                  <l>lo que si puedes hacer</l>
+                  <l>por ahora, es sentar plaza,</l>
+                  <l>te daran tu vestuario,</l>
+                  <l>trece cuartos y tu cama.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Mientes que he estado sentado</l>
+                  <l>yo esta mañana en la plaza</l>
+                  <l>y no ha habido siquiera</l>
+                  <l>quien me diera dos castañas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Ya veo que tú entiendes</l>
+                  <l>de esto poquisimo ó nada.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Que quieres si en mi lugar</l>
+                  <l>de esa fruta no se gasta.</l>
+                  <l>Y esos hombres, dí Fabricio, </l>
+                  <l>cómo es como se llaman?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Soldado raso.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Abrenuncio,</l>
+                  <l>pues á mi gusto no encaja;</l>
+                  <l>si fuera de terciopelo,</l>
+                  <l>sí, pero raso nequaquam.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>No seas terco,</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC</speaker>
+                  <l>Ten paciencia,</l>
+                  <l>y hazme sí te dá la gana,</l>
+                  <l>soldado liso ó pelado,</l>
+                  <l>que á mi no me importa nada</l>
+                  <l>el ser pelado ó con pelo,</l>
+                  <l>como yo llene la panza.</l>
+               </sp>
+
+               <pb n="5" source="Moreno_192_5.jpg" facs="fedora_ug8104737/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">5</fw>
+
+               <sp>
+                  <speaker>FAB </speaker>
+                  <l>Pues lo primero ha de ser</l>
+                  <l>traerte sombrero y casaca,</l>
+                  <l>y darte alguna leccion.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Alicióname tu, vaya.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Espérate un breve instante,</l>
+                  <l>y te vestiré de gala. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Ya encontré yo mi fortuna.</l>
+                  <l>Mire usted, quien tal pensara,</l>
+                  <l>trece cuartos, pan y pre,</l>
+                  <l>y juntamente la cama?</l>
+                  <l>sin duda es esto mejor</l>
+                  <l>que guardar machos y cabras.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Sale Fabricio con el vestido de soldado, <lb/>sombrero y fusil: ejecutan lo
+                  que dicen los <lb/>versos. </stage>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Ya tienes aqui el vestido:</l>
+                  <l>vaya fuera esajergaza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Con que me quito mi ropa?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Si, y ponte aquesta casaca. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Y esto por donde se mete?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>No miras aquí la manga?</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Ya la veo, ten paciencia.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Que miras? en que te paras?</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>En que soy medio soldado,</l>
+                  <l>pues me das media casaca. </l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Aqui tienes la otra media.</l>
+                  <l>mete ese brazo despacha.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>El brazo ya está metido,</l>
+                  <l>pero esta postura es mala.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Borrico, baja esos brazos.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAN.</speaker>
+                  <l>Se puede con la casaca?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>No se ha de poder, salvaje?</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>No te enfades, ten cachaza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Aqui tienes el sombrero.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAN.</speaker>
+                  <l>Y de tres picaros! anda.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Ahora toma el fusíl.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Muy buen provecho te haga.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FB.</speaker>
+                  <l>Este del soldado es</l>
+                  <l>compañero en la campaña,</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Y cómo has dicho, Fabricio,</l>
+                  <l>que este instrumento se llama?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FR.</speaker>
+                  <l>El fusil.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Y aquesto, amigo,</l>
+                  <l>tieno nombre?</l>
+               </sp>
+
+               <sp>
+                  <speaker>F.</speaker>
+                  <l>La culata. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Y aquesto que es?</l>
+               </sp>
+
+               <sp>
+                  <speaker>F.</speaker>
+                  <l>La llave.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Será para habrir <choice>
+                        <sic>!a</sic>
+                        <corr>la</corr>
+                     </choice> casa.</l>
+                  <l>Y este hierrecito aquí? </l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>El disparador se llama.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Y este largo?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>La baqueta.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Y estas cositas doradas?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Esas son abrazaderas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Válgame Dios, que cosazas! </l>
+                  <l>Y esto gordo?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Es el cañon.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Abrazaderas, culata,</l>
+                  <l>baqueta, disparador.</l>
+                  <l>la llave de abrir la casa,</l>
+                  <l>y á mas á mas un cañon.</l>
+                  <l>Y el fusil, donde se halla?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Esas piezas lo componen:</l>
+                  <l>hombre no seas machaca;</l>
+                  <l>tú le has de tener asi,</l>
+                  <l>y has de cuidar de la casa, </l>
+                  <l>de modo que nadie llegue,</l>
+                  <l>ni se acerque con cien varas,</l>
+                  <l>y si acaso cumples bien</l>
+                  <l>te daré sin que haya falta,</l>
+                  <l>tu racion de pan, é irás</l>
+                  <l>al rancho á llenar la panza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Oyes, Fabricio, y el rancho,</l>
+                  <l>es tambien persona humana?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Es donde se come, bruto.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Pues llévame allá, despacha. </l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Luego iremos: ahora, mira,</l>
+                  <l>ponte aqui con buena planta, </l>
+                  <l>y hazte cuenta que soy yo</l>
+                  <l>otro que por aquí pasa. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Pero si tú eres Fabricio.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Has que ignoras quien soy, vaya. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Pero si yo sé quien eres.</l>
+               </sp>
+
+               <stage rend="cursiva">Le dá el fusil y le planta.</stage>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Importa que asi lo hagas:</l>
+                  <l>diras, quien vive tres veces,</l>
+                  <l>y sino hablo, sin tardanza </l>
+                  <l>me has de presentar la boca. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Lo haré yo de buena gana.</l>
+               </sp>
+
+               <stage rend="cursiva">Echa á andar.</stage>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Vamos pues: á donde vas?</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Pues no me has dicho vaya?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Quiero decir que preguntes.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Es verdad, no me acordaba.</l>
+               </sp>
+
+               <pb n="6" source="Moreno_192_6.jpg" facs="fedora_ug8104672/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Si te portas bien, amigo,</l>
+                  <l>habrá paga adelantada:</l>
+                  <l>vaya. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Quien vive tres veces?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Animal en forma humana, </l>
+                  <l>no es asi como se llama.</l>
+                  <l>Las boces son separadas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Ahora si que lo he entendido;</l>
+                  <l>no tengas cuidado, anda.</l>
+               </sp>
+
+               <sp>
+                  <speaker>F.</speaker>
+                  <l>Pues no ves queno respondo?</l>
+                  <l>Ahora presenta sin falta</l>
+                  <l>y sin detenerte; pronto</l>
+                  <l>la boca en qué te paras?</l>
+               </sp>
+
+               <stage rend="cursiva">Abre la boca.</stage>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Que es lo que haces, demonio?</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Maldita sea tu casta,</l>
+                  <l>cuantas bocas tengo yo?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Digo la del fusil.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Vaya!</l>
+                  <l>me has dicho que el fusil </l>
+                  <l>tiene boca ó calabaza?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FR.</speaker>
+                  <l>Mirala, esta es la boca.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Y sin dientes, cómo masca?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FR.</speaker>
+                  <l>Esta no masca, salvaje.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PAC.</speaker>
+                  <l>Pues qué es lo que hace?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Mata. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Y aquien mata?</l>
+               </sp>
+
+               <sp>
+                  <l>FAB.</l>
+                  <l>A todo el mundo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Y dime, con que lo mata?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Con el aliento.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Zambomba?</l>
+                  <l>y que aliento de bestiaza?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Y de esta el alimento</l>
+                  <l>es la pólvora y las balas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Y con trece cuartos quieres</l>
+                  <l>que compre yo esta ensalada?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB </speaker>
+                  <l>Si lo dá tambien el Rey.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>De aquese modo, vaya. </l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Vamos, pregunta.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Quien vive?</l>
+                  <l>quién vive? quién víve?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l><name>España</name>. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Y ahora?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Pregunta, qué gente?</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Que gente?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Ronda.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Caramba, </l>
+                  <l>ya estoy cansado y no puedo</l>
+                  <l>mas con el fusil con tanta</l>
+                  <l>qué gente, quien vive, ronda,</l>
+                  <l>qué ronda ni morondanga.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Si no haces la centinela,</l>
+                  <l>no esperes jamas la paga.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Pues vamos con mil demonios</l>
+                  <l>que tengo un hambre que es plaga.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Di que se adelante el cabo</l>
+                  <l>segun manda la ordenanza,</l>
+                  <l>á dar santo y contraseña,</l>
+                  <l>y cuidado con el arma,</l>
+                  <l>colocarla al punto al brazo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Esa oracion es muy larga,</l>
+                  <l>y yo no puedo aprenderla</l>
+                  <l>en veinticinco semanas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Pues asi no comerás, </l>
+                  <l>aunque tengas mucha gana.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Pues hombre vamos á ello,</l>
+                  <l>ya lo aprendí</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Pues vaya. </l>
+               </sp>
+
+               <stage rend="cursiva">Cachumeno va á salir y se detiene.</stage>
+
+               <sp>
+                  <speaker>CACH</speaker>
+                  <l>Ay que no puedo salir,</l>
+                  <l>que está á la puerta de guardia</l>
+                  <l>un sargento y un soldado.</l>
+                  <l>Esperaré á que se vayan. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Quien vive?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l><name>España</name>. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Qué gente?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Ronda mayor.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC</speaker>
+                  <l>Pues avanza.</l>
+                  <l>y trae la racion de pan,</l>
+                  <l>y la paga adelantada.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Ya yo veo que tu eres</l>
+                  <l>un borrico sin albarda.</l>
+                  <l>Quedate asi, que yo voy</l>
+                  <l>á que el almuerzo te traigan:</l>
+                  <l>no te muevas, que á mudarte</l>
+                  <l>vendrá muy pronto la guardia. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Cuidado que no te tardes,</l>
+                  <l>Porque la hambre me mata. </l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Cachumeno abre la puerta, y para salir se <lb/>mete por entre las piernas de
+                  Pancho, de- <lb/>jándole caer de espaldas y escapa sin que <lb/>lo vea. </stage>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Ya se fué el sargento, y queda</l>
+                  <l>solo el soldado de guardia,</l>
+
+                  <pb n="7" source="Moreno_192_7.jpg"
+                     facs="fedora_ug8107419/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>y yo no puedo salir:</l>
+                  <l>don Florindo que me aguarda</l>
+                  <l>con la respuesta, estará....</l>
+                  <l>Lo peor es si viene el viejo</l>
+                  <l>y me encuentra aquí, me mata;</l>
+                  <l>pues no, yo voy á escaparme,</l>
+                  <l>y salga por donde salga. <stage rend="cursiva">pasa.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Ay pobrecito de mí!</l>
+                  <l>que me han roto las entrañas!</l>
+                  <l>Qué demonio será esto?</l>
+                  <l>Pues no, yo no veo un alma.</l>
+                  <l>Si habrá duende? mas los duendes</l>
+                  <l>no tienen miedo á las guardías?</l>
+                  <l>Sigamos la centinela</l>
+                  <l>por si viene la pitanza,</l>
+                  <l>quien vive? <name>España</name>: que gente?</l>
+                  <l>Rondamayor! pues avanza.</l>
+                  <l>Señores, quien me ha metido</l>
+                  <l>á mi en esta salagarda?</l>
+               </sp>
+
+               <stage rend="cursiva">Sale Florindo y Cachumeno.</stage>
+
+               <sp>
+                  <speaker><choice>
+                        <sic>CAHC</sic>
+                        <corr>CACH</corr>
+                     </choice></speaker>
+                  <l>Señor don Florindo, sepa</l>
+                  <l>vd. que le ví la cara</l>
+                  <l>al miedo, pero escapé.</l>
+                  <l>Rosaura leyó el papel,</l>
+                  <l>y me dijo que arrestada</l>
+                  <l>está á cuanto vd. la mande,</l>
+                  <l>bajo de la confianza</l>
+                  <l>de la palabra de esposo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Esa es mi dicha, mas para</l>
+                  <l>lograrla he determinado</l>
+                  <l>el sacarla de su casa.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Qué es ir á <name>Roma</name> por todo:</l>
+                  <l>mas entrar á visitarla</l>
+                  <l>lo estorbará el centinela.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Puos estamos mal.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANCH.</speaker>
+                  <l>Abanza.</l>
+                  <l>viene ya el rancho señores?</l>
+                  <l>porque la hambre me mata.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Parece que el pobre es simple,</l>
+                  <l>yo le entretendré con maña;</l>
+                  <l>entra tú, y dí que la espero</l>
+                  <l>á mí querida Rosaura.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Voy en un brinco.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Amiguito.</l>
+                  <l>qué tal va? </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC. </speaker>
+                  <l>Quién vive? avanza:</l>
+                  <l>venga la racion de pan</l>
+                  <l>que ya la tengo ganada.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale Cachumeno y Rosaura.</stage>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Si, señora, don Florindo</l>
+                  <l>su novio es el que la aguarda.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Rosaura, prenda querida, </l>
+                  <l>que ha sucedido en tu casa</l>
+                  <l>que han puesto á este estafermo</l>
+                  <l>de centinela, Dí?</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Avanza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Mi padre me halló un papel</l>
+                  <l>en que yo te suplicaba</l>
+                  <l>me sacases del encierro</l>
+                  <l>en que padezco mil ansias.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Y quieres venir conmigo?</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Lo estorbará ese panarra,</l>
+                  <l>pues teniendo armas de fuego....</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Para mí, prenda adorada,</l>
+                  <l>ese es corto inconveniente</l>
+                  <l>Atienda usted, camarada.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>El pan y el pre venga luego,</l>
+                  <l>y sino dejo la guardia.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Ese fusil es pesado....</l>
+                  <l>dádmele acá sin tardanza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>El fusil no mas? tomadle:</l>
+                  <l>y la polvora y las balas?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>En el corazon las llevas</l>
+                  <l>si me hablas otra palabra.</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Ya que has dejado el fusil,</l>
+                  <l>te has de quitar la casaca;</l>
+                  <l>vaya, quitatela pronto.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Jesus, que chica tan guapa.</l>
+                  <l>Que, la lleva vd. á labar,</l>
+                  <l>porque tiéne mucha grasa?</l>
+               </sp>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>Amiguito, abur, abur.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>A Dios, centinela.</l>
+               </sp>
+
+               <sp>
+                  <speaker><choice>
+                        <sic>PANH</sic>
+                        <corr>PANCH</corr>
+                     </choice>.</speaker>
+                  <l>Avanza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>Amigo, para otra vez</l>
+                  <l>aprenda usted hacer la guardia.</l>
+               </sp>
+
+               <sp>
+                  <speaker>CACH.</speaker>
+                  <l>Amigo, para otra vez</l>
+                  <l>aprenda vd, hacer la guardia. <stage rend="cursiva">va sen.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Que me habian de mudar,</l>
+                  <l>ya me dijo el camarada. </l>
+                  <l>pero no que me darian</l>
+                  <l>un puntapié en la culata </l>
+               </sp>
+
+               <stage rend="cursiva">Sale don Tiburcio.</stage>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Ya queda todo dispuesto, </l>
+                  <l>hoy ha de quedar sin falta</l>
+                  <l>en unconvento mi hija,</l>
+               </sp>
+
+               <pb n="8" source="Moreno_192_8.jpg" facs="fedora_ug8103797/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Ronda, pan, avanza, avanza. </l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Qué hace vd. aqui, buen amigo?</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>No vé vd. que estoy de guardia?</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Guardia en mangas de camisa! </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Soy centinela á la usanza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Vaya usted á dormir el lobo, </l>
+                  <l>que lo ha tomado con gracia. <stage rend="cursiva">vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Eso no lo entiendo bien,</l>
+                  <l>pero Fabricio ya tarda,</l>
+                  <l>y si el rancho no me trae</l>
+                  <l>esta vida es arto mala.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale D. Tiburcio.</stage>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Habrá mayor picardia! </l>
+                  <l>Ay traidora hija malvada! </l>
+                  <l>pero en tí, mal centinela,</l>
+                  <l>tengo de vengar mi rabia;</l>
+                  <l>toma, infame. <stage rend="cursiva">le dá.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Hola! este pan</l>
+                  <l>es la paga adelantada? </l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>La paga asi te la doy.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale Fabricio.</stage>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Deteneos camarada. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Ay, Fabrício, que no quiren</l>
+                  <l>crerme que estoy de guardia! </l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Buena cuenta me habeis dado;</l>
+                  <l>sin mi hija me hallo en casa.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FAB.</speaker>
+                  <l>Usted se ha tardado mucho,</l>
+                  <l>la obligacion me llamaba,</l>
+                  <l>dejé aqui este centinela, </l>
+                  <l>y veo, segun la traza,</l>
+                  <l>que tambien á el han quitado</l>
+                  <l>el fusil y la casaca.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>Donde podré yo encontrar</l>
+                  <l>á esta hija mia malvada?</l>
+               </sp>
+
+               <stage rend="cursiva">Sale Florindo y Rosaura.</stage>
+
+               <sp>
+                  <speaker>ROS.</speaker>
+                  <l>A vuestros pies, padre mio.</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>A mi obediencia postrada</l>
+                  <l>os la pido para esposa,</l>
+                  <l>pues ya en mí poder se halla.</l>
+               </sp>
+
+               <sp>
+                  <speaker>TIB.</speaker>
+                  <l>No habiendo otro remedio,</l>
+                  <l>casaos en paz y en gracia.</l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC,</speaker>
+                  <l>Te parece á tí Fabricio,</l>
+                  <l>si me haran jefe de escuadra?</l>
+               </sp>
+
+               <sp>
+                  <speaker><choice>
+                        <sic>FAR</sic>
+                        <corr>FAB</corr>
+                     </choice>.</speaker>
+                  <l>Sí por lo bien que has cumplido.</l>
+                  <l>Qué hiciste de la casaca?</l>
+               </sp>
+
+               <sp>
+                  <speaker>FLOR.</speaker>
+                  <l>La casaca yo la tengo</l>
+                  <l>con el fusil bien guardada. </l>
+               </sp>
+
+               <sp>
+                  <speaker>PANC.</speaker>
+                  <l>Vamos al rancho por dios,</l>
+                  <l>porque tengo buenas ganas.</l>
+               </sp>
+
+               <sp>
+                  <speaker><choice>
+                        <sic>FAR</sic>
+                        <corr>FAB</corr>
+                     </choice></speaker>
+                  <l>Lo mejor será que vuelvas</l>
+                  <l>á guardar machos y cabras. </l>
+               </sp>
+
+               <sp>
+                  <speaker>TODOS.</speaker>
+                  <l>Y aqui acaba este sainete,</l>
+                  <l>perdonar sus muchas faltas.</l>
+               </sp>
+
+               <trailer rend="negrita">FIN</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>REIMPRESO EN CARMONA. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la
+                  Cabra núm. 4. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

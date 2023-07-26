@@ -1,0 +1,758 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_332">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pasillo nuevo andaluz ejecutado entre tío Curro el enamorado y Pepe el
+               valentón</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Pasillo nuevo andaluz ejecutado entre tio Curro el
+                     enamorado y Pepe el valenton.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1861-01-01">1861</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5060583</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 262</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_332_1.xml"
+                              facs="fedora_ug8108593/318,377,422,750/100,/0/default.jpg"
+                              >grabado_m_332_1</item>
+                           <item corresp="grabado_m_332_2.xml"
+                              facs="fedora_ug8108593/748,269,347,841/100,/0/default.jpg"
+                              >grabado_m_332_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q5783">
+                  <placeName key="Andalucía">Andalucía</placeName>
+                  <location>
+                     <geo>37.46 -4.16</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q1461">
+                  <placeName key="Manila">Manila</placeName>
+                  <location>
+                     <geo>14.595833333333333 120.97722222222222</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX555916.html" type="tipo_texto">Pasillos</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-08" who="#EL">Correction de l'OCR</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107975/manifest">
+      <graphic url="fedora_ug8108593/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_332_1.jpeg" facs="fedora_ug8108593/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 202.</fw>
+
+               <head type="primer_titulo">
+                  <lb/>PASILLO NUEVO ANDALUZ, <lb/>EJECUTADO ENTRE <lb/><hi rend="negrita">Tio Curro
+                     el enamorado y Pepe el valenton.</hi>
+               </head>
+
+               <stage rend="cursiva">Salen los dos.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Como me rio ja... ja...</l>
+                  <l>estuvo el lance bonito.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio. C.</speaker>
+                  <l>Pero que pasó Pepito?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe:</speaker>
+                  <l>Una broma no asi ná...</l>
+                  <l>tio Currito verasté;</l>
+                  <l>llegó á mi un mozo cosio</l>
+                  <l>conísu bigote torsio...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>A pintarla....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Pos á qué....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Ay que igñorancia, Jesú....</l>
+                  <l>eso fué una tonteria</l>
+                  <l>y que tal vez lo jaría</l>
+                  <l>sin saber quien eras tú.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Eso mesmo pense yo</l>
+                  <l>y viendo su bañiá, </l>
+                  <l>lo miré con cariá.</l>
+                  <l>Tio Curro porque si nó....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>No ha menester que igas mas.</l>
+                  <l>que yo sé tus proceeres</l>
+                  <l>y lo valiente que eres;</l>
+                  <l>nadie chista á onde tú estás.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Tio Curro lo sabosté</l>
+                  <l>pos yo me alegro infinito.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>No te sofoques Pepito</l>
+                  <l>que tienes mucho poé.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Me pongo como una hoguera </l>
+                  <l>y no quieo pensá en esto:</l>
+                  <l>tio Curro, soy yo algun tiesto?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Un moso é los é primera.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Valla ese puro compare</l>
+                  <l>y no tengaste cudiao</l>
+                  <l>que esta noche sa juntao</l>
+                  <l>con uno é los doce pare.</l>
+                  <l>Como buelva ésé chávó,</l>
+                  <l><choice>
+                        <sic>iio</sic>
+                        <corr>tio</corr>
+                     </choice> Curro no tiemblosté....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Estandó tu aqui porqué </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Bien sabosté quien soy yo,</l>
+
+                  <pb n="2" source="Moreno_332_2.jpeg"
+                     facs="fedora_ug8109353/full/full/0/default.jpg"/>
+
+                  <l>osté sabe que soy neto</l>
+                  <l>y en metiendome en jarana,</l>
+                  <l>dobla al punto la campana</l>
+                  <l>por el arma de algun muerto:</l>
+                  <l>el dia que estoy varí</l>
+                  <l>y comienzo á dar moquetes,</l>
+                  <l>lo mesmo que rejiletes</l>
+                  <l>uyen los hombres de mi.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>¿Pero al fin que te graznó</l>
+                  <l>ese moso pinturero?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Cuanto me dicó ligero</l>
+                  <l>de mi vista se quitó;</l>
+                  <l>estava mal enterao</l>
+                  <l>como oste dijo tio Curro,</l>
+                  <l>y yo tambien lo diseurró</l>
+                  <l>porque se fué avergonsao:</l>
+                  <l>llegó sin poerme jablá</l>
+                  <l>y se queó como un difunto</l>
+                  <l>á si que yo le pregunto</l>
+                  <l>el que quioste camará? </l>
+                  <l>se esmalló en aquel instante</l>
+                  <l>y oyendo mi voz tan fuerte</l>
+                  <l>los colores de la muerte</l>
+                  <l>le asomaron al semblante.</l>
+                  <l>Yo entonses con espalpajo</l>
+                  <l>por no dalle que contá</l>
+                  <l>le dije: lla pué toma</l>
+                  <l>calle arriba ú calle abajo.</l>
+                  <l>No quiso asperá otra chanza</l>
+                  <l>y tomó jacia ay arriba,</l>
+                  <l>dando seña positiva</l>
+                  <l>de tené buena crianza.</l>
+                  <l>Por no tener mas quimera</l>
+                  <l>al instante se najó.</l>
+                  <l>Tio Curro y me respetó</l>
+                  <l>como si su padre fuera.</l>
+                  <l>¿Y hosté qué busca po aqui</l>
+                  <l>á estas horas, digasté?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Ando tras una, gaché</l>
+                  <l>que me tiene muerto ami</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Tio Currito de verda,</l>
+                  <l>tan viejo y enamorando,</l>
+                  <l>balla que osté esta ensoñando,</l>
+                  <l>yo no lo creo en su edá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Hombre pasó lo siguiente:</l>
+                  <l>esa mosa que yo adoro</l>
+                  <l>ayer la vie en los toro</l>
+                  <l>y me gustó ciertamente.</l>
+                  <l>Mientras duró la corria</l>
+                  <l>estuve como una gacha,</l>
+                  <l>porque estuvo la muchacha</l>
+                  <l>senta á la vera mia.</l>
+                  <l>Es una mosa lachó</l>
+                  <l>que tiene dos mil primores,</l>
+                  <l>rubia, con unas colores,</l>
+                  <l>viva el cielo, de mistó.</l>
+                  <l>Eya es blanca, colorá, </l>
+                  <l>mu graciosa, delgaita,</l>
+                  <l>con mu poca cinturita</l>
+                  <l>y de aqui mu abulta.</l>
+                  <l>Con su ropa mu airosa,</l>
+                  <l>que cada vez que dá un paso,</l>
+                  <l>a mi me jaciá peaso</l>
+                  <l>al verla tan linga mosa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Vaya si me paese á mi</l>
+                  <l>que osté sa puesto chalao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Mia Pepe, que ma gustao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Y si oste es ya un puri.</l>
+                  <l>Pa que quiosté ese ruio</l>
+                  <l>si es tan viejo como Adan</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Pues Pepe soy un bolcán</l>
+                  <l>en amores encendio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepé.</speaker>
+                  <l>Usté ya no tendrá muelas</l>
+                  <l>ni quisas dientes tampoco,</l>
+                  <l>luego espues está V. loco</l>
+                  <l>con querer á las mosuelas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Es verdad lo que tú dice</l>
+                  <l>pero estoy tan vivaracho</l>
+                  <l>como cualquiera muchacho</l>
+                  <l>que tenga catorce ò quince.</l>
+                  <l>Este movimiento mio,</l>
+                  <l>esta facha, esta soltura....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>¿Tio Currito y la entaura? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Otaviá no ma nacio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Pos entónces...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Caya tú,</l>
+                  <l>que otabia no me tarda.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Vaya, osté no se acobarda</l>
+                  <l>y ya es una senetú.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Pepe, no digas tú eso,</l>
+                  <l>mirame á mi bien mirao;</l>
+                  <l>¿no soy majo y bien plantao?</l>
+                  <l>no es verdad que soy mu tieso?</l>
+                  <l>La mosa que a mi me vea</l>
+                  <l>cuanto yo le jaga un giñe,</l>
+                  <l>hasta con su padre riñe</l>
+
+                  <pb n="3" source="Moreno_332_3.jpeg"
+                     facs="fedora_ug8110196/full/full/0/default.jpg"/>
+
+                  <l>y cual jorno se caldea.</l>
+                  <l>En dandole una gromita</l>
+                  <l>á cualquier mosa, Pepito,</l>
+                  <l>lo mesmo que un madroñito</l>
+                  <l>se pone de encarnaita</l>
+                  <l>Asi es como se camela</l>
+                  <l>y en siendo un hombre saláo,</l>
+                  <l>aun cuerpo que esté apagao</l>
+                  <l>le jace brotar candela.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Teniendo oste esa fortuna</l>
+                  <l>se puede llamar dichoso:</l>
+                  <l>y espues de ser tan baboso</l>
+                  <l>tio Curro, lo quiere alguna?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Pepe, si ubiera querio,</l>
+                  <l>no igo ná, mas de docientas</l>
+                  <l>an sio las pretendientas</l>
+                  <l>que mi persona á tenio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Sehasté á espachar con buya </l>
+                  <l>Tio Currito, de esta ves</l>
+                  <l>y esa fortunilla és</l>
+                  <l>para osté no mas que suya.</l>
+                  <l>Esa gachi que lo quiere</l>
+                  <l>tampoco será malita.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>No Pepe que es mú bonita</l>
+                  <l>donde se pongan mugere.</l>
+                  <l>Es tan graciosa esta chica,</l>
+                  <l>que no la pueo olvidá,</l>
+                  <l>me ha puesto é conformiá</l>
+                  <l>que toito el cuerpo me pica.</l>
+                  <l>Tiene dos ojos, salero</l>
+                  <l>que con un mirá me mata,</l>
+                  <l>y se merecen mas plata</l>
+                  <l>que el pais del estrangero.</l>
+                  <l>Tiene una nariz filena</l>
+                  <l>hecha con tanto primó </l>
+                  <l>que allí la gracia, paró</l>
+                  <l>dibujando esta azucena.</l>
+                  <l>Y tiene dos rosetonas</l>
+                  <l>en sus mejillas bariles;</l>
+                  <l>que valen, Pepe, mas miles</l>
+                  <l>que el orbe con sus coronas.</l>
+                  <l>Tiene en su cara un luna</l>
+                  <l>que el mesmo Dios se lo puso,</l>
+                  <l>pa que yo esté mas confuso</l>
+                  <l>y eya mas netá y juncá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>¿Y donde vive esa criatura!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>No es criatura, es querubin;</l>
+                  <l>y abita en un camirin</l>
+                  <l>heche con arquitectura.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Jablosté con mas sentio,</l>
+                  <l>tio Curro que estoy quemao</l>
+                  <l>y si yo le he preguntao</l>
+                  <l>con su cuentecita ha sio.</l>
+                  <l>Digamoste la verdà,</l>
+                  <l>respondame sin demora;</l>
+                  <l>dóndé vive esa señora</l>
+                  <l>que de osté está enamorá?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>En esa calle que vés</l>
+                  <l>tiene su casa la mosa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Bueno, bamos á otra cosa</l>
+                  <l>que es de mayor interes:</l>
+                  <l>¿Esa muger admitió</l>
+                  <l>las bromas que osté le daba</l>
+                  <l>á su casa lo llamaba</l>
+                  <l>ó en algo lo concintó?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Esas son muchas jonduras.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Aunque sean, jablosté.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Yo de eya enamoré</l>
+                  <l>por toas mis coyunturas;</l>
+                  <l>cuando la ví, me gustó;</l>
+                  <l>y las pisas le sigó</l>
+                  <l>y en esa calle que digo</l>
+                  <l>en una casita entró.</l>
+                  <l>La busco como un chiquillo</l>
+                  <l>y como la llegue á ver,</l>
+                  <l>tambien le quiero poner</l>
+                  <l>en las manos un borcillo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe,</speaker>
+                  <l>Tio Currito, y á esa jembra</l>
+                  <l>pa que es esa regalia?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Porque aqui en <name>Andalucia</name></l>
+                  <l>para recojer se siembra.</l>
+                  <l>Con la monea, bien vés,</l>
+                  <l>se hace el hombre apetecible</l>
+                  <l>y no se encuentra imposible</l>
+                  <l>que no ayane el interés.</l>
+                  <l>Todo hombre que no estila,</l>
+                  <l>cuando quiere camelá</l>
+                  <l>á cualquier mosa le dá</l>
+                  <l>pa un pañuelo de <name>Manila</name>.</l>
+                  <l>Y el que ronda de sequero</l>
+                  <l>aunque Jerineldo sea,</l>
+                  <l>lo desprecia la mas fea</l>
+                  <l>si no le siente dinero.</l>
+                  <l>Cuando le di mi bromita</l>
+                  <l>algo suspensa se quea</l>
+                  <l>pero en biendo la monea</l>
+
+                  <pb n="4" source="Moreno_332_4.jpeg"
+                     facs="fedora_ug8104843/full/full/0/default.jpg"/>
+
+                  <l>todo el reparo se le quita.</l>
+                  <l>Me an dicho que un balenton</l>
+                  <l>la camela y á mi qué</l>
+                  <l>si él tiene mucho poé</l>
+                  <l>mas tiene un napaleon.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Tio Curro, esa mocetona</l>
+                  <l>que osté á mi está pintando</l>
+                  <l>manque la está camelando</l>
+                  <l>y eya quiere á esta parsona.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Toi C.</speaker>
+                  <l>Jesucristo!!! que suor...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>¿Le á dao á osté perlecia?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Ay Pepe, yo no sábia... </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Y aqué biene ese temblo?</l>
+                  <l>Me está dundo una benate</l>
+                  <l>de volverle asi la mano.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio. C.</speaker>
+                  <l>Pepe que soy un anciano..</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Un mantés, charrán, petate.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Pos bueno lo que tú digas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Si lo veo y no lo veo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Ay que ma dao un mareo,</l>
+                  <l>un temblor y una fatiga,</l>
+                  <l>si yo hubiera sabio algo</l>
+                  <l>Hi mirarla....</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Por supuesto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>No bes que friome he puesto</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Osté es un tuno mu largo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Perdóname por tu via</l>
+                  <l>y ten lastima de mi,</l>
+                  <l>que esa muger no entendi</l>
+                  <l>que á ti te pertenecia.</l>
+                  <l>Que si lo hubiera sabio</l>
+                  <l>te digo en formáliá.</l>
+                  <l>que me echaba de verdá </l>
+                  <l>por respetarle en el rio. </l>
+                  <l>Algun diablo me tentó</l>
+                  <l>pa mirar yo esa muger;</l>
+                  <l>pero como abia de ser,</l>
+                  <l>la erré, Pepe, anda condió.</l>
+                  <l>Por mi lengua me perdí</l>
+                  <l>sin saber con quien jablaba, </l>
+                  <l>y la pacion me cegaba</l>
+                  <l>al yerro que cometí.</l>
+                  <l>Pero, Pepe, la razon</l>
+                  <l>no tiene mas de un camino,</l>
+                  <l>aun ángel tan perigrino</l>
+                  <l>quien no le dá el corazon?</l>
+                  <l>Tú quieres á la muger</l>
+                  <l>mas hermosa y mas salá,</l>
+                  <l>y nunca te hán de faltá</l>
+                  <l>ostáculos que vencer.</l>
+                  <l>Dichoso mil veces mil</l>
+                  <l>aquel que duerme al sereno,</l>
+                  <l>y se paga de lo bueno</l>
+                  <l>y no de ningun mandil.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Se acabó esá tonteria:</l>
+                  <l>á marcharse prontamente</l>
+                  <l>y á quitarsé dél relente.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Siempre soy tu amigo yó,</l>
+                  <l>dame la maño.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Corriente</l>
+                  <l>y que tengasté presente...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Tio C.</speaker>
+                  <l>Valla, Pepe, no que no. <stage rend="cursiva">(Vase)</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pepe.</speaker>
+                  <l>Buen susto llevá él pobrete;</l>
+                  <l>como que sabé mi humó:</l>
+                  <l>pero al fin se disculpó</l>
+                  <l>y me ha gustao el dicheto.</l>
+                  <l>Una mosa tan bari</l>
+                  <l>no se encuentra donde quiera</l>
+                  <l>como la tubo á la vera</l>
+                  <l>se ensendio viejó puri.</l>
+                  <l>Si un cuerpo casi difunto</l>
+                  <l>de ese modo resucita,</l>
+                  <l>que será mí personita</l>
+                  <l>cuando sede siente junto.</l>
+                  <l>Bamos no quiero pensar</l>
+                  <l>estas cosas, que me errito,</l>
+                  <l>voy á ver su cielecito</l>
+                  <l>con Diós, Señores, mandar.</l>
+               </sp>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:1861 <lb/>Imp. de D. José María Moreno, calle de Madre de Dios. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

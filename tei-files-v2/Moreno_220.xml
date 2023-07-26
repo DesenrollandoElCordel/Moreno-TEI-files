@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_220">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sátira nueva y curiosa que declara ¡O cuánto puede el dinero!</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Satira nueva y curiosa que declara ¡O cuanto puede
+                     el dinero!</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (s.a.): <ref target="Moreno_219.xml">Moreno_219</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475639</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 229</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Sátira</item>
+                        <item>Seguidillas</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Satira nueva y curiosa que declara ¡O cuanto puede el dinero!</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Nuevas seguidillas</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_220_1.xml"
+                              facs="fedora_ug8104558/348,296,422,708/100,/0/default.jpg"
+                              >grabado_m_220_1</item>
+                           <item corresp="grabado_m_220_2.xml"
+                              facs="fedora_ug8104558/764,332,740,662/100,/0/default.jpg"
+                              >grabado_m_220_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
+               <term target="XX5711649.html" type="tipo_texto">Seguidillas</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-06" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8109595/manifest">
+      <graphic url="fedora_ug8104558/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_220_1.jpg" facs="fedora_ug8104558/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm, 229.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/>SATIRA NUEVA Y CURIOSA, <lb/>QUE DECLARA <lb/><hi rend="negrita">¡O CUANTO
+                     PUEDE EL DINERO!</hi>
+               </head>
+
+
+               <lg>
+                  <l rend="indent">A nadie pido licencia</l>
+                  <l>para haber de componer</l>
+                  <l>unas coplas que han de ser</l>
+                  <l>cada una una sentencia:</l>
+                  <l>aunque es mucha mi inocencia,</l>
+                  <l>escúcheme el que quisiere,</l>
+                  <l>el que despacio estuviere,</l>
+                  <l>oigan que cantarles quiero:</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y digo de que los Sastres</l>
+                  <l>son hombres de gran sentido,</l>
+                  <l>porque en cortando un vestido</l>
+                  <l>van con el duéño á la parte:</l>
+                  <l>y son hombres de tal arte,</l>
+                  <l>que en tomando la tijera,</l>
+                  <l>antes de trazar la tela</l>
+                  <l>sacan la sisa primero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Zapateros de obra prima,</l>
+                  <l>bacuneros y de viejo</l>
+                  <l>habian de estar sin pellejo</l>
+                  <l>porque cosen por encima:</l>
+                  <l>con cuerda delgada y fina</l>
+                  <l>para que sean presto rotos,</l>
+                  <l>y vuelvan á comprar otros</l>
+                  <l>en casa del Zapatero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Digo que los Herradores</l>
+                  <l>son hombres de entedímiento,</l>
+                  <l>porque saben de un jumento</l>
+                  <l>los trabajos y dolores;</l>
+                  <l>y cómo sábios doctores,</l>
+                  <l>y hombres de gran discurso,</l>
+                  <l>toman al borrico el pulso</l>
+                  <l>por ver si está aguado ó huero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <pb n="2" source="Moreno_220_2.jpg" facs="fedora_ug8105708/full/full/0/default.jpg"/>
+
+
+               <lg>
+                  <l rend="indent">Montañeses y especieros</l>
+                  <l>son de un propio natural,</l>
+                  <l>no dan medida cabal,</l>
+                  <l>y hacen unos pesos fieros:</l>
+                  <l>comen como caballeros,</l>
+                  <l>y estás buenas criaturas,</l>
+                  <l>hacen lindas misturas</l>
+                  <l>con aguas de fregaderos.</l>
+                  <l>¡O cuanto puede el dinero.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Verán á los Sombrereros,</l>
+                  <l>que con lana de un pellino</l>
+                  <l>hacen un sombrero fino,</l>
+                  <l>diciendo que es de conejo;</l>
+                  <l>si se lo pone algun viéjo</l>
+                  <l>y arriero suele ser,</l>
+                  <l>los burros se van tras él</l>
+                  <l>rebuznando placenteros.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Los Panaderos sontales,</l>
+                  <l>que cuando al molino van</l>
+                  <l>hacen mistos con el pan,</l>
+                  <l>que nos acarrean males,</l>
+                  <l>llevan granos especiales,</l>
+                  <l>maiz, habas, alberjones,</l>
+                  <l>y harina de cañamones;</l>
+                  <l>y asi sale el pan bolero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Los Carniceros son tales</l>
+                  <l>como los Bodegoneros,</l>
+                  <l>pues digo los .Pasteleros</l>
+                  <l>no son hombres muy cabales?</l>
+                  <l>todos tienen cuatro reales,</l>
+                  <l>pues se saben arbitrar,</l>
+                  <l>y asi bien pueden triunfar</l>
+                  <l>de vestido y tragadero.</l>
+                  <l>¡O cuán to puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Digo en genero de chanza,</l>
+                  <l>que todos los regatones,</l>
+                  <l>andan siempre á bofetones</l>
+                  <l>con el peso y la balanza:</l>
+                  <l>ellos no tiene mudanza,</l>
+                  <l>que aunque sejan condenarse,</l>
+                  <l>ó los metan en la cárcel,</l>
+                  <l>han de sisar con esmero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Alguaciles y Corchetes</l>
+                  <l>á poco trabajo pasan,</l>
+                  <l>son mal vistos en las plazas,</l>
+                  <l>pues prenderan á sus gentes;</l>
+                  <l>siempre andan muy diligentes,</l>
+                  <l>comen y beben barato,</l>
+                  <l>no dan por el vino un cuarto,</l>
+                  <l>que lo paga el Tabernero.</l>
+                  <l>¡O cuánto puede el dineroí</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Los Corredores son gallos</l>
+                  <l>d. siempre andan de pendencias,</l>
+                  <l>y aguantan impertinencias</l>
+                  <l>por la venta de un Caballo:</l>
+                  <l>dicen que en él no hay engaño,</l>
+                  <l>teniendo muermo reinal,</l>
+                  <l>tal vez un esperaban,</l>
+                  <l>ó en algun ojo un uñero.</l>
+                  <l>¡O cúánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Verán un Maestro de dánza</l>
+                  <l>que toma en un pueblo asiento,</l>
+                  <l>los dicípulos contentos</l>
+                  <l>le llenan muy bien la panza:</l>
+                  <l>él les pone contradanzas,</l>
+                  <l>boleras, zapateado,</l>
+                  <l>le pagan adelantado,</l>
+                  <l>luego se ausenta ligero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cirujanos, Sacristanes,</l>
+                  <l>Médicos y Boricarios,</l>
+                  <l>estos son nuestroscontrarios,</l>
+                  <l>nos desean muchos males,</l>
+                  <l>y crian bueños caudales,</l>
+                  <l>y nos tiran á matar,</l>
+                  <l>y hay hombre que por tomar</l>
+                  <l>matará al mundo entero,</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Para embargar un Borrico</l>
+                  <l>se descubre luego al fin,</l>
+                  <l>que embargan mas de dos mil</l>
+                  <l>y asi llenan el bolsillo,</l>
+                  <l>señores, muy bien me esplico,</l>
+                  <l>pues el lindo embargador</l>
+                  <l>se vale de la ocasion,</l>
+                  <l>y lo paga el Arriero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+               <lg>
+                  <l rend="indent">Señores, los Chalanes</l>
+                  <l>tengo hecho buen aprecio,</l>
+                  <l>pues compran por bajo precio</l>
+                  <l>todo cuanto á ellos le sale:</l>
+                  <l>compró uno por diez reales</l>
+
+                  <pb n="3" source="Moreno_220_3.jpg"
+                     facs="fedora_ug8110156/full/full/0/default.jpg"/>
+
+                  <l>un dia á un enterrador</l>
+                  <l>dos sabanas y un colchon,</l>
+                  <l>una capa y en sombrero.</l>
+                  <l>¡O cuánto quede eldinero!</l>
+               </lg>
+
+
+               <lg>
+                  <l rend="indent">Siempre andan por esos altos</l>
+                  <l>Carpinteros y Albañiles</l>
+                  <l>y de sus altos plcitiles</l>
+                  <l>suelen bajar dando saltos;</l>
+                  <l>mas de aquestos sobresaltos</l>
+                  <l>se suelen romper las galas:</l>
+                  <l>ó que caidas tan malas,</l>
+                  <l>que se rompen los traseros.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Los mandaderos de casas</l>
+                  <l>no se tienen de escapar,</l>
+                  <l>porque poñen por un real</l>
+                  <l>lo que a seis cuartos no alcanza:</l>
+                  <l>y con estas lindas trazas</l>
+                  <l>siempre andan muy bien portados,</l>
+                  <l>con la sisa acomodados,</l>
+                  <l>y se la encubre el tendero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Muchos hay que quieren ser</l>
+                  <l>á poca costa señores,</l>
+                  <l>y se suben á mayores,</l>
+                  <l>y á un pobre no pueden ver:</l>
+                  <l>y estos, quién vienen á ser?</l>
+                  <l>son algunos que han sérvido,</l>
+                  <l>de sus uñas se han valido,</l>
+                  <l>como buenos peluleros.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En el mundo hoy se mantiene</l>
+                  <l>la gala y la fantasia,</l>
+                  <l>unos y otros á porfia,</l>
+                  <l>y no es hombre el que no tiene,</l>
+                  <l>ni de buena sangre viene;</l>
+                  <l>mas como tenga caudal,</l>
+                  <l>todos su lado lé dan,</l>
+                  <l>aundue sea el pregonero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Muchos sin tener que haber</l>
+                  <l>casas, viñas, ni olivares,</l>
+                  <l>echan galas á millares</l>
+                  <l>sus hijos y su muger:</l>
+                  <l>viven con grande placer,</l>
+                  <l>porque tienen gran Paciencia,</l>
+                  <l>y aguantan impertinencias</l>
+                  <l>como un humilde cordero.</l>
+                  <l>¡O cuánto puede el dinero!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Los ciegos no saben mas</l>
+                  <l>que vender sus papelitos,</l>
+                  <l>y si les dan un realito</l>
+                  <l>tambien lo saben tomar:</l>
+                  <l>yo aqui no he contado mas</l>
+                  <l>que lo que dice el papel;</l>
+                  <l>si alguno lo quiere ver</l>
+                  <l>venga y cómprelo ligero,</l>
+                  <l>que yo ando tras del dinero.</l>
+               </lg>
+            </div>
+
+            <div>
+               <head rend="negrita" type="primer_titulo">NUEVAS SEGUIDILLAS.</head>
+
+               <lg>
+                  <l rend="indent">Cupidillo me abrasa</l>
+                  <l>con sus incendios,</l>
+                  <l>mas como son Cupidos</l>
+                  <l>muero por ellos,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que es fuego dulce,</l>
+                  <l>que cuanto mas abrasa,</l>
+                  <l>menos consume.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando mas tiraniza,</l>
+                  <l>mas le deseo,</l>
+                  <l>porque con sus rigores</l>
+                  <l>crece mi anhelo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que mi destino</l>
+                  <l>se alienta en lo tirano,</l>
+                  <l>como en lo fino.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ofreciendo á tus aras</l>
+                  <l>mis sacrificios,</l>
+                  <l>nunca logro la dicha</l>
+                  <l>de mis alivios.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Porque inhumano,</l>
+                  <l>no se rinde á lo dulce</l>
+                  <l>ni á lo tirano.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Siempre tuve por dichas</l>
+
+                  <pb n="4" source="Moreno_220_4.jpg"
+                     facs="fedora_ug8109995/full/full/0/default.jpg"/>
+
+                  <l>sus sinrazones,</l>
+                  <l>porque en él las locuras</l>
+                  <l>son discreciones.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que como es ciego,</l>
+                  <l>no distingue lo altivo</l>
+                  <l>de lo discreto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque mas se retire</l>
+                  <l>de mi esperanza,</l>
+                  <l>nunca estará distante</l>
+                  <l>de mi alabanza.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Porque asi entiendo</l>
+                  <l>págar á sus rigores</l>
+                  <l>amante feudo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A un amor hechicero</l>
+                  <l>fino adoraba;</l>
+                  <l>mas ya solo ha quedado</l>
+                  <l>tormento al alma.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que en los amores</l>
+                  <l>primero que las dichas</l>
+                  <l>son los rigores.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Descubríle mi pecho</l>
+                  <l>por obligare;</l>
+                  <l>y juzgando rendirle,</l>
+                  <l>vine á irritarle.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pues siendo ciego,</l>
+                  <l>se rinde á los rigores,</l>
+                  <l>no á los obsequios.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Discurriendo en sus aras</l>
+                  <l>hallar piedades,</l>
+                  <l>encontré sinrazones,</l>
+                  <l>y falsedades.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Porque lo altivo</l>
+                  <l>se irrita en lo piadoso,</l>
+                  <l>y en lo rendido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando amante intentaba</l>
+                  <l>lograr mis ánsias,</l>
+                  <l>han salido mentidas</l>
+                  <l>mis esperanzas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que en lo esperado</l>
+                  <l>siempre es mas lo mentido</l>
+                  <l>que lo gozado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Adoraba yo ciego</l>
+                  <l>su cautiverio,</l>
+                  <l>juzgando que obligaba</l>
+                  <l>su noble incendio.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pero es engaño,</l>
+                  <l>persuadir sus finezas</l>
+                  <l>con mis halagos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El rigor inconstante</l>
+                  <l>de mi tormento,</l>
+                  <l>soy feliz en sentirlo,</l>
+                  <l>no en padecerlo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Porque quisiera</l>
+                  <l>parecer holocausto,</l>
+                  <l>pero no ofrenda.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y pues á lo tirano</l>
+                  <l>le ofende el culto,</l>
+                  <l>fallezca en su silencio</l>
+                  <l>mi amante impulso.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Siendo mi queja </l>
+                  <l>el mas mudo lamento</l>
+                  <l>de mi querella.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pues tirano Cupido</l>
+                  <l>si no te mueven</l>
+                  <l>mis tan justas querellas,</l>
+                  <l>vengan desdenes.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que á padecerlos</l>
+                  <l>desde luego me obligo,</l>
+                  <l>aunque muriendo.</l>
+               </lg>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. <lb/>Imprenta de D. J. María Moreno, calle Juan de la Cabra,
+                  núm. 5. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

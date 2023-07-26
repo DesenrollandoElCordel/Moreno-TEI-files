@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_293">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El fraile fingido</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El fraile fingido.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477625</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 307</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_293_1.xml"
+                              facs="fedora_ug8109108/483,331,430,808/100,/0/default.jpg"
+                              >grabado_m_293_1</item>
+                           <item corresp="grabado_m_293_2.xml"
+                              facs="fedora_ug8109108/963,329,418,809/100,/0/default.jpg"
+                              >grabado_m_293_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-22" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105912/manifest">
+      <graphic url="fedora_ug8109108/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <pb n="1" source="Moreno_293_1.jpeg" facs="fedora_ug8109108/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Núm. 307.</fw>
+
+            <head rend="negrita" type="reparto_titulo">EL FRAILE FINGIDO.</head>
+            <head type="subtitulo">Nuevo y curioso romance, en que se manifies- <lb/>tan los exesos
+               de un amor profano, y hasta don- <lb/>de llega el ardid, las astucias y cautelas de
+               <lb/>las mugeres.</head>
+
+            <div n="1" type="parte">
+
+               <head type="titulo_parte">PRIMERA PARTE.</head>
+
+               <l rend="indent ">Cuando el Sacro Autor Supremo</l>
+               <l>crió los Cielos y tierra</l>
+               <l>las aves, brutos y peces,</l>
+               <l>las plantas, flores y yervas;</l>
+               <l>hizo superior al hombre,</l>
+               <l>para que domine y sea</l>
+               <l>en superlativo grado,</l>
+               <l>aun señor de las estrellas.</l>
+
+               <pb n="2" source="Moreno_293_2.jpeg" facs="fedora_ug8108859/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Tmabien crió á la muger</l>
+               <l>la cual para urdir cautelas,</l>
+               <l>finge á las veces un llanto,</l>
+               <l>vertiendo unas falsas perlas,</l>
+               <l>con que conmueve y ablanda</l>
+               <l>los corazones de píedra,</l>
+               <l>sí no, para desengaño,</l>
+               <l>y de lo que digo prueba,</l>
+               <l>présteme el noble auditorio</l>
+               <l>grato oido y vista atenta.</l>
+               <l>Crióse en cierta Ciudad,</l>
+               <l>que no conviene se sepa</l>
+               <l>la mas hermosa muger</l>
+               <l>que copió naturaleza.</l>
+               <l>Llamábase Doña Eufrasia,</l>
+               <l>de tan bella gentileza,</l>
+               <l>que por toda la Ciudad</l>
+               <l>y por su circunferencia,</l>
+               <l>la llamaban el milagro,</l>
+               <l>para mas bien conocerla.</l>
+               <l>Llegó á ver su edad florida</l>
+               <l>diez y sicte primaveras,</l>
+               <l>cuando ya los pretendientes</l>
+               <l>copia sin número eran,</l>
+               <l>qne siempre las hermosuras</l>
+               <l>tienen la basa primera,</l>
+               <l>y entre los muchos fue uno</l>
+               <l>de su agrado y complacencia,</l>
+               <l>mas no en su familia toda,</l>
+               <l>pues de nadie gusto era,</l>
+               <l>por ser muy pobre: mal haya</l>
+               <l>este borron de pobreza</l>
+               <l>qué mal visto es en el mundo,</l>
+               <l>pues aunque tenga nobleza,</l>
+               <l>en teniendo este defecto,</l>
+               <l>no hay quien no lo vitupera.</l>
+               <l>Amábanse tiernamente</l>
+               <l>con amistad muy estrecha;</l>
+               <l>y recelando sus padres</l>
+               <l>que aqueste amor prosiguiera,</l>
+               <l>determinaron casarla,</l>
+               <l>buscando sus conveniencias,</l>
+               <l>con un mercader muy rico,</l>
+               <l>para que á gusto viviera:</l>
+               <l>obligacion que los padres</l>
+               <l>hagan estas diligencias,</l>
+               <l>pues jamás la juventud</l>
+               <l>miró causas venideras;</l>
+               <l>y como en las mas mugeres</l>
+               <l>se ve poca subsistencia,</l>
+               <l>se ladeó á pocos golpes.</l>
+               <l>mas sin perder la frecuencia</l>
+               <l>hácia el amante primero;</l>
+               <l>y su casamiento ordenan</l>
+               <l>con el dicho Mercader,</l>
+               <l>no con voluntad perfecta,</l>
+               <l>pues por dar gusto á sus padres</l>
+               <l>otorgó por la obediencia.</l>
+               <l>Y para que su querido</l>
+               <l>tolerase aquella pena,</l>
+               <l>lo animó con la esperanza</l>
+               <l>que luego que esposo tenga,</l>
+               <l>le pagaría su amor</l>
+               <l>con grande magnificencia.</l>
+               <l>Con esta consolatoria,</l>
+               <l>el dicho amante se alienta</l>
+               <l>deseando que las bodas</l>
+               <l>con gran prontitud se hicieran,</l>
+               <l>Por último se casaron,</l>
+               <l>y ella alegre y placentera,</l>
+               <l>sín mostrar menor disgusto,</l>
+               <l>albricias daba á su estrella.</l>
+               <l>O manzanas de Sodoma!</l>
+               <l>que en lo esterior todas muestran</l>
+
+               <pb n="3" source="Moreno_293_3.jpeg" facs="fedora_ug8105377/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>particular hermosura;</l>
+               <l>y en lo interior cenicientas.</l>
+               <l>Asi fué esta falsa Circe,</l>
+               <l>ó encantadora Sirena,</l>
+               <l>comenzando desde lungo</l>
+               <l>á ser manjar de dos mesas;.</l>
+               <l>que cuando una muger quiere</l>
+               <l>no es dable que la detengan</l>
+               <l>las mas fuertes cerraduras,</l>
+               <l>aldabas, llaves y puertas:</l>
+               <l>porque cuando son mas falsas.</l>
+               <l>mas fácilmente falsean.</l>
+               <l>Con sigiloso secreto,</l>
+               <l>y sin que nadie lo viera</l>
+               <l>entraba porque en la casa</l>
+               <l>no habia mas que úna vieja le habra con todo secreto</l>
+               <l>y un esclavo que servia</l>
+               <l>para traer la despensa,</l>
+               <l>qne cuando el Sol se ponia</l>
+               <l>los dos el Sol puesto eran.</l>
+               <l>Mas por algnnos indicios,</l>
+               <l>tomó el marido sospecha,</l>
+               <l>mas no averiguaba nada,</l>
+               <l>aunque hacia diligencia;</l>
+               <l>disimulaba y callaba,</l>
+               <l>por ser mucha su prudencia</l>
+               <l>que no es bien que ningun hombre</l>
+               <l>le dé de sus zelos cuentas</l>
+               <l>á la muger, porque es darle</l>
+               <l>las luces, para que sea</l>
+               <l>lo que quizas no imagina,</l>
+               <l>ni en su pecho tal posea.</l>
+               <l>Por lo cual con gran secreto</l>
+               <l>hizo una llave maestra,</l>
+               <l>que la sala y dormitorio</l>
+               <l>abria con gran presteza.</l>
+               <l>Y ya con este seguro,</l>
+               <l>hechas estas diligencias, </l>
+               <l>fingió un dia con su Esposa,</l>
+               <l>diciéndole que era fuerza,</l>
+               <l>el hacer cierto viage</l>
+               <l>que le tenia gran cuenta;</l>
+               <l>de lo que ella pesarosar</l>
+               <l>fingia sentir su ausencia.</l>
+               <l>Se llegó el dia y la hora</l>
+               <l>en que á su viage füera</l>
+               <l>y muy bien apercibido.</l>
+               <l>de armas para su defensa</l>
+               <l>dejando á su esclavo dicho,</l>
+               <l>que á la noche venidera</l>
+               <l>esté alerta y sigiloso,</l>
+               <l> porque en llamando á la puerta</l>
+               <l>sin que la tierra lo sienta.</l>
+               <l>Encargado en el secreto</l>
+               <l> quedó con toda obediencia;</l>
+               <l>y á la hora de partirse</l>
+               <l>se despidió con ternezas</l>
+               <l>de su Esposa, y al instante</l>
+               <l>vino como una saéta</l>
+               <l>el ya referido amante,</l>
+               <l>con la seguridad cierta</l>
+               <l>de no haber ningun estorbo</l>
+               <l>que sus gustos impidiera:</l>
+               <l>Se acostó bien descuidado</l>
+               <l>en el lecho á pierna suelta,</l>
+               <l>y al punto de media noche,</l>
+               <l>cuando todo está en tinieblas,</l>
+               <l>llegó el Marido y llamó, </l>
+               <l>y el esclavo que está alerta,</l>
+               <l>le abrió la puerta y entró,</l>
+               <l>subió por las escaleras,</l>
+               <l>llegó hasta su propia cama,</l>
+               <l>y vió dos burtos en ellá,</l>
+
+               <pb n="4" source="Moreno_293_4.jpeg" facs="fedora_ug8105835/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>donde con mas certidumbre</l>
+               <l>pudo averiguar su afrenta;</l>
+               <l>y aunque lo cegó el enojo,</l>
+               <l>se valió de la prudencia,</l>
+               <l>no qüeriendo que estas almas</l>
+               <l>perdiesen la vida eterna.</l>
+               <l>Se fué al cuarto del esclavo,</l>
+               <l>y lo halló que estaba en vela,</l>
+               <l>diciéndole con voz baja,</l>
+               <l>que lo mas breve que pueda</l>
+               <l>vaya al prócsimo Convento</l>
+               <l>de los Padres de la Regla</l>
+               <l>del Serafico Francisco,</l>
+               <l>y dé el Guardian licencia</l>
+               <l>á un Religioso que vaya</l>
+               <l>á confesar á una enferma,</l>
+               <l>que en articulo de muerte</l>
+               <l>está, y no se detenga.</l>
+               <l>Salió con este pretesto,</l>
+               <l>y él se guedó en centinela</l>
+               <l>á a puerta de la sala</l>
+               <l>á fin que no se le fueran,:</l>
+               <l>que las manchas del honor</l>
+               <l>se curan, limpián y asean.</l>
+               <l>con sangre, que es el remedio</l>
+               <l>de mas importancia y fuerza.</l>
+               <l>Aguí es bien que los dejemos</l>
+               <l>cada cual en su tarea,</l>
+               <l>á los dos en sus delicias,.</l>
+               <l>al Mercader puesto en vela,</l>
+               <l>y al esclavo en su mandado</l>
+               <l>hecho en la calle estafeta;</l>
+               <l>entre tanto que Morales</l>
+               <l>queda cabilando ideas</l>
+               <l>para que quede bien todo,</l>
+               <l>sin que al crédito se ofenda.</l>
+               <l>Y en otra segunda parte</l>
+               <l>dará por estenso cuenta.</l>
+               <trailer rend="negrita">FIN <lb/>de la primera parte.</trailer>
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="5" source="Moreno_293_5.jpeg" facs="fedora_ug8109307/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="primer_titulo">EL FRAILE FINGIDO.</head>
+               <head type="titulo_parte">SEGUNDA PARTE.</head>
+
+               <l rend="indent">Brotando llamas de enojo,</l>
+               <l>como otro Leon rugiente,</l>
+               <l>el tal Mercader estaba</l>
+               <l>hecho un Mongibelo ardiente</l>
+               <l>aguardando por monentos</l>
+               <l>que su criado viniese</l>
+               <l>con el dicho religioso</l>
+               <l>para entrar y darle muerte</l>
+               <l>al Amante y á su Esposa,</l>
+               <l>sin que nadie lo impidiese,</l>
+               <l>que puede mucho una afrenta,</l>
+               <l>y hácia el honor mayormente.</l>
+               <l>Pero luego que el Esclavo</l>
+               <l>al mandato fué obediente</l>
+               <l>poco distante á su casa</l>
+               <l>acertó á vivir en frente</l>
+               <l>de Doña Eufrasia una Tia,</l>
+               <l>y aunque era hora indecente,</l>
+               <l>pues estaba á la ventana,</l>
+               <l>y conoció fácilmente</l>
+               <l>de su Sobrina el Esclavo,</l>
+               <l>porque en el mundo hay mugeres</l>
+               <l>que por saber cuanto pasa,</l>
+               <l>de noche ni dia duermen.</l>
+               <l>Llamándolo por su nombre,</l>
+               <l>él con gran prontitud vuelve;</l>
+               <l>preguntóle donde iba,</l>
+               <l>y él humilde y obediente</l>
+               <l>le dijo en pocas palabras</l>
+               <l>del caso lo que sucede,</l>
+               <l>sin fartarle cosa alguna;</l>
+               <l>y al proviso ella en su mente</l>
+               <l>previno una idea rara,</l>
+               <l>que no es dable que la piense</l>
+               <l>otra que á esta se parezca</l>
+               <l>ni el Satánico Holofernes:</l>
+               <l>diciéndole pues ahora</l>
+               <l>es urgencia aqui de suerte</l>
+               <l>que yo me yalga de tí</l>
+               <l>y yo pretendo valerte,</l>
+               <l>que te tendrá grande cuenta</l>
+               <l>en los dias que vivieres.</l>
+               <l>Yo te ofrezco cien ducados</l>
+               <l>los mismos que prontos tienes</l>
+               <l>para que tu libertad</l>
+               <l>luego que quieras la ordenes;</l>
+
+               <pb n="6" source="Moreno_293_6.jpeg" facs="fedora_ug8105584/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>tú has de ir á ese Convento,</l>
+               <l>y luego al punto que llegues</l>
+               <l>has de llamar al Portero,</l>
+               <l>y hablarle secretamente,</l>
+               <l>y le dirás de mi parte,</l>
+               <l>vaya y diga á Fray Vicente,</l>
+               <l>que un Abito que en su celda</l>
+               <l>sé que tiene ciertamente,</l>
+               <l>que te lo dé, porque importa</l>
+               <l>para cieito encargo urgente.</l>
+               <l>Fué dicho y hecho el mandato</l>
+               <l>conforme se lo encarece;</l>
+               <l>fué y llamó á la portería</l>
+               <l>salió el Portero, y al verle</l>
+               <l>le propuso lo mandado,</l>
+               <l>y en menos de un credo vuelze</l>
+               <l>con el Abio, y lo dió</l>
+               <l>al Criado sin que hubiese</l>
+               <l>ni aun la menor repugnancia,</l>
+               <l>y en sus manos se le ofrece</l>
+               <l>á la tia de lá Dama;</l>
+               <l>púsoselo fácilmente,</l>
+               <l>quedándose ingerta en Fraile,</l>
+               <l>como contemplarse puede.</l>
+               <l>Llegan á la dicha casa,</l>
+               <l>y con modales! cortéses</l>
+               <l>lo recibió el Mercader;</l>
+               <l>y al Padre le dice: entre,</l>
+               <l>Usencia en aquesta sala,</l>
+               <l>y sin dilacion confiese</l>
+               <l>dos ladrones de mi honra,</l>
+               <l>y este secreto se quedé</l>
+               <l>entre los dos, pues sino</l>
+               <l>haré que la causa vuele</l>
+               <l>entre furiosos vólcanes, </l>
+               <l>y Usencia primeramente;</l>
+               <l>no le cause menor susto</l>
+               <l>esta amenaza tan fuerte,</l>
+               <l>pues que pende de su mano</l>
+               <l>á los dos favorecerles.</l>
+               <l>Entró dentro, despertólos,</l>
+               <l>que de los antecedentes</l>
+               <l>dormian bien descuidados,</l>
+               <l>y al instante que en sí vuelven</l>
+               <l>les contó lo qne pasaba:</l>
+               <l>mandó al galan se vistiese,</l>
+               <l>y puesto el Abito, encima,</l>
+               <l>que bien sus ropas cubriesen,</l>
+               <l>calandose la capilla</l>
+               <l>se quedó un Fraile patente,</l>
+               <l>y el Religioso fingido</l>
+               <l>al Mercader reprebende,</l>
+               <l>diciéndole, que los hombres</l>
+               <l>sábios, doctos y prudentes,</l>
+               <l>como lo es entendido,</l>
+               <l>no se dejan fácilmente</l>
+               <l>llevar de las ilusiones,</l>
+               <l>pues el pecado anda siempre</l>
+               <l>formando mil apariencias,</l>
+               <l>para que los hombres pequen</l>
+               <l>que es padre de la mentira,</l>
+               <l>y su anhelo es ver si puede</l>
+               <l>con sus cautelas y engaños</l>
+               <l>perder las Almas sapientes,</l>
+               <l>para llevarlas consigo</l>
+               <l>á padecer para siempre.</l>
+               <l>Y mire usted que le advierto</l>
+               <l>y que lo sé claramente,</l>
+               <l>que es Doña Eufrasia una Santa,</l>
+               <l>pues le he confesado siempre</l>
+               <l>y sé su modo de vida,</l>
+               <l>y es muy dable y contingente</l>
+               <l>que si aciertan á saberlo</l>
+               <l>sus padres y sus parientes,</l>
+
+               <pb n="7" source="Moreno_293_7.jpeg" facs="fedora_ug8104876/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>que vos tenéis tal sospecha</l>
+               <l>de tal arrojo imprudente,</l>
+               <l>que vos habeis inventado</l>
+               <l>contra el honor de esa gente,</l>
+               <l>que no digo yo quitaros</l>
+               <l>la vida tan solamente,</l>
+               <l>sino que os han de dejar</l>
+               <l>arrimado á las paredes,</l>
+               <l>ó echaros donde jamás</l>
+               <l>ninguno de vos se acuerde:</l>
+               <l>y así mirar por vos mismo,</l>
+               <l>que un hombre no todas veces,</l>
+               <l>aunque tenga algun recelo</l>
+               <l>puede decir lo que siente.</l>
+               <l>Qué desdichas no os vinieran</l>
+               <l>qué ruinas, qué accidentes</l>
+               <l>en honor, fama y caudal,</l>
+               <l>si un absurdo como este</l>
+               <l>hubiérais ejecutado,</l>
+               <l>si el Supremo Omnipotente,</l>
+               <l>que es Dios, que todo lo sabe,</l>
+               <l>no os diera primeramente</l>
+               <l>arbitrio para mandar</l>
+               <l>que un Confesor se trajese?</l>
+               <l>favor que ha ordenado el Cielo,</l>
+               <l>y ha sido tan aparente,</l>
+               <l>que acertó á ser mi devota,</l>
+               <l>y ha mucho mi penitente.</l>
+               <l>Y asi de hoy por demás,</l>
+               <l>os mando hagais pues conviene</l>
+               <l>libro nuevo, y que vivais</l>
+               <l>quieta y pacificamente,</l>
+               <l>pues os dió el Cielo una Esposa,</l>
+               <l>que solo un Rey la merece:</l>
+               <l>quedad en paz, Dios os guarde</l>
+               <l>en felicidades siempre.</l>
+               <l>Se fué el Santo Religioso,</l>
+               <l>(mejor diré mosca verde,</l>
+               <l>que de estos hay en el mundo</l>
+               <l>que ya número no tienen.)</l>
+               <l>Entró el Esposo en la sala,</l>
+               <l>tan otro y tan diferente,</l>
+               <l>que ni un Palalo arrepentido</l>
+               <l>á él pudiera parecerle,</l>
+               <l>diciéndole: Esposa mia,</l>
+               <l>perdóname lo imprudente</l>
+               <l>de mi loco atrevimiento</l>
+               <l>yo lo pensé de repente</l>
+               <l>mas ya lo he visto despacio,</l>
+               <l>que todos son caractéres</l>
+               <l>que forma la fantasia,</l>
+               <l>ya se acabó el que yo piense</l>
+               <l>hácia tí, ni por indicios</l>
+               <l>de imaginar que me ofendes.</l>
+               <l>Entonces ellá le dijo:</l>
+               <l>Qué se entiende? qué se entiende;</l>
+               <l>hácia mi honor puro y casto</l>
+               <l>no has de tomar lo mas leve:</l>
+               <l>pues ya pasará por esta,</l>
+               <l>y agradecérmelo puedes.</l>
+               <l>Entonces la astuta Tia,</l>
+               <l>hechicera enteramente,</l>
+               <l>dijo: pase por pintura</l>
+               <l>ya esta vez, y si volviere</l>
+               <l>otra vez con inquietudes,</l>
+               <l>para eso nuestro Rey tiene</l>
+               <l>presidios para estas cosas,</l>
+               <l>y cárceles juntamente</l>
+               <l>para castigar delitos,</l>
+               <l>y pague el que los debiere.</l>
+
+               <pb n="8" source="Moreno_293_8.jpeg" facs="fedora_ug8109464/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>Le dió allí firme palabra,</l>
+               <l>qne en los dias que viviere</l>
+               <l>no volverá á remoyer</l>
+               <l>mas puntos de aquesta especie.</l>
+               <l>Y al esclavo le cumplieron,</l>
+               <l>por haber muchos haberes</l>
+               <l>la palabra, porque es</l>
+               <l>deuda lo que se promete.</l>
+               <l>Vivieron de allí adelante</l>
+               <l>en todo mas quietamente.</l>
+               <l>Todas son de una opinion,</l>
+               <l>porque aunque mil veces yerren,</l>
+               <l>ni aun la mas minima parte</l>
+               <l>de reprehensiones quieren.</l>
+               <l>Vivamos todos alerta,</l>
+               <l>ni un momento ya se acuerden</l>
+               <l>que hay mugeres en el mundo,</l>
+               <l>que son peor que la peste,</l>
+               <l>que el pulgon y la langosta</l>
+               <l>y las vivoras que muerden,</l>
+               <l>pues hacerle como al diablo</l>
+               <l>la Cruz siempre que las vieren,</l>
+               <l><choice>
+                     <sic>porqne</sic>
+                     <corr>porque</corr>
+                  </choice> de hacer lo contrario</l>
+               <l>la salvacion va en rehenes,</l>
+               <l>sino vean en lo dicho</l>
+               <l>si el Autor en nada miente,</l>
+               <l>porque con las esperiencias</l>
+               <l>que de las mugeres tiene</l>
+               <l>no dice mas que verdades</l>
+               <l>muy dignas que las aprecien,</l>
+               <l>sino hagan las refleja</l>
+               <l>por lo que pasa y sucede,</l>
+               <l>verán al pie de la letra</l>
+               <l>el como hoy viven las gentes.</l>
+               <l>Donde Alonso de Morales</l>
+               <l>que las conoció bien cree</l>
+               <l>que por las frases de Eufrasia,</l>
+               <l>y las ideas que emprende,</l>
+               <l>es grande reputacion</l>
+               <l>la que hoy las Señoras tienen.</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859. <lb/>Imp. de D. J. M.a Moreno, calle de Madre de Dios núm. 1.
+               </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

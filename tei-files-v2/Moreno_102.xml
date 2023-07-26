@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_102">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La doncella condenada. Nueva relación</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">La doncella condenada. Nueva relacion en que se
+                     declara el mas riguroso castigo que Dios nuestro Señor, dió á una infeliz
+                     doncella, la cual por inobediente á sus padres fué despedazada por los
+                     demonios; con lo demás que verá el curioso lector.</title>
+                  <title type="titulo_breve">La doncella condenada. Nueva relacion</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461472</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 111</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_102_1.xml"
+                              facs="fedora_ug8106040/189,591,447,729/100,/0/default.jpg"
+                              >grabado_m_102_1</item>
+                           <item corresp="grabado_m_102_2.xml"
+                              facs="fedora_ug8106040/629,371,989,955/100,/0/default.jpg"
+                              >grabado_m_102_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q3908">
+                  <placeName key="Galicia">Galicia</placeName>
+                  <location>
+                     <geo>42.755 -7.8661111111111115</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105921/manifest">
+      <graphic url="fedora_ug8106040/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_102_1.jpg" facs="fedora_ug8106040/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum"><hi rend="cursiva">Núm.</hi> 111.</fw>
+
+               <head rend="negrita" type="primer_titulo">LA DONCELLA CONDENADA.</head>
+               <head type="subtitulo">
+                  <lb/>NUEVA RELACION, EN QUE SE DECLARA EL MAS RIGUROSO <hi rend="cursiva"
+                     ><lb/>castigo que Dios nuestro Señor, dió á una infeliz doncella, la cual por
+                     <lb/>inobediente á sus padres fué despedazada por los demonios; con lo
+                     <lb/>demás que verá el curioso lector.</hi>
+               </head>
+
+               <l rend="indent">Pecadores que en el mundo</l>
+               <l>vivis tan encenagados</l>
+               <l>en torpezas y delitos,</l>
+               <l>á todo vicio entregados,</l>
+               <l>oid, oid los castigos</l>
+               <l>que vuestro Dios enojado</l>
+               <l>dá á los que viven sin rienda:</l>
+               <l>siguiendo desesperados</l>
+               <l>el camino del infierno,</l>
+               <l>donde llevarán el pago</l>
+               <l>que aquesta infeliz muger</l>
+               <l>sin fin estará llevando,</l>
+               <l>mientras que Dios fuere Dios,</l>
+               <l>por no seguir los sagrados</l>
+               <l>y divinos mandamientos</l>
+               <l>como es debido guardarlos.</l>
+               <l>En el reino de <name>Galicia</name></l>
+               <l>casó un caballero hidalgo</l>
+               <l>con una noble señora,</l>
+               <l>sus nombres no los declaro</l>
+               <l>por no venir al asunto,</l>
+               <l>solo diré de que al año</l>
+               <l>les nació una hermosa niña;</l>
+               <l>los padres regocijados</l>
+               <l>procuraron su bautizo,</l>
+               <l>y en el bautismo sagrado.</l>
+
+               <pb n="2" source="Moreno_102_2.jpg" facs="fedora_ug8107652/full/full/0/default.jpg"/>
+
+               <l>María le dan por nombre</l>
+               <l>¡oh nombre mal empleado!</l>
+               <l>Se fué criando esta miña</l>
+               <l>hasta cumplir los diéz años;</l>
+               <l>la que salió tan resuelta,</l>
+               <l>y de tan lindo desenfado,</l>
+               <l>qne el respeto á padre y madre</l>
+               <l>muy poquisimo haguardado;</l>
+               <l>solo lo que á esta doncella</l>
+               <l>le daba gusto y agrado,</l>
+               <l>eran galas y paseos;</l>
+               <l>festines; bailes gseraos,</l>
+               <l>sin atender de sus panres</l>
+               <l>los documentos cristianos;</l>
+               <l>en fin, llegó á tal estremo,</l>
+               <l>que huérfana se ha que dado</l>
+               <l>de madre con que quedó</l>
+               <l>á sus anchuras pecando.</l>
+               <l>Era encanto de los hombres</l>
+               <l>por su gallardia y garbo,</l>
+               <l>por su discrecion asombro,</l>
+               <l>y por su hermosura pasino.</l>
+               <l>Cumplidos los quince abriles,</l>
+               <l>el Juez supremo enojado</l>
+               <l>contra esta mujer malvada,</l>
+               <l>determino dé que estando</l>
+               <l>en un serao en la noche</l>
+               <l>de san Fel pe y Santiago,</l>
+               <l>que se cauta el prinier dia</l>
+               <l>del flerido mies de mayo,</l>
+               <l>cayó al suelo ¡raro asombro!</l>
+               <l>á tienpo que está bailaudo</l>
+               <l>y sin poderse mover</l>
+               <l>á su casa la llevaron:</l>
+               <l>su padre cuando la vido</l>
+               <l>se quedó todo pasmiado</l>
+               <l>de ver que en tan corta edad</l>
+               <l>y tan juveniles años,</l>
+               <l>Dios por sus altos secretos,</l>
+               <l>de tal suerte ha castigado.</l>
+               <l>No ignoraba, pues, su padre</l>
+               <l>con el modo y desenfado</l>
+               <l>que su inobediente hija</l>
+               <l>de este mundo habia gozado</l>
+               <l>sin temor le Dios ni rienda,</l>
+               <l>el tiemaro tan mal empleado,</l>
+               <l>y asi con gran melodia.</l>
+               <l>y con patérnal agrado,</l>
+               <l>despues que va en la cama</l>
+               <l>sus parientes la dejaron,</l>
+               <l>entro diciéndola-hija,</l>
+               <l>teme, teme á Dios amado,</l>
+               <l>pues és misericordioso,</l>
+               <l>si le pides con agrado</l>
+               <l>que te perdone tus culpas</l>
+               <l>y sino, mira que airado</l>
+               <l>se mostrará contra tí</l>
+               <l>justicicro y enojado:</l>
+               <l>ella respondió á su padre;</l>
+               <l>llama á un médico afamado,</l>
+               <l>que él me sánará muy presto</l>
+               <l>de la medicina usando,</l>
+               <l>pues de lo que yo padezco</l>
+               <l>es un riguroso pasmo.</l>
+               <l>Llamáronse luego al punto</l>
+               <l>médicos y cirugaños.</l>
+               <l>y nientras mas recctaban</l>
+               <l>mucho uas se iha agravando;</l>
+               <l>detcrininó pues su padre</l>
+               <l>llamar un confesor sabio,</l>
+               <l>el cual luego al púnto vino</l>
+               <l>sin detencion, al recado:</l>
+               <l>entro el confesor prudente,</l>
+               <l>y cortes la ha saludado,</l>
+               <l>diciendola luego: hija,</l>
+               <l>yo estoi aqui á tu mandato,</l>
+               <l>y te vengo á suplicar</l>
+               <l>de que con múcho cuidado</l>
+               <l>vayas por los mándamientos</l>
+               <l>tu conciencia examinando,</l>
+               <l>y pidas perdon á Dios</l>
+               <l>de lo mucho que has faltado</l>
+               <l>á sus divinos preceptos</l>
+               <l>su santa ley quebrantando,</l>
+               <l>y con propósito firme</l>
+               <l>de ir adelante imitando</l>
+
+               <pb n="3" source="Moreno_102_3.jpg" facs="fedora_ug8109871/full/full/0/default.jpg"/>
+
+               <l>la vida de la Egipciaca,</l>
+               <l>de Margaritá los pasos,</l>
+               <l>de una Teresa las virtudes,</l>
+               <l>de Magdalena los llantos;</l>
+               <l>y de esta suerte ve ás</l>
+               <l>tus dolores aplacados,</l>
+               <l>tus fatigas aliviadas</l>
+               <l>y tu cuerpo con descanso</l>
+               <l>y lo principal, tu alma;</l>
+               <l>hermosa como los rayes</l>
+               <l>del sol cuando reververa</l>
+               <l>en medio del mes de mayo:</l>
+               <l>ca, hija, ¿qué respondes</l>
+               <l>á los ruegos que te hago?</l>
+               <l>Mira este dulce Jesús</l>
+               <l>pendiente de estos tres clavos,</l>
+               <l>y con los brazos abiertos</l>
+               <l>mira que te está aguardando.</l>
+               <l>Cristianos ¿quién creyera</l>
+               <l>que este corazon de mármol,</l>
+               <l>no se ablandara y pusiera</l>
+               <l>en lágrimas anegado?</l>
+               <l>Pues hecha esta exhorlacion,</l>
+               <l>con el rostro muy airado,</l>
+               <l>toda de cólera ciega</l>
+               <l>prerumpió: padre, cansado</l>
+               <l>es vuestra paternidad:</l>
+               <l>¿si Dios á mi me ha criado</l>
+               <l>hermosa y discreta, tengo</l>
+               <l>la culpa de lo tratado?</l>
+               <l>Si me quisiere Dios así,</l>
+               <l>y sino, que me eche á un lado,</l>
+               <l>y asi padre, no se canse</l>
+               <l>que no confieso, eso es claro;</l>
+               <l>y volviéndole la espalda</l>
+               <l>al Señor crucificado</l>
+               <l>que el padre en la mano tiene;</l>
+               <l>el cual luego de contado</l>
+               <l>salió y se dejó la enferma</l>
+               <l>confuso y atribulado.</l>
+               <l>Volvamos pues á su padre,</l>
+               <l>que pensó habia confesado,</l>
+               <l>y mandó que á la parroquia</l>
+               <l>llevasen pronto un recado</l>
+               <l>que viniese el señor cura</l>
+               <l>con Cristo sacramentado,</l>
+               <l>y á su hija la administren</l>
+               <l>que está de grande cuidado:</l>
+               <l>llego el Rey de cielo y tierra</l>
+               <l>de luces acompañado,</l>
+               <l>y al subir por la escalerá</l>
+               <l>el concurso ha reparado</l>
+               <l>que la puerta de la sala</l>
+               <l>de improviso se hia cerrado,</l>
+               <l>quedando el sacerdote</l>
+               <l>con el copon abrazado,</l>
+               <l>porque volviendose á abrir,</l>
+               <l>pegaron otro porrazo</l>
+               <l>con tres muy tremendos golpes</l>
+               <l>que dentro se han escuchado,</l>
+               <l>con un ruido de cadenas</l>
+               <l>y un olor como azufrado:</l>
+               <l>volvióse su magestad</l>
+               <l>á la iglesia, acompañado</l>
+               <l>de innumerable concurso,</l>
+               <l>y el sacerdote asustado</l>
+               <l>volvió á casa de la enferma</l>
+               <l>por ver en lo que ha parado</l>
+               <l>toda aquella confusion</l>
+               <l>que en su aposento ha pasado;</l>
+               <l>llegó y abriendo la puerta</l>
+               <l>el olfato le ha parado;</l>
+               <l>los de dentro de la casa</l>
+               <l>que en tal horror se han hellado,</l>
+               <l>vieron todos que las galas;</l>
+               <l>j yas, diamantes, topacios,</l>
+               <l>estaba todo en el suelo</l>
+               <l>pisado y desgualdrajado:</l>
+               <l>y la enferma qué dolor!</l>
+               <l>toda hecha mil pedazos</l>
+               <l>por mano de los demonios.</l>
+               <l>¡Oh catolicos cristianos</l>
+               <l>que estos versos escuchais!</l>
+               <l>alerta, alerta, temamos</l>
+               <l>tan riguroso castigo;</l>
+               <l>pero volviendo al estrago</l>
+
+               <pb n="4" source="Moreno_102_4.jpg" facs="fedora_ug8110066/full/full/0/default.jpg"/>
+
+               <l>digo, que el padre dispuso</l>
+               <l>con secreto, den sagrado</l>
+               <l>á aquel miserable cuerpo,</l>
+               <l>y al punto que fué enterrado,</l>
+               <l>el sagrado lo echó fuera.</l>
+               <l>Al padre le han avisado</l>
+               <l>que la tieira no la quiere,</l>
+               <l>mandó la lleven al campo</l>
+               <l>y que la entierren en él;</l>
+               <l>segunda vez la ha arrojado</l>
+               <l>la tierra, porque no quiere</l>
+               <l>cuerpo que fué tan malvado.</l>
+               <l>Ban segunda vez aviso,</l>
+               <l>mandó el padre de contado,</l>
+               <l>que en un elevado monte:</l>
+               <l>alli quede sepultado,</l>
+               <l>y que la echasen encima </l>
+               <l>muchos y grandes peñascos.</l>
+               <l>A otro dia de mañana</l>
+               <l>ya la hallaron en lo alto,</l>
+               <l>fué la noticia á su padre,</l>
+               <l>el que afligido, ha mandado</l>
+               <l>que la arrojasen al mar</l>
+               <l>á ser pasto de pescados.</l>
+               <l>Tampoco le consintió</l>
+               <l>el profundo mar salado;</l>
+               <l>viendo el padre que no quiere</l>
+               <l>tierra y mar al desdichado</l>
+               <l>cuerpo de su infeliz hija,</l>
+               <l>llegó muy acompañado</l>
+               <l>á donde esta el cadaver,</l>
+               <l>y dijo todo turbado:</l>
+               <l>ya que el alma por sus culpas</l>
+               <l>y gravisimos pecados,</l>
+               <l>el Juez divino del cielo</l>
+               <l>al infierno á condenado,</l>
+               <l>que vaya tambien su cuerpo</l>
+               <l>y que sea castigado.</l>
+               <l>Apenas esto hubo dicho,</l>
+               <l>se puso un grande nublado.</l>
+               <l>en el sitio donde estaba</l>
+               <l>aquel cuerpe desgraciado,</l>
+               <l>y dando fuertes bramidos</l>
+               <l>fué en las llamas sepultado</l>
+               <l>de los profundos infiernos.</l>
+               <l>á donde estará penando</l>
+               <l>por toda la eternidad.</l>
+               <l>Ea, queridos hermanos,</l>
+               <l>católicos redimidos</l>
+               <l>con precio tan elevado</l>
+               <l>de la sangre de Jesús,</l>
+               <l>¿qué hacemos? qué aguardamos,</l>
+               <l>para enmendar nuestra vida?</l>
+               <l>digamos todos postrados:</l>
+               <l>misericordia, Dios mio,</l>
+               <l>tu gran clemencia imploramos:</l>
+               <l>pequé, Señor, y me pesa</l>
+               <l>de tan injustos agravios</l>
+               <l>como á vuestra Magestad</l>
+               <l>los pecadores os damos.</l>
+               <l>Este es católicos fieles,</l>
+               <l>el ejemplar que ha pasado</l>
+               <l>con esta infeliz muger;</l>
+               <l>y á nosotros otro tanto</l>
+               <l>nos sucederá algun dia</l>
+               <l>si los vicios no enfrenamos;</l>
+               <l>y para que nadie entienda</l>
+               <l>que esto es inventado,</l>
+               <l>como suelen decir muchos,</l>
+               <l>sepan que está predicado</l>
+               <l>en la plausible novena</l>
+               <l>de aquel apostol indiano</l>
+               <l>san Francisco Javiér,</l>
+               <l>por el muy docto afamado</l>
+               <l>reverendo padre Torres</l>
+               <l>del colegio de san Pablo.</l>
+               <l>Aquí el humilde peéta</l>
+               <l>pide que con todo agrado</l>
+               <l>le perdonen y encomienden</l>
+               <l>á nuestro Dios siempre amado,</l>
+               <l>y que despues de esta vida</l>
+               <l>en la gloria nos veamos.</l>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—1859. Imp. de D. J. M.a Moreno, calle de Madre de Dios.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

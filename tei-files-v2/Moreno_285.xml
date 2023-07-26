@@ -1,0 +1,784 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_285">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Admirable historia del príncipe Filiberto de Esparta y la princesa de
+               Dinamarca</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Admirable historia del principe Filiberto de
+                     Esparta, y la princesa de Dinamarca.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1860-01-01">1860</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477585</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 298</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="4">Cuatro grabados (p. 1, p.5)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_285_1.xml"
+                              facs="fedora_ug8107074/233,216,406,927/100,/0/default.jpg"
+                              >grabado_m_285_1</item>
+                           <item corresp="grabado_m_285_2.xml"
+                              facs="fedora_ug8107074/635,469,439,684/100,/0/default.jpg"
+                              >grabado_m_285_2</item>
+                           <item corresp="grabado_m_285_3.xml"
+                              facs="fedora_ug8107074/1062,438,429,741/100,/0/default.jpg"
+                              >grabado_m_285_3</item>
+                           <item corresp="grabado_m_285_4.xml"
+                              facs="fedora_ug8106966/113,171,1450,300/100,/0/default.jpg"
+                              >grabado_m_285_4</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="4" corresp="Q5690">
+                  <placeName key="Esparta">Esparta</placeName>
+                  <location>
+                     <geo>37.081944444444 22.423611111111</geo>
+                  </location>
+               </place>
+               <place n="8" corresp="Q35">
+                  <placeName key="Dinamarca">Dinamarca</placeName>
+                  <location>
+                     <geo>56 10</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q32579">
+                  <placeName key="Frigia">Frigia</placeName>
+                  <location>
+                     <geo>39 31</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Historias</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-22" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-05-04" who="#EL">Correction de l'OCR</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103607/manifest">
+      <graphic url="fedora_ug8107074/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <pb n="1" source="Moreno_285_1.jpg" facs="fedora_ug8107074/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Número. 298.</fw>
+
+            <head type="primer_titulo">
+               <hi rend="negrita">ADMIRABLE HISTORIA</hi>
+               <lb/><hi rend="negrita">DEL PRINCIPE FILIBERTO DE ESPARTA,</hi>
+               <lb/>Y LA PRINCESA DE DINAMARCA.</head>
+
+            <div n="1" type="parte">
+
+               <head type="titulo_parte">PRIMERA PARTE.</head>
+
+               <l rend="indent">No canto, Auditorio ilustre</l>
+               <l>insigne cuanlo discreto,</l>
+               <l>las portentosas hazañas</l>
+               <l>dé Hercules, ni de Pompeyo</l>
+               <l>ni las de nuestro Bernardo,</l>
+               <l>ni del Cid los raros hechos</l>
+               <l>ni de Príncipes, y reyes</l>
+               <l>victorias y vencimientos,</l>
+               <l>que solo canto de uno,</l>
+               <l>que aunque Principe, en efecto,</l>
+               <l>en las batallas de amor</l>
+               <l>tuvo vencidos trofeos</l>
+               <l>para dejar á la fama,</l>
+               <l>que divulgue en todo tiempo:</l>
+               <l>y por que en bronce se escriba</l>
+               <l>este admirable suceso</l>
+               <l>de un principe valeroso,</l>
+               <l>que enamorado perfecto</l>
+               <l>venció imposible de amor,</l>
+               <l>con un hermoso compendio.</l>
+
+               <pb n="2" source="Moreno_285_2.jpg" facs="fedora_ug8109493/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Mas porque sepan el como,</l>
+               <l>atencion pido, supuesto</l>
+               <l>que cuando madan cantar,</l>
+               <l>so halla debido el silencio.</l>
+               <l>Tuvo el Rey de <name>Dinamarca</name></l>
+               <l>una hija toda un Cielo,</l>
+               <l>un portento de hermosura,</l>
+               <l>como emulacion de Venus.</l>
+               <l>Era arrogante y soberbia,</l>
+               <l>y que lo fuera no es nuevo,</l>
+               <l>porque siempre la hermosura</l>
+               <l>es altiva con desprecio.</l>
+               <l>Discretos Principes muchos</l>
+               <l>por Esposa la pidieron,</l>
+               <l>y á todos los desechaba,</l>
+               <l>porque se hacia el concepto,</l>
+               <l>que el sujetarse á varon</l>
+               <l>es gran pena, si hay despejo.</l>
+               <l>Era pasmo de la Corte,</l>
+               <l>mataba á diestro, y siniestro,</l>
+               <l>porque en sus ojos traia</l>
+               <l>la vida, muerte, y veneno.</l>
+               <l>Mas el Principe de <name>Esparta</name>,</l>
+               <l>de esta Dama conociendo</l>
+               <l>su altivez, y su rigor,</l>
+               <l>se fué en amor encendiendo:</l>
+               <l>y fué por haber hallado</l>
+               <l>un pintor de raro ingenio,</l>
+               <l>que le copió esta hermosura,</l>
+               <l>o Angel en todo tan bello.</l>
+               <l>En vivos zelos se ardia,</l>
+               <l>y decia: Hermoso dueño,</l>
+               <l>si como el Cielo te dió</l>
+               <l>esa hermosura, tu pecho</l>
+               <l>no fuera diamante duro,</l>
+               <l>cuajado en cristales tersos,</l>
+               <l>y con mas benevolencia</l>
+               <l>miraran tus ojos bellos;</l>
+               <l>¡oh! como yo me atrevíera,</l>
+               <l>Aguila yo de mí mesmo,</l>
+               <l>á remontarme hasta el Sol,</l>
+               <l>sus rayos y luz bebiendo!</l>
+               <l>Mas hoy, tal amor me incita</l>
+               <l>á esta empresa, que pretendo</l>
+               <l>casándome el viento alas,</l>
+               <l>como espuelas calzó el viento;</l>
+               <l>el partir á <name>Dinamarca</name>,</l>
+               <l>disfrazado en Caballero,</l>
+               <l>sin que nadie me conozca,</l>
+               <l>á ver si acaso en efecto,</l>
+               <l>tienes amor por que sola,</l>
+               <l>ó mas acaso encubierto,</l>
+               <l>si tu destino te lleva</l>
+               <l>para todo tu despeño:</l>
+               <l>Principe de <name>Esparta</name> soy,</l>
+               <l>mas hoy seré Aventurero,</l>
+               <l>que jamás en pechos nobles</l>
+               <l>caben agüeros ni miedos.</l>
+               <l>Y tomando de esta suerte,</l>
+               <l>no galas sino dineros,</l>
+               <l>un caballo, sin criados,</l>
+               <l>cogió un camino bien lejos.</l>
+               <l>Llevó consigo tambien</l>
+               <l>el Retrato verdadero</l>
+               <l>de su imágen y presencia</l>
+               <l>el Principe Filiberto,</l>
+               <l>que este era su nombre propio;</l>
+               <l>y caminando ligero,</l>
+               <l>llegó pues á <name>Dinamarca</name>,</l>
+               <l>el caballo vendió luego,</l>
+               <l>y con un vestido humilde</l>
+               <l>andábase á lo secreto,</l>
+               <l>ovendo de la Princesa</l>
+               <l>algo en nobles, y plebeyos.</l>
+               <l>Vióla una vez que salia</l>
+               <l>á su gran divertimiento,</l>
+               <l>que era la caza de monte,</l>
+               <l>con sus Damas y monteros:</l>
+               <l>y si antes enamorado</l>
+               <l>hahia vivido ciego,</l>
+
+               <pb n="3" source="Moreno_285_3.jpg" facs="fedora_ug8106026/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>ahora á la vista suya,</l>
+               <l>rendido queda á su objeto,</l>
+               <l>siendo á sus hermosos ojos</l>
+               <l>con libertad prisionero.</l>
+               <l>Lo bizarro de su talle,</l>
+               <l>como lo galan del cuerpo</l>
+               <l>airosa con mucha gracia,</l>
+               <l>garbosa con mucho aseo,</l>
+               <l>y por estremo discreta</l>
+               <l>admirable á todo tiempo.</l>
+               <l>Decia: Hermosa deidad,</l>
+               <l>tened, no subais al Cielo,</l>
+               <l>adónde sin alma déjes</l>
+               <l>á quien por tí está muriendo.</l>
+               <l>Oh! milagro de hermosura!</l>
+               <l>El pincel fué muy grosero</l>
+               <l>de este Retrato, que traigo</l>
+               <l>asi lo aseguro, es cierto</l>
+               <l>pues no dibujó las líneas</l>
+               <l>de tu rostro, hermoso Cielo.</l>
+               <l>Como se iba alejando</l>
+               <l>sobre un hijo de los vientos,</l>
+               <l>al menear de las manos,</l>
+               <l>parece, que dice el mesmo:</l>
+               <l>Yo soy el veloz Pegaso</l>
+               <l>y la que aqui llevo es Venus,</l>
+               <l>pues compitiendo á Minerva</l>
+               <l>emulaciones emprendo,</l>
+               <l>El príncipe le decia.</l>
+               <l>llevando el aire sus ecos:</l>
+               <l>Espera, discreta Diosa,</l>
+               <l>que sois con llantos Orfeo.</l>
+               <l>Finalmente, de esta suerte</l>
+               <l>se andaba asi Filiberto</l>
+               <l>sin ser jamás conocido</l>
+               <l>en talle, cara, ni cuerpo.</l>
+               <l>Rondaba, pues el Palacio</l>
+               <l>y solía entrarse dentro,</l>
+               <l>oyendo aqui, viendo allí,</l>
+               <l>recatado honesto y cuerdo;</l>
+               <l>pero no hallaba jamás</l>
+               <l>un átomo el mas pequeño,</l>
+               <l>para poder dar noticias</l>
+               <l>de su notable desvelo.</l>
+               <l>Mas fué el caso, que faltó</l>
+               <l>á este tiempo un Jardinero</l>
+               <l>de los Jardines del Rey,</l>
+               <l>ricos laberintos nuevos.</l>
+               <l>Tuvo el príncipe noticias,</l>
+               <l>habló en la materia luego:</l>
+               <l>y por último quedó</l>
+               <l>sirviendo al Rey Clodoveo</l>
+               <l>en sus fecundos jardínes</l>
+               <l>que por lo rico, y ameno,</l>
+               <l>ciertos de <name>Frigia</name> los suyos</l>
+               <l>pudieran ser un bosquejo.</l>
+               <l>Fué Jardinero mayor,</l>
+               <l>teniendo todo el gobierno</l>
+               <l>en cultivar varias flores,</l>
+               <l>disimulando <choice>
+                     <sic>sn</sic>
+                     <corr>su</corr>
+                  </choice> intento.</l>
+               <l>Del cuarto de la Princesa</l>
+               <l>estaba inmediata al suelo</l>
+               <l>una ventana, por donde</l>
+               <l>gustaba olores escelsos</l>
+               <l>de Nardos, Rosas, Claveles,</l>
+               <l>y Azucenas con aseo</l>
+               <l>tanta variedad de flores,</l>
+               <l>que por ser muchas las dejo.</l>
+               <l>Miró al Jardinero á veces,</l>
+               <l>y él hizo, tambien lo mesmo,</l>
+               <l>avivando cada dia</l>
+               <l>con leña el activo fuego.</l>
+               <l>Pareciale galan,</l>
+               <l>aunque en trago tan modesto,</l>
+               <l>que es condicion de mugeres</l>
+               <l>coger lo peor del tiempo.</l>
+               <l>Filiberto disimula,</l>
+               <l>calla, y mira por momentos,</l>
+               <l>Junto á un cuadro de jazmines</l>
+               <l>gozando perfumes bellos</l>
+
+               <pb n="4" source="Moreno_285_4.jpg" facs="fedora_ug8106121/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>estaba, que la ventana</l>
+               <l>caia al sitio derecho,</l>
+               <l>con el Retrato que trajo</l>
+               <l>de ella hablaba amante, y tierno,</l>
+               <l>y en la razon conoció,</l>
+               <l>que seria Caballero.</l>
+               <l>Mas al fin como curiosa,</l>
+               <l>muger al fin, al momento</l>
+               <l>bajó al Jardin¡ (¡que delirio!)</l>
+               <l>contra su decoro honesto,</l>
+               <l>sin duda á su precipicio,</l>
+               <l>con tan raro desacierto,</l>
+               <l>se despeña otro Faetonte</l>
+               <l>en ánsias tantas ardiendo.</l>
+               <l>Quien á Principes bizarros</l>
+               <l>no estima, ahora vemos</l>
+               <l>(quizá de Dios castigada)</l>
+               <l>humillada á un Jardinero.</l>
+               <l>Vióla venir, y á su lado</l>
+               <l>la Duquesa, mas él luego</l>
+               <l>se fingió loco, por ver</l>
+               <l>lo que resulta de aquesto.</l>
+               <l>Las dos llegaron á hablarle,</l>
+               <l>y el dijo: Ola, qué veo?</l>
+               <l>Son ellas las Principonas?</l>
+               <l>O quién? Valgalas el Cielo.</l>
+               <l>Confusa quedó Rosaura;</l>
+               <l>juzgó, que hubiese á lo menos</l>
+               <l>mas capáz alma en aquel</l>
+               <l>tan peregrino sujeto,</l>
+               <l>En fin, por ver el retrato</l>
+               <l>le dijo: A ver Caballero,</l>
+               <l>qué es esto? Y él dijo: Qué?</l>
+               <l>Una Santa, no está viendo?</l>
+               <l>Mostróle el Retrato, y ella</l>
+               <l>se admiró toda de verlo;</l>
+               <l>pues era la misma copia</l>
+               <l>de su original tan bello.</l>
+               <l>Hombre, le dijo; de donde</l>
+               <l>hubiste á tus manos esto</l>
+               <l>que Retrato mio es?</l>
+               <l>Y el dijo: Donoso cuento!</l>
+               <l>No vé, que es una Santica</l>
+               <l>muy linda, y á lo que entiendo</l>
+               <l>es Sánta Marina esta?</l>
+               <l>que viene con embelecos?</l>
+               <l>Duquesa, este es mi Retrato:</l>
+               <l>Princesa no hay duda en ello.</l>
+               <l>Hombre, quién te lo dió á tí?</l>
+               <l>Quien? Me costó mi dinero,</l>
+               <l>Este Retrato has de darme;</l>
+               <l>si se lo daré por cierto,</l>
+               <l>si ella otra prenda me dá.</l>
+               <l>Pues como así, desatento</l>
+               <l>hablas conmigo? No vés,</l>
+               <l>que soy, ignorante, ciego,</l>
+               <l>Princesa de <name>Dinamarca</name>?</l>
+               <l>Pues, qué se me dá á mi de eso?</l>
+               <l>Vaya con su Princeria,</l>
+               <l>y hágale muy buen provecho.</l>
+               <l>Mas al fin, por alcahuetas</l>
+               <l>hay maldades, y asi fué esto;</l>
+               <l>que fué causa la Duquesa,</l>
+               <l>haciendo burla, en efecto,</l>
+               <l>de que una prenda le diese,</l>
+               <l>quedó abrasada á su fuego,</l>
+               <l>confusa, y enamorada,</l>
+               <l>que en mugeres es defecto,</l>
+               <l>inclinarse á lo peor,</l>
+               <l>y en ellas esto no es nuevo.</l>
+               <l>El príncipe de esta suerte</l>
+               <l>quedó alentado, y contento.</l>
+               <l>Donde á esta primera parte,</l>
+               <l>noble Auditorio discreto,</l>
+               <l>Manuel Martin le dá lin,</l>
+               <l>y la segunda comienzo,</l>
+               <trailer>FIN DE LA PRIMERA PARTE.</trailer>
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="5" source="Moreno_285_5.jpg" facs="fedora_ug8106966/full/full/0/default.jpg"/>
+
+               <head type="titulo_parte" rend="negrita">Segunda parte.</head>
+
+               <l>Pasados algunos dias</l>
+               <l>que pocos serian, vuelve</l>
+               <l>la Princesa con cuidado,</l>
+               <l>que es de curiosas mugeres,</l>
+               <l>á mirar al jardinero,</l>
+               <l>tan galan, tan escelente,</l>
+               <l>y que en cuerpo tan bizarro</l>
+               <l>tanta rustiquez cupiese:</l>
+               <l>cuando Filibérto entonces,</l>
+               <l>mas sagáz, y mas prudente,</l>
+               <l>sacó su mismo Retrato,</l>
+               <l>habla con él, porque piense</l>
+               <l>ella, si acaso sería,</l>
+               <l>(y aqui los celos empiecen)</l>
+               <l>Retrato de alguna Dama,</l>
+               <l>pues en el alma lo siente.</l>
+               <l>Bajó á hablar al jardinero;</l>
+               <l>y él le dice: qué me quieres?</l>
+               <l>El diablo es esta muger!</l>
+               <l>vayase á hilar, que nos viene</l>
+               <l>con pataratas? A que</l>
+               <l>ella dice, que le muestre</l>
+               <l>aquel Retrato: y él dice;</l>
+               <l>Por cierto, qué le parece?</l>
+               <l>Mirelo, mirelo bien.</l>
+               <l>Ya lo codícia, y lo quiere.</l>
+               <l>Tomó Rosaura el Retrato,</l>
+               <l>miralo, y confusa vuelve</l>
+               <l>á la Duquesa, y le dice:</l>
+               <l>Duquesa, no te parece,</l>
+               <l>copia de este original,</l>
+               <l>el que tenemos presente?</l>
+               <l>Princesa, es todo un trasumpto.</l>
+               <l>Sucedió, que estando en este</l>
+               <l>punto dijeron, que el Rey,</l>
+               <l>con otros al jardin viene.</l>
+               <l>Apartaronse de alli:</l>
+               <l>confusa en mil pareceres</l>
+               <l>andaba, pues todo el dia</l>
+               <l>viendo el Retrato que tiene</l>
+               <l>tan galan, tan elegante,</l>
+               <l>tan bizarro, que parece</l>
+               <l>ser Principe, como ella,</l>
+               <l>heredero de los Reyes.</l>
+               <l>Mirabalo á todas horas,</l>
+               <l>y su amor por horas crece;</l>
+               <l>verlo humilde, y jardinero,</l>
+               <l>y loco, segun parece.</l>
+               <l>Volvia luego despues,</l>
+               <l>y decia: Ciertamente</l>
+
+               <pb n="6" source="Moreno_285_6.jpg" facs="fedora_ug8103506/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>este es Principe encubierto;</l>
+               <l>mas que el amor me despeñe,</l>
+               <l>sea Principe, ó Villano,</l>
+               <l>ó sea loco, ó prudente,</l>
+               <l>este mi esposo ha de ser,</l>
+               <l>misterio el Retrato tiene:</l>
+               <l>mas que digo? Loca estoy!</l>
+               <l>mi crédito pues, mi oriente,</l>
+               <l>cuya luz al rosicler</l>
+               <l>del dia empuñarle puede!</l>
+               <l>Mas, y mí amor (ay de mi!)</l>
+               <l>que me aprieta los cordeles,</l>
+               <l>en un <choice>
+                     <sic>homdre</sic>
+                     <corr>hombre</corr>
+                  </choice> tan bizarro,</l>
+               <l>como el Retrato lo ofrece?</l>
+               <l>Este es Principe, y se encubre;</l>
+               <l>mas sea lo que se fuere,</l>
+               <l>que no seré la primerá,</l>
+               <l>que á liviandad se sujete.</l>
+               <l>Asi andaba enamorada</l>
+               <l>del jardinero, de suerte,</l>
+               <l>que apretando las clavijas,</l>
+               <l>rompieron las cuerdas fuertes.</l>
+               <l>Vivió encubierto este amor,</l>
+               <l>por buena cuenta seis meses;</l>
+               <l>y al fin de aquesto le dijo</l>
+               <l>á la Princesa que quiere</l>
+               <l>irse á su tierra, mas ella,</l>
+               <l>sin mirar inconveníentes,</l>
+               <l>ni reparar, que es Princesa</l>
+               <l>de <name>Dinamarca</name>, pretende</l>
+               <l>irse con él, que no hay cosa,</l>
+               <l>como una muger lo intente,</l>
+               <l>que no la haga resuelta</l>
+               <l>aunque el diablo se la lleve.</l>
+               <l>A este tiempo á la Duquesa</l>
+               <l>le dió un notable accidente,</l>
+               <l>y viendo los dos el caso</l>
+               <l>tan apretado, y urgente,</l>
+               <l>por un postiguillo falso,</l>
+               <l>que por dicha el jardin tiene,</l>
+               <l>salieron los dos amantes,</l>
+               <l>sin que nadie lo sintiese.</l>
+               <l>Toda la noche camínan;</l>
+               <l>y al ser de dia, parecen</l>
+               <l>cerca de allí unas montañas,</l>
+               <l>donde ván á recogerse</l>
+               <l>en lo aspero, y oculto</l>
+               <l>de sus bosques eminentes;</l>
+               <l>con prevenciones bíen cortas,</l>
+               <l>de todos los menesteres.</l>
+               <l>Viendo en Palacio, que falta</l>
+               <l>la Princesa, y no parece</l>
+               <l>el jardinero tampoco,</l>
+               <l>mandó el Rey, que brevemente</l>
+               <l>saliesen cien Caballeros</l>
+               <l>por caminos diferentes,</l>
+               <l>que vivos, ó muertos ambos,</l>
+               <l>á su presencia tragesen,</l>
+               <l>para darles el castigo,</l>
+               <l>que su delito merece.</l>
+               <l>Los dos caminan de noche,</l>
+               <l>de dia paran, de suerte,</l>
+               <l>que aquestos amantes nunca</l>
+               <l>fue posible, que los viesen.</l>
+               <l>Prosiguieron su viage</l>
+               <l>con trabajo, pues á veces,</l>
+               <l>ni pan comian, ni abrigo</l>
+               <l>hallaban quien se lo diese,</l>
+               <l>pasando por el camino</l>
+               <l>hambre, sed, pesares fuertes,</l>
+               <l>que Filiberto le daba,</l>
+               <l>pues en loco permanece.</l>
+               <l>Sorprendidos fueron ambos</l>
+               <l>de Ladrones insolentes,</l>
+               <l>cuando Filiberto en ellos</l>
+               <l>estrago hizo valiente.</l>
+               <l>Pasó en fin este trabajo</l>
+               <l>la Princesa, mas lo siente,</l>
+               <l>por haberle dicho él,</l>
+               <l>que de baja estirpe viene,</l>
+
+               <pb n="7" source="Moreno_285_7.jpg" facs="fedora_ug8103296/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>y quien pudiera ser Reina,</l>
+               <l>á un villano se sujete.</l>
+               <l>Con lagrimas se lamenta,</l>
+               <l>ayes, y suspíros bebe;</l>
+               <l>mas en lo que no hay remedio</l>
+               <l>de que el daño se remedie,</l>
+               <l>sufrir, padecer, callar,</l>
+               <l>aunque mas el dolor hiere.</l>
+               <l>Llegaron á <name>Esparta</name>, pues,</l>
+               <l>y mirando las paredes</l>
+               <l>ya do la Corte, le dijo:</l>
+               <l>hija, aguarde un poco, espere,</l>
+               <l>hasta que venga, que yo</l>
+               <l>no he de lardar; ea, entiende?</l>
+               <l>Si, Martin, le respondió</l>
+               <l>(que el nombre, lo fingió siempre)</l>
+               <l>Partióse luego á Palacio,</l>
+               <l>salen sus Padres á verle</l>
+               <l>cuentales lo que ha pasado,</l>
+               <l>como trae de esta suerte</l>
+               <l>á la Princesa consigo</l>
+               <l>de <name>Dinamarca</name> y advíerte,</l>
+               <l>de que en son de ser villano</l>
+               <l>la venció muy facilmente;</l>
+               <l>y sin hablarle palabra</l>
+               <l>que guarden secreto quiere;</l>
+               <l>porque por varios caminos</l>
+               <l>tentarla quiere, si puede</l>
+               <l>vencerla, sobre si es firme</l>
+               <l>en el amor que le tiene.</l>
+               <l>Los Leyes lo prometieron;</l>
+               <l>traerla luego promete,</l>
+               <l>en el jardin la metió,</l>
+               <l>donde entre toscas paredes</l>
+               <l>su amarga suerte lloraba,</l>
+               <l>y su fortuna inclemente;</l>
+               <l>verse Reina en <name>Dinamarca</name>,</l>
+               <l>y ahora tan pobre verse;</l>
+               <l>quien era tan regalada,</l>
+               <l>padecer hambres tan fuertes.</l>
+               <l>O fortuna, como ruedas</l>
+               <l>que al mundo dás mil vaivienes!</l>
+               <l>El Principe en este tiempo</l>
+               <l>galas se vistió escelentes,</l>
+               <l>afeitóse, y esmeróse</l>
+               <l>y como quien es parece,</l>
+               <l>Paseando aquella tarde</l>
+               <l>por todo el jardin se viene,</l>
+               <l>llegó para el aposento</l>
+               <l>y como en él ruido siente,</l>
+               <l>preguntó: Quien esta ahí?</l>
+               <l>Vive aqui, por dicha, gente?</l>
+               <l>Informaronle, que allí,</l>
+               <l>segun ahora parece,</l>
+               <l>que Martin el Jardinero,</l>
+               <l>alli una muger les mete,</l>
+               <l>que la trajo de su tierra</l>
+               <l>para tenerla alli siempre:</l>
+               <l>tela, que fue bien urdida</l>
+               <l>á ignorantes y prudentes,</l>
+               <l>porque á la dicha Princesa</l>
+               <l>otra noticia no llegue.</l>
+               <l>Mandóle salir á fuera,</l>
+               <l>y por fuerza, aunque le pese,</l>
+               <l>salió al mandato esta Venus,</l>
+               <l>esta Palas, ésta Ceres</l>
+               <l>siendo un Cielo de hermosura</l>
+               <l>y mares de perlas víerte</l>
+               <l>por sus bellísimos ojos,</l>
+               <l>vergonzosa, honesta, en verse</l>
+               <l>ante un Principe, que ahora</l>
+               <l>lo desconoce presente.</l>
+               <l>Y recogiendo la vista</l>
+               <l>turbóse, por obediente,</l>
+               <l>á sus pies se arrodílló</l>
+               <l>con acciones muy corteses.</l>
+               <l>El Principe la levanta,</l>
+               <l>diciendo: Quien sois? Parece,</l>
+               <l>yo vivo engañado, cuando</l>
+               <l>algunos, quien sois, me mienten,</l>
+
+               <pb n="8" source="Moreno_285_8.jpg" facs="fedora_ug8110296/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>porque me dicen soís vos</l>
+               <l>muger, segun ya se advierte,</l>
+               <l>del loco de Martínillo,</l>
+               <l>un borracho un insolente,</l>
+               <l>que por mi padre lo sufro,</l>
+               <l>y le he de hacer, que rebiente.</l>
+               <l>Tal sereis vos como él,</l>
+               <l>no hay duda, que quien se mete</l>
+               <l>con un picaro en sus casas,</l>
+               <l>otro como él parece.</l>
+               <l>Andad, idos allá dentro,</l>
+               <l>esto le dijo, y le vuelve</l>
+               <l>las espaldas, y quedó</l>
+               <l>anegada en llanto fuerte.</l>
+               <l>A otro dia con mas galas</l>
+               <l>adornado grandemente,</l>
+               <l>como Principe venia,</l>
+               <l>por ver si vencerla puede,</l>
+               <l>haciendo grandes instancias,</l>
+               <l>riquezas y amor le ofrece;</l>
+               <l>mas nunca quiso admitirle,</l>
+               <l>se resiste y se defiende,</l>
+               <l>diciendo, que á su Martin</l>
+               <l>es el único que quiere;</l>
+               <l>y viendose en tal estado,</l>
+               <l>y que Martin no parece,</l>
+               <l>que el Principe la persigue,</l>
+               <l>y que ella no lo quiere,</l>
+               <l>huyóse, y en un Convento</l>
+               <l>se entró porque feneciese</l>
+               <l>su vida alli con sosiego,</l>
+               <l>y cuando el Princípe vuelve</l>
+               <l>á buscarla quedó absorto,</l>
+               <l>al saber que no parece.</l>
+               <l>Mandó luego que al instante</l>
+               <l>la gente mas diligente</l>
+               <l>la busque, y con eficacia</l>
+               <l>la diligencia se hiciese:</l>
+               <l>la hallaron en un Convento</l>
+               <l>de Dominicas mugeres.</l>
+               <l>Dieron parte á la Priora,</l>
+               <l>no dudando que se entregue,</l>
+               <l>trajeronse ricas galas,</l>
+               <l>y adornada ricamente,</l>
+               <l>ante el <choice>
+                     <sic>Priucipe</sic>
+                     <corr>Principe</corr>
+                  </choice> la llevan,</l>
+               <l>el cual la recibe, alegre,</l>
+               <l>y postrado á su presencia</l>
+               <l>le esplica muy claramente</l>
+               <l>el disfraz de que habia usado</l>
+               <l>para que su amor le premie.</l>
+               <l>Con ternezas amorosas,</l>
+               <l>la Princesa lo agradece.</l>
+               <l>Luego con magestuosa</l>
+               <l>pompa, aparato escelente,</l>
+               <l>los dos fueron desposados,</l>
+               <l>y huho esplendidos banquetes,</l>
+               <l>Dispuso, que una embajada</l>
+               <l>al Rey Clodoveo fuese,</l>
+               <l>padre de la referida</l>
+               <l>Princesa, porque tuviesen</l>
+               <l>buen logro sus esperanzas.</l>
+               <l>Y egecutandolo breve</l>
+               <l>llegó al Rey esta noticia,</l>
+               <l>hubo diversos placeres;</l>
+               <l>y Filiberto, y Rosaura,</l>
+               <l>al justo Rey de los Reyes</l>
+               <l>dieron infinitas gracias</l>
+               <l>por tan copiosas mercedes.</l>
+               <trailer>FIN.</trailer>
+            </div>
+
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:=1860. <lb/>Imprenta de D. José M. Moreno, calle de Madre Dios,
+                  núm.1. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

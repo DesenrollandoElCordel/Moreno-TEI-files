@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_118">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vida ejemplar de santa Rosalía</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Vida ejemplar de santa Rosalia, princesa de Palermo.
+                     Especial abogada contra la peste.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (s.a.): <ref target="Moreno_117.xml">Moreno_117</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6470577</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 126</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte, en que se refiere el resto de la penitente vida, y la
+                        prodigiosa muerte de santa Rosalia de Palermo.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1, p.5)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_118_1.xml"
+                              facs="fedora_ug8107048/284,283,1166,824/100,/0/default.jpg"
+                              >grabado_m_118_1</item>
+                           <item corresp="grabado_m_118_2.xml"
+                              facs="fedora_ug8109759/484,177,729,971/100,/0/default.jpg"
+                              >grabado_m_118_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="2" corresp="Q432680">
+                  <placeName key="Santo_Stefano_Quisquina">Santo Stefano Quisquina</placeName>
+                  <location>
+                     <geo>37.624166666667 13.491388888889</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q31616992">
+                  <placeName key="Monte_Pellegrino">Monte Pellegrino</placeName>
+                  <location>
+                     <geo>38.17 13.351388888889</geo>
+                  </location>
+               </place>
+               <place n="4" corresp="Q2656">
+                  <placeName key="Palermo">Palermo</placeName>
+                  <location>
+                     <geo>38.115658055555556 13.361261944444445</geo>
+                  </location>
+               </place>
+               <place n="3" corresp="Q1460">
+                  <placeName key="Sicilia">Sicilia</placeName>
+                  <location>
+                     <geo>37.599958333333 14.015377777778</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q38">
+                  <placeName key="Italia">Italia</placeName>
+                  <location>
+                     <geo>42.5 12.5</geo>
+                  </location>
+               </place>
+               <place n="4" corresp="Q142">
+                  <placeName key="Francia">Francia</placeName>
+                  <location>
+                     <geo>47 2</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q11822">
+                  <placeName key="Rosas">Rosas</placeName>
+                  <location>
+                     <geo>42.263333 3.175</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q792">
+                  <placeName key="El_Salvador">El Salvador</placeName>
+                  <location>
+                     <geo>13.668889 -88.866111</geo>
+                  </location>
+               </place>
+               <place n="3" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-27" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103818/manifest">
+      <graphic url="fedora_ug8107048/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_118_1.jpg" facs="fedora_ug8107048/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 126)</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">VIDA EJEMPLAR</hi>
+                  <lb/>DE <lb/>SANTA ROSALIA, <lb/>PRINCESA DE PALERMO. </head>
+               <head type="subtitulo">ESPECIAL ABOGADA CONTRA LA PESTE.</head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">En la ciudad de <name>Palermo</name>,</l>
+                  <l>córte insigne y celebrada,</l>
+                  <l>en el reino de <name>Sicilia</name>,</l>
+                  <l>provincia hermosa de <name>Italia</name>,</l>
+                  <l>nació santa Rosalia</l>
+                  <l>de tan antigua prosapia,</l>
+                  <l>y de sangre tan ilustre,</l>
+                  <l>que en la cristiandad no hay casa</l>
+                  <l>de emperadadores ni reyes</l>
+                  <l>con quien no esté emparentada,</l>
+                  <l>siendo esmalte su nobleza</l>
+                  <l>los méritos que la ensalzan.</l>
+                  <l>Hija fue de Sinibaldo</l>
+                  <l>de la real casa de <name>Francia</name>;</l>
+                  <l>conde en <name>Sicilia</name> de <name>Rosas</name>,</l>
+                  <l>y general de las armas;</l>
+                  <l>y sobrina de Rugero,</l>
+                  <l>de quien el reino heredaba.</l>
+                  <l>Antes que esta rosa bella</l>
+                  <l>diera al mundo su fragancia,</l>
+                  <l>se vieron claras señales,</l>
+                  <l>que la deidad Soberana</l>
+                  <l>la tenia ya escogida</l>
+                  <l>para esposa y destinada</l>
+                  <l>para ser del mundo asombro, </l>
+                  <l>aviso de las profanas,</l>
+
+                  <pb n="2" source="Moreno_118_2.jpg"
+                     facs="fedora_ug8106257/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>y ejemplar de penitentes.</l>
+                  <l>Para que todo imitara</l>
+                  <l>al divino precursor,</l>
+                  <l>quiso que fuese anunciada,</l>
+                  <l>á asi dispuso que un ángel</l>
+                  <l>á su madre visitara,</l>
+                  <l>y la noticiase el dia</l>
+                  <l>del feliz parto que aguarda,</l>
+                  <l>y que la dichosa niña,</l>
+                  <l>cuando reciba la gracia</l>
+                  <l>en el primer Sacramento</l>
+                  <l>de nuestra Iglesia Romana,</l>
+                  <l>que la llamen Rosalia,</l>
+                  <l>que asimismo Dios lo manda,</l>
+                  <l>porque quiere que sus rosas</l>
+                  <l>que son timbre de su casa,</l>
+                  <l>al nacer la den el nombre</l>
+                  <l>y al morir la coronaran.</l>
+                  <l>Nació esta hermosa princesa,</l>
+                  <l>y aunque fué tan deseada,</l>
+                  <l>no nació para reinar,</l>
+                  <l>que como prenda tan alta, </l>
+                  <l>desde sus primeros años</l>
+                  <l>la tuvo Dios tan guardada,</l>
+                  <l>que hasta su dichosa muerte,</l>
+                  <l>vivió siempre resguardada.</l>
+                  <l>Criábase aquesta niña,</l>
+                  <l>y las primeras palabras</l>
+                  <l>que pronunció en su niñez,</l>
+                  <l>fue decir con voz muy clara:</l>
+                  <l>Jesus, María y José;</l>
+                  <l>y desde su tierna infancia</l>
+                  <l>fue inclinada á la virtud</l>
+                  <l>y diestra en ejereitarla;</l>
+                  <l>que aunque tenian sus padres</l>
+                  <l>maestras que la enseñaran,</l>
+                  <l>escedió su entendimiento</l>
+                  <l>las reglas de la enseñanza.</l>
+                  <l>Era discreta y hermosa,</l>
+                  <l>muy honesta y recatada,</l>
+                  <l>y aunque princesa, era humilde</l>
+                  <l>en la condicion muy llana,</l>
+                  <l>muy piadosa con los pobres, </l>
+                  <l>y en dar lismona muy franca.</l>
+                  <l>Mas como siempre á los niños</l>
+                  <l>todo lo vistoso agrada,</l>
+                  <l>con el trage de princesa</l>
+                  <l>se fue inclinando á las galas,</l>
+                  <l>como niña y no por eso</l>
+                  <l>izo su virtud mudanza.</l>
+                  <l>Siendo ya de doce años,</l>
+                  <l>trata el padre de casarla</l>
+                  <l>con el conde Valduino, </l>
+                  <l>sobrino del rey de <name>Francia</name>,</l>
+                  <l>y deudo de rosalia</l>
+                  <l>para que los dos reinaran.</l>
+                  <l>Mas como Dios la tenia</l>
+                  <l>para corona mas alta,</l>
+                  <l>escogida por esposa,</l>
+                  <l>vino amante á visitarla.</l>
+                  <l>Estando en su cuerto un dia</l>
+                  <l>ricamente aderezada,</l>
+                  <l>le dió una dama el espejo</l>
+                  <l>para que en él se mirara,</l>
+                  <l>y al ver en él su rostro,</l>
+                  <l>vió á la Imagen soberana</l>
+                  <l>de Cristo crucificado,</l>
+                  <l>vertiendo sangre sus llagas,</l>
+                  <l>y que con voz muy sentida</l>
+                  <l>la decia estas palabras:</l>
+                  <l>mira cual estoy por tí,</l>
+                  <l>Rosalia, mal me pagas</l>
+                  <l>si á la vanidad te entregas;</l>
+                  <l>deja esas profanas galas,</l>
+                  <l>y si quieres hermosura, </l>
+                  <l>á tu rostro color saca</l>
+                  <l>de esta roja sangre mia,</l>
+                  <l>que por tu amor se derrama;</l>
+                  <l>has de mis espinas joyas,</l>
+                  <l>y estarás mas adornada,</l>
+                  <l>que las que en el pecho tienes</l>
+                  <l>son lazos para las almas,</l>
+                  <l>con que el demonio aprisiona</l>
+                  <l>a cuantos de mi se apartan,</l>
+                  <l>buscando su perdicion</l>
+                  <l>en la liviandad profana.</l>
+                  <l>Si deseas ser mi esposa, </l>
+                  <l>y quieres lograr la palma</l>
+                  <l>de mis amadas esposas, </l>
+                  <l>vete al <name>Salvador</name> mañana,</l>
+                  <l>y allí harás solemne voto, </l>
+                  <l>que es mi gusto que lo hagas.</l>
+                  <l>Recibe Sacramentado</l>
+                  <l>mi Cuerpo, porque tu alma</l>
+                  <l>se limpie de tus descuidos,</l>
+                  <l>y se adorne con mi gracia.</l>
+                  <l>Entonces serás mi esposa,</l>
+                  <l>dándome mano y palabra</l>
+                  <l>de ser como esposa mia,</l>
+                  <l>humilde, obediente y casta. </l>
+
+                  <pb n="3" source="Moreno_118_3.jpg"
+                     facs="fedora_ug8108673/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>De este prodigio la niña</l>
+                  <l>quedó absorta y desmayada,</l>
+                  <l>y la criada confusa;</l>
+                  <l>porque tambien la criada</l>
+                  <l>conoció que á su señora</l>
+                  <l>en el espejo la hablaban.</l>
+                  <l>Recobróse Rosalia,</l>
+                  <l>y de rodillas postrada,</l>
+                  <l>bañando en llanto sus ojos,</l>
+                  <l>ha dicho con tiernas ánsias:</l>
+                  <l>Soberano dueño mio,</l>
+                  <l>perdona mis ignorancias;</l>
+                  <l>confieso que inadvertida</l>
+                  <l>te he correspondido ingrata,</l>
+                  <l>ya lo conozco y me pesa;</l>
+                  <l>mas os doy firme palabra</l>
+                  <l>de dar por tu amor la vida,</l>
+                  <l>y vivir crucificada,</l>
+                  <l>como vos lo estais por mí,</l>
+                  <l>que amor con amor se paga.</l>
+                  <l>Yo renuncio el ser princesa,</l>
+                  <l>por ser vuestra humilde esclava;</l>
+                  <l>que no quiero mas corona</l>
+                  <l>que vivir en vuestra gracia.</l>
+                  <l>Se fué Cristo del espejo, </l>
+                  <l>y al verse en él retratada,</l>
+                  <l>hizo el espejo pedazos</l>
+                  <l>para que no se mirára</l>
+                  <l>la humilde fragilidad</l>
+                  <l>donde vió la deidad sacra.</l>
+                  <l>Despojóse de sus joyas,</l>
+                  <l>pisándolas con sus plantas;</l>
+                  <l>y tomando unas tigeras,</l>
+                  <l>con resolucion bizarra</l>
+                  <l>se cortó el hermoso pelo, </l>
+                  <l>y con desprecio lo trata; </l>
+                  <l>y desnudándose, dijo:</l>
+                  <l>á fuera profanas galas,</l>
+                  <l>loca vanidad, á fuera,</l>
+                  <l>que ya estoy desengeñada</l>
+                  <l>que los adornos del cuerpo</l>
+                  <l>son borrones para el alma.</l>
+                  <l>Se vistió de humilde trage,</l>
+                  <l> en su aposento encerrada</l>
+                  <l>pasó aquel dia y la noche;</l>
+                  <l>y así que rompió el alba,</l>
+                  <l>se fué al <name>Salvador</name> á misa</l>
+                  <l>sin ser de nadie notada.</l>
+                  <l>Llamando á su confesor</l>
+                  <l>le cuenta lo que le pasa;</l>
+                  <l>y prudente la aconseja, </l>
+                  <l>que no se resista en nada,</l>
+                  <l>que obedezca en todo pronta,</l>
+                  <l>supuesto que Dios la llama.</l>
+                  <l>Confesó generalmente,</l>
+                  <l>en tierno llanto anegada,</l>
+                  <l>juzgando por graves culpas</l>
+                  <l>las que fueron leves faltas.</l>
+                  <l>Recibió sacramentado</l>
+                  <l>á Cristo, y para dar gracias,</l>
+                  <l>se entró sola á una capilla</l>
+                  <l>de la Vírgen soberana,</l>
+                  <l>que tenia un niño en brazos,</l>
+                  <l>y de rodillas postrada</l>
+                  <l>celebró el solemne voto</l>
+                  <l>con discretas circunstancias.</l>
+                  <l>Volvió el Niño el rostro alegre, </l>
+                  <l>y afable la mano alarga,</l>
+                  <l>dándosela á Rosalía,</l>
+                  <l>y un precioso anillo en arras</l>
+                  <l>en señal de matrimonio:</l>
+                  <l>y la que es llena de gracia</l>
+                  <l>fué la madrina, y testigos,</l>
+                  <l>los ángeles de su guarda.</l>
+                  <l>Estando ya Rosalia</l>
+                  <l>con su amante desposada,</l>
+                  <l>comenzó á crucificarse</l>
+                  <l>por cumplirle la palabra,</l>
+                  <l>con penitencias y ayunos,</l>
+                  <l>viviendo mortificada</l>
+                  <l>con tan ásperos cilicios,</l>
+                  <l>que piadosas las criadas </l>
+                  <l>les dieron cuenta á sus padres</l>
+                  <l>del rigor con que se trata,</l>
+                  <l>El padre de Rosalia, </l>
+                  <l>que tiernamente la amaba,</l>
+                  <l>y esperaba ver por ella</l>
+                  <l>la sucesion de su casa,</l>
+                  <l>juzgando que el nuevo estado</l>
+                  <l>hiciera en ella mudanza,</l>
+                  <l>abreviando el casamiento;</l>
+                  <l>fué á su cuarto á visitarla,</l>
+                  <l>y con discretas razones, </l>
+                  <l>y cariñosas palabras,</l>
+                  <l>dió á entender á Rosalia </l>
+                  <l>como estaba ya casada,</l>
+                  <l>y que aquella misma noche</l>
+                  <l>habian de desposarla.</l>
+                  <l>Aunque ella calló prudente,</l>
+                  <l>estaba determinada</l>
+
+                  <pb n="4" source="Moreno_118_4.jpg"
+                     facs="fedora_ug8109565/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>de no casarse, aunque viera</l>
+                  <l>el cuchillo á la garganta. </l>
+                  <l>Apenas se fué su padre,</l>
+                  <l>cuando vió entrar por la sala</l>
+                  <l>dos bellísimos mancebos,</l>
+                  <l>ángeles en forma humana,</l>
+                  <l>diciéndola Rosalia,</l>
+                  <l>sabrás que tu esposo manda</l>
+                  <l>te saquemos de palacio, </l>
+                  <l>que quiere que en la montaña</l>
+                  <l>de <name>Quisquina</name> en una cueva,</l>
+                  <l>hagas vida solitaria.</l>
+                  <l>Alegróse Rosalía,</l>
+                  <l>lo propio que deseaba,</l>
+                  <l>y recelando prudente</l>
+                  <l>el peligro en la tardanza,</l>
+                  <l>dispuso luego el viage</l>
+                  <l>recogiendo sus alhajas;</l>
+                  <l>cilicios y disciplinas,</l>
+                  <l>libros y algunas estampas,</l>
+                  <l>y un divino crucifijo,</l>
+                  <l>el que ella contemplaba</l>
+                  <l>haber visto en el espejo,</l>
+                  <l>que siempre estuvo en su alma.</l>
+                  <l>Y haciando un lio de todo,</l>
+                  <l>de los ángeles guiada,</l>
+                  <l>se salió de su palacio</l>
+                  <l>sin que nadie la estorbara;</l>
+                  <l>y yendo por el camino, </l>
+                  <l>aunque niña y delicada</l>
+                  <l>caminaba como un viento</l>
+                  <l>con el fardillo á la espalda.</l>
+                  <l>Anduvieron trece leguas.</l>
+                  <l>y llegando á la montaña, </l>
+                  <l>la subieron á la cumbre,</l>
+                  <l>á donde la cueva estaba,</l>
+                  <l>diciéndola: Rosalia,</l>
+                  <l>esta ha de ser tu morada;</l>
+                  <l>quédate en paz, y no temas, </l>
+                  <l>que tu esposo te acompaña:</l>
+                  <l>y aunque invisibles, nosotros</l>
+                  <l>hemos de estar en tu guarda.</l>
+                  <l>Así que se vido sola,</l>
+                  <l>entro á registrar su casa,</l>
+                  <l>y á disponer su oratorio</l>
+                  <l>y vestirse de hermitaña.</l>
+                  <l>Se puso un tosco sayal.</l>
+                  <l>y en lugar de blanca blonda,</l>
+                  <l>vistió un hábito de cerdas</l>
+                  <l>para estar mortificada:</l>
+                  <l>su cama era el duro suelo,</l>
+                  <l>y una piedra su almohada;</l>
+                  <l>su alimento era la yerba,</l>
+                  <l>y era su bebida el agua,</l>
+                  <l>que la gruta gota á gota</l>
+                  <l>liberal la destilaba</l>
+                  <l>cuando por Dios la pedia:</l>
+                  <l>y haciendo copas de palmas</l>
+                  <l>con sus manos, de esta suerte</l>
+                  <l>la penosa sed saciaba,</l>
+                  <l>aunque por mortificarse</l>
+                  <l>la bebia siempre escasa.</l>
+                  <l>La oracion fué su egercicio,</l>
+                  <l>y las discipliñas tantas,</l>
+                  <l>que jamás se vió en el mundo</l>
+                  <l>rosa mas disciplinada.</l>
+                  <l>Aquí estaba Rosalia</l>
+                  <l>tan contenta y bien hallada,</l>
+                  <l>como si allí hubiera sido</l>
+                  <l>su nacimiento y crianza;</l>
+                  <l>pero el demonio envidioso</l>
+                  <l>del valor de una muchacha,</l>
+                  <l>dió principio á hacer la guerra</l>
+                  <l>procurando derribarla.</l>
+                  <l>La traia al pensamiento</l>
+                  <l>memorias que la inquietaran,</l>
+                  <l>acordándola sus padres,</l>
+                  <l>y acusándola de ingrata;</l>
+                  <l>la acordaba su palacio,</l>
+                  <l>sus amigas y criadas,</l>
+                  <l>sus joyas y sus vestidos,</l>
+                  <l>y el regalo de su casa,</l>
+                  <l>la grandeza en que se vido</l>
+                  <l>el estado en que se halla.</l>
+                  <l>Y viendo que Rosalía </l>
+                  <l>no hacia caso de nada,</l>
+                  <l>andaba muy desvelado</l>
+                  <l>intentando nuevas trazas.</l>
+                  <l>En donde la dejaremos</l>
+                  <l>á esta princesa hermitaña:</l>
+                  <l>y en otra segunda parte</l>
+                  <l>dirá Adarbe lo que falta</l>
+                  <l>hasta la dichosa muerte</l>
+                  <l>de esta prodigiosa Santa.</l>
+
+                  <trailer>FIN DE LA PRIMERA PARTE.</trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_118_5.jpg"
+                     facs="fedora_ug8109759/full/full/0/default.jpg"/>
+
+                  <head type="titulo_parte">
+                     <lb/>SEGUNDA PARTE, <hi rend="cursiva"><lb/>en que se refiere el resto de la
+                        penitente vida, y la prodigiosa muerte de <lb/>santa Rosalia de
+                        Palermo.</hi>
+                  </head>
+
+                  <l>Dejamos á Rosalia </l>
+                  <l>penitente y hermitaña</l>
+                  <l>en el <name>monte de <name>Quisquina</name>
+                     </name></l>
+                  <l>con dos ángeles de guardia,</l>
+                  <l>del mismo Dios asistida,</l>
+                  <l>quien por mas acrisolarla</l>
+                  <l>permitió darle licencia</l>
+                  <l>al demonio que con trazas</l>
+                  <l>la tentase en el desierto,</l>
+                  <l>porque viese su constancia;</l>
+                  <l>con cuyo permiso al punto</l>
+                  <l>afiló el dragon sus garras,</l>
+                  <l>imaginando hacer presa</l>
+                  <l>en esta princesa Santa.</l>
+                  <l>La acometió al pensamiento</l>
+                  <l>con mil tentaciones varias</l>
+                  <l>por echarla de la cueva, </l>
+                  <l>y que perdiera la gracia;</l>
+                  <l>pero á todo Rosalia </l>
+                  <l>tuvo las puertas cerradas.</l>
+                  <l>Y viendo que se resiste</l>
+                  <l>á la primeras instancias</l>
+                  <l>con visible cuerpo quiso</l>
+                  <l>presentarla la batalla.</l>
+                  <l>Viéndola, pues cierto dia</l>
+                  <l>de todo alimento falta,</l>
+                  <l>buscando alguas raices</l>
+                  <l>que la sirvan de vianda,</l>
+                  <l>en forma de un caballero</l>
+                  <l>que era criado de casa,</l>
+                  <l>de quien fiaba su padre</l>
+                  <l>los negocios de importancia,</l>
+                  <l>con grande acompañamiento</l>
+                  <l>dió á entender que la buscaba,</l>
+                  <l>asustándola primero</l>
+                  <l>con ruido de gente y armas.</l>
+                  <l>Quiso volverse á la cueva,</l>
+                  <l>pero los pasos la atajan,</l>
+                  <l>y encontrándose con ella, </l>
+                  <l>la dijo aquestas palabras:</l>
+                  <l>gracias á mi diligencia,</l>
+                  <l>que bien puedo darle gracias, </l>
+                  <l>pues por ella he conseguido</l>
+                  <l>todo cuanto deseaba,</l>
+                  <l>como hallar tan alta prenda</l>
+                  <l>que tomé empeño en buscarla,</l>
+
+                  <pb n="6" source="Moreno_118_6.jpg"
+                     facs="fedora_ug8108694/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>despues de haber penctrado</l>
+                  <l><name>Italia</name>, <name>Francia</name> y <name>España</name>,</l>
+                  <l>buscando tu real persona;</l>
+                  <l>pero ¿quien imaginara</l>
+                  <l>que estuviera una princesa</l>
+                  <l>en una cueva encerrada?</l>
+                  <l>¿Posible es que una señora</l>
+                  <l>discreta, hermosa y bizarra,</l>
+                  <l>siendo princesa en <name>Sicilia</name>,</l>
+                  <l>que será reina mañana,</l>
+                  <l>así se deja á sus padres</l>
+                  <l>y el regalo de su casa,</l>
+                  <l>por vivir entre las fieras</l>
+                  <l>en esta áspera montaña,</l>
+                  <l>con tan conocido riesgo</l>
+                  <l>como á su alteza amenaza,</l>
+                  <l>sola en aqueste destierro,</l>
+                  <l>niña y con tan linda cara?</l>
+                  <l>¿Por qué quieres imitar</l>
+                  <l>á Maria la Egipciaca,</l>
+                  <l>si ella fué tan pecadora,</l>
+                  <l>y tú inocente te hallas?</l>
+                  <l>si tú á Dios no has ofendido,</l>
+                  <l>¿por qué con rigor te tratas?</l>
+                  <l>Vamos, señora á palacio,</l>
+                  <l>que tu padre nos aguarda</l>
+                  <l>tan penado de tu ausencia,</l>
+                  <l>que solo espirar le falta:</l>
+                  <l>y si por tu causa muere,</l>
+                  <l>te acreditas de tirana;</l>
+                  <l>y el ser cruel con los padres</l>
+                  <l>no es justo, ni Dios lo manda.</l>
+                  <l>¿Qué me respondes, señora?</l>
+                  <l>Resuélvete ya: ¿qué aguardas?</l>
+                  <l>porque si no te resuelves,</l>
+                  <l>aunque al decoro faltara, </l>
+                  <l>te habré de llevar por fuerza, </l>
+                  <l>ó dejarte aquí con guagdas</l>
+                  <l>hasta dar cuenta á tu padre,</l>
+                  <l>que es quien buscarte manda.</l>
+                  <l>Oyendo aqaestas razones</l>
+                  <l>quedó confusa y turbada,</l>
+                  <l>sin saber que responderle,</l>
+                  <l>ni poder hablar palabra.</l>
+                  <l>Alzo los ojos al Cielo</l>
+                  <l>y á su amado Esposo llama,</l>
+                  <l>pidiéndole que la libre</l>
+                  <l>del peligro en que se halla.</l>
+                  <l>Acudió crucificado,</l>
+                  <l>lleno de luces muy claras</l>
+                  <l>y le dice: esposa mia, </l>
+                  <l>no temas, que esa fué traza</l>
+                  <l>del demonio que pretende</l>
+                  <l>amancillar tu constancia;</l>
+                  <l>pero yo siempre te amparo.</l>
+                  <l>Ella respondió humillada:</l>
+                  <l>Soberano dueño mio,</l>
+                  <l>si tu Magestad me ampara,</l>
+                  <l>venga contra mí el infierno,</l>
+                  <l>que con ser mis fuerzas flacas</l>
+                  <l>antes perderé la vida</l>
+                  <l>que falte yo á mi constancia.</l>
+                  <l>La estimó Dios la fineza</l>
+                  <l>con amorosas palabras,</l>
+                  <l>y desclavándose un brazo</l>
+                  <l>estrechamente la abraza,</l>
+                  <l>arrimándola al costado</l>
+                  <l>dejándola confortada</l>
+                  <l>para mayores empresas</l>
+                  <l>como adelante la aguardan.</l>
+                  <l>E! demonio muy corrido</l>
+                  <l>procuró tomar venganza</l>
+                  <l>en su delicado cuerpo,</l>
+                  <l>ya que no pudo en el alma,</l>
+                  <l>tomando forma visible,</l>
+                  <l>la dice con voz airada:</l>
+                  <l>loca, hipócrita, embustera,</l>
+                  <l>atrevida temeraría</l>
+                  <l>¿qué haces en esa cueva,</l>
+                  <l>donde vives ignorada?</l>
+                  <l>¿piensas engañar al mundo,</l>
+                  <l>porque te tengan por santa?</l>
+                  <l>de todos estos engaños</l>
+                  <l>tendrás muy presto la paga,</l>
+                  <l>porque tu padre ya viene</l>
+                  <l>á llevarte meniatada</l>
+                  <l>y á encerrarte como loca,</l>
+                  <l>que ese el premio que aguarda</l>
+                  <l>quien dá crédito á ilusiones</l>
+                  <l>y fantasias soñadas.</l>
+                  <l>Ya perdiste el ser Princesa</l>
+                  <l>y de tu padre la gracia;</l>
+                  <l>pero si librarte quieres, </l>
+                  <l>vete á <name>España</name> ó vete á <name>Francia</name>,</l>
+                  <l>que allí vivirás segura</l>
+                  <l>y serás muy estimada.</l>
+                  <l>Vete, que si no te vas,</l>
+                  <l>pondré fuego á esta montaña, </l>
+                  <l>ó haré que una horrible fiera</l>
+                  <l>te despedace en sus garras.</l>
+
+                  <pb n="7" source="Moreno_118_7.jpg"
+                     facs="fedora_ug8109852/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>Mas viendo que no responde</l>
+                  <l>ni temes sus amenazas,</l>
+                  <l>la maltrata á crueles golpes</l>
+                  <l>y por la cueva la arrastra,</l>
+                  <l>dejando á la santa niña</l>
+                  <l>mal herida y desangrada:</l>
+                  <l>mas los ángeles piadosos</l>
+                  <l>acuden á confortarla.</l>
+                  <l>Aquí estuvo Rosalia</l>
+                  <l>cruelmente atormentada</l>
+                  <l>del infernal enemigo</l>
+                  <l>por todas partes cercada;</l>
+                  <l>pero siempre victoriosa</l>
+                  <l>de infernales asechanzas,</l>
+                  <l>hasta que el mismo demonio</l>
+                  <l>determinó ya dejarla:</l>
+                  <l>viendo la empresa imposible,</l>
+                  <l>pues cuanto mas trabajaba</l>
+                  <l>mas resplandecia en ella</l>
+                  <l>la corona que la labra.</l>
+                  <l>Murió su padre á este tiempo:</l>
+                  <l>y de un ángel fué avisada,</l>
+                  <l>como estaba al purgatorio,</l>
+                  <l>que á su Dios por él rogara:</l>
+                  <l>hizo oracion fervorosa,</l>
+                  <l>pidiéndole á Dios que salga</l>
+                  <l>de las penas que padece</l>
+                  <l>que ella se obliga á la paga.</l>
+                  <l>Salió el padre de las penas,</l>
+                  <l>y vino á darla las gracias,</l>
+                  <l>diciéndola que prosiga</l>
+                  <l>en la vida comenzada.</l>
+                  <l>Tres fiestas que Rosalia</l>
+                  <l>por devocion celebraba.</l>
+                  <l>Resurreccion, Ascencion,</l>
+                  <l>y la venturosa pascua</l>
+                  <l>del nacimiento de Cristo,</l>
+                  <l>su esposo por festejarla,</l>
+                  <l>las celebraba en la cueva</l>
+                  <l>con grandeza soberana,</l>
+                  <l>formandola una capilla</l>
+                  <l>ricamente aderazada,</l>
+                  <l>y un supremo sacerdote</l>
+                  <l>decia misa cantada,</l>
+                  <l>la daba la comunion,</l>
+                  <l>san Pedro la predicaba,</l>
+                  <l>y la capilla del Cielo</l>
+                  <l>con su música bajaba,</l>
+                  <l>é infinitos convidados,</l>
+                  <l>ángeles, santos y santas,</l>
+                  <l>y la Emperatriz del Cielo</l>
+                  <l>la funcion autorizaba.</l>
+                  <l>En acabando la fiesta</l>
+                  <l>la daban todos los gracias,</l>
+                  <l>é infinitos parabienes</l>
+                  <l>de la gloria que gozaba,</l>
+                  <l>dejándola á Rosalia</l>
+                  <l>el alma en gloria anegada.</l>
+                  <l>En la oracion cierto dia,</l>
+                  <l>con humildad contemplaba</l>
+                  <l>lo mucho que á Dios debia,</l>
+                  <l>y lo mal que ella le paga;</l>
+                  <l>que él la obliga con finezas,</l>
+                  <l>y ella no la sirve en nada:</l>
+                  <l>la estremeció este discurso,</l>
+                  <l>y Cristo por consolarla</l>
+                  <l>se le apareció en la cruz,</l>
+                  <l>y la dijo estas palabras:</l>
+                  <l>muy amada esposa mia,</l>
+                  <l>por lo mucho que me agrada</l>
+                  <l>el valor con que padeces,</l>
+                  <l>y el amor con que me amas,</l>
+                  <l>he de darte una corona</l>
+                  <l>de flores de tal fragancia,</l>
+                  <l>que han de preservar á muchos</l>
+                  <l>de la corrupsion humana,</l>
+                  <l>de la contagiosa peste</l>
+                  <l>que mi justicia amenaza.</l>
+                  <l>y cuantos por tí me pidan</l>
+                  <l>se librarán de mi saña.</l>
+                  <l>Ahora es mi voluntad</l>
+                  <l>que de aquesta cueva vayas</l>
+                  <l>á vivir en otra cueva</l>
+                  <l>que te tengo preparada</l>
+                  <l>en el <name>monte Peregrino</name>,</l>
+                  <l>à dos millas de distancia</l>
+                  <l>de <name>Palermo</name>; porque allí</l>
+                  <l>se perpetue tu casa:</l>
+                  <l>los mismos que te trajeron,</l>
+                  <l>que contigo tambien vayan, </l>
+                  <l>que esta mudanza ha de ser</l>
+                  <l>el crisol de tu constancia.</l>
+                  <l>Obedeció la doncella,</l>
+                  <l>y para hacer su jornada</l>
+                  <l>se despidió de la cueva,</l>
+                  <l>recogiendo sus alhajas.</l>
+                  <l>y por mandado de un ángel</l>
+                  <l>en una piedra grabadas</l>
+                  <l>dejó unas letras que dicen:</l>
+                  <l>Rosalia Sinibalda,</l>
+
+                  <pb n="8" source="Moreno_118_8.jpg"
+                     facs="fedora_ug8104464/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>hija del Conde de <name>Rosas</name>,</l>
+                  <l>y princesa propietaria, </l>
+                  <l>de mi voluntad renuncio</l>
+                  <l>cuantas riquezas humanas</l>
+                  <l>me tocan y tocar puedan.</l>
+                  <l>Y en la misma cueva se hallan</l>
+                  <l>en lengua latina escritas,</l>
+                  <l>como las dejó la santa.</l>
+                  <l>Pasó al <name>monte Peregrino</name>,</l>
+                  <l>y el palacio que la aguarda</l>
+                  <l>es una cueva horrosa,</l>
+                  <l>muy fria y desabrigada;</l>
+                  <l>en un peñon eminente,</l>
+                  <l>que está á la orilla del agua,</l>
+                  <l>y en un hueco de una pena,</l>
+                  <l>de lo ancho de dos varas</l>
+                  <l>hizo nido esta paloma,</l>
+                  <l>y allí tuvo su morada</l>
+                  <l>por tiempo de siete años.</l>
+                  <l>Y cuando ya se acercaba</l>
+                  <l>de su partida la hora</l>
+                  <l>de su amor tan deseada,</l>
+                  <l>enfermó de calentura;</l>
+                  <l>y viendose ya postrada,</l>
+                  <l>pidió á Dios que la conceda,</l>
+                  <l>que antes que del mundo salga,</l>
+                  <l>reciba los sacramentos</l>
+                  <l>para morir consolada.</l>
+                  <l>Se lo concedió piadoso,</l>
+                  <l>y á los ángeles les manda</l>
+                  <l>que partan á la ciudad,</l>
+                  <l>y que vayan á la casa</l>
+                  <l>de Cirilo el sacerdote,</l>
+                  <l>hombre de vida muy santa,</l>
+                  <l>y de su parte le digan</l>
+                  <l>que los sacramentos traiga</l>
+                  <l>á una santa penitente,</l>
+                  <l>que á la muerte está cercana.</l>
+                  <l>Fueron los embajadores, </l>
+                  <l>y dandole la embajada:</l>
+                  <l>obediente se previno</l>
+                  <l>de las cosas necesarias.</l>
+                  <l>Salieron de la ciudad,</l>
+                  <l>y los dos que le acompañan</l>
+                  <l>fueron por todo el camino</l>
+                  <l>alumbrando con dos hachas.</l>
+                  <l>Llegó Cirilo á la cueva</l>
+                  <l>donde Rosalia estaba</l>
+                  <l>en un rincon retirada,</l>
+                  <l>honestamente acostada.</l>
+                  <l>Recibió los Sacramentos,</l>
+                  <l>y luego su esposo manda</l>
+                  <l>cuente á Cirilo su vida</l>
+                  <l>para que la publicara;</l>
+                  <l>se la dijo por estensos</l>
+                  <l>y acabando de contarla</l>
+                  <l>se llenó toda la cueva</l>
+                  <l>de resplandor y fragancia,</l>
+                  <l>y vido Cirilo entrar</l>
+                  <l>á la Vírgen soberana, </l>
+                  <l>siendo trono de su Hijo,</l>
+                  <l>y llegándose a la cama</l>
+                  <l>de la enferma Rosalia,</l>
+                  <l>estrechamente la abraza.</l>
+                  <l>y en los brazos de la Vírgen</l>
+                  <l>Rosalia entregó el alma,</l>
+                  <l>en las manos de su Esposo,</l>
+                  <l>que la puso una guirnalda,</l>
+                  <l>y coronada de rosas, </l>
+                  <l>del esposo acompañada,</l>
+                  <l>de su soberana Madre, </l>
+                  <l>ángeles, santos y santas,</l>
+                  <l>subió triunfante á la gloria</l>
+                  <l>la rosa Palermitana,</l>
+                  <l>dejando acá sus reliquias</l>
+                  <l>en la cueva sepultadas,</l>
+                  <l>dentro de la misma piedra</l>
+                  <l>que al cuerpo sirvió de cama;</l>
+                  <l>y ahora en el mismo monte</l>
+                  <l>tiene su templo la Santa,</l>
+                  <l>y es de todas las paciones</l>
+                  <l>conocida y venerada.</l>
+                  <l>Y así pidamosla humildes</l>
+                  <l>nos alcance de Dios gracia</l>
+                  <l>de imitarla en su virtudes</l>
+                  <l>y libre de peste á <name>España</name>.</l>
+
+                  <trailer rend="negrita">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. <lb/>Imprenta de D. J. María Moreno, calle Juan de la Cabra,
+                  núm. 5. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

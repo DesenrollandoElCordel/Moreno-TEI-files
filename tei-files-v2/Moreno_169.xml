@@ -1,0 +1,881 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_169">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sainete titulado Francisco qué tienes</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete titulado Francisco que tienes.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473094</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 279</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>1 columna</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q1114855">
+                  <placeName key="Cerezo_de_Río_Tirón">Cerezo De Río Tirón</placeName>
+                  <location>
+                     <geo>42.491111111111 -3.1355555555556</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q142">
+                  <placeName key="Francia">Francia</placeName>
+                  <location>
+                     <geo>47 2</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-18" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-06-30" who="#EL">Correction de l'OCR</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104186/manifest">
+      <graphic url="fedora_ug8109492/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_169_1.jpg" facs="fedora_ug8109492/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">(Núm. 279.)</fw>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">SAINETE.</hi>
+               <lb/>TITULADO <lb/><hi rend="negrita">FRANCISCO</hi>
+               <lb/><hi rend="cursiva">QUE TIENES.</hi>
+            </head>
+
+            <div type="reparto">
+               <head type="reparto_titulo">PERSONAS.</head>
+               <castList>
+                  <castItem>Gerundio.</castItem>
+                  <castItem>Sacristan.</castItem>
+                  <castItem>Vejete.</castItem>
+                  <castItem>Mencía.</castItem>
+               </castList>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859. <lb/>Imp. de D. Josè M.a Moreno, calle Madre de Dios. </p>
+            </div>
+
+            <div>
+               <pb n="2" source="Moreno_169_2.jpg" facs="fedora_ug8106019/full/full/0/default.jpg"/>
+
+               <stage>Salen Gerundio y Sacristan.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Sacristan de mi vida!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Qué me dices?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Amigo, amigo! Ay ansias infelices!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Deja ya tanto amigo, y dime el caso.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Has de saber amigo, que me abraso! Ay que</l>
+                  <l>me quemo!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac. </speaker>
+                  <l>Tente por tu vida.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Ay que rabio de amor!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac. </speaker>
+                  <l>Linda partida!</l>
+                  <l>Acaba de decir tu pensamiento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Pues si lo he de decir, estame atento.</l>
+                  <l>Has de saber que todo mi quebranto, </l>
+                  <l>mi pena, mi dolor, mi ansia y llanto,</l>
+                  <l>es por la hija... Pero no prosigo.</l>
+                  <l>Ay amigo del alma! ay fiel amigo!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Baste ya de la chanza y la rencilla,</l>
+                  <l>y esplicate en lenguage de <name>Castilla</name>,</l>
+                  <l>que hasta ahora vascuence me has hablado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Pues si lo he de decir, id con cuidado.</l>
+                  <l>Como digo, yo adoro por mis males</l>
+                  <l>à la hija de Ortuño Cigarrales,</l>
+                  <l>Maestro de capilla en esta villa,</l>
+                  <l>que fuè llamado aquí con campanilla;</l>
+                  <l>ella me quiere, yo la adoro á ella.</l>
+                  <l>Ay amigo del alma, que es muy bella!</l>
+                  <l>Ya tengo yo dispuesto ir á su casa</l>
+                  <l>(mirad si mi fortuna es bien escasa)</l>
+                  <l>á sacarla esta noche;</l>
+                  <l>mas como pobre soy, y no ando en coche, </l>
+
+                  <pb n="3" source="Moreno_169_3.jpg"
+                     facs="fedora_ug8110175/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>el modo no lo alcanza mi porfia</l>
+                  <l>de hablarla, por poder (ay suerte impia!)</l>
+                  <l>en santo casamiento (ay desdichado!)</l>
+                  <l>lograr en su belleza mi cuidado.</l>
+                  <l>Mirad ahora, amigo, en tanta pena</l>
+                  <l>que hará un alma, que vive de ella agena!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Eso decis? callad, que he discurrido</l>
+                  <l>un arbitrio el mayor que habreis oido:</l>
+                  <l>él, como me habeis dicho, es gran solfista,</l>
+                  <l>y así porque se logre á letra vista,</l>
+                  <l>sabed tambien que es grande amigo mio,</l>
+                  <l>y de ordinario es de quien me fio</l>
+                  <l>para los villancicos que tenemos;</l>
+                  <l>y tambien, si los dos juntos nos vemos,</l>
+                  <l>un <hi rend="cursiva">Parce miqui</hi> en tono comenzamos, </l>
+                  <l>y cantando los dos nos las pelamos.</l>
+                  <l>Y así venid conmigo con cuidado,</l>
+                  <l>que hemos de entrar allá y embelesado</l>
+                  <l>luego al punto en papeles diferentes,</l>
+                  <l>vereis que tiene el alma entre los dientes;</l>
+                  <l>con que así al descuidillo,</l>
+                  <l>á ella os llevareis por estrivillo,</l>
+                  <l>que no dudo, si el caso no se arruga,</l>
+                  <l>que al compás de la solfa hareis la fuga.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Vida me has dado: vamos luego al punto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Venid luego á su casa.</l>
+
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger. </speaker>
+                  <l>Mas pregunto,</l>
+                  <l>que en fin, mientras él canta, he de roballa?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Si, amigo, aunque el Vejete es un Audalla;</l>
+                  <l>pero no temais nada, no os dé espanto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Ay divina Mencía !ay dulce encanto! <stage rend="cursiva">vanse.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Vej.</speaker>
+                  <l>O cuidados de aquesta vida humana!</l>
+
+                  <pb n="4" source="Moreno_169_4.jpg"
+                     facs="fedora_ug8110174/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>no he descansado un dia en la semana.</l>
+                  <l>Como me hallo Maestro en esta villa,</l>
+                  <l>y me tienen metido en la capilla,</l>
+                  <l>todo el dia revuelvo mis papeles,</l>
+                  <l>que parezco á Cacúm con arambeles,</l>
+                  <l>sin tener un ochavo en mi bolsillo,</l>
+                  <l>que vengo á ser el sastre del Campillo.</l>
+                  <l>Qué falta me hace el Sacristan amado,</l>
+                  <l>que es solfista, y si yerro, me habla claro!</l>
+                  <l>Tengo ahora una obrilla razonable,</l>
+                  <l>y probarla quisiera. O cuan estable</l>
+                  <l>es de mi habilidad la vigilancia,</l>
+                  <l>pues merecía estar por Par en <name>Francia</name>!</l>
+                  <l>En mis obras no hablemos,</l>
+                  <l>que los de habilidad eso tenemos.</l>
+                  <l>Ola Mencia? hija?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Menc. </speaker>
+                  <l>Señor padre,</l>
+                  <l>qué es lo que manda usted?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Toda á su madre!</l>
+                  <l>Dios te bendiga: miren los ojuelos?</l>
+                  <l>pues su madre era así: valedme, cielos!</l>
+                  <l>No me acordeis de aquella prenda cara</l>
+                  <l>la belleza! que poco que ella usára</l>
+                  <l>el tontillo, la gala, ni otra cosa!</l>
+                  <l>No lo hubo menester, porque era hermosa.</l>
+                  <l>Ay hija! no olvideis su trato en nada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Señor padre, siharé.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Eso me agrada,</l>
+                  <l>Han venido á buscarme? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc. </speaker>
+                  <l>Señor padre,</l>
+                  <l>no han venido.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Hasta en esto es á su madre,</l>
+                  <l>qué se entiende, saber ella de mundo!</l>
+                  <l>lo que pasaba en casa. Es muy profundo</l>
+
+                  <pb n="5" source="Moreno_169_5.jpg"
+                     facs="fedora_ug8108271/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
+                  <l>el sentimiento que hago en su memoria,</l>
+                  <l>cuando me acuerdo:-Dios te tenga en la gloria.</l>
+                  <l>Ois, Doña Mencía, si vinieren</l>
+                  <l>á buscarme, y acaso aqui estuvieren,</l>
+                  <l>no os vayais de mi lado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Harèlo así, mi padre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Qué obediencia !todita es á su madre!</l>
+                  <l>Pero ya el Sacristan se tarda mucho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dentro Sac. </speaker>
+                  <l>Ha de casa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Sin duda es el que escucho</l>
+                  <l>Ola, Doña Mencía?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Señor padre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>No os aparteis de mí. Toda á su madre!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Sac.</speaker>
+                  <l>O señor don Ortuño Cigarrales!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Seor Sacristan? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac. </speaker>
+                  <l>En todo son iguales</l>
+                  <l>á nuestra amistad firme los contentos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>No es este don Gerundio?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Ger.</speaker>
+                  <l>Pensamientos. <stage rend="cursiva">apar.</stage></l>
+                  <l>Permitid que yo logre mi porfia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Quién es este señor? Ola Mencía?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Padre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>A mi lado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Es un aficionado</l>
+                  <l>en ver obras, y habiéndole informado</l>
+                  <l>de vuestra habilidad, vino á esta villa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Solo á ser capellan á su capilla.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>En fin, tambien vos:-Ola, Mencia?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Señor padre</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>A mi lado. De obra</l>
+                  <l>pia sabeis la habilidad? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger. </speaker>
+                  <l>No supe nada,</l>
+                  <l>mas tuve la aficion adelantada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Dejemos las preguntas y respuestas,</l>
+                  <l>y probemos papeles, que estas fiestas</l>
+                  <l>novedad habrá habido.</l>
+               </sp>
+
+               <sp>
+                  <l> Vej Id con cuidado</l>
+
+                  <pb n="6" source="Moreno_169_6.jpg"
+                     facs="fedora_ug8105545/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum"><choice>
+                        <sic>5</sic>
+                        <corr>6</corr>
+                     </choice></fw>
+
+                  <l>mirando este papel semicopado.</l>
+               </sp>
+
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Mencia, está avisada. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc. </speaker>
+                  <l>Ya te entiendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>En avisando yo. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc. </speaker>
+                  <l>Eso pretendo,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Es lindo papel.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Es elégante.</l>
+                  <l>Ola, Mencía, ponte aquí delante;</l>
+                  <l>no te retires, hija, por tu vida.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Señor padre, aqui estoy.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>O qué entendida?</l>
+                  <l>Su madre ella por ella. Id prosiguiendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>La letra me decid, que no la entiendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Ay Francisco, qué tienes,</l>
+                  <l>que tienes! Jesus, que gracia que tienes!</l>
+                  <l>Y en este compasillo id avisado,</l>
+                  <l>para que aquel pasage que he ligado,</l>
+                  <l>camine con bemol, y mi corchera,</l>
+                  <l>en entrando en cruzado, salga fuera.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Ya lo entiendo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Que en fin he de lograrte?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Dueño del alma, si.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger. </speaker>
+                  <l>Quiero abrazarte,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Mirad esta patilla. Ola, Mencía?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Señor padre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>A mi lado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Ay tal porfia!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Empezad á cantar, que yo acompaño.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Pues para acompañar bien teneis paño.</l>
+                  <l>Dice la letra así.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Bien me previenes.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Ay Francisco, qué tienes, ay qué tienes?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Y como ha de ser, dime, la partida?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>En la ocasion será. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc. </speaker>
+                  <l>Pues por tu vida</l>
+                  <l>que sea luego al punto. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej. </speaker>
+                  <l>Id con cuidado,</l>
+                  <l>que aquel remifasol lo habeis errado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Como errado? tened por Dios, amigo.</l>
+               </sp>
+
+               <pb n="7" source="Moreno_169_7.jpg" facs="fedora_ug8108112/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>No veis aquesta clave? Mas qué digo?</l>
+                  <l>Ola, Mencía.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Señor padre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Al lado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>El Vejete es un lince.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej. </speaker>
+                  <l>Id con cuidado. <stage rend="cursiva">cantan.</stage></l>
+                  <l>Ay Francisco, que tienes!</l>
+                  <l>ay que gracia, Jesus! que gracia tienes!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Sigueme, que ya es hora.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Vamos luego. <stage rend="cursiva">vanse.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Tened por Dios: parece que estais ciego:</l>
+                  <l>si no entrais en compas! Ola, Mencía?</l>
+                  <l>Pero á dónde te has ido, vida mia?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Ay <choice>
+                        <sic>Erancisco</sic>
+                        <corr>Francisco</corr>
+                     </choice>, que tienes!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Ha Mencía? Mencía? Callad digo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Ay que gracia, Jesus! que gracia tienes!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>A donde se habrá ido aquel amigo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Ay <choice>
+                        <sic>Erancisco</sic>
+                        <corr>Francisco</corr>
+                     </choice>, que tienes!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>En confusion me ha puesto.</l>
+                  <l>Sabeis do está <choice>
+                        <sic>Mecía</sic>
+                        <corr>Mencía</corr>
+                     </choice>? Que es aquesto!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Ay que gracia, Jesus! que gracia tienes!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Callad con bercebú, que me amostazo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Oid que ya le entono.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>O que pelmazo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Ay Francisco, que tienes!</l>
+                  <l>Ay que gracia, Jesus! que gracía tienes!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Dejad ya de cantar, que en lo que muestro,</l>
+                  <l>me han robado mi hija.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Seor Maestro,</l>
+                  <l>aguardad, que ya voy entrando el paso.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Eso decis? de cólera me abraso.</l>
+                  <l>Allá dentro he de entrar, Ola, Mencía?</l>
+                  <l>Aguardad, que ya salgo. Ay honra mia! </l>
+               </sp>
+
+               <pb n="8" source="Moreno_169_8.jpg" facs="fedora_ug8106594/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Pues se entró, yo me voy, porque en saliendo,</l>
+                  <l>conozca don Ortuño que lo entiendo.</l>
+               </sp>
+
+               <stage rend="cursiva">Vase, y sale el Vegete con espada y broquel.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Ah perros, vive crispo,</l>
+                  <l>que me la habeis armado! Quien ha visto</l>
+                  <l>tal engaño? O maldad! Y quien creyera</l>
+                  <l>de nuestra amistad grande tal quimera!</l>
+                  <l>Irélos á buscar, ya que mi honra.</l>
+                  <l>con Francisco que tienes se deshonra.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Téngase por su vida, <stage rend="cursiva">Salen.</stage></l>
+                  <l>y pues ya no hay remedio en la partida,</l>
+                  <l>sepa que es mi muger su hija amada,</l>
+                  <l>pues se halla conmigo desposada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Este, hija, es el pago</l>
+                  <l>que en vos hallo, decid? Aqueste trago</l>
+                  <l>de mi vida quedaba por tu cuenta?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Señor padre, que quiere?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sac.</speaker>
+                  <l>Pues su afrenta</l>
+                  <l>satisfecha está ya, sean amigos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Pues séanme testigos,</l>
+                  <l>que se salió de casa. Que ruin trato!</l>
+                  <l>Hasta en esto á su madre es un retrato.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ger.</speaker>
+                  <l>Célebrese la burla, porque cuadre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vej.</speaker>
+                  <l>Hijos quereis bailar?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Menc.</speaker>
+                  <l>Si, señor padre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Canta Vej.</speaker>
+                  <l>Quien se fia de amigos,</l>
+                  <l>no anda acertado;</l>
+                  <l>porque el mas fiel amigo</l>
+                  <l>suele dar chasco.</l>
+               </sp>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

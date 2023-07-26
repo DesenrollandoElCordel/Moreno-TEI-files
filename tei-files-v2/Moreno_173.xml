@@ -1,0 +1,655 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_173">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Los dos príncipes de Italia</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Los dos principes de Italia. Romance que trata de
+                     las aventuras de dos Caballeros Italianos, llamados D. Enrique y D. Estefano
+                     los cuales eran primos hermanos. Declarase como corrieron lo mas de nuestra
+                     España, y el caso mas particular que les sucedió en ella.</title>
+                  <title type="titulo_breve">Los dos principes de Italia.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473121</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 183</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="3">Tres grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_173_1.xml"
+                              facs="fedora_ug8106687/285,380,387,668/100,/0/default.jpg"
+                              >grabado_m_173_1</item>
+                           <item corresp="grabado_m_173_2.xml"
+                              facs="fedora_ug8106687/691,369,450,704/100,/0/default.jpg"
+                              >grabado_m_173_2</item>
+                           <item corresp="grabado_m_173_3.xml"
+                              facs="fedora_ug8106687/1140,328,413,762/100,/0/default.jpg"
+                              >grabado_m_173_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="3" corresp="Q29">
+                  <placeName key="España">España</placeName>
+                  <location>
+                     <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="5" corresp="Q38">
+                  <placeName key="Italia">Italia</placeName>
+                  <location>
+                     <geo>42.5 12.5</geo>
+                  </location>
+               </place>
+               <place n="4" corresp="Q8717">
+                  <placeName key="Sevilla">Sevilla</placeName>
+                  <location>
+                     <geo>37.383333333333 -5.9833333333333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q220">
+                  <placeName key="Roma">Roma</placeName>
+                  <location>
+                     <geo>41.893055555556 12.482777777778</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q13395">
+                  <placeName key="Viterbo">Viterbo</placeName>
+                  <location>
+                     <geo>42.418611111111 12.104166666667</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q623549">
+                  <placeName key="Puerto_de_la_Cruz">Puerto De La Cruz</placeName>
+                  <location>
+                     <geo>28.416667 -16.55</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-31" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105881/manifest">
+      <graphic url="fedora_ug8106687/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <pb n="1" source="Moreno_173_1.jpg" facs="fedora_ug8106687/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">(Num. 183.)</fw>
+
+            <head rend="negrita" type="primer_titulo">LOS DOS PRINCIPES DE ITALIA.</head>
+            <head type="subtitulo">ROMANCE QUE TRATA DE LAS AVENTURAS <lb/>de dos Caballeros
+               Italianos, llamados D. Enrique <lb/>y D. Estefanolos cuales eran primos hermanos.
+               <lb/>Declarase como corrieron lo mas de nuestra Es- <lb/>paña, y el caso mas
+               particular que les sucedió <lb/>en ella. </head>
+
+            <div n="1" type="parte">
+
+               <head rend="cursiva" type="titulo_parte">PRIMERA PARTE.</head>
+
+               <l rend="indent">Deseosos de ver mundo</l>
+               <l>de las Provincias de <name>Italia</name></l>
+               <l>dos Principes se salieron</l>
+               <l>á ver los Reinos de <name>España</name>,</l>
+               <l>primos hermanos los dos,</l>
+               <l>á uno D. Enrique llaman,</l>
+               <l>y al otro D. Estefano,</l>
+               <l>los apellidos de Lara</l>
+
+               <pb n="2" source="Moreno_173_2.jpg" facs="fedora_ug8103290/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Anduvieron por Ciudades,</l>
+               <l>hasta llegar á la Mapa</l>
+               <l>de <name>Sevilla</name>, donde toman</l>
+               <l>por dos meses la posada.</l>
+               <l>Sucedió estando los dos</l>
+               <l>una muy fresca mañana</l>
+               <l>en su cuarto entretenidos,</l>
+               <l>cuando tocaron dos Damas</l>
+               <l>con un delicado golpe</l>
+               <l>á la puerta, se levanta</l>
+               <l>Don Enrique cuidadoso:</l>
+               <l>le hizo seña una tapada.</l>
+               <l>Confuso está Don Enrique,</l>
+               <l>sin saber lo que le pasa.</l>
+               <l>Corrió el trasparente velo,</l>
+               <l>y vido un divino mapa,</l>
+               <l>vido un hermoso compendio</l>
+               <l>de perfecciones gallardas,</l>
+               <l>un dulce hechízo miró,</l>
+               <l>dulce encanto que le encanta.</l>
+               <l>Saliose Don Estefano</l>
+               <l>con resolucion gallarda,</l>
+               <l>y burlando Don Enrique</l>
+               <l>el honor de la Madama,</l>
+               <l>quedó echa una Serpiente,</l>
+               <l>una vivora pisada</l>
+               <l>Despidióse de improviso;</l>
+               <l>y Don Enrique le daba,</l>
+               <l>por fineza un gran Toyson</l>
+               <l>con su cadena dorada.</l>
+               <l>Enlazósela en en el cuello,</l>
+               <l>y le dijo, que de <name>Italia</name></l>
+               <l>era, y que asi lomandase,</l>
+               <l>que prometía ampararla.</l>
+               <l>Digo que los Caballeros</l>
+               <l>se partíeron á otras Patrias,</l>
+               <l>y del referido lance</l>
+               <l>la Dama quedó preñada,</l>
+               <l>y parió un hermoso niño,</l>
+               <l>del Padre una viva estampa.</l>
+               <l>Se fué críando el infante</l>
+               <l>por medio de una criada,</l>
+               <l>dandole siempre á la madre</l>
+               <l>la nombradia de hermana.</l>
+               <l>Llegó á tener quince Abriles</l>
+               <l>con la debida enseñanza</l>
+               <l>de armas y letras, que son</l>
+               <l>las dos principales causas.</l>
+               <l>Su espiritu volativo</l>
+               <l>á ver mundo le inclinaba,</l>
+               <l>y un dia dijo á su madre:</l>
+               <l>Es cierto, querida hermana,</l>
+               <l>que no haya yo merecido,</l>
+               <l>ni por súplicas, ni instancias,</l>
+               <l>saber el que fue mi padre?</l>
+               <l>Usted dice, que en <name>Italía</name></l>
+               <l>asiste y asi pretendo</l>
+               <l>el hacer esta jornada,</l>
+               <l>y por fin se determina</l>
+               <l>á dejar su amada Patria.</l>
+               <l>Despidiose con alagos</l>
+               <l>de su muy querida hermana,</l>
+               <l>y con cariño le puso</l>
+               <l>la cadena, que colgada</l>
+               <l>traia en su mismo pecho,</l>
+               <l>diciendole estas palabras:</l>
+
+               <pb n="3" source="Moreno_173_3.jpg" facs="fedora_ug8108086/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>Busca al dueño de esta prenda,</l>
+               <l>tendrá buen fin tu esperanza,</l>
+               <l>y aunque padezcas trabajos,</l>
+               <l>nunca de ella te deshagas.</l>
+               <l>En ábitos de Estudiante</l>
+               <l>hácia <name>Roma</name> caminaba</l>
+               <l>Bajó á <name>Viterbo</name>, y alli</l>
+               <l>quiso el cielo que parara</l>
+               <l>por que la grande pobreza</l>
+               <l>del transito fue la causa.</l>
+               <l>Desnudo, triste, afligido,</l>
+               <l>solo y en agena Pátria</l>
+               <l>se hallaba con mil fatigas,</l>
+               <l>rindiéndole al Cielo gracias.</l>
+               <l>A las puertas de un Palacio</l>
+               <l>nuestro D. Francisco estaba</l>
+               <l>divirtiendose la vista</l>
+               <l>en ver embarcar dos damas</l>
+               <l>en un carrocin dorado,</l>
+               <l>hermosas como adornadas,</l>
+               <l>y á la <name>Española</name> costumbre</l>
+               <l>el sombrero les quitaba.</l>
+               <l>Mandaron parar el coche,</l>
+               <l>hizole seña una dama</l>
+               <l>de las dos, y acudió pronto</l>
+               <l>á ver lo que le mandaban.</l>
+               <l>Le dice: de que Pais </l>
+               <l>de las Provincias de <name>España</name></l>
+               <l>sois hijo? Nací en <name>Sevilla</name>.</l>
+               <l>Y dime, como te llamas?</l>
+               <l>Francisco al servicio vuestro.</l>
+               <l>Pues mira, por la mañana</l>
+               <l>vete al patio de Palacio,</l>
+               <l>y me leerás unas cartás:</l>
+               <l>en idióma Español,</l>
+               <l>y advierte que no haya falta.</l>
+               <l>Joven, guárdente los Cielos,</l>
+               <l>y cumplan mis esperanzas.</l>
+               <l>Ahora es preciso advertir,</l>
+               <l>como estas dos bellas damas</l>
+               <l>son hijas de los dos primos,</l>
+               <l>y la prima enamerada</l>
+               <l>de su primo D. Francisco,</l>
+               <l>en vivo incendio se abrasa.</l>
+               <l>Herida del Dios vendado</l>
+               <l>y mariposa abrasada,</l>
+               <l>determinóse, y tomó</l>
+               <l>lá pluma y asi notaba:</l>
+               <l>Con el dador te envio</l>
+               <l>esos cien doblones, para</l>
+               <l>que os vistais decentemente</l>
+               <l>y con las mejores galas.</l>
+               <l>Y si merezco la dicha</l>
+               <l>de que os rindais á mis ancias,</l>
+               <l>os daré, Señor, un medio,</l>
+               <l>con que se vean logradas</l>
+               <l>en los lazos de Himeneo</l>
+               <l>mis mas firmes esperanzas.</l>
+               <l>Mi padre el príncipe tiene</l>
+               <l>de su palocio á la espalda,</l>
+               <l>como un tiro de pistola,</l>
+               <l>una Ermita derribada,</l>
+               <l>vos se la podeis pedir,</l>
+               <l>y en ella hacer habitanza.</l>
+               <l>Labrareis un Hospital</l>
+               <l>para los pobres que pasan;</l>
+
+               <pb n="4" source="Moreno_173_4.jpg" facs="fedora_ug8106472/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>y una boveda hay en ella</l>
+               <l>que sé que á mi Jardin pasa,</l>
+               <l>por aí hermoso Adonis.</l>
+               <l>tendrán descanso mis ansias,</l>
+               <l>y los dos nos hablaremos.</l>
+               <l>Y advíerte, de que te aguarda</l>
+               <l>gran castigo, si no haces</l>
+               <l>lo que una Princesa manda,</l>
+               <l>porque hablándole á mi Padre,</l>
+               <l>haré como apasionada.</l>
+               <l>No hubo bien rompido el dia,</l>
+               <l>Cuando D. Francisco estaba</l>
+               <l>en el patio de Palacio</l>
+               <l>con presunciones muy varias.</l>
+               <l>Vido llegar un criado,</l>
+               <l>un bolsillo le entregaba,</l>
+               <l>y una carta y le suplica,</l>
+               <l>que del Palacio se salga:</l>
+               <l>y abriendo el papel, leyo,</l>
+               <l>y del caso se admiraba.</l>
+               <l>A la española se viste,</l>
+               <l>y luego al Príncipe habla,</l>
+               <l>díciendo que el Padre Santo</l>
+               <l>por penitencia le daba</l>
+               <l>el que fuese Hospitalero,</l>
+               <l>y que asi le suplicaba</l>
+               <l>le vendiese aquella ermita,</l>
+               <l>que la palabra le daba</l>
+               <l>de fundar un Hospital,</l>
+               <l>que es obra que á Dios agrada.</l>
+               <l>Viendo el Príncipe su zelo,</l>
+               <l>y disposicion gallarda,</l>
+               <l>sin detencion se la dió,</l>
+               <l>y la obra comenzaba.</l>
+               <l>La Princesa en este tiempo</l>
+               <l>diligente le mandaba</l>
+               <l>cantidades de dinero,</l>
+               <l>para que adelante vaya.</l>
+               <l>Rematada ya la obra,</l>
+               <l>compuesta y finalizada,</l>
+               <l>veinte y cuatro camas puso</l>
+               <l>para los pobres que pasan.</l>
+               <l>Todos le alaban el gusto,</l>
+               <l>viendo como ejercitaba</l>
+               <l>el acto de la humildad</l>
+               <l>por lograr lo que esperaba.</l>
+               <l>No pasó noche ninguna,</l>
+               <l>que al Jardin no se bajára</l>
+               <l>á hablar y ver la princesa</l>
+               <l>donde amantes se estimaban.</l>
+               <l>Dejemos en este estado</l>
+               <l>esta historia en la sumaria,</l>
+               <l>que en otra segunda parte</l>
+               <l>quedará finalizada.</l>
+               <trailer>FIN <choice>
+                     <sic>ED</sic>
+                     <corr>DE</corr>
+                  </choice> LA PRIMERA PARTE.</trailer>
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="5" source="Moreno_173_5.jpg" facs="fedora_ug8107250/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+
+               <head rend="cursiva" type="subtitulo_parte">Romance en que se rejiere muy por
+                  <lb/>menor el dichoso jin que tubieron <lb/>las prod igiosas aoenturas de los no-
+                  <lb/>bles Caballeros D. Enrique y D. <lb/>Estefano.</head>
+
+               <l rend="indent">Entre claveles y rosas,</l>
+               <l>azucenas y narcisos,</l>
+               <l>de violetas y jazmines,</l>
+               <l>arrayanes, verdes mirtos</l>
+               <l>se escuchaban los favores</l>
+               <l>de aquel Angel peregrino.</l>
+               <l>Una noche una criada,</l>
+               <l>de quien se habia valido,</l>
+               <l>ó cansada, ó mal pagada,</l>
+               <l>al Príncipe le dió aviso</l>
+               <l>del error de la Princesa:</l>
+               <l>partió al jardin improviso,</l>
+               <l>y entre unas yedras se oculta,</l>
+               <l>y vió todo lo que quiso.</l>
+               <l>En aquellos ocho dias</l>
+               <l>no se dió por entendido;</l>
+               <l>y al fin de este tiempo busca</l>
+               <l>un ordinario vestido</l>
+               <l>de pobre, de aquellos que hoy</l>
+               <l>dan el nombre de mendigos.</l>
+               <l>Salióse de¿la Ciudad</l>
+               <l>con gran cuidado y sigilo,</l>
+               <l>cuando ya el dorado Febo</l>
+               <l>se oculta hácia su retiro.</l>
+               <l>Llegó al Hospital, y llama</l>
+               <l>salió á abrirle D. Francisco,</l>
+               <l>diciendo: descanse hermano</l>
+               <l>del cansacio del camino.</l>
+               <l>El Príncipe se acostó</l>
+               <l>encima del mármol frio</l>
+               <l>de la boca de la mina:</l>
+               <l>con humildad y cariño</l>
+               <l>el Hospitalero ruega,</l>
+               <l>fingiéndose compasivo,</l>
+               <l>quevaya á una blanda cama.</l>
+               <l>A lo que el Principe ha dicho,</l>
+
+               <pb n="6" source="Moreno_173_6.jpg" facs="fedora_ug8109306/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>que él hacía penitencia</l>
+               <l>de sus culpas y delitos,</l>
+               <l>y que así le perdonase,</l>
+               <l>que era preciso cumplirlo.</l>
+               <l>Tocó el Reloj á las doce</l>
+               <l>y vino despavorido,</l>
+               <l>solícito y cuidadoso,</l>
+               <l>trayendo encendido un cirio,</l>
+               <l>diciéndo, levante, hermano,</l>
+               <l>arrímese hacia un ladito,</l>
+               <l>deje que baje, que importa, </l>
+               <l>y aun al Principe le dijo,</l>
+               <l>le ayude á quitar la loza;</l>
+               <l>obedecióle propicio,</l>
+               <l>y dijo: Si gusta usted,</l>
+               <l>(aunque yo me hayo indigno)</l>
+               <l>de que baya en su compaña</l>
+               <l>lo haré con cortés estilo;</l>
+               <l>le dice, tome esa hacha,</l>
+               <l>y siga el camino.</l>
+               <l>Bajan por fin al jardin,</l>
+               <l>donde la Princesa hizo</l>
+               <l>acostumbradas finezas</l>
+               <l>á su amante con cariños.</l>
+               <l>Mandó al pobre se quedase</l>
+               <l>retirado, y sin ruido</l>
+               <l>oyese, le diese parte;</l>
+               <l>para ocultar su delito</l>
+               <l>al Hospital se retiran.</l>
+               <l>El príncipe despedido,</l>
+               <l>confuso y triste se parte</l>
+               <l>á su Palacio, y previno,</l>
+               <l>ciego de cólera y rabia,</l>
+               <l>el darles fuertes castigos,</l>
+               <l>y para la ejecucion</l>
+               <l>los prenden en un Castillo;</l>
+               <l>y á su primo don Enrique</l>
+               <l>le contó lo sucedido,</l>
+               <l>y entre los dos consertaron</l>
+               <l>el que muriesen, que es digno.</l>
+               <l>Hicieron un cadahalso</l>
+               <l>dentro del jardin florido.</l>
+               <l>Considere aquí el Lector</l>
+               <l>los clamores, los suspiros,</l>
+               <l>los llantos, angustias, penas</l>
+               <l>con que estaba don Francisco,</l>
+               <l>cargado de duros hierros,</l>
+               <l>dentro en la prision metido.</l>
+               <l>Divulgó por la Ciudad</l>
+               <l>don Estefano el castigo,</l>
+               <l>que ejecutaba en su hija;</l>
+               <l>quien este suceso ha visto.</l>
+               <l>Llegó el dia señalado,</l>
+               <l>los remiten al suplicio,</l>
+               <l>muchos principes se hallaban,</l>
+               <l>los mas parientes y amigos,</l>
+               <l>Salieron los dos amantes</l>
+               <l>y don Enrique que ha visto</l>
+               <l>al Español, le tocó</l>
+               <l>en el corazon benigno</l>
+               <l>Dios, y diciendo: deténgan:</l>
+               <l>no se ejecute el castigo,</l>
+               <l>hasta saber de este hombre</l>
+               <l>de su vida los principios.</l>
+               <l>Decidme, quién sois, decid.</l>
+               <l>en qué Pátria habeis nacido?</l>
+               <l>Dió un suspiro, pronunció</l>
+               <l>aquel ya cárdeno lirio:</l>
+               <l>Príncipe invicto, al querer</l>
+               <l>mis susesos referiros,</l>
+
+               <pb n="7" source="Moreno_173_7.jpg" facs="fedora_ug8105126/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>se me anuda la garganta,</l>
+               <l>y el corazon afligido</l>
+               <l>quiere salir de su centro,</l>
+               <l>temeroso del peligro.</l>
+               <l>Pero ya que la licencia,</l>
+               <l>gran Señor, me has concedido,</l>
+               <l>antes de morir pretendo</l>
+               <l>oigas fines, y principios</l>
+               <l>del trascurso de mi vida,</l>
+               <l>que os lo esplicaré sucinto.</l>
+               <l>Nací en la noble <name>Sevilla</name></l>
+               <l>de linage esclarecido:</l>
+               <l>mi padre no se quien fue,</l>
+               <l>aunque dice el pecho mio,</l>
+               <l>por el valor que en si ostenta,</l>
+               <l>por lo heroico, por lo altivo,</l>
+               <l>que debia de ser Rey, </l>
+               <l>ó Principe, aquesto es fijo.</l>
+               <l>Fuime, gran Señor, criando</l>
+               <l>con el cortesano estilo</l>
+               <l>y doctrina que requiere</l>
+               <l>sugeto tan bien nacido.</l>
+               <l>Llegué á tener quince años,</l>
+               <l>sin poder tener indícios</l>
+               <l>quien fuese mi Padre ó Madre,</l>
+               <l>que el cuidado, y el cariño</l>
+               <l>de una hermana que tenia,</l>
+               <l>siempre me acultó lo dicho.</l>
+               <l>En este tiempo, Señor,</l>
+               <l>mi espiritu volativo</l>
+               <l>á ver el mundo me arrastra,</l>
+               <l>y dueño de mi alvedrio,</l>
+               <l>sin reparar en los riesgos</l>
+               <l>en que me veo metido,</l>
+               <l>determiné el ausentarme</l>
+               <l>de mi Patria (gran delirio!(</l>
+               <l>No bastaron de mi hermana</l>
+               <l>las lágrimas y suspiros</l>
+               <l>á poderme persuadir</l>
+               <l>que dejase mi designio.</l>
+               <l>Y viéndome ya resuelto,</l>
+               <l>me dijo: Hermano querido,</l>
+               <l>ya que el mundo vas á ver</l>
+               <l>lo que te advierto y te digo,</l>
+               <l>que en <name>Italia</name> está tu Padre,</l>
+               <l>sea esta prenda testigo.</l>
+               <l>busca su dueño y veras</l>
+               <l>tus deseos bien cumplidos:</l>
+               <l>dióme este Toison, Señor,</l>
+               <l>lo que humilde te dedico.</l>
+               <l>Esta, Señor, en sumaria</l>
+               <l>es de mi vida el principio,</l>
+               <l>Don Enríque conoció</l>
+               <l>era su Toison, y dijo</l>
+               <l>en altas voces: Ay Dios!</l>
+               <l>este es mi querido hijo.</l>
+               <l>Primo, no os acordareis</l>
+               <l>de los pasados cariños</l>
+               <l>de las dos Damas tapadas?</l>
+               <l>Valedme, Cielos divinos!</l>
+               <l>Ven, hijo del corazon,</l>
+               <l>vén, mi querido Francisco,</l>
+               <l>contadme por vida vuestra,</l>
+               <l>qué es esto que ha sucedido?</l>
+               <l>Señor ya que mi fortuna</l>
+               <l>á tu vista me ha traido,</l>
+               <l>os digo; como salí</l>
+               <l>de <name>Sevilla</name>, con designio</l>
+               <l>de buscarte, y que los Cielos</l>
+
+               <pb n="8" source="Moreno_173_8.jpg" facs="fedora_ug8104973/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>asi me lo han concedido.</l>
+               <l>Si de la hermosa Princesa</l>
+               <l>favores he recibido,</l>
+               <l>ha sido industria de amor,</l>
+               <l>que el amor todo es arbitrios,</l>
+               <l>porque queriendo ampararme</l>
+               <l>su hermosura, ha permitido,</l>
+               <l>bien pagada de mi amor,</l>
+               <l>no de mi arte ni brio,</l>
+               <l>mereciese ser su dueño,</l>
+               <l>yo la culpa no he ténido.</l>
+               <l>Y ahora, Padre y Señor,</l>
+               <l>aqui teneis á tu hijo,</l>
+               <l>dispon, manda, haz y ordena</l>
+               <l>en lo que fueres servido.</l>
+               <l>Viendo ya Don Estefano</l>
+               <l>que aquel era sa sobrino,</l>
+               <l>dispusieron transformar</l>
+               <l>en las bodas el castigo.</l>
+               <l>Hubo torneos y cañas,</l>
+               <l>hubo festines distintos,</l>
+               <l>y con celebres aplausos</l>
+               <l>se desposaron los primos.</l>
+               <l>Y el auditorio perdone</l>
+               <l>lo rústico del estilo.</l>
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—1856 Imp. de D. J. M. Moreno.</p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

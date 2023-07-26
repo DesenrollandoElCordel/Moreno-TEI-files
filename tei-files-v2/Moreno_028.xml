@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_028">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zelos de san José</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Zelos de san José.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6447938</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_028_1.xml"
+                              facs="fedora_ug8110224/461,302,704,894/100,/0/default.jpg"
+                              >grabado_m_028_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+            <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q801">
+                  <placeName key="Israel">Israel</placeName>
+                  <location>
+                     <geo>31 35</geo>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103887/manifest">
+      <graphic url="fedora_ug8110224/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_028_1.jpg" facs="fedora_ug8110224/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 30.)</fw>
+
+               <head rend="negrita" type="primer_titulo">ZELOS DE SAN JOSÉ.</head>
+
+               <l rend="indent">De casa de Zacarias</l>
+               <l>salió la Sagrada Reina,</l>
+               <l>acompañando á su esposo,</l>
+               <l>luego que á su casa llegan</l>
+               <l>reparó un dia José</l>
+               <l>sobresaltando y con pena</l>
+               <l>en el vientre de su Esposa,</l>
+               <l>y entre sí á decir comienza:</l>
+               <l>O inmenso, Dios de <name>Israel</name></l>
+               <l>qué novedades son estas?</l>
+               <l>Mi esposa veo preñada;</l>
+               <l>aunque no sé si lo crea,</l>
+               <l>pues los dos hicimos voto</l>
+               <l>de guardar toda pureza;</l>
+               <l>mas veo que está preñada,</l>
+               <l>esto algun misterio encierra:</l>
+               <l>si hay misterio, no lo sé:</l>
+               <l>Ay Dios mio que terrible pena!</l>
+               <l>Quiero ausentarme y dejarla;</l>
+               <l>mas que ganaré en la ausencia,</l>
+               <l>siendo todo mi consuelo</l>
+               <l>el gozar de su presencia?</l>
+               <l>Y si yo la desamparo,</l>
+               <l>quien tiene de socorrerla?</l>
+               <l>Muchacha pobre y sin padre,</l>
+               <l>el cielo la favorezca.</l>
+               <l>Me retiraré á un desierto</l>
+               <l>donde gentes no me vean,</l>
+               <l>y allí acabaré mi vida</l>
+               <l>en áspera penitencia,</l>
+
+               <pb n="2" source="Moreno_028_2.jpg" facs="fedora_ug8105718/full/full/0/default.jpg"/>
+
+               <l>rogando continno á Dios, </l>
+               <l>que la ampare, y la defienda.</l>
+               <l>Quédate con Dios, Maria,</l>
+               <l>á Dios, carisima prenda:</l>
+               <l>que el apartarme de ti</l>
+               <l>sabe Dios lo que me cuesta;</l>
+               <l>mas no puedo hacerlo menos,</l>
+               <l>que puede mucho una afrenta.</l>
+               <l>Cómo he de ver en mi casa,</l>
+               <l>hijos, que mios no sean?</l>
+               <l>Me saldré á la media noche,</l>
+               <l>que mi Esposa no me sienta;</l>
+               <l>quiero recogerme al sueño</l>
+               <l>mientras la hora se llega.</l>
+               <l>Apenas José dormia,</l>
+               <l>si puedo decir apenas,</l>
+               <l>entró el ángel san Gabriel</l>
+               <l>diciendo: José, despierta,</l>
+               <l>recibe tu casta Esposa,</l>
+               <l>y vuelve en gozo tu pena,</l>
+               <l>que este Divino preñado,</l>
+               <l>obra es de la Omnipotencia,</l>
+               <l>viene á salvar á las gentes</l>
+               <l>que ha tantos siglos lo esperan:</l>
+               <l>ponle por nombre Jesus.</l>
+               <l>Alegre José despierta,</l>
+               <l>dándole gracias á Dios</l>
+               <l>por tan gran magnificencia.</l>
+               <l>Se fué al cuarto de su Esposa,</l>
+               <l>y de repente la encuentra</l>
+               <l>en un extasis Divino,</l>
+               <l>cercada del refulgencias,</l>
+               <l>y postrandose en el suelo,</l>
+               <l>entre si, á decir comienza.</l>
+               <l>O Esposa del alma mia,</l>
+               <l>que desgraciado que fuera</l>
+               <l>yo, si te hubiera dejado!</l>
+               <l>Qué desdicha me viniera!</l>
+               <l>Desde aquel dia á su Esposa</l>
+               <l>trató con gran reverencia.</l>
+               <l>Llegaron los nueve meses,</l>
+               <l>y mandó el Augusto Cesar</l>
+               <l>que los padres de familia</l>
+               <l>á pagarle un censo vengan,</l>
+               <l>cada uno en la ciudad</l>
+               <l>donde fué su descendencia.</l>
+               <l>Era José de Belem</l>
+               <l>y viendo que le era fuerza</l>
+               <l>el irlo á pagar allí,</l>
+               <l>á su Esposa le dió cuenta,</l>
+               <l>mostrando gran sentimiento</l>
+               <l>por estar el parto cerca.</l>
+               <l>La Virgen le respondió:</l>
+               <l>Esposo no tengas pena,</l>
+               <l>que yo os iré acompañando.</l>
+               <l>José le dió por respuesta:</l>
+               <l>Oh! lo que siento ser pobre,</l>
+               <l>por no tener conveniencia</l>
+               <l>para poderos llevar</l>
+               <l>con la debida decencia</l>
+               <l>que mereceis Madre, é Hijo.</l>
+               <l>Esposo, no tengas pena,</l>
+               <l>que llevar vuestra compaña</l>
+               <l>es mi mayor convenencia:</l>
+               <l>es mi Hijo agradecido,</l>
+               <l>y recibe por fineza</l>
+               <l>lo que ofrece el corazon,</l>
+               <l>cuando es la voluntad buena.</l>
+               <l>En fin buscó un jumentillo</l>
+               <l>en que acomodó á la Reina</l>
+               <l>con las cosas necesarias,</l>
+               <l>y una cajita en que lleva</l>
+               <l>las fajas para el Infante</l>
+               <l>por lo que Dios dispusiera.</l>
+               <l>Comesaron su camino:</l>
+               <l>Oh! quien tan dichoso fuera</l>
+               <l>que les fuese acompañando!</l>
+               <l>O mi Dios, y quien los veria</l>
+
+               <pb n="3" source="Moreno_028_3.jpg" facs="fedora_ug8103880/full/full/0/default.jpg"/>
+
+               <l>cercados de Serafines!</l>
+               <l>Que bien guarnecidos llevan</l>
+               <l>el lecho de Salomon,</l>
+               <l>aquella Arca verdadera,</l>
+               <l>que llevó dentro el maná,</l>
+               <l>y aquel sol, que reverbera</l>
+               <l>con sus relucientes rayos</l>
+               <l>por las claras vidrieras</l>
+               <l>de aquel vaso de cristal;</l>
+               <l>Ay mi dios! quien los oyera,</l>
+               <l>cuando decia José;</l>
+               <l>Esposa que dicha es esta?</l>
+               <l>Ha de nacer en mi casa</l>
+               <l>aquella luz verdadera!</l>
+               <l>Que ha de vivir con nosotros!</l>
+               <l>Que ha de comer á la mesa!</l>
+               <l>Cuando llegará este dia,</l>
+               <l>que ver mis ojos desean!</l>
+               <l>La Vírgen le respondió:</l>
+               <l>Esposo tened paciencia,</l>
+               <l>que presto llegará el dia</l>
+               <l>que goces de su presencia,</l>
+               <l>Con estos dulces coloquios</l>
+               <l>se divertian las penas</l>
+               <l>de tan aspero camino,</l>
+               <l>de arroyos, montes y cuestas.</l>
+               <l>lba José cuidadoso</l>
+               <l>del preñado de la reina,</l>
+               <l>preguntando á cada paso,</l>
+               <l>si iba con conveniencia.</l>
+               <l>Esto fue el mes de Diciembre,</l>
+               <l>en tiempo que llueve y yela,</l>
+               <l>que aun esto permitió el cielo,</l>
+               <l>para probar su paciencia.</l>
+               <l>Luego que á Belen llegaron,</l>
+               <l>José con gran diligencia</l>
+               <l>comenzó á buscar posada,</l>
+               <l>llamando de puerta en puerta,</l>
+               <l>en amigos y parientes;</l>
+               <l>pero todos se la cieran.</l>
+               <l>Por hospicios y mesones,</l>
+               <l>prosigen su diligencia;</l>
+               <l>mas como los ven tan pobres,</l>
+               <l>los huespedes los desprecian.</l>
+               <l>Desconsolado José</l>
+               <l>con su Esposa se lamenta:</l>
+               <l>Es posible Esposa mia,</l>
+               <l>que en una ciudad como esta</l>
+               <l>no hemos de hallar posada?</l>
+               <l>Esto algun misterio encierra.</l>
+               <l>Qué no ha de haber quien recoja</l>
+               <l>al Rey de cielos y tierra?</l>
+               <l>Salgamos de la ciudad,</l>
+               <l>que aqui cerca está una cueva,</l>
+               <l>que le sirve á los pastores</l>
+               <l>de establo para las bestias,</l>
+               <l>que si está desocupada,</l>
+               <l>descansaremos en ella.</l>
+               <l>Luego que en la cueva entraron</l>
+               <l>ámbos se postran en tierra</l>
+               <l>á darles gracias á Dios,</l>
+               <l>y José encendió candela</l>
+               <l>por denfenderse del frio,</l>
+               <l>y la oficiosa doncella</l>
+               <l>sacudió y barrió el portal.</l>
+               <l>y angeles muchos con ella,</l>
+               <l>derramando tal fragancia,</l>
+               <l>que los sentidos consuela.</l>
+               <l>Luego el Señor San José</l>
+               <l>con la ropita que llevan,</l>
+               <l>en un pesebre que estaba</l>
+               <l>en aquella humilde cueva,</l>
+               <l>hizo á su esposa la cama:</l>
+               <l>la cual de rodillas puesta,</l>
+               <l>contemplando aquel Misterio,</l>
+               <l>y elevadas las potencias,</l>
+               <l>parió al Salvador del Mundo</l>
+               <l>quedando siempre doncella:</l>
+
+               <pb n="4" source="Moreno_028_4.jpg" facs="fedora_ug8110011/full/full/0/default.jpg"/>
+
+               <l>San Migel y San Grabiel,</l>
+               <l>con debida reverencia</l>
+               <l>le reciben en sus manos,</l>
+               <l>y á su madre se lo entregan.</l>
+               <l>Cuando en sus manos le vido</l>
+               <l>mas puro que las estrellas,</l>
+               <l>y mas hermoso que el Sol,</l>
+               <l>asi á decirle comienza:</l>
+               <l>Alegria de los cielos,</l>
+               <l>gloria, y hermosura eterna,</l>
+               <l>dulce vida de mi alma</l>
+               <l>qué hará aquesta esclava vuestra</l>
+               <l>para acertar á serviros?</l>
+               <l>Dadme Vos la inteligencia.</l>
+               <l>Mirad Hijo de mi alma,</l>
+               <l>que ya vuestra Madre espera</l>
+               <l>el ósculo misterioso,</l>
+               <l>que allá la esposa desea;</l>
+               <l>y aplicandole los labios</l>
+               <l>á aquella boca de perlas</l>
+               <l>recibió tanta dulzura,</l>
+               <l>que enagenada se queda.</l>
+               <l>El patriarca José</l>
+               <l>en un rincon de la cueva</l>
+               <l>orando está de rodillas,</l>
+               <l>viendo tan rara belleza;</l>
+               <l>ya lo mira, ya se admira,</l>
+               <l>ya lo adora y reverencia,</l>
+               <l>y besandole los pies</l>
+               <l>con humildad verdadera</l>
+               <l>de un grande gozo bañado,</l>
+               <l>le dice dos mil ternezas,</l>
+               <l>y administrando las fajas,</l>
+               <l>en que su Esposa le envuelva,</l>
+               <l>lo reclinó en el pesebre,</l>
+               <l>cuando por los aires suenan</l>
+               <l>los musicos celestiales,</l>
+               <l>cantando divinas letras:</l>
+               <l>Gloria á Dios en las alturas,</l>
+               <l>y paz al hombre en la tierra.</l>
+               <l>Entraron en el portal</l>
+               <l>millares de inteligencias</l>
+               <l>adorando al Criador</l>
+               <l>en nuestra humana libréa:</l>
+               <l>Avisando á los pastores,</l>
+               <l>que entraron con diligencia</l>
+               <l>á adorar al tierno Infante,</l>
+               <l>á su madre reverencian.</l>
+               <l>Vamos todos á adorarle</l>
+               <l>antes que los Reyes vengan,</l>
+               <l>y á ofiecerle nuestros dones</l>
+               <l>con devocion verdadera,</l>
+               <l>armas, vidas, corazones,</l>
+               <l>los sentidos y potencias,</l>
+               <l>por oro la caridad,</l>
+               <l>por mirra la penitencia,</l>
+               <l>por insienso la oracion,</l>
+               <l>contemplando en su belleza,</l>
+               <l>sirviendole en esta vida</l>
+               <l>para gozarle en la eterna.</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm.
+                  4. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

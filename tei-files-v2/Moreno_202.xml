@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios2.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_202">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Confesión que hace un enamorado</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Confesion que hace un enamorado.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+                     (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository
+                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
+                     >Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475559</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 213</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Diálogo</item>
+                        <item>Décimas</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>Confesion que hace un enamorado.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>2-4</locus>
+                     <title>Decimas glosadas.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_202_1.xml"
+                              facs="fedora_ug8109217/463,304,381,571/100,/0/default.jpg"
+                              >grabado_m_202_1</item>
+                           <item corresp="grabado_m_202_2.xml"
+                              facs="fedora_ug8109217/831,270,413,615/100,/0/default.jpg"
+                              >grabado_m_202_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5379362.html" type="tipo_texto">Diálogos</term>
+               <term type="tipo_texto">Glosas</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+         <change when="2023-07-26" who="#EL">Ajout des noms de lieux dans le texte et dans le
+            header</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104346/manifest">
+      <graphic url="fedora_ug8109217/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_202_1.jpg" facs="fedora_ug8109217/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 213.</fw>
+
+               <head type="primer_titulo">CONFESION QUE HACE UN ENAMORADO.</head>
+
+               <sp>
+                  <l rend="indent">De mis culpas y pecados</l>
+                  <l>padre confesarme quiero,</l>
+                  <l>que tres años algo mas</l>
+                  <l>hace que no me confieso.</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Cumplisteis la penitencia?</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Si padre, luego al momento</l>
+                  <l>que la repartí entre amigos,</l>
+                  <l>por despacharla mas presto.</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Principie á persignarse.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Ea padre que ya empiezo:</l>
+                  <l>En el nombre de mi dama.</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Jesús que notable yerro.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>No se escandalice, padre,</l>
+                  <l>por que yo le digo eso,</l>
+                  <l>que á no ser yo pecador</l>
+                  <l>no me hallara á sus piés puesto.</l>
+                  <l rend="indent">En el primero me acuso</l>
+                  <l>no amar á Dios como debo,</l>
+                  <l>en cuanto á la humanidad;</l>
+                  <l>mas que á mi vida le quiero.</l>
+                  <l rend="indent">En el segundo he jurado</l>
+                  <l>con mas de mil juramentos</l>
+                  <l>de no olvidar á mi dama</l>
+                  <l>apesar del mundo entero.</l>
+                  <l rend="indent">En el tercero me acuso</l>
+                  <l>que cuando entro en el templo</l>
+                  <l>no estoy atento á la misa</l>
+                  <l>con mi dama me dibierto.</l>
+                  <l rend="indent">En el cuarto les perdí</l>
+                  <l>á mis padres el respeto</l>
+                  <l>porque quisieron privarme</l>
+                  <l>este amor por largo tiempo.</l>
+                  <l rend="indent">En el quinto he deseado</l>
+                  <l>dar la muerte á algunos necios</l>
+                  <l>porque con sus necedades</l>
+                  <l>quisieron hacer lo mesmo.</l>
+                  <l rend="indent">En el sétimo me acuso......</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Hijo que te falta el sesto.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Me espantara yo que el padre</l>
+                  <l>no me saltara con eso.</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Puos siga la confesion</l>
+                  <l>degémonos de argumentos</l>
+                  <l>que tiene usia mas maulas</l>
+                  <l>que velas un monumento.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>En el sétimo repito</l>
+                  <l>que me han dado pensamientos</l>
+                  <l>de robarle el corazon</l>
+                  <l>por ver si me tiene dentro.</l>
+                  <l rend="indent">En el octavo me acuso</l>
+                  <l>que un testimonio he revuelto</l>
+                  <l>yo disputé que era el Sol</l>
+                  <l>siendo sus rubios cabellos.</l>
+
+                  <pb n="2" source="Moreno_202_2.jpg"
+                     facs="fedora_ug8110172/full/full/0/default.jpg"/>
+
+                  <l rend="indent">En el noveno me acuso</l>
+                  <l>no tener otro deseo</l>
+                  <l>que es el difrutar placeres</l>
+                  <l>con la dama á quien venero.</l>
+                  <l rend="indent">En el décimo codicio</l>
+                  <l>intereses y dineros,</l>
+                  <l>para enriquecer á mi dama</l>
+                  <l>que es un hermoso lucero.</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Tan bonita es esa dama?</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Padre mio como un cielo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Adonde tiene su casa?</l>
+               </sp>
+
+               <sp>
+                  <speaker>P</speaker>
+                  <l>Padre mio en los infiernos.</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Yo no quiero las mugeres.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Pues yo padre si las quiero,</l>
+                  <l>que como de ellas salí</l>
+                  <l>en no viéndolas me muero.</l>
+               </sp>
+
+               <sp>
+                  <speaker>C.</speaker>
+                  <l>Vayase luego de aquí</l>
+                  <l>pues absolverte no quiero.</l>
+               </sp>
+
+               <sp>
+                  <speaker>P.</speaker>
+                  <l>Quédese padre con Dios</l>
+                  <l>que la absolucion no espero</l>
+                  <l>que voy á ver á mi dama</l>
+                  <l>desde ayer que no la veo,</l>
+                  <l rend="indent">Montañés, yo no se hablar</l>
+                  <l>yo esplicarme no puedo</l>
+                  <l>yo quisiera ser Tadeo,</l>
+                  <l>y poderme de esplicar;</l>
+                  <l>sobre si me quereis dar</l>
+                  <l>una cosa que le pido</l>
+                  <l>que segun tengo entendido</l>
+                  <l>se llama yo no sé que,</l>
+                  <l>aquello que tiene usted</l>
+                  <l>en el pipote escondido.</l>
+                  <l rend="indent">Trabaja un hombre y padece</l>
+                  <l>y su cuerpo lo maltrata</l>
+                  <l>por una mujer ingrata</l>
+                  <l>y esta no se lo agradece;</l>
+                  <l>palo y cascarles las nueces</l>
+                  <l>porque al fin lo han de perder</l>
+                  <l>y el que piense con placer</l>
+                  <l>entregarles el bolsillo,</l>
+                  <l>mas vale estar en presidio</l>
+                  <l>que querer á una muger.</l>
+                  <l rend="indent">Cuando dinero tenia</l>
+                  <l>gozaba de mis placeres</l>
+                  <l>me gustaban las mugeres</l>
+                  <l>todas á una voz decian;</l>
+                  <l>vaya una gran bizarría</l>
+                  <l>qué hombre tan generoso!</l>
+                  <l>qué discroto; que garboso;</l>
+                  <l>así enamorado vengo</l>
+                  <l>y ahora que no los tengo</l>
+                  <l>un borracho escandaloso.</l>
+               </sp>
+            </div>
+
+            <div>
+               <head rend="negrita" type="primer_titulo">DECIMAS GLOSADAS.</head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">No hay mas amigo que Dios,</l>
+                  <l>esto es claro y evidente,</l>
+                  <l>que el mas amigo es traidor,</l>
+                  <l>y el mas verdadero miente.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Elmas verdadero amigo</l>
+                  <l>de mas estrecha amistad,</l>
+                  <l>desde hoy digo con verdad</l>
+                  <l>que es el mayor enemigo,</l>
+                  <l>Cada cual lleva consigo</l>
+                  <l>la envidia y codicia atroz,</l>
+                  <l>esto lo afirma mi voz</l>
+                  <l>con pena tan repetida,</l>
+                  <l>que en aquesta triste vida</l>
+                  <l rend="cursiva">no hay mas amigo que Dios.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El amigo que á otro ama</l>
+                  <l>en amistad satisfecbo</l>
+                  <l>si le descubre su pecho</l>
+                  <l>luego al punto lo difama;</l>
+                  <l>y se acuesta con su dama</l>
+                  <l>alsa y cautelosamente,</l>
+                  <l>y si el amigo está ausente</l>
+                  <l>y casado yega á ser,</l>
+                  <l>solicita á su muger,</l>
+                  <l rend="cursiva">esto es claro y evidente.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si el amigo llega á estar</l>
+                  <l>con alguna conveniencia,</l>
+                  <l>se la procura quitar</l>
+                  <l>hablando mal en su ausencia,</l>
+                  <l>y le quitan sin conciencia</l>
+                  <l>honra, crédito y honor;</l>
+                  <l>el mejor es el peor,</l>
+                  <l>y asi mismo vuelvo y digo:</l>
+                  <l>que no hay en el mundo amigo;</l>
+                  <l rend="cursiva">que el mas amigo es traidor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si uno ama en realidad,</l>
+                  <l>al punto es aborrecido,</l>
+
+                  <pb n="3" source="Moreno_202_3.jpg"
+                     facs="fedora_ug8106303/full/full/0/default.jpg"/>
+
+                  <l>solo en Dios jamás ha habido</l>
+                  <l>cautela ni falcedad:</l>
+                  <l>tan solo Dios, y es verdad,</l>
+                  <l>es amigo firmemente,</l>
+                  <l>y por eso nadie intente</l>
+                  <l>tener con amigos trato,</l>
+                  <l>que el mas fiel es mas ingrato,</l>
+                  <l rend="cursiva">y el mas verdadero miente.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">De los que viven en penas</l>
+                  <l>nadie se iguale conmigo,</l>
+                  <l>que estoy comiendo y bebiendo</l>
+                  <l>con mis propios enemigos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Soy el mas vituperado</l>
+                  <l>de todas las criaturas,</l>
+                  <l>pues no conozco ventura,</l>
+                  <l>debajo de lo criado:</l>
+                  <l>yo siempre vivo agoviado</l>
+                  <l>entre grillos y cadenas,</l>
+                  <l>cuando no, en tierras agenas</l>
+                  <l>confuso y sobresaltado;</l>
+                  <l>no hay hombre mas desgraciado</l>
+                  <l rend="cursiva">de los que viven con penas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Al que le falte su padre</l>
+                  <l>le queda su madrecita,</l>
+                  <l>y cuando no, su hermanita,</l>
+                  <l>ó un perrito que le ladre;</l>
+                  <l>mas yo que no tengo á nadie</l>
+                  <l>sino un cauteloso amigo,</l>
+                  <l>por lo que á decir me obligo;</l>
+                  <l>en tremenda confusion:</l>
+                  <l>tocante á lamentacion</l>
+                  <l rend="cursiva">nadie se iguala conmigo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No es dable pueda apartar</l>
+                  <l>mi dolor y sentimiento,</l>
+                  <l>sino sufrir el tormento</l>
+                  <l>de mi enemigo mortal;</l>
+                  <l>porque aunque llego á mirar</l>
+                  <l>que claro me están vendiendo,</l>
+                  <l>y yo lo estoy conociendo,</l>
+                  <l>me obliga el obedecer,</l>
+                  <l>y me consta el saber</l>
+                  <l rend="cursiva">que estoy comiendo y bebiendo,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No puedo con evidencia</l>
+                  <l>decirles con claridad,</l>
+                  <l>que no quiero su amistad,</l>
+                  <l>que es la mayor penitencia;</l>
+                  <l>y si hago mi diligencia,</l>
+                  <l>y algun dinero consigo.</l>
+                  <l>tengo que decir muy vivo:</l>
+                  <l>esto he llegado á buscar</l>
+                  <l>y lo tengo que gastar</l>
+                  <l rend="cursiva">con mis propios enemigos.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">¡Ay de mi! que vivo ausente,</l>
+                  <l>¿quien lo pasa sino yo?</l>
+                  <l>si es muerte lo que padezco,</l>
+                  <l>no sea con tal rigor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">¿Habrá justicia tirana,</l>
+                  <l>purgatorio mas terrible,</l>
+                  <l>bóveda mas insufrible,</l>
+                  <l>sentencia mas inhumana?</l>
+                  <l>¿Habrá gente mas liviana</l>
+                  <l>que la que tengo presente?</l>
+                  <l>¿quién tales desdichas siente</l>
+                  <l>como yo en esta ocasion?</l>
+                  <l>¡Valgame Dios! corazon</l>
+                  <l rend="cursiva">¡ay de mi! que vivo ausente.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Una oscura bartolina</l>
+                  <l>es mi eterna habitacion,</l>
+                  <l>cargado de confusion</l>
+                  <l>el corazon me lastima,</l>
+                  <l>la crueldad es mi madrina,</l>
+                  <l>de prisiones me cargó,</l>
+                  <l>las manos me desposó,</l>
+                  <l>fueron muchos mis tormentos,</l>
+                  <l>todos estos sentimientos</l>
+                  <l rend="cursiva">¿quien los pasa sino yo?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A un cepo apelasiones</l>
+                  <l>oigo cadenas y grillos,</l>
+                  <l>muchos golpes de martillos</l>
+                  <l>que remachan mis prisiones;</l>
+                  <l>palabras, malas razones,</l>
+                  <l>de mi libertad carezco,</l>
+                  <l>mis instancias aborrezco,</l>
+                  <l>entre gemir y llorar</l>
+                  <l>todo se me va en pensar.</l>
+                  <l rend="cursiva">si es muerte lo que padezco.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No oigo mas que lamentos</l>
+                  <l>de esos horrores los trotes,</l>
+                  <l>palos y muchos azotes,</l>
+                  <l>dobles penas y tormentos;</l>
+                  <l>ya me se acaba el aliento,</l>
+                  <l>¡misericordia, Señor.</l>
+                  <l>Soberano Redentor,</l>
+                  <l>de rodillas ruego y pido,</l>
+                  <l>que si merezco castigo</l>
+                  <l rend="cursiva">no sea con tal rigor.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_202_4.jpg" facs="fedora_ug8106988/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Que si, que no, que seria,</l>
+                  <l>que hoy, que mañana, que ayer, </l>
+                  <l>que ahora, que luego, que cuando</l>
+                  <l>¿quién diablo te ha de entender?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Loco ya me vas volviendo,</l>
+                  <l>niña, con tanto enredo</l>
+                  <l>todo es un puro rodeo</l>
+                  <l>yo, la verdad, no la entiendo,</l>
+                  <l>claro me lo has de ir diciendo,</l>
+                  <l>si ó no quieres ser mia</l>
+                  <l>y no me andes cada dia</l>
+                  <l>con que sí ó no habias de hacerlo;</l>
+                  <l>y me respondíste á ello:</l>
+                  <l rend="cursiva">que si, que no, que seria.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ayer me dijiste ufana</l>
+                  <l>que viniera y cuando voy</l>
+                  <l>à lo que te pido hoy,</l>
+                  <l>me respondes que mañana;</l>
+                  <l>si es que ya no tienes gana</l>
+                  <l>no me hagas ir y volver,</l>
+                  <l>con que si no puedeser</l>
+                  <l>que me espere, que me aguarde,</l>
+                  <l>que á la noche, que á la tarde,</l>
+                  <l rend="cursiva">que hoy, que mañana, que ayer,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si á verte amoroso llego,</l>
+                  <l>te encuentro siempre ocupada,</l>
+                  <l>respondes sobresaltada</l>
+                  <l>que no puede ser, que luego;</l>
+                  <l>con este desasosiego</l>
+                  <l>me haces estar esperando,</l>
+                  <l>y luego vienes hablando</l>
+                  <l>diciéndome; que mi amor,</l>
+                  <l>que te tiene con dolor,</l>
+                  <l rend="cursiva">que ahora, que luego, que cuando.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, para no dudar,</l>
+                  <l>y que á las vueltas no andemos,</l>
+                  <l>y que de una vez quedemos</l>
+                  <l>en lo que hemos de quedar</l>
+                  <l>si me dices no hay lugar,</l>
+                  <l>y que ya no puede ser,</l>
+                  <l>porque ya muy tarde es,</l>
+                  <l>que me espere, que me aguarde,</l>
+                  <l>que á la noche, que á la tarde,</l>
+                  <l rend="cursiva">¿quién diablos te ha de entender.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Todo aquel que fuere á hablar,</l>
+                  <l>póngase primero á ver</l>
+                  <l>á un espejo, y podrá ser</l>
+                  <l>que tenga por que callar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Verán el que es hablador</l>
+                  <l>metido en la casa agena,</l>
+                  <l>murmurando la que es buena,</l>
+                  <l>siendo la suya peor:</l>
+                  <l>alli sale el jugador,</l>
+                  <l>el sacerdote, el seglar,</l>
+                  <l>la viuda, la por casar,</l>
+                  <l>de todo se trata alli,</l>
+                  <l>porque no repara en si,</l>
+                  <l rend="cursiva">todo aquel que fuere á hablar,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Alli saben si los jueces</l>
+                  <l>hicieron bien la justicia;</l>
+                  <l>si prendieron con malicia,</l>
+                  <l>ó si tienen intereses;</l>
+                  <l>puede ser que muchas veces</l>
+                  <l>ese mismo se halle en él,</l>
+                  <l>y si quiere proseder</l>
+                  <l>contra el prógimo con ira,</l>
+                  <l>si piensan que esto es mentira,</l>
+                  <l rend="cursiva">póngase primero á ver.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Se sabe la que parió</l>
+                  <l>ausente de su marído,</l>
+                  <l>saben donde lo ha escondido</l>
+                  <l>el hijo, ó si lo abortó;</l>
+                  <l>saben si se amancebó,</l>
+                  <l>si no tiene que comer,</l>
+                  <l>saben si llegó á vender</l>
+                  <l>prenda que el otro la dió,</l>
+                  <l>que se miren como yo</l>
+                  <l rend="cursiva">á un espejo, y podrá ser.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Allí saben el que fia,</l>
+                  <l>el que paga puntualmente,</l>
+                  <l>el que bebe el aguardiente</l>
+                  <l>en taberna, ó bolleria;</l>
+                  <l>si oye misa cada dia,</l>
+                  <l>ó si se aplica à rezar:</l>
+                  <l>y si yo llego á atrapar</l>
+                  <l>a alguno en aquesta fiesta,</l>
+                  <l>yo le diré por repuesta,</l>
+                  <l rend="cursiva">que tiene por que callar.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858. <lb/>Imprenta de D. J. M. Moreno, calle Juan de la Cabra núm
+                  4. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
