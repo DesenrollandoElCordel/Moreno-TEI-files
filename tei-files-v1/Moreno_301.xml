@@ -1,0 +1,445 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_301">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vía sacra de Jerez</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Via sacra de Jerez.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6483395</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 318</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_301_1.xml" facs="fedora_ug8109698/415,327,685,1034/100,/0/default.jpg">grabado_m_301_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105753/manifest">
+      <graphic url="fedora_ug8109698/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_301_1.jpg" facs="fedora_ug8109698/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 318.)</fw>
+
+               <head rend="negrita" type="primer_titulo">VIA SACRA DE JEREZ.</head>
+
+               <l rend="indent">Oid atentos, mortales,</l>
+               <l>cristianos y redimidos</l>
+               <l>de la esclavitud pasada,</l>
+               <l>ya por la sangre de Cristo,</l>
+               <l>el que es verdadero Dios,</l>
+               <l>aquel que los Cielos hizo,</l>
+               <l>tachonándolos de Estrellas,</l>
+               <l>Planetas y astros lucidos.</l>
+               <l>Atonito estoy y absorto,</l>
+               <l>y tan fuera de mi mismo,</l>
+               <l>que de mi afectollevado,</l>
+               <l>en el corazon imprimo</l>
+               <l>con caractéres del alma</l>
+               <l>aqueste nuevo prodigio.</l>
+               <l>Nací en la excelsa Ciudad</l>
+               <l>del mundo portento rico,</l>
+               <l>la gran Ciudad de Jerez,</l>
+               <l>Frontera del mar altivo</l>
+               <l>Tiene esta excelsa Ciudad</l>
+               <l>por mano del Cielo mismo</l>
+               <l>en la ancha plaza un Convento</l>
+               <l>del Seráfico Francisco. </l>
+               <l>Paseándome en sus Claustros</l>
+               <l>iba yo tan divertido,</l>
+               <l>que la vista me llevaba </l>
+               <l>la fábrica, y edificio.</l>
+               <l>Cuando en un claro rincon</l>
+               <l>reparé (grave prodigio!)</l>
+               <l>Vi una imagen de JESUS,</l>
+               <l>que representaba al vivo</l>
+               <l>ia Imagen del Nazareno,</l>
+               <l>pues de morado vestido</l>
+               <l>una tunica cubria</l>
+               <l>su Sacro Cuerpo Divino.</l>
+               <l>Mirándolo estaba atento, </l>
+               <l>dando el corazon latidos,</l>
+               <l>y entonces Cielos , entonces,</l>
+               <l>ni bien muerto ni bien vivo,</l>
+               <l>todo neútral y confuso</l>
+               <l>me pareció que me dijo:</l>
+
+               <pb n="2" source="Moreno_301_2.jpg" facs="fedora_ug8109550/full/full/0/default.jpg"/>
+
+               <l>como tan ingratamente,</l>
+               <l>hombre, contra mi has vivido?</l>
+               <l>Como me pagas tan mal</l>
+               <l>las obras y beneficios?</l>
+               <l>Caballo sin rienda eres</l>
+               <l>pues desvocado as querido</l>
+               <l>correr por la culpa tuya </l>
+               <l>á tu mayor precipicio.</l>
+               <l>Treinta y tres años por ti</l>
+               <l>vivi en el mundo abatido</l>
+               <l>con pobreza, y humildad,</l>
+               <l>solo por hacerte rico,</l>
+               <l>pues en una esclavitud</l>
+               <l>estabas, hombre, metido;</l>
+               <l>pero para tu rescate,</l>
+               <l>siendo quien soy, fui vendido.</l>
+               <l>Y sobre aquesta fineza</l>
+               <l>obré otra mayor contigo,</l>
+               <l>pues quedé Sacramentadó, </l>
+               <l>y entre los hombres asisto.</l>
+               <l>Abre los ojos del alma, </l>
+               <l>despierta si estás dormido,</l>
+               <l>sal del profundo letargo,</l>
+               <l>y sueño, en que estás metido</l>
+               <l>Toma la Cruz en los hombros, </l>
+               <l>y por este claustro mio</l>
+               <l>imita en la Via Sacra</l>
+               <l>con el corazon contrito</l>
+               <l>los pasos de mi Pasion,</l>
+               <l>y quedarás bien conmigo</l>
+               <l>Asustado todo el pecho</l>
+               <l>y en el alma arrepentido</l>
+               <l>de ofender á un Dios tan bueno</l>
+               <l>y en lágrimas derretido,</l>
+               <l>á la devocion llamé,</l>
+               <l>pero acudiendo al proviso,</l>
+               <l>ella mis pasos guió</l>
+               <l>con el auxilio divino:</l>
+               <l>á la primera Estacion</l>
+               <l>llegué, auditorio mio,</l>
+               <l>prestadme un rato silencio,</l>
+               <l>y oireis la pasion de Cristo</l>
+               <l>En esta Estacion primera</l>
+               <l>es la del pretorio mismo,</l>
+               <l>y la casa de Pilatos,</l>
+               <l>á donde el Redentor Cristo</l>
+               <l>por mano de seis soldados</l>
+               <l>inclementes, y atrevidos</l>
+               <l>cruelmente fué azotado</l>
+               <l>con garfios de hierro fino,</l>
+               <l>y con cordeles nudosos, </l>
+               <l>y en ellos abrojos xivos;</l>
+               <l>aqui Pilatos habló, </l>
+               <l>y de esta manera dijo:</l>
+               <l>A JESUS de Nazaret,</l>
+               <l>este que se llama Cristo,</l>
+               <l>sedicioso, y embustero,</l>
+               <l>facineroso, y malquisto, </l>
+               <l>despojadlo, y azotadlo,</l>
+               <l>y con cambrones marinos</l>
+               <l>corónese la cabeza, </l>
+               <l>pues dice que es Rey Divino, </l>
+               <l>En la segunda Estacion</l>
+               <l>de veinte y un pasos mismos,</l>
+               <l>es lugar donde á JESUS</l>
+               <l>sobre sus hombros Divinos </l>
+               <l>la Cruz Santa le pusieron</l>
+               <l>los alevosos Judios;</l>
+               <l>y para ponerla entonces</l>
+               <l>le mudaron de vestidos,</l>
+               <l>quitándole la Corona, </l>
+               <l>abriendo mares, y rios, </l>
+               <l>volvieronsela á poner</l>
+               <l>con nuevo rigor impio.</l>
+               <l>En la tercera Estacion</l>
+               <l>de ochenta pasos propicios,</l>
+               <l>es lugar donde el Señor</l>
+               <l>caminando, y afligido</l>
+               <l>con el peso de la Cruz</l>
+               <l>cayó, y de nuevo se vido</l>
+               <l>herido por muchas partes, </l>
+               <l>maltratado, y dolorido.</l>
+               <l>Esta es la cuarta Estacion,</l>
+               <l>que sesenta pasos mido,</l>
+               <l>y es lugar donde el Señor</l>
+               <l>encontró muy dolorido</l>
+               <l>con su Santisima Madre</l>
+               <l>mirándose de improviso</l>
+               <l>quedaron sas corazones</l>
+               <l>tristes del dolor partidos.</l>
+
+               <pb n="3" source="Moreno_301_3.jpg" facs="fedora_ug8103716/full/full/0/default.jpg"/>
+
+               <l>Esta es la quinta Estacion. </l>
+               <l>setenta y un pasos mido</l>
+               <l>es lugar donde alquilaron, </l>
+               <l>sin ser de piedad movidos,</l>
+               <l>al buen Simon Cirineo,</l>
+               <l>pues en tan grande conflicto</l>
+               <l>su Magestad caminaba</l>
+               <l>lento el paso y todo herido. </l>
+               <l>Esta es la sesta Estacion</l>
+               <l>que consta, segun he visto</l>
+               <l>ciento y noventa y un pasos</l>
+               <l>dolorosos y temidos,</l>
+               <l>lugar donde le salió</l>
+               <l>con un piadoso cariño</l>
+               <l>la Verónica muger,</l>
+               <l>y viéndole, que afligido</l>
+               <l>iba, y el rostro sudado</l>
+               <l>con el blanco y tosco lino</l>
+               <l>limpió su rostro, quedando</l>
+               <l>en tres partes dividido.</l>
+               <l>En la sétima Estacion,</l>
+               <l>que consta, segun lo miro,</l>
+               <l>de trescientos treinta y seis</l>
+               <l>pasos, siendo aqueste el sitio</l>
+               <l>de la puerta judiciaria</l>
+               <l>á donde Cristo abatido</l>
+               <l>con el peso de la Cruz,</l>
+               <l>y el hombro muy mal herido,</l>
+               <l>segunda vez cayó en tierra</l>
+               <l>fatigado ya y sin brios,</l>
+               <l>y á empellones, y puñadas </l>
+               <l>lo levantan los malditos.</l>
+               <l>Esta es la octava Estacion,</l>
+               <l>que consta de largo tiro</l>
+               <l>de trescientos y cuarenta</l>
+               <l>y ocho pasos doloridos, </l>
+               <l>lugar donde le salieron</l>
+               <l>llorando de hilo en hilo</l>
+               <l>unas piadosas Mugeres,</l>
+               <l>á quien el Señor les dijo:</l>
+               <l>Hijas de Jerusalen,</l>
+               <l>no lloreis mi muerte os digo, </l>
+               <l>llorad por vosotras mismas,</l>
+               <l>y tambien por vuestros hijos.</l>
+               <l>En la novena Estacion</l>
+               <l>se meditan asimismo</l>
+               <l>ciento y sesenta y un pasos,</l>
+               <l>donde mi Dios infinito,</l>
+               <l>ya faltándole las fuerzas,</l>
+               <l>y todo desfallecido</l>
+               <l>tercera vez cayó en tierra</l>
+               <l>atormentado, y rendido</l>
+               <l>y queriendo levantarse</l>
+               <l>no pudo, antes caido</l>
+               <l>de nuevo todo se hirió</l>
+               <l>con dolores escesivos.</l>
+               <l>A la décima Estacion</l>
+               <l>de diez y ocho pasos miro,</l>
+               <l>y es lugar donde al Señor</l>
+               <l>le quitaron el vestido,</l>
+               <l>renovándole sus llagas,</l>
+               <l>dándole á beber el vino</l>
+               <l>mezclado con pura hiel, </l>
+               <l>temblando al aire y al frio</l>
+               <l>En la undécima Estacion</l>
+               <l>de doce pasos medidos</l>
+               <l>es lugar, donde en la Cruz</l>
+               <l>le tendieron los judios,</l>
+               <l>á donde clavado fué</l>
+               <l>en el Madero Divino,</l>
+               <l>en donde oyendo los golpes</l>
+               <l>del inclemente martillo</l>
+               <l>MARIA Madre de Dios,</l>
+               <l>fué como hincarle un cuchillo.</l>
+               <l>La duodecima Estacion,</l>
+               <l>de catorce pasos mismos, </l>
+               <l>es lugar donde de tropa</l>
+               <l>le llevaron atrevidos</l>
+               <l>clavado en la Cruz, dejando</l>
+               <l>caerle de golpe impio,</l>
+               <l>descoyuntando su cuerpo</l>
+               <l>todo de sangre teñido.</l>
+               <l>Decima tercia Estacion</l>
+               <l>es este lugar, el mismo</l>
+               <l>donde bajaron el Cuerpo</l>
+               <l>del Crucificado Cristo,</l>
+               <l>y sobre los sacros brazos</l>
+               <l>de su Madre, con suspiros</l>
+               <l>del corazon se lo echaron, </l>
+               <l>y en lágrimas deshacido.</l>
+
+               <pb n="4" source="Moreno_301_4.jpg" facs="fedora_ug8103805/full/full/0/default.jpg"/>
+
+               <l>Y porque en junto sepamos</l>
+               <l>de nuestro gran Padre Cristo</l>
+               <l>los pasos de la Pasion</l>
+               <l>(segun los Santos han dicho)</l>
+               <l>fueron siete las caidas</l>
+               <l>desde aquel Huerto florido</l>
+               <l>de Getsemaní, á la Casa</l>
+               <l>de Anas, Pontífice indigno:</l>
+               <l>los puntapies fueron ciento</l>
+               <l>y cuarenta y cuatro mismos</l>
+               <l>ciento veinte las puñadas</l>
+               <l>sobre su Cuerpo Divino:</l>
+               <l>bofetadas ciento y dos</l>
+               <l>en aquel Rostro afligido:</l>
+               <l>los golpes del Pecho fueron</l>
+               <l>veinte y ocho (ay JESUS mio!)</l>
+               <l>y en las espaldas ochenta:</l>
+               <l>setenta veces han sido</l>
+               <l>y ocho mas las que tiraron</l>
+               <l>de la soga los judios:</l>
+               <l>y trescientas y cincuenta</l>
+               <l>veces con rigor impío</l>
+               <l>repelaron el cabello</l>
+               <l>de la Cabeza de Cristo:</l>
+               <l>setenta veces tiraron</l>
+               <l>tambien los pelos benditos</l>
+               <l>de aquella Sagrada Barba, </l>
+               <l>que tan venerable ha sido:</l>
+               <l>los azotes que le dieron</l>
+               <l>sobre su espalda atrevidos</l>
+               <l>pasaron de cinco mil.</l>
+               <l>Llegó en aqueste conflicto</l>
+               <l>al tránsito de la muerte</l>
+               <l>tres veces (ó Padre mio!)</l>
+               <l>y la Corona de Espinas</l>
+               <l>de mil punzadas ha sido:</l>
+               <l>Tres veces en tierra dió</l>
+               <l>con la Cruz por el camino;</l>
+               <l>fue su Corazon Sagrado</l>
+               <l>cubierto (segun se ha escrito)</l>
+               <l>con setenta y dos angustias,</l>
+               <l>Escupieron los malignos</l>
+               <l>en su Santisimo Rostro</l>
+               <l>setenta y dos veces: quiso</l>
+               <l>por nosotros padecer</l>
+               <l>tormentos tan escesivos.</l>
+               <l>Al enclavarle en la Cruz</l>
+               <l>las manos con el martillo</l>
+               <l>veinte y seis golpes le dieron;</l>
+               <l>treinta y seis á los pies mismos,</l>
+               <l>y en la Sagrada Pasion</l>
+               <l>dió ciento y nueve suspiros:</l>
+               <l>tuvo en su Cuerpo Sagrado</l>
+               <l>(segun lo que hallo escrito)</l>
+               <l>cinco mil y cuatrocientas</l>
+               <l>y aun mas setenta y cinco</l>
+               <l>heridas chicas y grandes</l>
+               <l>en todo su cuerpo mismo,</l>
+               <l>sin las mil de la Cabeza:</l>
+               <l>las gotas de sangre han sido</l>
+               <l>doscientas y treinta mil,</l>
+               <l>que de su cuerpo ha vertido</l>
+               <l>Las lágrimas de sus ojos</l>
+               <l>fueron segun he entendido</l>
+               <l>seiscientas mil y doscientas</l>
+               <l>por nuestros pecados mismos.</l>
+               <l>Bendito seais, Señor,</l>
+               <l>amado Dios infinito,</l>
+               <l>que por el hombre pasaste</l>
+               <l>tantas penas y martirios.</l>
+               <l>Cristiano pues de mi labio</l>
+               <l>la pasion Santa has oído,</l>
+               <l>el Acto de Contricion</l>
+               <l>hazlo en tu pecho contrito</l>
+               <l>y pidele á Dios en el</l>
+               <l>perdon de nuestros delitos.</l>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA: 1858.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

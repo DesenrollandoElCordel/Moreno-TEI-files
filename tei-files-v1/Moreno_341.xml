@@ -1,0 +1,527 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_341">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Las desdichas de un soldado</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Las desdichas de un soldado.</title>
+                  <title type="titulo_breve"/>
+                  <author>Antonio Sanchez Roldan</author>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5060819</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">[s.n.]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>?</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Las desdichas de un soldado.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Apuros et desdichas de un pobre.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_341_1.xml" facs="fedora_ug8109654/667,335,562,880/100,/0/default.jpg">grabado_m_341_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-13" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106141/manifest">
+      <graphic url="fedora_ug8109654/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_341_1.jpeg" facs="fedora_ug8109654/full/full/0/default.jpg"/>
+
+               <head type="primer_titulo">
+                  <lb/>LAS DESDICHAS <lb/><hi rend="negrita">DE UN SOLDADO.</hi>
+               </head>
+
+               <lg>
+                  <l rend="indent">Un domingo por la tarde </l>
+                  <l>mal comido y bien peinado</l>
+                  <l>me puse á considerar</l>
+                  <l>las desdichas de un soldado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si yo me pongo á contar.</l>
+                  <l>los trabajos que he pasado, </l>
+                  <l>insultos y pesadumbres </l>
+                  <l>nunca los daré acabados. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si el cielo no lo remedia</l>
+                  <l>será nuestro paradero</l>
+                  <l>el sobaco de los ciegos</l>
+                  <l>en esta maldita guerra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Un dia en Calatayud</l>
+                  <l>salimos con un comboy;</l>
+                  <l>tan buen pié llevamos hoy</l>
+                  <l>como el demonio y la Cruz.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Divisamos una sierra</l>
+                  <l>llamada de los tres pechos,</l>
+                  <l>y está un parapeto hecho</l>
+                  <l>donde los hombres se entierran.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Bajamos á una cañada.</l>
+                  <l>senda del profundo infierno</l>
+                  <l>en el rigor del invierno.</l>
+                  <l>que hasta el cielo tiritaba.</l>
+               </lg>
+
+               <pb n="2" source="Moreno_341_2.jpeg" facs="fedora_ug8110221/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+
+               <lg>
+                  <l rend="indent">Por el bosque de la breña</l>
+                  <l>desplega mi compañia,</l>
+                  <l>aquella que fué vencida</l>
+                  <l>apenas dieron las señas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Al momento nos cercaron</l>
+                  <l>de fuego contra nosotros,</l>
+                  <l>se llevaron el comboy</l>
+                  <l>y una conducion de potros.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Algunos ternos sonaron</l>
+                  <l>en medio de aquestos males,</l>
+                  <l>y aquel dia se llevaron.</l>
+                  <l>hasta el pan de los morrales.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por allí nos ocultamos...</l>
+                  <l>aguardando la columna, </l>
+                  <l>cuatro dias se pasaron</l>
+                  <l>anocheciendo en ayunas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Colocamos un vijía,</l>
+                  <l>que era el que estaba capaz,</l>
+                  <l>y por señas nos decia</l>
+                  <l>que ya van á desfilar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tocaron á reunion</l>
+                  <l>y yo me quedé dormido,</l>
+                  <l>me salieron á buscar</l>
+                  <l>dos cabos muy encendidos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Uno de ellos me encontró</l>
+                  <l>en medio de aquellá breña, </l>
+                  <l>y me arrimó tanta leña</l>
+                  <l>que calienta mas que el sol. </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me sortó cuatro</l>
+                  <l>con tal ira y tan de golpe,</l>
+                  <l>disperté despavorido</l>
+                  <l>y allí dije, voto y fotre.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Salgo corriendo á las filas</l>
+                  <l>ciego de aqueste pesar,</l>
+                  <l>sin saben donde meterme</l>
+                  <l>para ocupar mi lugar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Allí me metí entre dos</l>
+                  <l>como ciego y sin sentio,</l>
+                  <l>que gracioso estaba yo, </l>
+                  <l>y el estómago vacio.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De la hambre que tenia</l>
+                  <l>casi me daban desmayos, </l>
+                  <l>y de castigo me ordenan</l>
+                  <l>que salga de itinerario.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Apenas me retiré</l>
+                  <l>menos de un tiro de bala,</l>
+                  <l>me metí entre la faccion</l>
+                  <l>que allí estaba de avanzada.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por un arroyo que habia </l>
+                  <l>y tomé por aquellas veras, </l>
+                  <l>y al saltar una barranca</l>
+                  <l>me divisó el centinela.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Allí me pidió el quien vive</l>
+                  <l>y yo contesté, el demonio,</l>
+                  <l>¿y dándole gusto á el dedo</l>
+                  <l>de mis pies levanto el polvo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Salgo corriendo á mis filas</l>
+                  <l>por libertarme la vida, </l>
+                  <l>y advertí que me persigue</l>
+                  <l>uno de caballería.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Entregate que hay cuartel</l>
+                  <l>en altas voces me dice </l>
+                  <l>volví la cara y traía</l>
+                  <l>la lanza puestá en el ristre.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent"> Al momento me alcanzó</l>
+                  <l>y rendí la rodilla en tierra, </l>
+                  <l>tendiendo el fusil álla cara</l>
+                  <l>hizo su oficio la piedrá.. con </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cayó del caballo abajo</l>
+                  <l>reborcándose en su sangré</l>
+                  <l>pero le empuñé el morral</l>
+                  <l>que llevaba pan y carne,</l>
+               </lg>
+
+               <pb n="3" source="Moreno_341_3.jpeg" facs="fedora_ug8105608/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+
+               <lg>
+                  <l rend="indent">Otros acuden al tiro</l>
+                  <l>y yo me acojí á los pies,</l>
+                  <l>viéndome precipitado</l>
+                  <l>no me detuve en comer</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En un roble me amparé</l>
+                  <l>donde dos me rodearon</l>
+                  <l>y á muerte me sentenciaron</l>
+                  <l>como ál inocente Abél, </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque susto me causaba</l>
+                  <l>nunca me quise entregar </l>
+                  <l>por mas que me amenazaba</l>
+                  <l>yo no soltaba el morral.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Los soldados de mis filas</l>
+                  <l>viendome en tanta agonia, </l>
+                  <l>marchan á carrera abierta</l>
+                  <l>y á fuego me defendian.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ellos escapan huyendo </l>
+                  <l>por las faldas de una sierra</l>
+                  <l>y de lo que iba en el morral</l>
+                  <l>pronto hicimos paz y guerra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Uniéndome á la Columna!</l>
+                  <l>se juntan á preguntarme,</l>
+                  <l>y de todo daba razon</l>
+                  <l>menos del pan y la carne.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Caigo á la moche alojado</l>
+                  <l>en casa de una patrona</l>
+                  <l>y se le antojó parir,</l>
+                  <l>y al verme se desazona.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En el chaleco del burro</l>
+                  <l>me liace la cama á lo largo</l>
+                  <l>donde pásé áquella noche</l>
+                  <l>tan águsto como un galgo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En un albergue tan bueno</l>
+                  <l>cubierto de estéras bellas,</l>
+                  <l>que no tuve que salir</l>
+                  <l>para contar las estrellas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cada terno que yo hechaba</l>
+                  <l>encogiendome dé lado,</l>
+                  <l>parecia que allí estába</l>
+                  <l>algun demonio encerrado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cansado de tiritar</l>
+                  <l>me rindió el sueño del alba,</l>
+                  <l>y fué mi fortuna tal</l>
+                  <l>que tocaron á generala.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Desperté allá á largo rato</l>
+                  <l>y á la calle me salia,</l>
+                  <l> y aun patron que me encontré</l>
+                  <l>estas preguntas le hacia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Usted sabe si han tocado</l>
+                  <l>para sacar lasgraciones,</l>
+                  <l>con los brazitos cruzados</l>
+                  <l>dándome algunos coscones,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo no sé á lo que han tocado;</l>
+                  <l>el patron me contestó,</l>
+                  <l> ya hace mas de dos horas</l>
+                  <l>que la columna salió.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tomo la huella corriendo</l>
+                  <l>con la barriga en adviento</l>
+                  <l>y al fin los vine á alcanzar</l>
+                  <l>en una fuente bebiendo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me dieron buen desayuno.</l>
+                  <l>boca abajo en un tambor,</l>
+                  <l>entre tantos como habia</l>
+                  <l>á todos llamé atencion.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin salimos de esta</l>
+                  <l>con las espaldas quemando</l>
+                  <l>Uy un silencio en las quijás</l>
+                  <l>y dé cólitento llorando.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Como no gasté camisa</l>
+                  <l>nunca tuve que labar,</l>
+                  <l>guarnecido de chungáis </l>
+                  <l>como mi dedo pulgar,</l>
+               </lg>
+
+               <pb n="4" source="Moreno_341_4.jpeg" facs="fedora_ug8106212/full/full/0/default.jpg"/>
+
+
+               <lg>
+                  <l rend="indent">Por donde quiera qué ibá, </l>
+                  <l>era yo una fiesta andando,</l>
+                  <l>y si pillaba una esquina </l>
+                  <l>al momento venia abajo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Fué tanta la desdicha mia</l>
+                  <l>que se me olvidó el comer </l>
+                  <l>que por lunas no lo hacia</l>
+                  <l>ni ocho veces en el mes.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Asi mi tiempo serví </l>
+                  <l>hasta tomar la licencia,</l>
+                  <l>esto si que era sufrir</l>
+                  <l>y en todo teñer paciencia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aquí concluyo este caso, </l>
+                  <l>por no contar mas tormentos,</l>
+                  <l>y á mi casa voy de paso</l>
+                  <l>sin racion ni alojamiento.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El que no quiera creerlo</l>
+                  <l>y le pareciere chanza,</l>
+                  <l>que no águardé mi licencia</l>
+                  <l>para ir á sentar plaza.</l>
+               </lg>
+            </div>
+
+            <div>
+               <head type="primer_titulo">APUROS Y DESDICHAS DE UN POBRE.</head>
+
+               <lg>
+                  <l rend="indent">Sin tener metalmni cobre</l>
+                  <l>ni puertas por don entrar,</l>
+                  <l>y no hallar en todo el orbe</l>
+                  <l>quien le preste en caridad....</l>
+                  <l rend="cursiva">que confusion para un pobre.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nadie se empeña por él</l>
+                  <l>al verlo descamisado....</l>
+                  <l>ni aun clavos en la pared</l>
+                  <l>cual estará el desdichado</l>
+                  <l rend="cursiva">sin plate ni que vender.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Marchando á carrera abierta</l>
+                  <l>mandó tocar la agonia,</l>
+                  <l>y la comadre á la puerta,</l>
+                  <l>que amargura no seria </l>
+                  <l rend="cursiva">tener á su madre muerta.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pronto se quiso volver</l>
+                  <l>por ver si con bien salia,</l>
+                  <l>de sun terremoto por pie</l>
+                  <l>hayó una sala caida</l>
+                  <l rend="cursiva">y de parto á su mujer.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>Esta composicion es propiedad de Antonio Sanchez Roldan, <lb/>natural del,
+                  Viso del Alcor, provincia de Sevilla, trabajador del <lb/>campo, sin saber leer ni
+                  escribir.—El que me lea me dispensará <lb/>las faltas. </p>
+
+               <p><lb/>CARMONA:—<hi rend="cursiva">Imprenta de D.</hi> José M.a Moreno, calle de
+                  Madre de Dios.</p>
+            </div>
+         </div>
+      </body>
+
+   </text>
+</TEI>

@@ -1,0 +1,303 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_151">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Los amores de Madrid</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Los amores de Madrid.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1861-01-01">1861</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6472905</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 160</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>Los amores de Madrid.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>El consejo de un amigo.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="4">Cuatro grabados (p. 1, 3)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_151_1.xml" facs="fedora_ug8108301/487,273,457,783/100,/0/default.jpg">grabado_m_151_1</item>
+                           <item corresp="grabado_m_151_2.xml" facs="fedora_ug8108301/955,335,361,694/100,/0/default.jpg">grabado_m_151_2</item>
+                           <item corresp="grabado_m_151_3.xml" facs="fedora_ug8109508/463,258,404,843/100,/0/default.jpg">grabado_m_151_3</item>
+                           <item corresp="grabado_m_151_4.xml" facs="fedora_ug8109508/854,284,392,793/100,/0/default.jpg">grabado_m_151_4</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term target="XX5501105.html" type="tipo_texto">Coplas</term>
+               <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-27" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103246/manifest">
+      <graphic url="fedora_ug8108301/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div n="1" type="parte">
+
+               <pb n="1" source="Moreno_151_1.jpg" facs="fedora_ug8108301/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 160.</fw>
+
+               <head rend="negrita" type="primer_titulo">LOS AMORES <lb/>DE MADRID. </head>
+
+               <l rend="indent">¿Por la Virgen del Pilar,</l>
+               <l>por San Vicente Ferrer</l>
+               <l>que me deje usted le pido;</l>
+               <l>dejeme usted Doña Inés!</l>
+               <l>Mis ámores se acabaron</l>
+               <l>y mis pelabras de miel</l>
+               <l>al agotarse el bolsillo</l>
+               <l>que era mi vida y mi fé!</l>
+               <l>Y con ese pergamino</l>
+               <l>se ha llegado usted á creer</l>
+               <l>que así... sin otro aliciente</l>
+               <l>la amara yo... ¡que sandez!</l>
+               <l>—Ingrato mal caballero! </l>
+               <l>¡Chicuelo que amamanté! </l>
+
+               <pb n="2" source="Moreno_151_2.jpg" facs="fedora_ug8104015/full/full/0/default.jpg"/>
+
+               <l>á quien vestí de alto abajo</l>
+               <l>e dí asilo y de comer;</l>
+               <l>el gastó mis doblones...</l>
+               <l>ese es el pago cruel</l>
+               <l>con que premias los afanes</l>
+               <l>de una escualida muger?</l>
+               <l>O se calla, ó por Dios santo,</l>
+               <l>que la estampo en la pared</l>
+               <l>sin miramiento ninguno;</l>
+               <l>Señora, me apesta usted!</l>
+               <l>Deslenguado! eso me dices!</l>
+               <l>insultas mi doncelléz</l>
+               <l>porque ya no tengo un duro</l>
+               <l>de que puedes disponer?</l>
+               <l>Juegue usted á la loteria,</l>
+               <l>y si consigue obtener</l>
+               <l>un premiecito decente</l>
+               <l>á quererla volveré.</l>
+               <l>Escribale á su compadre</l>
+               <l>que es rico y la quiso bien;</l>
+               <l>y que le mande mil duros</l>
+               <l>ò dos mil por esta vez.</l>
+               <l>En fin dé usted algunos pasos,</l>
+               <l>esa es mucha dejadéz</l>
+               <l>mire usted á Doña Quiteria,</l>
+               <l>como no falta al café</l>
+               <l>ni al teatro, ni á los toros,</l>
+               <l>ni al mas brillante soiré</l>
+               <l>porque ¿porque tiene un bolso</l>
+               <l>como un coche de alquiler!</l>
+               <l>Esa si que es una mina</l>
+               <l>que esplotar no alcanzaré</l>
+               <l>pues adora á Don Pepito</l>
+               <l>y se desvive por él!</l>
+               <l>Empeñe usted el abanico, </l>
+               <l>la sombrilla, el alfiler,</l>
+               <l>la saboneta de plata,</l>
+               <l>la camisa y el corsé;</l>
+               <l>haga de todo almoneda,</l>
+               <l>que bien puede recogér</l>
+               <l>para que echemos un dia</l>
+               <l>en Pinton ó en Aranjuéz</l>
+               <l>sinó, vaya usted al demonio</l>
+               <l>pues tan solo Lucifér</l>
+               <l>cargará con sus setenta</l>
+               <l>ó algun mozo de cordel!</l>
+               <l>Así le hablaba en la Corte</l>
+               <l>á una vieja su doncél,</l>
+               <l>que en Madrid siempre hay de sobra</l>
+               <l>amantes de este jaéz,</l>
+               <l>FIN.</l>
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="3" source="Moreno_151_3.jpg" facs="fedora_ug8109508/full/full/0/default.jpg"/>
+
+               <head rend="negrita">EL CONSEJO <lb/>DE UN AMIGO. </head>
+
+               <l rend="indent">Diego se quiere casar, </l>
+               <l>Diego se ha sorbido el juicio;</l>
+               <l>Diego no sabe el bullicio</l>
+               <l>De ese gremio en que vá á entrar:</l>
+               <l>Tiene amor, en hora buena</l>
+               <l>Pero el amor pasa, y luego?</l>
+               <l>¡Pobre mozo me dá pena,</l>
+               <l>Mira, no te cases, Diego.</l>
+               <l rend="indent">Lo que te ha de suceder</l>
+               <l>Te lo pudiera contar,</l>
+               <l>Pues he surcado ese mar</l>
+               <l>En que te vas á meter,</l>
+               <l>In primis, no verás nada,</l>
+               <l>Pues todo marido es ciego,</l>
+               <l>Es una chanza pesada,</l>
+               <l>Mira, no te cases, Diego.</l>
+
+               <pb n="4" source="Moreno_151_4.jpg" facs="fedora_ug8109455/full/full/0/default.jpg"/>
+
+               <l rend="indent">En el libro soberano</l>
+               <l>Del destino, escrito está</l>
+               <l>Que el que cuernos te pondrá,</l>
+               <l>Tu lo lleves de la mano;</l>
+               <l>El que verás mas inerte,</l>
+               <l>El que tu creerás mas lego,</l>
+               <l>Será el que te ponga en suerte;</l>
+               <l>Mira, no te cases, Diego.</l>
+               <l rend="indent">Si eres, celoso serás</l>
+               <l>Un tirano insorpotable,</l>
+               <l>Si eres un marido amable,</l>
+               <l>Un Juan Lanas, y no mas;</l>
+               <l>Duro; te dirán cernicalo,</l>
+               <l>Si débil otra te pego,</l>
+               <l>Antes de tragar, masticalo,</l>
+               <l>Mira, no te cases, Diego.</l>
+               <l rend="indent">Verás una, dos y tres,</l>
+               <l>Que te gusten, y no poco</l>
+               <l>Serás para ellas, lo que es</l>
+               <l>Para los niños, el coco.</l>
+               <l>Aunque digas la verdad</l>
+               <l>No harán caso de tu ruego,</l>
+               <l>Es una barbaridad,</l>
+               <l>Mira no te cases, Diego.</l>
+               <l rend="indent">Hay mas, si te dan las minas</l>
+               <l>Todas de hallende el atlante</l>
+               <l>No hay con ellas lo bastante</l>
+               <l>Para blonda y papalinas;</l>
+               <l>Devora mas, en mi juicio,</l>
+               <l>Cualquiera muger que un fuego,</l>
+               <l>Si ir no quieres al hospicio,</l>
+               <l>Mira, no te cases, Diego.</l>
+               <l rend="indent">¿Que es lo que te has figurado</l>
+               <l>Que es un marido? un estorbo,</l>
+               <l>Un ente tonto y pesado</l>
+               <l>Un cuasi cólera morbo,</l>
+               <l>Que cuando ha perdido el oro</l>
+               <l>Pierde la paz, y el sosiego,</l>
+               <l>Creéme, pasate al moro, </l>
+               <l>Antes no te cases, Diego.</l>
+               <l rend="indent">Es un milagro encontrar</l>
+               <l>Muger que sea completa, </l>
+               <l>La que no es tonta es coqueta,</l>
+               <l>La hermosa, no sabe amar,</l>
+               <l>A mi me ha tocado un angel,</l>
+               <l>Me quiere con todo el fuego,</l>
+               <l>Si tu encuentras un arcángel, </l>
+               <l>Mira, no te cases, Diego.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+
+            <div type="colofon">
+               <p>
+                  <lb/>Carmona:-1861 <lb/>Imprenta de D. José M. Moreno, calle de Madre de Dios núm.
+                  1. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

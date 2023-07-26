@@ -1,0 +1,482 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_008">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Los enamorados de Cristo</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Los enamorados de Cristo. Relacion en que se declara
+                     el argumento que han tenido tres religiosos con el Santo Padre.</title>
+                  <title type="titulo_breve">Los enamorados de Cristo.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"> Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6447319</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Algunas letras están borradas en la primera página, abajo a la
+                           izquierda.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_008_1.xml" facs="fedora_ug8109274/203,366,1155,904/100,/0/default.jpg">grabado_m_008_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-24" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107553/manifest">
+      <graphic url="fedora_ug8109274/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_008_1.jpg" facs="fedora_ug8109274/full/full/0/default.jpg"/>
+               <fw type="impresorNum">Núm 7.</fw>
+
+               <head rend="negrita" type="primer_titulo">LOS ENAMORADOS DE CRISTO</head>
+
+               <head type="subtitulo">
+                  <hi rend="negrita"><lb/>RELACION</hi>
+                  <hi rend="cursiva">
+                     <lb/>en que se declara el argumento que han tenido tres religiosos <lb/>con el
+                     Santo Padre. </hi>
+               </head>
+
+               <l>A tan sublime empeño</l>
+               <l>el desempeño es preciso;</l>
+               <l>el que fuere enamorado</l>
+               <l>de mi Señor Jesucristo:</l>
+               <l>présteme atención un ralo,</l>
+               <l>v aplique bien el oido,</l>
+               <l>para que me entiendan todos</l>
+               <l>desde el mayor al mas chico,</l>
+               <l>oirá de amor las finezas,</l>
+               <l>maravillas y prodigios.</l>
+               <l>En la gran ciudad de Roma,</l>
+               <l>donde el Vicario de Cristo</l>
+               <l>tiene su córte y palacio,</l>
+               <l><gap reason="letra_borrada"/>re Dios guarde muchos siglos;</l>
+               <l><gap reason="letra_borrada"/>fueron á visitar</l>
+               <l><damage agent="letra_borrada"><supplied>t</supplied></damage>res religiosos
+                  antiguos</l>
+               <l><damage agent="letra_borrada"><supplied>d</supplied></damage>os del reino de
+                  España;</l>
+               <l><damage agent="letra_borrada"><supplied>un</supplied></damage>o de santo
+                  Domingo,</l>
+               <l>otro de san Agustin</l>
+               <l>y el otro de san Francisco.</l>
+               <l>Luego que le saludaron</l>
+               <l>con los respetos debidos</l>
+               <l>á su Santidad so ofrecen</l>
+               <l>disponga de sus servicios.</l>
+               <l>Dijo el Pontífice entonces;</l>
+               <l>nunca en mi presencia he visto</l>
+               <l>tres capitanee mas nobles</l>
+               <l>de la Fé de Jesucristo;</l>
+               <l>y el coronel que soy yo,</l>
+               <l>á quien todo el cristianismo</l>
+               <l>con mis órdenes espresas</l>
+               <l>sujeto sus alvodríos:</l>
+               <l>y pues que juntos estamos,</l>
+               <l>hemos de hablar un poquito</l>
+               <l>de las tres divinas obras</l>
+               <l>que nuestro Dios infinito</l>
+
+               <pb n="2" source="Moreno_008_2.jpg" facs="fedora_ug8104993/full/full/0/default.jpg"/>
+
+               <l>quiso hacer por redimir</l>
+               <l>a los hombres del peligro,,</l>
+               <l>que fué encarnar y morir,</l>
+               <l>y. quedarse Jesucristo</l>
+               <l>Sacramentado en la tierra,</l>
+               <l>líe estos grandes beneficios,</l>
+               <l>y tres di vi ríos Misterios</l>
+               <l>¿cual de ellos mas grande ha sido?</l>
+               <l>y al que mas claro lo pruebe</l>
+               <l>de los -tres en este sitio,</l>
+               <l>Je be de dar una imagen</l>
+               <l>preciosa de un Crucifijo,</l>
+               <l>que mil ducados de precio</l>
+               <l>íiene por número fijo.</l>
+               <l>Habló el Dominico, y dice:</l>
+               <l>según el concepto mió,</l>
+               <l>digo que l'ué el encarnar.</l>
+               <l>Y respondió el Agustino:</l>
+               <l>yo digo que fue el morir.</l>
+               <l>Dijo entonces el Francisco:</l>
+               <l>el quedar Sacramentado,,</l>
+               <l>ese es mayor beneficio,</l>
+               <l>bes repuso el l’adre Santo:</l>
+               <l>pues todo lo que habéis dicho</l>
+               <l>pongámoslo en discusión,</l>
+               <l>y cada eual su partida</l>
+               <l>puede defender, veremos</l>
+               <l>quien se lleva lo ofrecido.</l>
+               <l>El Dominico responde:</l>
+               <l>á lo dicho no desdigo</l>
+               <l>ni una palabra siquiera,</l>
+               <l>y me mantengo eri lo dicho;</l>
+               <l>repito fue el encarnar</l>
+               <l>el amor mas infinito</l>
+               <l>que ha obrado Dios por los hombres;</l>
+               <l>de esta suerte fué el prodigio</l>
+               <l>la madre Agreda dice,</l>
+               <l>capítulo veinte y cinco</l>
+               <l>en su escritura santa,</l>
+               <l>(cuenta que yo no lo digo)</l>
+               <l>que en Nazoret, pueblo hermoso,</l>
+               <l>de marzo á los veinte y cinco,</l>
+               <l>al punto de media noche,</l>
+               <l>viernes á las doce mismas,</l>
+               <l>bajó el ángel san Gabriel,</l>
+               <l>y de esta suerte la ha dicho:</l>
+               <l>Áve-Maria de gracia,</l>
+               <l>sea el Señor contigo,</l>
+               <l>y do tu sagrado vientre</l>
+               <l>será el fruto bendito.</l>
+               <l>Mas de saber que Dios quiere</l>
+               <l>que su unigénito Dijo</l>
+               <l>venga á encarnar en tu vientre.</l>
+               <l>Da Virgen ha respondido:</l>
+               <l>¿cómo he de merecer</l>
+               <l>«n tan alto beneficio,</l>
+               <l>siendo yo una pobre, que</l>
+               <l>no tengo para un vestido'.'</l>
+               <l>y á mas de esto soy mas casta</l>
+               <l>que el sol con sus rayos limpios?</l>
+               <l>Angel, ¿cómo ha de ser esto?</l>
+               <l>¡Válgame Dios, qué prodigio!</l>
+               <l>Estaba la Trinidad,</l>
+               <l>los Santos Padres lo mismo,</l>
+               <l>rodeados de esta Aurora,</l>
+               <l>y el ángel le lia respondido;</l>
+               <l>que sin obra de varón</l>
+               <l>ha de ser este prodigio;</l>
+               <l>y asi que dió la licencia</l>
+               <l>al Espíritu divino,</l>
+               <l>se le cayeron tres golas</l>
+               <l>de su corazón divino</l>
+               <l>de preciosísima sangre,</l>
+               <l>(maravilloso prodigio!</l>
+               <l>de las cuales se formó</l>
+               <l>el cuerpo de Jesucristo.</l>
+               <l>Griego el Espíritu Santo</l>
+               <l>hizo sombra de improviso,</l>
+               <l>por lo que creemos es</l>
+               <l>Dios, Padre de Jesucristo;,</l>
+               <l>aunque en cuanto á hombre</l>
+               <l>padre ninguno lia tenido.</l>
+               <l>Madre tuvo, pues que fué</l>
+               <l>de su sangre.concebido.</l>
+               <l>Después el Eterno Podre</l>
+               <l>amoroso y muy benigno,</l>
+               <l>lia unido este cuerpo, y alma</l>
+               <l>á su persona: y unido</l>
+               <l>quedó hecho Dios y hombre,</l>
+               <l>todo en un instante mismo,</l>
+               <l>ííav amor que de aquí pase!</l>
+               <l>Y el Padre Santo le ha dicho:</l>
+               <l>padre Dominico basta;</l>
+               <l>oigamos al Agustino,</l>
+               <l>que dice que es el morir</l>
+               <l>en una cruz Jesucristo;</l>
+               <l>que lo pruebe en argumento.</l>
+               <l>Habló luego el Agustino,</l>
+
+               <pb n="3" source="Moreno_008_3.jpg" facs="fedora_ug8110319/full/full/0/default.jpg"/>
+
+               <l>y ha dicho, una vez lo dije,</l>
+               <l>y me mantengo en lo dicho.</l>
+               <l>JMgo que haber muerto en cruz,</l>
+               <l>fue el amor mas infinitó</l>
+               <l>que abrazó por los hombres;</l>
+               <l>escuchadme lo que digo;</l>
+               <l>no diré ya de su vida,</l>
+               <l>los cansancios, los martirios,,</l>
+               <l>ni en el portal de llclen</l>
+               <l>nacer al rigor del frió:</l>
+               <l>que no quiero sor molesto,</l>
+               <l>hablaré de lo preciso:</l>
+               <l>sabemos que fue azotado,</l>
+               <l>nos consta que fué escupido</l>
+               <l>en aquel rostro sagrado,</l>
+               <l>mas hermoso que el sol mismo»</l>
+               <l>que tantas veces besaron-</l>
+               <l>aquellos labios divinos</l>
+               <l>de María nuestra Madre,</l>
+               <l>¡con qué pena que lo digo!:</l>
+               <l>Ificc san buenaventura,</l>
+               <l>dando por número fijo,</l>
+               <l>que ciento y dos bofetadas</l>
+               <l>le dieron á Jesucristo,</l>
+               <l>y derramó en su pasión</l>
+               <l>el Señor esclarecido,</l>
+               <l>doscientas cuarenta mil</l>
+               <l>gotas de, sangre, que han sido,</l>
+               <l>virtudes para los hombres</l>
+               <l>todos para redimirnos;</l>
+               <l>y estando puesto en la cruz</l>
+               <l>permitió aquel Señor misino</l>
+               <l>le dieran una lanzada,</l>
+               <l>que fué la que dio Lonjinos,</l>
+               <l>que le atravesó el costado,</l>
+               <l>y con clamoroso grito</l>
+               <l>entregó el Espíritu al Padre,</l>
+               <l>y á los hombres liniquito.</l>
+               <l>May amor que de aquí pase?</l>
+               <l>V el Padre Santo le dijo;</l>
+               <l>basta ya, Agustino, basta,</l>
+               <l>que estoy absorto de oiros,</l>
+               <l>y el corazón palpitante</l>
+               <l>tengo de dolor partido.</l>
+               <l>Empezó el Franciscano,</l>
+               <l>y do esta suerte Íes dijo:</l>
+               <l>cierto es que encarnó y murió</l>
+               <l>por los hombres Jesucristo:</l>
+               <l>mas por especial favor</l>
+               <l>nos dijo aquel Señor mismo;</l>
+               <l>Para que el hombre vea</l>
+               <l>lo que le quiero y estimo,</l>
+               <l>le he de dar mi cuerpo y sangre</l>
+               <l>á comer estando vivo,</l>
+               <l>aunque sea á los blasfemos,</l>
+               <l>que es á los que mas abomino,</l>
+               <l>porque hay hombres en el mundo</l>
+               <l>tan perversos y malignos,</l>
+               <l>que han maldecido hasta el vientre</l>
+               <l>en donde fui concebido.</l>
+               <l>Y si arrepentidos llegan</l>
+               <l>á aquel manjar infinito,</l>
+               <l>también hoy misericordia,</l>
+               <l>porque está allí Jesucristo</l>
+               <l>convidándose amoroso,</l>
+               <l>dándose á comer benigno;,</l>
+               <l>también á los salteadores</l>
+               <l>que andan por los caminos,</l>
+               <l>y por robar lo que lleva</l>
+               <l>le quitan á un pobrecito</l>
+               <l>amargamente la vida,</l>
+               <l>dejan sin padre los hijos,</l>
+               <l>á la casa sin consuelo</l>
+               <l>y á la muger sin marido;</l>
+               <l>mas si arrepentidos buscan</l>
+               <l>aquel manjar infinito,</l>
+               <l>también hay misericordia,</l>
+               <l>porque está allí Jesucristo,</l>
+               <l>convidándose amoroso,</l>
+               <l>dándose á comer benigno,</l>
+               <l>y también la inobediencia,</l>
+               <l>que es un pecado inicuo,</l>
+               <l>pues los hijos que á los padres</l>
+               <l>no obedecen muy propicios</l>
+               <l>á observar cuanto les mandan</l>
+               <l>merecen un gran castigo,</l>
+               <l>para ejemplar de las gentes</l>
+               <l>condenadas al abismo;</l>
+               <l>y con un solo argumente</l>
+               <l>concluyo todo lo dicho.</l>
+               <l>Tres esposas caen malas,</l>
+               <l>llega el módico á su auxilio,</l>
+               <l>y pulsando á la primera</l>
+               <l>estas palabras lia dicho:</l>
+               <l>esta señora rio sana</l>
+               <l>sino deja á su marido,</l>
+               <l>su casa caudal y hacienda,</l>
+               <l>y como un pobre mendigo</l>
+
+               <pb n="4" source="Moreno_008_4.jpg" facs="fedora_ug8109119/full/full/0/default.jpg"/>
+
+               <l>por ese mundo se vá.</l>
+               <l>El marido lia respondido:</l>
+               <l>si no es mas que eso al instante</l>
+               <l>voy al punto á hacer lo dicho,</l>
+               <l>porque vivir sin mi esposa;</l>
+               <l>mi vida yo no la estimo.</l>
+               <l>Esto fue lo que hizo Dios,</l>
+               <l>esto mismo fue lo que hizo,</l>
+               <l>el encarnar en Maria</l>
+               <l>tan sabiamente infinito</l>
+               <l>vino á estar entre los hombres,</l>
+               <l>y hacerse pobre mendigo.</l>
+               <l>Luego el médico pulsando</l>
+               <l>n la segunda ha dicho</l>
+               <l>osla señora no sana</l>
+               <l>si no muere su marido</l>
+               <l>en una muerte afrentosa,</l>
+               <l>y recibe mil martirios.</l>
+               <l>El marido dijo entonces;</l>
+               <l>llágase al punto lo dicho,</l>
+               <l>quitarme pronto la vida,</l>
+               <l>que la vida no la estimo</l>
+               <l>si lie do vivir sin mi esposa.</l>
+               <l>Esto fué lo que Dios hizo</l>
+               <l>en padecer por los hombres</l>
+               <l>tanto colmo de martirios,</l>
+               <l>hasta que rindió en la cruz</l>
+               <l>el último parasismo.</l>
+               <l>Sigue el medico y pulsando</l>
+               <l>á la tercera ha dicho:</l>
+               <l>esta señora no sana</l>
+               <l>si no le da su marido</l>
+               <l>todos los dias que viva</l>
+               <l>de su cuerpo un bocadito.</l>
+               <l>Dijo el marido al instante,</l>
+               <l>bagase al punto lo dicho,</l>
+               <l>y de ésto brazo derecho</l>
+               <l>córteseme un -bocadito;</l>
+               <l>y mañana hacer lo propio</l>
+               <l>y al otro dia lo mismo,</l>
+               <l>liasla acabar con mi cuerpo,</l>
+               <l>asi siempre de continuo,</l>
+               <l>que no se quede con hambre,</l>
+               <l>y yo sin carne lo mismo,</l>
+               <l>eon que daremos los dos</l>
+               <l>el último finiquito.</l>
+               <l>Hay amor que de aquí pase?</l>
+               <l>¿quien negará lo que he dicho?</l>
+               <l>Esto fué lo que hizo Dios,</l>
+               <l>esto mismo fué lo que hizo,</l>
+               <l>en quedar Saermentudo,</l>
+               <l>para el remedio infinito,</l>
+               <l>y la salud de los hombres</l>
+               <l>que se hallaban en peligro</l>
+               <l>de eterna condenación</l>
+               <l>por los siglos de los siglos:</l>
+               <l>De los tres enamorados</l>
+               <l>¿cual de ellos mas grande ha sido</l>
+               <l>Si sentenciara un muchacho,</l>
+               <l>ó uno do corto juicio,</l>
+               <l>me parece que dirá</l>
+               <l>que mayor amor ha sido</l>
+               <l>de los tres finos esposos,</l>
+               <l>el mas tierno y mas rendido</l>
+               <l>aquel mismo que se dió</l>
+               <l>á comer estando vivo.</l>
+               <l>El Franciscano arrogante,</l>
+               <l>y muy satisfecho lia dicho,</l>
+               <l>ahora su Santidad</l>
+               <l>verá si el premio es mió.</l>
+               <l>Los otros dos religiosos</l>
+               <l>le quieren responder listos:</l>
+               <l>‘pero su Beatitud luego</l>
+               <l>que se estén quietos, les dijo:</l>
+               <l>y tomando él la palabra</l>
+               <l>les habló en este sentido:</l>
+               <l>absorto eátoy de escucharos,</l>
+               <l>soldados de Jesucristo,</l>
+               <l>de oir estos tres Misterios</l>
+               <l>tengo el corazón partido!</l>
+               <l>yo no sé á quien darle el premio,</l>
+               <l>y el darlo a uno es preciso</l>
+               <l>por que si nó -se dirá</l>
+               <l>que es faltar á!io ofrecido;</l>
+               <l>tomalo tú Franciscano,</l>
+               <l>pues que bien lo lias merecido.</l>
+               <l>Asi dió lin la cuestión</l>
+               <l>con el Vicario de Cristo;</l>
+               <l>y disimulen las faltas</l>
+               <l>que el autor ha cometido.</l>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imprenta de D. José María Moreno.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

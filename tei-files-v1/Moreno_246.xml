@@ -1,0 +1,432 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_246">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canción del rosero</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Cancion del rosero.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475930</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 254</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cuatro canciones</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>Cancion del rosero.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>2</locus>
+                     <title>El presidario. Cancion.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3</locus>
+                     <title>La castañera. Cancion.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Cancion de la caracolera.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1, p.3)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_246_1.xml" facs="fedora_ug8105867/466,386,670,665/100,/0/default.jpg">grabado_m_246_1</item>
+                           <item corresp="grabado_m_246_2.xml" facs="fedora_ug8109470/754,203,450,842/100,/0/default.jpg">grabado_m_246_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX525577.html" type="tipo_texto">Canciones</term>
+               <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-07" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107234/manifest">
+      <graphic url="fedora_ug8105867/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div n="1" type="cancion">
+               <pb n="1" source="Moreno_246_1.jpg" facs="fedora_ug8105867/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 254.</fw>
+
+               <head rend="negrita" type="primer_titulo">
+                  <l>CANCION</l>
+                  <l>DEL ROSERO.</l>
+               </head>
+
+               <lg>
+                  <l rend="indent">A cuarto el ramo de flores!</l>
+                  <l>de cabo propio! salero! </l>
+                  <l>que clavel mas sandunguero!</l>
+                  <l>doña Usia, vengaste acá.</l>
+                  <l rend="indent">Marimoñas! marimoñas!</l>
+                  <l>que jasmines, alma mia!</l>
+                  <l>bendito Dios que los cria...</l>
+                  <l>vamos... que vaste á yevá?</l>
+                  <l rend="indent">No se adorna oste, mi amor?</l>
+                  <l>jé mosita! asté la yamo!</l>
+                  <l>son de olor!</l>
+                  <l>á cuartito vale el ramo!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ven acá Paca.. arrastrundi...</l>
+                  <l>reñites con Juan Antonio?</l>
+                  <l>No! pues entonces? demonio! </l>
+                  <l>por qué no te adosnas, di.</l>
+                  <l rend="indent">Quiéreme á mí, que me pirro</l>
+
+                  <pb n="2" source="Moreno_246_2.jpg" facs="fedora_ug8104756/full/full/0/default.jpg"/>
+
+                  <l>por las jembras salerosas,</l>
+                  <l>cambiáme rosas por rosas</l>
+                  <l>y por una te doy mil.</l>
+                  <l rend="indent">Vamos, yèvate esa flor</l>
+                  <l>y memorias á tu amo...</l>
+                  <l>son de olor!</l>
+                  <l>á cuartito vale el ramo!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Benditas sean las matitas</l>
+                  <l>que tales rosas criaron!</l>
+                  <l>quiosté alelies! sacabaron,</l>
+                  <l>yo lo siento; haiga salú.</l>
+                  <l rend="indent">De veintisinco colores!</l>
+                  <l>que bonitas son! agüela,</l>
+                  <l>aqui hay violetas, espuela</l>
+                  <l>de galan... de too, churrú.</l>
+                  <l rend="indent">Que es tarde y jase calor</l>
+                  <l>y naide acude ar reclamo...</l>
+                  <l>son de olor!</l>
+                  <l>á cuartito vale el ramo!</l>
+               </lg>
+            </div>
+
+            <div n="2" type="cancion">
+               <head rend="negrita" type="titulo_cancion">
+                  <l>EL PRESIDARIO.</l>
+                  <l>CANCION.</l>
+               </head>
+
+               <lg>
+                  <l rend="indent">Con caenas y grilletes</l>
+                  <l>vamos pasando la via, </l>
+                  <l>nunca me farta alegria</l>
+                  <l>siempre me sobra un chulé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Naide me isputa er barato,</l>
+                  <l>á tos los jumos le humiyo,</l>
+                  <l>que soy er rey en presiyo, </l>
+                  <l>por mi fuersa y mi poé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Soy un moso... no me alabo...</l>
+                  <l>Je! mi cabo!</l>
+                  <l>alla voy, aguarde usté.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Siempre una mosa me quiere,</l>
+                  <l>y naide me la camela,</l>
+                  <l>que er cuerpo de la Currela</l>
+                  <l>es de mangue... chachipé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque me den la lisencia,</l>
+                  <l>y me abran los serrojos,</l>
+                  <l>uo soy libre, que en sus ojos</l>
+                  <l>tengo yó el estarivé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tiene una sall.., no la alabo...</l>
+                  <l>Jé! mi cabo! </l>
+                  <l>allá voy; aguarde usté.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aquí estoy por injustisias</l>
+                  <l>de arguasiles y escribanos;</l>
+                  <l>por siertos juegos é manos</l>
+                  <l>que no los jase Raté.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pero, amigo fuí muy tonto</l>
+                  <l>mo entendi bien los registros</l>
+                  <l>en nasion donde hay ministros</l>
+                  <l>mas choris no debe habé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mas todo es moco de pabo,</l>
+                  <l>Jé! mi cabo! </l>
+                  <l>aqui estoy; aguarde usté.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si yego á tomá soleta,</l>
+                  <l>hé de robá por millones,</l>
+                  <l>y asi me ajorro prisiones,</l>
+                  <l>y hombre é provecho seré.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que er que tiene güenas uñas</l>
+                  <l>en estos tiempos escapa,</l>
+                  <l>y puée yegá jasta á... Papa</l>
+                  <l>como aviyele lové.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Manque no valga un ochavo...</l>
+                  <l>Jé! mi cabo! </l>
+                  <l>alla voy; aguarde usté.</l>
+               </lg>
+            </div>
+
+            <div n="3" type="cancion">
+               <pb n="3" source="Moreno_246_3.jpg" facs="fedora_ug8109470/full/full/0/default.jpg"/>
+
+               <head type="titulo_cancion">
+                  <lb/>LA CASTAÑERA. <lb/><hi rend="negrita">CANCION.</hi>
+               </head>
+
+               <lg>
+                  <l rend="indent">Vengasté aca, cara é rosa,</l>
+                  <l>que aqui está la castañera, </l>
+                  <l>vengasté acá, sandunguera,</l>
+                  <l>que contenta vasté á dí! </l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vamos! gordas y calientes!</l>
+                  <l>á quien castañas le diño!....</l>
+                  <l>patrino un cuarto pa er niño,</l>
+                  <l>seis en dos maravei.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Calentitas!</l>
+                  <l>güenas á satisfasion;</l>
+                  <l>que gordas! que tostaitas!</l>
+                  <l>á dos cuartos el monton!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Quita ese anafe, Pastora:</l>
+                  <l>dí, cara é pescao podrio,</l>
+                  <l>cuantos cuartos has vendio?</l>
+                  <l>endina ponte á aventá.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cabayeros, quien me yama?</l>
+                  <l>quié osté castañas, güer moso?</l>
+                  <l>son mu netas saleroso,</l>
+                  <l>los deos te vas á chupá,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Calentitas!</l>
+                  <l>cá una es como un melon;</l>
+                  <l>quien las compra! pelaitas!</l>
+                  <l>á cuarto vale el monton!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Jé! castañas! don usia!</l>
+                  <l>un cuarto pa esa señora,</l>
+                  <l>empeñe osté la castora,</l>
+                  <l>y gaste rumbo, chorré.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mosa é gracia, estan pelándo:</l>
+                  <l>escuche osté, mi sargento..</l>
+                  <l>no hay pasneses? pues lo siento,</l>
+                  <l>que me voy á recogé!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Calentitas!</l>
+                  <l>avienta, avienta, Simon,</l>
+                  <l>vengan osté senoritas,</l>
+                  <l>á dos cuartos el monton!</l>
+               </lg>
+            </div>
+
+            <div n="4" type="cancion">
+               <pb n="4" source="Moreno_246_4.jpg" facs="fedora_ug8104790/full/full/0/default.jpg"/>
+
+               <head type="titulo_cancion">
+                  <lb/>CANCION. <lb/>DE <lb/><hi rend="cursiva">LA CARACOLERA.</hi>
+               </head>
+
+               <lg>
+                  <l rend="indent">De la guerta der Retiro,</l>
+                  <l>quién me los merca? salero,</l>
+                  <l>que se me errama... er puchero.</l>
+                  <l>mosita, vengasté acá.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No son tan chicos, canela!</l>
+                  <l>venga otro cuarto, jermoso,</l>
+                  <l>no lo quiero, este es fasioso,</l>
+                  <l>y yo soy muydiber</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Caracoles! </l>
+                  <l>hermano... que ve usté?</l>
+                  <l>que son mis ojos dossoles!</l>
+                  <l>vamos viviendo chorré.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que too es cáscára, tia Paca!</l>
+                  <l>que calunia, Dios eterno!!</l>
+                  <l>pos si aviyelan caa cuesno</l>
+                  <l>como su marío de osté.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que me escurro! quien yama! </l>
+                  <l>con su salsa, y bien guisaos,</l>
+                  <l>un selemin de casaos</l>
+                  <l>vendo yo por un calé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Caracoles!</l>
+                  <l>maestro, yamaba usté!</l>
+                  <l>matrimonios españoles...</l>
+                  <l>vamos viviendo chorré.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Que dise usté, don Futraque?</l>
+                  <l>quequié osté ser miquerio!</l>
+                  <l>soy casaa y tengo marió,</l>
+                  <l>hermano, viene usté má.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo soy honraa y mi Currelo</l>
+                  <l>es de los mosos mas cruos,</l>
+                  <l>y aunque vendo los cosnuos</l>
+                  <l>no los jago... puñalá!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Caracoles!</l>
+                  <l>mosito, najesusté,</l>
+                  <l>que yo tengo tres bemoles...</l>
+                  <l>vamos viendo chorré..</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1859. <lb/>Imprenta de D. José M.a Moreno, calle de Madre de Dios,
+                  núm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

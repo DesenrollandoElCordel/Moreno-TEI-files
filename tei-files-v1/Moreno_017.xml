@@ -1,0 +1,326 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_017">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Relación del Jitano de Cartagena</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Relacion del Jitano de Cartagena.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6447621</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>1 columna</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_017_1.xml" facs="fedora_ug8109311/487,261,1088,755/100,/0/default.jpg">grabado_m_017_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-25" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106417/manifest">
+      <graphic url="fedora_ug8109311/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_017_1.jpg" facs="fedora_ug8109311/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 16.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">RELACION</hi>
+                  <lb/>DEL JITANO DE CARTAGENA. </head>
+
+               <l rend="indent">Muy buenas noches tengan, mis señores,</l>
+               <l>aquí si que hay muchachas como flores,</l>
+               <l>y mancebos gallardos y famosos,</l>
+               <l>discretos, entendidos y briosos;</l>
+               <l>y pues que aquí he llegado con victoria,</l>
+               <l>les tengo de dar cuenta de mi historia,</l>
+               <l>que metido entre tanta gente honrada,</l>
+               <l>nunca podrá el Gitano perder nada.</l>
+               <l rend="indent">En un barranco junto á Cartagena</l>
+               <l>nací, un dia despues en hora-buena,</l>
+               <l>en mártes fué por fin el dia aciago,</l>
+               <l>junto á un Calar que llaman el del Pago.</l>
+               <l>Fué mi padre Simon el Sevillano,</l>
+               <l>conocido en España por su mano,</l>
+               <l>porque otra ligereza para hurtar</l>
+               <l>en todo el mundo se ha podido hallar.</l>
+               <l>Fué mi madre Violante la famosa</l>
+               <l>que tenia un color como una rosa;</l>
+               <l>y sabía trescientas oraciones</l>
+               <l>conque nos libertó de mil prisiones.</l>
+               <l>Haciendo cierto dia una cazuela</l>
+               <l>con un cuarto trasero de mi abuela,</l>
+               <l>estandome mi madre dando el pecho</l>
+               <l>llegaron seis ministros y en lo estrecho</l>
+               <l>del barranco, nos prenden á porfia,</l>
+
+               <pb n="2" source="Moreno_017_2.jpg" facs="fedora_ug8106694/full/full/0/default.jpg"/>
+
+               <l>solamente por una niñería;</l>
+               <l>que haber hurtado cuatro pollinejos</l>
+               <l>diez mil ducados, siete mulos viejos,</l>
+               <l>y á los mismos á quien se hizo el robo,</l>
+               <l>matarlos para hecharlos en adobo;</l>
+               <l>que heran dos hombres mozos, y un anciano,</l>
+               <l>y con ellos un fraile franciscano;</l>
+               <l>de los cuales hicimos mil fritadas,</l>
+               <l>longanizas, morcillas rellenadas;</l>
+               <l>y los despojos fueron repartidos</l>
+               <l>entre todos los gitanos conocidos,</l>
+               <l>y el viejo anciano todo asado y frito</l>
+               <l>lo repartimos como pan bendito;</l>
+               <l>solo los mozos fué lo que guardamos,</l>
+               <l>y poco á poco nos los jaluchamos,</l>
+               <l>que cuando nos vinieron á prender,</l>
+               <l>ya de aquellos nada habia que comer</l>
+               <l>Luego al punto con sogas bien atados,</l>
+               <l>los seis ministros y otros diez soldados,</l>
+               <l>á todos nos llevaron con gran pena</l>
+               <l>á la carcel mayor de Cartagena,</l>
+               <l>donde de cadenas y de grillos</l>
+               <l>nos cargaron aquellos ministrillos,</l>
+               <l>y con risa y festejo los ladrones</l>
+               <l>me decian á mi estas razones;</l>
+               <l>¡Pobre Baltazarillo, y que temprano</l>
+               <l>te cogió la desdicha por la mano!</l>
+               <l>y mi madre metida entre cadenas,</l>
+               <l>arrullándome causaba dos mil penas.</l>
+               <l>Mas quiso la fortuna, que mi madre,</l>
+               <l>hablando de sus cosas con mi padre,</l>
+               <l>se acordó de unos polvos que tenia</l>
+               <l>dijo dos oraciones que sabía,</l>
+               <l>y en cosa de dos horas, poco menos,</l>
+               <l>nos hallamos en Ronda todos buenos.</l>
+               <l>Contentos y gustosos discurrimos</l>
+               <l>ir á Villa-Martin y allá nos fuimos;</l>
+               <l>y en la feria mi madre enamorando</l>
+               <l>a diez, ó doce, que se fué encontrando,</l>
+               <l>con su maña y ardid, á la ligera,</l>
+               <l>sin peso les dejó la faltriquera;</l>
+               <l>mientras mi padre por el otro lado</l>
+               <l>diez caballos habia afianzado;</l>
+               <l>mas fué cosa de ver con la presteza</l>
+               <l>que vino la justicia á toda prieza</l>
+               <l>á prender á mi padre y yo barrunto,</l>
+               <l>que antes que ellos llegaran, con un unto</l>
+               <l>que mi madre le dió, de Angelo Agudo:</l>
+               <l>convertido quedo en perro lanudo,</l>
+               <l>los diez caballos en esteras viejas,</l>
+               <l>y mi madre en conejo sin orejas</l>
+
+               <pb n="3" source="Moreno_017_3.jpg" facs="fedora_ug8108106/full/full/0/default.jpg"/>
+
+               <l>yo me quedé por amo del cortijo;</l>
+               <l>llegó el correjidor, y me dijo;</l>
+               <l>ha visto usted pasar unos gitanos?</l>
+               <l>yo dije; Dios me libre de sus manos</l>
+               <l>que en estos llanos hay mas de doscientos</l>
+               <l>y me han hurtado á mi cuatro jumentos.</l>
+               <l>Dijo el corregidor pues á buscallos,</l>
+               <l>que han de pagar doblados los caballos.</l>
+               <l>Al punto que se fueron; nos chalamos,</l>
+               <l>y al punto en Granada nos entramos,</l>
+               <l>pues mi madre con un espejo que tenia,</l>
+               <l>y ciertas oraciones que decia,</l>
+               <l>dispuso la jornada de manera,</l>
+               <l>que en un salto acabamos la carrera,</l>
+               <l>mas no salió barata esta entruchada,</l>
+               <l>porque al punto que entramos en Granada</l>
+               <l>nos cercaron catorce, y con cuidado</l>
+               <l>pidiendo el testimonio del ganado;</l>
+               <l>y viendo que mi padre no lo daba</l>
+               <l>y que muy amarillo se quedaba,</l>
+               <l>al instante entre cuatro lo agarraron,</l>
+               <l>y á la cárcel de córte lo llevaron;</l>
+               <l>en un potro lo ponen ó caballo,</l>
+               <l>porque se tardó un poco en declarallo;</l>
+               <l>y agarrando el ramar Pedro Montane,</l>
+               <l>le hizo cantar; á bien decir, de plano.</l>
+               <l>No se como de llanto no rebiento! </l>
+               <l>duélanse ustedes de mi sentimiento;</l>
+               <l>pues al tercer dia lo sacaron,</l>
+               <l>porque asi que cantó lo sentenciaron</l>
+               <l>á doscientos (no se como lo diga)</l>
+               <l>dando en el reves de la barriga.</l>
+               <l>¡Ah buen Simon hijo de un padre honrado, </l>
+               <l>hombre de bien, á lo que yo he pensado:</l>
+               <l>pues en sesenta años que ha vivido</l>
+               <l>cuatro jubones de estos ha vestido.</l>
+               <l>Quien contará la pena, de mi mama,</l>
+               <l>que en doce dias no se acostó en cama</l>
+               <l>con cuidados y penas, tan de veras,</l>
+               <l>por quitarle diez años de galeras;</l>
+               <l>y lo ordenó, enviando en la comida</l>
+               <l>una hebra de hilo bien torcida,</l>
+               <l>que atada á el brazo, luego al punto mismo</l>
+               <l>le causó perlesia y rehumatismo,</l>
+               <l>viruelas, sabañones y diviesos,</l>
+               <l>garrotillo, almorranas, sobrehuesos;</l>
+               <l>de suerte que hilaba tan delgado,</l>
+               <l>que á la calle lo hecharon de contado.</l>
+               <l>Qué contritos que salimos de Granada,</l>
+               <l>sin tener que comer, ni beber nada!</l>
+               <l>En llegando á la fuente del Cristiano,</l>
+
+               <pb n="4" source="Moreno_017_4.jpg" facs="fedora_ug8110029/full/full/0/default.jpg"/>
+
+               <l>estaba ya mi padre bueno y sano,</l>
+               <l>y enderezando la proa á Churriana,</l>
+               <l>porque tiene mi madre allá una hermana,</l>
+               <l>al irnos á otro dia, en el camino</l>
+               <l>á uno de Gabia hurtamos un pollino.</l>
+               <l>Tuvo su amo de ello la noticia,</l>
+               <l>y siguiendo los pasos con codicia</l>
+               <l>aunque el pobre venia sin aliento,</l>
+               <l>nos dió de palos y llevose su jumento.</l>
+               <l>No bastando las trazas de mi madre,</l>
+               <l>solo de un palo que le dió á mi padre,</l>
+               <l>la cabeza le hizo una granada;</l>
+               <l>y yo no me quedé sin llevar nada,</l>
+               <l>que no fue el hombre escaso en repartillos,</l>
+               <l>pues á mí me dió tan solo tres palillos,</l>
+               <l>que con el uno un brazo me quebraba,</l>
+               <l>con otro la cabeza me rajaba,</l>
+               <l>y tirándome el otro con blandura,</l>
+               <l>seis huesos me sacó de coyuntura;</l>
+               <l>de seis costillas me hizo una docena,</l>
+               <l>y aun lo que me dió mas grande pena,</l>
+               <l>fué, que pegando á mi madre con la vara,</l>
+               <l>de arriba abajo le cruzó la cara;</l>
+               <l>pero yo le tiré un tigeretazo,</l>
+               <l>que si le alcanzo le lastimo un brazo.</l>
+               <l>Vino el corregidor, y nos prendieron,</l>
+               <l>y al instante á Granada nos volvieron.</l>
+               <l>Descubriose el secreto de mi madre,</l>
+               <l>por un soplon que se lo oyó á mi padre</l>
+               <l>y sin poder remediarlo, en conclusion,</l>
+               <l>tiró de ella la horrible inquisicion:</l>
+               <l>por ser la vez primera la obisparon,</l>
+               <l>y con mitra en el auto la sacaron</l>
+               <l>luego á diez años de cárcel sentenciada</l>
+               <l>ha salido la pobre desdichada,</l>
+               <l>y á mi padre la harán, sino me engaño,</l>
+               <l>pegar un salto en vago aqueste año;</l>
+               <l>y lo que mas siento, si antes no me muero</l>
+               <l>es que lo he de ver hecho dinero.</l>
+               <l>Señores den por Dios su limosnita,</l>
+               <l>para que le haga decir una misita;</l>
+               <l>asi los libre Dios de dos mil males,</l>
+               <l>de sarna y amorranas garrafales;</l>
+               <l>que con esto; y un victor de sus manos</l>
+               <l>quedarán muy gustosos los gitanos,</l>
+               <l>pidiéndoles perdon á manos llenas</l>
+               <l>Baltasar, el ladron de Cartagena.</l>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—Imp. de D. J. M. Moreno, calle Juan de la Cabra núm. 4. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

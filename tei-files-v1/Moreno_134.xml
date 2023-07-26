@@ -1,0 +1,455 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_134">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rosaura la de Trujillo</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Rosaura la de Trujillo. Curioso romance, en que se
+                     refiere un lastimoso caso que sucedió á una doncella llamada Rosaura, en la
+                     ciudad de Trujillo.</title>
+                  <title type="titulo_breve">Rosaura la de Trujillo.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1855-01-01">1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6470730</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_134_1.xml" facs="fedora_ug8104033/777,168,536,902/100,/0/default.jpg">grabado_m_134_1</item>
+                           <item corresp="grabado_m_134_2.xml" facs="fedora_ug8104033/185,146,590,929/100,/0/default.jpg">grabado_m_134_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-26" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8108924/manifest">
+      <graphic url="fedora_ug8104033/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_134_1.jpg" facs="fedora_ug8104033/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 141.)</fw>
+
+               <head rend="negrita" type="primer_titulo">ROSAURA LA DE TRUJILLO.</head>
+               <head rend="cursiva" type="subtitulo">Curioso romance, en que se refiere un lastimoso
+                  caso que sucedió <lb/>á una doncella llamada Rosaura, en la ciudad de Trujillo. </head>
+
+               <l rend="indent">Sobre una alfombra de flores,</l>
+               <l>cercada de hermosas plantas,</l>
+               <l>adonde las avecíllas</l>
+               <l>tienden sus pintadas álas,</l>
+               <l>y con música alegre</l>
+               <l>al Rey del cielo dan gracias;</l>
+               <l>en aqueste prado ameno;</l>
+               <l>en este mar de abundancia,</l>
+               <l>en este pecho que cubre</l>
+               <l>dos mil aflijidas causas,</l>
+               <l>como las que os contaré</l>
+               <l>si el Cielo Santo me ampara:</l>
+               <l>porque se sepa su nombre</l>
+               <l>será preciso nombrarla.</l>
+               <l>En la gran Sierra-Morena,</l>
+               <l>de tantos delitos capa,</l>
+               <l>amparo de aquel que ofende,</l>
+               <l>defensa del que mal anda,</l>
+               <l>me puse sentado un dia,</l>
+               <l>canzado de andar á caza,</l>
+               <l>arrimado á un duro tronco,</l>
+               <l>discurriendo en cosas varias,</l>
+               <l>quejoso de la fortuna</l>
+               <l>que con rigor me maltrata.</l>
+               <l>Oí una voz temerosa</l>
+               <l>que sonaba en la montaña,</l>
+               <l>á orillas de un arrolluelo</l>
+               <l>que con las breñas se enlaza.</l>
+               <l>Estuve atento por ver,</l>
+               <l>si era de persona humana,</l>
+               <l>y comprendí que decia </l>
+               <l>estas siguientes palabras:</l>
+               <l>«Tirano amor pues tú has sido,</l>
+               <l>la causa de mi desgracia,</l>
+
+               <pb n="2" source="Moreno_134_2.jpg" facs="fedora_ug8109316/full/full/0/default.jpg"/>
+
+               <l>dispara tus duras flechas</l>
+               <l>contra el que asi me maltrata.</l>
+               <l>Amante falso y traidor,</l>
+               <l>¿cómo me dejas sin causa,</l>
+               <l>en tan terrible miseria</l>
+               <l>y de la muerte cercana?</l>
+               <l>Sacra Vírgen del Rosario,</l>
+               <l>mi princesa y abogada,</l>
+               <l>alcanzadme que confiese,</l>
+               <l>por que no peligre mi alma..</l>
+               <l>Puse al rostro mi escopeta</l>
+               <l>bien prevenida de balas,</l>
+               <l>por el éco de la voz</l>
+               <l>llegué á parar donde estaba;:</l>
+               <l>ví una temprana belleza</l>
+               <l>á un duro tronco amarrada:</l>
+               <l>desmelenado el cabello,</l>
+               <l>y de ropas despojada.</l>
+               <l>Cuando ví tal hermosura</l>
+               <l>no pude hablarla palabra,</l>
+               <l>viéndome ella tan suspenso</l>
+               <l>de aquesta suerte me habla:</l>
+               <l>llega, mancebo, y no temas,</l>
+               <l>que soy persona humana,</l>
+               <l>y mis pecados me tienen</l>
+               <l>en el sitio en que me hallas:</l>
+               <l>desátame y te diré</l>
+               <l>mi pena, fatiga y ansia,</l>
+               <l>y tambien los alevosos</l>
+               <l>que son de mi mal la causa.</l>
+               <l>Compadecido en estremo,</l>
+               <l>un fuerte cuchillo saco,</l>
+               <l>corto los gruesos cordeles</l>
+               <l>que á aquel ángel sugetaban.</l>
+               <l>Me quité al punto el gaban</l>
+               <l>y encima se lo arrojaba,</l>
+               <l>cubriendo sus blancas carnes,</l>
+               <l>que con el sol se comparan.</l>
+               <l>Mirando á un lado y otro,</l>
+               <l>vide estar entre unas matas</l>
+               <l>la ropa que siempre fue</l>
+               <l>de aquel desengaño causa.</l>
+               <l>Ella suspira y solloza</l>
+               <l>pidiendo al cielo venganza,</l>
+               <l>y mirándola la dije:</l>
+               <l>por Dios hermosa Diana,</l>
+               <l>por la Vírgen del Rosario,</l>
+               <l>que me digas lo que pasa.</l>
+               <l>Agradecida responde</l>
+               <l>estas siguientes palabras:</l>
+               <l>¿Has de saber, noble jóven,</l>
+               <l>que en Trujillo fui criada;</l>
+               <l>hija soy de un caballero,</l>
+               <l>que don Diego se llama,</l>
+               <l>de Castro por apellido,</l>
+               <l>que es lo mejor de España;</l>
+               <l>mi madre doña Isabel</l>
+               <l>de Mendoza intuladada:</l>
+               <l>y por gusto de padrinos</l>
+               <l>á mi me llaman Rosaura,</l>
+               <l>tan amada en mis principios</l>
+               <l>como ahora desgraciada.</l>
+               <l>Vivia pared en medio,</l>
+               <l>mas abajo de mi casa,</l>
+               <l>un hijo de un labrador</l>
+               <l>de hacienda algo moderada</l>
+               <l>mozo, galan y valiente,</l>
+               <l>discreto y de linda traza,</l>
+               <l>que se llevó mi aficion</l>
+               <l>y me amó con vigilancia;</l>
+               <l>mas como las cualidades</l>
+               <l>unas con otras no igualan,</l>
+               <l>tuve lugar una noche</l>
+               <l>para escribir una carta,</l>
+               <l>dándole á entender por ella</l>
+               <l>que me saque de mi casa,</l>
+               <l>y que sea con secreto</l>
+               <l>y con cautelosa maña:</l>
+               <l>mas el alevoso amante,</l>
+               <l>á un primo suyo le daba</l>
+               <l>cuenta, que traidor é infame</l>
+               <l>fue la causa de esta desgracia.</l>
+               <l>A los catorce de Agosto</l>
+               <l>me sacaron de mi casa,</l>
+               <l>bien prevenida de joyas,</l>
+               <l>y de muy costosas galas,</l>
+               <l>como al presente las ves,</l>
+               <l>que ellas mismas lo señalan.</l>
+
+               <pb n="3" source="Moreno_134_3.jpg" facs="fedora_ug8104155/full/full/0/default.jpg"/>
+
+               <l>Cinco dias caminamos</l>
+               <l>cabales con sus jornadas,</l>
+               <l>hasta llegar á este sitio,</l>
+               <l>encubridor de mi infamia;</l>
+               <l>aqui los dos desmontaron</l>
+               <l>con intencion muy dañada,</l>
+               <l>para marchitar la rosa</l>
+               <l>que de algunos fue envidiada:</l>
+               <l>me violentaron.... ¡qué horor!</l>
+               <l>¡Jesus, que suma desgracia!</l>
+               <l>sin temer la justa ira</l>
+               <l>del Señor que nos miraba.</l>
+               <l>Luego el alevoso primo</l>
+               <l>dijo: que me desnudara;</l>
+               <l>asi que en carnes me vieron,</l>
+               <l>entrambas manos me atan,</l>
+               <l>y él sacando una pistola,</l>
+               <l>el fuerte muelle levanta</l>
+               <l>para qnitarme la vida,</l>
+               <l>mas mi amante lo estorbaba,</l>
+               <l>diciendo: no quiera el cielo</l>
+               <l>que, pues yo he sido la causa</l>
+               <l>de que esta doncella pierda</l>
+               <l>su honor, se haga tal infamia,</l>
+               <l>aqui la pienso dejar</l>
+               <l>entre estas espesas matas,</l>
+               <l>acompañada de fieras,</l>
+               <l>que por estas breñas pasan,</l>
+               <l>y ellas le darán la muerte</l>
+               <l>mal merecida y sin causa.</l>
+               <l>Se fueron y me dejaron</l>
+               <l>como la flor en la escarcha:</l>
+               <l>tres dias ha no comía</l>
+               <l>cosa que me dé sustancia,</l>
+               <l>sino las amargas yervas</l>
+               <l>que con la boca alcanzaba.</l>
+               <l>Esta es mi historia y te pido</l>
+               <l>te duelas de mi desgracia</l>
+               <l>que me acompañes y lleves</l>
+               <l>á la ciudad mas cercana,</l>
+               <l>porque desde allí pretendo</l>
+               <l>se castigue aquesta infamia.)</l>
+               <l>Por la mano la tomé,</l>
+               <l>y á una quinta la llevaba</l>
+               <l>donde la dí de comer</l>
+               <l>de lo que allí se encontraba,</l>
+               <l>y enseguida le ofrecí</l>
+               <l>con mano leal y franca,</l>
+               <l>mi ayuda y un buen caballo,</l>
+               <l>que mas que el viento volaba,</l>
+               <l>y el valor de mi persona</l>
+               <l>para ir en su compaña.</l>
+               <l>Dispusimos el viage</l>
+               <l>á Córdoba caminamos,</l>
+               <l>y á la puerta del Rosario</l>
+               <l>donde pretendí dejarla)</l>
+               <l>la eché los brazos al cuello</l>
+               <l>y de esta suerte le hablaba:</l>
+               <l>á Dios, y le ruego al cielo</l>
+               <l>que sea tu dicha tanta</l>
+               <l>que logres tu buen deseo</l>
+               <l>y despues la gloria santa.</l>
+               <l>Ella respondió, mancebo</l>
+               <l>noble, la Vírgen te valga,</l>
+               <l>y tu accion heróira premie</l>
+               <l>el alto Rey de la gracia.</l>
+               <l>Sentóse en el duro suelo</l>
+               <l>aquella rosa temprana,</l>
+               <l>aguardando por minutos</l>
+               <l>la aurora de la mañana,</l>
+               <l>para arrojarse animosa</l>
+               <l>al intento qne llevaba.</l>
+               <l>Fue á casa de don Francisco</l>
+               <l>de los Rios, noble rama,</l>
+               <l>y á un criado le pregunta</l>
+               <l>si está su señor en casa,</l>
+               <l>y al punto le respondió:</l>
+               <l>su merced está en la cama.</l>
+               <l>Sin aguardar mas razones</l>
+               <l>allá dentro se arrojaba,</l>
+               <l>y arrimada al blando lecho,</l>
+               <l>de aquesta suerte le habla:</l>
+               <l>¿Conocerás, señor mio,</l>
+               <l>á la que diste el agua</l>
+               <l>del Bautismo, allá en Trujillo,</l>
+               <l>y la pusistes Rosaura?</l>
+               <l>Has de saber que yo soy,</l>
+               <l>la que nunca se criára.</l>
+
+               <pb n="4" source="Moreno_134_4.jpg" facs="fedora_ug8106005/full/full/0/default.jpg"/>
+
+               <l>pues fui la muger mas frágil</l>
+               <l>que se ha visto en toda España.</l>
+               <l>Por fiarme del amor</l>
+               <l>perdido mi honor se halla:</l>
+               <l>mira bien mi tierna edad,</l>
+               <l>que de quince años no pasa,</l>
+               <l>no mires el mar sarmiento,</l>
+               <l>sino el árbol donde baja,</l>
+               <l>que si bien lo consideras</l>
+               <l>cierta será la venganza.</l>
+               <l>Dos traidores me han robado,</l>
+               <l>sacándome de mi casa,</l>
+               <l>y me han quitado el honor</l>
+               <l>en Sierra-Morena brava.</l>
+               <l>Oyendo esto don Francisco,</l>
+               <l>de la cama se levanta,</l>
+               <l>y al punto llama á un criado,</l>
+               <l>que un caballo le ensillara;</l>
+               <l>y antes de partir, dispuso</l>
+               <l>el dejarla con su hermana</l>
+               <l>recogida en un convento</l>
+               <l>que de Santa Isabel llaman.</l>
+               <l>camina luego á Trujillo,</l>
+               <l>y un criado le acompaña,</l>
+               <l>que quiere entrar de secreto</l>
+               <l>porque no se sepa nada.</l>
+               <l>Fuese á casa de don Diego,</l>
+               <l>alegre le saludaba:</l>
+               <l>y luego le preguntó</l>
+               <l>por su querida Rosaura.</l>
+               <l>antes de acabarse el Credo,</l>
+               <l>don Diego, aquestas palabras:</l>
+               <l>habrá unos ocho dias</l>
+               <l>que se salió de mi casa,</l>
+               <l>sin poder hallar persona</l>
+               <l>que me diga donde para,</l>
+               <l>siendo en mi casa el espejo</l>
+               <l>en que todos se miraban.</l>
+               <l>Oyendo esto don Francisco,</l>
+               <l>sacó del pecho una carta,</l>
+               <l>Aquí dió fin esta historia</l>
+               <l>de la infelice Rosaura.</l>
+               <l>y mirando el sobre-escrito,</l>
+               <l>de puro gozo lloraba,</l>
+               <l>porque conoció la letra</l>
+               <l>de su querida Rosaura:</l>
+               <l>pero dentro iba el pesar,</l>
+               <l>que es cosa muy ordinaria,</l>
+               <l>que no hay placer sin disgusto</l>
+               <l>en aquesta vida humana.</l>
+               <l>Abrióla y hayando dentro</l>
+               <l>los aleves que la agravian,</l>
+               <l>al señor corregidor</l>
+               <l>cuenta del caso le daba.</l>
+               <l>Al instante los prendieron,</l>
+               <l>y sustanciada la causa,</l>
+               <l>el juez, con recta jnsticia,</l>
+               <l>á muerte los condenaba.</l>
+               <l>Los meten en la capilla,</l>
+               <l>y llorando al cielo claman,</l>
+               <l>pidiendo misericordia</l>
+               <l>á la Vírgen Soberana.</l>
+               <l>Los sacaron de la cárcel</l>
+               <l>por las calles ordinarirs,</l>
+               <l>diciendo: esta es la justicia</l>
+               <l>que nuestro monarca manda</l>
+               <l>se ejecute en estos hombres,</l>
+               <l>pues hicieron tal infamia.</l>
+               <l>Llegaron hasta el suplicio</l>
+               <l>con ánimo y vigilancia;</l>
+               <l>subiéronlos á lo alto,</l>
+               <l>ellos con mortales ansias,</l>
+               <l>Le respondió pensativo,</l>
+               <l>á Dios entregan sus almas,</l>
+               <l>y despues en los caminos</l>
+               <l>ponen sus cabezas anibas,</l>
+               <l>para ejemplo de atrevidos</l>
+               <l>y escarmiento al que mal anda.</l>
+               <l>Luego el noble don Francirco</l>
+               <l>se volvió á su amada patria.</l>
+               <l>y Rosaura en un convento</l>
+               <l>con ejemplar vida pasa.</l>
+               <l>y á don Diego se la dió,</l>
+               <l>que recibe y abraza;</l>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—1855: Imprenta de D. José María Moreno.</p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

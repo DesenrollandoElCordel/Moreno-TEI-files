@@ -1,0 +1,487 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_327">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dionisia Pérez Losada. Nueva y curiosa relación</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Dionisia Perez Losada. Nueva y curiosa relacion en
+                     que se dá cuenta del ejemplar castigo que Dios N. S. ha obrado en la ciudad de
+                     Zaragoza, en este presente año, contra un caballero, por haber le-vantado un
+                     falso testimonio á una doncella honesta y viriuosa, la cual se vió libre de las
+                     asechanzas y engaños del demonio por ser devota de la Virgen del Pilar y llevar
+                     los Santos Evangelios.</title>
+                  <title type="titulo_breve">Dionisia Perez Losada. Nueva y curiosa relacion</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1860-01-01">1860</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6488022</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">[s.n.]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>Segunda parte.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="3">Tres grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_327_1.xml" facs="fedora_ug8110034/1021,303,649,894/100,/0/default.jpg">grabado_m_327_1</item>
+                           <item corresp="grabado_m_327_2.xml" facs="fedora_ug8110034/581,544,448,673/100,/0/default.jpg">grabado_m_327_2</item>
+                           <item corresp="grabado_m_327_3.xml" facs="fedora_ug8110034/174,361,408,855/100,/0/default.jpg">grabado_m_327_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104714/manifest">
+      <graphic url="fedora_ug8110034/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_327_1.jpeg" facs="fedora_ug8110034/full/full/0/default.jpg"/>
+
+               <head type="primer_titulo">DIONISIA PEREZ LOSADA.</head>
+               <head type="subtitulo">
+                  <lb/><hi rend="negrita">NUEVA Y CURIOSA RELACION</hi>
+                  <lb/>en que se dá cuenta del ejemplar castigo que Dios N. S. ha obrado en la
+                  <lb/>ciudad de Zaragoza, en este presente año, contra un caballero, por haber le-
+                  <lb/>vantado un falso testimonio á una doncella honesta y virtuosa, la cual se
+                  <lb/>vió libre de las asechanzas y engaños del demonio por ser devota de la
+                  <lb/>Virgen del Pilar y llevar los Santos Evangelios. </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">A la celestial Princesa,</l>
+                  <l>que es de gloria coronada,</l>
+                  <l>del Pilar divina Aurora,</l>
+                  <l>pide mi pluma la gracia</l>
+                  <l>para hacer notorio el caso</l>
+                  <l>con todas sus circunstancias.</l>
+                  <l>Sirva de ejemplo y enmienda</l>
+                  <l>á los de conciencia mala,</l>
+                  <l>los que falsos testimonios</l>
+                  <l>á su próg<supplied>i</supplied>mo levantan.</l>
+                  <l>En Zar<supplied>a</supplied>g<supplied>o</supplied>za la ilustre,</l>
+                  <l>que ya está bien elogiada</l>
+                  <l>por la imágen tan divina</l>
+                  <l>que del cielo fué bajada,</l>
+                  <l>vivía Dionisio Perez</l>
+                  <l>con Catalina Losada</l>
+                  <l>que en union del matrimonio</l>
+                  <l>muy tiernamente se amaban.</l>
+                  <l>El cielo les dió una hija,</l>
+                  <l>del corazon prenda amada:</l>
+                  <l>la criaron con cariño</l>
+                  <l>á la virtud inclinada;</l>
+                  <l>era hermosa y apasible,</l>
+                  <l>muy honesta y rescatada;</l>
+                  <l>llegó á tener veinte años</l>
+                  <l>Dionisia Perez Losada.</l>
+                  <l>Era muy cordial devota</l>
+                  <l>de la Reina Soberana,</l>
+                  <l>sacra Vírgen del Pil<supplied>a</supplied>r.</l>
+                  <l>Madre nuestra y abogada,</l>
+                  <l>que su divino retrato</l>
+                  <l>en su pecho veneraba,</l>
+                  <l>con los Santos Evangelios</l>
+                  <l>que son reliquias sagradas</l>
+
+                  <pb n="2" source="Moreno_327_2.jpeg" facs="fedora_ug8110205/full/full/0/default.jpg"/>
+
+                  <l>para vencer al demonio</l>
+                  <l>sus astucias y asechanzas.</l>
+                  <l>La sucedió á esta doncella</l>
+                  <l>Dionisia Perez Losada,</l>
+                  <l>de que su padre y su madre</l>
+                  <l>caen enfermos en cama.</l>
+                  <l>La hija los asistia</l>
+                  <l>como á padres que les ama;</l>
+                  <l>así estuvieron dos años</l>
+                  <l>padecienda penas y ánsias,</l>
+                  <l>y todo cuanto tenían</l>
+                  <l>dinero, ropa y alhajas,</l>
+                  <l>al e<supplied>c</supplied>ho de poco tiempo</l>
+                  <l>en la enfermedad lo gastan.</l>
+                  <l>Mas la buena de la hija</l>
+                  <l>á Dios por ellos rogaba:</l>
+                  <l>solo de pedir limosna</l>
+                  <l>á los dos los sustentaba.</l>
+                  <l>Era la hermosa doncella</l>
+                  <l>de una belleza estremada.</l>
+                  <l>Un dia salió á pedir,</l>
+                  <l>y ella yó que por la plaza</l>
+                  <l>se paseaba un caballero</l>
+                  <l>y con corteses palabras</l>
+                  <l>se llegó á pedir limosna</l>
+                  <l>la pobre necesitada.</l>
+                  <l>Entonces el caballero</l>
+                  <l>ha comenzado á mirarla,</l>
+                  <l>y dice: ¿tiene vergüenza,</l>
+                  <l>teniendo tan buena cara</l>
+                  <l>andar pidiendo limosna?</l>
+                  <l>váyase muy noramala.</l>
+                  <l>Ella respondió llorando</l>
+                  <l>y dice con tiernas ánsias:</l>
+                  <l>señor que tengo á mis padres</l>
+                  <l>impedidos en la cama;</l>
+                  <l>para poder socorrerlos</l>
+                  <l>la necesidad lo causa.</l>
+                  <l>Dijo el falso caballero</l>
+                  <l>con intencion muy dañada:</l>
+                  <l>mire, una cosa la digo;</l>
+                  <l>venga conmigo á mi casa,</l>
+                  <l>y como cumpla mi gusto</l>
+                  <l>será muy bien regalada.</l>
+                  <l>Quedó la pobre doncella</l>
+                  <l>corrida y avergonzada,</l>
+                  <l>y le dijo: caballero,</l>
+                  <l>¿cómo á una doncella honrada</l>
+                  <l>el honor se atreve á quitarla?</l>
+                  <l>y el caballero la dice</l>
+                  <l>furiosamente en voz alta</l>
+                  <l>váyase muy noramala,</l>
+                  <l>y mire que si me enfado</l>
+                  <l>la hartaré de bofetadas;</l>
+                  <l>(¿cómo cabe en pecho noble</l>
+                  <l>proceder con tal infamia?)</l>
+                  <l>Dionisia que oyó esto,</l>
+                  <l>llorando se fué á su casa,</l>
+                  <l>y á su padre y á su madre</l>
+                  <l>les contó lo que la pasa.</l>
+                  <l>Tuvieron gran sentimiento,</l>
+                  <l>y á otro dia de mañana</l>
+                  <l>se fué el falso caballero</l>
+                  <l>con intencion muy malvada,</l>
+                  <l>buscando al gobernador;</l>
+                  <l>una calumnia levanta</l>
+                  <l>contra la pobre doncella;</l>
+                  <l>dice con razones falsas,</l>
+                  <l>que una muger por las calles</l>
+                  <l>se precia de muy honrada,</l>
+                  <l>y con capa de virtud</l>
+                  <l>que parece una neata,</l>
+                  <l>es muy pública ramera;</l>
+                  <l>no digo mas, porque basta,</l>
+                  <l>que anda por causa de ella</l>
+                  <l>la ciudad alborotada;</l>
+                  <l>bien puede su señoría</l>
+                  <l>de la ciudad desterarla.</l>
+                  <l>Con tales informaciones</l>
+                  <l>que el caballero declara,</l>
+                  <l>el señor gobernador</l>
+                  <l>al punto, al instante manda</l>
+                  <l>que la metan en la cárcel;</l>
+                  <l>(¡oh qué lastima tan rara!)</l>
+                  <l>Se fueron dos alguaciles,</l>
+                  <l>y á la pue<supplied>r</supplied>ta de la casa</l>
+                  <l>la hallaron y la cogieron</l>
+                  <l>y á la cárcel la llevaban.</l>
+                  <l>Tómanla declaracion,</l>
+                  <l>mas ella lo que decl<supplied>a</supplied>ra,</l>
+                  <l>defendiendo su pureza,</l>
+                  <l>es, que era doncella honrada;</l>
+                  <l>y por los malos informes</l>
+                  <l>que aquel mal hombre prestaba</l>
+                  <l>la sentenciaron que fuese</l>
+                  <l>de la ciudad desterrada.</l>
+                  <l>A donde la dejaremos</l>
+                  <l>entre mil congojas y ánsias,</l>
+                  <l>y en el segundo romance</l>
+                  <l>diré lo demás que falta. </l>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="3" source="Moreno_327_3.jpeg" facs="fedora_ug8109881/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">SECUNDA PARTE</head>
+
+                  <l rend="indent">Ya que la noble doncella</l>
+                  <l>por sentencia desterrada</l>
+                  <l>va á salir de la ciudad,</l>
+                  <l>de esta suerte el juez le habla.</l>
+                  <l>Viendo que no hay remedio,</l>
+                  <l>pide, suplica y rogaba</l>
+                  <l>la dejasen despedir</l>
+                  <l>de los padres de su alma.</l>
+                  <l>En fin, se lo concedieron,</l>
+                  <l>y llorando fue á sú casa;</l>
+                  <l>¡que lance tan lastimoso!</l>
+                  <l>viendo á sus padres que estaban</l>
+                  <l>enfermos, tristes, llorosos,</l>
+                  <l>llenos de congojas y ánsias,</l>
+                  <l>hechos sus ojos dos fuentes,</l>
+                  <l>en altas voces esclama:</l>
+                  <l>adios, padre de mi vida,</l>
+                  <l>adios, madre de mi alma,</l>
+                  <l>que ya no os verán mis ojos,</l>
+                  <l>que en lágrimas se anegaban.</l>
+                  <l>Mucho siento, mucho siento</l>
+                  <l>ausentarme de mi casa</l>
+                  <l>y apartarme de tu vista.</l>
+                  <l>Adios que por mi desgracia,</l>
+                  <l>adios, que por mi desdicha</l>
+                  <l>ya me llevan desterrada,</l>
+                  <l>por un falso testimonio</l>
+                  <l>que un malhombre me levanta.</l>
+                  <l>Padres, l<supplied>l</supplied>evo penas m<supplied>u</supplied>chas</l>
+                  <l>por veros en esta cama;</l>
+                  <l>mas no puedo remediarlo,</l>
+                  <l>que es la fortuna contraria.</l>
+                  <l>Al oir esto sus padres</l>
+                  <l>en altas voces esclaman:</l>
+                  <l>adios, hij<supplied>a</supplied> de mis ojos,</l>
+                  <l>querida de mis entrañas,</l>
+                  <l>adios, amparo y remedio</l>
+                  <l>ùnico de nuestra casa,</l>
+                  <l>que quedaremos sin tí</l>
+                  <l>con necesidades tantas,</l>
+                  <l>que creo nos hallarán</l>
+                  <l>muertos en aquesta cama.</l>
+                  <l>La hija le respondió:</l>
+                  <l>ea, padres de mi alma,</l>
+                  <l>echadme la bendicion,</l>
+                  <l>que ya salgo desterrada.</l>
+                  <l>Está con las manos juntas,</l>
+                  <l>y el padre dice en voz alta:</l>
+                  <l>la bendicion de Dios Padre,</l>
+                  <l>la de Dios Hijo te alcanza,</l>
+                  <l>de Dios Espiritu Santo</l>
+                  <l>y mi bendicion te caiga.</l>
+                  <l>Con esto se despidió,</l>
+                  <l>ella salió desterrada,</l>
+                  <l>y sus padres impedidos</l>
+                  <l>quedan llorando en la cama:</l>
+                  <l>y al salir por la ciudad</l>
+                  <l>lo doncella lastimada,</l>
+                  <l>dice, adios Zaragoza,</l>
+                  <l>adios, mi querida patria,</l>
+                  <l>adios, Vírgen del Pilar,</l>
+                  <l>Maríá, Reina y abogada,</l>
+                  <l>que tu divino retrato</l>
+                  <l>yo lo llevo en mi compaña</l>
+                  <l>con los Santos Evangelios</l>
+                  <l>que me amparen y me valgan;</l>
+                  <l>Virgen, me habeis de amparar,</l>
+                  <l>llevo en vos mis esperanzas.</l>
+                  <l>No habia andado media legua</l>
+                  <l>cuando en tan corta distancia,</l>
+                  <l>se le apareció el demonio</l>
+                  <l>con apariencia muy falsa,</l>
+                  <l>en formia de un bello jóven,</l>
+                  <l>y la dijo por temarla:</l>
+                  <l>¿dónde vá, señora hermosa,</l>
+                  <l>tan triste y desconsolada?</l>
+                  <l>Ella respondió llorando:</l>
+                  <l>señor, yo voy desterrada</l>
+                  <l>por un falso testimonio</l>
+                  <l>que sin culpa me levantan.</l>
+                  <l>Entonces dijo el demonio</l>
+                  <l>por ver si puede engañarla:</l>
+                  <l>ea, véngase conmigo,</l>
+                  <l>que no la faltará nada.</l>
+                  <l>Respondióle la doncella:</l>
+                  <l>aunque me diérais mas plata,</l>
+                  <l>mas oro, perlas, diamantes, </l>
+                  <l>que hay en las Indias de España,</l>
+                  <l>no perderé yo el honor,</l>
+                  <l>porque soy doncella honrada.</l>
+                  <l>¡Jesus, este es el demonio!....</l>
+                  <l>y al decir estas palabras</l>
+                  <l>desapareció al instante</l>
+                  <l>y la tierra se lo traga.</l>
+                  <l>Y andando mas adelante</l>
+                  <l>¡oh que maravilla rara!</l>
+                  <l>allí se le apareció</l>
+                  <l>una divina Zagala</l>
+
+                  <pb n="4" source="Moreno_327_4.jpeg" facs="fedora_ug8107482/full/full/0/default.jpg"/>
+
+                  <l>que trae un niño en sus brazos</l>
+                  <l>de resplandores cercada.</l>
+                  <l>Haz de saber, hija mia,</l>
+                  <l>dijo la hermosa Zagala,</l>
+                  <l>soy la Vírgen del Pilar,</l>
+                  <l>tu patrona y abogada:</l>
+                  <l>el mancebo era el demonio,</l>
+                  <l>con astucias te engañaba;</l>
+                  <l>devota mia, te digo</l>
+                  <l>que te vuelvas á tu casa,</l>
+                  <l>y que el falso testimonio</l>
+                  <l>á tu pureza levanta, </l>
+                  <l>veras que ejemplar castigo</l>
+                  <l>mi Hijo en él hacer manda;</l>
+                  <l>y dichas estas razones</l>
+                  <l>á la gloria se volaba.</l>
+                  <l>La doncella muy gustosa</l>
+                  <l>y alegre se fué á su casa:</l>
+                  <l>cuando aquella noche misma,</l>
+                  <l>al caballero en la cama</l>
+                  <l>le dió un profundo letargo;</l>
+                  <l>¡qué desdicha!¡qué desgracía!</l>
+                  <l>mas horrible que un demonio</l>
+                  <l>se quedó el cuerpo y la cara.</l>
+                  <l>Cuatro horrorosos demonios;</l>
+                  <l>en el aposento entraban</l>
+                  <l>en foria de horribles perros</l>
+                  <l>y le agarraron con rabia,</l>
+                  <l>allí en presencia de todos</l>
+                  <l>por aquel suelo la arrastran,</l>
+                  <l>dando horribles ladridos</l>
+                  <l>en altas voces clamaban:</l>
+                  <l>«esta es la recta justicia</l>
+                  <l>que el Altísimo nos manda</l>
+                  <l>ejecutar en este hombre</l>
+                  <l>de una conciencia tan mala</l>
+                  <l>que tan falso testimonio</l>
+                  <l>á una doncella levanta.</l>
+                  <l>Manda pues que lo llevemos</l>
+                  <l>al infierno en cuerpo y alma.</l>
+                  <l>Se lo comen á bocados,</l>
+                  <l>alli la lengua le sacan;</l>
+                  <l>(temed. temed malas lenguas</l>
+                  <l>que quitais honras y famas).</l>
+                  <l>Cada uno con su cuarto</l>
+                  <l>con él al infierno bajan</l>
+                  <l>donde estará para siempre</l>
+                  <l>ardiendo en eternas llamas.</l>
+                  <l>La gente que está presente</l>
+                  <l>se quedò atemorizada.</l>
+                  <l>A vista de este ejemplar</l>
+                  <l>el gobernador mandaba,</l>
+                  <l>por la ciudad la doncella</l>
+                  <l>el que saliese con palmas;</l>
+                  <l>y otros muchos caballeros</l>
+                  <l>y señores de importancia,</l>
+                  <l>la metieron religiosa</l>
+                  <l>de la gloriosa santa Ana.</l>
+                  <l>Para mantener sus padres</l>
+                  <l>impedidos en la cama,</l>
+                  <l>el señor gobernador</l>
+                  <l>les dió renta señalada;</l>
+                  <l>y aquella noble doncella</l>
+                  <l>Dionisia Perez Losada</l>
+                  <l>á la Virgen del Pilar</l>
+                  <l>rinde inmarcesibles gracias</l>
+                  <l>por tan grandes beneficios,</l>
+                  <l>mercedes tan soberanas.</l>
+                  <l>Seamos todos devotos</l>
+                  <l>con el corazon y el alma,</l>
+                  <l>de la Virgen del Pilar</l>
+                  <l>nuestra Reina y abogada,</l>
+                  <l>y los santos Evangelios</l>
+                  <l>llevar en nuestra compaña,</l>
+                  <l>nos librarán del demonio</l>
+                  <l>y todas sus asechanzas,</l>
+                  <l>y en la hora de la muerte</l>
+                  <l>nos concederá su gracia,</l>
+                  <l>porque en sus glorias cantemos</l>
+                  <l>las eternas alabanzas.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>REIMPRESO EN CARMONA:—1860. <lb/>Imprenta de D. José María Moreno, calle de
+                  Madre de Dios. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

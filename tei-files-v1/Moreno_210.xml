@@ -1,0 +1,1076 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_210">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Florisela</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Florisela</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (s.a.): <ref target="Moreno_209.xml">Moreno_209</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475591</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 220</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Tres partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte. En que se dá cuenta de los amores de la princesa Flamina
+                        y el conde de Barcelona, con los varios acontecimientos del duque de Milan y
+                        el rey de Irlanda.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte. En que se refieren los trabajos que sufrieron el conde
+                        don Federico de Barcelona, y su esposa Florisela en la corte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>9-12</locus>
+                     <title>Tercera parte. En que tienen fin los peregrinos sucesos que acontecieron
+                        á la condesa Florisela.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>12 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="3">Tres grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_210_1.xml" facs="fedora_ug8109770/140,421,386,682/100,/0/default.jpg">grabado_m_210_1</item>
+                           <item corresp="grabado_m_210_2.xml" facs="fedora_ug8109770/525,395,448,698/100,/0/default.jpg">grabado_m_210_2</item>
+                           <item corresp="grabado_m_210_3.xml" facs="fedora_ug8109770/972,379,495,714/100,/0/default.jpg">grabado_m_210_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4857424.html" type="tipo_texto">Relaciones de sucesos</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-01" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-21" who="#EL">Ajout sic/corr</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105243/manifest">
+      <graphic url="fedora_ug8109770/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_210_1.jpeg" facs="fedora_ug8109770/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 220.)</fw>
+
+               <head rend="negrita" type="primer_titulo">FLORISELA.</head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+                  <head rend="cursiva" type="subtitulo_parte">
+                     <lb/>En que se dá cuenta de los amores de la princesa Flamina y el <lb/>conde
+                     de Barcelona, con los varios acontecimientos del duque <lb/>de Milan y el rey
+                     de Irlanda. </head>
+
+                  <l rend="indent">Desde el atlantico polo</l>
+                  <l>cuna y balcon del oriente,</l>
+                  <l>donde el emífero carro</l>
+                  <l>peina el dorado copete,</l>
+                  <l>mientras sus ondas plata</l>
+                  <l>el salado már le ofrece</l>
+                  <l>por funesto mauseolo</l>
+                  <l>que sus ravos obscurece.</l>
+                  <l>Desde la Noruega fria</l>
+                  <l>hasta la tórrida ardiente</l>
+                  <l>publique en mi voz la fama</l>
+                  <l>para qué todo viviente</l>
+                  <l>oiga en mis tóscas palabras</l>
+                  <l>la historia mas eminente</l>
+                  <l>que los análes del tiempo</l>
+                  <l>ha trasmitido al presente.</l>
+                  <l>No penseis de que os refiera</l>
+                  <l>aunque mi pecho lo siente</l>
+                  <l>el trájico fin de Arnaldo,</l>
+                  <l>que feneció entre paredes,</l>
+                  <l>ni Cleopatra á quien Tiderio,</l>
+                  <l>con veneno le dió muerte,</l>
+                  <l>ni de Olimpia ni Bildreno</l>
+                  <l>que murieron de repente,</l>
+                  <l>ni de la infeliz Lucrecia</l>
+                  <l>que con ánimo valiente</l>
+                  <l>fué homicida de si misma</l>
+                  <l>pues ella se dió la muerte.</l>
+                  <l>Ni menos de aquella reina</l>
+                  <l>aquien la fama engrandece</l>
+                  <l>que reinó despues de muerta</l>
+                  <l>con la corona en la frente.</l>
+
+                  <pb n="2" source="Moreno_210_2.jpeg" facs="fedora_ug8103143/full/full/0/default.jpg"/>
+
+                  <l>Solo quiero referiros</l>
+                  <l>con palabras reverentes</l>
+                  <l>la historia de una princesa</l>
+                  <l>ignorada hasta el presente,</l>
+                  <l>y pues debí ya empezar</l>
+                  <l>atencion que seré breve.</l>
+                  <l>En aquel tiempo que España</l>
+                  <l>fué perseguida.de infieles</l>
+                  <l>habia un rey en Irlanda</l>
+                  <l>cuyos hechos eminentes</l>
+                  <l>dieron crédito á la fama</l>
+                  <l>y á la corona laureles</l>
+                  <l>tuvo tan solo una hija</l>
+                  <l>espejo de las mugeres,</l>
+                  <l>y á su hermosura vinieron</l>
+                  <l>de reinos muy diferentes</l>
+                  <l>varios principes por ver</l>
+                  <l>si podian merecerle.</l>
+                  <l>Dos ilustres caballeros</l>
+                  <l>recidian igualmente</l>
+                  <l>en la corte, demas de ricos</l>
+                  <l>de noble sangre y progenie</l>
+                  <l>y con el rey á palacio</l>
+                  <l>asistian juntamente.</l>
+                  <l>El uno es don Federico</l>
+                  <l>y es el otro don Clemente</l>
+                  <l>aunque en calidad iguales</l>
+                  <l>en estados diferentes,</l>
+                  <l>pues era don Federico</l>
+                  <l>Español, y demas tiene</l>
+                  <l>ser conde de Barcelona,</l>
+                  <l>mas don Clemente le escede</l>
+                  <l>pues es duque de Milan</l>
+                  <l>y por cosa muy urgente</l>
+                  <l>en aquel pais se hallaba</l>
+                  <l>entre colmados placeres</l>
+                  <l>gozando del libre estado</l>
+                  <l>siguiendo de amor las leyes.</l>
+                  <l>Cuando la infanta Flamina</l>
+                  <l>que el nombre de ella es este</l>
+                  <l>con desdenes despreciaba</l>
+                  <l>¿muchísimos pretendientes</l>
+                  <l>aborreciendo en estremo</l>
+                  <l>á todos y mayormente</l>
+                  <l>á uno de estos caballeros</l>
+                  <l>que con amor muy ardiente</l>
+                  <l>no perdonaba ocasion</l>
+                  <l>sin pensar comprometerse</l>
+                  <l>por conseguir desla infanta</l>
+                  <l>los favores eminentes</l>
+                  <l>Tan mal queria la princesa</l>
+                  <l>á don Clemente, de suerte</l>
+                  <l>que la vista le negaba</l>
+                  <l>estando en palacio siempré</l>
+                  <l>poniendo en don Federico</l>
+                  <l>su lealtad y amor prudente,</l>
+                  <l>él gozoso de esta dicha</l>
+                  <l>se daba mil parabienes</l>
+                  <l>al mismo tiempo que el otro</l>
+                  <l>de celos suspira y muere.</l>
+                  <l>Al jardin se dirigió</l>
+                  <l>y en apartado retrete</l>
+                  <l>ocultóse entre unas ramas</l>
+                  <l>solo porque no le oyesen</l>
+                  <l>que un amante despreciado</l>
+                  <l>delirando con la fiebre</l>
+                  <l>en su veneno arde y rabia</l>
+                  <l>y en ciego furor se enciende;</l>
+                  <l>estando como hemos dicho</l>
+                  <l>quejándose de su suerte</l>
+                  <l>entró á este tiempo Flamina</l>
+                  <l>á cojer unos claveles</l>
+                  <l>en el jardin, cuando el conde</l>
+                  <l>la siguió los pasos breves,</l>
+                  <l>Entró en el jardin pensando</l>
+                  <l>que en tal paraje no hubiese</l>
+                  <l>quien oyese sus protestas</l>
+                  <l>sino rosas y claveles:</l>
+                  <l>pasados los cumplimientos</l>
+                  <l>que entre dos amantes suelen</l>
+                  <l>esplicarse su pasion</l>
+                  <l>con un amor muy ardiente.</l>
+                  <l>El uno y otro disponen</l>
+                  <l>de que á la noche siguiente</l>
+
+                  <pb n="3" source="Moreno_210_3.jpeg" facs="fedora_ug8110056/full/full/0/default.jpg"/>
+
+                  <l>en el cuarto de la infanta</l>
+                  <l>sin que nadie lo sintiese</l>
+                  <l>trataran con mas despacio</l>
+                  <l>aquel contrato que tienen,</l>
+                  <l>y don Clemente que estaba</l>
+                  <l>oyendo cuanto refieren</l>
+                  <l>muy colérico y furioso</l>
+                  <l>hecho venenada sierpe</l>
+                  <l>va y le dice al rey, señor</l>
+                  <l>sin un punto detenerse</l>
+                  <l>mande vuestra magestad</l>
+                  <l>que don Federico quede</l>
+                  <l>aquesta noche en prision</l>
+                  <l>pues necesario es prenderle.</l>
+                  <l>Aunque el rey le preguntó</l>
+                  <l>los motivos, le digese</l>
+                  <l>ocultando su ponsoña</l>
+                  <l>le disuadió facilmente</l>
+                  <l>que nunca le faltan mañas</l>
+                  <l>á personas de esta especie,</l>
+                  <l>prendiendo por fin al conde</l>
+                  <l>aunque sin ser delincuente.</l>
+                  <l>Tendió ia noche su manto</l>
+                  <l>y á la hora competente</l>
+                  <l>se fué don Clemente al sitio</l>
+                  <l>solo, para hacer las veces</l>
+                  <l>del conde, y como la noche</l>
+                  <l>le ofrecia lobregueces</l>
+                  <l>entró mudando la voz,</l>
+                  <l>finjiéndola de tal suerte</l>
+                  <l>que engañada la princesa</l>
+                  <l>fué en todo condescendiente,</l>
+                  <l>pues la noche es la madrina</l>
+                  <l>para tapar desnudeces,</l>
+                  <l>diole Elamina un anillo</l>
+                  <l>de precio sobresaliente</l>
+                  <l>por recompensa de amor</l>
+                  <l>que es el que todo lo vence,</l>
+                  <l>y apenas la hermosa aurora</l>
+                  <l>se asomaba en el oriente</l>
+                  <l>levantóse el duque y fué</l>
+                  <l>diciendo al rey de que diese</l>
+                  <l>al conde la libertad</l>
+                  <l>que culpa ninguna tiene,</l>
+                  <l>pues el prenderle fué causa</l>
+                  <l>¿porque unos mercaderes</l>
+                  <l>sobre ciertas diferencias</l>
+                  <l>querian darle la muerte</l>
+                  <l>y por evitar el daño</l>
+                  <l>lo dispuso de esta suerte;</l>
+                  <l>creyolo el rey, y él entonces</l>
+                  <l>pidió que le concediese</l>
+                  <l>licencia porque aquel dia</l>
+                  <l>marchar á su patria quiere</l>
+                  <l>á defender sus estados</l>
+                  <l>que estaban para perderse:</l>
+                  <l>El rey se la concedió</l>
+                  <l>marchando con dos bajeles</l>
+                  <l>sin reparar en los riesgos</l>
+                  <l>que de esto venirle puede.</l>
+                  <l>Dejémosle hallá en su patria</l>
+                  <l>quieto y pacíficamente</l>
+                  <l>y volvamos á que el conde</l>
+                  <l>luego que el dia amanece</l>
+                  <l>le quitaron las prisiones</l>
+                  <l>de cuya causa se puede</l>
+                  <l>considerar la tristeza</l>
+                  <l>que por no haber ido tiene.</l>
+                  <l>Apenas le vió la infanta</l>
+                  <l>con palabrás muy corteses</l>
+                  <l>le preguntó, porque estaba</l>
+                  <l>tan cabisbajo ¿que tienes?</l>
+                  <l>¿Eran ciertas las finezas?</l>
+                  <l>¿Mudaron los pareceres?</l>
+                  <l>¿seran los ofrecimientos</l>
+                  <l>tan ciertos como prometes?</l>
+                  <l>¿y el anillo que te dí</l>
+                  <l>como puesto no lo tienes?</l>
+                  <l>¿te enfadan ya mis caricias?</l>
+                  <l>¿te habras cansado de verme?</l>
+                  <l>¡Parece que estas suspenso!</l>
+                  <l>¿Por ventura te arrepientes?</l>
+                  <l>Pues si te enfado ya es tarde</l>
+                  <l>habla dime lo que sientes.</l>
+
+                  <pb n="4" source="Moreno_210_4.jpeg" facs="fedora_ug8108488/full/full/0/default.jpg"/>
+
+                  <l>Atento escuchaba el conde</l>
+                  <l>y le dice de esta suerte:</l>
+                  <l>señora que os engañais</l>
+                  <l>ó que por otro me tienes</l>
+                  <l>por que esta noche tu padre</l>
+                  <l>sin culpa mandó prenderme</l>
+                  <l>conque ni con vos he estado</l>
+                  <l>ni yo se que anillo es ese</l>
+                  <l>¿como no? dijo Flamíña,</l>
+                  <l>traidor haré que te quemen</l>
+                  <l>despues de haberme... engañado</l>
+                  <l>ahora negarlo quieres.</l>
+                  <l>¿conque asi niegas tu infamia</l>
+                  <l>y tus falsos procederes?</l>
+                  <l>pronto veras la venganza</l>
+                  <l>para que el mundo escarmiente.</l>
+                  <l>Y airada cual una fiera</l>
+                  <l>le volvió la espalda y fuese,</l>
+                  <l>quedando don Federico</l>
+                  <l>mas confuso que al prenderle</l>
+                  <l>sin saber lo que le pasa</l>
+                  <l>estando tan inocente,</l>
+                  <l>y dice si llega el rey</l>
+                  <l>á seberlo es claramente</l>
+                  <l>que de por fuerza me case</l>
+                  <l>aunque yo en mis intereses</l>
+                  <l>me considere agraviado,</l>
+                  <l>como el vulgo decir suele,</l>
+                  <l>plato de segunda mesa</l>
+                  <l>y para que no me afrente</l>
+                  <l>ya que mi honor se reciente,</l>
+                  <l>mejor será irme á España</l>
+                  <l>pues al fin estando ausente</l>
+                  <l>el tiempo y ausencia borran</l>
+                  <l>memorias, males y bienes;</l>
+                  <l>partió en un bajel surcando</l>
+                  <l>nontes de olas y peces</l>
+                  <l>y á Barcelona llegó</l>
+                  <l>sin que nadie lo impidiese</l>
+                  <l>donde fué bien recibido</l>
+                  <l>de la nobleza y la plebe,</l>
+                  <l>mas como en aqueste mundo</l>
+                  <l>todo se vuelve reveces,</l>
+                  <l>un poderoso Almirante</l>
+                  <l>vivia en la ciudad, y este</l>
+                  <l>tenia por hija un cielo</l>
+                  <l>que en hermosura le ecsede,</l>
+                  <l>llamábase Florisela</l>
+                  <l>con la cual merecio verse</l>
+                  <l>desposado Federico,</l>
+                  <l>viviendo los dos alegres</l>
+                  <l>siete años y en los cuales</l>
+                  <l>dos hijos hermosos tienen</l>
+                  <l>aunque de secso distinto,</l>
+                  <l>fué el primero don Vicente,</l>
+                  <l>de estas delicias gozaban</l>
+                  <l>el par de Barcelonases</l>
+                  <l>sin advertir que Flamina</l>
+                  <l>formaba lazos y redes</l>
+                  <l>para que don Fedcrico</l>
+                  <l>á la Irlanda se volviese</l>
+                  <l>inventó una carta falsa</l>
+                  <l>finguiendo ser propiamente</l>
+                  <l>del rey, por favor pidiendo</l>
+                  <l>que en su corte se presente,</l>
+                  <l>y al punto con su familia</l>
+                  <l>fuese por ver lo que quiere;</l>
+                  <l>llegó al palacio y apenas</l>
+                  <l>tuvo la infanta presente</l>
+                  <l>la conde, y vió qne venia</l>
+                  <l>casado, allá en su mente</l>
+                  <l>la cólera estalla, y jura</l>
+                  <l>vengarse inhumanamente</l>
+                  <l>á costa del pundonor</l>
+                  <l>y aunque la vida le cueste,</l>
+                  <l>diré la venganza en suma</l>
+                  <l>ahora en la parte siguiente</l>
+                  <l>pues ya cansada mi pluma</l>
+                  <l>el cortarla es muy urgente.</l>
+
+                  <trailer>FIN DE LA PRIMERA PARTE.</trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_210_5.jpeg" facs="fedora_ug8109966/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+                  <head rend="cursiva">
+                     <lb/>En que se refieren los trabajos que sufrieron el conde don <lb/>Federico
+                     de Barcelona, y su esposa Florisela en la corte <lb/>del rey Casimiro de
+                     Irlanda. </head>
+
+                  <l rend="indent">Quedó la infanta Flamina</l>
+                  <l>tan yerta como confusa,</l>
+                  <l>viendo en su presencia al conde</l>
+                  <l>con la preciosa hermosura</l>
+                  <l>de su muger y dos hijos,</l>
+                  <l>y aunque entonces la condesa</l>
+                  <l>cortesmente la saluda,</l>
+                  <l>no miraba ni entendia</l>
+                  <l>ningunas de sus preguntas,</l>
+                  <l>pues con suspiros y llantos</l>
+                  <l>los ojos ni aun se la enjugan,</l>
+                  <l>queria hablar y la pena</l>
+                  <l>su bella garganta anuda,</l>
+                  <l>que tal vez un sentimiento</l>
+                  <l>siendo impensado no hay duda</l>
+                  <l>cause repentina muerte</l>
+                  <l>como se ha visto otras muchas.</l>
+                  <l>Todos de ver la princesa</l>
+                  <l>llena de penas y angustias</l>
+                  <l>gran lástima la tenian</l>
+                  <l>sin saber en que se funda,</l>
+                  <l>y mas cuando del letargo</l>
+                  <l>se levantó moribunda</l>
+                  <l>diciéndole á la condesa,</l>
+                  <l>traidora tu eres la culpa</l>
+                  <l>de mi deshonra, y por eso</l>
+                  <l>he de hacer que te confundan</l>
+                  <l>y al traidor de tu marido,</l>
+                  <l>por falsedad tan injusta,</l>
+                  <l>en una pública plaza</l>
+                  <l>haré que pague la injuria.</l>
+                  <l>Quedó Florisela entonces,</l>
+                  <l>asombrada, yerta y muda,</l>
+                  <l>porque tales amenazas</l>
+                  <l>no sabe en que se fundan.</l>
+                  <l>Pero arrestada le dijo:</l>
+                  <l>si vuestra alteza procura</l>
+                  <l>que nos volvamos á España.</l>
+                  <l>presto lo verá sin duda,</l>
+                  <l>y eso de matar al conde,</l>
+                  <l>detenga su loca furia</l>
+                  <l>y ponga mas peso al paso</l>
+                  <l>y á tanta locura cura,</l>
+                  <l>que el conde, yo, ni mis hijos,</l>
+                  <l>tenemos culpa ninguna.</l>
+                  <l>Y el rey dijo caballeros</l>
+                  <l>no le hableis por vida suya</l>
+                  <l>que mi hija hay siete años</l>
+                  <l>que una pena la conturba,</l>
+                  <l>los médicos no la entienden,</l>
+                  <l>aunque ha habido varias juntas,</l>
+                  <l>irse todos y dejarla</l>
+                  <l>pues la soledad le gusta.</l>
+                  <l>Quedó el rey solo con ella</l>
+
+                  <pb n="6" source="Moreno_210_6.jpeg" facs="fedora_ug8110142/full/full/0/default.jpg"/>
+
+                  <l>y con alagos y astucias</l>
+                  <l>y paternales cariños,</l>
+                  <l>le dice hija mia, escucha.</l>
+                  <l>Esa causa de tu pena</l>
+                  <l>tanta es mia como tuya,</l>
+                  <l>y para vengar tu agravio</l>
+                  <l>no ocultes tus travesuras,</l>
+                  <l>pues das á entender con eso</l>
+                  <l>segun por lo que pronuncias</l>
+                  <l>que alguno triunfó de ti</l>
+                  <l>haciendo afrentosa injuria,</l>
+                  <l>y asi en decirmelo ganas</l>
+                  <l>y pierdes si me lo ocultas.</l>
+                  <l>La infanta respondió, padre</l>
+                  <l>pues que usted me lo pregunta</l>
+                  <l>diré mi mal aunque tarde,</l>
+                  <l>puesto que no tiene cura,</l>
+                  <l>mi estrella y mi desdicha</l>
+                  <l>hoy contra mi se conjuran,</l>
+                  <l>y pues que yo fuí la causa</l>
+                  <l>tambien es sentencia justa</l>
+                  <l>que pague la dura pena</l>
+                  <l>aquel que su mal procura;</l>
+                  <l>y asi padre para hablaros</l>
+                  <l>quiero papel, tinta y pluma,</l>
+                  <l>que quien con letras se queja</l>
+                  <l>fiado que no le escuchan,</l>
+                  <l>habla ó dice cuanto siente</l>
+                  <l>pues nadie se lo repugna.</l>
+                  <l>Diéronle todo aparato</l>
+                  <l>y en una sala se oculta</l>
+                  <l>haciendo allá en su eleccion</l>
+                  <l>esta siguiente escritura.</l>
+                  <l>Padre y señor, si el amor</l>
+                  <l>halla en tu piedad disculpa</l>
+                  <l>de amor procede mi daño,</l>
+                  <l>y en vos el remedio busca,</l>
+                  <l>Siete años ha que estoy</l>
+                  <l>en una continua lucha,</l>
+                  <l>sin saber del mal que mi</l>
+                  <l>pero ya venganza busca.</l>
+                  <l>El conde de Barcelona</l>
+                  <l>vino por sus travesuras</l>
+                  <l>como sabeis á esta corte,</l>
+                  <l>me agradó su compostura</l>
+                  <l>tanto que vino á parar</l>
+                  <l>mi amor en desemboltura,</l>
+                  <l>dándole libre licencia</l>
+                  <l>que entrase una noche á oscuras</l>
+                  <l>en el jardin y en mi cuarto,</l>
+                  <l>llevada de amor pues <choice>
+                        <sic>nuuca</sic>
+                        <corr>nunca</corr>
+                     </choice></l>
+                  <l>el hidrópico repara</l>
+                  <l>beber con la calentura;</l>
+                  <l>allí con mano y palabra</l>
+                  <l>una y mil veces me jura</l>
+                  <l>ser mi esposo, y yo creílo;</l>
+                  <l>mas con cautela segunda,</l>
+                  <l>viendo la desigualdad</l>
+                  <l>de su bajeza y mi altura,</l>
+                  <l>aquel dia se fué á España,</l>
+                  <l>y para seguridad suya</l>
+                  <l>allá se casó, y ahora</l>
+                  <l>sin reparar cosa alguna,</l>
+                  <l>como veis viene casado.</l>
+                  <l>Esta es mi pena, mi angustia,</l>
+                  <l>vos como padre podeis</l>
+                  <l>poner medicina alguna.</l>
+                  <l>Con esto dió al rey la carta</l>
+                  <l>y se fué por que no escucha</l>
+                  <l>ningun reo su delito</l>
+                  <l>que si lo puede se oculta;</l>
+                  <l>La leyó y quedó confuso</l>
+                  <l>pensando en alguna industria</l>
+                  <l>como castigar al conde</l>
+                  <l>sin que persona ninguna</l>
+                  <l>sintiese motivo ó causa</l>
+                  <l>pues luego el pueblo murmura.</l>
+                  <l>Mandó que el conde viniera</l>
+                  <l>y alli con pocas preguntas.</l>
+                  <l>Dice, sabrás conde amigo</l>
+                  <l>que hoy mi afecto te precura,</l>
+                  <l>porque de tu buen discurso</l>
+                  <l>y por ser tu ciencia mucha</l>
+                  <l>me des amigo un consejo</l>
+
+                  <pb n="7" source="Moreno_210_7.jpeg" facs="fedora_ug8108727/full/full/0/default.jpg"/>
+
+                  <l>y es bien que á tí me descubra.</l>
+                  <l>El rey de Albania mi tio</l>
+                  <l>tiene una hija en quien funda</l>
+                  <l>todo su ser y cariño,</l>
+                  <l>ésta como criatura herró,</l>
+                  <l>porque un caballero</l>
+                  <l>de su crédito hizo burla,</l>
+                  <l>temiendo fuesen en su busca</l>
+                  <l>se aseguró con casarse;</l>
+                  <l>y para pena mas dura</l>
+                  <l>por la puerta de la infanta</l>
+                  <l>se entra con esposa é hijos.</l>
+                  <l>La infanta de celos muere,</l>
+                  <l>su padre aunque sabio duda</l>
+                  <l>como atajar este daño</l>
+                  <l>y conmigo lo consulta,</l>
+                  <l>yo solo no doy sentencia,</l>
+                  <l>por eso busco tu ayuda.</l>
+                  <l>Respondió el conde, señor,</l>
+                  <l>pues no hay mejor compostura,</l>
+                  <l>que estando con vuestro tio</l>
+                  <l>la guerra en su mayor lucha,</l>
+                  <l>haga lo que hizo David</l>
+                  <l>que entre la enemiga turba</l>
+                  <l>puso al capitan Hurias</l>
+                  <l>y murió á manos de la furia.</l>
+                  <l>No conde, respondió el rey</l>
+                  <l>que esa fué sentencia injusta</l>
+                  <l>y luego fué él castigado</l>
+                  <l>del cielo por esa culpa.</l>
+                  <l>Pues señor que valla el mismo</l>
+                  <l>por fuerza poder ó industria</l>
+                  <l>quite la vida á su esposa,</l>
+                  <l>y que si la infanta gusta</l>
+                  <l>se case con ese hombre.</l>
+                  <l>¿No habrá mayor compostura?</l>
+                  <l>replicole el rey, que no.</l>
+                  <l>Eso es clamar las alturas</l>
+                  <l>como la sangre de Abel</l>
+                  <l>si tal muerte se ejecuta.</l>
+                  <l>Y pues no hayas otro remedio</l>
+                  <l>toma lee y luego escucha.</l>
+                  <l>Sacó la carta que oculta</l>
+                  <l>traia, y le dice conde</l>
+                  <l>hay veras como te acusan:</l>
+                  <l>tu de has dado la sentencia</l>
+                  <l>y antes que la oriental cuna</l>
+                  <l>del mayorazgo del dia</l>
+                  <l>peine sus madejas rubias</l>
+                  <l>ha de estar ejecutado</l>
+                  <l>y sinó será la tuya,</l>
+                  <l>Fuese y quedo el conde hech:</l>
+                  <l>de piedra inmovil columna</l>
+                  <l>sin poder huir que el mar</l>
+                  <l>aquellas olas circundan.</l>
+                  <l>Fuese y cuando Florisela</l>
+                  <l>vió que el color se le muda,</l>
+                  <l>le dice, esposo del alma</l>
+                  <l>que pesares te atribulan</l>
+                  <l>¿Que confusion te suspende?</l>
+                  <l>cuándo tu vista fué mustia?</l>
+                  <l>Y formando en sí un suspiro</l>
+                  <l>dijo con ancias profundas.</l>
+                  <l>Ay de tí esposa del alma!</l>
+                  <l>desdichada y sin ventura,</l>
+                  <l>mas hay de mi que el dolor</l>
+                  <l>alma y corazon me asusta,</l>
+                  <l>y pues de pena no muero</l>
+                  <l>parece que no son muchas.</l>
+                  <l>Mas bien lo dicen mis ojos</l>
+                  <l>hechos dos copiosas lluvias.</l>
+                  <l>Sabrás como el rey me manda,</l>
+                  <l>de que hoy sin falta alguna,</l>
+                  <l>yo mismo te dé la muerte:</l>
+                  <l>quien vió cosa mas injusta</l>
+                  <l>ni una ley tan rigorosa</l>
+                  <l>como la que el rey promulga.</l>
+                  <l>pues aquel que mas te adora</l>
+                  <l>y aquel que tu bien procura, </l>
+                  <l>tiene que ser tu homiciña,</l>
+                  <l>que ni las fieras mas bruzas</l>
+                  <l>tal rigor ejecutaran</l>
+                  <l>y para que no me huya</l>
+                  <l>ha mandado que el palacio</l>
+
+                  <pb n="8" source="Moreno_210_8.jpeg" facs="fedora_ug8109194/full/full/0/default.jpg"/>
+
+                  <l>de dobles guardias circundan.</l>
+                  <l>Y esto es porque la infanta</l>
+                  <l>con diabólicas astucias</l>
+                  <l>ha engañado al rey diciendo</l>
+                  <l>que con cautela y segunda</l>
+                  <l>yo la gocé y es incierto</l>
+                  <l>bien lo sabe Dios....</l>
+                  <l>Primero caiga del cielo</l>
+                  <l>un rayo que me confunda,</l>
+                  <l>que tal barbarie ejecute</l>
+                  <l>aunque mi cuello desuna.</l>
+                  <l>Mas facil será el tomar</l>
+                  <l>con las manos sol y luna.</l>
+                  <l>Jesus, dijo Florisela</l>
+                  <l>nunca mi pecho acostumbra</l>
+                  <l>temer el morir, pues es</l>
+                  <l>deuda que todos tributan.</l>
+                  <l>Y asi moriré gustosa</l>
+                  <l>porque á mayor trono subas.</l>
+                  <l>Dos cosas quiero pediros</l>
+                  <l>pues los reyes acostumbran</l>
+                  <l>á hacer mercedes el dia</l>
+                  <l>que sus casamientos ajustan.</l>
+                  <l>La primera es que á mis hijos</l>
+                  <l>espejos que al alma alumbran</l>
+                  <l>los embies á mi padre</l>
+                  <l>á España, que mas bien cuidan</l>
+                  <l>abuelos, que padres á hijos, </l>
+                  <l>y mas con madrasta, nunca.</l>
+                  <l>La segunda es que mi honra</l>
+                  <l>de castidad, no se altore</l>
+                  <l>ni se alegue alguna infamia</l>
+                  <l>para tapar otras muchas.</l>
+                  <l>Y lo malque te he servido</l>
+                  <l>tu mucha piedad lo supla.</l>
+                  <l>No desmayes ten valor</l>
+                  <l>el templado acero empuña</l>
+                  <l>ya mi cuéllo se apercibe,</l>
+                  <l>maneja acerada punta.</l>
+                  <l>Y al ir á embotar los filos</l>
+                  <l>en la ya eclisada y turbia</l>
+                  <l>candidez de aquel lucero,</l>
+                  <l>entró en la sala con mucha</l>
+                  <l>velocidad su sucretario;</l>
+                  <l>diciendo tened la furia</l>
+                  <l>que otra muerte puede haber</l>
+                  <l>que sea menos injusta.</l>
+                  <l>Anda ve y en las orillas</l>
+                  <l>hay mil barcos y faluas,</l>
+                  <l>barrenar uno y meterla,</l>
+                  <l>que tenga en el mar su tumba.</l>
+                  <l>Apenas la oscura noche</l>
+                  <l>tendió su sombra nocturna</l>
+                  <l>se ejecutó lo mandado,</l>
+                  <l>quedando lleño de angustias</l>
+                  <l>en los brazos de la muerte,</l>
+                  <l>y el fin de esta historia en suma</l>
+                  <l>dirá Alonso de Morales</l>
+                  <l>todas las verdades juntas</l>
+                  <l>en otra tercera parte</l>
+                  <l>pues no puede en la segunda.</l>
+
+                  <trailer>FIN DE LA SEGUNDA PARTE.</trailer>
+               </div>
+
+               <div n="3" type="parte">
+                  <pb n="9" source="Moreno_210_9.jpeg" facs="fedora_ug8110057/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">TERCERA PARTE.</head>
+                  <head type="subtitulo_parte">
+                     <lb/>En que tienen fin los peregrinos sucesos que acontecieron <lb/>á la
+                     condesa Florisela. </head>
+
+                  <l rend="indent">Aumentaba Florisela</l>
+                  <l>sus cristalinos raudales</l>
+                  <l>hecha sirena en el mar</l>
+                  <l>aunque con funestos ayes</l>
+                  <l>lágrimas que de sus ojos</l>
+                  <l>derramaban á millares,</l>
+                  <l>pero la misericordia</l>
+                  <l>en los mayores conflictos</l>
+                  <l>á los afligidos vale.</l>
+                  <l>Permitió Dios una noche</l>
+                  <l>por ser tan largo el viaje,</l>
+                  <l>apenas por el oriente</l>
+                  <l>del sol que con claridades</l>
+                  <l>se halló en la fértil provincia</l>
+                  <l>y estados muy deleitables</l>
+                  <l>de don Clemente, aquel duque</l>
+                  <l>que hemos repetido antes</l>
+                  <l>el mismo que á la princesa</l>
+                  <l>con maña, cautela y arte,</l>
+                  <l>triunfó de su honor y luego</l>
+                  <l>veloz dispuso ausentarse.</l>
+                  <l>Al tiempo que á ver pescar</l>
+                  <l>salia por deleitarse:</l>
+                  <l>vieron aquel barquichuelo</l>
+                  <l>que entre las olas combate,</l>
+                  <l>lo trajeron y á la dama</l>
+                  <l>para que se confortase</l>
+                  <l>de su desmayo, le aplican</l>
+                  <l>remedios muy eficaces.</l>
+                  <l>Vuelta en si le dijo el duque,</l>
+                  <l>por tu vida me declares</l>
+                  <l>lo trájico de tu historia,</l>
+                  <l>y ella con triste semblante</l>
+                  <l>dice, señor, el motivo</l>
+                  <l>de hallarme en estos parajes</l>
+                  <l>fué, que desde Barcelona </l>
+                  <l>yo y mi muy querido padre</l>
+                  <l>á Irlanda ívamos, y en medio</l>
+                  <l>de aquellos salobres mares</l>
+                  <l>se levantó una borrasca</l>
+                  <l>y entre furiosos bolcanes</l>
+                  <l>todos perdieron las vidas</l>
+                  <l>menos yo, que las piedades</l>
+                  <l>de los cielos, en el bote</l>
+                  <l>yo sola pude librarme.</l>
+                  <l>Como te llamas? y al punto</l>
+                  <l>dice, mi nombre es Violante,</l>
+                  <l>¿sois casada? no señor</l>
+                  <l>respondió, que iva á casarme.</l>
+                  <l>Pues Violante desde hoy</l>
+                  <l>enmi estado has de quedarte</l>
+                  <l>y porque en tí reconozco</l>
+                  <l>deciendes de alto linage.</l>
+                  <l>por mas heróica fineza</l>
+
+                  <pb n="10" source="Moreno_210_10.jpeg" facs="fedora_ug8106213/full/full/0/default.jpg"/>
+
+                  <l>este anillo quiero darte,</l>
+                  <l>ponlo en tu mano y advierte</l>
+                  <l>que encierra misterio grande,</l>
+                  <l>tanto que pende mi vida</l>
+                  <l>si llegara á declararse.</l>
+                  <l>Y Florisela responde</l>
+                  <l>pues gran señor eso es darme</l>
+                  <l>gran rigor sobre mis penas</l>
+                  <l>y disgustos á mis pesares</l>
+                  <l>y en mi no ha de ecsistir prenda</l>
+                  <l>que tantos méritos trae</l>
+                  <l>y asi es preciso que yo</l>
+                  <l>lo sepa, y el cielo os guarde.</l>
+                  <l>Dice el duque, pues atiende</l>
+                  <l>yo te juro por mi parte</l>
+                  <l>que eres la primer persona</l>
+                  <l>que eñ este mundo lo sabe,</l>
+                  <l>Ya te he dicho como soy</l>
+                  <l>duque de aquestos lugares</l>
+                  <l>y por ciertos infortunios</l>
+                  <l>que tuve en mis mocedades</l>
+                  <l>de aqui fuí á parar á Irlanda</l>
+                  <l>donde tuve mi hospedaje</l>
+                  <l>en el palacio del rey,</l>
+                  <l>en donde asistia un grande</l>
+                  <l>que era conde de Barcelona,</l>
+                  <l>tan discreto como afable;</l>
+                  <l>tenia el rey una hija</l>
+                  <l>que del conde dió en prendarse,</l>
+                  <l>y yo que la pretendia</l>
+                  <l>viendo tan grande el desaire</l>
+                  <l>uná noche que tenian</l>
+                  <l>dispuesto los dos amantes</l>
+                  <l>en el cuarto de la infanta</l>
+                  <l>á solas verse y hablarse,</l>
+                  <l>yo arrastrado de la envidia</l>
+                  <l>hice que al conde llevasen</l>
+                  <l>á una prision, y yo fuí,</l>
+                  <l>fingiendo con tanto arte</l>
+                  <l>ser el conde, que logré</l>
+                  <l>de amor los lazos suaves</l>
+                  <l>y por fineza me dió</l>
+                  <l>este anillo de diamantes,</l>
+                  <l>y al otro siguiente dia</l>
+                  <l>dispuse yo mi viaje;</l>
+                  <l>yo me vine, y no he sabido</l>
+                  <l>si hay algunas novedades.</l>
+                  <l>Quedóse muda y suspensa</l>
+                  <l>con historia semejante</l>
+                  <l>Florisela, pues le halló</l>
+                  <l>á tal enredo el desate.</l>
+                  <l>Pidióle al siguinte día</l>
+                  <l>licencia que la llevasen</l>
+                  <l>á su patria, pues queria</l>
+                  <l>visitar á sus parciales,</l>
+                  <l>se la concedió y al punto</l>
+                  <l>se le dispuso el viaje,</l>
+                  <l>y en tanto que á Barcelona</l>
+                  <l>llega surcando los mares</l>
+                  <l>referiremos la historia</l>
+                  <l>de su muy querido padre;</l>
+                  <l>luego que vió á sus nietos,</l>
+                  <l>y supo de que á su madre</l>
+                  <l>tan cruelmuerte le dieran</l>
+                  <l>hecho una fiera salvaje,</l>
+                  <l>manda al instante se armen</l>
+                  <l>entre todos sus estados</l>
+                  <l>una tropa numerable,</l>
+                  <l>y por general de todos</l>
+                  <l>puso al nieto para darle</l>
+                  <l>por su mano la venganza.</l>
+                  <l>Y el abuelo incontrastable</l>
+                  <l>le decia, hijo querido</l>
+                  <l>luego que á saber alcances</l>
+                  <l>que tu padre con la infanta</l>
+                  <l>se desposare, no repares</l>
+                  <l>sino la ley de la justicia</l>
+                  <l>es que manda que le mates;</l>
+                  <l>para lo cual dibujado</l>
+                  <l>en magnífico estandarte</l>
+                  <l>esa en ataud metida</l>
+                  <l>es Florisela tu madre.</l>
+                  <l>Prevenidas las escuadras</l>
+                  <l>les dió licencia que marchen.</l>
+
+                  <pb n="11" source="Moreno_210_11.jpeg" facs="fedora_ug8109693/full/full/0/default.jpg"/>
+
+                  <l>Vamos á don Federico</l>
+                  <l>que desde aquel mismo instante</l>
+                  <l>que hechó á Florisela al mar</l>
+                  <l>dió una pena en no dejarle</l>
+                  <l>pues melancólico y triste</l>
+                  <l>muy descompuesto en el traje</l>
+                  <l>andaba por la ciudad</l>
+                  <l>diciendo mil disparates,</l>
+                  <l>tanto que ya como loco</l>
+                  <l>lo trataban por las calles,</l>
+                  <l>diciendo si yo gocé</l>
+                  <l>la infanta el cielo me mate,</l>
+                  <l>pues ya Flamina ni el rey</l>
+                  <l>lo querian de su parte</l>
+                  <l>antes mas bien procuraban</l>
+                  <l>alguna bebida darle</l>
+                  <l>con que muriese pues era</l>
+                  <l>pregonero por las calles.</l>
+                  <l>En este tiempo llegaron</l>
+                  <l>con estruendo militares</l>
+                  <l>el nieto y suegro pidiendo</l>
+                  <l>guerra campal en los parques,</l>
+                  <l>Viendo el rey su perdicion</l>
+                  <l>alistó sus generales</l>
+                  <l>y todos sus consegeros</l>
+                  <l>á ver lo mas importante.</l>
+                  <l>Todos de comun acuerdo</l>
+                  <l>dicen al rey que llamase</l>
+                  <l>al gran duque de Milan</l>
+                  <l>gran ingeniero que sabe</l>
+                  <l>con poca gente hacer mucho,</l>
+                  <l>le escribieron al instante</l>
+                  <l>el cual vino por la posta;</l>
+                  <l>llegó á palacio y le hacen</l>
+                  <l>sabedor de aquel suceso</l>
+                  <l>habiendo sido él causante.</l>
+                  <l>Gran duque le dice el rey</l>
+                  <l>ya sabrás que el almirante</l>
+                  <l>me ha puesto guerra diciendo</l>
+                  <l>que en mí tiene de vengarse</l>
+                  <l>porque yo he sido el motivo</l>
+                  <l>que la vida le quitasen</l>
+                  <l>á su hija, y que en la mia</l>
+                  <l>sin remedio ha de vengarse,</l>
+                  <l>y asi el remedio mayor</l>
+                  <l>que discurras puedes darme.</l>
+                  <l>El duque quedó suspenso</l>
+                  <l>dudando como escusarse,</l>
+                  <l>y ya recobrádo, dice,</l>
+                  <l>mi parecer y dictamen</l>
+                  <l>es asegurar al condo</l>
+                  <l>y entregarlo al Almirante,</l>
+                  <l>pues que con él comenzaron</l>
+                  <l>los hierros que en el acaben</l>
+                  <l>Aquesta injusta sentencia</l>
+                  <l>fué dicha y hecha al instante.</l>
+                  <l>Metieron el pobre conde</l>
+                  <l>entre prisiones muy grandes</l>
+                  <l>al tiempo que Florisela</l>
+                  <l>llegó con feliz viáje</l>
+                  <l>y andaba á lo masculin.</l>
+                  <l>sin comunicar con nadie.</l>
+                  <l>Préndenla diciendo que era</l>
+                  <l>espia de la otra parte</l>
+                  <l>ante el general la ponen,</l>
+                  <l>(quien vió historia semejante)</l>
+                  <l>pues sin que se cónocieran</l>
+                  <l>estaban todos neutrales.</l>
+                  <l>Manda el almirante hecer</l>
+                  <l>con rigor incomparable</l>
+                  <l>un cadalzo y que en él</l>
+                  <l>al conde lo degollasen,</l>
+                  <l>y que á la espia enemiga</l>
+                  <l>tambien la arcabuseasen.</l>
+                  <l>Metieron entre prisiones</l>
+                  <l>á estos dos finos amántes,</l>
+                  <l>y el conde á su compañero</l>
+                  <l>con palabras lamentables</l>
+                  <l>le decia, ciertamente</l>
+                  <l>amigo que ya me place</l>
+                  <l>tan solo el veros, pues sois</l>
+                  <l>viva copia semejante,</l>
+                  <l>de un bien que perdí, y ahora </l>
+                  <l>miro en tu vista su imagen,</l>
+
+                  <pb n="12" source="Moreno_210_12.jpeg" facs="fedora_ug8103742/full/full/0/default.jpg"/>
+
+                  <l>y quisieca con mi vida</l>
+                  <l>la tuya poder librarte,</l>
+                  <l>solo porque os pareceis</l>
+                  <l>á la inecente inculpable</l>
+                  <l>de Florisela, aquí el alma</l>
+                  <l>solo en decirlo se parte.</l>
+                  <l>Esta sentida querella</l>
+                  <l>decia con pena grave.</l>
+                  <l>Su misma esposa desea</l>
+                  <l>trocar en placer pesares</l>
+                  <l>engregocijo las penas</l>
+                  <l>y poner fin á los males</l>
+                  <l>aguardando la ocasion</l>
+                  <l>de llegar á declararse.</l>
+                  <l>Llegando por fin la hora</l>
+                  <l>sacan los dos de la carcel</l>
+                  <l>métenlos en el suplicio</l>
+                  <l>y estando ya en el paraje,</l>
+                  <l>llegó el confesor piadoso</l>
+                  <l>para reconciliarles;</l>
+                  <l>A quien Florisela dijo,</l>
+                  <l>todo por puntos cabales.</l>
+                  <l>Con esta fausta noticia</l>
+                  <l>al rey se le ha dado parte.</l>
+                  <l>Que suspendan la justicia</l>
+                  <l>y que pase el Almirante</l>
+                  <l>con su séquito y sus tropas</l>
+                  <l>dice el rey, alli en presencia</l>
+                  <l>de todos los circunstantes</l>
+                  <l>se hizo notorio el suceso;</l>
+                  <l>bien puede considerarse,</l>
+                  <l>los júbilos, los estremos,</l>
+                  <l>de caricias paternales,</l>
+                  <l>que mas se esplica en silencio</l>
+                  <l>que la pluma que lo trace.</l>
+                  <l>Todos juntos á palacio</l>
+                  <l>al rey fueron á informarle</l>
+                  <l>del referido suceso.</l>
+                  <l>fin de tantas novedades.</l>
+                  <l>Estando presente el duque</l>
+                  <l>no pudiendo ya librarse</l>
+                  <l>le fué preciso el decir,</l>
+                  <l>aunque con recelo grande,</l>
+                  <l>toda la historia, y la infanta</l>
+                  <l>quiso en la ocasion negarse</l>
+                  <l>por no descubrir su engaño.</l>
+                  <l>Mas Florisela al instante</l>
+                  <l>sacó el anillo, que fué,</l>
+                  <l>el testigos juez y parte,</l>
+                  <l>viendo la verdad la infanta</l>
+                  <l>se humilló á los pies del padre,</l>
+                  <l>lo mismo el duque, y el rey</l>
+                  <l>viendo historia semejante</l>
+                  <l>al duque ofreció su hija</l>
+                  <l>para lazo maridable,</l>
+                  <l>y al conde con nuevo empleo</l>
+                  <l>quiso en la ocasion honrarle,</l>
+                  <l>siendo infinitas las fiestas</l>
+                  <l>que hicieron para alegrarles.</l>
+                  <l>Finalmente desde entonces</l>
+                  <l>quedaron hechas las paces.</l>
+                  <l>No hay mal que por bien no venga.</l>
+                  <l>Ni bien que no espere males</l>
+                  <l>este es el fin del suceso</l>
+                  <l>de esta historia y lo restante</l>
+                  <l>dirá el discurso del tiempo</l>
+                  <l>siendo su panejirista</l>
+                  <l>Alonso de Pablo Morales</l>
+                  <l>el cual al noble auditorio</l>
+                  <l>le suplica muy afable</l>
+                  <l>que le perdonen las faltas</l>
+                  <l>que ha tenido en las tres partes.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 5.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

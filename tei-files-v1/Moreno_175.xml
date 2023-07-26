@@ -1,0 +1,417 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_175">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Calendario nuevo y curioso para este presente año y todos los venideros</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Calendario nuevo y curioso para este presente año y
+                     todos los venideros. Con él se acertará en la elcccion de espasa por medio de
+                     los signos planetarios y nombres de las mugeres.</title>
+                  <title type="titulo_breve">Calendario nuevo y curioso para este presente año y
+                     todos los venideros.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473132</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 185</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_175_1.xml" facs="fedora_ug8103988/566,317,705,893/100,/0/default.jpg">grabado_m_175_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4843208.html" type="tipo_texto">Calendarios</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-31" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103753/manifest">
+      <graphic url="fedora_ug8103988/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_175_1.jpg" facs="fedora_ug8103988/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 185.</fw>
+
+               <head type="primer_titulo"><hi rend="negrita">CALENDARIO NUEVO Y CURIOSO,</hi>
+                  <lb/>PARA ESTE PRESENTE AÑO Y TODOS LOS VENIDEROS.</head>
+               <head type="subtitulo">Con él se acertará en la elcccion de espasa por <lb/>medio de
+                  los signos planetarios y <lb/>nombres de las mugeres.</head>
+
+               <l rend="indent">Al que no entienda los astros</l>
+               <l>ni conozca los planetas,</l>
+               <l>ni las estrellas consulte</l>
+               <l>ni constelaciones sepa,</l>
+               <l>ni los signos del zodiaco</l>
+               <l>bien conocidos le sean,</l>
+               <l>le doy este Calendario;</l>
+               <l>pero con tal que se entienda</l>
+               <l>que ha de darme el conquibus</l>
+               <l>ó ta mosca que se cuenta</l>
+               <l>aunque le lleve de gratis.</l>
+               <l>De este modo cuando lea</l>
+               <l>con un poco de atencion</l>
+               <l>se instuirá al pie de la letra,</l>
+               <l>de la condicion y genio</l>
+               <l>de aquella muger que quiera</l>
+
+               <pb n="2" source="Moreno_175_2.jpg" facs="fedora_ug8104908/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>tomar para matrimonio.</l>
+               <l>Atencion que ya comienza</l>
+               <l>lo que en el, caso presente</l>
+               <l>debe servirle de regla.</l>
+               <l>Supongamos que la chica</l>
+               <l>que quiere se llama Andrea,</l>
+               <l>Feliciana, Sinforosa,</l>
+               <l>Eulogia, Jacinta, Eusebia,</l>
+               <l>y que en Lunes ha nacido,</l>
+               <l>esta serà muy veleta</l>
+               <l>é inconstante, pues la Luna</l>
+               <l>ejerce toda influencia</l>
+               <l>en su dia natalicio;</l>
+               <l>y si tal vez se le agrega</l>
+               <l>ser en el signo de Acuario</l>
+               <l>no dejará de ser puerca</l>
+               <l>ó meona por lo menos,</l>
+               <l>reñida con las tareas.</l>
+               <l>Si bajo el signo de Tauro</l>
+               <l>nació la niña, aquí es ella:</l>
+               <l>la gustarán las visitas</l>
+               <l>y será muy callejera,</l>
+               <l>tendra entrantes, salientes</l>
+               <l>y hará cuantas diligencias</l>
+               <l>pueda para que el marido</l>
+               <l>saque el signo en la cabeza.</l>
+               <l>Si se llamase Narcisa,</l>
+               <l>Julia, Juliana, Inocencia,</l>
+               <l>Ursula, Gaspara, Engracia,</l>
+               <l>Baltasara ó Genoveva,</l>
+               <l>y en Martes naciera entonces</l>
+               <l>debe ser muy pendenciera,</l>
+               <l>chismosa, refunfuñona;</l>
+               <l>mas honrada, si no acierta</l>
+               <l>á nacer en signo de Aries</l>
+               <l>que es de malas consecuencias,</l>
+               <l>de Capricornio ó de Tauro,</l>
+               <l>tres nombres que muy mal suenan.</l>
+               <l>Si la jóven se llamare</l>
+               <l>por acaso Micaela,</l>
+               <l>deberá ser muy golosa;</l>
+               <l>le gustará las conservas,</l>
+               <l>las yemas, los caramelos</l>
+               <l>y otras tates frioleras:</l>
+               <l>no sera mal parecida</l>
+               <l>sí, remilgalda y compuesta</l>
+               <l>y algun tanto melindrosa.</l>
+               <l>Pero si tiene la estrella</l>
+               <l>de haber nacido en el dia</l>
+               <l>que toque la presidencia</l>
+               <l>á Mercurio, es necesario</l>
+               <l>que haya de ser embustera,</l>
+               <l>algo amiga de la raspa,</l>
+               <l>muy voltaria y muy coqueta</l>
+               <l>sin mantener su palabra.</l>
+               <l>Lo mismo serán Nemesia,</l>
+               <l>Nicasia, Clara, Bibiana,</l>
+               <l>Anastasia, Rafiela,</l>
+               <l>Ramona, Matilde, Luisa;</l>
+               <l>y si á todo esto se agrega</l>
+               <l>que el signo Escorpion domine</l>
+               <l>ó el Sagitario siquiera,</l>
+               <l>tendrá lengua maldiciente</l>
+               <l>cortante cual acha ó sierra.</l>
+               <l>Si fuere el signo de Libra</l>
+               <l>será inclinada á las pesas,</l>
+               <l>gustará infaliblemente</l>
+               <l>de andar en compras y ventas,</l>
+               <l>trueques, cambios y contratas.</l>
+               <l>Si es Júpiter el planeta</l>
+               <l>que preside al nacimiento</l>
+               <l>de una Juana, será bella,</l>
+               <l>blanca, rubia, masgestuosa;</l>
+               <l>mas no obstante será séria</l>
+               <l>poco garvo, mucha calma</l>
+               <l>un tanto ó cuanto tontuela</l>
+               <l>y no de muchas palabras.</l>
+               <l>Si el signo Leo se mezcla</l>
+               <l>en su nacimiento, es fijo</l>
+               <l>que será furiosa, fiera,</l>
+
+               <pb n="3" source="Moreno_175_3.jpg" facs="fedora_ug8104063/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>furibunda, y todo cuanto</l>
+               <l>en tal concepto se quiera.</l>
+               <l>Antonia, Isabel, Jacoba,</l>
+               <l>Liberata. Ana y Eiena,</l>
+               <l>si casualmente nacieren</l>
+               <l>bajo la preciosa estrella</l>
+               <l>de Venus, serán muy lindas,</l>
+               <l>vivas, alegres, chanceras,</l>
+               <l>guguetonas y graciosas</l>
+               <l>pero sin pasar de fiestas.</l>
+               <l>Mas de Géminis el signo</l>
+               <l>estas intenciones trueca</l>
+               <l>alguna vez y se burla</l>
+               <l>de la mas fina prudencia;</l>
+               <l>pues no apeteciendo juntas</l>
+               <l>el signo de la dóncella</l>
+               <l>la Virgen desaparece</l>
+               <l>porque el Sagitario llega.</l>
+               <l>Si bajo Saturno nace</l>
+               <l>la que se llame Manuela,</l>
+               <l>Hitaria, Venancia, Justa,</l>
+               <l>Sabina, Marta ó Candelas,</l>
+               <l>es de áspera condicion</l>
+               <l>rostrifuncida y traviesa,</l>
+               <l>vigotuda y hocicona.</l>
+               <l>Pero si el Cáncer se acerca</l>
+               <l>al tiempo que nacer quiere,</l>
+               <l>ejerce tal influencia</l>
+               <l>que llega á hacerse insufrible,</l>
+               <l>inaguantable, y se emplea</l>
+               <l>en trazas abominables,</l>
+               <l>discurre ardides y tretas,</l>
+               <l>compone drogas venenos</l>
+               <l>y nunca se ve contenta,</l>
+               <l>sino cuando causa males,</l>
+               <l>disensiones y quimeras.</l>
+               <l>A la que Urano preside</l>
+               <l>llámese Francisca, Petra,</l>
+               <l>Paula, Heduviges, Teodora</l>
+               <l>o Agustina ó Lorenza,</l>
+               <l>es tranquila, sosegada</l>
+               <l>y de una pasta muy buena,</l>
+               <l>abunda en melancolia,</l>
+               <l>no es escasa de pereza.</l>
+               <l>aunque corta en el aseo;</l>
+               <l>mas bastante zalamera.</l>
+               <l>A la que preside el Piscis</l>
+               <l>con su signo está contenta.</l>
+               <l>es alegre y juguetona,</l>
+               <l>asi lo será Clementa,</l>
+               <l>Margarita, Joaquina,</l>
+               <l>Carlota, Vitoria, Aleja,</l>
+               <l>Asuncion, Rita ó Bernarda,</l>
+               <l>habla mucho, canta, juega,</l>
+               <l>baila y brinca, mas con todo</l>
+               <l>en medio de tantas fiestas</l>
+               <l>tiene muchos malos ratos,</l>
+               <l>pues facilmente se altera,</l>
+               <l>se incomoda, se alborota</l>
+               <l>pero se queda serena</l>
+               <l>y vuelve á su alegria</l>
+               <l>en un volver de cabeza.</l>
+               <l>No sabe guardar rencores</l>
+               <l>y buenamente se presta</l>
+               <l>por su bondadoso genio</l>
+               <l>para servir á cualquiera.</l>
+               <l>Las Ineses y Domingas,</l>
+               <l>las Gertrudis Magdalenas,</l>
+               <l>Cayetanas y Simonas,</l>
+               <l>son gazmoñas las mas de ellas,</l>
+               <l>pican un poco en devotas</l>
+               <l>y son algo marrulleras;</l>
+               <l>sin embargo suele haber</l>
+               <l>escepcion en esta regla,</l>
+               <l>si el signo Virgen las toma</l>
+               <l>á su favor, y se empeña</l>
+               <l>en darlas su proteccion,</l>
+               <l>porque en vez de zalameras</l>
+               <l>las hace francas, sencillas,</l>
+               <l>gustosas y placenteras,</l>
+
+               <pb n="4" source="Moreno_175_4.jpg" facs="fedora_ug8108548/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>en ell trato de los hombres.</l>
+               <l>Persigue el Aries á Eugenias</l>
+               <l>á las Alfonsas, Catalinas,</l>
+               <l>Constanzas y Doroteas;</l>
+               <l>pero las defiende Marte</l>
+               <l>con su espada y su rodela.</l>
+               <l>En continua oposicion</l>
+               <l>el viejo Saturno queda</l>
+               <l>con el bribon Capricornio</l>
+               <l>pues siempre con voz siniestra</l>
+               <l>y en ademan imponente,</l>
+               <l>amenaza su cabeza</l>
+               <l>si echar por tierra tratare</l>
+               <l>á las Ignacias, Teresas,</l>
+               <l>Eulalias, Rosas, Genaras,</l>
+               <l>Cecilias y Timoteas.</l>
+               <l>Venus con el signo Virgo</l>
+               <l>tiene pesadas contiendas;</l>
+               <l>mas Júpiter á su hija</l>
+               <l>trata de ponerla en regla,</l>
+               <l>y al signo Acuario interpone</l>
+               <l>con que un tanto las refresca,</l>
+               <l>y mezclándose la Luna</l>
+               <l>á veces en la pendencia,</l>
+               <l>con repetidas visitas</l>
+               <l>del cuidado saca fuera</l>
+               <l>á las Gregorias, Marias,</l>
+               <l>Victorianas y Tadeas,</l>
+               <l>Javieras, Carmen, Angustias,</l>
+               <l>Concepciones y Mateas:</l>
+               <l>las Josefas, Petronilas,</l>
+               <l>Dolores, Blasas, Vicentas,</l>
+               <l>siempre son olvidadizas</l>
+               <l>doloridas y frioleras,</l>
+               <l>trabajadoras á ratos</l>
+               <l>y á lo mejor emperezan,</l>
+               <l>segun que Marte ó Saturno</l>
+               <l>acuden con su influencia.</l>
+               <l>Mi calendario no falta</l>
+               <l>y á cualquiera hago la apuesta</l>
+               <l>que observándole en un todo,</l>
+               <l>sino la acierta la yerra,</l>
+               <l>lo mismo que en los demas</l>
+               <l>nos lo indica la esperiencia.</l>
+               <l>Los signos lo están mostrando</l>
+               <l>nos lo cantan los planetas;</l>
+               <l>con que ojo al Cristo, muchachos,</l>
+               <l>comprádmelos á docenas,</l>
+               <l>por cientos ó por millares,</l>
+               <l>ó por manos ó por resmas,</l>
+               <l>como querais me convengo</l>
+               <l>con tal que salga mi cuenta.</l>
+               <l>No hay mucho que discurir,</l>
+               <l>ni remperse la cabeza,</l>
+               <l>ni derretirse los sesos,</l>
+               <l>ni hay que quemarse las cejas:</l>
+               <l>solo se exije cuidado;</l>
+               <l>atencion y diligencia,</l>
+               <l>en aprender bien los nombres</l>
+               <l>de muger, signo y pianeta:</l>
+               <l>fijarse en sus variedades</l>
+               <l>y notar las competencias</l>
+               <l>que hay entre los unos y otros.</l>
+               <l>Aprendidas bien las reglas</l>
+               <l>puede el que quiera casarse</l>
+               <l>dormir bien á pierna suelta,</l>
+               <l>y no dársele cuidado</l>
+               <l>en la eleccion que pretenda</l>
+               <l>hacer de esposa á su gusto.</l>
+               <l>Mas si acaso sucediera</l>
+               <l>que en algo me equivocase,</l>
+               <l>justo es que todos convengan</l>
+               <l>que la voluntad de Dios</l>
+               <l>en todo y por todo es hecha.</l>
+               <trailer rend="cursiva">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—1859. Imp. de D. José Me. Moreno.</p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

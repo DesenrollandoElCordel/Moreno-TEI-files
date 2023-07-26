@@ -1,0 +1,518 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_274">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Trovos nuevos y canciones</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Trobos nuevos y canciones.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1855-01-01">1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477269</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 285</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Trovo</item>
+                        <item>Dos canciones</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Despedida que hace un fino amante a su dama.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Cancion de la cotabandista.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Cancion de el paquito.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_274_1.xml" facs="fedora_ug8109264/453,447,407,685/100,/0/default.jpg">grabado_m_274_1</item>
+                           <item corresp="grabado_m_274_2.xml" facs="fedora_ug8109264/852,443,427,693/100,/0/default.jpg">grabado_m_274_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Trovos</term>
+               <term target="XX525577.html" type="tipo_texto">Canciones</term>
+               <term type="tipo_estrofa">Trovos</term>
+               <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-08" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107381/manifest">
+      <graphic url="fedora_ug8109264/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_274_1.jpg" facs="fedora_ug8109264/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">(Número 235.)</fw>
+
+            <head type="primer_titulo">TROBOS NUEVOS Y CANCIONES.</head>
+
+            <div n="1" type="cancion">
+               <head type="titulo_cancion">
+                  <hi rend="negrita">DESPEDIDA</hi>
+                  <l>QUE HACE UN FINO A MANTE A SU DAMA.</l>
+               </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">A Dios hermoso lucero,</l>
+                  <l>á Dios palma de hermosura,</l>
+                  <l>á Dios que se va tu amante,</l>
+                  <l>todo lleno de amargura.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A Dios y ruegale al Cielo</l>
+                  <l>que sea mi dicha tanta,</l>
+                  <l>porque en tu persona espero</l>
+                  <l>que no me serás ingrata,</l>
+                  <l>á Dios hermoso lucero.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mi corazón de ternura</l>
+                  <l>no se puede despedir,</l>
+                  <l>yo no puedo hallar pintura</l>
+                  <l>con que poderte decir,</l>
+                  <l>á Dios palma de hermosura.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Será mi pecho constante</l>
+                  <l>á pesar del mundo entero,</l>
+                  <l>como me pongo delante</l>
+                  <l>de aquello que yo mas quiero,</l>
+                  <l>á Dios que se va tu amante.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Bella y humana criatura</l>
+                  <l>bien me puedes dispensar,</l>
+                  <l>porque es tanta mi locura</l>
+                  <l>que me tengo que ausentar,</l>
+                  <l>todo lleno de amargura.</l>
+               </lg>
+
+               <pb n="2" source="Moreno_274_2.jpg" facs="fedora_ug8109576/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Bella flor encantadora,</l>
+                  <l>bello sol resplandeciente,</l>
+                  <l>pimpollo de la hermosura,</l>
+                  <l>ya viene tu amante á verte.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Esta pena me devora</l>
+                  <l>y aflige mi corazon</l>
+                  <l>la música mas sonora,</l>
+                  <l>no me causa á mi atencion,</l>
+                  <l>bella flor encantadora.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si otro amante te divierte,</l>
+                  <l>y á mí me hechas en olvido,</l>
+                  <l>acaba de darme muerte:</l>
+                  <l>mira que por tí suspiro</l>
+                  <l>bello sol resplandeciente.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es la ausencia tal locura</l>
+                  <l>que no me deja vivir</l>
+                  <l>cuando querrá la fortuna</l>
+                  <l>que yo te vuelva á decir,</l>
+                  <l>pimpollo de la hermosura.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Al verme de tí ausente</l>
+                  <l>no tengo noche ni dia,</l>
+                  <l>cual se ha cambiado mi suerte!</l>
+                  <l>pues me acuerdo que decia</l>
+                  <l>ya viene tu amante á verte.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Aunque en presidio estuviera,</l>
+                  <l>todo el resto de mi vida,</l>
+                  <l>no te dejo de querer,</l>
+                  <l>amada prenda querida.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sabes lo que por tí hiciera</l>
+                  <l>para que sepas mi amor?</l>
+                  <l>aquel que á tí te ofendiera</l>
+                  <l>darle muerte con rigor,</l>
+                  <l>aunque en presidio estubiera.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es mi pasion tan crecida,</l>
+                  <l>mi vida por tí espondré,</l>
+                  <l>dama la mas escogida</l>
+                  <l>en tí pensando estaré, </l>
+                  <l>todo el resto de mi vida.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent"> Si supiera padecer</l>
+                  <l>ansias, congojas y penas,</l>
+                  <l>por tí la vida perder</l>
+                  <l>vivir en tierras jgenas</l>
+                  <l>no te dejo de querer.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No me olvides prenda mia,</l>
+                  <l>que yo constante he de ser,</l>
+                  <l>en ausencia tan crecida,</l>
+                  <l>cuando te volveré á ver</l>
+                  <l>amadá prenda querida.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Todo el hombre que se casa, </l>
+                  <l>que no quiere trabajar</l>
+                  <l>si es bonila la muger:</l>
+                  <l>muy bien lo puede pasar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si el dinero pone tasa, </l>
+                  <l>y anda con malas razones, </l>
+                  <l>no será solo en su casa,</l>
+                  <l>vivirá con desasones,</l>
+                  <l>todo el hombre que se casa.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aun hombre en cierto lugar,</l>
+                  <l>le escuché y oí decir,</l>
+                  <l>que teniendo que gastar</l>
+                  <l>y quien lo pueda suplir,</l>
+                  <l>que no quiere trabajar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Bien poco tiene que hacer</l>
+                  <l>uno á otro le decia</l>
+                  <l>puedes vivir con placer</l>
+                  <l>tener todo cuanto pida,</l>
+                  <l>si es bonita la muger.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si en tu casa vieras entrar,</l>
+                  <l>por casualidad a un amigo,</l>
+                  <l>muchos regalos llebar,</l>
+                  <l>si se hace el desentido,</l>
+                  <l>muy bien lo puede pasar.</l>
+               </lg>
+
+               <pb n="3" source="Moreno_274_3.jpg" facs="fedora_ug8104909/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Los mositos que hay ahiora,</l>
+                  <l>no tienen formalidad,</l>
+                  <l>se meten en la taberna,</l>
+                  <l>y todos se quieren casar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dice una cierta señora</l>
+                  <l>que en cierto pueblo avitaba,</l>
+                  <l>que no queria ser novia,</l>
+                  <l>por el mal pago que daban</l>
+                  <l>los mocitos que hay ahora:</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ni en villa ni en ciudad,</l>
+                  <l>no busques cosa ninguna,</l>
+                  <l>esta es la pura verdad,</l>
+                  <l>que tienen mucha pintura,</l>
+                  <l>no tienen formalidad.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nadie en el mundo se ofenda;</l>
+                  <l>ninguno lo tome á mal</l>
+                  <l>entiendanme ó no me entiendan,</l>
+                  <l>cuando ganan un jornal</l>
+                  <l>se meten en la taberna.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me pongo á considerar, </l>
+                  <l>cuando veo algunos mozos,</l>
+                  <l>es cosa particular,</l>
+                  <l>cojos, mancos, lagañosos,</l>
+                  <l>todos se quieren casar.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">En Cadiz un comerciante,</l>
+                  <l>perdió salud y bolsillo,</l>
+                  <l>por embarcar su comercio,</l>
+                  <l>sin registrar el Navio.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Reparando vijilante,</l>
+                  <l>vido sentada aun balcon</l>
+                  <l>una dama, un sol brillante,</l>
+                  <l>á le robó la atencion,</l>
+                  <l>en Cadiz un comerciante.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El andaba muy sencillo,</l>
+                  <l>le hizo una seña y subió,</l>
+                  <l>en fin cayó el pobrecillo,</l>
+                  <l>aunque el bardio fruto dió, </l>
+                  <l>perdió salud y bolsillo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sin reparar en el precio,</l>
+                  <l>por ser la lancha tan fina,</l>
+                  <l>el enamorado, y necio,</l>
+                  <l>le mandaron á Medina</l>
+                  <l>por embarcar su comercio.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En tal hombre no confie</l>
+                  <l>á tan delicado lance,</l>
+                  <l>no supo echar un desvio,</l>
+                  <l>y el torpe quizo embarcarse, </l>
+                  <l>sin registrar el Navio.</l>
+               </lg>
+            </div>
+
+            <div n="2" type="cancion">
+               <head type="titulo_cancion">CANCION DE LA COTABANDISTA.</head>
+
+               <lg>
+                  <l rend="indent">Yo soy la contrabandista</l>
+                  <l>que meto tanto ruío</l>
+                  <l>cuando voy con mi querio</l>
+                  <l>á la plaza é Gibrartá</l>
+                  <l rend="derecha">Ja... ja... ja...</l>
+                  <l rend="derecha">ja... ja... ja...</l>
+                  <l rend="derecha">ja... ja... ja...</l>
+                  <l>y si no sale el resguardo</l>
+                  <l>me meto en sipi zape</l>
+                  <l>saco mi jaca al escape</l>
+                  <l>y me voy por donde el vá.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y si al pasar por la puerta,</l>
+                  <l>el resguardo nos endica,</l>
+                  <l>meto espuela á mi jaquita</l>
+                  <l>y me cuelo en Gibrartá</l>
+                  <l rend="derecha">Ja... ja... ja...</l>
+                  <l rend="derecha">ja... ja... ja...</l>
+                  <l rend="derecha">ja.., ja... ja...</l>
+                  <l>estando entro é la Plaza</l>
+                  <l>cargo mi jaca é tabaco,</l>
+                  <l>y le pregunto á mi Paco</l>
+                  <l>onde bamo á escargá.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_274_4.jpg" facs="fedora_ug8107965/full/full/0/default.jpg"/>
+
+               <lg>
+                  <l rend="indent">Y mi Paco me responde</l>
+                  <l>á Grasalema nos bamo</l>
+                  <l>con los jacos no escapamo</l>
+                  <l>por medio del areñal,</l>
+                  <l rend="derecha">Ja... ja... ja...</l>
+                  <l rend="derecha">ja... ja... ja...</l>
+                  <l rend="derecha">ja... ja... ja....</l>
+                  <l>y por si acaso la ronda</l>
+                  <l>nos llegase á pinchará</l>
+                  <l>una jara le endiñamo,</l>
+                  <l>y¿no ejan pasar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Caballo mio Sabache</l>
+                  <l>la niebe que cae es tanta, </l>
+                  <l>que no me tapa la manta</l>
+                  <l>donde voy arrebujá,</l>
+                  <l rend="derecha">Ja... ja... ja...</l>
+                  <l rend="derecha">ja... ja... ja...</l>
+                  <l rend="derecha">ja... ja... ja...</l>
+                  <l>por calentarme los guesos</l>
+                  <l>que los llevo muerto é frio</l>
+                  <l>yo le igo á mi querio,</l>
+                  <l>que me suerte una mirá. </l>
+               </lg>
+            </div>
+
+            <div n="3" type="cancion">
+               <head type="titulo_cancion">CANCION DE EL PAQUITO.</head>
+
+               <lg>
+                  <l rend="indent">Cuando coje el chapeo</l>
+                  <l>y la capa de tisú,</l>
+                  <l>me parece no hay un Paco,</l>
+                  <l>que sea mejó que tú:</l>
+                  <l>Ay! Paquito de mi via,</l>
+                  <l>vente, vente, paracá</l>
+                  <l>Jesus Paco,</l>
+                  <l>no te pueo aguantar,</l>
+                  <l>y con tus maldito celo,</l>
+                  <l>me tienes descuaderná;</l>
+                  <l>y cuando llega la noche,</l>
+                  <l>me empieza á acariciá:</l>
+                  <l rend="derecha">alza paco,</l>
+                  <l>vente, vente, paracá.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con este jesto tan crúo,</l>
+                  <l>esa cara cuarteá,</l>
+                  <l>me asusto cuando te veo,</l>
+                  <l>y me queo, espirrabá.</l>
+                  <l>Ay! Paquito de mi via,</l>
+                  <l>vente, vente, paraca:</l>
+                  <l>Jesus Paco,</l>
+                  <l>no te pueo aguantá, </l>
+                  <l>me saca conversaciones,</l>
+                  <l>si me fuí con un Inglé.</l>
+                  <l>ó me fuí con un galan;</l>
+                  <l>y cuando llega la noche,</l>
+                  <l>me empieza á acariciá:</l>
+                  <l rend="derecha">alza Paco,</l>
+                  <l>vente, vente, paraca.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo no se que tiene Paco, </l>
+                  <l>cuando me ve faralá</l>
+                  <l>que arruga el entrecejo,</l>
+                  <l>y empieza astornuá. </l>
+                  <l>Ay! Paquito é mi via,</l>
+                  <l>vente, vente, paracá:</l>
+                  <l>Jesus Paco,</l>
+                  <l>no te pueo aguantá, </l>
+                  <l>y cuando va alguna párte,</l>
+                  <l>too te se yuelve,</l>
+                  <l>pellizquito y pellizcá,</l>
+                  <l>y luego me echa uno sacai,</l>
+                  <l>que me deja espirraba,</l>
+                  <l>y cuando llega la noche,</l>
+                  <l>me empieza á acariciá:</l>
+                  <l rend="derecha">alza Paco</l>
+                  <l>vente, vente, paraca.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA=1855. <lb/>Imprenta de D. José María Moreno, Descalzas, núm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

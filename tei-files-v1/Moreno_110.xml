@@ -1,0 +1,432 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_110">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedro Cadenas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Corrección OCR</resp>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Pedro Cadenas. Relacion verdadera de los amores y
+                     desafos que tuvieron en Barcelona cuatro valerosos soldados de la marina
+                     española.</title>
+                  <title type="titulo_breve">Pedro Cadenas.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1855-01-01">1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461569</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 118</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_110_1.xml" facs="fedora_ug8108134/387,380,1067,908/100,/0/default.jpg">grabado_m_110_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106696/manifest">
+      <graphic url="fedora_ug8108134/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_110_1.jpg" facs="fedora_ug8108134/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 118.)</fw>
+
+               <head type="primer_titulo">PEDRO CADENAS.</head>
+               <head type="subtitulo">
+                  <lb/>RELACION VERDADERA <hi rend="cursiva"><lb/>de los amores y desafos que
+                     tuvieron en Barcelona cuatro valerosos <lb/>soldados de la marina
+                     española.</hi>
+               </head>
+
+               <l rend="indent">Atencion, noble auditorio,</l>
+               <l>todo el orbe se suspenda</l>
+               <l>mientras mi lengua declara</l>
+               <l>la mas reñida pendencia</l>
+               <l>que sucedió en Barcelona,</l>
+               <l>del modo que aqui se cuenta,</l>
+               <l>con cuatro nobles soldados</l>
+               <l>del rey de España, que aumentan</l>
+               <l>las voces de sus hazañas</l>
+               <l>por España y fuera de ella;</l>
+               <l>por que en diciendo españoles</l>
+               <l>todas las naciones tiemblan.</l>
+               <l>Eran entre los marinos</l>
+               <l>estos cuatro hombres de prendas</l>
+               <l>y por ser de gran valor</l>
+               <l>quiero que sus nombres sepan.</l>
+               <l>El primero y principal</l>
+               <l>era Diego de Contreras,</l>
+               <l>soldado diestro y temido</l>
+               <l>en castillos y fronteras;</l>
+               <l>el segundo es Cayetano</l>
+               <l>Garcia; Soldado que era</l>
+               <l>de todos muy respetado,</l>
+               <l>hombre dey valor y prendas;</l>
+               <l>el tercero Alfonso Tellez;</l>
+               <l>cuyas hazañas y fuerzas</l>
+               <l>no me atrevo á enumerar;</l>
+               <l>el cuarto es Pedro Cadenas</l>
+               <l>que es alférez reformado,</l>
+               <l>sargento vivo en Galeras.</l>
+
+               <pb n="2" source="Moreno_110_2.jpg" facs="fedora_ug8108500/full/full/0/default.jpg"/>
+
+               <l>Vivia en esta ciudad</l>
+               <l>una dama hermosa y bella,</l>
+               <l>espejo de lá hermosura,</l>
+               <l>con quien trataba Cadenas; </l>
+               <l>solicitábala á tiempo</l>
+               <l>que de España las Galeras</l>
+               <l>llegan á sus fuertes muros,</l>
+               <l>donde saltaron en tierra,</l>
+               <l>soldados bravos mancebos:</l>
+               <l>respetados donde quiera</l>
+               <l>entre ellos Alfoso Tellez,</l>
+               <l>y el dicho Diego Contreras,</l>
+               <l>paseando alegremente</l>
+               <l>de Barcelona las puertas,</l>
+               <l>vieron esta hermosa dama,</l>
+               <l>y sabiendo es de Cadenas, </l>
+               <l>bien pudieran escusarlo</l>
+               <l>y no meterse con ella.</l>
+               <l>Alfonso, con mil requiebros</l>
+               <l>ha empezado á enternecerla;</l>
+               <l>la dama con gran despejo</l>
+               <l>le ha dicho de esta manera;</l>
+               <l>váyase muy enhoramala</l>
+               <l>á pretender á su tierra,</l>
+               <l>y no venga á enamorar</l>
+               <l>las damas barcelonesas</l>
+               <l>mire que no ha de faltar</l>
+               <l>quien le rompa la cabeza.</l>
+               <l>Alfonso de esto enfadado,</l>
+               <l>con una risa compuesta,</l>
+               <l>alzó la mano y la dió</l>
+               <l>un bofeton á la hembra</l>
+               <l>que la deshizo la cara,</l>
+               <l>la boca dientes y muelas,</l>
+               <l>en sangre se las bañó,</l>
+               <l>diciendo, dile á Cadenas,</l>
+               <l>que salga á tomar venganza,</l>
+               <l>que Alfonso Tellez le espera.</l>
+               <l>Se salieron paseando</l>
+               <l>muy poco á poco y sin pena,</l>
+               <l>al tiempo que Cayetano </l>
+               <l>llegó con Pedro Cadenas</l>
+               <l>á la puerta de su dama:</l>
+               <l>viéndola de esta manera,</l>
+               <l>dice: ¿quién es el aleve</l>
+               <l>que ha ofendido tu belleza,</l>
+               <l>sabiendo que yo estoy vivo</l>
+               <l>y que corres de mi cuenta?</l>
+               <l>que le quitaré la vida</l>
+               <l>con esta espada sangrienta.</l>
+               <l>Muy llorosa le responde:</l>
+               <l>no serás Pedro Cadenas, </l>
+               <l>respetado en Barcelona</l>
+               <l>si aquesta infamia no vengas,</l>
+               <l>cortas la atrevida mano</l>
+               <l>y la traes á mi presencia;</l>
+               <l>pues de esta suerte me han puesto</l>
+               <l>dos soldados de Galera:</l>
+               <l>el uno es Alfonso Tellez,</l>
+               <l>y me dijo que salieras.</l>
+               <l>De que oyen estas razones:</l>
+               <l>como dos serpientes fieras,</l>
+               <l>van á buscar sus contrarios</l>
+               <l>por calles y callejuelas:</l>
+               <l>junto á la puerta del Angel</l>
+               <l>con ambos á dos se encuentran.</l>
+               <l>Cayetano que los vido</l>
+               <l>echó mano á la siniestra,</l>
+               <l>y Pedro le detenia,</l>
+               <l>diciedo: vamos afuera,</l>
+               <l>adonde no haya socorro</l>
+               <l>sino que del cielo venga.</l>
+               <l>Se salen de la ciudad</l>
+               <l>poca mas de media legua</l>
+               <l>por un escusado sitio.</l>
+               <l>Volvió la cara Cadenas,</l>
+               <l>y en altas voces ha dicho;</l>
+               <l>aqui ha de ser la pendencia,</l>
+               <l>donde seais sepultados,</l>
+               <l>y yo vengaré mi ofensa,</l>
+               <l>Meten mano á las espadas</l>
+               <l>con tal ira y saña fiera,</l>
+               <l>que Cayetano Garcia</l>
+               <l>cerró con Diego Contreras;</l>
+               <l>y Alfonso Tellez cerró, </l>
+               <l>con su contrario Cadenas.</l>
+               <l>Como son los agraviados</l>
+               <l>se tiraban muy de veras, </l>
+
+               <pb n="3" source="Moreno_110_3.jpg" facs="fedora_ug8108642/full/full/0/default.jpg"/>
+
+               <l>con gran ira y con ahinco</l>
+               <l>estocadas muy soberbias,</l>
+               <l>sin?reparar en las puntas</l>
+               <l>á la que mas pronto llega:</l>
+               <l>Alfonso como valiente</l>
+               <l>le ha dado á Pedro Cadenas</l>
+               <l>tres furiosas estocadas</l>
+               <l>que los pechos le atraviesan;</l>
+               <l>la purpura derramando, </l>
+               <l>manchando la tosca arena,</l>
+               <l>como se va desangrando</l>
+               <l>y ve le faltan las fuerzas,</l>
+               <l>con la espada y con la daga</l>
+               <l>con su contrario se cierra;</l>
+               <l>le ha tirado una estocada,</l>
+               <l>que sin que reparo hiciera,</l>
+               <l>por el párpado de un ojo</l>
+               <l>le entró la punta sangrienta,</l>
+               <l>que el cerebro le pasó</l>
+               <l>la espada mas de una tercia.</l>
+               <l>Alfonso cayó de espaldas</l>
+               <l>difunto sobre la arena.</l>
+               <l>Cadenas muy mal herido</l>
+               <l>sobre una peña se sienta,</l>
+               <l>los ojos al Cielo alza,</l>
+               <l>y á Dios llama muy deveras,</l>
+               <l>le dice: Pastor divino,</l>
+               <l>yo soy la perdida obeja</l>
+               <l>que se vuelve á tu rebaño:</l>
+               <l>ea, Señor, recogedla.</l>
+               <l>Con esto llegó la parca,</l>
+               <l>corta el hilo que le alienta,</l>
+               <l>espiró y partióse el alma</l>
+               <l>al tribunal á dar cuenta.</l>
+               <l>Vamos á las otros dos</l>
+               <l>que fuertemente pelean:</l>
+               <l>cansados de combatir,</l>
+               <l>ambos se pidieron treguas</l>
+               <l>para descansar un rato</l>
+               <l>se sientan sobre dos piedras,</l>
+               <l>ya se mira el uno al otro,</l>
+               <l>y asi hablando Contreras;</l>
+               <l>todo el mundo tengo andado,</l>
+               <l>y he visto diversas tierras;</l>
+               <l>he tenido desafios,</l>
+               <l>y peligrosas contiendas,</l>
+               <l>y no he encontrado ninguno</l>
+               <l>que á mi valor no obedazca;</l>
+               <l>ambos estamos heridos,</l>
+               <l>dejemos esta pendencia.</l>
+               <l>Y Cayetano responde:</l>
+               <l>mi fama no lo consienta, </l>
+               <l>¿pues qué se dirá de mí</l>
+               <l>en el puerto y las Galeras</l>
+               <l>si yo te dejo con vida.</l>
+               <l>habiendo muerto Cadenas?</l>
+               <l>pues si en aquesta ocasion</l>
+               <l>un Bernardo te volvieras, </l>
+               <l>dos mil vidas te quitara </l>
+               <l>con esta espada sangrienta,</l>
+               <l>Muy presto te ha de pesar, </l>
+               <l>le ha respondido Contreras;</l>
+               <l>pues te muestras tan soberbio</l>
+               <l>en volver á la pelea.</l>
+               <l>Ya otra vez toman las ármas</l>
+               <l>con tal brio y con tal fuerza,</l>
+               <l>que renovaron en breve</l>
+               <l>la batalla y tan sangrienta,</l>
+               <l>que el sol no acierta á salir</l>
+               <l>á clarificar la tierra,</l>
+               <l>por no ver estos leones</l>
+               <l>de la suerte que pelean.</l>
+               <l>Cayetano es muy valiente,</l>
+               <l>pero le faltan las fuerzas;</l>
+               <l>que tiene cinco estocadas,</l>
+               <l>y cortada una muñeca:</l>
+               <l>retirando pies atras,</l>
+               <l>huyendo de la soberbia</l>
+               <l>de Contreras, que parece</l>
+               <l>un bravo leon que sueltan</l>
+               <l>tropezó y cayó de espaldas,</l>
+               <l>le dice de esta manera; </l>
+               <l>pues que con la paz me rogaste,</l>
+               <l>razon es que te obedezca,</l>
+               <l>Ya no es tiempo, respondió</l>
+               <l>muy encendido Contreras;</l>
+               <l>y con fuerza rabiosa</l>
+               <l>le dió la muerte violenta.</l>
+
+               <pb n="4" source="Moreno_110_4.jpg" facs="fedora_ug8105681/full/full/0/default.jpg"/>
+
+               <l>Y de que se vido solo,</l>
+               <l>y la noche que le cerca, </l>
+               <l>tendiendo su negro manto,</l>
+               <l>á la ciudad dió la vuelta.</l>
+               <l>Se fué á casa de la dama,</l>
+               <l>y la dice de esta manera:</l>
+               <l>traidora, pues fuiste causa </l>
+               <l>de estas desgracias, la pena</l>
+               <l>has de pagar con tu vida</l>
+               <l>para que escarmiento sea.</l>
+               <l>La arrastra de los cabellos,</l>
+               <l>y la cortó la cabeza</l>
+               <l>revolcándose en su sangre,</l>
+               <l>de allí se ha ido y la deja;</l>
+               <l>va á un convento á retirarse,</l>
+               <l>y un hermano de Cadenas</l>
+               <l>juró de tomar venganza:</l>
+               <l>y haciendo las diligencias,</l>
+               <l>supo en que parage estaba;</l>
+               <l>y rondando con cautela</l>
+               <l>y con dañada intencion,</l>
+               <l>viéndole entrar en la iglesia,</l>
+               <l>le tiró un carabinazo,</l>
+               <l>cavó boca abajo en tierra;</l>
+               <l>pidiendo está confesion:</l>
+               <l>fué en valde su diligencia.</l>
+               <l>El delincuente se huyó;</l>
+               <l>pero poco le aprovecha,</l>
+               <l>que lo cercan y lo cogen,</l>
+               <l>y á la cárcel se lo llevan.</l>
+               <l>Dieron cuenta al general;</l>
+               <l>y manda su escelencia</l>
+               <l>que lo lleven y lo amarren</l>
+               <l>á cuatro fuertes Galeras,</l>
+               <l>sus carnes le despedasen,</l>
+               <l>para que escarmiento tenga.</l>
+               <l>Ya le sacan de la cárcel,</l>
+               <l>lo llevan á las Galeras:</l>
+               <l>todas cuatro estan en cruz,</l>
+               <l>lo amarran con violencia,</l>
+               <l>y á la voz de un ronco pito</l>
+               <l>alzan áncoras y velas,</l>
+               <l>conque quedó aquel cadaver</l>
+               <l>dividido en cuatro piezas.</l>
+               <l>Dios les perdone sus almas,</l>
+               <l>y nos perdone las nuestras,</l>
+               <l>cuando de este mundo vayamos</l>
+               <l>á gozar la vida eterna;</l>
+               <l>y nos libre de mugeres,</l>
+               <l>porque estas todo lo enredan,</l>
+               <l>que no hay desdicha ninguna</l>
+               <l>que por mugeres no venga.</l>
+               <l>Alerta, alerta mugeres,</l>
+               <l>disponeos á la enmienda,</l>
+               <l>que una muger fué la causa</l>
+               <l>que su galan se perdiera,</l>
+               <l>y juntamente con el</l>
+               <l>cuatro hombres de nobles prendas.</l>
+               <l>Escarmentad valentones,</l>
+               <l>no vivais á rienda suelta,</l>
+               <l>no mireis á las mugeres,</l>
+               <l>que es engañosa culebra,</l>
+               <l>que con su veneno mata</l>
+               <l>aquesta frágil materia;</l>
+               <l>y así tememos á Dios</l>
+               <l>y á la Virgen madre nuestra,</l>
+               <l>porque despues de esta vida</l>
+               <l>gocemos su gloria eterna.</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1855. <lb/>Imprenta de D. José María Moreno, Descalzas, núm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

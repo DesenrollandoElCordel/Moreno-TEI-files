@@ -1,0 +1,966 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_094">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Entremés de los pages golosos</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Entremes de los pages golosos.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1849-01-01">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461337</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 101</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>A la izquierda de la página 8, el texto es cortado</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>1 columna</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876786.html" type="tipo_texto">Entremeses</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-10" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-06-28" who="#EL">Correction de l'OCR</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107087/manifest">
+      <graphic url="fedora_ug8110133/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_094_1.jpg" facs="fedora_ug8110133/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 101</fw>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>ENTREMES <lb/>DE LOS PAGES <lb/>GOLOSOS. </head>
+
+               <div type="reparto">
+                  <head rend="negrita" type="reparto_titulo">PERSONAS.</head>
+                  <castList rend="cursiva">
+                     <castItem>Un Baron.</castItem>
+                     <castItem>Don Toribio.</castItem>
+                     <castItem>Dos Pages.</castItem>
+                     <castItem>Una Muger.</castItem>
+                  </castList>
+               </div>
+
+               <div>
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Golosos, sepultura de meriendas,</l>
+                     <l>con mis dulces haceis carnestolendas?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Señor Baron de Breñigal, que es esto?</l>
+                     <l>Usia descompuesto?</l>
+                     <l>repórtese usiría.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Ya he dicho <choice>
+                           <sic>bue no</sic>
+                           <corr>bueno</corr>
+                        </choice> quiero en cortesía:</l>
+                     <l>dejadme, don Toribio, que no es nada.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Le han dado señoría sincopada?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Peor es mi desgracia y aun mas negra.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Le han dado á usia la muger con suegra?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Peor y repeor.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Qué es lo que pasa?</l>
+                     <l>Piden los alquileres de la casa?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Recetara peor.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>No haga visages; diga usía qué tiene?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Tengo Pages.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Pages tiene? Jesus! lindo regalo:</l>
+                     <l>escupa usía, que ha mentado el malo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Pages de quien no hay libre golosina,</l>
+
+                     <pb n="2" source="Moreno_094_2.jpg" facs="fedora_ug8107747/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">2.</fw>
+
+                     <l>y están en infusion de hambre canina:</l>
+                     <l>ya no puedo sufrirlos,</l>
+                     <l>y si digo que quiero despedirlos</l>
+                     <l>me atisvan las conservas por cevarse.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Eso es solo tirar á conservarse.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Se comieron en un solo desayuno</l>
+                     <l>media arroba de guindas cada uno</l>
+                     <l>sin arrojar un hueso.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Aun eso es mas.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Os contaré el suceso:</l>
+                     <l>el uno que comió su media arroba</l>
+                     <l>( y á fé que no era boba )</l>
+                     <l>dijo: guindas y huesos me he tragado;</l>
+                     <l>y el otro que otra media se había echado, </l>
+                     <l>respondió ( sin tenerlo á mucho esceso )</l>
+                     <l>pues pregunto, las guindas tienen hueso?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Jamás se han visto Pages tan glotones:</l>
+                     <l>no les llegan al pié los sabañones.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Dos cajas de turron ( el Hambre es fiera )</l>
+                     <l>se comieron ayer, con su madera.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Con las cajas comieron los turrones?</l>
+                     <l>que hicieran si encontraran requesones?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>El caso es muy precioso:</l>
+                     <l>una caja cogió cada goloso,</l>
+                     <l>y á obscuras y cebados,</l>
+                     <l>con tal fuerza le daban los bocados,</l>
+                     <l>que dijo el que mas presto la acepilla,</l>
+                     <l>ya de mi caja no á quedado astilla;</l>
+                     <l>y el otro respondió, sin dejar raja:</l>
+                     <l>aun mejor que á turron sabe la caja.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Vender los Pages.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Yo los diera dados</l>
+                     <l>á un zapatero por sacabocados.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Ya deseo ver Pages tan voraces.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Ha muchachos, ha niños, ha rapaces?</l>
+                  </sp>
+
+                  <pb n="3" source="Moreno_094_3.jpg" facs="fedora_ug8106631/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3.</fw>
+
+                  <sp>
+                     <speaker><hi rend="cursiva">Sale Page</hi> 1.</speaker>
+                     <l>Qué manda usía?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker><hi rend="cursiva">Sale Page</hi> 2.</speaker>
+                     <l>Usía qué nos manda?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Qué haceis afuera?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>En la mental vianda estamos contemplan-</l>
+                     <l>do noche y dia.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Hay ganas de comer?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Los dos.</speaker>
+                     <l>Si, señoría.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Qué donosos, qué atentos y corteses!</l>
+                     <l>muy espigados son.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Esto en dos meses.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>El Baron, mi señor, por mas bonitos,</l>
+                     <l>nos escojió entre diez caballeritos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Su casa y golosina es bien notoria,</l>
+                     <l>golosos son los dos de egcutoria.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>De dónde son?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Nacidos y criados</l>
+                     <l>en la Alcarria, y salimos desterrados</l>
+                     <l>porque éramos golosos con esceso.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Pues en la Alcarria hay mucha miel.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Por eso,</l>
+                     <l>que era mucha la miel virgen que había</l>
+                     <l>y ellos la hacian mártir cada dia.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Qué tan golosos han salido?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Fieros: pintados se comieron dos fruteros.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Los dos.</speaker>
+                     <l>Suplico á usía::::</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Vayan noramala,</l>
+                     <l>que haré que los azote el maestresala. <stage rend="cursiva">vánse.</stage></l>
+                     <l>Para hacer esperiencias he dispuesto</l>
+                     <l>un vaso de conserva, donde he <choice>
+                           <sic>pnesto</sic>
+                           <corr>puesto</corr>
+                        </choice></l>
+                     <l>(por si alguno lo hurga)</l>
+                     <l>escrito en el bapel: <hi rend="cursiva">mirad que es purga</hi>.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Si con nombre de purga esta el almivar,</l>
+                     <l>cómo lo han de probar?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Si fuera acivar</l>
+                     <l>no dejaran de haberlo ya probado.</l>
+                  </sp>
+
+                  <pb n="4" source="Moreno_094_4.jpg" facs="fedora_ug8107910/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4.</fw>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Con ir á ver el vidrio está acabado;</l>
+                     <l>pero esta vez yo he de fiar los Pages.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Ahora lo veredes, dijo Agrages:</l>
+                     <l>voló todo el almivar sin reparo. <stage rend="cursiva">saca un
+                        vaso.</stage></l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>No lo jureis, que el vidrio habla bien claro.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Ni aun señal ha dejado su fiereza.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Lo que yo les alabo es la limpieza.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Lamiéndolo lo friegan á destajo</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Los Pages tienen lengua de estropajo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Lo que han dejado escrito y advertido,</l>
+                     <l>aun siento mas que habérselo comido.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Pues qué han escrito?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Porque no llegarán,</l>
+                     <l>como os dije, y el vidrio no probarán,</l>
+                     <l>mirad que es purga, en el papel propuse;</l>
+                     <l>y aunque así lo dispuse,</l>
+                     <l>habiéndolo lamido y apurado,</l>
+                     <l>han escrito despues: <hi rend="cursiva">ya está mirado</hi>.</l>
+                     <l>La golosina costárales cara.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Por eso solo yo les perdonara.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Pues qué he de hacer?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Yo tengo un vaso lleno</l>
+                     <l>con almivar, decirles que es veneno</l>
+                     <l>que así se olvidarán de ser golosos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Eso como el rascarse los sarnosos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Pues cuando comen, como está advertido,</l>
+                     <l>siendo conserva nada habrá perdido.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Por si escarmientan seguiré el asunto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Llamad los Pages, porque vuelvo al punto.</l>
+                  </sp>
+
+                  <stage rend="cursiva">Váse y salen los <choice>
+                        <sic>Puges</sic>
+                        <corr>Pages</corr>
+                     </choice>.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Ha muchachos? ay tal bellaquería! </l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Usía llama?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Llama useñoría?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Quién dirá que uno y otro mojigato</l>
+                     <l>en su vida han quebrado ningun plato?</l>
+                  </sp>
+
+                  <pb n="5" source="Moreno_094_5.jpg" facs="fedora_ug8110121/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">5.</fw>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Si ha estado en la alacena <stage rend="cursiva">(aparte.)</stage></l>
+                     <l>y ha visto el vidrio la hemos hecho buena.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Cómo os hallais, que estoy con mil cuidados?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Los dos.</speaker>
+                     <l>Al servicio de usía, aunque purgados.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Ha golosos, aun tanto no os pregunto:</l>
+                     <l>pagaránmelo todo de por junto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sale Tor.</speaker>
+                     <l>Señor Baron, aquí tiene</l>
+                     <l>usía el vidrio dispuesto. <stage rend="cursiva">dáselo.</stage></l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Hoy sabré si los golosos</l>
+                     <l>son capaces de escarmiento.</l>
+                     <l>Este vidrio es de conserva,</l>
+                     <l>pero mirad que os advierto</l>
+                     <l>que viene con solimán,</l>
+                     <l>con acívar y veneno:</l>
+                     <l>cuidado, porque comer</l>
+                     <l>y rebentar es lo mismo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>No es fácil, comiendo en casa</l>
+                     <l>de usía que rebentemos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>O dejar de ser golosos,</l>
+                     <l>ó contaros con los muertos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Esto es probarles, que el vidrio</l>
+                     <l>despues nos le comeremos.</l>
+                  </sp>
+
+                  <stage rend="cursiva">Deja el vaso sobre la mesa y vánse.</stage>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>O dejar de ser golosos,</l>
+                     <l>ó contaros con los muertos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Si hemos de morir de hambre,</l>
+                     <l>mejor es morir comiendo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Tiene veneno el vaso,</l>
+                     <l>amigo yo no lo pruebo,</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Nuestro amo es tan miserable,</l>
+                     <l>que no dará ni aun veneno</l>
+                     <l>por no darnos un bocado.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">2.</speaker>
+                     <l>En la conserva metieron</l>
+                     <l>solimán, y si morimos</l>
+                     <l>hemos de quedar muy feos.</l>
+                  </sp>
+
+                  <pb n="6" source="Moreno_094_6.jpg" facs="fedora_ug8106362/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6.</fw>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Antes no, que el solimán</l>
+                     <l>dicen que hace el rostro bueno.</l>
+                     <l>Díme, comiste del vaso</l>
+                     <l>de la purga?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Eso es remedio.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>A quien no mata purga,</l>
+                     <l>no le hará mal un veneno.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Yo aunque tengo mucha hambre,</l>
+                     <l>tengo muchísimo miedo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Algo se ha de aventurar;</l>
+                     <l>y para probarlo, quiero</l>
+                     <l>morirme un dedo y no mas.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Como no sea mas que un dedo,</l>
+                     <l>yo tambien me moriré.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Muera este dedo pequeño,</l>
+                     <l>que es el que hace menos falta.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Yo tambien digo lo mismo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Jesus qué muerte tan dulce!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Jesus qué almivar! Tras ello</l>
+                     <l>me como las manos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Ola, qué lames todos los dedos?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Por si me muero, procuro</l>
+                     <l>repasar los mandamientos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Porque el dulce no comamos,</l>
+                     <l>que tiene acíbar dijeron.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Acíbar? amargamente</l>
+                     <l>se conociera al comerlo:</l>
+                     <l>morirme quiero á dos manos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Yo me echo la muerte á pechos. <stage rend="cursiva">sorbe</stage></l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Page, sorbe con conciencia,</l>
+                     <l>mira que te estás muriendo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>De estas muertes no me falten</l>
+                     <l>mientras yo viviere.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Bueno:</l>
+                     <l>ahora voy yo, qué quieres</l>
+
+                     <pb n="7" source="Moreno_094_7.jpg" facs="fedora_ug8108908/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">7.</fw>
+
+                     <l>sorber dos veces á reo?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Es que tienes tú mas boca,</l>
+                     <l>y yo he de dar sorbo y medio.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>De esta muerte solo falta</l>
+                     <l>que el postrer trago pasemos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Este es el último, á Dios,</l>
+                     <l>Dulce y regalado dueño.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Dentro Bar.</speaker>
+                     <l>Pages, ola.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>El Baron viene:</l>
+                     <l>qué hemos de hacer?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Buen remedio:</l>
+                     <l>cuando dejaron el vidrio,</l>
+                     <l>á los dos no nos dijeron,</l>
+                     <l>que comer de la conserva</l>
+                     <l>y reventar es lo mismo?</l>
+                     <l>pues finguir que nos morimos</l>
+                     <l>y dar con su mismo enrredo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Bien dices: pues á finjir.</l>
+                  </sp>
+
+                  <stage rend="cursiva">Salen D. Toribio y el Baron</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Por imposible lo tengo</l>
+                     <l>que hayan probado el almíbar.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Cómo habian de comerlo</l>
+                     <l>si el veneno les finjimos?</l>
+                     <l>Los Pages lloran, qué es esto?</l>
+                     <l>les han hecho alguna burla?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Poco ó nada sera ello.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Los dos.</speaker>
+                     <l>Nos comimos la conserva</l>
+                     <l>y nos estamos muriendo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>Está contento usiría?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Don Toribio, estais contento?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tor.</speaker>
+                     <l>O dejar de ser golosos,</l>
+                     <l>ó contaros con los muertos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Esto es probarles que el vidrio</l>
+                     <l>despues nos le comeremos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">1.</speaker>
+                     <l>Ay qué me muero, Dios mio!</l>
+                  </sp>
+
+                  <pb n="8" source="Moreno_094_8.jpg" facs="fedora_ug8107941/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Ay Dios mio, mio, qué me muero!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Sabe usía á cuántas horas</l>
+                     <l>dá la muerte este veneno?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>El solimán las entrañas</l>
+                     <l>como un can me está comiendo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>El solimán es un turco,</l>
+                     <l>y así ha de obrar como un perro.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Pícaros, sobre golosos,</l>
+                     <l>dais ahora en embusteros? <stage rend="cursiva">dáles.</stage></l>
+                  </sp>
+
+                  <sp>
+                     <speaker>2.</speaker>
+                     <l>Que me matan,</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>1.</speaker>
+                     <l>Que me matan.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sale muger.</speaker>
+                     <l>Señor Baron, qué es aquesto?</l>
+                     <l>cuando todo es alegría,</l>
+                     <l>solo aquí ha de haber lamentos?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Bar.</speaker>
+                     <l>Tengo estos Pages difuntos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Los dos.</speaker>
+                     <l>Todo ha sido fingimiento;</l>
+                     <l>y sepan que los golosos</l>
+                     <l>comen aun despues de muertos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mug.</speaker>
+                     <l>Pues vaya una seguidilla</l>
+                     <l>que los vuelva el alma al cuerpo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Los dos.</speaker>
+                     <l>Canten unos tonos dulces</l>
+                     <l>que entrambos resucitemos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Canta Muger.</speaker>
+                     <l>De golosos dos Pages</l>
+                     <l>plaza sentaron,</l>
+                     <l>ven una caja, y tocan</l>
+                     <l>luego á rebato.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Cantan Pages.</speaker>
+                     <l>Con la purga bien quiso</l>
+                     <l>darnos hoy chasco,</l>
+                     <l>mas de nuestro humor nunca</l>
+                     <l>podrán purgarnos.</l>
+                  </sp>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/><damage agent="pagina_cortada"><supplied>C</supplied></damage>ARMONA—1849.
+                  Imprenta y librería de D. José <lb/>Maria Moreno, calle Oficiales. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

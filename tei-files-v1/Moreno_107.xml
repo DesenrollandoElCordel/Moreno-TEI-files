@@ -1,0 +1,472 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_107">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta de amor que dirige un galán a su dama</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Carta de amor que dirige un galan a su dama, en la
+                     que se puede poner el nombre de cualquier muger.</title>
+                  <title type="titulo_breve">Carta de amor que dirige un galan a su dama</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461552</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 115</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>4 cartas</summary>
+                  <msItem>
+                     <locus>1-2</locus>
+                     <title>Carta de amor que dirige un galan a su dama</title>
+                  </msItem>
+                  <msItem>
+                     <locus>2-3</locus>
+                     <title>Contestation Quejosa de la dama a su fino amante, en unas bonitas
+                        decimas.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3</locus>
+                     <title>Segunda carta que escribe el galan á la dama despues de sus regreso dese
+                        chándola por haberla encontrado de diferente modo que cuando la dejó á su
+                        partida.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Despedida que hace un quinto a su querida y la contestacion que ella le
+                        dá.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">2 grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_107_1.xml" facs="fedora_ug8108954/509,330,344,670/100,/0/default.jpg">grabado_m_107_1</item>
+                           <item corresp="grabado_m_107_2.xml" facs="fedora_ug8108954/854,280,308,740/100,/0/default.jpg">grabado_m_107_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5491920.html" type="tipo_texto">Cartas</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-17" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103486/manifest">
+      <graphic url="fedora_ug8108954/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_107_1.jpg" facs="fedora_ug8108954/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 115.)</fw>
+
+               <div>
+                  <head type="primer_titulo">
+                     <lb/><hi rend="negrita">CARTA DE AMOR</hi>
+                     <lb/>QUE DIRIGE <lb/>UN GALAN A SU DAMA, <lb/>EN LA QUE SE PUEDE PONER <lb/>EL
+                     NOMBRE DE CUALQUIER MUGER. </head>
+
+                  <l rend="indent">Dulcisima prenda mia,</l>
+                  <l>bello encanto de mi anhelo,</l>
+                  <l>hechizo de mis sentidos</l>
+                  <l>y de mis potencias dueño:</l>
+                  <l>imán de mi corazon</l>
+                  <l>y atractivo de mi pecho,</l>
+                  <l>me alegraré que al recibo</l>
+                  <l>de estos, mis tristes lamentos,</l>
+                  <l>goces la cabel salud</l>
+                  <l>que yo para mi deseo,</l>
+                  <l>en la amable compañía</l>
+                  <l>de tus padres y tus deudos,</l>
+                  <l rend="indent">Solo me aflije, <hi rend="cursiva">(Fulana)</hi></l>
+                  <l>este laberinto inmenso,</l>
+                  <l>al verme ausente de tí</l>
+                  <l>y mirararte tan de lejos.</l>
+                  <l rend="indent">Pájaro quisiera ser</l>
+                  <l>que remontando mi vuelo,</l>
+                  <l>pudiera pasar á verte,</l>
+                  <l>cesarian mis tormentos.</l>
+                  <l rend="indent">Mas veo no puede ser:</l>
+                  <l>pero me queda el consuelo</l>
+                  <l>que llegarán mis suspiros</l>
+                  <l>dando muestras que te quieso.</l>
+
+                  <pb n="2" source="Moreno_107_2.jpg" facs="fedora_ug8107743/full/full/0/default.jpg"/>
+
+                  <l rend="indent">En esta ausencia penosa</l>
+                  <l>yo vivo tan sin consuelo,</l>
+                  <l>que es imposible esplicarte</l>
+                  <l>las penas que yo padezco.</l>
+                  <l rend="indent">Aire, fuego, mar y tierra</l>
+                  <l>serán los testigos mesmos</l>
+                  <l>que acrediten la verdad,</l>
+                  <l>con el discurso del tiempo.</l>
+                  <l rend="indent">Con lo que pido á Dios guarde</l>
+                  <l>tu salud como deseo;</l>
+                  <l>beso tus manos, <hi rend="cursiva">(Fulana)</hi></l>
+                  <l>y lo afable de tu pecho,</l>
+                  <l>que quien te quiere y te estima</l>
+                  <l><hi rend="cursiva">(Fulano de tal)</hi> tu dueño.</l>
+
+                  <div>
+                     <head type="titulo_parte">POSDATA.</head>
+
+                     <l rend="indent">Y firmo porque me afirmo,</l>
+                     <l>que firmemente te quiero;</l>
+                     <l>á Dios, adorada prenda,</l>
+                     <l>á Dios, hermoso lucero,</l>
+                     <l>que yo me quedo penando</l>
+                     <l>en el mar de mis tormentos.</l>
+                     <l rend="indent">Ea, peces de estos mares,</l>
+                     <l>ya teneis un compañero,</l>
+                     <l>porque entre mis desdichas</l>
+                     <l>voy á mudar de elemento.</l>
+                     <l rend="indent">A Dios, sol resplandeciente,</l>
+                     <l>á Dios, á Dios que me ausento</l>
+                     <l>porque el que quiere y se ausenta</l>
+                     <l>no es mucho se caiga muerto:</l>
+                     <l>y de tus hermosas manos</l>
+                     <l>solo la respuesta espero,</l>
+                     <l>y que sea favorable,</l>
+                     <l>no haya falta, dulce dueño.</l>
+                  </div>
+               </div>
+
+               <div>
+                  <head type="primer_titulo">
+                     <lb/>CONTESTACION QUEJOSA <lb/><hi rend="negrita">DE LA DAMA A SU FINO
+                        AMANTE,</hi>
+                     <lb/>EN UNAS BONITAS DECIMAS. </head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Qué dirá el vulgo de mi!</l>
+                     <l>¿qué dirá la gente ahora?</l>
+                     <l>Ya no apetezco la vida,</l>
+                     <l>porque es vida sin honra.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Por las corrientes de un rio</l>
+                     <l>me arrojé con gran valor,</l>
+                     <l>sabiendo que iba mi amor</l>
+                     <l>se pultado en hielo frio;</l>
+                     <l>cabalgo con grande brio;</l>
+                     <l>le digo á mi amante así:</l>
+                     <l>¿Dónde estoy? ¡Triste de mí!</l>
+                     <l>pues me hallo en lo profundo,</l>
+                     <l>y si me quedo en el mundo</l>
+                     <l rend="cursiva">¿qué dira el vulgo de mí?</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Sigo al rio las corrientes</l>
+                     <l>si me llegan á faltar,</l>
+                     <l>¿quién alivio podrá dar</l>
+                     <l>á esta infeliz inocente?</l>
+                     <l>Perdí la luz refulgente</l>
+                     <l>que la niñez atesora,</l>
+                     <l>y con lágrimas implora</l>
+                     <l>mi afligido corazon,</l>
+                     <l>si me dás este baldon</l>
+                     <l rend="cursiva">¿qué dirá la gente ahora?</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Yo encendí en mi pecho fragua</l>
+                     <l>al ver tu fiero desvio,</l>
+                     <l>y en un cauteloso rio</l>
+                     <l>me llegó á anegar el agua:</l>
+
+                     <pb n="3" source="Moreno_107_3.jpg" facs="fedora_ug8109053/full/full/0/default.jpg"/>
+
+                     <l>permita el cielo que caigas</l>
+                     <l>en la cuenta que es debida,</l>
+                     <l>y sea feliz tu partida</l>
+                     <l>aunque sea yo desgraciada,</l>
+                     <l>que si quedo despreciada</l>
+                     <l rend="cursiva">ya no apetezco la vida.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Ya me veo desdeñada</l>
+                     <l>por haber sido constante;</l>
+                     <l>perdí el lucero brillante</l>
+                     <l>que me tenia alumbrada:</l>
+                     <l>soy infeliz, desdichada,</l>
+                     <l>muera, pues, vo sin demora,</l>
+                     <l>antes que en el mundo corra</l>
+                     <l>mi deshonra y tu partida,</l>
+                     <l>cien veces pierda la vida,</l>
+                     <l rend="cursiva">porque es vida sin honra.</l>
+                  </lg>
+               </div>
+
+               <div>
+                  <head rend="negrita" type="primer_titulo">SEGUNDA CARTA</head>
+                  <head rend="cursiva" type="subtitulo">
+                     <lb/>que escribe el galan á la dama despues de sus regreso dese <lb/>chándola
+                     por haberla encontrado de diferente modo que <lb/>cuando la dejó á su partida. </head>
+
+                  <lg rend="cursiva">
+                     <l rend="indent">Guitarra, cuando me fuí</l>
+                     <l>te dejé bien encordada.</l>
+                     <l>y ahora que he vuelto á venir</l>
+                     <l>te encuentro desbaratada.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Dónde está tu prima suave</l>
+                     <l>de tu sonora cancion?</l>
+                     <l>perdiste la condicion,</l>
+                     <l>¡qué lance tan dolorido!</l>
+                     <l>ya no se oye tu sonido</l>
+                     <l>¡triste é infeliz de mí!</l>
+                     <l>esto te lo digo á tí,</l>
+                     <l>porque el dolor me marchita,</l>
+                     <l>pues que te dejé sanita,</l>
+                     <l rend="cursiva">guitarra cuando me fuí.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">¿Dónde están las cuerdas suaves</l>
+                     <l>de tus sonoras canciones?</l>
+                     <l>perdiste las condiciones,</l>
+                     <l>¡que lance tan lamentable!</l>
+                     <l>ya tu fama no es notable</l>
+                     <l>ni menos acreditada,</l>
+                     <l>pues que te dejé templada</l>
+                     <l>y sé muy bien lo que pasa,</l>
+                     <l>que al dejarte yo en tu casa,</l>
+                     <l rend="cursiva">te dejé bien encordada.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Habiendo venido yo,</l>
+                     <l>con razon estoy quejoso;</l>
+                     <l>¿quién ha sido el codicioso</l>
+                     <l>que el entorchado rompió!</l>
+                     <l>¿quién fué, quién te maltrató?</l>
+                     <l>¿quién fué el que te puso así?</l>
+                     <l>cuando me ausenté de tí</l>
+                     <l>eras la insignia y la mapa,</l>
+                     <l>y te hallo rota la tapa,</l>
+                     <l rend="cursiva">ahora que he vuelto á venir.</l>
+                  </lg>
+
+                  <lg>
+                     <l rend="indent">Y en fin no me da cuidado,</l>
+                     <l>dejaremos la disputa,</l>
+                     <l>pues ya tú á mí no me gustas,</l>
+                     <l>ni para tocar rasgado;</l>
+                     <l>ya te miro en otro estado</l>
+                     <l>ya estás en otro poder,</l>
+                     <l>has perdido todo el ser</l>
+                     <l>de estar acondicionada,</l>
+                     <l>pues cuando te he vuelto á ver</l>
+                     <l rend="cursiva">te encuentro desbaratada.</l>
+                  </lg>
+               </div>
+
+               <div>
+                  <pb n="4" source="Moreno_107_4.jpg" facs="fedora_ug8107253/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="primer_titulo">
+                     <lb/>DESPEDIDA QUE HACE UN QUINTO A SU QUERIDA <lb/>Y LA CONTESTACION QUE ELLA
+                     LE DÁ. </head>
+
+                  <div>
+                     <head type="titulo_parte">DESPEDIDA.</head>
+
+                     <lg rend="cursiva">
+                        <l>Señora, ¡que sentimiento</l>
+                        <l>me causa mi despedida!</l>
+                        <l>me retiro descontento</l>
+                        <l>á sacrificar mi vida</l>
+                        <l>con el mayor sufrimiento.</l>
+                     </lg>
+
+                     <lg>
+                        <l>Como quinto me atormento</l>
+                        <l>al despedirme de tí,</l>
+                        <l>una distancia sin cuento</l>
+                        <l>nos espera: ¡ay de mi!</l>
+                        <l rend="cursiva">señora ¡quesentimiento! </l>
+                     </lg>
+
+                     <lg>
+                        <l>Ya se acerca mi salida,</l>
+                        <l>ya se llega mi hora mala,</l>
+                        <l>¡oh, hermosa prenda querida!</l>
+                        <l>mas susto que el de las balas</l>
+                        <l rend="cursiva">me causa mi despedida.</l>
+                     </lg>
+
+                     <lg>
+                        <l>Me quejo con fundamento</l>
+                        <l>de mi desgraciada suerte</l>
+                        <l>y es tan grande mi tormento</l>
+                        <l>que al irme para no verte,</l>
+                        <l rend="cursiva">me retiro descontento.</l>
+                     </lg>
+
+                     <lg>
+                        <l>Aunque otra cosa no diga</l>
+                        <l>que no me olvides te pido,</l>
+                        <l>y que por mí decidida</l>
+                        <l>esté, pues yo me retire</l>
+                        <l rend="cursiva">á sacrificar mi vida.</l>
+                     </lg>
+
+                     <lg>
+                        <l>Será grande mi tormento</l>
+                        <l>si yo llegara á saber,</l>
+                        <l>que en tu amor hay detrimento,</l>
+                        <l>lo demás lo llevaré</l>
+                        <l rend="cursiva">con el mayor sufrimiento</l>
+                     </lg>
+                  </div>
+
+                  <div>
+                     <head type="titulo_parte">CONTESTACION.</head>
+
+                     <lg rend="cursiva">
+                        <l rend="indent">Mi corázon harto siente</l>
+                        <l>al oir tus espresiones,</l>
+                        <l>no aflijas mi pecho ardiente,</l>
+                        <l>pues me gustan tus acciones</l>
+                        <l>como lo sabe tu gente.</l>
+                     </lg>
+
+                     <lg>
+                        <l rend="indent">Ha sido fatal tu suerte.</l>
+                        <l>razon tienes de quejarte,</l>
+                        <l>mucho sentiré el no verte,</l>
+                        <l>y pues debes ausentarte,</l>
+                        <l rend="cursiva">mi corazon harto siente.</l>
+                     </lg>
+
+                     <lg>
+                        <l rend="indent">Son todas mis opiniones</l>
+                        <l>las de firmemente amarte,</l>
+                        <l>yo no tendré mutaciones,</l>
+                        <l>y el corazon se me parte</l>
+                        <l rend="cursiva">al oir tus espresiones.</l>
+                     </lg>
+
+                     <lg>
+                        <l rend="indent">Mi cariño no consiente,</l>
+                        <l>por otro mudar amor,</l>
+                        <l>cumpliendo tu tiempo vente,</l>
+                        <l>yo te pido este favor,</l>
+                        <l rend="cursiva">no aflijas mi pecho ardiente.</l>
+                     </lg>
+
+                     <lg>
+                        <l rend="indent">Aunque tres mil ocasiones</l>
+                        <l>tuviera de pretendientes</l>
+                        <l>con muy buenas proporciones,</l>
+                        <l>á tí solo he de quererte,</l>
+                        <l rend="cursiva">pues me gustan tus acciones.</l>
+                     </lg>
+
+                     <lg>
+                        <l rend="indent">Te confieso francamente</l>
+                        <l>que te amo tan de veras</l>
+                        <l>y es mi amor tan impaciente,</l>
+                        <l>que por tí paso mil penas</l>
+                        <l rend="cursiva">como la sabe tu gente.</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>Imprenta de D. José Maria Moreno, Descalzas, núm. 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,463 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_105">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Los siete dolores que pasó María Santísima en la sacrada pasión y muerte de su
+               amantísimo hijo</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Los siete dolores que pasó Maria Santísima en la
+                     Sagrada Pasion y Muerte de su amantísimo Hijo.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (sin año): <ref target="Moreno_106.xml">moreno_106</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461542</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 114</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_105_1.xml" facs="fedora_ug8104403/418,96,916,1043/100,/0/default.jpg">grabado_m_105_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto"/>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104667/manifest">
+      <graphic url="fedora_ug8104403/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_105_1.jpg" facs="fedora_ug8104403/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 114.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">LOS SIETE DOLORES</hi>
+                  <lb/>que pasó Maria Santísima en la Sagrada Pasion y <lb/>Muerte de su amantísimo
+                  Hijo. </head>
+
+               <l rend="indent">Pecador, si á mis Dolores</l>
+               <l>quieres tener devocion,</l>
+               <l>yo te haré muchos favores,</l>
+               <l>y pondré mi intercesion</l>
+               <l>en favor de tus errores.</l>
+               <l rend="indent">Si siete dias cabales</l>
+               <l>en mis dolores contemplas,</l>
+               <l>ganarás para tus males.</l>
+               <l>sin número de indulgencias</l>
+               <l>ya plenarias ya parciales.</l>
+               <l rend="indent">No pienses que en escucharlos.</l>
+               <l>de paso, tendré yo gusto,</l>
+               <l>sino que has de contemplarlos.</l>
+               <l>con sentimiento, que es justo.</l>
+               <l>que me ayudes á pasarlos.</l>
+
+               <div>
+                  <head type="titulo_parte">PRIMER DOLOR.</head>
+
+                  <l rend="indent">Contempla en el primer dia,</l>
+                  <l>los filos de aguda espada</l>
+                  <l>que traspasó el alma mia,</l>
+                  <l>al escuchar declarada</l>
+                  <l>tan amarga profecía.</l>
+                  <l rend="indent">Como la ley lo ordenaba, </l>
+                  <l>presenté al templo mi Hijo,</l>
+                  <l>Simeon con gran contento</l>
+                  <l>en sus brazos lo tomaba,</l>
+                  <l>y estas palabras me dijo:</l>
+                  <l rend="indent">Señora, vuestro Hijo amado,</l>
+                  <l>hermoso y que tanto estimas,</l>
+                  <l>le verás, preso, azotado,</l>
+
+                  <pb n="2" source="Moreno_105_2.jpg" facs="fedora_ug8109892/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>y coronado de espinas,</l>
+                  <l>muriendo crucificado.</l>
+                  <l rend="indent">Si contemplas el dolor</l>
+                  <l>tan amargo que sentí</l>
+                  <l>con tan triste anunciacion,</l>
+                  <l>luego alcanzarás por mí</l>
+                  <l>del Salvador el perdon.</l>
+               </div>
+
+               <div>
+                  <head type="titulo_parte">SEGUNDO DOLOR.</head>
+
+                  <l rend="indent">En este dolor segundo</l>
+                  <l>para dar muerte á mi Hijo</l>
+                  <l>mandó Herodes, iracundo,</l>
+                  <l>degollar, segun él dijo,</l>
+                  <l>los inocentes del mundo.</l>
+                  <l rend="indent">Un ángel del Cielo vino</l>
+                  <l>y avisó á mi digno esposo,</l>
+                  <l>que emprendiésemos camino,</l>
+                  <l>que Herodes viene furioso</l>
+                  <l>con su ejército maligno.</l>
+                  <l rend="indent">Con qué angustia en mis brazos</l>
+                  <l>tomé á mi Hijo, y á Egipto</l>
+                  <l>nos fuimos en breve espacio</l>
+                  <l>yo y mi esposo, ¡qué conflicto!</l>
+                  <l>se hace el corazon pedazos.</l>
+                  <l rend="indent">Con la mayor precaucion</l>
+                  <l>sin un punto descansar,</l>
+                  <l>quebrantado el corazon,</l>
+                  <l>caminamos sin parar;</l>
+                  <l>contempla pues ¡qué afliccion!</l>
+                  <l rend="indent">A cada instante volvia</l>
+                  <l>la vista por si acaso</l>
+                  <l>el tirano nos seguia,</l>
+                  <l>desmayada á cada paso</l>
+                  <l>con mortales agonias.</l>
+                  <l rend="indent">De ladrones una escuadra</l>
+                  <l>nos salieron, y el mejor</l>
+                  <l>viendo lo que nos pasaba,</l>
+                  <l>movido á compasion</l>
+                  <l>nos ofreció su posada.</l>
+                  <l rend="indent">Si haces como aquel ladron</l>
+                  <l>compadécete de mí</l>
+                  <l>en tan amarga ocasion,</l>
+                  <l>que lo que haré yo por tí</l>
+                  <l>será alcanzarte el perdon.</l>
+               </div>
+
+               <div>
+                  <head type="titulo_parte">TERCER DOLOR.</head>
+
+                  <l rend="indent">El tercer dolor, tres dias</l>
+                  <l>tuve perdido á mi bien;</l>
+                  <l>contempla las agonias</l>
+                  <l>y asi llorarás tambien</l>
+                  <l>las crueles penas mias.</l>
+                  <l rend="indent">Yo y José mi esposo amado,</l>
+                  <l>con Jesus al templo fuimos</l>
+                  <l>los tres, y habiendo llegado,</l>
+                  <l>muy grande concurso vimos</l>
+                  <l>de gente allí congregados.</l>
+                  <l rend="indent">Una funcion grande habia,</l>
+                  <l>y cuando se hubo acabado</l>
+                  <l>yo del templo me salia,</l>
+                  <l>y José con gran cuidado</l>
+                  <l>por otra parte venia.</l>
+                  <l rend="indent">Encontrámonos los dos,</l>
+                  <l>preguntaba yo á José:</l>
+                  <l>¿dónde está el Hijo de Dios?</l>
+                  <l>me dijo: yo no lo sé,</l>
+                  <l>pues juzgué que iba con vos.</l>
+                  <l rend="indent">Allí el corazon partido</l>
+                  <l>con una angustia tan fuerte,</l>
+                  <l>quedé como sin sentido,</l>
+                  <l>llorando mi triste suerte</l>
+                  <l>al ver mi Jesus perdido.</l>
+                  <l rend="indent">Tres dias le fui buscando</l>
+                  <l>con sus noches, ¡qué tormento!</l>
+                  <l>vo y José mi esposo amado</l>
+                  <l>hasta que lo hayé en el templo</l>
+                  <l>con los sabios disputando.</l>
+                  <l rend="indent">Si á Jesus tienes perdido</l>
+                  <l>por tus culpas, ven á mí</l>
+                  <l>cuando te halles afligido,</l>
+                  <l>pues si lo haces así</l>
+                  <l>tendrás descanso cumplido.</l>
+               </div>
+
+               <div>
+                  <head type="titulo_parte">CUARTO DOLOR.</head>
+                  <l rend="indent">El cuarto dolor, fué cuando</l>
+                  <l>con la carga sin mensura</l>
+                  <l>ví á mi Hijo caminando</l>
+                  <l>por la calle de Amargura</l>
+                  <l>cada instante tropezando.</l>
+
+                  <pb n="3" source="Moreno_105_3.jpg" facs="fedora_ug8104673/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l rend="indent">Siendo la sentencia dada,</l>
+                  <l>vino Juan á mi retiro,</l>
+                  <l>y dándome la embajada</l>
+                  <l>dí un tremendo suspiro</l>
+                  <l>y me quedé desmayada.</l>
+                  <l rend="indent">Con valor que me dió el Cielo</l>
+                  <l>en dolor tan escesivo,</l>
+                  <l>caminaba con anhelo</l>
+                  <l>por ver á mi Hijo querido</l>
+                  <l>aflijida y sin consuelo.</l>
+                  <l rend="indent">Llegué á la calle cruel</l>
+                  <l>donde me paré á escuchar</l>
+                  <l>las voces de aquel tropel</l>
+                  <l>que clamaba sin cesar,</l>
+                  <l>todos blasfemando de él.</l>
+                  <l rend="indent">Las trompetas del pregon</l>
+                  <l>decian: muera el malvado,</l>
+                  <l>facineroso, ladron,</l>
+                  <l>y pague crucificado</l>
+                  <l>su infame predicacion.</l>
+                  <l rend="indent">Rompí por entre la gente,</l>
+                  <l>con mi Hijo me abrazaba,</l>
+                  <l>y le hablé interiormente</l>
+                  <l>con la garganta anudada</l>
+                  <l>por el dolor mas vehemente.</l>
+                  <l rend="indent">Si aqueste amargo dolor</l>
+                  <l>imprimes en tu memoria,</l>
+                  <l>te aseguro, pecador,</l>
+                  <l>que será para tu gloria</l>
+                  <l>prenda de inmenso valor.</l>
+               </div>
+
+               <div>
+                  <head type="titulo_parte">QUINTO DOLOR.</head>
+
+                  <l rend="indent">El quinto dolor penoso</l>
+                  <l>es digno de contemplar,</l>
+                  <l>cuando á mi Hijo precioso</l>
+                  <l>lo vide crucificar</l>
+                  <l>en la cruz como alevoso.</l>
+                  <l rend="indent">Subidos á la montaña</l>
+                  <l>del Calvario, por despojo</l>
+                  <l>le arrancaban con ira y saña,</l>
+                  <l>al lucero de mis ojos,</l>
+                  <l>la túnica que llevaba.</l>
+                  <l rend="indent">Cuando le ví despojado,</l>
+                  <l>renovadas sus heridas,</l>
+                  <l>todo el Cuerpo destrozado,</l>
+                  <l>crecieron las penas mias</l>
+                  <l>al verle tan mal tratado.</l>
+                  <l rend="indent">Que se tendiese mandaron</l>
+                  <l>en la cruz, y con paciencia</l>
+                  <l>hizo lo que le ordenaron,</l>
+                  <l>y con tirana inclemencia</l>
+                  <l>pies y manos le clavaron.</l>
+                  <l rend="indent">Y despues la cruz volvieron</l>
+                  <l>aquellos soyones bravos,</l>
+                  <l>su santa Faz traspusieron</l>
+                  <l>y remacharon los clavos,</l>
+                  <l>con que mis penas crecieron.</l>
+                  <l rend="indent">Despues que aquellos sayones</l>
+                  <l>la santa cruz levantaron,</l>
+                  <l>con blasfemias y baldones</l>
+                  <l>él santo Cuerpo dejaron</l>
+                  <l>en medio de dos ladrones.</l>
+                  <l rend="indent">Si tan amargo dolor</l>
+                  <l>te detienes á pensar,</l>
+                  <l>compadeciendo mi suerte,</l>
+                  <l>yo te prometo ayudar</l>
+                  <l>en las áncias de la muerte.</l>
+               </div>
+
+               <div>
+                  <head type="titulo_parte">SESTO DOLOR.</head>
+
+                  <l rend="indent">El sesto con tiernos lazos,</l>
+                  <l>al Hijo de mis entrañas,</l>
+                  <l>difunto y hecho pedazos</l>
+                  <l>por tan malignas hazañas,</l>
+                  <l>me lo ponen en mis brazos.</l>
+                  <l rend="indent">Dos santos varones vieron</l>
+                  <l>mi tristeza y amargura,</l>
+                  <l>á Pilatos le pidieron</l>
+                  <l>para darle sepultura</l>
+                  <l>al cuerpo, y la consiguieron.</l>
+                  <l rend="indent">Oh! luego que desclavaron</l>
+                  <l>el Cadáver sacrosanto</l>
+                  <l>y en mis brazos lo dejaron,</l>
+                  <l>con un lienzo limpio y blanco</l>
+                  <l>al punto lo amortajaron.</l>
+                  <l rend="indent">Con ungüentos olorosos</l>
+                  <l>que prevenidos traian,</l>
+
+                  <pb n="4" source="Moreno_105_4.jpg" facs="fedora_ug8107304/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>le unjieron estos piadosos</l>
+                  <l>varones, que me asistian</l>
+                  <l>en trance tan congojoso.</l>
+                  <l rend="indent">Yo que le estaba mirando</l>
+                  <l>de los pies á la cabeza,</l>
+                  <l>mi dolor siempre avivando,</l>
+                  <l>con una amarga tristeza</l>
+                  <l>le decia suspirando:</l>
+                  <l rend="indent">Hijo mio muy amado,</l>
+                  <l>¡quién os coronó de espinas</l>
+                  <l>y os abrió este costado</l>
+                  <l>y estas manos tan divinas,</l>
+                  <l>y vuestros pies taladrados?</l>
+                  <l rend="indent">Si aqueste dolor tan fuerte</l>
+                  <l>contemplas, dejando el vicio,</l>
+                  <l>de lo que Dios te haga cargo</l>
+                  <l>en el dia del Juicio,</l>
+                  <l>yo haré por tí el descargo.</l>
+               </div>
+
+               <div>
+                  <head type="titulo_parte">SÉTIMO DOLOR.</head>
+
+                  <l rend="indent">¡Oh qué angustia, pecador!</l>
+                  <l>¡oh qué dolor tan prolijo!</l>
+                  <l>¡oh qué pena sin igual</l>
+                  <l>es el verme sin mi Hijo,</l>
+                  <l>y el no poderle abrazar!</l>
+                  <l rend="indent">Los barones, con quebranto</l>
+                  <l>me decian: gran Señora,</l>
+                  <l>no os entregueis al llanto,</l>
+                  <l>que ya ha llegado la hora</l>
+                  <l>de su entierro sacrosanto.</l>
+                  <l rend="indent">Mitigad tanto tormento,</l>
+                  <l>cese ya esa pena dura,</l>
+                  <l>dadnos el Cuerpo sangriento</l>
+                  <l>para darle sepultura</l>
+                  <l>en un nuevo monumento.</l>
+                  <l rend="indent">Pero yo aunque agradecia</l>
+                  <l>fineza tan amorosa,</l>
+                  <l>dando á mi Hijo les decia:</l>
+                  <l>tomad esta prenda hermosa</l>
+                  <l>que otra igual no se hallaria.</l>
+                  <l rend="indent">San Juan y la Magdalena</l>
+                  <l>me llevaron en sus brazos;</l>
+                  <l>todos cargados de pena</l>
+                  <l>fuimos siguiendo los pasos</l>
+                  <l>donde el sepulcro se ordena.</l>
+                  <l rend="indent">Llegamos al monumento</l>
+                  <l>donde con piedad honrosa,</l>
+                  <l>depositason el Cuerpo</l>
+                  <l>tapándole con la losa;</l>
+                  <l>¡contemplad mi sentimiento!</l>
+                  <l rend="indent">Triste está la Vírgen pura</l>
+                  <l>aquel sepulcro mirando,</l>
+                  <l>cual jamás vió criatura,</l>
+                  <l>á su Hijo contemplado</l>
+                  <l>con tal dolor y amargura.</l>
+                  <l rend="indent">Está viva y sepultada,</l>
+                  <l>está muerta y tiene vida,</l>
+                  <l>está llagada y herida</l>
+                  <l>viendo muerto y destrozado</l>
+                  <l>al que era su luz querida.</l>
+                  <l rend="indent">Todas estas siete espadas</l>
+                  <l>pasaron su corazon,</l>
+                  <l>si de tí son contempladas,</l>
+                  <l>gozarás el galardon</l>
+                  <l>en la Celestial morada.</l>
+                  <l rend="indent">Aflijida Madre mia</l>
+                  <l>ya siento veros penar,</l>
+                  <l>y por si os puedo aliviar</l>
+                  <l>rezaré una Ave-María.</l>
+               </div>
+
+               <div>
+                  <head rend="negrita" type="titulo_parte">ACTO DE CONTRICION.</head>
+                  <p>
+                     <lb rend="indent"/>Afligidisima Madre de Dios y Señora mia, de todo mi corazon
+                     me pesa de haber <lb/>ofendido á tu amantisimo Unígénito Hijo, mí Señor
+                     Jesucristo, viendo que los gol. <lb/>pes que dieron mis culpas en su Cuerpo,
+                     han sido penetrantes cuchillos que atra- <lb/>viesan tu corazon. ¡Oh Madre
+                     llena de Dolores! me pesa de haberos ofendido, y pro- <lb/>pongo de nunca mas
+                     pecar, rogándote me alcances la gracia de cumplirlo y el per. <lb/>don que
+                     espero mediante tu piadosa intercesion. </p>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <l>Reimpreso en Carmona:—Imp. y lib. de D. José M. Moreno.</l>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

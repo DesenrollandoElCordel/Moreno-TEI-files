@@ -1,0 +1,1069 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_116">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sainete nuevo titulado La estatua fingida o Jorge el Sagristán</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete nuevo titulado: La estatua fingida ó Jorge
+                     el Sagristan.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1864-01-01">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6470565</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 124</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="3">Tres grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_116_1.xml" facs="fedora_ug8104857/274,296,428,865/100,/0/default.jpg">grabado_m_116_1</item>
+                           <item corresp="grabado_m_116_2.xml" facs="fedora_ug8104857/697,594,463,555/100,/0/default.jpg">grabado_m_116_2</item>
+                           <item corresp="grabado_m_116_3.xml" facs="fedora_ug8104857/1159,333,375,816/100,/0/default.jpg">grabado_m_116_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-17" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-29" who="#EL">Correction de l'OCR</change>
+         <change when="2021-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105279/manifest">
+      <graphic url="fedora_ug8104857/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_116_1.jpg" facs="fedora_ug8104857/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Número 124.</fw>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">SAINETE NUEVO</hi>
+               <lb/>TITULADO: <lb/><hi rend="negrita">LA ESTATUA FINGIDA</hi>
+               <lb/>Ó <lb/><hi rend="negrita">JORGE EL SAGRISTAN.</hi>
+            </head>
+
+            <div type="colofon">
+               <p>
+                  <lb/><hi rend="cursiva">CARMONA</hi>:—1864. <lb/>Imp. de D. José María Moreno,
+                  calle de Madre de Dios. </p>
+            </div>
+
+            <div>
+               <pb n="2" source="Moreno_116_2.jpg" facs="fedora_ug8109763/full/full/0/default.jpg"/>
+
+               <head type="reparto_titulo">PERSONAS.</head>
+               <castList>
+                  <castItem>ANTON, <hi rend="cursiva">esposo de</hi></castItem>
+                  <castItem>GILA.</castItem>
+                  <castItem>SACRISTAN.</castItem>
+                  <castItem>ALCALDE.</castItem>
+                  <castItem>PAYOS.</castItem>
+               </castList>
+            </div>
+
+            <div>
+               <pb n="3" source="Moreno_116_3.jpg" facs="fedora_ug8104540/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="subtitulo">
+                  <lb/>LA ESTATUA FINGIDA <lb/>O <lb/>JORGE EL SACRISTAN. </head>
+
+               <stage rend="cursiva">La escena presentará una casa pobre.</stage>
+
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>La mujer que es desdichada</l>
+                  <l>nunca habia de nacer,</l>
+                  <l>y mas cuando viene á ser</l>
+                  <l>por desdicha mal casada.</l>
+                  <l>Dígalo, triste de mi,</l>
+                  <l>que despues que me he casado</l>
+                  <l>jamás un dia he logrado</l>
+                  <l>de placer no le hay en mi.</l>
+                  <l>Casáronme á mi disgusto</l>
+                  <l>con un hombre que es arriero,</l>
+                  <l>y del cual, aunque no quiero,</l>
+                  <l>hago por fuerza su gusto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dent. Anton.</speaker>
+                  <l>Jò, mula de barrabás,</l>
+                  <l>voto á ños.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Que lindo entretenimiento!</l>
+                  <l>con la mula riñe ahora.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dentro Anton.</speaker>
+                  <l>Ah, mujer!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Qué quereis marido?</l>
+                  <l>Oh que carga tan pesada</l>
+                  <l>es tener marido loco!</l>
+                  <l>que es mucho, aunque pese poco</l>
+                  <l>cuando la carga es pesada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dent. Anton.</speaker>
+                  <l>Ah, mujer del diablo!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Qué quereis, marido?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Anton.</speaker>
+                  <l>Qué comamos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila</speaker>
+                  <l>Y que habeis traido</l>
+                  <l>para que comer podamos!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Qué siempre lo he de traer?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Y yo, mezquina de mi,</l>
+                  <l>de donde lo he de sacar</l>
+                  <l>si vos no me lo traeis?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Ola, digo, Gila mia,</l>
+                  <l>aquellas tripas y pies</l>
+                  <l>que ayer trajo el carnicero,</l>
+                  <l>no las podemos oler?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila</speaker>
+                  <l>(Triste de mi, y desdichada!</l>
+                  <l>Por donde llegó á saber</l>
+                  <l>una cosa tal, señores?)</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Qué decis? no respondeis?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Lo que yo digo y respondo,</l>
+                  <l>que loco debeis de ser,</l>
+                  <l>pues tal cosa yo no he visto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Y viste acaso, mujer,</l>
+                  <l>la cestilla que te trajo</l>
+                  <l>el Sacristan, y despues</l>
+                  <l>que yo me fui merendasteis</l>
+                  <l>con muchísimo placer?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Qué Sacristan, ni que acá?</l>
+                  <l>(Algun diablo debe ser,</l>
+                  <l>pues sabe todo lo que hago.)</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Comamos, que se yo que</l>
+                  <l>teneis algo reservado,</l>
+                  <l>porque quiero ir á traer</l>
+                  <l>la talega del molino</l>
+                  <l>porque tengais que comer.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Por no oir tan mala lengua,</l>
+
+                  <pb n="4" source="Moreno_116_4.jpg" facs="fedora_ug8108724/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>aunque lo hurte lo haré,</l>
+                  <l>y comas aunque revientes. <stage rend="cursiva">Vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Por siempre jamás amen.</l>
+                  <l>Ahora vamos á zampar,</l>
+                  <l>que despues yo lo diré. <stage rend="cursiva">Vase.</stage></l>
+               </sp>
+
+               <stage rend="cursiva">Sale el Sacristan.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Sacristan.</speaker>
+                  <l>Si no me engaña el oido,</l>
+                  <l>he sentido un no sé qué....</l>
+                  <l>que Anton gruñe, y que mi Gila</l>
+                  <l>enojadita se fué.</l>
+                  <l>Cielos si habrá barruntado</l>
+                  <l>el que yo la quiero bien! </l>
+                  <l>Pero no, que ya he entendido</l>
+                  <l>que disimulada es.</l>
+                  <l>Ay amor! ay Gila mia!</l>
+                  <l>cuando te podrè ver,</l>
+                  <l>para decirte mil cosas,</l>
+                  <l>mi consuelo, mi sarten,</l>
+                  <l>mis alforjas, mis morcillas,</l>
+                  <l>mis talones y mis pies!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dentro Anton</speaker>
+                  <l>Gila, au?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Esto es peor;</l>
+                  <l>cuerpo de crispo, qué haré?</l>
+                  <l>Si saliere y me encontrare,</l>
+                  <l>le diré...Qué le diré?</l>
+                  <l>que vengo; mas si me voy, </l>
+                  <l>él no me ha de conocer?</l>
+                  <l>Diréle que soy su amigo</l>
+                  <l>y haré por huir despues.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dent. Anton.</speaker>
+                  <l>Ha mujer!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr,</speaker>
+                  <l>Ay! por mi vida</l>
+                  <l>si entro me beso con él.</l>
+                  <l>Que no hay cama ni mesa</l>
+                  <l>donde me pueda esconder;</l>
+                  <l>ni para saltar la ventana!</l>
+                  <l>mas aquí puerta se vé:</l>
+                  <l>á ver si puedo escapar.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dent. Ant.</speaker>
+                  <l>La burra albarda, mujer,</l>
+                  <l>mira que se hace tarde.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Algun diablo debe ser,</l>
+                  <l>pues se mete en todas partes</l>
+                  <l>como aguja de coser.</l>
+                  <l>Quien fuera tan chiquitito</l>
+                  <l>que no se pudiera ver!</l>
+                  <l>pero entre esas cortinas</l>
+                  <l>oculto me he de poner. <hi rend="cursiva">Vase.</hi></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Ant.</speaker>
+                  <l>Ya á Dios gracias he zan-<add place="debajo">(pado,</add></l>
+                  <l>muy bien, y tengo de ver</l>
+                  <l>si mi mujer es honrada,</l>
+                  <l>que el guisadillo pardiez</l>
+                  <l>que estaba bien sazonado,</l>
+                  <l>mas no se para quien.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Gila.</speaker>
+                  <l>La comida que tenia</l>
+                  <l>para mi querido bien</l>
+                  <l>se la zampó este salvaje:</l>
+                  <l>y estando harto como un buey,</l>
+                  <l>que se esté con tanta flema!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Mujer, yo voy al molino,</l>
+                  <l>y si puedo: vuelvo luego,</l>
+                  <l>y entre tanto; mujer mia,</l>
+                  <l>la castidad te encomiendo. <stage rend="cursiva">Vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Que pension que desdichada</l>
+                  <l>es tener marido necio!</l>
+                  <l>Andad, marido con Dios,</l>
+                  <l>que haré por vos lo que debo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Eus, eus, eus.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Quién es eus, eus?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Eus: Gila mia eus,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila</speaker>
+                  <l>Quién es eus?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Ego sum, no te alborotes.</l>
+                  <l>Possum salire?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila,</speaker>
+                  <l>Bien puedes.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Sacr.</speaker>
+                  <l>Domina y mas que do-<add place="debajo">(mina,</add></l>
+                  <l>salúdote con salvado</l>
+                  <l>de garbanzos, pie quebrado,</l>
+                  <l>redonda, redondita,</l>
+                  <l>como una pepita.</l>
+                  <l>Yo, señorita, me muero,</l>
+                  <l>siempre que en tí pensar quiero</l>
+
+                  <pb n="5" source="Moreno_116_5.jpg" facs="fedora_ug8110200/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
+                  <l>yo soy gato de enero, que todo <add place="debajo">lo ando,</add></l>
+                  <l>saltando y bailando</l>
+                  <l>por la vuestra puerta,</l>
+                  <l>cerrada y habierta,</l>
+                  <l>de noche y de dia, abre María,</l>
+                  <l>y porque concluya,</l>
+                  <l>aleluya, aleluya, aleluya.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Señor Sacristan?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Soy astro, galan ruñian de <add place="debajo">amor</add></l>
+                  <l>que me dais calor:</l>
+                  <l>pifano soy, y tambor:</l>
+                  <l>pelaire y tundidor, señora galana</l>
+                  <l>debajo de la sotana traigo lana,</l>
+                  <l>que raida á tu servicio</l>
+                  <l>estoy fuera de juicio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Quita allá, para que es eso?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Porque beso y rebeso</l>
+                  <l>la carne y el hueso</l>
+                  <l>que en ese pecho se encierra:</l>
+                  <l>beso la florida tierra</l>
+                  <l>que trae sobre sí tal peso.</l>
+                  <l>Beso, como es de razon,</l>
+                  <l>los sentidos corporales,</l>
+                  <l>pero no los albañales</l>
+                  <l>que mis enemiges son.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gild.</speaker>
+                  <l>Hay mas?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Y menos;</l>
+                  <l>relámpagos y truenos</l>
+                  <l>caigan de arriba y yo no viva,</l>
+                  <l>ni mi sotana ni mi manteo:</l>
+                  <l>ay! que me bamboleo, me bam-<add place="debajo">(boleo.</add></l>
+                  <l>Ves aquí este Sacristan</l>
+                  <l>hecho por tí un estropajo,</l>
+                  <l>calle arriba, calle abajo</l>
+                  <l>donde mis deseos van?</l>
+                  <l>Pues no hay cosa como ver,</l>
+                  <l>si el cielo quiere llover,</l>
+                  <l>levantarme de mañana,</l>
+                  <l>remangarme la sotana</l>
+                  <l>y el badajo á la campana,</l>
+                  <l>toco y repico con lindo son:</l>
+                  <l>din, din, don, don.</l>
+                  <l>Ay mi sotana; ay mi manteo!</l>
+                  <l>ay que me bamboleo, me bam-<add place="debajo">(boleo,</add></l>
+                  <l>loco, repico y repicoleo á buen son</l>
+                  <l>din, don, din, don din, don,</l>
+                  <l>guilindin, gulindin, guilindon.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Sacristan de mi alma</l>
+                  <l>Sacristan mio,</l>
+                  <l>señor de mis acciones y alvedrío,</l>
+                  <l>causa de mis pesares y mis celos?</l>
+                  <l>ocasion de mis llantos y desvelos,</l>
+                  <l>mas para que me canso de este <add place="debajo">modo?</add></l>
+                  <l>si de todas mis prendas eres todo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dent, Ant.</speaker>
+                  <l>Ah, mujer del demonio!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Válgame san Anton, y que <add place="debajo">asustado!</add></l>
+                  <l>por Orfeo que todo me he meado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dentr. Ant.</speaker>
+                  <l>Ah, mujer!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Ay infeliz!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Ay de mi desdichado!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dent. Ant.</speaker>
+                  <l>No abres Gila esa puer-<add place="debajo">(ta.</add></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Por esta puede entrar,</l>
+                  <l>que ya está abierta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Sacristan de mi vida</l>
+                  <l>ahora es tiempo</l>
+                  <l>de que salga ya á luz</l>
+                  <l>tu entendimiento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Que traza buscaremos ó que <add place="encima">modo</add></l>
+                  <l>para librarnos de ese toro</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Uno ya he discurrido.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Dilo: no tardes tanto</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Que puesto en esa mesa</l>
+                  <l>hagas el santo,</l>
+                  <l>y mirándote yo estaré elevada;</l>
+                  <l>el no haber respondido á mi <add place="debajo">marido</add></l>
+
+                  <pb n="6" source="Moreno_116_6.jpg" facs="fedora_ug8110004/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>ésta conocerá la causa ha sido,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Pero y si me conoce?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Ay que sale! ponte de santo,</l>
+                  <l>y quédate muy grave</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Pónese en la mesa y Gila se <lb/>Arrodilla. </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Sale Ant,</speaker>
+                  <l>Vive brios que ya he sal-<add place="debajo">(tado</add></l>
+                  <l>por las tapias del corral:</l>
+                  <l>y mi mujer no parece!</l>
+                  <l>malo, malo, aqui trampa hay.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Lleguen á tí mis suspiros.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ant.</speaker>
+                  <l>Que es lo que mira! ay, ay, ay.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Ay del Sacristan si embiste!</l>
+                  <l>Santiago, y quédate allá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Tanta merced, santo mio?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Pardiobre elevada está:</l>
+                  <l>á qué santo se encomienda</l>
+                  <l>que nunca he visto este altar?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Amen, amen, que cegarás,</l>
+                  <l>y que no le vieras mas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>En grande peligro estamos</l>
+                  <l>sino usas de piedad.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Pardiobre, que Gila es san-<add place="debajo">(ta,</add></l>
+                  <l>miren con cuanta amistad</l>
+                  <l>ruega á Dios por mi y por ella</l>
+                  <l>que nos quiera perdonar.</l>
+                  <l>Que haya lengüas tan malditas</l>
+                  <l>que me vengan á contar</l>
+                  <l>que á mi mujer la festejan</l>
+                  <l>el Cortante, y Sacristan!</l>
+                  <l>Mujeres de los, dimoños,</l>
+                  <l>si de santas murmurais,</l>
+                  <l>qué hareis de los que son malas?</l>
+                  <l>Perdon quiero demandar</l>
+                  <l>de mis juicios temerarios.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Ay, que se acerca, san Blas!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Piedad, piedad, sunto mio!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>No te puedo hija ayudar,</l>
+                  <l>que aunque soy santo viejo,</l>
+                  <l>estoy muerto de pesar.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Mas parece la interumpo</l>
+                  <l>la oracion: yo quiero entrar</l>
+                  <l>y examinar la conciencia</l>
+                  <l>que me quiero confesar.</l>
+                  <l>Mas que le pediré al santo</l>
+                  <l>en lance y aprieto tal?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Que te vayas al infierno,</l>
+                  <l>y que no vuelvas de allá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Por siempre jamás amen,</l>
+                  <l>por toda una eternidad.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Muchos años, Gila mia,</l>
+                  <l>que puedas por mi rogar.</l>
+                  <l>Los ojos quiero volver.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>En blanco que fuera ya.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Que haré yo! tríste de mí!</l>
+                  <l>que no me atrevo á mirar</l>
+                  <l>en mi mujer tal virtud,</l>
+                  <l>y tan grade santidad?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Harto será si en mi vida</l>
+                  <l>no me ves canonizar.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Ese temo yo á fé mia;</l>
+                  <l>y mas que se acerca ya.</l>
+                  <l>Cuerpo de Crispo conmigo:</l>
+                  <l>vade retro Satanás.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Cielos, quien vió tal virtud!</l>
+                  <l>miren que elevada está! </l>
+                  <l>mas lo que yo dudo, es,</l>
+                  <l>aquel santo quien serà.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Vive Crispo, soy perdido</l>
+                  <l>sí me quiere brujulear,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Si el ingenio no nos vale,</l>
+                  <l>volados estamos ya.</l>
+                  <l>No soy digna, santo mio,</l>
+                  <l>que me quereis abrazar;</l>
+                  <l>basta que los pies os bese.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr</speaker>
+                  <l>No te basta, Gila tal.</l>
+                  <l>Ea, levanta á mis brazos,</l>
+                  <l>que es un rasguño no mas</l>
+
+                  <pb n="7" source="Moreno_116_7.jpg" facs="fedora_ug8104067/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>de lo mucho que te quiero</l>
+                  <l>llegarte ahora á abrazar.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Esto mas miran mis ojos!</l>
+                  <l>Jesus, Jesus: quien viò tal!</l>
+                  <l>Hay virtud como la suya</l>
+                  <l>en toda la cristiandad?</l>
+                  <l>Ah! quien fuera como tu</l>
+                  <l>para tal dicha lograr!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Si yo te viera en mis brazos,</l>
+                  <l>no sé si habláras mas.</l>
+                  <l>Vuelve otra vez, hija mia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Otra vez? ay, ay, ay, ay!</l>
+                  <l>Hoy me quedo yo sin Gila,</l>
+                  <l>que á la gloria se me vá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Basta, basta, santo mio,</l>
+                  <l>santo mio, harto hay,</l>
+                  <l>que el corazon en el pecho</l>
+                  <l>de gozo se sale ya.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Vaya, yo voy á decirle</l>
+                  <l>á toda la vecindad</l>
+                  <l>lo que en mi casa sucede,</l>
+                  <l>porque venga á admirar</l>
+                  <l>la virtud de mi mujer,</l>
+                  <l>y la grande caridad</l>
+                  <l>de este santo aparecido.</l>
+                  <l>Quiero yo que á pasear</l>
+                  <l>lesaquen por todo el pueblo. <hi rend="cursiva">vase.</hi></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Gila se ha marchado ya.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Si, Sacristan de mi vida.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Pues me voy á marchar:</l>
+                  <l>dame un abrazo, mis ojos.</l>
+                  <l>Reparatur, otro mas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gíl.</speaker>
+                  <l>Toma aun que sean seiscientos,</l>
+                  <l>y cuida de no faltar.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dentro voces.</speaker>
+                  <l>El santo vamos á ver.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Otros.</speaker>
+                  <l>Viva su paternidad</l>
+                  <l>por los siglos de los siglos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Ay, que no puedo escapar!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Pues vuelva otra vez el santo:</l>
+                  <l>y el chasco será engañar</l>
+                  <l>á la junta de patanes</l>
+                  <l>que Anton trae alborotada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>No me alboroten á mi</l>
+                  <l>con una lluvia cerrada</l>
+                  <l>de estacazos, si á oler llegan</l>
+                  <l>que soy Jorge el Sacristan.</l>
+
+                  <stage rend="cursiva">Salen los Payos y Anton.</stage>
+                  <stage rend="cursiva">Cantan.</stage>
+
+                  <l>Viva Anton Chaparro,</l>
+                  <l>Viva nuestro pueblo,</l>
+                  <l>Que goza favores</l>
+                  <l>Y dichas sin tiento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Unos.</speaker>
+                  <l>Que viva el aparecido.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Otros.</speaker>
+                  <l>Vamos con él por el pueblo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Eso no hay que pensarlo,</l>
+                  <l>que yo á mi santo no quiero</l>
+                  <l>que se aparte de mi casa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Calla mujer, que yo, luego</l>
+                  <l>te lo volveré a traer.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Todos así lo ofrecemos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Vamos, muchachos, llegad.</l>
+                  <l>y todos con mucho tiento</l>
+                  <l>levantad, se nos quiebre</l>
+                  <l>si vá de cabeza al suelo,</l>
+                  <l>todos á una, cuidado,</l>
+                  <l>y sea alegres diciendo:</l>
+                  <l>que viva el santo y reviva.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Tocan, y le pasean. <lb/>Sale el Alcalde. </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Alcalde.</speaker>
+                  <l>Ah salvajes! que es esto?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Señor Alcalde, llegad,</l>
+                  <l>vereis el parecimiento</l>
+                  <l>que me he encontrado en mi casa:</l>
+                  <l>yo estoy lelo de contento,</l>
+
+                  <pb n="8" source="Moreno_116_8.jpg" facs="fedora_ug8103706/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>este santo á mi mujer</l>
+                  <l>ha venido á dar consuelo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Alc.</speaker>
+                  <l>Que santo ni que matraca;</l>
+                  <l>brutos, salvajes, jumentos,</l>
+                  <l>no veis que es el Sacristan?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Y que se parece es cierto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Alc.</speaker>
+                  <l>No á de parecer si es él:</l>
+                  <l>y para dar escarmiento</l>
+                  <l>á tan gran bellaqueria,</l>
+                  <l>y el chasco que nos ha hecho,</l>
+                  <l>sin detenerse, muchachos,</l>
+                  <l>con los garrotes de recio</l>
+                  <l>descargar en sus costillas</l>
+                  <l>aquestos robustos leños,</l>
+                  <l>y escarmentará otra vez</l>
+                  <l>de alborotarnos el pueblo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Tened la accion, y escuchad</l>
+                  <l>lá verdad de este suceso. <stage rend="cursiva">Baja.</stage></l>
+                  <l>Pasando por este barrio</l>
+                  <l>y esta casa, en que de asiento</l>
+                  <l>ocupa Gila preciosa,</l>
+                  <l>para ver de esta el gracejo</l>
+                  <l>me introduje; y de allí á poco</l>
+                  <l>vimos á Anton que suspenso</l>
+                  <l>venia; y cuando llamò</l>
+                  <l>hicimos ambos concierto</l>
+                  <l>(por ver por donde salia</l>
+                  <l>con su genio majadero)</l>
+                  <l>de pegarle este petardo</l>
+                  <l>solo por divertimiento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Es constante: y tambien lo es</l>
+                  <l>el fin honesto y sincero</l>
+                  <l>de mi arreglada conducta,</l>
+                  <l>como de mí Anton lo necio,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Alc.</speaker>
+                  <l>Pues en tal caso, Señores,</l>
+                  <l>retirémonos, y atentos</l>
+                  <l>á que solo ha sido chasco</l>
+                  <l>y puro divertimiento.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Sacr.</speaker>
+                  <l>Ya la fiesta ha concluido,</l>
+                  <l>y si todas las mujeres</l>
+                  <l>son tan falsas y embusteras,</l>
+                  <l>¡pobres maridos, pobres maridos!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gila.</speaker>
+                  <l>Válgate eso, eso te valga:</l>
+                  <l>sino, llevas una tunda,</l>
+                  <l>que en tres meses no te cura</l>
+                  <l>el barbero de la plaza.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Anton.</speaker>
+                  <l>Despejar podeis, señores;</l>
+                  <l>ya la cosa está aclarada.</l>
+                  <l>El susto no ha sido nada.</l>
+                  <l>Adios, adios, mis señores.</l>
+               </sp>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

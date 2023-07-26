@@ -1,0 +1,747 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_054">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Casamiento entre dos damas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Casamiento entre dos damas. Nueva relacion en que se
+                     refieren los raros sucesos de una Señora natural de la córte de Viena; y la
+                     fortuna que tuvo, habiéndose salido de su patria disfrazada en busca de un
+                     amante.</title>
+                  <title type="titulo_breve">Casamiento entre dos damas</title>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (sin año): <ref target="Moreno_055.xml">Moreno_055</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6452349</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte. En que se finalizan los varios sucesos de Doña Gertrudis,
+                        con el más raro caso que han visto los nacidos.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_054_1.xml" facs="fedora_ug8109964/230,350,1151,874/100,/0/default.jpg">grabado_m_054_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4857424.html" type="tipo_texto">Relaciones de sucesos</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-03" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105219/manifest">
+      <graphic url="fedora_ug8109964/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_054_1.jpg" facs="fedora_ug8109964/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 65.)</fw>
+
+               <head rend="negrita" type="primer_titulo">CASAMIENTO ENTRE DOS DAMAS.</head>
+               <head type="subtitulo">
+                  <lb/>NUEVA RELACION EN QUE SE REFIEREN LOS RAROS SUCESOS DE UNA <hi rend="cursiva"><lb/>Señora natural de la córte de Viena; y la fortuna que tuvo, habiéndose
+                     <lb/>salido de su patria disfrazada en busca de un amante.</hi>
+               </head>
+
+               <div n="1" type="parte">
+                  <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">En la córte mas suprema,</l>
+                  <l>en la mas luciente alcázar</l>
+                  <l>que guarnece el claro Febo</l>
+                  <l>con sus taréas diarias:</l>
+                  <l>en esta hermosa palestra,</l>
+                  <l>que hacen flores sus campañas,</l>
+                  <l>formando cuadros amenos</l>
+                  <l>con diversidad de plantas,</l>
+                  <l>conjunto de varias flores</l>
+                  <l>que hacen tegidas guirnaldas:</l>
+                  <l>en este referido asiento,</l>
+                  <l>en este <hi rend="cursiva">non plus</hi> ó mapa,</l>
+                  <l>que es la ciudad de Viena,</l>
+                  <l>capital insigne de Austria.</l>
+                  <l>donde el grande emperador,</l>
+                  <l>columna de la fe santa,</l>
+                  <l>tiene su solio y asiento</l>
+                  <l>con magestad soberana:</l>
+                  <l>en la mensionada córte,</l>
+                  <l>de sangre calificada,</l>
+                  <l>nació una hermosa doncella</l>
+                  <l>con la cual la mano sacrá</l>
+                  <l>se esmeró en dar pefecciones</l>
+                  <l>desde el cabello á la planta,</l>
+                  <l>pues parecia á la vista</l>
+                  <l>una beldad mas que humana.</l>
+                  <l>Fuese criando este hechizo</l>
+                  <l>con politica enseñanza,</l>
+
+                  <pb n="2" source="Moreno_054_2.jpg" facs="fedora_ug8108910/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>con muchas habilidades</l>
+                  <l>de letras y leguas varias.</l>
+                  <l>Era el imán del amor,</l>
+                  <l>la enmulacion de las damas;</l>
+                  <l>diez y ocho años tenia,</l>
+                  <l>edad florida y gallarda,</l>
+                  <l>cuando de muchos Adonis</l>
+                  <l>se veia idolatrada.</l>
+                  <l>Constante se defendia,</l>
+                  <l>hasta que llegó la aljava</l>
+                  <l>de Cupido, y la tiró</l>
+                  <l>una flecha con tal maña,</l>
+                  <l>que hiriéndole el corazon</l>
+                  <l>fué mariposa abrasada</l>
+                  <l>del garvo y la gentileza,</l>
+                  <l>y disposicion gallarda</l>
+                  <l>de un pretendiente amoroso;</l>
+                  <l>mas como el amor encarga</l>
+                  <l>la modestia en las bellezas,</l>
+                  <l>secretamente dió traza,</l>
+                  <l>pues las materias de amor</l>
+                  <l>fomentan ocultas causas.</l>
+                  <l>Fué avisado en un billete,</l>
+                  <l>que antes que rompiese el alba</l>
+                  <l>los crepúsculos del dia,</l>
+                  <l>advirtiese que le aguarda</l>
+                  <l>en el jardin, porque quiere</l>
+                  <l>decirle ciertas palabras.</l>
+                  <l>Recibído por el dicho</l>
+                  <l>el papelillo, se arma,</l>
+                  <l>cual Belisario en lo fuerte,</l>
+                  <l>cual Gerineldo en la gala:</l>
+                  <l>llegó la precisa hora,</l>
+                  <l>y con diligencia marcha.</l>
+                  <l>Mas le fué airada su estrella,</l>
+                  <l>pues sucedió la desgracia</l>
+                  <l>de encontrarse con la ronda,</l>
+                  <l>y pidiéndole las armas,</l>
+                  <l>la repuesta que les dió,</l>
+                  <l>fué el hechar mano á su espada,</l>
+                  <l>y Pompeyo en valor</l>
+                  <l>Hércules en las hazañas,</l>
+                  <l>á dos les quitó la vida,</l>
+                  <l>y con grande vigilancia</l>
+                  <l>se retira cuidadoso,</l>
+                  <l>á todos haciendo cara.</l>
+                  <l>Doña Gertrudis que vé</l>
+                  <l>que su amante se tardaba, </l>
+                  <l>se hacía varios juicios,</l>
+                  <l>y con diligencias árduas</l>
+                  <l>se determinó saber</l>
+                  <l>dónde su amante paraba.</l>
+                  <l>Pasado ya mucho tiempo,</l>
+                  <l>se halló de paciencia falta,</l>
+                  <l>y determinó salirse</l>
+                  <l>con ánimo y arrogancia</l>
+                  <l>para buscar á su amante</l>
+                  <l>por las regiones estrañas,</l>
+                  <l>de un escritorio sacó</l>
+                  <l>cierta cantidad de plata,</l>
+                  <l>y tomando de su hermano</l>
+                  <l>el manteo y la sotana</l>
+                  <l>de la ciudad se salió</l>
+                  <l>de las sombras amparada.</l>
+                  <l>Anduvo diversas tierras,</l>
+                  <l>hasta que la estrella avara</l>
+                  <l>de su rigoroso astro,</l>
+                  <l>le concedió que parára</l>
+                  <l>el curso de sus trabajos.</l>
+                  <l>Hizo en la Grecia morada,</l>
+                  <l>y en hábitos de estudiante</l>
+                  <l>á las puertas se llegaba</l>
+                  <l>de un palacio donde habita</l>
+                  <l>el dueño de la comarca;</l>
+                  <l>á cuyo impensado tiempo</l>
+                  <l>cierto page paseaba</l>
+                  <l>en palacio, y le pregunta</l>
+                  <l>qué se le ofrece ó qué manda!</l>
+                  <l>Gertrudis le respondió:</l>
+                  <l>que conveniencia buscaba</l>
+                  <l>para ejercitar la pluma.</l>
+                  <l>Le mandó que se aguardára,</l>
+                  <l>y le dió parte á su amo,</l>
+                  <l>que era de la real casa</l>
+
+                  <pb n="3" source="Moreno_054_3.jpg" facs="fedora_ug8110313/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>el secretario mayor;</l>
+                  <l>y por no hacer dilatada</l>
+                  <l>la historia, digo, quedó</l>
+                  <l>don Cárlos en dicha casa, </l>
+                  <l>á que comutando su nombre,</l>
+                  <l>por tal Cárlos se nombraba.</l>
+                  <l>Tenia el principe invicto</l>
+                  <l>una hija, que era Palas</l>
+                  <l>por la hermosura y donaire,</l>
+                  <l>en su córte celebrada,</l>
+                  <l>rima de la tal señora,</l>
+                  <l>con quien Cárlos habitaba;</l>
+                  <l>y viendo como se porta</l>
+                  <l>en lo que su amo manda,</l>
+                  <l>que era esperto en todas cosas</l>
+                  <l>le prodigaban mil gracias.</l>
+                  <l>Iba Cárlos, page ya,</l>
+                  <l>acompañando á su ama</l>
+                  <l>en todas cuantas visitas</l>
+                  <l>van y vienen á su casa.</l>
+                  <l>Cayó la princesa enferma,</l>
+                  <l>fué su prima á visitarla,</l>
+                  <l>Cárlos en su compañía;</l>
+                  <l>no refiero las estrañas</l>
+                  <l>cortesías competentes,</l>
+                  <l>que hizo Cárlos á las damas</l>
+                  <l>Hechas distintas preguntas,</l>
+                  <l>que achaques son los que agravan</l>
+                  <l>y molestan su salud?</l>
+                  <l>así la princesa habla:</l>
+                  <l>es tristeza la que tengo,</l>
+                  <l>aunque ignorada su causa;</l>
+                  <l>yo padezco, y no se cual</l>
+                  <l>remedio aplique á mis ansias.</l>
+                  <l>Prima, dame tú el remedio;</l>
+                  <l>y esta respuesta la daba:</l>
+                  <l>siendo gusto de su alteza</l>
+                  <l>el que mi page aquí haga</l>
+                  <l>algunas habilidades,</l>
+                  <l>lo hará; y á Cárlos le manda</l>
+                  <l>que alegrase á la princesa.</l>
+                  <l>Obedeció, y que le traigan</l>
+                  <l>instrumentos ha mandado:</l>
+                  <l>trageron guitarra y arpa,</l>
+                  <l>con que Cárlos se portó</l>
+                  <l>de manera, que la infanta.</l>
+                  <l>si enferma se considera,</l>
+                  <l>mas enferma ya se haya</l>
+                  <l>de ver el arte y donaire,</l>
+                  <l>el brio, el garvo, la gala,</l>
+                  <l>y grandes habilidades</l>
+                  <l>que á Cárlos acompañaban; </l>
+                  <l>y con víctores le ofrece</l>
+                  <l>repetidas alabanzas.</l>
+                  <l>Rematada la funcion,</l>
+                  <l>finalizadas las danzas </l>
+                  <l>dió órden la hermosa niña</l>
+                  <l>que luego á Cárlos le traigan.</l>
+                  <l>y á la demas comitiva</l>
+                  <l>un resfrezco de importancia.</l>
+                  <l>Tocando el reloj las ocho</l>
+                  <l>se retiran á su casa,</l>
+                  <l>quedándose la doliente</l>
+                  <l>herida en toda su alma.</l>
+                  <l>Viendo el padre que su hija</l>
+                  <l>se miraba tan postrada,</l>
+                  <l>mandó, como poderoso,</l>
+                  <l>que una junta se ordenára</l>
+                  <l>de médicos, y entre todos</l>
+                  <l>el mas sábio adivinára</l>
+                  <l>la enfermedad tan oculta,</l>
+                  <l>Hacen diligencias varias;</l>
+                  <l>mas como era de amor</l>
+                  <l>no congeturaron nada.</l>
+                  <l>En estos grandes enigmas</l>
+                  <l>dieron forma y dieron traza,</l>
+                  <l>por acuerdo de un anciano,</l>
+                  <l>el que una lista se haga</l>
+                  <l>de los criados que sirven,</l>
+                  <l>y que cada dia vayan</l>
+                  <l>por su turno cada uno</l>
+                  <l>á presentarle á su ama</l>
+                  <l>un ramo de hermosas flores</l>
+                  <l>por ver si alguno le agrada;</l>
+
+                  <pb n="4" source="Moreno_054_4.jpg" facs="fedora_ug8110104/full/full/0/default.jpg"/>
+
+                  <fw type="impresorNum">4</fw>
+
+                  <l>y que á este tiempo su padre, </l>
+                  <l>á vista de su hija amada,</l>
+                  <l>asistiese, sin que ella</l>
+                  <l>nunca alcanzase á ver nada:</l>
+                  <l>y aquel de quien recibiese</l>
+                  <l>las flores de mejor gana</l>
+                  <l>era el sujeto que quiere.</l>
+                  <l>Y dicha astucia entablada,</l>
+                  <l>empezaron á venir</l>
+                  <l>los criados de la casa;</l>
+                  <l>y no admitió de ninguno,</l>
+                  <l>antes bien los despreciaba</l>
+                  <l>Finalizada la lista</l>
+                  <l>no quedando ya en la casa</l>
+                  <l>criado alguno discurren</l>
+                  <l>que pasase la palabra</l>
+                  <l>á casa del secretario,</l>
+                  <l>y que lo mismo se haga.</l>
+                  <l>Obedecieron gustosos,</l>
+                  <l>hasta al page Cárlos manda</l>
+                  <l>se adornase muy gallardo</l>
+                  <l>desde el cabello á la planta.</l>
+                  <l>Entró á ver á la princesa,</l>
+                  <l>hizo las acostumbradas</l>
+                  <l>cortesías, y llegó</l>
+                  <l>al pie de la misma dama.</l>
+                  <l>Presentóle en mano propia</l>
+                  <l>una compuesta guirnalda</l>
+                  <l>de suavísimas flores;</l>
+                  <l>y mostrándose alentada</l>
+                  <l>la dama, mirando á Cárlos,</l>
+                  <l>de aquesta suerte le habla:</l>
+                  <l>Gárlos, tú eres el imán</l>
+                  <l>que me tienes presa el alma,</l>
+                  <l>por tí padezco, mi bien,</l>
+                  <l>el rigor de tantas ansias;</l>
+                  <l>yo me muero, y así tú,</l>
+                  <l>como juez de aquesta causa,</l>
+                  <l>procúra darme la vida,</l>
+                  <l>doliéndote de esta esclava.</l>
+                  <l>Le echó los brazos al cuello,</l>
+                  <l>y tiernamente le abraza.</l>
+                  <l>Cárlos timido responde:</l>
+                  <l>señora, advierte y repára</l>
+                  <l>que soy un hombre humilde,</l>
+                  <l>no os determineis osada.</l>
+                  <l>Parientes tiene tu padre,</l>
+                  <l>que merezcan dicha tanta,</l>
+                  <l>deja esa mala pasion.</l>
+                  <l>Mas ella enamorada,</l>
+                  <l>derramaba algunas perlas</l>
+                  <l>por sus mejillas de grana.</l>
+                  <l>En fin, Cárlos se salió</l>
+                  <l>de la vista de la dama,</l>
+                  <l>la que quedó sumergida</l>
+                  <l>en el mar de su desgracia.</l>
+                  <l>El padre que atento mira</l>
+                  <l>en que pendia la causa</l>
+                  <l>de la salud de su hija,</l>
+                  <l>mandó fuese ejecutada</l>
+                  <l>la boda con dicho page;</l>
+                  <l>y claramente le habla;</l>
+                  <l>Cárlos, ya que fue tu dicha</l>
+                  <l>quién te condujo á mi casa</l>
+                  <l>á cumplir la ocupacion</l>
+                  <l>de servir á mi hija amada,</l>
+                  <l>y que he visto á punto fijo</l>
+                  <l>que se mira enamorada</l>
+                  <l>de tus prendas, es preciso</l>
+                  <l>case contigo, y se hagan</l>
+                  <l>con brevedad vuestras bodas,</l>
+                  <l>y así dichoso te aclama.</l>
+                  <l>¡Cuál quedaría Gertrudis,</l>
+                  <l>puesta en confusiones tantas!</l>
+                  <l>si se descubre, es perdida,</l>
+                  <l>no obstante, al principe habla</l>
+                  <l>con muy discretas razones;</l>
+                  <l>pero no le sirve nada,</l>
+                  <l>y á Cárlos aseguran,</l>
+                  <l>temiendo no se les vaya. </l>
+                  <l>Dejemos en tal estado</l>
+                  <l>aquesta primera plana,</l>
+                  <l>que en otra segunda parte</l>
+                  <l>quedará finalizada.</l>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_054_5.jpg" facs="fedora_ug8109512/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+                  <head type="subtitulo_parte">
+                     <lb/>EN QUE SE FINALIZAN <lb/><hi rend="negrita">LOS VARIOS SUCESOS</hi>
+                     <lb/>DE DOÑA GERTRUDIS, <lb/>CON EL MAS RARO CASO <lb/>QUE HAN VISTO LOS
+                     NACIDOS. </head>
+
+                  <l rend="indent">Hechas las célebres bodas</l>
+                  <l>con el fingido don Cárlos,</l>
+                  <l>aquella primera noche,</l>
+                  <l>cumplidos los aparatos</l>
+                  <l>que la funcion requería,</l>
+                  <l>fueron los dos desposados</l>
+                  <l>con grandísimo placeres</l>
+                  <l>retirándose á su cuarto.</l>
+                  <l>Entró el aya de la infanta,</l>
+                  <l>que es quien la habia criado</l>
+                  <l>por la muerte de su madre,</l>
+                  <l>á desporjar á don Cárlos.</l>
+                  <l>Muy alegre se llegó,</l>
+                  <l>mas él la detuvo el paso,</l>
+                  <l>diciendo: señora mia,</l>
+                  <l>que os retireis encargo,</l>
+                  <l>dejadnos solos, señora.</l>
+                  <l>Obedeció á su mandato,</l>
+                  <l>y en una silla se sienta,</l>
+                  <l>amargamente llorando.</l>
+                  <l>La princesa que aguardaba</l>
+                  <l>dulces y tiernos alhagos</l>
+                  <l>de su idolatrado amor,</l>
+                  <l>le dice: ¿qué aguardas, Cárlos,</l>
+                  <l>que no vienes á acostarte?</l>
+                  <l>¿Qué mal suceso has logrado</l>
+                  <l>en ser mi querido esposo?</l>
+                  <l>Si no merezco tus brazos,</l>
+                  <l>yo no tengo culpa de eso;</l>
+                  <l>ea, mi querido Cárlos,</l>
+                  <l>¿por qué te aflijes, mi bien?</l>
+                  <l>Y él respondió suspirando:</l>
+
+                  <pb n="6" source="Moreno_054_6.jpg" facs="fedora_ug8106911/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>señora, advierte y repára</l>
+                  <l>lo fúnebre de este caso.</l>
+                  <l>Yo soy muger, como ves,</l>
+                  <l>que mi riguroso astro</l>
+                  <l>á este punto me ha traido:</l>
+                  <l>dejé mis padres amados,</l>
+                  <l>por buscar un caballero</l>
+                  <l>que me amaba en sumo grado</l>
+                  <l>He andado diversas tierras,</l>
+                  <l>visité reinos estraños</l>
+                  <l>en hábito de estudiante;</l>
+                  <l>y no habiéndole encontrado</l>
+                  <l>buscando mi conveniencia</l>
+                  <l>á este parage he llegado,</l>
+                  <l>y con trage de varon</l>
+                  <l>hasta este dia he pasado</l>
+                  <l>Y pues su alteza me estima,</l>
+                  <l>haga este mismo reparo</l>
+                  <l>que si me descubre soy</l>
+                  <l>perdida, y así la encargo,</l>
+                  <l>busque modo que me ausente.</l>
+                  <l>La princesa oyendo el caso,</l>
+                  <l>la dice: querida mia,</l>
+                  <l>lo que me has participado</l>
+                  <l>será muy grande misterio</l>
+                  <l>y con sigilo y recato</l>
+                  <l>haremos vida gustosas;</l>
+                  <l>pues es tanto lo que té amo</l>
+                  <l>que teniéndote á mi vista</l>
+                  <l>no quiero mayor descanso.</l>
+                  <l>Amaneció el dia alegre</l>
+                  <l>y entró el aya de contado,</l>
+                  <l>preguntando á su señora</l>
+                  <l>cómo lo habia pasado.</l>
+                  <l>Con que la hermosa princesa</l>
+                  <l>le refirió todo el caso,</l>
+                  <l>y lo que habian dispuesto</l>
+                  <l>haciéndola estrecho cargo</l>
+                  <l>que guardase este secreto,</l>
+                  <l>y pusiese espías varios,</l>
+                  <l>por cualquera novedad</l>
+                  <l>que ocurriese en palacio. </l>
+                  <l>Con el título de esposos</l>
+                  <l>hasta dos años pasaron;</l>
+                  <l>y viendo toda la córte,</l>
+                  <l>y los leales vasallos,</l>
+                  <l>que pasado dicho tiempo</l>
+                  <l>no se veian coronados</l>
+                  <l>con el sucesor que aguardan,</l>
+                  <l>y que tampoco á don Cárlos</l>
+                  <l>barba ni bozo apuntaba,</l>
+                  <l>se hacian discurso varios.</l>
+                  <l>Determinaron un dia;</l>
+                  <l>llevar al príncipe Cárlos</l>
+                  <l>á un jardin á divertirse,</l>
+                  <l>por si le agradan los ramos</l>
+                  <l>de flores, que es de mugeres</l>
+                  <l>colocarlas de contadó.</l>
+                  <l>en el pecho ó en el pelo,</l>
+                  <l>para dejar aclarado,</l>
+                  <l>si era varon ó era hembra;</l>
+                  <l>y el aya le ha contado</l>
+                  <l>el enigma que procuran</l>
+                  <l>ver disuelto; y avisado</l>
+                  <l>Cárlos, prudente y sagaz</l>
+                  <l>y propuesto á sus vasallos,</l>
+                  <l>dentro del mismo jardin,</l>
+                  <l>que esto no era de su agrado;</l>
+                  <l>y que mejor diversion</l>
+                  <l>seria volver al campo</l>
+                  <l>á cazar con la escopeta:</l>
+                  <l>con que confusos quedaron.</l>
+                  <l>En fin, por no ser molesto,</l>
+                  <l>otros dos años pasaron,</l>
+                  <l>y al fin de ellos determinan</l>
+                  <l>hacer un covite vario,</l>
+                  <l>donde pensaban poner</l>
+                  <l>asientos altos y bajos;</l>
+                  <l>y si bajo lo elegía,</l>
+                  <l>era muger; y alcanzando</l>
+                  <l>á saber lo que dispone, </l>
+                  <l>cuenta el aya le ha dado.</l>
+                  <l>Al príncipe lo convidan,</l>
+                  <l>y como iba ya avisado,</l>
+
+                  <pb n="7" source="Moreno_054_7.jpg" facs="fedora_ug8104805/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>tendió la vista, y ha dicho;</l>
+                  <l>aquestos asientos bajos,</l>
+                  <l>no viniendo aquí madamas,</l>
+                  <l>creo que son escusados:</l>
+                  <l>y tomando el superior,</l>
+                  <l>dejó á todos admirados.</l>
+                  <l>Finalizando el convite,</l>
+                  <l>de todos acompañado,</l>
+                  <l>vino á ver su amada prenda,</l>
+                  <l>y el suceso le ha contado.</l>
+                  <l>Conviene advertir ahora,</l>
+                  <l>que en su pecho colocado</l>
+                  <l>trae la hermosa Gertrudis</l>
+                  <l>un precioso relicario,</l>
+                  <l>cuya estampa manifiesta</l>
+                  <l>un peregrino retrato</l>
+                  <l>de la Reina de los cielos,</l>
+                  <l>de pincel muy soberano, </l>
+                  <l>Virgen de la Soledad,</l>
+                  <l>que era su norte y amparo.</l>
+                  <l>En fin, para cerciorarse</l>
+                  <l>y determinar el caso</l>
+                  <l>en lo que apurar querian,</l>
+                  <l>determinaron que á un baño</l>
+                  <l>fuese, con que era preciso</l>
+                  <l>que quedáse declarado</l>
+                  <l>el dificultoso enigma.</l>
+                  <l>Aquí fueron los quebrantos,</l>
+                  <l>y las penas duplicadas,</l>
+                  <l>como copiosos los llantos</l>
+                  <l>que hacian los dos amantes,</l>
+                  <l>viendo qué era ya llegado</l>
+                  <l>el plazo de sus desdichas.</l>
+                  <l>con la ausencia de don Cárlos.</l>
+                  <l>A la sagrada María</l>
+                  <l>le ofrecen un novenario,</l>
+                  <l>si en su afliccion les consuela.</l>
+                  <l>Llegó el dia señalado</l>
+                  <l>en que habia de eumplirse</l>
+                  <l>la funcion de dicho baño.</l>
+                  <l>¡Oh qué dolor causaría,</l>
+                  <l>qué aflicción y sobresalto,</l>
+                  <l>qué lágrimas tan amargas,</l>
+                  <l>qué tiernas ánsias y alhagos,</l>
+                  <l>qué sollozos y suspiros!</l>
+                  <l>¡Qué dulces tiernos abrazos;</l>
+                  <l>qué cariños, qué coloquios</l>
+                  <l>entre los dos no pasaron!</l>
+                  <l>La princesa dió á su amante</l>
+                  <l>en una bolsa encerrados</l>
+                  <l>diamantes de gran valor,</l>
+                  <l>para vivir con descanso,</l>
+                  <l>lo que le queda de vida,</l>
+                  <l>y que nunca se halle escaso.</l>
+                  <l>Llegada que fué la hora</l>
+                  <l>en que lo llevan al baño,</l>
+                  <l>la princesa á su oratorio</l>
+                  <l>se retiró con cuidado</l>
+                  <l>á suplicar á la Vírgen</l>
+                  <l>librarse de riesgo tanto</l>
+                  <l>aquella pobre infeliz.</l>
+                  <l>Llegáronse los criados</l>
+                  <l>á quererlo desnudar;</l>
+                  <l>y mostrándose él airado,</l>
+                  <l>ha jurado por su vida,</l>
+                  <l>que el que fuese tan osado</l>
+                  <l>que llegase á su ropaje,</l>
+                  <l>seria de él castigado,</l>
+                  <l>que iba á cierta diligencia,</l>
+                  <l>por un perentorio caso,</l>
+                  <l>y que nadie lo siguiera,</l>
+                  <l>que seria breve el plazo</l>
+                  <l>en que él al baño volviese;</l>
+                  <l>saliose determinado</l>
+                  <l>aquel fingido varon,</l>
+                  <l>por el monte atravesando,</l>
+                  <l>temeroso de la muerte,</l>
+                  <l>á la Vírgen implorando.</l>
+                  <l>Los criados que advirtieron</l>
+                  <l>haberse ausentado Cárlos,</l>
+                  <l>creyeron que cierto era</l>
+                  <l>lo que se habian pensado.</l>
+                  <l>Pero Dios compadecido</l>
+                  <l>de su riesgo y su quebranto,</l>
+
+                  <pb n="8" source="Moreno_054_8.jpg" facs="fedora_ug8109963/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>quiso remediar su pena</l>
+                  <l>con un portento muy raro.</l>
+                  <l>Y fue que cruzando un monte,</l>
+                  <l>á distancia de cien pasos,</l>
+                  <l>ha divisado Gertrudis</l>
+                  <l>un unicornio que osado</l>
+                  <l>hácia ella se venia,</l>
+                  <l>y confusa en este caso,</l>
+                  <l>por querer buscar refugio,</l>
+                  <l>se arrima á un próximo árbol.</l>
+                  <l>Llegó el feroz animal,</l>
+                  <l>de un golpe la ha derribado,</l>
+                  <l>cayó de espaldas Gertrudis,</l>
+                  <l>y en su vientre le ha formado</l>
+                  <l>una muy perfecta cruz,</l>
+                  <l>y del monte se ha ausentado.</l>
+                  <l>Vuelta en sí, se levantó,</l>
+                  <l>y admirada del fracaso,</l>
+                  <l>se repára y reconoce,</l>
+                  <l>que en varon se ha trasformado.</l>
+                  <l>Fuera de sí de alegría,</l>
+                  <l>con firme y ligero paso</l>
+                  <l>hácia el baño se volvió</l>
+                  <l>donde la están aguardando,</l>
+                  <l>repitiendo en altas voces,</l>
+                  <l>prosigamos en el baño.</l>
+                  <l>Y llegando se despoja,</l>
+                  <l>quedando maravillados,</l>
+                  <l>como libres de la duda</l>
+                  <l>que de él habian formado.</l>
+                  <l>Pasadas algunas horas,</l>
+                  <l>se retiran á palacio:</l>
+                  <l>la princesa cuando vido,</l>
+                  <l>que venia tambien Cárlos,</l>
+                  <l>hacía varias preguntas,</l>
+                  <l>se hacía discursos varios.</l>
+                  <l>No obstante muy cuidadosa</l>
+                  <l>por salir de aqueste encanto,</l>
+                  <l>á Cárlos aparte llama,</l>
+                  <l>y contándola él el caso</l>
+                  <l>del unicornio, le rinde</l>
+                  <l>al Señor muchos aplausos,</l>
+                  <l>dán debidas alabanzas,</l>
+                  <l>en altas voces cantando</l>
+                  <l>sus grandes misericordias,</l>
+                  <l>y sus juicios tan altos.</l>
+                  <l>Entraron con gran sigilo</l>
+                  <l>los tres que saben el caso,</l>
+                  <l>en consulta, y dispusieron</l>
+                  <l>que en secreto don Cárlos</l>
+                  <l>casára otra vez con la infanta, </l>
+                  <l>y en breve fue ejecutado.</l>
+                  <l>Pasados algunos meses,</l>
+                  <l>el cielo les ha dotado</l>
+                  <l>en darles un sucesor</l>
+                  <l>para su gusto y descanso.</l>
+                  <l>Así quedaron contentos</l>
+                  <l>y gustosos los vasallos,</l>
+                  <l>aseguradas sus dichas</l>
+                  <l>para los futuros años.</l>
+                  <l>Esto no es fábula, amigos,</l>
+                  <l>segun lo atestigua, el caso</l>
+                  <l>de esta celebrada historia,</l>
+                  <l>que en el libro intitulado:</l>
+                  <l><hi rend="cursiva">Luchas de amor y de ingenio.</hi></l>
+                  <l>allí está especificado.</l>
+                  <l>Y Pedro Navarro pide</l>
+                  <l>perdon de lo que haya errado.</l>
+
+                  <trailer rend="negrita">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. <lb/>Imp. de D. J. M. Moreno, calle Juan de la Cabra, núm. 5.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

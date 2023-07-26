@@ -1,0 +1,363 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_059">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El valiente enamorao</title>
+            <respStmt>
+               <name xml:id="BP">Bélinda Palacios</name>
+               <resp>Correción del OCR</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El valiente enamorao.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6452524</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_059_1.xml" facs="fedora_ug8106043/350,480,415,705/100,/0/default.jpg">grabado_m_059_1</item>
+                           <item corresp="grabado_m_059_2.xml" facs="fedora_ug8106043/830,500,470,680/100,/0/default.jpg">grabado_m_059_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto"/>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-05" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106441/manifest">
+      <graphic url="fedora_ug8106043/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_059_1.jpg" facs="fedora_ug8106043/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 69.</fw>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>EL VALIENTE <lb/>ENAMORAO. </head>
+
+               <l rend="indent">Señores, es tontería, </l>
+               <l>no hay un mozo como yó </l>
+               <l>pa toa la Andalucia. </l>
+               <l>Si una mosa me quisiera </l>
+               <l>lo mesmo que quiero yo, </l>
+               <l>la ponia junto al sor </l>
+               <l>pa que nadie la ofendiera. </l>
+               <l>Y al hombre que la mirara.</l>
+               <l>pa que no la golviera á vé, </l>
+               <l>le ponia aquí la nué </l>
+               <l>y en el pescueso la cara. </l>
+               <l>Me ajogue sino es verdá, </l>
+               <l>si es una mugé María; </l>
+               <l>la quiero con mas trabajo </l>
+               <l>que pasa un escarabajo </l>
+               <l>con la pelota que lia. </l>
+
+               <pb n="2" source="Moreno_059_2.jpg" facs="fedora_ug8106672/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Y si es un hombre! naita: </l>
+               <l>de la primera guantáa </l>
+               <l>le quito el moo de jablá, </l>
+               <l>vaya un poe, fortunita. </l>
+               <l>Sí algun gaché la camela, </l>
+               <l>aunque sea mu valiente, </l>
+               <l>manque sea una serpiente </l>
+               <l>le tengo de arriar candela. </l>
+               <l>Tú no sabe quien soy yo; </l>
+               <l>no sabe que soy bravío, </l>
+               <l>por dentre y fuera cosío. </l>
+               <l>ardiendo como un farór? </l>
+               <l>Que venga y verá lo güeno </l>
+               <l>verán ombre! salerito, </l>
+               <l>aqui está un moso bonito </l>
+               <l>que se vá á tragar el terreno. </l>
+               <l>Ha concluio oslé ya? </l>
+               <l>por supuesto, ayá voy yo, </l>
+               <l>yo nasí mu naturá </l>
+               <l>y tengo mas caliá </l>
+               <l>que la máquina er vapó: </l>
+               <l>no me gusta fachaita, </l>
+               <l>ni dirme por los matojos: </l>
+               <l>quieo saver cara é carita, </l>
+               <l>que quiero por esa personita </l>
+               <l>los rayitos de esos ojos. </l>
+               <l>Po digamuste quien és: </l>
+               <l>Antonio Cruces me yamo, </l>
+               <l>criao y nació en Jeré, </l>
+               <l>moso con mucho poer, </l>
+               <l>y que quiere ser su amo: </l>
+               <l>y en diciéndome que sí, </l>
+               <l>estreya de la mañana </l>
+               <l>matita de jajoli, </l>
+               <l>dientesito de marfin, </l>
+               <l>le doy mi via, jitana. </l>
+               <l>Tengo pa mi salero </l>
+               <l>un cuarto lleno é inero</l>
+               <l>y un barco con puñalá: </l>
+               <l>está osté mosito güeno? </l>
+               <l>en jaciendo una chanáa </l>
+               <l>como no lo puea matá, </l>
+               <l>salero, le doy veneno. </l>
+               <l>Conque elija osté, salao, </l>
+               <l>por quererme va mori? </l>
+               <l>con eso podrá desí... </l>
+               <l>que er mundo quea escansao. </l>
+               <l>=Po si es berdá, moso güeno, </l>
+               <l>y eso que dise seguro; </l>
+               <l>no se queará, le juro </l>
+               <l>ninguna noche al sereno. </l>
+               <l>Siga osté tras é mí. </l>
+               <l>—¿Po no boi mejo al lao? </l>
+               <l>—No é igual, cuerpo salao? </l>
+               <l>— Y ella me contesta, si, </l>
+               <l>Compare cuando dicaba </l>
+               <l>aquel moito de andá </l>
+               <l>no jasia masque trompesá </l>
+               <l>con las piedras que jayaba. </l>
+               <l>Yo no se lo que era aquello, </l>
+               <l>lo que si pueo desi </l>
+               <l>que me se queria salí </l>
+               <l>el corazón po el cueyo. </l>
+               <l>Esto, es lo que jago yo </l>
+               <l>cuando pincharo una mosa, </l>
+               <l>muy pulia y muy jermosa </l>
+               <l>me se quita el malumó. </l>
+               <l>Y si pasa, camará, </l>
+               <l>po mi puerta una paqueta, </l>
+               <l>tres patá me dá en la jeta, </l>
+               <l>no lo pueo remediá. </l>
+               <l>Quiero una mosa bonita </l>
+               <l>aunque no sea caballera, </l>
+               <l>me gusta una sigarrera </l>
+               <l>mas que ochenta señorita. </l>
+               <l>Compare, jablo é bera:</l>
+
+               <pb n="3" source="Moreno_059_3.jpg" facs="fedora_ug8106378/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>platico como é debio, </l>
+               <l>en la tierra abrá mas brio </l>
+               <l>que tienen la sigarreras. </l>
+               <l>Con su mantiya terciá </l>
+               <l>y su bestio é laniya, </l>
+               <l>no paese Carmeliya </l>
+               <l>una santa en el artá? </l>
+               <l>—Tiene osté mucha razon. </l>
+               <l>—Que si la tengo, me jundo. </l>
+               <l>si no se encuentra en el mundo </l>
+               <l>mujé de ma pefesion. </l>
+               <l>Se juntó gúena coyera, </l>
+               <l>un mosito como un pino </l>
+               <l>y una mosa sandunguera. </l>
+               <l>Soy torero y bebeó, </l>
+               <l>y si é licó de lo güeno, </l>
+               <l>en tres meses no me lleno </l>
+               <l>esta pansa é licó. </l>
+               <l>Canto tambien la serrana </l>
+               <l>de Juan de Dios y Planeta, </l>
+               <l>yo canto la Sevillana, </l>
+               <l>y toco las castañetas. </l>
+               <l>Si hablamos é toreá, </l>
+               <l>toita la jente se espanta </l>
+               <l>tan solo de ver mi planta, </l>
+               <l>y mi mucha sereniá. </l>
+               <l>Veraste camaraita; </l>
+               <l>sali yo en una corria, </l>
+               <l>compare, en Ronda una vé </l>
+               <l>y me suertan una re </l>
+               <l>mu ligera y muy brabia, </l>
+               <l>y como yo soy tan torero, </l>
+               <l>le ije á mi camará, </l>
+               <l>caracole, no hay que temblá </l>
+               <l>que está en la plaza un torero. </l>
+               <l>En cuanto le ije, je, </l>
+               <l>arto allá, que aquí estoy yo, </l>
+               <l>compare, me se queó </l>
+               <l>mas quieto que esa paé. </l>
+               <l>Viéndolo atemorisao, </l>
+               <l>lo agarré po é josico; </l>
+               <l>como si fuera un borrico </l>
+               <l>muy viejo y mu amansao. </l>
+               <l>Viendo la gente esta azaña </l>
+               <l>me tiraban los sombreros </l>
+               <l>diciendo, viva el torero, </l>
+               <l>no hay quien lo jága en España. </l>
+               <l>Si jablamos é bebé, </l>
+               <l>compare, pierdo la cuenta, </l>
+               <l>consumo toa las ventas, </l>
+               <l>que hay de aqui á Jeré.</l>
+               <l>Quiero una mosa juncá </l>
+               <l>con ojos de terciopelo </l>
+               <l>sobre una cara é cielo </l>
+               <l>manchaita de un luná </l>
+               <l>que sea su pié una pintura </l>
+               <l>y toa su boca un confite </l>
+               <l>que pá hablá cuando se enrrite </l>
+               <l>se le esponje la sentura. </l>
+               <l>que sea un sellito su mano </l>
+               <l>y sus deitos cadete, </l>
+               <l>y toito el brazo un juguete </l>
+               <l>apreciao pó un jitano. </l>
+               <l>Que venga una mosa así </l>
+               <l>y me diga ¡jai chiquillo! </l>
+               <l> ¡me quieres resalaillo! </l>
+               <l>y me mato ahora aquí; </l>
+               <l>ma jogue si no es verdá, </l>
+               <l>Antonio Cruz no te engañas </l>
+               <l>¿quies tu callá? ¡y la pestaña! </l>
+               <l>¡y la boca! y el andá! </l>
+               <l>y el cabello de una endrina </l>
+               <l>¡y el pié, puñales, y el pié! </l>
+               <l>como no vea á esa mugé </l>
+               <l>ma choco contra una esquina. </l>
+               <l>No lo pueo remediar</l>
+
+               <pb n="4" source="Moreno_059_4.jpg" facs="fedora_ug8104045/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>señores yo soy mu neto, </l>
+               <l>mas bravio que un leon </l>
+               <l>y con mucho corazon </l>
+               <l>sa cabó, soy mu completo. </l>
+               <l>Un mozo como un parmito </l>
+               <l>que con el mejor me apuesto; </l>
+               <l>y templao! prosupuesto </l>
+               <l>que al ver un cuerpo bonito, </l>
+               <l>fortuna me jago un tiesto. </l>
+               <l>Con las mosas soy azuca </l>
+               <l>y me estutano por ellas. </l>
+               <l>y me subo á las estrellas </l>
+               <l>en armando la borrusca. </l>
+               <l>Con hombres laigo sentellas, </l>
+               <l>quemo mas que un jierro ardiendo </l>
+               <l>echo mas fuego que el sor </l>
+               <l>laigá puñalas en viendo </l>
+               <l>otro mozo como yo. </l>
+               <l>Mi navaja es de Mudela </l>
+               <l>con doce muelles atrás, </l>
+               <l>no hay mas que jaser ¡saz! </l>
+               <l>y ella sólita se cuela </l>
+               <l>y el que quiera armá el espolio </l>
+               <l>donde yo cobro er cané </l>
+               <l>se la enclavo en la paré </l>
+               <l>y no recibe er Santo Olio. </l>
+               <l>Y si le escupo ¡canario! </l>
+               <l>á ese só medio enfaao, </l>
+               <l>lo dejo abujereao </l>
+               <l>como la cuenta é un rosario. </l>
+               <l>¡En fin soy una serpiente! </l>
+               <l>Estaría yo un dia quemao </l>
+               <l>cuando me tiré un bocao </l>
+               <l>yo mismo en mitá é la frente.</l>
+
+               <trailer>FIN</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. y lib. de D. José M. Moreno, Madre de Dios, 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

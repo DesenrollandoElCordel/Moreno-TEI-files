@@ -1,0 +1,579 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_255">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coplas glosadas en décimas y trovos, muy discretas y entretenidas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Corrección OCR</resp>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coplas glosadas en décimas y trovos, muy discretas y
+                     entretenidas.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477134</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 269</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <list>
+                        <item>Coplas</item>
+                        <item>Trovo</item>
+                     </list>
+                  </summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>[Décimas]</title>
+                  </msItem>
+                  <msItem>
+                     <locus>4</locus>
+                     <title>Trovos nuevos para cantar con la guitarra.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_255_1.xml" facs="fedora_ug8109265/267,188,474,700/100,/0/default.jpg">grabado_m_255_1</item>
+                           <item corresp="grabado_m_255_2.xml" facs="fedora_ug8109265/771,192,445,690/100,/0/default.jpg">grabado_m_255_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5501105.html" type="tipo_texto">Coplas</term>
+               <term type="tipo_texto">Trovos</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="tipo_estrofa">Trovos</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-08" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105469/manifest">
+      <graphic url="fedora_ug8109265/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_255_1.jpg" facs="fedora_ug8109265/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum"><hi rend="cursiva">(Num.</hi> 269.<hi rend="cursiva">)</hi></fw>
+
+            <head type="primer_titulo">
+               <lb/><hi rend="negrita">COPLAS GLOSADAS</hi>
+               <lb/>EN DECIMAS Y TROVOS, <lb/>MUY DISCRETAS Y ENTRETENIDAS. </head>
+
+            <div>
+               <lg rend="cursiva">
+                  <l rend="indent">Si por querer a otro quieres</l>
+                  <l>que yo la muerte reciba,</l>
+                  <l>hágase tu voluntad,</l>
+                  <l>muera yo, porque otro viva.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ingrata, cruel, homicida,</l>
+                  <l>pido ni Cielo con enojos</l>
+                  <l>muerta le vean mis ojos,</l>
+                  <l>con seis velas encendidas;</l>
+                  <l>pero no, que eres mi vida</l>
+                  <l>y dueña de mis haberes;</l>
+                  <l>goza, pues de tus placeres</l>
+                  <l>con el que mas te merezca,</l>
+                  <l>y sea yo el que padezca</l>
+                  <l rend="cursiva">si por querer á otro quieres.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por tu infamia y tu maldad,</l>
+                  <l>falsa, alevosa, inconstante,</l>
+                  <l>á puñaladas tu amante,</l>
+                  <l>el alma te arrancára;</l>
+                  <l>pero no, que es impiedad</l>
+                  <l>que tu beldad aperciba</l>
+                  <l>tal pena y dolor reciba,</l>
+                  <l>viva tu hermosa beldad,</l>
+                  <l>y pues mas razon será</l>
+                  <l rend="cursiva">que yo la muerte reciba.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si me matáran los celos</l>
+                  <l>viéndote en agenos brazos,</l>
+                  <l>estrechada en otros lazos,</l>
+                  <l>un rayo caiga del cielo:</l>
+                  <l>mas no, que eres mi consuelo</l>
+                  <l>y te adoro con lealtad;</l>
+                  <l>cuando tú con impiedad,</l>
+                  <l>me das pesar tan injusto,</l>
+                  <l>mas si matarme es tu gusto</l>
+                  <l rend="cursiva">hayase tu <choice>
+                        <sic>voluutad</sic>
+                        <corr>voluntad</corr>
+                     </choice>.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, hechizo leal,</l>
+                  <l>cuando aspiro á tu desden,</l>
+                  <l>he de morir yo tambien,</l>
+                  <l>siendo causa de mi mal,</l>
+                  <l>muera al filo de un puñal;</l>
+                  <l>no, dama, no sé homicida;</l>
+                  <l>pues me privara la vida</l>
+                  <l>herida tan penetrante,</l>
+                  <l>vive, mi bien, con tu amante,</l>
+                  <l rend="cursiva">muera yo, porque otro viva.</l>
+               </lg>
+
+               <pb n="2" source="Moreno_255_2.jpg" facs="fedora_ug8107188/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Es el moreno agraciado</l>
+                  <l>la mas bella perfeccion,</l>
+                  <l>y se lleva la atencion</l>
+                  <l>que Cupido lo ha premiado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Tengo yo mi corazon</l>
+                  <l>como la flor de un jardin,</l>
+                  <l>cual mas bello serafín</l>
+                  <l>y de muy buena intencion;</l>
+                  <l>recato y ostentacion</l>
+                  <l>correspondido y pagado,</l>
+                  <l>pues está de amor premiado</l>
+                  <l>de una bella hermosura,</l>
+                  <l>que el bien de una criatura</l>
+                  <l rend="cursiva">es el moreno agraciado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Te quiero, bella deidad,</l>
+                  <l>y por tí padezco penas,</l>
+                  <l>te quiero, linda morena,</l>
+                  <l>con toda mi voluntad;</l>
+                  <l>oscura tu deidad</l>
+                  <l>y hermoso tu corazon,</l>
+                  <l>tengo puesta mi aficion</l>
+                  <l>en tu agraciado moreno,</l>
+                  <l>de modo que considero</l>
+                  <l rend="cursiva">la mas bella perfeccion.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Eres para mí el reposo,</l>
+                  <l>tú eres el bien que poseo,</l>
+                  <l>tú eres mi mayor recreo,</l>
+                  <l>eres clavel oloroso:</l>
+                  <l>que me tengo por dichoso,</l>
+                  <l>dueño de mi corazon,</l>
+                  <l>ámame con aficion,</l>
+                  <l>que me das dulzura tal</l>
+                  <l>dando consuelo á mi mal,</l>
+                  <l rend="cursiva">que se lleva la atencion.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Eres sol, luna y estrella;</l>
+                  <l>eres clavel y eres rosa,</l>
+                  <l>eres azucena olorosa,</l>
+                  <l>y el iman que yo venero:</l>
+                  <l>tú eres sola mi recreo</l>
+                  <l>y el dueño de mi cuidado;</l>
+                  <l>eres el cielo estrellado,</l>
+                  <l>eres Minerva y Diana,</l>
+                  <l>eres como la manzana</l>
+                  <l rend="cursiva">que Cupido la ha premiado.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Hoy pregunta la memoria</l>
+                  <l>á tu gran sabiduria,</l>
+                  <l>¿qué cosa, mi Dios, haria,</l>
+                  <l>antes de formar la gloria?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Del Génesis la Escritura</l>
+                  <l>lea todo aquel que quiera</l>
+                  <l>saber del modo y manera</l>
+                  <l>que hizo Dios la criatura;</l>
+                  <l>allí verá en su escritura</l>
+                  <l>de la tierra y de ia gloria,</l>
+                  <l>pues por la sagrada historia</l>
+                  <l>todo se va trasluciendo,</l>
+                  <l>y luego viene diciendo:</l>
+                  <l rend="cursiva">hoy pregunta la memoria.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En dicho libro se lee,</l>
+                  <l>que el mundo un caos era,</l>
+                  <l>en el que nada existiera</l>
+                  <l>de cuanto en él hoy se vé,</l>
+                  <l>despues por Dios hecho fué</l>
+                  <l>la noche y la luz del dia,</l>
+                  <l>tierra, cielo, cuanto habia,</l>
+                  <l>y luego por consiguiente,</l>
+                  <l>se lo hago boy patente</l>
+                  <l rend="cursiva">á tu gran sabiduria.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De un Hágase, Omnipotente,</l>
+                  <l>formó peces en el mar,</l>
+                  <l>hizo la tierra brotar,</l>
+                  <l>y crió el sol tan ardiente,</l>
+                  <l>dio á la luna sábiamente</l>
+                  <l>su luz tan opaca y (Via,</l>
+                  <l>despues al sétimo dia</l>
+                  <l>formó el hombre y la muger;</l>
+                  <l>pero antes de esto hacer</l>
+                  <l rend="cursiva">¿qué cosa, mi Dios, haria?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En la sagrada Escritura</l>
+                  <l>dice, cual verse se puede,</l>
+                  <l>que Dios de nada procede</l>
+                  <l>y sin Dios no hubiera nada;</l>
+                  <l>esta opinion sentada</l>
+                  <l>es bien pública y notoria,</l>
+                  <l>por lo tanto á tu memoria</l>
+                  <l>contesto este dia yo:</l>
+                  <l>que asi todo se formó</l>
+                  <l rend="cursiva">antes de formar la gloria.</l>
+               </lg>
+
+               <pb n="3" source="Moreno_255_3.jpg" facs="fedora_ug8109202/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">¡Oh triste de mi, qué haré!</l>
+                  <l>vistase el alma de luto,</l>
+                  <l>y que otro coja el fruto</l>
+                  <l>que yo para mí sembré.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Se encarnó Dios en María</l>
+                  <l>en forma de carne humana,</l>
+                  <l>quedando tan pura y sana</l>
+                  <l>como en gracia concebida,</l>
+                  <l>fue tan grande la caida</l>
+                  <l>que yo de Adan heredé,</l>
+                  <l>y es arliculo de fé</l>
+                  <l>que debemos confesar,</l>
+                  <l>y si lo llego á dudar,</l>
+                  <l rend="cursiva">¡oh triste de mi, qué haré!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Formó Dios el Paraiso</l>
+                  <l>con infinitos primores,</l>
+                  <l>como frutas, plantas, flores,</l>
+                  <l>á Adan tambien lo hizo;</l>
+                  <l>y por haber quebrantado</l>
+                  <l>a su antojo ó capricho</l>
+                  <l>lo que le estaba privado</l>
+                  <l>por quedar dueño absoluto</l>
+                  <l>del árbol que fue vedado,</l>
+                  <l rend="cursiva">vístase el alma de luto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Salió Dios en busca de él,</l>
+                  <l>diciéndole: Adaq, pecaste,</l>
+                  <l>eso fue lo que buscaste</l>
+                  <l>por solicitar muger;</l>
+                  <l>Adan quísose esconder</l>
+                  <l>en un lugar muy oculto;</l>
+                  <l>mas le dice: ¿huyes del susto?</l>
+                  <l>¿qué te hallas avergonzado?</l>
+                  <l>ven á pagar tu pecado,</l>
+                  <l rend="cursiva">y que otro coja el fruto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hoy con su sangre divina</l>
+                  <l>redimió Dios el pecado,</l>
+                  <l>solo nos dejó encargado</l>
+                  <l>su santa ley y doctrina;</l>
+                  <l>al cielo nos encamina</l>
+                  <l>creyendo su santa fé;</l>
+                  <l>y Cristo te dice, que</l>
+                  <l>lo tengas en la memoaria,</l>
+                  <l>que para el justo es la gloria,</l>
+                  <l rend="cursiva">que yo para mí sembré.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Preso en la cárcel estoy,</l>
+                  <l>no tengais pena por eso,</l>
+                  <l>que no soy el primer preso,</l>
+                  <l>ni dejo de ser quien soy.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con qué amor y qué ternura</l>
+                  <l>estaba mi buen Jesus,</l>
+                  <l>pendiente de aquella Cruz</l>
+                  <l>sufriendo tanta amargura:</l>
+                  <l>les dijo á las criaturas;</l>
+                  <l>mira, tu Redentor soy,</l>
+                  <l>y por tí la vida doy,</l>
+                  <l>no reparo en tu maldad,</l>
+                  <l>que por darte libertad,</l>
+                  <l rend="cursiva">preso en la cárcel estoy.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De tormentos y fatigas,</l>
+                  <l>de Cruz cargado y prisiones,</l>
+                  <l>metido entre dos ladrones,</l>
+                  <l>va el Redentor de la vida:</l>
+                  <l>miró su Madre querida</l>
+                  <l>que cayó del grave peso</l>
+                  <l>de la Cruz, yo lo confieso,</l>
+                  <l>y fue tanta su agonia,</l>
+                  <l>que Jesus dijo á María:</l>
+                  <l rend="cursiva">no tengais pena por eso.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hasta el calvario ha llegado</l>
+                  <l>donde con ánsias mortales,</l>
+                  <l>de sus vestidos Reales</l>
+                  <l>fue mi Jesús despojado;</l>
+                  <l>alli fue en la Cruz clavado,</l>
+                  <l>y sufriendo el duro peso,</l>
+                  <l>mas no afligido por eso,</l>
+                  <l>dijo Jesus á Maria:</l>
+                  <l>consuélese, Madre mia,</l>
+                  <l rend="cursiva">que no soy el primer preso.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con fé y de esperanza lleno,</l>
+                  <l>dijo el buen ladron así:</l>
+                  <l>Señor, acordaos de mí</l>
+                  <l>cuando esteis en vuestro reino;</l>
+                  <l>y Jesus dijo sereno:</l>
+                  <l>hoy conmigo has de venir</l>
+                  <l>á mi gran reino á vivir;</l>
+                  <l>el Paraiso te doy;</l>
+                  <l>que aunque clavado me ves,</l>
+                  <l rend="cursiva">no dejo de ser quien soy.</l>
+               </lg>
+            </div>
+
+            <div>
+               <pb n="4" source="Moreno_255_4.jpg" facs="fedora_ug8106015/full/full/0/default.jpg"/>
+
+               <head type="titulo_cancion">TROVOS NUEVOS PARA CANTAR CON LA GUITARRA.</head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Quise bien, fuí aborrecido,</l>
+                  <l>adoré, fuí despreciado;</l>
+                  <l>me lamenté, no fuí oido,</l>
+                  <l>por fié, no fuí escuchado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">¡Cuán desgraciado he nacido,</l>
+                  <l>y cuán contraria es mi estrella!</l>
+                  <l>pues me ví aborrecido</l>
+                  <l>de una deidad, y aunque á ella</l>
+                  <l rend="cursiva">quise bien, fui aborrecido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque todo mi cuidado</l>
+                  <l>se esmeró en servirla ansioso,</l>
+                  <l>ningun provecho he sacado;</l>
+                  <l>pues por mas que afectuoso</l>
+                  <l rend="cursiva">adoré, fui despreciado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Quise amante muy rendido</l>
+                  <l>obligarla con mis quejas:</l>
+                  <l>mas ella se dió al descuido,</l>
+                  <l>y aunque incesante en sus rejas</l>
+                  <l rend="cursiva">me lamenté, no fui oido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Viéndome, pues desdeñado,</l>
+                  <l>su calle rondaba amante;</l>
+                  <l>mas fue tiempo malogrado,</l>
+                  <l>pues aunque lino y constante</l>
+                  <l rend="cursiva">por fié, no fui escuchado.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Ya me has vuelto las espaldas</l>
+                  <l>porque tienes nuevo amor,</l>
+                  <l>bien puedes corresponderle</l>
+                  <l>que lo merece mejor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sobre alfombras de esmeraldas</l>
+                  <l>un galan enternecido</l>
+                  <l>al pie de una verde palma</l>
+                  <l>con ánsias dice á Cupido:</l>
+                  <l rend="cursiva">ya me has vuelto las espaldas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De tu desden el rigor</l>
+                  <l>me penetró toda el alma,</l>
+                  <l>que olvidado á tu favor</l>
+                  <l>mí vida se encuentra en calma</l>
+                  <l rend="cursiva">porque tienes nuevo amor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Deseára el conocerle</l>
+                  <l>para envidiarle la dicha,</l>
+                  <l>pues tú deseas tenerle,</l>
+                  <l>mientras lloro mi desdicha</l>
+                  <l rend="cursiva">bien puedes
+                     correspon<supplied>d</supplied>erle.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">¡Oh qué pena y qué dolor!</l>
+                  <l>¡qué suerte y qué desventura!</l>
+                  <l>acábese en mí el error,</l>
+                  <l>que él goce de tu hermosura,</l>
+                  <l rend="cursiva">pues lo merece mejor.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Albricias, corazon mio,</l>
+                  <l>ánimo, no hay que llorar:</l>
+                  <l>que el sol que se te eclipsaba,</l>
+                  <l>su luz volvió á recobrar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Acábese el mármo frio,</l>
+                  <l>quilate el luto asombroso,</l>
+                  <l>que el dueño de tu alvedrío</l>
+                  <l>fue Fénix maravilloso;</l>
+                  <l rend="cursiva">albricias, corazon mio.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vuelve, vuelve á respirar,</l>
+                  <l>que la fiera muerte airada</l>
+                  <l>no ha podido arrebatar</l>
+                  <l>la vida á tu prenda amada;</l>
+                  <l rend="cursiva">ánimo, no hay que llorar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cese el dolor que llenaba</l>
+                  <l>tus retretes de amargura,</l>
+                  <l>ya brilla como brillaba</l>
+                  <l>con luz mas perfecta y pura</l>
+                  <l rend="cursiva">que el sol que se te eclipsaba.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No ha de volverte á agoviar</l>
+                  <l>la oscuridad importuna,</l>
+                  <l>horror ni espanto y pesar;</l>
+                  <l>que tu moribunda luna</l>
+                  <l rend="cursiva">su luz volvió á recobrar.</l>
+               </lg>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA—1856 Imp. de D. J. M. M. calle Juan de la Cabra, núm 5.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

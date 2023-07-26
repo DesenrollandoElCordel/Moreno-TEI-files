@@ -1,0 +1,926 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_065">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La renegada de Valladolid</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">La renegada de Valladolid. Relacion de una mujer
+                     natural de Valladolid, que siendo cautiva negó la ley de Ntro. Sr., y se casó
+                     con un moro, donde estuvo 26 años, y como cautivaron á un clérigo hermano suyo,
+                     el cual lo sirvió tres años de esclava sin conocerse: al cabo se conocieron por
+                     ciertas preguntas; el arrepentimiento de la renegada, y como fueron á Roma á
+                     reconciliarse con el Padre Santo </title>
+                  <title type="titulo_breve">La renegada de Valladolid.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6452661</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 77</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte. Dáse cuenta de la santa penitencia que hizo la renegada,
+                        y como convirtió á dos hijos sin conocer estos á su madre.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_065_1.xml" facs="fedora_ug8107770/114,154,1415,703/100,/0/default.jpg">grabado_m_065_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR non corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-23" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8108154/manifest">
+      <graphic url="fedora_ug8107770/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_065_1.jpg" facs="fedora_ug8107770/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 77.</fw>
+
+               <head type="primer_titulo">LA RENEGADA DE VALLADOLID.</head>
+               <head rend="cursiva" type="subtitulo">
+                  <lb/>Relacion de una mujer natural de Valladolid, que siendo cautiva negó la ley
+                  <lb/>de Ntro. Sr., y se casó con un moro, donde estuvo 26 años, y como cautiva-
+                  <lb/>ron á un clérigo hermano suyo, el cual lo sirvió tres años de esclava sin co-
+                  <lb/>nocerse: al cabo se conocieron por ciertas preguntas; el arrepentimiento de
+                  <lb/>la renegada, y como fueron á Roma á reconciliarse con el Padre Santo </head>
+
+               <div n="1" type="parte">
+                  <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">En Valladolid vivia</l>
+                  <l>una dama muy hermosa,</l>
+                  <l>y su padre la tenia</l>
+                  <l>bien ataviada y honrosa.</l>
+                  <l>Esta tenia un hermano</l>
+                  <l>en gramática sapiente,</l>
+                  <l>aunque jóven, buen cristiano</l>
+                  <l>siervo del Omnipotente.</l>
+                  <l>A Valladolid llegó</l>
+                  <l>de paso para Turquía,</l>
+                  <l>un capitan que eligió,</l>
+                  <l>nuestro Rey para Bujía.</l>
+                  <l>El capitan se hospedó</l>
+                  <l>enfrente de la doncella,</l>
+                  <l>y al instante que la vió</l>
+                  <l>se encendió en amores de ella.</l>
+                  <l>El capitan la enviaba</l>
+                  <l>muchos billetes y cosas,</l>
+                  <l>y tambien la presentaba</l>
+                  <l>ropas, y joyas preciosas.</l>
+                  <l>La doncella le rogaba</l>
+                  <l>que en tal cosa no pensase,</l>
+                  <l>y mucho le suplicó</l>
+                  <l>que la puerta no rondase.</l>
+                  <l>Que es doncella muy honrada,</l>
+                  <l>de buena línea y parientes,</l>
+                  <l>que seria murmurada,</l>
+                  <l>y afrenta la de las gentes.</l>
+                  <l>El capitan encendido</l>
+                  <l>con tan hermosa doncella,</l>
+                  <l>prometió ser su marido</l>
+                  <l>y de casarse con ella.</l>
+                  <l>La doncella consintió,</l>
+                  <l>con tal que con ella case:</l>
+                  <l>una noche la sacó,</l>
+                  <l>sin que nadie lo pensase.</l>
+                  <l>A Bujía la llevó</l>
+                  <l>gozando de su hermosura;</l>
+                  <l>mas presto los derribó</l>
+                  <l>la fortuna sin ventura.</l>
+                  <l>Y es que los moros entraron</l>
+                  <l>en Bujía con presteza,</l>
+                  <l>y entre los presos hallaron</l>
+                  <l>esta dama de lindeza.</l>
+
+                  <pb n="2" source="Moreno_065_2.jpg" facs="fedora_ug8106184/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>Y como el Bajá la vio</l>
+                  <l>hermosa y compuesta,</l>
+                  <l>para sí la reservó</l>
+                  <l>como la vió tan honesta.</l>
+                  <l>Metióla luego en el mar</l>
+                  <l>y á su tierra la llevó</l>
+                  <l>y antes de desembarcar</l>
+                  <l>de amores la requirió.</l>
+                  <l>Y no la pudo vencer</l>
+                  <l>por mas que la importunaba,</l>
+                  <l>diciendo: no me has de ofender</l>
+                  <l>aunque yo sea tu esclava.</l>
+                  <l>Basta mi terrible pena</l>
+                  <l>y larguisima prision</l>
+                  <l>sugeta á vuestra cadena</l>
+                  <l>y ausente de mi nacion.</l>
+                  <l>El moro la regalaba</l>
+                  <l>dándole buenas comidas,</l>
+                  <l>y de amores la trataba</l>
+                  <l>con palabras muy sentidas.</l>
+                  <l>Dijo un dia que negase</l>
+                  <l>á Cristo Santo, Agnus Dei,</l>
+                  <l>y que con él se casase,</l>
+                  <l>pues era buena su ley.</l>
+                  <l>Que mas vale que reciba</l>
+                  <l>la religion mahometana,</l>
+                  <l>que no verse así cautiva</l>
+                  <l>y sugeta en tierra estraña.</l>
+                  <l>Con juventud y riqueza</l>
+                  <l>renegó de aquel tesoro</l>
+                  <l>de Jesus suprema Alteza,</l>
+                  <l>y se casó con el moro.</l>
+                  <l>Veinte y seis años estuvo</l>
+                  <l>metida en la mala sécta;</l>
+                  <l>del moro dos hijos hubo,</l>
+                  <l>como infernal mahometana. </l>
+                  <l>Estaba tan apartada</l>
+                  <l>de Cristo y de sus tesoros,</l>
+                  <l>como si fuera engendrada</l>
+                  <l>y nacida en tierra de moros.</l>
+                  <l>Como el Señor Soberano</l>
+                  <l>se puso en la cruz por todos,</l>
+                  <l>un sacerdote, su hermano,</l>
+                  <l>le envió por ciertos modos.</l>
+                  <l>Y es que el clérigo venia</l>
+                  <l>de Roma de negociar</l>
+                  <l>con otros en compañía,</l>
+                  <l>y se puso á navegar.</l>
+                  <l>Diez galeras le salieron</l>
+                  <l>de moros, por buena cuenta,</l>
+                  <l>el navío les rindieron</l>
+                  <l>y cautivaron noventa.</l>
+                  <l>El clérigo fué llevado</l>
+                  <l>de la fuerza á Modon</l>
+                  <l>y fué puesto en el mercado,</l>
+                  <l>donde se vendió á pregon.</l>
+                  <l>El marido de su hermana</l>
+                  <l>que era su cuñado el moro,</l>
+                  <l>le compró aquella mañana</l>
+                  <l>y pagó cien cequíes de oro.</l>
+                  <l>El moro no conoció</l>
+                  <l>el esclavo que compraba,</l>
+                  <l>y á su mujer lo llevó</l>
+                  <l>sin saber lo que llevaba.</l>
+                  <l>Habiendo Jesus juntado</l>
+                  <l>los dos que bien se querian,</l>
+                  <l>hartas veces se han hablado,</l>
+                  <l>pero no se conocian,</l>
+                  <l>ni ella conoció á él,</l>
+                  <l>ni él tampoco á su hermana;</l>
+                  <l>dábale vida cruel</l>
+                  <l>como propia renegada.</l>
+                  <l>Tres años y algunos dias</l>
+                  <l>sirvió el clérigo á su hermana,</l>
+                  <l>hasta que el sacro Mesías</l>
+                  <l>les abrió la senda llana.</l>
+                  <l>Y es que el elérigo con celo, </l>
+                  <l>á la Virgen cada dia</l>
+                  <l>le rezaba por consuelo</l>
+                  <l>su rosario en alegría.</l>
+                  <l>Todas las noches estaba</l>
+                  <l>tres horas justas, cabales,</l>
+                  <l>y con devocion rezaba</l>
+                  <l>los salmos penitenciales,</l>
+                  <l>Una noche le acechaba</l>
+                  <l>la hermana por ver qué hacia,</l>
+                  <l>y reparó como oraba</l>
+                  <l>á la gloriosa María.</l>
+                  <l>Con entrañable deseo</l>
+                  <l>le dice: ¿de dónde eres?</l>
+                  <l>responde, no estés turbado.</l>
+                  <l>¿tienes en tu tierra haberes?</l>
+                  <l>que si lo tienes y quieres</l>
+                  <l>bien puedes ser rescatado.</l>
+                  <l>¿Eres casado, mezquino?</l>
+                  <l>¿tienes hijo ó mujer?</l>
+                  <l>Respondió: con Dios divinc</l>
+                  <l>soy desposado indigno,</l>
+                  <l>y en él pongo mi querer,</l>
+                  <l>y la sagrada María</l>
+
+                  <pb n="3" source="Moreno_065_3.jpg" facs="fedora_ug8109842/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>es mi esposa y abogada.</l>
+                  <l>La renegada decia</l>
+                  <l>poniéndose incomodada,</l>
+                  <l>quítate de esa porfia,</l>
+                  <l>que tu ley no vale nada.</l>
+                  <l>El buen clérigo calló,</l>
+                  <l>y otra vez le preguntaba,</l>
+                  <l>que cual oficio aprendió,</l>
+                  <l>y de donde era; de España</l>
+                  <l>respondia muy puntual</l>
+                  <l>no con placer ni con risa;</l>
+                  <l>es mi oficio celestial,</l>
+                  <l>soy sacerdote de misa,</l>
+                  <l>cada vez que misa digo</l>
+                  <l>se baja Dios á mis manos;</l>
+                  <l>es el sustento y abrigo</l>
+                  <l>de los leales cristianos.</l>
+                  <l>Dijole: ese es tu oficio</l>
+                  <l>en tu tierra es muy tenido,</l>
+                  <l>oficio que quita vicio</l>
+                  <l>de oficios el mas subido.</l>
+                  <l>Razon tienes de alabarlo</l>
+                  <l>y tambien sabrás ahora</l>
+                  <l>que no volverás á usarlo</l>
+                  <l>si no hay quien te socorra.</l>
+                  <l>¿En qué villa ó qué lugar,</l>
+                  <l>ó en qué tierra te has criado?</l>
+                  <l>no me niegues la verdad.</l>
+                  <l>Respondió con humildad:</l>
+                  <l>déjame, ¡triste de mí!</l>
+                  <l>con mi pena y mi prision</l>
+                  <l>que no sé donde nací,</l>
+                  <l>déjame por el Señor.</l>
+                  <l>No me lo quieras negar;</l>
+                  <l>dilo ahora por mi amor,</l>
+                  <l>que aunque me ves aqui ahora</l>
+                  <l>cautiva en Valladolid</l>
+                  <l>he sido rica señora.</l>
+                  <l>Y como el clérigo oyó</l>
+                  <l>su buena tierra nombrar</l>
+                  <l>las sus megillas regó</l>
+                  <l>y principia á suspirar</l>
+                  <l>diciendo: has redoblado</l>
+                  <l>mi dolor grave y crecido</l>
+                  <l>que la tierra que has nombrado</l>
+                  <l>es do fuí criado y nacido.</l>
+                  <l>Comencé á consolarle</l>
+                  <l>y aplicar su llanto y lid</l>
+                  <l>y preguntarle en que calle</l>
+                  <l>vivia en Valladolid.</l>
+                  <l>Respondió con gran dolor,</l>
+                  <l>con afliccion y zozobra:</l>
+                  <l>vive mi padre y señor</l>
+                  <l>en la calle de la Obra.</l>
+                  <l>¿Conoces á los Rosales</l>
+                  <l>gente rica y principal?</l>
+                  <l>Dijo, ya doblas mis males:</l>
+                  <l>esos son mis tios carnales,</l>
+                  <l>y no saben de mi mal.</l>
+                  <l>La renegada que oyó</l>
+                  <l>las buenas señas que daba,</l>
+                  <l>al hermano conoció,</l>
+                  <l>y aun lo disimuló,</l>
+                  <l>el corazon lo lloraba.</l>
+                  <l>No hay contento que le cuadre</l>
+                  <l>mas que ver su buen hermano,</l>
+                  <l>y díjole; dí, ¿tu padre</l>
+                  <l>como se llama, y tu madre</l>
+                  <l>y tu nombre dime llano?</l>
+                  <l>Llamase Juan de Acebedo</l>
+                  <l>el mi buen padre y señor,</l>
+                  <l>y mi madre Leonor,</l>
+                  <l>por apellido Salcedo;</l>
+                  <l>y yo me llamo Melchor.</l>
+                  <l>Una hermana has de tener</l>
+                  <l>harto galana y hermosa,</l>
+                  <l>dí, Melchor, ¿qué se fué hacer?</l>
+                  <l>¿es casada ó religiosa?</l>
+                  <l>El clérigo respondió</l>
+                  <l>diciendo: fuése perdida;</l>
+                  <l>no sabe quien ia llevó</l>
+                  <l>ni á que provincia fué ida.</l>
+                  <l>La hermana se desmayó</l>
+                  <l>recordando su maldad,</l>
+                  <l>pero el hermano creyó</l>
+                  <l>fuese alguna enfermedad.</l>
+                  <l>El moro no estaba allí,</l>
+                  <l>que con sus hijos fué á caza</l>
+                  <l>y vuelta ella en sí</l>
+                  <l>á su buen hermáno abraza,</l>
+                  <l>y suspirando decia:</l>
+                  <l>abraza á la desdichada</l>
+                  <l>Agueda de Acebedo,</l>
+                  <l>la perdida y desastrada;</l>
+                  <l>yo soy tu hermana, que estaba</l>
+                  <l>para monja religiosa:</l>
+                  <l>¡oh buen Jesus! tú me labas</l>
+                  <l>que estoy de cieno lodosa:</l>
+                  <l>mi Dios, dame tu concordia,</l>
+                  <l>acógeme á tu rebaño:</l>
+
+                  <pb n="4" source="Moreno_065_4.jpg" facs="fedora_ug8104073/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>mas es tu misericordia</l>
+                  <l>que mi pestífero daño.</l>
+                  <l>Veinte y seis años cabales</l>
+                  <l>¡oh mi Dios! que te negué,</l>
+                  <l>y los bienes temporoles</l>
+                  <l>á mi alma encenagué.</l>
+                  <l>Las ropas de terciopelo,</l>
+                  <l>y de muy fino damasco,</l>
+                  <l>les arrastra por el suelo:</l>
+                  <l>y al mundo le pone asco.</l>
+                  <l>La obeja que era perdida</l>
+                  <l>ya se vuelve al buen Pastor;</l>
+                  <l>la duele la gran caida</l>
+                  <l>y la ofensa del Señor.</l>
+                  <l>Decia: Rey eternal,</l>
+                  <l>yo te bendigo y alabo,</l>
+                  <l>que por restaurar mi mal</l>
+                  <l>mi propio hermano me envias:</l>
+                  <l>y fué para que entendiese</l>
+                  <l>mi alma iba perdida,</l>
+                  <l>y á tí, mi Dios, me volviese</l>
+                  <l>a gustar tu pan de vida.</l>
+                  <l>El clérigo como vió</l>
+                  <l>que era su hermana carnal,</l>
+                  <l>á Dios muchas gracias dió,</l>
+                  <l>y de rodillas se hincó</l>
+                  <l>diciendo: Dios eternal;</l>
+                  <l>pues tomaste carne humana,</l>
+                  <l>por todos los pecadores,</l>
+                  <l>señor, perdon á mi hermana.</l>
+                  <l>Así mismo confortaba</l>
+                  <l>á su hermana y la reñía</l>
+                  <l>que con un canto se daba,</l>
+                  <l>el pecho se lastimaba,</l>
+                  <l>y de sí no se dolia.</l>
+                  <l>Llorando decia: ¿dónde</l>
+                  <l>iré á publicar mis pecados?</l>
+                  <l>Mi buen Jesus, perdóname</l>
+                  <l>mis grandes yerros pasados.</l>
+                  <l>Mi ánima pecadora,</l>
+                  <l>presento, Dios, en tus manos,</l>
+                  <l>y la Virgen mi Señora,</l>
+                  <l>esa mi guarda y guiadora.</l>
+                  <l>Decidme, Vírgen María;</l>
+                  <l>¿Cuándo cobraré el salario</l>
+                  <l>que antes ganar yo solía</l>
+                  <l>rezando vuestro rosario?</l>
+                  <l>El dia que yo rezaba</l>
+                  <l>ganaba por mil tesoros,</l>
+                  <l>mi alma se consolaba,</l>
+                  <l>y ahorá la tengo esclava,</l>
+                  <l>cautiva en tierra de moros.</l>
+                  <l>Quiso Dios que fué elegido,</l>
+                  <l>muy lejos de aquella tierra,</l>
+                  <l>por capitan su marido,</l>
+                  <l>para ir á cierta guerra;</l>
+                  <l>sus hijos llevó consigo,</l>
+                  <l>que era ya de buena edad.</l>
+                  <l>Permitió su Magestad</l>
+                  <l>que un hijo de mercader</l>
+                  <l>que estaba en cautividad,</l>
+                  <l>viniéronle á rescatar,</l>
+                  <l>y la dueña tuvo modo</l>
+                  <l>para poderle hablar,</l>
+                  <l>y dióle para sacar</l>
+                  <l>pasaporte para todos.</l>
+                  <l>Los cuatro juntos se fueron</l>
+                  <l>hasta la ciudad de Roma,</l>
+                  <l>y perseguidos no fueron</l>
+                  <l>de la gente de Mahoma.</l>
+                  <l>Estando en Roma decia</l>
+                  <l>ante el Papa y humillada:</l>
+                  <l>¡Oh Padre espiritual,</l>
+                  <l>sáneme que estoy dañada!</l>
+                  <l>Pues que estoy á tu presencia:</l>
+                  <l>óyeme, Pastor sagrado</l>
+                  <l>y dadme la penitencia</l>
+                  <l>conforme á mi gran pecado.</l>
+                  <l>Que si Dios me castigara,</l>
+                  <l>conforme á mi gran error,</l>
+                  <l>no es nada aunque me quemase</l>
+                  <l>en vivas llamas de ardor.</l>
+                  <l>La dama se confesó</l>
+                  <l>y arrepentida de veras,</l>
+                  <l>el Redentor la libró</l>
+                  <l>de las infernales penas.</l>
+                  <l>Plegue á Jesucristo, hermanos,</l>
+                  <l>que lavemos la conciencia,</l>
+                  <l>sirviendo como cristianos</l>
+                  <l>á la suma Omnipotencia.</l>
+                  <l>Y aquí el poeta humillado,</l>
+                  <l>en la otra parte promete,</l>
+                  <l>con el auxilio divino</l>
+                  <l>decir el fin penitente</l>
+                  <l>de esta ínclita matrona,</l>
+                  <l>de Valladolid descendiente:</l>
+                  <l>y de sus amados hijos,</l>
+                  <l>convertidos ciertamente</l>
+                  <l>á nuestra religion santa,</l>
+                  <l>por sus lágrimas prudentes.</l>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_065_5.jpg" facs="fedora_ug8107036/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
+                  <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+                  <head rend="cursiva" type="subtitulo_parte">
+                     <lb/>Dáse cuenta de la santa penitencia que hizo la renegada, y como convirtió
+                     <lb/>á dos hijos sin conocer estos á su madre. </head>
+
+                  <l rend="indent">Dios Padre Rey Sempiterno,</l>
+                  <l>sea quien siempre me ampare,</l>
+                  <l>Dios Hijo me dé gobierno,</l>
+                  <l>y el Santo Espíritu Eterno</l>
+                  <l>ponga luz donde faltare.</l>
+                  <l>Quien la paz y vencimiento</l>
+                  <l>hizo al mundo por victoria,</l>
+                  <l>aviven mi entendimiento,</l>
+                  <l>mi lengua, gracia y alimento,</l>
+                  <l>mi pluma y mi memoria,</l>
+                  <l>con su ayuda singular</l>
+                  <l>estaré seguro y cierto</l>
+                  <l>que podre bien navegar,</l>
+                  <l>y con seguridad entrar</l>
+                  <l>por la barra estrecho al puerto.</l>
+                  <l>Tiempo es ya que nos quitemos</l>
+                  <l>del vicio malo y pendiente</l>
+                  <l>pues con vicios nos perdemos,</l>
+                  <l>y nuevo ejemplo tenemos</l>
+                  <l>de una mujer penitente.</l>
+                  <l>En Valladolid nacida</l>
+                  <l>fué esta bienaventurada,</l>
+                  <l>y por enmendar su vida</l>
+                  <l>es de Jesucristo amada.</l>
+                  <l>Vereis que por la riqueza</l>
+                  <l>y vicios, negó al Señor,</l>
+                  <l>y con cuanta fortaleza</l>
+                  <l>torna á buscar su Pastor.</l>
+                  <l>Vereis á la que vestia</l>
+                  <l>sedas de finos colores</l>
+                  <l>y en rica cama dormia</l>
+                  <l>de suavísimos olores;</l>
+                  <l>como recuerda del sueño</l>
+                  <l>y procura nueva luz,</l>
+                  <l>buscar su perfecto dueño</l>
+                  <l>que murió por ella en cruz,</l>
+                  <l>Vereis como el mundo olvida,</l>
+                  <l>hijos, maridos y hacienda,</l>
+                  <l>y buscando el pan de vida,</l>
+                  <l>con propósito de enmienda.</l>
+                  <l>Vereis quien sirvió á Mahoma</l>
+                  <l>veinte y seis años cabales</l>
+                  <l>que se viene para Roma</l>
+                  <l>por penitenciar sus males.</l>
+                  <l>Vereis quien vivido habia</l>
+                  <l>tantos años al reves,</l>
+                  <l>como descalza venia</l>
+                  <l>corriendo sangre los pies.</l>
+                  <l>Vereis quien se regalaba</l>
+                  <l>con buenas conservas finas,</l>
+                  <l>que con yerbas se pasaba</l>
+                  <l>y con las duras espinas.</l>
+                  <l>Vereis que como se vió</l>
+                  <l>en Roma puerto seguro,</l>
+                  <l>la tierra santa besó</l>
+                  <l>con estrañable amor puro.</l>
+                  <l>Y como en San Pedro entrara</l>
+                  <l>gimiendo su gran error,</l>
+                  <l>que de vergüenza no osaba</l>
+                  <l>mirar al altar mayor.</l>
+                  <l>Su boca en tierra pegó,</l>
+                  <l>y suspirando entre si,</l>
+                  <l>a Jesus perdon pidió</l>
+                  <l>sin levantarse de allí.</l>
+                  <l>Por la fiesta celebrada</l>
+                  <l>de María Magdalena</l>
+                  <l>fué del Papa perdonada</l>
+                  <l>esta mujer santa y buena.</l>
+                  <l>Y despues de recibir</l>
+                  <l>á Jesus Rey soberano,</l>
+                  <l>se fué luego á despedir</l>
+                  <l>del sacerdote su hermano;</l>
+                  <l>dijo la hermana prudente,</l>
+                  <l>yo ruego á mi Dios hermano,</l>
+                  <l>que me limpie en la fuente,</l>
+                  <l>que dá salud al cristiano.</l>
+                  <l>Los dias que trasladados</l>
+                  <l>me dió por su gran clemencia</l>
+                  <l>quiero que sean gastados</l>
+                  <l>en ayuno y penitencia.</l>
+                  <l>Es menester prontamente</l>
+                  <l>arrojar de mí la carga</l>
+                  <l>pues esta vida presente</l>
+                  <l>es breve y la otra larga.</l>
+                  <l>El sacerdote sentia</l>
+                  <l>con grande pena y pesar,</l>
+
+                  <pb n="6" source="Moreno_065_6.jpg" facs="fedora_ug8107955/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>que su hermana no quería</l>
+                  <l>volver al pais natal.</l>
+                  <l>Pues sabes tú que es famoso</l>
+                  <l>Valladolid, y cumplida;</l>
+                  <l>de todo bien abundosa,</l>
+                  <l>es sobre toda escogida,</l>
+                  <l>Ella dijo, no se aplaca</l>
+                  <l>con el deleite mi pena,</l>
+                  <l>sin gustar de la triaca</l>
+                  <l>con que sanó Magdalena.</l>
+                  <l>Mi intento es habitar</l>
+                  <l>por el áspero desierto,</l>
+                  <l>y este mi cuerpo purgar</l>
+                  <l>el mal que tiene encubierto.</l>
+                  <l>Al tiempo de despedirse</l>
+                  <l>vieras la lamentacion,</l>
+                  <l>al abrazarse y decirse</l>
+                  <l>palabras de esclamacion.</l>
+                  <l>El clérigo procuró</l>
+                  <l>luego bagel en el puerto,</l>
+                  <l>y la hermana se partió</l>
+                  <l>hácia el árido desierto.</l>
+                  <l>Veinte y una legua fué</l>
+                  <l>de Roma al monte Arsiano:</l>
+                  <l>do padeció hambre y sed</l>
+                  <l>por Jesus Rey Soberano.</l>
+                  <l>Por la mayor espesura</l>
+                  <l>inhabitable se entró</l>
+                  <l>por do humana criatura</l>
+                  <l>jamás pasó ni habitó.</l>
+                  <l>El vestido se quitaba,</l>
+                  <l>que se le hacia enfadoso,</l>
+                  <l>tanto que no cobijaba</l>
+                  <l>mas del lugar vergonzoso.</l>
+                  <l>Este vestido tenia</l>
+                  <l>guardado en cierto lugar</l>
+                  <l>y solo se lo ponia</l>
+                  <l>cuando iba á comulgar.</l>
+                  <l>Su cuerpo contínuo andaba</l>
+                  <l>sujeto al frio y al viento,</l>
+                  <l>y con yervas se pasaba</l>
+                  <l>sin tener otro sustento,</l>
+                  <l>En las rodillas tenia</l>
+                  <l>callos de tanto orar,</l>
+                  <l>y las espaldas traia</l>
+                  <l>abierta de se azotar:</l>
+                  <l>los ojos tenia hundidos,</l>
+                  <l>sus labios muy desacados,</l>
+                  <l>y los pies antes pulidos,</l>
+                  <l>abiertos y ensangrentados,</l>
+                  <l>La Semana Santa entraba</l>
+                  <l>en Roma con humildad,</l>
+                  <l>y sus vestidos llevaba</l>
+                  <l>solo por la honestidad,</l>
+                  <l>Luego al desierto tornaba</l>
+                  <l>toda desecha en sollozos,</l>
+                  <l>y sin cesar recordaba</l>
+                  <l>los hijos que dejó moros.</l>
+                  <l>Que como vió que quedaron</l>
+                  <l>mozos sin entendimiento</l>
+                  <l>ni Fé que no alcanzaron</l>
+                  <l>tenia mucho tormento.</l>
+                  <l>Y puesta ambas sus manos</l>
+                  <l>rogó á Dios en la cruz</l>
+                  <l>padeció por los humanos,</l>
+                  <l>los convirtiese á su luz.</l>
+                  <l>Rindiòla el sueño, y oyó:</l>
+                  <l>«vé por tus hijos queridos</l>
+                  <l>que por Dios que los crió</l>
+                  <l>serán muy favorecidos.</l>
+                  <l>De enemigos malignos</l>
+                  <l>no te verás perseguida.</l>
+                  <l>ni alli seràs conocida</l>
+                  <l>de tus hijos y vecinos»</l>
+                  <l>Cuando el sueño recordó,</l>
+                  <l>del desierto se salia,</l>
+                  <l>que es donde penitenció,</l>
+                  <l>ocho años con porfía.</l>
+                  <l>Con lágrimas se despide</l>
+                  <l>del desierto do habitaba,</l>
+                  <l>pidiéndole á Dios no la olvide,</l>
+                  <l>pues á él se encomendaba.</l>
+                  <l>Seiscientas leguas anduvo</l>
+                  <l>padeciendo hambre y sed,</l>
+                  <l>para que sus hijos turcos</l>
+                  <l>se inclinasen á la Fé.</l>
+                  <l>Como Dios quiso que viera</l>
+                  <l>sus dos hijos deseados,</l>
+                  <l>llorando entre si dijera:</l>
+                  <l>¡quien os viera bautizados!</l>
+                  <l>Como en casa entrar los vió</l>
+                  <l>la madre noble y prudente,</l>
+                  <l>de limosna les pidió,</l>
+                  <l>diciendo humildemente:</l>
+                  <l>caballeros, consolad</l>
+                  <l>á esta necesitada;</l>
+                  <l>así os consuele Alá</l>
+                  <l>vuestra madre desdichada.</l>
+                  <l>El mayor que lo entendió,</l>
+                  <l>le preguntó:¿y tú visto</l>
+
+                  <pb n="7" source="Moreno_065_7.jpg" facs="fedora_ug8107029/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>algun tiempo ó conociste</l>
+                  <l>la madre que nos parió?</l>
+                  <l>Ella dijo: bien la ví</l>
+                  <l>y os podré dar nuevas de ella;</l>
+                  <l>pues mejor la conocí</l>
+                  <l>que no vosotros á ella.</l>
+                  <l>Los dos hermanos lloraron</l>
+                  <l>oyendo su madre nombrar</l>
+                  <l>y en su retrete se entraron,</l>
+                  <l>donde la hicieron sentar.</l>
+                  <l>En medio de ellos tenian</l>
+                  <l>la que tanto han deseado</l>
+                  <l>pero no la conocian</l>
+                  <l>como se ha desemejado.</l>
+                  <l>Dijeron con pena triste:</l>
+                  <l>la madre que nos parió,</l>
+                  <l>¿enánto habrá que la viste</l>
+                  <l>despues que aquí partió?</l>
+                  <l>Dijo: yo la conocí</l>
+                  <l>desde que era muy niña,</l>
+                  <l>y juntas de Valladolid,</l>
+                  <l>salimos en igual dia.</l>
+                  <l>Cuando vino á Bujía,</l>
+                  <l>la serví y acompañé,</l>
+                  <l>y cuando ella fué cantiva</l>
+                  <l>yo en cautividad entré.</l>
+                  <l>Y el dia que se casó</l>
+                  <l>con Alifach vuestro padre,</l>
+                  <l>en las fiestas comí yo</l>
+                  <l>al harem de vuestra madre.</l>
+                  <l>En los partos de vosotros</l>
+                  <l>siempre á llamar me enviaba</l>
+                  <l>y aun harta pena me daba</l>
+                  <l>los sus dolores penosos.</l>
+                  <l>Muchas veces os limpié,</l>
+                  <l>porque parida yo estaba,</l>
+                  <l>y os prometo por mi fé</l>
+                  <l>que mi propia leche os daba.</l>
+                  <l>Dicen en llanto bañados;</l>
+                  <l>madre, pues que nos parísteis,</l>
+                  <l>¿por qué causa aborrecisteis</l>
+                  <l>estos hijos desdichados?</l>
+                  <l>si por nuestra ley nos hechas</l>
+                  <l>de tu seno madre nuestra,</l>
+                  <l>desde ahora la abjuramos,</l>
+                  <l>y abrazaremos la vuestra,</l>
+                  <l>¿por qué causa olvidais</l>
+                  <l>á quien con dolor parísteis?</l>
+                  <l>¿siquiera no os acordais</l>
+                  <l>que en el vientre nos tuvísteis?</l>
+                  <l>Y si quisisteis marcharos</l>
+                  <l>por tomar el cristianismo,</l>
+                  <l>pudísteis luego llamarnos,</l>
+                  <l>porque hiciéramos lo mismo.</l>
+                  <l>A once esclavos que venian</l>
+                  <l>del campo de trabajar,</l>
+                  <l>los dos hermanos decian</l>
+                  <l>que se fuesen á cenar.</l>
+                  <l>Harto hacia y porfiaba</l>
+                  <l>la madre en disimular,</l>
+                  <l>tanto que tambien lloraba</l>
+                  <l>viendo á sus hijos llorar.</l>
+                  <l>Tornáronla á preguntar</l>
+                  <l>si de su madre sabia,</l>
+                  <l>y ella dijo: os quiero dar</l>
+                  <l>mas nuevas de alegría.</l>
+                  <l>No esteis tan apasionados,</l>
+                  <l>que en sosegando la casa</l>
+                  <l>os contaré mis amados,</l>
+                  <l>toda la verdad que pasa.</l>
+                  <l>Muy buena cena tenian,</l>
+                  <l>mas no hay manjar que le cuadre,</l>
+                  <l>que solo el deseo tenian,</l>
+                  <l>de saber ya de su madre.</l>
+                  <l>Como cenar no pudiesen</l>
+                  <l>de pena su madre y ellos,</l>
+                  <l>mandaron que la hiciese</l>
+                  <l>una cama junto á ellos.</l>
+                  <l>Como no era acostumbrada</l>
+                  <l>dormir en lienzo delgado,</l>
+                  <l>no quiso la madre honrada</l>
+                  <l>mas de un cabezal doblado.</l>
+                  <l>Despues de encomendarse</l>
+                  <l>á Dios, que es su primer Padre,</l>
+                  <l>á sus hijos fué á dar</l>
+                  <l>nuevas de su buena madre,</l>
+                  <l>diciendo: no tengais penas</l>
+                  <l>ni sintais afligimiento,</l>
+                  <l>que vuestra madre está buena,</l>
+                  <l>de tanta riqueza llena,</l>
+                  <l>que no hay número ni cuento.</l>
+                  <l>En Roma la ví muy buena,</l>
+                  <l>firme en la divina Fé,</l>
+                  <l>que en esta santa cuaresma</l>
+                  <l>con ella estuve y hablé</l>
+                  <l>no comia ni bebia,</l>
+                  <l>sino que siempre lloraba</l>
+                  <l>á dos hijos que tenia</l>
+                  <l>en Turquia, y los amaba.</l>
+                  <l>Con el cruel llanto que hacia</l>
+
+                  <pb n="8" source="Moreno_065_8.jpg" facs="fedora_ug8108687/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>le supliqué os escribiese:</l>
+                  <l>y que por cierto tuviese</l>
+                  <l>en que la carta os daria.</l>
+                  <l>Despues que la desdoblaron</l>
+                  <l>y la letra conocieron,</l>
+                  <l>muchas veces la besaron;</l>
+                  <l>del contento que tuvieron</l>
+                  <l>la leen sin cesar</l>
+                  <l>y á la mujer la decian</l>
+                  <l>de que manera podrian</l>
+                  <l>seguros en Roma entrar.</l>
+                  <l>Dijo la madre: temed</l>
+                  <l>los esclavos que teneis</l>
+                  <l>y á otros cuatro comprad</l>
+                  <l>que es menester los habreis.</l>
+                  <l>Al punto nos partiremos</l>
+                  <l>viendo la noche cerrar,</l>
+                  <l>y un bergantin hallaremos</l>
+                  <l>de estos que van á pescar.</l>
+                  <l>El su consejo afirmaron</l>
+                  <l>por bueno, secretamente</l>
+                  <l>á cuatro esclavos compraron</l>
+                  <l>gente moza y diligente.</l>
+                  <l>Todos fueron avisados</l>
+                  <l>de su bien y libertad,</l>
+                  <l>y asi una noche cargados</l>
+                  <l>marcharon con gravedad.</l>
+                  <l>De ocho barcos hallaron,</l>
+                  <l>un bergantin escelente,</l>
+                  <l>y sin rumor se embarcaron</l>
+                  <l>todos veinte prontamente.</l>
+                  <l>Tanta ventura tuvieron,</l>
+                  <l>que per su buen navegar</l>
+                  <l>en treinta y seis dias fueron</l>
+                  <l>á Roma á desembarcar;</l>
+                  <l>y siendo desembarcados</l>
+                  <l>la buena mujer habló</l>
+                  <l>diciendo: hijos amados,</l>
+                  <l>veis aquí á quien os parió.</l>
+                  <l>Abrazadme, veisme aquí,</l>
+                  <l>no esteis embelesados</l>
+                  <l>que yo soy la que os parí</l>
+                  <l>y con mi leche fuisteis criados.</l>
+                  <l>Yo soy quien siempre ha rogado</l>
+                  <l>á Dios nuestro Redentor</l>
+                  <l>que os pusiese en tal estado</l>
+                  <l>de fé que ahora os veo yo.</l>
+                  <l>Maravillados estaban</l>
+                  <l>de lo que la madre habló</l>
+                  <l>ambos hijos la miraban</l>
+                  <l>si fuese su madre ó no,</l>
+                  <l>Hermano, dijo el mayor,</l>
+                  <l>si es nuestra madre piadosa</l>
+                  <l>en los pechos como yo</l>
+                  <l>ha de tener una rosa.</l>
+                  <l>Los hijos la descubrieron,</l>
+                  <l>y como la rosa hallaron</l>
+                  <l>con mucho amor la abrazaron</l>
+                  <l>como que la conocieron.</l>
+                  <l>Los llantos quiero dejar</l>
+                  <l>que entónces se renovaron,</l>
+                  <l>y asi quiero declarar</l>
+                  <l>de rómo se bautizaron.</l>
+                  <l>Como el Papa conoció</l>
+                  <l>ser firme y bueno su intento,</l>
+                  <l>bautismo le concedió</l>
+                  <l>con gran placer y contento.</l>
+                  <l>Al Papa los pies besaron,</l>
+                  <l>y entre él y los prelados</l>
+                  <l>de limosna le juntaron</l>
+                  <l>mas de veinte mil ducados.</l>
+                  <l>En Santa Clara se entró</l>
+                  <l>la madre, segun es cierto</l>
+                  <l>que de cansada enfermó</l>
+                  <l>con lo que pasó al desierto.</l>
+                  <l>Queriéndola Dios llevar</l>
+                  <l>á su celeste mansion,</l>
+                  <l>mandó á sus hijos llamar,</l>
+                  <l>y les dió su bendicion.</l>
+                  <l>Ellos besaron su mano,</l>
+                  <l>con amor los abrazó,</l>
+                  <l>y mucho les encargó</l>
+                  <l>que fuesen buenos cristianos.</l>
+                  <l>Noche propia que nació</l>
+                  <l>nuestro Redentor glorioso,</l>
+                  <l>su ánima presentó</l>
+                  <l>á Jesucristo piadoso.</l>
+                  <l>Un olor que confortaba</l>
+                  <l>del cuerpo santo salia,</l>
+                  <l>y su vida revelaba</l>
+                  <l>á quien su confesion oia.</l>
+                  <l>De donde habemos sacado</l>
+                  <l>esta dolorosa historia,</l>
+                  <l>en que ejemplo hemos tomado,</l>
+                  <l>y por ella caminemos</l>
+                  <l>á la perdurable gloria.</l>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imprenta y lib. de José María Moreno, Madre de Dios, 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

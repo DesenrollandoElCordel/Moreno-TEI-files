@@ -1,0 +1,1094 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_263">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sainete del Sí</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete del Sí.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1866-01-01">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6477192</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 277</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>1 y 2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1, p.3)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_263_1.xml" facs="fedora_ug8110106/145,170,1467,2004/100,/0/default.jpg">grabado_m_263_1</item>
+                           <item corresp="grabado_m_263_2.xml" facs="fedora_ug8108758/142,200,1300,220/100,/0/default.jpg">grabado_m_263_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-22" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-02" who="#EL">Correction de l'OCR</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104046/manifest">
+      <graphic url="fedora_ug8110106/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_263_1.jpeg" facs="fedora_ug8110106/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Núm. 277.</fw>
+
+            <head type="primer_titulo">
+               <lb/>SAINETE <lb/><hi rend="negrita">DEL SI.</hi>
+            </head>
+
+            <div type="reparto">
+               <head type="reparto_titulo">PERSONAS.</head>
+
+               <castList rend="cursiva">
+                  <castItem>Dos ladrones.</castItem>
+                  <castItem>Un almonedero.</castItem>
+                  <castItem>Un vejete.</castItem>
+                  <castItem>Un gracioso.</castItem>
+                  <castItem>Una mujer.</castItem>
+                  <castItem>Músicos.</castItem>
+               </castList>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA: <lb/>IMP. Y LIB. DE DON JOSE M. MORENO Y GALVEZ, <lb/>CALLE MADRE DE
+                  DIOS, NUMERO 1. <lb/>1866. </p>
+            </div>
+
+            <div>
+               <pb n="2" source="Moreno_263_2.jpeg" facs="fedora_ug8109106/full/full/0/default.jpg"/>
+
+               <pb n="3" source="Moreno_263_3.jpeg" facs="fedora_ug8108758/full/full/0/default.jpg"/>
+
+               <head type="subtitulo">SAINETE DEL SI.</head>
+
+               <stage>Salen los dos ladrones.</stage>
+
+               <sp>
+                  <l>Amigo, ya el noble oficio</l>
+                  <l>de ladron no tiene medra,</l>
+                  <l>pues no se halla ocasion</l>
+                  <l>en que las uñas se metan.</l>
+                  <l>Ya de moho, sin cursarse,</l>
+                  <l>no abren las llaves maestras,</l>
+                  <l>y como no están trilladas</l>
+                  <l>las ganzuas,crian yerba.</l>
+                  <l>En fin, perecemos todos,</l>
+                  <l>sin remedio.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Esto te altera;</l>
+                  <l>cuando en el ingenio hay trazas,</l>
+                  <l>con que todo se remedia?</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Es imposible encontrarse.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Mire, si hallarse pudiera</l>
+                  <l>un hombre tan majadero,</l>
+                  <l>que con nosotros viniera,</l>
+                  <l>y metiéndole en un coche, </l>
+                  <l>bien vestido, a una almoneda</l>
+                  <l>le lleváremos, y todos</l>
+                  <l>con muy grandes reverencias,</l>
+                  <l>fingiéndonos criados suyos,</l>
+                  <l>con disimulo y cautela</l>
+                  <l>dijéramos al tratante</l>
+                  <l>que era un Señor de suprema</l>
+                  <l>calidad, que por alahajas</l>
+                  <l>venia desde su tierra,</l>
+                  <l>y despues de haber tomado</l>
+                  <l>fuentes, braseros y telas,</l>
+                  <l>diciendo que ibamos todos</l>
+                  <l>por dineró, á él en la tienda</l>
+                  <l>le dejáramos, yo sé</l>
+                  <l>que pudierá aquesta treta</l>
+                  <l>valernos mas que pensamos.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Si pero en vano lo ordenas</l>
+                  <l>porque donde ha de haber hombre</l>
+                  <l>de tan sencilla rudeza,</l>
+                  <l>que así se deje engañar?</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>No es posible que le hubiera.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>No, pero no ha de quedar</l>
+                  <l>jamás por mi diligencia.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Retiremos á un lado,</l>
+                  <l>que viene gente.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale el Vejete y el Gracioso,</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Dí, bestia,</l>
+                  <l>no te he dicho que me busques</l>
+                  <l>á aquel hombre que en la feria,</l>
+                  <l>me habló el otro dia? </l>
+               </sp>
+
+               <pb n="4" source="Moreno_263_4.jpeg" facs="fedora_ug8110052/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Yo,</l>
+                  <l>bien le ví, mas si las señas</l>
+                  <l>el no me dá, no es posible</l>
+                  <l>conocerle aunque le viera.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Será de buena estatura.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracio.</speaker>
+                  <l>Cuál es la estatura buena?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Tan alto.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Pone la mano alla, y síempre es- <lb/>tá de aquella suerte. </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Estese quedito.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Para qué?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso. </speaker>
+                  <l>Para que pueda</l>
+                  <l>llevando así la medida,</l>
+                  <l>hacer que no se me pierda:</l>
+                  <l>pues hasta hallar á quien viére,</l>
+                  <l>se la mediré á cualquiera.</l>
+               </sp>
+
+               <stage>Mide al Viejo.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Ay tal simple?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gra.</speaker>
+                  <l>No sois vos, que sois chico.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Tente bestia,</l>
+                  <l>y vete con mil demonios,</l>
+                  <l>que por no verte, quisiera</l>
+                  <l>no mandarte nunca nada,</l>
+                  <l>y servirme yo. <stage rend="cursiva">Vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso. </speaker>
+                  <l>Que frema,</l>
+                  <l>no he de buscar para hallarle</l>
+                  <l>á quién la medida venga?</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Aguardad que viene un hombre,</l>
+                  <l>que si no mienten las señas,</l>
+                  <l>parece un gran majadero.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Pues lleguemos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Vaya de esta.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Ay que me ha muerto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Este es grande:</l>
+                  <l>vamos á este otro.</l>
+               </sp>
+
+               <stage>Mide al primero.</stage>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Qué intentas?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Este es chico.</l>
+               </sp>
+
+               <stage>Mide al segundo.</stage>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Majadero,</l>
+                  <l>baja este brazo.</l>
+               </sp>
+
+               <stage>Baja el brazo.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Ay águila,</l>
+                  <l>que se me ha ido aquí! </l>
+                  <l>ay San Antonio! ay mi muestra!</l>
+               </sp>
+
+               <stage>Hace que la busca.</stage>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Qué buscas?</l>
+               </sp>
+
+               <sp>
+                  <speaker>Gracioso.</speaker>
+                  <l>Aquí cayó.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Qué se ha caido?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>La mesma</l>
+                  <l>medida que tiene un hombre,</l>
+                  <l>que busco.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Cumplióse apriesa</l>
+                  <l>nuestro deseo, que es simple.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Ay mi medida.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Eso deja.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso. </speaker>
+                  <l>Ayúdenmela á buscar,</l>
+                  <l>que sino llevo respuesta,</l>
+                  <l>me matará mi amo á cozes.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Pues para que no le temas,</l>
+                  <l>puedes venir con nosotros.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Y habrá de comer siquiera</l>
+                  <l>una ternera cocida?</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Mira, te pondré una mesa</l>
+                  <l>con pavos, pollas, perdices,</l>
+                  <l>capones, tortas rellenas</l>
+                  <l>de guindas, y manjar blanco.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Para mi solo? </l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Si.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gra.</speaker>
+                  <l>Venga que me estoy muriendo</l>
+                  <l>de bambre, vamos no se enfrie.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Espera,</l>
+                  <l>que todo esto te daré,</l>
+                  <l>si haces lo que yo te advierta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso. </speaker>
+                  <l>Y qué he de hacer?</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Que vestido de gala,</l>
+                  <l>y plumas diversas,</l>
+
+                  <pb n="5" source="Moreno_263_5.jpeg" facs="fedora_ug8108371/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
+                  <l>has de venir con nosotros,</l>
+                  <l>y entrar en una almoneda,</l>
+                  <l>y á cuanto te preguntaren,</l>
+                  <l>solo has de dar por respuesta</l>
+                  <l>si, mas por diferenciar,</l>
+                  <l>tal vez cuando te se ofrezca,</l>
+                  <l>dí tambien, es mucha cosa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso.</speaker>
+                  <l>Como yo coma sin pena</l>
+                  <l>haré lo que me mandaren.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Cumplióse la estratagema.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Que en fin lo harás?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gra.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Que lindo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Cómo te llamas? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracioso. </speaker>
+                  <l>Si.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Apriesa</l>
+                  <l>ha tomado la leccion.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Mas pregunto tu simpleza,</l>
+                  <l>nos has de echar á perder? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gr. </speaker>
+                  <l>Si.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>A mil diablos, si esto hicieras,</l>
+                  <l>te daria.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Gracios.</speaker>
+                  <l>Es mucha cosa.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Vamos que aun en la idea</l>
+                  <l>imaginado, ninguno</l>
+                  <l>mas á propósito fuera.</l>
+               </sp>
+
+               <stage rend="cursiva">Entranse, y sale el Almonedero con su mujer.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Cuelga aquestas polieras,</l>
+                  <l>ponlas enfrente de las ordinarias,</l>
+                  <l>para que mas reluzca la esterilla,</l>
+                  <l>alcanza ese vestido, y mas le ensancha,</l>
+                  <l>porque el Sol famosamente trilla,</l>
+                  <l>y mete entre el doblez aquesta mancha.</l>
+                  <l>Y cuidado os encargo, y ojo alerta,</l>
+                  <l>con todos los que entraren por la puerta:</l>
+                  <l>y lo que mas encargo es la bajilla,</l>
+                  <l>porque hay dama de aquestas de la villa,</l>
+                  <l>que entra buena, y sana en la almoneda,</l>
+                  <l>sin que estorvarse, ni impedirse aquesto pueda,</l>
+                  <l>le dá un achaque allí mas de repente,</l>
+                  <l>en un brazo sacar suele una fuente.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Todo está prevenido: cosa es rara?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Criada.</speaker>
+                  <l>Con cuídado estarémos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Dentro.</speaker>
+                  <l>Para, para.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale Cosme de gala, con pluma y banda.</stage>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Aquí puede comprar vueseñoría,</l>
+                  <l>que esta es casa, señor, de gran valía.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Usted me hace merced.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Servirle espero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Pregunto, quien es este caballero?</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Es el Varon de Sandi.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Es de gran casa?</l>
+                  <l>Ya se reconoce, miren lo que pasa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Quiere vueseñoria sentarse¿</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <pb n="6" source="Moreno_263_6.jpeg" facs="fedora_ug8108130/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Ya empieza.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Que propia es de señores la llaneza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Comprar quiere preseas diferentes.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Gusta vueseñoria de estas cuatro fuentes?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Vaya usted apartando.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Quiere vueseñoría,</l>
+                  <l>este aguamanil y esta vacìa?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Quiere vueseñoría dos terlizes,</l>
+                  <l>labrados de hermosísimos matizes,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Allí hay un buen brasero,</l>
+                  <l>quiérele vueseñoría?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Si:</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Gran caballero.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Pues vamos despachando,</l>
+                  <l>y la cuenta usted vaya ajustando.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Todo tiene su tasa. </l>
+               </sp>
+
+               <sp>
+                  <speaker>2. </speaker>
+                  <l>Eso queremos,</l>
+                  <l>y en ajustando por dinero iremos,</l>
+                  <l>si gusta vueseñoría. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme. </speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Esto me place.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Muy buena venta has hecho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Dios lo hace.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Que poquitas razones</l>
+                  <l>gasta el señor.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Son melancolicones.</l>
+                  <l>y el Varon de Grandi trae un cuidado,</l>
+                  <l>que está de un imposible enamorado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Su gran silencio admira.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Como discreto al fin calla, y suspira.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Dos mil ducados ha mensado</l>
+                  <l>lo que se lleva.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Miren que agrado.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Gusta vueseñoría de quedarse</l>
+                  <l>mientras este dinero va á contarse?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Pues sor mayordomo,</l>
+                  <l>cargue con todo aquesto.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Lindo, cómo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Esta bien acordado,</l>
+                  <l>porque halle el coche desembarazado</l>
+                  <l>el Varon mi señor para volverse.</l>
+               </sp>
+
+               <pb n="7" source="Moreno_263_7.jpeg" facs="fedora_ug8103920/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Aqui puede vueseñoría entretenerse</l>
+                  <l>en ver algunas joyas mientras vamos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker>2.</speaker>
+                  <l>Linda burla.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>No es malo que comamos,</l>
+                  <l>para tener desembarazado el dia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Delante del señor?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Su señoría nos dará licencia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Ola, Teresa,</l>
+                  <l>luego al instante <choice>
+                        <sic>pon</sic>
+                        <corr>por</corr>
+                     </choice> aquí la mesa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Criad.</speaker>
+                  <l>Ya está aquí prevenida.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Trae el asado y saquen la comida.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Criad.</speaker>
+                  <l>Ya tienen en la mesa la vianda.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l><choice>
+                        <sic>Cracias</sic>
+                        <corr>Gracias</corr>
+                     </choice> á Dios que hallé una polla blanda; </l>
+                  <l>quiere vueseñoría un bocado?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí, gran cosa es, señor, el ser soldado.</l>
+               </sp>
+
+               <stage rend="cursiva">Llega la silla á la mesa Cosme, y pónese á comer.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Sírvase de beber vueseñoría.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Pues beba con la garrafa,</l>
+                  <l>que está fria.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Digo, aquestos criados</l>
+                  <l>no quisiera que fueran redomados,</l>
+                  <l>y se llevasen lo que os he vendido:</l>
+                  <l>pareceos que con todo se habrán ído?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Que si decis con flema tan melosa?</l>
+                  <l>gran tonto parecéis.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Es mucha cosa. <stage>Sale el Vejete.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Ha de casa,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Quién es?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Qué hace la gente?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Solamente comer, si sois servido?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Bartolillo está acá? quién le ha traido?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Qué Bartolillo? estais desalumbrado?</l>
+                  <l>que es el señor varon.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Os la han pegado;</l>
+                  <l>algunos le vistieron de este traje,</l>
+                  <l>y os han robado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Si.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Sois un salvaje.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Es verdad que has venido disfrazado?</l>
+               </sp>
+
+               <pb n="8" source="Moreno_263_8.jpeg" facs="fedora_ug8106208/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Luego es verdad tambien que me han robado?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Si.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>A todo dice sí, gentil despacho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Estais berracho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Vejete.</speaker>
+                  <l>Vos sois borracho?</l>
+                  <l>pues han hecho ahora tal pandilla.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Desdichada de mí! ay mi bajilla! </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Almoned.</speaker>
+                  <l>Daréle á ese animal; que hablar osa,</l>
+                  <l>cuarenta puntapies.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Es mucha cosa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mujer.</speaker>
+                  <l>Al aire esparso quejas, ay de mi!</l>
+                  <l>parecerá mi plata?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cantan.</speaker>
+                  <l>Sí, sí, sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker>1.</speaker>
+                  <l>Porque yo mis señores he jugado,</l>
+                  <l>y de cuanto perdí me he desquitado,</l>
+                  <l>y su hacienda le vuelvo, y buen barato:</l>
+                  <l>y si le pareciere al mentecato,</l>
+                  <l>de Bartolo el bailar, festejaremos</l>
+                  <l>la burla.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Cosme.</speaker>
+                  <l>Sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Vaya y bailemos:</l>
+                  <l>muy mal jugó á las damas</l>
+                  <l>Almonedero,</l>
+                  <l>sí, sí, sí,</l>
+                  <l>pues le soplan las piezas,</l>
+                  <l>no sabe el juego,</l>
+                  <l>no, no, no,</l>
+                  <l>cuantos entendidos</l>
+                  <l>opinion cobran,</l>
+                  <l>sí, sí, sí,</l>
+                  <l>con un sí solamente,</l>
+                  <l>y un mucha cosa,</l>
+                  <l>no, no, no, no, no.</l>
+               </sp>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
