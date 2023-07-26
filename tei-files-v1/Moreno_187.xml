@@ -1,0 +1,492 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_187">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carlo Magno</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Carlo Magno.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473247</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 197</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_187_1.xml" facs="fedora_ug8104545/417,244,466,756/100,/0/default.jpg">grabado_m_187_1</item>
+                           <item corresp="grabado_m_187_2.xml" facs="fedora_ug8104545/1050,254,428,750/100,/0/default.jpg">grabado_m_187_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-05" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107765/manifest">
+      <graphic url="fedora_ug8104545/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_187_1.jpg" facs="fedora_ug8104545/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 1957</fw>
+
+               <head rend="negrita" type="primer_titulo">CARLO MAGNO.</head>
+
+               <l rend="indent">Escucha, gran Carlo Magno,</l>
+               <l>mi tio, y Señor escelso,</l>
+               <l>que quiero sin digresiones,</l>
+               <l>obedecer los preceptos</l>
+               <l>en que me mandas que haga</l>
+               <l>relacion de mis sucesos,</l>
+               <l>soy Roldan, y siervo tuyo,</l>
+               <l>y asi en todo te obedezco.</l>
+               <l>Ya sabrás vino á Paris</l>
+               <l>un famoso Caballero,</l>
+               <l>á publicar, si habia en Francia</l>
+               <l>quien se hallase en los Torneos,</l>
+               <l>y las Justas que mandaba</l>
+               <l>publicar el Rey Acedro,</l>
+               <l>para celebrar las bodas,</l>
+               <l>y feliz casamiento</l>
+               <l>de Clorinda, Iufanta bella,</l>
+               <l>para emulacion de Venus,</l>
+               <l>hija suya, que casaba</l>
+               <l>con el Principe Arismeno,</l>
+               <l>que del duque de Moscovia</l>
+               <l>era hijo y heredero,</l>
+               <l>y que era tan valeroso,</l>
+               <l>y tan bizarro mancebo</l>
+               <l>que la palestra de Marte,</l>
+               <l>sustentaba en los torneos,</l>
+               <l>publicando por el mundo,</l>
+               <l>sin segundo era su esfuerzo;</l>
+               <l>y despues de publicados</l>
+               <l>por Francia y por otros reinos</l>
+               <l>con plazo de ochenta dias,</l>
+               <l>me resolví allar en ellos,</l>
+               <l>y para ir discurrí</l>
+               <l>disfrazado aventurero,</l>
+               <l>y me pintaron las armas</l>
+               <l>todas con un color negró,</l>
+               <l>y escrito con letras de oro</l>
+               <l>en el escudo este verso:</l>
+               <l>mis obras diran quien soy, </l>
+               <l>esto es, Señor lo mas cierto,</l>
+               <l>por que hay hombres en el mundo</l>
+               <l>de tan bajos pensamientos,</l>
+               <l>que sus hazañas las cifran</l>
+               <l>solamente en ser blasfemos,</l>
+               <l>y si la fortuna adversa</l>
+               <l>les ofrece algun encuentro,</l>
+               <l>publican luego, que son</l>
+               <l>viles vasallos del miedo,</l>
+               <l>y asi para no caer</l>
+               <l>en semejantes excesos</l>
+               <l>han de ser lenguas las obras</l>
+               <l>de las hazañas del dueño.</l>
+               <l>Sali de París de Francia,</l>
+               <l>metropoli de tu imperio,</l>
+               <l>Gran Señor sin tu licencia,</l>
+               <l>con hidropicos deseos</l>
+
+               <pb n="2" source="Moreno_187_2.jpg" facs="fedora_ug8106806/full/full/0/default.jpg"/>
+
+               <l>de añadir á tu Corona</l>
+               <l>nuévos lauros y trofeos:</l>
+               <l>á Guarin lleve conmigo</l>
+               <l>que fuese por mi escudero;</l>
+               <l>por tierra y mar caminamos</l>
+               <l>con tan prospero suceso,</l>
+               <l>que en menos de ochenta dias</l>
+               <l>nos hallamos (lance fiero!)</l>
+               <l>cerca de Constatinopla</l>
+               <l>encontramos á Arismeno</l>
+               <l>con una gran compañia</l>
+               <l>de cincuenta caballeros,</l>
+               <l>todos hombres de gran cuenta,</l>
+               <l>que le iban asistiendo</l>
+               <l>por lo que oi, vide y supe,</l>
+               <l>humildemente te ruego:</l>
+               <l>que mne lo dejes pintar,</l>
+               <l>sin preambúlo superfluo.</l>
+               <l>Era el Principe arrogante,</l>
+               <l>galan, valiente y discreto,</l>
+               <l>hizo en mi y en mi caballo</l>
+               <l>reparo, y luego al momento</l>
+               <l>á mi se llego, y me dijo</l>
+               <l>con el rostro muy severo:</l>
+               <l>hidalgo de donde sois?</l>
+               <l>decid Patria, decid Reino,</l>
+               <l>y advertir que ese caballo</l>
+               <l>me lia parecido tan bueno,</l>
+               <l>que de el he hecho eleccion</l>
+               <l>para entrar en los Torneos:</l>
+               <l>y asi no hagais repugnancia</l>
+               <l>en ponerle al punto precio</l>
+               <l>para que de su valor</l>
+               <l>luego quedeis satisfecho.</l>
+               <l>Dijele entonces: Señor,</l>
+               <l>el caballo tiene dueño</l>
+               <l>muy digno de merecerle,</l>
+               <l>y asi ahora no lo vendo</l>
+               <l>por que lo he de menester.</l>
+               <l>Sois un atrevido, un necio,</l>
+               <l>me dijo y de mi presencia</l>
+               <l>os quitad luego al momento,</l>
+               <l>ó le mandare á un criado</l>
+               <l>haga con vos un exceso;</l>
+               <l>obedecí luego al punto</l>
+               <l>por lograr mas bien mi intento.</l>
+               <l>Llego el dia, en que se hizo</l>
+               <l>alarde de los sujetos,</l>
+               <l>que habian ya concurrido</l>
+               <l>á las Justas, y Torneos,</l>
+               <l>y despues de estar sentados</l>
+               <l>los reyes en sus asientos,</l>
+               <l>y los jueces en los suyos,</l>
+               <l>el vulgo hizo lo mesmo,</l>
+               <l>y al son que á la real hacian</l>
+               <l>los belicos instrumentos,</l>
+               <l>obedeciendo el mandato</l>
+               <l>del invicto Rey Acedro</l>
+               <l>entramos en la Real Plaza</l>
+               <l>todos los aventureros,</l>
+               <l>los principes luego entraron,</l>
+               <l>trayendo todos en versos</l>
+               <l>escritos en sus escudos</l>
+               <l>sus calidades, y esfuerzos,</l>
+               <l>sus nombres, y sus estados,</l>
+               <l>y leyendo el del primero,</l>
+               <l>me acuerdo que asi decia:</l>
+               <l>Soy el valiente Biovedo,</l>
+               <l>sucedo á los de Polonia,</l>
+               <l>y es tan grande mtardimiento,</l>
+               <l>que traigo en mi pecho un Etna</l>
+               <l>y respiro un Mongibélo.</l>
+               <l>El segundo dió á entender</l>
+               <l>su nombre en aquestos versos:</l>
+               <l>soy el fuerte Ferraguz,</l>
+               <l>Principe soy de Marruecos;</l>
+               <l>y en las mas partes del mundo</l>
+               <l>conocido por mis hechos.</l>
+               <l>Tambien se dió á conocer;</l>
+               <l>en decir asi el tercero.</l>
+               <l>Soy el Principe Antidor,</l>
+               <l>susesor del Reino griego,</l>
+               <l>dira la fama inmortal</l>
+               <l>de mi espada los aceros.</l>
+               <l>El cuarto le sucedio,</l>
+               <l>que tambien entró diciendo.</l>
+               <l>Soy el Principe de Tracia</l>
+               <l>y es mi nombre Filiberto,</l>
+               <l>y son mis hazañas ya</l>
+               <l>tan dignas de nombre eterno,</l>
+               <l>que estan en bronce y en marmol</l>
+               <l>por la duracion del tiempo</l>
+               <l>para que no se sofoquen</l>
+               <l>con las olas del Letéo.</l>
+               <l>Con pompa magestuosa,</l>
+               <l>y grande acompañamiento,</l>
+               <l>vestidos de finas armas</l>
+               <l>entró el Principe Arismeno</l>
+
+               <pb n="3" source="Moreno_187_3.jpg" facs="fedora_ug8110199/full/full/0/default.jpg"/>
+
+               <l>en la suntuosa plaza,</l>
+               <l>galan, valiente y soberbio,</l>
+               <l>pues todos profetizaron</l>
+               <l>y tuvieron por muy cierto</l>
+               <l>de todos los combatientes</l>
+               <l>los futuros vencimientos.</l>
+               <l>El Principe en el escudo,</l>
+               <l>decia farrojo tremendo)</l>
+               <l>sucedo al gran Moscovita</l>
+               <l>soy el Principe Arismeno,</l>
+               <l>y lo que está promulgado,</l>
+               <l>en la palestra defiendo:</l>
+               <l>y es tan grande mi valor,</l>
+               <l>que despues de los torneos</l>
+               <l>yo me holgara el que estuvierañ</l>
+               <l>contra mi juntos, y opuestos</l>
+               <l>el Espin de Calidonia,</l>
+               <l>de Albania el leon sangriento,</l>
+               <l>de Colcos el Bellocino,</l>
+               <l>ó de Damario el empeño,</l>
+               <l>para vencer mas despues,</l>
+               <l>que los que vencer espero.</l>
+               <l>Dio una vuelta por la plaza,</l>
+               <l>para que asi el vulgo entero</l>
+               <l>viera, y leyera despacio</l>
+               <l>sus locos atrevimientos.</l>
+               <l>Corrió luego para ir</l>
+               <l>á su señalado puesto:</l>
+               <l>fue el caballo tan veloz,</l>
+               <l>que á todos dejó suspensos,</l>
+               <l>y neutrales discurrian,</l>
+               <l>si fue rayo, ó si fue trueno</l>
+               <l>ó si fue terrestre bruto</l>
+               <l>ó ave del vago viento:</l>
+               <l>pero presto se quedaron</l>
+               <l>de sus dudas satisfechos,</l>
+               <l>cuando inmóvil se quedó</l>
+               <l>á los preceptos del freno.</l>
+               <l>Reparó el Principe en mí,</l>
+               <l>y faltando á lo modesto,</l>
+               <l>que debia á su grandeza,</l>
+               <l>dijo á voces, que le oyeron</l>
+               <l>muchos de los sircustantes.</l>
+               <l>Principes, y caballeros,</l>
+               <l>suplico el que repareis</l>
+               <l>en aquel aventurero,</l>
+               <l>qué escrito con letras de oro</l>
+               <l>trae en el escudo aquel verso,</l>
+               <l>en que dice, que sus obras</l>
+               <l>diran quien es, mas yo pienso</l>
+               <l>que ha de ser algun cobarde,</l>
+               <l>u hombre de bajo precio:</l>
+               <l>la causa por que lo digo</l>
+               <l>él la sabe, el sufrimiento</l>
+               <l>faltaba ya á mi paciencia;</l>
+               <l>más yo teniendo deseo</l>
+               <l>de combatirme con él</l>
+               <l>callé, y oí mis desprecios.</l>
+               <l>Dije, mire vuestras altaza,</l>
+               <l>que se que es muy ageno</l>
+               <l>aquese modo de hablar:</l>
+               <l>y si acaso fundó duelo,</l>
+               <l>porque no le di el caballo,</l>
+               <l>ahora le vendo en precio,</l>
+               <l>que vuestra alteza oira:</l>
+               <l>si acaso algun caballero</l>
+               <l>del caballo me derriba,</l>
+               <l>sera del caballo dueño,</l>
+               <l>y si yo lo derribare,</l>
+               <l>ha de suceder lo mesmo</l>
+               <l>y en todo trance de muerte,</l>
+               <l>sin destincion de sujetos</l>
+               <l>en esta publica plaza,</l>
+               <l>lo que aqui he dicho mantengo,</l>
+               <l>Todos dijeron: Señor,</l>
+               <l>pues no es el aventurero</l>
+               <l>tan civil ni tan cobarde</l>
+               <l>como vos decis acepto.</l>
+               <l>Hago el partido con uno</l>
+               <l>de mis nobles caballeros</l>
+               <l>de cincuenta que yo traje.</l>
+               <l>mis vasallos saldran luego,</l>
+               <l>y quedaran castigados</l>
+               <l>sus locos atrevimientos.</l>
+               <l>Llevaron la nueva al Rey</l>
+               <l>del referido suceso,</l>
+               <l>con la brevedad posible</l>
+               <l>vino luego el caballero.</l>
+               <l>Aqui escuso digresiones,</l>
+               <l>porque cansarte no quiero,</l>
+               <l>ya me conoces, señor,</l>
+               <l>en espacio tan pequeño</l>
+               <l>uno á uno le vencí</l>
+               <l>sus cincuenta caballeros,</l>
+               <l>el Principe ami se viene,</l>
+               <l>estas palabras diciendo:</l>
+               <l>Si el Dios que nació en Esparta,</l>
+               <l>aquel monstruo tan soberbio,</l>
+
+               <pb n="4" source="Moreno_187_4.jpg" facs="fedora_ug8104944/full/full/0/default.jpg"/>
+
+               <l>que el barbaro gentilísmo</l>
+               <l>coloco en el quinto cielo</l>
+               <l>fueras, y á mi te opusieras,</l>
+               <l>quedaras vencido, ó muerte.</l>
+               <l>Yo le dije vuestra alteza</l>
+               <l>blasona muy hazañero,</l>
+               <l>y vendran á ser sus obras,</l>
+               <l>en mi sentir mucho menos,</l>
+               <l>porque ya en el mundo es</l>
+               <l>lo mas comun y mas cierto</l>
+               <l>que se quedan en palabras</l>
+               <l>del que es hablador los hechos.</l>
+               <l>Apena aquesto oyó</l>
+               <l>pareció un bolcan de fuego,</l>
+               <l>que para mi se venia,</l>
+               <l>para abrasarme en su incendio.</l>
+               <l>La esplicacion de mi furia</l>
+               <l>remito ahora al silencio,</l>
+               <l>y al furor con que parti</l>
+               <l>á dar la muerte á Arismeno.</l>
+               <l>Nos encontramos, en fin,</l>
+               <l>y fue tan recio el encuentro,</l>
+               <l>que los caballos atras</l>
+               <l>muchos pasos se volvieron</l>
+               <l>y sin poder contenerse</l>
+               <l>cayó el Principe en el suelo.</l>
+               <l>Desmonteme á levantarlo,</l>
+               <l>luego los jueces vinieron,</l>
+               <l>llevaronselo á palacio</l>
+               <l>sin sentido y sin acuerdo,</l>
+               <l>del Principe la desgracia</l>
+               <l>sentí con grandes estremos,</l>
+               <l>porque el que noble ha nacido</l>
+               <l>por justos juicios del cielo</l>
+               <l>debe sentir como suyos</l>
+               <l>tambien los lances agenos.</l>
+               <l>Por lo que dije en la plaza,</l>
+               <l>principes y caballeros</l>
+               <l>pinden al Rey, que yo sea</l>
+               <l>quien mantenga los torneos:</l>
+               <l>El Rey lo concedio al punto</l>
+               <l>y estando quieto en mi puesto</l>
+               <l>sonó la señal de guerra</l>
+               <l>los combatientes vinieron,</l>
+               <l>vencí al fuerte Ferraguz,</l>
+               <l>vencí al valiente Biobedo,</l>
+               <l>vencí al Príncipe Antidor,</l>
+               <l>vencí al sin par Filiberto</l>
+               <l>y vencí tambien despues</l>
+               <l>mas de ochenta caballeros.</l>
+               <l>Presente asi que vencí, </l>
+               <l>los caballos á sus dueños,</l>
+               <l>y por accion tan galante</l>
+               <l>principes y caballeros</l>
+               <l>joyas de mucho valor</l>
+               <l>ródigamente me dieron.</l>
+               <l>Mi nombre me préguntaron</l>
+               <l>dijele luego al momento:</l>
+               <l>con desentonadas voces</l>
+               <l>muchos victores me dieron,</l>
+               <l>de alli á ocho dias estuvo</l>
+               <l>bueno el Principe Arismeno,</l>
+               <l>pidióme lo perdonase</l>
+               <l>muy humilde y con respeto,</l>
+               <l>los ultrages que imprudente</l>
+               <l>á mi valor habia hecho:</l>
+               <l>Me quede admirado al ver</l>
+               <l>al Principe tan compuesto</l>
+               <l>de su ostinada osadia</l>
+               <l>en vuelta en lances adversos.</l>
+               <l>Se celebraroñ las bodas</l>
+               <l>con jubilos y contentos,</l>
+               <l>hubo toros y alcancías,</l>
+               <l>luminarias, varios fuegos.</l>
+               <l>Sali de Constantinopla,</l>
+               <l>y á tu Córte ahora llego,</l>
+               <l>y para que mi valor</l>
+               <l>tenga algun util excelso,</l>
+               <l>á vuestras cesareas plantas</l>
+               <l>humildemente me ofrezco.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856 <lb/>Imprenta de D. José M. Moreno. Calle Juan da la Cabra,
+                  núm. 5. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

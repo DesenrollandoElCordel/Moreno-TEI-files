@@ -1,0 +1,682 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_368">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El hechizo de Sevilla</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El hechizo de Sevilla.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1863-01-01">1863</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5069753</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 400</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1, p.5)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_368_1.xml" facs="fedora_ug8103309/207,237,1213,1161/100,/0/default.jpg">grabado_m_368_1</item>
+                           <item corresp="grabado_m_368_2.xml" facs="fedora_ug8109540/176,187,1410,161/100,/0/default.jpg">grabado_m_368_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103257/manifest">
+      <graphic url="fedora_ug8103309/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_368_1.jpeg" facs="fedora_ug8103309/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm 409.</fw>
+
+               <head type="primer_titulo">EL HECHIZO DE SEVILLA.</head>
+
+               <div n="1" type="parte">
+                  <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l>Ciérrése el bello volúmeñ</l>
+                  <l>de retóricas historias,</l>
+                  <l>que en párrafos deleitosos</l>
+                  <l>son inagotables copias.</l>
+                  <l>El teatro de los Dioses,</l>
+                  <l>con Aganipe y Licona,</l>
+                  <l>no inunden con sus raudales</l>
+                  <l>poéticas laudatorias,</l>
+                  <l>con tantos Dioses fingidos,</l>
+                  <l>y tantas mentidas Diosás.</l>
+                  <l>No apológicos cuadernos</l>
+                  <l>de aflicciones fabulosas;</l>
+                  <l>ni de Hipólito ni Aminta,</l>
+                  <l>sus novolas enredosas:</l>
+                  <l>ni Zayas, la Madrileña,</l>
+                  <l>de quien la fama pregona.</l>
+                  <l>Y finalmente, ninguna</l>
+                  <l>de cuantas se nos mencionan</l>
+                  <l>para recreo del gusto,</l>
+                  <l>y deleitar la memoria,</l>
+                  <l>no se iguala, ni empareja</l>
+                  <l>á una verdadera historia,</l>
+                  <l>prodigiosa y admirable</l>
+                  <l>idea maravillosa</l>
+
+                  <pb n="2" source="Moreno_368_2.jpeg" facs="fedora_ug8108842/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>dignísima que se escriba</l>
+                  <l>con letras de oro en orlas,</l>
+                  <l>para admiracion del mundo.</l>
+                  <l>Y para que todos oigan</l>
+                  <l>á lo que obliga el amor,</l>
+                  <l>pues tantos libros y hojas</l>
+                  <l>se han llenado por su causa</l>
+                  <l>de invenciones y tramoyas,</l>
+                  <l>siendo la que á notar voy</l>
+                  <l>la mas superior de todas.</l>
+                  <l>Y para que los amantes</l>
+                  <l>aprendan modos y formas,</l>
+                  <l>pues aventurar la vida</l>
+                  <l>á los amantes les toca.</l>
+                  <l>Y asi todos los que siguen</l>
+                  <l>como vasallos las tropas</l>
+                  <l>de Minerva y de Cupido</l>
+                  <l>en sus militares pompas,</l>
+                  <l>gustosamente les pido,</l>
+                  <l>que con atencion me oigan.</l>
+                  <l>En el tiemplo que ocupaba</l>
+                  <l>el cetro, silla y corona,</l>
+                  <l>el gran Felipe Tercero,</l>
+                  <l>fué vigilante custodia</l>
+                  <l>en defensa de la Fé,</l>
+                  <l>guardando de Dios la honra.</l>
+                  <l>Entre los muchos vasallos</l>
+                  <l>de la nobleza española,</l>
+                  <l>que leales le seguian,</l>
+                  <l>tuvo uno que se nota</l>
+                  <l>ser de los mas esforzados,</l>
+                  <l>que por obras meritorias</l>
+                  <l>mereció que el Rey lo hiciese,</l>
+                  <l>para mas triunfo á su honra</l>
+                  <l>general de las galeras,</l>
+                  <l>por merecerlo sus obras:</l>
+                  <l>cuyo valor admirable,</l>
+                  <l>y sus trazas injeniosas,</l>
+                  <l>dejaron para la fama</l>
+                  <l>eternas ejecutorias.</l>
+                  <l>Al mismo tiempo el Rey Moro</l>
+                  <l>tambien logró por victoria</l>
+                  <l>tener un vasallo ilustre,</l>
+                  <l>á quien el valor le asombra;</l>
+                  <l>hombre esforzado y dispuesto,</l>
+                  <l>y por hazañas heróicas</l>
+                  <l>mereció ser capitan</l>
+                  <l>de todas sus galeotas.</l>
+                  <l>cuyo acertado gobierno</l>
+                  <l>lo subió á tan alta pompa.</l>
+                  <l>Gozaba, pues, este moro</l>
+                  <l>estas dichas sin zozobra,</l>
+                  <l>Cuando en la córte de Argel</l>
+                  <l>se crió una dama hermosa,</l>
+                  <l>á quien la naturaleza</l>
+                  <l>la perfeccionó de forma,</l>
+                  <l>que en los dones que dá el cielo</l>
+                  <l>en su tiempo no hubo otra,</l>
+                  <l>tanto en bienes de fortuna,</l>
+                  <l>como en su belleza heróica.</l>
+                  <l>Puso aqueste capitan</l>
+                  <l>la vista en esta señora,</l>
+                  <l>con lícitos pensamientos</l>
+                  <l>para que fuese su esposa:</l>
+                  <l>y aunque mora en propiedad,</l>
+                  <l>tambien en su pecho mora.</l>
+                  <l>Fino amante frecuentaba</l>
+                  <l>las luces de aquesta aurora,</l>
+                  <l>pues al fuego de su amor</l>
+                  <l>era ardiente mariposa.</l>
+                  <l>Y reconociendo ya</l>
+                  <l>las finezas amorosas,</l>
+                  <l>dijole á su fino amante,</l>
+                  <l>que luego al punto le otorga</l>
+                  <l>de ser su esposa, la mano,</l>
+                  <l>sin haber quien se anteponga.</l>
+                  <l>Pero ha de ser con el cargo</l>
+                  <l>de concederle una cosa:</l>
+                  <l>diciéndole, yo he sabido,</l>
+                  <l>que hay en la muy populosa</l>
+                  <l>ciudad llamada Sevilla,</l>
+                  <l>en España, allí me consta</l>
+                  <l>hay una dama, la cual</l>
+                  <l>por antonamasia nombran</l>
+                  <l>el hechizo de Sevilla,</l>
+                  <l>por ser en extremo hermosa,</l>
+                  <l>como lo canta la fama.</l>
+                  <l>Y es cierto estoy deseosa</l>
+
+                  <pb n="3" source="Moreno_368_3.jpeg" facs="fedora_ug8110285/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>de verla, por si viene</l>
+                  <l>el origen con la copia,</l>
+                  <l>ó á ver si es ponderacion.</l>
+                  <l>Y llevada de curiosa,</l>
+                  <l>solo pido se me traiga,</l>
+                  <l>que si esa dicha se logra,</l>
+                  <l>no me negaré á ser vuestra,</l>
+                  <l>ni á los fueros de dichosa.</l>
+                  <l>Entonces el fino amante</l>
+                  <l>lleno de vanagloria,</l>
+                  <l>juró, fiado en su aliento,</l>
+                  <l>y en el profeta Mahoma,</l>
+                  <l>el traerla á su presencia</l>
+                  <l>con la brevedad mas pronta</l>
+                  <l>que la ocasion permitiese.</l>
+                  <l>Era el moro en la idioma</l>
+                  <l>española muy ladino,</l>
+                  <l>pues diestramente la corta,</l>
+                  <l>y el amor hace valientes,</l>
+                  <l>y peligros no le estorban.</l>
+                  <l>Mandó que al punto aprestasen</l>
+                  <l>dos muy fuertes galeotas,</l>
+                  <l>puestas á punto de guerra,</l>
+                  <l>que sobre las crespas olas</l>
+                  <l>eran águilas de pino,</l>
+                  <l>ó de la espuma garzotas.</l>
+                  <l>Con el pretesto y destino,</l>
+                  <l>de su codicia ambiciosa,</l>
+                  <l>pensando como robar</l>
+                  <l>el hechizo á poca costa;</l>
+                  <l>pero tuvo la fortuna</l>
+                  <l>tan favorable y tan pronta,</l>
+                  <l>que á poco de haber salido,</l>
+                  <l>vieron una nave sola</l>
+                  <l>de famosos portugueses,</l>
+                  <l>y poniéndoles la proa</l>
+                  <l>en breve los conquistaron,</l>
+                  <l>por ser sus fuerzas muy pocas.</l>
+                  <l>Pero viendo el capitan</l>
+                  <l>que la suerte le soborna,</l>
+                  <l>mandó poner en las naves</l>
+                  <l>flamulas y banderolas</l>
+                  <l>de Portugal, advirtiendo</l>
+                  <l>vestirse las mismas ropas,</l>
+                  <l>fingiendo ser portugueses,</l>
+                  <l>porque nadie los conozca.</l>
+                  <l>Llegaron, pues, á Sevilla,</l>
+                  <l>y en la márgen anchurosa</l>
+                  <l>de su bahía, dan fondo,</l>
+                  <l>y el capitan les convoca,</l>
+                  <l>que allí se estén, hasta tanto</l>
+                  <l>que otra cosa se disponga.</l>
+                  <l>Saltó el general en tierra,</l>
+                  <l>y ocultando su ponzoña,</l>
+                  <l>empezó á adquirir noticias;</l>
+                  <l>mas de allí á poco se informa</l>
+                  <l>de la calle, casa y nombre,</l>
+                  <l>porque como era notoria</l>
+                  <l>su belleza en la ciudad,</l>
+                  <l>se informó á muy poca costa.</l>
+                  <l>Era el padre contratante;</l>
+                  <l>fué coyuntura famosa</l>
+                  <l>para que el moro pudiese</l>
+                  <l>ejecutaresu tramoya.</l>
+                  <l>Fingiendo ser mercader,</l>
+                  <l>y que traía costosas</l>
+                  <l>mercaderías: y entonces;</l>
+                  <l>el cristiano que lo ignora</l>
+                  <l>su dobléz y falso intento,</l>
+                  <l>lo lleva á su casa propia.</l>
+                  <l>Y apenas el sagáz moro</l>
+                  <l>entró, y vió la prodigiosa</l>
+                  <l>hermosura de la dama,</l>
+                  <l>se le quedó el alma absorta;</l>
+                  <l>pues mas de lo ponderado,</l>
+                  <l>era la natural copia.</l>
+                  <l>Dió en hacer magnificencia</l>
+                  <l>con dádivas muy costosas,</l>
+                  <l>que es para introducir gracia</l>
+                  <l>el dar admirable cosa.</l>
+                  <l>En muy breve tiempo hizo</l>
+                  <l>la introduccion de tal forma,</l>
+                  <l>que el benemérito aplauso</l>
+                  <l>era como cosa propia.</l>
+                  <l>Hasta que un dia le dijo</l>
+                  <l>(con industria cautelosa)</l>
+                  <l>si quieren ver sus galeras,</l>
+                  <l>tan ricas como vistosas.</l>
+
+                  <pb n="4" source="Moreno_368_4.jpeg" facs="fedora_ug8109992/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>Otorgaron la demanda,</l>
+                  <l>y la tal dama, con otra</l>
+                  <l>confidenta amiga suya</l>
+                  <l>(como sencilla paloma)</l>
+                  <l>en una lancha pasaron,</l>
+                  <l>porque su padre lo otorga,</l>
+                  <l>á las galeras del moro</l>
+                  <l>donde llevaban la proa.</l>
+                  <l>Entraron dentro, y apenas</l>
+                  <l>pisaron las tablas toscas,</l>
+                  <l>cuando el infiel cauteloso</l>
+                  <l>con secreto les informa,</l>
+                  <l>que alzaran todo el velámen,</l>
+                  <l>y poniéndolo por obra;</l>
+                  <l>zarparon de allí las naves</l>
+                  <l>sin haber quien se anteponga.</l>
+                  <l>Llevándose las dos damas,</l>
+                  <l>las que amargamente lloran</l>
+                  <l>su lamentable desgracia,</l>
+                  <l>tan impensada y tan pronta.</l>
+                  <l>De suerte huyeron, que cuando</l>
+                  <l>llegó á Sévilla la nota,</l>
+                  <l>ya estaban puestos en salvo,</l>
+                  <l>sin temores ni zozobras.</l>
+                  <l>A Argel llegaron gozosos</l>
+                  <l>con empresa tan heróica,</l>
+                  <l>mavormente el capitan,</l>
+                  <l>porque se llegó la hora</l>
+                  <l>de conseguir de su dama</l>
+                  <l>la mano tan deseosa.</l>
+                  <l>Celebró el Rey con aplausos</l>
+                  <l>hazaña tan prodigiosa,</l>
+                  <l>no menos su dama, y todos</l>
+                  <l>cuantos de la accion se informan.</l>
+                  <l>Honrándole el Rey entonces</l>
+                  <l>con muy crecidas mejoras,</l>
+                  <l>pues en su propio palacio</l>
+                  <l>se celebraron las bodas</l>
+                  <l>con los júbilos mayores,</l>
+                  <l>que en aplauso se mencionan,</l>
+                  <l>llevando las dos cautivas</l>
+                  <l>para servir á su esposa:</l>
+                  <l>las que en su vida jamás</l>
+                  <l>sirvieran, se ven ahora</l>
+                  <l>á los pies de la fortuna,</l>
+                  <l>rodeadas de congojas.</l>
+                  <l>A este tiempo era Sevilla</l>
+                  <l>teatro de ánsias penosas</l>
+                  <l>con desgracia tan fatal,</l>
+                  <l>tan infame y lastimosa.</l>
+                  <l>Y entre tanto que se ordena</l>
+                  <l>la venganza mas heróica</l>
+                  <l>pide Alonso de Morales,</l>
+                  <l>que el noble auditorio oiga</l>
+                  <l>que en otra segunda parte</l>
+                  <l>clarificará la historia.</l>
+
+                  <trailer rend="negrita">Fin de la primera parte.</trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_368_5.jpeg" facs="fedora_ug8109540/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">Segunda parte.</head>
+
+                  <l rend="indent">Luego que las tristes nuevas</l>
+                  <l>en melancólico acento,</l>
+                  <l>velozmente por España</l>
+                  <l>con brevedad se tendieron,</l>
+                  <l>llegó la nueva á la córte,</l>
+                  <l>y luego que al Rey le dieron</l>
+                  <l>parte de lo sucedido,</l>
+                  <l>hubo grande pena de ello,</l>
+                  <l>prometiendo la venganza</l>
+                  <l>á tan grande atrevimiento.</l>
+                  <l>Mandó que su general</l>
+                  <l>viniese luego al momento.</l>
+                  <l>Y puesto ya en su presencia</l>
+                  <l>le dijo el Rey: satisfecho</l>
+                  <l>estoy, general amigo,</l>
+                  <l>de tu gran valor y esfuerzo,</l>
+                  <l>y si en aquesta ocasion</l>
+                  <l>(como en todas lo habeis hecho)</l>
+                  <l>lo mostrais, quedo obligado</l>
+                  <l>por siempre á satisfaceros.</l>
+                  <l>Ya habreis tenido noticia</l>
+                  <l>de este moro bandolero,</l>
+                  <l>de este atrevido pirata,</l>
+                  <l>de aqueste lobo sangriento;</l>
+                  <l>que con infame cautela,</l>
+                  <l>con sutíl traza y enredo,</l>
+                  <l>me han dicho que de Sevilla</l>
+                  <l>ha hurtado el mayor portento,</l>
+                  <l>que pintó naturaleza</l>
+                  <l>en todo el orbe terreno,</l>
+                  <l>pues le llaman el Hechizo,</l>
+                  <l>por ser de hermosura estremo,</l>
+                  <l>y hoy se ve triste y cautiva.</l>
+                  <l>Y para lo que te quiero</l>
+                  <l>es para que luego al punto</l>
+                  <l>al rigor de sangre y fuego,</l>
+                  <l>se restituya esta prenda;</l>
+                  <l>aprestando para esto</l>
+                  <l>cuantos navíos de guerra</l>
+                  <l>tiene el salobre elemento</l>
+                  <l>sobre sus hermosas crespas;</l>
+                  <l>para que sea escarmiento</l>
+                  <l>á estos bárbaros piratas,</l>
+                  <l>y no anden tan resueltos.</l>
+                  <l>Con atencion escuchaba</l>
+                  <l>al Rey tan formado duelo,</l>
+
+                  <pb n="6" source="Moreno_368_6.jpeg" facs="fedora_ug8108868/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>y le dice: Vuestra Alteza</l>
+                  <l>no quiera con tanto riesgo</l>
+                  <l>de caudales y de vidas</l>
+                  <l>tomar la venganza de esto;</l>
+                  <l>mejor será, que un ardid</l>
+                  <l>á nuestra idea trazemos...</l>
+                  <l>Y ha de ser, que han de cortarse</l>
+                  <l>á todos los marineros</l>
+                  <l>à cada cual un vestido</l>
+                  <l>á medida de su cuerpo,</l>
+                  <l>de la color, forma y arte,</l>
+                  <l>todos al modo turquesco.</l>
+                  <l>Y puesto que sé muy bien</l>
+                  <l>su idioma y parlamento,</l>
+                  <l>llevo por mia la empresa,</l>
+                  <l>que en Dios la fio y espero;</l>
+                  <l>y en tanto que las libreas</l>
+                  <l>se hacían (con gran secreto)</l>
+                  <l>urdió en su idea una traza,</l>
+                  <l>la cual fue escribir un pliego</l>
+                  <l>con discretisimo arte,</l>
+                  <l>y relevantes conceptos,</l>
+                  <l>dando á entender que el sultan</l>
+                  <l>se lo enviaba, pidiendo</l>
+                  <l>al Rey de Argel un socorro,</l>
+                  <l>por hallarse en grande aprieto</l>
+                  <l>contra diversas provincias</l>
+                  <l>rebeladas del imperio.</l>
+                  <l>Que se dignase enviarle</l>
+                  <l>cuantos tiene en cautiverio</l>
+                  <l>cristianos: y justamente</l>
+                  <l>le dé un millon en dineros,</l>
+                  <l>con que fortalecer pueda</l>
+                  <l>sus guarniciones y puertos.</l>
+                  <l>Esto fue con tanto arte,</l>
+                  <l>que aun los moros mas expertos</l>
+                  <l>no conocieron la frase</l>
+                  <l>hasta estar el tiro hecho.</l>
+                  <l>Hecho ya el pliego fingido,</l>
+                  <l>puesto con su real sello,</l>
+                  <l>en dos muy fuertes galeras,</l>
+                  <l>hijas del agua y del viento,</l>
+                  <l>embarcó trescientos hombres,</l>
+                  <l>y sin temor ni recelo,</l>
+                  <l>en las argelinas playas</l>
+                  <l>le dió á sus naves asiento,</l>
+                  <l>grabando las medias lunas</l>
+                  <l>con todo arte y concierto</l>
+                  <l>en banderas y estandartes</l>
+                  <l>como es lo usual en ellos.</l>
+                  <l>Saltó el general en tierra,</l>
+                  <l>llegando al palacio regio:</l>
+                  <l>pidió, para entrar licencia</l>
+                  <l>á las guardias, y entró dentro.</l>
+                  <l>Dióle al mismo rey la carta,</l>
+                  <l>el cual la nema rompiendo,</l>
+                  <l>viendo que el Sultan se hallaba</l>
+                  <l>metido en tan grande aprieto,</l>
+                  <l>mandó al punto echar un bando,</l>
+                  <l>que traigan todos los dueños</l>
+                  <l>los cautivos españoles;</l>
+                  <l>en breve fué dicho y hecho,</l>
+                  <l>hasta doscientos y treinta</l>
+                  <l>á las naves condujeron.</l>
+                  <l>Trabó una estrecha amistad</l>
+                  <l>el general desde luego</l>
+                  <l>con el moro robador:</l>
+                  <l>el cual muy fino y atento</l>
+                  <l>le prometió por servirlo</l>
+                  <l>ir en su acompañamiento</l>
+                  <l>con los cautivos. Y en tanto</l>
+                  <l>quiso hacerle por cortejo,</l>
+                  <l>que á comer fuese á su casa</l>
+                  <l>el general; pero luego</l>
+                  <l>que entró y vió á la sevillana,</l>
+                  <l>se quedó absorto y suspenso</l>
+                  <l>de ver que lo ponderado,</l>
+                  <l>con su hermosura fué un sueño.</l>
+                  <l>Dijo el general al moro:</l>
+                  <l>de vos un favor espero,</l>
+                  <l>y ha de ser, que esta cautiva</l>
+                  <l>llevarla en presencia quiero</l>
+                  <l>del Gran Sultan, porque vea</l>
+                  <l>este admirable portento;</l>
+                  <l>se lo otorgó luego al punto</l>
+                  <l>sin sumisiones ni ruegos.</l>
+                  <l>Muy fino andaba el pagano,</l>
+                  <l>pues ignoraba el misterio,</l>
+
+                  <pb n="7" source="Moreno_368_7.jpeg" facs="fedora_ug8105655/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>y hubiera quedado libre</l>
+                  <l>á no estar ya de por medio</l>
+                  <l>el agravio cometido,</l>
+                  <l>y estaba reciente el duelo.</l>
+                  <l>Embarcados los cautivos,</l>
+                  <l>y distintos caballeros,</l>
+                  <l>cuando los náutas veloces</l>
+                  <l>soltando velas y remos,</l>
+                  <l>ayudados del Fabonio,</l>
+                  <l>con rápidos movimientos</l>
+                  <l>tan intrépidos volaban,</l>
+                  <l>que cuando reconocieron</l>
+                  <l>la tierra el moro Elos suyos,</l>
+                  <l>se hallaban ya prasioneros:</l>
+                  <l>No habrá plumasque aquí escriba</l>
+                  <l>las diligencias que hicieron</l>
+                  <l>los moros por libertarse;</l>
+                  <l>pero todo fué supérfluo,</l>
+                  <l>porque el general valiente,</l>
+                  <l>con grande valor y esfuerzo</l>
+                  <l>puso á todos en prisiones,</l>
+                  <l>sin que bastasen los ruegos</l>
+                  <l>que á veces tener piedad,</l>
+                  <l>es no haberla de sí mesmo.</l>
+                  <l>Ufano con tal empresa</l>
+                  <l>llegó al Gaditano puerto,</l>
+                  <l>pasando de allí á la córte,</l>
+                  <l>para que el Rey como dueño,</l>
+                  <l>haga lo que mas convenga</l>
+                  <l>como recto y justiciero;</l>
+                  <l>y como prudente y sabio</l>
+                  <l>diese en su Real Consejo</l>
+                  <l>la disposicion de todo.</l>
+                  <l>Dando al general los fueros</l>
+                  <l>de Almirante de Castilla,</l>
+                  <l>que fué honroso privilegio.</l>
+                  <l>Y al mismo tiempo á los padres</l>
+                  <l>de la dama le escribieron,</l>
+                  <l>que vengan luego á palacio,</l>
+                  <l>los cuales pronto vinieron</l>
+                  <l>llenos de júbílo y gozo.</l>
+                  <l>Querer contar por estenso</l>
+                  <l>los cariños, los aplausos,</l>
+                  <l>los placeres, los extremos,</l>
+                  <l>al silencio los remtio,</l>
+                  <l>porque á veces el silencio</l>
+                  <l>dice mas con lengua muda,</l>
+                  <l>que las voces del acento.</l>
+                  <l>Estando ya todos juntos</l>
+                  <l>tuvo el Rey por buen acuerdo,</l>
+                  <l>que el Almirante le diese</l>
+                  <l>la mano de casamiento</l>
+                  <l>á la dama, y que quedase</l>
+                  <l>en tálamo de himeneo,</l>
+                  <l>con el lazo maridable.</l>
+                  <l>Se lo otorgó al punto, siendo</l>
+                  <l>el mismo Rey su padrino;</l>
+                  <l>por lo cual está supuesto</l>
+                  <l>el colmo de los aplausos,</l>
+                  <l>que fué admiracion del tiempo;</l>
+                  <l>pues para empeños de un Rey,</l>
+                  <l>todo el mundo es corto empeño</l>
+                  <l>Luego el moro y sus parciales,</l>
+                  <l>por todas esus vidas fueron</l>
+                  <l>á las mminas del azogue</l>
+                  <l>por un perpétuo destierro.</l>
+                  <l>Y fué piadoso el castigo,</l>
+                  <l>que haber de ser por entero</l>
+                  <l>la venganza, fuera poco</l>
+                  <l>darles el fin en el fuego,</l>
+                  <l>para que el infiel pagara</l>
+                  <l>semejante desafuero.</l>
+                  <l>Quedó ufano el almirante,</l>
+                  <l>mejorado con los premios</l>
+                  <l>en tan superior esfera,</l>
+                  <l>en tan realzado empleo.</l>
+                  <l>El Rey muy agradecido,</l>
+                  <l>todo placer y contento,</l>
+                  <l>gozando en paz y concordia</l>
+                  <l>descanso, quietud, sosiego.</l>
+                  <l>Los recíprocos cariños,</l>
+                  <l>los amorosos requiebros</l>
+                  <l>de estos dos nuevos amantes</l>
+                  <l>los dejamos al silencio:</l>
+                  <l>pues todo el que al cielo aspira</l>
+                  <l>goza favores del cielo.</l>
+                  <l>En este breve traslado</l>
+                  <l>puede advertir el discreto,</l>
+
+                  <pb n="8" source="Moreno_368_8.jpeg" facs="fedora_ug8103832/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>que este mundo es todo engaño,</l>
+                  <l>cuento, tramoya y enredo:</l>
+                  <l>por lo cual pedir conviene</l>
+                  <l>al Autor de tierra y cielo,</l>
+                  <l>para seguir su ley santa,</l>
+                  <l>nos dé buenos pensamientos,</l>
+                  <l>con auxilios de su gracia,</l>
+                  <l>puesto que es piélago inmenso.</l>
+                  <l>Donde Alonso de Morales</l>
+                  <l>pide al ilustre congreso</l>
+                  <l>que con catòlica fé</l>
+                  <l>al Supremo Autor roguemos</l>
+                  <l>que nos libre de enemigos</l>
+                  <l>temporales, como éternos.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA—:1863: <lb/>Imp. y librería de D. José. M. Moreno, calle Madre de
+                  Dios, núm. 1 </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

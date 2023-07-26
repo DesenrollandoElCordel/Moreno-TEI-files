@@ -1,0 +1,941 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_073">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Las princesas encantadas, y deslealtad de hermanos</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Las princesas encantadas, y deslealtad de
+                     hermanos.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1855-01-01">1855</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6460764</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 85</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Tres partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-5</locus>
+                     <title>Segunda parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Tercera parte.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_073_1.xml" facs="fedora_ug8105020/311,324,513,784/100,/0/default.jpg">grabado_m_073_1</item>
+                           <item corresp="grabado_m_073_2.xml" facs="fedora_ug8105020/815,465,714,629/100,/0/default.jpg">grabado_m_073_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104247/manifest">
+      <graphic url="fedora_ug8105020/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_073_1.jpg" facs="fedora_ug8105020/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 85.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/>LAS PRINCESAS ENCANTADAS, <lb/><hi rend="negrita">Y DESLEALTAD DE
+                     HERMANOS.</hi>
+               </head>
+
+               <div n="1" type="parte">
+                  <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">Cuando el católico rey, </l>
+                  <l>que globos de estrellas pisa,</l>
+                  <l>san Fernando, rey de España, </l>
+                  <l>lanzó la secta morisca á</l>
+                  <l>de todo el reino y dominios,</l>
+                  <l>con su invencible cuchilla.</l>
+                  <l>muchos nobles caballeros</l>
+                  <l>descendientes todavia </l>
+                  <l>de los primeros cristianos</l>
+                  <l>que hubo cuando la conquista, </l>
+                  <l>fue con ellos un poderoso,</l>
+                  <l>el cual por su bizarría</l>
+                  <l>fue luego electo por rey</l>
+                  <l>en las fértiles provincias</l>
+                  <l>de la parte de Oriente, </l>
+                  <l>que se nombraba la Siria; </l>
+                  <l>su nombre era Clotaldo, </l>
+                  <l>era casado y tenia</l>
+                  <l>de su feliz matrimonio</l>
+                  <l>la belleza de tres hijas,</l>
+                  <l>que en las humanas deidades</l>
+                  <l>se llevaban la primicia.</l>
+                  <l>Viéndolas el rey su padre</l>
+                  <l>que pocos las merecian,</l>
+                  <l>ordenó hacer un castillo</l>
+                  <l>de vistosa simetría,</l>
+                  <l>y de altura formidable,</l>
+                  <l>que aun la mas aguda vista </l>
+                  <l>sus piramídes y almenas</l>
+                  <l>penetrarlas no podia:</l>
+                  <l>alli dispuso encerrarlas</l>
+                  <l>con infernal inventiva,</l>
+                  <l>pues buscó un mágico sábio</l>
+                  <l>que con hechizos hacía</l>
+                  <l>nigrománticos enredos;</l>
+                  <l>á este el rey notifica</l>
+                  <l>haga un fuerte encantamiento,</l>
+                  <l>y que no puedan ser vistas </l>
+                  <l>ni vencidas de ninguno,</l>
+                  <l>hasta que el rey lo permita,</l>
+                  <l>dejándolas emplazadas</l>
+                  <l>como en clausura continua,</l>
+                  <l>y fué poner tres caballos, </l>
+                  <l>ó satánicas arpías,</l>
+
+                  <pb n="2" source="Moreno_073_2.jpg" facs="fedora_ug8109179/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>para cada uno el suyo, </l>
+                  <l>donde el encanto se cifra.</l>
+                  <l>Despues espidió un decreto</l>
+                  <l>en toda su monarquia, </l>
+                  <l>que cualquiera caballero, </l>
+                  <l>ó noble de,sangre limpia</l>
+                  <l>que pueda entrar en la torre,</l>
+                  <l>si aquel encanto conquista,</l>
+                  <l>en sus hijas tendra el premio:</l>
+                  <l>quien lograre aquesta dicha</l>
+                  <l>serán casados con ellas </l>
+                  <l>sin haber quien se lo impida.</l>
+                  <l>Muy bien conocia el rey</l>
+                  <l>la dificultad que habia,</l>
+                  <l>y con esta confianza</l>
+                  <l>por premio las ofrecia.</l>
+                  <l>Corrió todos sus estados</l>
+                  <l>velozmente esta noticia;</l>
+                  <l>á este tiempo tres harmanos</l>
+                  <l>de gallarda bizarría,</l>
+                  <l>caballeros, y aunque pobres, </l>
+                  <l>de ilustre genealogía,</l>
+                  <l>nacidos en Dinamarca, </l>
+                  <l>oyendo aquesta noticia,</l>
+                  <l>dispusieron valerosos</l>
+                  <l>el partirse á grande prisa</l>
+                  <l>por ver si su feliz suerte</l>
+                  <l>quiere que tal bien consigan. </l>
+                  <l>Ya los tres reconocidos</l>
+                  <l>dejan su patria y caminan</l>
+                  <l>hasta llegar á la córte,</l>
+                  <l>y con la atencion debida</l>
+                  <l>dijeron al rey su intento,</l>
+                  <l>y al punto mandó que pidan</l>
+                  <l>todo lo menesteroso</l>
+                  <l>de cuanto se necesita.</l>
+                  <l>Pidió el mayor y el segundo</l>
+                  <l>caballos y armas lucidas, </l>
+                  <l>y el menor dijo que un carro,</l>
+                  <l>tan solamente pedia</l>
+                  <l>con dos bueyes, y que en él</l>
+                  <l>poner para muchos dias</l>
+                  <l>gran prevencion de sustentos</l>
+                  <l>de comidas y bebidas:</l>
+                  <l>muchos clavos y una cuerda</l>
+                  <l>de largura sin medida.</l>
+                  <l>Hechas estas diligencias</l>
+                  <l>que ya llevo referidas, </l>
+                  <l>salen los dos á caballo,</l>
+                  <l>y dentro de pocos dias</l>
+                  <l>le dieron vista al castillo,</l>
+                  <l>y á su eminencia se arriman;</l>
+                  <l>mas luego esperimentaron</l>
+                  <l>sus diligencias perdidas,</l>
+                  <l>pues viendo la elevacion</l>
+                  <l>fallecen y desaniman.</l>
+                  <l>Algunos dias gastaron</l>
+                  <l>dando ideas discursivas,</l>
+                  <l>cómo poder conquistar</l>
+                  <l>torre tan fortalecida;</l>
+                  <l>mas viendo no ser posible, </l>
+                  <l>ya cansados determinan</l>
+                  <l>volverse para su patria</l>
+                  <l>sin premio á tanta fatiga:</l>
+                  <l>tomaron la misma senda</l>
+                  <l>que anteriormente traian,</l>
+                  <l>y en medio de ella encontraron</l>
+                  <l>al hermano que venia </l>
+                  <l>muy poco á poco en su carro</l>
+                  <l>con prevencion de comida, </l>
+                  <l>y al verlo le propusieron</l>
+                  <l>los imposibles que habia </l>
+                  <l>para conquistar el fuerte,</l>
+                  <l>que se vuelva y no prosiga;</l>
+                  <l>nó bastaron persuaciones, </l>
+                  <l>plegarias ni rogativas.</l>
+                  <l>Despues que húbieron comido</l>
+                  <l>volvieron en compañia,</l>
+                  <l>llegaron segunda vez</l>
+                  <l>á la encantada alquería;</l>
+                  <l>hicieron alto y descargan</l>
+                  <l>los viveres que traian:</l>
+                  <l>fué el mancebo examinando</l>
+                  <l>la torre, que no tenia</l>
+                  <l>puerta, puente ni rastrillo,</l>
+                  <l>ventanas ni celosias, </l>
+                  <l>y bien registrada toda, </l>
+                  <l>ciñó á su cintura misma</l>
+                  <l>una venda, y en la cual</l>
+                  <l>los fuertes clavos afirma,</l>
+                  <l>cogió un clavo y una cuerda</l>
+                  <l>y un buen martillo en la cinta. </l>
+                  <l>Con artificiosa maña</l>
+                  <l>y astucia tan bien lucida</l>
+                  <l>llegó al estremo postrero,</l>
+                  <l>y apenas sus cumbres pisa</l>
+                  <l>le salieron al encuentro</l>
+                  <l>tres hermosisimas ninfas</l>
+                  <l>mostrando ser sus bellezas</l>
+                  <l>aun mas que humanas divinas,</l>
+                  <l>diciéndoles; ¿quién sois, jóven,</l>
+                  <l>que con tan libre osadia</l>
+                  <l>has profanado el decoro</l>
+                  <l>de este alcazar, donde habitan</l>
+
+                  <pb n="3" source="Moreno_073_3.jpg" facs="fedora_ug8103861/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>tres princesas? pues tu muerte</l>
+                  <l>pagará tal demasia. </l>
+                  <l>El respondió; pues, señoras,</l>
+                  <l>como ese favor consiga</l>
+                  <l>de morir á vuestros ojos.</l>
+                  <l>causará mí muerte envidia, </l>
+                  <l>y así tendreis por sabido,</l>
+                  <l>que como ustedes permitan</l>
+                  <l>que las hbre de este encierro,</l>
+                  <l>aunque para la salida </l>
+                  <l>todo el mundo se me oponga</l>
+                  <l>no es posible que me rinda.</l>
+                  <l>Unánimes respondieron;, </l>
+                  <l>pues como el valor te asista</l>
+                  <l>todas tres te obedecemos</l>
+                  <l>muy grandemente propicias, </l>
+                  <l>y te será bien premiado;</l>
+                  <l>mas para eso precisa </l>
+                  <l>que á tres hermosos caballos</l>
+                  <l>que en este castillo habitan </l>
+                  <l>á cada uno una cerda</l>
+                  <l>le quitarás, que en las mismas, </l>
+                  <l>está nuestro encantamiento,</l>
+                  <l>y todas en mucha estima,</l>
+                  <l>porque en cualquier fracaso </l>
+                  <l>que te halles, no te aflijas</l>
+                  <l>si el elemento del fuego</l>
+                  <l>á cada uno le aplicas. </l>
+                  <l>Esto dijeron, y luego</l>
+                  <l>dispuso bajar las damas, </l>
+                  <l>que de placer y alegria</l>
+                  <l>mil parabienes le dadan. </l>
+                  <l>con ternezas y caricias, </l>
+                  <l>y al impulso de la cuerda</l>
+                  <l>á la hermana mayor liga, </l>
+                  <l>y con valor increible</l>
+                  <l>en tierra la deposita;</l>
+                  <l>lo mismo fué la segunda,</l>
+                  <l>quedó sola la mas chica;. </l>
+                  <l>le dijo: jóven gallardo,</l>
+                  <l>toma aquesta gargantilla,</l>
+                  <l>que en el valor poder y hechura</l>
+                  <l>otra alguna no la imita,</l>
+                  <l>y aunque en diversos trabajos</l>
+                  <l>te atormenten y persigan</l>
+                  <l>jamás te enagénes de ella, </l>
+                  <l>que podrá ser que algun dia</l>
+                  <l>te importe, y con esto el cielo</l>
+                  <l>te libre como nos libras:</l>
+                  <l>con esto descendió al suelo</l>
+                  <l>con la misma armonía.</l>
+                  <l>Y habiéndolas ya librado</l>
+                  <l>de esclavitud tan indigna</l>
+                  <l>le arrebataron la cuerda.</l>
+                  <l>¡Quién vió mayor bastardía</l>
+                  <l>entre hermanos! pues se halló</l>
+                  <l>con la esperanza perdida</l>
+                  <l>de bajar pues ni los clavos</l>
+                  <l>hincados en ella había;</l>
+                  <l>entonces los dos hermanos</l>
+                  <l>con infernal avaricia</l>
+                  <l>conociendo que su hermano</l>
+                  <l>todo el premio merecia, </l>
+                  <l>envidiosos dispusieron</l>
+                  <l>ponerse luego en huida;</l>
+                  <l>montándolas en sus brutos, </l>
+                  <l>volaban y no corrian,</l>
+                  <l>hasta llegar á la córte,</l>
+                  <l>donde el rey se maravilla</l>
+                  <l>en ver á sus hijas libres</l>
+                  <l>que aun viéndolas no lo creia; </l>
+                  <l>ellas guardaron secreto,</l>
+                  <l>solo dijeron que habian</l>
+                  <l>por los dos sido libradas;</l>
+                  <l>y viendo el rey que eran nobles</l>
+                  <l>al proviso determina </l>
+                  <l>desposar las dos mayores</l>
+                  <l>con fiestas muy divertidas.</l>
+               </div>
+
+               <div n="2" type="parte">
+                  <head type="titulo_parte">SEGUNDA PARTE.</head>
+
+                  <l rend="indent">Afligido y pesaroso,</l>
+                  <l>melancólico y suspenso,</l>
+                  <l>lleno de horrores y espanto</l>
+                  <l>quedó en la torre el mancebo,</l>
+                  <l>sin hallar norte ni senda </l>
+                  <l>para salir del encierro:</l>
+                  <l>pero entre tantas fatigas</l>
+                  <l>se acordó que le digeron</l>
+                  <l>que en los caballos tendría</l>
+                  <l>de sus penas el remedio.</l>
+                  <l>Se fué al sitio donde estaban; </l>
+                  <l>que sabía por muy cierto</l>
+                  <l>el que le pertenecia</l>
+                  <l>á su enamorado dueño</l>
+                  <l>que le dió la gargantilla,</l>
+                  <l>en el cual montó ligero;</l>
+                  <l>dió un brinco tan formidable</l>
+                  <l>el bruto con tal estruendo</l>
+                  <l>que pareció que la torre</l>
+                  <l>se arrancaban sus cimientos,</l>
+
+                  <pb n="4" source="Moreno_073_4.jpg" facs="fedora_ug8108427/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>y aun creyó de que el abismo,</l>
+                  <l>se los tragaba en su seno,</l>
+                  <l>y al volver en sí se halló</l>
+                  <l>en un aspero desierto,</l>
+                  <l>todo poblado de troncos</l>
+                  <l>tan montuoso y espeso,</l>
+                  <l>que jamás le penetraron</l>
+                  <l>del sol los claros reflejos.</l>
+                  <l>Caminó á larga distancia, </l>
+                  <l>cuando encontró á un ganadero,</l>
+                  <l>al cual dijo que de cierto</l>
+                  <l>le dijese que parages</l>
+                  <l>ó paises son aquellos.</l>
+                  <l>Respondió muy agradable</l>
+                  <l>esta tierra es de suecos,</l>
+                  <l>y segun dice este trage</l>
+                  <l>vos no sois de aqueste reino.</l>
+                  <l>No, amigo, le replicó;</l>
+                  <l>soy un hombre forastero,</l>
+                  <l>que buscando mi fortuna</l>
+                  <l>me ha traido á tal estremo:</l>
+                  <l>y por quien sois, os suplico</l>
+                  <l>que nuestras ropas cambiemos;</l>
+                  <l>bien conoceis la mejora</l>
+                  <l>que se os sigue en hacerlo</l>
+                  <l>Cambiaron y quedó en breve,</l>
+                  <l>nuestro noble caballero</l>
+                  <l>todo vestido de pieles,</l>
+                  <l>y de un reciente cordero,</l>
+                  <l>de la piel hizo una gorra</l>
+                  <l>á fin de cubrir el pelo,</l>
+                  <l>vestido á lo pastoril</l>
+                  <l>tan tosco como grosero,</l>
+                  <l>pidiendo á algunos limosna</l>
+                  <l>pasaba de pueblo en pueblo.</l>
+                  <l>Llegó al reino donde estaban, </l>
+                  <l>sus hermanos, que de cierto</l>
+                  <l>estaba ochocientas leguas,</l>
+                  <l>lo cual gastó mucho tiempo,</l>
+                  <l>y con las calamidades, </l>
+                  <l>trabajos y contratiempos</l>
+                  <l>mudo la faccion del rostro</l>
+                  <l>muy distinto del primero.</l>
+                  <l>Fingía llamarse Juan</l>
+                  <l>y con estos fingimientos</l>
+                  <l>se hizo loco declarado,</l>
+                  <l>pues ya para conocerlo,</l>
+                  <l>decian Juanillo el loco,</l>
+                  <l>no dándole en nada asenso</l>
+                  <l>En aqueste tiempo, el rey</l>
+                  <l>á su hija por momentos</l>
+                  <l>le decia se casase, </l>
+                  <l>para llevar en muriendo</l>
+                  <l>el consuelo que quedaban</l>
+                  <l>todas tres ya con empleo,</l>
+                  <l>y ella siempre se negó</l>
+                  <l>á sus misiones y ruegos,</l>
+                  <l>hasta ver si la fortuna</l>
+                  <l>la traia el dulce objeto</l>
+                  <l>á quien dió la gargantilla</l>
+                  <l>como referido dejo</l>
+                  <l>pero la discreta dama </l>
+                  <l>á sus solas y á su intento,</l>
+                  <l>dibujó una gargantilla</l>
+                  <l>al arte, forma y modelo</l>
+                  <l>de la que le dió en la torre</l>
+                  <l>al que se muere por verlo.</l>
+                  <l>Dijole á su padre, entonces, </l>
+                  <l>que se buscase un maestro</l>
+                  <l>que sin que le falte un punto</l>
+                  <l>haga otra, pues su intento</l>
+                  <l>es ver si hallaba la suya, </l>
+                  <l>y sin que haya remedio</l>
+                  <l>promete ser digna esposa</l>
+                  <l>de aquel que la tenga; y esto</l>
+                  <l>se puso luego por obra,</l>
+                  <l>se buscó entre los mas diestros</l>
+                  <l>al mas sapiente alquimista</l>
+                  <l>que habia entre los espertos.</l>
+                  <l>A este tiempo habia entrado</l>
+                  <l>á servir de mandadero</l>
+                  <l>Juanillo; el fingido loco,</l>
+                  <l>pasando plaza de serlo;</l>
+                  <l>dióle el rey dicho dibujo</l>
+                  <l>al alquimista, y diciendo</l>
+                  <l>que en el tiempo de dos meses</l>
+                  <l>con primor, arte y concierto</l>
+                  <l>se ha de hacer la gargantilla,</l>
+                  <l>y que de haber falta en ello,</l>
+                  <l>al impulso de un verdugo</l>
+                  <l>le hará dividir el cuello.</l>
+                  <l>Llevó el dibujo á su casa;</l>
+                  <l>y luego fué previniendo</l>
+                  <l>las esmeraldas mas finas,</l>
+                  <l>los diamantes de mas precio;</l>
+                  <l>mas con todo no podia </l>
+                  <l>hacerla, y entonces, viendo</l>
+                  <l>que se pasaban los dias </l>
+                  <l>y el tiempo se iba cumpliendo,</l>
+                  <l>era sin igual la pena</l>
+                  <l>por saber que sin remedio</l>
+                  <l>moriria si no hacia </l>
+                  <l>lo que se habia propuesto;</l>
+                  <l>viéndole su mozo triste, </l>
+
+                  <pb n="5" source="Moreno_073_5.jpg" facs="fedora_ug8110262/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">5</fw>
+
+                  <l>dijole; señor, yo quiero</l>
+                  <l>que me digais los motivos</l>
+                  <l>de la tristeza en que os veo,</l>
+                  <l>por ver si á vuestros pesares</l>
+                  <l>algo remediarlos puedo:</l>
+                  <l>por último se lo dijó,</l>
+                  <l>que es alivio del enfermo</l>
+                  <l>el comunicar sus males</l>
+                  <l>que en parte se alivian ellos.</l>
+                  <l>Dijole al amo; señor</l>
+                  <l>sin duda alguna me atrevo</l>
+                  <l>de hacerla mejor mil veces</l>
+                  <l>que lo que el rey ha propuesto.</l>
+                  <l>Todo lo menesteroso</l>
+                  <l>le puso en un aposento,</l>
+                  <l>dejándole allí encerrado,</l>
+                  <l>y el muy alegre y contento</l>
+                  <l>por saber bien que en sumano</l>
+                  <l>pendia todo el enredo.</l>
+                  <l>Con una sin igual pena</l>
+                  <l>llegó el dia postrimero,</l>
+                  <l>y el amo triste y lloroso</l>
+                  <l>fué aquel dia mismo á verlo,</l>
+                  <l>y apenas entró, le dijo:</l>
+                  <l>pues Juan simple, ¿qué tenemos?</l>
+                  <l>mas él con fingida risa,</l>
+                  <l>y con agradable ceño</l>
+                  <l>le dijo: ya nuestro amo,</l>
+                  <l>no ha de ser el rey sangriento,</l>
+                  <l>contra vos, pues ya la pieza</l>
+                  <l>con todo primor se ha hecho;</l>
+                  <l>sacando la gargantilla,</l>
+                  <l>que fué el origen primero,</l>
+                  <l>quedándose el amo absorto</l>
+                  <l>pues ignoraba el misterio;</l>
+                  <l>mil parabines le daba,</l>
+                  <l>con muchos ofrecimientos</l>
+                  <l>la tomó y se fué á palacio,</l>
+                  <l>y en las manos del rey mismo</l>
+                  <l>la pusó: pero la infanta</l>
+                  <l>luego al punto que la dieron</l>
+                  <l>la noticia, vino á verla, </l>
+                  <l>y la conoció al momento</l>
+                  <l>diciendo: ¿qué lapidario</l>
+                  <l>es de esta obra el dueño?</l>
+                  <l>¿quién bizo tan bella alhaja? </l>
+                  <l>porque quiero conocerlo.</l>
+                  <l>Y el maestro receloso</l>
+                  <l>no le cojan en enredo,</l>
+                  <l>contó desde su principio</l>
+                  <l>toda la verdad del hecho,</l>
+                  <l>Entonces dijo la infanta;</l>
+                  <l>ya, padre, se llegó el tiempo</l>
+                  <l>sea quien fuera el sugeto,</l>
+                  <l>Al palacio fué llevado,</l>
+                  <l>y luego se conocieron,</l>
+                  <l>solamente que los dos</l>
+                  <l>supieron guardar secreto</l>
+                  <l>hasta mejor ocasion, </l>
+                  <l>como en efecto lo hicieron:</l>
+                  <l>le fué fuerza al rey casarlos, </l>
+                  <l>aunque con gran sentimiento.</l>
+                  <l>Sus hermanos y cuñadas</l>
+                  <l>le decian vituperios,</l>
+                  <l>mas poco tiempo duró</l>
+                  <l>desatar aqueste enredo.</l>
+                  <l>Y para dar finiquito</l>
+                  <l>de este admirable compendio,</l>
+                  <l>qniere Alonso de Morales</l>
+                  <l>darlo todo por estenso,</l>
+                  <l>y en otra tercera parte</l>
+                  <l>deshacer quejas y duelos.</l>
+               </div>
+
+               <div n="3" type="parte">
+                  <head rend="negrita" type="titulo_parte">TERCERA PARTE.</head>
+
+                  <l rend="indent">Teniendo la hermosa infanta</l>
+                  <l>sus gustos ya conseguidos,</l>
+                  <l>de su gargantilla y dueño</l>
+                  <l>que la libró del peligro,</l>
+                  <l>no dudó darle la mano</l>
+                  <l>como habia prometido,</l>
+                  <l>causando en el rey tal pena, </l>
+                  <l>que fué bastante motivo,</l>
+                  <l>que todo el mundo afease</l>
+                  <l>el mal gusto que ha tenido, </l>
+                  <l>reduciendolo á tristeza,</l>
+                  <l>en ves de hacer regocijos,</l>
+                  <l>no queriendo que en palacio</l>
+                  <l>viviese, ni aun por indicios, </l>
+                  <l>y á fuera en los estramuros</l>
+                  <l>un tosco albergue les hizo,</l>
+                  <l>donde apartados viviesen,</l>
+                  <l>sin ser oidos ni vistos,</l>
+
+                  <pb n="6" source="Moreno_073_6.jpg" facs="fedora_ug8108817/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>y su esposa le rogaba</l>
+                  <l>que no se mostrase tibio</l>
+                  <l>en descubrirse, pues todos</l>
+                  <l>afeaban sus delirios, </l>
+                  <l>mas el hasta mejor tiempo</l>
+                  <l>tuvo el secreto escondido.</l>
+                  <l>Lloraba el rey su desgracia, </l>
+                  <l>sin hallar en nada alivio,</l>
+                  <l>tanto fué que cayó enfermo:</l>
+                  <l>y de la vista perdido,</l>
+                  <l>que con el continuo llanto</l>
+                  <l>quedó ciego su sentido.</l>
+                  <l>Vinieron médicos sábios</l>
+                  <l>haciendo consulta unidos</l>
+                  <l>hasta que el último acuerdo</l>
+                  <l>fué decir, que entre unos riscos</l>
+                  <l>en los montes de Esclavonia</l>
+                  <l>estaba el único alivio,</l>
+                  <l>en las aguas de una fuente:</l>
+                  <l>mas que habia un gran peli</l>
+                  <l>por las indómitas fieras</l>
+                  <l>que habitan en aquel sitio,</l>
+                  <l>y consiguiendo el traerla</l>
+                  <l>tendria el rey alivio.</l>
+                  <l>Los dos yernos se ofreciero!</l>
+                  <l>prontos y reconocidos, </l>
+                  <l>aunque aventuren sus vidas</l>
+                  <l>y pasen dos mil peligros</l>
+                  <l>osto lo supo el hermano,</l>
+                  <l>y sin darle á nadie aviso</l>
+                  <l>llamó al caballo encantado, </l>
+                  <l>de los tres el primitivo,</l>
+                  <l>y montándole, salió</l>
+                  <l>mas veloz que un torbellino;</l>
+                  <l>fué á la fuente, y tomó el agua,</l>
+                  <l>y viniendo de camino</l>
+                  <l>se encontró con sus hermanos</l>
+                  <l>que iban al intento mismo</l>
+                  <l>y les dijo: caballeros,</l>
+                  <l>ese trabajo es perdido,</l>
+                  <l>que aqui llevo ya el ágüa, </l>
+                  <l>y aguardo un premio crecido.</l>
+                  <l>Entonces los dos á un tiempo</l>
+                  <l>le digeron; noble amigo,</l>
+                  <l>nosotros te lo daremos</l>
+                  <l>en plata y en oro fino,</l>
+                  <l>como el agua quieras darnos.</l>
+                  <l>Y prontamente les dijo,</l>
+                  <l>no quiero otra cosa en premio</l>
+                  <l>que dos peras que he sabido</l>
+                  <l>que á ustedes presentó el rey</l>
+                  <l>por favor muy esquisito,</l>
+                  <l>y pues consigo las traen,</l>
+                  <l>esto es lo que en premio pido</l>
+                  <l>luego se lo ofrecieron,</l>
+                  <l>por entrar mas aplaudidos.</l>
+                  <l>Hecho entre los tres el cambio</l>
+                  <l>se volvieron al proviso,</l>
+                  <l>con lo cual cobró el rey vista,</l>
+                  <l>y ellos el quedar lucidos.</l>
+                  <l>Tuvo de alli á poco tiempo</l>
+                  <l>con grandísimo peligro, </l>
+                  <l>el rey otra enfermedad,</l>
+                  <l>y médicos muy peritos,</l>
+                  <l>no encontraban medicinas,</l>
+                  <l>hasta que el mas sábio dijo,</l>
+                  <l>que en los desiertos de Albania,</l>
+                  <l>entre sus montes altivos</l>
+                  <l>hay entre sus muchas fieras</l>
+                  <l>de tanta especie distinta</l>
+                  <l>muchas leonas, si á una</l>
+                  <l>pudieran con artificios,</l>
+                  <l>sin darla muerte sacarla, </l>
+                  <l>el néctar de su recinto</l>
+                  <l>era singular remedio,</l>
+                  <l>lo cual no hay otro mas fijo;</l>
+                  <l>por gozar todos los fueros,</l>
+                  <l>los dos hermanos unidos</l>
+                  <l>salieron bien prevenidos,</l>
+                  <l>y el pequeño al mismo tiempo</l>
+                  <l>se salió al campo y dió un grito,</l>
+                  <l>llamó al segundo caballo,</l>
+                  <l>y luego que hubo venido, </l>
+                  <l>se montó aunque disfrazado</l>
+                  <l>con otra forma y vestido.</l>
+                  <l>Llegó al monte, y como iba </l>
+                  <l>con la magia y hechizo,</l>
+                  <l>pudo coger la leona, </l>
+                  <l>sin que de él fuese sentido</l>
+                  <l>y sacó porcion de leche</l>
+                  <l>á su eleccion, cuanta quiso.</l>
+                  <l>Se volvió, y á pocas leguas</l>
+                  <l>encontró los referidos</l>
+                  <l>hermanos, que deseosos</l>
+                  <l>ser del rey los mas validos</l>
+                  <l>iban resueltos y osados,</l>
+                  <l>por quedar mas aplaudidos;</l>
+                  <l>luego que se saludaron,</l>
+                  <l>así les habló y les dijo;, </l>
+                  <l>amigos, yo ya he logrado.</l>
+                  <l>lo que pretendeis vos mismos;</l>
+                  <l>ruegánle que se la diese</l>
+                  <l>por cuanto fuese servido;</l>
+                  <l>y él les dijó: caballeros,</l>
+
+                  <pb n="7" source="Moreno_073_7.jpg" facs="fedora_ug8107919/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>luego otorgaré el partido,</l>
+                  <l>si permitis qué una oreja</l>
+                  <l>os corte con mi cuchillo</l>
+                  <l>á cada uno, y el caríbio</l>
+                  <l>se harásinque háya entredichos.</l>
+                  <l>Al principio este concierto</l>
+                  <l>gran dificultad les hizo;</l>
+                  <l>mas por granjear honores</l>
+                  <l>otorgaron el partido,</l>
+                  <l>pues encubria el defecto</l>
+                  <l>las pelucas y capillos:</l>
+                  <l>Llegaron muy orgullosos</l>
+                  <l>y fueron bien recibidos</l>
+                  <l>de todos, pues fué la leche</l>
+                  <l>unico balsamo fino</l>
+                  <l>con que recuperó el rey</l>
+                  <l>cuanto tenia perdido.</l>
+                  <l>Sucedió que en este tiempo</l>
+                  <l>otro rey enfurecido</l>
+                  <l>le puso á Clotaldo guerra </l>
+                  <l>con rigor ejecutivo:</l>
+                  <l>se hallabá muy abrumado</l>
+                  <l>por su mucho poderío.</l>
+                  <l>Llamó á sus yernos á solas</l>
+                  <l>diciéndoles que su arbitrio</l>
+                  <l>era el que fuesen los dos</l>
+                  <l>con sifencioso sigilo</l>
+                  <l>á registrar con espías</l>
+                  <l>el campo del enemigo..</l>
+                  <l>Con esta resolucion</l>
+                  <l>los nombró el rey por caudillos,</l>
+                  <l>Hando en ellos la empresa</l>
+                  <l>como que eran ya sus hijos.</l>
+                  <l>Salieron á ver el campo,</l>
+                  <l>donde el contrario atrevido</l>
+                  <l>esperaba, mas tuvieron</l>
+                  <l>su merecido castigo;</l>
+                  <l>no hacian caso del loco</l>
+                  <l>dándole siempre al olvido,</l>
+                  <l>mas él de cuanto pasaba </l>
+                  <l>de todo tenia aviso.</l>
+                  <l>Se fué á un decierto, y allí</l>
+                  <l>la misma operacion hizo,</l>
+                  <l>llamando al tercer caballo </l>
+                  <l>y fué armado al proviso</l>
+                  <l>con lucidísimas armas </l>
+                  <l>de acero terso y bruñido.</l>
+                  <l>Se fué al campo de la lia</l>
+                  <l>y con invencible brío</l>
+                  <l>imitando á Santiago,</l>
+                  <l>entre los contrarios hizo</l>
+                  <l>estragos tan formidables</l>
+                  <l>que los dejó destruidos,</l>
+                  <l>ganándoles dos banderas,</l>
+                  <l>y trayéndolas consigo;</l>
+                  <l>encontró á los dos hermanós,</l>
+                  <l>que siempre fué su encontradizo</l>
+                  <l>que iban descubriendo el campo;</l>
+                  <l>hablóles muy comedido:</l>
+                  <l>amigos, ya venís tarde,</l>
+                  <l>que siempre pierde el tardio,</l>
+                  <l>y asi para esta conquista </l>
+                  <l>muy frívolos habeis sido,</l>
+                  <l>porqué ya por otras fuerzas</l>
+                  <l>quedan muertos y vencidos,</l>
+                  <l>lo cual estas dos banderas</l>
+                  <l>y de esta espada los filos</l>
+                  <l>para abonar la verdad</l>
+                  <l>son suficientes testigos.</l>
+                  <l>Dijéronle si queria </l>
+                  <l>quedar en estremo rico</l>
+                  <l>las redujese á monedas</l>
+                  <l>que pida y no sea omiso;</l>
+                  <l>díjoles que no estimaba </l>
+                  <l>por ellas ni aun cien bolsillos</l>
+                  <l>que solamente estimaba, </l>
+                  <l>si querian consentirlo,</l>
+                  <l>el marcarlos con un yerro</l>
+                  <l>adonde fuesen servidos,</l>
+                  <l>serán las banderas suyas</l>
+                  <l>si convienen en lo dicho.</l>
+                  <l>Ni las orejas ni peras</l>
+                  <l>les hicieron tal ruido</l>
+                  <l>como el considerarse</l>
+                  <l>esclavos sin ser cautivos;</l>
+                  <l>mas ¡oh codicia avarienta! </l>
+                  <l>¡oh interés de los siglos!</l>
+                  <l>Por último concedieron, </l>
+                  <l>y él hizo un hierro encendido,</l>
+                  <l>y en la espaldilla siniestra</l>
+                  <l>los señalo á los dos fijos.</l>
+                  <l>Se fueron con las banderas, </l>
+                  <l>y dijeron haber sido</l>
+                  <l>los que á todos los contrarios</l>
+                  <l>vencieron smn ser vencidos.</l>
+                  <l>Aqui fueron los placeres</l>
+                  <l>que no es dable referirlos.</l>
+                  <l>Creció con mayor estremo</l>
+                  <l>el odio y rencor maldito</l>
+                  <l>del rey contra el tercer yerno</l>
+                  <l>por ser hombre tan indigno,</l>
+                  <l>que determinó arrojarlo</l>
+                  <l>porque jamás fuese visto,</l>
+                  <l>á unas islas muy remotas; </l>
+
+                  <pb n="8" source="Moreno_073_8.jpg" facs="fedora_ug8105798/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>mas él humilde y propicio</l>
+                  <l>lè pidió al rey por mercec</l>
+                  <l>se muestre con él benigno,</l>
+                  <l>que el dia de su partida</l>
+                  <l>dentro del palacio mismo</l>
+                  <l>se junten todos los grandes,</l>
+                  <l>para un famoso convite.</l>
+                  <l>Esta súplica le hizo</l>
+                  <l>que por último consuelo</l>
+                  <l>lo pide y ha de cumplirlo;</l>
+                  <l>le concedió el pedimento</l>
+                  <l>y acudió inmenso gentio.</l>
+                  <l>Fué el que tenian por loco,</l>
+                  <l>y se adornó de un vestido</l>
+                  <l>que su valor y hermosura</l>
+                  <l>fué en grado superlativo;</l>
+                  <l>se afeito y quedó su rostro</l>
+                  <l>brotando grana y armiño;</l>
+                  <l>entró dando envidia á todos</l>
+                  <l>al ver su garbo y su brío;</l>
+                  <l>entonces lo conocieron</l>
+                  <l>sus hermanos de improviso, </l>
+                  <l>que les motiyó un desmayo </l>
+                  <l>envueltos en sudor frio;</l>
+                  <l>sacó entonces las dos peras</l>
+                  <l>diciendo; yo no permito</l>
+                  <l>me digan mas vituperios,</l>
+                  <l>que bastantes he sufrido</l>
+                  <l>por mis traidores hermanos,</l>
+                  <l>sin haberlos merecido.</l>
+                  <l>Yo, gran Señor, soy el mismo</l>
+                  <l>que liberté las princesas,</l>
+                  <l>bien lo saben que yo he sido,</l>
+                  <l>el mismo que trage el agua</l>
+                  <l>por lo que hube conseguido</l>
+                  <l>que estas dos peras me diesen:</l>
+                  <l>se dió por yerdad lo dicho;</l>
+                  <l>y ahora quiero que todos</l>
+                  <l>manifiesten sus oidos;</l>
+                  <l>quitáronse las pelucas</l>
+                  <l>y luego en los dos se vido,</l>
+                  <l>que les faltaba una oreja, </l>
+                  <l>y él las saca del bolsillo,</l>
+                  <l>diciendo: estas son las mismas</l>
+                  <l>que á los dos corté yomismo</l>
+                  <l>cuando trajeron la leche</l>
+                  <l>que os dió en los ojos, alivio,</l>
+                  <l>gran señor y para que, </l>
+                  <l>queden del todo corridos</l>
+                  <l>descúbranse las espaldas,</l>
+                  <l>vereis son esclavos mios,</l>
+                  <l>que asi lo dirán las señales;</l>
+                  <l>este fué mayor martirio</l>
+                  <l>y vergüenza que pasaron</l>
+                  <l>manifestar lo escondido.</l>
+                  <l>Y luego en público dijo:</l>
+                  <l>esto lo hecho tan solo</l>
+                  <l>porque estos hermanos mios</l>
+                  <l>trazaron la falcedad</l>
+                  <l>que ejecutaron conmigo:</l>
+                  <l>mas para que de mi pecho</l>
+                  <l>conozcan lo esclarecido</l>
+                  <l>yo les perdono ya todos</l>
+                  <l>los agravios cometidos:</l>
+                  <l>y viendo el rey que de todos</l>
+                  <l>aplausos solo era digno,</l>
+                  <l>le dió un muy estrecho abrazo,</l>
+                  <l>diciéndole, amado hijo,</l>
+                  <l>si hasta aquí te he despreciado,</l>
+                  <l>desde hoy mudo el designio:</l>
+                  <l>tú solo serás de todos</l>
+                  <l>mis bienes heredativo;</l>
+                  <l>como así fué, que por muerte</l>
+                  <l>del rey gozó el señorío.</l>
+                  <l>No quiso que á sus hermanos</l>
+                  <l>les diesen ningun castigo,</l>
+                  <l>sino que allí se quedasen</l>
+                  <l>sin que tuviesen dominio</l>
+                  <l>en cosa alguna en palacio;</l>
+                  <l>estos son los merecidos</l>
+                  <l>que consiguen los avaros</l>
+                  <l>que emprenden casos indignos,</l>
+                  <l>y asi quien todo lo quiere</l>
+                  <l>todo lo pierde de fijo.</l>
+                  <l>Y aqui Alonso de Morales,</l>
+                  <l>que este suceso halló escrito,</l>
+                  <l>quiso reducirlo á versos</l>
+                  <l>al mandato de un amigo, </l>
+                  <l>pues los que súbditos nacen</l>
+                  <l>obedecer es preciso.</l>
+
+                  <trailer>FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1855. <lb/>Imprenta de D. José María Moreno, Descalzas, nùm. 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

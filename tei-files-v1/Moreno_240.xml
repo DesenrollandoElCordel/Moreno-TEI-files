@@ -1,0 +1,499 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_240">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coplas nuevas en alabanza de María santísima de la Aurora</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coplas nuevas en alabanza de Maria santisima de la
+                     Aurora, para cantar los despertadores del santo Rosario.</title>
+                  <title type="titulo_breve">Coplas nuevas en alabanza de Maria santisima de la
+                     Aurora</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475899</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 250</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_240_1.xml" facs="fedora_ug8109886/305,196,913,1239/100,/0/default.jpg">grabado_m_240_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5649756.html" type="tipo_texto">Alabanzas</term>
+               <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-06" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104481/manifest">
+      <graphic url="fedora_ug8109886/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_240_1.jpeg" facs="fedora_ug8109886/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 250</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">COPLAS NUEVAS</hi>
+                  <lb/>EN ALABANZA <lb/><hi rend="negrita">DE MARIA SANTISIMA DE LA AURORA,</hi>
+                  <lb/>PARA CANTAR LOS DESPERTADORES DEL SANTO ROSARIO. </head>
+
+               <lg>
+                  <l rend="indent">En el nombre de Dios poderoso,</l>
+                  <l>La Aurora divina la vengo alabar,</l>
+                  <l>No es conforme la Vírgen merece,</l>
+                  <l>Sino como pueda mi lengua esplicar.</l>
+                  <l rend="cursiva">Bien conozco yá,</l>
+                  <l rend="cursiva">que tu mucha devocion me mueve,</l>
+                  <l rend="cursiva">y tu alabanza salgo á publicar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En el nombre de Dios poderoso, </l>
+                  <l>á este Santo Cristo divina humildad,</l>
+                  <l>le pedimos contritos y humildes,</l>
+                  <l>que nos dé su gracia para principiar.</l>
+                  <l rend="cursiva">Para principiar:</l>
+                  <l rend="cursiva">alabanza á Dios y á su Madre,</l>
+                  <l rend="cursiva">con un amor grande por todo el lugar.</l>
+               </lg>
+
+               <pb n="2" source="Moreno_240_2.jpeg" facs="fedora_ug8105859/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <lg>
+                  <l rend="indent">Madre mia, Virgen de la Aurora,</l>
+                  <l>darme vuestra gracia para principiar,</l>
+                  <l>que os la pido contrito y humilde</l>
+                  <l>postrado ante el trono de tu piedad.</l>
+                  <l rend="cursiva">Me la habeis de dar,</l>
+                  <l rend="cursiva">Madre mia, Reina de los cielos,</l>
+                  <l rend="cursiva">por que os lo pido con gran humildad.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De el jardin de la iglesia es María,</l>
+                  <l>la Rosa encarnada que fragancia dá,</l>
+                  <l>rodeada de los serafines,</l>
+                  <l>y de querubines con gran Magestad.</l>
+                  <l rend="cursiva">Venid y llegad,</l>
+                  <l rend="cursiva">confesores, mártires y santos,</l>
+                  <l rend="cursiva">Virgenes prudentes á su lado están.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En millares fuistes escogida,</l>
+                  <l>Virgen de la Aurara por madre de Dios,</l>
+                  <l>elegida del Eterno Padre,</l>
+                  <l>para que se obre nuestra redencion.</l>
+                  <l rend="cursiva">Con divino amor,</l>
+                  <l rend="cursiva">te decimos ¡ó muger dichosa!</l>
+                  <l rend="cursiva">tú fuistes la Rosa mas digna de Dios.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es María la mujer mas pura </l>
+                  <l>que pudo en el mundo parir y criar,</l>
+                  <l>azucena, jazmin y mosqueta,</l>
+                  <l>el lirio adorado, la Rosa encarná.</l>
+                  <l rend="cursiva">Reina Celestial,</l>
+                  <l rend="cursiva">que criaste al Rey de los cielos,</l>
+                  <l rend="cursiva">segunda persona de la Trinidad.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque toda la Trinidad junta,</l>
+                  <l>concurrió alMisterio de la Encarnacion,</l>
+                  <l>se atribuye al Espíritu Santo,</l>
+                  <l>por ser obra toda del divino amor.</l>
+                  <l rend="cursiva">Tener atencion:</l>
+                  <l rend="cursiva">aunque todas tres concurrieron,</l>
+                  <l rend="cursiva">solo la segunda fué la que encarnó.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es María, rosal primoroso,</l>
+                  <l>que plantó la justa Santa Trinidad,</l>
+                  <l>cuya Rosa fragante penetra,</l>
+                  <l>adora en la córte, Reina Celestial.</l>
+                  <l rend="cursiva">Pues en especial,</l>
+                  <l rend="cursiva">la Santisima Trinidad tiene</l>
+                  <l rend="cursiva">su mayor recreo en este Rosal.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Fueron tres los que te saludaron,</l>
+                  <l>Aurora divina en tu Anunciacion,</l>
+                  <l>san Gabriel fué el primero que dijo:</l>
+                  <l>Ave Gracia Plena, contigo el Señor.</l>
+                  <l rend="cursiva">Y le respondió:</l>
+                  <l rend="cursiva">dime ángel como ha de ser eso,</l>
+                  <l rend="cursiva">si en mi es imposible obra de varon.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nada importa, le responde el Angel,</l>
+                  <l>nada es imposible para nuestro Dios;</l>
+                  <l>nada temas, pues estás á la sombra</l>
+                  <l>del que es Poderoso, y todo logró.</l>
+                  <l rend="cursiva">Este es un favor,</l>
+                  <l rend="cursiva">que el Espiritu Santo te hace,</l>
+                  <l rend="cursiva">obras el misterio de la Encarnacion.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y bajando el Espiritu Santo,</l>
+                  <l>tres gotas de sangre María vertió,</l>
+                  <l>en su puro corazon, y en donde</l>
+                  <l>un cuerpo de un niño perfecto se ayó.</l>
+                  <l rend="cursiva">Y despues crió,</l>
+                  <l rend="cursiva">aquel alma y la infundió en el cuerpo,</l>
+                  <l rend="cursiva">y quedó hecho hombre el hijo de Dios.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Encarnando Jesus en María,</l>
+                  <l>se unió lo divino con la humanidad,</l>
+                  <l>y quedando dos naturalezas</l>
+                  <l>unidas en una, persona no mas.</l>
+                  <l rend="cursiva">Aqui hay que admirar,</l>
+                  <l rend="cursiva">que en el claustro puro de Maria,</l>
+                  <l rend="cursiva">el Sol se introdujo como en cristal.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando estaba la Vírgen María,</l>
+                  <l>allá en su aposento haciendo oracion,</l>
+                  <l>por la puerta se le ha entrado un ángel</l>
+                  <l>vestido de blanco que parece un Sol.</l>
+                  <l rend="cursiva">Y la saludó,</l>
+                  <l rend="cursiva">ó que Reina tan esclarecida;</l>
+                  <l rend="cursiva">por Madre del Verbo la escojió Dios.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Eres Reina y eterna doncella,</l>
+                  <l>Madre del niño que nació en Belén,</l>
+                  <l>tan dichosa fuistes en tu parto</l>
+                  <l>que los nueve coros te vienen á ver.</l>
+                  <l rend="cursiva">Y digo otra vez:</l>
+                  <l rend="cursiva">que eres Reina y eterna doncella,</l>
+                  <l rend="cursiva">y Virgen sin mancha en tu puro ser.</l>
+               </lg>
+
+               <pb n="3" source="Moreno_240_3.jpeg" facs="fedora_ug8106067/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <lg>
+                  <l rend="indent">A María tributan las tierras</l>
+                  <l>las flores que ofrece su estacion feliz,</l>
+                  <l>en enero y febrero, claveles,</l>
+                  <l>azucenas en marzo, rosas en abril.</l>
+                  <l rend="cursiva">Para mas lucir:</l>
+                  <l rend="cursiva">mayo y junio te ofrecen gustosos,</l>
+                  <l rend="cursiva">un hermoso lirio, y un casto jazmin.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es María la Rosa encarnada;</l>
+                  <l>S. José la espiga, y el niño el jazmin,</l>
+                  <l>quien quisiere gozar de estas flores</l>
+                  <l>que venga conmigo que voy al jardin.</l>
+                  <l rend="cursiva">Y vuelvo á decir:</l>
+                  <l rend="cursiva">que el que quiera gozar de esta flores</l>
+                  <l rend="cursiva">divinos olores de rosa y jazmin.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es María la Rosa escojida, </l>
+                  <l>la mas pura y bella que tiene el jardin</l>
+                  <l>porque vino á ser Madre y doncella,</l>
+                  <l>del verbo humanado sacra Emperatriz.</l>
+                  <l rend="cursiva">Y dice David:</l>
+                  <l rend="cursiva">que teneis el Sol en tu casa,</l>
+                  <l rend="cursiva">divina princesa hija de Joaquin.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dios te Salve, Paloma divina,</l>
+                  <l>Ave misteriosa que en el cielo está, </l>
+                  <l>Dios te salve, tórtola inocente,</l>
+                  <l>criada en el fuego de la caridad.</l>
+                  <l rend="cursiva">Fuente de piedad:</l>
+                  <l rend="cursiva">donde manan tus misericordias,</l>
+                  <l rend="cursiva">de dia y de noche siempre sin parar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dios te Salve, cristalino Espejo,</l>
+                  <l>Dios te Salve, Rosa de fragante olor,</l>
+                  <l>Dios te Salve, Estrella matutina,</l>
+                  <l>Dios te Salve, Madre del hijo de Dios.</l>
+                  <l rend="cursiva">Dios te salve, Sol,</l>
+                  <l rend="cursiva">Dios te salve, Aurora Maria,</l>
+                  <l rend="cursiva">Dios te salve, templo de Salomon.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sois sin mancha cristalino Espejo,</l>
+                  <l>la Rosa mas pura del profundo olor,</l>
+                  <l>concebida fuistes sin pecado,</l>
+                  <l>abogada nuestra, divino Farol.</l>
+                  <l rend="cursiva">Cuyo resplandor:</l>
+                  <l rend="cursiva">nos alumbra el derecho camino</l>
+                  <l rend="cursiva">á donde veremos el puerto mejor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es María del Libano Cedro,</l>
+                  <l>que en ella no cabe tener corrupcion,</l>
+                  <l>que la luz de su heróica pureza,</l>
+                  <l>conserva brillante los rayos del Sol</l>
+                  <l rend="cursiva">Tener atencion:</l>
+                  <l rend="cursiva">que es Maria con divino adorno,</l>
+                  <l rend="cursiva">templo sagrado del gran Salomon.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es la cándida y pura Azucena,</l>
+                  <l>que entre las espinas del hombre nació,</l>
+                  <l>sin tocarle la mancha creada,</l>
+                  <l>de aquel cautiverio que Adan cometió.</l>
+                  <l rend="cursiva">Tener atencion:</l>
+                  <l rend="cursiva">que el Espiritu Santo se alegra,</l>
+                  <l rend="cursiva">en ver á su esposa en tan puro candor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Viva, viva, la divina Aurora,</l>
+                  <l>viva esta Paloma sin mancha criada,</l>
+                  <l>viva, viva, su misericordia,</l>
+                  <l>viva, su pureza, viva su piedad.</l>
+                  <l rend="cursiva">Viva su bondad:.</l>
+                  <l rend="cursiva">viva, viva, la Rosa encarnada,</l>
+                  <l rend="cursiva">y mil veces viva, su virginidad.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Es María, depósito firme,</l>
+                  <l>Arca misteriosa del gran Salomon,</l>
+                  <l>donde todas las almas piadosas,</l>
+                  <l>vienen fervorosas á hacer oracion.</l>
+                  <l rend="cursiva">Hija de Sion:</l>
+                  <l rend="cursiva">lloraremos lágrimas de sangre,</l>
+                  <l rend="cursiva">porque en N. M. no hay comparacion.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sois la fuente de agua cristalina,</l>
+                  <l>sois corriente rio, sois fondoso mar,</l>
+                  <l>sois el árbol del bálsamo heróico,</l>
+                  <l>donde los enfermos se van á curar.</l>
+                  <l rend="cursiva">Sois pura bondad:</l>
+                  <l rend="cursiva">pues que sois el espejo mas puro,</l>
+                  <l rend="cursiva">donde se recrea, la Santa Trinidad.</l>
+               </lg>
+               <lg>
+                  <l rend="indent">Oh! què fuera de los pecadores, </l>
+                  <l>Dulcísima Aurora sin tu devocion!</l>
+                  <l>del dragon infernal fueran muchos,</l>
+                  <l>si nos cojiera sin tu proteccion.</l>
+                  <l rend="cursiva">El mayor placer, </l>
+                  <l rend="cursiva">que tenemos, Reina de los cielos,</l>
+                  <l rend="cursiva">que sois patrona del reino Español.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_240_4.jpeg" facs="fedora_ug8108938/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <lg>
+                  <l rend="indent">Demos gracias al Padre y al Hijo,</l>
+                  <l>y á la Aurora que es Madre de Dios,</l>
+                  <l>y al Espíritu Santo; su esposo,</l>
+                  <l>que el mal contagioso, ya se retiró.</l>
+                  <l rend="cursiva">Con divino amor:</l>
+                  <l rend="cursiva">alabemos todos los mortales,</l>
+                  <l rend="cursiva">con gracias iguales á nuestro Señor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No te alegres alma pecadora,</l>
+                  <l>porque te ha dejado con vida el Señor,</l>
+                  <l>no te olvides de esta Santa Aurora,</l>
+                  <l>que es la defensora que en paz nos sacó.</l>
+                  <l rend="cursiva">Todos á una voz:</l>
+                  <l rend="cursiva">les pidamos al Jue: Soberano,</l>
+                  <l rend="cursiva">para nuestros hermanos el perdon.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ya me llaman en todos mis pasos,</l>
+                  <l>y en sus abogaciones á mi madre,</l>
+                  <l>á mi esposa la adoran y veneran,</l>
+                  <l>le piden de veras aumento en la fé.</l>
+                  <l rend="cursiva">Habeis de saber:</l>
+                  <l rend="cursiva">que mi Madre y mi Esposa os dicen,</l>
+                  <l rend="cursiva">que siendo felices no perdais el bien.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por los ruegos de esta Sta. Aurora,</l>
+                  <l>que nuestro patrono el Sto. Sebastian,</l>
+                  <l>y las almas que á la Cruz se inclinan</l>
+                  <l>por gracia divina se retiró el mal.</l>
+                  <l rend="cursiva">Habeis de pensar:</l>
+                  <l rend="cursiva">que es castigo del cielo declarado,</l>
+                  <l rend="cursiva">por nuestros pecados y grande maldad.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Viva, viva, nuestra fé, cristianos;</l>
+                  <l>y todos los santos que en el cielo están,</l>
+                  <l>y la Santa de todas las santas</l>
+                  <l>que es la mas sagrada reliquia especial.</l>
+                  <l rend="cursiva">O suma bondad!</l>
+                  <l rend="cursiva">que en la Cruz nos ganasteis la vida,</l>
+                  <l rend="cursiva">dejando en Maria por hijo á S. Juan.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En el cielo se hincó de rodillas,</l>
+                  <l>la Aurora divina ante la Cruz,</l>
+                  <l>la corona le puso en la mano,</l>
+                  <l>y dice: Hijo mio, mi dulce Jesus,</l>
+                  <l rend="cursiva">Mi espejo y mi luz:</l>
+                  <l rend="cursiva">si me disteis palabra de Madre,</l>
+                  <l rend="cursiva">tu poder es grande, dales la salud.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Qué me pides, madre de mi vida,</l>
+                  <l>dice Jesucristo, que yo no te dé,</l>
+                  <l>la salud para ese pueblo rebelde</l>
+                  <l>que tanto me ofende como bien se vé.</l>
+                  <l rend="cursiva">Yo se la daré:</l>
+                  <l rend="cursiva">por tus ruegos Madre poderosa,</l>
+                  <l rend="cursiva">que en todas las cosas vale tu poder.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">La Pastora, mortales, os busca,</l>
+                  <l>corriendo las calles con suma piedad;</l>
+                  <l>que vengais á rezar el Rosario</l>
+                  <l>porque será mucha vuestra utilidad.</l>
+                  <l rend="cursiva">Venid á rezar,</l>
+                  <l rend="cursiva">que al oir vuestras Ave Marias,</l>
+                  <l rend="cursiva">se queda sin fuerzas el lobo infernal.</l>
+               </lg>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>NOTA. Hay concedidas muchas gracias é indulgencias por <lb/>varios Prelados,
+                  á todos los que con devocion rezaren el santo <lb/>rosario á María Santísima. </p>
+
+               <p><lb/>CARMONA:—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,414 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_174">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El valiente Badulaque</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El valiente Badulaque. Breve y compendiosa relacion
+                     de las proézas y hechos memorables del invensible y atrevido Badulaque, capitan
+                     general de las armadas del siempre, invicto rey Arlequin.</title>
+                  <title type="titulo_breve">El valiente Badulaque.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473125</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 184</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_174_1.xml" facs="fedora_ug8110068/678,461,500,725/100,/0/default.jpg">grabado_m_174_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-31" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8108255/manifest">
+      <graphic url="fedora_ug8110068/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_174_1.jpg" facs="fedora_ug8110068/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 184.)</fw>
+
+               <head rend="negrita" type="primer_titulo">EL VALIENTE BADULAQUE.</head>
+               <head>BREVE Y COMPENDIOSA RELACION <lb/>de las proézas y hechos memorables del inven-
+                  <lb/>sible y atrevido Badulaque, capitan general de <lb/>las armadas del siempre,
+                  invicto rey Arlequin.</head>
+
+               <l rend="indent">Escandalicese el mundo,</l>
+               <l>tiéml le el infierno cobarde,</l>
+               <l>los hombres se atemoricen,</l>
+               <l>vistan de temor los aires,</l>
+               <l>porque sale á la campaña</l>
+               <l>el valiente Bdulaque:</l>
+               <l>el que á Jauja dió renombre</l>
+               <l>con hechos muy memorables,</l>
+               <l>aquel Rufo, cuyas obras</l>
+               <l>ocupan en los anales</l>
+               <l>treinta resmas de papel;</l>
+               <l>poco he dicho, pero baste.</l>
+               <l>Yo soy quien le di la muerte</l>
+               <l>á aquel famoso gigante</l>
+               <l>de la puente de Mantible,</l>
+               <l>que le llamaban Galafre.</l>
+               <l>Despues que en España hice</l>
+               <l>hazñas inmemorables,</l>
+               <l>me pasé á la gran Turquia,</l>
+               <l>en donde estando una tarde</l>
+               <l>dentro de Constantinopla</l>
+               <l>pascándome en el parque,</l>
+
+               <pb n="2" source="Moreno_174_2.jpg" facs="fedora_ug8108163/full/full/0/default.jpg"/>
+
+               <l>vide pasar al gran Turco</l>
+               <l>acompañado de grandes,</l>
+               <l>sin hacerme acatamiento:</l>
+               <l>yo rebentando en corage,</l>
+               <l>alzé la mano, y les dí</l>
+               <l>un bofeton arrogante,</l>
+               <l>con tal aire y con tal brio,</l>
+               <l>que aunque es la distancia grande,</l>
+               <l>cien muelas y cien quijadas</l>
+               <l>fueron á parar á Flandes.</l>
+               <l>Alborótanse los moros,</l>
+               <l>y yo sacando el alfange,</l>
+               <l>corté cuatrocientas piernas,</l>
+               <l>rompí cuatro mil turbantes,</l>
+               <l>murieron cinco mil turcos,</l>
+               <l>estos solo de mirarme</l>
+               <l>el rostro airado y severo,</l>
+               <l>y nueve mil á mi alfange.</l>
+               <l>Pidió pactos el gran Turco</l>
+               <l>á fin de que me aquietase;</l>
+               <l>yo entonces les dije á todos,</l>
+               <l>que con tal que me jurasen</l>
+               <l>de comer tocino gordo,</l>
+               <l>no iria el pleito adelante.</l>
+               <l>Juraron por su Prefeta</l>
+               <l>Mahoma, que en los altares</l>
+               <l>de la gran casa de Meca</l>
+               <l>asiste alegre y triunfante,</l>
+               <l>de comer jalú cocido</l>
+               <l>con sal pimienta y vinagre,</l>
+               <l>Fuime desde allí al gian Cáiro,</l>
+               <l>donde con un arrogante</l>
+               <l>niatasiete tuve un cheque,</l>
+               <l>y en un punto, en un instante,</l>
+               <l>fué á cenar á los infiernos</l>
+               <l>y eran las tres de la tardes</l>
+               <l>pues lo cogí entre las palmas,</l>
+               <l>y apretando al miserable,</l>
+               <l>el sumo le hice que diese</l>
+               <l>por las mas menudas partes,</l>
+               <l>Acuden á darme muerte.</l>
+               <l>sus amigos, y parciales,</l>
+               <l>mas yo entre perros de falda,</l>
+               <l>sin que me altere ni espante,</l>
+               <l>un zurron lleno de orejas</l>
+               <l>saqué no mas de este lance.</l>
+               <l>Con aquestas niñerías</l>
+               <l>voló mi fama en el aire,</l>
+               <l>tanto que todos temblaban</l>
+               <l>en nombrando á Badulaque.</l>
+               <l>Dicen Virgilio y Horacio</l>
+               <l>en sus escritos notables</l>
+               <l>que mató Aquíles á Héctor,</l>
+               <l>pero mienten como infames,</l>
+               <l>que yo lo maté. Fué el caso,</l>
+               <l>que oyendo hazañas tan grandes,</l>
+               <l>enfadado de que hubiese</l>
+               <l>otro hombre que me igualase,</l>
+               <l>me partí á Frigia á buscarlo,</l>
+               <l>y en un espacioso valle</l>
+               <l>lo encontré por su desgracia</l>
+               <l>con cien hombres de su parte:</l>
+               <l>les acometí animoso,</l>
+               <l>y á los golies de mi alfange</l>
+               <l>rindieron todos sus vidas,</l>
+               <l>sin que nadie se escapase.</l>
+               <l>A Hercules y á Perseo</l>
+               <l>los maté por deleitarnie</l>
+               <l>maté á Amadis de Niquea,</l>
+               <l>y á Domisiano el gigante,</l>
+               <l>sin otros mil estafermos,</l>
+               <l>que no quiero ahora acordarme.</l>
+               <l>Un dia en una pendencia</l>
+               <l>tiré un tajo tan pujante</l>
+               <l>á un hombre, que de alto á bajo</l>
+               <l>quedó hecho dos mitades.</l>
+               <l>Biéronme ciertas noticias,</l>
+               <l>que mi amigo Chiquisuaque</l>
+               <l>en Flandes estaba preso,</l>
+               <l>y allá me partí al instante,</l>
+               <l>donde supe por estenso,</l>
+               <l>que cierta nuger, su amante,</l>
+               <l>era causa que á galeras</l>
+               <l>al dicho lo sentenciasen.</l>
+
+               <pb n="3" source="Moreno_174_3.jpg" facs="fedora_ug8110032/full/full/0/default.jpg"/>
+
+               <l>Informéme de su casa;</l>
+               <l>y un domingo por la tarde</l>
+               <l>abalancéme furioso,</l>
+               <l>á tiempo que en fiesta y baile</l>
+               <l>estaban en una sala</l>
+               <l>muchas damas y galanes:</l>
+               <l>iba á sacar el acero,</l>
+               <l>pero antes que lo sacase</l>
+               <l>se cayeron todos muertos</l>
+               <l>solo con ver mi semblante.</l>
+               <l>Salí de allí al momento,</l>
+               <l>me fuí derecho á la cárcel,</l>
+               <l>llegué allá y con desenfado</l>
+               <l>al careelero las llaves</l>
+               <l>le pedí, darlas no quiso;</l>
+               <l>conque levantando el guante,</l>
+               <l>le tiré tan fuerte golpe,</l>
+               <l>que se quedó el miscrable</l>
+               <l>aplastado contra el suelo,</l>
+               <l>hecho una torta de carne;</l>
+               <l>y de un puntapié las puertas</l>
+               <l>eché al suelo al instante,</l>
+               <l>soltando todos los presos,</l>
+               <l>y á mi ascigo Chiquisnaque.</l>
+               <l>Fuí á salir puerta afuera,</l>
+               <l>y halté atajada la calle</l>
+               <l>de ministres de justiciá</l>
+               <l>y soldados arregantes,</l>
+               <l>con dardos, con escopetas,</l>
+               <l>y otras armas desiguales.</l>
+               <l>Yo al momento echando mano</l>
+               <l>al acero relumbrante,</l>
+               <l>me planté en medio de todos,</l>
+               <l>diciendo viles, cobardes,</l>
+               <l>al valor de aqueste brazo</l>
+               <l>hoy morireis como canes;</l>
+               <l>ya corto piernas y muslos,</l>
+               <l>ya cabezas y gaznates;</l>
+               <l>que áscis heridas por golpe</l>
+               <l>me salian muy cabales.</l>
+               <l>A rebato las campanas</l>
+               <l>tocaron luego al instante:</l>
+               <l>toda la ciudad acude</l>
+               <l>á prenderme ó á matarme-</l>
+               <l>pero yo en medio de todos</l>
+               <l>me revuelvo como un padre.</l>
+               <l>Al fin me dejaron solo,</l>
+               <l>huyendo como cobardes,</l>
+               <l>porque á no huir vive Cristo,</l>
+               <l>cada uno por su parte,</l>
+               <l>la pabre ciudad quedára</l>
+               <l>como escuela de danzantes.</l>
+               <l>Salimos yo y mis presos,</l>
+               <l>que habia dentro la cárcel;</l>
+               <l>y viendo que en es te mundo</l>
+               <l>no me competia nadie,</l>
+               <l>me partí para el infierno,</l>
+               <l>que dicen hay hombres grandes.</l>
+               <l>Los demonios que supieron,</l>
+               <l>que iba yo á desafiarles,</l>
+               <l>cerraron todas las puertas,</l>
+               <l>temerosos y cobardes.</l>
+               <l>Como jugando les dí</l>
+               <l>un puntapié, y al instante</l>
+               <l>cayeron hechas pedazos,</l>
+               <l>dejando la entrada fácil.</l>
+               <l>Llegué al Leteo, que es ric</l>
+               <l>de muy copiosos raudales,</l>
+               <l>quise pasar por la bárca</l>
+               <l>y un diablo muy arrogante,</l>
+               <l>á quien llaman Aqueronte,</l>
+               <l>quiso estorvarme el pasage,</l>
+               <l>y lo eché dentro del rio,</l>
+               <l>en cuyas corrientes yace.</l>
+               <l>Pasé en fin al otro lado,</l>
+               <l>y estando de esotra parte,</l>
+               <l>salió á mí como un demonio</l>
+               <l>el cancervero espantable.</l>
+               <l>Me embistió, mas yo valiení2</l>
+               <l>lo agarré del gaznate,</l>
+               <l>y le arranqué la cabeza,</l>
+               <l>dejándolo palpitante.</l>
+               <l>Rufan, Melec y Alecto,</l>
+               <l>con sus furias infernales,</l>
+
+               <pb n="4" source="Moreno_174_4.jpg" facs="fedora_ug8109807/full/full/0/default.jpg"/>
+
+               <l>acudieron como un rayo;</l>
+               <l>mas yo encendido en corage</l>
+               <l>los así á todos tres juntos,</l>
+               <l>y fueron de la otra parte</l>
+               <l>á parar de los infiernos</l>
+               <l>ochenta leguas cabales.</l>
+               <l>Tambien maté las harpías</l>
+               <l>y vívoras arrogantes.</l>
+               <l>Llegué á córtes del infierno</l>
+               <l>y Luzbel mandó al instante,</l>
+               <l>saliesen á recibirme</l>
+               <l>con trompetas y timbales.</l>
+               <l>Entré, y el diablo cojuelo</l>
+               <l>me hizo no se que visages.</l>
+               <l>y allí de una tabanada</l>
+               <l>le deshice los quijares.</l>
+               <l>Berrugo y Nayven sus primos</l>
+               <l>se empeñaron en vengarle,</l>
+               <l>mas quedaron castigados</l>
+               <l>de aqueste brazo arrogante.</l>
+               <l>Receloso de mis hechos,</l>
+               <l>procuró Luzbel galante,</l>
+               <l>para tenerme contento</l>
+               <l>en su córte regalarme.</l>
+               <l>Me llevó á ver sus jardines,</l>
+               <l>sus retretes y sus parques,</l>
+               <l>sus edificios y torres</l>
+               <l>y sus fuertes baluartes.</l>
+               <l>Todo lo ví muy despacio,</l>
+               <l>aunque con disgusto grande,</l>
+               <l>porque hace en aquella tierra</l>
+               <l>un calor intolerable.</l>
+               <l>No quise pues parar mucho</l>
+               <l>en tierra tan detestable:</l>
+               <l>dí en breve vuelta á mi casa,</l>
+               <l>y en ella encontré á mis padres.</l>
+               <l>Alegres me recibieron,</l>
+               <l>y yo traté de aquietarme,</l>
+               <l>despues de haber echo tantos</l>
+               <l>arrestos y atrocidades</l>
+               <l>que no caben en la pluma,</l>
+               <l>y ni en la memoria caben.</l>
+               <l>Doscientas mil muertes tengo</l>
+               <l>hechas por mis crueldades:</l>
+               <l>las caras que yo he cortado</l>
+               <l>han sido diez mil cabales;</l>
+               <l>y las redomas de tinta</l>
+               <l>que he dado en diversas partes,</l>
+               <l>han sido mil y quinientas</l>
+               <l>estocadas penetrantes.</l>
+               <l>Heridas y cuchilladas</l>
+               <l>han sido dos mil millares.</l>
+               <l>Ciento y dos mil bafetadas</l>
+               <l>he dado, que el rostro en sangre</l>
+               <l>en cada una se bañaba</l>
+               <l>tan civil como arrogante.</l>
+               <l>Esta es pues la vida ilustre</l>
+               <l>del valiente Badulaque.</l>
+               <l>y si hay quien me compita,</l>
+               <l>valiente ó jaque, que hable.</l>
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. Jose M. Moreno, calle Juan de la Cabra núm. 4.
+               </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

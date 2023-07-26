@@ -1,0 +1,724 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_082">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juan de Prados o el chasco del arriero</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Juan de Prados o el chasco del arriero.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (1865): <ref target="Moreno_083.xml">Moreno_083</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1850-01-01">1850</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461187</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 93</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte, en la que se declara del modo que Juan Prados se vengò de
+                        su muger, en despique del chasco que ella le habia dado.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1, p.5)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_082_1.xml" facs="fedora_ug8110273/365,240,1320,809/100,/0/default.jpg">grabado_m_082_1</item>
+                           <item corresp="grabado_m_082_2.xml" facs="fedora_ug8108738/229,211,1391,1025/100,/0/default.jpg">grabado_m_082_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Chascos</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105476/manifest">
+      <graphic url="fedora_ug8110273/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_082_1.jpg" facs="fedora_ug8110273/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 93.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">JUAN DE PRADOS</hi>
+                  <lb/>O CHASCO DEL ARRIERO. </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l><hi rend="negrita">E</hi>n Valladolid famosa,</l>
+                  <l>tan rica de ciudadanos,</l>
+                  <l>cuanto llena de edificios</l>
+                  <l>que fueron del mundo pasmo;</l>
+                  <l>alli vivia un arriero</l>
+                  <l>que se llamaba Juan Prados,</l>
+                  <l>de estos que ganan su vida</l>
+                  <l>traginando con sus machos.</l>
+                  <l>Tenia una propiedad</l>
+                  <l>cuando subia á caballo,</l>
+                  <l>se santiguaba, diciendo;</l>
+                  <l>libreme Dios de los diablos,</l>
+                  <l>de enemigos y ladrones,</l>
+                  <l>de rodeos y peñascos,</l>
+                  <l>de traiciones y maldades,</l>
+                  <l>de cuestas y de barrancos;</l>
+                  <l>y con estas bendiciones</l>
+                  <l>caminaba confiado</l>
+                  <l>que no tendria desgracia,</l>
+                  <l>pesadumbre ni trabajo.</l>
+                  <l>La muger tuvo gran cuenta</l>
+                  <l>muchos dias escuchando,</l>
+                  <l>le dijo: marido mio</l>
+                  <l>cuando vais a santiguaros</l>
+                  <l>¿por qué no pedis á Dios</l>
+                  <l>que os defienda de las manos</l>
+                  <l>de las mugeres, que somos</l>
+                  <l>mas astutas que los diablos?</l>
+                  <l>De la cruz el diablo huye,</l>
+                  <l>el enemigo del lazo.</l>
+                  <l>de la escopeta el ladron,</l>
+                  <l>y de cuestas rodeando,</l>
+
+                  <pb n="2" source="Moreno_082_2.jpg" facs="fedora_ug8107641/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>Mas de las mugeres, cruces,</l>
+                  <l>lazos, escopetas, dardos,</l>
+                  <l>no bastan para librar</l>
+                  <l>al hombre de sus engaños.</l>
+                  <l>Juan Prados se disculpó</l>
+                  <l>diciendo: no os dé cuidado,</l>
+                  <l>Juana Gutierrez, aquesto,</l>
+                  <l>que por muchos hombres valgo;</l>
+                  <l>no me dan pena mugeres</l>
+                  <l>que bien conozco su trato;</l>
+                  <l>yo sé que no habrá ninguna</l>
+                  <l>que me toque en el zapato:</l>
+                  <l>soy zahorí con las viejas</l>
+                  <l>con las viudas lapidario,</l>
+                  <l>con las doncellas Macías,</l>
+                  <l>con las taimadas taimado;</l>
+                  <l>hago recetas á muchas</l>
+                  <l>fingiendo ser boticario;</l>
+                  <l>sin ser médico las curo</l>
+                  <l>haciendo de gracia emplastos;</l>
+                  <l>no soy de estos arrieruelos</l>
+                  <l>que llevan á real de á cuatro</l>
+                  <l>la arroba hasta Madrid,</l>
+                  <l>porque yo soy jubilado,</l>
+                  <l>y así no me acuerdo de ellas</l>
+                  <l>cuando mis jornadas hago:</l>
+                  <l>porque todas me conocen,</l>
+                  <l>y saben que soy Juan Prados,</l>
+                  <l>Ausentóse, y la muger</l>
+                  <l>dijo: por vida de entrambos</l>
+                  <l>que me la habeis de pagar</l>
+                  <l>antes que se acabe el año.</l>
+                  <l>Llamó á una parienta suya,</l>
+                  <l>y dióla cuenta del caso,</l>
+                  <l>y ambas de conformidad</l>
+                  <l>solemne burla trazaron.</l>
+                  <l>Tuvieron para la noche,</l>
+                  <l>porque volveria cansado,</l>
+                  <l>aderezada una cena</l>
+                  <l>como para un veinticuatro:</l>
+                  <l>mucho pernil de tocino,</l>
+                  <l>diferencia de adobados,</l>
+                  <l>chorizos de Estremadura,</l>
+                  <l>jamon de Rute, estremado,</l>
+                  <l>aceitunas sevillanas,</l>
+                  <l>nueces de Fuente del Arco,</l>
+                  <l>una ensalada italiana,</l>
+                  <l>salchichon napolitano,</l>
+                  <l>mil diferencias de cosas</l>
+                  <l>agenas de lo ordinario,</l>
+                  <l>todo muy apetitoso</l>
+                  <l>para brindar y echar tragos.</l>
+                  <l>Vino tinto de Zamora,</l>
+                  <l>de Alarejos vino blanco,</l>
+                  <l>haciendo mistura de ellos</l>
+                  <l>para poder derribarlo.</l>
+                  <l>Llegó la noche y con ella</l>
+                  <l>Juan Prados bien fatigado</l>
+                  <l>del camino, tan sediento</l>
+                  <l>cuanto hambriento él y sus machos;</l>
+                  <l>Juana Gutierrez salió</l>
+                  <l>echóle al cuello los brazos,</l>
+                  <l>díjole dos mil requiebros,</l>
+                  <l>dióle de cenar temprano.</l>
+                  <l>Sentóse luego á la mesa,</l>
+                  <l>que estaba puesta en el patio;</l>
+                  <l>y pidiendo de beber</l>
+                  <l>no habia descuido en darlo.</l>
+                  <l>Sentia fuerza en el vino,</l>
+                  <l>y cuando pedia aguado,</l>
+                  <l>en lugar de agua le echaban</l>
+                  <l>vino hlanco de tres años.</l>
+                  <l>Comió poderosamente,</l>
+                  <l>y obró tanto lo salado,</l>
+                  <l>que un tudesco parecia</l>
+                  <l>segun daba prisa al jarro.</l>
+                  <l>Llegó el calor á su punto,</l>
+                  <l>dióle el vino tal zarpazo</l>
+                  <l>que con los ojos alegres</l>
+                  <l>hacia tornasolados.</l>
+                  <l>Miraba al cielo y decia:</l>
+                  <l>¿no veis qué de hombres armados</l>
+                  <l>bajan? dad acá mis armas,</l>
+                  <l>Juana Gutierrez; ¿qué aguardo?</l>
+
+                  <pb n="3" source="Moreno_082_3.jpg" facs="fedora_ug8105738/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>hacia una mona alegre,</l>
+                  <l>era donaire escucharlo;</l>
+                  <l>veia de un candil diez luces,</l>
+                  <l>de una teja diez tejados.</l>
+                  <l>Levantóse de la mesa,</l>
+                  <l>tomó una vara en las manos,</l>
+                  <l>y se puso de manera</l>
+                  <l>como esgrimador taimado.</l>
+                  <l>Daba leccion á su sombra,</l>
+                  <l>diciendo: tira ese tajo,</l>
+                  <l>saca afuera el pie derecho,</l>
+                  <l>entra de revés tirando:</l>
+                  <l>estocada, uñas arriba,</l>
+                  <l>revuelve, uñas abajo</l>
+                  <l>cuchillada de mandoble,</l>
+                  <l>mete el pie izquierdo de un salto:</l>
+                  <l>entra con furia, revuelve,</l>
+                  <l>buena, dale á tu contrario;</l>
+                  <l>hiere el pecho descubierto:</l>
+                  <l>asienta, y venga ese cuarto.</l>
+                  <l>Cansado ya de esgrimir,</l>
+                  <l>dió con su cuerpo un porrazo</l>
+                  <l>y con él vido mas luces</l>
+                  <l>que el dia de todos Santos.</l>
+                  <l>Acabado de caer</l>
+                  <l>las mugeres le raparon</l>
+                  <l>las barbas y los bigotes,</l>
+                  <l>y en la cabeza un pedazo.</l>
+                  <l>Una corona le abrieron</l>
+                  <l>como fraile de San Pablo,</l>
+                  <l>y hecho tenian al punto</l>
+                  <l>de la misma Orden un hábito.</l>
+                  <l>Vistiéronlo, y parecia</l>
+                  <l>un reverendo frailazo.</l>
+                  <l>Y entre las dos le subieron</l>
+                  <l>en el uno de sus machos.</l>
+                  <l>Dieron con él estramuros,</l>
+                  <l>junto el gran Lázaro el santo,</l>
+                  <l>y dejándole sujeto</l>
+                  <l>á las escarchas del campo,</l>
+                  <l>las mugeres muy risueñas</l>
+                  <l>volvieron y se acostaron;</l>
+                  <l>y él triste, la fria noche</l>
+                  <l>la sentia tanto cuanto.</l>
+                  <l>Cerca de la madrugada,</l>
+                  <l>con el fresco demasiado,</l>
+                  <l>el vino perdió sus fuerzas,</l>
+                  <l>como son grandes contrarios.</l>
+                  <l>El buen fraile poco á poco</l>
+                  <l>las barbas se iba tentando,</l>
+                  <l>diciendo: ¡válgame Dios!</l>
+                  <l>¿qué es esto, no soy Juan Prados?</l>
+                  <l>¿cómo no tengo vigotes?</l>
+                  <l>¿quién las barbas me ha rapado?</l>
+                  <l>¿pues no soy arriero yo?</l>
+                  <l>no lo soy, pues que me hallo</l>
+                  <l>con estos hábitos puestos.</l>
+                  <l>Dios ha hecho algun milagro,</l>
+                  <l>y sin duda que me quiere</l>
+                  <l>para convertir paganos;</l>
+                  <l>pero si no sé latín,</l>
+                  <l>ni leer en los breviarios,</l>
+                  <l>¿qué tengo de convertir?</l>
+                  <l>Dios me ayudará, ¿qué aguardo?</l>
+                  <l>Levantóse muy confuso</l>
+                  <l>ya que el dia estaba claro,</l>
+                  <l>y viendo que á mucha prisa</l>
+                  <l>venia un fraile Descalzo;</l>
+                  <l>llegóse al Descalzo, y dijo.</l>
+                  <l>Deo gracias, padre; y turbado</l>
+                  <l>le preguntó que queria;</l>
+                  <l>dijo; saber dónde vamos.</l>
+                  <l>Díjole el Descalzo entonces:</l>
+                  <l>para Simancas me parto,</l>
+                  <l>á decir misa mañana</l>
+                  <l>por ser dia de San Marcos;</l>
+                  <l>y me holgaria infinito,</l>
+                  <l>si es predicador, que ambos</l>
+                  <l>hiciéramos el oficio:</l>
+                  <l>Juan Prados dijo: si, vamos.</l>
+                  <l>Fuéronse ambos á Simancas,</l>
+                  <l>y el cura regocijado,</l>
+                  <l>al nuevo predicador</l>
+                  <l>le recibe entre los brazos.</l>
+
+                  <pb n="4" source="Moreno_082_4.jpg" facs="fedora_ug8105203/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>Diéronle una libreria,</l>
+                  <l>en que estudiase algun rato:</l>
+                  <l>Juan Prados abrió los libros</l>
+                  <l>y todos los fué hojeando,</l>
+                  <l>dando al diablo las letras,</l>
+                  <l>cura, fraile y convidados,</l>
+                  <l>Cenó, y sin mirar mas libros,</l>
+                  <l>se acostó con desenfado</l>
+                  <l>en una cama curiosa,</l>
+                  <l>hecha con grande regalo.</l>
+                  <l>Durmió como un descosido,</l>
+                  <l>vestido y puestos los hábitos,</l>
+                  <l>que es ordinario en arrieros</l>
+                  <l>acostarse con zapatos.</l>
+                  <l>Despertóle la campana,</l>
+                  <l>que daba grandes golpazos,</l>
+                  <l>clamoreando el sermon;</l>
+                  <l>dijo la misa el Delcalzo</l>
+                  <l>pero tomando el arriero</l>
+                  <l>un breviario en la mano,</l>
+                  <l>dejando burlado al pueblo,</l>
+                  <l>se salió de él paso á paso.</l>
+                  <l>Acabado el Evangelio,</l>
+                  <l>la gente estaba esperando,</l>
+                  <l>y el buen padre los dejó</l>
+                  <l>sin sermon y sin breviario.</l>
+                  <l>Sintiéronlo mucho todos,</l>
+                  <l>y la burla celebraron:</l>
+                  <l>Juan Prados, siendo ya noche,</l>
+                  <l>en Valladolid se ha entrado.</l>
+                  <l>Fuese derecho á su casa,</l>
+                  <l>y poco á poco llamando,</l>
+                  <l>se asomó Juana Gutierrez,</l>
+                  <l>y dijo: ¿quién ha llamado?</l>
+                  <l>¿quién está ahí? Respondió:</l>
+                  <l>abre, muiger, que yo llamo</l>
+                  <l>¿Fraile en mi casa? Deo gracias:</l>
+                  <l>váyase el padre vigardo,</l>
+                  <l>que si llamo á mi marido</l>
+                  <l>haré le dé muchos palos.</l>
+                  <l>Muger, que Juan Prados soy,</l>
+                  <l>abridme, que Soy Juan Prados,</l>
+                  <l>Respondió Juana Gutierrez:</l>
+                  <l>mire no le tire un canto,</l>
+                  <l>que le rompa la capilla</l>
+                  <l>juntamente con los cascos.</l>
+                  <l>Dijo el marido: señora,</l>
+                  <l>juro á Dios que no os engaño;</l>
+                  <l>Juan Prados soy, y por señas</l>
+                  <l>tengo un lunar en el brazo.</l>
+                  <l>No pudo sufrir la risa,</l>
+                  <l>viendo cuento tan gallardo:</l>
+                  <l>y luego abrió la puerta,</l>
+                  <l>y entró el padre Fray Fulano.</l>
+                  <l>Todavia pensativo</l>
+                  <l>se entró, sentóse y cenaron;</l>
+                  <l>y por postre de la cena</l>
+                  <l>el suceso le contaron;</l>
+                  <l>diciéndole que mirase</l>
+                  <l>si son las mugeres diablos,</l>
+                  <l>para santiguarse de ellas</l>
+                  <l>cuando subia á caballo,</l>
+                  <l>y que huyese de sus mañas.</l>
+                  <l>que no se alabase tanto,</l>
+                  <l>que si quiere, una muger,</l>
+                  <l>hará de un diablo, cuatro.</l>
+                  <l>Santiguóse el arricro,</l>
+                  <l>quedó confuso y turbado,</l>
+                  <l>haciendo en ella mas cruces</l>
+                  <l>que hay en el Monte santo.</l>
+                  <l>Estúvose dentro de casa</l>
+                  <l>mientras las barbas brotaron,</l>
+                  <l>quince dias, en los cuales</l>
+                  <l>sucedió un cuento galano,</l>
+                  <l>que verá el lector curioso</l>
+                  <l>en otro romance raro,</l>
+                  <l>donde con ardid notable</l>
+                  <l>se satisfizo el buen Prados</l>
+                  <l>de la burla tan pesada</l>
+                  <l>que su muger le ha ordenado.</l>
+
+                  <trailer>FIN DE LA PRIMERA PARTE.</trailer>
+               </div>
+
+               <div n="2" type="parte">
+
+                  <pb n="5" source="Moreno_082_5.jpg" facs="fedora_ug8108738/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">
+                     <lb/>SEGUNDA PARTE, <lb/>en la que se declara del modo que Juan <lb/>Prados se
+                     vengò de su muger, en despique <lb/>del chasco que ella le habia dado. </head>
+
+                  <l><hi rend="negrita">P</hi>icado Juan Prados, luego,</l>
+                  <l>de aquel tan pesado chasco</l>
+                  <l>que su muger le dispuso,</l>
+                  <l>despicarse quiso honrado,</l>
+                  <l>Y fué que en San Pablo, hubo</l>
+                  <l>primero dia de mayo,</l>
+                  <l>un sermon maravilloso</l>
+                  <l>del apóstol Santiago.</l>
+                  <l>Predicóle un fraile docto</l>
+                  <l>con un desenfado estraño;</l>
+                  <l>mozo, buena voz, discreto;</l>
+                  <l>digno de ser celebrado,</l>
+                  <l>Juana Gutierrez se halló</l>
+                  <l>en la fiesta, contemplando</l>
+                  <l>la voz del predicador,</l>
+                  <l>cuyos ecos la mataron.</l>
+                  <l>Enamoróse del padre,</l>
+                  <l>vino á su casa alabando</l>
+                  <l>á su marido tal gracia,</l>
+                  <l>boca, discrecion y garbo.</l>
+                  <l>Juan Prados lo entendió luego,</l>
+                  <l>y dijo: por Dios sagrado.</l>
+                  <l>que en los cuernos de la luna</l>
+                  <l>me quieren poner, mis hados.</l>
+                  <l>Sin duda que á mi muger</l>
+                  <l>le parecen bien los hábitos:</l>
+
+                  <pb n="6" source="Moreno_082_6.jpg" facs="fedora_ug8110260/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>carnero me quiero hacer,</l>
+                  <l>mas yo seré toro brabo.</l>
+                  <l>La muger le repetia</l>
+                  <l>mil donaires, hasta tanto</l>
+                  <l>que le persuadió al marido</l>
+                  <l>traiga al padre convidado.</l>
+                  <l>Dijo Juan Prados: muger,</l>
+                  <l>yo tengo muchos cuidados,</l>
+                  <l>quédese para otro dia,</l>
+                  <l>que quiero ir mañana al campo.</l>
+                  <l>Prevenid aquesta alforja;</l>
+                  <l>ella ordenó todo el hato</l>
+                  <l>muy solícita y aprisa,</l>
+                  <l>que el amor la iba apretando.</l>
+                  <l>Salió Juan Prados de casa,</l>
+                  <l>y apartó luego al criado,</l>
+                  <l>y díjole: tú has de hacer</l>
+                  <l>un hecho como un romano.</l>
+                  <l>En Valladolid me quedo,</l>
+                  <l>y te daré diez ducados</l>
+                  <l>si me guardas el secreto</l>
+                  <l>y cumples como fiel criado.</l>
+                  <l>Tú me tienes de decir</l>
+                  <l>todos aquellos recados</l>
+                  <l>que mi muger te mandare;</l>
+                  <l>en el castillo te aguardo.</l>
+                  <l>El criado prometió</l>
+                  <l>hacerlo con gran recato:</l>
+                  <l>despidióse de él, y el mozo</l>
+                  <l>vino á casa, y en entrando</l>
+                  <l>le dijo Juana Gutierrez:</l>
+                  <l>amigo, corre volando,</l>
+                  <l>y dale aquestos pañuelos</l>
+                  <l>al predicador, Fulano:</l>
+                  <l>diráste luego en saliendo</l>
+                  <l>que yo le beso la mano,</l>
+                  <l>y que para cierto intento</l>
+                  <l>dentro de mi casa le aguardo.</l>
+                  <l>Salió el mozo con gran prisa,</l>
+                  <l>fuese derecho á su amo</l>
+                  <l>contándole de su ama</l>
+                  <l>el presente y el recado.</l>
+                  <l>Tomóle el marido y dijo:</l>
+                  <l>vuelve y dila que en el claustro</l>
+                  <l>le hallaste, y que respondió</l>
+                  <l>que estaba confuso en algo</l>
+                  <l>por no poderla servir</l>
+                  <l>como merece su trato:</l>
+                  <l>y que el prior no consiente</l>
+                  <l>que á tales horas salgamos:</l>
+                  <l>pero que mañana voy, </l>
+                  <l>aunque me siento cansado,</l>
+                  <l>pues predico en Gavaldon,</l>
+                  <l>que es junto á Lázaro el Santo,</l>
+                  <l>que lleve con que almorcemos,</l>
+                  <l>porque estaremos cansados,</l>
+                  <l>y que sea entre dos luces:</l>
+                  <l>ete, y haz como hombre honrado.</l>
+                  <l>Era el mozo socarron,</l>
+                  <l>y dando parte del caso</l>
+                  <l>á su ama, comenzó</l>
+                  <l>á prevenir el canasto.</l>
+                  <l>Mató una gorda gallina,</l>
+                  <l>hizo rellenar un ganso,</l>
+                  <l>compúsose aquella noche,</l>
+                  <l>vistióse toda de raso.</l>
+                  <l>Juan Prados se aderezó,</l>
+                  <l>pusose su hábito blanco,</l>
+                  <l>y llevóse en una manga</l>
+                  <l>un garrote de tres palmos.</l>
+                  <l>Fué el primero á la estacada,</l>
+                  <l>aguardando á su contrario,</l>
+                  <l>la cual llegó muy alegre,</l>
+                  <l>al cabo de poco rato.</l>
+                  <l>Viendo al fraile, se llegó</l>
+                  <l>haciéndole mil halagos,</l>
+                  <l>á quien el marido astuto</l>
+                  <l>recibió con muchos palos.</l>
+                  <l>Meneóla las costillas,</l>
+                  <l>diciendo, con ecos raros:</l>
+                  <l>cumplid con vuestro marido,</l>
+                  <l>no busqueis tres pies al gato,</l>
+                  <l>noramalá, para vos,</l>
+                  <l>no os den los frailes cuidados:</l>
+
+                  <pb n="7" source="Moreno_082_7.jpg" facs="fedora_ug8109083/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>otra vez no os acontezca</l>
+                  <l>sacar frailes coronados.</l>
+                  <l>No seais mala muger,</l>
+                  <l>acudir á vuestro trabajo;</l>
+                  <l>ella entendió que era el fraile,</l>
+                  <l>y estaba toda temblando.</l>
+                  <l>Molióla todos los huesos,</l>
+                  <l>porque la daba á dos manos,</l>
+                  <l>á cuyos golpes huyó</l>
+                  <l>Juana Gutierrez sin manto.</l>
+                  <l>Fuése á casa, y acostóse</l>
+                  <l>hizo llamar cirujanos,</l>
+                  <l>y á otro dia su marido</l>
+                  <l>vino muy dísimulado:</l>
+                  <l>preguntó por su muger:</l>
+                  <l>dióla á ella un sobresalto,</l>
+                  <l>y al fin el marido alegre</l>
+                  <l>la hizo curar despacio.</l>
+                  <l>Sintiéndose algo mejor</l>
+                  <l>dijo el marido: apropiado</l>
+                  <l>es, señora, aqueste tiempo,</l>
+                  <l>si á este fraile convidamos;</l>
+                  <l>mañana se ha de traer</l>
+                  <l>si os agrada. Mi Juan Prados,</l>
+                  <l>por Dios te pido no venga,</l>
+                  <l>que me moriré de espanto,</l>
+                  <l>no le traigais á mi casa,</l>
+                  <l>dejadlo, amigo, dejadlo,</l>
+                  <l>que ya me enfada su nombre,</l>
+                  <l>y me ha enfadado su trato.</l>
+                  <l>El marido porfiaba,</l>
+                  <l>y con ella pudo tanto,</l>
+                  <l>que dijo que le tragese</l>
+                  <l>con cuatrocientos mil diablos.</l>
+                  <l>Fué Juan Prados al convento,</l>
+                  <l>y al predicador llamando,</l>
+                  <l>á comer le convidó,</l>
+                  <l>y que fuese allá temprano:</l>
+                  <l>que se llevase un hisopo,</l>
+                  <l>y una reliquia de un santo;</l>
+                  <l>porque estaba endemoniada</l>
+                  <l>su muger, desde el verano,</l>
+                  <l>Pidió licencia al prior;</l>
+                  <l>diósela, tomó su encargo,</l>
+                  <l>y fuése á comer con ellos;</l>
+                  <l>y luego que hubo llegado</l>
+                  <l>se halló con la mesa puesta,</l>
+                  <l>y aderezados los platos.</l>
+                  <l>Juana Gutierrez sentada</l>
+                  <l>y sentida de los palos.</l>
+                  <l>Sentáronse por su órdn</l>
+                  <l>todos tres, y comenzaron</l>
+                  <l>á comer con regocijo,</l>
+                  <l>Juana Gutierrez temblando,</l>
+                  <l>de cuando en cuando penia</l>
+                  <l>un ceño de cinco palmos</l>
+                  <l>hácia el fraile, á quien mostraba</l>
+                  <l>una cara de ahorcado,</l>
+                  <l>tenia baja la cabeza,</l>
+                  <l>y entre sí estaba hablando,</l>
+                  <l>jurándosela con gestos,</l>
+                  <l>con ojos, dedos y manos.</l>
+                  <l>Acaso faltó en la mesa</l>
+                  <l>maliciosamente, un vaso;</l>
+                  <l>daba Juan Prados mil voces,</l>
+                  <l>no respondiendo el criado,</l>
+                  <l>colérico levantóse</l>
+                  <l>á buscarle; y entre tanto,</l>
+                  <l>Juana Gutierrez se alzó</l>
+                  <l>puestos los brazos en alto.</l>
+                  <l>Levantóse de puntillas</l>
+                  <l>hacia el triste convidado.</l>
+                  <l>diciéndole; ¿cómo, infame,</l>
+                  <l>traidor, arrogante, falso;</l>
+                  <l>de las mugeres honradas</l>
+                  <l>hacen burla los villanos!</l>
+                  <l>¿Esto mereció mi amor</l>
+                  <l>por descubrirme á un bellaco?</l>
+                  <l>vive Dios que he de molerle;</l>
+                  <l>estaba el fraile temblando,</l>
+                  <l>y la muger arrojóle</l>
+                  <l>hácia la cabeza un plato.</l>
+                  <l>El padre sacó el hisopo,</l>
+                  <l>y al demonio conjurando,</l>
+
+                  <pb n="8" source="Moreno_082_8.jpg" facs="fedora_ug8104343/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>hisopeaba á la triste,</l>
+                  <l>rezando en el breviario,</l>
+                  <l>y el Asperges repitiendo,</l>
+                  <l>decia el <hi rend="cursiva">Te Deum laudamus</hi>:</l>
+                  <l>lastimábase de verla,</l>
+                  <l>y ella arrojáballe platos:</l>
+                  <l>santiguábase mil veces,</l>
+                  <l>las letanías rezando,</l>
+                  <l>decia: Jesus, señora,</l>
+                  <l>confesad vuestros pecados.</l>
+                  <l>Y vióse tan afligido</l>
+                  <l>el fraile, de ollas y bancos,</l>
+                  <l>que bajó por la escalera</l>
+                  <l>con mayor furia que un rayo.</l>
+                  <l>Siguióle Juana Gutierrez;</l>
+                  <l>el fraile atemorizado</l>
+                  <l>se fue para su convento</l>
+                  <l>con el paso apresurado.</l>
+                  <l>Juan Prados astutamente</l>
+                  <l>lo estaba todo mirando;</l>
+                  <l>lleno de risa salió</l>
+                  <l>menudeando los pasos;</l>
+                  <l>hizo piernas en la sala,</l>
+                  <l>caló el sombrero muy bajo,</l>
+                  <l>y con una risa falsa,</l>
+                  <l>remoquetes apuntando,</l>
+                  <l>le dijo: ¿qué hay, mi señora?</l>
+                  <l>¿tan malo era el convidado?</l>
+                  <l>¿tratóla mal algun dia</l>
+                  <l>en el Espíritu Santo?</l>
+                  <l>¿dióla algunos palos? diga:</l>
+                  <l>advirte que quien dió palos</l>
+                  <l>fuí yo, no se escandalice,</l>
+                  <l>que pienso darla otros tantos:</l>
+                  <l>que muger que se enamora</l>
+                  <l>teniendo marido honrado,</l>
+                  <l>pena semejante es poca,</l>
+                  <l>y aun merece un cadalso.</l>
+                  <l>Tambien burlar al marido</l>
+                  <l>con hábito de San Pablo,</l>
+                  <l>aunque sea un pobre arriero,</l>
+                  <l>no os ha sido bien contado.</l>
+                  <l>Dióla por aquella burla</l>
+                  <l>con un rodrigon tostado,</l>
+                  <l>media docena de muertos</l>
+                  <l>que la avivaron los lados.</l>
+                  <l>La muger con la razon,</l>
+                  <l>ambas rodillas juntando</l>
+                  <l>en el suelo, le pidió</l>
+                  <l>perdon de enojos pasados,</l>
+                  <l>Jnan Prados le perdonó;</l>
+                  <l>Juana Gutierrez callando</l>
+                  <l>vivió con él muchos dias,</l>
+                  <l>y fueron buenos casados.</l>
+
+                  <trailer rend="negrita">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:1850. <lb/>Imprenta y Librería de D. J. M. Moreno, calle de las
+                  Descalzas n.1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

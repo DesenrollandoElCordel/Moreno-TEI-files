@@ -1,0 +1,438 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_119">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Colección de coplas nuevas de Fandango, Malagueñas y Rondeñas</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Coleccion de coplas nuevas de Fandango, Malagueñas y
+                     Rondeñas.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6470586</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 128</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="3">Tres grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_119_1.xml" facs="fedora_ug8108755/216,440,442,621/100,/0/default.jpg">grabado_m_119_1</item>
+                           <item corresp="grabado_m_119_2.xml" facs="fedora_ug8108755/650,402,449,627/100,/0/default.jpg">grabado_m_119_2</item>
+                           <item corresp="grabado_m_119_3.xml" facs="fedora_ug8108755/1098,360,481,674/100,/0/default.jpg">grabado_m_119_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5501105.html" type="tipo_texto">Coplas</term>
+               <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8109044/manifest">
+      <graphic url="fedora_ug8108755/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_119_1.jpg" facs="fedora_ug8108755/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 128.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">COLECCION DE COPLAS NUEVAS</hi>
+                  <lb/>DE <hi rend="cursiva"><lb/>FANDANGO, MALAGUEÑAS <lb/>Y RONDEÑAS.</hi>
+               </head>
+
+               <l rend="indent">El amor es como el niño</l>
+               <l>que se enoja y tira el pan,</l>
+               <l>y en haciéndole cariños,</l>
+               <l>calla y lo vuelve á tomar.</l>
+               <l rend="indent">Entra el amor por los ojos,</l>
+               <l>se deposita en el pecho,</l>
+               <l>le alimentan los oidos</l>
+               <l>y le matan los desprecios.</l>
+               <l rend="indent">Piensan los enamorados,</l>
+               <l>piensan, y no piensan bien,</l>
+               <l>piensan que nadie los mira</l>
+               <l>y todo el mundo los vé.</l>
+               <l rend="indent">Es amor como el pleitista,</l>
+               <l>cuando dinero no tiene,</l>
+               <l>ni el escribano le escucha,</l>
+               <l>ni el abogado le atiende.</l>
+               <l rend="indent">Cuando uno quiere á una,</l>
+               <l>y esta una no le quiere,</l>
+               <l>es lo mismo que si un calvo</l>
+               <l>se encuentra en la calle un peine.</l>
+               <l rend="indent">Un rosal cria una rosa,</l>
+               <l>una maceta un clavel,</l>
+               <l>un padre cria una hija</l>
+               <l>y no sabe para quien.</l>
+               <l rend="indent">Al que le quieren de balde</l>
+               <l>no venga pidiendo celos,</l>
+               <l>que harto favor se le hace</l>
+               <l>con quererle pelo á pelo.</l>
+
+               <pb n="2" source="Moreno_119_2.jpg" facs="fedora_ug8108750/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l rend="indent">La mujer que encuentre un hombre</l>
+               <l>fino, constante y leal,</l>
+               <l>llévelo, por cosa rara,</l>
+               <l>á la Historia Natural.</l>
+               <l rend="indent">El amor que siente el hombre</l>
+               <l>es como la leña verde,</l>
+               <l>que llena de humo la casa</l>
+               <l>y luego desaparece.</l>
+               <l rend="indent">Anoche soñé contigo</l>
+               <l>y fui muy feliz entonces;</l>
+               <l>Dios me otorgue hoy mucho sueño</l>
+               <l>para soñar lo de anoche.</l>
+               <l rend="indent">Aun conservo tu retrato,</l>
+               <l>y hasta le guardo con llave,</l>
+               <l>que él me recuerda la historia</l>
+               <l>de todas tus liviandades,</l>
+               <l rend="indent">Yo he muerto ya para tì</l>
+               <l>hace muchísimo tiempo;</l>
+               <l>cumple el refran, hija mia,</l>
+               <l>de que á rey muerto, rey puesto.</l>
+               <l rend="indent">Si es cierto que en este mundo</l>
+               <l>quien mal anda mal acaba,</l>
+               <l>tiene que ser tu castigo</l>
+               <l>tan grande como tu falta.</l>
+               <l rend="indent">Amar al prójimo ordena</l>
+               <l>de Dios el santo precepto;</l>
+               <l>tantos amas, que si mueres,</l>
+               <l>te vas derechita al cielo.</l>
+               <l rend="indent">Mucho daño me has causado</l>
+               <l>sin llegar á condolerte;</l>
+               <l>pero aquel que á hierro mata</l>
+               <l>ya sabes que á hierro muere.</l>
+               <l rend="indent">¿Es posible padre Adan</l>
+               <l>que siendo vuestra merced</l>
+               <l>el primer hombre del mundo,</l>
+               <l>le engañara una mujer?</l>
+               <l rend="indent">De una costilla de Adan</l>
+               <l>hizo Dios á la mujer,</l>
+               <l>para dejarle á los hombres</l>
+               <l>ese hueso que roer.</l>
+               <l rend="indent">Las mujeres que hay ahora</l>
+               <l>son como las cañas verdes,</l>
+               <l>por cima tienen la pompa,</l>
+               <l>por bajo los arambeles.</l>
+               <l rend="indent">Aquella mujer que quiere</l>
+               <l>mandar mas que su marido,</l>
+               <l>¡Santo Cristo del garrote,</l>
+               <l>leña del Yerbo divino!</l>
+               <l rend="indent">Tres jueves hay en el año</l>
+               <l>que relumbran como el sol:</l>
+               <l>Jueves Santo, Corpus Christi,</l>
+               <l>y el dia de la Ascension.</l>
+               <l rend="indent">En la soledad del campo</l>
+               <l>me puse á llorar mis penas,</l>
+               <l>y fué tan grande mi llanto</l>
+               <l>que florecieron las yerbas.</l>
+               <l rend="indent">En el campo una mañana</l>
+               <l>Cogí para tí una flor;</l>
+               <l>Se me perdió en el camino,</l>
+               <l>Y con ella la ilusion.</l>
+               <l rend="indent">Dices que tu amor es loco</l>
+               <l>Y yo que es loco mi amor;</l>
+               <l>Que nos encierren por locos</l>
+               <l>Pero juntos á los dos.</l>
+               <l rend="indent">Morenita y enlutada,</l>
+               <l>¡Qué bien que te sienta el luto!</l>
+               <l>Nos casaremos los dos,</l>
+               <l>y Dios perdone al difunto.</l>
+               <l rend="indent">El clavel que tù me diste</l>
+               <l>el dia de la Ascension,</l>
+               <l>no fué clavel, sino clavo</l>
+               <l>que clavo mi corazon.</l>
+               <l rend="indent">Cuando yo te ví venir,</l>
+               <l>le dije á mi corazon:</l>
+               <l>¡Qué bonita piedrecita</l>
+               <l>para dar un tropezon!</l>
+               <l rend="indent">Desde que te ví te amé,</l>
+               <l>porque amar y ver tu cielo</l>
+               <l>bien pudieron ser dos cosas,</l>
+               <l>pero ninguna primero.</l>
+               <l rend="indent">Anda diciendo tu madre</l>
+               <l>que mereces una reina;</l>
+               <l>anda, vé, y dile á tu madre</l>
+               <l>que vaya á Madrid por ella.</l>
+               <l rend="indent">Los pajarillos y yo</l>
+               <l>nos levantamos a un tiempo,</l>
+               <l>ellos á cantar el alba,</l>
+               <l>yo á cantar mi sentimiento.</l>
+               <l rend="indent">El querer que puse en tí</l>
+               <l>un cuervo se lo llevó,</l>
+               <l>y en medio de aquellos mares,</l>
+               <l>abrió el pico y lo soltó.</l>
+               <l rend="indent">Amigo Blas, he intentado</l>
+               <l>poner mi mujer en venta,</l>
+               <l>para comprar un caballo</l>
+               <l>que me sale mejor cuenta.</l>
+
+               <pb n="3" source="Moreno_119_3.jpg" facs="fedora_ug8104926/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l rend="indent">Mi marido fué á las Indias,</l>
+               <l>por acrecer su caudal;</l>
+               <l>trajo mucho que decir,</l>
+               <l>pero poco que contar.</l>
+               <l rend="indent">Yo me llamo Poca pena,</l>
+               <l>pariente de Mala gana,</l>
+               <l>y por apellido tengo,</l>
+               <l>á mi no se me dá nada.</l>
+               <l rend="indent">Cuando salgo de mi casa,</l>
+               <l>mi madre se echa á llorar;</l>
+               <l>¡qué lástima de mi niño</l>
+               <l>que me lo van á engañar!</l>
+               <l rend="indent">En la calle no sé donde,</l>
+               <l>mataron yo no sé á quien:</l>
+               <l>el vivo cayó en el suelo,</l>
+               <l>el muerto apretó á correr.</l>
+               <l rend="indent">Niña de los veinte novios,</l>
+               <l>Que con ninguno te casas.</l>
+               <l>Si te guardas para un rey</l>
+               <l>Cuatro tiene la baraja.</l>
+               <l rend="indent">Cuando paso por tu puerta</l>
+               <l>Compro pan y voy comiendo,</l>
+               <l>Porque no diga tu madre</l>
+               <l>Que del aire me mantengo.</l>
+               <l rend="indent">Eres avellana vana,</l>
+               <l>Eres almendro sin flor,</l>
+               <l>Eres rosal sin capullo,</l>
+               <l>Eres clavel sin olor.</l>
+               <l rend="indent">Niña de los veinte novios</l>
+               <l>Y conmigo veinte y uno;</l>
+               <l>Si todos son como yo</l>
+               <l>Nunca has tenido ninguno.</l>
+               <l rend="indent">En frente del sol saliente</l>
+               <l>tiene mi niña el balcón;</l>
+               <l>sale el sol, sale mi niña</l>
+               <l>salen mi niña y el sol.</l>
+               <l rend="indent">Eres hermana del sol,</l>
+               <l>prima hermana de la luna,</l>
+               <l>sobrina del alabastro,</l>
+               <l>de el alba prima segunda.</l>
+               <l rend="indent">Una estrella se ha perdido</l>
+               <l>y en el cielo no parece,</l>
+               <l>en tu cuarto se ha metido</l>
+               <l>y en tu cara resplandece.</l>
+               <l rend="indent">Para guisar esta liebre</l>
+               <l>solo me falta la sal;</l>
+               <l>ustéd que de sobra tiene</l>
+               <l>¿me la quiere usté prestar?</l>
+               <l rend="indent">Desde que V. se pasea</l>
+               <l>por las calles del lugar,</l>
+               <l>está perdida la venta</l>
+               <l>de las cañas de pescar.</l>
+               <l rend="indent">Compañerita del alma</l>
+               <l>¿por donde caminas tú?</l>
+               <l>yo camino por la arena</l>
+               <l>y tú por el cielo azul.</l>
+               <l rend="indent">Cuando me dieron la nueva</l>
+               <l>de que tú no me querias,</l>
+               <l>se me quedó el corazon...</l>
+               <l>lo mismo que le tenia.</l>
+               <l rend="indent">El amor que te tenia</l>
+               <l>lo metí en un agujero,</l>
+               <l>y como vino el verano</l>
+               <l>las chinches se lo comieron.</l>
+               <l rend="indent">Está tu imágen que admiro</l>
+               <l>tan pegada á mi deseo,</l>
+               <l>que si al espejo me miro</l>
+               <l>en ver de verme, te veo.</l>
+               <l rend="indent">Te pintaré en un cantar</l>
+               <l>la rueda de la existencia,</l>
+               <l>pecar, hacer penitencia</l>
+               <l>y luego vuelta á empezar.</l>
+               <l rend="indent">Por mucho que el tren corria</l>
+               <l>corre tanto un «yo te adoro,»</l>
+               <l>que era tuya en Valdemoro</l>
+               <l>y en Aranjuez ya eras mia.</l>
+               <l rend="indent">Ni contigo ni sin tí</l>
+               <l>hallan mis penas remedio,</l>
+               <l>contigo porque me matas</l>
+               <l>y sin tí, porque me muero.</l>
+               <l rend="indent">Nunca aunque estés quejumbrosa,</l>
+               <l>tus quejas puedo escuchar,</l>
+               <l>pues como eres tan hermosa,</l>
+               <l>no le oigo, te miro hablar.</l>
+               <l rend="indent">Dios, que nos crió á los dos,</l>
+               <l>podrá hacer que yo me muera,</l>
+               <l>pero hacer que no te quiera,</l>
+               <l>Dios podría... porque es Dios.</l>
+               <l rend="indent">Las malas son esas penas</l>
+               <l>que sin matar nos maltratan;</l>
+               <l>las que de un golpe nos matan,</l>
+               <l>esas sí que son las buenas.</l>
+               <l rend="indent">A una piedra de la calle</l>
+               <l>la contaba mi dolor,</l>
+               <l>¡mira lo que la diria</l>
+               <l>que la piedra se partió!</l>
+
+               <pb n="4" source="Moreno_119_4.jpg" facs="fedora_ug8104664/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l rend="indent">El Sol le dijo á la Luna</l>
+               <l>que se fuera á recoger,</l>
+               <l>que á deshora de la noche</l>
+               <l>no andan mujeres de bien.</l>
+               <l rend="indent">Tres fincas tengo en Madrid,</l>
+               <l>siendo un pobre militar:</l>
+               <l>la cárcel, el cementerio,</l>
+               <l>y también el hospital.</l>
+               <l rend="indent">Un ciego estaba mirando</l>
+               <l>cómo se quema una casa,</l>
+               <l>un mudo llamaba gente,</l>
+               <l>y un cojo llevaba el agua.</l>
+               <l rend="indent">Viva Cádiz porque tiene</l>
+               <l>las murallas hácia el mar,</l>
+               <l>y cañones apuntando</l>
+               <l>al Peñon de Gibraltar.</l>
+               <l rend="indent">Una mora me enamora</l>
+               <l>y no es mora de nacion;</l>
+               <l>es mora porque ella mora</l>
+               <l>dentro de mi corazon.</l>
+               <l rend="indent">Eres tú la que le quitas</l>
+               <l>todos los rayos al sol,</l>
+               <l>á la nieve la blancura</l>
+               <l>y á la manzana el color.</l>
+               <l rend="indent">Cásale y tendrás mujer,</l>
+               <l>si es bonita, que guardar,</l>
+               <l>si es fea, que aborrecer,</l>
+               <l>si es rica, que contentar,</l>
+               <l rend="indent">si es pobre, que mantener.</l>
+               <l>Salero, viva el salero,</l>
+               <l>salero, viva la sal,</l>
+               <l>que tiene V. mas salero</l>
+               <l>que el salero universal.</l>
+               <l rend="indent">El marco de tu ventana</l>
+               <l>todo está lleno de estrellas,</l>
+               <l>y así que te asomas tú,</l>
+               <l>sale el sol, y se van ellas.</l>
+               <l rend="indent">Cuando en los ojos de un hombre</l>
+               <l>sorprendas alguna lágrima,</l>
+               <l>compadece al desgraciado</l>
+               <l>sin preguntarle la causa.</l>
+               <l rend="indent">Si ves llorar á una niña</l>
+               <l>consuélala en su afliccion,</l>
+               <l>que las lágrimas que vierte</l>
+               <l>se las arranca el amor.</l>
+               <l rend="indent">Cuando las viejas sollozan</l>
+               <l>no se las debe hacer caso,</l>
+               <l>pues solo lloran las viejas</l>
+               <l>al recodar su pasado.</l>
+               <l rend="indent">Me aconsejan que te olvide;</l>
+               <l>¡mira qué barbaridad!</l>
+               <l>¡Como no saben querer,</l>
+               <l>no saben aconsejar!</l>
+               <l rend="indent">Todo el mundo en contra mia,</l>
+               <l>Serrana, porque te quiero,</l>
+               <l>todo el mundo en contra mia,</l>
+               <l>y yo contra el mundo entero.</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp y lib. de D. José M. Moreno, Madre de Dios, 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

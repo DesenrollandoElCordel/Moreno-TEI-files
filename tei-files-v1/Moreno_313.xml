@@ -1,0 +1,512 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_313">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Décimas nuevas para cantar los aficionados a la guitarra</title>
+            <respStmt>
+               <name>Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Decimas nuevas para cantar los aficionados a la
+                     guitarra.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1864-01-01">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6483486</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 339</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_313_1.xml" facs="fedora_ug8107115/435,180,467,734/100,/0/default.jpg">grabado_m_313_1</item>
+                           <item corresp="grabado_m_313_2.xml" facs="fedora_ug8107115/909,210,464,706/100,/0/default.jpg">grabado_m_313_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX546895.html" type="tipo_texto">Décimas</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-09" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8108247/manifest">
+      <graphic url="fedora_ug8107115/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_313_1.jpeg" facs="fedora_ug8107115/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 339.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">DECIMIAS NUEVAS</hi>
+                  <lb/>PARA CANTAR <lb/><hi rend="negrita">LOS AFICIONADOS A LA GUITARRA.</hi>
+               </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Desde el punto que te ví</l>
+                  <l>señora, te idolatré,</l>
+                  <l>mi atencion la puse en tí,</l>
+                  <l>y del mundo la quité.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vide en el campo una rosa</l>
+                  <l>la mas fragante y amena,</l>
+                  <l>vide la blanca azucena</l>
+                  <l>en candidez amorosa;</l>
+                  <l>vide el jazmin; flor hermosa</l>
+                  <l>matizado de carmin,</l>
+                  <l>tambien vide al alelí</l>
+                  <l>con tapices de esmeraldas,</l>
+                  <l>y volviles las espaldas</l>
+                  <l rend="cursiva">desde el punto que te ví.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vide el sol brillar profundo</l>
+                  <l>con su pabellon de estrellas,</l>
+                  <l>repartiendo mil centellas,</l>
+                  <l>que se estienden por el mundo,</l>
+                  <l>vide al fénix sin segundo</l>
+                  <l>y admirado me quedé,</l>
+                  <l>pero te aseguro, que</l>
+                  <l>nada llega é tu hermosura,</l>
+                  <l>por ser tan bella criatura,</l>
+                  <l rend="cursiva">señora, te idolatré,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vide un hermoso palacio</l>
+                  <l>de ricas telas preciosas;</l>
+                  <l>vide perlas muy hermosas,</l>
+                  <l>el jacinto y el topacio;</l>
+                  <l>vide el záfiro despacio,</l>
+                  <l>el diamante y el rubí,</l>
+                  <l>antes de verte los ví,</l>
+                  <l>pero apenas te miré,</l>
+                  <l>todo cuanto ví olvidé,</l>
+                  <l rend="cursiva">mi atencion la puse en tí.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vide una antorcha de plata,</l>
+                  <l>bello candil de diamantes,</l>
+                  <l>que con sus luces brillantes</l>
+                  <l>á todas las otras mata:</l>
+                  <l>en tí mi vida retrata,</l>
+                  <l>mi ilusion mentira fué,</l>
+                  <l>que apenas tu sol miré</l>
+                  <l>con afectos amorosos,</l>
+                  <l>en tí puse mis dos ojos</l>
+                  <l rend="cursiva">y del mundo los quité.</l>
+               </lg>
+
+               <pb n="2" source="Moreno_313_2.jpeg" facs="fedora_ug8109491/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <lg rend="cursiva">
+                  <l rend="indent">¿Quién te ha dicho mal de mi?</l>
+                  <l>¿Quién ha trocado mi suerte?</l>
+                  <l>¿Quién goza de tus fuvores?</l>
+                  <l>¿Quién es causa de mi muerte?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dime mi bien, si porfias,</l>
+                  <l>cuando en mi pecho te vistes,</l>
+                  <l>tú misma, ¿no me dijiste</l>
+                  <l>que solo á mi me querias?</l>
+                  <l>todas mis idolatrias</l>
+                  <l>¿no eran solamente en tí?</l>
+                  <l>¿qué es esto? responde, dí,</l>
+                  <l>¿cuáles son los fundamentos?</l>
+                  <l>mi bien ¿quién te anda en cuentos?</l>
+                  <l rend="cursiva">¿quién te ha dicho mal de mi?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dime, mujer, la verdad,</l>
+                  <l>¿por qué no admites mis quejas?</l>
+                  <l>¿y por qué causa me dejas</l>
+                  <l>sin tener de mí piedad?</l>
+                  <l>¿no me tienes voluntad?</l>
+                  <l>¿me aborreces para siempre?</l>
+                  <l>responde, mujer prudente,</l>
+                  <l>si tú me quieres oir,</l>
+                  <l>¿por qué no quieres decir</l>
+                  <l rend="cursiva">quién ha trocado mi suerte?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dime mujer sin desden,</l>
+                  <l>pues que te llego á mirar,</l>
+                  <l>¿fué causa dejarte amar</l>
+                  <l>á que uses tal desden?</l>
+                  <l>¿uo he sido tuyo, mi bien?</l>
+                  <l>¿no tube contigo amores?</l>
+                  <l>¿por qué tratas con rigores</l>
+                  <l>á tu amante fino y fiel?</l>
+                  <l>contéstame, dulce bien,</l>
+                  <l rend="cursiva">¿quién goza de tus favores?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Desde que los Querubines</l>
+                  <l>abren la aurora brillante,</l>
+                  <l>y los dichosos amantes</l>
+                  <l>le cantan dulces festines</l>
+                  <l>al compás de sus clarines</l>
+                  <l>y de su canto tan fuerte,</l>
+                  <l>mi triste corazon siente</l>
+                  <l>en contínuo afligimiento</l>
+                  <l>al ver lleno de contento,</l>
+                  <l rend="cursiva">¿quién es éausa de mi muerte?</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Yo soy aquel labrador</l>
+                  <l>que en tu tierra trabajé, </l>
+                  <l>cuando la semilla eché</l>
+                  <l>abierta estaba la flor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Confieso que con mi mano</l>
+                  <l>y que con alguna idea,</l>
+                  <l>labrador fui de una aldea</l>
+                  <l>que abandonó un hortelano,</l>
+                  <l>muy cuidadoso y ufano</l>
+                  <l>puse en ella mi labor,</l>
+                  <l>mas no siendo sabedor</l>
+                  <l>que era ya abierto el terreno,</l>
+                  <l>y que ha sembrado en campo ajeno,</l>
+                  <l rend="cursiva">yo soy aquel labrador.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Como pájaro astuto</l>
+                  <l>conocí luego el engaño,</l>
+                  <l>y que resultaria un daño</l>
+                  <l>si esperaba coger fruto;</l>
+                  <l>desengañado yo al punto</l>
+                  <l>el trabajo abandoné,</l>
+                  <l>y apenas me separé</l>
+                  <l>quedé lleno de contento,</l>
+                  <l>pues me entretube en el tiempo</l>
+                  <l rend="cursiva">que en tu tierra trabajé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nació el fruto muy espezo</l>
+                  <l>pero con tan mala estrella,</l>
+                  <l>que se perdió hasta la tierra</l>
+                  <l>del castigo tan inmenso:</l>
+                  <l>por eso, ingrata, por eso,</l>
+                  <l>el fruto se echó á perder,</l>
+                  <l>porque apenas lo regué</l>
+                  <l>no quiso salir el sol,</l>
+                  <l>esa fué tu desazon</l>
+                  <l rend="cursiva">cuando la semilla eché.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ciego llegué á trabajar</l>
+                  <l>sin saber lo que me hacia,</l>
+                  <l>porque yo no conocia</l>
+                  <l>cuala fué su calidad:</l>
+                  <l>puedo decir la verdad</l>
+                  <l>que metido en la labor,</l>
+                  <l>bien el arado hinqué yo,</l>
+                  <l>en la tierra con afan,</l>
+                  <l>y allí me vine á encontrar</l>
+                  <l rend="cursiva">que estaba abierta la flor.</l>
+               </lg>
+
+               <pb n="3" source="Moreno_313_3.jpeg" facs="fedora_ug8105174/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Mi ser en un punto empieza</l>
+                  <l>y en un punto ha de acabar,</l>
+                  <l>el que mi nombre acertáre,</l>
+                  <l>solo dirá la mitad.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El hombre de mas talento</l>
+                  <l>en mí le vino á perder,</l>
+                  <l>y luego se vino á ver</l>
+                  <l>falto de conocimiento;</l>
+                  <l>se pierde su entendimiento,</l>
+                  <l>se arrebata su agudeza,</l>
+                  <l>se calienta la cabeza,</l>
+                  <l>y allí tiene que dejarme,</l>
+                  <l>porque si quiere acertarme,</l>
+                  <l rend="cursiva">mi ser en un punto empieza.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El hombre pierde la ciencia,</l>
+                  <l>pero no adelanta nada,</l>
+                  <l>yo estoy hecho á puñaladas,</l>
+                  <l>aunque con mucha paciencia,</l>
+                  <l>y tengo tanta decencia,</l>
+                  <l>que acompaño á un general,</l>
+                  <l>á un conde, á un mariscal,</l>
+                  <l>me junto con la grandeza,</l>
+                  <l>en fin, mi naturaleza</l>
+                  <l rend="cursiva">en un punto ha de acabar.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo soy tan menesterosa,</l>
+                  <l>que todo el mundo me quiere,</l>
+                  <l>hombres, niños y mujeres;</l>
+                  <l>soy de hechure trabajosa,</l>
+                  <l>y aunque soy dificultosa,</l>
+                  <l>encargo al que me lleváre,</l>
+                  <l>que me ha de llevar á pares</l>
+                  <l>usando de bizarría,</l>
+                  <l>y tendrá sabiduria</l>
+                  <l rend="cursiva">el que mi nombre acertáre.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mira si tengo fortuna</l>
+                  <l>y soy de dicha feliz,</l>
+                  <l>cuando yo para salir</l>
+                  <l>aderezo dos columnas;</l>
+                  <l>pero no habrá criatura</l>
+                  <l>que ponga dificultad,</l>
+                  <l>aunque me llegue á encontrar</l>
+                  <l>con tu mujer, no te asombre,</l>
+                  <l>que si has de decir mi nombre,</l>
+                  <l rend="cursiva">solo dirás la mitad.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Por un tropezon que dí</l>
+                  <l>todo el mundo murmuró,</l>
+                  <l>otros tropiezan y caen</l>
+                  <l>y no los murmuro yo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Quisiera saber quién son</l>
+                  <l>los pícaros bribonazos</l>
+                  <l>que van siguiendo mis pasos</l>
+                  <l>para tal murmuracion;</l>
+                  <l>siempre será algun soplon</l>
+                  <l>que hablando contra mí,</l>
+                  <l>conozco que es hombre vil,</l>
+                  <l>porque si fuera formal</l>
+                  <l>no hablaría tan mal</l>
+                  <l rend="cursiva">por un tropezon que dí.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">¿Serán algunos amigos</l>
+                  <l>de aquellos mas allegados</l>
+                  <l>los que habrán murmurado</l>
+                  <l>en algun puesto de vino?</l>
+                  <l>debe de ser enemigo</l>
+                  <l>ese que contra mí habló,</l>
+                  <l>siempre será un borrachon</l>
+                  <l>quien me vido tropezar,</l>
+                  <l>y por esto nada mas</l>
+                  <l rend="cursiva">todo el mundo murmuró.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Soy amigo verdadero,</l>
+                  <l>me gusta la diversion,.</l>
+                  <l>y en cualesquiera funcion</l>
+                  <l>sacrifico mi dinero;</l>
+                  <l>jamás he sido grosero,</l>
+                  <l>y conmigo se distraen,</l>
+                  <l>de la calle no me traen</l>
+                  <l>á mi casa descompuesto,</l>
+                  <l>y si alguna vez tropiezo,</l>
+                  <l rend="cursiva">otros tropiezan y caen.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, como no soy ciego,</l>
+                  <l>voy mirando lo que pasa, </l>
+                  <l>que no hay taberna ni casa</l>
+                  <l>sin que mantenga su juego,</l>
+                  <l>de allí sale desde luego</l>
+                  <l>el que ganó, el que perdió, </l>
+                  <l>sale el que se emborrachó</l>
+                  <l>blasfemando y dando vales,</l>
+                  <l>cayéndose por las calles</l>
+                  <l rend="cursiva">y no los murmuro yo.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_313_4.jpeg" facs="fedora_ug8108710/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Yo me vi muerto y tendido</l>
+                  <l>sin saber quién me mató, </l>
+                  <l>mas vide quien se dolió</l>
+                  <l>de mí muerte estando vivo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Oí los fuertes rumores,</l>
+                  <l>vide la funesta tumba,</l>
+                  <l>oigo una voz que retumba,</l>
+                  <l>al eco de los clamores,</l>
+                  <l>ya cesaron mis amores</l>
+                  <l>de la que tanto he querido,</l>
+                  <l>ya doblan enternecidos</l>
+                  <l>todos los templos por mí,</l>
+                  <l>y haz cuenta que para tí</l>
+                  <l rend="cursiva">yo me vi muerto y tendido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Oye como están doblando,</l>
+                  <l>mira mi cuerpo enlutado,</l>
+                  <l>contémplame amortajado</l>
+                  <l>y que por mí estás llorando,</l>
+                  <l>mira ya el pésame dando</l>
+                  <l>de tu amante, pues murió,</l>
+                  <l>mira como feneció</l>
+                  <l>vuestro amante y vuestro afecto,</l>
+                  <l>considérame ya muerto</l>
+                  <l rend="cursiva">sin saber quien me mató.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ya no existo en este mundo,</l>
+                  <l>todo acabó para mí,</l>
+                  <l>mis alientos dieron fin</l>
+                  <l>en un sepulcro profundo;</l>
+                  <l>fuí colocado en un tumbo</l>
+                  <l>de negro su pabellon;</l>
+                  <l>todo esto lo observó</l>
+                  <l>mi discurso y mi sentido,</l>
+                  <l>y en tristes sombras metido</l>
+                  <l rend="cursiva">observé quien se dolió.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, conozco en mi cuerpo</l>
+                  <l>que difunto yo no estoy, </l>
+                  <l>persona viviente soy</l>
+                  <l>en este mismo momento,</l>
+                  <l>mas yo sosiego no encuentro</l>
+                  <l>en este valle afligido,</l>
+                  <l>advierte lo que te digo,</l>
+                  <l>si fueras fiel y constante,</l>
+                  <l>no debias alegrarte</l>
+                  <l rend="cursiva">de mi muerte estando vivo.</l>
+               </lg>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>Carmona:=1864. <lb/>Imprenta de D. José M. Moreno, calle Madre de Dios,
+                  número 1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

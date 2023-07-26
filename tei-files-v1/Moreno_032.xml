@@ -1,0 +1,430 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_032">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Romance nuevo. El hallazgo del cadáver</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Romance nuevo. El hallazgo del cadaver</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6447997</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_032_1.xml" facs="fedora_ug8109843/148,174,1360,1090/100,/0/default.jpg">grabado_m_032_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-08" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-12-21" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103137/manifest">
+      <graphic url="fedora_ug8109843/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_032_1.jpg" facs="fedora_ug8109843/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 36.</fw>
+
+               <head type="primer_titulo">
+                  <lb/>ROMANCE NUEVO. <lb/>EL HALLAZGO DEL CADAVER. </head>
+
+               <l rend="indent">No muy léjos de vitoria,</l>
+               <l>en la gran Peña Cerrada.</l>
+               <l>se halla una cueva, que un tiempo</l>
+               <l>fué asilo de gentes malas.</l>
+               <l rend="indent">Unos hombres cierto dia</l>
+               <l>por aquel sitio pasaban, </l>
+               <l>y por huir de la lluvia</l>
+               <l>en aquella cueva entraban.</l>
+               <l rend="indent">Y allí hallaron con asombro</l>
+               <l>una calavera humana, </l>
+               <l>y un papel que esto decia</l>
+               <l>sin faltar una palabra.</l>
+               <l rend="indent">Yo soy Serafina Alcázar,</l>
+               <l>que he sido de estas montañas</l>
+               <l>el asombro y el terror,</l>
+               <l>y la que hice muertes tantas.</l>
+               <l rend="indent">Cuando mi cuerpo se encuentre,</l>
+               <l>mi conciencia aquí me manda</l>
+               <l>que se halla escrita mi vida,</l>
+               <l>porque no se ignore nada.</l>
+               <l rend="indent">Hija fuí de padres ricos,</l>
+               <l>entre regalos criada,</l>
+               <l>y hasta que veinte años tuve</l>
+               <l>viví como Dios nos manda.</l>
+               <l rend="indent">Puse amor constante y fino</l>
+               <l>á don Pedro de la Sauca,</l>
+               <l>jóven de prendas muy nobles</l>
+               <l>si bien de fortuna escasa.</l>
+               <l rend="indent">Pero mi padre y mis tios</l>
+               <l>me tenian empeñada</l>
+
+               <pb n="2" source="Moreno_032_2.jpg" facs="fedora_ug8110227/full/full/0/default.jpg"/>
+
+               <l>con don Luis de Vendaval,</l>
+               <l>rico y de noble prosapia.</l>
+               <l rend="indent">A mis llantos y gemidos</l>
+               <l>sordos mis padres estaban, </l>
+               <l>y mi boda á toda prisa</l>
+               <l>con don Luis la preparaban.</l>
+               <l rend="indent">Yo que con ódio mayor </l>
+               <l>cada dia le miraba. </l>
+               <l>viendo ya que sin remedio</l>
+               <l>se queria mi desgracia.</l>
+               <l rend="indent">Con don Pedro huí una noche, </l>
+               <l>noche cruel! noche infausta. </l>
+               <l>pues fué mi amante en ella</l>
+               <l>muerto á doce puñaladas. </l>
+               <l rend="indent">Una banda de asesinos</l>
+               <l>que aquel pais infestaba</l>
+               <l>al encuentro nos salió,</l>
+               <l>al robo determinada.</l>
+               <l rend="indent">Viéndome jóven y hermosa, </l>
+               <l>horror el decirlo causa:</l>
+               <l>diez eran los foragidos,</l>
+               <l>yo sola y desalentada.</l>
+               <l rend="indent">Ponga un velo á la vergüenza</l>
+               <l>y sabed que la mañana </l>
+               <l>en una cama me hallé,</l>
+               <l>de esos mónstruos rodeada. </l>
+               <l rend="indent">Entre llantos y gemidos</l>
+               <l>les pregunté dónde estaba; </l>
+               <l>dijeron que en una cueva, </l>
+               <l>que seria mi morada.</l>
+               <l rend="indent">Pero que no me afligiera,</l>
+               <l>que aunque viviera encerrada.</l>
+               <l>si á su gusto les servia</l>
+               <l>no me faltaria nada. </l>
+               <l rend="indent">Hiciéronme entrar entonces</l>
+               <l>á unas grandiosas estancias </l>
+               <l>que la gran cueva tenia</l>
+               <l>guarnecidas y alhajadas.</l>
+               <l rend="indent">De los robos que hecho habian </l>
+               <l>allí el depósito estaba,</l>
+               <l>con provisiones de boca,</l>
+               <l>y vinos de especies varias.</l>
+               <l rend="indent">Despues que todo esto ví</l>
+               <l>á otro cuartel me llevaban. </l>
+               <l>que era el último de todos</l>
+               <l>los que en la cueva se hallaban.</l>
+               <l rend="indent">Allí habia... Vírgen pura...</l>
+               <l>se me anuda la garganta </l>
+               <l>al recordar el horror</l>
+               <l>de que se cubrió mi alma.</l>
+               <l rend="indent">Allí habia calaveras,</l>
+               <l>huesos de persona humana, </l>
+               <l>cadáveres sin cabeza,</l>
+               <l>y mujeres degolladas.</l>
+               <l rend="indent">Niños sin brazos ni piernas,</l>
+               <l>y entre aquel horror estaba </l>
+               <l>una mujer que tenian</l>
+               <l>con fuerte argolla amarrada,</l>
+               <l rend="indent">A poca distancia de ella</l>
+               <l>un hombre robusto estaba,</l>
+               <l>tambien atado á una argolla</l>
+               <l>y á una cadena pesada.</l>
+               <l rend="indent">Dijo un ladron, aquí están</l>
+               <l>porque la intencion malvada</l>
+               <l>tuvieron de huir un dia,</l>
+               <l>pero bien caro lo pagan.</l>
+               <l rend="indent">Mientras esto me decian,</l>
+               <l>otro ladron se llegaba,</l>
+               <l>y les dijo, ánimo, amigos,</l>
+               <l>que un gran botin nos aguarda. </l>
+               <l rend="indent">A dos leguas de este bosque</l>
+               <l>pasarán esta mañana</l>
+               <l>unos arrieros muy ricos</l>
+               <l>que vienen desde Vizcaya. </l>
+               <l rend="indent">Salgamos al punto todos,</l>
+               <l>quede de guardia Simancas, </l>
+               <l>y volveremos sin duda</l>
+               <l>con lo mejor de sus cargas. </l>
+               <l rend="indent">No bien acabó de hablar,</l>
+               <l>cuando toda la canalla</l>
+               <l>se fué con él presurosa; </l>
+               <l>dejándome á mi encerrada. </l>
+               <l rend="indent">Era mi tristeza mucha.</l>
+               <l>y viéndome tan postrada, </l>
+               <l>dijo Simancas : mujer,</l>
+               <l>si quieres, pronto estás salva.</l>
+               <l rend="indent">Los dos que presos están</l>
+               <l>conmigo de acuerdo andan</l>
+               <l>para huir de aquesta cueva</l>
+               <l>robando á la otra canalla. </l>
+
+               <pb n="3" source="Moreno_032_3.jpg" facs="fedora_ug8109117/full/full/0/default.jpg"/>
+
+               <l rend="indent">Tres hay tambien de los otros</l>
+               <l>que hacen parte en la maraña, </l>
+               <l>y tan solo una ocasion</l>
+               <l>para hacerlo se esperaba. </l>
+               <l rend="indent">Si consientes en ser mia</l>
+               <l>y seguirme donde vaya, </l>
+               <l>saldremos con los tesoros </l>
+               <l>que en esta cueva se hallan.</l>
+               <l rend="indent">En esto corrió á soltar</l>
+               <l>la mujer y al camarada, </l>
+               <l>quienes viéndose ya libres</l>
+               <l>de contento se abrazaban.</l>
+               <l rend="indent">Por salir de aquel lugar</l>
+               <l>donde me hallaba encerrada,</l>
+               <l>de Simancas juré ser</l>
+               <l>y seguirle donde vaya. </l>
+               <l rend="indent">En esto con unos hierros</l>
+               <l>que por allí se encontraban, </l>
+               <l>aunque era fuerte la puerta, </l>
+               <l>conseguimos arrancarla.</l>
+               <l rend="indent">Al instante de la cueva </l>
+               <l>sacamos muchas alhajas, </l>
+               <l>y cargamos cuatro machos</l>
+               <l>que aun en la cuadra quedaban.</l>
+               <l rend="indent">Bien provistos y animosos</l>
+               <l>salimos á la campaña; </l>
+               <l>cuando otros tres compañeros</l>
+               <l>á la cueva regresaban.</l>
+               <l rend="indent">Eran de Simanca amigos, </l>
+               <l>y como de acuerdo andaban, </l>
+               <l>se escaparon de los otros</l>
+               <l>y á los nuestros se juntaban.</l>
+               <l rend="indent">Siete eran nuestra cuadrilla, </l>
+               <l>provistos de todas armas, </l>
+               <l>inco hombres y dos mujeres,</l>
+               <l>y yo ya desesperada.</l>
+               <l rend="indent">Dejamos la cueva abierta</l>
+               <l>y marchábamos con pausa; </l>
+               <l>pero dimos con los otros</l>
+               <l>á una media legua escasa.</l>
+               <l rend="indent">Acometiéronnos ellos</l>
+               <l>llenos de furiosa rabia; </l>
+               <l>mas no acertaron un tiro, </l>
+               <l>y los nuestros no se erraban. </l>
+               <l rend="indent">De cinco que allí venian, </l>
+               <l>á la primera descarga</l>
+               <l>cuatro cayeron heridos;</l>
+               <l>el quinto se nos juntaba.</l>
+               <l rend="indent">Mas viendo que era el que hizo</l>
+               <l>en mí la primera infamia,</l>
+               <l>apenas le tuve cerca, </l>
+               <l>el pecho le abrí á estocadas, </l>
+               <l rend="indent">«Pagal, le dije , traidor, </l>
+               <l>paga tu accion temeraria,</l>
+               <l>pues estoy por tí sin honra,</l>
+               <l>la vida á mi furia acaba.»</l>
+               <l rend="indent">Corrimos á los heridos, </l>
+               <l>y con mano sanguinaria </l>
+               <l>les cortamos las cabezas</l>
+               <l>y les tomamos las cargas.</l>
+               <l rend="indent">Huímos á toda prisa,</l>
+               <l>que iba entrando la mañana, </l>
+               <l>y á pocos dias de andar</l>
+               <l>nos hallamos en Vizcaya. </l>
+               <l rend="indent">Dos años viví con ellos</l>
+               <l>feroz y desenfrenada,</l>
+               <l>y me cubrí de delitos,</l>
+               <l>que horror el contarlos causa. </l>
+               <l rend="indent">Qué infamias no cometimos !</l>
+               <l>qué maldades, qué desgracias !</l>
+               <l>mas vidas quité yo sola </l>
+               <l>que todos los de mi banda.</l>
+               <l rend="indent">Y como ya con nosotros</l>
+               <l>otros y otros se juntaban,</l>
+               <l>al que no me obedecia</l>
+               <l>le daba muerte inhumana. </l>
+               <l rend="indent">Aunque siempre la conciencia</l>
+               <l>me roía las entrañas, </l>
+               <l>por la muerte de don Pedro</l>
+               <l>estaba desesperada.</l>
+               <l rend="indent">Y la infame compañía</l>
+               <l>de aquellos con quien andaba</l>
+               <l>de un delito á otro delito</l>
+               <l>con su ejemplo me incitaba.</l>
+               <l rend="indent">A mi padre aborrecia, </l>
+               <l>á mi madre detestaba, </l>
+               <l>y beber su sangre odiosa</l>
+               <l>pretendia con gran ánsia.</l>
+               <l rend="indent">Tan horrenda fué mi suerte.</l>
+               <l>que estando en una montaña</l>
+
+               <pb n="4" source="Moreno_032_4.jpg" facs="fedora_ug8110293/full/full/0/default.jpg"/>
+
+               <l>detuvimos unos coches </l>
+               <l>que á Madrid se encaminaban.</l>
+               <l rend="indent">Iban mis padres en ellos,</l>
+               <l>y al verles, desatinada, </l>
+               <l>al padre maté de un tiro,</l>
+               <l>y á mi madre á puñaladas.</l>
+               <l rend="indent">De la sangre que vertia</l>
+               <l>iba yo á beber airada, </l>
+               <l>cuando espiando la triste,</l>
+               <l>conocióme y me miraba.</l>
+               <l rend="indent">Hija infelice, me dijo,</l>
+               <l>tú con nuestra vida acabas; </l>
+               <l>mas yo rogaré por tí</l>
+               <l>y el cielo oirá mis plegarias.</l>
+               <l rend="indent">Grandes tus crímenes son, </l>
+               <l>y al cielo piden venganza:</l>
+               <l>pero Dios es compasivo, </l>
+               <l>y así mira por tu alma.</l>
+               <l rend="indent">Al decir esto espiró: </l>
+               <l>y como si sus palabras </l>
+               <l>fuesen una voz del cielo</l>
+               <l>me dejaron asombrada.</l>
+               <l rend="indent">Horror me daba yo misma,</l>
+               <l>y ni un punto descansaba </l>
+               <l>meditando en mis delitos</l>
+               <l>y en mi suerte desastrada.</l>
+               <l rend="indent">En la noche de aquel dia,</l>
+               <l>llorando desconsolada, </l>
+               <l>sin que pudiese dormir</l>
+               <l>casi me desesperaba, </l>
+               <l rend="indent">Cuando me pareció ver</l>
+               <l>á mi misma madre amada, </l>
+               <l>diciéndome: penitencia,</l>
+               <l>que Jesucristo te llama.</l>
+               <l rend="indent">En aquel instante mismo, </l>
+               <l>como si fuese inspirada,</l>
+               <l>en secreto me escapé</l>
+               <l>de aquella gente malvada.</l>
+               <l rend="indent">Y como cerca de allí</l>
+               <l>un monasterio se halla, </l>
+               <l>me presenté á la priora, </l>
+               <l>llorando desatinada.</l>
+               <l rend="indent">Contéla mi horrenda vida,</l>
+               <l>mis crimenes y desgracias </l>
+               <l>y un asilo la pedia</l>
+               <l>donde viviese ignorada.</l>
+               <l rend="indent">Túvome allí algunos meses,</l>
+               <l>donde con lágrimas tantas</l>
+               <l>mis pecados confesé, </l>
+               <l>que Dios sosegó mi alma.</l>
+               <l rend="indent">Pedí al padre confesor</l>
+               <l>poder vivir solitaria,</l>
+               <l>y me señaló esta cueva,</l>
+               <l>en donde estoy retirada.</l>
+               <l rend="indent">Aquí en lágrimas contínuas </l>
+               <l>pido al Cielo con confianza</l>
+               <l>que mis delitos perdone</l>
+               <l>con su sangre soberana.</l>
+               <l rend="indent">Que yo resignada á todo</l>
+               <l>le pido con vivas ánsias</l>
+               <l>que haga sufrir á mi cuerpo</l>
+               <l>con tal que se salve mi alma.</l>
+               <l rend="indent">Ojalá que con mi historia </l>
+               <l>escarmienten las muchachas,</l>
+               <l>y vean á qué se esponen</l>
+               <l>las que abandonan sus casas</l>
+               <l rend="indent">Y así roguemos á Dios</l>
+               <l>y á su Madre Soberana</l>
+               <l>que nos dé á todos un dia</l>
+               <l>del paraíso la entrada.</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. y lib. de D. José M. Moreno, Madre de Dios, n. 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

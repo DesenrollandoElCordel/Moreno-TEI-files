@@ -1,0 +1,699 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_310">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Toma de Sevilla por el santo rey Don Fernando</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Toma de Sevilla por el santo rey Don
+                     Fernando</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1860-01-01">1860</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6483455</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 334</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte.</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Toma de Sevilla. Segunda parte.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1, p.5)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_310_1.xml" facs="fedora_ug8109317/385,334,990,696/100,/0/default.jpg">grabado_m_310_1</item>
+                           <item corresp="grabado_m_310_2.xml" facs="fedora_ug8106564/441,126,1035,1355/100,/0/default.jpg">grabado_m_310_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Relaciones</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106159/manifest">
+      <graphic url="fedora_ug8109317/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_310_1.jpeg" facs="fedora_ug8109317/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Número 334.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">TOMA DE SEVILLA,</hi>
+                  <lb/><hi rend="cursiva">por el Santo Rey</hi>
+                  <lb/><hi rend="negrita">DON FERNANDO.</hi>
+               </head>
+
+               <div n="1" type="parte">
+                  <head type="titulo_parte">PRIMERA PARTE.</head>
+
+                  <l rend="indent">Dios te salve Virgen Santa,</l>
+                  <l>de misericordia llena</l>
+                  <l>Virgen Santa de los Reyes,</l>
+                  <l>que los afligidos ruegan,</l>
+                  <l>para que mis rudos labios</l>
+                  <l>digan de aquesta manera.</l>
+                  <l>Cuando España fué de Moros,</l>
+                  <l>que lo causó la torpeza</l>
+                  <l>del tragico Rey Rodrigo,</l>
+                  <l>prendado de la belleza</l>
+                  <l>de la infelice Florinda,</l>
+                  <l>cuya hermosura le lleva</l>
+                  <l>tan arrastrado que fué</l>
+                  <l>causa para que le diera</l>
+                  <l>ella al Conde don Julian</l>
+                  <l>su Padre, que de su afrenta</l>
+                  <l>estaba ignorante el como</l>
+                  <l>tal desgracia sucediera,</l>
+                  <l>el cual ardiendo en enojo,</l>
+                  <l>procura con saña fiera</l>
+                  <l>vengarse del Rey Rodrigo:</l>
+                  <l>por conseguir su empresa,</l>
+                  <l>viendose con fuerzas pocas,</l>
+                  <l>se valió de agenas fuerzas,</l>
+
+                  <pb n="2" source="Moreno_310_2.jpeg" facs="fedora_ug8104118/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">2</fw>
+
+                  <l>dando entrada al agareno</l>
+                  <l>por Tarifa, que eran tierras</l>
+                  <l>de don Julian poseidas,</l>
+                  <l>como que era Señor de ellas.</l>
+                  <l>Entraron en fin los Moros</l>
+                  <l>con tal vigor, y tal fuerza,</l>
+                  <l>que en menos de siete meses</l>
+                  <l>la desgracia que lo ordena,</l>
+                  <l>ó Dios que lo permitió</l>
+                  <l>por nuestras culpas perversas,</l>
+                  <l>con su prospera fortuna,</l>
+                  <l>para nosotros adversa,</l>
+                  <l>se apoderaron de toda</l>
+                  <l>España, puesta en tristeza,</l>
+                  <l>llorando su esclavitud</l>
+                  <l>de las naciones la Reina,</l>
+                  <l>motivando estas desgracias</l>
+                  <l>solo una vil apariencia.</l>
+                  <l>Seiscientos años vivieron</l>
+                  <l>los Genizaros en ella,</l>
+                  <l>viviendo á su libertad,</l>
+                  <l>no juzgando de que hubiera</l>
+                  <l>valor que los conquistase</l>
+                  <l>segun tomaron las fuerzas.</l>
+                  <l>Nació en este tiempo al mundo</l>
+                  <l>por divina providencia</l>
+                  <l>el tercero Rey Fernando,</l>
+                  <l>que á los Moros puso rienda.</l>
+                  <l>Y despues, de haber ganado</l>
+                  <l>Ciudades, Villas y Aldeas,</l>
+                  <l>á vista de las murallas</l>
+                  <l>de Sevilla armó sus tiendas</l>
+                  <l>de campaña, y escuadrones,</l>
+                  <l>que toda la coge, y cerca.</l>
+                  <l>Y estando el Rey soñoliento</l>
+                  <l>dentro de su misma tienda</l>
+                  <l>se le apareció la Virgen</l>
+                  <l>que al dormido Rey despierta,</l>
+                  <l>diciendole: Rey Fernando,</l>
+                  <l>la victoria tienes cierta,</l>
+                  <l>y el dia de San Clemente</l>
+                  <l>realzarás tus Vanderas</l>
+                  <l>y entrarás dentro en Sevilla,</l>
+                  <l>que tienes hecha la senda.</l>
+                  <l>Dios y yo somos contigo:</l>
+                  <l>y porque mas bien lo creas,</l>
+                  <l>en los felices sucesos,</l>
+                  <l>tendrás clara la esperiencia.</l>
+                  <l>Despertó el dormido Rey</l>
+                  <l>postró la rodilla en tierra,</l>
+                  <l>y dice: Virgen Sagrada,</l>
+                  <l>Madre que nos alimentas,</l>
+                  <l>si Dios y vos sois conmigo,</l>
+                  <l>cómo es posible que pierda</l>
+                  <l>el ganar esta Ciudad</l>
+                  <l>que mi corazon desea?</l>
+                  <l>Llamó el Rey á Garciperez</l>
+                  <l>de Vargas, y á la presencia</l>
+                  <l>del Rey vino prontamente</l>
+                  <l>y de esta suerte se espresa;</l>
+                  <l>Poderosísimo Rey, </l>
+                  <l>vuestra Magestad escelsa</l>
+                  <l>lo que me querrá mandar</l>
+                  <l>es, que luego se acometa</l>
+                  <l>á la Ciudad por asalto,</l>
+                  <l>y es muy dificil la empresa,</l>
+                  <l>porque el enemigo tiene</l>
+                  <l>mucha gente en la trinchera.</l>
+                  <l>Entonces respondió el Rey, </l>
+                  <l>y dijo de esta manera:</l>
+                  <l>Buen Garciperez de Vargas, </l>
+                  <l>todavia se me acuerda</l>
+                  <l>de vuestros leales servicios,</l>
+                  <l>de vuestra Casa y nobleza,</l>
+                  <l>que habeis sido buen Soldado</l>
+                  <l>en los lances de la guerra.</l>
+                  <l>Convieneme amigo mio,</l>
+                  <l>que realceis las Vanderas,</l>
+                  <l>y formeis los escuadrones</l>
+                  <l>todos á punto de guerra.</l>
+                  <l>para darles el Santiago,</l>
+                  <l>todo soldado esté alerta</l>
+                  <l>formando los batallones</l>
+                  <l>por toda la Macarena,</l>
+                  <l>que yo por la Puerta Real</l>
+                  <l>juntaré todas mis fuerzas.</l>
+                  <l>Mandó el Rey tocar al arma,</l>
+                  <l>tomando toda la senda</l>
+
+                  <pb n="3" source="Moreno_310_3.jpeg" facs="fedora_ug8103169/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <l>por las orillas del Rio</l>
+                  <l>á los Humeros; se acerca</l>
+                  <l>á la Puerta Real en donde</l>
+                  <l>á sus Soldados esfuerza</l>
+                  <l>con tal valor y eficasia,</l>
+                  <l>que cada uno se esmera</l>
+                  <l>en resistir el rechazo</l>
+                  <l>que hacian de las almenas,</l>
+                  <l>de las torres y murallas</l>
+                  <l>con las flechas Agarenas.</l>
+                  <l>Con este fuerte rechazo</l>
+                  <l>casi entibiaron sus fuerzas</l>
+                  <l>los Soldados de la Fé,</l>
+                  <l>y aunque al Santo Rey le cercan</l>
+                  <l>algunas angustias, nunca</l>
+                  <l>sin esperanzas se queda,</l>
+                  <l>fiado, y muy confiado</l>
+                  <l>en la Celestial promesa</l>
+                  <l>de la Soberana Virgen</l>
+                  <l>Maria Señora nuestra.</l>
+                  <l>Ayudó á esta confianza</l>
+                  <l>ver el socorro que le entra</l>
+                  <l>tan milagroso, que trajo</l>
+                  <l>don Juan Pelayo Correa,</l>
+                  <l>el cual con su gente hizo</l>
+                  <l>tan terrible resistencia</l>
+                  <l>á los Moros de Triana,</l>
+                  <l>que eran los que por su cuenta</l>
+                  <l>mantenia en su Castillo.</l>
+                  <l>Estos daban gran molestia</l>
+                  <l>al ejército del Santo,</l>
+                  <l>pues tenian descubiertas</l>
+                  <l>sus personas, pues en barcos</l>
+                  <l>les hacian cruel guerra</l>
+                  <l>á los nuestros, ya con dardos,</l>
+                  <l>ya con flechas, ya con piedras.</l>
+                  <l>Sucedió que en este tiempo</l>
+                  <l>la Divina Omnipotencia</l>
+                  <l>dispuso de que la puente</l>
+                  <l>de Triana la violencia</l>
+                  <l>de dos Naves la rompiesen,</l>
+                  <l>y aquesta feliz empresa</l>
+                  <l>dió motivo á que entiviasen</l>
+                  <l>de los sitiados las fuerzas,</l>
+                  <l>viendo de que ya el Castillo</l>
+                  <l>era fuerza se rindiera.</l>
+                  <l>Entraron en sus consultas</l>
+                  <l>con su Rey las Agarenas</l>
+                  <l>opiniones, sobre si</l>
+                  <l>se concediese la entrega</l>
+                  <l>de la Ciudad, ó si Fernando</l>
+                  <l>permitiese, que le dieran</l>
+                  <l>la mitad de la Ciudad,</l>
+                  <l>y que en ella comprendiera</l>
+                  <l>el Real Alcazar partiendo</l>
+                  <l>por donde está la Venera,</l>
+                  <l>y el recinto, que circunda</l>
+                  <l>el Barrio de la Alameda</l>
+                  <l>finalizando el distrito</l>
+                  <l>la puerta de la Barqueta,</l>
+                  <l>hasta el Palacio, que entonces</l>
+                  <l>lo habitaba una princesa</l>
+                  <l>hermana del mismo Rey,</l>
+                  <l>cuyo propio nombre era</l>
+                  <l>Zelima Rajél, y luego</l>
+                  <l>tomando mejor escuela</l>
+                  <l>de nuestro Rey Santo, tuvo</l>
+                  <l>el de doña Berenguela,</l>
+                  <l>que fué el nombre de la Madre</l>
+                  <l>de nuestro Rey Santo: y esta</l>
+                  <l>habitacion ó Palacio</l>
+                  <l>es de mejores Princesas,</l>
+                  <l>que titulan San Clemente,</l>
+                  <l>caro Vergél de Azuzenas.</l>
+                  <l>Volvamos á nuestro asunto:</l>
+                  <l>hubo muchas diferencias,</l>
+                  <l>sobre lo ya propasado,</l>
+                  <l>para esto pidieron treguas</l>
+                  <l>por cuatro dias, ó cinco,</l>
+                  <l>y el Santo convino en ellas,</l>
+                  <l>y al fin de ellos le proponen</l>
+                  <l>lo que referido queda.</l>
+                  <l>Replicó el Santo que nó.</l>
+                  <l>Volvieron con la respuesta</l>
+                  <l>á su Rey que, sofocado</l>
+                  <l>mandó envestir con fiereza.</l>
+                  <l>Entonces nuestro Rey Santo</l>
+                  <l>dice: cierra, cierra, cierra,</l>
+
+                  <pb n="4" source="Moreno_310_4.jpeg" facs="fedora_ug8110070/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <l>Santiago, que somos pocos,</l>
+                  <l>morireis, perros, por fuerza.</l>
+                  <l>Como los Moros son muchos</l>
+                  <l>rechazaban con gran fuerza,</l>
+                  <l>y Fernando fatigado</l>
+                  <l>empuñó su espada diestra,</l>
+                  <l>y alzando al Cielo los ojos,</l>
+                  <l>ha dicho; Luz verdadera,</l>
+                  <l>Madre que parió à Jesus,</l>
+                  <l>quedando siempre doncella,</l>
+                  <l>pues me anunciaste, Señora,</l>
+                  <l>esta victoria por cierta,</l>
+                  <l>por vuestra misericordia</l>
+                  <l>sirvete de concederla.</l>
+                  <l>Entonces con gran vigor</l>
+                  <l>invocó la gran clemencia</l>
+                  <l>de María sin pecado,</l>
+                  <l>Madre de Dios verdadera.</l>
+                  <l>Y Garciperez de Vargas, </l>
+                  <l>rechazaba con mas fuerza.</l>
+                  <l>En medio de la batalla</l>
+                  <l>un Caballero se muestra</l>
+                  <l>de finas armas armado,</l>
+                  <l>trae una Cruz y Vandera</l>
+                  <l>sobre la Cruz un letrero,</l>
+                  <l>que dice de esta manera:</l>
+                  <l>Jacobo soy, gran Ministro</l>
+                  <l>de Dios, para que entiendas.</l>
+                  <l>Conocen que es Santiago,</l>
+                  <l>segun las señales muestra,</l>
+                  <l>y todos á una dicen:</l>
+                  <l>Santiago, guerra, guerra,</l>
+                  <l>al mísmo tiempo los Moros</l>
+                  <l>por rendidos se confiesan</l>
+                  <l>pues ganadas las murallas</l>
+                  <l>el Rey Moro se presenta</l>
+                  <l>y dice: Rey poderoso,</l>
+                  <l>ya está Sevilla por vuestra,</l>
+                  <l>de tus alcazares Reales</l>
+                  <l>toma las llaves por seña.</l>
+                  <l>Entonces el Rey Fernando</l>
+                  <l>entró por la Puerta Nueva</l>
+                  <l>con un Cristo en una mano,</l>
+                  <l>y en la otra su Espada bella.</l>
+                  <l>Tambien entró Garciperez</l>
+                  <l>rindiendole á Dios ofrenda</l>
+                  <l>por la Puerta de Jerez.</l>
+                  <l>Y aqui el humilde poéta</l>
+                  <l>pide perdon al lector,</l>
+                  <l>porque sus yerros confiesa.</l>
+
+                  <trailer rend="negrita">
+                     <lb/>FIN <lb/>de la primera parte. </trailer>
+               </div>
+
+               <div n="2" type="parte">
+                  <pb n="5" source="Moreno_310_5.jpeg" facs="fedora_ug8106564/full/full/0/default.jpg"/>
+
+                  <head rend="negrita" type="titulo_parte">TOMA DE SEVILLA.</head>
+                  <head rend="cursiva" type="subtitulo_parte">SEGUNDA PARTE.</head>
+
+                  <l rend="indent">Ya que al discreto lector</l>
+                  <l>dige en la parte primera,</l>
+                  <l>que el Santo Rey don Fernando</l>
+                  <l>tomó la Ciudad por fuerza,</l>
+                  <l>ahora digo, que el Rey Santo</l>
+                  <l>(segun las historias cuentan)</l>
+                  <l>llevado de su fervor,</l>
+                  <l>mandó fabricar diversas</l>
+                  <l>Imágenes de la Virgen</l>
+                  <l>por ver sí alguna de aquellas</l>
+                  <l>se parece á la que vió</l>
+                  <l>y habló, porque las potencias,</l>
+                  <l>alma, corazon y vida,</l>
+                  <l>le robó con su luz bella.</l>
+
+                  <pb n="6" source="Moreno_310_6.jpeg" facs="fedora_ug8103461/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <l>Y yo para describir,</l>
+                  <l>alta y Divina Princesa,</l>
+                  <l>vuestro origen necesito</l>
+                  <l>de esa luz una centella</l>
+                  <l>para que pueda alabaros,</l>
+                  <l>que si no es de esa manera,</l>
+                  <l>es muy dificil salir</l>
+                  <l>felizmente de esta empresa;</l>
+                  <l>mas con esta confianza</l>
+                  <l>prosigo de esta menera:</l>
+                  <l>Llevaron al Santo Rey</l>
+                  <l>los Artifices diversas</l>
+                  <l>hechuras que habia mandado</l>
+                  <l>fabricar por ver la idea,</l>
+                  <l>que en si tenia el Rey Santo,</l>
+                  <l>mas ninguna le contenta,</l>
+                  <l>aunque no las despreciaba,</l>
+                  <l>pues se quedaba con ellas.</l>
+                  <l>Confuso quedaba el Rey.</l>
+                  <l>viendo que ninguno acierta</l>
+                  <l>á satistacer las ansias</l>
+                  <l>que su corazon anela.</l>
+                  <l>Con esta imaginacion,</l>
+                  <l>con esta angustia, esta pena,</l>
+                  <l>se hallaba nuestro Fernando,</l>
+                  <l>cuando la alta providencia</l>
+                  <l>de nuestro Dios y Señor</l>
+                  <l>dispuso que en tantas penas</l>
+                  <l>tuviese especial consuelo,</l>
+                  <l>y consuelo tal que deja</l>
+                  <l>sus sentidos muy absortos,</l>
+                  <l>y fué de aquesta manera.</l>
+                  <l>Estando el Rey sosegado</l>
+                  <l>dentro de su misma tienda,</l>
+                  <l>entró un Soldado y le dijo:</l>
+                  <l>Señor, á la puerta quedan</l>
+                  <l>dos mancebos que pretenden</l>
+                  <l>el hablar á Vuestra Alteza.</l>
+                  <l>Mandolos entrar el Rey, </l>
+                  <l>y puestos en su presencia,</l>
+                  <l>se quedó maravillado,</l>
+                  <l>y tanto que enmudeciera</l>
+                  <l>viendo en ellos tal primor,</l>
+                  <l>tal garvo y tal gentileza,</l>
+                  <l>que no acertaba á decirles</l>
+                  <l>qué querian, ó quien eran.</l>
+                  <l>Ellos le dicen: Señor,</l>
+                  <l>sabemos por cosa cierta,</l>
+                  <l>que vuestra Real Magestad</l>
+                  <l>ha hecho muchas diligencias</l>
+                  <l>para que le fabricasen</l>
+                  <l>una Imágen de la Inmensa</l>
+                  <l>María llena de gracia,</l>
+                  <l>y viendo que nadie acierta</l>
+                  <l>á daros entero gusto,</l>
+                  <l>como teneis en la idea,</l>
+                  <l>nosotros nos obligamos,</l>
+                  <l>que veais por esperiencia</l>
+                  <l>practicar lo que pretende,</l>
+                  <l>y desea Vuestra Alteza.</l>
+                  <l>Mande que para tres dias</l>
+                  <l>la comida nos prevengan</l>
+                  <l>para los dos solamente,</l>
+                  <l>y que ninguno se atrava</l>
+                  <l>á entrar en donde estarémos,</l>
+                  <l>ni aun vos hasta que se vea</l>
+                  <l>la obra finalizada.</l>
+                  <l>Mandó el Rey, que en una pieza</l>
+                  <l>los encerracen, y él propio</l>
+                  <l>por su mano echó á la puerta</l>
+                  <l>un cerrojo y con su llave,</l>
+                  <l>la guardó, hasta que fuera</l>
+                  <l>ocasion de que se abriese.</l>
+                  <l>Con una santa paciencia</l>
+                  <l>estuvo el Rey los tres dias,</l>
+                  <l>deseando que á la puerta</l>
+                  <l>Pamasen los dos Mancebos,</l>
+                  <l>para que el Rey les abriera.</l>
+                  <l>No pudo aguardar el Santo,</l>
+                  <l>porque el corazon le flecha</l>
+                  <l>el deseo de saber</l>
+                  <l>si han salido con su empresa.</l>
+                  <l>Abrió la puerta Fernando,</l>
+                  <l>introdujose en la pieza</l>
+                  <l>donde dejó los Mancebos,</l>
+                  <l>pero no los halló en ella,</l>
+                  <l>de lo cual quedó admirado,</l>
+                  <l>y mas viendo manifiesta</l>
+
+                  <pb n="7" source="Moreno_310_7.jpeg" facs="fedora_ug8110304/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">7</fw>
+
+                  <l>la comida que mandó</l>
+                  <l>se les pusiese, y que entera,</l>
+                  <l>conforme alli la pusieron</l>
+                  <l>asimismo se conserva.</l>
+                  <l>Entró mas adentro, y vió</l>
+                  <l>á la Celestíal Princesa,</l>
+                  <l>á la que es de pecadores</l>
+                  <l>Abogada y Medianera</l>
+                  <l>á la impecable MARIA,</l>
+                  <l>á la que es de Reyes Reina,</l>
+                  <l>á la Virgen de los REYES,</l>
+                  <l>ya en una cláusula entera</l>
+                  <l>dije lo que el Santo vió.</l>
+                  <l>En verla y postrarse en tierra</l>
+                  <l>no hubo distancia de tiempo,</l>
+                  <l>pues fue tal la complasencia,</l>
+                  <l>que al ver la Divina Imagen</l>
+                  <l>tuvo, que toda la tierra</l>
+                  <l>no era bastante á templarle</l>
+                  <l>el fervor que le enagena,</l>
+                  <l>víendo habia consegido</l>
+                  <l>lo que tenia en su idea.</l>
+                  <l>Los júbilos, la alegria,</l>
+                  <l>las innumerables fiestas</l>
+                  <l>que á esta Imagen se le hicieron</l>
+                  <l>es imposible traerlas</l>
+                  <l>á la memoria, pues que</l>
+                  <l>en cualesquiera refriegas</l>
+                  <l>de batallas y reencuentros,</l>
+                  <l>que con los Moros tuviera,</l>
+                  <l>entraba con tal fervor,</l>
+                  <l>y todos los suyos, que eran</l>
+                  <l>tan devotos, tan amantes</l>
+                  <l>de esa Celestial Princesa,</l>
+                  <l>sin temor se abalanzaban</l>
+                  <l>á las furias Agarenas</l>
+                  <l>quedando siempre triunfante</l>
+                  <l>solo nombrando por prenda</l>
+                  <l>de su mayor patrocinio</l>
+                  <l>á la que es del Cielo Reina,</l>
+                  <l>Virgen Santa de los Reyes.</l>
+                  <l>Pues consta por cosa cierta,</l>
+                  <l>que desde su aparacion</l>
+                  <l>fueron perdiendo las fuerzas</l>
+                  <l>los Moros, rindiendo todos</l>
+                  <l>las cervices de por fuerza.</l>
+                  <l>Bien claro se vé la toma</l>
+                  <l>de Sevilla pues demuestra</l>
+                  <l>ser un patente milagro</l>
+                  <l>haberse heclo dueño de ella</l>
+                  <l>San Fernando pues tenia</l>
+                  <l>dentro de la Ciudad mesma</l>
+                  <l>(de gente muy escogida)</l>
+                  <l>el Rey Moro mas de treinta</l>
+                  <l>mil Moros de armas, y el Rey</l>
+                  <l>San Fernando solo cuenta</l>
+                  <l>nueve mil, con dos mil hombres, </l>
+                  <l>que Garciperez gobierna,</l>
+                  <l>debiendole todo el triunfo,</l>
+                  <l>á la proteccion suprema</l>
+                  <l>de la Virgen de los Reyes</l>
+                  <l>que es por quien los Reyes rainan.</l>
+                  <l>Hizo el Santo Rey Fernando</l>
+                  <l>repartimiento de aquellas</l>
+                  <l>prendas de su estimacion.</l>
+                  <l>A la Catedral Iglesia,</l>
+                  <l>en todo grande, é insigne,</l>
+                  <l>dejó nuestra Imagen bella</l>
+                  <l>de los Reyes con intento</l>
+                  <l>de que falleciendo fuera</l>
+                  <l>depositaria de su cuerpo.</l>
+                  <l>Otra Imagen que le hicieran</l>
+                  <l>cuando mando fabricar</l>
+                  <l>la que tenia en su idea,</l>
+                  <l>y dijo, que entre dos aguas</l>
+                  <l>estaba si era la mesma,</l>
+                  <l>esta dió á San Salvador,</l>
+                  <l>que en su templo se venera</l>
+                  <l>con titulo de las Aguas,</l>
+                  <l>que el Rey Santo se le diera.</l>
+                  <l>Otra Imagen las donó</l>
+                  <l>con amorosa franqueza</l>
+                  <l>á los maestros de Sastres,</l>
+                  <l>y un Pendon, cuyas dos prendas</l>
+                  <l>las tienen en mucha estima,</l>
+                  <l>y en S. Francisco se encierran.</l>
+                  <l>La Espada y el Estandarte,</l>
+                  <l>con el Crucifijo ordena,</l>
+
+                  <pb n="8" source="Moreno_310_8.jpeg" facs="fedora_ug8109314/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">8</fw>
+
+                  <l>que á sus queridas las Monjas</l>
+                  <l>de San Clemente les dieran,</l>
+                  <l>las cuales dos prendas dieron</l>
+                  <l>las Religiosas atentas</l>
+                  <l>al muy llustre Cabildo</l>
+                  <l>de la Catedral Iglesia,</l>
+                  <l>quien con gran estimacion</l>
+                  <l>las aprecia y las venera.</l>
+                  <l>Hechas estas particiones,</l>
+                  <l>lo llamó Dios á la eterna</l>
+                  <l>morada, porque descanse</l>
+                  <l>de las pasadas tormentas,</l>
+                  <l>que en defensa de la Fé,</l>
+                  <l>y ecsaltacion de la Iglesia</l>
+                  <l>trabajó incesantemente,</l>
+                  <l>hasta poner sus Vanderas</l>
+                  <l>en la muy Noble y Leal</l>
+                  <l>Ciudad de Sevilla escelsa.</l>
+                  <l>Postróle una calentura,</l>
+                  <l>que le dió de tal manera,</l>
+                  <l>que luego al punto pidió,</l>
+                  <l>que sin dilacion trageran</l>
+                  <l>el Divino Sacramento</l>
+                  <l>porque quiere con tal prenda</l>
+                  <l>asegurar su partida</l>
+                  <l>á la Gloria sempiterna.</l>
+                  <l>Vino, pues, su Magestad,</l>
+                  <l>y con grande reverencia</l>
+                  <l>se arrojó de su Real lecho,</l>
+                  <l>y arrodillado en la tierra</l>
+                  <l>recibió aquel Pan de Gracia,</l>
+                  <l>y porque sus ojos vieran</l>
+                  <l>como deben venerarse</l>
+                  <l>al Rey de Cielo y tierra,</l>
+                  <l>y asi: cantando el TE DEUM,</l>
+                  <l>á Dios su alma le entrega.</l>
+                  <l>Ya murió nuestro Rey Santo,</l>
+                  <l>y en su testamento ordena</l>
+                  <l>que á las plantas de la Virgen</l>
+                  <l>su difunto Cuerpo fuera</l>
+                  <l>depositado, y la Espada</l>
+                  <l>en gran estima tuvieran</l>
+                  <l>pues con ella, por la ayuda</l>
+                  <l>de la Magestad Suprema,</l>
+                  <l>le dió triunfos á la Fé,</l>
+                  <l>engrandeciendo su Iglesia.</l>
+                  <l>En memoria de estos triunfos,</l>
+                  <l>todos los años se esmeran</l>
+                  <l>los dos llustres Cabildos,</l>
+                  <l>tanto la estiman y aprecian,</l>
+                  <l>en sacarla en procesion</l>
+                  <l>al rededor de la Iglesia</l>
+                  <l>á veinte y tres de Noviembre,</l>
+                  <l>con su plausible asistencia,</l>
+                  <l>que es dia en que se ganó</l>
+                  <l>esta Ciudad siempre Regia,</l>
+                  <l>saliendo de la Capilla</l>
+                  <l>de esta Celestial Princesa.</l>
+                  <l>Y aqui el poéta rendido</l>
+                  <l>confiesa, que es mal poéta,</l>
+                  <l>y al auditorio suplica,</l>
+                  <l>que tendrá á grande fineza,</l>
+                  <l>que le perdonen sus yerros,</l>
+                  <l>que afectuoso lo desea.</l>
+
+                  <trailer rend="cursiva">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA=1860. Imp.de D. José Maria Moreno, calle de Madre de Dios.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

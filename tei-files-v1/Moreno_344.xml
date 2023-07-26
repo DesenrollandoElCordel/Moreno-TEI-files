@@ -1,0 +1,178 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_344">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>María santísima de Gracia</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Maria santisima de Gracia</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1861-01-01">1861</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5060884</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">[s.n.]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>2 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_344_1.xml" facs="fedora_ug8109781/394,343,1015,1362/100,/0/default.jpg">grabado_m_344_1</item>
+                           <item corresp="grabado_m_344_2.xml" facs="fedora_ug8109781/165,124,1648,2173/100,/0/default.jpg">grabado_m_344_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Oraciones</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107281/manifest">
+      <graphic url="fedora_ug8109781/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_344_1.jpg" facs="fedora_ug8109781/full/full/0/default.jpg"/>
+
+               <head type="primer_titulo">
+                  <lb/>MARIA SANTISIMA <lb/><hi rend="negrita">DE GRACIA.</hi>
+               </head>
+
+               <pb n="2" source="Moreno_344_2.jpg" facs="fedora_ug8109702/full/full/0/default.jpg"/>
+               <head rend="negrita" type="titulo_parte">
+                  <lb/>SALVE <lb/>A MARIA SANTISIMA DE GRACIA. </head>
+
+               <l rend="indent">Dios te Salve, Virgen pura</l>
+               <l>Reina del Cielo y le tierra, </l>
+               <l>Madre de Misericordia, </l>
+               <l>De gracia pureza ifimensa; </l>
+               <l>Vida y dulzura en quien vive</l>
+               <l>Toda la esperanza nuestra, </l>
+               <l>Dios te salve, á ti llamamos</l>
+               <l>Desterrados hijos de Eva,</l>
+               <l>A ti Reina suspiramos</l>
+               <l>Gimiendo y llorando penas, </l>
+               <l>En aqueste triste valle </l>
+               <l>Dé lágrimas y miserias,</l>
+               <l>Ea pues dulce Señora,</l>
+               <l>Madre y Abogada nuestra,</l>
+               <l>Esos tus divinos ojos </l>
+               <l>A nosotros siempre, buelzas,</l>
+               <l>Y despues de este destierro</l>
+               <l>el Cielo nos demuestra,</l>
+               <l>A Jesus fruto bendito</l>
+               <l>De tu vientre hermosa perla, </l>
+               <l>O Clementisima Aurora! </l>
+               <l>¡O Hermosa y luciente estrella!</l>
+               <l>¡O Madre llena gracia,</l>
+               <l>Por nosotros á Dios ruega:</l>
+               <l>Y á tu Santísimo Hijo</l>
+               <l>Que la salud nos conceda, </l>
+               <l>Para que seamos dignos </l>
+               <l>De alcanzar la gloria eterna.</l>
+               <l>Amen Jesus con que acabo </l>
+               <l>La Salve de aquesta Reina,</l>
+               <l>Y alabemos á María</l>
+               <l>En los Cielos y en la tierra, </l>
+               <l rend="derecha">AMEN.</l>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1861 <lb/>Imp. de D. José Maria Moreno, calle de Madre de Dios, núm.
+                  1. </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

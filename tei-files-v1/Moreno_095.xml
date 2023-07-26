@@ -1,0 +1,1132 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_095">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Saintene del Molinero</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete del Molinero.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1849-01-01">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461341</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 102</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>16 p.</extent>
+                        <condition>La parte inferior de la página 7 está cortada</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>1 columna</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-10" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-06-28" who="#EL">Correction de l'OCR</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103433/manifest">
+      <graphic url="fedora_ug8109648/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_095_1.jpg" facs="fedora_ug8109648/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 102.)</fw>
+
+               <head rend="negrita" type="primer_titulo">
+                  <lb/>SAINETE <lb/>DEL <lb/>MOLINERO. </head>
+
+               <div type="reparto">
+                  <head rend="negrita" type="reparto_titulo">PERSONAS.</head>
+                  <castList rend="cursiva">
+                     <castItem>Molinero.</castItem>
+                     <castItem>Tomasa.</castItem>
+                     <castItem>Soldado,</castItem>
+                     <castItem>Sacristan.</castItem>
+                     <castItem>Herrero.</castItem>
+                  </castList>
+               </div>
+
+               <div>
+                  <stage>SALEN EL SOLDADO, EL MOLINERO Y TOMASA.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Este, seor huesped, es alojamiento?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Vuesasted se reporte, seor Sargento</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Ni á comer ni á cenar hay una polla?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol ..</speaker>
+                     <l>Pero habrá una pechuga de cebolla.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>No ve que me hace mal para los ojos?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Pues hay mas que comella con antojos?</l>
+                     <l>Y á que viene vusted tan diligente?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>A qué he de venir, sino á hacer gente?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Y esto es bueno, Tomasa,</l>
+                     <l>que á hacer gente se vengan á mi casa?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>De alguna compañía él os hablaba.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Aun peor está que estaba:</l>
+                     <l>que bien me acuerdo yo que tu decias:</l>
+
+                     <pb n="2" source="Moreno_095_2.jpg" facs="fedora_ug8104513/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">2.</fw>
+
+                     <l>Dios nos libre de malas compañías.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Esas cosas dices cuando yo os quiero?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Esas y otras que dejo en el tintero.</l>
+                     <l>Yo me voy á ese otero mas vecino</l>
+                     <l>á picar una piedra de molino;</l>
+                     <l>y pues el seor Sargento queda en casa,</l>
+                     <l>suplícote, Tomasa,</l>
+                     <l>si el Sargento á hacer gente se endereza,</l>
+                     <l>que me armes con tiento la cabeza.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom. </speaker>
+                     <l>Ese juicio heis de hacer impertinente?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Mil cosas se me ponen en la frente.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Mas qué castigo tanto atrevimiento?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol..</speaker>
+                     <l>Vuesasted se reporte, seor Sargento,</l>
+                     <l>que vasta que usted quede con ella.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Yo he nacido con vos en mala estrella.</l>
+                     <l>Jesus, que condicion tan importuna!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Yo con vos he nacido en mala luna,</l>
+                     <l>puesto que la madera de mi frente</l>
+                     <l>en todo el año sale de creciente.</l>
+                     <l>A Dios Tomasa mia,</l>
+                     <l>hasta mañana ó hasta esotrodia.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Probareis que mi amor es sin segundo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Ya vos prueba, Tomasa, todo el mundo.</l>
+                     <l>A Dios, á Dios, esposa.</l>
+
+                     <stage>HACE QUE SE VA, Y VUELVE.</stage>
+
+                     <l>Ah, sí, que me olvidaba de otra cosa:</l>
+                     <l>dadme un apretador, por si es que empieza</l>
+                     <l>á cargarseme mucho la cabeza.</l>
+                  </sp>
+
+                  <pb n="3" source="Moreno_095_3.jpg" facs="fedora_ug8104741/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">3</fw>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>No será menester, id al instante.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Pues á Dios, que entendí</l>
+                     <l>que era importante.</l>
+
+                     <stage>VASE Y VUELVE.</stage>
+
+                     <l>Ah, si, moled el pan de la vecina,</l>
+                     <l>y haced por vida vuestra buena harina.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Idos con barrabás, porque si empiezo::::</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>A Dios, que pensé dar algun tropiezo.</l>
+                     <l>Voy contento, que sois mosa muy cuerda.</l>
+
+                     <l>VASE, Y VUELVE.</l>
+
+                     <l>Mas ah, sí, que otra cosa se me acuerda.</l>
+                     <l>si del Sargento la estacion es larga,</l>
+                     <l>no os echeis amenudo con la carga.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom.. </speaker>
+                     <l>Qué pesado que sois! digo que os amo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Pesado decis soy? soy como un gamo.</l>
+                     <l>Quédate ya con dios, amada esposa.</l>
+
+                     <stage>VASE, Y VUELVE.</stage>
+
+                     <l>Ah, sí, que me olvidaba de otra cosa.</l>
+                     <l>Si dispara una pieza el seor Soldado,</l>
+                     <l>si podeis, retiraos á otro lado.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Mas que le doy un tiento!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Vuesasted se reporte, seor Sargento,</l>
+                     <l>y tenga mas descanso,</l>
+                     <l>que yo so el ofendido, y so mas manso.</l>
+                  </sp>
+
+                  <pb n="4" source="Moreno_095_4.jpg" facs="fedora_ug8103425/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Vos sois un saco lleno de malicias,</l>
+                     <l>y yo con arrumacos y caricias</l>
+                     <l>la honra soy de vuestra vil persona.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Es por que me poneis una corona.</l>
+                  </sp>
+
+                  <stage>VASE.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Ahora bien, recostarme determino,</l>
+                     <l>porque vengo cansado del camino.</l>
+                     <l>Ola huéspeda, nadie me despierte.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom...</speaker>
+                     <l>Para qué seor Soldado me lo advierte?</l>
+                  </sp>
+
+                  <stage>RECUÉSTASE, Y SALE EL SACRISTAN CON UNA BOTA,</stage>
+                  <l>UN PAN Y UN POCO DE TOCINO.</l>
+
+                  <sp>
+                     <speaker rend="cursiva">Sac...</speaker>
+                     <l>Tomasa y mas Tomasa, </l>
+                     <l>en quien toda mi vida se repasa:</l>
+                     <l>en mi memoria escrita,</l>
+                     <l>pintada con papel y agua bendita:</l>
+                     <l>por quien, si á las campanas me dedico,</l>
+                     <l>Tomasa y mas Tomasa me repico:</l>
+                     <l>cuyo nombre en los cascos se me mete,</l>
+                     <l>pues escrito lo traigo en el bonete;</l>
+                     <l>va tu retrato bello.</l>
+                     <l>Digo que tu cabello,</l>
+                     <l>por lo hermoso y lo negro es con gran arte</l>
+                     <l>de mi amante pasion el estandarte.</l>
+                     <l>Tu frente, que á dos luces hace salva,</l>
+                     <l>de las fiestas mayores es el alva.</l>
+                     <l>Tus cejas en la iglesia de san Marcos</l>
+
+                     <pb n="5" source="Moreno_095_5.jpg" facs="fedora_ug8110097/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">5</fw>
+
+                     <l>de capilla mayor pueden ser arcos.</l>
+                     <l>Dos lámparas tus ojos encendidas,</l>
+                     <l>Tus pestañas dos mechas ó torcidas,</l>
+                     <l>Tu nariz soberana</l>
+                     <l>es del templo de Venus la compana,</l>
+                     <l>que suena (aunque son pocos)</l>
+                     <l>en lugar de badajo con los mocos.</l>
+                     <l>Tu boca, que homicida</l>
+                     <l>ha llenado de muertos la otra vida,</l>
+                     <l>es en sus embelecos</l>
+                     <l>sepulcro donde estan agenos huesos.</l>
+                     <l>Si tu barba de bello mas tuviera,</l>
+                     <l>por su hisopo el amor te la pidiera.</l>
+                     <l>Tus manos hacen, siendo celestiales,</l>
+                     <l>perfecciones intactas manuales.</l>
+                     <l>Es tu pie, por pequeño y por hermoso,</l>
+                     <l>pie de altar ó retablo muy curioso.</l>
+                     <l>Tomasa y mas Tomasa,</l>
+                     <l>con que á ser Tomasísima se pasa,</l>
+                     <l>es ya tiempo de hablarte,</l>
+                     <l>verte y decirte, ofrecerte y darte.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom...</speaker>
+                     <l>Pues tanto tomasea,</l>
+                     <l>qué es lo que he de tomar, señor badea?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sac...</speaker>
+                     <l>Pide lo que quisieres, vé pidiendo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom...</speaker>
+                     <l>A la vida no echamos un remiendo?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sac...</speaker>
+                     <l>Vámosla remendando: afuera brujas,</l>
+                     <l>que aqueste vino servirá de abujas;</l>
+                     <l>y por si falta el hilo con el vino,</l>
+                     <l>aquí viene una hebra de tocino.</l>
+                  </sp>
+
+                  <pb n="6" source="Moreno_095_6.jpg" facs="fedora_ug8109806/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+
+                  <stage>RUIDO DENTRO.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Ay de mí desgraciada! </l>
+                     <l>mi marido nos coge en la estacada,</l>
+                     <l>Mas meta allí la bota,</l>
+                     <l>y el pernil en aquella arquilla rota.</l>
+                     <l>Entre en ese aposento,</l>
+                     <l>ande aprisa, y escóndase al momento.</l>
+                  </sp>
+
+                  <stage>
+                     <lb/>ESCONDESE EL SACRISTAN, Y SALE EL HERRERO CON <lb/>UNOS PASTELES. </stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Herr..</speaker>
+                     <l>Hermosa de mis ojos,</l>
+                     <l>con mucha mas razon que mis antojos,</l>
+                     <l>cuyo talle y belleza peregrina</l>
+                     <l>retratada la tengo en mi oficina:</l>
+                     <l>cuyo pelo de alambre peregrino</l>
+                     <l>es red que enlaza á todo golondrino.</l>
+                     <l>Es tu frente pulida cobertera,</l>
+                     <l>por quien los sesos no se salen fuera.</l>
+                     <l>Tus cejas son la fragua de tus ojos,</l>
+                     <l>que aunque están muy tostados, están rojos.</l>
+                     <l>Tus mejillas enciende el Niño ciego,</l>
+                     <l>porque badiles son para su fuego.</l>
+                     <l>Tu nariz soberana</l>
+                     <l>parece que está hecha á la romana.</l>
+                     <l>Tu boca cuando muerdes ó amenazas,</l>
+                     <l>son muy niñas de teta mis tenazas.</l>
+                     <l>Tus manos, por lo blanco y por lo airosas,</l>
+                     <l>son dos limas que raspan dos mil cosas.</l>
+
+                     <pb n="7" source="Moreno_095_7.jpg" facs="fedora_ug8103174/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">7</fw>
+
+                     <l>Y tus pies comparados (nó te espantes)</l>
+                     <l>con los de mi vigornia, son gigantes.</l>
+                     <l>Quisiera ser Apeles,</l>
+                     <l>con el óleo que traen estos pasteles:</l>
+                     <l>cómalos tu hermosura,</l>
+                     <l>porque pueda pasar esta pintura.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Pues es gentil presente!</l>
+                     <l>cómo yo de pasteles solamente?</l>
+                     <l>Miren qué brava cena! </l>
+                     <l>Arrójelos ahí en esa alhacena.</l>
+
+                     <stage>RUIDO DENTRO.</stage>
+
+                     <l>Ay que esto va perdido!</l>
+                     <l>éntrese ahí, que viene mi marido.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Herr..</speaker>
+                     <l>Ola que aquí está ya otro camarada.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom...</speaker>
+                     <l>Entrese presto, y no se le dé nada.</l>
+                  </sp>
+
+                  <stage>EL MOLINERO Á LA PUERTA.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol..</speaker>
+                     <l>Ha de casa. </l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Quién? </l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol..</speaker>
+                     <l>Vive aquí una tuerta?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Entre quien es, que abierta está la puerta,</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol.. </speaker>
+                     <l>Podré yo entrar, Tomasa?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Eso pregunta un hombre y en su casa?</l>
+                  </sp>
+
+                  <stage>SALE AHORA POCO Á POCO EL MOLINERO.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol</speaker>
+                     <l>No podias estar de cumplimiento</l>
+
+                     <pb n="8" source="Moreno_095_8.jpg" facs="fedora_ug8107720/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">8</fw>
+
+                     <l>haciéndole visita al Seor Sargento?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Mirad que está durmiendo, no hagais</l>
+                     <l>ruido.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Oigan, que está dormido!</l>
+                     <l>habráse desvelado diligente</l>
+                     <l>toda la santa noche en hacer gente.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>A qué venís tan presto?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Porque no llevé pico de repuesto,</l>
+                     <l>y el que llevé quebróse al primer tiento,</l>
+                     <l>y vengo por el otro al aposento.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Ay que encuentra á los dos; yo soy</l>
+                     <l>perdída! <stage rend="cursiva">(aparte.)</stage></l>
+                     <l>Para qué tan aprisa vuestra ida?</l>
+                     <l>No quiero que os volvais tan de repente.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Pues á vos se vos sigue incombeniente?</l>
+                     <l>Muger, dejadme entrar, que me voy luego.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Dejadlo ahora, os ruego.</l>
+                     <l>Quereis dejarme sola,</l>
+                     <l>y que me haga cualquiera la mamola?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol..</speaker>
+                     <l>Sola no, muger mia,</l>
+                     <l>harávos el Sargento compañía.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Jesus! con el Sargento? ni por lumbre.</l>
+                     <l>Mirad que moriré de pesadumbre.</l>
+
+                     <stage>HACE QUE LLORA.</stage>
+
+                     <l>Yo aquí con un soldado y sin marido!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>No lo habia aun creido. <stage rend="cursiva">(aparte.)</stage></l>
+                     <l>No ven lo que pasa?</l>
+                     <l>Vive Dios que es un oro la Tomasa.</l>
+
+                     <pb n="9" source="Moreno_095_9.jpg" facs="fedora_ug8107669/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">9</fw>
+
+                     <l>Vos os resistireis, que sois honrada.</l>
+                     <l>Dejadme ir por el pico. Ay tal taimada!</l>
+                  </sp>
+
+                  <stage>VA Á ENTRAR, Y ELLA LO DETIENE.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Lo primero es comer: ay tal exceso!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Si no tenemos qué, para qué es eso?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Ellos me han sospechado por dormido,</l>
+                     <stage rend="cursiva">(aparte.)</stage>
+                     <l>y si no salgo todo va perdido.</l>
+                     <stage rend="cursiva">(levántase.)</stage>
+                     <l>A qué ha sido volver tan al momento?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Vuesasted se reporte, Seor Sargento.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Así me quita el sueño, voto á listo?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Yo no se lo quité, ni se le he visto.</l>
+                     <l>Por el pico he venido: Aquesto es juego?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Lo primero es comer, é iráse luego.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Sabe usté si lo hay, que eso persuade?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Lo que digo ha de hacer, y no me</l>
+                     <l>enfade.</l>
+                     <l>Si yo soy hechicero,</l>
+                     <l>y hago venir manjares cuantos quiero,</l>
+                     <l>porqué me hé de pasar con tal laceria?</l>
+                     <l>Ande, que eso es miseria.</l>
+                     <l>Vé? con este compas y esta postura</l>
+                     <l>levanto aquí figura</l>
+                     <l>Desde el polo que sopla del favonio,</l>
+                     <l>hago venir por arte del demonio</l>
+                     <l>miles de cosas: ya por otra parte</l>
+                     <l>se mueven los espíritus de Marte;</l>
+
+                     <pb n="10" source="Moreno_095_10.jpg" facs="fedora_ug8105204/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">10</fw>
+
+                     <l>y si acaso corriere mucho albornio,</l>
+                     <l>favorable se muestra Capricornio.</l>
+                     <l>Atended con cuidado.</l>
+                     <l>Detras del arconcillo me han tirado</l>
+                     <l>un pernil, que fiambre</l>
+                     <l>ha de ser el remedio de nuestra hambre.</l>
+                  </sp>
+
+                  <stage>VA TOMASA Y LO SACA.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Aquí está: dicho y hecho.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold.</speaker>
+                     <l>Vuelvo el compás, y póngolo derecho.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol..</speaker>
+                     <l>Por Dios que es la verdad: mal año</l>
+                     <l>afuera.</l>
+                     <l>Para el alma que del jamon comiera.</l>
+                     <l>Por dónde viene y cómo estará tierno!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sol...</speaker>
+                     <l>Por donde ha de venir por el infierno.</l>
+                     <l>Sepa usted, que conmigo bien se pasa;</l>
+                     <l>pero no sabe lo que tiene en casa. </l>
+                     <l>Por aquí tiene Venus el turgurio,</l>
+                     <l>por allí se enfurece el Dios Mercurio;</l>
+                     <l>por el cenit sangriento está el planeta.</l>
+                     <l>Voto al sol, que ya ha obrado la receta.</l>
+                     <l>Huéspeda, unos manteles</l>
+                     <l>hallará en la alhacena con pasteles.</l>
+
+                     <stage>VA TOMASA Y LOS SACA.</stage>
+
+                     <l>Vuélvome ahora á oriente:</l>
+                     <l>tiene el signo de Tauro muy enfrente,</l>
+                     <l>y ácia el norte le espero,</l>
+
+                     <pb n="11" source="Moreno_095_11.jpg" facs="fedora_ug8103260/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">11</fw>
+
+                     <l>por tener la cabeza en el carnero.</l>
+                     <l>Huyo aquí del Acuario:</l>
+                     <l>reina Baco en el vino, y está vario.</l>
+                     <l>ya me hecharon del viento á la derrota:</l>
+                     <l>tras de aquel arconcillo está una bota.</l>
+
+                     <stage>SACA TOMASA LA BOTA.</stage>
+
+                     <l>Quiere algo mas?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Ni aun tanto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Pues otra vez figura no levanto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>A Dios, á Dios, Tomasa,</l>
+                     <l>que no puedo yo estar en esta casa.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Qué vuestra condicion sea tan prolija!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sol...</speaker>
+                     <l>Qué va que le convierto en lagartija!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Y seguro lo hará, que es tan perito,</l>
+                     <l>que aun me ha de convertiren un cabrito.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Pues de eso se ha aturdido?</l>
+                     <l>los demonios me dan cuanto les pido;</l>
+                     <l>y si de ellos quiere testimonios,</l>
+                     <l>haré que á pares salgan los demonios.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Y si acaso nos llevan?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Sin mi licencia quiere que se atrevan?</l>
+                     <l>Atienda un poco y mire lo que pasa.</l>
+                  </sp>
+
+                  <stage>
+                     <lb/>HACE UNA SEÑA, Y SALE EL SACISTAN ENHARINADO, Y <lb/>EL HERRERO TIZNADO:
+                     DAN BUELTAS POR EL TABLADO, <lb/>Y SE ENTRAN. </stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol..</speaker>
+                     <l>Demonios son por vida de Tomasa.</l>
+
+                     <pb n="12" source="Moreno_095_12.jpg" facs="fedora_ug8103788/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">12</fw>
+
+                     <l>Reniégote, enemigo,</l>
+                     <l>no sea, Tomasa que carguen contigo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Conmigo dos figuras tan malditas!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>El demonio se anda á las bonitas.</l>
+                     <l>Vayas, diablo arredro.</l>
+                     <l>San Crespin, San Julian, señor san Pedro</l>
+                     <l>Credo digo y recredo.</l>
+                     <l>Temblando estoy á fé de puro miedo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Vamos comiendo, que es cosa muy sana.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Coman, coman, que yo no tengo gana.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Siéntense á comer, que aquesto es hecho.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol..</speaker>
+                     <l>A vuestedes les haga buen probecho.</l>
+                     <l>que yo no tengo de probar bocado.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sol...</speaker>
+                     <l>Un poco comerá del oljaldrado.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Sabe usté si mi estómago lo sufre?</l>
+                     <l>Jesus y cómo huele á piedra azufre!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Cómase ese pastel, y luego: ande,</l>
+                  </sp>
+
+                  <stage>SIENTASE Á LA MESA.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Basta que un hombre honrado me lo</l>
+                     <l>mande.</l>
+                     <l>Señor, el negro cómo era de horrible! </l>
+                     <l>y el blanco? no vi cosa mas terrible.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>A qué sabe el pastel?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Está extremado:</l>
+                     <l>pero no está muy bueno el ojaldrado.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Beba por esta bota, voto al cinto.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Dígame vuesasted, es blanco ó tinto?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Blanco es, y generoso.</l>
+                  </sp>
+
+                  <pb n="13" source="Moreno_095_13.jpg" facs="fedora_ug8104995/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">13</fw>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Pues no puedo beber, que estó achacoso.</l>
+                     <l>Pero por darle gusto,</l>
+                     <l>yo beberé un traguito, que es muy justo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Que los diablos se fuesen en ayunas,</l>
+                     <l>pues pudieran probar las aceitunas!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Qué lástima les tengan!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Pues con esto no más, haré que vengan.</l>
+                  </sp>
+
+                  <stage>
+                     <lb/>SILVA, Y SALEN LOS DOS COMO ANTES: COGEN EN MEDIO <lb/>AL MOLINERO, SE
+                     SIENTAN; Y ÈL SE LEVANTA. </stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Para qué se levanta ó se desvía?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Para hacer á los dos la cortesía.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Siéntese y coman juntos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Por el ánima va de sus difuntos.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold...</speaker>
+                     <l>Vaya pues que le doy con este asiento?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Vuesasted se reporte, seor Sargento.</l>
+                     <l>No me puedo sentar en lugar bajo,</l>
+                     <l>que me dan corrimientos por abajo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sol...</speaker>
+                     <l>Sois un puerco cochino.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Dice usted muy bien; mas no me inclino.</l>
+                     <l>Cada cual estornuda</l>
+                     <l>por donde el seor diablo echa la ayuda.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold...</speaker>
+                     <l>Siéntese entre los dos, yo doy licencia.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Estoy así muy bien en mi conciencia.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Aquí se ha de sentar, mal de su grado.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Véame aquí vusted, ya estoy sentado.</l>
+
+                     <stage>SIÊNTASE ENTRE LOS DOS.</stage>
+
+                     <l>Cómo comen los dos! San Anacleto,</l>
+
+                     <pb n="14" source="Moreno_095_14.jpg" facs="fedora_ug8109872/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">14</fw>
+
+                     <l>y que dientes que enseña el diablo prieto!</l>
+                     <l>Y que sea muger la mi Tomasa,</l>
+                     <l>y que no tenga miedo á lo que pasa!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Qué figuras los dos para un retablo!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Brinde por la salud de este diablo.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Jesus, señor! mercedes.</l>
+                     <l>Vaya por la salud de vuesastedes.</l>
+
+                     <l>AL IR Á BEBER DALE EL SACRISTAN UN GOLPE EN LA</l>
+                     <l>GARGANTA.</l>
+
+                     <l>Reniégote, enemigo:</l>
+                     <l>este diablo parece pie de amigo.</l>
+                     <l>O diablo, que con gula me combates.</l>
+                     <l>pues bienes á tentarnos los gaznates!</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Aquel bocado de pernil le toca:</l>
+                     <l>quítesele á aquel diablo de la boca.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Sabe buested si me dará licencia?</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Acabe no me saque de paciencia.</l>
+                     <l>No replique, levántese al momento.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol...</speaker>
+                     <l>Vuesasted se reporte, seor Sargento;</l>
+                     <l>y sea mas humano.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>Quien no come tocino no es cristiano;</l>
+                     <l>y así dénos de serlo testimonios,</l>
+                     <l>ó mando que le lleven los demonios.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Mol..</speaker>
+                     <l>Ya voy allá, etíope.</l>
+                     <l>Mal año, y como aprieta de cogote!</l>
+                     <l>Parece que le ha echado cerradura.</l>
+                     <l>Los diablos tienen brava dentadura.</l>
+
+                     <pb n="15" source="Moreno_095_15.jpg" facs="fedora_ug8108680/full/full/0/default.jpg"/>
+
+                     <fw type="paginaNum">15</fw>
+
+                     <stage>AL IR Á TOMARSELO, LE MUERDE EL HERRERO.</stage>
+
+                     <l>Ay, ay! Suelta, villano.</l>
+                     <l>Ay! suelta, que me trunzas ya la mano.</l>
+
+                     <stage>
+                        <lb/>PELOTEÁNLE EL HERRERO Y SACRISTAN, Y LO ENTRAN <lb/>EN VOLANDAS. </stage>
+
+                     <l>Apiádate de mí Tomasa mia,</l>
+                     <l>que los diablos me matan á porfia.</l>
+                     <l>A Dios, á Dios, Tomasa,</l>
+                     <l>que los diablos me sacan de mi casa.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker rend="cursiva">Sold..</speaker>
+                     <l>No formeis sentimiento,</l>
+                     <l>que en casa le tendreis luego al momento.</l>
+                  </sp>
+
+                  <stage>VASE TRAS ELLOS EL SOLDADO.</stage>
+
+                  <sp>
+                     <speaker rend="cursiva">Tom..</speaker>
+                     <l>Andad con Dios, esposo muy amado,</l>
+                     <l>y en él id confiado,</l>
+                     <l>que yo me quedo acá muy consolada,</l>
+                     <l>y confiando en Dios, no será nada.</l>
+                  </sp>
+
+                  <trailer rend="negrita">FIN.</trailer>
+               </div>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1849. <lb/><hi rend="cursiva">Imprenta y librería de</hi> D. J. M.
+                     MORENO<hi rend="cursiva">, calle</hi>
+                  <lb/><hi rend="cursiva">Oficiales: donde se hallarán otros barios.</hi>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

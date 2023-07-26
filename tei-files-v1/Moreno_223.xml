@@ -1,0 +1,533 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_223">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pasillo entre padre e hija hablando de la oración del Padre Nuestro</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Pasillo entre padre é hija hablando de la oracion
+                     del Padre Nuestro.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6475662</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 231</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_223_1.xml" facs="fedora_ug8107089/420,238,930,1055/100,/0/default.jpg">grabado_m_223_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX555916.html" type="tipo_texto">Pasillos</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-22" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-11" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-07-02" who="#EL">Correction de l'OCR</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107169/manifest">
+      <graphic url="fedora_ug8107089/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_223_1.jpg" facs="fedora_ug8107089/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 231.)</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">PASILLO</hi>
+                  <lb/>ENTRE PADRE É HIJA, <lb/>HABLANDO DE LA ORACION <lb/><hi rend="negrita">DEL
+                     PADRE NUESTRO.</hi>
+               </head>
+
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>Buenos dias tenga usted</l>
+                  <l>llenos de la eterna gracia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Padre.</speaker>
+                  <l>Buenos te los de Dios hija</l>
+                  <l>con esa misma eficacia.</l>
+                  <l>Has rezado ya hija mia?</l>
+                  <l>Y le has dado á Dios las gracias</l>
+                  <l>de haber llegado á este dia,</l>
+                  <l>y ver del sol la luz clara?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>Si señor, me he persignado,</l>
+                  <l>y he dado á Dios alabanzas</l>
+                  <l>con la mayor oracion,</l>
+                  <l>que reza la Iglesia Santa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Y cual es hija querida?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>No creí me preguntara usted,</l>
+                  <l>que oracion era,</l>
+                  <l>cuando con mucha eficacia</l>
+                  <l>me ha dichoque el Padre nuestro</l>
+                  <l>se llama la Oracion Magna.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Es verdad, que te lo digo,</l>
+                  <l><choice>
+                        <sic>qne</sic>
+                        <corr>que</corr>
+                     </choice> és regla de todas cuantas</l>
+                  <l>se hancompuesto y compondrán</l>
+                  <l>en toda la Iglesia sabia;</l>
+
+                  <pb n="2" source="Moreno_223_2.jpg" facs="fedora_ug8108049/full/full/0/default.jpg"/>
+
+                  <l>pero te lo pregunté</l>
+                  <l>por ver si te se olvidaba</l>
+                  <l>lo que tanto te he encargado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>Siempre la tengo en mi alma;</l>
+                  <l>porque es de honra y provecho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Quisiera, que me esplicaras</l>
+                  <l>la honra, y provecho, que tiene.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>Eso es una cosa clara,</l>
+                  <l>lo primero, que es la honra</l>
+                  <l>de que soy hija adoctada</l>
+                  <l>de aquel Señor poderoso</l>
+                  <l>dominante á todas cuantas</l>
+                  <l>cosas hay en Cielo, y tierra,</l>
+                  <l>porque es superior Monarca,</l>
+                  <l>y criador padre mio,</l>
+                  <l>que hizo todo de la nada.</l>
+                  <l>Redentor pues nos sacó</l>
+                  <l>de esclavitud tan pesada:</l>
+                  <l>su palabra fué el tesoro,</l>
+                  <l>que á todos nos dió la gracia,</l>
+                  <l>pues dió á la Iglesia las llaves,</l>
+                  <l>para abrir con manos amplias</l>
+                  <l>de los siete Sacramentos</l>
+                  <l>las puertas suaves, y anchas</l>
+                  <l>por donde se entra en el Cielo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Hija mia, basta, basta,</l>
+                  <l>que como ves que tu padre</l>
+                  <l>está en esfera tan alta,</l>
+                  <l>parece sales de tino</l>
+                  <l>con honra tan sublimada;</l>
+                  <l>y no me admiro hija mia,</l>
+                  <l>que el entendimiento pasma</l>
+                  <l>al ver que tenemos Padre,</l>
+                  <l>que con mano soberana</l>
+                  <l>hace, y desace muy justo</l>
+                  <l>cuanto quiere, y le dá gana;</l>
+                  <l>sin errar, porque no puede</l>
+                  <l>nuestro Dios errar en nada.</l>
+                  <l>Pero de que sabes tú,</l>
+                  <l>que nos ha hecho esas gracias?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>De este memorial Santo</l>
+                  <l>de la Apostólica estampa,</l>
+                  <l>que peticiones incluye,</l>
+                  <l>siete, pidiendo abundancia</l>
+                  <l>de vienes tan peregrinos,</l>
+                  <l>para el cuerpo, y para el alma.</l>
+                  <l>Las tres adorando á Dios</l>
+                  <l>con humildad muy postrada;</l>
+                  <l>y las cuatro para darnos</l>
+                  <l>todo aquello, que nos falta,</l>
+                  <l>y el remedio de los males,</l>
+                  <l>que al espiritu nos daña,</l>
+                  <l>porque la compuso Cristo</l>
+                  <l>con su ciencia soberana,</l>
+                  <l>para esperar y pedir</l>
+                  <l>cosas de mucha substancia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Todo eso es cierto hija mia,</l>
+                  <l>que Cristo con esa maxima</l>
+                  <l>nos compuso el memorial,</l>
+                  <l>para que con voces santas</l>
+                  <l>presentemos á su Padre</l>
+                  <l>todos los dias sin falta,</l>
+                  <l>diciendolo con gran fé,</l>
+                  <l>y caridad, con constancia,</l>
+                  <l>conque hija has de decirlo</l>
+                  <l>con atencion reflejada.</l>
+                  <l>Yo te pondré ahora un egemplo,</l>
+                  <l>para que capaz te hagas.</l>
+                  <l>Si fueras hablar á el Rey, </l>
+                  <l>ó algun señor de gran fama;</l>
+                  <l>á pedirle alguna cosa,</l>
+                  <l>que á ti mucho te importara:</l>
+                  <l>con qué desvelo el discurso</l>
+                  <l>cuantas cosas estudiara</l>
+                  <l>de palabras eficaces,</l>
+                  <l>respetuosas, moderadas,</l>
+                  <l>para no desagradarlo</l>
+                  <l>por ningun motivo, ó causa?</l>
+                  <l>Si puesta delante de él</l>
+                  <l>empezaras á risadas,</l>
+                  <l>á mirar aqui, y allí,</l>
+                  <l>tenderte bien á la larga,</l>
+                  <l>sentarte de medio lado,</l>
+                  <l>y hacer otras mogigangas,</l>
+                  <l>no digera aquel señor</l>
+                  <l>viendo tu poca crianza</l>
+                  <l>esa loca echarla fuera,</l>
+                  <l>y de un brazo te sacaran</l>
+
+                  <pb n="3" source="Moreno_223_3.jpg" facs="fedora_ug8108342/full/full/0/default.jpg"/>
+
+                  <l>quedabas vituperiosa,</l>
+                  <l>y nada en ello alcanzaras?</l>
+                  <l>Asimismo, hija querida,</l>
+                  <l>mira, que grande distancia</l>
+                  <l>hay de criatura, á Criador!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ha.</speaker>
+                  <l>Me ha hecho Padre fuerza tanta</l>
+                  <l>vuestro ejemplo, que prometo</l>
+                  <l>desde hoy hacer tál mudanza</l>
+                  <l>en el modo de rezarlo:</l>
+                  <l>porque es consecuencia elara,</l>
+                  <l>que conforme es el incienso,</l>
+                  <l>asi dá olor á la casa,</l>
+                  <l>en no poniendo cuidado.</l>
+                  <l>no hay cosa bien acabada.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Para ti será el provecho</l>
+                  <l>y la atencion mucho alcánza:</l>
+                  <l>pero ahora dime hija </l>
+                  <l>las peticiones habladas,</l>
+                  <l>qué es lo que piden, y como,</l>
+                  <l>y que encierran esas clausulas?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ha.</speaker>
+                  <l>En lo poco que yo entiendo</l>
+                  <l>en mi elocuencia tan parda,</l>
+                  <l>primero es amar á Dios,</l>
+                  <l>y adorarlo con luz clara,</l>
+                  <l>trino y uno verdadero,</l>
+                  <l>todos tres, una substancia;</l>
+                  <l>segundo, que venga á nos,</l>
+                  <l>y esté perpetua en el alma</l>
+                  <l>su gracia perseverante,</l>
+                  <l>y que nos dé su morada;</l>
+                  <l>tercera, resignacion</l>
+                  <l>en su voluntad Sagrada,</l>
+                  <l>porque nada nos asuste,</l>
+                  <l>que envie su mano santa.</l>
+                  <l>Estas son las tres de Dios,</l>
+                  <l>que á nuestro provecho llaman.</l>
+                  <l>La primera de las cuatro</l>
+                  <l>es pedirle la bonanza</l>
+                  <l>del sustento necesario,</l>
+                  <l>pasto del cuerpo y del alma</l>
+                  <l>pues el pan Sacramentado,</l>
+                  <l>dijo la palabra Sacra,</l>
+                  <l>que es Cristo, al dragon astuto</l>
+                  <l>con sus divinas palabras,</l>
+                  <l>no solo el pan alimenta</l>
+                  <l>al hombre: cosa tan alta!</l>
+                  <l>no solo pedimos pan,</l>
+                  <l>que al cuerpo le dé sustancía,</l>
+                  <l>sino aquel <hi rend="cursiva">Verbum Dei</hi>,</l>
+                  <l>que alimenta, y dá constancia,</l>
+                  <l>por esto todos los dias</l>
+                  <l>dice pidamos con ansia,</l>
+                  <l>porque comó conocia,</l>
+                  <l>que nuestra flaqueza humana,</l>
+                  <l>si nos diera de una vez</l>
+                  <l>todo se nos olvidara,</l>
+                  <l>quiere, que diariamente</l>
+                  <l>la necesidad nos haga</l>
+                  <l>acordarnos de aquel Dios:</l>
+                  <l>valganos su piedad magna!</l>
+                  <l>que es menester que nos fuerce!</l>
+                  <l>que ingratitud tan infausta!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Ay hija querida mia!</l>
+                  <l>que refleccion olvidada,</l>
+                  <l>sigue la otra peticion</l>
+                  <l>pidiendo perdon de cuantas</l>
+                  <l>culpas hemos cometido</l>
+                  <l>contra la deidad sagrada,</l>
+                  <l>y luego al proviso dice,</l>
+                  <l>que nos perdone las faltas</l>
+                  <l>asi como perdonamos;</l>
+                  <l>aqui tiembla la esperanza!</l>
+                  <l>que es menester perdonar,</l>
+                  <l>sin que quede dentro nada,</l>
+                  <l>puramente, sin que quede</l>
+                  <l>espiritu de venganza:</l>
+                  <l>esto es amar al projimo.</l>
+                  <l>Por eso te digo hija</l>
+                  <l>ten fijada esa palabra</l>
+                  <l>asi como perdonamos,</l>
+                  <l>porque perdones con gana</l>
+                  <l>toda injuria y toda ofensa,</l>
+                  <l>pues que Dios asi lo manda.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>Y si acaso á mi me hacen</l>
+                  <l>algun daño por desgracia,</l>
+                  <l>gravándome por la honra</l>
+                  <l>ú otra notable infamia,</l>
+                  <l>qué he de hacer en este caso?</l>
+               </sp>
+
+               <pb n="4" source="Moreno_223_4.jpg" facs="fedora_ug8110214/full/full/0/default.jpg"/>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Eso hija se propala</l>
+                  <l>con algun sugeto sabio,</l>
+                  <l>que tenga vida arreglada,</l>
+                  <l>y con maduro consejo,</l>
+                  <l>esos casos se evacuan:</l>
+                  <l>pero en todo te aconsejo,</l>
+                  <l>que mires á Cristo en cuantas</l>
+                  <l>cosas á tí te se ofrezcan.</l>
+                  <l>Mira con la gran constancia,</l>
+                  <l>que sufrió los vituperios</l>
+                  <l>por nuestro amor; qué alabanza!</l>
+                  <l>Mas te prevengo hija mia,</l>
+                  <l>que no hables una palabra</l>
+                  <l>tocante en el abandono</l>
+                  <l>del projimo, ó de su fama</l>
+                  <l>ó de otra cosa cualquiera,</l>
+                  <l>siempre hablar con moderada</l>
+                  <l>razon, ni pasar, ni no llegar;</l>
+                  <l>que si de todos bien hablas,</l>
+                  <l>nadie dirá mal de tí,</l>
+                  <l>sea delánte ni á espaldas,</l>
+                  <l>y si acaso hablaren algo</l>
+                  <l>achácatelo á tus faltas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>Dios le pague Padre amado</l>
+                  <l>los consejos que me daba,</l>
+                  <l>y le pido muy de veras</l>
+                  <l>á la Deidad Soberana</l>
+                  <l>de Dios poderoso, y Santo</l>
+                  <l>me libre en las acechanzas,</l>
+                  <l>y no nos deje caer</l>
+                  <l>de su mano Sacrosanta,</l>
+                  <l>porque el comun enemigo</l>
+                  <l>no se ria en la desgracia.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Amen, y que sea asi,</l>
+                  <l>por su Madre Sacrosanta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>Una pregunta queria</l>
+                  <l>hacer, sino se me enfada,</l>
+                  <l>Padre tengo reparado</l>
+                  <l>una cosa que es estraña,</l>
+                  <l>en todas las oraciones</l>
+                  <l>á la postre todas paran</l>
+                  <l>en pedir por Jesucristo,</l>
+                  <l>que el Padre Eterno lo haga</l>
+                  <l>y solo en el Padre nuestro</l>
+                  <l>no lo mienta, eso me para.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Como Dios todo lo sabe,</l>
+                  <l>pensamientos, y palabras,</l>
+                  <l>sabe, que su hijo fué</l>
+                  <l>el que compuso esta sabia</l>
+                  <l>oracion, y no hizo cosa,</l>
+                  <l>que no llevara ajustada</l>
+                  <l>á su santa voluntad,</l>
+                  <l>ten por cosa bien pensada,</l>
+                  <l>que no era menester,</l>
+                  <l>pues sabe, son sus palabras.</l>
+                  <l>Ahora queria yo hija,</l>
+                  <l>que me dijeras con gracia,</l>
+                  <l>todo aquello, que tu crees</l>
+                  <l>de nuestra ley soberana.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Hija.</speaker>
+                  <l>Como tengo dicho creo</l>
+                  <l>en la Trinidad Sagrada,</l>
+                  <l>tambien creo en Jesucristo,</l>
+                  <l>Dios y hombre que con ansia</l>
+                  <l>se quedó Sacramentado</l>
+                  <l>por amor á nuestras almas:</l>
+                  <l>que murió, que padeció,</l>
+                  <l>en cuanto hombre, y bajó,</l>
+                  <l>á ver á los Santos Padres,</l>
+                  <l>que su advenimiento aguardan:</l>
+                  <l>creo, que resucitó</l>
+                  <l>juntando su cuerpo y alma,</l>
+                  <l>y por su propia virtud</l>
+                  <l>subió al cielo, su morada,</l>
+                  <l>que desde allí ha de venir</l>
+                  <l>á juzgarnos, y sin faltas</l>
+                  <l>creo, que hay vida eterna</l>
+                  <l>en la bienaventuranza,</l>
+                  <l>y tambien hay muerte eterna;</l>
+                  <l>Dios nos libre de desgracia!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Pad.</speaker>
+                  <l>Dios por su misericordia</l>
+                  <l>buenos á todos nos haga,</l>
+                  <l>nos eche su bendicion</l>
+                  <l>en la ultima jornada.</l>
+               </sp>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA—1856 Imp. de D. J. M. M. calle Juan de la Cabra, núm. 5.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

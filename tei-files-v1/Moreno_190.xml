@@ -1,0 +1,785 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_190">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El Maltés de Madrid</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El Maltés de Madrid. Romance en que se declara una
+                     prision que ha sido hecha en la córte de Madrid de tres hombres y dos mujeres,
+                     por haber dado muerte á veinte y siete personas; y como se descubrió por un
+                     caballero Maltés con quien querian ejecutar lo mismo con él.</title>
+                  <title type="titulo_breve">El Maltés de Madrid.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (1858): <ref target="Moreno_191.xml">Moreno_191</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6473273</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 199</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-4</locus>
+                     <title>Primera parte</title>
+                  </msItem>
+                  <msItem>
+                     <locus>5-8</locus>
+                     <title>Segunda parte</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="3">Tres grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_190_1.xml" facs="fedora_ug8104410/303,316,356,673/100,/0/default.jpg">grabado_m_190_1</item>
+                           <item corresp="grabado_m_190_2.xml" facs="fedora_ug8104410/689,237,314,747/100,/0/default.jpg">grabado_m_190_2</item>
+                           <item corresp="grabado_m_190_3.xml" facs="fedora_ug8104410/1018,222,360,777/100,/0/default.jpg">grabado_m_190_3</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-05" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8105200/manifest">
+      <graphic url="fedora_ug8104410/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <pb n="1" source="Moreno_190_1.jpg" facs="fedora_ug8104410/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">Núm. 199.</fw>
+
+            <head rend="negrita" type="primer_titulo">EL MALTES DE MADRID.</head>
+            <head rend="cursiva" type="subtitulo">Romance en que se declara una prision que ha sido
+               hecha en la córte <lb/>de Madrid de tres hombres y dos mujeres, por haber dado muerte
+               á <lb/>veinte y siete personas; y como se descubrió por un caballero Maltés <lb/>con
+               quien querian ejecutar lo mismo con él.</head>
+
+            <div n="1" type="parte">
+
+               <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
+
+               <l rend="indent">Emperatriz de los cielos,</l>
+               <l>Madre de Dios Soberana,</l>
+               <l>concede á mi entendimiento</l>
+               <l>vuestro auxilio, vuestra gracia,</l>
+               <l>para que pueda esplicar</l>
+               <l>la crueldad mas inhumana;</l>
+               <l>y para no dilatarme,</l>
+               <l>pasemos á la sustancia.</l>
+               <l>En la córte de Madrid,</l>
+               <l>y silla régia de España</l>
+               <l>aquí asiste un caballero,</l>
+               <l>que aunque es natural de Malta,</l>
+               <l>por unos ciertos negocios</l>
+               <l>en esta córte se halla;</l>
+               <l>y por el pleito ser largo,</l>
+               <l>ha tomado asiento y casa.</l>
+               <l>Jueves Santo por la tarde,</l>
+               <l>con un criado en compaña</l>
+               <l>á visitar las Iglesias</l>
+               <l>salió, y á poca distancia,</l>
+               <l>al revolver una esquina,</l>
+               <l>encontró con una dama,</l>
+               <l>hermosa, cuanto discreta,</l>
+               <l>muy compuesta y adornada,</l>
+               <l>y una criada detrás,</l>
+               <l>que á esta señora acompaña;</l>
+               <l>llegándose al caballero,</l>
+               <l>le dice aquestas palabras:</l>
+
+               <pb n="2" source="Moreno_190_2.jpg" facs="fedora_ug8107675/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Señor, si como lo muestra</l>
+               <l>vuestro aspecto y vuestra fama,</l>
+               <l>sois noble, no dejareis</l>
+               <l>de otorgarme la demanda;</l>
+               <l>yo de mi casa he salido</l>
+               <l>sola con esta criada,</l>
+               <l>voy á andar las estaciones,</l>
+               <l>como devota cristiana,</l>
+               <l>y porque parece mal</l>
+               <l>caminar sola una dama</l>
+               <l>de mi porte, yo os suplico,</l>
+               <l>que vengais en mi compaña.</l>
+               <l>Respondió el Maltés bizarro;</l>
+               <l>pues ya que no pierdo nada,</l>
+               <l>porque yo tambien camino</l>
+               <l>á la misma circunstancia,</l>
+               <l>iré, señora, sirviendo</l>
+               <l>de norte á vuestra esperanza.</l>
+               <l>Visitaron cinco templos,</l>
+               <l>y del último en la grada</l>
+               <l>volvió el rostro el caballero,</l>
+               <l>y la dice: bella dama,</l>
+               <l>pues que ya hemos visitado</l>
+               <l>los cinco templos que manda</l>
+               <l>la iglesia para ganar</l>
+               <l>la indulgencia plenaria,</l>
+               <l>quedad con Dios, porque tengo</l>
+               <l>un cuidado de importancia.</l>
+               <l>Dijo la dama, señor,</l>
+               <l>hasta dejarme en mi casa</l>
+               <l>importa me acompañeis,</l>
+               <l>pues vuestra persona hidalga</l>
+               <l>no ha de consentir que yo</l>
+               <l>quede aquí desamparada,</l>
+               <l>porque ya va anocheciendo,</l>
+               <l>y está lejos mi posada.</l>
+               <l>A fé de ser caballero,</l>
+               <l>le fué fuerza acompañarla.</l>
+               <l>Cruzan calles y callejas,</l>
+               <l>y por fin llegan á casa,</l>
+               <l>se despide el caballero,</l>
+               <l>segunda vez y la dama</l>
+               <l>le ruega que suba arriba,</l>
+               <l>porque la merienda aguarda.</l>
+               <l>Dió el caballero disculpas</l>
+               <l>diciéndola que ayunaba:</l>
+               <l>pues suba usted, replicó,</l>
+               <l>tomará vizcochos y agua,</l>
+               <l>que no romperá el ayuno</l>
+               <l>una cosa tan liviana.</l>
+               <l>Y por no ser descortés</l>
+               <l>entró sin hablar palabra:</l>
+               <l>quedó el criado á la puerta</l>
+               <l>á esperar que su amo salga.</l>
+               <l>Subió el caballero arriba,</l>
+               <l>y en una muy rica sala,</l>
+               <l>lado por lado se sientan,</l>
+               <l>y ella mandó á la criada,</l>
+               <l>que trajese unos vizcochos,</l>
+               <l>y de buen vino una taza.</l>
+               <l>Luego que lo hubo traido,</l>
+               <l>con mil súplicas alcanza</l>
+               <l>que beba siquiera un trago,</l>
+               <l>ya que comer rehusaba.</l>
+               <l>Cuando de improviso vieron</l>
+               <l>por la puerta de la sala</l>
+               <l>entrar á tres embozados,</l>
+               <l>sin hablar una palabra.</l>
+               <l>Se empiezan á pasear</l>
+               <l>los tres juntos por la cuadra.</l>
+               <l>Esto que vió el caballero,</l>
+               <l>volvió la cara á la dama,</l>
+               <l>diciéndola: ya señora,</l>
+               <l>es hora de que me vaya.</l>
+               <l>Y secando su reloj</l>
+               <l>de plata sobredorada</l>
+               <l>ha dicho, las ocho son,</l>
+               <l>y hago gran falta en mi casa.</l>
+               <l>No seais de esa manera,</l>
+               <l>ha respondido la dama,</l>
+               <l>de nada tengais recelo,</l>
+               <l>que son criados de casa,</l>
+               <l>luego en cenando os ireis.</l>
+               <l>Y estando en estas palabras</l>
+               <l>un embozado llegó</l>
+               <l>sin descubrirse la cara,</l>
+               <l>diciendo: que buen reloj:</l>
+               <l>Veámosle camarada,</l>
+
+               <pb n="3" source="Moreno_190_3.jpg" facs="fedora_ug8109848/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>Alargó el reloj diciendo:</l>
+               <l>reloj, persona y espada,</l>
+               <l>está aquí á vuestro servicio;</l>
+               <l>y sin replicar en nada</l>
+               <l>se quedó con el reloj,</l>
+               <l>y dándoselo á la dama,</l>
+               <l>le dice: recibe, señora,</l>
+               <l>aquesta pequeña alhaja</l>
+               <l>de un criado de los tuyos.</l>
+               <l>Llegó otro diciendo: saca</l>
+               <l>caballero, si traeis</l>
+               <l>de tabaco alguna caja</l>
+               <l>y tomaremos un polvo.</l>
+               <l>Sacó una caja de plata,</l>
+               <l>tomaron todos tabaco:</l>
+               <l>pero al fin de la jornada</l>
+               <l>hicieron la misma accion,</l>
+               <l>pues luego pasó la caja</l>
+               <l>á acompañar al reloj</l>
+               <l>á las manos de la dama.</l>
+               <l>Viéndose el buen caballero</l>
+               <l>en confusion tan estraña,</l>
+               <l>con el corazon pedia</l>
+               <l>á la Vírgen soberana</l>
+               <l>del Cármen, que lo librase</l>
+               <l>de aquella infame canalla.</l>
+               <l>Y les dice: amigos mios,</l>
+               <l>mucho estimára en el alma,</l>
+               <l>que ustedes me den licencia,</l>
+               <l>que es tarde y hago gran falta,</l>
+               <l>que tengo que despachar</l>
+               <l>para mi tierra unas cartas.</l>
+               <l>Le dijo con disimulo</l>
+               <l>un embozado á la dama:</l>
+               <l>si ahora le parece tarde,</l>
+               <l>mas tarde será mañana:</l>
+               <l>y los otros dos le dicen:</l>
+               <l>caballero, si mi ama</l>
+               <l>gusta de que usted se quede</l>
+               <l>á cenar en su compaña,</l>
+               <l>nada pierde usted en ello,</l>
+               <l>no hay que replicar palabra,</l>
+               <l>que aqui se otorga por fuerza</l>
+               <l>lo que no se hace por gana.</l>
+               <l>Viendo aquesto el caballero</l>
+               <l>de esta manera les habla:</l>
+               <l>pues ya que quedo, señora,</l>
+               <l>á cenar en su compaña,</l>
+               <l>un gusto me habeis de hacer,</l>
+               <l>y es, que tengo en mi casa</l>
+               <l>un buen vino, de un presente,</l>
+               <l>que recibí esta mañana,</l>
+               <l>mejor que este que teneis,</l>
+               <l>y es mi gusto que se traiga,</l>
+               <l>y así si quereis, llamad</l>
+               <l>á mi criado, y que vaya, </l>
+               <l>porque una poca de mistela</l>
+               <l>juntamente con él traiga</l>
+               <l>que para estas ocasiones</l>
+               <l>tambien la tengo guardada,</l>
+               <l>llamar arriba al criado,</l>
+               <l>por escusar que bajara</l>
+               <l>el amo, y le diera cuenta</l>
+               <l>de lo que allí le pasara.</l>
+               <l>Le dice el amo al criado:</l>
+               <l>anda, ve ligero á casa,</l>
+               <l>y en la papelera grande</l>
+               <l>allí encontrarás tapadas</l>
+               <l>dos redomas de mistela;</l>
+               <l>y mas abajo en el arca</l>
+               <l>cuatro encontrarás de vino,</l>
+               <l>toma las llaves y marcha;</l>
+               <l>tráelas, y ven lijero,</l>
+               <l>que la cena nos aguarda.</l>
+               <l>Al tiempo de dar las llaves,</l>
+               <l>sin que nadie lo notara</l>
+               <l>le apretó el amo la mano</l>
+               <l>con una fuerza estremada.</l>
+               <l>Novedad le hizo al criado</l>
+               <l>ver esta accion nunca usada,</l>
+               <l>y tambien ver los tres hombres</l>
+               <l>que embozados se paseaban.</l>
+               <l>Se fué á su casa lijero,</l>
+               <l>y abriendo al instante el arca</l>
+               <l>en busca de las redomas,</l>
+               <l>halló que solo allí estaban</l>
+               <l>cuatro fuertes carabinas,</l>
+               <l>y á la papelera marcha.</l>
+
+               <pb n="4" source="Moreno_190_4.jpg" facs="fedora_ug8109063/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>dondo halló un par de pistolas:</l>
+               <l>pasmado quedo, al mirarlas,</l>
+               <l>porque al instante pensó,</l>
+               <l>que su amo en aprieto se halla.</l>
+               <l>Salió á la calle ligero</l>
+               <l>cargado de todas armas;</l>
+               <l>encontró con un soldado,</l>
+               <l>que era grande camarada</l>
+               <l>de su amo, y le dió cuenta</l>
+               <l>de todo lo que le pasa.</l>
+               <l>Se partieron los dos juntos</l>
+               <l>donde está el cuerpo de guardia.</l>
+               <l>Dieron cuenta á su oficial,</l>
+               <l>el cual al instante manda,</l>
+               <l>que vayan diez granaderos</l>
+               <l>con bayoneta calada.</l>
+               <l>Todos á la casa llegan</l>
+               <l>el criado á la puerta llama,</l>
+               <l>bajó la criada abrirle,</l>
+               <l>y así que abre, la agarran,</l>
+               <l>diciendo: calla, si no,</l>
+               <l>la muerte tienes cercana,</l>
+               <l>y asi con grande sigilo,</l>
+               <l>todos suben á la sala,</l>
+               <l>si no dos que se quedaron</l>
+               <l>abajo de retaguardia.</l>
+               <l>Entran á tiempo que ya</l>
+               <l>aquella infame canalla,</l>
+               <l>al pobre del caballero</l>
+               <l>las manos atras atadas,</l>
+               <l>tendido en el duro suelo</l>
+               <l>lo tenian y esperaban</l>
+               <l>á que el criado viniese,</l>
+               <l>para que le acompañara</l>
+               <l>en la muerte, y al instante</l>
+               <l>con valentia bizarra,</l>
+               <l>se arrojan los granaderos,</l>
+               <l>sin darles pié de ventaja.</l>
+               <l>A todos tres aprisionan,</l>
+               <l>tambien á la falsa dama:</l>
+               <l>soltaron al caballero,</l>
+               <l>que á todos les dió las gracias.</l>
+               <l>Empiezan luego á mirar</l>
+               <l>todos los cuartos y salas,</l>
+               <l>por ver si habia mas gente;</l>
+               <l>pero no encontraron nada.</l>
+               <l>Solo encuentran una puerta</l>
+               <l>con dos candados cerrada;</l>
+               <l>les piden que dén las llaves,</l>
+               <l>y ellos por respuesta daban</l>
+               <l>que no se manda aquel cuarto;</l>
+               <l>que es de la vecina casa.</l>
+               <l>Los candados arrancaron,</l>
+               <l>y al suelo la puerta echada,</l>
+               <l>todos se quedan confusos.</l>
+               <l>viendo lo que dentro hallan:</l>
+               <l>pues es cosa que horroriza</l>
+               <l>solamente de contarla,</l>
+               <l>en tres artesas tenian</l>
+               <l>cubiertos de sal y agua</l>
+               <l>á seis racionales cuerpos:</l>
+               <l>y mirando bien la cuadra.</l>
+               <l>encontraron de otros seis</l>
+               <l>solamente las estátuas</l>
+               <l>arrimadas á un rincon</l>
+               <l>con una estera tapadas.</l>
+               <l>A la justicia le avisan,</l>
+               <l>y acuden con vigilancia,</l>
+               <l>llevan á los reos presos,</l>
+               <l>luego los señores mandan,</l>
+               <l>que aquellos difuntos cuerpos</l>
+               <l>se les dé tierra sagrada,</l>
+               <l>y que á los reos los carguen</l>
+               <l>de prisiones muy pesadas,</l>
+               <l>donde esperen por instantes</l>
+               <l>que se sustancie la causa.</l>
+               <l>Con esto Muñoz ofrece,</l>
+               <l>luego que esté sustanciada,</l>
+               <l>y se ejecute el castigo,</l>
+               <l>de daros relacion larga</l>
+               <l>en otra segunda parte,</l>
+               <l>podonando á este las faltas</l>
+               <trailer>FIN DE LA PRIMERA PARTE.</trailer>
+            </div>
+
+            <div n="2" type="parte">
+
+               <pb n="5" source="Moreno_190_5.jpg" facs="fedora_ug8110016/full/full/0/default.jpg"/>
+
+               <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
+               <head rend="negrita" type="primer_titulo">EL MALTES DE MADRID.</head>
+
+               <l rend="indent">Ya dije en la primera parte,</l>
+               <l>discreto auditorio mio,</l>
+               <l>como el bizarro maltés,</l>
+               <l>se libertó del peligro</l>
+               <l>por medio de su criado,</l>
+               <l>como queda referido;</l>
+               <l>y tambien como los reos</l>
+               <l>entre cadenas y grillos</l>
+               <l>quedaron depositados,</l>
+               <l>y en la cárcel metidos;</l>
+               <l>y asi presten atencion,</l>
+               <l>oirán el fin que han tenido.</l>
+               <l>Al instante que quedaron</l>
+               <l>de la manera que digo,</l>
+               <l>vuelven los alguaciles</l>
+               <l>como les toca de oficio,</l>
+               <l>á entregarse de los bienes</l>
+               <l>de los reos; y al proviso</l>
+               <l>empiezan luego á mirar,</l>
+               <l>cuartos, salas y retiros,</l>
+               <l>sin que deje su atencion</l>
+               <l>el rincon mas escondido.</l>
+               <l>Hallaron dentro de un arca</l>
+               <l>muchas galas y vestidos;</l>
+               <l>luego en un cofre encontraron</l>
+               <l>joyas, diamantes, záfiros,</l>
+               <l>muchos relojes de plata,</l>
+               <l>cajas, cadenas, cintillos,</l>
+               <l>espadines, encomiendas,</l>
+               <l>y en un labrado bolsillo,</l>
+               <l>gran cantidad de dinero</l>
+               <l>en plata y en oro fino;</l>
+               <l>y los demás bienes muebles,</l>
+               <l>por no parecer prolijo,</l>
+               <l>de todo se hizo embargo,</l>
+               <l>con aquellos requisitos,</l>
+               <l>que se requiere, y buscando</l>
+               <l>un caballero vecino,</l>
+               <l>lo hicieron depositario</l>
+               <l>de todo lo referido.</l>
+               <l>Pasan despues á tomar</l>
+               <l>declaracion á vecinos:</l>
+               <l>unos dicen que no saben,</l>
+               <l>otros dicen que no han visto,</l>
+               <l>y viendo que asi no pueden</l>
+               <l>hallar de nada testigos,</l>
+               <l>dejan pasar cuatro dias,</l>
+               <l>y despues el dia cinco</l>
+               <l>les toman declaracion</l>
+               <l>á los presos con sigilo.</l>
+               <l>Pero todos los cinco niegan</l>
+               <l>temerosos del castigo,</l>
+               <l>diciendo: que ellos no saben</l>
+               <l>por qué causa ó qué delitos</l>
+               <l>los tenian allí presos.</l>
+               <l>Y por los señores visto</l>
+
+               <pb n="6" source="Moreno_190_6.jpg" facs="fedora_ug8106214/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>los pertinaces que están,</l>
+               <l>ponen un verdugo listo,</l>
+               <l>para que por fuerza canten</l>
+               <l>lo que por bien no han querido.</l>
+               <l>Sacan la dama primero,</l>
+               <l>como causa del delito,</l>
+               <l>la ponen en el tormento,</l>
+               <l>y manda que haga su oficio</l>
+               <l>el verdugo: y al instante,</l>
+               <l>que dió el instrumento fino</l>
+               <l>cuatro vueltas de clavija,</l>
+               <l>tambien templado se vido,</l>
+               <l>que sonó bien la vigüela,</l>
+               <l>pues luego al instante ha dicho:</l>
+               <l>yo confesaré, señores;</l>
+               <l>suéltenme por Jesucristo</l>
+               <l>afloja luego las cuerdas</l>
+               <l>del cáñamo retorcido,</l>
+               <l>empezó su confesion</l>
+               <l>con lágrimas y suspiros,</l>
+               <l>diciendo: sepan señores,</l>
+               <l>asi mi historia principio,</l>
+               <l>que mi nombre es Leonarda,</l>
+               <l>y Robles por apellido.</l>
+               <l>Nací en la noble Antequera,</l>
+               <l>que mejor hubiera sido</l>
+               <l>no nacer, para no verme</l>
+               <l>en el puesto que me miro.</l>
+               <l>Por la muerte de mis padres,</l>
+               <l>en casa de un tio mio</l>
+               <l>me crié, sin que pudiese</l>
+               <l>con alhagos, ni castigos,</l>
+               <l>corregir el corazon</l>
+               <l>mi natural tan altivo.</l>
+               <l>Llegué á cumplir quince abriles, </l>
+               <l>y entregándome á los vicios,</l>
+               <l>en casa de una vecina</l>
+               <l>lograba mis apetitos.</l>
+               <l>Llegó un caballero un dia,</l>
+               <l>muy arrogante y lucido,</l>
+               <l>que es el uno de los tres</l>
+               <l>que aquí está preso conmigo,</l>
+               <l>me dijo como á Madrid</l>
+               <l>venia con dos amigos,</l>
+               <l>á tratar unos negocios,</l>
+               <l>que si gustaba seguirlo,</l>
+               <l>que todo cuanto mandara</l>
+               <l>estaria á mi servicio.</l>
+               <l>Yo entonces considerando,</l>
+               <l>que si sabia mi tio</l>
+               <l>el mal modo de mi vida,</l>
+               <l>corria mucho peligro,</l>
+               <l>dije al instante que sí:</l>
+               <l>y una noche nos salimos</l>
+               <l>con sigilo, y caminamos</l>
+               <l>por entre montes y riscos,</l>
+               <l>y por escusadas sendas</l>
+               <l>siempre huyendo del camino.</l>
+               <l>Asi á esta corte llegamos,</l>
+               <l>en donde habrá que vivimos</l>
+               <l>doce años, sin tener</l>
+               <l>hacienda, renta; ni oficio.</l>
+               <l>Para mantener el fausto</l>
+               <l>á mi hermosura debido,</l>
+               <l>como era fuerza buscarle,</l>
+               <l>ordenamos este arbitrio.</l>
+               <l>Saliendo yo muy compuesta</l>
+               <l>de joyas y de vestidos,</l>
+               <l>para traer á mi casa,</l>
+               <l>de mi belleza rendidos</l>
+               <l>muchos nobles caballeros,</l>
+               <l>estranjeros y patricios;</l>
+               <l>y luego que dentro estaban,</l>
+               <l>ya mi fingido marido,</l>
+               <l>y los otros compañeros</l>
+               <l>esperaban prevenidos,</l>
+               <l>y quitándoles las vidas,</l>
+               <l>dineros, joyas, vestidos,</l>
+               <l>de esta manera pagaban</l>
+               <l>el fino cariño mio.</l>
+               <l>Luego los difuntos cuerpos,</l>
+               <l>por escusar el fastidio</l>
+               <l>del mal olor, en la sal</l>
+               <l>por cuatro dias ó cinco</l>
+               <l>los echan, y despues</l>
+               <l>de secos y consumidos,</l>
+               <l>se iban de noche sacando,</l>
+               <l>y se tiraban al rio;</l>
+
+               <pb n="7" source="Moreno_190_7.jpg" facs="fedora_ug8108761/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l>de esta suerte hemos muerto</l>
+               <l>veinte y seis hombres y un niño,</l>
+               <l>que entró tambien con su padre</l>
+               <l>convidado al homicidio.</l>
+               <l>Un indiano fué el primero,</l>
+               <l>que solamente el vestido</l>
+               <l>valia muchos reales,</l>
+               <l>y el dinero del bolsillo</l>
+               <l>pasaba su cantidad</l>
+               <l>de mil doblas de oro fino.</l>
+               <l>Fué el segundo que murió</l>
+               <l>un bizarro granadino:</l>
+               <l>matamos á dos malteses,</l>
+               <l>seis portugueses altivos,</l>
+               <l>dos franceses y un navarro;</l>
+               <l>y á don Pedro de Mondreguillo,</l>
+               <l>teniente de capitan</l>
+               <l>del regimiento lucido</l>
+               <l>de Rosellón, que á Madrid</l>
+               <l>de recluta habia venido.</l>
+               <l>Los demás son madrileños</l>
+               <l>y con esto ha concluido</l>
+               <l>su declaracion pidiendo,</l>
+               <l>justicia por su delito.</l>
+               <l>La quitaron del tormento,</l>
+               <l>y todos los que han oido</l>
+               <l>su relacíon, se quedaron</l>
+               <l>confusos y pensativos,</l>
+               <l>sacan despues al galan,</l>
+               <l>y puesto en el mismo sitio,</l>
+               <l>al instante confesó</l>
+               <l>las muertes y latrocinios,</l>
+               <l>con todas las circunstancias</l>
+               <l>como arriba queda dicho.</l>
+               <l>Luego los dos compañeros</l>
+               <l>han declarado lo mismo,</l>
+               <l>y la criada tambien</l>
+               <l>confesó lo que habia visto</l>
+               <l>en cuatro meses que estaba</l>
+               <l>en la casa de servicio.</l>
+               <l>Y visto por los señores</l>
+               <l>el proceso concluido,</l>
+               <l>y no hallando entre los reos</l>
+               <l>apóstatas ni judíos,</l>
+               <l>hereges ni luteranos,</l>
+               <l>y viendo que solo han sido</l>
+               <l>motivada de interés</l>
+               <l>las muertes que han cometido,</l>
+               <l>y que en nada pertenece</l>
+               <l>á su brazo estos delitos,</l>
+               <l>los entregan al Consejo</l>
+               <l>donde fueron recibidos</l>
+               <l>en una cárcel de córte,</l>
+               <l>y les toman al proviso</l>
+               <l>segunda declaracion;</l>
+               <l>todos confiesan lo mismo,</l>
+               <l>volviendo á ratificarse</l>
+               <l>en lo primero que han dicho.</l>
+               <l>Los señores del Consejo</l>
+               <l>pasmados quedan de oirlo;</l>
+               <l>les fiscalizan la causa,</l>
+               <l>y del Consejo ha salido,</l>
+               <l>que primero por las calles</l>
+               <l>á los cuatro arrastren vivos,</l>
+               <l>ahorcándolos despues,</l>
+               <l>y que en cuartos divididos</l>
+               <l>sus cuerpos para escarmiento</l>
+               <l>se pongan por los caminos;</l>
+               <l>y á la criada la saquen</l>
+               <l>en pago del buen servicio,</l>
+               <l>emplumada, y con doscientos</l>
+               <l>que pague lo merecido.</l>
+               <l>Les leyeron la sentencia,</l>
+               <l>y luego los han metido</l>
+               <l>en la capilla, y allí</l>
+               <l>confesados y contritos</l>
+               <l>estuvieron los tres dias;</l>
+               <l>y viendo que se ha cumplido,</l>
+               <l>el término de sus vidas,</l>
+               <l>no hay corazon diamantino,</l>
+               <l>que no se enternezca al ver</l>
+               <l>los actos de amor divino</l>
+               <l>que hacian pidiendo á Dios</l>
+               <l>les perdone sus delitos.</l>
+               <l>El dia cuatro de Julio,</l>
+               <l>en unas sarrias metidos</l>
+               <l>los sacaron de la cárcel,</l>
+               <l>y de caridad movidos</l>
+
+               <pb n="8" source="Moreno_190_8.jpg" facs="fedora_ug8109747/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>los religiosos los llevan</l>
+               <l>en el aire suspendidos,</l>
+               <l>con grande acompañamiento</l>
+               <l>de guardas y de ministros;</l>
+               <l>pasean todas las calles,</l>
+               <l>y asi llegan al suplicio.</l>
+               <l>Los sacan de los serones</l>
+               <l>y agarrando un Crucifijo</l>
+               <l>Leonarda con gran valor</l>
+               <l>con el corazon contrito</l>
+               <l>le dice: dueño del alma,</l>
+               <l>Criador y padre mio,</l>
+               <l>me pesa por ser quien sois.</l>
+               <l>Y con todo lo han subido</l>
+               <l>á lo alto de la escalera;</l>
+               <l>luego atencion ha pedido</l>
+               <l>á todos los circunstantes,</l>
+               <l>y de esta manera ha dicho;</l>
+               <l>mujeres las que en el mundo</l>
+               <l>estais en sano juicio,</l>
+               <l>amad de veras á Dios,</l>
+               <l>no divertais los sentidos</l>
+               <l>en las cosas de la tierra,</l>
+               <l>mirad el fin que ha tenido,</l>
+               <l>y el pago que á mí me han dado</l>
+               <l>mis lascivos apetitos.</l>
+               <l>Hombres que mirais atentos</l>
+               <l>á estos compañeros mios,</l>
+               <l>escarmentad, pues, en ellos</l>
+               <l>hermanas y hermanos mios,</l>
+               <l>á todos pido perdon,</l>
+               <l>y volviendo al Santo Cristo,</l>
+               <l>le dice: rey poderoso,</l>
+               <l>¡quien nunca hubiera nacido</l>
+               <l>para ofenderte, Señor!</l>
+               <l>pero yo apelo al abismo</l>
+               <l>de vuestra misericordia,</l>
+               <l>y en vuestra clemencia fio,</l>
+               <l>que me habeis de perdonar</l>
+               <l>lo mucho que os he ofendido:</l>
+               <l>y los santos religiosos,</l>
+               <l>con fervorosos auxilios,</l>
+               <l>la encienden el corazon,</l>
+               <l>que mueve á llanto el oirlos.</l>
+               <l>Empezó á decir el Credo,</l>
+               <l>y llegando á UNico niyo,</l>
+               <l>de la escalera le arrojan,</l>
+               <l>y quedó cadáver frio,</l>
+               <l>dando muestra de que fué</l>
+               <l>á gozar del paraiso;</l>
+               <l>y el mismo arrepentimiento</l>
+               <l>los tres hombres han tenido.</l>
+               <l>Cinco horas los tuvieron</l>
+               <l>en la horca suspendidos,</l>
+               <l>y despues los hicieron cuartos</l>
+               <l>y en los reales caminos,</l>
+               <l>con duros clavos de hierro</l>
+               <l>los fueron dejando fijos,</l>
+               <l>para escarmiento de todos,</l>
+               <l>forasteros y vecinos;</l>
+               <l>y la criada azotada,</l>
+               <l>con sus plumas ha salido</l>
+               <l>desterrada de la córte</l>
+               <l>del Rey de España Filipo.</l>
+               <trailer rend="cursiva">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. y lib. de don José M. Moreno, Madre de Dios, 1. </p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

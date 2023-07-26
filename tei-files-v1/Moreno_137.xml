@@ -1,0 +1,494 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_137">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta discreta y amorosa</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Carta discreta y amorosa. dispuestu en quintillas,
+                     de un galan á su dama, que viéndola enojada y desviada de su cariño, procura
+                     atraer de nuevo su amor, disculpándose de las causas que la dió para
+                     enojarla.</title>
+                  <title type="titulo_breve">Carta discreta y amorosa.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6470753</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Dos partes</summary>
+                  <msItem>
+                     <locus>1-3</locus>
+                     <title>[Primera parte]</title>
+                  </msItem>
+                  <msItem>
+                     <locus>3-4</locus>
+                     <title>Respuesta discreta á la amorosa carta del galan, manifestándole la dama
+                        su esquivez y de su amor quejándose airada de su infiel trato; y diciendole
+                        que la olvide para siempre porque ella detesta su amor: con lo demás gue
+                        vera el curioso lector.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_137_1" facs="fedora_ug8109128/482,312,336,729/100,/0/default.jpg">grabado_m_137_1</item>
+                           <item corresp="grabado_m_137_2" facs="fedora_ug8109128/821,303,340,741/100,/0/default.jpg">grabado_m_137_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX5491920.html" type="tipo_texto">Cartas</term>
+               <term type="tipo_estrofa">Quintillas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-26" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103835/manifest">
+      <graphic url="fedora_ug8109128/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+
+            <div type="parte">
+
+               <pb n="1" source="Moreno_137_1.jpg" facs="fedora_ug8109128/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Número 144.)</fw>
+
+               <head rend="negrita" type="primer_titulo">CARTA DISCRETA Y AMOROSA.</head>
+               <head rend="cursiva" type="subtitulo">dispuestu en quintillas, de un galan á su dama,
+                  que viéndola enojada <lb/>y desviada de su cariño, procura atraer de nuevo su
+                  amor, disculpán- <lb/>dose de las causas que la dió para enojarla </head>
+
+               <l rend="indent">Pajarillo que volando</l>
+               <l>surcas el viento ligero,</l>
+               <l>aqui te estoy aguardando,</l>
+               <l>que has da ser el mensagero</l>
+               <l>de un alma que está penando.</l>
+               <l rend="indent">Este papel con cuídado</l>
+               <l>has de llevar en el pico</l>
+               <l>á mi dueño idolatrado,</l>
+               <l>á advierte que te suplico</l>
+               <l>se lo des disimulado.</l>
+               <l rend="indent">No te has de sobresaltar,</l>
+               <l>sino con tu discrecion</l>
+               <l>trátala de suavizar,</l>
+               <l>dila, que de mi pasion</l>
+               <l>jamás llegue á dudar.</l>
+               <l rend="indent">Si la encontrares dormida</l>
+               <l>no la interrumpas el sueño,</l>
+               <l>que aunque de dolor rendida</l>
+               <l>es siempre el único dueño</l>
+               <l>de mi alma y de mi vida.</l>
+               <l rend="indent">Llega rendido á sus pies,</l>
+               <l>háblala con mucho tiento,</l>
+               <l>y con tu vista, cortés,</l>
+               <l>observa los movimientos</l>
+               <l>para que aviso me dés,</l>
+               <l rend="indent">Si pone alegre el semblante</l>
+               <l>cuando le digas mi amor,</l>
+               <l>vente volando al instante,</l>
+               <l>no aguardes á mas favor,</l>
+               <l>que esto para mi es bastante.</l>
+               <l rend="indent">Si demuestra algun enfado,</l>
+               <l>ó la vieres desdeñosa</l>
+               <l>¿por qué he de ser el culpado?</l>
+               <l>¿porque ha de estar rigurosa</l>
+               <l>con quien motivo no ha dado?</l>
+               <l rend="indent">Pero no, no se lo digas;</l>
+               <l>dila que su mano espero,</l>
+               <l>dila que tengo fatigas,</l>
+               <l>en fin, dila que la quiero,</l>
+               <l>y si es su gusto prosigas.</l>
+               <l rend="indent">Si muestra su indignacion</l>
+               <l>porque con otra deídad</l>
+
+               <pb n="2" source="Moreno_137_2.jpg" facs="fedora_ug8105541/full/full/0/default.jpg"/>
+
+               <l>me encontró en conversacion</l>
+               <l>di que fué casualidad,</l>
+               <l>y una mera atencion,</l>
+               <l rend="indent">Mas sino obstante te estrecha</l>
+               <l>aquel rostro perégrino:</l>
+               <l>con su fundada sospecha,</l>
+               <l>no te pongas en camino</l>
+               <l>sin dejarla satisfecha.</l>
+               <l rend="indent">Dila que suspiro y lloro,</l>
+               <l>dila que vivo muriendo,</l>
+               <l>dila que no mejoro,</l>
+               <l>dila que estoy padéciendo,</l>
+               <l>porque la quiero y la adoro</l>
+               <l rend="indent">Si niega el conocimiento,</l>
+               <l>porque no me despedí,</l>
+               <l>dila que mi sentimiento</l>
+               <l>me puso fuera de mí</l>
+               <l>con la fuerza del tormento,</l>
+               <l rend="indent">Dila que siendo tan bella</l>
+               <l>que me remita el perdon,</l>
+               <l>que se anubló mi estrella,</l>
+               <l>y no tuve corazon</l>
+               <l>para despedirme de ella.</l>
+               <l rend="indent">Si porque yo estoy ausen te</l>
+               <l>piensa que la he olvidado,</l>
+               <l>dila que mi amor valiente:</l>
+               <l>aun cuando mas retirado.</l>
+               <l>la conservo mas presente,</l>
+               <l rend="indent">Mas si de ti se desvia:</l>
+               <l>dila de cuando me hablaba, </l>
+               <l>se acuerde que me decia;</l>
+               <l>que si yo no la faltaba</l>
+               <l>ella no me olvidaria.</l>
+               <l rend="indent">Si dice que me olvidó</l>
+               <l>por consejos que la daban,</l>
+               <l>¿para que me aseguró</l>
+               <l>que los montes se mudahan</l>
+               <l>pero su firmeza no?</l>
+               <l rend="indent">Qué se ha hecho aquel citarme,</l>
+               <l>aquel suspirar por verme,</l>
+               <l>aquel deseo de hablarme,</l>
+               <l>aquel morir por quererme</l>
+               <l>y aquel sentir por nombrarme?</l>
+               <l rend="indent">Si acaso ya se ha cansado</l>
+               <l>de mi amistad cariñosa,</l>
+               <l>¿por qué he de ser el culpabo?</l>
+               <l>por qué ha de estar rigurosa</l>
+               <l>con quien causa no le ha dado?</l>
+               <l rend="indent">Si contrarmi sus enojos</l>
+               <l>rayos quieren espeler,</l>
+               <l>para ser de ellos despojos,</l>
+               <l>dila que no es menester</l>
+               <l>mas rayos que sus dos ojos.</l>
+               <l rend="indent">Si dice que soy tirano</l>
+               <l>porque no la fuí á ver</l>
+               <l>aquel dia mas temprano,</l>
+               <l>dila que tuve que hacer,</l>
+               <l>y que no estuvo en mi mano.</l>
+               <l rend="indent">Si me niega sus piedades</l>
+               <l>por una sola aprension,</l>
+               <l>dila que no es de deidades,</l>
+               <l>sin pedir satisfacion,</l>
+               <l>castigar con crueldades.</l>
+               <l rend="indent">Dila que estoy abatido</l>
+               <l>á su hormosa bizarria;</l>
+               <l>y pues me vé dolorido,</l>
+               <l>dila que no es valentia</l>
+               <l>dar golpes á un rendido.</l>
+               <l rend="indent">Dila que firme la amé, </l>
+               <l>dila qne la dí la llave</l>
+               <l>de mi amor y de mi fé, </l>
+               <l>y en fin dila que bien sabe</l>
+               <l>lo que por ella pasé.</l>
+               <l rend="indent">Dila qué me desengañe</l>
+               <l>de aquesta pasion tan dura</l>
+               <l>dila que soy yo su amante,</l>
+               <l>y en fin que no tenga duda</l>
+               <l>que siempre he de ser constante.</l>
+               <l>Si con otro idolatraba</l>
+               <l>lo que conmigo fingia,</l>
+               <l>¿como no me declaraba</l>
+               <l>de que ya no me queria,</l>
+               <l>y que el verme la enfadaba?</l>
+               <l rend="indent">Dila que yo no creyera</l>
+               <l>que se cambiara mi suerte:</l>
+               <l>¡ojalá que así no fuera!</l>
+               <l>la que fué vida ya es muerte,</l>
+               <l>y la que paloma fiera.</l>
+               <l>Dila que allá en su crisol</l>
+               <l>ayer labre mi fortuna,</l>
+               <l>y hoy con triste arrebol</l>
+               <l>me quedo como la luna</l>
+               <l>nunca encontrando su sol.</l>
+               <l rend="indent">Dila que en este papel</l>
+               <l>va todo mi corazon,</l>
+               <l>y que al fin es darla en el</l>
+
+               <pb n="3" source="Moreno_137_3.jpg" facs="fedora_ug8103382/full/full/0/default.jpg"/>
+
+               <l>entera satisfacion</l>
+               <l>para no verla cruel,</l>
+               <l rend="indent">Dila que estoy esperando</l>
+               <l>en este mal que me abrasa,</l>
+               <l>que me vaya recetando</l>
+               <l>algun cordial de esperanza</l>
+               <l>porque ya estoy espirando.</l>
+               <l rend="indent">Si en su furía tan notoriá</l>
+               <l>te niega un alago tierno,</l>
+               <l>dila que tenga memoria,</l>
+               <l>que si ahora soy su infierno,</l>
+               <l>algun dia fuí su gloria.</l>
+               <l rend="indent">Dila que en mi sepultura</l>
+               <l>escriba de esta suerte:</l>
+               <l>«aquí yace y se asegura</l>
+               <l>un amante a quien dió muerte</l>
+               <l>una cruel hermosura.»</l>
+               <l rend="indent">Dila.... mas! ¿qué has de decirla?</l>
+               <l>que en vista de lo espresado</l>
+               <l>solo quieres referirla,</l>
+               <l>que si vivo á su mandodo,</l>
+               <l>muero por solo servirla:</l>
+               <l rend="indent">Vete vuela, y en paz llegues</l>
+               <l>á los ojos de mi vida,</l>
+               <l>nada que pida le niegues,</l>
+               <l>y si estuviere rendida,</l>
+               <l>suplícote que la ruegues.</l>
+               <l rend="indent">A Dios: centro de idea,</l>
+               <l>si consiguieres la palma,</l>
+               <l>ven, canta, trina y gorjea</l>
+               <l>para que te escuche el alma</l>
+               <l>aun antes de que te vea.</l>
+            </div>
+
+            <div type="parte">
+
+               <head rend="cursiva" type="titulo_parte">Respuesta discreta á la amorosa carta del
+                  galan, manifestándole la <lb/>dama su esquivez y de su amor quejándose airada de
+                  su infiel trato; y <lb/>diciendole que la olvide para siempre porque ella detesta
+                  su amor: <lb/>con lo demás gue vera el curioso lector. </head>
+
+               <l rend="indent">Pajarillo que enseñado</l>
+               <l>de otro pájaro maestro,</l>
+               <l>vienes á implorar mi agrado;</l>
+               <l>mira que aunque cantas diestro,</l>
+               <l>no me gusta tu trinado.</l>
+               <l rend="indent">Este papel sin cuidado</l>
+               <l>has de llevar en el pico</l>
+               <l>al mismo que te ha mandado;</l>
+               <l>y advierte que te suplico</l>
+               <l>no lo des disimulado.</l>
+               <l rend="indent">No lo intentes consolar,</l>
+               <l>sino con irritacion</l>
+               <l>procúralo atormentar;</l>
+               <l>dile que mi inclinacion</l>
+               <l>se ha mudado á otro lugar:</l>
+               <l rend="indent">Que con su nueva querida</l>
+               <l>se divierta y se consuele,</l>
+               <l>que la cante y que la pida,</l>
+               <l>y á mi tribunal no apele;</l>
+               <l>porque estoy muy ofendida.</l>
+               <l rend="indent">Si le encontrares dormido</l>
+               <l>procura quitarle el sueño,</l>
+               <l>y dile aunque esté rendido,</l>
+               <l>que si tiene ya otro dueño</l>
+               <l>yo ya tengo otro querido.</l>
+               <l rend="indent">Este recado le des</l>
+               <l>aunque le inquietes y asustes,</l>
+               <l>porque lo que quiero es</l>
+               <l>que le ofendas y disgustes,</l>
+               <l>y no te mande otra vez.</l>
+               <l rend="indent">Si tu quieres ser mi amigo</l>
+               <l>nada suyo tú me abones,</l>
+               <l>y pues eres fiel testigo,</l>
+               <l>dile todas mis razones</l>
+               <l>conforme yo te las digo.</l>
+               <l rend="indent">Si pone triste el semblante</l>
+               <l>cuando sepa mi rigor;</l>
+               <l>dile que sufra y aguante,</l>
+               <l>y espere muerte mayor</l>
+               <l>si se me pone delante,</l>
+               <l rend="indent">Dile que vivo y no muero, </l>
+               <l>y aunque mas tierno me arguya,</l>
+               <l>que ya ni mirarle espero;</l>
+               <l>y en fin; para que se escluya </l>
+               <l>dile que ya no le quiero, </l>
+               <l rend="indent">Dile que sin que de él te apiades,</l>
+               <l>que el tratar á su placer</l>
+               <l>con unas y otras deidades</l>
+               <l>no quiera hacerme creer</l>
+               <l>de que son casualidades.</l>
+               <l rend="indent">El con mucha libertad</l>
+               <l>con todas quiere ligarse</l>
+
+               <pb n="3" source="Moreno_137_3.jpg" facs="fedora_ug8103382/full/full/0/default.jpg"/>
+
+               <l>ofendiendo mí bondad,</l>
+               <l>y luego quiere escusarse,</l>
+               <l>con que fué casualidad.</l>
+               <l rend="indent">El que con toda maldad</l>
+               <l>ha estado entrando y saliendo</l>
+               <l>en casa de una deidad</l>
+               <l>á quien está manteniendo,</l>
+               <l>¿es esto casualidad?</l>
+               <l rend="indent">El que enfrente de un balcon</l>
+               <l>se esta en pie mas de una hora</l>
+               <l>en larga conversacion</l>
+               <l>con una cierta señora.</l>
+               <l>¿es esto mera atencion?</l>
+               <l rend="indent">Al que sin necesidad</l>
+               <l>todas las noches se encuentra</l>
+               <l>como alcalde de hermandad.</l>
+               <l>aquí sale y allí entra,</l>
+               <l>¿es esto casualidad?</l>
+               <l rend="indent">En tomando el su baston,</l>
+               <l>y con la que vive enfrente,</l>
+               <l>se marcha por San Anton,</l>
+               <l>y sale con ella al puente,</l>
+               <l>¿es esto mera atencion?</l>
+               <l rend="indent">El que con su autoridad,</l>
+               <l>remite escritos suaves</l>
+               <l>á una hermana de un abad,</l>
+               <l>dime tu que de amor sabes;</l>
+               <l>¿es esto casualidad?</l>
+               <l rend="indent">El ir con profanidad</l>
+               <l>á comprar un buen reloj</l>
+               <l>á su dama ó su deidad,</l>
+               <l>y dárselo, y no por Dios,</l>
+               <l>¿es esto casualidad?</l>
+               <l rend="indent">El sentir la enfermedad</l>
+               <l>que tiene su fulanita,</l>
+               <l>y el ir con facilidad</l>
+               <l>á verla estando solita.</l>
+               <l>¿es esto casaulidad?</l>
+               <l rend="indent">En fin, tener falsedad,</l>
+               <l>gastar segunda intencion,</l>
+               <l>y no guardar lealtad,</l>
+               <l>¿es esto mera atencion?</l>
+               <l>¿es esto casualidad?</l>
+               <l rend="indent">Que no espere de mi alivio,</l>
+               <l>ni aun un leve favor,</l>
+               <l>que con razon dijo un sabio:</l>
+               <l>donde se acaba el amor</l>
+               <l>allí se empieza el agravio,</l>
+               <l rend="indent">Dile que ya para nada</l>
+               <l>tiene que darme disculpa,</l>
+               <l>que ya estoy desengañada</l>
+               <l>y que yo tengo la culpa</l>
+               <l>por haberle dado entrada.</l>
+               <l rend="indent">Que prosiga en sus manias</l>
+               <l>y en sus perversas costumbres,</l>
+               <l>que no quiero entre porfias</l>
+               <l>pasar ya mas pesadumbres</l>
+               <l>ni aguantar mas picardias.</l>
+               <l rend="indent">Ya sabes que yo me fundo</l>
+               <l>en llegando á aborrecer,</l>
+               <l>que me juzgue lo profundo,</l>
+               <l>y como si tal muger</l>
+               <l>no hubiese habido en el mundo,</l>
+               <l rend="indent">Dile que se cansa en vano</l>
+               <l>en pedirme y suplicarme,</l>
+               <l>porque un hombre tan villano</l>
+               <l>no ha de volver á engañarme,</l>
+               <l>porque ya le doy de mano.</l>
+               <l rend="indent">Dile que pues lo ha qurido</l>
+               <l>que no ponga aquí los pies,</l>
+               <l>y que esté muy entendido</l>
+               <l>que lo que fué y no es,</l>
+               <l>como si no hnbiera sido.</l>
+               <l rend="indent">Dile que estoy enterada</l>
+               <l>de lo falso de su amor,</l>
+               <l>y que no le creo en nada;</l>
+               <l>en fin, dile á ese traidor,</l>
+               <l>que hasta su nombre me enfada.</l>
+               <l rend="indent">Dile que no me arerpiento</l>
+               <l>de lo que estoy hablando,</l>
+               <l>y pues con conocimiento</l>
+               <l>confiesa que está espirando,</l>
+               <l>que disponga el testamento.</l>
+               <l rend="indent">Que ya otro cordial no espere</l>
+               <l>sino el veneno que vé:</l>
+               <l>y pues que así se lo quiere,</l>
+               <l>que gruña, que rabie y que....</l>
+               <l>se muera como pudiere.</l>
+               <l rend="indent">En fin, dile en conclusion,</l>
+               <l>que se rompió la cadena,</l>
+               <l>y que no hay composicion,</l>
+               <l>y que á su culpa es la pena</l>
+               <l>el no tener compasion.</l>
+               <trailer>FIN.</trailer>
+            </div>
+
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imprenta de D. J. M. Moreno, Descalzas núm 1.</p>
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>

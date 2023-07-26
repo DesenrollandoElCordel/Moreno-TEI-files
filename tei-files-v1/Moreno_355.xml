@@ -1,0 +1,428 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_355">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copia del credo con la toma de Morella</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Copia del credo con la toma de Morella. Segun me han
+                     informado.</title>
+                  <title type="titulo_breve">Copia del credo con la toma de Morella.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión en <name type="otro_lugar_impresion">Sevilla</name></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.5069563</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">[s.n.]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_355_1.xml" facs="fedora_ug8107867/575,165,687,962/100,/0/default.jpg">grabado_m_355_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4885496.html" type="tipo_texto">Oraciones</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106906/manifest">
+      <graphic url="fedora_ug8107867/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_355_1.jpg" facs="fedora_ug8107867/full/full/0/default.jpg"/>
+
+               <head type="primer_titulo">
+                  <hi rend="negrita"><lb/>COPLA DEL CREDO <lb/>CON LA TOMA DE MORELLA.</hi>
+                  <lb/>Segun me han informado. </head>
+
+               <lg>
+                  <l rend="indent">Ha permitido mi estrella </l>
+                  <l>y la Reina de los cielos,</l>
+                  <l>darle soltura á mi lengua,</l>
+                  <l>para componer el Credo</l>
+                  <l>con la toma de Morella.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Formó el Regente una tarde</l>
+                  <l>al egercito español, </l>
+                  <l>llamando á Dios y á su Madre</l>
+                  <l>á marchas dobles llegó</l>
+                  <l>diciendo: Creo en Dios Padre.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Lo recibieron furiosos</l>
+                  <l>con las granadas de mano,</l>
+                  <l>y aquel general piadoso, </l>
+                  <l>siempre estuvo confiado</l>
+                  <l>en el Todopoderoso.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Antes de romper el fuego</l>
+                  <l>circuló todo el recinto,</l>
+                  <l>y estaban los granaderos</l>
+
+                  <pb n="2" source="Moreno_355_2.jpg" facs="fedora_ug8108146/full/full/0/default.jpg"/>
+
+                  <l>todos aclamando á un grito,</l>
+                  <l>á aquel Criador del cielo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si gano esta accion de guerra </l>
+                  <l>al que nació en el portal,</l>
+                  <l>le he de poner mis banderas</l>
+                  <l>por defensa en el altar,</l>
+                  <l>de aquel Dios de cielo y tierra.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dijo levantando el grito</l>
+                  <l>rompan el fuego y las llamas,</l>
+                  <l>que el árbol del paraiso:</l>
+                  <l>nos covija con sus ramas;</l>
+                  <l>como creo en Jesucristo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En sabiendo á punto fijo</l>
+                  <l>de algun general traido</l>
+                  <l>engo de darle el castigo,</l>
+                  <l>ando se rompa la voz</l>
+                  <l>digan; su único hijo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por dos veces retiró</l>
+                  <l>regente sus soldados,</l>
+                  <l>pego á la carga avanzó</l>
+                  <l>sestando tan fatigado</l>
+                  <l>ayudó nuestro Señor.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Muchos quedaron heridos;</l>
+                  <l>y su sangre derramando,</l>
+                  <l>angustiados y afligidos</l>
+                  <l>ro estaban consolados</l>
+                  <l>on el que fué concebido.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Fueron á entrar en la plaza,</l>
+                  <l>por la puerta del estudio</l>
+                  <l>donde el fuego los abrasa. </l>
+                  <l>y aquel batallon, segundo</l>
+                  <l>se libró, por obra y gracia</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Era su desvelo tanto</l>
+                  <l>y el fuego derartillería</l>
+                  <l>en el golfo del quebranto</l>
+                  <l>á su derechá veian,</l>
+                  <l>á aquel Espiritu santo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Mandaron la voz de firme</l>
+                  <l>y estaban con atencion,</l>
+                  <l>en el fuego tan terrible</l>
+                  <l>le ayudaba él que nació;</l>
+                  <l>de santa Maria Virgen.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A un cañon, lo disparó</l>
+                  <l>un artillero del centro</l>
+                  <l>y la murallá rompió</l>
+                  <l>donde tomaron aliento,</l>
+                  <l>con aquel que padeció.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Nuelven á cargar otra vez</l>
+                  <l>sin detenciónes ningunas</l>
+                  <l>y les manda un brigadier</l>
+                  <l>rompan fuego por columnas</l>
+                  <l>Masta que baje alipoder.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Vamos á entrar á el asalto</l>
+                  <l>prevenir álas escalas,</l>
+                  <l>allí fueron dos quebiántos</l>
+                  <l>con la leña alquitranada</l>
+                  <l>Fvotan á Poncio Pilatos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con el paso redoblado</l>
+                  <l>marcha el cuarto de ligero, </l>
+                  <l>donde fueron devorados</l>
+                  <l>y sin tener mas consuelo, </l>
+                  <l>que el que fué crucificado.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Daban fuego de costado</l>
+                  <l>marchando sobre la brecha;</l>
+                  <l>y prá, muy átribulado</l>
+                  <l>y sin tener mas clemencia,</l>
+                  <l>que ser muerto y sepultado,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Yo mismo al decirlo tiemblo,</l>
+
+                  <pb n="3" source="Moreno_355_3.jpg" facs="fedora_ug8110228/full/full/0/default.jpg"/>
+
+                  <l>que fatigas pasarian </l>
+                  <l>en las llamas del incendio,</l>
+                  <l>sin tener mas alegria</l>
+                  <l>que el que descendió á el infierno.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con la hambre que tenian,</l>
+                  <l>se consienten á morir</l>
+                  <l>aguardando si venian </l>
+                  <l>el comboy de Alcañí</l>
+                  <l>y llegó; al tercero dia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Faltándole los alientos </l>
+                  <l>daban fuego á discrecion,</l>
+                  <l>y el regente muy contento</l>
+                  <l>acordándose que Dios, </l>
+                  <l>resucitó entre los muertos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Iban perdiendo el consuelo</l>
+                  <l>al ver correr tanta sangre,</l>
+                  <l>y entre todos forman duelos</l>
+                  <l>y á veces llaman la Madre,</l>
+                  <l>de aquel que subió á los cielos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Y nublandose la tarde</l>
+                  <l>estaban tan desmayados,</l>
+                  <l>héridos vertiendo sangre</l>
+                  <l>llaman al que está sentado,</l>
+                  <l>á la diestra de Dios Padre.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Espartero muy piadoso</l>
+                  <l>al ver su gente perdida,</l>
+                  <l>alza los ojos llorosos,</l>
+                  <l>y en sus lamentos decia</l>
+                  <l>ay! Dios todo poderoso.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Luego mandó despedir</l>
+                  <l>balas rasas y metrallas,</l>
+                  <l>y al ver los hombres morir, </l>
+                  <l>al Dios del cielo esclamaba,</l>
+                  <l>y desde allí ha de venir.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En los últimos alientos </l>
+                  <l>un teniente general</l>
+                  <l>decia con sus lamentos,</l>
+                  <l>que ha de venir á juzgar </l>
+                  <l>á los vivos y á los muertos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hijitos, no desmayar</l>
+                  <l>que me parece que veo</l>
+                  <l>que hemos de entrar al asalto,</l>
+                  <l>y es tan cierto como creo; vana</l>
+                  <l>en el Espiritu Santo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Marchar con toda presteza</l>
+                  <l>á coger los baluartes,</l>
+                  <l>que Dios nos dará las fuerzas</l>
+                  <l>quedando de nuestra parte,</l>
+                  <l>reservar la Santa Iglesia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sagradá Virgen de Atocha,</l>
+                  <l>amparar mis batallónes</l>
+                  <l>y favorecer las tropás, </l>
+                  <l>y animar los corazones</l>
+                  <l>por aquesta fé católica.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuatro columnas de tropa</l>
+                  <l>quedaron á retaguardia,</l>
+                  <l>y cuando avanzar les toca</l>
+                  <l>ibandera desplegaban </l>
+                  <l>Mdefendiendo, la apostólica.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En cesando los quebrantos</l>
+                  <l>y entre la tranquilidad,</l>
+                  <l>dijo el regente en su llanto</l>
+                  <l>á todos nos han de dar,</l>
+                  <l>la comunion de los santos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ya ganamos el costado</l>
+                  <l>hijitos, no desmayar</l>
+                  <l>llamar al Crucificado,</l>
+                  <l>y podremos alcanzar</l>
+
+                  <pb n="4" source="Moreno_355_4.jpg" facs="fedora_ug8108951/full/full/0/default.jpg"/>
+
+                  <l>el perdon de los pecados.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sagrada Virgen del Cérmen,</l>
+                  <l>como esta plaza ganémos</l>
+                  <l>ayudarme en esta tarde</l>
+                  <l>y por tu gracia tendremos;</l>
+                  <l>resurreccion de la carne</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Con cuantas gotas de sangre</l>
+                  <l>ganaron esta ciudad</l>
+                  <l>y el luto de aquellas madres </l>
+                  <l>hablando de esto es contar,</l>
+                  <l>de la vida perdurable.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">A Morella la dejé </l>
+                  <l>en aquellos que vencieron</l>
+                  <l>pidamos á nuetro bien</l>
+                  <l>por todos los que murieron</l>
+                  <l>requiescant in pace. Amen.</l>
+               </lg>
+
+               <p>
+                  <lb rend="indent"/>Compuesto por Antonio Sanchez Roldan, natural del viso <lb/>del
+                  Alcor, Provincia de Sevilla trabajador del campo, sin saber <lb/>leer ni escribir:
+                  el que me lea, me dispense las faltas. </p>
+
+               <trailer rend="negrita">Fin.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>Impreso en Sevilla. <lb/>Reimpreso en Carmona:—Imprenta de D. José M. Moreno.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

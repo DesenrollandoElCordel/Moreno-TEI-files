@@ -1,0 +1,823 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_088">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juan Rana y Antón Rapao</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Juan Rana y Antón Rapao. Pasillo.</title>
+                  <title type="titulo_breve">Juan Rana y Antón Rapao.</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1856-01-01">1856</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6461260</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 97</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_088_1.xml" facs="fedora_ug8109991/462,361,362,610/100,/0/default.jpg">grabado_m_088_1</item>
+                           <item corresp="grabado_m_088_2.xml" facs="fedora_ug8109991/832,378,345,579/100,/0/default.jpg">grabado_m_088_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX555916.html" type="tipo_texto">Pasillos</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-26" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-09" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2021-06-28" who="#EL">Correction de l'OCR</change>
+         <change when="2021-12-22" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103705/manifest">
+      <graphic url="fedora_ug8109991/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_088_1.jpg" facs="fedora_ug8109991/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 97)</fw>
+
+               <head type="primer_titulo">
+                  <lb/>JUAN RANA Y ANTON RAPAO. <lb/>PASILLO. </head>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Voy aunque la noche oscura</l>
+                  <l>á cumplir mi obligacion.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Y yo busco un bodegon</l>
+                  <l>donde guisen asadura.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Tengo de llegar á hablarle</l>
+                  <l>si está en la reja mi dama.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Si me acuesto sin cenar</l>
+                  <l>¡que vuelcos daré en la cama!</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Por que sus luces divinas</l>
+                  <l>alientan mi corazon.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Quien pillara un salchichon</l>
+                  <l>aunque fuera de sardina.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>¡Oh, si tan cruel no fuera</l>
+                  <l>su hermoso cielo divino! </l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Oh, si un cuartillo de vino</l>
+                  <l>detras de esto me cayera!</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Pero venza la porfia</l>
+                  <l>la dureza de su pecho.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Si está la asadura fria</l>
+                  <l>no cenaré de provecho.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Mas mis suspiros diran</l>
+                  <l>de mi amor el desvario.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Mas á dormir, cuerpo mio,</l>
+                  <l>que esto alienta como el pan.</l>
+               </sp>
+
+               <stage rend="cursiva">Hacen que se van.</stage>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Un vulto allí se divisa.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Un bulto hacia mi se viene.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Otro amor mi dama tiene.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>¿Si me dejará en camisa?</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Llegarle á reconocer</l>
+                  <l>es preciso en este lance.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>El demonio que me alcance</l>
+                  <l>como yo apriete á correr.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>¿Pues para que son mis brios?</l>
+                  <l>ahora lo tengo de ver.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Bueno estoy para correr</l>
+                  <l>que tengo el cuerpo vacio.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>¡Ola quien va!</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>¡Ola, quien viene!</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Un tigre, leon, serpiente,</l>
+                  <l>que sale aqui de repente</l>
+                  <l>á arrancarte el corazon.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Tiene usted mucha razon;</l>
+                  <l>dice usted muy lindamente.</l>
+               </sp>
+
+               <pb n="2" source="Moreno_088_2.jpg" facs="fedora_ug8109144/full/full/0/default.jpg"/>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Saca la espada.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>No puedo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>¿Quien te lo impide?</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>El miedo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>¿De qué lo tienes?</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>De nada.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Váyase que es un cobarde.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Pues sino fuera tan tarde</l>
+                  <l>sepa usted que peleara.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J,</speaker>
+                  <l>Advierta que en esta calle</l>
+                  <l>no le vuelva yo á encontrar.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Como sea sin cenar</l>
+                  <l>seguro está que me halle.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>O la espada me ha de dar</l>
+                  <l>ó conmigo las ha de haber.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Digo que es mi intencion.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>El qué</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Apretar á correr.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Primero te haré pedazos</l>
+                  <l>á palos y á cuchilladas.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Pues soltemos las espadas</l>
+                  <l>y andemos á puñetazos.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Esa es accion de víllanos</l>
+                  <l>gente de mal proceder.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Pues señor si esto ha de ser</l>
+                  <l>veamos quien tiene manos.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Váyese que me ha movido</l>
+                  <l>á compasion su pobreza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Tambien á mi me ha movido</l>
+                  <l>romperle á usted la cabeza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>No vé que lo he de matar</l>
+                  <l>si se llega á resistir. <stage rend="cursiva">(riñen)</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Mi espada lo ha de probar.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>La mia lo ha de decir.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Huye hombre que te doy.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Huye hombre que te paso.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>¡Que no venga por ahí</l>
+                  <l>uno que nos meta paz!</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Que no venga Barrabás</l>
+                  <l>diciendo que haces ahí!</l>
+                  <l>Anton Rapao, ¿eres tú?</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Si pero si no has hablado</l>
+                  <l>con mi espada te he pasado.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Hombre, que haces en esta</l>
+                  <l>calle, ¿estas enamorado?</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>¿Y tu estás endemoniado?</l>
+                  <l>que esto has pensado de mí?</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>No: que hay en esta calle</l>
+                  <l>damas de buen parecer</l>
+                  <l>que hacen por fuerza querer</l>
+                  <l>su garbo, su brio y su tal e,</l>
+                  <l>no fuera mucho creer</l>
+                  <l>vinieras á pretender</l>
+                  <l>con quien poderte casar.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Primero te vea arar</l>
+                  <l>con un <choice>
+                        <sic>buey</sic>
+                        <corr>buen</corr>
+                     </choice> de compañero,</l>
+                  <l>y que te arrastre primero</l>
+                  <l>por medio de un muladar:</l>
+                  <l>que te vea manco y cojo,</l>
+                  <l>y que te saltes un ojo,</l>
+                  <l>que tal llegue á ejecutar.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Mucho me dá que pensar</l>
+                  <l>hables con tal aversion,</l>
+                  <l>y que sin tal condicion</l>
+                  <l>no te quisieras casar.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Mas bien me fuera á remar</l>
+                  <l>al banco de una galera,</l>
+                  <l>pues peor vida le espera</l>
+                  <l>á aquel que se vá á casar.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Lo contrario he de probar.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>¿Cómo?</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>De aquesta manera:</l>
+                  <l>todo el hombre que es soltero</l>
+                  <l>trae inquieta la paciencia</l>
+                  <l>y nunca tiene un dinero,</l>
+                  <l>y para mas bien hallarse</l>
+                  <l>y que siga la virtud,</l>
+                  <l>tener caudal y salud,</l>
+                  <l>es buscar con quien casarse</l>
+                  <l>y de tropiezos quitarse</l>
+                  <l>y sino contempla tú</l>
+                  <l>que gustos y que placeres</l>
+                  <l>traen consigo las mugeres</l>
+                  <l>cuando anda el casamiento:</l>
+                  <l>ya que la novia es pedida</l>
+                  <l>y ya que el sí le está dado</l>
+                  <l>parte un hombre de contado,</l>
+                  <l>á sus parientes avisa,</l>
+                  <l>y ya que está prevenida</l>
+                  <l>la noche de la funcion</l>
+                  <l>unos traen el jamon,</l>
+                  <l>otros pabos y gallinas,</l>
+                  <l>de dulce mil golosinas,</l>
+                  <l>con otras mil chucherias</l>
+                  <l>que es un gusto aquellos dias;</l>
+                  <l>se visten todos de gala,</l>
+                  <l>entra la novia en la sala</l>
+                  <l>y á todos causa alegria</l>
+                  <l>pues las novias en la sala</l>
+
+                  <pb n="3" source="Moreno_088_3.jpg" facs="fedora_ug8106187/full/full/0/default.jpg"/>
+
+                  <l>tienen cierto no sé qué</l>
+                  <l>que yo esplicarlo no sé.</l>
+                  <l>Entra el novio con el cura</l>
+                  <l>con los parientes y amigos,</l>
+                  <l>sirven todos de testigos,</l>
+                  <l>los desposa con ternura.</l>
+                  <l>Tras esto viene la cena;</l>
+                  <l>y estando todos sentados</l>
+                  <l>traen diferentes guisados</l>
+                  <l>donde hay brindis y saludos</l>
+                  <l>siempre libres de inquietudes</l>
+                  <l>se los llevan á acostar.</l>
+                  <l>aqui no hay que preguntar</l>
+                  <l>porque yéndose á dormir</l>
+                  <l>es preciso discurrir</l>
+                  <l>que se van á descansar.</l>
+                  <l>Se levantan á otro dia</l>
+                  <l>con regocijo y placer,</l>
+                  <l>despues llegamos á ver</l>
+                  <l>la novia en el embarazo</l>
+                  <l>que es nudo que aprieta el lazo;</l>
+                  <l>luego al niño hace ajó,</l>
+                  <l>á la madre el ro ró ró</l>
+                  <l>el pompón y la mocita;</l>
+                  <l>en fin, un hombre casado</l>
+                  <l>tiene muger que le asista</l>
+                  <l>y le ayude á sus cuidados.</l>
+                  <l>Mira si se puede dar</l>
+                  <l>estado de mas regalos.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Atentamente he escuhado</l>
+                  <l>lo feo de tu relacion,</l>
+                  <l>pero préstame atencion</l>
+                  <l>te diré lo acibarado:</l>
+                  <l>todo el hombre que es soltero</l>
+                  <l>come, bebe y se pasea,</l>
+                  <l>enamora y galantea</l>
+                  <l>aunque no tenga un dinero;</l>
+                  <l>pero en cuanto está casado</l>
+                  <l>anda triste, macilento,</l>
+                  <l>disgustado, mal contento;</l>
+                  <l>pide la novia y lo malo</l>
+                  <l>es que no le negaran</l>
+                  <l>porque las noviás estan</l>
+                  <l>para colgarlas de un palo:</l>
+                  <l>lo que el novio con afan</l>
+                  <l>en muchos dias ganó</l>
+                  <l>en dos ó tres lo gastó</l>
+                  <l>en carne vino y en pan;</l>
+                  <l>unos vienen, y otros van</l>
+                  <l>todos á henchir la barriga;</l>
+                  <l>muchos hermanos de viva,</l>
+                  <l>pocos que limosna dan.</l>
+                  <l>el novio se va á dormir</l>
+                  <l>y se pone á discurrir</l>
+                  <l>el estado que ha elegido</l>
+                  <l>y está mas arrepentido</l>
+                  <l>que aquel que se va á morir:</l>
+                  <l>luego viene á pedir</l>
+                  <l>de la novia el guarda-pies,</l>
+                  <l>otro pide el almirez,</l>
+                  <l>sábana colcha y colchon,</l>
+                  <l>porque en suma y conclucion</l>
+                  <l>como todo era prestado,</l>
+                  <l>la novia fué de contado,</l>
+                  <l>pero el dote en relacion:</l>
+                  <l>despues vienen a pedir</l>
+                  <l>para hacer la canastilla,</l>
+                  <l>la bretaña, la estopilla,</l>
+                  <l>los encages, los listones,</l>
+                  <l>donde al hombre sin sentir</l>
+                  <l>se le van muchos doblones,</l>
+                  <l>y ya que desesperado,</l>
+                  <l>y de gastar está harto</l>
+                  <l>cate usted que llega el parto</l>
+                  <l>aquí son los apretones</l>
+                  <l>de el empeñar y vender:</l>
+                  <l>en el bautismo ha de haber</l>
+                  <l>su vino y sus mojicones;</l>
+                  <l>cuarenta dias de cama</l>
+                  <l>gasta despues la parida,</l>
+                  <l>y un quitadero de vida</l>
+                  <l>si lo ha de poner con ama,</l>
+                  <l>y si la madre lo cria,</l>
+                  <l>no es un contento el oir</l>
+                  <l>del niño las chirimias</l>
+                  <l>cuando un hombre vá á der nir</l>
+                  <l>si un hombre lo vá á tomar</l>
+                  <l>para hacerle un agasajo</l>
+                  <l>lo caga de arriba á bajo</l>
+                  <l>sin poderlo remediar.</l>
+                  <l>Aqui empieza á renegar</l>
+                  <l>del cura que lo casó,</l>
+                  <l>el padre que lo engendró</l>
+                  <l>y quien le dá de mamar;</l>
+
+                  <pb n="4" source="Moreno_088_4.jpg" facs="fedora_ug8106226/full/full/0/default.jpg"/>
+
+                  <l>sí hay suegro empieza á gruñir,</l>
+                  <l>si hay suegra empieza á rabiar,</l>
+                  <l>pues todo lo ha de sufrir,</l>
+                  <l>y todo lo ha de callar:</l>
+                  <l>otros suelen encontrar</l>
+                  <l>con una muger ufana</l>
+                  <l>que suele hechar mas peanas</l>
+                  <l>que pulgas hay por son Juan:</l>
+                  <l>otros suelen encontrar</l>
+                  <l>con una muger frailera,</l>
+                  <l>pela pabas, sandungueras</l>
+                  <l>amigas de engalanarse,</l>
+                  <l>conque digo que el casarse</l>
+                  <l>bien puede ser asertado,</l>
+                  <l>peio no he visto casado</l>
+                  <l>que no quiera descasarse.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Pues discurre tu que modo</l>
+                  <l>elegiremos los dos,</l>
+                  <l>que para servir á Díos</l>
+                  <l>sea mas proporcionado.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Haste herrador ó barbero</l>
+                  <l>y si no bodegonero,</l>
+                  <l>morirás canonizado.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Siempre has de tener humor.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>No me ha quedado otra cosa</l>
+                  <l>pues escucha otra graciosa;</l>
+                  <l>haste venado en Cartuja</l>
+                  <l>ó de gracia motilon,</l>
+                  <l>que asegura tu racion,</l>
+                  <l>casa y entierro pagado.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Con eso no me acomodo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Un bello modo he pensado.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Y es.</l>
+               </sp>
+
+               <sp>
+                  <speaker>—A.</speaker>
+                  <l>Haste ermitaño,</l>
+                  <l>que es una vida poltrona,</l>
+                  <l>y si sigues la virtud</l>
+                  <l>asegura una corona.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Con eso no me acomodo,</l>
+                  <l>porque quiero padecer,</l>
+                  <l>trabajar andar y ver</l>
+                  <l>al redor el mundo todo.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Un bello modo imagino.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Y este ¿cual es?</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Haste peregrino,</l>
+                  <l>que llevando tu bordon</l>
+                  <l>tu sombrero y tu esclavina,</l>
+                  <l>tu calabaza con vino</l>
+                  <l>y delante una cartera,</l>
+                  <l>vá un hombre por donde quiera</l>
+                  <l>costeando su camino.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Ese parecer acepto</l>
+                  <l>y en todo lo he de seguir.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Yo en romeria he de ir</l>
+                  <l>á la casa de Loreto,</l>
+                  <l>y si logro dicha tanta</l>
+                  <l>al Papa el pie besaré,</l>
+                  <l>y desde alli pasaré</l>
+                  <l>a adorar la Casa Santa,</l>
+                  <l>y desde allí pasaré</l>
+                  <l>á Belen y á Nazaret,</l>
+                  <l>y desde allí pasaré</l>
+                  <l>á ver el santo sepulcro,</l>
+                  <l>y desde allí pasaré</l>
+                  <l>al Preste Juan de las indias,</l>
+                  <l>y desde allí pasaré....</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Calla necio, ten razon,</l>
+                  <l>y vamos á prevenirnos.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Primero es el engullirnos</l>
+                  <l>una lonja de jamon.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>A Dios casa, á Dios balcon,</l>
+                  <l>donde yo me recreaba.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>A Dios casa y bodegon</l>
+                  <l>donde esta panza llenaba.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Cuantas veces ¡oh balcon!</l>
+                  <l>en tí puse mi esperanza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Cuantas veces bodegon</l>
+                  <l>en tí llenaba la panza.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>A Dios patria, á Dios señores,</l>
+                  <l>á Dios nobles caballeros.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>A Dios plaza y vendedores</l>
+                  <l>con todos sus taberneros.</l>
+               </sp>
+
+               <sp>
+                  <speaker>J.</speaker>
+                  <l>Que me encomendeis á Dios</l>
+                  <l>en ésta ocasion os pido.</l>
+               </sp>
+
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Y yo suplico rendido,</l>
+                  <l>un victor para los dos.</l>
+               </sp>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1856. <lb/>Imp. de D.J.M. Moreno, calle Juan de la Cabra, núm. 5.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

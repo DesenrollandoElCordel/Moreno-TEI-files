@@ -1,0 +1,580 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_138">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Décimas en trovos modernos y divertidos</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Decimas en trovos modernos y divertidos.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1852-01-01">1852</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6470764</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 146</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="2">Dos grabados (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_138_1.xml" facs="fedora_ug8103328/815,264,403,828/100,/0/default.jpg">grabado_m_138_1</item>
+                           <item corresp="grabado_m_138_2.xml" facs="fedora_ug8103328/420,324,355,762/100,/0/default.jpg">grabado_m_138_2</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term type="tipo_texto">Trovos</term>
+               <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-29" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8107571/manifest">
+      <graphic url="fedora_ug8103328/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_138_1.jpg" facs="fedora_ug8103328/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum"><hi rend="cursiva">Número</hi> 146.</fw>
+
+               <head type="primer_titulo">
+                  <lb/><hi rend="negrita">DÉCIMAS</hi>
+                  <lb/>EN TROVOS MODERNOS Y DIVERTIDOS. </head>
+
+               <lg rend="cursiva">
+                  <l rend="indent">A Dios madre de mi vida,</l>
+                  <l>tronco de todas mis ramas,</l>
+                  <l>ya se vá el hijo querido</l>
+                  <l>nacido de tus entrañas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Ya me despído, señora,</l>
+                  <l>madre de mi corazon,</l>
+                  <l>écheme la bendicion</l>
+                  <l>que ya es llegada la hora;</l>
+                  <l>tan solo mi pecho llora</l>
+                  <l>la ausencia de mi partida,</l>
+                  <l>á Dios hermana querida,</l>
+                  <l>no llores ni pases penas</l>
+                  <l>que voy á tierras agenas,</l>
+                  <l rend="cursiva">à Dios madre de mi vida,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hermano , por Dios te pido</l>
+                  <l>consueles á nuestra madre,</l>
+                  <l>quedas en lugar de padre,</l>
+                  <l>le darás gusto cumplido:</l>
+                  <l>mientras yo tan afligido,</l>
+                  <l>me veo en tan triste calma,</l>
+                  <l>á Dios hermanos del alma</l>
+                  <l>repite mi triste voz;</l>
+                  <l>madre, encomiendeme á Dios</l>
+                  <l rend="cursiva">trenco de todas mis ramas,</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Siento salir de mi pueblo;</l>
+                  <l>pero el dejarle es forzoso,</l>
+                  <l>ya se acabó mi reposo</l>
+                  <l>y á padecer desde luego;</l>
+                  <l>así, señores les ruego</l>
+                  <l>á todo el que haya ofendido.</l>
+                  <l>mil veces perdon le pido</l>
+                  <l>al verme en tanta afliccion,</l>
+                  <l>madre de mi corazon,</l>
+                  <l rend="cursiva">ya se vá el hijo querido</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Por ùltimo, me despido</l>
+                  <l>de hermanos, primos, parientes</l>
+                  <l>de amigos y demas gentes.</l>
+                  <l>y de un amante querido;</l>
+                  <l>á Dios digo enternecido,</l>
+                  <l>que voy á tierras estrañas</l>
+                  <l>a padecer en campañas,</l>
+                  <l>mas no por eso me aflijo:</l>
+                  <l>madre, no olvideis al hijo</l>
+                  <l rend="cursiva">nacido de tus entrañas.</l>
+               </lg>
+
+               <pb n="2" source="Moreno_138_2.jpg" facs="fedora_ug8109638/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">He de morir ó vencer</l>
+                  <l>ó has de ser mi amada prenda,</l>
+                  <l>ó todo se ha de perder</l>
+                  <l>como yo á tí no te pierda.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Reñire con Carlo-Magno</l>
+                  <l>y con toda la turquia,</l>
+                  <l>con él rey de Alejandría,</l>
+                  <l>y tambien con el indiano,</l>
+                  <l>con todo el género humano,</l>
+                  <l>con el moro y el ingles.</l>
+                  <l>cosa que no puede ser</l>
+                  <l>reñir con el mundo entero,</l>
+                  <l>pero al filo de mi acero</l>
+                  <l rend="cursiva">he de morir ó vencer.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Sea por bien ó por mal,</l>
+                  <l>tú has de ser prenda mia,</l>
+                  <l>ó la noche ha de ser dia,</l>
+                  <l>ó todo se ha de acabar,</l>
+                  <l>y si me llego á enfadar,</l>
+                  <l>como otro galan pretendas,</l>
+                  <l>al punto dile que atienda,</l>
+                  <l>una razon advertida,</l>
+                  <l>los dos perdereis la vida</l>
+                  <l rend="cursiva">ó has de ser mi amada prenda.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque viniera Roldan,</l>
+                  <l>Fierabrás y Lopsiano,</l>
+                  <l>y el emperador romano, </l>
+                  <l>ni el almirante Balan,</l>
+                  <l>Oliveros y el Sultan,</l>
+                  <l>á mi no me han de vencer;</l>
+                  <l>á Ricarte y á Reiner</l>
+                  <l>haré perder los sentidos</l>
+                  <l>ó se han de dar por vencidos,</l>
+                  <l rend="cursiva">ó todo se ha de perder.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aunque viniera un leon</l>
+                  <l>en defensa de tu amante,</l>
+                  <l>con un puñal penetrante</l>
+                  <l>le partiera el corazon,</l>
+                  <l>porque ciega mi pasion,</l>
+                  <l>y tal soberbia en mi encierra,</l>
+                  <l>con todo ser armo guerra</l>
+                  <l>por defender tu persona;</l>
+                  <l>pierda un rey cetro y corona</l>
+                  <l rend="cursiva">como yo á ti no te pierda.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Un cocodrilo te encante</l>
+                  <l>á tas orillas de un rio,</l>
+                  <l>un toro te haga pedazos</l>
+                  <l>sin tener ningun abrigo.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Te despedace un leon</l>
+                  <l>con su ira venenosa,</l>
+                  <l>y una espada furiosa</l>
+                  <l>traspase tu corazon,</l>
+                  <l>y luego sin detencion</l>
+                  <l>que te desgarre un gigante</l>
+                  <l>por ser traidora á tu amante</l>
+                  <l>que pagues tu atrevimiento,</l>
+                  <l>y para mayor tormento</l>
+                  <l rend="cursiva">un cocodrilo te encante.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Al punto un rayo furióso</l>
+                  <l>de tu cuerpo determine,</l>
+                  <l>y á tus entrañas se incline</l>
+                  <l>un escorpion venenoso,</l>
+                  <l>y en el mas profundo pozo</l>
+                  <l>cáigas sin dar un gemido,</l>
+                  <l>y así digo con desvío.</l>
+                  <l>por ser dama carasera,</l>
+                  <l>que mueras dentro una hoguera</l>
+                  <l rend="cursiva">á las orillas de un rio.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Un lobo con mucha saña</l>
+                  <l>te desgarre con fiereza</l>
+                  <l>toda de pies á cabeza,</l>
+                  <l>y te muerda con tal rabia,</l>
+                  <l>te piquen dos mil arañas; </l>
+                  <l>te tiren cien cañonazos,</l>
+                  <l>y te acierten los balazos:</l>
+                  <l>que eso y mucho mas mereces, </l>
+                  <l>digo repetidas veces</l>
+                  <l rend="cursiva">un toro te haga pedazos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, arremato aquí,</l>
+                  <l>y pido que del cielo al suelo</l>
+                  <l>se cubra todo de hielo</l>
+                  <l>y en medio te coja á tí</l>
+                  <l>y que eso se cumpla así, </l>
+                  <l>que de nada me desdigo.</l>
+                  <l>que te muelan como trig</l>
+                  <l>que seas atormentada</l>
+                  <l>y te halles desamparada</l>
+                  <l rend="cursiva">sin tenermningun abrigo.</l>
+               </lg>
+
+               <pb n="3" source="Moreno_138_3.jpg" facs="fedora_ug8110105/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">A llorar mi soledad</l>
+                  <l>en mi cama me senté,</l>
+                  <l>al conciderar tan lejos</l>
+                  <l>lo que tan cerca soñé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pensando en ti me dormí,</l>
+                  <l>hermoso cielo estrellado,</l>
+                  <l>soñé que estaba á tu lado</l>
+                  <l>y dormia junto á tí:</l>
+                  <l>desperté, y á nadie vi,</l>
+                  <l>mira qué penalidad,</l>
+                  <l>y como no era verdad</l>
+                  <l>lo que tan cerca soñé, </l>
+                  <l>en seguida comencé</l>
+                  <l rend="cursiva">á llorar mi soledad.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Soñaba yo prenda mía,</l>
+                  <l>que te tenia en mis brazos,</l>
+                  <l>y que me echabas por lazos</l>
+                  <l>tus manos sobre las mias,</l>
+                  <l>yo entre mi me sonreia</l>
+                  <l>cuando atado me miré,</l>
+                  <l>y como apariencia fué</l>
+                  <l>el sueño y no llegué á verte,</l>
+                  <l>á llorar mi triste suerte</l>
+                  <l rend="cursiva">en mi cama me senté.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En mi cama te buscaba</l>
+                  <l>querido hermoso lucero</l>
+                  <l>pensando era verdadero</l>
+                  <l>lo que el sueño me mostraba;</l>
+                  <l>pero como me miraba</l>
+                  <l>en tan brillantes reflejos,</l>
+                  <l>allí quedaron perplejos</l>
+                  <l>mis sentidos en pensar,</l>
+                  <l>y comencé á suspirar</l>
+                  <l rend="cursiva">al considerar tan léjos</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Serás de mi vida dueño,</l>
+                  <l>dulce y regalada prenda,</l>
+                  <l>quisiera que dicho sueño</l>
+                  <l>como yo lo soñé fuera:</l>
+                  <l>pues quedé de tal manera</l>
+                  <l>viendo que sin ti me hallé,</l>
+                  <l>á suspirar comencé,</l>
+                  <l>y á moverme vigilante,</l>
+                  <l>contemplando muy distante</l>
+                  <l rend="cursiva">lo que tan, cerca soñé.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Regalada prenda mia,</l>
+                  <l>me alegraré que te halles</l>
+                  <l>con la salud de los dos,</l>
+                  <l>pido al cielo que le guarde.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Hermosa bella pintura,</l>
+                  <l>deidad, jardin peregrino</l>
+                  <l>á vuestras plantas rendido</l>
+                  <l>la remito á tu hermosura</l>
+                  <l>esta carta con ternura</l>
+                  <l>porque con mucha alegría</l>
+                  <l>en este dichoso dia</l>
+                  <l>saber quiero si estás buena,</l>
+                  <l>ramillete de azucena</l>
+                  <l rend="cursiva">regalada prenda mia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">De mi corazon recibe</l>
+                  <l>muy espresivas memorias</l>
+                  <l>haciendotelas notorias</l>
+                  <l>por el amor que eu mi vive;</l>
+                  <l>y te advierto que si escribes,</l>
+                  <l>la respuesta que no tarde,</l>
+                  <l>y porque el sol no te dañe</l>
+                  <l>ni te de su resplandor,</l>
+                  <l>con gran fineza y amor</l>
+                  <l rend="cursiva">me alegraré que te halles.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Aquí suspendo mi pluma</l>
+                  <l>por no mostrar mi dolor;</l>
+                  <l>soy tu amante y servidor</l>
+                  <l>porque es para mi fortuna;</l>
+                  <l>pero si al alumbrar la luna</l>
+                  <l>te escribiere, quiera Dios,</l>
+                  <l>lo que podreis leer vos,</l>
+                  <l>que siempre seré constante,</l>
+                  <l>y consérvese un amante</l>
+                  <l rend="cursiva">con la salud de los dos.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dulce hechizo de mi vida,</l>
+                  <l>yo me hallo sin consuelo,</l>
+                  <l>y es porque hablarte no puedo,</l>
+                  <l>pues que la suerte lo priva,</l>
+                  <l>cuando la carta recibas</l>
+                  <l>de este desdichado amante,</l>
+                  <l>¡que abrazos quisiera darte</l>
+                  <l>con amor y con terneza!</l>
+                  <l>y para mayor firmeza</l>
+                  <l rend="cursiva">pido al cielo que te guarde.</l>
+               </lg>
+
+               <pb n="4" source="Moreno_138_4.jpg" facs="fedora_ug8107722/full/full/0/default.jpg"/>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Cierto es que la enamoré</l>
+                  <l>y que palabra la dí,</l>
+                  <l>ser su amante prometí,</l>
+                  <l>pero yo no la forcé.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Como fino enamorado</l>
+                  <l>llegué á su luz brillante,</l>
+                  <l>ofreciendo ser su amante,</l>
+                  <l>y la dije con agrado:</l>
+                  <l>sarás mi dueño adorado,</l>
+                  <l>señora, me entiende usted?</l>
+                  <l>yo traicion no la hare;</l>
+                  <l>mi hechizo, mi azucenita,</l>
+                  <l>y con estas palabritas</l>
+                  <l rend="cursiva">cierto es que la enamore.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me declaré por su dueño</l>
+                  <l>y ella el partido acepto</l>
+                  <l>sin hallar ningun tropiezo,</l>
+                  <l>y al punto me respondio:</l>
+                  <l>yo con un amor y dueño,</l>
+                  <l>señora, la respondia,</l>
+                  <l>que, usted de mi no fia,</l>
+                  <l>mire que soy de fiar</l>
+                  <l>mas yo no quiero negar</l>
+                  <l rend="cursiva">de que palabra la dí.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cuando llegué á merecer</l>
+                  <l>el coger su hermosa flor,</l>
+                  <l>dijo: esta es la mejor,</l>
+                  <l>cójala si quiere usted:</l>
+                  <l>esta es la causa por qué</l>
+                  <l>á cogerla me atreví,</l>
+                  <l>y por no dejarla así,</l>
+                  <l>triste, afligida y pensando.</l>
+                  <l>porque me la ví llorando</l>
+                  <l rend="cursiva">ser su amante prometí.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">En fin, mozo era yo</l>
+                  <l>y mocita era ella,</l>
+                  <l>si yo la dí algo á ella,</l>
+                  <l>tambien ella á mí me dió:</l>
+                  <l>si por mi penas pasó,</l>
+                  <l>penas tambien yo pasé;</l>
+                  <l>si ella gustó, yo gusté:</l>
+                  <l>y si á declararse llega,</l>
+                  <l>si debo yo, debe ella,</l>
+                  <l rend="cursiva">pero yo no la forcé.</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Si Sanson perdió la gracia</l>
+                  <l>por revelar un secreto,</l>
+                  <l>¿cuantas tendré yo perdidas</l>
+                  <l>por revelarte mi pecho?</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El que con grande eficacia</l>
+                  <l>de las mugeres se fia,</l>
+                  <l>no dudo sea ignorancia</l>
+                  <l>que puede pierda la vida</l>
+                  <l rend="cursiva">si Sanson perdio la gracia.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Dice cualquiera discreto</l>
+                  <l>que el callar es de hombre</l>
+                  <l>eso mismo yo penetro,</l>
+                  <l>que una vez perdí un cariño</l>
+                  <l rend="cursiva">por revelar un secreto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Las inugeres son fingidas,</l>
+                  <l>ingratas de corazon,</l>
+                  <l>si las gracias son sabidas</l>
+                  <l>tal vez por esta razon,</l>
+                  <l rend="cursiva">¿cuántas tendré yo perdidas!</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Los dos en lazos estrechos,</l>
+                  <l>unidos con el amor,</l>
+                  <l>nos miramos satisfechos,</l>
+                  <l>mas te perdí ¡que dolor!</l>
+                  <l rend="cursiva">por revelarte mi pecho,</l>
+               </lg>
+
+               <lg rend="cursiva">
+                  <l rend="indent">Quisiera entrar en tu huerto</l>
+                  <l>y sembrarte unas pepitas,</l>
+                  <l>que mi padre me las dió</l>
+                  <l>que son del todo esquisitas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Me lo han dicho por muy cierto</l>
+                  <l>que eres linda labradora:</l>
+                  <l>tras tus huellas ando muerto</l>
+                  <l>por ver las plantas, señora,</l>
+                  <l rend="cursiva">quisiera entrar en tu huerto.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Quisiera unas mañanitas</l>
+                  <l>en primavera de abril,</l>
+                  <l>labrar solo un par de horitas</l>
+                  <l>en tu huerto que es fertil,</l>
+                  <l rend="cursiva">y sembrarte unas pepitas.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Cierto amor me preguntó</l>
+                  <l>si las traje de Valencia,</l>
+                  <l>yo le respondí que no,</l>
+                  <l>jue estuviera en la creencia</l>
+                  <l rend="cursiva">que mi padre me las dió.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Si acaso usted necesita</l>
+                  <l>que le sirva de hortelano</l>
+                  <l>entre sus flores bonitas,</l>
+                  <l>las plantaré por mi mano,</l>
+                  <l rend="cursiva">que son del todo esquisitas.</l>
+               </lg>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA: 1852. Imp. de D. José María Moreno. Descalzas, 1.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

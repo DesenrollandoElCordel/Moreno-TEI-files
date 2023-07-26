@@ -1,0 +1,462 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_162">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Desposorios del señor san José</title>
+            <respStmt>
+               <name xml:id="MB">Miguel Betti</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Desposorios de señor s. Jose.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p>Otra impresión (1857): <ref target="Moreno_163.xml">Moreno_163</ref></p>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6472976</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 174</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p. 1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_162_1.xml" facs="fedora_ug8109251/362,235,1014,909/100,/0/default.jpg">grabado_m_162_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Sagrado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-29" who="#MB">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8106056/manifest">
+      <graphic url="fedora_ug8109251/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+
+         <div>
+
+            <div>
+
+               <pb n="1" source="Moreno_162_1.jpg" facs="fedora_ug8109251/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Núm. 174.</fw>
+
+               <head rend="negrita" type="primer_titulo">DESPOSORIOS <lb/>DE SEÑOR S. JOSE.</head>
+
+               <l rend="indent">A unos Desposorios castos</l>
+               <l>convida la Iglesia, amigos,</l>
+               <l>los Desposorios son Santos</l>
+               <l>vamos seremos testigos.</l>
+               <l>El desposado es José,</l>
+               <l>que grande dicha ha tenido,</l>
+               <l>pues se casó con María</l>
+               <l>hija de Joaquin su tio.</l>
+               <l>Tiene la novia mil gracias,</l>
+               <l>de quince años no cumplidos;</l>
+               <l>José tiene treinta y tres,</l>
+               <l>hermoso y bien entendido;</l>
+               <l>y para no estar ocioso</l>
+               <l>de Carpintero es su oficio.</l>
+               <l>De Reyes y Patriarcas,</l>
+               <l>que ambos descienden es fijo;</l>
+               <l>pues lo dejó San Mateo</l>
+               <l>en un Evangelio escrito.</l>
+               <l>Se crió aquesta doncella</l>
+               <l>en el templo con retiro</l>
+               <l>y por mas servir á Dios</l>
+               <l>voto de castidad hizo,</l>
+               <l>y á los diez años José</l>
+               <l>ha hecho este voto mismo:</l>
+               <l>del modo que se ordenó</l>
+               <l>Desposorio tan Divino,</l>
+               <l>en equel templo asistia</l>
+               <l>un sacerdote benigno</l>
+               <l>que es el Santo Simeon,</l>
+               <l>que á Dios rogaba contínuo</l>
+               <l>le deje ver por sus ojos</l>
+               <l>en carne al Verbo Divino.</l>
+
+               <pb n="2" source="Moreno_162_2.jpg" facs="fedora_ug8109646/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>Se lo concedió el Señor</l>
+               <l>llevando su madre al niño</l>
+               <l>á presentar en el templo:</l>
+               <l>él fué el que lo ha recibido,</l>
+               <l>y lo presentó en sus brazos</l>
+               <l>á su padre en sacrificio.</l>
+               <l>A este santo sacardote</l>
+               <l>el Cielo le dió un aviso,</l>
+               <l>que á María Nazarena</l>
+               <l>se le buscase marido,</l>
+               <l>y á la dichosa doncella</l>
+               <l>tambien se le dió este aviso.</l>
+               <l>Respondió muy resignada:</l>
+               <l>Señor y Criador mio,</l>
+               <l>aquí está esta criatura</l>
+               <l>rendida á vuestro servicio:</l>
+               <l>bien sabeis, Dios y Señor,</l>
+               <l>siempre mi deseo ha sido</l>
+               <l>conservarme en castidad.</l>
+               <l>El Señor ha respondido:</l>
+               <l>Yo os daré un esposo casto,</l>
+               <l>ya lo tengo prevenido.</l>
+               <l>Fiada en esta palabra</l>
+               <l>dió el sí, y dieron aviso</l>
+               <l>á toda la parentela, </l>
+               <l>que en aquel tiempo era estilo</l>
+               <l>se casasen con parientes;</l>
+               <l>pues habia Dios prometido</l>
+               <l>que de aquel claro linage</l>
+               <l>naciera el Verbo Divino.</l>
+               <l>Era esta doncella hermosa</l>
+               <l>y sus padres bien nacidos;</l>
+               <l>era santa y virtuosa,</l>
+               <l>y por aquestos metivos</l>
+               <l>cuantos mancebos habia</l>
+               <l>de aquel lugar, han venido</l>
+               <l>cada uno daseando</l>
+               <l>la dicha en ser su marido:</l>
+               <l>con ellos vino José,</l>
+               <l>aunque con otro designio.</l>
+               <l>Juntos todos en el templo,</l>
+               <l>una voz del Cielo vino, </l>
+               <l>que con varas en las manos</l>
+               <l>hagan oracion contritos,</l>
+               <l>en cuanto las varas toman,</l>
+               <l>la de José ha florecido.</l>
+               <l>Aquí todos conocieron</l>
+               <l>era José el escogido</l>
+               <l>para esposo de María,</l>
+               <l>que luego al instante vino</l>
+               <l>mas bella que un Serafin,</l>
+               <l>su esposo la ha recibido,</l>
+               <l>Corteses se despidieron</l>
+               <l>del sacerdote y ministros,</l>
+               <l>de Jerusalen salieron,</l>
+               <l>prosigiendo su camino</l>
+               <l>á Nazareth, que es su patria,</l>
+               <l>donde son bien recibidos</l>
+               <l>de vecinos y parientes.</l>
+               <l>Pusieron su domicilio;</l>
+               <l>se componia su casa</l>
+               <l>de tres cuartos divididos:</l>
+               <l>en uno puso José</l>
+               <l>la herramienta de su oficio:</l>
+               <l>en otro se recogia</l>
+               <l>para el descanso preciso;</l>
+               <l>en otro cuarto María</l>
+               <l>tenia sus ejecicios.</l>
+               <l>En aquel tiempo se usaba, </l>
+               <l>y estaba puesto en estilo</l>
+               <l>no juntarse los casados</l>
+               <l>hasta haber reconocido</l>
+               <l>si ajustan los naturales,</l>
+               <l>de la mujer y el marido.</l>
+               <l>En uno de aquestos dias</l>
+               <l>San José á su esposa dijo:</l>
+               <l>Esposa, se ofrece algo</l>
+               <l>que haga en vuestro servicio?</l>
+               <l>Respondió, nada me falta,</l>
+               <l>solo queria deciros</l>
+               <l>un secreto, que en mi pecho</l>
+               <l>siempre he tenido escondido,</l>
+               <l>y esto fué desde pequeña,</l>
+               <l>siempre deseo he tenido,</l>
+               <l>de conservar castidad,</l>
+               <l>hice Voto, y os suplico</l>
+               <l>me ayudeis á conservarlo.</l>
+               <l>José dijo enternecido:</l>
+               <l>¡O esposa del alma mia!</l>
+               <l>yo he hecho ese Voto mismo</l>
+
+               <pb n="3" source="Moreno_162_3.jpg" facs="fedora_ug8106859/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l>Demos mil gracias á Dios</l>
+               <l>por tan grande beneficio;</l>
+               <l>quedaron los dos esposos</l>
+               <l>de amor de Dios encendidos,</l>
+               <l>la Vírgen en su oracion,</l>
+               <l>José volvió á su ejercicio.</l>
+               <l>La Vírgen le dijo un dia:</l>
+               <l>bien sabeis, esposo mio,</l>
+               <l>que tenemos mucha hacienda, </l>
+               <l>y asi Señor, os suplico,</l>
+               <l>la repartáis en tres partes,</l>
+               <l>una al templo en que he vivido</l>
+               <l>la enviaréis porque sirva</l>
+               <l>á Dios, y al culto Divino,</l>
+               <l>la otra la repartiréis</l>
+               <l>entre los pobres de Cristo,</l>
+               <l>la otra conservaréis</l>
+               <l>para el sustento preciso.</l>
+               <l>Quedó admirado José</l>
+               <l>y á su esposa ha respondido:</l>
+               <l>Bendita sea quien tiene</l>
+               <l>pensamientos tan divinos,</l>
+               <l>haré lo que me ordenais, </l>
+               <l>que si me fuere preciso,</l>
+               <l>para haber de sustentaros,</l>
+               <l>ejercitaré mi oficio.</l>
+               <l>Estando un dia la Vírgen</l>
+               <l>ocupada en su retiro</l>
+               <l>leyendo las profecias,</l>
+               <l>en que Isaías ha dicho</l>
+               <l>concebirá una doncella, </l>
+               <l>parirá al Verbo Divino,</l>
+               <l>hincándose de rodillas, </l>
+               <l>de aquesta manera dijo:</l>
+               <l>Quien será aquesta doncella?</l>
+               <l>Quien la hubiera conocido,</l>
+               <l>para ponerme á sus pies,</l>
+               <l>y acudir á su servicio?</l>
+               <l>Diciendo aquestas palabras, </l>
+               <l>vido entrar un paraninfo</l>
+               <l>en la forma de un mancebo,</l>
+               <l>dispuesto, bien parecido,</l>
+               <l>con una diadema de oro,</l>
+               <l>y un rozagante vestido</l>
+               <l>con una Cruz en el pecho</l>
+               <l>engastada en oro fino,</l>
+               <l>de Angeles acompañado,</l>
+               <l>y con voz clara le dijo:</l>
+               <l>Maria llena de gracia,</l>
+               <l>el Señor está contigo:</l>
+               <l>Yo soy el Angel Gabriel,</l>
+               <l>que vengo del Cielo Empíreo;</l>
+               <l>á traer una embajada,</l>
+               <l>que os envia el Rey Divino.</l>
+               <l>Sabed, que concebireis</l>
+               <l>y habeis de parír un hijo,</l>
+               <l>que en la casa de Jacob</l>
+               <l>reinará en eternos siglos.</l>
+               <l>Quedó turbada la Vírgen,</l>
+               <l>y á el Angel le ha respondido:</l>
+               <l>Yo no conozco varon, </l>
+               <l>ni nunca lo he conocido, </l>
+               <l>cómo tengo de ser Madre?</l>
+               <l>el Angel la satisfizo:</l>
+               <l>No hay nada imposible á Dios</l>
+               <l>que el Espíritu Divino,</l>
+               <l>vendrá sobre Vos, Señora,</l>
+               <l>y la virtud del Altísimo</l>
+               <l>te tiene de hacer la sombra.</l>
+               <l>Muy humilde ha respondido:</l>
+               <l>Aquí está una esclava vuestra.</l>
+               <l>Al pronunciar este Fiádl,</l>
+               <l>el Espíritu Divino,</l>
+               <l>de su purísima sangre</l>
+               <l>formó un cuerpo pequeñito,</l>
+               <l>creó un alma muy perfecta,</l>
+               <l>y la infundió en este niño,</l>
+               <l>bajó del seno del Padre, </l>
+               <l>el Verbo, y con él se ha unido,</l>
+               <l>quedó el vientre de María</l>
+               <l>mas puro que el Cielo Empíreo.</l>
+               <l>Diez mil Angeles custodios</l>
+               <l>para su guarda han venido.</l>
+               <l>Visitó á Santa Isabel,</l>
+               <l>luego que á su casa vino,</l>
+               <l>reparó un dia José</l>
+               <l>que el vientre estaba crecido</l>
+               <l>de su esposa, y asustado</l>
+               <l>decía consigo mismo:</l>
+               <l>Inmenso Dios de Israel,</l>
+
+               <pb n="4" source="Moreno_162_4.jpg" facs="fedora_ug8109398/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>Señor, qué es esto que miro?</l>
+               <l>Mi esposa veo preñada.</l>
+               <l>Estoy despierto ó dormido?</l>
+               <l>Si los dos hicimos Voto, </l>
+               <l>de Castidad, y hemos sido</l>
+               <l>fieles en su cumplimiento,</l>
+               <l>Señor, esto como ha sido?</l>
+               <l>Que es esto que por mí pasa?</l>
+               <l>Mas que pienso, mas qué veo?</l>
+               <l>Yo sospechas en Maria, </l>
+               <l>no siendo tan puro y limpio</l>
+               <l>el Sol con sus claros rayos!</l>
+               <l>Aquí hay misterio escondido.</l>
+               <l>Si hay misterio no lo sé</l>
+               <l>ni mi Esposa me lo ha dicho.</l>
+               <l>Quiero ausentarme y dejarla,</l>
+               <l>y por no ser conocido,,</l>
+               <l>me retiraré á un desierto</l>
+               <l>con oracion y ejercicio;</l>
+               <l>rogaré á Dios la defienda</l>
+               <l>del mundo y sus enemigos.</l>
+               <l>Mas si me voy sin María,</l>
+               <l>que bien llevaré conmigo!</l>
+               <l>Como viviré sin ver</l>
+               <l>aquellos ojos benignos,</l>
+               <l>aquel hablar halagueño,</l>
+               <l>aquel rostro cristalino,</l>
+               <l>aquel iman atractivo</l>
+               <l>que llena mi corazon</l>
+               <l>de pensamientos divinos?</l>
+               <l>Y si yo la desamparo, </l>
+               <l>quien la amparará, Dios mio?</l>
+               <l>Muchacha, pobre y sin padre, </l>
+               <l>que dolor tan excesivo! </l>
+               <l>Pero todo pesa menos,</l>
+               <l>que el ver en mi esposa un hijo,</l>
+               <l>sin saber quien es su padre;</l>
+               <l>de pensarlo estoy corrido.</l>
+               <l>Es posible, que María, </l>
+               <l>que á mí y á Dios haya sido</l>
+               <l>infiel, no puedo creerlo</l>
+               <l>aquí se turba el sentido.</l>
+               <l>Me iré sin decirle nada.</l>
+               <l>Recogió en un fardelillo</l>
+               <l>su ropa y algun dinero.</l>
+               <l>Y antes de tomar camino</l>
+               <l>se fué á descansar un rato</l>
+               <l>luego se quedó dormido.</l>
+               <l>La Virgen que no ignoraba</l>
+               <l>de San José los designios,</l>
+               <l>se retiró á su Oratorio,</l>
+               <l>postrado en el suelo dijo:</l>
+               <l>Dulce Hijo de mi alma,</l>
+               <l>no estaria bien, hijo mio,</l>
+               <l>vuestra madre sin esposo,</l>
+               <l>Vos sin padre putativo.</l>
+               <l>En esto entró San Gabriel</l>
+               <l>en su aposento, y le dijo:</l>
+               <l>despierta, José, levanta,</l>
+               <l>pues tanta dicha has tenido;</l>
+               <l>que el preñado de tu esposa</l>
+               <l>es por misterio Divino,</l>
+               <l>que á salvar su pueblo viene</l>
+               <l>el Mesías prometido:</l>
+               <l>pónle por nombre Jesús.</l>
+               <l>Quedó José agradecido;</l>
+               <l>dando mil gracias á Dios</l>
+               <l>por tan grande beneficio.</l>
+               <l>Se fué al cuarto de su esposa,</l>
+               <l>y de repente la vido</l>
+               <l>en un soberano éstasis</l>
+               <l>con un resplador Divino,</l>
+               <l>y postrándose á sus pies,</l>
+               <l>enternecido le dijo:</l>
+               <l>O esposa del alma mia!</l>
+               <l>A donde yo he merecido</l>
+               <l>tener esposa tan santa,</l>
+               <l>y ser padre putativo</l>
+               <l>del mismo Hijo de Dios?</l>
+               <l>Por vuestro hijo os suplico,</l>
+               <l>le pidais me dé su gracia,</l>
+               <l>para acertar á serviros.</l>
+               <l>La Virgen le respondió:</l>
+               <l>Yo, Señor, soy quien os pido</l>
+               <l>perdon de no daros cuenta</l>
+               <l>del Sacramento escondido,</l>
+               <l>aunque no estuvo en mi mano</l>
+               <l>la licencia de decirlo.</l>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. y lib. de don José M. Moreno, Madre de Dios, 1.</p>
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,775 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_320">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Romance nuevo. El robo de la virtuosa Dorotea</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Romance nuevo. El robo de la virtuosa Dorotea, y lo
+                     ocurrido por una tempestad en el bosque.</title>
+                  <title type="titulo_breve">Romance nuevo. El robo de la virtuosa Dorotea</title>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="low" when="1800-01-01">[s.a.]</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6483563</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 348</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_320_1.xml" facs="fedora_ug8106218/198,233,1307,952/100,/0/default.jpg">grabado_m_320_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-15" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103127/manifest">
+      <graphic url="fedora_ug8106218/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_320_1.jpeg" facs="fedora_ug8106218/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">Numero 348</fw>
+
+               <head type="primer_titulo">
+                  <lb/>ROMANCE NUEVO. <hi rend="negrita"><lb/>EL ROBO <lb/>DE LA VIRTUOSA
+                     DOROTEA,</hi>
+                  <lb/>y lo ocurrido <lb/>POR UNA TEMPESTAD EN EL BOSQUE. </head>
+
+               <l rend="indent">Atencion pido, señores,</l>
+               <l>no me lo niegue el discreto,</l>
+               <l>que para estas ocasiones,</l>
+               <l>es de importancia el silencio.</l>
+               <l rend="indent">No he de gastar mi discurso</l>
+               <l>retóricos argumentos,</l>
+               <l>ni discretos episódios,</l>
+               <l>porque no son del intento.</l>
+               <l rend="indent">Una historia de afliccion</l>
+               <l>solo referir pretendo;</l>
+               <l>patentizando los daños:</l>
+               <l>que crusán los bandoleros.</l>
+               <l rend="indent">Sin dorarla con enigmas</l>
+               <l>poéticas de mi ingeñio,</l>
+               <l>porque la vérdad parece</l>
+               <l>mas bien desnuda, esto es cierto.</l>
+               <l rend="indent">Haré ver á todo húmbre</l>
+               <l>que el alto Rey sempiterno</l>
+
+               <pb n="2" source="Moreno_320_2.jpeg" facs="fedora_ug8109863/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+
+               <l>si consiente no por siempre,</l>
+               <l>insultos ni atrevimientos.</l>
+               <l rend="indent">En la mas noble ciudad</l>
+               <l>de cuantas tiene en su reino</l>
+               <l>España, blason del orbe, </l>
+               <l>en su dilatado imperio.</l>
+               <l rend="indent">A las orillas del Tajo</l>
+               <l>está la insigne Tolédo,</l>
+               <l>ciudad siempre muy famosa</l>
+               <l>en ilustres caballeros.</l>
+               <l rend="indent">Y entre todos los varones</l>
+               <l>que fama mayor le dieron,</l>
+               <l>el que mas brilló tal vez, </l>
+               <l>fué don Diego de Acebedo.</l>
+               <l rend="indent">Este tenia una hermana</l>
+               <l>de primores tan completos,</l>
+               <l>que el mismo sol á su lado</l>
+               <l>tal vez pareciera feo.</l>
+               <l rend="indent">Siendo hermosísimo el rostro,</l>
+               <l>su talle era el mas perfecto,</l>
+               <l>blanco y delicado el cutis,</l>
+               <l>sus ojos vivos y negros.</l>
+               <l rend="indent">Era tanta su hermosura,</l>
+               <l>tanto su garvo y aseo,</l>
+               <l>que competía á la Venus,</l>
+               <l>resplandeciente lucero.</l>
+               <l rend="indent">En una palabra, tal,</l>
+               <l>que pudiera ser modelo</l>
+               <l>de una hiermosura brillante</l>
+               <l>que jamás los hombres vieron.</l>
+               <l rend="indent">Era arrogante y soberbia;</l>
+               <l>mas que lo sea no es nuevo,</l>
+               <l>porque siempre la hermosura</l>
+               <l>es altiva con desprecio.</l>
+               <l rend="indent">No asi como otras damas,</l>
+               <l>que en amorosos recuerdos,</l>
+               <l>sin blanca tras de su amante</l>
+               <l>recorren el mundo entero.</l>
+               <l rend="indent">Era pasmo de la córte,</l>
+               <l>matando á diestro y siniestro,</l>
+               <l>porque en sus ojos traía</l>
+               <l>la vida, muerte y veneno.</l>
+               <l rend="indent">Por esposa la pedian</l>
+               <l>muchos nobles caballeros, </l>
+               <l>y á todos les desechaba</l>
+               <l>con grande denuedo y despejo.</l>
+               <l rend="indent">Respondiendo astutamente</l>
+               <l>que se hacía este concepto,</l>
+               <l>que el sujetarse á varon</l>
+               <l>es gran pena si hay despego.</l>
+               <l rend="indent">Vivian los dos hermanos</l>
+               <l>á sus padres muy sujetos,</l>
+               <l>y la paz y la ventura</l>
+               <l>moraban en aquel techo.</l>
+               <l rend="indent">Sepan que los dos se amaban</l>
+               <l>con grande encarecimiento,</l>
+               <l>y no podian vivir</l>
+               <l>el uno del otro lejos.</l>
+               <l rend="indent">Ambos se depositaban</l>
+               <l>en sus inocentes pechos,</l>
+               <l>con el fraternal cariño,</l>
+               <l>los mas sublimes secretos.</l>
+               <l rend="indent">Don Diego era valiente, </l>
+               <l>pero nunca aventurero,</l>
+               <l>que jamás en pechos nobles</l>
+               <l>caben agüeros ni miedo.</l>
+               <l rend="indent">Lo bizarro de su talle,</l>
+               <l>con lo perfecto del cuerpo,</l>
+               <l>competía airosamente</l>
+               <l>con gracia, garvo y aseo.</l>
+               <l rend="indent">Jóven, galan y cortés,</l>
+               <l>discreto y de gran talento,</l>
+               <l>despreocupado en un todo,</l>
+               <l>con las damas siempre atento.</l>
+               <l rend="indent">Aficionado á la caza,</l>
+               <l>era en la escopeta diestro,</l>
+               <l>y para jugar el florete</l>
+               <l>mas lijero que el maestro.</l>
+               <l rend="indent">Mas los bienes de este mundo</l>
+               <l>son muy poco duraderos,</l>
+               <l>pues á la dicha mas grande</l>
+               <l>le sucede un contratiempo.</l>
+               <l rend="indent">Por eso decia un sábio</l>
+               <l>aquel refran verdadero,</l>
+               <l><hi rend="cursiva">que á la mayor alegria</hi></l>
+               <l><hi rend="cursiva">sigue el pesar mas severo,</hi></l>
+
+               <pb n="3" source="Moreno_320_3.jpeg" facs="fedora_ug8109722/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">3</fw>
+
+               <l rend="indent">Cierto día del Otoño</l>
+               <l>al campo juntos salieron</l>
+               <l>Dorotea con su hermano,</l>
+               <l>su padre, madre y abuelo.</l>
+               <l rend="indent">Fuéronse á una hermosa quinta,</l>
+               <l>unas cuatro leguas lejos,</l>
+               <l>que era herencia de la casa</l>
+               <l>desde largisimo tiempo.</l>
+               <l rend="indent">Allí pasaron dos dias,</l>
+               <l>cuando llegando al tercero,</l>
+               <l>ladrones la quinta asaltan</l>
+               <l>llevados del oro al cebo,</l>
+               <l rend="indent">A penas oscurecía,</l>
+               <l>cuando unos doce encubiertos</l>
+               <l>armados de todas armas</l>
+               <l>se presentan allá dentro.</l>
+               <l rend="indent">Don Diego no estaba en casa,</l>
+               <l>ni su padre ni su abuelo,</l>
+               <l>que à las orillas del rio</l>
+               <l>fueron á dar un paseo.</l>
+               <l rend="indent">Sino Dorotea sola,</l>
+               <l>con dos labradores viejos,</l>
+               <l>y su madre, que eran todos</l>
+               <l>gente de muy poco esfuerzo.</l>
+               <l rend="indent">Fuera en vano el resistir</l>
+               <l>contra tantos bandoleros,</l>
+               <l>y así dejaron robar</l>
+               <l>todo aquello que quisieron.</l>
+               <l rend="indent">Por la vida les rogaron</l>
+               <l>con muy eficaz esfuerzo,</l>
+               <l>diciéndoles que llevasen</l>
+               <l>cuanto les diese contento.</l>
+               <l rend="indent">Ellos viendo aquella jóven,</l>
+               <l>que era de gracias portento,</l>
+               <l>á la cueva de su abrigo</l>
+               <l>llevársela resolvieron.</l>
+               <l rend="indent">Ella que tal nueva escucha,</l>
+               <l>morir prefiere primero</l>
+               <l>que ser presa de unos monstruos</l>
+               <l>tan viles y tan perversos.</l>
+               <l rend="indent">Pero ellos inexorábles,</l>
+               <l>y sordos á sus lamentos</l>
+               <l>quieren de ella apoderarse</l>
+               <l>como lobos carniceros.</l>
+               <l rend="indent">Aqui era de ver el llanto</l>
+               <l>y el general desconsuelo</l>
+               <l>de la madre y de la hija,</l>
+               <l>y de aquellos pobres viejos.</l>
+               <l rend="indent">Matadnos antes, decian,</l>
+               <l>á una voz todos de acuerdo,</l>
+               <l>y llenando el aire de ayes</l>
+               <l>que á un risco pusieran tierno.</l>
+               <l rend="indent">Entonces el capitan</l>
+               <l>impone á todos silencio,</l>
+               <l>y del brazo á Dorotea</l>
+               <l>coge atrevido y resuelto.</l>
+               <l rend="indent">La madre y los dos ancianos</l>
+               <l>quítársela pretendieron,</l>
+               <l>y á los tres con un porrazo</l>
+               <l>los derribaron al suelo.</l>
+               <l rend="indent">Los ponen cabeza abajo</l>
+               <l>y los atan bien sujetos,</l>
+               <l>que menearse no puedan</l>
+               <l>para ellos lograr su intento,</l>
+               <l rend="indent">La muchacha decidida</l>
+               <l>se suelta con noble esfuerzo,</l>
+               <l>é iba á echarse de un balcon</l>
+               <l>á no impedírselo ellos.</l>
+               <l rend="indent">Pero viendo el capitan</l>
+               <l>que los gritos y lamentos</l>
+               <l>podias ser escuchados,</l>
+               <l>y ellos quedar descubiertos.</l>
+               <l rend="indent">Llama con ferocidad</l>
+               <l>á los demas compañeros,</l>
+               <l>que robando y registrando</l>
+               <l>se entretenian por dentro.</l>
+               <l rend="indent">Salen aquellos caríbes</l>
+               <l>cargados ya del dinero,</l>
+               <l>de prendas y de diamantes,</l>
+               <l>de sangre humana sedientos.</l>
+               <l rend="indent">El capataz los invita</l>
+               <l>á que saquen sus aceros</l>
+               <l>y al punto sus diestras manos</l>
+               <l>armadas se ven con ellos.</l>
+               <l rend="indent">Doce puñales enseñan</l>
+               <l>aquellos monstruos perversos,</l>
+
+               <pb n="4" source="Moreno_320_4.jpeg" facs="fedora_ug8107545/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">4</fw>
+
+               <l>diciendo á los infelíces</l>
+               <l>que van á morir con ellos.</l>
+               <l rend="indent">Del capitan solo aguardan</l>
+               <l>el aviso placenteros,</l>
+               <l>para al momento arrojarse</l>
+               <l>contra los mansos corderos.</l>
+               <l rend="indent">Mas, ¡ó furor inhumano</l>
+               <l>de cruelisimos pechós!</l>
+               <l>tiempo vendrá que paguéis</l>
+               <l>vuestros inicuos proyectos.</l>
+               <l rend="indent">Hace una seña al instante</l>
+               <l>á todos sus bandoleros,</l>
+               <l>y estos cual lobos feroces</l>
+               <l>dan á todos muerte luego.</l>
+               <l rend="indent">Solo á Dorotea viva</l>
+               <l>dejan, quien viendo el suceso,</l>
+               <l>perdida y desconsolada</l>
+               <l>se arrancaba los cabellos.</l>
+               <l rend="indent">Vé al infame capataz</l>
+               <l>como levanta sangriento</l>
+               <l>el puñal, que por tres veces</l>
+               <l>clava á su madre en el pecho.</l>
+               <l rend="indent">Dorotea desfallece</l>
+               <l>y luego que cobra aliento</l>
+               <l>abrazada con su madre</l>
+               <l>quiere darla vida á besos.</l>
+               <l rend="indent">¡O esceso del infortúnio!</l>
+               <l>¡ó qué dolor tan acervo!</l>
+               <l>pues no puede dar la vida</l>
+               <l>á un cadáver que está yerto.</l>
+               <l rend="indent">Un frenesí se apodera</l>
+               <l>de aquel corazon tan tierno;</l>
+               <l>y viendo sa madre muerta.</l>
+               <l>prorumpe enegritos tremendos.</l>
+               <l rend="indent">Doce puñales levantan</l>
+               <l>para imponerla silencio;</l>
+               <l>mnas ya la muerte no ásusta</l>
+               <l>su determinádo pocho.</l>
+               <l rend="indent">Antes viendo que arrojados</l>
+               <l>cargar con ella han resuelto,</l>
+               <l>y de su vil apetito,</l>
+               <l>hicerla fatal objeto</l>
+               <l rend="indent">Del corazon de su madre</l>
+               <l>arranca el puñal sangriento,</l>
+               <l>y con heróica osadía</l>
+               <l>resuelve pasarse el pecho.</l>
+               <l rend="indent">CAntes que ser de vosotros;</l>
+               <l>y daros tan vil consuelo</l>
+               <l>matarme, quiero, les dice,</l>
+               <l>y caer á los pies vuestros.</l>
+               <l rend="indent">Qué mas quíero que mi padre</l>
+               <l>sepa que con honra he muerto,</l>
+               <l>que no que vivo sin honra</l>
+               <l>teniendo un ladron por dueño.»</l>
+               <l rend="indent">lba á herirse, pero el alma</l>
+               <l>rindiendo entences su esfuerzo,</l>
+               <l>á un desmayo la abandona</l>
+               <l>y cae tendida al suelo.</l>
+               <l rend="indent">Al ver esto los malvados</l>
+               <l>resuelven no perder tiempo,</l>
+               <l>y entre todos la arrebatan</l>
+               <l>levantándola del suelo.</l>
+               <l rend="indent">Caminan precipitados</l>
+               <l>aquellos hombres protervos</l>
+               <l>unos con la desmayada,</l>
+               <l>alegres y placentéros.</l>
+               <l rend="indent">Otros llevan las alhajas</l>
+               <l>y juntamente el dinero,</l>
+               <l>con todo lo que han robado</l>
+               <l>on vil apetito ciego.</l>
+               <l rend="indent">Apartados del camino,</l>
+               <l>cultas sendas siguiendo,</l>
+               <l>e dirijen á unos montes,</l>
+               <l>guarida de sus escesos.</l>
+               <l rend="indent">No tardó la desmayada</l>
+               <l> volver mucho en su cuerdo,</l>
+               <l>jue la prisa que llevaban</l>
+               <l>dió á su sangre movimiento.</l>
+               <l rend="indent">¿Quién podrá ahora figurarse</l>
+               <l>uál seria el desconsuclo</l>
+               <l>le aquella infeliz señora,</l>
+               <l>nirándose en aquel puesto?</l>
+               <l rend="indent">Una oveja que del lobo</l>
+               <l>e vé en los dientes sangrientos,</l>
+               <l>o bala con mas temblor</l>
+               <l>fue Dorotea está haciendo.</l>
+
+               <pb n="5" source="Moreno_320_5.jpeg" facs="fedora_ug8109395/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">5</fw>
+
+               <l rend="indent">Los cuatro que la acompañan,</l>
+               <l>de su congoja riendo</l>
+               <l>contándola ya por suya</l>
+               <l>la dan burlas por consuelo.</l>
+               <l rend="indent">Dícenla que no esté triste,</l>
+               <l>pues va á ser en breve tiempo</l>
+               <l>de muchos hombres querida,</l>
+               <l>y del gefe lo primero,</l>
+               <l rend="indent">Hácenla una atroz pintura</l>
+               <l>de sus placeres horrendos,</l>
+               <l>con cosas que no permite</l>
+               <l>la decencia que contemos.</l>
+               <l rend="indent">Ella á todo esto responde</l>
+               <l>con mil ayes lastimeros,</l>
+               <l>pidiendo socorro á Dios</l>
+               <l>en conflicto tan tremendo.</l>
+               <l rend="indent">Levanta triste sus ojos,</l>
+               <l>exclamando: Dios eterno</l>
+               <l>socorre á esta infelíz,</l>
+               <l>y dá á mis penas remedio.</l>
+               <l rend="indent">Tú.que desde el alto sólio,</l>
+               <l>ves los corazones nuestros,</l>
+               <l>y con tu inmensa bondad</l>
+               <l>favoreces á tus siervos.</l>
+               <l rend="indent">Ved mi triste sitúacion,</l>
+               <l>ved el llanto en que me anego,</l>
+               <l>y á una criatura vuestra</l>
+               <l>que la conforteis os ruego.</l>
+               <l rend="indent">Ya veis el corazon mio,</l>
+               <l>que jamás cometió esceso;</l>
+               <l>salvadme Señor ahora</l>
+               <l>de estos asesinos fieros.</l>
+               <l rend="indent">Sagrada Virgen María,</l>
+               <l>Reina escelsa de los cíelos,</l>
+               <l>claro espejo de justicia,</l>
+               <l>libradme de estos perversos.</l>
+               <l rend="indent">En esto empieza á soplar</l>
+               <l>tan embravecido el viento,</l>
+               <l>que los árboles frondosos</l>
+               <l>arranca y derriba al suelo.</l>
+               <l rend="indent">Rayos las nubes disparan</l>
+               <l>tan horrízonos y espesos,</l>
+               <l>que parece el aire tedo.</l>
+               <l>como una región dde fuego.</l>
+               <l rend="indent">Da uno de ellos en un arbol,</l>
+               <l> que encendiéndose al momento</l>
+               <l>llena de llamas el aire</l>
+               <l>y comunicá el incendio.</l>
+               <l rend="indent">Aturdidos los ladrones!</l>
+               <l>lo atribuyen á portento,</l>
+               <l>y á la fuga se abandonan</l>
+               <l>llenos de asombro y de miedo.</l>
+               <l rend="indent"> No se acuerdan del botin,</l>
+               <l>y de Dorotea menos;</l>
+               <l>que los que atras se quedaron</l>
+               <l>son en huir los primeros.</l>
+               <l rend="indent">Dorotéa abandonada</l>
+               <l>la vista fija en el cielo</l>
+               <l>y á la Virgen Soberana</l>
+               <l>acude en tan grande apricto.</l>
+               <l rend="indent">«Madre del Vervo, divino,</l>
+               <l>si á mis preces accediendo,</l>
+               <l>de esos monstruos me librásteis,</l>
+               <l>salvadme de aqueste incendio.</l>
+               <l rend="indent">Sadadme de aqueste bosque,</l>
+               <l>y guiad mis pies inciertos</l>
+               <l>á parage donde pueda</l>
+               <l>volver al hogar paterno.»</l>
+               <l rend="indent">Apenas esto decia,</l>
+               <l>cuando con ruido horrendo,</l>
+               <l>no lejos dé donde estába</l>
+               <l>cayó un edificio al suelo.</l>
+               <l rend="indent">A aquel imprevisto golpe</l>
+               <l>tan estraño como nuevo,</l>
+               <l>segunda vez Dorotea</l>
+               <l>cede á un desmayo violento.</l>
+               <l rend="indent">El edificio caido</l>
+               <l>con tan asombroso estruendo,</l>
+               <l>era una Ermita que habia</l>
+               <l>en medio de aquel desierto.</l>
+               <l rend="indent">Un anciano la habitaba,</l>
+               <l>el cual estaba durmiendo,</l>
+               <l>y despertó al gran ruido,</l>
+               <l>de pavor y susto lleno.</l>
+               <l rend="indent">No recibió daño alguno,</l>
+               <l>porque así lo quiso el cielo;</l>
+
+               <pb n="6" source="Moreno_320_6.jpeg" facs="fedora_ug8106830/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">6</fw>
+
+               <l>pero el terror y el asombro</l>
+               <l>su pecho todo cubrieron.</l>
+               <l rend="indent">Quiere del bosque escaparse</l>
+               <l>viendo horrible aquel incendio,</l>
+               <l>y al huir desconcertado</l>
+               <l>halla un bulto, y dá én el suelo.</l>
+               <l rend="indent">Lo que le hace tropezar</l>
+               <l>es de Dorotea el cuerpo</l>
+               <l>quien al sentir aquel golpe</l>
+               <l>vuelve al instante en su acuerdo.</l>
+               <l rend="indent">Asustado se levanta,</l>
+               <l>y ella con aquel encuentro</l>
+               <l>queda tambíien asustada,</l>
+               <l>y ambos se miran atentos.</l>
+               <l rend="indent">El asombro de los dos</l>
+               <l>estremado fué en efecto,</l>
+               <l>pues solo muy raros lances</l>
+               <l>juntarles allí pudieron.</l>
+               <l rend="indent">«¿Quién eres, mujer, la dice</l>
+               <l>el Ermitaño suspenso,</l>
+               <l>que á este sitio y á estas horas</l>
+               <l>tan sin pensarlo te encuentro?»</l>
+               <l rend="indent">Yo soy una desgraciada</l>
+               <l>que unos ladrones tregeron</l>
+               <l>desde su casa á este bosque</l>
+               <l>con los mas viles intentos.</l>
+               <l rend="indent">Pero vos también decidme,</l>
+               <l>como os halfo en este puesto,</l>
+               <l>y quién sois porque me miro</l>
+               <l>sobrecogida del miedo.</l>
+               <l rend="indent">Entonces el Ermitaño</l>
+               <l>quién era la fué diciendo,</l>
+               <l>y como allí retirado</l>
+               <l>de todo mundado encuentro;</l>
+               <l rend="indent">Hace años que vivia,</l>
+               <l>yerbas tan solo comiendo,</l>
+               <l>con algunas limosnitas</l>
+               <l>que recogía en los pueblos.</l>
+               <l rend="indent">Del buen anciano guiada</l>
+               <l>salieron del bosque presto</l>
+               <l>por parte donde las llamas</l>
+               <l>dejaban el paso abierto.</l>
+               <l rend="indent">A una llanura llegaron,</l>
+               <l>donde un camino cogiendo</l>
+               <l>de una iglesia muy antigua,</l>
+               <l>á las ruinas se acogieron.</l>
+               <l rend="indent">Allí se sentaron ambos,</l>
+               <l>y Darotea, cediendo</l>
+               <l>del anciano á las instancias,</l>
+               <l>le contó todo el suceso.</l>
+               <l rend="indent">Oida la relacion,</l>
+               <l>aquel virtuoso viejo</l>
+               <l>con palabras celestíales</l>
+               <l>dió á Dorotea consuelo:</l>
+               <l rend="indent">Haciéndola ver que Dios</l>
+               <l>por sus ocultos misterios</l>
+               <l>muchas desgracias permite,</l>
+               <l>pero al fin nos dá el remedio.</l>
+               <l rend="indent">Por la asesinada madre</l>
+               <l>rezan muchos Padre nuestros,</l>
+               <l>y por los dos labradores</l>
+               <l>que con ella fueron muertos.</l>
+               <l rend="indent">Así la noche pasaron.</l>
+               <l>en mil tristes pensamientos,</l>
+               <l>siguiendo á la tempestad</l>
+               <l>el cielo claro y sereno.</l>
+               <l rend="indent">El anciano que sabia</l>
+               <l>de aquel pais los senderos,</l>
+               <l>la prometió á Dorotea</l>
+               <l>guiarla al lugar paterno.</l>
+               <l rend="indent">Ya la aurora amanecia</l>
+               <l>con sus hermosos reflejos,</l>
+               <l>fertilizando los campos</l>
+               <l>con los ardores de Febo.</l>
+               <l rend="indent">Rasgando su negra capa</l>
+               <l>aquel nocturno Morféo,</l>
+               <l>salian los pajaritos</l>
+               <l>á repetir sus gorjeos.</l>
+               <l rend="indent">Saltando de rama en rama</l>
+               <l>trinaban tan placenteros,</l>
+               <l>que á la infeliz Dorotea</l>
+               <l>aliviaban sus tormentos.</l>
+               <l rend="indent">De esta suerte distraída</l>
+               <l>pasaba algunos momentos</l>
+               <l>contemplando entre uno y otro</l>
+               <l>lo funesto de sus riesgos,</l>
+
+               <pb n="7" source="Moreno_320_7.jpeg" facs="fedora_ug8109814/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">7</fw>
+
+               <l rend="indent">En estas reflexiones,</l>
+               <l>de llanto sus ojos llenos,</l>
+               <l>mitigábanse algun tanto</l>
+               <l>los pesares mas acervos.</l>
+               <l rend="indent">Cuando ya determinados</l>
+               <l>á salir de aquel encierro,</l>
+               <l>ven en la cima de un monte</l>
+               <l>relucir muchos aceros.</l>
+               <l rend="indent">Tropa era veterána</l>
+               <l>que acompañaba á don Diego,</l>
+               <l>en busca de los malvados</l>
+               <l>que tales males hicieron.</l>
+               <l rend="indent">Dió un latido el corazon</l>
+               <l>de Dorotea al momento,</l>
+               <l>y la cuasa sospechando</l>
+               <l>señas hizo desde lejos.</l>
+               <l rend="indent">Los criados alentados</l>
+               <l>bajan al llano corriendo,</l>
+               <l>unidos con los soldados</l>
+               <l>compañeros de don Diego.</l>
+               <l rend="indent">Este al punto se adelanta</l>
+               <l>con la escopeta lijero,</l>
+               <l>y al distinguir á su hermana</l>
+               <l>corre aun con mas empeño.</l>
+               <l rend="indent">Llega por fin mas cercano,</l>
+               <l>rompiendo en un llanto tierno;</l>
+               <l>y el anciano le saluda</l>
+               <l>con el mayor rendimiento.</l>
+               <l rend="indent">En lagrimas anegados</l>
+               <l>se dan abrazos estrechos,</l>
+               <l>desahogando el corazon</l>
+               <l>fraternales sentimientos.</l>
+               <l rend="indent">Cuéntanse los pormenores</l>
+               <l>de tan trágico suceso,</l>
+               <l>el incendio de aquel bosque</l>
+               <l>y del anciano el encuentro.</l>
+               <l rend="indent">La pureza de su honor</l>
+               <l>atribúyese á portento</l>
+               <l>que obró la Vírnen María,</l>
+               <l>de Dorotea á los ruegos.</l>
+               <l rend="indent">Don Diego cuenta tambien</l>
+               <l>como á la quinta volviendo,</l>
+               <l>aquel letargo encontraron,</l>
+               <l>hallándolo todo abierto.</l>
+               <l rend="indent">Que viendo que ella faltaba, </l>
+               <l>sospecharon al momento</l>
+               <l>que se la habian llevado</l>
+               <l>aquellos monstruos perversos.</l>
+               <l rend="indent">Que ayudado de una tropa</l>
+               <l>que venian de Tolédo,</l>
+               <l>él y todos los criados</l>
+               <l>determinan salir luego.</l>
+               <l rend="indent">Que todos aquellos montes</l>
+               <l>por la noche recorrieron,</l>
+               <l>sin encontrar el alvergue</l>
+               <l>de aquellos tígres ambrientos.</l>
+               <l rend="indent">Escuchaba el Ermitaño</l>
+               <l>todo aquel razonamiento</l>
+               <l>con atencion increible,</l>
+               <l>mirando siempre á don Diego.</l>
+               <l rend="indent">Este que lo roparaba,</l>
+               <l>la causa le pide de ello,</l>
+               <l>el anciano proseguía</l>
+               <l>mirándole mas atento.</l>
+               <l rend="indent">Si el corazon no me engaña, </l>
+               <l>don Diego eres de Acebedo,</l>
+               <l>y tu asesinada madre</l>
+               <l>doña lnés de Parayuelos.</l>
+               <l rend="indent">El mismo soy, le responde,</l>
+               <l>y entonces llorando el viejo,</l>
+               <l>dijo: triste hermana mia,</l>
+               <l>téngate Dios en el cielo!</l>
+               <l rend="indent">¿Qué es lo que decis buen hombre?</l>
+               <l>esclaman ámbos suspensos:</l>
+               <l>¿Vuestra hermana, nuestra madre?</l>
+               <l>¿Pues cómo puede ser esto?</l>
+               <l rend="indent">Sobrino del alma mia,</l>
+               <l>no dudeis lo que os refiero;</l>
+               <l>y tú, Dorotea abraza</l>
+               <l>á tu padrino don Pedro.</l>
+               <l rend="indent">Yo soy aquel infeliz</l>
+               <l>que en mi juventud siguiendo</l>
+               <l>el camino de los vicios,</l>
+               <l>estuve en Segovia preso.</l>
+               <l rend="indent">Soy el que pasó despues</l>
+               <l>á la América resuelto</l>
+
+               <pb n="8" source="Moreno_320_8.jpeg" facs="fedora_ug8106879/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">8</fw>
+
+               <l>donde casé y enviudé</l>
+               <l>y volví al pais paterno..</l>
+               <l rend="indent">En las aguas de Almería:</l>
+               <l>y no muy lejos del puerto</l>
+               <l>se levantó una borrasca</l>
+               <l>y el barco fué á pique luego.</l>
+               <l rend="indent">Viéndome yo allí perdido,</l>
+               <l>y nadar aun no sabiendo,</l>
+               <l>ofrecí hacerme Ermitaño</l>
+               <l>si llegaba á salvamento.</l>
+               <l rend="indent">Agarrado de una tabla,</l>
+               <l>anduve á merced del viento,</l>
+               <l>y las olas impetuósás</l>
+               <l>á la orilla me trageron.</l>
+               <l rend="indent">Desde aquel instante mismo</l>
+               <l>resolví dar cumplimiento,</l>
+               <l>sin dar aviso á ninguno</l>
+               <l>al voto que habia hecho.</l>
+               <l rend="indent">Internéme hácia Castilla,</l>
+               <l>y en aqueste bosque viendo</l>
+               <l>una Ermita inhabitada,</l>
+               <l>la escogí para mi luego.</l>
+               <l rend="indent">Aquí he vivido hasta ahorá,</l>
+               <l>pero ya que el Ser supremo</l>
+               <l>á vuestros brazos me trae</l>
+               <l>porque os sirva de consuelo,</l>
+               <l rend="indent">Quiero á casa acompañáros;</l>
+               <l>y así abrazadme de nuevo,</l>
+               <l>y sin tardarun instante</l>
+               <l>á vuestra casá marchémos.</l>
+               <l rend="indent">Los criados y la tropa</l>
+               <l>todo el bosque recorrieron</l>
+               <l>en busca de los malvados,</l>
+               <l>y su cueva descubriéron.</l>
+               <l rend="indent">Al instante les tomaron</l>
+               <l>todos los derrumbaderos,</l>
+               <l>y viéndose ya perdidos</l>
+               <l>à rendirse sucumbiéron.</l>
+               <l rend="indent">Los atan de dos,en dos,</l>
+               <l>llevándolos á Tolédo,</l>
+               <l>dejándolos en la cárcel</l>
+               <l>cargados muy bien de hierro.</l>
+               <l rend="indent">Todos en breve pagaron,</l>
+               <l>sirviendo para escarmiento</l>
+               <l>el castigo en un cadalso</l>
+               <l>por sus delitos horrendos.</l>
+               <l rend="indent">Dorotea con su hermano,</l>
+               <l>y su buén tio, siguieron</l>
+               <l>hasta llegar á la quinta,</l>
+               <l>donde todos se reunieron.</l>
+               <l rend="indent">Al desconsolado viudo</l>
+               <l>este acaso dió consuelo,</l>
+               <l>y despues de mil abrazos</l>
+               <l>y contarse sus sucesos;</l>
+               <l rend="indent">Dieron á los tres-difuntos</l>
+               <l>sepultura allí en Tolédo,</l>
+               <l>con un inmenso concurso,</l>
+               <l>pues acudió todo el pueblo.</l>
+               <l rend="indent">Aquí se acaba la historia</l>
+               <l>de Dorotea Acebedo:</l>
+               <l>y el autor pide que á todos</l>
+               <l>nos dé Dios despues el cielo.</l>
+
+               <trailer rend="negrita">FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p><lb/>CARMONA:—Imp. de D. José M. Moreno, calle de Madre de Dios.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

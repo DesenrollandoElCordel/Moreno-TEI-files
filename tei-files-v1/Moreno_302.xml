@@ -1,0 +1,453 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_302">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El molinero de Arcos</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">El molinero de Arcos.</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1858-01-01">1858</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6483408</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 319</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>4 p.</extent>
+                        <condition>Bueno. La página 4 está cortada a la izquierda.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <summary n="1">Un grabado (p.1)</summary>
+                     <decoNote type="lista_grabados">
+                        <list>
+                           <item corresp="grabado_m_302_1.xml" facs="fedora_ug8105215/368,257,1086,637/100,/0/default.jpg">grabado_m_302_1</item>
+                        </list>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR no corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX527614.html" type="tipo_texto">Romances</term>
+               <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-14" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-14" who="#EL">Ajout des liens vers les gravures et le
+            thumbnail</change>
+         <change when="2022-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8104874/manifest">
+      <graphic url="fedora_ug8105215/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <div>
+               <pb n="1" source="Moreno_302_1.jpeg" facs="fedora_ug8105215/full/full/0/default.jpg"/>
+
+               <fw type="impresorNum">(Núm. 319.)</fw>
+
+               <head type="primer_titulo">EL MOLINERO DE ARCOS.</head>
+
+               <l><hi rend="negrita">G</hi>alanes enamorados,</l>
+               <l>hijos de la primavera,</l>
+               <l>los que en batallas de amor</l>
+               <l>gustosamente pelean,</l>
+               <l>procurando cada uno</l>
+               <l>sacar los despojos de ellas,</l>
+               <l>no fiar del enemigo,</l>
+               <l>que la fianza no es buena.</l>
+               <l>Y asi damas y galanes,</l>
+               <l>tengan con el cuento cuenta,</l>
+               <l>porque ya se vá á esplicar </l>
+               <l>sin detencion mí rudeza.</l>
+               <l>En esa invicta ciudad</l>
+               <l>de Arcos de la Frontera</l>
+               <l>nació un bizarro mancebo,</l>
+               <l>de una moderada hacienda,</l>
+               <l>y porque aqueste caudal</l>
+               <l>el mayor aumento tenga,</l>
+               <l>arrendó un cierto molino</l>
+               <l>de pan, en esa ribera</l>
+               <l>del rio de Maja-aceite,</l>
+               <l>y por no entender la piedra,</l>
+               <l>acomodó un oficial</l>
+               <l>para que la harina hiciera,</l>
+               <l>En este tiempo dispuso.</l>
+               <l>casar, con una doncella</l>
+               <l>que es hija de un hortelano</l>
+               <l>hermosa como ella misma</l>
+               <l>y gen gusto de sus padres</l>
+               <l>y toda su parentela</l>
+               <l>se celebraron las bodas</l>
+               <l>y á su casa se la llevas</l>
+               <l>de dia iba á el molino</l>
+               <l>de noche aunque tarde fuera; </l>
+               <l>iba á dormir con su esposa,</l>
+               <l>porque solá no estuviera,</l>
+               <l>y para HEancomodarla </l>
+               <l>compuso úna llave nueva</l>
+               <l>de la puerta de la calle,</l>
+               <l>para abrir cuando él viniera,</l>
+               <l>A todos los molineros</l>
+               <l>de toda aquesta ribera,</l>
+               <l>el señor depositario</l>
+               <l>del Pósito con frecuencia.</l>
+               <l>los visita, para que</l>
+               <l>el Pósito harina tenga</l>
+               <l>por miedo á las arriadas</l>
+               <l>que en el año venir puedan,</l>
+               <l>porque del depositario</l>
+               <l>penden estas diligencias;</l>
+
+               <pb n="2" source="Moreno_302_2.jpeg" facs="fedora_ug8109826/full/full/0/default.jpg"/>
+
+               <l>este fué el primer motiyo</l>
+               <l>que el depositario encuentra</l>
+               <l>para hablarle á esta señora, </l>
+               <l>diciendo que lo quisiera, </l>
+               <l>que seria respetada,</l>
+               <l>ella, el molino y sus tierras;</l>
+               <l>y como el depositario</l>
+               <l>era hombre de altas prendas</l>
+               <l>quedó ella enamorada,</l>
+               <l>y convino con su idea,</l>
+               <l>mas le dijo que su esposo</l>
+               <l>de noche duerme con ella;</l>
+               <l>respondió el depositario</l>
+               <l>yo dispondré que hoy no duerma, </l>
+               <l>se despidieron gustosos</l>
+               <l>hasta que la noche venga.</l>
+               <l>Luego mandó á un arriero,</l>
+               <l>hijo de la misma tierra,</l>
+               <l>le lleve un cahiz de trigo</l>
+               <l>al molino, y que era fuerza</l>
+               <l>antes que viniese el dia </l>
+               <l>en el Pósito estuviera:</l>
+               <l>serian las oraciones</l>
+               <l>cuando el arriero llega</l>
+               <l>al molino con el trigo</l>
+               <l>y entregó la papeleta;</l>
+               <l>echaron mano á moler</l>
+               <l>por acabar mas apriesa</l>
+               <l>mas el mancebo advirtiendo</l>
+               <l>por aquella noche misma</l>
+               <l>no podia ir á su casa,</l>
+               <l>mucho lo siente y se queja,</l>
+               <l>y le dice el oficial:</l>
+               <l>vayá usted, no se detenga,</l>
+               <l>que tengo lugar bastante</l>
+               <l>aunque otro cahiz viniera,</l>
+               <l>y con esta confianza</l>
+               <l>tomó de Arcos la vuelta.</l>
+               <l>Vamos al depositario</l>
+               <l>que para lograr su empresa</l>
+               <l>se le hacen las horas años</l>
+               <l>por ver á la molinera,</l>
+               <l>y á las ánimas en punto</l>
+               <l>mandó que le compusieran</l>
+               <l>el caballo que iba al campo</l>
+               <l>á hacer una diligencia;</l>
+               <l>pero la depositaria</l>
+               <l>lo creyó por cosa cierta;</l>
+               <l>tenia un negro en su casa</l>
+               <l>llamado Manuel de Cuenca, </l>
+               <l>el cual le ensilló el caballo,</l>
+               <l>mas al salir por la puerta</l>
+               <l>le dijo el amo á Manuel:</l>
+               <l>ten cuidado cuando venga</l>
+               <l>para que la puerta abras</l>
+               <l>sin que un punto te detengas:</l>
+               <l>con esto picó el caballo, </l>
+               <l>fué á ver á la molinera, </l>
+               <l>ella que lo está aguardando</l>
+               <l>al punto abrióle la puerta,</l>
+               <l>en el patio ató el caballo,</l>
+               <l>y empezaron la contienda, </l>
+               <l>y hartos ya de divertirse</l>
+               <l>ambos se pidieron treguas,</l>
+               <l>y quedándose dormidos</l>
+               <l>el molinero que llega,</l>
+               <l>sacó la llave y abrió</l>
+               <l>mas al entrar por la puerta</l>
+               <l>en el patio vió el caballo</l>
+               <l>y adquirió alguna sospecha</l>
+               <l>dijo á su salvo conducto</l>
+               <l>sin duda que aquesta es treta,</l>
+               <l>y sin diferencia alguna</l>
+               <l>el pájaro está en la percha,</l>
+               <l>ojalá y fuera verdad,</l>
+               <l>tuviéramos noche buena:</l>
+               <l>y con un grande sigilo</l>
+               <l>y con mucha sutileza</l>
+               <l>fué ápartando las cortinas,</l>
+               <l>y vió que en su cama misma</l>
+               <l>dormia el depositario</l>
+               <l>con su esposa amada y bella;</l>
+               <l>agarró toda su ropa,</l>
+               <l>salióse al patio con ella,</l>
+               <l>desnudóse de la suya,</l>
+               <l>pónese pieza por pieza,</l>
+               <l>hizo de la suya un lio</l>
+               <l>que ni aun el diablo lo hieiera, </l>
+               <l>la puso en la misma silla,</l>
+               <l>que estaba á la cabecera,</l>
+
+               <pb n="3" source="Moreno_302_3.jpeg" facs="fedora_ug8106736/full/full/0/default.jpg"/>
+
+               <l>lesamarró su caballo,</l>
+               <l>ató el suyo por la rienda,</l>
+               <l>salió á la calle furioso</l>
+               <l>desempedrando las piedras,</l>
+               <l>casa del deposiiario</l>
+               <l>llegó, y tocando á la puertá</l>
+               <l>abrió el negro cuidadoso</l>
+               <l>creyendo que su amo era</l>
+               <l>que como lleva el caballo</l>
+               <l>y el molinero que lleva</l>
+               <l>toda la ropa del amo</l>
+               <l>no dudó de la certeza:</l>
+               <l>tomó la oscalera arriba,</l>
+               <l>y como estaban las puertas</l>
+               <l>abiertas para en viniendo</l>
+               <l>no fué menester que abriera;</l>
+               <l>fué al cuarto de la señora</l>
+               <l>que estaba como una reina</l>
+               <l>entregada al dulce sueño,</l>
+               <l>y acostándose con ella</l>
+               <l>aunque al pronto despertó</l>
+               <l>ella se pensó que era</l>
+               <l>su esposo que habiá venido</l>
+               <l>y lo dejó que anduviera</l>
+               <l>por los campos deleitosos</l>
+               <l>dando brincos y carreras</l>
+               <l>el uno por la venganza</l>
+               <l>y el otro por cosa nueva:</l>
+               <l>vamos al depositario</l>
+               <l>comenzaremos la fiesta,</l>
+               <l>pues apenas despertó</l>
+               <l>para saber qué hora era,</l>
+               <l>acordóse del reloj</l>
+               <l>que estaba en la faltriquera</l>
+               <l>de la chupa y levantóse,</l>
+               <l>vió que su chupa no era,</l>
+               <l>le dice, mujer levanta</l>
+               <l>mira qué chupa es aquesta,</l>
+               <l>parece la de tu esposo:</l>
+               <l>cierto, la hemos hecho buena,</l>
+               <l>por dónde diablos ha entrado</l>
+               <l>si están cerradas las puertas?</l>
+               <l>ella le dice, señor,</l>
+               <l>él tiene otra llave nueva,</l>
+               <l>pero como Vd. me dijo</l>
+               <l>seguro está que viniera;</l>
+               <l>por eso yo me entregué</l>
+               <l>tan fácilmente y ligera</l>
+               <l>para que ahora mi esposo</l>
+               <l>viendo á sus ojos la ofensa,</l>
+               <l>ne dé la muerte furioso</l>
+               <l>por liviana y deshónesta;</l>
+               <l>mientras el depositario</l>
+               <l>se puso entre enfado y pena</l>
+               <l>la ropa del molinero, </l>
+               <l>su capotillo y montera,</l>
+               <l>unas polainas raidas,</l>
+               <l>y un zapato de tres suelas,</l>
+               <l>que parecia un gañan</l>
+               <l>haciendo da sementera,</l>
+               <l>fué y desamarró el caballo</l>
+               <l>y vió que el suyo no era,</l>
+               <l>aquí se colmó del todo,</l>
+               <l>y no de trigo, la media,</l>
+               <l>salió á la calle enojado</l>
+               <l>discurriendo mil ideas,</l>
+               <l>qué le diria á su esposa</l>
+               <l>ver que su ropa no lleva;</l>
+               <l>afligido y pesaroso</l>
+               <l>llegó, y tocando á la puerta</l>
+               <l>salió el negro cuidadoso</l>
+               <l>preguntándole quién era:</l>
+               <l>abre, Manuel, á tu amo;</l>
+               <l>qué amo ni qué friolera, </l>
+               <l>vaya á engañar al demonio</l>
+               <l>con aquesa paroleta,</l>
+               <l>que há que mi amo entró</l>
+               <l>mas de dos horas y media:</l>
+               <l>abre, Manuel, que es engaño;</l>
+               <l>vaya á engañar á su abuela,</l>
+               <l>mas viendo que no es posible</l>
+               <l>el amo que el mozo abriera, </l>
+               <l>allí se mantuvo el pobre</l>
+               <l>hasta que el dia viniera.</l>
+               <l>Viendo la depositaria</l>
+               <l>que aquel su esposo no era,</l>
+               <l>le dice; señor, qué es esto?</l>
+               <l>qué traicion ha sido esta ?</l>
+               <l>cómo entró Vd. en mi casa?</l>
+               <l>y mi esposo dónde queda?</l>
+
+               <pb n="4" source="Moreno_302_4.jpeg" facs="fedora_ug8108196/full/full/0/default.jpg"/>
+
+               <l><supplied>d</supplied>e respondio el molmuero,</l>
+               <l>no me quiebre la cabeza,</l>
+               <l>y en viniendo su marido</l>
+               <l>pregúntele cuanto quiera:</l>
+               <l>tomó la escalera abajo, </l>
+               <l>y en ropas menores ella</l>
+               <l>salió para detenerlo,</l>
+               <l>llegan los dos á la puerta</l>
+               <l>donde vió estaba su esposo</l>
+               <l>con capotillo y montera</l>
+               <l>que parece un arriero,</l>
+               <l>su vara en el cinto puesta;</l>
+               <l>ella le dice, señor,</l>
+               <l>has mudado de librea?</l>
+               <l>es mejor ser molinero</l>
+               <l>ó es mejor la molinera?</l>
+               <l>por que ella se traslució</l>
+               <l>aquello mismo que era:</l>
+               <l>pasen Vds, adentro</l>
+               <l>sin armar risa ni fiesta,</l>
+               <l>que vá la gente pasando</l>
+               <l>y entenderán que es comedia;</l>
+               <l>pasaron los dos adentro,</l>
+               <l>y á cambiar su ropa empiezan; </l>
+               <l>mientras la depositaria</l>
+               <l>le dijo á la cocinera </l>
+               <l>que compusiera un almuerzo</l>
+               <l>de cosa frita en cazuela,</l>
+               <l>y con el ama de llaves</l>
+               <l>mandó por la molinera,</l>
+               <l>la cual al instante vino</l>
+               <l>portada como una Reina;</l>
+               <l>y dijo ya estamos juntos</l>
+               <l>los cuatro de la comedia;</l>
+               <l>se sentaron á almorzar</l>
+               <l>todos de risa y de fiesta,</l>
+               <l>pero la depositaria </l>
+               <l>muy astuta y lisonjera,</l>
+               <l>tomó un vaso y echó un Irindis,</l>
+               <l>y dijo : por la primera,</l>
+               <l>á la salud de los novios,</l>
+               <l>dióselo á la molinera;</l>
+               <l>y dijo por la segunda</l>
+               <l>brindo por ser mas pequeña</l>
+               <l>á la salud del dormido</l>
+               <l>y toda la noche en vela;</l>
+               <l>dióselo al depositario</l>
+               <l>y dijo : por la tercera,</l>
+               <l>á la salud del que tuvo</l>
+               <l>tras de cuernos penitencia;</l>
+               <l>y dióselo al molinero</l>
+               <l>quien díjo; por la postrera,</l>
+               <l>á la salud del que supo</l>
+               <l>cobrar del todo la deuda,</l>
+               <l>á mi no me deben nada</l>
+               <l>que he ajustado bien la cuenta, </l>
+               <l>y salgo nueve por tres,</l>
+               <l>y sino dígalo ella:</l>
+               <l>bien está, dijeronstodos,</l>
+               <l>vaya de risa y de fiesta.</l>
+               <l>Se despidieron gustosos,</l>
+               <l>y cada uno ásu hembra</l>
+               <l>le preguntaba diciendo:</l>
+               <l>qué tal te ha ido en la fiesta?</l>
+               <l>Tomad ejemplo, galanes,</l>
+               <l>cuenta con el cuento, cuenta,</l>
+               <l>que si ha tenido desquite,</l>
+               <l>otro puede no lo tenga.</l>
+               <l>Y ahora Pedro Marin,</l>
+               <l>advierte que no es novela</l>
+               <l>que por testigo de vista</l>
+               <l>pone al ciego de la Peña.</l>
+
+               <trailer>FIN.</trailer>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra núm. 4.
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

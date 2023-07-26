@@ -1,0 +1,1913 @@
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moreno_124">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sainete nuevo titulado Los pallos astutos</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Codificación TEI</resp>
+               <resp>Corrección OCR</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <availability status="restricted">
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="titulo_completo">Sainete nuevo titulado Los pallos astutos para seis
+                     personas,</title>
+                  <title type="titulo_breve"/>
+               </titleStmt>
+               <editionStmt>
+                  <p/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher>José María Moreno</publisher>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+                  <date cert="high" when="1859-01-01">1859</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque Universitaire de Genève </repository>
+                  <collection>Colleción Moreno</collection>
+                  <idno type="cote">Ant*Pli Car BFLA 257813</idno>
+                  <idno type="DOI">10.5281/zenodo.6470617</idno>
+                  <altIdentifier>
+                     <idno type="num_impresor">Número 132</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <locus/>
+                     <title/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>in-4</dim>
+                        </support>
+                        <extent>8 p.</extent>
+                        <condition>Bueno</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>2 columnas</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
+               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
+               Sandoz-Monique de Meuron.</p>
+         </projectDesc>
+         <editorialDecl corresp="#automaticTranscription">
+            <correction>
+               <p>OCR corregido</p>
+            </correction>
+            <normalization>
+               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+            </normalization>
+            <punctuation>
+               <p>Se conserva la puntuación original.</p>
+            </punctuation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Español</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:base="http://datos.bne.es/tema/">
+               <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+               <term type="tipo_estrofa"/>
+               <term type="verso_prosa">Verso</term>
+               <term type="sagrado_profano">Profano</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-17" who="#EL">Création du fichier TEI P5 et encodage du corps du
+            texte</change>
+         <change when="2021-06-10" who="#EL">Ajout des liens vers le thumbnail</change>
+         <change when="2021-06-29" who="#EL">Correction de l'OCR</change>
+         <change when="2021-01-10" who="#EL">Alignement avec les éléments requis par SegmOnto + Maj
+            du format de @when</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile facs="https://iiif.unige.ch/dhportal/ug8103242/manifest">
+      <graphic url="fedora_ug8108804/full/200,/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <pb n="1" source="Moreno_124_1.jpg" facs="fedora_ug8108804/full/full/0/default.jpg"/>
+
+            <fw type="impresorNum">NUMERO 132.</fw>
+
+            <head type="primer_titulo">
+               <lb/>SAINETE NUEVO <lb/>TITULADO <lb/><hi rend="negrita">LOS PALLOS ASTUTOS</hi>
+            </head>
+            <head rend="cursiva" type="subtitulo">
+               <lb/>PARA SEIS PERSONAS,</head>
+
+            <div type="reparto">
+               <head rend="negrita" type="reparto_titulo">QUE SON</head>
+               <castList>
+                  <castItem>Agueda, Paya.</castItem>
+                  <castItem>Lázaro, Payo.</castItem>
+                  <castItem>D. Jorge, Escribano.</castItem>
+                  <castItem>D. Judas, Médico.</castItem>
+                  <castItem>Rufina, Novia.</castItem>
+                  <castItem>D. Marcos, tuerto,</castItem>
+               </castList>
+
+               <stage rend="cursiva">SALON, CON UN RINCON GRANDE.</stage>
+            </div>
+
+            <div type="colofon">
+               <p>
+                  <lb/>CARMONA;—1859. <lb/>Imp. de D. José M.a Moreno, calle de Madre de Dios núm.
+               </p>
+            </div>
+
+            <div>
+               <pb n="2" source="Moreno_124_2.jpg" facs="fedora_ug8107943/full/full/0/default.jpg"/>
+
+               <fw type="paginaNum">2</fw>
+               <fw>SAINETE DE</fw>
+
+               <stage rend="negrita">SALE AGUEDA Y LAZARO DE PAYOS REZELOSOS.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Sígueme muy queitito</l>
+                  <l>á este retirao cuarto,</l>
+                  <l>puesto que estan en la sala</l>
+                  <l>las vesitas, y los amos;</l>
+                  <l>y aquí, Lázaro querio,</l>
+                  <l>miéntras rien ellos, ambos</l>
+                  <l>hartemonos de llorar <stage rend="cursiva">Afligida.</stage></l>
+                  <l>nuestras penas, y trabajos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Tienes razon, Agueita,</l>
+                  <l>lloremos, el triste estao</l>
+                  <l>en que nos vemos, lloremos</l>
+                  <l>nuestro amor disfortunao</l>
+                  <l>por ese Doctor Heróes</l>
+                  <l>del amo: y el Cielo santo</l>
+                  <l>premita que en este Pruebo</l>
+                  <l>esten todos rebentando</l>
+                  <l>de salú, y nunca gane</l>
+                  <l>por tomar el pulso un cuarto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Amen. Siempre halle la cama</l>
+                  <l>mas dura, y tiesa que un canto;</l>
+                  <l>y espinas se le atraviesen,</l>
+                  <l>si come peces, ó barbos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Amen, Y las escaleras</l>
+                  <l>siempre las baje rodando.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Todos los perros le muerdan.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Jamás encuentre pan blando.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Mas que sin muelas se quee.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Mas que se ponga muy calvo;</l>
+                  <l>y ni peluca, ni gorro</l>
+                  <l>encuentre con que taparlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Los dos.</speaker>
+                  <l>Lloremos amargamente</l>
+                  <l>nuestro amor desventurao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¡Qué lastima! <stage rend="cursiva">Afligidos.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¡Qué dolor!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Los dos.</speaker>
+                  <l>Lloremos, que no me caso:</l>
+                  <l>Y mala raiba le dé</l>
+                  <l>al que lo ha desbaratao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>No llores mas; que de verte</l>
+                  <l>á mi se maumenta el llanto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¿Es el lance para menos?</l>
+                  <l>si no puedo remediarlo.</l>
+                  <l>Pero dime por menor,</l>
+                  <l>¿qué es lo que taicho el amo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Razones que para mí</l>
+                  <l>han sio un pistoletazo.</l>
+                  <l>Me ijo .. tú entenderás,</l>
+                  <l>y estará tambien pensando</l>
+                  <l>tu compañera Agueita,</l>
+                  <l>el que tengo de casaros,</l>
+                  <l>como lo ofrecí; no, amigo</l>
+                  <l>de lo icho me retrato:</l>
+                  <l>los conciertos de mi hija</l>
+                  <l>en esta noche ajustaos</l>
+                  <l>han de quedar; mas los vuestros</l>
+                  <l>ni quiero ni es de mi agrao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¿Y tú entónces que jistes?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Na; si me queé elao</l>
+                  <l>como estauta, sin poer</l>
+                  <l>mover ni lengua ni labios.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Bien te lo ecia yo</l>
+                  <l>cuanto nos está pasando.</l>
+                  <l>Si es un Meico perverso.</l>
+                  <l>Dempues que hemos concertao</l>
+                  <l>el bodorrio de su hija</l>
+                  <l>los dos, éste ha sio el pago.</l>
+                  <l>Mal fuego en él.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Lo camí</l>
+                  <l>me tiene mas enrabio</l>
+                  <l>es el que nos alborotó</l>
+                  <l>con cabía de casarnos; </l>
+                  <l>y ahora ha salio el infame</l>
+                  <l>con una pata de gallo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Vea usté nuestros corazones</l>
+                  <l>que eataban enquillotaos,</l>
+                  <l>como quearán ahora </l>
+                  <l>con caso tan impensao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Yo te aseguro que el mio</l>
+                  <l>creo que sa desmayao,</l>
+                  <l>ó muerto, que no le siento,</l>
+                  <l>por mas que pongo ya mano,</l>
+                  <l>ni bollir, ni daa brinquitos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Ya mí me pasa otro tanto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Si se no habrá morio</l>
+                  <l>de la pesadumbre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Macho,</l>
+                  <l>¿si se nos hubiera muerto,</l>
+                  <l>habiamos de estar hablando?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Que se yo. ¿Sabes que igo?</l>
+                  <l>que es tontuna contristarnos</l>
+                  <l>porque el amo no nos case:</l>
+                  <l>en quiriendo los dos, vamos</l>
+                  <l>al Señor Cura, nos casa,</l>
+                  <l>y está too remediao. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Calla: pues has icho bien,</l>
+                  <l>no habia yo dao en tanto.</l>
+                  <l>Ya hablarémos del asunto.</l>
+
+                  <pb n="3" source="Moreno_124_3.jpg" facs="fedora_ug8103292/full/full/0/default.jpg"/>
+
+                  <fw>LOS PAYOS ASTUTOS</fw>
+                  <fw type="paginaNum">3</fw>
+
+                  <l>Pero diera seis ducaos</l>
+                  <l>por desbaratar la boa</l>
+                  <l>de su hija, ya que casarnos</l>
+                  <l>no quiere.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¿Hay mas que emprenderlo?</l>
+                  <l>¿que nos faltará, aunque Payos,</l>
+                  <l>ensufecencia, y astucia,</l>
+                  <l>para conseguir lograrlo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Pues á enredarlos, y chito.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Verás cuál los embrollamos: </l>
+                  <l>El tio del novio entra,</l>
+                  <l>oye y vamos prencipiando.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <l>Se retiran á un lado, y sale Jorge,</l>
+                  <l>Escribano muy ridículo.</l>
+               </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Se me ha pasado la hora,</l>
+                  <l>y ya estaran aguardando.</l>
+                  <l>Esta boda, y los negocios</l>
+                  <l>de un Escribano afamado</l>
+                  <l>de Ciudad, no me permiten</l>
+                  <l>un instante de descanso.</l>
+                  <l>Pero Lazaro, Aguedita,</l>
+                  <l>¿como estais tan retirados</l>
+                  <l>de la funcion? ¿Qué teneis,</l>
+                  <l>tan tristes, y cabizbajos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Cada uno tiene sus penas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>A nadie faltan cuidados.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Vaya, dejad tonterías,</l>
+                  <l>y procurad alegraros.</l>
+                  <l>pues hay boda en casa. ¿Está</l>
+                  <l>Don Judillas vuestro amo</l>
+                  <l>allá dentro?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>El, y la novia,</l>
+                  <l>dentro están acompañados</l>
+                  <l>de las vesitas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Y hay muchas? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>No caben en el estrao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Supongo que le dariais</l>
+                  <l>el recado que mí criado</l>
+                  <l>trajo endenantes, de que</l>
+                  <l>no estuvíesen con cuidado</l>
+                  <l>si tardaba mi sobrino</l>
+                  <l>el novio, que está evacuando</l>
+                  <l>una diligencia urgente,</l>
+                  <l>y no vendrá hasta acabarlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Es muy cierto que esta y yo</l>
+                  <l>hemos tomao el recao;</l>
+                  <l>mas, ni le dimos entonces,</l>
+                  <l>ni menos queremos darlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>¡Que desvergüenza! ¿Y por que?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Hablad quedo, no alteraos:</l>
+                  <l>que por quererle á usté bien,</l>
+                  <l>ni le dimos, ni le damos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¡Que decis! no os entiendo </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Hay mucho mal.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Mucho daño.</l>
+
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Mucha trampa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Mucho embrollo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Pero yo quiere callarlo:</l>
+                  <l>porque si acaso se sabe,</l>
+                  <l>ma de despeir el amo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Dices bien, Lázaro; chito;</l>
+                  <l>ques negocio delicao</l>
+                  <l>estas cosas. Vamonos.</l>
+               </sp>
+
+               <stage rend="cursiva">Hacen que se van.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Los dos.</speaker>
+                  <l>A dios, Señor.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Aguardaos;</l>
+                  <l>que vuestras preñadas voces</l>
+                  <l>de sospechas me han llenado.</l>
+                  <l>Hablemos aqui en secreto</l>
+                  <l>los tres; y decid si hay algo</l>
+                  <l>contra mi opinion.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Los dos.</speaker>
+                  <l>Y mucho.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¿Pues que pasa? Habladme claro.</l>
+                  <l>¿Que sabeis?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Que mi Señor</l>
+                  <l>solicita á usté engañarlo,</l>
+                  <l>en la boa que se trata</l>
+                  <l>de vuestro Sobrino Marcos.</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¿Pues le parece tan facil</l>
+                  <l>engañar á un Escribano, </l>
+                  <l>siendo capaces nosotros</l>
+                  <l>de engañar al mismo diablo?</l>
+                  <l>Pero yo estoy satisfecho</l>
+                  <l>de que Don Judas vuestro amo</l>
+                  <l>no me engañe.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Como usté</l>
+                  <l>hace poco mas de un año</l>
+                  <l>vino á esta Zudia, no sabe</l>
+                  <l>quien es, ni como, ni cuando.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Se, que es un Médico rico,</l>
+                  <l>de fama, sabio y honrado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Que no señor no es tan rico,</l>
+                  <l>como usté sa imaginao:</l>
+                  <l>ni puede dar á su hija </l>
+                  <l>de todo catorce ochavos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Muchacha, ¡que es lo que hablas!</l>
+                  <l>Cuando yo esta boda hago</l>
+                  <l>por el dote...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Que no hay naa.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Si me han dicho que ha heredado</l>
+                  <l>ahora setenta mil pesos</l>
+                  <l>de un pariente boticario</l>
+                  <l>de Madrid.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Mentira too</l>
+                  <l>ese hera su primo hermano, </l>
+                  <l>ca muerto en el Espital</l>
+                  <l>sin tener para enterrarlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¡Que cosas! Pero decidme:</l>
+
+                  <pb n="4" source="Moreno_124_4.jpg" facs="fedora_ug8109320/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">4</fw>
+                  <fw>SAINETE DE</fw>
+
+                  <l>¿Aunque todo eso sea falso,</l>
+                  <l>de su muger, que esté en gloria,</l>
+                  <l>no le quedó un Mayorazgo</l>
+                  <l>á la hija, que se puede</l>
+                  <l>pasear con coche, y caballos? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Sí esa es voz para casar</l>
+                  <l>la hija con un acendao. </l>
+                  <l>El Mayorazgo que yo </l>
+                  <l>tiene su hija.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>Me pasmo,</l>
+                  <l>me aturdo, estoy confuso</l>
+                  <l>de lo que me vais contando.</l>
+                  <l>Mas, aunque eso verdad sea, </l>
+                  <l>decidme, desatinados; </l>
+                  <l>¿no tienes viñas, y olivos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Si too se le ha secao:</l>
+                  <l>ni aun raices tiene ya </l>
+                  <l>hace cuatro ó cinco años, </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¿No tiene grande bajilla?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Caremos, si la ha buscao</l>
+                  <l>emprestaa para hacer</l>
+                  <l>nostentacion, y aparato,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Ahora cogite: ¿No tiene</l>
+                  <l>la Casa como un Palacio </l>
+                  <l>de alhajada?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>No hay cogite;</l>
+                  <l>porque la casa, y los tratos</l>
+                  <l>no son suyos; Es Tutor</l>
+                  <l>de un proecillo muchacho</l>
+                  <l>que está á Estudio; y lo disfruta,</l>
+                  <l>y pasa porque es del amo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¡Que embrollos estos! ¿Con que</l>
+                  <l>en consecuencia sacamos, </l>
+                  <l>de que el dote de la hija </l>
+                  <l>es apariencia, y engaños? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Los dos.</speaker>
+                  <l>Sí, seño.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Pues si no hay dote,</l>
+                  <l>se llevaron dos mil Santos </l>
+                  <l>la boda, y la Novia, voy</l>
+                  <l>corriendo á desbaratarlo</l>
+                  <l>todo y á quí mi Sobrino</l>
+                  <l>jamas vuelva aquí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Y el gasto</l>
+                  <l>can hecho paa esta noche, </l>
+                  <l>y las gentes convidaas </l>
+                  <l>cay á ver tomar el dicho?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Nada de eso es de mi cargo,</l>
+                  <l>¿Dos no existen? Pues no hay boda.</l>
+                  <l><hi rend="cursiva">Asumptus est consumatus,</hi></l>
+                  <l>A Dios chicos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Oiga usté:</l>
+                  <l>cuenta con no declararnos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Cuidiao con no decir</l>
+                  <l>que los dos lo hemos contao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Seguros estais. Veneno</l>
+                  <l>de cólera voy echando.</l>
+                  <l>¿Qué, me queria encajar </l>
+                  <l>el Docto por liebre gato?</l>
+                  <l>Si vuelve aquí mi Sobrino, </l>
+                  <l>le he de dar un trabucazo. <hi rend="cursiva">Vase.</hi></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¿Qué risa, Agueda? ¡Cual va</l>
+                  <l>el tal D. Jorge Camacho! <stage rend="cursiva">Alegre.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Si vias: yo me mordia,</l>
+                  <l>por no reirme, los labios, </l>
+                  <l>de ver como el probecico</l>
+                  <l>iba el embuste tragando.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Los amos vienen: con ellos</l>
+                  <l>vamos á hacer otro tanto.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Salen Don Judas, Médico, y Rufina <lb/>su hija. </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¡Que cosas estas! La casa</l>
+                  <l>de visitas rebentando;</l>
+                  <l>y ni el novio, ni su tio</l>
+                  <l>parecen: vaya que es chasco:</l>
+                  <l>y por vida de Don Judas, </l>
+                  <l>que me tienen sofocado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>Padre, no se altere usted,</l>
+                  <l>y con paciencia llevadlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¿Sabeis acaso los dos</l>
+                  <l>si es que ha sucedido algo</l>
+                  <l>á Don Jorge, y su Sobrino,</l>
+                  <l>para no venir?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Hay tanto,</l>
+                  <l>que por no daros pesar, </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¡Que hablas, chica! ¿Pues que pasa?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Prevenios á llevarlo</l>
+                  <l>por Dios; y despia usted</l>
+                  <l>á toos los convidaos; </l>
+                  <l>porque creo que la boa, </l>
+                  <l>sa desecho, y sa frustao. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¿Por que?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Dice el tio del novio</l>
+                  <l>(que ya quiero hablaros claro)</l>
+                  <l>ca sabió que usté tiene</l>
+                  <l>Primos ensanbenitaos; </l>
+                  <l>y ha enviao un recao ahora </l>
+                  <l>que no teneis caguardarlos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¡Yo Primos con San Benito!</l>
+                  <l>¿Yo Judío? Atribulado <stage rend="cursiva">Furioso.</stage></l>
+                  <l>estoy de furor, y tiemblo</l>
+                  <l>lo propio que un azogado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>¡Nos han dejado lucidos!</l>
+                  <l>Como un yelo me he quedado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Y ha icho otras mil infamias, </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Y ha icho otros mil iscarnios.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¡Habrá Escríbano perverso! </l>
+                  <l>Aunque me pierda, á buscarlo</l>
+                  <l>voy para matarle; dadme</l>
+
+                  <pb n="5" source="Moreno_124_5.jpg" facs="fedora_ug8110090/full/full/0/default.jpg"/>
+
+                  <fw>LOS PAYOS ASTETOS</fw>
+                  <fw type="paginaNum">5</fw>
+
+                  <l>el espadin; ó un en caro,</l>
+                  <l>para volar á él y al Novio, </l>
+                  <l>un cañon de treintra y cuatro.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Señor...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Amo mio...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>Padre,</l>
+                  <l>por la Vírgen del Sagrario</l>
+                  <l>no se pierda usted.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Dejadme.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>Yo estoy muerta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Yo rabiando. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Yo rebentando de risa. <stage rend="cursiva">ap.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Lindamente nos vengamos.</l>
+                  <l>¡Yo linajudo! ¡Ah malvadol</l>
+                  <l>No hay mas, adonde le encuentre</l>
+                  <l>como á una breva le paso. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>Padre, conténgase usted</l>
+                  <l>por esas gentes que á honrarnos;</l>
+                  <l>han venido, nada entiendan,</l>
+                  <l>que para desagraviarnos </l>
+                  <l>tiempo habrá.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Bien reflexionas:</l>
+                  <l>disimulemos, y vamos </l>
+                  <l>á que bailen, y se alegren,</l>
+                  <l>discurrirémos en tanto</l>
+                  <l>el modo de que no sepan</l>
+                  <l>la maldad que está pasando;</l>
+                  <l>mas despues, Escribanillo, </l>
+                  <l>te he de abrir de arriba abajo. <stage rend="cursiva">Vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>Solo lo que dirán siento;</l>
+                  <l>que Novios á cada paso</l>
+                  <l>se encuentran: voy á bailar; </l>
+                  <l>y vayan penas á un lado. <stage rend="cursiva">Vase.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Lazaro, ¡qué embrollos! creo</l>
+                  <l>nos han de moler á palos, </l>
+                  <l>si se descubren.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Pacencia; <stage rend="cursiva">Alegres.</stage></l>
+                  <l>que como dice el adagio, </l>
+                  <l>la sarna con <choice>
+                        <sic>gnsto</sic>
+                        <corr>gusto</corr>
+                     </choice>...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Calla;</l>
+                  <l>que el Novio creo va entrando:</l>
+                  <l>lo que le hemos de ecir</l>
+                  <l>descurramos á este lao.</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Se retiran, y sale Don Marcos, <lb/>Hidalgo risible, tuerto. </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>¿Qué podrá haber sucedido,</l>
+                  <l>que mi tio me ha mando</l>
+                  <l>que si vuelvo á ver la Novia</l>
+                  <l>me ha de dar un trabucazo</l>
+                  <l>pero yo estoy de Rufina</l>
+                  <l>tan aquel, y enamorado, </l>
+                  <l>que mas que me mate, vuelvo</l>
+                  <l>á verla. </l>
+
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¡Señor Don Marcos!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>¿Qué hay, chicos? ¿Sabeis los dos</l>
+                  <l>lo que habido, ó qué ha pasado,</l>
+                  <l>para decirme mi tio</l>
+                  <l>que la boda se ha acabado? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¿Y cómo que lo sabemos? </l>
+                  <l>tiene motivos sobraos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>¿Y que motivos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz</speaker>
+                  <l>Hay tantos...</l>
+                  <l>Pero mas vale callar; </l>
+                  <l>que nosotros no gustamos</l>
+                  <l>de dar que sentí á naide.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Lo cierto es, señor Hidalgo,</l>
+                  <l>que con la novia, y su Padre</l>
+                  <l>está usted muy desairao;</l>
+                  <l>y no tiene usted vergüenza, </l>
+                  <l>si vuelve averlos, ni hablarlos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Mirad bien lo que decis</l>
+                  <l>¿Hay quien se atreva á un Hidalgo</l>
+                  <l>como yo, que trae su origen</l>
+                  <l>del décimo nieto octavo</l>
+                  <l>de Adan nuestro Padre? Vaya, </l>
+                  <l>tomad este pan de cuartos,</l>
+                  <l>y decid cuanto sepais</l>
+                  <l>contra mí honor puro, y claro.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Yo lo dijera á usted; mas,</l>
+                  <l>si dempues lo sabe el amo,</l>
+                  <l>que me mate...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Y yo lo propio;</l>
+                  <l>porque hay tantísimo, y tanto,</l>
+                  <l>que usté sepa en el asunto...</l>
+                  <l>Pero mas vale callarlo</l>
+                  <l>en caría; que poeis</l>
+                  <l>caeros muerto de escucharlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>¿Pero que han hecho, ó han dicho,</l>
+                  <l>de mi; que me vais matando</l>
+                  <l>con cuchillo de madera? </l>
+                  <l>¿Que han dicho, perversos Payos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Escuche usté y llévelo</l>
+                  <l>con pacencia. Ha icho el amo,</l>
+                  <l>que usté es un hombre vicioso, </l>
+                  <l>hambriento, descamisao;</l>
+                  <l>y que no casa á su hija </l>
+                  <l>con un tuerto remellao.</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>¡Habrá infame! Lo primero</l>
+                  <l>es todo mentira, es falso:</l>
+                  <l>y si tengo este defecto</l>
+                  <l>en el ojo, esté enterado</l>
+                  <l>que vale un Hidalgo tuerto</l>
+                  <l>mas que un millon de hombres bajos, </l>
+                  <l>ó plebeyos. Sabeis mas?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>De vuestro tio el Escribano</l>
+                  <l>dice que tiene unas uñas </l>
+                  <l>mas largas que las de un gato.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Es precision del empleo:</l>
+
+                  <pb n="6" source="Moreno_124_6.jpg" facs="fedora_ug8109776/full/full/0/default.jpg"/>
+
+                  <fw type="paginaNum">6</fw>
+                  <fw>SAINETE DE</fw>
+
+                  <l>porque Harpistas, y Escribanos,</l>
+                  <l>cuanto mas uñas, ejercen</l>
+                  <l>su habilidad mas de pasmo. </l>
+                  <l>¿Hay mas?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Que tiene la Novia</l>
+                  <l>otro Novio, es Abogao,</l>
+                  <l>y no sale dia, y noche</l>
+                  <l>de junto á ella.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Es engaño, </l>
+                  <l>que me quiere á mi Rufina</l>
+                  <l>mas que al mundo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Si es engaño,</l>
+                  <l>arrepare usté alla dentro, </l>
+                  <l>le verá con ella hablando</l>
+                  <l>á la entraa de la sala:</l>
+                  <l>vedle. <stage rend="cursiva">Mirando á dentro.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Como soy Don Marcos, </l>
+                  <l>que me desago á mirar </l>
+                  <l>y nada veo.</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¡Qué paso! <stage rend="cursiva">Ap.</stage></l>
+                  <l>Ahora se alza la golilla,</l>
+                  <l>y se sacude un zapato.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Ahora se rie, y mi ama</l>
+                  <l>hace de verle otro tanto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Los dos.</speaker>
+                  <l>¿No le veis alli? <stage rend="cursiva">Señalan á den.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Me vuelve</l>
+                  <l>avestruz, cigüeño, ó grajo,</l>
+                  <l>si á semejante hombre veo. </l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¡Habra mas tremendo macho! <stage rend="cursiva">Ap.</stage></l>
+                  <l>¡Como le ha de ver, sí no hay naa!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Señor, si está usted mirando</l>
+                  <l>con el ojo tuerto, ¿como</l>
+                  <l>es capaz de divisarlo?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Que no señor, que yo miro</l>
+                  <l>con el ojo que está claro</l>
+                  <l>y no veo á nadie ¡Cielos, <stage rend="cursiva">Ap.</stage></l>
+                  <l>si es caso que habré cegado!</l>
+                  <l>fuerza es decir que le veo, </l>
+                  <l>por encubrir mi trabajo. </l>
+                  <l>Ya le diviso, allí está. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¿Ve usted que brincos y saltos </l>
+                  <l>que dá?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¿Ve usted como baila</l>
+                  <l>con mi señora el fandango?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¡Anda, y como se respinga!</l>
+
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¡Ay! Cayó el ama, y él en brazos</l>
+                  <l>la lavantó vitor, vitor.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Callad, callad; que me abraso</l>
+                  <l>de envidia, y zelos. ¡Ah ingrata! </l>
+                  <l>Voy á entrar para matarlo, </l>
+                  <l>mas que me pierda.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Teneos:</l>
+                  <l>lo mijor es aguardarlo </l>
+                  <l>en la calle, buscais gente,</l>
+                  <l>y lo rebentais á palos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Me aconsejas lo mejor:</l>
+                  <l>Así lo haré; dí á ese trasto,</l>
+                  <l>que me disputa la Novia,</l>
+                  <l>que salga, que yo le aguardo</l>
+                  <l>en la calle, y verá en ella</l>
+                  <l>quien es Don Marcos Morgallo.</l>
+                  <l>Echando voy de furor.</l>
+                  <l>hidras, culebras, y sapos. <stage rend="cursiva">Vase:</stage></l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¡Que fiestas Agueita!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Vaya, <stage rend="cursiva">Alegres.</stage></l>
+                  <l>¡qué raibosos, y embrollaos </l>
+                  <l>los tenemos! Ya anochece: </l>
+                  <l>voy por luz para este cuarto</l>
+                  <l>ven, irémos iscurriendo</l>
+                  <l>como proseguir el chasco.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Por mí, vamos; y salfin</l>
+                  <l>tira de la manta el diablo,</l>
+                  <l>y se descubre el pastel,</l>
+                  <l>correr mucho, y escaparnos. <stage rend="cursiva">Vans.</stage></l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Se toca un poco el fandango piano. <lb/>Sale Don Jorge. de capa, embozado. </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¡Ola, ola, el fandanguito</l>
+                  <l>parece que estan tocando. </l>
+                  <l>No tienen mucho pesar</l>
+                  <l>que se haya desbaratado</l>
+                  <l>ya la boda. Así me vengo,</l>
+                  <l>por ver, y observar si acaso</l>
+                  <l>vuelve mi sobrino aquí,</l>
+                  <l>y obedece mi mandato.</l>
+                  <l>Nadie hay que míre. A ocultarme,</l>
+                  <l>algo mas adentro paso.</l>
+               </sp>
+
+               <stage rend="cursiva">Se retira, y sale Agueda con luz.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Ya traigo luz... Pero, ¡ay!</l>
+                  <l>¿quien eres, hombre embozado?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Calla, chíca, que soy yo.</l>
+                  <l>Serafin, ¿te has asustado?</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¿No me he asustar de ver</l>
+                  <l>un fantasma tan tapao?</l>
+                  <l>¿A qué vuelve usté?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>A saber</l>
+                  <l>si mi sobrinito Marcos</l>
+                  <l>ha venido aquí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>No ha vuelto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>Le matará, á egecutarlo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Malegro de cagais vuelto.</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¿Por qué?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Porque ahora citaos</l>
+                  <l>están mi ama y otro novio, </l>
+                  <l>para hablarse en este cuarto.</l>
+                  <l>Con que si usté aqui se quea, </l>
+                  <l>pueden á obscuras, y callando,</l>
+                  <l>oir lo que hablan,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Ya te entiendo: </l>
+
+                  <pb n="7" source="Moreno_124_7.jpg" facs="fedora_ug8108648/full/full/0/default.jpg"/>
+
+                  <l>LOS PAYOS ASTUTOS</l>
+                  <fw type="paginaNum">7</fw>
+
+                  <l>me acomoda el escucharlos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Aun mijor me ocurre á mi:</l>
+                  <l>Yo le tendré en otro cuarto</l>
+                  <l>al novio dicho y uste, </l>
+                  <l>voz de mozo fegurando, </l>
+                  <l>os habeis de fingir él</l>
+                  <l>con mi ama.</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¿Eres el díablo?</l>
+                  <l>No ves que pueden...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Chitito;</l>
+                  <l>quedaos aquí, canviaros</l>
+                  <l>voy la novia. No le espera <stage rend="cursiva">Ap.</stage></l>
+                  <l>al tal Don Jorge mal chasco <stage rend="cursiva">Vese.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Habrá dianche de muger.</l>
+                  <l>No tiene mas; me ha dejado</l>
+                  <l>solo, y á obscuras. Al fin</l>
+                  <l>quiero dívertirme un rato, </l>
+                  <l>y saber cuatro cosillas </l>
+                  <l>de aquestos enamorados:</l>
+                  <l>ya creo viene la novia,</l>
+                  <l>que cerca percibo pasos. </l>
+               </sp>
+
+               <stage rend="cursiva">Sale Lazaro.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Con lo Cagueda ma icho, <stage rend="cursiva">Ap.</stage></l>
+                  <l>voy á emprender un buen paso</l>
+                  <l>con este tio.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Ya llega:</l>
+                  <l>La voz, y amores finjamos.</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¿Has venido, dueño mio?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Aquí estoy, bien adorado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¿Sabes como al otro novio</l>
+                  <l>ya calabazas le he dao?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¿Y por qué?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Porque su tio</l>
+                  <l>tiene el alma de un Gitano, </l>
+                  <l>desciende de Verduleros, </l>
+                  <l>tiene asma, y es quebrao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¡Habrá infame! Acércate, </l>
+                  <l>deja siquiera al olfato</l>
+                  <l>gozar tu amable belleza.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¿Eres de fiar? porque estamos </l>
+                  <l>á escuras; y ya se ve,</l>
+                  <l>suele hacer lo mas el diablo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Dame á tentar un dedito,</l>
+                  <l>bello serafin amado. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Tómale. <stage rend="cursiva">Dásele.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¡Qué suavidad</l>
+                  <l>de cutis? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Y es como un cardo. <stage rend="cursiva">Ap</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Mi bien hueles á grasuna. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Es la pomada de macho</l>
+                  <l>con que me doy en el pelo.</l>
+                  <l>¿Sabes que se mantojao</l>
+                  <l>una cosa?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Di, ¿y que cosa:</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Darte dos ó tres bocados. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Muger, suelta; ¡Ay!</l>
+               </sp>
+
+               <stage rend="cursiva">
+                  <lb/>Sale Don Judas con baston dando <lb/>palos. </stage>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Zape aquí. </l>
+                  <l>¿Qué ruido es este?</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¡Mi amo! <stage rend="cursiva">Ap.</stage></l>
+                  <l>Quiero escapar, </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Gente vino.</l>
+                  <l>Aquí hay una arca, levanto</l>
+                  <l>la tapa, y éntrome en ella</l>
+                  <l>mientras pasa este nublado.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¿No responde? Quien es díga,</l>
+                  <l>ó le rebiento de un palo.</l>
+                  <l>Mas, ya te agarré. <stage rend="cursiva">Se agarran.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Ahora es ello. <stage rend="cursiva">Ap.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Di quien eres, ó te mato.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Soy vuestra criada, señor, </l>
+                  <l>que de usted enamorao</l>
+                  <l>aguardaba esta ocasion</l>
+                  <l>para daros cien abrazos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jua.</speaker>
+                  <l>Suelta, muchacha, que ya</l>
+                  <l>no estan para eso mis años.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Dejaos querer.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Un cuerno:</l>
+                  <l>¿Quieres armarme así un lazo,</l>
+                  <l>y hacerme casar mañana </l>
+                  <l>por fuerza? Luces, muchachos.</l>
+               </sp>
+
+               <stage rend="cursiva">Salen Rufina, y Agueda con luz.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¿Que es esto, Señor?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¡Que veo!</l>
+                  <l>¿Con que tu eras, bribonazo, </l>
+                  <l>quien me enamoraba á obscuras, </l>
+                  <l>y daba besos y abrazos?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Ahí verá usted si le quiero.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Yo te lo pagaré á palos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>¿Pero que ha pasado, padre? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Enredos de este malvado:</l>
+                  <l>¿No me requebraba á obscuras?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Si es un simplote: dejadlo,</l>
+                  <l>y vuelvan ustedes dos</l>
+                  <l>á desfrutar del sarao.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>Dice bien, Padre.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Achi, achi. <stage rend="cursiva">Estornuda en el arca.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Sin duda han estornudado</l>
+                  <l>dentro del arca.</l>
+               </sp>
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>¿A que está <stage rend="cursiva">Ap.</stage></l>
+                  <l>Don Jorge en ella zampao?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Abridla, miradla.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>¿Aquí</l>
+                  <l>quién puede haberse ocultao. </l>
+               </sp>
+
+               <stage rend="cursiva">Le abren y sale Jorge.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Yo soy: no hay de que asustarse.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¿Y que haces aqui, Escribano</l>
+
+                  <pb n="8" source="Moreno_124_8.jpg" facs="fedora_ug8108442/full/full/0/default.jpg"/>
+                  <fw type="paginaNum">8</fw>
+
+                  <l>perverso?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz y Agued.</speaker>
+                  <l>Ahora es la funcion. <stage rend="cursiva">Ap</stage>.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¿Como atrevido, y osado</l>
+                  <l>vuelves á entrar en mi casa, </l>
+                  <l>habiendonos infamado</l>
+                  <l>de forma; que he de beber</l>
+                  <l>de tu sangre en desagravio? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>¿Yo te infamado? Es mentira.</l>
+                  <l>Y si la boda deshago, </l>
+                  <l>es que tus criados me han dicho</l>
+                  <l>que eres un descamisado</l>
+                  <l>sin hacienda, y aun sin casa,</l>
+                  <l>pues es todo de un muchacho</l>
+                  <l>de quien eres Tutor.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Mienten;</l>
+                  <l>todo es mio, por mis manos </l>
+                  <l>lo he ganado con matar </l>
+                  <l>á los buenos, y á los malos.</l>
+                  <l>Lo cierto es que tu vil lengua </l>
+                  <l>la estimacíon me ha quitado,</l>
+                  <l>habiendo dicho que tengo</l>
+                  <l>Primeros en sanbenitados. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Joro.</speaker>
+                  <l>Quién ha dicho esa mentira </l>
+                  <l>tan fiera! </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Mi criada, y criado. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>¿He dicho yo tal, infames?</l>
+                  <l>¿y aun os reis, bribonazos, </l>
+                  <l>viles canallas? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Estoy</l>
+                  <l>por agarrarlos de un brazo, </l>
+                  <l>y echarlos por el balcon.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>Padre mio, sosegaos. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>¡Que ginebra!</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>¡Que bolina! <stage rend="cursiva">Ap.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ada. y Laz.</speaker>
+                  <l>Ahora nos matan á palos.</l>
+               </sp>
+
+               <stage rend="cursiva">Sale D. Marcos con espada y rodela.</stage>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>¿Adonde está ese otro Novio?</l>
+                  <l>Salga, que ya vengo armado</l>
+                  <l>para quitarle á estocadas </l>
+                  <l>á mi Novia, y los libianos, </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ada.</speaker>
+                  <l>Otro acreedor. <stage rend="cursiva">Ap.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Otro loco. <stage rend="cursiva">Ap.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>¿Que estais hablando, D. Marcos! </l>
+                  <l>¿Que otro Novio hay aquí?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>¡Bueno!</l>
+                  <l>El otro novio Abogado</l>
+                  <l>que tíenes, y favoreces.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>¿Quien tal ha dicho?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Mare.</speaker>
+                  <l>Tus criados;</l>
+                  <l>y que me dejas por hombre</l>
+                  <l>vicioso, y tuerto,</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ruf.</speaker>
+                  <l>Es engaño</l>
+                  <l>todo, todo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Estoy hecho un Sagitario, </l>
+                  <l>y vive San, mataré</l>
+                  <l>á todo el mundo.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>Despacio;</l>
+                  <l>y con paciencia, y prudencia </l>
+                  <l>tanto enredo desatando</l>
+                  <l>vamos. Viles embrollistas,</l>
+                  <l>astutos malignos Payos, </l>
+                  <l>declarar que es esto.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Esto</l>
+                  <l>en substancia naa; cuanto </l>
+                  <l>hemos icho de unos, y otros,</l>
+                  <l>naa es verdad, too es falso.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>¿Con qué no es nada, y por poco</l>
+                  <l>unos á otros nos matamos </l>
+                  <l>por vosotros?</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Pero, infames, </l>
+                  <l>¿por qué habeis ejecutado</l>
+                  <l>este embrollo? Hablad.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Ada.</speaker>
+                  <l>Porque</l>
+                  <l>usted prometió casarnos </l>
+                  <l>cuando á su hija, y dempues</l>
+                  <l>ijo que no.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz.</speaker>
+                  <l>Y aunque Payos, </l>
+                  <l>no nos ha faltao astucia</l>
+                  <l>para de ustedes vengarnos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Ni fuerzas ha mi me faltan</l>
+                  <l>para moleros á palos, </l>
+                  <l>bribones. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz y Ada.</speaker>
+                  <l>Piedad. cremencia</l>
+                  <l>por San Gil, y San Aniano. <stage rend="cursiva">De rod.</stage></l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>Dejadlos, Señor Don Judas.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Me convengo á ejecutarlo, </l>
+                  <l>con tal que todos quedemos </l>
+                  <l>amigos, y prosigamos</l>
+                  <l>la boda.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jor.</speaker>
+                  <l>Digo que sí.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Marc.</speaker>
+                  <l>Esta es, Rufina; mi mano.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Eso me gusta.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Agued.</speaker>
+                  <l>Señor,</l>
+                  <l>¿y nosotros nos casamos? </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Casaos.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Laz y Agued.</speaker>
+                  <l>El amo viva.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jorg.</speaker>
+                  <l>Todos á la sala vamos,</l>
+                  <l>no penetren las visitas</l>
+                  <l>nada de lo que ha pasado;</l>
+                  <l>y prosigamos la noche</l>
+                  <l>alegremente bailando. </l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Así sea.</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Jud.</speaker>
+                  <l>Y el Sainete</l>
+                  <l>teniendo aquí fin, pidamos...</l>
+               </sp>
+
+               <sp>
+                  <speaker rend="cursiva">Todos.</speaker>
+                  <l>Nos conceda el Auditorio</l>
+                  <l>de gracia, perdon, y aplauso.</l>
+               </sp>
+
+               <trailer>FIN</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
