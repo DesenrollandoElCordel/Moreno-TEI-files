@@ -9,12 +9,28 @@
                <name xml:id="EL">ELina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +46,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1857-01-01">1857</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +54,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6447988</idno>
@@ -73,12 +86,8 @@
                      <summary n="2">Dos grabados (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_031_1.xml"
-                              facs="fedora_ug8109962/461,302,469,678/100,/0/default.jpg"
-                              >grabado_m_031_1</item>
-                           <item corresp="grabado_m_031_2.xml"
-                              facs="fedora_ug8109962/927,338,454,642/100,/0/default.jpg"
-                              >grabado_m_031_2</item>
+                            <item corresp="grabado_m_031_1.xml" facs="fedora_ug8109962/461,302,469,678/100,/0/default.jpg">grabado_m_031_1</item>
+                            <item corresp="grabado_m_031_2.xml" facs="fedora_ug8109962/927,338,454,642/100,/0/default.jpg">grabado_m_031_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -133,7 +142,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -199,10 +208,10 @@
                <l>mi espiritu que es tan tierno</l>
                <l>como demuestra mi edad,</l>
                <l>que todos son veinte años,</l>
-               <l>poco menos, poco mas;,</l>
+               <l>poco menos, poco mas;</l>
                <l>la segunda, porque me hallo</l>
                <l>donde hay tanta habilidad,</l>
-               <l>tanta dama inteligente.</l>
+               <l>tanta dama inteligente</l>
                <l>tanto discreto galan;</l>
                <l>en la música mil sales,</l>
                <l>y la gracia en el danzar,</l>
@@ -261,7 +270,7 @@
                <l>señor mio, estrañará</l>
                <l>usted la llaneza, que</l>
                <l>una mujer principal</l>
-               <l>como yo es fuerza se aculte</l>
+               <l>como yo es fuerza se oculte</l>
                <l>donde la puedan notar;</l>
                <l>supuesto esto, le digo,</l>
                <l>que soy yo hija de don Juan</l>
@@ -274,7 +283,7 @@
                <l>tres primos en el <name>Perú</name></l>
                <l>y otro con el preste Juan,</l>
                <l>un hermanito estudiante</l>
-               <l>en cierta universidad.</l>
+               <l>en cierta universidad,</l>
                <l>tengo un tio sacerdote</l>
                <l>si se llegare á ordenar,</l>
                <l>y una hermana de mi madre</l>
@@ -284,7 +293,7 @@
                <l>que es un bello monasterio</l>
                <l>otros el título dan</l>
                <l>de las Madres Recoletas,</l>
-               <l>esto escon ingenuidad;</l>
+               <l>esto es con ingenuidad;</l>
                <l>y pues mi genealogía</l>
                <l>y toda mi calidad</l>
                <l>ya la tiene uste en el cuerpo,</l>
@@ -309,15 +318,16 @@
                <l>Atento estuve escuchando</l>
                <l>aquella oracion vocal</l>
                <l>de aquella que en mi conciencia</l>
-               <l>fué la culpa original:</l>
+               <l>fué la culpa original;</l>
                <l>y con grandísimo enojo.</l>
                <l>sin poder disimular,</l>
                <l>que mi natural clemencia</l>
                <l>le convirtió en rejalgar,</l>
                <l>la dije: señora, ó diablo,</l>
                <l>muger, pecado mortal,</l>
-               <l>demonio ingerto en muger</l>
-               <l>eflgie de Berrabás,</l>
+               <l>demonio ingerto en muger,</l>
+               <l><choice>
+                     <sic>eflgie</sic>  <corr>efigie</corr>  </choice> de Berrabás,</l>
                <l>serpiente, aspid ó arpia,</l>
                <l>que con tanta necedad</l>
                <l>en el cuerpo me has soplado</l>
@@ -342,7 +352,7 @@
                <l>con que se puede fundar</l>
                <l>un convento para tí</l>
                <l>y para tu tia y mas?</l>
-               <l>¿Treinta reales túme pides,</l>
+               <l>¿Treinta reales tú me pides,</l>
                <l>que hacen por cuenta formal</l>
                <l>mil veinte maravedis,</l>
                <l>que vienen acomplentar</l>
@@ -367,7 +377,7 @@
                <l>¿Treinta reales? Treinta arrobas</l>
                <l>de veneno y rejalgar</l>
                <l>te comas, para que luego</l>
-               <l>no hagas mas que reventar,</l>
+               <l>no hagas mas que reventar:</l>
                <l>¿treinta reales necesítas?</l>
                <l>¿No era mejor un puñal</l>
                <l>para cortarte la lengua,</l>
@@ -391,7 +401,7 @@
                <l>con poco ó ningun afan,</l>
                <l>todas aquellas que son</l>
                <l>de tu misma calidad.</l>
-               <l>Retirate cuanto antes</l>
+               <l>Retírate cuanto antes</l>
                <l>por otra parte á buscar</l>
                <l>quien te dé esos treinta reales,</l>
                <l>que á mi me has dejado ya</l>

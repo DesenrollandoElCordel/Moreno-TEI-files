@@ -4,18 +4,33 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Descripción del genio y condiciones que tienen los habitantes de las diferentes
-               provincias de España</title>
+            <title>Descripción del genio y condiciones que tienen los habitantes de las diferentes provincias de España</title>
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +45,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date when="1849-01-01">1849</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +53,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6483529</idno>
@@ -73,9 +85,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_318_1.xml"
-                              facs="fedora_ug8109378/452,294,926,1079/100,/0/default.jpg"
-                              >grabado_m_318_1</item>
+                            <item corresp="grabado_m_318_1.xml" facs="fedora_ug8109378/452,294,926,1079/100,/0/default.jpg">grabado_m_318_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -83,9 +93,15 @@
             </msDesc>
             <listPlace xml:base="https://www.wikidata.org/wiki/">
                <place n="1" corresp="Q1043594">
-                  <placeName key="Castilla_la_Vieja">Castilla La Vieja</placeName>
+                  <placeName key="Castilla_la_Vieja">Castilla la Vieja</placeName>
                   <location>
                      <geo>42.343461 -3.696373</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q1947581">
+                  <placeName key="Castilla_la_Nueva">Castilla la Nueva</placeName>
+                  <location>
+                     <geo>39.8 -3.05</geo>
                   </location>
                </place>
                <place n="4" corresp="Q29">
@@ -100,7 +116,7 @@
                      <geo>40.41694444444445 -3.703333333333333</geo>
                   </location>
                </place>
-               <place n="1" corresp="Q844209">
+               <place n="2" corresp="Q844209">
                   <placeName key="La_Mancha">La Mancha</placeName>
                   <location>
                      <geo>39.4011 -3.015</geo>
@@ -112,7 +128,7 @@
                      <geo>39.47 -0.3763888888888889</geo>
                   </location>
                </place>
-               <place n="1" corresp="Q4018">
+               <place n="2" corresp="Q4018">
                   <placeName key="Navarra">Navarra</placeName>
                   <location>
                      <geo>42.816666666667 -1.65</geo>
@@ -136,6 +152,96 @@
                      <geo>23.136666666667 -82.358888888889</geo>
                   </location>
                </place>
+               <place n="1" corresp="Q2386849">
+                  <placeName key="La_Alcarria">La Alcarria</placeName>
+                  <location>
+                     <geo>40.30666667 -2.87305556</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q5777">
+                  <placeName key="Extremadura">Extremadura</placeName>
+                  <location>
+                     <geo>39.2 -6.15</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q5783">
+                  <placeName key="Andalucía">Andalucía</placeName>
+                  <location>
+                     <geo>37.46 -4.16</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q5783">
+                  <placeName key="Aragón">Aragón</placeName>
+                  <location>
+                     <geo>41 -1</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q5705">
+                  <placeName key="Cataluña">Cataluña</placeName>
+                  <location>
+                     <geo>41.8375 1.537777777777778</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q12225">
+                  <placeName key="Murcia">Murcia</placeName>
+                  <location>
+                     <geo>37.986111111111 -1.1302777777778</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q3908">
+                  <placeName key="Galicia">Galicia</placeName>
+                  <location>
+                     <geo>42.755 -7.8661111111111115</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q15699">
+                  <placeName key="Léon">Léon</placeName>
+                  <location>
+                     <geo>42.598888888889 -5.5669444444444</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q3934">
+                  <placeName key="Asturias">Asturias</placeName>
+                  <location>
+                     <geo>43.333333333333 -6</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q8828">
+                  <placeName key="Mallorca">Mallorca</placeName>
+                  <location>
+                     <geo>39.616667 2.983333</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q44796">
+                  <placeName key="Rioja">Rioja</placeName>
+                  <location>
+                     <geo>36.9451184 -2.4626985</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q828">
+                  <placeName key="América">América</placeName>
+                  <location>
+                     <geo>36.9451184 -2.4626985</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q828">
+                  <placeName key="Maragatería">Maragatería</placeName>
+                  <location>
+                     <geo>42.419676 -6.19412</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q1892261">
+                  <placeName key="Maragatería">Maragatería</placeName>
+                  <location>
+                     <geo>42.419676 -6.19412</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q93366">
+                  <placeName key="Vizcaya">Vizcaya</placeName>
+                  <location>
+                     <geo>43.25 -2.983333</geo>
+                  </location>
+               </place>
             </listPlace>
          </sourceDesc>
       </fileDesc>
@@ -148,7 +254,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -195,12 +301,12 @@
 
                <head type="primer_titulo">
                   <lb/>DESCRIPCION <lb/>DEL GENIO Y CONDICIONES QUE TIENEN LOS HABITANTES <lb/>DE
-                  LAS DIFERENTES PROVINCIAS DE ESPAÑA. </head>
+                  LAS DIFERENTES PROVINCIAS DE <name>ESPAÑA</name>. </head>
                <head type="subtitulo">DECIMAS.</head>
 
 
                <lg>
-                  <head type="titulo_estrofa">ESPAÑA.</head>
+                  <head type="titulo_estrofa"><name>ESPAÑA</name>.</head>
                   <l rend="indent">El español es honrado,</l>
                   <l>Es esforzado y valiente,</l>
                   <l>Es moderado y prudente,</l>
@@ -214,7 +320,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">CASTILLA LA VIEJA.</head>
+                  <head type="titulo_estrofa"><name>CASTILLA LA VIEJA</name>.</head>
                   <l rend="indent">Es el castellano viejo</l>
                   <l>Hombre de buen corazon, </l>
                   <l>Y de muy sana intencion</l>
@@ -224,15 +330,15 @@
                   <l>Y el fruto mas peregrino</l>
                   <l>Que su sencillez encierra</l>
                   <l>Es solo el que dá su tierra:</l>
-                  <l>El. pan pan y el vino vino.</l>
+                  <l>El pan pan y el vino vino.</l>
                </lg>
 
                <pb n="2" source="Moreno_318_2.jpg" facs="fedora_ug8106367/full/full/0/default.jpg"/>
 
 
                <lg>
-                  <head type="titulo_estrofa">CASTILLA LA NUEVA.</head>
-                  <l rend="indent">Castilla la Nueva es</l>
+                  <head type="titulo_estrofa"><name>CASTILLA LA NUEVA</name>.</head>
+                  <l rend="indent"><name>Castilla la Nueva</name> es</l>
                   <l>Pais sano y agradable,</l>
                   <l>La gente bastante amable,</l>
                   <l>Mas afecta al interés:</l>
@@ -245,7 +351,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">LA ALCARRIA.</head>
+                  <head type="titulo_estrofa"><name>LA ALCARRIA</name>.</head>
                   <l rend="indent">El alcarreño sencillo</l>
                   <l>En su modo de vivir,</l>
                   <l>No sabe jamás salir</l>
@@ -259,7 +365,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">MANCHA.</head>
+                  <head type="titulo_estrofa"><name>MANCHA</name>.</head>
                   <l rend="indent">El que llegue á caminar</l>
                   <l>Por la <name>Mancha</name> con frecuencia,</l>
                   <l>Le enseñarán sin falencia</l>
@@ -273,7 +379,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">ESTREMADURA.</head>
+                  <head type="titulo_estrofa"><name>ESTREMADURA</name>.</head>
                   <l rend="indent">Espíritu desunido</l>
                   <l>Domina á los estremeños.</l>
                   <l>Jamás entran en empeños,</l>
@@ -287,12 +393,12 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">ANDALUCIA.</head>
+                  <head type="titulo_estrofa"><name>ANDALUCIA</name>.</head>
                   <l rend="indent">Al andaluz rezador,</l>
                   <l>Y escesivo en ponderar,</l>
                   <l>No se le puede negar</l>
                   <l>Que es hombre de buen humor: </l>
-                  <l>Fiven sin pena y dolor,</l>
+                  <l>Viven sin pena y dolor,</l>
                   <l>Galantean á sus madres,</l>
                   <l>Jamás le faltan azares,</l>
                   <l>Y en sus desafios todos</l>
@@ -301,7 +407,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">ARAGON.</head>
+                  <head type="titulo_estrofa"><name>ARAGON</name>.</head>
                   <l rend="indent">El aragonés osado</l>
                   <l>Todas las cosas emprende</l>
                   <l>Con teson y las defiende</l>
@@ -315,7 +421,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">CATALUÑA.</head>
+                  <head type="titulo_estrofa"><name>CATALUÑA</name>.</head>
                   <l rend="indent">El catalan bullicioso,</l>
                   <l>Viajero y navegante,</l>
                   <l>Mercader y fabricante, </l>
@@ -329,7 +435,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">VALENCIA.</head>
+                  <head type="titulo_estrofa"><name>VALENCIA</name>.</head>
                   <l rend="indent"><name>Valencia</name>, fuera de chanza,</l>
 
                   <pb n="3" source="Moreno_318_3.jpg"
@@ -347,7 +453,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">MURCIA.</head>
+                  <head type="titulo_estrofa"><name>MURCIA</name>.</head>
                   <l rend="indent">El murciano trabajando,</l>
                   <l>Alegre en su barraquilla.</l>
                   <l>Al son de una guitarrilla</l>
@@ -361,7 +467,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">GALICIA.</head>
+                  <head type="titulo_estrofa"><name>GALICIA</name>.</head>
                   <l rend="indent">No se les puede negar</l>
                   <l>A los gallegos mas legos,</l>
                   <l>Que vale por mil gallegos,</l>
@@ -375,7 +481,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">MARAGATOS.</head>
+                  <head type="titulo_estrofa"><name>MARAGATOS</name>.</head>
                   <l rend="indent">Los maragatos bonazos</l>
                   <l>No son brutos por un tris,</l>
                   <l>Pues qualquiera del pais</l>
@@ -389,7 +495,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">LEON.</head>
+                  <head type="titulo_estrofa"><name>LEON</name>.</head>
                   <l rend="indent">El leonés, hombre llano,</l>
                   <l>Es de ordinario no mas, </l>
                   <l>Del caracter poco mas</l>
@@ -399,11 +505,11 @@
                   <l>Su ruda pronunciacion</l>
                   <l>Le hace muy tosco y bravío,</l>
                   <l>Siendo con teson y brío</l>
-                  <l>Iuflecsible en su opinion.</l>
+                  <l>Inflecsible en su opinion.</l>
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">MONTAÑAS.</head>
+                  <head type="titulo_estrofa"><name>MONTAÑAS</name>.</head>
                   <l rend="indent">Es del montañés la gloria</l>
                   <l>Guardar por antigua prenda</l>
                   <l>En una pequeña hacienda</l>
@@ -417,7 +523,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">ASTURIAS.</head>
+                  <head type="titulo_estrofa"><name>ASTURIAS</name>.</head>
                   <l rend="indent">El asturiano cerdoso,</l>
                   <l>Bajo, rechoncho y cuadrado,</l>
                   <l>Forcejudo y mal formado,</l>
@@ -431,7 +537,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">VEZCAYA.</head>
+                  <head type="titulo_estrofa"><name>VEZCAYA</name>.</head>
                   <l rend="indent">El vizcaino severo</l>
                   <l>Con dureza nunca oida,</l>
                   <l>Prefiere siempre á su vida</l>
@@ -449,7 +555,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">NAVARRA</head>
+                  <head type="titulo_estrofa"><name>NAVARRA</name></head>
                   <l rend="indent"><name>Navarra</name> en realidad</l>
                   <l>Da de sí la gente honrada,</l>
                   <l>Y aunque es un poco pesada,</l>
@@ -463,7 +569,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">RIOJA.</head>
+                  <head type="titulo_estrofa"><name>RIOJA</name>.</head>
                   <l rend="indent">Es la gente riojana.</l>
                   <l>Vividora, de manera,</l>
                   <l>Que muy bien á otro cualquiera</l>
@@ -471,13 +577,13 @@
                   <l>Es fuerte robusta y sana,</l>
                   <l>Y tiene todo su gozo,</l>
                   <l>Desde el mas viejo al mas mozo,</l>
-                  <l>Vivir en campaña rása;</l>
+                  <l>Vivir en campaña rasa;</l>
                   <l>Y abandonando su casa </l>
                   <l>Pasar la vida en un chozo.</l>
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">MADRID.</head>
+                  <head type="titulo_estrofa"><name>MADRID</name>.</head>
                   <l rend="indent">Aun las personas mas sanas,</l>
                   <l>Si son en <name>Madrid</name> nacidas,</l>
                   <l>Tienen que hacer sus comidas</l>
@@ -491,7 +597,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">MALLORCA.</head>
+                  <head type="titulo_estrofa"><name>MALLORCA</name>.</head>
                   <l rend="indent">Del mayorquin el tesoro</l>
                   <l>Es el aceite y el vino, </l>
                   <l>Aborrece el argelino,</l>
@@ -505,7 +611,7 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">CANARIAS.</head>
+                  <head type="titulo_estrofa"><name>CANARIAS</name>.</head>
                   <l rend="indent">El canario siempre vago,</l>
                   <l>Buscando en el mar su vida,</l>
                   <l>Hace toda su comida</l>
@@ -520,10 +626,10 @@
                </lg>
 
                <lg>
-                  <head type="titulo_estrofa">AMERICA.</head>
+                  <head type="titulo_estrofa"><name>AMERICA</name>.</head>
                   <l rend="indent">El indiano con ardiz</l>
                   <l>Vence mil riesgos, y gana</l>
-                  <l>Mucho dincro en la <name>Habana</name></l>
+                  <l>Mucho dinero en la <name>Habana</name></l>
                   <l>Para gastarlo en <name>Madrid</name>:</l>
                   <l>El vive en continua lid, </l>
                   <l>Y su paradero es,</l>

@@ -13,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -34,8 +50,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1861-01-01">1861</date>
                </publicationStmt>
             </biblFull>
@@ -43,9 +58,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6475646</idno>
@@ -81,15 +94,9 @@
                      <summary n="3">Tres grabados (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_221_1.xml"
-                              facs="fedora_ug8109947/213,166,422,739/100,/0/default.jpg"
-                              >grabado_m_221_1</item>
-                           <item corresp="grabado_m_221_2.xml"
-                              facs="fedora_ug8109947/629,182,495,744/100,/0/default.jpg"
-                              >grabado_m_221_2</item>
-                           <item corresp="grabado_m_221_3.xml"
-                              facs="fedora_ug8109947/1118,390,401,526/100,/0/default.jpg"
-                              >grabado_m_221_3</item>
+                            <item corresp="grabado_m_221_1.xml" facs="fedora_ug8109947/213,166,422,739/100,/0/default.jpg">grabado_m_221_1</item>
+                            <item corresp="grabado_m_221_2.xml" facs="fedora_ug8109947/629,182,495,744/100,/0/default.jpg">grabado_m_221_2</item>
+                            <item corresp="grabado_m_221_3.xml" facs="fedora_ug8109947/1118,390,401,526/100,/0/default.jpg">grabado_m_221_3</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -183,7 +190,7 @@
                <fw type="impresorNum">Número 230.</fw>
 
                <head rend="negrita" type="primer_titulo">CELINDA Y D. ANTONIO MORENO.</head>
-               <head type="subtitulo">Refiérese el cautíverio de este y las amorosas ternezas dé
+               <head type="subtitulo">Refiérese el cautíverio de este y las amorosas ternezas de
                   está Argelina, y como <lb/>la redujo á nuestra santa Fe, declárándole el
                   nacimiento y muerte de Mahoma.</head>
 
@@ -245,16 +252,19 @@
                      facs="fedora_ug8110147/full/full/0/default.jpg"/>
 
                   <l>le dice: Cristiano mio,</l>
-                  <l>escuháme que pretendo,</l>
+                  <l><choice>
+                        <sic>escuháme</sic>
+                        <corr>escúchame</corr>
+                     </choice> que pretendo,</l>
                   <l>que me digas la verdad</l>
                   <l>(la que de tí saber quiero</l>
-                  <l>sijeres casado en tu tierra;</l>
+                  <l>si eres casado en tu tierra;</l>
                   <l>ó tienes allá algun dueño,</l>
                   <l>que te lleve la pasion?</l>
                   <l>Por qué me preguntas eso?</l>
                   <l>El Cristiano le responde.</l>
                   <l>Y ella dice: Porque quiero,</l>
-                  <l>que tú te cases conmigo:</l>
+                  <l>que tú te cases conmígo:</l>
                   <l>que es el empeño que tengo.</l>
                   <l>No soy casádo responde,</l>
                   <l>ni tengo en mi tierra dueño</l>
@@ -273,7 +283,7 @@
                   <l>que si yo dejo mi ley,</l>
                   <l>por gozar ese trofeo,</l>
                   <l>despues iré á padecer</l>
-                  <l>eteruamente á el infierno;</l>
+                  <l>eternamente á el infierno;</l>
                   <l>si te volvieras Cristiana</l>
                   <l>casára contigo luego.</l>
                   <l>Yo no quiero ser cristiana,</l>
@@ -302,24 +312,24 @@
                   <l>por seguir á ese embustero:</l>
                   <l>y sino escucha y diré</l>
                   <l>de su fin y nacimiento.</l>
-                  <l>Malioma, cuando su madre</l>
+                  <l>Mahoma, cuando su madre</l>
                   <l>le parió estando en el lecho,</l>
                   <l>de un letargo que le dió</l>
                   <l>Padre y Madre sé murieron.</l>
                   <l>Un tio suyo buscóle</l>
                   <l>un ama y dándole el pecho</l>
-                  <l>veia un Demoñio que estaba</l>
+                  <l>veia un Demonio que estaba</l>
                   <l>consigo á su lado puesto;</l>
                   <l>Viendo el tio que salia</l>
                   <l>tan pertináz y soberbio,</l>
-                  <l>le echó alcampo, y el oficio</l>
+                  <l>le echó al campo, y el oficio</l>
                   <l>que tuvo fué de Baquero,</l>
                   <l>y se amistó con un Monge</l>
                   <l>idolatra y hechicero,</l>
                   <l>creyendo en sus heregías;</l>
                   <l>y viéndole tan esperto,</l>
                   <l>le habló con dulces palabras,</l>
-                  <l>dándolé malós coúsejos,</l>
+                  <l>dándole malos consejos,</l>
                   <l>y en breve tiempo salió</l>
                   <l>mas que el Maestro, Maestro,</l>
                   <l>y escribió su mala secta</l>
@@ -342,7 +352,7 @@
                   <l>con mil olores la ungieron,</l>
                   <l>y á unos cerdos luego echaron</l>
                   <l>la demás parte del cuerpo,</l>
-                  <l>y selo comieron todo,</l>
+                  <l>y se lo comieron todo,</l>
                   <l>hasta los mismos cabellos;</l>
                   <l>y viendo no parecia,</l>
                   <l>sus amigos le echan menos,</l>
@@ -385,7 +395,7 @@
                   <l>de ese maldito Mahoma,</l>
                   <l>que ya seguirle no quiero.</l>
                   <l>Dime, dime de tu Dios,</l>
-                  <l>que saber quien esdeseo,</l>
+                  <l>que saber quien es deseo,</l>
                   <l>Y en otra segunda parte</l>
                   <l>daré fin á este suceso.</l>
                </div>
@@ -403,7 +413,7 @@
                   <l>un dia logró su intento,</l>
                   <l>le llama, y asi le dice:</l>
                   <l>¿Quien es tu Dios? Y contento</l>
-                  <l>e respondió Don Antonio,</l>
+                  <l>le respondió Don Antonio,</l>
                   <l>con Fé viva, ardiente celo;</l>
                   <l>Es mi Dios un Dios tan grande</l>
                   <l>que no conoce otro dueño</l>
@@ -452,10 +462,10 @@
                         <corr>Doncella</corr>
                      </choice></l>
                   <l>una muger, no lo creo.</l>
-                  <l>Pues bien lo puedes.creer,</l>
+                  <l>Pues bien lo puedes creer,</l>
                   <l>y nunca dudes en ello</l>
                   <l>ó puede Dios ó no puede,</l>
-                  <l>el poder claro lo vemos;</l>
+                  <l>el poder c!aro lo vemos;</l>
                   <l>el no poder, no es posible</l>
                   <l>porque puede como inmenso.</l>
                   <l>Mas para que no lo ignores</l>
@@ -483,7 +493,7 @@
                   <l>un vidrio en la celosia,</l>
                   <l>sin rotura ni agujero</l>
                   <l>y por él se entra la luz,</l>
-                  <l>qu dándose el vidrio entero</l>
+                  <l>quedándose el vidrio entero</l>
                   <l>dáme el agua del Bautismo,</l>
                   <l>que ser Cristiana deseo.</l>
                   <l>Y un Sacerdote cautivo</l>
@@ -529,10 +539,10 @@
                   <l>entró su Padre, y lo vido</l>
                   <l>y dice: ínfame, qué es eso?</l>
                   <l>Y le responde animosa:</l>
-                  <l>Padre mio este és tu nicto,</l>
+                  <l>Padre mio este es tu nieto,</l>
                   <l>Sábete que soy cristiana,</l>
                   <l>y soy gustosa en serlo.</l>
-                  <l>Cris iana? que es lo que dices?</l>
+                  <l>Cristiana? que es lo que dices?</l>
                   <l>Y has tenido atrevimiento</l>
                   <l>para dejar á Mahoma?</l>
                   <l>Cómo á mí me dices eso?</l>

@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -35,8 +51,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1861-01-01">1861</date>
                </publicationStmt>
             </biblFull>
@@ -44,9 +59,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6487928</idno>
@@ -83,9 +96,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_325_1.xml"
-                              facs="fedora_ug8105776/686,371,433,723/100,/0/default.jpg"
-                              >grabado_m_325_1</item>
+                            <item corresp="grabado_m_325_1.xml" facs="fedora_ug8105776/686,371,433,723/100,/0/default.jpg">grabado_m_325_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -108,6 +119,12 @@
                   <placeName key="España">España</placeName>
                   <location>
                      <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q131818">
+                  <placeName key="Orán">Orán</placeName>
+                  <location>
+                     <geo>35.696944 -0.633056</geo>
                   </location>
                </place>
             </listPlace>
@@ -172,10 +189,10 @@
                   <lb/><hi rend="negrita">JACARA DIVERTIDA Y CHISTOSA,</hi>
                   <hi rend="cursiva"><lb/>en que se refiere la melancolica y llorosa despedida que
                      hizo de todos los <lb/>barrios, plazas y plazuelas, calles, casas, vecinos y
-                     personas de la corona- <lb/>da villa de Madrid, un caballero majo del
-                     Barquillo, llamado Paño Pardo, <lb/>cuando fué á servir al rey nuestro señor en
-                     los presidios de Africa, por <lb/>haber sido suelto de huesos y ligero de
-                     sangre; con todo lo demas <lb/>que verá el curioso lector.</hi>
+                     personas de la corona- <lb/>da villa de <name>Madrid</name>, un caballero majo
+                     del Barquillo, llamado Paño Pardo, <lb/>cuando fué á servir al rey nuestro
+                     señor en los presidios de Africa, por <lb/>haber sido suelto de huesos y ligero
+                     de sangre; con todo lo demas <lb/>que verá el curioso lector.</hi>
                </head>
 
                <div n="1" type="parte">
@@ -211,7 +228,7 @@
                   <l>contrarios de los ratones.</l>
                   <l rend="indent">Viendo que por sus virtudes</l>
                   <l>milagros y fundaciones</l>
-                  <l>á Oran le envian por tierra</l>
+                  <l>á <name>Oran</name> le envian por tierra</l>
                   <l>por ver los aires que corren.</l>
                   <l rend="indent">Y que la fuerte cadena</l>
                   <l>el otro dia á las once;</l>
@@ -330,7 +347,7 @@
                <div n="2" type="parte">
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
                   <head type="subtitulo_parte">
-                     <lb/>CARTA QUE ENVIÓ DESDE ORAN A ESTA CORTE PANO PARDO A <lb/><hi
+                     <lb/>CARTA QUE ENVIÓ DESDE <name>ORAN</name> A ESTA CORTE PANO PARDO A <lb/><hi
                         rend="cursiva">su amigo Perico Pata Gorda, amonestándole que no se
                         case.</hi>
                   </head>
@@ -404,7 +421,7 @@
                   <l>se levanta al medio dia,</l>
                   <l>se pasea y se regala.</l>
                   <l rend="indent">Acábanse en fin los cuartos,</l>
-                  <l>vá á trabajar, si lo halla,</l>
+                  <l>vá a trabajar, si lo halla,</l>
                   <l>dá á su muger el dinero,</l>
                   <l>y ella en rosquillas lo gasta.</l>
                   <l rend="indent">Pide luego para carne,</l>

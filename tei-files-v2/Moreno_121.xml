@@ -4,17 +4,33 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>El hijo del berdugo.</title>
+            <title>El hijo del berdugo</title>
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +46,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1856-01-01">1856</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +54,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6470598</idno>
@@ -80,22 +93,20 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_121_1.xml"
-                              facs="fedora_ug8106077/205,476,1421,981/100,/0/default.jpg"
-                              >grabado_m_121_1</item>
+                            <item corresp="grabado_m_121_1.xml" facs="fedora_ug8106077/205,476,1421,981/100,/0/default.jpg">grabado_m_121_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
                </physDesc>
             </msDesc>
             <listPlace xml:base="https://www.wikidata.org/wiki/">
-               <place n="4" corresp="Q5818">
+               <place n="6" corresp="Q5818">
                   <placeName key="Córdoba">Córdoba</placeName>
                   <location>
                      <geo>37.883333333333 -4.7666666666667</geo>
                   </location>
                </place>
-               <place n="7" corresp="Q669037">
+               <place n="6" corresp="Q669037">
                   <placeName key="Indias_Occidentales">Indias Occidentales</placeName>
                   <location>
                      <geo>21.98333333 -79.03333333</geo>
@@ -149,7 +160,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -198,8 +209,8 @@
                <head rend="negrita" type="primer_titulo">EL HIJO DEL BERDUGO. </head>
                <head type="subtitulo">
                   <lb/>NUEVA RELACION, EN LA QUE SE REFIEREN LOS MAS RAROS <hi rend="cursiva"
-                     ><lb/>sucesos de este mancebo, natural de la Ciudad de Córdoba, el cual se
-                     <lb/>pasó á las Indias y logró grandes fortunas.</hi>
+                     ><lb/>sucesos de este mancebo, natural de la Ciudad de <name>Córdoba</name>, el
+                     cual se <lb/>pasó á las <name>Indias</name> y logró grandes fortunas.</hi>
                </head>
 
                <div n="1" type="parte">
@@ -230,9 +241,9 @@
                   <l>á quien es su voluntad,</l>
                   <l>que es infinita su gracia.</l>
                   <l>Nadie se admire ni espante</l>
-                  <l>de que los troncosy ramas</l>
+                  <l>de que los troncos y ramas</l>
                   <l>que tiene un árbol inutil,</l>
-                  <l>den un frulo de importancia,</l>
+                  <l>den un fruto de importancia,</l>
                   <l>como lo fué el contenido,</l>
                   <l>aunque del borron ó mancha</l>
                   <l>de los padres participan</l>
@@ -268,7 +279,7 @@
                   <l>chocó con ellos brioso,</l>
                   <l>y á palos y cuchilladas</l>
                   <l>hizo que desamparasen</l>
-                  <l>la calle, la hacienda y casa,</l>
+                  <l>la calle, la hacienda y casa.</l>
                   <l>Al ruido los vecinos</l>
                   <l>y el mercader despertaban;</l>
                   <l>agradecido de ver</l>
@@ -304,7 +315,7 @@
                   <l>y el amor no dió lugar</l>
                   <l>que mucho tiempo pasára; </l>
                   <l>entrada le dió una noche</l>
-                  <l>dentro de su cuarto ladama;</l>
+                  <l>dentro de su cuarto la dama;</l>
 
                   <pb n="3" source="Moreno_121_3.jpg"
                      facs="fedora_ug8104197/full/full/0/default.jpg"/>
@@ -337,17 +348,17 @@
                   <l>tu rigor sobremi caiga.</l>
                   <l>Al ruido la señora,</l>
                   <l>los criados y criadas</l>
-                  <l>acuden, y el caballeroy</l>
+                  <l>acuden, y el caballero</l>
                   <l>mandó que se retiraran,</l>
                   <l>y al mancebo y á la niña</l>
                   <l>enciérranlos en dos salas</l>
-                  <l>con cargo dejuramento</l>
-                  <l>que si á su sangre nonguala</l>
+                  <l>con cargo de juramento</l>
+                  <l>que si á su sangre no iguala</l>
                   <l>sin remedio he de matarlos</l>
                   <l>antes de que lo afrentaran.</l>
                   <l>Pasó sin dormir la noche.</l>
                   <l>y luego por la mañana</l>
-                  <l>fué encasa del mercader</l>
+                  <l>fué en casa del mercader,</l>
                   <l>por el mozo preguntaba,</l>
                   <l>brujuleando pesquisas,</l>
                   <l>como quien no sabe nada,</l>
@@ -369,35 +380,35 @@
                   <l>que ser pobre, y es la falta</l>
                   <l>mas comun que hay en el mundo,</l>
                   <l>pues hacemos de ello gala:</l>
-                  <l>pero en cuanto á lo demas,.</l>
+                  <l>pero en cuanto á lo demas,</l>
                   <l>nadie puede hablar palabra.</l>
                   <l>El caballero responde:</l>
                   <l>si esto que usted declara,</l>
-                  <l>es verdad, quiero contarle.</l>
+                  <l>es verdad, quiero contarle</l>
                   <l>como amigo lo que pasa.</l>
                   <l>A deshora de la noche</l>
                   <l>lo encontré dentro mi casa</l>
                   <l>conversando con mi hija,</l>
                   <l>y esto es una accion villana;</l>
-                  <l>no sé lo que entre los dos.</l>
+                  <l>no sé lo que entre los dos</l>
                   <l>sobre este misterio pasa.</l>
                   <l>Reportáronme los cielos,</l>
                   <l>volví el acero á la vaina,</l>
                   <l>pensando que con matarlos</l>
                   <l>el daño no remediaba;</l>
                   <l>demás que él no tiene culpa,</l>
-                  <l>síno mi hija liviana: </l>
+                  <l>síno mi hija liviana </l>
                   <l>que él no habia de arrojarse</l>
                   <l>si ella no le diera entrada.</l>
                   <l>Supuesto que su fortuna</l>
-                  <l>lo quiso asi, y ladesgracia</l>
+                  <l>lo quiso asi, y la desgracia</l>
 
                   <pb n="4" source="Moreno_121_4.jpg"
                      facs="fedora_ug8109985/full/full/0/default.jpg"/>
 
                   <fw type="paginaNum">4</fw>
 
-                  <l>de mi hija ha sido aquesta.</l>
+                  <l>de mi hija ha sido aquesta,</l>
                   <l>con él intento casarla;</l>
                   <l>ya que no hay otro remedio</l>
                   <l>contra mi gusto se haga.</l>
@@ -409,7 +420,7 @@
                   <l>véase la sangre hidalga.</l>
                   <l>Dispusiéronse las bodas,</l>
                   <l>y el tiempo todo lo acaba,</l>
-                  <l>que es como dice ei refran;</l>
+                  <l>que es como dice el refran;</l>
                   <l>bondades señales tapan:</l>
                   <l>le dió ochenta mil ducados</l>
                   <l>y muchas prendas y alhajas.</l>
@@ -470,7 +481,7 @@
                   <l>escupiendo basiliscos,</l>
                   <l>quiso á la hija matarla,</l>
                   <l>y jura que si lo coge</l>
-                  <l>ha de hacerle mil tajadas</l>
+                  <l>ha de hacerle mil tajadas.</l>
                   <l>Receloso de lo dicho,</l>
                   <l>don Fernando se ocultaba;</l>
                   <l>el caballero lo busca</l>
@@ -484,7 +495,7 @@
                   <fw type="paginaNum">5</fw>
 
                   <l>Don Fernando con secreto</l>
-                  <l>inandó á su esposa una carta</l>
+                  <l>mandó á su esposa una carta</l>
                   <l>dándola á entender por ella</l>
                   <l>que quiere partirse á <name>España</name>,</l>
                   <l>y desatar tantas dudas</l>
@@ -508,9 +519,10 @@
                <div n="2" type="parte">
                   <head type="titulo_parte">SEGUNDA PARTE.</head>
                   <head rend="cursiva" type="subtitulo_parte">
-                     <lb/>En que se finalizan los varios sucesos y nunca esperada fortuña de este
-                     <lb/>mancebo natural de la ciudad deCordoba, el cual mereció alcanzar <lb/>los
-                     mas altos empleos en los reinos de las Indias occidentales. </head>
+                     <lb/>En que se finalizan los varios sucesos y nunca esperada fortuna de este
+                     <lb/>mancebo natural de la ciudad de <name>Cordoba</name>, el cual mereció
+                     alcanzar <lb/>los mas altos empleos en los reinos de las <name>Indias
+                        occidentales</name>. </head>
 
                   <l rend="indent">Supuesto noble auditorio,</l>
                   <l>que dije en la primer plana</l>
@@ -535,9 +547,12 @@
                   <l>de Dios implora el ausilio,</l>
                   <l>pidiendo que le amparara.</l>
                   <l>A si mismo se pregunta</l>
-                  <l>cual juez de su propia cuasa;</l>
+                  <l>cual juez de su propia <choice>
+                        <sic>cuasa</sic>
+                        <corr>causa</corr>
+                     </choice>;</l>
                   <l>¡qué desdicha fué la mia!</l>
-                  <l>¿yo por ventura fuicausa</l>
+                  <l>¿yo por ventura fui causa</l>
                   <l>del defecto de mis padres,</l>
                   <l>que en mi son penas dobladas?</l>
                   <l>Que pague la culpa el reo</l>
@@ -564,7 +579,7 @@
                   <l>de <name>Castilla</name>, y preguntaba</l>
                   <l>si está en casa su escelencia,</l>
                   <l>que le permita la entrada</l>
-                  <l>que uncriado suyo quiere,</l>
+                  <l>que un criado suyo quiere,</l>
                   <l>puesto á sus pies, dos palabras.</l>
                   <l>Entró un page; se lo dijo,</l>
                   <l>y dió licencia que entrára.</l>
@@ -591,7 +606,10 @@
                   <l>con su misma ejecutoria</l>
                   <l>de hidalgo pasé plaza</l>
                   <l>sin serlo á cuya fineza</l>
-                  <l>mi persoua está obligada.</l>
+                  <l>mi <choice>
+                        <sic>persoua</sic>
+                        <corr>persona</corr>
+                     </choice> está obligada.</l>
                   <l>Caséme y me honró mi suegro</l>
                   <l>con liberal mano franca,</l>
                   <l>gran señor y estando un dia</l>
@@ -619,7 +637,7 @@
                   <l>hiciera, señor, lo mismo,</l>
                   <l>y satisfaccion tomara.</l>
                   <l>Esta es, señor, la verdad</l>
-                  <l>de todo loque me pasa:</l>
+                  <l>de todo lo que me pasa:</l>
                   <l>mi fortuna me ha traido,</l>
                   <l>tu patrocínio me valga:</l>
                   <l>honrad, señor, este triste,</l>
@@ -630,7 +648,7 @@
                   <l>y dar honra á quien le falta.</l>
                   <l>Recíba ahora vuecencia</l>
                   <l>aquesta memoria escasa</l>
-                  <l>que quisiera dar en ella.</l>
+                  <l>que quisiera dar en ella</l>
                   <l>el valor de toda <name>España</name>
                   </l>
                   <l>los tesoros de las <name>indias</name>.</l>
@@ -656,7 +674,7 @@
                   <l>mandando á su mayordomo,</l>
                   <l>que dispusiese una sala,</l>
                   <l>y Cuide de su asistencia</l>
-                  <l>con criados ycriadas.</l>
+                  <l>con criados y criadas.</l>
                   <l>Y al cabo de pocos dias</l>
                   <l>mandó que la mejor gala</l>
                   <l>que tuviese, se la ponga,</l>
@@ -667,7 +685,7 @@
                   <l>y llegando á la real sala,</l>
                   <l>delante del regió solio</l>
                   <l>de la magestad lo ensalza.</l>
-                  <l>Hablá el almirante al rey,</l>
+                  <l>Habla el almirante al rey,</l>
                   <l>el cual dijo estas palabras;</l>
                   <l>¡quién es ese de tu lado</l>
                   <l>que tu persona acompaña?</l>
@@ -683,7 +701,7 @@
                   <l>su persona veneráran,</l>
                   <l>y un decreto juntamente</l>
                   <l>consello y reales armas</l>
-                  <l>para un sugeto que en <name>lima</name>...</l>
+                  <l>para un sugeto que en <name>lima</name>,</l>
                   <l>donde mi pariente estaba,</l>
                   <l>difamó sin conocerlo,</l>
                   <l>porque el tal no se ocupaba</l>
@@ -691,8 +709,8 @@
                   <l>y deslucir muchas casas.</l>
                   <l>Si, almirante (el rey le dice,)</l>
                   <l>soy gustoso en que se haga.</l>
-                  <l>Beso las reales manos,</l>
-                  <l>y estimo merced tantan alta.</l>
+                  <l>–Beso las reales manos,</l>
+                  <l>y estimo merced tan tan alta.– </l>
                   <l>Pasa al consejo de estado</l>
                   <l>y sin aprobacion saca</l>
                   <l>el hábito de Santiago,</l>
@@ -796,7 +814,7 @@
                   <l>declarándole la causa</l>
                   <l>de verse como se via.</l>
                   <l>Y con su esposa adorada</l>
-                  <l>vivió pacificamente,</l>
+                  <l>vivió pacíficamente,</l>
                   <l>que aunque se miró engañada,</l>
                   <l>la bondad de don Fernando</l>
                   <l>resarsió toda su falta;</l>

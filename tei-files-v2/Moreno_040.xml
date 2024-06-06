@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -28,8 +44,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1858-01-01">1858</date>
                </publicationStmt>
             </biblFull>
@@ -37,9 +52,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6448035</idno>
@@ -75,15 +88,9 @@
                      <summary n="3">Tres grabados (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_040_1.xml"
-                              facs="fedora_ug8108360/257,201,450,768/100,/0/default.jpg"
-                              >grabado_m_040_1</item>
-                           <item corresp="grabado_m_040_2.xml"
-                              facs="fedora_ug8108360/721,337,354,622/100,/0/default.jpg"
-                              >grabado_m_040_2</item>
-                           <item corresp="grabado_m_040_3.xml"
-                              facs="fedora_ug8108360/1084,206,349,758/100,/0/default.jpg"
-                              >grabado_m_040_3</item>
+                            <item corresp="grabado_m_040_1.xml" facs="fedora_ug8108360/257,201,450,768/100,/0/default.jpg">grabado_m_040_1</item>
+                            <item corresp="grabado_m_040_2.xml" facs="fedora_ug8108360/721,337,354,622/100,/0/default.jpg">grabado_m_040_2</item>
+                            <item corresp="grabado_m_040_3.xml" facs="fedora_ug8108360/1084,206,349,758/100,/0/default.jpg">grabado_m_040_3</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -102,6 +109,12 @@
                      <geo>40.2 -3.5</geo>
                   </location>
                </place>
+               <place n="1" corresp="Q824122">
+                  <placeName key="Tuy">Tuy</placeName>
+                  <location>
+                     <geo>42.048056 -8.644444</geo>
+                  </location>
+               </place>
             </listPlace>
          </sourceDesc>
       </fileDesc>
@@ -114,7 +127,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -168,7 +181,7 @@
                   <l>y grandeza soberana,</l>
                   <l>y su Santísima Madre</l>
                   <l><hi rend="cursiva">María</hi> llena de gracia</l>
-                  <l>le den acierto á mis versos</l>
+                  <l>le den acierto á mis versos,</l>
                   <l>á mis voces consonancia, </l>
                   <l>para que acierte á decir,</l>
                   <l>al punto sin faltar nada,</l>
@@ -186,7 +199,7 @@
                   <l>que de ellas son derivadas</l>
                   <l>Fé, Esperanza y Caridad,</l>
                   <l>como Dios lo quiere y manda,</l>
-                  <l>dejando deñusar rigores,</l>
+                  <l>dejando de usar rigores,</l>
                   <l>y tiranías ingratas,</l>
                   <l>intereces y rencores,</l>
                   <l>discordias, iras, venganzas, </l>
@@ -200,17 +213,17 @@
                   <l>lujurias y destemplanzas,</l>
                   <l>crueles rabias; é invidias,</l>
                   <l>que son á los hombres causa</l>
-                  <l>de su totál perdicion,</l>
-                  <l>para que su pobrés almas</l>
-                  <l>padezcan para en eternó;</l>
-                  <l>sin que seán gérdónadas..</l>
-                  <l>No viváis tan descuidados,</l>
-                  <l>mirad, qúé la Horrible parca;</l>
-                  <l>sin un puñto detenerse,</l>
-                  <l>cortando las miéses anda.</l>
+                  <l>de su total perdicion,</l>
+                  <l>para que su pobres almas</l>
+                  <l>padezcan para en eterno,</l>
+                  <l>sin que sean perdonadas.</l>
+                  <l>No vivais tan descuidados,</l>
+                  <l>mirad, que la horrible parca,</l>
+                  <l>sin un punto detenerse,</l>
+                  <l>cortando las mieses anda.</l>
                   <l>Mieses son las criaturas,</l>
-                  <l>que en él mundo son criadas,</l>
-                  <l>y en cumpliendose el tiempo:</l>
+                  <l>que en el mundo son criadas,</l>
+                  <l>y en cumpliendose el tiempo</l>
                   <l>limitado, que les haya</l>
                   <l>puesto su gran Criador,</l>
                   <l>al punto serán cortadas</l>
@@ -220,7 +233,7 @@
                   <l>porque si bien se repara,</l>
                   <l>por mucho que hayan vivido,</l>
                   <l>les parecerá que es nada</l>
-                  <l>en llegándose lazhora</l>
+                  <l>en llegándose la hora</l>
                   <l>postrera de su jornada.</l>
                   <l>Hombre, mira, que te advierto,</l>
                   <l>que está tu alma empeñada</l>
@@ -228,14 +241,14 @@
                   <l>que tu mortal cuerpo haga,</l>
                   <l>sin poder faltar á ello</l>
                   <l>cuando de este mundo vaya, </l>
-                  <l>y juntamente te advierto?</l>
+                  <l>y juntamente te advierto</l>
                   <l>para que en culpa no caigas;</l>
                   <l>que han de poner en un peso</l>
                   <l>tus obras buenas y malas,</l>
-                  <l>y si por desventura! </l>
-                  <l>las malas son mas pesadas;</l>
-                  <l>has de morir condeñado</l>
-                  <l>á arder en eterñas llamas.</l>
+                  <l>y si por desventura </l>
+                  <l>las malas son mas pesadas,</l>
+                  <l>has de morir condenado</l>
+                  <l>á arder en eternas llamas.</l>
                   <l>Y si por dicha pesaren</l>
                   <l>las buenas mas que las malas,</l>
                   <l>irás triunfante á la gloria</l>
@@ -248,11 +261,11 @@
                   <l>que en la ciudad mas nombrada,</l>
                   <l>que es <name>Alicante</name> la bella,</l>
                   <l>famoso puerto de <name>España</name>,</l>
-                  <l>en esta ciudad Vivia</l>
+                  <l>en esta ciudad vivia</l>
                   <l>un hombre, que se ocupaba</l>
-                  <l>en administrar Haciendas,</l>
+                  <l>en administrar haciendas,</l>
                   <l>y en cobrar las alcabalas, </l>
-                  <l>el cual era tan tiraño</l>
+                  <l>el cual era tan tirano</l>
                   <l>que tarde ó nunca pagaba</l>
                   <l>á los que estaban sirviendo</l>
                   <l>de criados en su casa.</l>
@@ -260,11 +273,11 @@
                   <l>tenia, que muestra daba</l>
                   <l>de ser hombre muy cabal,</l>
                   <l>de la nacion galiciana,</l>
-                  <l>que era natural de Tui,</l>
+                  <l>que era natural de <name>Tui</name></l>
                   <l>llamado Juan de Naballa.</l>
                   <l>Este le sirvió diez años,</l>
                   <l>y viendo que no cobraba</l>
-                  <l>pará poderse vestir,</l>
+                  <l>para poderse vestir,</l>
                   <l>y que su ropa está ajada,</l>
                   <l>un dia dijo: Señor,</l>
                   <l>yo quiero irme á mi patria,</l>
@@ -277,8 +290,8 @@
                   <l>mas me debe, que le debo,</l>
                   <l>y si de eso mas me habla</l>
                   <l>lo he de poner en la cárcel,</l>
-                  <l>para que bueno me haga:</l>
-                  <l>todo lo que me la usurpadoso</l>
+                  <l>para que bueno me haga</l>
+                  <l>todo lo que me ha usurpado</l>
                   <l>y lo ha mandado á su casa.</l>
                   <l>El mozo que aquesto oyó,</l>
                   <l>sin responderle palabra</l>
@@ -291,22 +304,22 @@
                   <l>de allí se salió afligido,</l>
                   <l>y al gobernador buscaba</l>
                   <l>para que le haga justicia,</l>
-                  <l>y el diñero le cobrára:</l>
-                  <l>Respondió el gobernador. </l>
+                  <l>y el dinero le cobrára.</l>
+                  <l>Respondió el gobernador, </l>
                   <l>diciéndole: que le traiga</l>
                   <l>testigos que lo declaren,</l>
-                  <l>y que la verdad juraran; </l>
-                  <l>y como no halló testigos</l>
+                  <l>y que la verdad juraran, </l>
+                  <l>y como no halló testigos,</l>
                   <l>muy afligido se andaba.</l>
                   <l>Y estando en el campo solo</l>
-                  <l>arrimado á una murralla;</l>
+                  <l>arrimado á una murralla,</l>
                   <l>vió que hácia él venia</l>
                   <l>un caballero, y le habla;</l>
                   <l>preguntóle por su amo,</l>
                   <l>y él dijo: que ya no estaba</l>
                   <l>con él, porque de diez años</l>
                   <l>el salario le negaba.</l>
-                  <l>Dijolé: pues yo te traigo</l>
+                  <l>Díjole: pues yo te traigo</l>
                   <l>una conveniencia hidalga,</l>
                   <l>que como seas leal,</l>
                   <l>y me sirvas, doy palabra</l>
@@ -315,9 +328,9 @@
                   <l>En fin, aceptó el partido,</l>
                   <l>sin saber con quien trataba.</l>
                   <l>Era el dicho caballero</l>
-                  <l>el demonio en forma humana;</l>
+                  <l>el demonio en forma humana,</l>
                   <l>el cual le dijo: por donde</l>
-                  <l>fuére yo, sigueme y marcha,</l>
+                  <l>fuère yo, sigueme y marcha,</l>
                   <l>ásete de este baston,</l>
                   <l>por ser cosa que me agrada,</l>
                   <l>y en un instante se hallaron</l>
@@ -333,15 +346,15 @@
                   <l>y en este cuarto de afuera</l>
                   <l>has de tener tu habitanza</l>
                   <l>aquí tendrás que comer,</l>
-                  <l>y tambien tu buéna cama.</l>
-                  <l>Ten así: toma esta llave suin</l>
+                  <l>y tambien tu buena cama.</l>
+                  <l>Ten así: toma esta llave</l>
                   <l>para que cierres y abras,</l>
-                  <l>y aunque veas, y que oigas;</l>
-                  <l>cosas que asombrany espantan</l>
+                  <l>y aunque veas, y que oigas,</l>
+                  <l>cosas que asombran y espantan</l>
                   <l>á tí no te de cuidado,</l>
                   <l>que el Altísimo te ampara.</l>
-                  <l>Llegó el Demonió á la puerta:</l>
-                  <l>y apeñas un golpe daba,</l>
+                  <l>Llegó el Demonió á la puerta;</l>
+                  <l>y apenas un golpe daba,</l>
                   <l>salieron á recibirlo</l>
                   <l>de criados y criadas</l>
                   <l>gran multitud, que humillados</l>
@@ -350,7 +363,7 @@
                   <l>les dijo con voz airada:</l>
                   <l>Ahora me pagareis</l>
                   <l>la demasia y tardanza,</l>
-                  <l>y con el baston á todos</l>
+                  <l>y con el baston à todos</l>
                   <l>tantos palos descargaba, </l>
                   <l>que los dejaba por muertos,</l>
                   <l>y luego se levantaban,</l>
@@ -359,20 +372,20 @@
                   <l>Así se entraron adentro</l>
                   <l>y con gran miedo Naballa</l>
                   <l>solo se quedó en su cuarto,</l>
-                  <l>que apenas determinabay</l>
-                  <l>si eraenoche, ó si era dia</l>
+                  <l>que apenas determinaba</l>
+                  <l>si era noche, ó si era dia</l>
                   <l>en tan lóbrega habitanza,</l>
-                  <l>encomendándose Dios</l>
-                  <l>y á la Virgen Soberana</l>
+                  <l>encomendándose à Dios</l>
+                  <l>y á la Virgen Soberana.</l>
                   <l>Y dentro de poco rato.</l>
                   <l>reparó, que lo llamaban, </l>
                   <l>diciéndole: Mira, mozo,</l>
                   <l>y acudió á ver qué le mandan</l>
-                  <l>á la puerta de Palacio</l>
+                  <l>á la puerta de Palacio,</l>
                   <l>y dos mulos le entregaban </l>
-                  <l>aparejedos; y dicen:</l>
+                  <l>aparejedos, y dicen:</l>
                   <l>Anda, y de aquella montaña</l>
-                  <l>trae dos cargas de carbon;</l>
+                  <l>trae dos cargas de carbon,</l>
                   <l>que allí está donde se labra,</l>
 
                   <pb n="4" source="Moreno_040_4.jpeg"
@@ -387,36 +400,36 @@
                   <l>se le castiga de muerte,</l>
                   <l>y se le confunde el alma.</l>
                   <l>Tomó Naballa los mulos.</l>
-                  <l>y llegando á la montaña, a.</l>
+                  <l>y llegando á la montaña,</l>
                   <l>vido que toda la tierra</l>
-                  <l>negro carbon hecha estaba;</l>
+                  <l>negro carbon hecha estaba:</l>
                   <l>cargó las cargas aprisa,</l>
-                  <l>y volvió con vijuancia,</l>
+                  <l>y volvió con vijiancia,</l>
                   <l>el que salió á recibirlos,</l>
                   <l>porque él adentro no estaba,</l>
                   <l>le dijo al mulo primero.</l>
                   <l>Vén acá, perro, no andas,</l>
-                  <l>desconmulgado malditoz</l>
-                  <l>Y con una fuerte maza a..</l>
-                  <l>le descargó en la cabeza,:</l>
-                  <l>que en tierra lo derribabaa;.</l>
+                  <l>desconmulgado maldito?</l>
+                  <l>Y con una fuerte maza</l>
+                  <l>le descargó en la cabeza,</l>
+                  <l>que en tierra lo derribaba.</l>
                   <l>con el otro hizo lo mismo,</l>
                   <l>y luego con otra maza</l>
                   <l>de hierro, que era mas grande, </l>
                   <l>muy fuertemente les daba,</l>
                   <l>hasta que dando alaridos</l>
                   <l>hizo que se levantaran,</l>
-                  <l>y con estruendo y tropel .</l>
+                  <l>y con estruendo y tropel</l>
                   <l>adentro corriendo entraban, </l>
                   <l>y en un instante volvieron,</l>
                   <l>y antes que los entregaran</l>
-                  <l>volvieron á cartigarlos,..</l>
+                  <l>volvieron á cartigarlos,</l>
                   <l>dándoles con las dos mazas</l>
                   <l>tanto, que echar les hicieron</l>
                   <l>por la boca las entrañas,</l>
-                  <l>y luego les señalaron11.</l>
-                  <l>una vereda escusada,a</l>
-                  <l>diciéndole: por allí eny 4!</l>
+                  <l>y luego les señalaron</l>
+                  <l>una vereda escusada,</l>
+                  <l>diciéndole: por allí</l>
                   <l>hallarás otra montaña,</l>
                   <l>que es toda de piedra azufre,</l>
                   <l>y de allí traerás dos cargas,</l>
@@ -436,7 +449,7 @@
                   <l>blasfemias, votos é infamias,</l>
                   <l>desesperaciones, iras,</l>
                   <l>tormentos, fatigás y ansias,</l>
-                  <l>aullidos, gemidos, quejas,,.</l>
+                  <l>aullidos, gemidos, quejas,</l>
                   <l>alboroto, grita y rabia,</l>
                   <l>como si llovieran rayos,</l>
                   <l>y se hundieran muchas casas</l>
@@ -458,9 +471,9 @@
                   <l>con cuidado y vigilancia,</l>
                   <l>y es justo que se te pague</l>
                   <l>y que se te dé una carta</l>
-                  <l>para el traidor de tu amo:.</l>
+                  <l>para el traidor de tu amo:</l>
                   <l>y agradece á las estampas,</l>
-                  <l>y esos papeles que tienes..</l>
+                  <l>y esos papeles que tienes</l>
                   <l>en tu defensa y compaña,</l>
                   <l>que si no, pudiera ser</l>
                   <l>que acá dentro te quedáras</l>
@@ -491,7 +504,6 @@
                   <l>dijo todo cuanto quiso</l>
                   <l>de fieros y de amenazas;</l>
                   <l>sin errarse ni turbarse</l>
-                  <l>y pues que te dí palabra </l>
                   <l>respondió Juan de Naballa:</l>
                   <l>Qué hacen aquí conmigo,</l>
                   <l>que quiero irme á mi patria?</l>
@@ -506,7 +518,7 @@
                   <l>dando horrorosos aullidos</l>
                   <l>todo lo atemorizaba.</l>
                   <l>Y llamando por sus nombres</l>
-                  <l>á dos bultos ó fantasmas,a</l>
+                  <l>á dos bultos ó fantasmas,</l>
                   <l>que á sus pies arrodillados</l>
                   <l>obedientes se mostraban,</l>
                   <l>le dijo: estos son los mulos</l>
@@ -514,14 +526,15 @@
                   <l>este es el padre, este abuelo</l>
                   <l>del amo que no te paga.</l>
                   <l>hijo de estos dos traidores,</l>
+                  <l>y pues que te dí palabra </l>
                   <l>de cobrarte tu dinero,</l>
                   <l>te lo cobraré que basta;</l>
                   <l>me hayas estado sirviendo;</l>
                   <l>con asistencia sobrada.</l>
                   <l>Ahora quiero que veas,</l>
                   <l>para que cuando te vayas</l>
-                  <l>á tu tierra, dés noticia;:</l>
-                  <l>las primorosas alhajas1.</l>
+                  <l>á tu tierra, dés noticia;</l>
+                  <l>las primorosas alhajas</l>
                   <l>que hay en este real palacio</l>
                   <l>en salas aderezadas.</l>
 
@@ -531,7 +544,7 @@
                   <fw type="paginaNum">6</fw>
 
                   <l>Mira, vés aquí esta silla,</l>
-                  <l>que la tengo ¡preparada</l>
+                  <l>que la tengo preparada</l>
                   <l>á el amo que allá tuviste</l>
                   <l>que si en ella te sentáras</l>
                   <l>un cerrar y abrir de ojos,</l>
@@ -551,18 +564,18 @@
                   <l>y os brazos de cristal</l>
                   <l>con embutidos de nácar.</l>
                   <l>Pues qué tal te ha parecido?</l>
-                  <l>No es una prenda estimada?.</l>
+                  <l>No es una prenda estimada?</l>
                   <l>Naballa, dijo: muy rica,</l>
                   <l>que es imposible que haya </l>
                   <l>en todo el mundo otra silla</l>
                   <l>que con esa igualára.</l>
                   <l>Es cierto, dijo el demonio,</l>
                   <l>que no es capaz que la haya,</l>
-                  <l>la cual si fuere á venderla,..</l>
+                  <l>la cual si fuere á venderla,</l>
                   <l>por más que me la pagaran </l>
                   <l>no tiene precio esta silla</l>
                   <l>para poder apreciarla.</l>
-                  <l>Vuélvela á mirar despacio 4</l>
+                  <l>Vuélvela á mirar despacio</l>
                   <l>veras que pasmo de alhaja,</l>
                   <l>y dándole luego un soplo</l>
                   <l>la encendió con tanta flama,</l>
@@ -578,7 +591,7 @@
                   <l>eran sierpes enredadas,</l>
                   <l>con vívoras ponzoñosas.</l>
                   <l>lagartos y salamándras,</l>
-                  <l>el que tera asiento de felpa</l>
+                  <l>y el que era asiento de felpa</l>
                   <l>era de fuego una plancha,</l>
                   <l>que vibraba exalaciones</l>
                   <l>hácia arriba remontadas.</l>
@@ -589,7 +602,7 @@
                   <l>que echaban fuego á volcanes,</l>
                   <l>sin disminuirse nada.</l>
                   <l>Dijole: no mires mas,</l>
-                  <l>que con eso sobra y basta..</l>
+                  <l>que con eso sobra y basta.</l>
                   <l>para que allá des noticia,</l>
                   <l>porque si vieras un alma</l>
                   <l>de uno que fué lujurioso,</l>
@@ -598,7 +611,7 @@
                   <l>y á los pobres ultrajaba,</l>
                   <l>puesta en tormento horrorso</l>
                   <l>muerto al punto te quedaras.</l>
-                  <l>Bastante has visto conesto;</l>
+                  <l>Bastante has visto con esto;</l>
                   <l>y luego dijo: levanta,</l>
                   <l>y á uno de los dos le hizo</l>
                   <l>que en la silla se sentára,</l>
@@ -612,17 +625,17 @@
 
                   <fw type="paginaNum">7</fw>
 
-                  <l>Ea, escribáñ aí apriesa,</l>
-                  <l>les dijo: sin répugñancia,</l>
+                  <l>Ea, escriban aí apriesa,</l>
+                  <l>les dijo: sin repugnancia,</l>
                   <l>los deleites y regalos</l>
                   <l>con que aquí los agasajan, </l>
                   <l>y ajustenle bien la cuenta, </l>
                   <l>para que le sea pagada</l>
-                  <l>del traidor de vuestro hi</l>
+                  <l>del traidor de vuestro hijo,</l>
                   <l>sin que nada se negara;</l>
-                  <l>y ahora habeis de cantaí</l>
+                  <l>y ahora habeis de cantar</l>
                   <l>una de aquellas tonadas</l>
-                  <l>de risa, y dé pasátiémpo</l>
+                  <l>de risa, y de pasatiempo</l>
                   <l>deshonestas que cantaban. </l>
                   <l>Mas ellos enfurecidos,</l>
                   <l>echando voraces llamas</l>
@@ -637,7 +650,7 @@
                   <l>toda mi generacion</l>
                   <l>desde que fué principiada.</l>
                   <l>Y el demonio lisongero</l>
-                  <l>decía: Qué bien que cantal</l>
+                  <l>decía: Qué bien que canta!</l>
                   <l>Canten mas que estoy muy triste,</l>
                   <l>y esa música me agrada:</l>
                   <l>no se detengan, prosigan,</l>
@@ -650,17 +663,18 @@
                   <l>y las engañosas damas,</l>
                   <l>que á pecar nos incitaron,</l>
                   <l>y malditas nuestras almas.</l>
-                  <l>hasta los santós y santas,</l>
+                  <l>Y así fueron maldiciendo</l>
+                  <l>hasta los santos y santas,</l>
                   <l>y esto todo lo escribieron</l>
                   <l>con sentimiento y con rabia,</l>
-                  <l>y luego echaron las firmas;</l>
+                  <l>y luego echaron las firmas,</l>
                   <l>que en el mundo acostumbraban</l>
                   <l>poniendo en el sobrescrito</l>
                   <l>el dueño á quien la enviaban,</l>
                   <l>el año, y tambien el dia,</l>
-                  <l>despues de estar cerrada</l>
+                  <l>y despues de estar cerrada</l>
                   <l>la carta, se la arrojaron,</l>
-                  <l>y al tiempo de levantarla</l>
+                  <l>y al tiempo de levantarla,</l>
                   <l>Juan de Naballa se halló</l>
                   <l>arrimado á la muralla,</l>
                   <l>en donde se acomodó, </l>
@@ -668,7 +682,7 @@
                   <l>Y así que reconoció</l>
                   <l>el sitio donde se hallaba,</l>
                   <l>á Dios, y á la Vírgen pura</l>
-                  <l>les dió repetidas gracias,</l>
+                  <l>les dió repetidas gracias.</l>
                   <l>Y luego determinó</l>
                   <l>irse desde allí á la casa</l>
                   <l>del Señor Gobernador</l>
@@ -684,7 +698,7 @@
                   <l>de un abuelo de su amo,</l>
                   <l>y de su padre, que estaban</l>
                   <l>para siempre condenados;</l>
-                  <l>y en fina allí le deelara</l>
+                  <l>y en fin, allí le declara</l>
                   <l>cuanto vido por sus ojos,</l>
                   <l>y lo que llevó de cargas,</l>
 
@@ -698,7 +712,7 @@
                   <l>El Gobernador absorto</l>
                   <l>mandó, que al amo llamaran, </l>
                   <l>y que en presencia de todos</l>
-                  <l>para que no se escusara,.</l>
+                  <l>para que no se escusara,</l>
                   <l>la carta fuese leida,</l>
                   <l>la cual de oirla lloraban:</l>
                   <l>y á Naballa le pagaron</l>
@@ -710,19 +724,19 @@
                   <l>de religiosos descalzos</l>
                   <l>del Santo Cristo de Gracia</l>
                   <l>para acabar justamente</l>
-                  <l>la vida que le quedaba.... </l>
+                  <l>la vida que le quedaba. </l>
                   <l>Esto es lo que ha sucedido</l>
-                  <l>para ejemplo y enseñanza,</l>
+                  <l>para ejemplo y enseñanza</l>
                   <l>de aquellos que á sus criados</l>
                   <l>lo que es justo no le pagan.</l>
                   <l>Nadie diga bien estoy,</l>
                   <l>porque las torres mas altas</l>
                   <l>si caen dan mayor golpe,</l>
-                  <l>que aquellas que estan mas</l>
+                  <l>que aquellas que estan mas bajas.</l>
                   <l>Dios abate á los soberbios,</l>
                   <l>y á los humildes ensalza;</l>
                   <l>fé. esperanza y caridad</l>
-                  <l>son las que al hombre lo salva.</l>
+                  <l>son las que al hombre lo salva</l>
                   <l>que representa la vela</l>
                   <l>todas tres acompañadas.</l>
                   <l>Es la caridad la cera,</l>
@@ -744,7 +758,7 @@
                   <l>y el mismo Espíritu Santo</l>
                   <l>les asiste con su gracia</l>
                   <l>á los que son caridosos,</l>
-                  <l>que á Dios y al prójimo aman..</l>
+                  <l>que á Dios y al prójimo aman.</l>
                   <l>Y ahora el autor rendido</l>
                   <l>dándole fin á esta plana</l>
                   <l>á los oyentes suplica,</l>

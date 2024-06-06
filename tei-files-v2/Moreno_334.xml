@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -28,8 +44,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -37,9 +52,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6504826</idno>
@@ -71,7 +84,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_334_1.xml">grabado_m_334_1</item>
+                            <item corresp="grabado_m_334_1.xml" facs="fedora_ug8105613/426,226,900,560/100,/0/default.jpg">grabado_m_334_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -150,12 +163,28 @@
                      <geo>38.995555555556 -1.8558333333333</geo>
                   </location>
                </place>
+               <place n="1" corresp="Q64010">
+                  <placeName key="Caspe">Caspe</placeName>
+                  <location>
+                     <geo>41.236671 -0.039573</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q10305">
+                  <placeName key="Zaragoza">Zaragoza</placeName>
+                  <location>
+                     <geo>41.65 -0.883333</geo>
+                  </location>
+               </place>
                <place n="1">
                   <placeName key="Calle_de_Tropiezo">Calle de Tropiezo</placeName>
                   <desc>Ambiguos</desc>
                </place>
                <place n="1">
                   <placeName key="Soto_de_Doña_Juana">Soto de Doña Juana</placeName>
+                  <desc>Inclasificables</desc>
+               </place>
+               <place n="1">
+                  <placeName key="Soto_Cantaespina">Soto Cantaespina</placeName>
                   <desc>Inclasificables</desc>
                </place>
             </listPlace>
@@ -170,7 +199,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -213,16 +242,15 @@
             <div>
                <pb n="1" source="Moreno_334_1.jpeg" facs="fedora_ug8105613/full/full/0/default.jpg"/>
 
-               <fw type="impresorNum">N. 363.</fw>
+               <fw type="impresorNum">N. 365.</fw>
 
                <head type="primer_titulo">
-                  <lb/>NUEVA RELACION <lb/>DEL <lb/>CUERNO DEL CARACOL </head>
+                  <lb/>NUEVA RELACION <lb/>DEL <lb/>CUERNO DEL CARACOL. </head>
 
                <lg>
-                  <l rend="indent">En el Soto Cantaespina</l>
+                  <l rend="indent">En el <name>Soto Cantaespina</name></l>
                   <l>ha salido un caracol,</l>
                   <l>que pesa dos mil arrobas,</l>
-                  <l>lo han visto tomando el sol.</l>
                   <l>lo han visto tomando el sol.</l>
                   <l rend="indent">Y solo en un brinco</l>
                   <l>que dió el otro dia,</l>
@@ -235,15 +263,14 @@
                   <l>tristes y desconsolados,</l>
                   <l>que se les come las plantas</l>
                   <l>que tienen en los sembrados.</l>
-                  <l>que tienen en los sembrados.</l>
                   <l rend="indent">Solo de panizo</l>
                   <l>se comió en un dia,</l>
                   <l>novecientos cahices</l>
                   <l>de Doña María.</l>
                   <l>De un trago de agua</l>
                   <l>que en el <name>Ebro</name> bebió,</l>
-                  <l>lo Bajó cien varas,</l>
-                  <l>mi hermano lo vió:</l>
+                  <l>lo bajó cien varas,</l>
+                  <l>mi hermano lo vió.</l>
                </lg>
 
                <lg>
@@ -251,24 +278,22 @@
                   <l>se puede hacer un castillo,</l>
                   <l>un hospital, una cárcel,</l>
                   <l>una iglesia y un presidio.</l>
-                  <l>una iglesia y un presidio.</l>
                   <l rend="indent">Y aun quedará puesto</l>
                   <l>para hacer un pueblo,</l>
                   <l>con plaza de toros</l>
                   <l>y un toril muy bueno.</l>
                   <l>Tambien tiene leña</l>
                   <l>solo con su cola,</l>
-                  <l>para Zaragoza</l>
-                  <l>Caspe y <name>Barcelona</name>.</l>
+                  <l>para <name>Zaragoza</name></l>
+                  <l><name>Caspe</name> y <name>Barcelona</name>.</l>
                </lg>
                <lg>
                   <l rend="indent">Las señas del caracol</l>
                   <l>las esplicaré muy claras,</l>
                   <l>pues son tan largos sus cuernos,</l>
                   <l>que pasan de dos mil varas.</l>
-                  <l>que pasan de dos mil varas.</l>
                   <l rend="indent">Cuatro hombres lo vieron</l>
-                  <l>ál oscurecer,</l>
+                  <l>al oscurecer,</l>
                   <l>y el pueblo <name>Belchite</name></l>
                   <l>escapó á correr.</l>
 
@@ -287,10 +312,9 @@
                   <l>salieron de madrugada,</l>
                   <l>en busca del caracol</l>
                   <l>á bayoneta calada.</l>
-                  <l>á bayoneta calada.</l>
                   <l rend="indent">Y aun fueron delante</l>
                   <l>una abansadilla,</l>
-                  <l>de cinco mil hombros</l>
+                  <l>de cinco mil hombres</l>
                   <l>puesto en guerrilla.</l>
                   <l>Luego á retaguardia</l>
                   <l>la caballería,</l>
@@ -302,8 +326,7 @@
                   <l rend="indent">Prepararon la batalla</l>
                   <l>toda la fucilería,</l>
                   <l>y aun hacian parapetos</l>
-                  <l>seiscientos guardias que habia</l>
-                  <l>seiscientos guardias que habia</l>
+                  <l>seiscientos guardias que habia.</l>
                   <l rend="indent">Pusieron al frente</l>
                   <l>cuarenta cañones,</l>
                   <l>cuatro compañías</l>
@@ -318,7 +341,6 @@
                   <l rend="indent">Cien cañones dispararon</l>
                   <l>la artillería de frente,</l>
                   <l>y con tan fuerte batalla</l>
-                  <l>pudieron romperle un diente.</l>
                   <l>pudieron romperle un diente.</l>
                   <l rend="indent">Luego el caracol</l>
                   <l>tiró una cornada,</l>
@@ -335,7 +357,6 @@
                   <l>se fueron en retirada,</l>
                   <l>y á todo el mundo contaron</l>
                   <l>la accion de aquella batalla.</l>
-                  <l>la accion de aquella batalla.</l>
                   <l rend="indent">Pero de refuerzo</l>
                   <l>vienen de franceses</l>
                   <l>dos mil batallones</l>
@@ -351,7 +372,6 @@
                   <l>con todos estos franceses,</l>
                   <l>en compañía de los turcos</l>
                   <l>y todos los portugueses.</l>
-                  <l>y todos los portugueses.</l>
                   <l rend="indent">Bien hacian fuego</l>
                   <l>todos en union,</l>
                   <l>de fucileria,</l>
@@ -366,8 +386,7 @@
                   <l rend="indent">Tambien mató nueve mil</l>
                   <l>en el <name>Soto de Doña Juana</name>,</l>
                   <l>y no quiso matar mas</l>
-                  <l>porque no le dió la gana</l>
-                  <l>porque no le dió la gana</l>
+                  <l>porque no le dió la gana.</l>
                   <l rend="indent">Miraron el campo</l>
                   <l>luego al otro dia,</l>
                   <l>y seis mil heridos</l>
@@ -401,13 +420,12 @@
                <lg>
                   <l rend="indent">Ya han salido de <name>Aragon</name></l>
                   <l>seisientos veinte gitanos,</l>
-                  <l>en busca del caraco!</l>
-                  <l>con las tijeras en mano.</l>
+                  <l>en busca del caracol</l>
                   <l>con las tijeras en mano.</l>
                   <l rend="indent">A cortarle el pelo</l>
                   <l>todos se pusieron,</l>
                   <l>y de un par de coces</l>
-                  <l>noventa murieron </l>
+                  <l>noventa murieron.</l>
                   <l>Todos los demás</l>
                   <l>que libres se vieron,</l>
                   <l>del polvo tan grande</l>
@@ -418,7 +436,6 @@
                   <l rend="indent">Doscientos veinte raneros</l>
                   <l>han propuesto un memorial,</l>
                   <l>y el capitan de la junta</l>
-                  <l>se llama Benito Aznar.</l>
                   <l>se llama Benito Aznar.</l>
                   <l rend="indent">Dará una batalla</l>
                   <l>este capitan,</l>
@@ -435,39 +452,36 @@
                   <l>tambien irán á su mando:</l>
                   <l>porque estos suelen llevar</l>
                   <l>los cuernos de contrabando.</l>
-                  <l>los cuernos de contrabando.</l>
                   <l rend="indent">Y esta gente armada</l>
                   <l>con sus carabinas,</l>
                   <l>matan tres bodegas</l>
                   <l>y un cubo de sardinas.</l>
                   <l>Estos caballeros</l>
-                  <l>son gente muy fiña,</l>
+                  <l>son gente muy fina,</l>
                   <l>nunca gastan bota,</l>
                   <l>capa ni esclavina.</l>
                </lg>
 
                <lg>
-                  <l rend="indent">En busca del carácol</l>
+                  <l rend="indent">En busca del caracol</l>
                   <l>toda la gente ha salido,</l>
                   <l>y lo vieron en <name>Belchite</name></l>
-                  <l>en la torre haciendo nido,</l>
-                  <l>en la torre haciendo nido,</l>
+                  <l>en la torre haciendo nido.</l>
                   <l rend="indent">Todos comprendieron</l>
-                  <l>centra el caracol</l>
+                  <l>contra el caracol</l>
                   <l>y mató seiscientos</l>
                   <l>solo de una coz.</l>
                   <l>La sangre llegó,</l>
-                  <l>no quiero mentir; </l>
-                  <l>hasta <name>Andalúcia</name></l>
+                  <l>no quiero mentir, </l>
+                  <l>hasta <name>Andalucia</name></l>
                   <l>y tierra de <name>Madrid</name>.</l>
                </lg>
 
                <lg>
-                  <l rend="indent">Ayer ávimos noticia.</l>
+                  <l rend="indent">Ayer tuvimos noticia</l>
                   <l>de que salió de una cueva,</l>
-                  <l>y que venza á llevafse</l>
-                  <l>en plomo á la torre nueva:</l>
-                  <l>en plomo á la torre nueva:</l>
+                  <l>y que venia á llevarse</l>
+                  <l>en plomo á la torre nueva.</l>
                   <l rend="indent">Y han salido al campo</l>
                   <l>seiscientos cuenqueros,</l>
                   <l>mil amoladores</l>
@@ -483,7 +497,6 @@
                   <l>le dieron otro combate,</l>
                   <l>y con solo una cornada</l>
                   <l>me los echó hasta <name>Albacete</name>.</l>
-                  <l>me los echó hasta <name>Albacete</name>.</l>
                   <l rend="indent">Las muertes que ha habido</l>
                   <l>las voy á decir,</l>
                   <l>de muertos y heridos</l>
@@ -491,7 +504,7 @@
                   <l>Y quedaron libres</l>
                   <l>Martin y Carrizo,</l>
                   <l>tres cruces le dieron</l>
-                  <l>de hojás de pánizó. </l>
+                  <l>de hojas de panizo.</l>
                </lg>
 
                <pb n="4" source="Moreno_334_4.jpeg" facs="fedora_ug8110131/full/full/0/default.jpg"/>
@@ -503,13 +516,12 @@
                   <l>voy á contarles, señores,</l>
                   <l>en la suma de los muertos</l>
                   <l>pasan de nueve millones.</l>
-                  <l>pasan de nueve millones.</l>
                   <l rend="indent">Mas de nueve mil</l>
                   <l>han quedado heridos,</l>
                   <l>sin piernas ni brazos</l>
                   <l>y muchos tullidos.</l>
                   <l>Batallas como estas</l>
-                  <l>nosehan conocido,</l>
+                  <l>no se han conocido,</l>
                   <l>segun nos contaba</l>
                   <l>aquel que las vido.</l>
                </lg>
@@ -518,8 +530,7 @@
                   <l rend="indent">Y han cojido el caracol</l>
                   <l>Rompe Listas y Pezon,</l>
                   <l>y la tia Chupa Lirones</l>
-                  <l>que es nombrada en <name>Aragon</name></l>
-                  <l>que es nombrada en <name>Aragon</name></l>
+                  <l>que es nombrada en <name>Aragon</name>.</l>
                   <l rend="indent">Vive esta señora</l>
                   <l>con mi prima Blasa,</l>
                   <l>calle de Tropiezo</l>
@@ -534,7 +545,6 @@
                   <l rend="indent">Catorce pares de mulas</l>
                   <l>salieron con un señor,</l>
                   <l>para entrar el caracol</l>
-                  <l>tan horrendo en <name>Aragon</name>.</l>
                   <l>tan horrendo en <name>Aragon</name>.</l>
                   <l rend="indent">Los cuernos serán</l>
                   <l>para hacer un puente,</l>
@@ -551,7 +561,6 @@
                   <l>en la riada ha bajado,</l>
                   <l>á cosa del medio dia</l>
                   <l>el cuatro del mes pasado.</l>
-                  <l>el cuatro del mes pasado.</l>
                   <l rend="indent">Mas aquí el poéta</l>
                   <l>no puede escribir,</l>
                   <l>porque se ha dormido</l>
@@ -566,7 +575,7 @@
             </div>
 
             <div type="colofon">
-               <p><lb/>CARMONA.—Imp. y lib. de D. José M. Moreno, Madre de Dios, n. 4.</p>
+               <p><lb/>CARMONA.—Imp. y lib. de D. José M. Moreno, Madre de Dios, n. 1.</p>
             </div>
          </div>
       </body>

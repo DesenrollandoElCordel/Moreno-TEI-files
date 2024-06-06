@@ -9,18 +9,34 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">Romance nuevo. El hallazgo del cadaver</title>
+                  <title type="titulo_completo">Romance nuevo. El hallazgo del cadaver.</title>
                   <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
@@ -28,8 +44,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -37,9 +52,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6447997</idno>
@@ -71,15 +84,19 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_032_1.xml"
-                              facs="fedora_ug8109843/148,174,1360,1090/100,/0/default.jpg"
-                              >grabado_m_032_1</item>
+                            <item corresp="grabado_m_032_1.xml" facs="fedora_ug8109843/148,174,1360,1090/100,/0/default.jpg">grabado_m_032_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
                </physDesc>
             </msDesc>
             <listPlace xml:base="https://www.wikidata.org/wiki/">
+               <place n="1" corresp="Q14318">
+                  <placeName key="Vitoria">Vitoria</placeName>
+                  <location>
+                     <geo>42.846667 -2.673056</geo>
+                  </location>
+               </place>
                <place n="1" corresp="Q52153444">
                   <placeName key="Peñacerrada">Peñacerrada</placeName>
                   <location>
@@ -90,12 +107,6 @@
                   <placeName key="Vizcaya">Vizcaya</placeName>
                   <location>
                      <geo>43.25 -2.9833333333333</geo>
-                  </location>
-               </place>
-               <place n="2" corresp="Q986572">
-                  <placeName key="Simancas">Simancas</placeName>
-                  <location>
-                     <geo>41.5904328 -4.8268456</geo>
                   </location>
                </place>
                <place n="1" corresp="Q2807">
@@ -116,7 +127,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -162,9 +173,9 @@
                <fw type="impresorNum">Núm. 36.</fw>
 
                <head type="primer_titulo">
-                  <lb/>ROMANCE NUEVO. <lb/>EL HALLAZGO DEL CADAVER. </head>
+                  <lb/>ROMANCE NUEVO. <lb/>EL HALLAZGO DEL CADAVER.</head>
 
-               <l rend="indent">No muy léjos de vitoria,</l>
+               <l rend="indent">No muy léjos de <name>Vitoria</name>,</l>
                <l>en la gran <name>Peña Cerrada</name>.</l>
                <l>se halla una cueva, que un tiempo</l>
                <l>fué asilo de gentes malas.</l>
@@ -208,7 +219,7 @@
                <l>viendo ya que sin remedio</l>
                <l>se queria mi desgracia.</l>
                <l rend="indent">Con don Pedro huí una noche, </l>
-               <l>noche cruel! noche infausta. </l>
+               <l>noche cruel! noche infausta! </l>
                <l>pues fué mi amante en ella</l>
                <l>muerto á doce puñaladas. </l>
                <l rend="indent">Una banda de asesinos</l>
@@ -272,7 +283,7 @@
                <l>unos arrieros muy ricos</l>
                <l>que vienen desde <name>Vizcaya</name>. </l>
                <l rend="indent">Salgamos al punto todos,</l>
-               <l>quede de guardia <name><name>Simanca</name>s</name>, </l>
+               <l>quede de guardia Simancas, </l>
                <l>y volveremos sin duda</l>
                <l>con lo mejor de sus cargas. </l>
                <l rend="indent">No bien acabó de hablar,</l>
@@ -281,7 +292,7 @@
                <l>dejándome á mi encerrada. </l>
                <l rend="indent">Era mi tristeza mucha.</l>
                <l>y viéndome tan postrada, </l>
-               <l>dijo <name><name>Simanca</name>s</name> : mujer,</l>
+               <l>dijo Simancas: mujer,</l>
                <l>si quieres, pronto estás salva.</l>
                <l rend="indent">Los dos que presos están</l>
                <l>conmigo de acuerdo andan</l>
@@ -304,7 +315,7 @@
                <l>de contento se abrazaban.</l>
                <l rend="indent">Por salir de aquel lugar</l>
                <l>donde me hallaba encerrada,</l>
-               <l>de <name><name>Simanca</name>s</name> juré ser</l>
+               <l>de Simancas juré ser</l>
                <l>y seguirle donde vaya. </l>
                <l rend="indent">En esto con unos hierros</l>
                <l>que por allí se encontraban, </l>
@@ -318,7 +329,7 @@
                <l>salimos á la campaña; </l>
                <l>cuando otros tres compañeros</l>
                <l>á la cueva regresaban.</l>
-               <l rend="indent">Eran de <name>Simanca</name> amigos, </l>
+               <l rend="indent">Eran de Simanca amigos, </l>
                <l>y como de acuerdo andaban, </l>
                <l>se escaparon de los otros</l>
                <l>y á los nuestros se juntaban.</l>
@@ -342,7 +353,7 @@
                <l>en mí la primera infamia,</l>
                <l>apenas le tuve cerca, </l>
                <l>el pecho le abrí á estocadas, </l>
-               <l rend="indent">«Pagal, le dije , traidor, </l>
+               <l rend="indent">«Pagal, le dije, traidor, </l>
                <l>paga tu accion temeraria,</l>
                <l>pues estoy por tí sin honra,</l>
                <l>la vida á mi furia acaba.»</l>

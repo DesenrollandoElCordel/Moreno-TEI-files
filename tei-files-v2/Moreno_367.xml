@@ -9,19 +9,36 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">El baratero. Sátira nueva en que se declara el famoso Baratero que ha salido en
-                     Cuarte, y en ella hallarán las demás hazañas y valentías que ha hecho en España y en Francia.</title>
+                  <title type="titulo_completo">El baratero. Sátira nueva en que se declara el
+                     famoso Baratero que ha salido en Cuarte, y en ella hallarán las demás hazañas y
+                     valentías que ha hecho en España y en Francia.</title>
                   <title type="titulo_breve">El baratero.</title>
                </titleStmt>
                <editionStmt>
@@ -29,8 +46,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -38,9 +54,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6505141</idno>
@@ -72,12 +86,8 @@
                      <summary n="2">Dos grabados (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_367_1.xml"
-                              facs="fedora_ug8109902/332,272,476,745/100,/0/default.jpg"
-                              >grabado_m_367_1</item>
-                           <item corresp="grabado_m_367_2.xml"
-                              facs="fedora_ug8109902/861,376,481,609/100,/0/default.jpg"
-                              >grabado_m_367_2</item>
+                            <item corresp="grabado_m_367_1.xml" facs="fedora_ug8109902/332,272,476,745/100,/0/default.jpg">grabado_m_367_1</item>
+                            <item corresp="grabado_m_367_2.xml" facs="fedora_ug8109902/861,376,481,609/100,/0/default.jpg">grabado_m_367_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -168,7 +178,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -216,8 +226,8 @@
                <head type="primer_titulo">EL BARATERO.</head>
                <head rend="cursiva" type="subtitulo">
                   <lb/>Sátira nueva en que se declara el famoso Baratero que ha salido en
-                  <lb/>Cuarte, y en ella hallarán las demás hazañas y valentías que <lb/>ha hecho en
-                  España y en Francia.</head>
+                     <lb/><name>Cuarte</name>, y en ella hallarán las demás hazañas y valentías que
+                  <lb/>ha hecho en <name>España</name> y en <name>Francia</name>.</head>
 
                <lg>
                   <l rend="indent">Todo el mundo ha de temblar</l>
@@ -251,7 +261,7 @@
                   <l rend="indent">Soy nacido en <name>Cuarte</name>,</l>
                   <l>criado en Maria,</l>
                   <l>hijo de Pacay</l>
-                  <l>que en él nadie fra.</l>
+                  <l>que en él nadie fia.</l>
                </lg>
 
                <lg>
@@ -355,7 +365,7 @@
                   <l rend="indent">A todos dejé chasqueados</l>
                   <l>en la puerta de la calle,</l>
                   <l>y yo entonces me marché</l>
-                  <l>sin incomodar, á nadie.</l>
+                  <l>sin incomodar á nadie.</l>
                </lg>
 
                <lg>
@@ -514,7 +524,10 @@
                <lg>
                   <l rend="indent">Y al nacer el dia</l>
                   <l>vi venir de un alto</l>
-                  <l>nueve compañaís</l>
+                  <l>nueve <choice>
+                        <sic>compañaís</sic>
+                        <corr>compañías</corr>
+                     </choice></l>
                   <l>registrando el campo.</l>
                </lg>
 
@@ -598,7 +611,7 @@
                   <l rend="indent">Un domingo por la tarde</l>
                   <l>habia una gran parada,</l>
                   <l>de unos ocho mil franceses</l>
-                  <l>todos formados entala.</l>
+                  <l>todos formados en ala.</l>
                </lg>
 
                <lg>
@@ -616,10 +629,10 @@
                </lg>
 
                <lg>
-                  <l rend="indent">Todos los colgó de un árbol</l>
+                  <l rend="indent">Todos los colgé de un árbol</l>
                   <l>en aquella misma tarde,</l>
                   <l>para pasto de los cuervos</l>
-                  <l>porque allá pasan mucha hambre</l>
+                  <l>porque allá pasan mucha hambre.</l>
                </lg>
 
                <lg>

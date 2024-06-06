@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +46,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1858-01-01">1858</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +54,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6483415</idno>
@@ -73,9 +86,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_303_1.xml"
-                              facs="fedora_ug8107683/164,251,1324,1124/100,/0/default.jpg"
-                              >grabado_m_303_1</item>
+                            <item corresp="grabado_m_303_1.xml" facs="fedora_ug8107683/164,251,1324,1124/100,/0/default.jpg">grabado_m_303_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -88,7 +99,7 @@
                      <geo>37.88115833 -4.77492778</geo>
                   </location>
                </place>
-               <place n="2" corresp="Q15681">
+               <place n="3" corresp="Q15681">
                   <placeName key="Jaén">Jaén</placeName>
                   <location>
                      <geo>37.769722222222 -3.7888888888889</geo>
@@ -202,8 +213,8 @@
                <head type="primer_titulo" rend="negrita">DOÑA ISABEL GALLARDO.</head>
                <head type="subtitulo">
                   <lb/>NUEVA Y CURIOSA RELACION DEL INVENCIBLE VALOR DE UNA <lb/>hermosa doncella
-                  natural de la ciudad de Jaen, que por desagraviar á su <lb/>padre, hizo treinta
-                  muertes. </head>
+                  natural de la ciudad de <name>Jaen</name>, que por desagraviar á su <lb/>padre,
+                  hizo treinta muertes. </head>
 
                <l><hi rend="negrita">A</hi>temoricese el orbe,</l>
                <l>tengan silencio los guapos,</l>
@@ -241,8 +252,8 @@
                <l>corto me quedé, una diosa.</l>
                <l>Venus segunda en el garbo.</l>
                <l>Nas todas cuantas virtudes</l>
-               <l>pi ede tener un cristiano,</l>
-               <l>ter ia esta criatura,</l>
+               <l>puede tener un cristiano,</l>
+               <l>tenia esta criatura,</l>
                <l>y sabia en alto grado</l>
                <l>leer, contar, escribir,</l>
                <l>tañer instrumentos varios.</l>
@@ -275,7 +286,7 @@
                <l>no hay desatada leona,</l>
                <l>ni tigre hay acuchillado,</l>
                <l>que con ella se compare.</l>
-               <l>n una sala se ha entrado,</l>
+               <l><supplied>E</supplied>n una sala se ha entrado,</l>
                <l>y quitados sus vestidos,</l>
                <l>de hombre se ha disfrazado;</l>
                <l>se pone lucidas armas,</l>
@@ -399,7 +410,7 @@
                <l>pero fueron apresados.</l>
                <l>De los diez mató á los siete,</l>
                <l>los otros tres maniatados</l>
-               <l>llevó á la plaza, y alll</l>
+               <l>llevó á la plaza, y allí</l>
                <l>quedaron maravillados</l>
                <l>en ver tan heróicos hechos</l>
                <l>y arrojo tan temerario.</l>
@@ -450,7 +461,10 @@
                <l>y por muy poco embarazo</l>
                <l>que tuvo con un cochero</l>
                <l>de un señor muy respetado,</l>
-               <l>la tirarou á traicion,</l>
+               <l>la <choice>
+                     <sic>tirarou</sic>
+                     <corr>tiraron</corr>
+                  </choice> á traicion,</l>
                <l>y atravesáronla un brazo,</l>
                <l>Otra estocada la dieron,</l>
                <l>y sin poder remediarlo,</l>
@@ -486,7 +500,7 @@
 
             <div type="colofon">
                <p>
-                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra, n.o.
+                  <lb/>CARMONA:—1858. <lb/>Imp. de D. José M. Moreno, calle Juan de la Cabra, n.°,
                   1. </p>
             </div>
          </div>

@@ -13,18 +13,34 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">D. Diego de Peñaloza y Doña Maria Leonarda.. Romance
+                  <title type="titulo_completo">D. Diego de Peñaloza y Doña Maria Leonarda. Romance
                      de los amorosos sucesos de estos dos finos amantes.</title>
                   <title type="titulo_breve">D. Diego de Peñaloza y Doña Maria Leonarda.</title>
                </titleStmt>
@@ -34,8 +50,7 @@
                <publicationStmt>
                   <publisher>José María Moreno (hijo)</publisher>
                   <publisher>Manuel Belloso</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1874-01-01">1874</date>
                </publicationStmt>
             </biblFull>
@@ -43,9 +58,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6473112</idno>
@@ -81,28 +94,12 @@
                      <summary n="1">Un grabado (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_172_1.xml"
-                              facs="fedora_ug8106655/263,227,1174,972/100,/0/default.jpg"
-                              >grabado_m_172_1</item>
+                            <item corresp="grabado_m_172_1.xml" facs="fedora_ug8106655/263,227,1174,972/100,/0/default.jpg">grabado_m_172_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
                </physDesc>
             </msDesc>
-            <listPlace xml:base="https://www.wikidata.org/wiki/">
-               <place n="3" corresp="Q12155">
-                  <placeName key="Soria">Soria</placeName>
-                  <location>
-                     <geo>41.766666666667 -2.4666666666667</geo>
-                  </location>
-               </place>
-               <place n="1" corresp="Q1631843">
-                  <placeName key="Laza">Laza</placeName>
-                  <location>
-                     <geo>42.060555555556 -7.4613888888889</geo>
-                  </location>
-               </place>
-            </listPlace>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -114,7 +111,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -181,9 +178,9 @@
                   <l>el mas singular suceso</l>
                   <l>y historia mas celebrada,</l>
                   <l>que se ha oido, ni se ha visto,</l>
-                  <l>ni escriben plumas humanás.</l>
+                  <l>ni escriben plumas humanas.</l>
                   <l>Y porque duda no quede,</l>
-                  <l>es preciso declarla</l>
+                  <l>es preciso declarla,</l>
 
                   <pb n="2" source="Moreno_172_2.jpg"
                      facs="fedora_ug8105647/full/full/0/default.jpg"/>
@@ -290,7 +287,7 @@
                   <l>y cosas que precisaban,</l>
                   <l>á cuyo tiempo otro amante,</l>
                   <l>que por esta niña andaba,</l>
-                  <l>que era D. Martin de <name>Soria</name>,</l>
+                  <l>que era D. Martin de Soria,</l>
                   <l>caballero de importancia,</l>
                   <l>se anticipó, y á su Padre</l>
                   <l>se la pidió con mil ansias,</l>
@@ -313,11 +310,11 @@
                   <l>Has de saber hija mia,</l>
                   <l>como te tengo tratada</l>
                   <l>de casar con D. Martin</l>
-                  <l>de <name>Soria</name>, y le tengo dada</l>
+                  <l>de Soria, y le tengo dada</l>
                   <l>la palabra con testigos,</l>
                   <l>y en ello no ha de haber falta,</l>
                   <l>mira lo que me respondes,</l>
-                  <l>si es cosa, que á ti le agrada.</l>
+                  <l>si es cosa, que á ti te agrada.</l>
                   <l>Respondió Doña María</l>
                   <l>resuelta, y determinada</l>
                   <l>diciéndole: Señor Padre,</l>
@@ -336,7 +333,7 @@
                   <l>la resulta de esta causa</l>
                   <l>despida usted á D. Martin,</l>
                   <l>antes hoy, que no mañana,</l>
-                  <l>que con él no be de casarme,</l>
+                  <l>que con él no he de casarme,</l>
                   <l>aunque pedazos me hagan.</l>
                   <l>El padre lleno de enojo,</l>
                   <l>encendido en ira y rabia</l>
@@ -351,9 +348,9 @@
                   <fw type="paginaNum">4</fw>
 
                   <l>Por eso que yo soy rica,</l>
-                  <l>y le supliré la falla.</l>
-                  <l>Viendo D. Juan; que su hija</l>
-                  <l>con razones noise ablanda,</l>
+                  <l>y le supliré la falta.</l>
+                  <l>Viendo D. Juan, que su hija</l>
+                  <l>con razones no se ablanda,</l>
                   <l>la encerró en un cuarto sola</l>
                   <l>sin quererle dar ni aun agua.</l>
                   <l>Túvola allí un dia entero,</l>
@@ -375,7 +372,7 @@
                   <l>que muera de pesadumbre</l>
                   <l>solamente por tu causa.</l>
                   <l>Respondió Doña Maria:</l>
-                  <l>porfías son esclusadas;</l>
+                  <l>porfías son escusadas;</l>
                   <l>Señor, esa pesadumbre</l>
                   <l>usted es quien quiere buscarla,</l>
                   <l>porque yo no se la doy,</l>
@@ -394,7 +391,7 @@
                   <l>y él dijo: Traidora, anda,</l>
                   <l>que te juro por quien soy,</l>
                   <l>de hacer una accion tan rara,</l>
-                  <l>que ni D. Martin le lleve,</l>
+                  <l>que ni D. Martin te lleve,</l>
                   <l>ni Peñaloza te valga.</l>
                   <l>Asi estuvo aquella noche,</l>
                   <l>discurriendo modo y traza</l>
@@ -417,7 +414,7 @@
                   <l>Por fin, se metió en los montes</l>
                   <l>por los cerros y cañadas,</l>
                   <l>hasta que en el mas oculto</l>
-                  <l>sitio, queso le antojaba,</l>
+                  <l>sitio, que se le antojaba,</l>
                   <l>que aun apenas se podia</l>
                   <l>hacer existencia clara</l>
                   <l>si era noche, o era dia,</l>
@@ -430,12 +427,12 @@
 
                   <fw type="paginaNum">5</fw>
 
-                  <l>So desmontó del caballo,</l>
+                  <l>Se desmontó del caballo,</l>
                   <l>y en un árbol amarrada</l>
-                  <l>le dejó muy afligida;</l>
+                  <l>le dejó muy afligida,</l>
                   <l>y de allí se retiraba.</l>
                   <l>Sentóse sobre una peña,</l>
-                  <l>para que rato pasara!</l>
+                  <l>para que rato pasara,</l>
                   <l>y volver á requerirla</l>
                   <l>por ver que razon le daba;</l>
                   <l>pero dormido al instante</l>
@@ -465,9 +462,9 @@
                   <l>Pues miren como estaria</l>
                   <l>aquella hermosa diana</l>
                   <l>amarrada en aquel árbol</l>
-                  <l>de noche entre aquellas malas,</l>
+                  <l>de noche entre aquellas matas,</l>
                   <l>que para perder las vidas</l>
-                  <l>poco á los dos les fallaba.</l>
+                  <l>poco á los dos les faltaba.</l>
                   <l>En donde los dejaremos</l>
                   <l>entre congojas, y ánsias,</l>
                   <l>que en otra segunda parte,</l>
@@ -544,9 +541,9 @@
                   <l>que se ha oido, ni se ha visto</l>
                   <l>en cuanto el orbe corona.</l>
                   <l>Y fué el caso sucedido,</l>
-                  <l>que ayer D. Martin de <name>Soria</name>,</l>
+                  <l>que ayer D. Martin de Soria,</l>
                   <l>á mi marido pidióle</l>
-                  <l>ámi hija por su esposa,</l>
+                  <l>á mi hija por su esposa,</l>
                   <l>y sin saber su dictámen,</l>
                   <l>se la ofreció, y ella airosa,</l>
                   <l>por reservar vuestro amor,</l>
@@ -563,8 +560,8 @@
                   <l>fieras del monte aulladoras</l>
                   <l>le habrán quitado la vida</l>
                   <l>V. merced la socorra,</l>
-                  <l>y do su parte procure</l>
-                  <l>buscarla, pues que le loca.</l>
+                  <l>y de su parte procure</l>
+                  <l>buscarla, pues que le toca.</l>
 
                   <pb n="7" source="Moreno_172_7.jpg"
                      facs="fedora_ug8109817/full/full/0/default.jpg"/>
@@ -575,7 +572,10 @@
                   <l>porque las lelras se borran</l>
                   <l>con el agua de mis ojos,</l>
                   <l>por estar tan pesarosa.</l>
-                  <l>Con esto cerró ol papel,</l>
+                  <l>Con esto cerró <choice>
+                        <sic>ol</sic>
+                        <corr>el</corr>
+                     </choice> papel,</l>
                   <l>y á D. Diego se lo porta,</l>
                   <l>el cual habiendo leido</l>
                   <l>lo que las letras mencionan,</l>
@@ -635,7 +635,7 @@
                   <l>del Pilar de Zaragoza,</l>
                   <l>pues sois Madre de afligidos,</l>
                   <l>de tristes consoladora,</l>
-                  <l>amparadme, madre nña,</l>
+                  <l>amparadme, madre mia,</l>
                   <l>en esta última hora,</l>
                   <l>y alcanza de vuestro Hijo</l>
                   <l>para mi alma la gloria.</l>
@@ -657,7 +657,7 @@
                   <l>le dice, blanca paloma,</l>
                   <l>tén animo, dueño mio,</l>
                   <l>que mi fortuna dichosa</l>
-                  <l>á tus plantas me lia traido</l>
+                  <l>á tus plantas me ha traido</l>
                   <l>para aliviar tus congojas,</l>
                   <l>entonces volvió los ojos,</l>
                   <l>y dijo muy animosa:</l>
@@ -667,7 +667,7 @@
                   <l>mi bien, mi vida y mi gloria,</l>
                   <l>que estoy sintiendo tus males</l>
                   <l>y soy el que mas te adora:</l>
-                  <l>v cortándole las cuerdas,</l>
+                  <l>y cortándole las cuerdas,</l>
                   <l>que oprimian su persona,</l>
                   <l>la fué sacando en sus brazos</l>
                   <l>de aquella espesura tosca,</l>
@@ -675,22 +675,22 @@
                   <l>donde su caballo toma,</l>
                   <l>y con su prenda querida</l>
                   <l>entró alegre en Zaragoza;</l>
-                  <l>y á la casa do sus Padres</l>
+                  <l>y á la casa de sus Padres</l>
                   <l>la llevó con mucha honra,</l>
                   <l>á tiempo que ya venían</l>
-                  <l>D. Juan de <name>Laca</name>, y su tropa,</l>
+                  <l>D. Juan de Lara, y su tropa,</l>
                   <l>y á D. Martin traían muerto,</l>
                   <l>que en el monte se lo topan,</l>
                   <l>sin saber quien lo mató,</l>
                   <l>ni de ello hubiese memoria;</l>
                   <l>y á D. Diego le abrazaron</l>
                   <l>con gran bizarria y pompa,</l>
-                  <l>y de lodos á una voz</l>
+                  <l>y de todos á una voz</l>
                   <l>víctores y aplausos logra,</l>
                   <l>y al cabo de pocos dias</l>
                   <l>se celebraron las bodas,</l>
                   <l>donde viven muy gustosos</l>
-                  <l>D. Diego y su prenda hermosa</l>
+                  <l>D. Diego y su prenda hermosa.</l>
                   <trailer>FIN.</trailer>
                </div>
             </div>

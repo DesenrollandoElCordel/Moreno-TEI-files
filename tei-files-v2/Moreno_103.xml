@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -28,8 +44,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -37,9 +52,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6461479</idno>
@@ -71,9 +84,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_103_1.xml"
-                              facs="fedora_ug8105688/262,128,1295,786/100,/0/default.jpg"
-                              >grabado_m_103_1</item>
+                            <item corresp="grabado_m_103_1.xml" facs="fedora_ug8105688/262,128,1295,786/100,/0/default.jpg">grabado_m_103_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -176,7 +187,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -240,12 +251,12 @@
                <l>hija de muy nobles padres,</l>
                <l>y llevándome á la iglesia</l>
                <l>en el Sagrado Bautismo</l>
-               <l>me pusieron Espinela,</l>
+               <l>me pusieron Espinela.</l>
                <l>Mas discurro que acertaron</l>
                <l>en el nombre, pues tal era,</l>
                <l>que ninguna ama podia</l>
                <l>sufrir mi mala paciencia;</l>
-               <l>siendo, pues , en mis principios</l>
+               <l>siendo, pues, en mis principios</l>
                <l>tan altiva y tan soberbia,</l>
                <l>que ninguno me la hacia</l>
                <l>que con ella se me fuera.</l>
@@ -294,7 +305,7 @@
                <l>bajé veloz á la puerta.</l>
                <l>Víle que estaba en la calle</l>
                <l>hablando por una reja </l>
-               <l>con cierta dama , y llegando</l>
+               <l>con cierta dama, y llegando</l>
                <l>le dije de esta manera:</l>
                <l>Infame , traidor, sin ley, </l>
                <l>cómo atrevido desprecias</l>
@@ -308,7 +319,7 @@
                <l>Y el mozo puesto en defensa, </l>
                <l>se defendia bizarro,</l>
                <l>mas de poco le aprovecha, </l>
-               <l>que con cuatro, ó cinco herid:</l>
+               <l>que con cuatro, ó cinco herida[s]:</l>
                <l>cayó difunto en la tierra.</l>
                <l>Alborotóse la dama</l>
                <l>al ver su esperanza muerta,</l>
@@ -317,7 +328,11 @@
                <l>Vino al punto la justicia;</l>
                <l>mas yo como una centella</l>
                <l>me escapé, bien prevenida,</l>
-               <l>dara la ciudad de <name>Huesca</name>.</l>
+               <l>
+                  <choice>
+                     <sic>dara</sic>
+                     <corr>para</corr>
+                  </choice> la ciudad de <name>Huesca</name>.</l>
                <l>Este fué el primer motivo</l>
                <l>para salir de mi tierra,</l>
                <l>para olvidar á mi patria,</l>
@@ -327,7 +342,7 @@
                <l>donde estuve algunos dias</l>
                <l>logrando la primavera.</l>
                <l>Dejé mi nombre y me puse</l>
-               <l>Raimundo , por Espinela,</l>
+               <l>Raimundo, por Espinela,</l>
                <l>siendo, pues, por mi valor</l>
                <l>respetada donde quiera.</l>
                <l>Senté plaza de soldado,</l>
@@ -357,10 +372,10 @@
                <l>y los demas se escaparon, </l>
                <l>que si no lo mismo fuera.</l>
                <l>Entré en <name>Málaga</name>, y un dia</l>
-               <l>estando en la <name>calle Nueva</name></l>
+               <l>estando en la calle Nueva</l>
                <l>con un mercader, llegó</l>
-               <l>(que el diablo todo lo enreda </l>
-               <l>un ministro , y me pregunta,</l>
+               <l>(que el diablo todo lo enreda) </l>
+               <l>un ministro, y me pregunta,</l>
                <l>que de qué paraje era ?</l>
                <l>Díjele, qué le importaba ? </l>
                <l>y sobre esta dependencia, </l>
@@ -414,9 +429,9 @@
                <l>y con una industria rara</l>
                <l>le quitamos en moneda</l>
                <l>hasta cuatro mil ducados,</l>
-               <l>que no fué muy mala presa, </l>
+               <l>que no fué muy mala presa. </l>
                <l>Campamos algunos dias</l>
-               <l>haciendo mil francachelas :</l>
+               <l>haciendo mil francachelas:</l>
                <l>que aquello que cuesta poco, </l>
                <l>se gasta como sin rienda.</l>
                <l>Llegamos á <name>Montejucar</name>, </l>
@@ -474,7 +489,7 @@
                <l>revolcándose en la arena. </l>
                <l>Cogimos todo el tesoro,</l>
                <l>y corriendo á toda priesa</l>
-               <l>entramos en <name>Riogerdo</name>,</l>
+               <l>entramos en <name>Riogordo</name>,</l>
                <l>y la justicia que llega,</l>
                <l>donde sin poder valernos,</l>
                <l>nos aprisionan, y cercan</l>

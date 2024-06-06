@@ -13,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -32,8 +48,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1853-01-01">1853</date>
                </publicationStmt>
             </biblFull>
@@ -41,9 +56,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6470711</idno>
@@ -75,12 +88,8 @@
                      <summary n="2">Dos grabados (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_133_1.xml"
-                              facs="fedora_ug8109865/819,314,450,765/100,/0/default.jpg"
-                              >grabado_m_133_1</item>
-                           <item corresp="grabado_m_133_2.xml"
-                              facs="fedora_ug8109865/369,349,450,731/100,/0/default.jpg"
-                              >grabado_m_133_2</item>
+                            <item corresp="grabado_m_133_1.xml" facs="fedora_ug8109865/819,314,450,765/100,/0/default.jpg">grabado_m_133_1</item>
+                            <item corresp="grabado_m_133_2.xml" facs="fedora_ug8109865/369,349,450,731/100,/0/default.jpg">grabado_m_133_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -142,7 +151,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -219,7 +228,7 @@
                <l>que al mismo tiempo que bella,</l>
                <l>es esquiva y mas cruel</l>
                <l>que puede serlo una fiera.</l>
-               <l>cuando á ella me dirijo,</l>
+               <l>Cuando á ella me dirijo,</l>
                <l>le digo de esta manera:</l>
                <l>El amor que te he tenido,</l>
                <l>tengo tendré aunque fallezca,</l>
@@ -242,7 +251,7 @@
                <l rend="indent"><hi rend="cursiva">á ese arrogante Castillo.</hi></l>
                <l rend="indent"><hi rend="cursiva">Muere, perro y la bandera</hi></l>
                <l rend="indent"><hi rend="cursiva">de ese tu falso Alcorán.</hi></l>
-               <l>Vive mi furia, que mueras.</l>
+               <l rend="indent"><hi rend="cursiva">Vive mi furia, que mueras....</hi></l>
                <l>Pero qué es lo que yo digo?</l>
                <l>Si, ingrata, si, ingrata bella,</l>
                <l>que es tal la guerra de amor,</l>
@@ -250,13 +259,13 @@
                <l>y mina, y á tus ardores</l>
                <l>se emprendió con tanta fuerza,</l>
                <l>que delirando el sentido....</l>
-               <l>Pelota va, saco pieza.</l>
-               <l>Señala ruya, dió en malo,</l>
-               <l>se perdió por la violencia</l>
-               <l>del contrario. Juego, juego;</l>
-               <l>miren que dió en ropa esa.</l>
+               <l><hi rend="cursiva">Pelota va, saco pieza.</hi></l>
+               <l rend="indent"><hi rend="cursiva">Señala raya, dió en malo,</hi></l>
+               <l rend="indent"><hi rend="cursiva">se perdió por la violencia</hi></l>
+               <l rend="indent"><hi rend="cursiva">del contrario. Juego, juego;</hi></l>
+               <l rend="indent"><hi rend="cursiva">miren que dió en ropa esa.</hi></l>
                <l>Señora, pelota soy</l>
-               <l>con que juega tu inclemencia</l>
+               <l>con que juega tu inclemencia,</l>
                <l>pues no hallo en mi dolor</l>
                <l>ninguna correspondencia</l>
                <l>que mi fino amor alivie,</l>
@@ -267,7 +276,7 @@
                <l>que este juego simil sea</l>
                <l>de tus acciones esquivas....</l>
                <l><hi rend="cursiva">Saca la espada, rebés,</hi></l>
-               <l rend="indent"><hi rend="cursiva">tajo, palo, echa fuera.</hi></l>
+               <l rend="indent"><hi rend="cursiva">tajo, palo, echa fuera,</hi></l>
                <l rend="indent"><hi rend="cursiva">ángulo recto, y obtuso.</hi></l>
                <l>Válgame Dios qué quimera!</l>
                <l>cuantas veces esgrimí</l>
@@ -281,12 +290,12 @@
                <l>tan mortalmente me heria!</l>
                <l>y cuántas tambien jugué....</l>
                <l><hi rend="cursiva">Por mís naipes esta es puesta,</hi></l>
-               <l rend="indent"><hi rend="cursiva">codillo, polla,tres mates,</hi></l>
+               <l rend="indent"><hi rend="cursiva">codillo, polla, tres mates,</hi></l>
                <l rend="indent"><hi rend="cursiva">llevaba, cinco primeras</hi></l>
                <l rend="indent"><hi rend="cursiva">pagará usted camarada.</hi></l>
                <l>O naipes! con qué violencia</l>
                <l>me trastornais la razon</l>
-               <l>y abusais de mi paciencia </l>
+               <l>y abusais de mi paciencia!</l>
                <l>mas tú para divertirte,</l>
                <l>aunque el juego puesto fuera,</l>
                <l>siempre me hacias codillo;</l>
@@ -305,7 +314,7 @@
                <l rend="indent"><hi rend="cursiva">un golpe con este boje.</hi></l>
                <l rend="indent"><hi rend="cursiva">Vaya el borracho. Alcahueta,</hi></l>
                <l rend="indent"><hi rend="cursiva">bruja, por vida de quien</hi></l>
-               <l rend="indent"><hi rend="cursiva">que me ha cerrado la puerta,</hi></l>
+               <l rend="indent"><hi rend="cursiva">que me ha cerrado la puerta;</hi></l>
                <l rend="indent"><hi rend="cursiva">que si no es, voto á pistos...</hi>.</l>
                <l>Válgame Dios, qué tragedia</l>
                <l>A adobar zapatos viejos</l>
@@ -379,7 +388,7 @@
                <l>ó tu peregrina estrella,</l>
                <l>que es el norte que me rige,</l>
                <l>preciso ha de darme penas,</l>
-               <l>acasos, y contusiones,</l>
+               <l>acasos, y confusiones,</l>
                <l>y cual Pabo dando vueltas....</l>
                <l><hi rend="cursiva">Paz, paz, cras, cras.</hi></l>
                <l rend="indent"><hi rend="cursiva">Cras, cras,paz, paz</hi></l>
@@ -400,11 +409,11 @@
                <l>batir mi fausto me enseñas,</l>
                <l>quedando Loro parlante....</l>
                <l><hi rend="cursiva">Lorito Real eres casado?</hi></l>
-               <l rend="indent"><hi rend="cursiva">ay qué regalol huevera,</hi></l>
+               <l rend="indent"><hi rend="cursiva">ay qué regalo! huevera,</hi></l>
                <l rend="indent"><hi rend="cursiva">borracho, borrachito: ay,</hi>
                </l>
                <l rend="indent"><hi rend="cursiva">ay Loro chocolatera</hi></l>
-               <l rend="indent"><hi rend="cursiva">para el Lorito Rea!?</hi></l>
+               <l rend="indent"><hi rend="cursiva">para el Lorito Real?</hi></l>
                <l>Ya miro que mis suspiros,</l>
                <l>parlando siempre á tu oreja, </l>
                <l>diciendo lo que no sé,</l>
@@ -438,7 +447,7 @@
                <l rend="indent"><hi rend="cursiva">la nariz toda perfecta,</hi></l>
                <l rend="indent"><hi rend="cursiva">sonrojadas las mejillas,</hi></l>
                <l rend="indent"><hi rend="cursiva">hechas ricas primaveras,</hi></l>
-               <l rend="indent"><hi rend="cursiva">pelo hermoso con sus rizes,</hi></l>
+               <l rend="indent"><hi rend="cursiva">pelo hermoso con sus rizos,</hi></l>
                <l rend="indent"><hi rend="cursiva">vertiendo su boca perlas;</hi></l>
                <l rend="indent"><hi rend="cursiva">la barba tiene un hoyito</hi></l>
                <l rend="indent"><hi rend="cursiva">donde los hombres se encierran,</hi></l>
@@ -458,10 +467,10 @@
                <l rend="indent"><hi rend="cursiva">Romance en que se declara los</hi></l>
                <l rend="indent"><hi rend="cursiva">estragos horrorosos que ha cau-</hi></l>
                <l rend="indent"><hi rend="cursiva">sado una tormenta en el Reino</hi></l>
-               <l rend="indent"><hi rend="cursiva">de Murcia. No hay quien mande</hi></l>
+               <l rend="indent"><hi rend="cursiva">de Murciía. No hay quien mande</hi></l>
                <l rend="indent"><hi rend="cursiva">rezar á este pobre ciego las veinte</hi></l>
                <l rend="indent"><hi rend="cursiva">y cinco agonias!</hi></l>
-               <l>Bien sabesqque ciego vivo,</l>
+               <l>Bien sabes qque ciego vivo,</l>
                <l>y que es clara consecuencia</l>
                <l>cegar quien vió tanta luz;</l>
                <l>pues que miré la influencia</l>
@@ -477,7 +486,7 @@
                <l>y al rigor de tu inclemencia</l>
                <l>daré la vida por tí</l>
                <l>por ser la mayor fineza.</l>
-               <l>Mira cual anda tu Amante</l>
+               <l>Mira cual anda tu Amante,</l>
                <l>mira que varias ideas</l>
                <l>hace el amor siendo fino</l>
                <l>cuando á su objeto venera.</l>

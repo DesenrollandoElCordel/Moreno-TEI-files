@@ -4,8 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Curioso romance en que se declara la historia de los quince novios y once amores
-               nuevos que tuvo una Señora de Andalucía</title>
+            <title>Curioso romance en que se declara la historia de los quince novios y once amores nuevos que tuvo una Señora de Andalucía</title>
             <respStmt>
                <name xml:id="MB">Miguel Betti</name>
                <resp>Codificación TEI</resp>
@@ -14,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -35,8 +50,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1855-01-01">1855</date>
                </publicationStmt>
             </biblFull>
@@ -44,9 +58,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6473218</idno>
@@ -78,9 +90,7 @@
                      <summary n="1">Un grabado (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_182_1.xml"
-                              facs="fedora_ug8109674/670,222,564,915/100,/0/default.jpg"
-                              >grabado_m_182_1</item>
+                            <item corresp="grabado_m_182_1.xml" facs="fedora_ug8109674/670,222,564,915/100,/0/default.jpg">grabado_m_182_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -99,12 +109,6 @@
                      <geo>37.4718153 -4.4335616</geo>
                   </location>
                </place>
-               <place n="1" corresp="Q1446328">
-                  <placeName key="La_Parra">La Parra</placeName>
-                  <location>
-                     <geo>38.5212182 -6.6229261</geo>
-                  </location>
-               </place>
                <place n="1" corresp="Q5836">
                   <placeName key="Toledo">Toledo</placeName>
                   <location>
@@ -115,6 +119,12 @@
                   <placeName key="Teba">Teba</placeName>
                   <location>
                      <geo>36.9832531 -4.9184036</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q1448444">
+                  <placeName key="Espera">Espera</placeName>
+                  <location>
+                     <geo>36.872213 -5.804288</geo>
                   </location>
                </place>
             </listPlace>
@@ -129,7 +139,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -179,7 +189,7 @@
 
                <head type="primer_titulo"><hi rend="negrita">CURIOSO ROMANCE,</hi>
                   <lb/>en que se declara la historia de los quince no- <lb/>vios y once amores
-                  nuevos que tuvo una <lb/>Señora de Andalucía.</head>
+                  nuevos que tuvo una <lb/>Señora de <name>Andalucía</name>.</head>
 
                <l rend="indent">Puesto que me preguntais</l>
                <l>la causa de mis tristezas</l>
@@ -231,7 +241,7 @@
                <l>pretendi tomar estado</l>
                <l>como lo manda la iglesia,</l>
                <l>y por ser los pretendientes</l>
-               <l>tantos, que ár nadie le pesa</l>
+               <l>tantos, que á nadie le pesa</l>
                <l>el ser querida de muchos,</l>
                <l>eché la línea á mi idea</l>
                <l>para buscar entre tantos</l>
@@ -363,7 +373,7 @@
                <l>me armaba un baile de cuenta,</l>
                <l>mas quiso Dios que á este tiempo</l>
                <l>mi esposo malo cayera:</l>
-               <l>viéndose malo en la cama:</l>
+               <l>viéndose malo en la cama</l>
                <l>mandó llamar un Albeitar, </l>
                <l>el cual vino á visitarlo,</l>
                <l>y luego al punto receta</l>
@@ -378,8 +388,8 @@
                <l>hizo la Cruz y empezó</l>
                <l>diciendo de esta manera:</l>
                <l>Digo yo Pedro Corrucho,</l>
-               <l>de <name>Parra</name>, Gil y Contreras, </l>
-               <l>hijo natural de <name>Cabra</name>, </l>
+               <l>de Parra, Gil y Contreras, </l>
+               <l>hijo natural de <name>Cabra</name>,</l>
                <l>descendiente de Guinea,</l>
                <l>nieto de Pedro Camacho, </l>
                <l>y Laura Sanchez mi abuela:</l>
@@ -413,7 +423,7 @@
                <pb n="4" source="Moreno_182_4.jpg" facs="fedora_ug8104338/full/full/0/default.jpg"/>
 
                <l>á un sobrinito que, tengo</l>
-               <l>que está viviendo en Espera,</l>
+               <l>que está viviendo en <name>Espera</name>,</l>
                <l>que quiere tanto á su padre</l>
                <l>como á un gran dolor de muelas.</l>
                <l>De deudas dejo, mil pesos,</l>

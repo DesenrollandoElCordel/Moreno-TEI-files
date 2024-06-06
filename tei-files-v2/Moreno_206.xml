@@ -13,23 +13,40 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Antonio Montero, y Diego de Frias. Romance, en que
-                     se refiere un raro suceso, Y notable tragedia, que en la Ciudad de Antequera
-                     les sucedió á dos Mancebos muy amigos, el uno llamado Diego de Frias, y él otro
-                     Antonio Montero, el cual era casado con una muy hermosa Dama; y como Diego de
-                     Frias, habiendose enamorado de ella, la sacó de su casa, y la llevó á la Ciudad
-                     de Sevilla; y como despues Antonio Montero los mató á entrambos.</title>
+                     se refiere un raro suceso, Y notable tragedia, que en la Ciudad de
+                        <name>Antequera</name> les sucedió á dos Mancebos muy amigos, el uno llamado
+                     Diego de Frias, y él otro Antonio Montero, el cual era casado con una muy
+                     hermosa Dama; y como Diego de Frias, habiendose enamorado de ella, la sacó de
+                     su casa, y la llevó á la Ciudad de Sevilla; y como despues Antonio Montero los
+                     mató á entrambos.</title>
                   <title type="titulo_breve">Antonio Montero, y Diego de Frias.</title>
                </titleStmt>
                <editionStmt>
@@ -37,8 +54,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1859-01-01">1859</date>
                </publicationStmt>
             </biblFull>
@@ -46,9 +62,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6475572</idno>
@@ -80,12 +94,8 @@
                      <summary n="2">Dos grabados (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_206_1.xml"
-                              facs="fedora_ug8110212/396,330,652,743/100,/0/default.jpg"
-                              >grabado_m_206_1</item>
-                           <item corresp="grabado_m_206_2.xml"
-                              facs="fedora_ug8110212/1047,370,470,683/100,/0/default.jpg"
-                              >grabado_m_206_2</item>
+                            <item corresp="grabado_m_206_1.xml" facs="fedora_ug8110212/396,330,652,743/100,/0/default.jpg">grabado_m_206_1</item>
+                            <item corresp="grabado_m_206_2.xml" facs="fedora_ug8110212/1047,370,470,683/100,/0/default.jpg">grabado_m_206_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -96,12 +106,6 @@
                   <placeName key="San_Salvador">San Salvador</placeName>
                   <location>
                      <geo>41.620833333333 -5.0880555555556</geo>
-                  </location>
-               </place>
-               <place n="7" corresp="Q1657230">
-                  <placeName key="Frías">Frías</placeName>
-                  <location>
-                     <geo>42.761388888889 -3.2941666666667</geo>
                   </location>
                </place>
                <place n="4" corresp="Q572041">
@@ -127,10 +131,6 @@
                   <location>
                      <geo>36.716666666667 -4.4166666666667</geo>
                   </location>
-               </place>
-               <place n="1">
-                  <placeName key="Venta">Venta</placeName>
-                  <desc>Ambiguos</desc>
                </place>
             </listPlace>
          </sourceDesc>
@@ -194,8 +194,8 @@
 
                <head type="primer_titulo">ANTONIO MONTERO, Y DIEGO DE FRIAS.</head>
                <head rend="cursiva" type="subtitulo">ROMANCE, EN QUE SE REFIERE UN RARO SUCESO, Y
-                  <lb/>notable tragedia, que en la Ciudad de Antequera les sucedió á dos Man-
-                  <lb/>cebos muy amigos, el uno llamado Diego de Frias, y él otro Antonio
+                  <lb/>notable tragedia, que en la Ciudad de <name>Antequera</name> les sucedió á
+                  dos Man- <lb/>cebos muy amigos, el uno llamado Diego de Frias, y él otro Antonio
                   <lb/>Montero, el cual era casado con una muy hermosa Dama; y como Die- <lb/>go de
                   Frias, habiendose enamorado de ella, la sacó de su casa, <lb/>y la llevó á la
                   Ciudad de Sevilla; y como despues <lb/>Antonio Montero los mató á
@@ -207,33 +207,33 @@
                <l>el mas notable suceso,</l>
                <l>que en la Ciudad de <name>Antequera</name></l>
                <l>les sucedió á dos Mancebos,</l>
-               <l>el uno es Diego de <name>Frias</name>,</l>
+               <l>el uno es Diego de Frias,</l>
                <l>y el otro Antonio Montero.</l>
                <l>Eran ambos muy amigos,</l>
                <l>y de muy cercanos deudos:</l>
-               <l>era Montero cas ido</l>
+               <l>era Montero casado</l>
                <l>con Doña Juana de Cueto, </l>
                <l>blanca y rubia es como un Sol,</l>
                <l>y de lindo entendimiento,</l>
-               <l>discreta, entendida, y sábia;</l>
+               <l>díscreta, entendida, y sábia;</l>
                <l>mas aquel Dragon sobervio</l>
                <l>siempre tiró á derribarla,</l>
                <l>armando trazas, y enrredos.</l>
                <l>Hizo que se enámorase</l>
                <l>Diego de Frías, teniendo</l>
-               <l>tantarcabida en su casa:</l>
-               <l>de amores andaha muerto;</l>
-               <l>hasta que la dijo un diá:</l>
+               <l>tanta cabida en su casa:</l>
+               <l>de amores andaba muerto;</l>
+               <l>hasta que la dijo un dia:</l>
                <l>Si tú pagáras mi afecto,</l>
                <l>fueras dueña de mis bienes,</l>
-               <l>pues que tanta hacienda tengo:</l>
+               <l>pues que tanta hacienda tengo.</l>
                <l>La Dama le respondió:</l>
                <l>Mira, que Antonio Montero</l>
                <l>es tu amigo, y si lo sabe,</l>
-               <l>mala fortuna téndrémos,</l>
+               <l>mala fortuna tendrémos,</l>
                <l>mas al fin yo daré traza</l>
-               <l>que nuestro amor disfrutemos:</l>
-               <l>Ingrata muger, y fragil;</l>
+               <l>que nuestro amor disfrutemos.</l>
+               <l>Ingrata muger, y fragil,</l>
                <l>que quebrantando el precepto</l>
 
                <pb n="2" source="Moreno_206_2.jpg" facs="fedora_ug8108789/full/full/0/default.jpg"/>
@@ -267,7 +267,7 @@
                <l>por boca y ojos echaba</l>
                <l>volcanes de vivo incendio,</l>
                <l>Yá se retuerce las manos,</l>
-               <l>echando mil juranentos</l>
+               <l>echando mil juramentos</l>
                <l>de no cortarse la barba,</l>
                <l>ni vestir camisa al cuerpo,</l>
                <l>hasta que matase aquel, </l>
@@ -295,7 +295,7 @@
                <l>una capa mal formada,</l>
                <l>un bordoncillo; y pidiendo</l>
                <l>limosna se fue á <name>Sevilla</name>,</l>
-               <l>y á ella llego bien presto.</l>
+               <l>y á ella llego bíen presto.</l>
                <l>Donde estando con cuidado</l>
                <l>las diligencias haciendo</l>
                <l>un dia en <name>San Salvador</name></l>
@@ -308,7 +308,7 @@
                <l>y retirandose luego,</l>
                <l>le escrivió una carta falsa</l>
                <l>con mas de dos mil enredos</l>
-               <l>de Don Francisco de <name>Frias</name>,</l>
+               <l>de Don Francisco de Frias,</l>
                <l>tio de aqueste mancebo.</l>
                <l>En punto de la Oracion</l>
                <l>llegó á la casa Montero,</l>
@@ -329,14 +329,14 @@
 
                <pb n="3" source="Moreno_206_3.jpg" facs="fedora_ug8108900/full/full/0/default.jpg"/>
 
-               <l>se la dió, Diego de <name>Frias</name></l>
-               <l>el sobreese ito leyendo</l>
+               <l>se la dió, Diego de Frias</l>
+               <l>el sobreesc<supplied>r</supplied>ito leyendo</l>
                <l>rompe la nema, y prosigue,</l>
                <l>estas palabras disiendo:</l>
                <l>Sobrino del alma mia,</l>
                <l>mil años te guarde el Cielo,</l>
                <l>y te libre de enemigos,</l>
-               <l>que contrá tí están opuestos.</l>
+               <l>que contra tí están opuestos.</l>
                <l>Yo tu tio Don Francisco</l>
                <l>te embio á decir aquesto,</l>
                <l>que en <name>Antequera</name> se sabe</l>
@@ -379,13 +379,13 @@
                <l>ó malogrado Mancebo!</l>
                <l>que no sabes la desgracia,</l>
                <l>que vá en tu acompañamiento!</l>
-               <l>Mas en llegando á la <name>Venta</name>,</l>
-               <l>yá que el Alva iba rompiéndo,</l>
+               <l>Mas en llegando á la Venta,</l>
+               <l>yá que el Alva iba rompíendo,</l>
                <l>dijo el Galan á la Dama:</l>
                <l>Aqui un rato soseguemos.</l>
                <l>Dice Montero, eso no;</l>
                <l>pues vamos con tal secreto,</l>
-               <l>quiere usted parar en <name>Venta</name>?</l>
+               <l>quiere usted parar en Venta?</l>
                <l>mas adelante pasemos,</l>
                <l>Toman una oculta senda</l>
                <l>por unos montes espesos</l>
@@ -399,7 +399,7 @@
                <l>los dos muy amantes tiernos,</l>
                <l>diciendose mil cariños,</l>
                <l>veneno para Montero.</l>
-               <l>Dice el Galan á la hama:</l>
+               <l>Dice el Galan á la Dama:</l>
                <l>Dulce regalado espejo,</l>
                <l>almorsemos, que yá es hora.</l>
                <l>Entonces sacó Montero</l>
@@ -411,7 +411,7 @@
                <l>Yo soy Antonio Montero.</l>
                <l>La muger que aquesto oyó,</l>
                <l>cayó redonda en el suelo.</l>
-               <l>Diego de <name>Frias</name> turbóse,</l>
+               <l>Diego de Frias turbóse,</l>
                <l>quiso hablar, mas el aliento</l>
                <l>le faltó, pues le dispara</l>
                <l>una pistola á este tiempo;</l>
@@ -435,18 +435,18 @@
                <l>Se fue á la muger, que estaba</l>
                <l>casi difunta en el suelo,</l>
                <l>de los cabellos la agarra,</l>
-               <l>dos milinjurias haciendo,</l>
+               <l>dos mil injurias haciendo,</l>
                <l>la dice: Falsa, enemiga,</l>
                <l>qué es lo que á mí honor has hecho?</l>
                <l>Mi credito le has perdido,</l>
                <l>pues de esta suerte me veo,</l>
-               <l>trai dora, me pagarás</l>
+               <l>traidora, me pagarás</l>
                <l>con forme el merecimiento.</l>
                <l>La cabeza la cortó,</l>
                <l>cón ella el brazo derecho:</l>
                <l>en un baul que llevaban</l>
                <l>de las prendás, y el dinero,</l>
-               <l>metió aquestas tres alh jas,</l>
+               <l>metió aquestas tres alh<supplied>a</supplied>jas,</l>
                <l>y en un caballo ligero</l>
                <l>ácia <name>Antequera</name> camina,</l>
                <l>de este caso satisfecho.</l>
@@ -468,11 +468,11 @@
                <l>con muchisimo contento,</l>
                <l>á servir al Rey en la Guerra:</l>
                <l>haciendo notables hechos.</l>
-               <l>A otro dia, cuando el Alva.</l>
+               <l>A otro dia, cuando el Alva</l>
                <l>se levantó de su lecho,</l>
                <l>cuantos por la calle pasan</l>
                <l>quedan confusos, y yertos.</l>
-               <l>Díieron cuenta á la Justicía,</l>
+               <l>Díeron cuenta á la Justicía,</l>
                <l>los cuales vinieron presto;</l>
                <l>los Señores admirados</l>
                <l>despacharon por los cuerpos,</l>

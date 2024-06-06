@@ -4,17 +4,33 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>El hijo del berdugo</title>
+            <title>El hijo del verdugo</title>
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +46,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +54,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6470603</idno>
@@ -80,22 +93,20 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_122_1.xml"
-                              facs="fedora_ug8106312/158,323,1391,949/100,/0/default.jpg"
-                              >grabado_m_122_1</item>
+                            <item corresp="grabado_m_122_1.xml" facs="fedora_ug8106312/158,323,1391,949/100,/0/default.jpg">grabado_m_122_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
                </physDesc>
             </msDesc>
             <listPlace xml:base="https://www.wikidata.org/wiki/">
-               <place n="4" corresp="Q5818">
+               <place n="6" corresp="Q5818">
                   <placeName key="Córdoba">Córdoba</placeName>
                   <location>
                      <geo>37.883333333333 -4.7666666666667</geo>
                   </location>
                </place>
-               <place n="7" corresp="Q669037">
+               <place n="6" corresp="Q669037">
                   <placeName key="Indias_Occidentales">Indias Occidentales</placeName>
                   <location>
                      <geo>21.98333333 -79.03333333</geo>
@@ -149,7 +160,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -197,8 +208,8 @@
                <head rend="negrita" type="primer_titulo">EL HIJO DEL VERDUGO.</head>
                <head rend="cursiva" type="subtitulo">
                   <lb/>Nueva relacion, en la que se refieren los mas raros sucesos de este
-                  <lb/>mancebo, natural de la ciudad de Córdoba, el cual se pasó <lb/>á las Indias y
-                  logró grandes fortunas. </head>
+                  <lb/>mancebo, natural de la ciudad de <name>Córdoba</name>, el cual se pasó <lb/>á
+                  las <name>Indias</name> y logró grandes fortunas.</head>
 
                <div>
                   <head rend="negrita" type="titulo_parte">PRIMERA PARTE.</head>
@@ -208,8 +219,8 @@
                   <l>que á contar voy una historia</l>
                   <l>que ha sucedido en <name>España</name></l>
                   <l>sin fábula ni mentira,</l>
-                  <l>tuvo solo por ser hijo</l>
                   <l>de un hombre que su desgracia</l>
+                  <l>tuvo solo por ser hijo</l>
                   <l>de un padre de prendas bajas.</l>
                   <l>En <name>Córdoba</name> la famosa</l>
                   <l>nació este gallardo jóven:</l>
@@ -331,7 +342,7 @@
                   <l>este sagrado me valga,</l>
                   <l>sino, tu eres el cuchillo;</l>
                   <l>yo la carne delicada,</l>
-                  <l>corta, señor, á tu gusto</l>
+                  <l>corta, señor, á tu gusto,</l>
                   <l>tu rigor sobre mi caiga.</l>
                   <l>Al ruido la señora,</l>
                   <l>los criados y criadas</l>
@@ -426,7 +437,7 @@
                   <l>Don Fernando le responde:</l>
                   <l>no sé lo que usted me habla;</l>
                   <l>usted me tiene por otro,</l>
-                  <l>y es muy cierto que se engaña</l>
+                  <l>y es muy cierto que se engaña.</l>
                   <l>No me engaño, le responde,</l>
                   <l>ni te niegues que en <name>España</name></l>
                   <l>he conocido á tu padre</l>
@@ -441,8 +452,8 @@
                   <l>yo te daré si me tapas,</l>
                   <l>con que puedas adquirir</l>
                   <l>candal si tu te das trazas,</l>
-                  <l>y estaré siempre obligado</l>
-                  <l>vente conmigo á mi casa</l>
+                  <l>y estaré siempre obligado:</l>
+                  <l>vente conmigo á mi casa.</l>
                   <l>Lo regocijó y le dió</l>
                   <l>cien pesos en oro y plata:</l>
                   <l>fuese el mozuelo y gastólos</l>
@@ -458,7 +469,7 @@
                   <l>para darle la repuesta;</l>
                   <l>mas él huyendo se escapa.</l>
                   <l>Fué al caballero y le cuenta</l>
-                  <l>esta afrentosa desgracía</l>
+                  <l>esta afrentosa desgracia</l>
                   <l>del empleo de su hija,</l>
                   <l>como estaba desposada</l>
                   <l>con el hijo del verdugo</l>
@@ -507,8 +518,9 @@
                   <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
                   <head rend="cursiva" type="subtitulo_parte">
                      <lb/>En que se finaliza los varios sucesos y nunca esperada fortuna de este
-                     <lb/>mancebo natural de la ciudad de Córdoba, el cual mereció <lb/>alcanzar los
-                     mas altos empleos en los reinos de las <lb/>Indias occidentales. </head>
+                     <lb/>mancebo natural de la ciudad de <name>Córdoba</name>, el cual mereció
+                     <lb/>alcanzar los mas altos empleos en los reinos de las <lb/><name>Indias
+                        occidentales</name>. </head>
 
                   <l rend="indent">Supuesto noble auditorio,</l>
                   <l>que dije en la primera plana</l>
@@ -563,7 +575,7 @@
                   <l>si está en casa su escelencia,</l>
                   <l>que le permita lá entrada</l>
                   <l>que un criado suyo quiere,</l>
-                  <l>puesto á sus pies, dos palabras</l>
+                  <l>puesto á sus pies, dos palabras.</l>
                   <l>Entró un paje, se lo dijo,</l>
                   <l>y dió licencia que entrára.</l>
                   <l>Tan cortés como bizarro</l>
@@ -613,7 +625,10 @@
                   <l>Supe con todo secreto,</l>
                   <l>que mi suegro deseaba</l>
                   <l>matarme; mas no le culpo,</l>
-                  <l>que si en su lugar mo hallára,</l>
+                  <l>que si en su lugar <choice>
+                        <sic>mo</sic>
+                        <corr>me</corr>
+                     </choice> hallára,</l>
                   <l>hiciera, señor, lo mismo,</l>
                   <l>y satisfaccion tomára.</l>
                   <l>Esta es, señor, la verdad</l>
@@ -689,7 +704,7 @@
                   <l>Si, almirante, (el rey le dice,</l>
                   <l>soy gustoso en que se haga.</l>
                   <l>—Beso las reales manos,</l>
-                  <l>y estimo merced tan alta.</l>
+                  <l>y estimo merced tan alta.—</l>
                   <l>Pasa al Consejo de estado</l>
                   <l>y sin aprobacion saca</l>
                   <l>el hábito de Santiago.</l>
@@ -702,7 +717,7 @@
                   <l>con muy urbanas palabras</l>
                   <l>dándole agradecimientos</l>
                   <l>por lo mucho que le honraba.</l>
-                  <l>Váyase en paz dle responde</l>
+                  <l>Váyase en paz (le responde)</l>
                   <l>y mire antes que se vaya, </l>
                   <l>que le advierto que me escriba</l>
                   <l>sin que se dilate nada,</l>

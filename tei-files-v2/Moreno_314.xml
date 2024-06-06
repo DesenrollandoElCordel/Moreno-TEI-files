@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +46,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +54,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6483491</idno>
@@ -81,18 +94,10 @@
                      <summary n="4">Cuatro grabados (p.1, p.5)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_314_1.xml"
-                              facs="fedora_ug8108399/81,304,434,785/100,/0/default.jpg"
-                              >grabado_m_314_1</item>
-                           <item corresp="grabado_m_314_2.xml"
-                              facs="fedora_ug8108399/507,380,454,706/100,/0/default.jpg"
-                              >grabado_m_314_2</item>
-                           <item corresp="grabado_m_314_3.xml"
-                              facs="fedora_ug8108399/1125,303,402,788/100,/0/default.jpg"
-                              >grabado_m_314_3</item>
-                           <item corresp="grabado_m_314_4.xml"
-                              facs="fedora_ug8107617/183,106,1660,270/100,/0/default.jpg"
-                              >grabado_m_314_4</item>
+                            <item corresp="grabado_m_314_1.xml" facs="fedora_ug8108399/81,304,434,785/100,/0/default.jpg">grabado_m_314_1</item>
+                            <item corresp="grabado_m_314_2.xml" facs="fedora_ug8108399/507,380,454,706/100,/0/default.jpg">grabado_m_314_2</item>
+                            <item corresp="grabado_m_314_3.xml" facs="fedora_ug8108399/1125,303,402,788/100,/0/default.jpg">grabado_m_314_3</item>
+                            <item corresp="grabado_m_314_4.xml" facs="fedora_ug8107617/183,106,1660,270/100,/0/default.jpg">grabado_m_314_4</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -256,7 +261,8 @@
                <head type="primer_titulo">
                   <hi rend="negrita">CURIOSO ROMANCE,</hi>
                   <hi rend="cursiva"><lb/>de la vida, hechos y atrocidades, de Don <lb/>Agustin
-                     Florencio, natural de Jerez <lb/>de la Frontera.</hi>
+                     Florencio, natural de <name>Jerez</name>
+                     <lb/>de la Frontera.</hi>
                </head>
 
                <div n="1" type="parte">
@@ -278,7 +284,7 @@
                   <l>y tambien Jose Moreno</l>
                   <l>tendrán por bien de callar,</l>
                   <l>con todos sus compañeros,</l>
-                  <l>cuando al pronunciar mi nombre.</l>
+                  <l>cuando al pronunciar mi nombre</l>
                   <l>aun yo mismo no me atrevo.</l>
                   <l>Pero porque no dudeis</l>
                   <l>de aquesta alabanza el dueño,</l>
@@ -293,7 +299,7 @@
                   <l>y por no se qué cosillas</l>
                   <l>en la cárcel me metieron</l>
                   <l>pero aunque presos, el valor</l>
-                  <l>iba con la edadcreciendo:</l>
+                  <l>iba con la edad creciendo:</l>
 
                   <pb n="2" source="Moreno_314_2.jpeg"
                      facs="fedora_ug8110269/full/full/0/default.jpg"/>
@@ -372,7 +378,7 @@
                   <l>hínquese apriesa en el suelo</l>
                   <l>de rodillas muy humilde,</l>
                   <l>pidame perdon, diciendo:</l>
-                  <l>que soy elguapo del mundo,</l>
+                  <l>que soy el guapo del mundo,</l>
                   <l>que á muchos, causo miedo.</l>
                   <l>Entónces me pasé á <name>Cadiz</name>, </l>
                   <l>y en una taberna entro,</l>
@@ -425,7 +431,7 @@
                   <l>Desde allí me <choice>
                         <sic>fni</sic>
                         <corr>fui</corr>
-                     </choice> a Baena</l>
+                     </choice> a <name>Baena</name></l>
                   <l>con mucho tabaco y bueno,</l>
                   <l>y para venderlo apriesa</l>
                   <l>me fui á ver el estanquero,</l>
@@ -454,7 +460,7 @@
                   <l>luego el Alguacil Mayor</l>
                   <l>vino, y echo fuera el preso.</l>
                   <l>Besde allí me pasé à <name>Herrera</name>,</l>
-                  <l>donde ibau unos arrieros</l>
+                  <l>donde iban unos arrieros</l>
                   <l>con una recua de trigo</l>
                   <l>para en <name>Sevilla</name> venderlo,</l>
                   <l>y un Alcalde lo embargó,</l>
@@ -464,10 +470,10 @@
                   <l>y le dije: el muy vergante,</l>
                   <l>cómo tiene atrevimiento</l>
                   <l>para embargar bienes mios,</l>
-                  <l>y sacando unnarangero</l>
+                  <l>y sacando un narangero</l>
                   <l>con la muerte de este Alcalde</l>
                   <l>quité un estorvo de enmedio.</l>
-                  <l>Desde allí me volví á <name>Osúña</name>,</l>
+                  <l>Desde allí me volví á <name>Osuna</name>,</l>
                   <l>á donde del real Consejo</l>
                   <l>habia secreta órden</l>
                   <l>de prenderme vivo ó muerto,</l>
@@ -485,7 +491,7 @@
                   <l>pero el tiro fué bien hecho</l>
                   <l>pues un muslo me rompió</l>
                   <l>y á la prision me di luego.</l>
-                  <l>Me llevaron á lá cárcel,</l>
+                  <l>Me llevaron á la cárcel,</l>
                   <l>y me cargaron de hierros, </l>
                   <l>donde estuve cinco meses,</l>
                   <l>y enfadado de estar preso,</l>
@@ -540,7 +546,7 @@
                   <l>tres pares, y una cadena,</l>
                   <l>y á <name>Granada</name> me trájeron.</l>
                   <l>Se vió mi pleito en la Sala;</l>
-                  <l>y de allí salió deAcuerdo,;</l>
+                  <l>y de allí salió de cuerdo,;</l>
                   <l>se me lea la sentencia</l>
                   <l>de horca, y al mismo tiempo</l>
                   <l>que me corten la cabeza</l>
@@ -625,7 +631,7 @@
                   <l>la digresion de su pleito</l>
                   <l>que en la real sala se hizo</l>
                   <l>y el Relator fue diciendo:</l>
-                  <l>de <name><name>Jerez</name> de la Frontera</name></l>
+                  <l>de <name>Jerez de la Frontera</name></l>
                   <l>es natutal este reo,</l>
                   <l>señor, y por sus delitos</l>
                   <l>dió órden el real Consejo</l>
@@ -650,7 +656,7 @@
                   <fw type="paginaNum">6</fw>
 
                   <l>con lo cual no fue bastante</l>
-                  <l>á eximirse de este ciesgo,</l>
+                  <l>á eximirse de este riesgo,</l>
                   <l>se condujo á aquesta corte,</l>
                   <l>y su delito primero</l>
                   <l>es, que en <name>Jerez</name>, patria suya,</l>
@@ -669,7 +675,7 @@
                   <l>valiéndose de su aliento</l>
                   <l>porque la llevaban presa,</l>
                   <l>púsose delante, haciendo</l>
-                  <l>con arrogancia aLAlcalde,</l>
+                  <l>con arrogancia al Alcalde,</l>
                   <l>y á todos sus compañeros,</l>
                   <l>la dejasen de sus manos</l>
                   <l>por decir era su empeño;</l>
@@ -775,7 +781,7 @@
                   <l>entonces le acometieron</l>
                   <l>hiriéndole en una pierna</l>
                   <l>al fin lo sacaron preso</l>
-                  <l>De aquí al puerto lo llevaron,.</l>
+                  <l>De aquí al puerto lo llevaron,</l>
                   <l>y despues por real Acuerdo</l>
                   <l>de nuestro Monarca Invicto</l>
                   <l>la inmunidad atendiendo</l>
@@ -790,7 +796,7 @@
                   <l>y despues con un rejon</l>
                   <l>le acabó el vital aliento,</l>
                   <l>de la cárcel se salió</l>
-                  <l>y en <name>Luque</name> su- Mesonero!</l>
+                  <l>y en <name>Luque</name> su Mesonero!</l>
                   <l>le hospedó cierta mañana</l>
                   <l>y al cabo de poco trecho;</l>
                   <l>de un trabucazo murió:</l>
@@ -799,13 +805,13 @@
                   <l>que aquesta muerte es incierto</l>
                   <l>porque no la he cometido,</l>
                   <l>ni de obra, ni pensamiento</l>
-                  <l>que para rendir la vida, ¡59s9</l>
+                  <l>que para rendir la vida,</l>
                   <l>que por instantes espero,</l>
                   <l>no es justo se me hagá cargo, </l>
-                  <l>de delitos que no he heclio.</l>
+                  <l>de delitos que no he hecho.</l>
                   <l>No soy santo ni lo he sido</l>
                   <l>ni se han tocado en mi cuerpo</l>
-                  <l>camándulas ni rosarios,.</l>
+                  <l>camándulas ni rosarios,</l>
                   <l>que de esto jamás me precio;</l>
                   <l>mas de esa causa, señor,</l>
                   <l>está el informe mal hecho.</l>
@@ -816,24 +822,24 @@
                   <l>cercano á Doña Mencía</l>
                   <l>gozó por su cuenta, y riesgo</l>
                   <l>año y medio una doncella.</l>
-                  <l>Un Alcalde puso presos!</l>
+                  <l>Un Alcalde puso presos</l>
                   <l>de su lugar dos vecinos</l>
-                  <l>y precediendo los ruegos1</l>
+                  <l>y precediendo los ruegos</l>
                   <l>de sus mayores, pidió, </l>
-                  <l>que los soltase al momento,:</l>
+                  <l>que los soltase al momento.</l>
                   <l>Rehusó lo mejor que pudo;</l>
-                  <l>y viendo Agustin Florencio.</l>
-                  <l>las escusas, fue á la cárcel..</l>
-                  <l>y puso en salvo Mlos reos..</l>
-                  <l>Y en la plaza dijo á voces:1</l>
-                  <l>quien tuviere á mal lo hecho,;</l>
+                  <l>y viendo Agustin Florencio</l>
+                  <l>las escusas, fue á la cárcel,</l>
+                  <l>y puso en salvo à los reos.</l>
+                  <l>Y en la plaza dijo á voces:</l>
+                  <l>quien tuviere á mal lo hecho,</l>
                   <l>sabré quitarle la vida</l>
                   <l>que en todo acontecimiento</l>
                   <l>no hay mas Rey ni mas Justicia,</l>
-                  <l>que Don Agustin Elorencio...</l>
-                  <l>Tambien a un Arrendador.</l>
+                  <l>que Don Agustin Florencio.</l>
+                  <l>Tambien a un Arrendador</l>
                   <l>de tabaco, con apremio</l>
-                  <l>le hizo tomar una carga..</l>
+                  <l>le hizo tomar una carga,</l>
                   <l>y envió un papel, diciendo:</l>
                   <l>para la tarde me tenga</l>
                   <l>en oro ó plata el dinero;</l>
@@ -844,9 +850,9 @@
                   <l>Por vino envio á una casa</l>
                   <l>no lo quiso dar el dueño</l>
                   <l>por ocasion de deberle</l>
-                  <l>muchas porciones Florencio ;</l>
-                  <l>el cual indignado fué</l>
-                  <l>para quitarlo, de enmedio....</l>
+                  <l>muchas porciones Florencio,</l>
+                  <l>el cual indignado fué,</l>
+                  <l>para quitarlo de enmedio.</l>
 
                   <pb n="8" source="Moreno_314_8.jpeg"
                      facs="fedora_ug8105788/full/full/0/default.jpg"/>
@@ -902,9 +908,9 @@
                   <l>tuvo mil particulares</l>
                   <l>muestrás de arrepentimiento.</l>
                   <l>Abrazó á todos humilde,</l>
-                  <l>diciendo con llanto;tierno,</l>
+                  <l>diciendo con llanto tierno,</l>
                   <l>que ya solo morir era</l>
-                  <l>el bfanco de sus deseos.</l>
+                  <l>el blanco de sus deseos.</l>
                   <l>El dia veinte salió</l>
                   <l>arrastrado por el suelo</l>
                   <l>à la cola de un caballo</l>

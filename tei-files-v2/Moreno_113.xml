@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -29,8 +45,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -38,9 +53,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6470517</idno>
@@ -76,12 +89,8 @@
                      <summary n="2">Dos grabados (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_113_1.xml"
-                              facs="fedora_ug8106666/480,200,430,801/100,/0/default.jpg"
-                              >grabado_m_113_1</item>
-                           <item corresp="grabado_m_113_2.xml"
-                              facs="fedora_ug8106666/903,241,400,713/100,/0/default.jpg"
-                              >grabado_m_113_2</item>
+                            <item corresp="grabado_m_113_1.xml" facs="fedora_ug8106666/480,200,430,801/100,/0/default.jpg">grabado_m_113_1</item>
+                            <item corresp="grabado_m_113_2.xml" facs="fedora_ug8106666/903,241,400,713/100,/0/default.jpg">grabado_m_113_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -92,6 +101,12 @@
                   <placeName key="Jaén">Jaén</placeName>
                   <location>
                      <geo>37.769722222222 -3.7888888888889</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q8818">
+                  <placeName key="Valencia">Valencia</placeName>
+                  <location>
+                     <geo>39.47 -0.3763888888888889</geo>
                   </location>
                </place>
             </listPlace>
@@ -106,7 +121,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -156,7 +171,7 @@
 
                <div>
                   <lg>
-                     <l rend="indent">Por fin ha llegado el dia.</l>
+                     <l rend="indent">Por fin ha llegado el dia</l>
                      <l>en que yo te pueda hablar</l>
                      <l>que es mi mayor alegria,</l>
                      <l>si aprecias mi voluntad</l>
@@ -164,7 +179,7 @@
                   </lg>
 
                   <lg>
-                     <l rend="indent">Si con el pecho leal,</l>
+                     <l rend="indent">Si con el pecho leal</l>
                      <l>me hablas, querido amante,</l>
                      <l>yo te doy la facultad</l>
                      <l>amándote mas constante,</l>
@@ -224,8 +239,8 @@
                      <l rend="indent">Aunque los hombres hablemos</l>
                      <l>con doscientas mil mujeres</l>
                      <l>nada nosotros perdemos,</l>
-                     <l>y siempreal lado se tiene</l>
-                     <l>la dama quemas queremos.</l>
+                     <l>y siempre al lado se tiene</l>
+                     <l>la dama que mas queremos.</l>
                   </lg>
 
                   <lg>
@@ -274,7 +289,7 @@
 
                <lg>
                   <l rend="indent">Esa honesta gallardía, </l>
-                  <l>ese gepial tan prudente,</l>
+                  <l>ese genial tan prudente,</l>
                   <l>esos ojos, vida mia,</l>
                   <l>sin sueño como un demente</l>
                   <l rend="cursiva">me tienen de noche y dia.</l>
@@ -293,7 +308,7 @@
                <fw type="paginaNum">3</fw>
 
                <lg rend="cursiva">
-                  <l rend="indent">Desde tu frente espaciosa.</l>
+                  <l rend="indent">Desde tu frente espaciosa</l>
                   <l>hasta la planta del pié,</l>
                   <l>eres el ser mas perfecto</l>
                   <l>que en el mundo puede haber.</l>
@@ -373,13 +388,13 @@
                   <l rend="indent">No siento penar por tí</l>
                   <l>ni sufrir impertinencias,</l>
                   <l>lo que siento es que me dejes</l>
-                  <l>á la luna de valencia.</l>
+                  <l>á la luna de <name>valencia</name>.</l>
                </lg>
 
                <lg>
                   <l rend="indent">Desde que te conocí</l>
                   <l>estoy sufriendo mil muertes,</l>
-                  <l>tu no te dueles de mi,</l>
+                  <l>tu no te dueles de mí,</l>
                   <l>y yo tan ciego en quererte</l>
                   <l rend="cursiva">no siento penar por tí.</l>
                </lg>
@@ -409,7 +424,7 @@
                   <l>en mi corazon leal,</l>
                   <l>y por nuevas complacencias</l>
                   <l>siento que me dejarás,</l>
-                  <l rend="cursiva">á la luna de valencia.</l>
+                  <l rend="cursiva">á la luna de <name>valencia</name>.</l>
                </lg>
 
                <lg rend="cursiva">

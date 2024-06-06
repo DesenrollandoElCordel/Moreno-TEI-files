@@ -4,8 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Admirable historia del príncipe Filiberto de Esparta y la princesa de
-               Dinamarca</title>
+            <title>Admirable historia del príncipe Filiberto de Esparta y la princesa de Dinamarca</title>
             <respStmt>
                <name xml:id="MB">Miguel Betti</name>
                <resp>Codificación TEI</resp>
@@ -14,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -34,8 +49,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1860-01-01">1860</date>
                </publicationStmt>
             </biblFull>
@@ -43,9 +57,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6477585</idno>
@@ -81,18 +93,10 @@
                      <summary n="4">Cuatro grabados (p. 1, p.5)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_285_1.xml"
-                              facs="fedora_ug8107074/233,216,406,927/100,/0/default.jpg"
-                              >grabado_m_285_1</item>
-                           <item corresp="grabado_m_285_2.xml"
-                              facs="fedora_ug8107074/635,469,439,684/100,/0/default.jpg"
-                              >grabado_m_285_2</item>
-                           <item corresp="grabado_m_285_3.xml"
-                              facs="fedora_ug8107074/1062,438,429,741/100,/0/default.jpg"
-                              >grabado_m_285_3</item>
-                           <item corresp="grabado_m_285_4.xml"
-                              facs="fedora_ug8106966/113,171,1450,300/100,/0/default.jpg"
-                              >grabado_m_285_4</item>
+                            <item corresp="grabado_m_285_1.xml" facs="fedora_ug8107074/233,216,406,927/100,/0/default.jpg">grabado_m_285_1</item>
+                            <item corresp="grabado_m_285_2.xml" facs="fedora_ug8107074/635,469,439,684/100,/0/default.jpg">grabado_m_285_2</item>
+                            <item corresp="grabado_m_285_3.xml" facs="fedora_ug8107074/1062,438,429,741/100,/0/default.jpg">grabado_m_285_3</item>
+                            <item corresp="grabado_m_285_4.xml" facs="fedora_ug8106966/113,171,1450,300/100,/0/default.jpg">grabado_m_285_4</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -178,8 +182,8 @@
 
             <head type="primer_titulo">
                <hi rend="negrita">ADMIRABLE HISTORIA</hi>
-               <lb/><hi rend="negrita">DEL PRINCIPE FILIBERTO DE ESPARTA,</hi>
-               <lb/>Y LA PRINCESA DE DINAMARCA.</head>
+               <lb/><hi rend="negrita">DEL PRINCIPE FILIBERTO DE <name>ESPARTA</name>,</hi>
+               <lb/>Y LA PRINCESA DE <name>DINAMARCA</name>.</head>
 
             <div n="1" type="parte">
 
@@ -213,7 +217,7 @@
                <l>Mas porque sepan el como,</l>
                <l>atencion pido, supuesto</l>
                <l>que cuando madan cantar,</l>
-               <l>so halla debido el silencio.</l>
+               <l>se halla debido el silencio.</l>
                <l>Tuvo el Rey de <name>Dinamarca</name></l>
                <l>una hija toda un Cielo,</l>
                <l>un portento de hermosura,</l>
@@ -289,7 +293,7 @@
                <l>que era la caza de monte,</l>
                <l>con sus Damas y monteros:</l>
                <l>y si antes enamorado</l>
-               <l>hahia vivido ciego,</l>
+               <l>habia vivido ciego,</l>
 
                <pb n="3" source="Moreno_285_3.jpg" facs="fedora_ug8106026/full/full/0/default.jpg"/>
 
@@ -754,7 +758,7 @@
                <l>Luego con magestuosa</l>
                <l>pompa, aparato escelente,</l>
                <l>los dos fueron desposados,</l>
-               <l>y huho esplendidos banquetes,</l>
+               <l>y hubo esplendidos banquetes,</l>
                <l>Dispuso, que una embajada</l>
                <l>al Rey Clodoveo fuese,</l>
                <l>padre de la referida</l>

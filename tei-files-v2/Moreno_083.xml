@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -28,8 +44,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1865-01-01">1865</date>
                </publicationStmt>
             </biblFull>
@@ -37,9 +52,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6461189</idno>
@@ -75,12 +88,8 @@
                      <summary n="2">Dos grabados (p.1, p.5)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_083_1.xml"
-                              facs="fedora_ug8105101/512,297,677,693/100,/0/default.jpg"
-                              >grabado_m_083_1</item>
-                           <item corresp="grabado_m_083_2.xml"
-                              facs="fedora_ug8109433/344,333,1084,992/100,/0/default.jpg"
-                              >grabado_m_083_2</item>
+                            <item corresp="grabado_m_083_1.xml" facs="fedora_ug8105101/512,297,677,693/100,/0/default.jpg">grabado_m_083_1</item>
+                            <item corresp="grabado_m_083_2.xml" facs="fedora_ug8109433/344,333,1084,992/100,/0/default.jpg">grabado_m_083_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -151,7 +160,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -246,8 +255,8 @@
                   <l>Juan Prados se disculpó</l>
                   <l>diciendo: no os dé cuidado</l>
                   <l>Juana Gutierrez aqueso,</l>
-                  <l>que por muchos hombres vaigo;</l>
-                  <l>no me dan penas mujeres.</l>
+                  <l>que por muchos hombres valgo;</l>
+                  <l>no me dan penas mujeres,</l>
                   <l>que bien conozco su trato;</l>
                   <l>yo sé que no habrá ninguna</l>
                   <l>que me toque en el zapato:</l>
@@ -266,8 +275,11 @@
                   <l>y asi no me acuerdo de ellas</l>
                   <l>cuando mis jornadas hago;</l>
                   <l>porque todas me conocen, </l>
-                  <l>y saben que soy Juan rados.</l>
-                  <l>Ausentóse, y la muje.</l>
+                  <l>y saben que soy Juan Prados.</l>
+                  <l>Ausentóse, y la <choice>
+                        <sic>muje.</sic>
+                        <corr>mujer</corr>
+                     </choice></l>
                   <l>dijo: por vida de entrambos,</l>
                   <l>que me lo habeis de pagar</l>
                   <l>antes que se acabe el año.</l>
@@ -279,7 +291,7 @@
                   <l>porque volveria cansado, </l>
                   <l>aderezada una cena</l>
                   <l>como para veinte y cuatro:</l>
-                  <l>mnuchospernilale tocino,</l>
+                  <l>mnucho pernil de tocino,</l>
                   <l>diferencia de adobados, </l>
                   <l>chorizos de <name>Estremadura</name> , </l>
                   <l>jamon de <name>Rute</name> estremado,</l>
@@ -309,8 +321,8 @@
                   <l>no habia descuido en darlo.</l>
                   <l>Sentia fuerza en el vino,</l>
                   <l>y cuando pedia aguado,</l>
-                  <l>en lugar de agua le, echaban</l>
-                  <l>vino blanco de tres, años.</l>
+                  <l>en lugar de agua le echaban</l>
+                  <l>vino blanco de tres años.</l>
                   <l>Comió poderosamente, </l>
                   <l>y obró tanto lo salado,</l>
                   <l>que un tudesco parecia</l>
@@ -319,8 +331,8 @@
                   <l>dióle el vino tal zarpazo,</l>
                   <l>que con los ojos alegres</l>
                   <l>hacía tornasolados.</l>
-                  <l>Mirába alCielo y decia:</l>
-                  <l>é no veis qué de hombres aimados</l>
+                  <l>Mirába al Cielo y decia:</l>
+                  <l>¿no veis qué de hombres armados</l>
 
                   <pb n="3" source="Moreno_083_3.jpg"
                      facs="fedora_ug8108581/full/full/0/default.jpg"/>
@@ -367,7 +379,7 @@
                   <l>junto el gran Lázaro el santo,</l>
                   <l>y dejándole sujeto</l>
                   <l>á las escarchas del campo,</l>
-                  <l>das mujeres muy risueñas</l>
+                  <l>las mujeres muy risueñas</l>
                   <l>volvieron y se acostaron,</l>
                   <l>y él triste, la fria noche</l>
                   <l>la sentia tanto cuanto.</l>
@@ -400,7 +412,7 @@
                   <l>le preguntó ¿qué queria?</l>
                   <l>Dijo : saber dónde vamos.</l>
                   <l>Díjole el descalzo entonces:</l>
-                  <l>para <name>Simancas</name> me parta</l>
+                  <l>para <name>Simancas</name> me parto</l>
                   <l>á decir Misa mañana, </l>
                   <l>por ser dia de san Márcos,</l>
                   <l>y me holgaria infinito,</l>
@@ -408,7 +420,7 @@
                   <l>hiciéramos el Oficio:</l>
                   <l>Juan Prados dijo: sí, vamos.</l>
                   <l>Fuéronse ambos á <name>Simancas</name>,</l>
-                  <l>y el cura regecijado</l>
+                  <l>y el cura regocijado</l>
 
                   <pb n="4" source="Moreno_083_4.jpg"
                      facs="fedora_ug8110234/full/full/0/default.jpg"/>
@@ -416,7 +428,7 @@
                   <l>al nuevo Predicador</l>
                   <l>le recibe entre los brazos.</l>
                   <l>Diéronle una librería</l>
-                  <l>en que estudiase algun rato.:</l>
+                  <l>en que estudiase algun rato;</l>
                   <l>tocaron luego al sermon,</l>
                   <l>la campana hacian pedazos.</l>
                   <l>Juan Prados abrió los libros</l>
@@ -450,17 +462,17 @@
                   <l>Fuése derecho á su casa, </l>
                   <l>y poco á poco llamando,</l>
                   <l>se asomó Juana Gutierrez,</l>
-                  <l>y dijo : á quién ha llamado?</l>
+                  <l>y dijo : ¿á quién ha llamado?</l>
                   <l>¿quién está ahí ? Respondió:</l>
                   <l>abre, mujer que yo llamo.</l>
                   <l>¿ Fraile en mi casa ? Deo gratias: </l>
                   <l>váyase el padre bigardo,</l>
-                  <l>que si flamo á mi marido</l>
+                  <l>que si llamo á mi marido</l>
                   <l>haré le dé muchos palos.</l>
                   <l>Mujer, que Juan Prados soy, </l>
                   <l>abridme que soy Juan Prados.</l>
-                  <l>tespondió Juana Gutierrez:</l>
-                  <l>mnire no le tire un canto,</l>
+                  <l>Respondió Juana Gutierrez:</l>
+                  <l>mire no le tire un canto,</l>
                   <l>que le suma la capilla</l>
                   <l>juntamente con los cascos.</l>
                   <l>Dijo el marido: señora,</l>
@@ -508,7 +520,7 @@
                      <lb/>ó <lb/>CHASCO DEL ARRIERO. </head>
                   <head type="subtitulo_parte">SEGUNDA PARTE.</head>
 
-                  <l><hi rend="negrita">P</hi>ieado Juan Prados luego</l>
+                  <l><hi rend="negrita">P</hi>icado Juan Prados luego</l>
                   <l>de aquel tan pesado chasco</l>
                   <l>que su mujer le dispuso,</l>
                   <l>despicarse quiso honrado.</l>
@@ -635,11 +647,11 @@
                   <l>Molióla todos los huesos,</l>
                   <l>porque la daba á dos manos, </l>
                   <l>á cuyos golpes huyó</l>
-                  <l>Juana Gutierrez sin manto,</l>
+                  <l>Juana Gutierrez sin manto.</l>
                   <l>Fuése á casa y acostóse</l>
                   <l>hizo llamar cirujanos, </l>
                   <l>y á otro dia su marido</l>
-                  <l>yino muy disimulado:</l>
+                  <l>vino muy disimulado:</l>
                   <l>preguntó por su mujer,</l>
                   <l>dióla á ella un sobresalto,</l>
                   <l>y al fin el marido alegre</l>
@@ -736,7 +748,7 @@
                   <l>lo estaba todo mirando;</l>
                   <l>lleno de risa salió</l>
                   <l>menudeando los pasos,</l>
-                  <l>¡hizo piernas en la sala,</l>
+                  <l>hizo piernas en la sala,</l>
                   <l>caló el sombrero muy bajo, </l>
                   <l>y con una risa falsa </l>
                   <l>remuquetes apuntando,</l>

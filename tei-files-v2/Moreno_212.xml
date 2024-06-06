@@ -13,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -32,8 +48,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1859-01-01">1859</date>
                </publicationStmt>
             </biblFull>
@@ -41,9 +56,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6475603</idno>
@@ -75,12 +88,8 @@
                      <summary n="2">Dos grabados (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_212_1.xml"
-                              facs="fedora_ug8106325/515,428,448,838/100,/0/default.jpg"
-                              >grabado_m_212_1</item>
-                           <item corresp="grabado_m_212_2.xml"
-                              facs="fedora_ug8106325/1019,563,407,682/100,/0/default.jpg"
-                              >grabado_m_212_2</item>
+                            <item corresp="grabado_m_212_1.xml" facs="fedora_ug8106325/515,428,448,838/100,/0/default.jpg">grabado_m_212_1</item>
+                            <item corresp="grabado_m_212_2.xml" facs="fedora_ug8106325/1019,563,407,682/100,/0/default.jpg">grabado_m_212_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -200,8 +209,8 @@
                <l>la cautivaron los turcos,</l>
                <l>porque se salió una tarde</l>
                <l>á pasear por el sitio</l>
-               <l>que llaman de los Ataques:.</l>
-               <l>Su hermano, que es de diezcaños,</l>
+               <l>que llaman de los Ataques.</l>
+               <l>Su hermano, que es de diez años,</l>
                <l>esta noticia le traen </l>
                <l>sintiendo su cautiverio</l>
                <l>en lágrimas se deshace.</l>
@@ -218,11 +227,14 @@
                <l>Supo el rey de este leon,</l>
                <l>de este jóven arrogante,</l>
                <l>y le dió de capitan </l>
-               <l>la Vengala por honrarlo,</l>
+               <l>la Vengala por honrarle,</l>
 
                <pb n="2" source="Moreno_212_2.jpg" facs="fedora_ug8108698/full/full/0/default.jpg"/>
 
-               <l>A este tiemdo á <name>Barcelona</name></l>
+               <l>A este <choice>
+                     <sic>tiemdo</sic>
+                     <corr>tiempo</corr>
+                  </choice> á <name>Barcelona</name></l>
                <l>le fué preciso pasarse</l>
                <l>por mandado de su rey. </l>
                <l>Paseábase una tarde</l>
@@ -275,9 +287,9 @@
                <l>dan á don Garpar la órden</l>
                <l>que para <name>Orán</name> se embarcase,</l>
                <l>Surcando las negras ondas,</l>
-               <l>á otre dia por la tarde</l>
+               <l>á otro dia por la tarde</l>
                <l>en <name>Orán</name> desembarcó</l>
-               <l>este jóven arregante.</l>
+               <l>este jóven arrogante.</l>
                <l>Y pasados nueve dias,</l>
                <l>un barco de catalanes</l>
                <l>llegó á la playa de <name>Orán</name>,</l>
@@ -293,9 +305,9 @@
                <l>fué á su casa, y al punto</l>
                <l>se vistió en turquesco traje,</l>
                <l>y metiéndose en <name>Turquía</name>,</l>
-               <l>por las villas y ugares,</l>
-               <l>se fué sá la ciudad de <name>Argel</name>;</l>
-               <l>pascábase en sus calles,</l>
+               <l>por las villas y <supplied>l</supplied>ugares,</l>
+               <l>se fué á la ciudad de <name>Argel</name>;</l>
+               <l>paseábase en sus calles,</l>
                <l>porque la lengua turquesca</l>
                <l>muy bien la corta y la sabe.</l>
                <l>Conversaba con los moros,</l>
@@ -369,14 +381,13 @@
                <l>y sobre un bufete grande</l>
                <l>dejó una carta á su esposo,</l>
                <l>que si queria buscarle</l>
-               <l>que se pase leego á <name>España</name>,</l>
-               <l>y trate de bautrzarse.</l>
+               <l>que se pase luego á <name>España</name>,</l>
+               <l>y trate de bautizarse.</l>
                <l>Con cuarenta y dos cristianos</l>
                <l>á una galera se parten, </l>
                <l>por entre espumosas aguas,</l>
-               <l>corta el viento y rompeel aire.</l>
-               <l>Llegaron á <name>Barcelona</name>
-               </l>
+               <l>corta el viento y rompe el aire.</l>
+               <l>Llegaron á <name>Barcelona</name></l>
                <l>guiados de aquella imágen</l>
                <l>de san Antonio de Padua,</l>
                <l>y la Patrona del Cármen.</l>
@@ -412,13 +423,13 @@
                <l>que á su dulce esposa tiene,</l>
                <l>se partió luego á buscarle</l>
                <l>con su hija, y embarcóse</l>
-               <l>con felicidad tan grandé,</l>
+               <l>con felicidad tan grande,</l>
                <l>que en breve tiempo se halló</l>
                <l>de <name>Barcelona</name> en la márgen.</l>
-               <l>Con la niña saltó ein tierra</l>
-               <l>á las cinco de la tarde;.</l>
-               <l>y cansado y pensativo.</l>
-               <l>se durmió en aquel paraje.</l>
+               <l>Con la niña saltó en tierra</l>
+               <l>á las cinco de la tarde,</l>
+               <l>y cansado y pensativo</l>
+               <l>se durmió en aquel paraje</l>
                <l>A las doce de la noche</l>
                <l>hubo una quimera grande,</l>
                <l>donde quedaron difuntos</l>
@@ -437,11 +448,11 @@
                <l>que por venir á buscarte.</l>
                <l>me veo en tan grande apuro,</l>
                <l>Tráiganme luego al instante</l>
-               <l>á mi muy querida hija;, </l>
+               <l>á mi muy querida hija, </l>
                <l>y con suspiros muy grandes</l>
-               <l>dice : hija de mi vida;,</l>
-               <l>la querida de su:padre,</l>
-               <l>oh, qué sin calor te hallas!.</l>
+               <l>dice : hija de mi vida,</l>
+               <l>la querida de su padre,</l>
+               <l>oh, qué sin calor te hallas!</l>
                <l>doy pregunta por tu madre</l>
                <l>doña Rosa de Leon,</l>
                <l>que puede ser que te ampare.</l>
@@ -452,7 +463,7 @@
                <l>el cual vino muy ligero,</l>
                <l>y llegando vigilante,</l>
                <l>le dá relacion de todo.</l>
-               <l>Doña Rosa en este instante:</l>
+               <l>Doña Rosa en este instante</l>
                <l>se hallaba en el oratorio,</l>
                <l>y tambien le dieron parte;</l>
                <l>se fué donde estaba el reo,</l>
@@ -462,13 +473,13 @@
                <l>la conoció, y dando gritos</l>
                <l>dice: cómo me olvidastes,</l>
                <l>madre de mi corazon,</l>
-               <l>que á tus pechos me criastes ?</l>
+               <l>que á tus pechos me criastes?</l>
                <l>No desampares tu hija.</l>
                <l>Y volviéndo en este instante</l>
                <l>doña Rosa sus dos soles</l>
                <l>la reconoció al instante,</l>
                <l>y arrojándose hácia ella</l>
-               <l>dice. dónde está tu padre?</l>
+               <l>dice: dónde está tu padre?</l>
                <l>A el palació lo llevaron,</l>
                <l>y don Gaspar ignorante</l>
                <l>que era el turco su cuñado</l>
@@ -480,7 +491,7 @@
                <l>los bautizaron, y luego</l>
                <l>con solemnidad muy grande</l>
                <l>se pasaron á el palacio,</l>
-               <l>y. doña Rosa al instante</l>
+               <l>y doña Rosa al instante</l>
                <l>se ha entrado en el oratorio</l>
                <l>á dar gracias incesantes</l>
                <l>al bendito san Antonio,</l>
@@ -492,7 +503,7 @@
                <l>En seguida los casaron,</l>
                <l>y á san Antonio le hacen</l>
                <l>una suntuosa fiesta.</l>
-               <l>Cristianos los mas amantes, </l>
+               <l>Cristianos los mas amantes,</l>
                <l>estos son en san Antonio</l>
                <l>sus prodigios admirables,</l>
                <l>tambien de nuestra Señora</l>

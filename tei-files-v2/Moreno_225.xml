@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -28,8 +44,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1854-01-01">1854</date>
                </publicationStmt>
             </biblFull>
@@ -37,9 +52,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève</repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6475689</idno>
@@ -71,9 +84,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_225_1.xml"
-                              facs="fedora_ug8109853/670,334,451,661/100,/0/default.jpg"
-                              >grabado_m_225_1</item>
+                            <item corresp="grabado_m_225_1.xml" facs="fedora_ug8109853/670,334,451,661/100,/0/default.jpg">grabado_m_225_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -90,6 +101,12 @@
                   <placeName key="Jerusalén">Jerusalén</placeName>
                   <location>
                      <geo>31.77888888888889 35.22555555555556</geo>
+                  </location>
+               </place>
+               <place n="2" corresp="Q16869">
+                  <placeName key="Constantinopla">Constantinopla</placeName>
+                  <location>
+                     <geo>41.0125 28.98</geo>
                   </location>
                </place>
             </listPlace>
@@ -186,11 +203,11 @@
                <l>si bien con rústicos versos;</l>
                <l>y con elocuencia poca;</l>
                <l>pero alcanzando la gracia</l>
-               <l>de aquel que la perfecciona.</l>
+               <l>de aquel que la perfecciona,</l>
 
                <pb facs="fedora_ug8110279/full/full/0/default.jpg" n="2" source="Moreno_225_2.jpg"/>
 
-               <l>que por sor de gracia tú,</l>
+               <l>que por ser de gracia tú,</l>
                <l>te quiso hacer mas graciosa;</l>
                <l>podré a este piélago undoso,</l>
                <l>á este mar tan sin sozobra</l>
@@ -211,7 +228,7 @@
                <l>mandando cortar del monte</l>
                <l>las maderas olorosas,</l>
                <l>el libano, y los cipreses,</l>
-               <l>los.cedros, y las caobas.</l>
+               <l>los cedros, y las caobas.</l>
                <l>Entre los cuales cortaron</l>
                <l>un cipres de cuyas hojas</l>
                <l>los ambares respiraban</l>
@@ -253,7 +270,7 @@
                <l>Latina, Griega y Hebrea,</l>
                <l>que dicen de aquesta forma:</l>
                <l>Jesus Nazareno, rey</l>
-               <l>do judios y esta propia</l>
+               <l>de judios y esta propia</l>
                <l>tablilla de palma fué,</l>
                <l>á donde las letras forjan;</l>
                <l>otra en que fijó los pies,</l>
@@ -304,7 +321,7 @@
                <l>de la Cruz ni del sepulcro,</l>
                <l>que tanto bien atesora.</l>
                <l>Al cabo á la emperatriz</l>
-               <l>de la gran constantinopla</l>
+               <l>de la gran <name>constantinopla</name></l>
                <l>Elena, de Constantino</l>
                <l>madre feliz, y piadosa,</l>
                <l>le reveló Dios, que fuese</l>
@@ -368,10 +385,10 @@
 
                <pb facs="fedora_ug8109267/full/full/0/default.jpg" n="4" source="Moreno_225_4.jpg"/>
 
-               <l>hasla llegar la tercera,</l>
+               <l>hasta llegar la tercera,</l>
                <l>que apenas la muger toca,</l>
                <l>cuando con velocidad</l>
-               <l>so levantó abrió la boca,</l>
+               <l>se levantó abrió la boca,</l>
                <l>y bendiciendo al gran Dios,</l>
                <l>dá á la Cruz eternas glorias.</l>
                <l>En Procesion la llevaron,</l>
@@ -389,7 +406,7 @@
                <l>donde estubo largo tiempo,</l>
                <l>sin libertad la preciosa</l>
                <l>Reliquia, á que luego Eraclio,</l>
-               <l>de la gran Conslantinopla</l>
+               <l>de la gran <name>Constantinopla</name></l>
                <l>Emperador la sacó</l>
                <l>en su exaltacion dichosa;</l>
                <l>queriendo tambien robarla</l>

@@ -4,8 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nuevo y curioso romance en el que se declaran las excelencias de la gente del
-               campo</title>
+            <title>Nuevo y curioso romance en el que se declaran las excelencias de la gente del campo</title>
             <respStmt>
                <name xml:id="MB">Miguel Betti</name>
                <resp>Codificación TEI</resp>
@@ -14,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -36,8 +51,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1853-01-01">1853</date>
                </publicationStmt>
             </biblFull>
@@ -45,9 +59,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6473333</idno>
@@ -86,12 +98,8 @@
                      <summary n="2">Dos grabados (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_200_1.xml"
-                              facs="fedora_ug8106961/398,267,410,782/100,/0/default.jpg"
-                              >grabado_m_200_1</item>
-                           <item corresp="grabado_m_200_2.xml"
-                              facs="fedora_ug8106961/816,276,449,768/100,/0/default.jpg"
-                              >grabado_m_200_2</item>
+                            <item corresp="grabado_m_200_1.xml" facs="fedora_ug8106961/398,267,410,782/100,/0/default.jpg">grabado_m_200_1</item>
+                            <item corresp="grabado_m_200_2.xml" facs="fedora_ug8106961/816,276,449,768/100,/0/default.jpg">grabado_m_200_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -144,7 +152,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -280,7 +288,10 @@
                <l>virtud Teologal tan Santa,</l>
                <l>que el que confia por cierto</l>
                <l>tiene en Dios firme esperanza;</l>
-               <l>en el esmpo siembran lino,</l>
+               <l>en el <choice>
+                     <sic>csmpo</sic>
+                     <corr>campo</corr>
+                  </choice> siembran lino,</l>
                <l>cañamo, viñas que bastan</l>
                <l>unos á vestir los hombres,</l>
                <l>y otras mil bebidas varias;</l>
@@ -481,7 +492,10 @@
                <l>A mi unos oficiales</l>
                <l>me quisieron dar la baya,</l>
                <l>por ultrajarme del campo, </l>
-               <l>pero sns oficios andan</l>
+               <l>pero <choice>
+                     <sic>sns</sic>
+                     <corr>sus</corr>
+                  </choice> oficios andan</l>
                <l>mas perdidos y peor,</l>
                <l>y asi no hablen palabra.</l>
                <l>Y aquí Francisco Serranoz;</l>
@@ -498,8 +512,8 @@
                <pb n="5" source="Moreno_200_5.jpg" facs="fedora_ug8109094/full/full/0/default.jpg"/>
 
                <head rend="negrita" type="titulo_parte">SEGUNDA PARTE.</head>
-               <head rend="cursiva" type="subtitulo_parte">En la que se prosiguen las Eacelencias de
-                  la gente del campo de <lb/>clara los muchos Santos, y ezcelentes Varones que ha
+               <head rend="cursiva" type="subtitulo_parte">En la que se prosiguen las Excelencias de
+                  la gente del campo, de-<lb/>clara los muchos Santos, y excelentes Varones que ha
                   habido <lb/>del campo, y se les dá saludable doctrina, con lo demas que <lb/>verá
                   el curioso lector,</head>
 
@@ -528,7 +542,7 @@
                <l>no tienen que responder;</l>
                <l>paso á otro asunto dichoso,</l>
                <l>qüe es dar doctrina muy santa,</l>
-               <l>que el Cielo ganemos todos.</l>
+               <l>que el Cielo ganemos todos,</l>
                <l>Ya dije, nuestros antiguos</l>
                <l>fueron santos como todos,</l>
                <l>David, Profeta de Dios,</l>
@@ -616,7 +630,7 @@
                <l>pues soles tan rigorosos,</l>
                <l>y trabajos tan tremendos,</l>
                <l>y que en amor de Dios todos,</l>
-               <l>con esta eonformidad</l>
+               <l>con esta conformidad</l>
                <l>ganarian un tesoro.</l>
                <l>Pero sucedió al contrario,</l>
                <l>porque todo su alboroto</l>
@@ -661,7 +675,7 @@
 
                <pb n="7" source="Moreno_200_7.jpg" facs="fedora_ug8107218/full/full/0/default.jpg"/>
 
-               <l>una voz qne le decia;</l>
+               <l>una voz qne le decia:</l>
                <l>En la iglesia está el tesoro,</l>
                <l>vé á su puerta y hallarás</l>
                <l>lo que pídes que te otorgo.</l>

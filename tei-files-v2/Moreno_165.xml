@@ -10,15 +10,31 @@
                <resp>Codificación TEI</resp>
             </respStmt>
             <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
+            <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -32,8 +48,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1865-01-01">1865</date>
                </publicationStmt>
             </biblFull>
@@ -41,9 +56,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6473004</idno>
@@ -75,9 +88,7 @@
                      <summary n="1">Un grabado (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_165_1.xml"
-                              facs="fedora_ug8108264/333,349,1018,646/100,/0/default.jpg"
-                              >grabado_m_165_1</item>
+                            <item corresp="grabado_m_165_1.xml" facs="fedora_ug8108264/333,349,1018,646/100,/0/default.jpg">grabado_m_165_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -102,7 +113,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -207,7 +218,7 @@
                <l>Y acicalándose vela</l>
                <l>Para enganchar, la mozuela</l>
                <l>A los simples mozalvetes</l>
-               <l rend="indent">Del gran tono las señoras</l>
+               <l rend="indent">Del <hi rend="cursiva">gran tono</hi> las señoras</l>
                <l>Sériamente á ventilar,</l>
                <l>Los trages que han de llevar</l>
                <l>Se juntan á todas horas:</l>
@@ -259,7 +270,7 @@
                <l>Sin contar otros cien mil.</l>
                <l rend="indent">Pasa por aquí corriendo</l>
                <l>Una vaca desmandada,</l>
-               <l>Y á una mujer derrengada</l>
+               <l>Y á una mujer, derrengada</l>
                <l>Deja en el suelo gimiendo,</l>
 
                <pb n="3" source="Moreno_165_3.jpg" facs="fedora_ug8110001/full/full/0/default.jpg"/>
@@ -269,7 +280,7 @@
                <l>Sin que le diese cornada.</l>
                <l rend="indent">Por allí vá un jaqueton</l>
                <l>Y patillado gitano</l>
-               <l>Agujjando un matalon,</l>
+               <l>Aguijando un matalon,</l>
                <l>Que parece mas lozano</l>
                <l>Que el corcel del Macedon.</l>
                <l rend="indent">Mas si lo suelta el catrero</l>
@@ -287,7 +298,7 @@
                <l>Y sin que nadie defienda</l>
                <l>Aquella misera hacienda,</l>
                <l>Engúllense los barquillos.</l>
-               <l rend="indent">No haymas allá quien bastante</l>
+               <l rend="indent">No hay mas allá quien bastante</l>
                <l>Sea un caballo á sujetar,</l>
                <l>Y al cabo se vé escapar</l>
                <l>Por el vulgo circunstante</l>
@@ -311,7 +322,7 @@
                <l>(Gracias á la confusion)</l>
                <l>Acechanzas al turron,</l>
                <l>Y sin verlo el dueño, al vuelo</l>
-               <l>Arrebata un cuarteron..</l>
+               <l>Arrebata un cuarteron.– </l>
                <l rend="indent">De los montes en la cumbre</l>
                <l>La hora llega en que su lumbre</l>
                <l>Oculte el sol, y acrecianta</l>
@@ -321,7 +332,7 @@
                <l>Se presentan á rendir</l>
                <l>Corazones las hermosas</l>
                <l>Que las riberas famosas</l>
-               <l>Pisan del Guadalquivir</l>
+               <l>Pisan del Guadalquivir.</l>
                <l rend="indent">Y tambien tal sitio encierra</l>
                <l>Las bellezas que la Sierra</l>
                <l>Produce entre sus montañas</l>
@@ -341,7 +352,7 @@
                <l>Hurtos se llegan á hacer</l>
                <l>Sin que los hechen de ver</l>
                <l>Las personas de respeto,</l>
-               <l>Pues se suelen distraer</l>
+               <l>Pues se suelen distraer.</l>
                <l rend="indent">Que es época esta reunion</l>
                <l>De amores que de ella nacen</l>
 
@@ -378,7 +389,7 @@
                <l>Líbremente se travesea,</l>
                <l>Y del trabajo se olvida.</l>
                <l rend="indent">Y por que mas se divierta,</l>
-               <l>El mundo, por agujero</l>
+               <l><hi rend="cursiva">El mundo</hi>, por agujero</l>
                <l>Muestra un insigne maulero,</l>
                <l>A la turba boquiabierta</l>
                <l>Con lindísimo salero.</l>

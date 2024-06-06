@@ -13,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -35,8 +51,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -44,9 +59,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6470753</idno>
@@ -85,12 +98,8 @@
                      <summary n="2">Dos grabados (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_137_1"
-                              facs="fedora_ug8109128/482,312,336,729/100,/0/default.jpg"
-                              >grabado_m_137_1</item>
-                           <item corresp="grabado_m_137_2"
-                              facs="fedora_ug8109128/821,303,340,741/100,/0/default.jpg"
-                              >grabado_m_137_2</item>
+                            <item corresp="grabado_m_137_1" facs="fedora_ug8109128/482,312,336,729/100,/0/default.jpg">grabado_m_137_1</item>
+                            <item corresp="grabado_m_137_2" facs="fedora_ug8109128/821,303,340,741/100,/0/default.jpg">grabado_m_137_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -108,7 +117,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -156,9 +165,12 @@
                <fw type="impresorNum">(Número 144.)</fw>
 
                <head rend="negrita" type="primer_titulo">CARTA DISCRETA Y AMOROSA.</head>
-               <head rend="cursiva" type="subtitulo">dispuestu en quintillas, de un galan á su dama,
-                  que viéndola enojada <lb/>y desviada de su cariño, procura atraer de nuevo su
-                  amor, disculpán- <lb/>dose de las causas que la dió para enojarla </head>
+               <head rend="cursiva" type="subtitulo"><choice>
+                     <sic>dispuestu</sic>
+                     <corr>dispuesta</corr>
+                  </choice> en quintillas, de un galan á su dama, que viéndola enojada <lb/>y
+                  desviada de su cariño, procura atraer de nuevo su amor, disculpán- <lb/>dose de
+                  las causas que la dió para enojarla.</head>
 
                <l rend="indent">Pajarillo que volando</l>
                <l>surcas el viento ligero,</l>
@@ -231,7 +243,7 @@
                <l rend="indent">Si porque yo estoy ausen te</l>
                <l>piensa que la he olvidado,</l>
                <l>dila que mi amor valiente:</l>
-               <l>aun cuando mas retirado.</l>
+               <l>aun cuando mas retirado,</l>
                <l>la conservo mas presente,</l>
                <l rend="indent">Mas si de ti se desvia:</l>
                <l>dila de cuando me hablaba, </l>
@@ -253,7 +265,7 @@
                <l>¿por qué he de ser el culpabo?</l>
                <l>por qué ha de estar rigurosa</l>
                <l>con quien causa no le ha dado?</l>
-               <l rend="indent">Si contrarmi sus enojos</l>
+               <l rend="indent">Si contra mi sus enojos</l>
                <l>rayos quieren espeler,</l>
                <l>para ser de ellos despojos,</l>
                <l>dila que no es menester</l>
@@ -268,7 +280,7 @@
                <l>dila que no es de deidades,</l>
                <l>sin pedir satisfacion,</l>
                <l>castigar con crueldades.</l>
-               <l rend="indent">Dila que estoy abatido</l>
+               <l rend="indent">Dila que estoy abatido,</l>
                <l>á su hormosa bizarria;</l>
                <l>y pues me vé dolorido,</l>
                <l>dila que no es valentia</l>
@@ -341,9 +353,9 @@
             <div type="parte">
 
                <head rend="cursiva" type="titulo_parte">Respuesta discreta á la amorosa carta del
-                  galan, manifestándole la <lb/>dama su esquivez y de su amor quejándose airada de
+                  galan, manifestándole la <lb/>dama su esquivez y de su amor, quejándose airada de
                   su infiel trato; y <lb/>diciendole que la olvide para siempre porque ella detesta
-                  su amor: <lb/>con lo demás gue vera el curioso lector. </head>
+                  su amor: <lb/>con lo demás que verá el curioso lector. </head>
 
                <l rend="indent">Pajarillo que enseñado</l>
                <l>de otro pájaro maestro,</l>
@@ -462,13 +474,16 @@
                <l>en llegando á aborrecer,</l>
                <l>que me juzgue lo profundo,</l>
                <l>y como si tal muger</l>
-               <l>no hubiese habido en el mundo,</l>
+               <l>no hubiese habido en el mundo.</l>
                <l rend="indent">Dile que se cansa en vano</l>
                <l>en pedirme y suplicarme,</l>
                <l>porque un hombre tan villano</l>
                <l>no ha de volver á engañarme,</l>
                <l>porque ya le doy de mano.</l>
-               <l rend="indent">Dile que pues lo ha qurido</l>
+               <l rend="indent">Dile que pues lo ha <choice>
+                     <sic>qurido</sic>
+                     <corr>querido</corr>
+                  </choice></l>
                <l>que no ponga aquí los pies,</l>
                <l>y que esté muy entendido</l>
                <l>que lo que fué y no es,</l>

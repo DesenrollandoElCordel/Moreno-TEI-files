@@ -4,17 +4,33 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Pasillo andaluz entre Juan el Perdío y Pepe Nargas</title>
+            <title>Pasillo andaluz entre Juan el Perdio y Pepe Nargas</title>
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -29,8 +45,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1860-01-01">1860</date>
                </publicationStmt>
             </biblFull>
@@ -38,9 +53,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6483478</idno>
@@ -72,12 +85,8 @@
                      <summary n="2">Dos grabados (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_312_1.xml"
-                              facs="fedora_ug8107063/368,201,514,744/100,/0/default.jpg"
-                              >grabado_m_312_1</item>
-                           <item corresp="grabado_m_312_2.xml"
-                              facs="fedora_ug8107063/919,226,449,726/100,/0/default.jpg"
-                              >grabado_m_312_2</item>
+                            <item corresp="grabado_m_312_1.xml" facs="fedora_ug8107063/368,201,514,744/100,/0/default.jpg">grabado_m_312_1</item>
+                            <item corresp="grabado_m_312_2.xml" facs="fedora_ug8107063/919,226,449,726/100,/0/default.jpg">grabado_m_312_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -112,6 +121,12 @@
                   <placeName key="España">España</placeName>
                   <location>
                      <geo>40.2 -3.5</geo>
+                  </location>
+               </place>
+               <place n="1" corresp="Q15682">
+                  <placeName key="Cádiz">Cádiz</placeName>
+                  <location>
+                     <geo>36.535 -6.2975</geo>
                   </location>
                </place>
             </listPlace>
@@ -254,7 +269,7 @@
                   <l>Pues señó, yo dende aquí</l>
                   <l>cuando el camino tomé</l>
                   <l>jácia Malaga me juí,</l>
-                  <l>y en el <name>barrio del Percher</name>,</l>
+                  <l>y en el barrio del Percher,</l>
                   <l>camará me estabresí.</l>
 
                   <pb n="2" source="Moreno_312_2.jpeg"
@@ -385,7 +400,7 @@
                <sp>
                   <speaker rend="cursiva">Pepe.</speaker>
                   <l>—Yo salí por esa campiña</l>
-                  <l>y allegando jasta Cais</l>
+                  <l>y allegando jasta <name>Cais</name></l>
                   <l>me juí ar barrio é la Viña.</l>
                   <l>Como que solo buscaba</l>
                   <l>cuando salí é <name>Siviya</name></l>
@@ -613,7 +628,7 @@
                </sp>
 
                <sp>
-                  <speaker rend="cursiva">Juan..</speaker>
+                  <speaker rend="cursiva">Juan.</speaker>
                   <l>—De formal.</l>
                </sp>
 

@@ -13,19 +13,35 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
                   <title type="titulo_completo">Antonio Montero y Diego de Frias. Romance en que se
-                     refiere un raro suceso, y notable tragedia, quejen la Ciudad de Antequera les
+                     refiere un raro suceso, y notable tragedia, que en la Ciudad de Antequera les
                      sucedió á dos Man cebos muy amigos, el uno llamado Diego de Frias, y el otro
                      Antonio Montero, el cual era casado con una muy hermosa Dama; y como Diego de
                      Frias, habiéndose enamorado de ella, la sacó de su casa, y la llevo á la Ciudad
@@ -37,8 +53,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -46,9 +61,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6475577</idno>
@@ -80,12 +93,8 @@
                      <summary n="2">Dos grabados (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_207_1.xml"
-                              facs="fedora_ug8110126/300,210,650,771/100,/0/default.jpg"
-                              >grabado_m_207_1</item>
-                           <item corresp="grabado_m_207_2.xml"
-                              facs="fedora_ug8110126/940,272,500,700/100,/0/default.jpg"
-                              >grabado_m_207_2</item>
+                            <item corresp="grabado_m_207_1.xml" facs="fedora_ug8110126/300,210,650,771/100,/0/default.jpg">grabado_m_207_1</item>
+                            <item corresp="grabado_m_207_2.xml" facs="fedora_ug8110126/940,272,500,700/100,/0/default.jpg">grabado_m_207_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -96,12 +105,6 @@
                   <placeName key="San_Salvador">San Salvador</placeName>
                   <location>
                      <geo>41.620833333333 -5.0880555555556</geo>
-                  </location>
-               </place>
-               <place n="8" corresp="Q1657230">
-                  <placeName key="Frías">Frías</placeName>
-                  <location>
-                     <geo>42.761388888889 -3.2941666666667</geo>
                   </location>
                </place>
                <place n="4" corresp="Q572041">
@@ -189,11 +192,11 @@
 
                <head rend="negrita" type="primer_titulo">ANTONIO MONTERO Y DIEGO DE FRIAS.</head>
                <head rend="cursiva" type="subtitulo">ROMANCE EN QUE SE REFIERE UN RARO SUCESO, Y NO-
-                  <lb/>table tragedia, quejen la Ciudad de Antequera les sucedió á dos Man-
-                  <lb/>cebos muy amigos, el uno llamado Diego de Frias, y el otro Antonio
+                  <lb/>table tragedia, que en la Ciudad de <name>Antequera</name> les sucedió á dos
+                  Man- <lb/>cebos muy amigos, el uno llamado Diego de Frias, y el otro Antonio
                   <lb/>Montero, el cual era casado con una muy hermosa Dama; y como Diego <lb/>de
                   Frias, habiéndose enamorado de ella, la sacó de su casa, y la llevo á <lb/>la
-                  Ciudad de Sevilla; y como despues Antonio Montero <lb/>los mató á
+                  Ciudad de <name>Sevilla</name>; y como despues Antonio Montero <lb/>los mató á
                   entrambos.</head>
 
                <l rend="indent">A la Vírgen del Rosario</l>
@@ -202,7 +205,7 @@
                <l>el mas notable suceso,</l>
                <l>que en la Ciudad de <name>Antequera</name></l>
                <l>les sucedió á dos mancebos,</l>
-               <l>el uno es Diego de <name>Frias</name>,</l>
+               <l>el uno es Diego de Frias,</l>
                <l>y el otro Antonio Montero.</l>
                <l>Eran ambos muy amigos,</l>
                <l>y de muy cercanos deudos:</l>
@@ -215,7 +218,7 @@
                <l>siempre tiró á derribarla,</l>
                <l>armando trazas y enredos.</l>
                <l>Hizo que se enamorase</l>
-               <l>Diego de <name>Frias</name>, teniendo</l>
+               <l>Diego de Frias, teniendo</l>
                <l>tanta cabida en su casa:</l>
                <l>de amores andaba muerto,</l>
                <l>hasta que la dijo un dia:</l>
@@ -254,7 +257,7 @@
                <l>A aquella Ciudad llegaron,</l>
                <l>allí pusieron su asiento,</l>
                <l>y en una casa vivian</l>
-               <l>con muchisimo secreto.</l>
+               <l>con muchísimo secreto.</l>
                <l>Volvamos ahora á <name>Antequera</name></l>
                <l>á declarar el suceso,</l>
                <l>pues cuando Montero vino,</l>
@@ -290,7 +293,7 @@
                <l>una monterilla vieja,</l>
                <l>en medio un casco de acero,</l>
                <l>una capa mal formada,</l>
-               <l>un bordoncillo; y pidiendo</l>
+               <l>un bordoncillo; y pidíendo</l>
                <l>limosna se fué á <name>Sevilla</name>,</l>
                <l>y á ella llegó bien presto,</l>
                <l>donde estando con cuidado</l>
@@ -305,7 +308,7 @@
                <l>y retirándose luego,</l>
                <l>le escribió una carta falsa</l>
                <l>con mas de dos mil enredos</l>
-               <l>de Don Francisco de <name>Frias</name>,</l>
+               <l>de Don Francisco de Frias,</l>
                <l>tio de aqueste mancebo.</l>
                <l>En punto de la Oracion</l>
                <l>llegó á la casa Montero,</l>
@@ -340,7 +343,7 @@
                <l>te envio á decir aquesto,</l>
                <l>que en <name>Antequera</name> se sabe</l>
                <l>que en <name>Sevilla</name> estás de cierto,</l>
-               <l>per lo que á buscarte ván</l>
+               <l>por lo que á buscarte ván</l>
                <l>Montero, y algunos deudos:</l>
                <l>Quiero traerte á <name>Carmona</name>,</l>
                <l>pues yo allí mismo te espero,</l>
@@ -363,7 +366,7 @@
                <l>El Cielo os guarde, sobrino,</l>
                <l>los años de mi deseo.</l>
                <l>Se quedó el mozo elevado,</l>
-               <l>muygpensativo y suspenso:</l>
+               <l>muy pensativo y suspenso:</l>
                <l>la mujer sale, y le dice:</l>
                <l>Mira no sea algun enredo.</l>
                <l>No es enredo, le replica,</l>
@@ -373,7 +376,7 @@
                <l>Aprestaron el caballo,</l>
                <l>y aquella noche salieron</l>
                <l>por la puerta de la Carne</l>
-               <l>dama, galan yjescudero.</l>
+               <l>dama, galan y escudero.</l>
                <l>O desgraciada señora! </l>
                <l>ó malogrado mancebo!</l>
                <l>que no sabes la desgracia,</l>
@@ -410,7 +413,7 @@
                <l>Yo soy Antonio Montero.</l>
                <l>La mujer que aquesto oyó,</l>
                <l>cayó redonda en el suelo.</l>
-               <l>Diego de <name>Frias</name> turbóse,</l>
+               <l>Diego de Frias turbóse,</l>
                <l>quiso hablar, mas el aliento</l>
                <l>le faltó, pues le dispara</l>
                <l>una pistola á este tiempo;</l>

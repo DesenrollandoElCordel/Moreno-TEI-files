@@ -4,18 +4,33 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Romance en que se da cuenta y declara la trágica y verdadera historia de la
-               Hermosa Rosimunda</title>
+            <title>Romance en que se da cuenta y declara la trágica y verdadera historia de la Hermosa Rosimunda</title>
             <respStmt>
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +45,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1858-01-01">1858</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +53,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6483432</idno>
@@ -73,9 +85,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_306_1.xml"
-                              facs="fedora_ug8108997/302,292,1114,945/100,/0/default.jpg"
-                              >grabado_m_306_1</item>
+                            <item corresp="grabado_m_306_1.xml" facs="fedora_ug8108997/302,292,1114,945/100,/0/default.jpg">grabado_m_306_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -94,7 +104,7 @@
                      <geo>45.185280555556 9.155</geo>
                   </location>
                </place>
-               <place n="1" corresp="Q38">
+               <place n="2" corresp="Q38">
                   <placeName key="Italia">Italia</placeName>
                   <location>
                      <geo>42.5 12.5</geo>
@@ -177,7 +187,7 @@
                <l><hi rend="negrita">A</hi>unque la pluma en desmayos</l>
                <l>manifiesta sentimientos,</l>
                <l>y el corazon con deliquios,</l>
-               <l>quebrantoyy dolor intenso;</l>
+               <l>quebranto y dolor intenso;</l>
                <l>no por eso la memoria,</l>
                <l>voluntad y entendimiento</l>
                <l>dejan de darle á los hombres</l>
@@ -191,7 +201,7 @@
                <l>oirán la mas rara historia </l>
                <l>que han dado al Orbé los tiempos,</l>
                <l>y á un incauto proceder.</l>
-               <l>las penas que se sigüieron,</l>
+               <l>las penas que se siguieron,</l>
                <l>que el mundo, como imprudente,</l>
                <l>fiero enemigo encubierto</l>
                <l>estimula á vil hazaña</l>
@@ -206,8 +216,14 @@
                <pb n="2" source="Moreno_306_2.jpeg" facs="fedora_ug8109186/full/full/0/default.jpg"/>
 
                <l>en su capital, que es <name>Pavia</name>,</l>
-               <l>uhbo un noble caballero,</l>
-               <l>allmado Angelio, que era</l>
+               <l><choice>
+                     <sic>uhbo</sic>
+                     <corr>hubo</corr>
+                  </choice> un noble caballero,</l>
+               <l><choice>
+                     <sic>allmado</sic>
+                     <corr>llamado</corr>
+                  </choice> Angelio, que era</l>
                <l>del Rey muy cercano deudo:</l>
                <l>la reflexon aquí puede</l>
                <l>medir quién era el sugeto.</l>
@@ -217,7 +233,7 @@
                <l>y con su real juramento,</l>
                <l>por general de su campo</l>
                <l>lo votó, y en marcha puesto,</l>
-               <l>llegó á la vista de Ialia,</l>
+               <l>llegó á la vista de <name>Italia</name>,</l>
                <l>haciendo al primer encuentro</l>
                <l>que á su poder se rindiese</l>
                <l>desde el grande hasta el pequeño.</l>
@@ -233,7 +249,7 @@
                <l>quedó el general Angelio,</l>
                <l>y la hermosa Rosimunda</l>
                <l>gustosa en el casamiento</l>
-               <l>entró, quedando de esclav.</l>
+               <l>entró, quedando de esclav</l>
                <l>señora y dueña del dueño. </l>
                <l>Retiróse á su Palacio,</l>
                <l>y en honra, gloria y obsequio</l>
@@ -296,7 +312,7 @@
                <l>un desdoro vérdadero.</l>
                <l>Y temiéndose que el Rey</l>
                <l>o sepa, y haga un exceso</l>
-               <l>cosrespondiente al delito.</l>
+               <l>correspondiente al delito.</l>
                <l>pues está clamando al Cielo, </l>
                <l>recogieron el tesoro</l>
                <l>y alhajas de mucho precio, </l>
@@ -311,14 +327,14 @@
                <l>que en breve trajo la pompa</l>
                <l>los grandes conocimientos.</l>
                <l>En fin, á la novedad,</l>
-               <l>yarias gentes concurrieron</l>
+               <l>varias gentes concurrieron</l>
                <l>á visitarlos, y todos</l>
                <l>suyos se constituyeron;</l>
                <l>pero cuando el corazon</l>
                <l>se pervierte en un sugeto</l>
                <l>ensayado en las maldades, </l>
                <l>vá á mas y olvida lo menos; </l>
-               <l>nsí pues en Rosimunda</l>
+               <l>así pues en Rosimunda</l>
                <l>sucedió que el que hace un cesto,</l>
                <l>(dice un antiguo refran</l>
                <l>hará sin dudar un ciento.</l>
@@ -352,7 +368,7 @@
                <l>y con ímpetu soberbio</l>
                <l>la espada desenvainó,</l>
                <l>y poniéndosela al pecho,</l>
-               <l>á Rosimundalle hizo</l>
+               <l>á Rosimunda le hizo</l>
                <l>se bebiera el demás resto;</l>
                <l>y de esta suerte los dos</l>
                <l>de allí á muy poco murieron,</l>
@@ -374,7 +390,7 @@
                <l>y que á pregon fuera puesto</l>
                <l>su delito , para que</l>
                <l>sirva en el Orbe de espejo, </l>
-               <l>Esto es lo que el mundo ofraso</l>
+               <l>Esto es lo que el mundo ofrece</l>
                <l>á cuantos le siguen ciegos,</l>
 
                <pb n="4" source="Moreno_306_4.jpeg" facs="fedora_ug8107507/full/full/0/default.jpg"/>
@@ -386,7 +402,7 @@
                <l>en el jardin de las letras</l>
                <l>de estas flores un sin cuento,</l>
                <l>sin tomar en sus olores</l>
-               <l>un pequeño fundamento)</l>
+               <l>un pequeño fundamento</l>
                <l>no, no has de tener disculpa</l>
                <l>en el juicio venidero,</l>
                <l>pues desprecias los auxilios</l>

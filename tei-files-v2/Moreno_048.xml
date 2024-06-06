@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +46,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno (hijo)</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +54,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6448107</idno>
@@ -83,9 +96,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_048_1.xml"
-                              facs="fedora_ug8109026/660,260,425,790/100,/0/default.jpg"
-                              >grabado_m_048_1</item>
+                            <item corresp="grabado_m_048_1.xml" facs="fedora_ug8109026/660,260,425,790/100,/0/default.jpg">grabado_m_048_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -134,7 +145,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -247,7 +258,7 @@
                <l>y era un vagamundo,</l>
                <l>que cansado de ir por el mundo</l>
                <l>corriendo la tuna</l>
-               <l>y diciendo la buena- ventura,</l>
+               <l>y diciendo la buena-ventura,</l>
                <l>tuvo la fortuna</l>
                <l>de casarse con la tia Girula;</l>
                <l>la cual, ya cansada</l>
@@ -286,7 +297,7 @@
                <l>por ir variando,</l>
                <l>y á mas tambien fumaba de contra-<add place="debajo">(bando.</add></l>
                <l rend="indent">Puso la tierna viuda</l>
-               <l>la red en pianta</l>
+               <l>la red en planta</l>
                <l>y por fin un gitano</l>
                <l>cayó en la trampa,</l>
                <l>el cual sin disputa</l>
@@ -351,7 +362,7 @@
                <l>por do estaban jugando la pelota,</l>
                <l>entre los silvidos</l>
                <l>la pusieron de mata-maridos,</l>
-               <l>que era una hermosura</l>
+               <l>que era una hermosura,</l>
                <l>y el soldado ó la mala ventura</l>
                <l>se fué con la dama</l>
                <l>á su casa y la novia</l>
@@ -392,8 +403,7 @@
                <l>como era ordinario</l>
                <l>á presidio envio al boticario</l>
                <l>que vendió el veneno,</l>
-               <l>y al sereno:</l>
-               <l>pues con él mató á tres</l>
+               <l>pues con él mató á tres y al sereno:</l>
                <l>la que mató á cuatro</l>
                <l>justo es que pagára el pato:</l>
                <l>al quinto no pudo</l>
@@ -409,15 +419,16 @@
                <l>tomad escarmiento</l>
                <l>de este chiste ocurrido ó cuento.</l>
                <l>Pues ya he concluido,</l>
-               <l>y perdonen las taltas</l>
+               <l>y perdonen las <choice>
+                     <sic>taltas</sic>  <corr>faltas</corr>  </choice>.</l>
                <l>si las ha habido.</l>
             </div>
 
             <div>
-               <head rend="negrita" type="primer_titulo">CARTA.</head>
+               <head rend="negrita" type="primer_titulo">CARTA,</head>
                <head rend="cursiva" type="subtitulo">
                   <lb/>que envió desde Oran á la corte Perico Pata Gorda á un amigo suyo,
-                  <lb/>aconsejándole que no se case con la tia Girala. </head>
+                  <lb/>aconsejándole que no se case con la tia Girula. </head>
 
                <l rend="indent">Generoso Periquillo,</l>
                <l>el de la hebilla dorada,</l>
@@ -481,7 +492,7 @@
                <l rend="indent">Buen dinero es dos pesetas!</l>
                <l>miren qué cuarto de plata!</l>
                <l>para vizcochos no tengo</l>
-               <l>si me levanto congana.</l>
+               <l>si me levanto con gana.</l>
                <l rend="indent">Muger, vamos poco à poco,</l>
                <l>ó andará la zurribunda:</l>
                <l>¿qué zurribunda, borraho?</l>
@@ -491,7 +502,7 @@
                <l>que eras un pícaro chulo,</l>
                <l>sin vergüenza y sin alma.</l>
                <l rend="indent">A bien que no soy tan fea</l>
-               <l>que en saliendo yo o la plaza</l>
+               <l>que en saliendo yo ó la plaza</l>
                <l>no me faltará quien me diga</l>
                <l>por hai te se pudra, muchacha.</l>
                <l rend="indent">Ha pícara, vil nacida,</l>

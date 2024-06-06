@@ -13,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -32,8 +48,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1859-01-01">1859</date>
                </publicationStmt>
             </biblFull>
@@ -41,9 +56,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6477625</idno>
@@ -79,12 +92,8 @@
                      <summary n="2">Dos grabados (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_293_1.xml"
-                              facs="fedora_ug8109108/483,331,430,808/100,/0/default.jpg"
-                              >grabado_m_293_1</item>
-                           <item corresp="grabado_m_293_2.xml"
-                              facs="fedora_ug8109108/963,329,418,809/100,/0/default.jpg"
-                              >grabado_m_293_2</item>
+                            <item corresp="grabado_m_293_1.xml" facs="fedora_ug8109108/483,331,430,808/100,/0/default.jpg">grabado_m_293_1</item>
+                            <item corresp="grabado_m_293_2.xml" facs="fedora_ug8109108/963,329,418,809/100,/0/default.jpg">grabado_m_293_2</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -171,7 +180,10 @@
 
                <fw type="paginaNum">2</fw>
 
-               <l>Tmabien crió á la muger</l>
+               <l><choice>
+                     <sic>Tmabien</sic>
+                     <corr>Tambien</corr>
+                  </choice> crió á la muger</l>
                <l>la cual para urdir cautelas,</l>
                <l>finge á las veces un llanto,</l>
                <l>vertiendo unas falsas perlas,</l>
@@ -192,7 +204,7 @@
                <l>la llamaban el milagro,</l>
                <l>para mas bien conocerla.</l>
                <l>Llegó á ver su edad florida</l>
-               <l>diez y sicte primaveras,</l>
+               <l>diez y siete primaveras,</l>
                <l>cuando ya los pretendientes</l>
                <l>copia sin número eran,</l>
                <l>qne siempre las hermosuras</l>
@@ -268,9 +280,15 @@
                <l>no habia mas que úna vieja le habra con todo secreto</l>
                <l>y un esclavo que servia</l>
                <l>para traer la despensa,</l>
-               <l>qne cuando el Sol se ponia</l>
+               <l><choice>
+                     <sic>qne</sic>
+                     <corr>que</corr>
+                  </choice> cuando el Sol se ponia</l>
                <l>los dos el Sol puesto eran.</l>
-               <l>Mas por algnnos indicios,</l>
+               <l>Mas por <choice>
+                     <sic>algnnos</sic>
+                     <corr>algunos</corr>
+                  </choice> indicios,</l>
                <l>tomó el marido sospecha,</l>
                <l>mas no averiguaba nada,</l>
                <l>aunque hacia diligencia;</l>
@@ -295,7 +313,7 @@
                <l>de lo que ella pesarosar</l>
                <l>fingia sentir su ausencia.</l>
                <l>Se llegó el dia y la hora</l>
-               <l>en que á su viage füera</l>
+               <l>en que á su viage fuera</l>
                <l>y muy bien apercibido.</l>
                <l>de armas para su defensa</l>
                <l>dejando á su esclavo dicho,</l>
@@ -332,7 +350,7 @@
                <l>pudo averiguar su afrenta;</l>
                <l>y aunque lo cegó el enojo,</l>
                <l>se valió de la prudencia,</l>
-               <l>no qüeriendo que estas almas</l>
+               <l>no queriendo que estas almas</l>
                <l>perdiesen la vida eterna.</l>
                <l>Se fué al cuarto del esclavo,</l>
                <l>y lo halló que estaba en vela,</l>
@@ -349,14 +367,14 @@
                <l>Salió con este pretesto,</l>
                <l>y él se guedó en centinela</l>
                <l>á a puerta de la sala</l>
-               <l>á fin que no se le fueran,:</l>
+               <l>á fin que no se le fueran,</l>
                <l>que las manchas del honor</l>
-               <l>se curan, limpián y asean.</l>
+               <l>se curan, limpián y asean</l>
                <l>con sangre, que es el remedio</l>
                <l>de mas importancia y fuerza.</l>
-               <l>Aguí es bien que los dejemos</l>
+               <l>Aquí es bien que los dejemos</l>
                <l>cada cual en su tarea,</l>
-               <l>á los dos en sus delicias,.</l>
+               <l>á los dos en sus delicias,</l>
                <l>al Mercader puesto en vela,</l>
                <l>y al esclavo en su mandado</l>
                <l>hecho en la calle estafeta;</l>
@@ -414,7 +432,7 @@
                <l>ni el Satánico Holofernes:</l>
                <l>diciéndole pues ahora</l>
                <l>es urgencia aqui de suerte</l>
-               <l>que yo me yalga de tí</l>
+               <l>que yo me valga de tí</l>
                <l>y yo pretendo valerte,</l>
                <l>que te tendrá grande cuenta</l>
                <l>en los dias que vivieres.</l>
@@ -436,13 +454,13 @@
                <l>que un Abito que en su celda</l>
                <l>sé que tiene ciertamente,</l>
                <l>que te lo dé, porque importa</l>
-               <l>para cieito encargo urgente.</l>
+               <l>para cierto encargo urgente.</l>
                <l>Fué dicho y hecho el mandato</l>
                <l>conforme se lo encarece;</l>
                <l>fué y llamó á la portería</l>
                <l>salió el Portero, y al verle</l>
                <l>le propuso lo mandado,</l>
-               <l>y en menos de un credo vuelze</l>
+               <l>y en menos de un credo vuelve</l>
                <l>con el Abio, y lo dió</l>
                <l>al Criado sin que hubiese</l>
                <l>ni aun la menor repugnancia,</l>
@@ -452,7 +470,7 @@
                <l>quedándose ingerta en Fraile,</l>
                <l>como contemplarse puede.</l>
                <l>Llegan á la dicha casa,</l>
-               <l>y con modales! cortéses</l>
+               <l>y con modales cortéses</l>
                <l>lo recibió el Mercader;</l>
                <l>y al Padre le dice: entre,</l>
                <l>Usencia en aquesta sala,</l>
@@ -582,8 +600,11 @@
                <fw type="paginaNum">8</fw>
 
                <l>Le dió allí firme palabra,</l>
-               <l>qne en los dias que viviere</l>
-               <l>no volverá á remoyer</l>
+               <l><choice>
+                     <sic>qne</sic>
+                     <corr>que</corr>
+                  </choice> en los dias que viviere</l>
+               <l>no volverá á remover</l>
                <l>mas puntos de aquesta especie.</l>
                <l>Y al esclavo le cumplieron,</l>
                <l>por haber muchos haberes</l>

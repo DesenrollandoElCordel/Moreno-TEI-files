@@ -9,12 +9,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="LF">Lorysmar Franco</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -30,8 +46,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="low" when="1800-01-01">[s.a.]</date>
                </publicationStmt>
             </biblFull>
@@ -39,9 +54,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6483516</idno>
@@ -73,9 +86,7 @@
                      <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_317_1.xml"
-                              facs="fedora_ug8106493/523,370,499,733/100,/0/default.jpg"
-                              >grabado_m_317_1</item>
+                            <item corresp="grabado_m_317_1.xml" facs="fedora_ug8106493/523,370,499,733/100,/0/default.jpg">grabado_m_317_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -173,14 +184,17 @@
                <l>porque enfadado ¡ay de mi!</l>
                <l>aunque yo herída no esté</l>
                <l>aplicarme el bisturí.</l>
-               <l rend="indent">El botic ario no me entra,</l>
-               <l>porque enfadado lqniéu sabe,</l>
+               <l rend="indent">El boticario no me entra,</l>
+               <l>porque enfadado !<choice>
+                     <sic>qniéu</sic>
+                     <corr>quién</corr>
+                  </choice> sabe,</l>
                <l>si me daria veneno,</l>
                <l>en vez de darme jarabe! </l>
                <l rend="indent">Arquitecto le abomino,</l>
                <l>porque me puede trazar</l>
                <l>una descarga de palos</l>
-               <l>que me eche á la eternidads</l>
+               <l>que me eche á la eternidad.</l>
 
                <pb n="2" source="Moreno_317_2.jpg" facs="fedora_ug8106065/full/full/0/default.jpg"/>
 
@@ -239,7 +253,7 @@
                <l>pero no se calzará</l>
                <l>con horma de mi zapato.</l>
                <l rend="indent">Del molinero me fugo, </l>
-               <l>porque sise atremolina,</l>
+               <l>porque si se atremolina,</l>
                <l>puede encajarme en la piedra</l>
                <l>y convertirme en harina.</l>
                <l rend="indent">Al calderero le tiemblo</l>
@@ -271,7 +285,7 @@
                <l>porque se puede caer</l>
                <l>y cojerme á mi debajo.</l>
                <l rend="indent">Al arrasca-chimeneas</l>
-               <l>abomino por fráncés,</l>
+               <l>abomino por francés,</l>
                <l>y porque puede arrascarme</l>
                <l>sin que esté puerca en el ves.</l>
 
@@ -285,7 +299,7 @@
                <l>las espaldas con correa.</l>
                <l rend="indent">Un basterillo me pide,</l>
                <l>cuando fabrica las basta</l>
-               <l>yo le digo: no té quiero,</l>
+               <l>yo le digo: no te quiero,</l>
                <l>porque eres bastero y basta.</l>
                <l rend="indent">¿Casarme con albardero?</l>
                <l>no lo tienen que pensar,</l>
@@ -297,14 +311,14 @@
                <l>cincha, atarre y cabezada.</l>
                <l rend="indent">Me regala un peluquero</l>
                <l>mas no me engaña con cucas,</l>
-               <l>porque despúes, sin ser calva,</l>
+               <l>porque despues, sin ser calva,</l>
                <l>me pondrá algunas pelucas.</l>
                <l rend="indent">Un platero bien vestido</l>
                <l>viene por casa y lo luce,</l>
                <l>pero veo que no es oro</l>
                <l>todo lo que en él reluce.</l>
                <l rend="indent">Un vidriero solicita</l>
-               <l>con empeño ser mi aante,</l>
+               <l>con empeño ser mi amante,</l>
                <l>vidrio soy, pero no piense</l>
                <l>emplear en mi su diamante,</l>
                <l rend="indent">Un pastelero pretende</l>
@@ -347,7 +361,7 @@
                <l>y yo le respondo cuerda:</l>
                <l>mas quiero estarme parada</l>
                <l>que no ambular por su cuerda,</l>
-               <l rend="indent">Un taberneró vinoso,</l>
+               <l rend="indent">Un tabernero vinoso,</l>
                <l>á pedirme un dia vino;</l>
                <l>dije que mas no viniera</l>
                <l>aunque envinado con vino,</l>
@@ -357,7 +371,7 @@
                <l>no apetezco los sobrantes.</l>
                <l rend="indent">Un sombrerero se arde</l>
                <l>por mi, que soy como enero;</l>
-               <l>por lo que no me háce falta</l>
+               <l>por lo que no me hace falta</l>
                <l>la sombra de su sombrero.</l>
                <l rend="indent">Un lavandero me lava</l>
                <l>y me alaba, pero al cabo</l>
@@ -412,7 +426,7 @@
                <l>letras en mi corazon.</l>
                <l>qué importa que las imprima</l>
                <l>si no me hacen impresion?</l>
-               <l rend="indent">A mi easa un cardador</l>
+               <l rend="indent">A mi casa un cardador</l>
                <l>se llegó cierta mañana,</l>
                <l>le dige: por bien que cardes</l>
                <l>no me cardará la lana.</l>

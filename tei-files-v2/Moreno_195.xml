@@ -13,12 +13,28 @@
                <name xml:id="EL">Elina Leblanc</name>
                <resp>Codificación TEI</resp>
             </respStmt>
+            <respStmt>
+               <name xml:id="BP">Belinda Palacios</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="2.0"><title>Segunda versión de la edición, enriquecida con
+                  topónimos</title><date>2024</date></edition>
+            <respStmt>
+               <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+               <resp>Creación del modelo de reconocimiento automático de topónimos y codificación
+                  TEI</resp>
+            </respStmt>
+            <respStmt>
+               <name>Belinda Palacios y Lorysmar Franco</name>
+               <resp>Corrección de los resultados</resp>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+            <authority role="rightsHolder">Bibliothèque de l'Université de Genève</authority>
             <availability status="restricted">
-               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-               />
+               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -36,8 +52,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher>José María Moreno</publisher>
-                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-                     (Sevilla)</pubPlace>
+                  <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
                   <date cert="high" when="1855-01-01">1855</date>
                </publicationStmt>
             </biblFull>
@@ -45,9 +60,7 @@
                <msIdentifier>
                   <country>Suisse</country>
                   <settlement>Genève</settlement>
-                  <repository
-                     ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502"
-                     >Bibliothèque Universitaire de Genève </repository>
+                  <repository ref="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/kjkm12/alma991002834309705502">Bibliothèque de l'Université de Genève </repository>
                   <collection>Colleción Moreno</collection>
                   <idno type="cote">Ant*Pli Car BFLA 257813</idno>
                   <idno type="DOI">10.5281/zenodo.6473293</idno>
@@ -79,9 +92,7 @@
                      <summary n="1">Un grabado (p. 1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_m_195_1.xml"
-                              facs="fedora_ug8105902/694,209,489,841/100,/0/default.jpg"
-                              >grabado_m_195_1</item>
+                            <item corresp="grabado_m_195_1.xml" facs="fedora_ug8105902/694,209,489,841/100,/0/default.jpg">grabado_m_195_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -106,7 +117,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR no corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -179,7 +190,10 @@
                <l>desmayados los acentos,</l>
                <l>señal es que ya la muerte,</l>
                <l>que yo imaginé tan lejos,</l>
-               <l>batallando eon la vida,</l>
+               <l>batallando <choice>
+                     <sic>eon</sic>
+                     <corr>con</corr>
+                  </choice> la vida,</l>
                <l>triunfará de ella muy presto.</l>
                <l>Ahora dulce JESUS,</l>
                <l>á tus pies humilde puesto,</l>
@@ -201,7 +215,7 @@
                <l>como si en aqueste mundo</l>
                <l>hubiera de ser eterno.</l>
                <l>Bien conozco, Dueño mio,</l>
-               <l>que soy aquel jornafero,</l>
+               <l>que soy aquel jornalero,</l>
                <l>que se aplicó á trabajar</l>
                <l>estando el Sol casi puesto;</l>
                <l>pero, pues que generoso</l>
@@ -211,11 +225,11 @@
                <l>No síento el morir, Señor,</l>
                <l>que pues es decreto vuestro,</l>
                <l>solo porque en mi se cumpla,</l>
-               <l>voluntariamente muero</l>
+               <l>voluntariamente muero.</l>
                <l>Solo siento que pequé</l>
                <l>contra Vos, y que no he hecho</l>
                <l>con verdadero dolor</l>
-               <l>lá penitencia, que debo.</l>
+               <l>la penitencia, que debo.</l>
                <l>Y aunque son tantas mis culpas, </l>
                <l>no, Dios mio, no por eso</l>
                <l>de tu piedad desconfio,</l>
@@ -229,7 +243,10 @@
                <l>y el valor de vuestra Sangre,</l>
                <l>que fue de mi alma el precio,</l>
                <l>y que he de lograr el fruto</l>
-               <l>de los trabajoe inmensos,</l>
+               <l>de los <choice>
+                     <sic>trabajoe</sic>
+                     <corr>trabajos</corr>
+                  </choice> inmensos,</l>
                <l>que padeció vuestro amor,</l>
                <l>desde vuestro nacimiento.</l>
                <l>Siendo yo la misma nada,</l>
@@ -251,8 +268,8 @@
                <l>por mi los fieros verdugos,</l>
                <l>que como lobos sangrientos</l>
                <l>se cebaron rigorosos</l>
-               <l>en da Sangre del. Cordero,</l>
-               <l>llevaron vuestra Bersona</l>
+               <l>en la Sangre del Cordero,</l>
+               <l>llevaron vuestra Persona</l>
                <l>con ignominioso estruendo,</l>
                <l>ejecutando crueles</l>
                <l>diversos atrevimientos,</l>
@@ -266,8 +283,8 @@
                <l>en vuestro Rostro sereno;</l>
                <l>por mi os trataron de loco,</l>
                <l>y como á loco os vistieron :</l>
-               <l>siendo Vos Médico Sábio</l>
-               <l>y yo el frenetico enfermo;</l>
+               <l>siendo Vos Médico Sábio,</l>
+               <l>y yo el frenético enfermo;</l>
                <l>pues curasteis mis dolencias</l>
                <l>con tan costoso remedío:</l>
                <l>por mi atado á una Columna,</l>
@@ -306,12 +323,15 @@
                <l>blasfemado y escupido</l>
                <l>pedisteis al Padre Eterno</l>
                <l>piadoso que perdonara</l>
-               <l>á aquellos que os ofendieron;,</l>
+               <l>á aquellos que os ofendieron,</l>
                <l>bien podré atreverme yo</l>
                <l>á pediros de mis yerros</l>
                <l>el perdon, cuando Vos mismo</l>
                <l>solicitais mi remedio.</l>
-               <l>Quisiera hacer de mis cnlpas</l>
+               <l>Quisiera hacer de mis <choice>
+                     <sic>cnlpas</sic>
+                     <corr>culpas</corr>
+                  </choice></l>
                <l>penitencia; mas yo veo,</l>
                <l>que ya no es tiempo, Señor,</l>
                <l>porque ya me falta el tiempo,</l>
@@ -348,7 +368,7 @@
                <l>mas que á todo lo criado,</l>
                <l>mas que á la gloria, que espero,</l>
                <l>y por lo mucho que os amo,</l>
-               <l>con vuestra grácia os prometo!</l>
+               <l>con vuestra grácia os prometo</l>
                <l>serviros siempre, y amaros,</l>
                <l>y nunca mas ofenderos;</l>
                <l>y por vuestro amor quisiera</l>
@@ -399,8 +419,11 @@
                <l>teneis los brazos abiertos,</l>
                <l>y yo postrado, y humilde,</l>
                <l>anegado en llanto tierno</l>
-               <l>de tus pies no he de apartarne</l>
-               <l>hasta mi ultimo alieuto,</l>
+               <l>de tus pies no he de apartarme</l>
+               <l>hasta mi ultimo <choice>
+                     <sic>alieuto</sic>
+                     <corr>aliento</corr>
+                  </choice>,</l>
                <l>y hasta que de tus piedades</l>
                <l>alcance el perdon que espero.</l>
                <l>Y Vos, Aurora Divina,</l>
